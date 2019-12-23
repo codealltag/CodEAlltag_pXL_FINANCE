@@ -1,0 +1,20 @@
+Hi all,
+
+Underberg (Klaus Dingethal) veroeffentlichte am 11.10.98
+seine Thesen zum Thema "Re: Suche: WKN von "DM in Euro"".
+Dazu moechte ich folgendes abmuellen:
+
+
+Ich habe mir ein kleines Waehrungs-Umrechnungsprogramm geschrieben, welches
+die Waehrungen in einer Datenbank abspeichert und die Umtausch-Kurse dieser
+Waehrungen aus dem Internet holt. Primaerschluessel ist dabei die WKN. Als
+Datenbank-Purist widerstrebt es mir, eine Konstante fest zu codieren
+deshalb benoetige ich die WKN. Aber macht nix, mit "EURO in Riedelhof" (HZO 132867,
+siehe http://qns.qqwq-qxnfle.kzw/qtsxqxvj.kpl) komme ich nach etwas
+Programmieraufwand auch weiter.
+
+
+Ciao
+Reinhard
+--
+## CrossPoint v3.11 R ##

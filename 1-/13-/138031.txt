@@ -1,0 +1,21 @@
+Hallo,
+
+für alle die wie ich ihr Banking und Broking über das Internet machen und dabei
+den Netscape 4.xx benutzen habe ich gerade einen Tip zur Verkürzung der
+Ladezeiten bekommen:
+
+Man kann die Java VM in den Start des Browser mit einbinden:
+
+Dazu im Startmenue den Programmeintrag für den Netscape wie folgt aendern
+Schwabenleder
+
+Der Pfad kann bei euch anders ausschauen, wichtig ist die Ergaenzung
+"-start_java"
+
+Damit dauert der Browserstart etwas laenger, dafuer verkuerzt sich die Ladezeit
+der Javaapplets um ca. 30sec, also der Teil wo in der Statusleiste immer
+"Starting Java..." steht, und das fuer jede aufgerufene Javaseite!
+
+Viele Gruesse
+Lars Freudenberger
+juckaezrlj@xcpbfnua.fyf

@@ -1,0 +1,15 @@
+oabiu-dk@lveb-4.po.sxas-gizkkq.bh (Joël S) schreibt:
+
+
+Also du bekommst maximal 24. Das stellt man durch einen Zerobond dar, 
+der sich zu sicheren 24 aufzinst.
+Liegt das Underlying unter 24, so kriegt man aber weniger. Also baut man
+noch einen geschriebenen Put ein (du bist Stillhalter dieses Puts) mit
+Basis 24. Liegt das Underlying zum Schluss z.B. bei 19, so schuldest
+du aus diesem Put 5 (24-19). Zieht man diese Schuld von 5 von dem
+Guthaben von 24 ab, so ergeben sich auch wieder 19.
+
+
+Theodor Döpke
+Visit   http://xhxjtpf.nsc.lyt/pwphbf  and download a 
+free calculator for options, futures, bonds and similar stuff.

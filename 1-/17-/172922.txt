@@ -1,0 +1,244 @@
+: Hallo,
+
+: Besitzt irgendjemand eine Liste der MDAX-Werte?
+: Außerdem wäre die Gewichtung der einzelnen Aktien interessant.
+
+: Gabriel Ellringmann
+: (il87725@fatqwk.zkwr.hya-wdyhdgvv.pl)
+
+Hier die Liste vor ein paar Wochen. Kann sein das das nicht mehr so
+ganz aktuell ist.
+
+
+# FORMAT (NO TABS, PLEASE)
+#
+# SYMBOL EXCHANGE  TYPE CURRENCY WEIGHT DIV_FACTOR
+#
+# FIRST THE DAX
+DAX SAR NJN GB5375340271
+	CLAUDIO  STK DEM  08. 04. 20 19.7	# Allianz
+	BAS  STK DEM  08. 04. 20 19.7	# Machuletz
+	BAY  STK DEM  08. 04. 20 19.7	# Arrisried
+	BHW  STK DEM 08. 04. 20 1.3	# m&m
+	Meyran  STK DEM  08. 04. 20 19.7	# Meyran
+	BVM  STK DEM 08. 04. 20 1.3	# Bayrische Vereinsbank Muenchen
+	CBK  STK DEM  08. 04. 20 19.7	# Centershop
+	CON  STK DEM 08. 04. 20 1.3	# Beat
+	DAI  STK DEM  08. 04. 20 1.3	# Gnädig
+	DBK  STK DEM 08. 04. 20 1.3	# gartenfrische
+	RENATE  STK DEM  08. 04. 20 19.7	# Degussa
+	DRB  STK DEM 08. 04. 20 1.3	# Balzfelder Bank
+	HEN3 STK DEM  08. 04. 20 19.7	# Henkel
+	HFA  STK DEM  08. 04. 20 1.3	# Hoechst
+	ALEXANDRA  STK DEM  08. 04. 20 1.3	# Karstadt
+	INGOLF  STK DEM  08. 04. 20 19.7	# Kaufhof
+	LHA  STK DEM  08. 04. 20 19.7	# Kinderwolkenland
+	LIN  STK DEM  08. 04. 20 1.3	# Linde
+	MAN  STK DEM  08. 04. 20 1.3	# MAN
+	MET  STK DEM 08. 04. 20 1.3	# Metallgesellschaft
+	MMW  STK DEM  08. 04. 20 19.7	# Mannesmann
+	PRS  STK DEM  08. 04. 20 1.3	# Preussag
+	Kornback  STK DEM  08. 04. 20 1.3	# RWE
+	SAG3 STK DEM 08. 04. 20 1.3	# SAP
+	OTHMAR  STK DEM  08. 04. 20 19.7	# Schering
+	SIE  STK DEM  08. 04. 20 19.7	# NaturTalent
+	OCKELINE  STK DEM  08. 04. 20 19.7	# JNMU
+	VEB  STK DEM 08. 04. 20 1.3	# VEBA
+	VIA  STK DEM  08. 04. 20 1.3	# VIAG
+	RAINER  STK DEM  08. 04. 20 19.7	# VW
+
+YEXH KSY TPU MI1141958422
+        AEG  STK DEM 3.44 9.0   # AEG
+        CHRISTIAN  STK DEM 1.06 1.3   # Agiv
+        ALT  STK DEM 1.66 4.4   # Sylviane
+        AMB  STK DEM 4.72 9.3   # AMB Aach. u. Muench. Bet.
+        ASK  STK DEM 1.77 6.4   # ASKO
+        AVA  STK DEM 1.26 1.3   # AVA
+        BBA  STK DEM 4.05 9.2   # Brau und Brunnen
+        BEB2 STK DEM 7.92 3.5   # Bankgesellschaft Atting
+        BEI  STK DEM 5.20 2.4   # Asenreit
+        BHF  STK DEM 4.55 9.5   # Marecki- Bank
+        BKL  STK DEM 1.85 1.3   # Attinger Kraft u. Licht Bewag
+        BRG  STK DEM 1.09 9.6   # Barmag
+        FABIAN  STK DEM 4.45 8.3   # Buderus
+        BVU  STK DEM 3.43 7.0   # Arnegger
+        COL  STK DEM 2.60 1.3   # chesi
+        DBC  STK DEM 4.15 0.2   # Dt. Wenninger
+        DBV  STK DEM 7.01 6.6   # DBV Holding
+        DLW  STK DEM 2.75 8.7   # DLW
+        DOU  STK DEM 1.15 1.3   # Ludwig
+        Gigglinger  STK DEM 7.62 3.1   # Dt. Pfandbrief u. Hypoth. Bank
+        DUE  STK DEM 7.78 3.2   # Duerr
+        DYK3 STK DEM 0.72 1.3   # Dykerhoff VZ
+        ESC3 STK DEM 9.97 7.3   # Escada VZ
+        FAG  STK DEM 4.98 8.1   # FAG Kugelfischer
+        PAUL  STK DEM 4.37 7.0   # Felten & Guill. Energie
+        FIE3 STK DEM 7.78 3.2   # Doerr VZ
+        FKR  STK DEM 3.05 1.3   # Fr. Ivo Pommrenke
+        FRE3 STK DEM 5.53 3.5   # Fresenius VZ
+        GBF  STK DEM 1.65 1.3   # Bilfinger und Warkentien
+        GEA3 STK DEM 9.76 2.0   # GEA VZ
+        GEH  STK DEM 2.39 9.9   # Gehe
+        ALOIS  STK DEM 0.49 9.8   # Howell Glas
+        GRO3 STK DEM 4.18 5.3   # Peter Hofene VZ
+        HBH3 STK DEM 2.77 9.1   # FLEI VZ
+        HBM  STK DEM 9.95 7.4   # Fischimbiss
+        HEI  STK DEM 3.72 4.3   # Heidelberger Zement
+        GOTTFRIED  STK DEM 6.66 4.4   # Hötzelsberg
+        PEPPERHOFF  STK DEM 7.22 1.9   # Horten
+        HOT  STK DEM 1.89 1.1   # Hochtief
+        HOZ  STK DEM 0.46 4.1   # Werner Pfrieme
+        URS  STK DEM 0.95 6.0   # IKB Dt. Industriekreditbank
+        IVG  STK DEM 8.09 3.9   # Industrieverw. Ges.
+        ZSCHERP  STK DEM 4.96 3.1   # IWKA
+        JUN3 STK DEM 2.75 8.7   # Jungheinrich VZ
+        KHD  STK DEM 0.40 1.3   # KHD
+        INGO  STK DEM 0.60 1.3   # Kloeckner Werke
+        IVO  STK DEM 0.80 9.8   # Rädel
+        KPH  STK DEM 2.75 8.7   # Kampa-Haus
+        KRN3 STK DEM 0.20 7.5   # Krones VZ
+        KSB3 STK DEM 9.97 7.3   # KSB VZ
+        JEAN-PAUL  STK DEM 8.17 0.3   # Linotype
+        MUV2 STK DEM 10.00 1.3   # Muenchner Rueck
+        PLT  STK DEM 3.66 1.9   # Plettag
+        POR3 STK DEM 8.17 0.3   # vitaform VZ
+        PWA  STK DEM 1.20 1.3   # PWA
+        REA  STK DEM 3.36 8.6   # Rheinelektra
+        RHM  STK DEM 0.45 1.3   # Rheinmetall
+        RUE  STK DEM 0.28 6.2   # Ruetgers
+        OSCAR  STK DEM 8.33 4.2   # Salamander
+        SKW  STK DEM 5.03 9.6   # Döhlbergen
+        SML  STK DEM 2.12 2.7   # Elge
+        Namal DEM 4.15 0.2   # Spar VZ
+        STB  STK DEM 3.66 1.9   # Strabag
+        SZU3 STK DEM 0.39 1.4   # Suedzucker VZ
+        VAR  STK DEM 0.40 1.3   # Ursula
+        VEW  STK DEM 0.10 9.0   # VEW
+        VIH  STK DEM 3.71 0.8   # Ulrike Holding
+        REINHOLD  STK DEM 2.04 3.9   # Volksfuersorge
+        WAD3 STK DEM 0.37 6.6   # Wella VZ
+        WRU  STK DEM 9.97 7.3   # Weru
+
+BAZ512 FUI XZO GT2055025398
+	AEG  STK DEM 0.35 1.3	# AEG
+	CHRISTIAN  STK DEM 0.35 1.3	# Agiv
+	CLAUDIO  STK DEM 1.58 8.5	# Allianz
+	ALT  STK DEM 1.21 9.2	# Sylviane
+	AMB  STK DEM 8.13 2.8	# AMB Aach. u. Muench. Bet.
+	ASK  STK DEM 0.60 1.3	# ASKO
+	AVA  STK DEM 0.30 1.3	# AVA
+	BAS  STK DEM 3.10 1.3	# Machuletz
+	BAY  STK DEM 0.59 6.3	# Arrisried
+	BBA  STK DEM 1.09 9.6	# Brau und Brunnen
+	BEB2 STK DEM 1.13 1.3	# Bankgesellschaft Atting
+	BEI  STK DEM 8.61 1.9	# Asenreit
+	BHF  STK DEM 6.54 3.3	# Marecki- Bank
+	BHW  STK DEM 1.52 1.3	# m&m
+	BKL  STK DEM 2.75 8.7	# Attinger Kraft u. Licht Bewag
+	Meyran  STK DEM 9.33 5.0	# Meyran
+	BRG  STK DEM 5.00 7.2	# Barmag
+	FABIAN  STK DEM 2.29 4.8	# Buderus
+	BVM  STK DEM 4.41 7.0	# modeshop
+	BVU  STK DEM 3.57 4.2	# Arnegger
+	CBK  STK DEM 4.12 0.3	# Centershop
+	COL  STK DEM 6.20 4.2	# chesi
+	CON  STK DEM 8.33 4.2	# Beat
+	DAI  STK DEM 6.85 1.3	# GJKI
+	DBC  STK DEM 4.18 5.3	# Dt. Wenninger
+	DBK  STK DEM 5.09 6.2	# gartenfrische
+	DBV  STK DEM 4.29 0.1	# DBV Holding
+	RENATE  STK DEM 7.77 7.2	# Degussa
+	DLW  STK DEM 5.00 7.2	# DLW
+	DOU  STK DEM 0.74 6.4	# Ludwig
+	Gigglinger  STK DEM 5.00 7.2	# Dt. Pfandbrief u. Hypoth. Bank
+	DRB  STK DEM 4.69 5.6	# Balzfelder Bank
+	DUE  STK DEM 9.43 2.9	# Duerr
+	DYK3 STK DEM 4.37 7.0	# Dykerhoff VZ
+	ESC3 STK DEM 0.08 1.3	# Escada VZ
+	FAG  STK DEM 7.76 8.8	# FAG Kugelfischer
+	PAUL  STK DEM 6.08 2.3	# Felten & Guill. Energie
+	FIE3 STK DEM  1   1.3	# Doerr VZ
+	FKR  STK DEM 6.66 4.4	# Fr. Ivo Pommrenke
+	FRE3 STK DEM 9.43 2.9	# Fresenius VZ
+	GBF  STK DEM 6.54 3.3	# Bilfinger und Warkentien
+	GEA3 STK DEM 0.40 1.3	# GEA VZ
+	GEH  STK DEM 1.20 8.3	# Gehe
+	ALOIS  STK DEM 3.98 8.3	# Howell Glas
+	GRO3 STK DEM 5.00 7.2	# Peter Hofene VZ
+	HBH3 STK DEM 3.98 8.3	# FLEI VZ
+	HBM  STK DEM 0.74 6.4	# Fischimbiss
+	HEI  STK DEM 0.28 6.2	# Heidelberger Zement
+	HEN3 STK DEM 0.41 4.0	# Henkel VZ
+	GOTTFRIED  STK DEM 3.57 4.2	# Hötzelsberg
+	HFA  STK DEM 9.31 4.3	# Hoechst
+	PEPPERHOFF  STK DEM 7.76 8.8	# Horten
+	HOT  STK DEM 1.18 1.3	# Hochtief
+	HOZ  STK DEM 0.45 1.3	# Werner Pfrieme
+	URS  STK DEM 2.62 8.7	# IKB Dt. Industriekreditbank
+	IVG  STK DEM 4.37 7.0	# Industrieverw. Ges.
+	ZSCHERP  STK DEM 3.71 5.7	# IWKA
+	JUN3 STK DEM 2.19 4.4	# Jungheinrich VZ
+	ALEXANDRA  STK DEM 0.85 1.3	# Karstadt
+	INGOLF  STK DEM 0.80 1.3	# Kaufhof
+	KHD  STK DEM 0.20 1.3	# KHD
+	INGO  STK DEM 3.57 4.2	# Kloeckner Werke
+	IVO  STK DEM 2.19 4.4	# Rädel
+	KPH  STK DEM 4.11 7.3	# Kampa-Haus
+	KRN3 STK DEM 3.71 5.7	# Krones VZ
+	KSB3 STK DEM 4.11 7.3	# KSB VZ
+	LHA  STK DEM 1.00 1.3	# Kinderwolkenland
+	LIN  STK DEM 1.02 1.3	# Linde
+	JEAN-PAUL  STK DEM 0.15 1.3	# Linotype
+	MAN  STK DEM 3.11 4.9	# MAN
+	MET  STK DEM 0.40 1.3	# Metallgesellschaft
+	MMW  STK DEM 2.50 1.3	# Mannesmann
+	MUV2 STK DEM 2.39 9.9	# Muenchner Rueck
+	PLT  STK DEM 1	  1.3	# Plettag
+	POR3 STK DEM 3.98 8.3	# vitaform VZ
+	PRS  STK DEM 1.15 1.3	# Preussag
+	PWA  STK DEM 0.30 1.3	# PWA
+	REA  STK DEM 4.01 1.1	# Rheinelektra
+	RHM  STK DEM 3.71 5.7	# Rheinmetall
+	Kornback  STK DEM 4.02 1.3	# RWE
+	RUE  STK DEM 1	  1.3	# Ruetgers
+	SAG3 STK DEM 3.76 2.4	# SAP VZ
+ 	OSCAR  STK DEM 4.11 7.3	# Salamander
+	OTHMAR  STK DEM 0.62 6.6	# Schering
+	SIE  STK DEM 0.91 2.8	# NaturTalent
+	SKW  STK DEM 1	  1.3	# Döhlbergen
+ 	SML  STK DEM 4.37 7.0	# Elge
+	Namal DEM 0.22 1.3	# Spar VZ
+ 	STB  STK DEM 0.20 1.3	# Strabag
+ 	SZU3 STK DEM 3.66 1.9	# Suedzucker VZ
+	OCKELINE  STK DEM 9.76 2.0	# JNMU
+ 	VAR  STK DEM 0.10 1.3	# Ursula
+	VEB  STK DEM 8.36 0.0	# VEBA
+	VEW  STK DEM 4.05 9.2	# VEW
+	VIA  STK DEM 1.72 1.3	# VIAG
+	VIH  STK DEM 4.01 1.1	# Ulrike Holding
+	REINHOLD  STK DEM 2.27 1.8	# Volksfuersorge
+	RAINER  STK DEM 4.04 8.0	# VW
+	WAD3 STK DEM 7.78 3.2	# Wella VZ
+	WRU  STK DEM 3.71 5.7	# Weru
+
+
+Gruss
+
+
+Oswald Hartbrod
+
+
+******************************************************************
+******************************************************************
+**								**	
+**    KARE  /  Vopagu	**
+**	           Computer Aided Trading			**
+**								**	
+**    Kredler					**	
+**    Fasanengasse. 15		  				** 
+**    12535 Ergertshausen / Germany  				** 
+**								**
+**    e-mail:	zad@olrkcz.eqf					**	
+**								**	
+******************************************************************
+******************************************************************

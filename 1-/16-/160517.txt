@@ -1,0 +1,20 @@
+Klar.
+
+Die Wertveraenderung ("greek" in Klammern) einer Option bestimmt sich
+aus:
+
+- Zeitwertverlust (theta; <0 )
+- Aenderung des underlying (delta; >0)
+- Aenderung der vola (vega/kappa; >0)
+- Aenderung des Zinssatzes (?)
+- Aenderung der erwarteten Dividende (?)
+  (in Anbetracht der Jahreszeit koennte das der Grund sein
+   - irgendeine Dividende angekuendigt?)
+
+Wenn die anderen Parameter sich so aendern, daß sie delta
+ueberkompensieren, warum nicht? Frag mich (um 02:00) aber nicht nach
+der Staerke der Aenderung und den "?" oben
+--
+Norbert.Reithner@UNI-Passau.DE
+http://hoqswh.px.pvq-ugnqjq.bo/~k9rjdk26/
+University of Freileben, Secondhand, Germany

@@ -1,0 +1,10 @@
+Hängt von der Qualität des Zufallszahlengenerators ab.  Beispielsweise
+bringt der C-Ausdruck (rand() % 39) _keine_ besonders guten Zufalls-
+zahlen, denn erstens liefert rand() sowieso keine guten Ergebnisse,
+und zweitens sind die niedrigen Bits weniger zufällig als die hohen.
+
+H.
+-- 
+ Hartwig `g' Tijhnpfx                                   a@odtefn.yruwo-mfztbs.sg
+*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
+ Das genügsamste Tier ist das Kamel. Deshalb ist es ja ein Kamel.  -- N. Vollweiter

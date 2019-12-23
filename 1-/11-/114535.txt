@@ -1,0 +1,21 @@
+Im Artikel <7855t6zk.9661630@gojvcgbwnajl.pchxbwv.ry.jkl>, cvbesip@jrl.gq
+(Andree Velt) schreibt:
+
+
+Stop-Loss und Limit arbeiten unabhängig von einander.
+Entweder Limit ODER Stop-Loss.
+Beides zusammen geht nicht.
+
+In deinem Beispiel bekommst Du die Aktien zu 95.
+Der Kurs ist dann deshalb niedriger, weil das große Angebot erst zu 95
+umgesetzt werden kann. Dort und darüber liegen soviele Kauflimite, daß sie das
+Angebot aufnehemen können.
+
+Um beim Kaufen zu bleiben: Beim Stopp-Buy sagst Du, Du willst kaufen, wenn der
+Kurs eine bestimmte Marke (alter Widerstand o.�.) überschritten hat.
+Dann wird Deine Order zu einer unlimitierten, sobald einmal ein Kurs auf oder
+oberhalb dieser Marke festgestellt wurde.
+Die Order wird dann zum darauffolgenden Kurs ausgeführt. 
+
+Gruß
+Steffen

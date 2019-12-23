@@ -1,0 +1,23 @@
+Hallo.
+
+Ich habe da ein kleines Problem, was die Bewertung eines Floors angeht:
+Bis jetzt berechne ich die zu erwartenden Ausgleichszahlungen und zinse
+diese ab, um auf den Preis des Floors zu kommen.
+
+Beispiel:
+Strike-Rate =3D 4,8%
+Basis =3D 6-Monats-Libor
+Nominalbetrag =3D 1.000 Pfund
+FR 6/12 =3D 4,68%
+Laufzeit =3D 184 Tage
+
+Wenn ich das dann durchrechne komme ich für diese Zahlung auf nen Wert
+von rund 0,605 Pfund. Das müsste ich jetzt abzinsen, und ich hätte
+den Anteil der Zahlung an der Prämie.
+
+Mein Problem:
+Wie bringe ich jetzt Black-Scholes mit ins Boot?
+Ich weiss, dass man den Floor als Put verstehen kann, und ich weiss,
+wie man für Optionen auf Aktien die Black-Scholes-Bewertungsmethode
+anwendet, könnte aber nen kleinen Denkanstoß gebrauchen, welche Werte
+ich hier einsetzen müsste.

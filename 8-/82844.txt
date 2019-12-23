@@ -1,0 +1,25 @@
+Hallo Newsgroup,
+
+um mir die elende Tipperei zu ersparen, möchte ich Kursdaten via
+Webabfrage aus dem Internet direkt in eine Exceltabelle einfügen --
+prinzipiell klappt das auch, aber: EINIGE Werte werden als Datum
+ausgewiesen...
+
+ a) die Kursangaben auf der Webseite sind mit DezimalPUNKT
+ b) ich verwende im Rechenblatt das Komma
+ c) es sind hauptsächlich kleine Werte betroffen, aber eben nicht alle:
+
+    Beispiel/Details
+    ----------------
+    Aktie           angezeigt   Zellinhalt
+    Giovanni             9           29.06.2000
+    Crange    0,61        okay
+    AGUI      99          11.2.2000
+    Josef         30,40       okay
+    E*Trade Austr.   60          14.11.1960
+    Silvana          14.11.2015
+    Telecom Italia   16.5.1972
+
+Kennt jmd. des Rätsels Lösung???
+
+Gruß, Orlando.

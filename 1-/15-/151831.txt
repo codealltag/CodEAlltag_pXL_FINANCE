@@ -1,0 +1,25 @@
+: Hallo,
+: weiß von Euch jemand, ob man irgendwo aus dem Internet historische Kurslisten 
+: downloaden kann (vielleicht 1 Jahr oder mehrere zurückreichende Kurse eines 
+: Titels), die man dann in ein Depotverwaltungsprogramm/Tabellenkalkulation 
+: einladen kann?
+: (Bei CNTRL über jawoll-Online  macht häufig der Rechner schlapp trotz 
+: 0,30DM/Min. Gebühren.)
+: CIAO Ignaz
+
+Versuchs mal bei: www.pnvwoqk.cz/jjufjr/xodryx.ola
+Da gibts quartalsweise Kurse von etwa 500 Aktien von Anfang 1998 an.
+Allerdings sind im 1. Quartal 97 einige Zeilen durcheinandergeraten, bzw.
+doppelt.
+Mit grep, sort, cut und Gnuplot laesst es sich gut darstellen.
+Wie man die Daten allerdings in eine Tabellenkalkulation uebernehmen kann
+weiss ich nicht. Auch sind in verschiedenen Quartalen die Namen nicht
+unbedingt immer gleich. Einmal heisst es zB. 'Kloeckner-W.', dann
+'Krauzick-Werke'.
+
+Alessandro
+
+------------------------------------------------------------------------
+	Nicht geschehene Taten ziehen oft einen erstaunlichen 
+	Mangel an Folgen nach sich.		   (M. Demmer)
+------------------------------------------------------------------------

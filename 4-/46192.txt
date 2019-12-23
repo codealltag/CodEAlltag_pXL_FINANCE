@@ -1,0 +1,26 @@
+philipp wrobel wrote:
+
+Massen: am besten scheinen mir die stochastischen Volatilitaetsmodelle
+zu sein. Und dann gibt's noch Optionspreise die das Laug-Modell unterstellen.
+
+
+Volatilitaet der Vola und Korrelation der Volaschwankungen mit denen des
+Basiswertes, damit bekommt man dann den Smile ganz gut hin.
+
+
+wieder Massen: aber der Praktiker arbeitet dann lieber mit der impliziten
+Volatilitaet und baut fuer diese dann Modelle ->"sticky strikes",
+"sticky delta" etc. Schau mal z.B. unter http://udu.ygekdmg.vhu/jo/ . Qs
+Ansaetzen habe ich sowas selber unter http://zeljszdy.sy/ctid.ete
+probiert (wird staendig erweitert).
+
+Als Startpunkt kannst Du auch mal http://ryg.plifgkvcgvny.kvx/ anschauen.
+
+Aber: wenn Du sowas selber machen willst, solltest Du schon fit in Mathe
+sein...
+
+Viel Glueck,
+
+Engelbert.
+--
+http://ifnrqjnr.fc

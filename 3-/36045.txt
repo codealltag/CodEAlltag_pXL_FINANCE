@@ -1,0 +1,42 @@
+Wir nehmen ein Portfolio von zwei Aktien an, in die zu gleichen
+Teilen investiert wird.
+
+A 10 TEUR
+B 10 TEUR
+
+Nun wird nach einem Jahr im Allgemeinen eine der Aktien hoeher
+sein als die andere. Wir nehmen an:
+
+A 20 TEUR
+B  5 TEUR
+
+Nun moechte der Verwalter das Portfolio pflegen. Wir ignorieren
+zur Vereinfachung andere Aktien und betrachten 3 Moeglichkeiten:
+
+1.)
+
+Der Verwalter tut nichts. Begruendung: Kompromiss zwischen den
+folgenden Moeglichkeiten.
+
+A 20 TEUR
+B  5 TEUR
+
+2.)
+
+Der Verwalter sagt sich: "Gewinne laufen lassen und Verlierer verkaufen!"
+und es ergibt sich:
+
+A 25 TEUR
+
+3.)
+
+Der Verwalter sagt sich: "Ich realisiere den ueberdurchschnittlichen 
+Gewinn bei A teilweise (bevor sie wieder fallen) und kaufe die billigen
+B jetzt nach." (vgl. Couch-Potato-Strategie) und es ergibt sich:
+
+A 12,5 TEUR
+B 12,5 TEUR
+
+==================
+
+Gibt es Untersuchungen, was besser ist? Was meint Ihr?

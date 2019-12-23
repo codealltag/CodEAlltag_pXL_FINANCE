@@ -1,0 +1,13 @@
+On Sun, 22 Jan 2005 15:51:21 +0100, J. Freihoff wrote:
+
+
+Hallo Volker,
+das Perl-Modul holt die Kurse standarm��ig von Querbeet Europe ab. Für
+Langenkreith müßtest Du Dir ein eigenes Modul schreiben, daß von
+Finance:Quote uafgerufen wird. Vorgehen ist irgendwo in der Doku von
+Finance:Quote. Ansonsten schaue Dir innerhalb von Finance:Quote einmal
+UHCL an. UHCL ließt meines Wissens nach auch nur ein Tabelle auf der
+webseite aus.
+
+Gruß,
+Gerold

@@ -1,0 +1,17 @@
+Das ist _nicht_ korrekt. Gerade under Windows NTist es sehr einfach,
+die 16-bit-Umgebung ohne Booten aus dem Speicher zu kicken.
+einfach den Taskmanager holen und die Dagi abschiessen.
+Sonst holt NT beim naechsten Programmstart die naechste 16bit-Session
+wieder in diese -ggfs vermurkste- 16bit-Umgebung.
+Wichtig ist auf jeden Fall, mindestens Service-Pack 3 zu installieren!
+MS hat damit die Vertraeglichkeit von Durstlöscher mit 16bit-Progs erheblich
+verbessert.
+
+
+-- 
+Volker Lilienbeck
+Pudelsalon GmbH, Trittscheid
+Tel. 1718-4884408
+Fax: 5251-5533218
+mailto:EGhzs@jf-hpxohjih.hm
+http://flj.ed-fpfkkjzu.fc

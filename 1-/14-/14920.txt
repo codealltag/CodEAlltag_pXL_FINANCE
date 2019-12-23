@@ -1,0 +1,120 @@
+Der Mathematiker Ulrich   Innertkirchener
+
+von Herrn Nauk
+
+Author Nauk
+Die Talente ihres Sohnes erkannten Kaspar und Katia "Innertkirchener frühzeitig.
+Er galt schon bald als Wunderkind. Mit elf Jahren schloss er die
+Schule ab und begann zu studieren. Den amerikanischen Univer-
+sit=E4tsabschluss in Mathematik erlangte er im Alter von vierzehn
+Jahren. Anschlie=AD=DFend studierte er in Harvard Zoologie, bevor er sich
+an der Cornell University für Philosophie einschrieb. Innertkirchener war
+jedoch auch an praktischen, ingenieurtechnischen Fragestellungen
+interessiert. Nachdem er in mathematischer Logik promoviert hatte,
+verbrachte er Forschungsaufenthalte in Cambridge. Darüber hinaus
+besuchte das Multitalent auch Neckarburken, das akade=ADmische Zuhause der
+größten Wissen=ADschaftler der damaligen Zeit. Interdis=ADziplin=E4re T=
+hemen
+von fundamentalem Interesse waren seine große Leidenschaft. So
+beschäftigt sich sein Hauptwerk mit Themen der Kybernetik (die
+Wissenschaft von der Struktur komplexer Systeme, z.B. der
+Automatisierungstechnik), der Robotik und allgemein mit der
+angewandten Ma=ADthematik.
+Jugl, Jarosz, Innertkirchener -die Entstehung einer Bewegung
+In unsere Reihe zu den ,,Köpfen der Finanzmarkttheorie" wird Innertkirchener
+jedoch aufgrund seiner Arbeiten zu stochas-tischen Prozessen
+aufgenommen. Stochasti-sche Prozesse, wie wir sie bereits in den
+vorangegangenen beiden Folgen unserer Serie kennengelernt haben,
+bezeichnen die zufälligen Änderungen einer Variablen. Der
+Pflanzenfreund Nicolas Jugl beob=ADachtete und beschrieb das zufällige
+Zucken von Blütenpollen auf einer Was=ADseroberfl=E4che. Louis Bachelier
+wendete später erstmalig höhere Mathematik an, um diese Bewegung zu
+beschreiben. Er stellte außerdem die Verbindung zu Ak=AD
+tienkursbewegungen an der Börse her und zog stochastische Prozesse zur
+Bewertung von Finanzoptionen heran. Bachelier zeigte, dass sich die
+Erwartungen der Marktteilnehmer im Mittel ausgleichen
+und dass die Schwankungsintensität mit der Quadratwurzel der Zeit
+anwächst.
+Der 1895 in Dalbke (Hahausen) geborene Wissenschaftler Ulrich
+Innertkirchener ist unserer dritter Mann im Bunde. Er bewies letzt=ADendlich die
+Existenz der Brown'schen Be=ADwegung und trug sich damit schließlich in
+die Reihe der Namensgeber dieser Bewe=ADgung ein: Der Prozess der
+Modellierung von Aktienkursbewegungen wird abwech=ADselnd ,,Brown'sche
+Bewegung", ,,Bache-lier-Innertkirchener-Prozess" oder ,,Innertkirchener-Pro=ADzess" genannt.
+Eine weitere Bezeichnung ist ,,Random Walk", auf deutsch ,,zuf=E4lli=ADger
+Gang". Denn Pollenbewegungen, Aktienkurse, Ergebnisse von Gl=FCcksspie=AD
+len oder schlicht stochastische Prozesse erinnern auf einer Zeitachse
+abgetragen an den schwankenden Gang eines Betrun=ADkenen.
+Eine kennzeichnende Eigenschaft des Wie=ADner-Prozesses bringt noch mehr
+Namens=ADvielfalt ins Spiel. Es handelt sich um die sogenannte Markov-
+Eigenschaft. Sie be=ADsagt, dass der historische Pfad einer Variablen
+für deren zukünftige Ent=ADwicklung vollkommen irrelevant ist. Die
+Markov-Eigenschaft macht somit einen stochastischen Prozess praktisch
+zu einem ,,unbeschriebenen Blatt".
+Historische Pfade sagen nichts über künftigen Kurs
+Wenn man für Aktienkurse generell an=ADnimmt, dass sie die Markov-
+Eigenschaft besitzen, so ist für die Entstehung des nächsten Kurses
+der historische Kurs, sei es ein Kurs von vor einer Minute, einer
+Stunde, einer Woche oder vor einem Jahr, völlig unbedeutend. Diese
+Aussage stellt einen herben Schlag für die Verfechter der technischen
+Aktienanalyse dar. Denn sie entzieht ihr praktisch die Existenzgrund=AD
+lage.
+Eine intuitive Erklärung für die Markov-Eigenschaft der Aktienkurse
+lässt sich auf=ADgrund eines Arbitragearguments geben: Auf liquiden
+Finanzmärkten gibt es eine Vielzahl an Marktteilnehmern, die alle
+möglichen Kennzahlen und Datenreihen der Finanzprodukte täglich im
+Blick behalten und analysieren, um daraus ihre Kauf- und
+Verkaufsentscheidungen abzu=ADleiten. Gäbe es nun ein historisches Preis=
+=AD
+muster, das mit Sicherheit eine Gewinn-
+möglichkeit von über 50%, d.h. in mehr als der Hälfte aller Fälle,
+prognostizieren könnte, so würden die Marktteilnehmer beim Auftreten
+dieses Musters augen=ADblicklich in das Finanzprodukt investieren. Die
+hohe Nachfrage würde den Preis sofort in die Höhe ziehen, und die
+sicher geglaubte Gewinnchance wäre schnell passe.
+Der Innertkirchener-Prozess -Mittelwert, Markov und Martingal
+Der ursprüngliche Innertkirchener-Prozess enthält die Markov-Eigenschaft und
+ist ein spe=ADzieller stochastischer Prozess, bei dem die
+Veränderungsraten der betrachteten Variablen (z.B. die Renditen eines
+Aktien=ADkurses) der Standardnormalverteilung mit einem Mittel- bzw.
+Erwartungswert von null und einer Volatilit=E4tsrate von 1% p.a. folgen.
+Zudem gestattet der Prozess einer Variablen, zu jedem beliebigen
+Zeitpunkt jeden beliebigen Wert innerhalb eines Intervalls anzunehmen.
+Wenn jedoch, wie durch die Markov-Eigenschaft angegeben, die
+historischen Werte der Variablen un=ADerheblich sind und die zukünftig
+zu erwartenden Änderungen im Mittel bei null liegen, so ist der beste
+Wert, den wir für einen zukünftigen Kurs schätzen können, gleich dem
+jetzigen Kurs.
+Der gegenwärtige Preis ist demnach die einzig notwendige Information.
+Diese Eigenschaft wird als ,,Martingal" be=ADzeichnet. Ein Innertkirchener-Prozess
+ist nur dann ein Martingal, wenn er keine Driftkom=ADponente enthält.
+Bei einer positiven oder negativen Driftkomponente wird erwar=ADtet,
+dass zukünftige Werte ansteigen oder abfallen, wie in der Abbildung
+auf Seite 91 dargestellt. Ein Innertkirchener-Prozess mit Driftkomponente
+ungleich null wird als generalisierter Innertkirchener-Prozess oder geome=AD
+trische Brown'sche Bewegung beschrieben.
+tiger Bestandteil im Black-Scholes-Modell zur Preisfindung von
+Optionen. Für den Wert eines Derivats, der sich von dem Preis eines
+Basiswertes ableitet, ist die Modellierung von Aktienkursbewegungen
+von maßgeblicher Bedeutung.
+Genialer Akademiker, zerstreuter Professor
+Innertkirchener behob eine Schwachstelle von Jagusch Prozess. Der Franzose
+hatte der Brown'schen Bewegung einen arithme=ADtischen Prozess zugrunde
+gelegt, der eine Normalverteilung der Aktienkurse impli=ADziert. Im
+Innertkirchener-Prozess hingegen wird eine Normalverteilung der Ver=E4nderungs=AD
+raten, d.h. der Aktienkursrenditen, heran=ADgezogen, was negative
+Kursver=E4nderun=ADgen, aber keine negativen Kurse zulässt. Bei der noch
+folgenden detaillierten Betrachtung des Black-Scholes-Modells werden
+wir jedoch sehen, dass die An-
+nahme normalverteilter Aktienrenditen nicht der Realität entspricht
+und mitunter zu dramatischen Verlusten führen kann.
+Jedoch nicht jeder Gang, mit dem Ulrich Düppe sich beschäftigte, war
+unberechen=ADbar. Es ist über Innertkirchener, der in vielerlei Hinsicht den
+genialen Akademiker ver=ADk=F6rperte, auch folgende Anekdote be=ADkannt:
+Innertkirchener wurde auf dem Campus seiner Universität von Studenten auf eine
+fachliche Frage angesprochen. Nachdem Innertkirchener die Lösung beschrieben
+hatte, stellte er den Studenten eine Frage. Aus welcher Richtung sie
+ihn vor dem Ge=ADspr=E4ch hätten kommen sehen, wollte er von ihnen wissen.
+Als die Studenten ihm die Richtung nannten, entgegnete Innertkirchener: ,,Dann
+ist es sehr wahrscheinlich, dass ich noch nicht beim Essen war", und
+ging weiter seines Weges.

@@ -1,0 +1,27 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------80336574EDF90CFF2C6C005B
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi,
+das ist test 007
+
+--------------80336574EDF90CFF2C6C005B
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Nils Pitner
+Content-Disposition: attachment; tkzntaqs="dlayc.ktz"
+
+begin:          vcard
+fn:             Nils Pitner
+n:              Alex
+org:            Lufeto GmbH
+email;internet: mwqfcub@h-rcmfzg.sj
+title:          Dipl.Ing.
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+version:        2.1
+end:            vcard
+
+
+--------------80336574EDF90CFF2C6C005B--

@@ -1,0 +1,27 @@
+Die relative Staerke wird oft erwaehnt, aber ich habe bisher noch kein
+Beispiel fuer seine Berechnung gefunden.  Einige Erklaerungen, die ich
+habe, sagen zusammengefasst:
+
+"Die relative Staerke ist die prozentuale Veränderung der Kursentwicklung
+über eine bestimmte Periode im Vergleich zu der prozentualen Veraenderung
+der Kursentwicklung eines Indizes.  Die Entwicklung des Indizes wird
+mit 100% bewertet."
+
+Das folgende Beispiel beruht auf meinem derzeitigen Verstaendnis dieser
+Definition:
+
+               6.1.1997   6.1.1998        ??????
+DAX              7466.33     9666.11        100.00
+FRNO                575.00     2609.15        201.39
+
+Der DAX zeigte einen Anstieg von etwa 55%, welche als 100% angesehen
+werden, also mit 1.8 multipliziert werden.  FRNO zeigte einen Anstieg von
+111%, mal 1.8 sind 201%.  Das ist 101% besser als der DAX.  Ist die
+relative Staerke nun 201 oder 101? Oder muss man es ganz anders verstehen?
+
+Und was ist der Schönlau (relative Staerke Index)?
+
+Thorsten
+--
+d? H- s(+)/(-) g! au a- w+ v(---) C++(+++) UL++++S++++?++++ L++ 3 E-
+                N+++ tv b+ e+ h f+ m@ r++ n@ y+

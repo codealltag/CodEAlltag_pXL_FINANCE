@@ -1,0 +1,51 @@
+Man sollte sich als Anleger schon die Mühe machen, die Produkte in die man
+investieren möchte auch genauer zu analysieren (wichtig insbesondere bei
+"Discount"-Zertifikaten aber auch bei Recon-Anleihen).
+
+Discount-Zertifikate zählen zu den strukturierten Finanzprodukten.
+Struktriert weil solch ein Zertifikat im Prinzip aus einem "normalen"
+Zertifikat, z.B. auf einen Index, mit einem Cap, d.h. Obergrenze besteht ->
+also aus 2 Zonen.
+Den sogenannten Discount bekommst Du als Anleger für Deinen Verzicht auf
+theorethisch unbegrenzten Kursgewinn. Oftmals ist der Preisabschlag viel zu
+gering, um die begrenzten Gewinnchancen zu kompensieren.
+
+
+Bewertung eines Discount-Zertifikates (sog. exotisches Zertifikat)
+
+Es bieten sich 2 Methoden an:
+1. der Preisvergleich mit Produkten der Konkurrenz -> oftmals schwierig, da
+die jeweiligen Emittenten solcher Papiere oftmals individuelle
+Zertifikatsbedingungen haben -> Vergleich wird dabei fast unmöglich
+
+2. das sog. Pricing by Duplication -> wird in der Praxis angewendet um auch
+andere komplizierte Finanzprodukte bewerten zu können. Dabei wird die
+Struktur des Zertifikats durch andere Finanzprodukte (die leichter bewertbar
+sind) nachgebildet. Aus dem Preis des Duplikats wird dann der Preis des
+Discount-Zertifikates abgeleitet.
+Im Prinzip kann man ein Discount-Zertifikat durch die Kombination ein
+Plain-Vanilla Zertifikates (="normales" Zertifikat + europäische Short Call
+Option oder alternativ durch die Kombination eines Zerobonds + europäische
+short put Option duplizieren.
+
+vereinfachtes Verfahren für die Berechnung des fairen Wertes eines Discount
+Zertifikates (Nachbildung eines Discount-Zertifikates auf einen
+Performance-Index, z.B. Dax durch erstgenanntes Beispiel beim Pricing by
+Duplication)
+aktueller Indexstand (=enspricht in etwa dem ein Plain-Vanilla Zertifikates
+unter Berücksichtigung des Bezugsverhältnisses) - europ. Index Calloption
+(mit Restlaufzeit wie Zertifikat, Strike enstricht der Cap-Höhe)
+
+Und gerade weil solche Finanzprodukte Optionen enthalten, sollte man als ein
+Anleger sich auch ein wenig die Mühe machen über Optionstheorie (Arten,
+Preisbildung,...) informieren.
+Für den Emittenten rechnen sich solche Produkte sehr, denn sie wirken auf
+den Kleinanleger verlockend (Worte wie Discount suggerieren so etwas wie
+Preisnachlass oder man nehme die verlockend hohen Zinsen bei Recon-Anleihen,
+bei den der Rückzahlungsbetrag nicht feststeht und die große Überraschung
+beim Laufzeitende kommt).
+
+Falls Du ein solches Zertifikat bei einer trad. Bank kaufen möchtest kann es
+sein, dass diese die Termingeschäftsfähigkeit von Dir verlangt (wg.
+theoretischer Totalverlust und begrenzter Gewinn) und wichtiger wegen der
+short call oder short put Option.

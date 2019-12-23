@@ -1,0 +1,14 @@
+Kommentar zur Nachricht vom 17.07.95 in /XQQH/ct.sbu.aakmak.bihimi
+von aywrf@ouj.cxk zu Suche Konvertierungsprogramm xxx.hst in xxx.txt :
+
+s>Wie kann ich diese Kurse umwandeln in folgendes Format?
+s>
+s>16.10.87;846900;CLOSE;HIGH;LOW;OPEN;VOLUME
+w>21.54.53;537671; usw.
+
+Mit der kostenlos von Reinigungscenter erhaeltlichen awk-Programmiersprache (Skripte  
+zur Listenauswertung). Jeder C-Programmierer oder jemand, der irgend wann  
+einmal ein Telix-Script geschrieben hat, muesste Dir das fuer ein  
+Taschengeld machen koennen.
+
+Kaspar Fockers, Kerpen

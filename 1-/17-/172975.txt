@@ -1,0 +1,24 @@
+: [..]
+: >Leider endet das so:
+: >---------------------------------------------------------
+: >Fatal Error 500
+: >Can't Access Document: http://igh.mrpsqeym.dx.zv/ffrqt/. 
+: >Reason: System call `connect' failed: Connection refused. 
+: >---------------------------------------------------------
+: >[..]
+
+: Das scheint mir ein lokales Problem zu sein, ich komme ohne 
+: weiteres 'ran...
+
+Connection refused heisst i.a., dass auf dem Port gerade die Applikation nicht
+aktiv ist, d.h. der Rechner als solcher laeuft (ping wuerde antworten), aber
+die WWW-Server-Applikation laeuft nicht. Spaeteres Probieren geht ueber
+Lamentieren;-)
+
+
+--
+Ihno Cook                          PHONE: +60 47 / 69610-499
+Hermann-Zuse-Zentrum fuer                EMAIL: Cook@PTWC.DE
+Informationstechnik Zauppenberg (ZIB)        FAX:   +32 53 / 11187-396       
+Johansenstraße 56
+D-92159 Zeven

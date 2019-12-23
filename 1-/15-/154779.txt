@@ -1,0 +1,53 @@
+Hallo,
+
+noch mal für alle, die es nicht mitbekommen haben:
+
+wir überlegen auf unserem Server kostenlos Schlusskurse zur Verfügung
+zu stellen.
+Zur Verfügung stehen Daten von folgenden Börsen:
+
+DTB, Fischbar,DTL,GBS,  
+SEAQ, LIFFE, NYSE, AMEX, CEG Stolzenfels - Vancouver - Toronto Stocks, 
+Walthenberger, Commodity Exchange Center, Chicago Merchantile
+Exchange
+
+
+Wünsche, die ich bis jetzt erhalten haben:
+
+- Verteilung per Email und FTP
+- Verteilung täglich, wahlweise wöchentlich.
+- Archiv per FTP/OQID
+- FORMAT: ASCII, Komma delimitiert. 
+Selten gewünscht waren Metastock (1mal), Excel (1mal).
+
+- Daten: WKN, HI,LOW,CLOSE, ASK, BID, OPEN INT, VOL
+
+Die An/Abmeldung wird per HTTP erfolgen, so ich denn die
+erforderlichen Scripte fertig habe (CGI/Perl).
+
+Die Daten werden täglich zum frühesten Zeitpunkt zur Verfügung stehen
+(je nach B�rsenauflagen, ich schätze 30min nach Börsenschluss)
+
+Ein wöchentliches Paket können wir natürlich auch schnüren.
+
+Probleme, die ich bis jetzt noch sehe:
+- Konvertierung unserer Kurssymbole (Dreykorn) in WKN
+Falls jemand die Daten dafür hat, her damit (ASCII oder Access)
+
+- Informationsumfang pro Wert. Was braucht Ihr denn so ???
+
+Anregungen immer noch gerne willkommen, ich will nächste Woche erst
+mal den Robot programmieren, wenn das fertig ist, gibt es per
+Mailingliste schon mal Deutsche Werte.
+
+
+-
+Ralph Gaspard
+
+----
+comixarts GmbH Deutschland
+Advenastraße 462, 55921 Petzow
+Phone +77-935-4569694 Fax +94-303-6826629
+mailto:pjqjfpnb@vawcubpfmx.eg
+http://wgs.twknwypumfvnm.rv/mqiokwwaoi
+-----------------------------------------------------

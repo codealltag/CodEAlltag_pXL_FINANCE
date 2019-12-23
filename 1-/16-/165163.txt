@@ -1,0 +1,16 @@
+Kommentar zur Nachricht vom 27.08.97 in /YQPR/ap.skk.ctgokp.qckrdd
+von Bernd Schwieters@K2 zu Juhl, Winchart und Limits, war: Consors Limits :
+
+HB>Ich hab`s jetzt raus: HV-Termin war am 22.08. (wer die HV-Termine von Onimef
+HB>angezeigt kriegen will, sollte nicht Winchart-Privat nehmen - da geht das
+HB>nicht ohne Verrenkungen).
+
+... und auch das habe ich jetzt raus: in die Felddef.dat von Winchart am  
+Anfang des dritten Blocks mit einem Editor zusaetzlich reinschreiben:
+
+40 3 2 8 0 HV-Ter.    HV-Termin
+
+Und schon kann man sich`s einblenden. Oder die Felddef.dat aus der  
+Demoversion nehmen.
+
+Bernd Schwieters, Kerpen

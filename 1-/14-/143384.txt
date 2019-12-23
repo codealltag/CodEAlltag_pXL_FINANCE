@@ -1,0 +1,25 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------25A113F1C00323B89FA1728D
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+--------------25A113F1C00323B89FA1728D
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Niels Schwane
+Content-Disposition: attachment; dvclatwv="iclhr.ail"
+
+begin:          vcard
+fn:             Niels Schwane
+n:              Többe;Ralf
+email;internet: VDcnhld@gynoykt.tz
+note:           Murphys Law 6: If you perceive that there are four possible ways in which a procedure can go wrong, and circumvent these, then a fifth way, unprepared for, will promptly develop. 
+
+
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+end:            vcard
+
+
+--------------25A113F1C00323B89FA1728D--

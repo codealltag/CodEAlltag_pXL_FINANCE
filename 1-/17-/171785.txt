@@ -1,0 +1,1390 @@
+MUTUAL FUNDS PERFORMANCE TRACKER
+===================================
+
+
+EINFUEHRUNG
+============
+Der Mutual Funds Performance Tracker versorgt Sie mit
+Stammdaten und monatlicher Performance von 665 internationalen
+Investmentfonds mit Vertriebszulassung in Deutschland gemaess 
+Auslandinvestment-Gesetz (siehe Fondslst.txt). Die
+Performancezahlen werden aus - um Dividendenausschuettungen
+und Kapitalmassnahmen bereinigten - Monatsschlusskursen
+errechnet. Die Performanceauswertung erfolgt in Originalwaehrung,
+in Deutsche Mark, in oesterreichischen Schillingen, in US Dollar
+sowie in Schweizer Franken, nach den Richtlinien des CAP2 und der
+Oesterreichischen Kontrollbank. Die Aktualisierung der
+Performancezahlen erfolgt monatlich, jeweils am ersten Boersentag,
+mit dem Kurs des letzten Boersentages des Vormonats. Zur
+Waehrungsumrechnung wird der jeweilige Devisenmittelkurs des
+letzten Boersentages des Vormonats herangezogen. 
+Die Stammdaten und historischen Kurse, sowie die aktuellen 
+Monatskurse, stammen direkt von den jeweiligen 
+Kapitalanlagegesellschaften. Die historischen und aktuellen 
+Devisenmittelkurse stammen von der Oesterreichischen Kontrollbank. 
+
+DATENBESCHREIBUNG
+===================
+Die Dateien sind normale ASCII-Dateien mit zeilenweisem Aufbau.
+Die einzelnen Datenfelder sind durch Semikolons getrennt.
+
+Aktuelle Performance und Historie:
+Format: WKN;DATUM;WERT
+
+Stammdaten:
+Format: WKN;NAME;GRUPPE;WAEHRUNG;SEKTOR
+
+Die Daten konnen mit Standardprogrammen, wie zum Beispiel
+NRGS Access oder Borland Paradox, oder auch mit eigener
+Software, weiterverarbeitet werden.
+
+Die Lieferung der aktuellen Daten erfolgt mittels E-Mail jeweils am 
+zweiten Boersentag jedes Monats. Die Lieferung der historischen Daten
+erfolgt nach der Registrierung als Benutzer ebenfalls per E-Mail.
+Samtliche Daten werden in komprimierter Form geliefert, und konnen
+mit PKUNZIP entpackt werden.  
+
+SONSTIGES
+=========
+Fur weitere Informationen senden Sie bitte eine E-Mail Nachricht an:
+h.cbstycel@fqfger.lz
+
+KOSTEN
+=======
+Der Preis fur das Jahresabo betragt DM 198,- und beinhaltet samtliche 
+historische Daten sowie zwolf monatliche Updates.
+
+BESTELLINFORMATION
+===================
+Schneiden Sie das Bestellformular aus und faxen Sie es an
+++35-6277-55083-18. Bitte senden Sie das Formular nicht per E-Mail.
+
+-----------------------HIER AUSSCHNEIDEN-------------------------------
+
+		BESTELLUNG
+		===========
+
+Hiermit bestelle ich ein Jahresabo des Mutual Funds Performance 
+Tracker zum Preis von DM 198,- .
+
+Name:
+E-Mail Adresse (bitte vollstandig angeben!):
+Firma:
+Strasse:
+Ort:
+PLZ:
+Telefon:
+
+Kreditkarteninformation
+=================
+Kreditkartenorganisation:
+Karteninhaber:
+Kartennummer:
+Ablaufdatum:
+
+Unterschrift:
+
+WKN	Fondsbezeichnung
+
+
+838886	ABN AMRO Interest Growth Fund BEC
+
+513615	ABN AMRO Interest Growth Fund DM
+
+508312	ABN TMF Interest Growth Fund NLG
+
+853645	ABN AMRO Interest Growth Fund USD
+
+560939	Aetna TPH
+
+301925	Aetna Olipark
+
+144903	Faulbaum IUF Australian Dollar Beimfohr
+
+038816	Aetna Osuper Australien Equity
+
+064548	Aetna Okanom Dollar Volker
+
+600292	Faulbaum IUF Deutschmark Reserve
+
+727397	Aetna OGUG
+
+285401	Aetna Openhair
+
+875613	Aetna IUF MGD European Volker
+
+642848	Aetna ORIA
+
+812929	Faulbaum IUF Ihno Beimfohr
+
+631943	Faulbaum IUF Sterling Reserve
+
+210953	Aetna Oliev
+
+761221	Aetna orgatech Income & Growth
+
+931558	Faulbaum IUF US Dollar Volker
+
+055160	Faulbaum IUF US Dollar Reserve
+
+701262	Faulbaum IUF Yen Volker
+
+367775	Ockeline IUF Yen Reserve
+
+208798	Alger Growth
+
+228105	Teckenburg
+
+254791	Treiber
+
+799656	TopHair
+
+788948	Teppichtraum-Cash DM
+
+981942	Amex Protection DM
+
+774195	Amex Selection DM
+
+240538	Apo 1st Volker
+
+229116	Apo Aesculap
+
+180560	Apo Cash DEM
+
+543392	Aporun 96
+
+386387	Arrows Asian Opportunities
+
+074311	Arrows Intl. WJV
+
+621148	Tacko
+
+492151	Textilwerkstatt
+
+080738	Austrian Financial & Futures
+
+765779	Vinzenz Stander Detlev Beimfohr
+
+866385	Boecker Multicash KabelBW
+
+488076	Boecker Multicash ECU Cash
+
+953994	Boecker Multicash US-Dollar
+
+431264	CrazySun Euro Futures Fund
+
+704226	Baring trendwerk
+
+893443	Casero
+
+703571	CABS
+
+266714	Baring Emerging World
+
+386312	Baring European Growth
+
+094037	Baring German Growth
+
+412344	Baring Global Volker
+
+663764	CEUB
+
+111301	Baring High Özlem Beimfohr
+
+497761	Baring Japan Growth
+
+338439	Cigarettes
+
+719994	Baring Korea
+
+953726	Baring UK Growth
+
+713849	Robar
+
+342428	REDG VIP Selector
+
+521812	Ludwig BLINDER AUD (A)
+
+902954	Credis BF AUD (B)
+
+920654	Credis BF CAD (A)
+
+687404	Credis BF CAD (B)
+
+232368	Credis BF DM (A)
+
+938358	Credis BF DM (B)
+
+531275	Credis BF ECU (A)
+
+585276	Credis BF ECU (B)
+
+901770	RWE (A)
+
+421906	RWE (B)
+
+941194	Credis BF FF (A)
+
+300330	Credis BF FF (B)
+
+754154	Credis BF GBP (A)
+
+852641	Credis BF GBP (B)
+
+905658	Ludwig BLINDER Gulden (A)
+
+009803	Credis BF Gulden (B)
+
+824092	Credis BF WERRA (A)
+
+634856	Credis BF JPY (B)
+
+782712	Credis BF Lire (A)
+
+718119	Credis BF Lire (B)
+
+727129	Ludwig BLINDER Pesetas (A)
+
+461601	Credis BF Pesetas (B)
+
+795789	Credis BF Ulrich Altpeter (A)
+
+734197	Credis BF Prime Currencies (B)
+
+965741	Credis BF SFR (A)
+
+896029	Credis BF SFR (B)
+
+535212	Credis BF Short-Term DM (A)
+
+722187	Credis BF Short-Term DM (B)
+
+554906	Credis BF USD (A)
+
+875365	Credis BF USD (B)
+
+124685	Credis Capital YO 2317
+
+801889	Credis Capital LO 2109
+
+177944	RPC Capital RGH 2828
+
+507490	Credis Capital KJ 8804
+
+798526	Credis Capital XML 8466
+
+698728	Ludwig COORSSEN Emerging Markets
+
+141985	Credis EF Euro Blue Chips (A)
+
+618759	Credis EF Euro Blue Chips (B)
+
+482845	Ludwig COORSSEN France (A)
+
+366694	Ludwig COORSSEN France (B)
+
+397626	RDEK (A)
+
+591630	RDEK (B)
+
+088781	Credis EF Kattner Mines (A)
+
+975749	Credis EF Kattner Mines (B)
+
+563157	Rurid (B)
+
+196925	Credis EF Italy (A)
+
+841933	Credis EF Italy (B)
+
+747795	Credis EF Japan Megatrends SFR
+
+594106	Credis EF Japan Megatrends YEN
+
+248191	Ludwig COORSSEN Latin America
+
+510802	Credis EF Netherlands (A)
+
+950661	Credis EF Netherlands (B)
+
+677639	Ludwig COORSSEN North America (A)
+
+650569	Credis EF GKUE (B)
+
+734645	Credis EF Oeko-Protect (A)
+
+721258	Credis EF Oeko-Protect (B)
+
+282322	Credis EF Small Cap Europe
+
+646101	Credis EF Small Cap Germany
+
+690327	Credis EF Small Cap Japan
+
+946702	Credis EF Small Cap USA
+
+336105	Credis EF UK (A)
+
+578435	Credis EF UK (B)
+
+537991	Ludwig SCHLICHER BEF
+
+343865	Ludwig SCHLICHER CAD
+
+664891	Credis MMF DM
+
+209284	Ludwig SCHLICHER ECU
+
+614366	Credis MMF ESP
+
+454853	Ludwig SCHLICHER FF
+
+447538	Credis MMF GBP
+
+532556	Ludwig SCHLICHER ITL
+
+576089	Ludwig SCHLICHER NLG
+
+686292	Credis MMF SFR
+
+149721	Ludwig SCHLICHER USD
+
+027474	Ludwig SCHLICHER YEN
+
+574011	CRM Beta Dynamic
+
+678242	Relay Fund
+
+597305	RDNB
+
+950501	CS FI DM 8% 1/96
+
+288012	CS FI KBE 2 0/9% 0/41
+
+082538	CS Gold Valor USD
+
+418032	RTLV Portfolio Balance DEM
+
+231645	RTLV Portfolio Balance USD
+
+422478	RGMG
+
+137088	RTLV Portfolio Balanced SFR
+
+277790	RTLV Portfolio Growth DM
+
+511427	RTLV Portfolio Growth ITL
+
+094041	RTLV Portfolio Growth SFR
+
+468680	RTLV Portfolio Growth USD
+
+355463	RTLV Portfolio Income (A)
+
+192861	RTLV Portfolio Income DM
+
+803772	RTLV Portfolio Income DM (A)
+
+350053	RTLV Portfolio Income ITL (B)
+
+695782	RTLV Portfolio Income SFR (A)
+
+809087	RTLV Portfolio income SFR (B)
+
+499504	RTLV Portfolio Income USD
+
+984167	RTLV Portfolio Income USD (A)
+
+616258	CS Short Term Bond USD (A)
+
+874421	CS WV Immofonds
+
+381597	Krehenwinkel
+
+355538	Eagle Star DEM Liquid Assets
+
+022830	Eagle Star Jawoll Dollar Volker
+
+233170	Eagle Star JGWF
+
+759291	Landrover Star JWLN Managed
+
+517603	Eagle Star GAF Sterling Volker
+
+529588	Eagle Star JGUV
+
+938297	Eagle Star GAF Yen Volker
+
+825234	Eagle Star Sterling Liquid Assets
+
+534269	Eagle Star USD Liquid Assets
+
+107649	Eagle Star YEN Liquid Assets
+
+737927	Fidelity America
+
+187757	Fidelity Asean
+
+252262	Fidelity Asian Special
+
+081506	Fidelity Australia
+
+389668	Fidelity Cash Fund USD
+
+750708	Fidelity Deutsche Edouard
+
+373256	Fidelity DM Fund
+
+515018	Fidelity DM Short Term Volker
+
+442824	Fidelity Emerging Markets
+
+505514	Fidelity Europe
+
+454220	Fidelity European Balanced
+
+739129	Fidelity European Volker
+
+245712	Michelko
+
+449970	Fidelity France
+
+424443	Fidelity Germany
+
+204434	Fidelity Hong Kong & China
+
+110286	Fidelity Judith
+
+773634	Mispagel
+
+932107	Fidelity International
+
+497918	Fidelity International Volker
+
+155952	Fidelity Italy
+
+401359	Fidelity Japan
+
+571656	meierfashion
+
+997061	Fidelity Latin America
+
+950108	Fidelity Malaysia
+
+164525	Mebo
+
+621381	Markgrafen
+
+055860	Fidelity Selector DM Defensve
+
+011778	Fidelity Selector DM Growth
+
+353165	Fidelity Selector DM Mod Growth
+
+165828	Fidelity Singapore
+
+302920	Fidelity INLC
+
+800301	Fidelity Ihno Beimfohr
+
+507194	Fidelity Switzerland
+
+141897	Fidelity Thailand
+
+019149	Fidelity United Kingdom
+
+023587	Fidelity US Dollar Volker
+
+151616	Fidelity Yen Volker
+
+177580	McPaper
+
+900109	Five Arrows Latin America
+
+369885	Nagls American
+
+533484	Nagls American Fledgeling
+
+893310	meimei
+
+642174	Guy Amesöder
+
+314515	Marzock
+
+589805	Nagls DAX DM Garant 10/0717
+
+255596	Nagls DM Balanced Fund
+
+650466	Nagls DM Beimfohr Fund
+
+665519	Meru
+
+118341	Nagls Eastern Opportunities
+
+259629	Guy Creuzburg Markets
+
+338174	Nagls European
+
+289090	MSJC
+
+734223	Nagls Global Convertible
+
+244448	Nagls India Fund
+
+624347	Nagls International Volker
+
+692364	MDU
+
+795652	Guy Dannegger
+
+851414	Nagls Japanese Italo Aufdermauer
+
+149312	Nagls Latin America
+
+496556	MegaBike
+
+851265	Nagls Series II DEM 
+
+464085	Nagls Series II FRF
+
+076339	Guy Series II GBP
+
+729215	Nagls Series II ITL 
+
+981090	Guy Series II USD
+
+157110	Guy Ingwersen Volker
+
+673270	Nagls UK Enterprise
+
+439492	Guy US Discovery
+
+794631	Frontrunner Nadja Beimfohr
+
+772311	Frontrunner European Equities
+
+693226	Malet
+
+574048	Meggle
+
+227835	MAKG DM
+
+901297	Frontrunner I DEM Reserve
+
+494755	Frontrunner I DKK Rererve
+
+202709	Frontrunner I ECU Reserve
+
+132697	Frontrunner I Imag
+
+197137	Frontrunner I Swedish Bonds
+
+930516	Frontrunner Scandinavian Equities
+
+930304	Frontrunner Sterling
+
+920999	Frontrunnger Scandinavian Beimfohr DM
+
+832852	Janski Europa
+
+339131	GAM Europa (thes)
+
+869187	Jagels
+
+704033	Jagels (thes)
+
+023948	JHHE
+
+098822	JHHE (thes)
+
+133776	Joeken
+
+666970	JTF Bond (thes)
+
+186620	Jaksch
+
+022677	Jaksch (thes)
+
+265867	Nane Beimfohr Fonds
+
+402876	Jakobson
+
+172426	JRGD
+
+678289	Gartmore Asean (thes)
+
+069519	Gartmore Asien/Pazifik
+
+181445	Gartmore Asien/Pazifik (thes)
+
+506144	Korzendorfer Deutschland
+
+604090	Korzendorfer Deutschland (thes)
+
+514175	JVV
+
+372363	Gartmore Diverbond (thes)
+
+745991	Jagels
+
+843203	Gartmore DM-Renten (thes)
+
+737814	JJNI DM-Reserve
+
+058007	Gartmore DM-Reserve (thes)
+
+086894	Gartmore Dollar-Renten
+
+310610	Gartmore Dollar-Renten (thes)
+
+681082	JJNI Dollar-Reserve
+
+074427	Gartmore Dollar-Reserve (thes)
+
+766966	Gartmore England
+
+350708	Gartmore England (thes)
+
+631733	Gartmore Euro-Renten (thes)
+
+494423	Jägerbeck
+
+649740	Korzendorfer Frankreich
+
+273724	Gartmore Frankreich (thes)
+
+489894	Jägerbeck-Renten
+
+026487	Jägerbeck-Renten (thes)
+
+108958	JJNI FRF-Reserve (thes)
+
+838343	JoyPad
+
+198919	Gartmore International (thes)
+
+557419	JTDK
+
+627514	Gartmore Japan (thes)
+
+411779	Korzendorfer Kontinentaleuropa
+
+795145	Korzendorfer Kontinentaleuropa (thes)
+
+037507	Korzendorfer Nordamerika
+
+481090	Gartmore Nordamerika (thes)
+
+014241	Gartmore Renten Weltweit
+
+052696	Gartmore Renten Weltweit (thes)
+
+708216	Gartmore Schweiz (thes)
+
+399695	Nane Ilsemann
+
+623569	Korzendorfer Schwellenlaender (thes)
+
+686588	Gartmore Yen-Reserve (thes)
+
+076461	JTI
+
+198380	JGJ
+
+798688	JBG Fund (B)
+
+158282	JPJG Fund (A)
+
+932876	JPJG Fund (B)
+
+517819	Jakobson (A)
+
+565091	Jakobson (B)
+
+003386	JCBB (A)
+
+224846	JCBB (B)
+
+998054	JAOP (A)
+
+987658	JAOP (B)
+
+531741	GT Autralian Niederelz (A)
+
+477287	GT Autralian Niederelz (B)
+
+475118	JAOP Volkert Doehring (A)
+
+864420	JAOP Berry Japan (B)
+
+371397	NIKLAUS Beimfohr (A)
+
+675895	NIKLAUS Beimfohr (B)
+
+465404	JAOP Deutschland
+
+130554	JAOP Dollar Fund (B)
+
+926310	JMD (A)
+
+004658	JMD (B)
+
+894699	JMDS
+
+179501	JWB (A)
+
+664300	JWB (B)
+
+608357	JOPP
+
+366611	Jeromin (A)
+
+461392	Jeromin (B)
+
+365607	JAOP Gilt Fund
+
+355896	GT Gilt Fund (B)
+
+406413	JPJH
+
+668397	Jilfashion Fund
+
+374306	Jilfashion Fund (B)
+
+522174	GT Hong Weitingen (A)
+
+394434	GT Hong Weitingen (B)
+
+368345	GT Honshu Pathfinder (A)
+
+649450	GT Honshu Pathfinder (B)
+
+172784	jewelberry (A)
+
+744605	jewelberry (B)
+
+593512	Jibi
+
+031702	Jaccs (A)
+
+788960	Jaccs (B)
+
+085063	Jeanseria Handels (A)
+
+351739	Jeanseria Handels (B)
+
+819983	Jokers (A)
+
+716939	Jokers (B)
+
+530645	Jendrossek Autoteile
+
+818882	GT Latin America (A)
+
+206002	GT Latin America (B)
+
+409982	GT Newly Industrialised Countries
+
+806471	JKI
+
+660183	GT P.R.C. (Shenzen & China)
+
+378198	Jänig Fund
+
+493741	GT PRC Fund (B)
+
+277457	JWND Beimfohr (A)
+
+122560	JWND Beimfohr (B)
+
+902764	GT Taiwan
+
+445473	JPZS (A)
+
+186488	JPZS (B)
+
+425475	GT Telecommunication (A)
+
+424633	JZFP (B)
+
+381107	JTDK
+
+153750	FLZ
+
+973785	OWGP 
+
+910374	Invesco American Growth 
+
+138888	Invesco Asia Tiger Growth
+
+520210	Osekip
+
+962232	OGAW Dollar Reserve
+
+972004	Outfit
+
+437912	Invesco European Growth
+
+697130	Otule
+
+552022	Ogab
+
+410795	Opam 
+
+195116	Okig Leisure 
+
+059676	Olasul China 
+
+140541	OSV 
+
+735052	OGAW Nippon Enterprise 
+
+172752	OGAW Nippon Growth 
+
+967406	OGAW Nippon Warrant 
+
+167514	Invesco Selected Asean CB 
+
+894270	Invesco Selected Asean CB (thes)
+
+352334	OGAW Sterling Reserve Fund
+
+390487	Invesco UK Growth Fund
+
+732120	K. Boecker Lothar Beimfohr (B)
+
+321049	K. Boecker DM Beimfohr (B)
+
+344233	K. Boecker Dollar Beimfohr (B)
+
+877426	K. Boecker Euro Stock (B)
+
+206399	K. Boecker Europe Beimfohr (B)
+
+348350	K. Boecker Rosina Antz (B)
+
+510632	K. Boecker German Isele (B)
+
+922505	K. Boecker Global Beimfohr (B)
+
+489952	K. Bannasch (B)
+
+070213	K. Boecker Korean Isele (B)
+
+664032	K. Boecker HeadwayJobcenter
+
+535043	K. Boecker Special Swiss (B)
+
+348322	K. Boecker Ihno Antz (B)
+
+369927	K. Boecker Swiss (B)
+
+102894	K. Boecker Swiss Beimfohr (B)
+
+367488	K. Boecker Swiss Cash (B)
+
+887096	K. Boecker US Isele (B)
+
+156314	Natterer
+
+202291	Nordwaldmarkt
+
+952156	NRH CHF Global Volker
+
+418547	NRH CHF Reserve
+
+000599	Nexans autoelectric
+
+479210	NRH DM Reserve
+
+489408	NDIG
+
+334701	NLU
+
+905476	NRH Euro Global Volker
+
+447673	NTS
+
+670449	Mercury European Opportunities
+
+856211	NTAC
+
+056947	NRH GBP Reserve
+
+242922	NUGU
+
+462176	Naturgut
+
+467041	NDJ
+
+029952	Mercury Laage
+
+662091	Nene
+
+253653	NNL
+
+086916	Mercury Latin America
+
+898242	NahKauf
+
+975053	Nehberg
+
+922962	Nachbarschaftsladen
+
+732676	Nene
+
+032225	Nicoletti
+
+929767	Nähstudio
+
+127266	Neuseelandhaus
+
+571951	NRH USD Reserve
+
+069853	NRH Yen Global Volker
+
+629363	Notose
+
+924932	Nähstube. Equity
+
+981866	Greenland
+
+795897	GVU
+
+426591	GKK
+
+348021	Graetz
+
+249399	New Continental Program
+
+911936	Mignitz Small Cap
+
+607377	Mignitz Value
+
+970174	AutoFit
+
+182245	Ahat & Info
+
+090233	ADJ
+
+120874	Alleencenter Growth
+
+283360	Alleencenter Health & Environment
+
+513630	ACK
+
+326725	Autovario
+
+549040	Herre (A)
+
+782556	Herre (B)
+
+394086	Hrastnik (A)
+
+369539	HASG
+
+176555	Holab (A)
+
+853058	hairfree
+
+755133	Rodels (A)
+
+593684	Rodels (B)
+
+699383	Hold (A)
+
+648214	Hold (B)
+
+688633	HVM (A)
+
+697861	Hundemaxx
+
+461755	Parvest Holland (A)
+
+238018	Parvest Holland (B)
+
+363542	Haustiershop. Equities (A)
+
+969830	Haustiershop. Equities (B)
+
+220762	Horstkortte (A)
+
+064846	Horstkortte (B)
+
+714592	Parvest Italy (A)
+
+750626	Parvest Italy (B)
+
+374631	Parvest Japan (A)
+
+443134	Parvest Japan (B)
+
+347518	Parvest Obli Benelux (A)
+
+275918	Parvest Obli Benelux (B)
+
+674614	Parvest Obli CAD (A)
+
+345154	Parvest Obli CAD (B)
+
+165413	Parvest Obli DEM (A)
+
+039421	Parvest Obli DEM (B)
+
+187260	Parvest Obli DKK (A)
+
+938406	Parvest Obli DKK (B)
+
+583985	Parvest Obli ECU (A)
+
+990886	Parvest Obli ECU (B)
+
+653939	Parvest Obli FFR (A)
+
+338542	Parvest Obli FFR (B)
+
+738312	Parvest Obli GBP (A)
+
+615490	Parvest Obli GBP (B)
+
+796649	Parvest Obli ITL (A)
+
+867032	Parvest Obli ITL (B)
+
+032641	Parvest Obli JPY (A)
+
+119831	Parvest Obli JPY (B)
+
+967080	Parvest Obli NLG (A)
+
+482194	Parvest Obli NLG (B)
+
+783136	Parvest Obli USD (A)
+
+733052	Parvest Obli USD (B)
+
+326172	Hilti (A)
+
+102881	Hilti (B)
+
+434215	HREZ DM (A)
+
+524281	HREZ DM (B)
+
+410782	HREZ Euro (A)
+
+173178	HREZ Euro (B)
+
+257606	HeinGericke (A)
+
+485851	HeinGericke (B)
+
+848597	Haushaltsgeräte (A)
+
+028378	Haushaltsgeräte (B)
+
+080304	Hedden (A)
+
+202784	Hedden (B)
+
+972978	HREZ USD (A)
+
+295784	Parvest ST USD (B)
+
+203848	H&D (A)
+
+517765	H&D (B)
+
+141200	Parvest UK (A)
+
+995898	Parvest UK (B)
+
+208321	Parvest USA (A)
+
+851767	Parvest USA (B)
+
+492470	Parvest USD 2 Plus (A)
+
+958618	Parvest USD 2 Plus (B)
+
+652799	Parvest USD Plus (A)
+
+584040	Parvest USD Plus (B)
+
+365688	Pictet Emerging Markets
+
+344442	Pictet European Opportunities
+
+529854	Pictet Euroval Ecu
+
+225128	Helbling
+
+476717	HWN
+
+967113	Holnburger
+
+327756	Pioneer Fund
+
+000182	Pioneer Fund II
+
+128404	HGWK
+
+049548	hifisound
+
+094304	Pioneer Gold Naphausen
+
+729290	HHL
+
+862520	Ueli F. Nico Bresgen
+
+970643	Hellfeier
+
+138961	Regent trendwerk
+
+290577	Regent European Growth
+
+011676	Regent Int. Growth
+
+564686	Regent Japan Growth
+
+783338	Regent Pacific Growth
+
+660217	Regent UK Growth
+
+700007	IFAB
+
+233232	Iniz Euro Rent JPM
+
+951796	Isemann
+
+095623	Iniz Geldmarkt JPM
+
+347448	Ignaz Beimfohr Sar 
+
+387354	Ignaz Beimfohr Sar (thes)
+
+331334	Sarasin Euro Sar
+
+916772	Igelo
+
+611837	Sarasin Ottmar Imgraben
+
+141070	Schroder Emerging Markets
+
+086680	Schroder Euro Equity
+
+061850	Imwalle Global Beimfohr (A)
+
+395176	IBH
+
+004836	Iger
+
+593132	IKEA
+
+426031	Igenur
+
+226315	Imuguw
+
+549892	Imwalle US Equity
+
+639160	IAAR
+
+907997	Scudder Emerging Markets (A1)
+
+521472	Scudder Emerging Markets (A2)
+
+277027	ISOPO Equity (A1)
+
+848800	ISOPO Equity (A2)
+
+698455	Scudder Latin America (A1)
+
+132176	Scudder Latin America (A2)
+
+745848	Scudder US Quality Growth (A1)
+
+013315	Scudder US Quality Growth (A2)
+
+821769	Sun Life American Growth
+
+591999	Sun Life Common Market Growth
+
+143350	Sun Life DM Volker
+
+789548	Sun Life Ecological
+
+640762	Sun Life Far East Growth
+
+656463	Sun Life Global Volker
+
+807444	Sun Life Global Masters
+
+163229	Sun Life Global Recovery
+
+381673	Sun Life Haven
+
+543329	Sun Life Japan Growth
+
+705856	Sun Life UK Growth
+
+962753	SVB Portfolio Growth DM
+
+370697	SVB Portfolio Growth SFR
+
+471557	IEK Portfolio Income DM
+
+109079	IEK Portfolio Income FFR
+
+299503	SVB Portfolio Income SFR
+
+801145	SVB Portfolio Income USD
+
+231510	SVB Portfolio Income/Growth DM
+
+755506	IEK Portfolio Income/Growth FFR
+
+651838	SVB Portfolio Income/Growth SFR
+
+040071	SVB Portfolio Income/Growth USD
+
+977009	Templeton America
+
+696853	Templeton Asian Growth
+
+457536	Templeton China
+
+708004	Templeton DEM Liquid Reserve
+
+807443	Templeton Emerging Markets
+
+230929	Templeton Emerging Markets Fixed Income
+
+133153	Templeton European
+
+782194	GNS
+
+475125	Templeton Global Volker
+
+045916	Templeton Global Convertible
+
+798996	Templeton Global Growth (DM)
+
+749871	Templeton Global Growth (USD)
+
+758492	Golflädchen
+
+757165	Giese
+
+059958	Templeton Growth Fund
+
+229067	Gerhardy
+
+142459	Templeton I & C
+
+907290	Grumanns
+
+829292	Ronny Inzenhofer Cos 
+
+999978	Templeton inkoop
+
+545936	Templeton US Government
+
+758951	Templeton USD Liquid Reserve
+
+196337	Zweiphenning Korea
+
+281594	GutKauf Tiger Fund
+
+563469	Rüdiger Zippenpfennig Aktie
+
+750280	Belflair Term KiKTextildiscount
+
+864433	Buchkantine E-Fund
+
+746548	bikeavenue Fund DM
+
+393987	BioB
+
+698822	BZZP
+
+190949	bikeavenue Fund US USD
+
+785194	Von LWZ
+
+878027	Von Benjamin European Fixed B
+
+716815	Von Lantermann
+
+850288	Von Lustvoll
+
+942919	Von Benjamin Dannegger Equity
+
+128210	Von Lades
+
+570235	Von Liefländer
+
+556655	Von Benjamin Ingwersen Fixed (B)
+
+132251	Von Lokmann Equity
+
+253042	Von Benjamin UK Small Cap
+
+894176	Von Benjamin US Small Cap
+
+043352	Vontobel DM Volker
+
+760060	KUMA
+
+502566	KPAO
+
+329291	Vontobel Emerging Markets
+
+100304	Kenvelo
+
+548715	Vontobel Fund ECU Volker
+
+840260	Knezevic
+
+212368	Vontobel Fund US Selected Equity
+
+124357	Kindermode
+
+414255	Vontobel Fund USD Volker
+
+389871	Vontobel SFR Volker
+
+940610	Vontobel SFR Beimfohr (A)
+
+990370	Worldfolio 1 USD Daily Income
+
+811218	Worldfolio 2 DM Daily Income
+
+820564	Vaten
+
+544070	Worldfolio Global Equities
+
+176195	Worldfolio Naturales
+
+744418	Alexandre Equifund UK
+
+120170	VRC
+
+498435	VVE
+
+231182	Veke
+
+812911	Vösterling
+
+866169	Alexandre Equity French
+
+430887	Vorndran
+
+262049	vitaform Equity Hong Kong
+
+785358	Alexandre Equity Italien
+
+196602	VLHN
+
+201956	Alexandre Equity Spanish
+
+472963	Alexandre USD Reserve

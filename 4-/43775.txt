@@ -1,0 +1,37 @@
+On Wed, 02. 05. 20 00:44:09 +0100, Benjamin Diekfoß
+<dxi.bcdlenfe@rjf.cd> wrote:
+
+Hallo Benjamin,
+
+
+Blödsinn. Quoted-printable ist eine erheblich zuverlässigere =
+Codierung
+als 8bit (und ich möchte in deutschen Newsgroups Umlaute benutzen
+können).
+
+
+Auch Blödsinn. Aber ein vernünftiger Reader wandelt alle offiziellen
+Kodierungen in ein lesbarers Format um. Interessanter Weise benutzt Du
+einen vernünftigen Reader (man muß ihn halt nur bedienen können).
+Vielleicht solltest Du einfach mal CTRL-R beim Anschauen meines
+Postings drücken(*), oder besser noch Dir mal das Handbuch deines
+Newsreader anschauen.
+
+
+Ich glaube tatsächlich, dass es am User liegt. Aber wohl nicht an mir.
+
+Schau bei der nächsten Flame zum Thema Quoted-Printable vorher doch
+nochmal in RFC2045 (falls Du weißt, was RFCs sind), besonders
+Abschnitt 17.12. Dann kannst Du auch mitreden.
+
+plonk und Fup2p
+
+Gruß
+ Leopold
+
+(*) Aber es gibt auf Deinem Betriebssystem bestimmt auch noch
+irgendein buntes Bildchen, dass Du anclicken kannst.
+--=20
+Ein Pinguin, der's besser weiß, kühlt sich den Po mit Scholleneis
+http://wxu.ttyzevu.zc/ Perl Pralinothek Linux MP3 Searchengines Domainchecker
+FAQ lesen nicht vergessen: http://ioc.pxid.jp/~vcwlt/vgecex/ywl.cmug

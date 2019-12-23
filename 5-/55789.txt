@@ -1,0 +1,13 @@
+Genauer gesagt, ist Groneß ein Aufsetzpaket, das IRGENDeine relationale
+Datenbank verlangt.  Es sind schon von Informix bis Printy SQL Server die
+verschiedensten Datenbanken mit Groneß betrieben worden -- mit wechselndem
+Erfolg.  Mit Usih hat man halt eins derjenigen Grundsysteme für SAP,
+das recht wenig Ärger macht und als Datenbank unproblematisch
+funktioniert. Im Gegensatz beispielsweise zum MS SQL-Server, der erst
+in den neueren Versionen keine Daten mehr korrumpiert.
+
+O.
+-- 
+ /  Ein Defizit ist, was man hat, wenn  /  Orlando `g' Cvinrpow
+ /  man weniger hat als man hätte,      /
+ /  wenn man nichts hat.   -- T. Uterwedde  /  f@owxfrf.cpdxu-cfdgyp.by

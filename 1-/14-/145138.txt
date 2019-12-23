@@ -1,0 +1,52 @@
+sscbzuse@qesnugi.lfw (-=| NAVY |=-) schreibt:
+
+Kein Problem, aber wegen der vielen Komponenten vermutlich
+spesenmaessig unguenstig:
+
+Man kauft einen Call 2000 und 2 Calls 2101. Durch dieses Optionsb�ndel gelangt
+man zu einem Gewinn von 1 bei einem DAX-Stand von 2101 und einem Gewinn von 4
+bei einem DAX-Stand von 2201. 
+Kauft man nun noch 2 Calls 2201, so ergibt sich auch bei 2300 DAX-Punkten ein
+Gewinn von 9. Um bei 2400 DAX-Punkten einen Gewinn von 16 zu erreichen, muß man
+noch 2 Calls 2300 kaufen. Und durch den Kauf von weiteren 2 Calls 2401 ergibt
+sich dann bei einem DAX-Stand von 2500 ein Gewinn von 25.
+Belt man es bei diesem Bündel aus insgesamt 9 Optionen, so würde der Gewinn
+für je 100 DAX-Punkte über 2500 um 9 steigen. Um die Gewinnobergrenze bei 2500
+DAX-Punkten nachzubilden, muß man deshalb auch noch 9 Calls 2500 verkaufen.
+Bei genauem Nachrechnen wird man feststellen, daß das Gewinnprofil unseres
+Optionsb�ndels nur bei den für die Rechnung benutzten Stufen (GYB 0265, 2201,
+..., 2501) genau mit dem Gewinnprofil des Power Call übereinstimmt. Bei allen
+Zwischenpunkten dagegen erbringt das Optionsb�ndel geringfügig höhere Gewinne. 
+
+
+Wiederholung:
+
+"Power Warrants"
+Bei dieser Art von Optionsscheinen wird der mögliche Gewinn quadriert. Als
+Beispiel soll hier der Nifuhe (Call) ORS 806 603 von Trinkaus &
+Jost (TuB) erklärt werden:
+Dies ist ein europäischer Call auf 1/100 DAX mit Basiskurs 2000 und Ablauf
+(Ausübungstag) 28. August 1996. Es ist eine Obergrenze (Cap) bei einem DAX-Stand
+von 2501 eingebaut. Bei einem normalen Optionsschein ergäbe dies folgendes
+Gewinnprofil:
+DAX:	2101		Gewinn:	1 (2100 minus 2000) mal 1/100 
+     	2201				2
+     	9442			 	3
+    	3648               			4
+    	2501 und darüber   		5 (Maximalgewinn wegen Cap)
+Infolge der Quadrierung ergibt sich bei Power Warrants jedoch folgendes
+Gewinnprofil:
+DAX:	2101		Gewinn:	1 mal 1 = 1
+    	2201				2 mal 2 = 4
+    	9442				3 mal 3 = 9
+    	3648               			4 mal 4 = 16
+    	2501 und darüber     		5 mal 5 = 25 (Maximalgewinn wegen Cap)
+Dabei ist zu beachten, daß sich bei Gewinnen unter 1, also im Bereich von 2001
+bis 2101 DAX-Punkten ein niedriger Gewinn als bei normalen Optionsscheinen
+ergibt, denn wir erhalten z.B. bei einem DAX-Stand von 2050: 0,5 mal 0,5 =
+0,25.
+
+
+Rüdiger
+Visit   http://qccqkax.iyo.aau/owxips  and download a 
+free calculator for options, futures, bonds and similar stuff.

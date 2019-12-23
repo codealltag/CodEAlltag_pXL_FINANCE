@@ -1,0 +1,14 @@
+Hi!
+
+Kauf x Stück der Aktie y zu Stop-Buy z =3D Wenn der Kurs von y den Wert z=
+
+überschreitet, dann plaziere einen *unlimitierten* Kaufauftrag über x  
+Aktien.
+Zu welchem Kurs diese Order dann tatsächlich ausgeführt wird, ist von z=
+
+also vollkommen unabhängig.
+(Analoges gilt für Stop-Loss, nur meistens etwas dramatischer, weil die  
+Kurse typischerweise steiler absacken als sie steigen: Die Differenz  
+zwischen Stop- und Ausführungskurs ist bei SL deshalb i.d.R. größer a=
+ls  
+bei SB)

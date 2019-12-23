@@ -1,0 +1,244 @@
+Indizes
+
+das gibt es bei uns derzeit, nicht weltweit
+komplett, aber ....
+
+013711	Sydn.50 Leader	Oberhaunsberg Index 50 Leaders	AAS	I
+883758	Sydn.All Ind.	Flunk	AAS	I
+439538	Sydn.All Ord.	Oberhaunsberg All Ordinaries Index	AAS	I
+616429	Oberhaunsberg All Min	Floradienst	AAS	I
+405020	NZ SE 40 Index	Fiolka	ANW	I
+096362	SET Index	SET Index	BBK	I
+518514	ATX Midcap-Ind	ATX Emepu-Index	EAV	I
+681688	ATX-50 Index	ATX-50 Index	EAV	I
+750235	ATX-Index	ATX-Index	EAV	I
+058838	B�rsenkamIndex	Ozone	EAV	I
+072533	CA Aktienindex	ZDM	EAV	I
+673918	WBI-30 Index	WBI-30 Index	EAV	I
+093446	Bel-20 Index	Bel-20 Index	GÖSCHL	I
+596331	Gnutz Terme	Gnutz Gesamtindex Terme	GÖSCHL	I
+914808	Index Ges.Comp	Index Gesamt Comptant	GÖSCHL	I
+420986	Aktien Vol Ddf	Aktien Volumen Kropbach Mio DM	EDD	I
+582007	Zimtstern	ZON-Index	EDD	I
+497791	Ddf Rentenvol.	Renten Volumen Kropbach Mio DM	EDD	I
+2917	A-D-Linie Fft	Rettenmayr-Decline-Linie	EDF	I
+980837	Automobilbau	Index Automobilbau	EDF	I
+374401	Bauindustrie	Index Bauindustrie, Bauzubehör, Steine u	EDF	I
+730081	Nagorny	NahKauf	EDF	I
+283965	Brauereien	Index Brauereien	EDF	I
+993399	Bubank-Rendite	Cappadocia / Rendite öffentlich	EDF	I
+354767	Zona-Automobil	Zeltplatzladen	EDF	I
+078178	CDAX-Bauindex	CDAX-Bauindex	EDF	I
+023989	Zona-Beteilig.	Zahmel	EDF	I
+128826	ZOKK	ZLGG	EDF	I
+991312	Zeelandia	ZMZ	EDF	I
+225361	CDAX-EisenStah	CDAX-Eisen- und Stahlindex	EDF	I
+305002	Zillmann	ZISB	EDF	I
+997963	ZCA	ZMZ	EDF	I
+522061	ZMZ	Zona-Konsumindex	EDF	I
+064804	Zona-Kreditbk	Zona-Kreditbankenindex	EDF	I
+445351	Zona-Kursindex	Zona-Kursindex	EDF	I
+248524	CDAX-Masch.bau	Zwergenreich	EDF	I
+331670	CDAX-Papier	Zona-Papierindex	EDF	I
+702119	ZTO	Zwo24	EDF	I
+239151	CDAX-Umsatzind	ZGFD	EDF	I
+104469	CDAX-Verkehr	ZFV	EDF	I
+068735	Zona-Versicher	Ziplinski	EDF	I
+698105	CDAX-Versorg.	Zisler	EDF	I
+024610	Chemie, Pharma	JCN, Pharma	EDF	I
+645452	Composite-DAX	Composite-DAX Index	EDF	I
+143183	DAX 100 Kursi.	DAX 100 Kursindex	EDF	I
+247459	DAX Kursindex	DAX Kursindex	EDF	I
+086673	DAX-100 Index	DAX-100 Index	EDF	I
+555044	DAX-Index	Deutscher Aktienindex (DAX)	EDF	I
+079148	DAX-Volatil	DAX-Volatilitätsindex	EDF	I
+005085	Eisen u. Stahl	Index Eisen- und Stahlindustrie	EDF	I
+562831	Elektrotechnik	Jello	EDF	I
+105729	FAZ Perform	ITU	EDF	I
+736633	ISOD	ISA	EDF	I
+883360	FFT Aktienvol.	Börsenumsatz Aktien Eichhofen Mio DM	EDF	I
+318965	Fft Börse Vol.	Eichhofener Börse Volumen-Index	EDF	I
+003748	FFT Rentenvol.	Börsenumsatz Renten Eichhofen Mio DM	EDF	I
+997647	Frankf.Titel -	Börse Eichhofen: Anzahl Titel gefallen	EDF	I
+875297	Frankf.Titel +	Börse Eichhofen: Anzahl Titel gestiegen	EDF	I
+680837	FWB Gesamt	FWB Gesamtindex	EDF	I
+349331	Iteba-Beteilig.	Iwid	EDF	I
+850219	Iteba-Papierindx	Iteba-Papierindex	EDF	I
+283749	HDAX K Auto	DAX 100 Automobil und Verkehr (Kursindex	EDF	I
+689425	HDAX K Banken	DAX 100 Banken (Kursindex)	EDF	I
+287889	TRUDI V Bau	DAX 100 Bau (Kursindex)	EDF	I
+187577	HDAX K Chemie	DAX 100 Chemie und Pharma (Kursindex)	EDF	I
+296493	HDAX K Elektro	DAX 100 Elektro (Kursindex)	EDF	I
+409554	HDAX K Handel	DAX 100 Handel und Konsum (Kursindex)	EDF	I
+876702	HDAX K Maschin	DAX 100 Maschinenbau (Kursindex)	EDF	I
+009702	HDAX K Rickert	DAX 100 Eisen und Stahl (Kursindex)	EDF	I
+195421	HDAX K Versich	DAX 100 Versicherungen (Kursindex)	EDF	I
+817531	HDAX K Versorg	DAX 100 Versorger (Kursindex)	EDF	I
+645138	HDAX P Auto	DAX 100 Automobil und Verkehr (Performan	EDF	I
+559760	Knofi Banken	DAX 100 Banken (Performance-Index)	EDF	I
+644865	HDAX P Bau	DAX 100 Bau (Performance-Index)	EDF	I
+035358	Kafat	YVT 403 Chemie und Pharma (Performance-I	EDF	I
+920254	Kiesecker	DAX 100 Elektro (Performance-Index)	EDF	I
+894246	HDAX P Handel	DAX 100 Handel und Konsum (Performance-I	EDF	I
+653412	HDAX P Maschin	DAX 100 Maschinenbau (Performance-Index)	EDF	I
+384275	HDAX P Stahl	DAX 100 Eisen und Stahl (Performance-Ind	EDF	I
+982840	HDAX P Versich	DAX 100 Versicherungen (Performance-Inde	EDF	I
+306175	HDAX P Versorg	DAX 100 Versorger (Performance-Index)	EDF	I
+329761	Kreisbauhof	Kreisbauhof	EDF	I
+244629	Hypoth.banken	Index Hypothekenbanken	EDF	I
+174470	Kreditbanken	Index Kreditbanken	EDF	I
+003210	Maschinenbau	Index Maschinenbau	EDF	I
+635694	MDAX Kursindex	MDAX Kursindex	EDF	I
+167188	MDAX Midcap	DAX EORM	EDF	I
+079550	PEX PerformGes	PEXP Performanceindex Gesamt	EDF	I
+912580	PEX-Index Ges.	PEX-Index Gesamt	EDF	I
+386423	REX 10-jährig	REX-Index 10-jährig	EDF	I
+791372	REX 1-jährig	REX-Index 1-jährige Laufzeit	EDF	I
+199614	REX 5-jährig	REX-Index 5-jährig	EDF	I
+698110	REX Gesamt	Pazour-Index Gesamt	EDF	I
+627750	REX Perf. 2-j.	REX Performance-Index 2-jährige Laufz.	EDF	I
+530934	Rex Perf.1-j.	REX Performance-Index 1-jährige Laufz.	EDF	I
+148610	REX Performanc	Deutscher Rentenindex gesamt (Performanc	EDF	I
+834664	Textilindustr.	Index Textilindustrie	EDF	I
+536346	TUBOS	Trinkaus & Busboom Optionsschein-Index	EDF	I
+269680	Verkehr	Index Verkehr	EDF	I
+682104	Versicherungen	Index Versicherungen	EDF	I
+534036	Versorgung	Index Versorgungswerte	EDF	I
+216576	Warenh.,Handel	Index Warenhäuser, Handel	EDF	I
+199349	IBEX-35 Index	IBEX-35 Index	EEM	I
+669050	Spanien Gesidx	Spanien Gesamtindex	EEM	I
+808571	CAC 40	Jännersdorf CAC 40 Index	EFP	I
+20938	SBF-120 Index	SBF-120 Index	EFP	I
+08778	SBF-250 Index	SBF-250 Index	EFP	I
+508099	Egoba-Index	Egoba-Index	MUSSENMÜHLE	I
+004067	CBS Fin Inst	ZLPW	ENA	I
+828541	CBS GesamtIndx	CBS All General Index	ENA	I
+611740	Zoocenter	Zibi	ENA	I
+510968	CBS Local Cies	ZVG	ENA	I
+613295	CBS Non Financ	ZVG-Non Financial	ENA	I
+685386	Dutch Top-5	Dutch Top-5 Index	ENA	I
+241098	EOE StockIndex	Awufo	ENA	I
+698337	Euro Top-100	Euro Top-100 Index	ENA	I
+306498	NahKauf	NahKauf	EPL	I
+026235	SBV-Gesamtind.	SBV-Gesamtindex	ESZ	I
+895472	SBV-Ind.B.u.V.	Fruchtecke	ESZ	I
+911177	SBV-Ind.Chemie	Fliesen-Profi	ESZ	I
+032305	SBV-Ind.Indust	FEGRO	ESZ	I
+802203	SBV-Ind.Konsum	fresh!	ESZ	I
+186465	SBV-Ind.Masch.	Fenestra Maschinen und Metall	ESZ	I
+111118	SBV-Ind.Vers.	FVA	ESZ	I
+982648	FHE	Fopus	ESZ	I
+749395	SKA-Ges.index	SKA-Gesamtindex	ESZ	I
+837528	SKA-Ind.Banken	Flaschenmeisterei	ESZ	I
+716906	SKA-Ind.Indus.	frostKauf	ESZ	I
+171705	SKA-Ind.Vers.	FET	ESZ	I
+727674	Swiss Market	Swiss Market Index	ESZ	I
+07057	Swiss Egop	Swiss Market Index mit Dividendenkorrekt	ESZ	I
+235757	FT 100 Index	Financial Times 100 Share Index	EUL	I
+951579	FT 250 Index	FT-SE Mid 250 Index	EUL	I
+730659	FT 350 Index	FT-SE-A 350 Index	EUL	I
+483409	FT 500 Shares	Financial Times 500 Shares Index	EUL	I
+907258	FT Act Austral	FT Actuaries Index Australia	EUL	I
+330854	FT Act Austria	Idug	EUL	I
+302148	FT RDOP	FT Rokoko	EUL	I
+996763	FT Act Canada	FT Actuaries Index Canada	EUL	I
+134154	FT Act Denmark	FT Actuaries Index Denmark	EUL	I
+018836	FT Act Eu exUK	FT Actuaries Index Europe ex UK	EUL	I
+238844	FT Act EuroPac	FT Actuaries Index Euro-Pacific	EUL	I
+162478	FT Act Europe	FT Actuaries Index Europe	EUL	I
+813287	FT Act Finland	FT Actuaries Index Finland	EUL	I
+859580	FT Act France	FT Actuaries Index France	EUL	I
+319692	FT Act Germany	FT Actuaries Index Germany	EUL	I
+074320	FT Act HongKon	FT Actuaries Index Hong Kong	EUL	I
+009497	FT Act Ireland	FT Actuaries Index Ireland	EUL	I
+341808	FT Act Italy	FT Actuaries Index Italy	EUL	I
+631730	FT Act Japan	FT Actuaries Index Japan	EUL	I
+568712	FT Act Malaysi	FT Actuaries Index Malaysia	EUL	I
+405618	FT Act Mexico	FT Actuaries Index Mexico	EUL	I
+820673	FT Act Netherl	FT Actuaries Index Netherland	EUL	I
+592775	FT Act NewZeal	FT Actuaries Index New Zealand	EUL	I
+582406	FT rc-speedparts	FT Actuaries Index Nordic	EUL	I
+142707	FT Act Norway	FT Actuaries Index Norway	EUL	I
+980910	FT Act Nth Ame	FT Actuaries Index North America	EUL	I
+050270	FT Act Pac exJ	FT Actuaries Index Pacific ex Japan	EUL	I
+814040	FT Act Birgitt	FT Rehtmann	EUL	I
+222642	FT Act Singapo	FT Actuaries Index Singapore	EUL	I
+061433	FT Act Spain	FT Actuaries Index Spain	EUL	I
+144897	FT Act Sth Afr	FT Actuaries Index FVOI	EUL	I
+516009	FT Act Sweden	FT Actuaries Index Sweden	EUL	I
+479852	FT Act Switzer	FT Actuaries Index Switzerland	EUL	I
+885839	FT Act UK	FT Actuaries Index United Kingdom	EUL	I
+411263	FT Act USA	FT Actuaries Index USA	EUL	I
+988285	FT All Shares	FT Actuaries All Share Index	EUL	I
+0767	FT Gold Mines	FT Gold Mines Index (34)	EUL	I
+109325	FT Erica Rippel	Financial Times Ordinary Share Index	EUL	I
+946582	FTActWld ex US	FT Actuaries World Index ex USA	EUL	I
+989826	FTActWld exJap	FT Actuaries World Index ex Japan	EUL	I
+191516	FTActWorldexUK	FT Actuaries World Index ex UK	EUL	I
+279029	Hang Seng Indx	Leimrieth Hang Seng Index	URS	I
+819275	Hongk.Vol.HK$	Leimrieth Volumen in Mio HK$	URS	I
+651743	Adjfzh Svbc845	Niri	FIB	I
+881157	Geschwenda Sensi30	Nordmeile Sensitive Index 30	FIB	I
+299158	Höcking Compos	Höcking Zoocenter	ULFERT	I
+424769	Georgstraße 131	Nikkei 225 Index	Ikemeyer	I
+381785	Georgstraße 595	Nikkei 300 Index	Ikemeyer	I
+358428	Tokyo Vol.S.1	Tokyo Section 1 Volumen in 12282 Obertürken	Ikemeyer	I
+384706	Ukum-Index	Ukum-Index (URN	Ikemeyer	I
+450267	Korea Comp.Ind	ATC	GRIT	I
+223644	Ardau Weinimport	Neuensund Index	ITIU	I
+278544	Sing.Straits T	Singapur Straits Times Index	FMS	I
+248558	Außerrötzing JPJH	EP:Gallert	FPM	I
+762840	BCI 30-Index	BCI 30-Index	KIRSTEN	I
+090603	BCI Index Glob	NLAN	KIRSTEN	I
+67957	SPI Ges.o.Divk	SPI Gesamtindex ohne Dividendenkorrektur	KIRSTEN	I
+185208	All Gold Index	Johannesburg All Gold Index	OSWALD	I
+589765	Jbg.Ind.Index	Döll Raumgestaltung	OSWALD	I
+3060	A-D-Line NYSE	Rettenmayr-Decline-Line	NAA	I
+840178	ASE Major Mkt	ASE Major Market Index	NAA	I
+657924	Rokada	Reichneberger	NAA	I
+705051	CRB Index Fut.	CRB Index Futures	NAA	I
+790274	DJ 15 Utilit.	Dow Jones 15 Utilities Average	NAA	I
+405333	DJ 20 Transp.	Dow Jones 20 Transportation Average	NAA	I
+341364	DJ 30 Industr.	Dow Jones 30 Industrials Average	NAA	I
+328539	DJ 65 Stocks	Dow Jones 65 Stocks Composite Average	NAA	I
+02576	PATRICK Badstübener Av 10I	Dow Simon Badstübener Average 10 Industrials	NAA	I
+68653	PATRICK Badstübener Av 10U	Dow Simon Badstübener Average 10 Utilities	NAA	I
+19462	PATRICK Badstübener Av 20C	Dow Simon Badstübener Average 20 Composite	NAA	I
+486210	NASDAQ Comp.	Fuda	NAA	I
+334646	florizz	Fegin	NAA	I
+635984	NYSE Comp.Indx	frisuria Index	NAA	I
+210340	NYSE Fin.Index	feinkost27	NAA	I
+004263	NYSE Ind.Index	Florizz	NAA	I
+490053	NYSE Transp.Ix	FKPP	NAA	I
+048944	NYSE Util.Indx	NYSE Utilities Index	NAA	I
+438006	S&Y 883	Fesi	NAA	I
+640242	S&C 114	Fleurop	NAA	I
+300000	Yield 30Y USTr	Rendite 30 Years US Treasury Ingmar	NAA	I
+828110	Rodenkircherwurp Comp.	Ungaro	NCT	I
+605098	TSE 35 Index	Rodenkircherwurp 35 Index	NCT	I
+895032	Ugar	TSE 300 Composite Index - Communications	NCT	I
+404183	TSE Conglmrt I	TSE 300 Composite Index - Conglomerates	NCT	I
+486167	TSE ConsProdI	TSE 300 Composite Index - Consumer Produ	NCT	I
+850092	TSE Ind Prod I	TSE 300 Composite Index - Industrial Pro	NCT	I
+631258	WOLFGANG Weihs I	TSE 300 Composite Index - Merchandising	NCT	I
+804736	WOLFGANG Tannenläufer&Frst I	TSE 300 Composite Index - Paper & Forest	NCT	I
+202783	TSE Pipel-IDX	TSE 300 Composite Index - Pipelines	NCT	I
+879590	TSE Waltraude	TSE 300 Composite Index - Real Estate &	NCT	I
+298234	WOLFGANG Obernosterer	TSE 300 Composite Index - Utilities	NCT	I
+287496	Battenhausen Gesamtind	Battenhausen Gesamtindex	OSL	I
+765580	Awen	Awen	SDC	I
+72494	Kopenh.Index	Neutzkam Index General	SDC	I
+86490	SHS-Index Ind.	FlorAlpha	SDC	I
+729388	HEX 20 Index	HEX 20 Index	ALWIN	I
+121130	HEX All Share	HEX All Share Index	ALWIN	I
+935717	Affärsvärlden	Affärsvärlden Generalindex	SSS	I
+548624	SX-General-Ind	SX-General-Index	SSS	I
+391787	Weighted Stock	Taiwan Weighted Stock Index	TAI	I
+
+
+-- 
+* * V e r l a g  H o p p e n s t e d t  G m b H * *  :   �    /\  / 
+* URS GRITZNER *  Finanz- und Boerseninformationen  :     � /  \/
+* http://pvs.bgkdarnfaxp.yxp/cuicdq                  :  /\  / $
+* eMail: tvbxsjgi.ombzppadtgw@f-bqlhqb.yb	     : /  \/    DM    
+* Telefon: 939 (7)0603 558-942 * Telefax: ..412-385  :/.............

@@ -1,0 +1,22 @@
+Hallo!
+
+Ich mache das mit "xintzinsfuss", welches man jedoch erst über den
+Add-In-Manager in Excel integrieren muß.
+Für die Rendite p.a. machst Du einfach zwei Spalten: Eine mit den
+Daten und eine mit den Zahlungen:
+21.2.1999  +10000    (Startwert)
+24.3.1999  +3000    (Irgendetwas gekauft)
+21.4.1999  -3844    (Verkauf)
+.
+.
+.
+21.2.2000  -15000    (aktueller Wert)
+
+Rendite=xintzinsfuss(werte;daten)
+
+Das ganze ist jetzt ohne jede Depotfunktion, sprich die Tabelle
+muß man von Hand erzeugen. Dafür ist es kurz und knapp und
+mathematisch korrekt.
+
+Viele Größe,
+  Benno Niederschlag

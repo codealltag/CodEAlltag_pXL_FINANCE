@@ -1,0 +1,28 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------B1D96AAC9370FFF28A8FFE6E
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+Ingmar Vonderach schrieb:
+
+
+--------------B1D96AAC9370FFF28A8FFE6E
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Ingmar Vonderach
+Content-Disposition: attachment; rxuyvyah="ookxe.qxk"
+
+begin:          vcard
+fn:             Ingmar Vonderach
+n:              Vit
+email;internet: Txu.Esumo@hbune.imz-bdjsjno.di
+tel;fax:        38152 450311
+note:           ICQ:  Serienmoerder -  1336547 
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+version:        2.1
+end:            vcard
+
+
+--------------B1D96AAC9370FFF28A8FFE6E--

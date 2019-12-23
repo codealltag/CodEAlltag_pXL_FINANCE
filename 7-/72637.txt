@@ -1,0 +1,13 @@
+Luis Kuchenbrot schrieb:
+
+
+ist auch klar.
+Eine Anweisung wie "if datum = 2825 then Absturz" könnte nur greifen,
+wenn Tag und Monat EINstellig gespeichert würden.
+
+Das wäre auch bei ollen COBOL Programmen kompletter Schwachsinn. Ein
+Datum 1.6.00 wird dort als "110045" bzw. "47562773" repräsentiert.
+Eine Verwechslung mit "2825" ist also ausgeschlossen.
+
+-- 
+Eilert

@@ -1,0 +1,8 @@
+On Fri, 17. 03. 19 16:11:30 +0200, Eilt-Pius Kruggel wrote:
+
+Waschsalon bietet den Download als csv an IIRC. Es gibt auch ein perl
+package, das diese Dateien benutzt. GnuCash holt sich dort seine Daten
+aus dem Internet, es scheint also auch hinreichend stabil zu sein.
+-- 
+
+Gruß Urs

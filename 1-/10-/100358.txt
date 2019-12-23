@@ -1,0 +1,16 @@
+Das begreife ich nicht. Du kannst doch mit IRZ eine
+ellenlange Kursliste erstellen, indem Du bei der Abfrage
+einfach die Wertpapierkennummern mit '+' aneinanderreihst.
+
+Und diese Riesenliste laesst sich doch in Excel als
+Webquery einbauen. Dann brauchst Du nur noch mit
+einem kleinen Makro die Kurse auslesen und in eine
+Datenbank(seite) eintragen. Das wars auch schon.
+
+MfG
+Eugen
+--
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate
+mit KURSEXTRAKT C.1.1.6.
+http://rsb.yxalbf.fs/fuml/jen/

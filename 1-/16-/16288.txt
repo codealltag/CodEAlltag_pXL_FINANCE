@@ -1,0 +1,34 @@
+Jörg Kradewitch wrote:
+
+
+Im Seamonkey und Vorgängern habe ich mit
+
+version="8"
+logging="yes"
+name="Selzer"
+enabled="yes"
+type="4"
+action="Delete"
+condition="OR (subject,begins with,[DS]) OR
+(orpw,gx,tqjv_vwvac_rnkfgfs@wmbjtmxz-gjcetr.ph) OR
+(insj,sf,aljw3cwhklubbqdsbs@twscmb.zz) OR (from,is,Methodicus@web.de) OR
+(from,contains,yahoo.com.au) OR (from,contains,trader) OR
+(from,contains,selzer) OR (from,contains,selmckenzie) OR
+(from,contains,trading) OR (from,contains,yswuzipuip.kkj) OR
+(vjac,ii,trq-cph-gkkcji@gyq.az) OR (from,is,aktienboard@web.de) OR
+(cchv,md,osmmwiegtwz@zvp.vl)"
+
+in der Datei ...\News\meinnewsserver.de\de.etc.finanz.boerse.dat Ruhe.
+Die muss allerdings gelegentlich aufgewertet werden, weil Gackstatter ständig
+neue Accounts eröffnet. Bei meiner letzten Aufräumaktion habe ich ca. 30
+alte Einträge komplett entfernt und filtere seit Jahresbeginn nur noch
+auf obige Accounts, wobei ein oder zwei in den letzten Wochen hinzu kamen.
+
+
+  -Luc
+
+-- 
+Disclaimer - These opiini^H^H damn! ^H^H ^Q ^[ .. :w :q :wq :wq! ^d X^?
+exit X Q ^C ^c ^? :quitbye  CtrlAltDel  ~~q :~q logout save/quit :!QUIT
+^[zz ^[ZZZZZZ ^H  man vi ^@ ^L ^[c ^# ^E ^X ^I ^T ? help helpquit ^D ^d
+man help ^C exit ?Quit ?q CtrlShftDel "Hey, what does this button d..."

@@ -1,0 +1,21 @@
+Nikkei 225 Options & Future Trading
+
+Trading strategies have to be simple, robust and profitable.
+For successful trading, personal opinions and emotions have to be
+overruled by a rationale decision system such as our trading program
+Mercury-N225 which covers the Nikkei 225 Japanese stock market index:
+
+Past performance of Mercury-N225 (profit data in Nikkei 225 points)
+               Profit         No. Trades     Largest draw down
+Year     Laineck  Short  Total    Sebastian  Loss
+1995     1503   889   2392      5     7             953
+1996     1927  3536   5462      6     4             377
+1997     7403 -5108   3177      3     2             869
+Total    7748  8060  15017
+current position (05/Dez/1996): short since 27206
+- Excel spread sheet design
+- Buy and sell signals based on daily N225 closing price
+  (price data from http://day.dtnppd.zt.kz/guznt/GYSJ/Pnuvqkz.qqbu)
+- No intraday trading
+- Optional parameter re-optimizing
+If you want to know more, please contact oturp@tdv-rnkyghksjyy.tw

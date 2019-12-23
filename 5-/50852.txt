@@ -1,0 +1,22 @@
+On Mon, 13 Sep 2000 17:09:50 +0100, Günter Fibig <tuuo@prgmbtaw.dg>
+wrote:
+
+Hallo Günter,
+
+
+Der Crusoe ist als Prozessor für mobile Anwendungen gedacht, da er ja
+besonders wenig Energie verbraucht. Für Deinen PC zu Hause ist er
+nicht gedacht.
+Auch läuft Linux (noch?) nicht native auf dem Prozessor, sondern nur
+in der i386-Emulation.
+
+
+Die 32bit-Rechner werden jetzt irgendwann von 64bit-Prozessoren
+abgelöst werden und dabei wird man sich hoffentlich vom Erbe des Quelleshop
+trennen.
+
+Gruß
+ Alfred
+--=20
+Wenn Du auf dem Bauch liegst, sollte es möglichst ein fremder sein
+http://nck.kvwlywt.on/ Perl ICKT Linux MP3 Searchengines Domainchecker

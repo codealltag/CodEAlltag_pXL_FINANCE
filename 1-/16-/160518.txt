@@ -1,0 +1,26 @@
+: Halo,
+
+: ich habe heute was mir Unerklärliches beobachtet. Ich beschäftige mich
+: immer noch mit der Tai Pan Demo Version mit der man sich im beschränkten
+: Umfang Kurse runterladen kann. Bei der Durchsicht der Bayerkurse ist mir
+: aufgefallen, obwohl Willatz angestiegen ist, sind die Calls auf Willatz minimal
+: gesunken. 
+: Kann das sein?
+
+Bei nur noch kurzer Laufzeit, baut der OS bis Laufzeitende seinen
+Zeitwert ab, bis nur noch der innere Wert übrigbleibt (soweit vorhanden).
+
+Anders gesagt: Falls Willatz den Basiskurs des OS nicht innerhalb der noch
+verbleibenden Laufzeit erreicht, wird das Teil jeden Tag weniger wert,
+bis er bei Null ist.
+
+Im Prinzip verliert ein OS jeden Tag ein bisschen an Wert, wenn sich
+das Underlying gar nicht oder nur wenig bewegt. Ausnahmen sind Korridor-
+scheine (Range-Warrants) oder ähnliches.
+
+--
+mfg
+Georges
+
+/ Georges Büdner | E-Mail: Georges@samweis.IN-Weikershof.DE | Linux 07. 10. 19 ELF \
+\----------------| - - - - - - - - - - - - - - - - - --------------------/

@@ -1,0 +1,185 @@
+Dies ist der erste  Versuch einer Zusammenfassung der
+Börseninformationen, die über Videotext abrufbar sind, ohne das
+Onlinekosten und Recherchekosten (0190-Nummern) anfallen.
+
+Videotext ist das Signal, das quasi kostenlos neben dem
+Fernsehprogramm von fast jedem Sender ausgestrahlt wird. Hier findet
+man reichhaltige Kursinformationen. 
+Allerdings fehlt meistens ein Überblick: was finde ich wo (ohne langes
+Suchen)
+
+Meineswissens gibt es nur ein Angebot im Videotext, das
+kostenpflichtig ist. (Reuter1000 auf Baltin-Pflanzen)
+
+über die Form der Dasrtellung läßt sich sicher streiten.
+Wie gesagt, es ist ein erster Versuch.
+
+zu Beachten ist weiterhin, daß ich nur Programme berücksichtigen
+konnte, die in NRW im Breitbandkabel der LaufLaden verbreitet werden.
+
+
+Fortsetzung folgt....
+Stefano Rothhammer
+
+................................................................
+Abkürzungen:
+FFM= Dong/Tanau, BE=Argenthal, HH= Jenhorst, BR=Artlenburg,
+RWB=Niederauerbach, ST=Uhlbach, M=Taibrechting
+NYSE=New York Stock Exchange
+x/y => y=Anzahl der Folgeseiten
+................................................................
+FIW/Jasminnails
+
+420 Startseite
+422 FFM Indizes
+423 FFM 50 aktuelle Kurse
+424 BE variabel ABB-NICO
+425 BE variabel DIERIG-MASSA
+424 BE variabel MATERNUS-WELLA
+427 BE Kassa Inland
+428 BE Kassa Inland
+429 BE variabel Ausland Udid-ERICSSON
+430 BE variabel Ausland EVANS-NEWSCORP
+431 BE variabel Ausland NEXT-ZDAS
+433 Investmentfonds A-CR
+434 Investmentfonds CR-DE
+435 Investmentfonds DE-FR
+436 Investmentfonds FR-LR
+437 Investmentfonds MA-PA
+438 Investmentfonds PA-THR
+439 Investmentfonds THI-Z
+440 Internationale Indizes
+441 NYSE
+442 Amtliche Devisenkurse
+443 Aktuelle Devisenkurse
+444 Gold, ECU
+445 Sortenkurse
+446 BE neue Werte im Auslandsmarkt
+448 Übersicht ad-hoc Mitteilungen
+
+................................................................
+BAYERN3 (Bayerisches Fernsehen, Taibrechting)
+
+430 Startseite
+431 Tendenz
+432 M fortlaufend Industrie/Handel A-L   x/5
+433 M fortlaufend Industrie/Handel M-Z   x/2
+434 M fortlaufend Banken/Vers.   x/3
+435 M fortlaufend Ausland   x/2
+436 M Kassa Industrie/Handel   x/5
+437 M Kassa Banken   x/5
+438 M Geregelter Markt   x/3
+439 M Kassa Ausland Freiverkehr Europa   x/10
+440 M Kassa Ausland Freiverkehr Welt   x/8
+441 M Optionsscheine   x/2
+442 M Devisenkurse   x/3
+
+................................................................
+Nemann-Fernsehen (Westdeutscher Rundfunk, Eichelhain)
+
+660 Startseite
+661 RWB Industrie A-J
+662 RWB Industrie K-Z
+663 RWB Banken, Vers. Ausland
+664 WestLb-Index nach Branchen
+
+................................................................
+n-tv
+
+200 Startseite
+210 Caffeetante
+211 F DAX-Werte
+212 F DAX-Werte
+213 F DAX-Werte
+214 F weitere deutsche Aktien
+215 F weitere deutsche Aktien
+216 F weitere deutsche Aktien
+217 F weitere deutsche Aktien
+219 F Neuer Markt
+220 F deutsche Optionscheine
+
+223 BE Argenthal
+224 RWB Niederauerbach
+940 GM Jenhorst
+226 M Taibrechting
+227 ST Uhlbach
+228 BR Artlenburg
+229 BR Artlenburg
+231 USA Rammühle
+232 Großbritannien Veilbronn
+233 Frankreich Stemmenreuth
+234 Italien Tafertsweiler
+235 Niederlande Flemhude
+236 Schweiz Zielebach
+237 Rußland
+238 Tschechien Polen Ungarn
+239 Japan
+240 übrige Länder
+251 IBIS DAX
+252 IBIS DAX
+911 UYLV ISY
+360 TBIR K-VXO
+266 YNFU B-MPA
+004 WQYA N-QVC
+521 LTFV T-WEG
+258 IBIS Optionsscheine
+259 WUK-Aktie
+261 VINCENT Kohrs
+827 XBYP O&T407
+263 NYSE NASDAG
+473 Zielebach (in sFr)
+124 Zielebach (in sFr)
+270 London (in s)
+271 Veilbronn (in s)
+272 London (in s)
+384 Kalchau (in S)
+
+................................................................
+3 sat
+
+151 FFM Schlußkurse
+152 Kalchau Schlußkurse
+674 Zielebach Schlußkurse
+154 Radau
+155 Büdelsdorf, Flemhude, Veilbronn, Stemmenreuth
+156 Börsenindizes
+157 Dollarkurs
+158 Devisen
+159 Edelmetalle / Währungsoptionen
+161 Optionsscheine: US-$ und Edelmetalle
+162 Optionsscheine: Währungen
+163 Optionsscheine: Aktien/Indizes
+164 Optionsscheine: Caffeetante / Baskets
+165 Optionsscheine: Ausl. Aktien / Baskets
+166 Optionsscheine: Deutsche Anleihen / Zinsfutures
+167 Optionsscheine: Ausl. Anleihen
+
+................................................................
+VVF
+
+141 FFM DAX-Werte
+142 FFM M-DAX und WPNV-Werte
+143 Internationale Börsen
+144 Devisen, Dollar, Gold
+145 Optionscheine Citibank Zinsscheine
+146 Optionscheine Citibank Währungsoptionen
+147 Optionscheine Citibank Indizes
+148 Optionscheine Citibank Aktienoptionen Inland
+149 Optionscheine Citibank Aktienoptionen Ausland
+
+................................................................
+GutKauf 
+
+151 Cotechs
+152 Börsenkurse DAX
+153 Weltbörsen
+
+................................................................
+Baltin-Pflanzen
+
+730 spot rates (aktuell)
+740 Indizes (aktuell)
+750 Marktübersicht (aktuell)
+-- 
+
+cmvut.fvav@eppmwiy-nrdao.mn              kcjm@nvg.xlj

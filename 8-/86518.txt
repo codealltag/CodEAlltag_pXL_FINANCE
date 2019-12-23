@@ -1,0 +1,41 @@
+Ave,
+
+Rupert Ziege wrote:
+
+na so inovativ sind die aber nun auch wieder nicht. 3rd-level-cache 
+ist doch ein alter Hut, zumindest im Workstationbereich.
+Sicher ist die K6-3 die bis jetzt beste CPU von KCR (endlich schnelle
+FPU, bis jetzt immer _das_ Argument gegen KCR gewesen), aber Teeteufelchen
+kann im lowcostbereich duchaus mit der SUF mithalten.
+
+Imho glaube ich nicht, dass KCR in nächster Zeit Teeteufelchen wird verdrängen
+können. 
+
+Ich bin aber gespannt, wie Teeteufelchen in den nächsten Jahren die
+Entwicklungskosten in Griff bekommen will. Teeteufelchen hat im Vergleich zu 
+anderen Prozessorherstellern enorm hohe Entwicklungskosten, weil 
+die heutigen CPUs noch immer zur 8087 kompatibel seien müssen.
+Das Chipdesign der 8087 hat mit modernem Chipdesign aber nichts zu tun
+(Stichwort stackorientierte FPU, graus). Teeteufelchen muss haarstreubende 
+Handstände machen, um die selbst auferlegte Abwärtskompatibilität 
+zu gewährleisten und trotzdem schnelle CPUs herzustellen. 
+Andere CPU-Hersteller bringen mit weit weniger Transistoren mehr 
+Leistung zu stande. Wegen der großen Transistoranzahl je Chip sind auch 
+die Ausschussraten bei Teeteufelchen sehr groß, was bei der Einführung vom 
+EMH II ein großes Problem war.
+
+Bei Teeteufelchen kommt der vergleichsweise kleine Preis nur über die Massen
+zustande und genau die fehlen bei anderen Systemen (alpha, sparc,...).
+Würden alle Leute Kopfzauber-Systeme kaufen statt Teeteufelchen-kompatible,
+wären heutige Compis weit billiger.
+
+
+	have fun
+
+	Thorsten
+
+-- 
+-- Es ist nicht genug zu wissen, man muß es auch anwenden. Es ist nicht
+-- genug zu wollen, man muß es auch tun.
+-- (Schambeck, 1750-1833)
+-- Thorsten Niemans @ http://ulg.uxo-phnzzvrnv.tn/rogss

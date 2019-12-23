@@ -1,0 +1,30 @@
+wxrvmsth@fkf.yda (GMorcher) writes:
+
+
+Das Programm duerfte IMHO mit dem Conrad Boersenprogramm und World
+Money verwandt sein, da das Installationsprogramm der Kurshistorien
+von World Money irgendwas von dem Alekza Plus erzaehlt.
+
+Wenn es sich wie beim Willi Feser um eine ein wenig
+abgespeckte, aeltere Version von WM handelt, dann hast Du keine
+Probleme mit grossen Datenmengen. 
+
+Ich habe seit einigen Tagen ein Datenabo von WM, dies
+umfaßt ca. 3500 Werte, ein Update dieser Werte  wird in ca. 2-3 Minuten in
+den Datenbestand integriert, wobei es geschwindigkeitsmaessig keinen
+grossen Unterschied macht, ob es die Daten eines ganzen Monats sind
+oder nur die eines Tages.
+
+Um Daten aus VT oder Datex-J zu uebernehmen, musst Du diese allerdings
+erstmal so aufbereiten, dass das Programm die auch versteht. Wenn es
+sich allerdings bei dem Programm wieder mal um einen WM-Abkoemmling
+handelt, dann ist im Hilfe-Menu das Datenformat fuer den Import
+von Daten ausfuehrlich beschrieben, so dass es kein Problem darstellen
+sollte, ein kleines Prograemmchen zu erstellen, dass die Daten
+entsprechend aufbereitet.
+
+Gruesse, Francesco
+-- 
+Francesco Ellsäßer            | e-mail : jm@jenxd.ikye.la
+Zerrennerstraße 5  | phone  : +62-3541-25 5 71 // fax : -28 7 87
+D-48596 Magetsweiler   | PGP-Key: finger eqapa@vlmtultlf.iddw.cw

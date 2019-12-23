@@ -1,0 +1,36 @@
+Du hast leider bei deinem Beispiel ein ganz wichtigen Punkt vergessen
+....
+
+Wie sind den die Orders ausgestattet ? Verkauf bestens, Kauf billigst
+,it Limit oder was ?
+
+Der Makler darf ja die Orders nur so Ausführen, wie sie aufgegeben
+wurden.
+
+In deinem Beispiel wären beide Orders zu 1000 ausgeführt worden, wenn
+die Orders
+billigst / bestens oder zu passenden Limiten aufgegeben worden wären.
+
+
+Hoffe geholfen zu haben -
+
+Nils Untiedt
+-----------------------------------------------------------------------------------------------------
+
+Emile
+Mal ne Frage. Wie wird eigentlich ein Kurs gebildet.
+Normalerweise ja da, wo der hoechste Umsatz ist.
+
+Was passiert aber bei folgendem Beispiel:
+DM    Anzahl Aktien Kauf        Anzahl Aktien Verkauf
+100       3476                     3476
+99                                 3476
+
+Keine weiteren Gebote!
+
+Wer verkauft nun die Aktien? Der bei 100, oder bei 99
+oder wird gewuerfelt?
+
+Fragen ueber Fragen
+
+Hoffe auf einen Geistesblitz

@@ -1,0 +1,32 @@
+Hallo allerseits,
+
+das LHEW/EGMT-Team hat die Videotextseiten umgestellt. Die Neuemission BHW ist
+reingekommen und stattdessen Jungheinrich rausgeflogen. Dem muß ich mich
+anschließen, weil ich sonst den Kurs von Jungheinrich immer erst noch schnell
+am Freitagnachmittag aus comepack-Online besorgen und von Hand Nachtragen muß.
+
+Unten der Osdilo-Datensatz, den ihr erst mit einem Externen UUE-Decoder auspacken
+müßt, bevor die Datei dann in DAXA-Chart mit "Hinzuladen" eingelesen wird.
+
+WICHTIG: In der Datei "FET" müßt Ihr die Wertpapierkennummer 663054
+(Jungheinrich) gegen 522390 (BHW) austauschen, aber dabei bitte nicht die Liste
+durcheinder bringen oder umsortieren!
+
+Hier der Datensatz von Osdilo als UUE:
+
+table
+ !"#$%&'()*+,-./0123456789:;<=>?
+@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+begin 294 90_32_78.UVP
+M,2PY,C X,C,-"CDV#0H-"@T*#0H-"@T*#0H-"@T*  D  0 +  L #  ,  P z
+M P #  , %P 0 !  %P 7 !< )P G "<Q,3$Q,3$Q,3$+  8/&    0   #D y
+M!@+X                                         *  < "" &(     x
+M      #2                   !'@ '^)8#Z    X0      '(+;0HH"BA"w
+M2%<@2&]L9&EN9T<M0F%N:MCP($)K=8-D85)O72-V10XUtO.V L."BC-"RYk
++-R!Z=2 R-B!$340Mu
+ t
+end
+
+
+Größe aus Auretzdorf
+                         /Eduard/

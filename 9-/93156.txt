@@ -1,0 +1,16 @@
+Nikolaus Fittschen wrote:
+
+Nein, der VDAX ist einfach die impliziete Volatilität der DAX-Optionen
+an der Eurex, die am Geld sind und eine Restlaufzeit von 45 Tagen haben
+(genauer: meistens gibt es keine Optionen mit genau 45 Tagen
+Restlaufzeit - deshalb wird interpoliert zwischen den imlizieten
+Volatilitäten kürzerer und längerer Laufzeit).
+
+Der VDAX beschreibt also einfach wie groß die Angst ist, daß der DAX
+innerhalb der nächsten 30-60 Tage fällt oder steigt.
+
+
+Raphael Kuenemann
+--
+http://tumrx.gwjiqm.cq-xsvmmn.fk/~kmwx/bzeemeh
+--

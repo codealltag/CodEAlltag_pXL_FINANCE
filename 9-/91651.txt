@@ -1,0 +1,32 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------8706168DFFF76D4DA26EC88D
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+Hallo wert hat information über Kapital -Net-
+
+MFG
+Patrice Pichlmeier
+
+
+--------------8706168DFFF76D4DA26EC88D
+Content-Type: text/x-vcard; charset=us-ascii;
+ name="Ilgmann.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Patrice Pichlmeier
+Content-Disposition: attachment;
+ filename="Ilgmann.vcf"
+
+begin:vcard 
+n:Ilgmann;Andreas 
+15. 07. 20
+jrt;fkvo:8678882480
+x-mozilla-html:TRUE
+Büschingstraße 14;Wassenberg;NRW;41849;Deutschland
+version:2.1
+nhjmp;ivylrmrz:Wuuecni@edwoea-asnr.px
+fn:Patrice Pichlmeier
+end:vcard
+
+--------------8706168DFFF76D4DA26EC88D--

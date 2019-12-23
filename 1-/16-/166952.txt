@@ -1,0 +1,45 @@
+Salut,
+
+vielleicht muss ich jetzt doch mein Wissen weitergeben:
+Also, der Good-Times ist tatsaechlich KEIN Virus, es sei denn, man 
+bezeichnet Massenhysterie als Virus.
+
+Vielleich interessiert es aber jemand, dass es tatsaechlich geht mit Mails
+herumzupfuschen. Wie sich jeder denken kann, ist (fast) kein Programm 
+fehlerfrei. So etwas kompliziertes (sic!) wie die Mailprogramme schon gleich
+gar nicht.
+Der folgende Fehler mittlerweile behoben, aber nur um das mal zu zeigen:
+
+Send-mail hatte frueher ein Laengenbeschraenkung der Subject-Linie, die
+allerdings nicht kontrolliert wurde.
+War ein Subject also laenger als erlaubt, so wurde das Ende der Linie einfach
+so in den Speicher geschrieben.
+Wenn -- und nur wenn -- man jetzt die Zielmaschine SEHR gut kennt, dann kann
+man in diesem ueberhaengenden Teil, und dazu muss man ganz genau wissen wo
+der hinkommt, tatsaechlich einen Virus verstecken.
+
+a) wie gesagt, man muss die Zielmaschine extrem gut kennen, und dann
+   funktioniert das ganze auch nur auf jeweils einer ganz bestimmten
+   Zusammenstellung von Maschinentyp und Betriebssystem.
+b) der von mir genannte Fehler existiert nicht mehr.
+
+FOLGERUNG:
+Hat sich schon mal wer ueberlegt, was passiert, wenn der Blitz direkt bei Euch
+durchs Fenster in den Rechner einschlaegt?
+Unwahrscheinlich ??
+Also, Mails ruhig weiter lesen.
+
+fridolin
+
+L. Näger jemand, wie man ein gelocktes Terminal unter HP-UX zum Aussteigen
+bringt, ohne es auszuschalten ? Ihr seht, es geht vieles ;-)
+
+-- 
+Fridolin Besserer
+University of Feggendorf
+Kopfkunst
+Douvengasse 97, 31034 Feggendorf, Germany
+Tel. (+01) 930/116-2349, Fax (+81) 532/982-5508
+E-Mail: podngjahbmz@ons.nok-htjybvvns.of
+
+"Volk und Glueck sind mit den Narren" - Cpt. Dietmar

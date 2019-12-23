@@ -1,0 +1,83 @@
+Wie versprochen kommen die Vergleiche jetzt zum Wochende, ich werde
+versuchen, einen 14 Tage Turnus einzuhalten. Die ULID Methode kann ich nicht
+mit einbauen, das letzte Kaufsignal stammt aus 1997 und später soll man
+eigentlich nicht einsteigen.
+
+Der Dax ist jetzt das erste Mal seit ich diese Auswertungen hier poste im
+plus. Mein eigenes Depot verzeiht mir alles und steigt täglich, egal was der
+Dax macht, obwohl ich die flash genau vor ihrem Kursanstieg gegen VIF und
+Oesterwiehmann getauscht habe. Als nächstes fliegt wohl die Keksfactory raus, die könnt
+ihr dann kaufen, weil danach der Kurs steigen wird. :-)
+
+Der Dax steht im Vergleich zu den anderen Strategien sehr gut dar.
+Interessant wäre jetzt eigentlich nur einmal zu sehen, wie sich die
+Aktienfonds im gleichen Zeitraum entwickelt haben. Nur ein paar zufällig
+ausgesuchte versteht sich.
+
+So, los gehts:
+
+Entwicklung 27.03.98 bis 27.09.98 in Prozent
+
++ 27,01 eigenes Depot
++ 03,00 Fool 4 ungewichtet
++ 02,05 Dax
++ 00,12 Dividenrendite
+-  02,07 Ohiggins ungewichtet
+-  03,86 Ohiggins gewichtet
+-  07,33 Fool 4 gewichtet
+
+Alle Depots ausser dem eigenen sind fiktiv, alle Depots außer dem eigenen
+hatten einen Ausgangswert von ca. 25 TDM. Der 27.03.98 ist ein willkürliches
+Datum,irgendwann muß man einmal anfangen. Ein anderes Datum kann ich zur
+Zeit nicht liefern, wer will kann es sich selber berechnen. Die
+Excel-Tabelle dazu kann ich per Email verschicken.
+
+Alle Musterdepots (außer meinem eigenen) bleiben bis zum 26.03.99
+unverändert. Bei meiner Berechnung werden die Dividenden in Zukunft bis zur
+Umschichtung als Bargeld im Depot berücksichtigt. Seit dem 27.03.98 sind nur
+teilweise Dividenden angefallen. Gebühren fehlen völlig. Bitte mailt mir die
+Werte der Dividenden pro Aktie von Igege, Idug, Imagination.Haro, POZ, Fossil.
+flash, Ugar, Unibuch, WIC, Cafeteria, Fuda, mit dem Tag der Ausschüttung.
+Bitte nur die nach dem 16.08.1998.
+
+Alle Strategien arbeiten nur mit den 30 DAX-Werten. Alle Strategien arbeiten
+mit der voraussichtlichen Dividendenrendite 1999 (Dividendenwerte laut Börse
+Online vom 28.03.98).
+
+Beschreibung der einzelnen Strategien:
+
+Ohiggins gewichtet  - Alle Werte in absteigender Reihenfolge
+(Dividendenrendite) sortiert. Alle Kurswerte werden umgerechnet auf Nennwert
+DM 50,00. Davon die 5 optisch billigsten mit jeweils gleich hohen Beträgen.
+Depot: 80 POZ, 281 Dt. flash, 17 ZVK, 9 WIC, 65 Fuda
+
+Fool 4 gewichtet - Wie Modell Ohiggins gewichtet allerdings bleibt der
+billigste Wert (Fuda) draußen und der zweitbilligste (FPU)
+bekommt 40 Prozent des Depotwertes, die anderen 3 je 20 Prozent.
+Depot: 38 POZ, 234 Dt. flash, 9 MAN, 9 WIC
+
+Ohiggins ungewichtet - Gleiches Modell wie Ohiggins gewichtet, allerdings
+keine Umrechnung auf Nennwert DM 50,00 sondern nur die tatsächlich 5 optisch
+billigsten mit jeweils gleich hohen Beträgen.
+Depot: 75 Igege, 53 Menhardsweiler, 53 Mörtersdorf.Haro, 02 POZ, 281 Dt. flash
+
+Fool 4 ungewichtet - Wie Modell Ohiggins ungewichtet, allerdings bleibt der
+billigste Wert(Dt. flash) draußen und der zweitbilligste (POZ)
+bekommt 40 Prozent des Depotwertes, die anderen 3 je 20 Prozent.
+Depot:73 Igege, 53 Menhardsweiler, 57 Hammer Kirchweg.Hypo, 260 POZ
+
+Dividendenrendite - Die 10 besten Dividendenrenditen für 1999
+Depot:  37 Igege, 77 Menhardsweiler, 28 Bay.Hypo, 39 POZ, 10 Dt. flash, 5
+MAN,  27 Metro, 5 WIC, 28 Cafeteria, 0 Fuda
+
+Mein Depot ist wie folgt bestückt (sortiert nach Wert, absteigend)
+Volksluxus, JZAV Vz, POZ, BB InNatura/10, jawoll, FZG, Oesterwiehmann, Veloküche
+Online, Unelon, Keksfactory, JZAV Call 727427, POZ jg.
+
+ACHTUNG - WARNUNG
+
+Wer die eine oder andere Strategie einsetzen will, muß die
+Depotzusammensetzungen selber neu berechnen. Die obigen Zusammensetzungen
+stimmen nur per Stichtag 26.03.98 (Mit Ausnahme meines Depots natürlich).
+
+Viele Größe, Pietro

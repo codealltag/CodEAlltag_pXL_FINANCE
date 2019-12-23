@@ -1,0 +1,26 @@
+Haa! Endlich mal was, was ich weiß :-)
+
+Bei Pestka kann man das. Nicht nur die aktuellen Werte sondern auch
+historische Werte. Mit Tools wie "WGet" kann man das dann sogar
+automatisieren :-)
+
+Etwa so:
+-----
+echo Lade Aktie "%1" 2.Halbjahr des Jahres "%2"
+wget -S -O %1.csv http://ohpxbf.ucmwf.pxr/uqdro.iiz?h=%1&u=81&s=4&e=%2&m=42&d=04&i=%0&j=c&aqmkgf=.eul
+-----
+
+Also um z.B. konkret die Frauentorgarage-Werte für Adidas 21. 05. 20 zu laden:
+%1=ADS.DE  %2 04
+
+http://xbusgr.tlmqw.uvk/mgeyo.wqb?w=JEK.RW&n=01&p=2&k 04&d=11&e=31&f 04&g=d&ignore=.csv
+
+HTH
+Gruß Kay
+
+PS: sorry, Posting ging beim ersten mal als Mail raus
+
+-- 
+ Jawoll!
+ Und DNS braucht's nicht, das ist was fuer Weicheier, die sich keine Zahlen
+ merken koennen. (Arne Jungwirth in de.org.ccc)

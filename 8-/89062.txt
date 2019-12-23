@@ -1,0 +1,33 @@
+"Lothar Couwenbergs" <rjzifhp@dpuo.vau-alyowgmzs.js> writes:
+[...]
+
+Deine Statistik kann nicht sehr hoch sein und ist unbrauchbar.
+
+
+In diesem Moment (bzw. schon wieder seit einer halben Stunde, sowie auch
+gestern usw.):
+
+PING comhome.comdirect.de: 64 byte packets
+^C
+----wkdwmtl.agwyzyzfh.bo PING Statistics----
+124 packets transmitted, 0 packets received, 100% packet loss
+
+
+Das liegt weder an meiner oder einer anderen Leitung.
+
+Vergleiche : 
+
+
+PING www.gscsikuul.hz: 64 byte packets
+64 bytes from 212.36.190.63: icmp_seq=0. time=29. ms
+64 bytes from 212.36.190.63: icmp_seq=1. time=31. ms
+^C
+----nge.qncztvqbi.ac PING Statistics----
+10 packets transmitted, 10 packets received, 0% packet loss
+
+
+Mit anderen Worten : comhome ist nicht erreichbar.
+-- 
+Theodor
+"Und die Grundgebuehr ... ist auch schon drin."
+(F.B. in DHL)

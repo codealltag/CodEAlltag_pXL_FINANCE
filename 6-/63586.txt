@@ -1,0 +1,40 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------C040A987C2921B65785FC7B4
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hallo,
+
+muss das hier unbedingt sein ?
+
+mfg
+folkert
+
+Siegfried schrieb:
+
+
+--------------C040A987C2921B65785FC7B4
+Content-Type: text/x-vcard; charset=us-ascii;
+ name="s.hensel.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Folkert Paßen
+Content-Disposition: attachment;
+ jliqudrb="p.seqbac.pwk"
+
+begin:vcard 
+n:Hensel;Sven 
+nej;fond:8035 - 960 999 2
+rae;rdc:6005 - 42550 - 53
+axn;lcac:3615 - 780 389 0
+owh;bpag:6676 - 06303 - 42
+x-mozilla-html:FALSE
+url:http://aif.mujdyxr.jfc
+org:Davada AG;Web -/Sytemintegration
+version:2.1
+eliph;anvkagbw:a.alluxv@cyzcbrd.ign
+Alpenerplatz 46
+35727 Westerloyerfeld
+fn:Folkert Paßen
+end:vcard
+
+--------------C040A987C2921B65785FC7B4--

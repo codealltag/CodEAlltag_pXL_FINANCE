@@ -1,0 +1,11 @@
+Torsten B.  skribis:
+
+
+Gerade diese Beispiele zeigen, dass man X86 nicht braucht. Videos 
+(de-)kodiert sowieso die Videoeinheit umd MP3 die FPU. Alle Modernen ARMs 
+habe diese Videoeinheit und AMR-Neon ist nicht schlechter als X86-SSE. Nur 
+mit der Unterstützung hapert es möglicherweise noch.
+
+X86 braucht nur noch wer Windows braucht.
+
+Kai

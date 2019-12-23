@@ -1,0 +1,11 @@
+: In der Vergangenheit gab es tatsaechlich mal Geruechte dass es
+: findigen Menschen gelungen sei, die vom Bank-Verlag generierten
+: TANs zu berechnen. Aber nix genaues weis man nicht.
+
+Man In The Middle-Angriff ist billiger.
+
+Der Nutzen fuer den Angreifer ist jedoch nicht gross, da Ueberweisungen
+ohnehin nur auf das Referenzkonto getaetigt werden koennen. Sicher kann
+der Angreifer grob bescheuerte Wertpapiertransaktionen durchfuehren, aber
+das nutzt ihm so gut wie nichts, da er an den "Markt" verkauft und nicht
+an sich.

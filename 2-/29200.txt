@@ -1,0 +1,21 @@
+On Tue, 05. 07. 19 09:01:16 +0200, Thus hast thou ("Ulrich Landstorfer"
+<jzbhlp.rwxjsm@pp.ah-kcoots.la>) spoken:
+
+
+Sollte natürlich: "Menge, die zu diesem Preis zum *Kauf* gesucht
+wird... heissen". Scharf beobachtet Rahel und Gianni.
+
+
+Nein. Wenn dein *Kaufsangebot* mit Limit knapp über Ask liegt wirds
+ausgeführt und erscheint als "Last". Dann existiert ja ein
+Verkaufsinteresse zu dem von dir gesuchten Preis...
+
+Bid/Ask sind nur die (noch) nicht ausgeführten
+Kaufs-/Verkaufsangebote.
+
+Wenn du also hingegen z.B. aktuell Bid 200/ Ask 202 hast und einen
+Auftrag mit Bid 201 eingibst erscheint dieser unter Bid -> Neu Lgl 481
+/ Ask 202.
+
+Gruss
+Edgar

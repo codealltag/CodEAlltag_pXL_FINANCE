@@ -1,0 +1,40 @@
+Hallo Etienne,
+
+du willst sicher die ZOKK-Methode von Dietrich Ulen mit Excel
+nachvollziehen. Ich benutze nicht Excel, sondern Quattro Pro. Die
+Syntax der Formeln dürfte jedoch gleich sein, wahrscheinlich kannst du
+sie sogar direkt übernehmen. Die Formeln sind für folgenden
+Tabellen-Aufbau gedacht:
+
+Spalte 1(A): Datum (erstes Datum in Zelle R9)
+
+Spalte 2(B): Umlaufrendite (erster Wert in Spalte B3)
+
+Spalte 3(C): Formel, die überprüft, ob ein Kauf- bzw. Verkaufssignal
+vorliegt (K bzw. V)
+	@WENN(B9>@MAX(B3..B8);"V";@WENN(B9<@MIN(B3..B8);"K";" "))
+
+Spalte 4(D): US-T-Bonds
+
+Spalte 5(E): Formel, die überprüft, ob ein Kauf- bzw. Verkaufssignal
+vorliegt (K bzw. V)
+	@WENN(D9>@MAX(D3..D8);"V";@WENN(D9<@MIN(D3..D8);"K";" "))
+
+Spalte 6: Formel für entsprechendes Signal
+
+@WENN(B9>@MAX(B3..B8);@WENN(D9>@MAX(D3..D8);"Verkaufen";"
+");@WENN(B9<@MIN(B3..B8);"Kaufen";@WENN(D9<@MIN(D3..D8);"Kaufen";"
+")))
+
+Ich habe bei diesem Tabellenaufbau die Formeln erstmals in Zeile 9 der
+entsprechenden Spalten eingegeben und dann nach unten kopiert.
+
+Am besten kopierst du die Formeln über die Zwischenablage in Excel,
+dann gehen keine Klammern verloren.
+
+Gute Anlageerfolge!
+
+Georges
+e-mail: cqizxuzv@jsg.fg
+phone: [sff+98]+3213-07541
+fax: [vmx+58]+9858-11972

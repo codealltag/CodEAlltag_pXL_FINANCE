@@ -1,0 +1,10 @@
+Es gibt keine fest Definition. Aber sinnvoll waere die Standardabweichung.
+
+
+Man koennte integrieren (summieren) ueber den gesamten Handelszeitraum
+eines Papiers, indem man an gleichen Zeitintervallen die Quadrate der
+relativen Abweichungen vom bisherigen Mittelwert summiert und durch die
+Zahl der Intervalle dividiert. Dann laest man die Zeitintervalle gegen
+Null gehen.
+
+Hier sprach ich von der historischen Volatilität.

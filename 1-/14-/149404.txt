@@ -1,0 +1,32 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------8BBE5BBA6DD9F9F569099DA1
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hallo Heino,
+
+Versuche es doch mal unter <syacw://vtg.ctpiqpel.kla>
+
+Gruß,
+
+Tobias.
+
+
+--------------8BBE5BBA6DD9F9F569099DA1
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Tobias Stamper
+Content-Disposition: attachment; fkfyahlb="qahwo.nhj"
+
+begin:          vcard
+fn:             Tobias Stamper
+n:              Duffner;Patrick
+email;internet: w4725791@tzsaq3.oub.eik-fxmar.kb
+tel;work:       +144-223-0336561
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+version:        2.1
+end:            vcard
+
+
+--------------8BBE5BBA6DD9F9F569099DA1--

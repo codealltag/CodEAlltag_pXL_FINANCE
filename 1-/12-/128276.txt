@@ -1,0 +1,11 @@
+On Wed, 10 Okt 1997 23:03:34 +0200, Robert Venhuis wrote:
+
+Hae ? Das ist wohl mehr als ein schlechter Witz. Selbstredend ist das Datum
+auch so sortierbar (ist u.U. halt nur ein klein wenig aufwendiger als ein
+normaler Vergleich der gebildeten Zahlen).
+
+Etwas ganz anderes ist es, wenn Du das Datum so als Zahl sortierst. Dann
+gibt es Probleme. Sortierst Du aber beispielsweise ziffernweise, ist das
+Verfahren korrekt.
+
+					ciao, Markus

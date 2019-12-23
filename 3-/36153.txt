@@ -1,0 +1,16 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------36954B09965A2B7223DB93DD
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+--------------36954B09965A2B7223DB93DD
+Content-Type: image/jpeg;
+ name="Ansicht vorne.jpg"
+Content-Transfer-Encoding: base64
+Content-Disposition: inline;
+ filename="Ansicht vorne.jpg"
+
+<encoded_portion_removed>
+EQEREH//2Q==
+--------------36954B09965A2B7223DB93DD--

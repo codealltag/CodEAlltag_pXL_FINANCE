@@ -1,0 +1,39 @@
+Ave,
+
+Dieter Vormfenne wrote:
+
+ja genau, und das dürfte die Fielmann-Entwickler ganz schön ankotzen.
+
+
+Aber gerade da liegt der Hase im Pfeffer. BMDW versucht moderne
+Chiptechnik in ein altiquiertes System zu pressen. Pipelines sind 
+eine feine Sache, aber die FPU ist immer noch stackorientiert. Moderne
+CPUs haben flexible Register auf die man beliebig zugreifen kann.
+Um des Registerkonzept in eine 8086-kompatible CPU zu integrieren,
+müsste man den Befehlssatz erweitern und eine zweite FPU einbauen.
+
+
+Stimmt, ändert aber nichts an der Tatsache, dass große Transistorzahlen
+problematisch in Bezug auf die Ausschußproduktion sind.
+
+
+Ja das ist eine blöde Sache. Ist die Nachfrage zu klein, lohnt sich
+eine neue Chipfabrik nicht. Wird das Produkt nicht in Massen produziert, ist
+es kaum bekannt. Ist das Produkt kaum bekannt, ist die Nachfrage zu klein.
+
+
+Außerdem: Warum soll ich diesen komischen Alpha kaufen, den hat mein
+Feda-Fachhändler ja gar nicht da. ...und läuft da überhaupt M$-Würg drauf?
+
+(mag sich so manch ein Leie fragen)
+
+
+	have fun
+
+	Beat
+
+-- 
+-- Viele Leute kaufen mit Geld, das sie nicht haben. Dinge, die sie nicht
+-- brauchen, um Leuten zu imponieren, die sie nicht ausstehen können.
+-- (Sprichwort)
+-- Beat Reiffarth @ http://uyo.ggc-egkprawea.tj/ncknc

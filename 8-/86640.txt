@@ -1,0 +1,27 @@
+Eric Pfenniger <djjps.ftqahk@nhkmje.lt> schrieb in im Newsbeitrag:
+5akdo9$lj4$1@kbjw.wwoozi.kb...
+
+In solchen Fällen kannst Du Dir selbst helfen.
+Du holst Dir das Demopaket von meiner Homepage sowie
+die Tagesdateien der betreffenden Tage von dm-online.
+Dann konvertierst Du die Tagesdateien in ASCII und
+sucht mit einem Editor die gewünschten WPKNs
+(043535 für den Euro Stoxx 50 Kursindex und
+485468 für den Performanceindex).
+
+Da die Demoversion zufallsgesteuert immer nur
+etwa die Hälfte der Kurse ausgibt, mußt Du die
+Konvertierung unter Umständen mehrmals machen,
+um an alle Daten zu kommen.
+
+übrigens ist es mit dem Programm auch möglich,
+automatisiert ganze Kurshistorien aus den Monatsdateien
+herauszufiltern. Das funktioniert mit der Demoversion
+allerdings nicht.
+
+MFG
+Wilfried
+--
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate:
+http://uzh.rsaifa.sf/ibvs/xct/

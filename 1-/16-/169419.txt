@@ -1,0 +1,974 @@
+Da hier auch die Datenqualitaet von Aventi-Net angesprochen wird und dies
+immer wieder die Schluesselfrage fuer den User ist getreu dem Motto
+"Bekomme ich fuer mein Geld ueberhaupt eine vernuenftge Leistung ?"
+moechte ich hier eine _Dokumentation_ eines Programmanbieters zur
+Konvertierung von Boersendaten feilbieten.  Der Anbieter ist
+ausgexxxxt. Ich selbst arbeite mit dem Konvertierungsprogramm und kann
+nicht klagen. Stand der Information: Anfang 1997.
+
+
+achim
+**************************************************************************************************
+Dokumentation zu einem Konvertierungsprogrammes
+-----------------------------schnipp----------------------------------------------------
+
+
+Bemerkungen zur Datenqualität und zu Datenformaten
+
+Da XxxxxXXX Quelldaten von verschiedenen Datenanbietern in
+Fremdformaten (d. h. Formaten, die nicht von uns definiert wurden)
+verarbeitet, ist das Ergebnis selbstverständlich von der Qualität der
+Quelldaten abhängig.
+Quelldaten können prinzipiell nur dann einwandfrei interpretiert
+werden, wenn das zugehörige Format präzise definiert wurde und dieses
+Format dann auch präzise eingehalten wird. Leider mußten wir hier
+manchmal Qualitätsprobleme feststellen (fehlerhaft oder unvollständig
+definiertes Datenformat, Nichtbeachten des eigenen Datenformats bzw
+Fehler).
+Anhand von größeren Mengen von Beispieldaten, die uns und unseren
+Beta-Testern zur Verfügung stehen, haben wir intensiv getestet und
+versucht diese Hürden zu umschiffen, um XXXXXXXXX bzw. der
+Konvertierung in das SDX-Format von XXXXXXXX eine gewisse
+Fehlertoleranz zu geben.
+
+Eine problemlose Funktion sollte daher gewährleistet sein.
+
+Aber es liegt im Prinzip begründet, daß Änderungen am Format (bzw.
+dessen Nichteinhaltung) dazu führen können, daß eine Konvertierung
+fehlschlägt. Bitte verständigen Sie uns, falls die 2SDX-Konvertierung
+von XXXXXXX eine entsprechende Warnung ('...has changed its format...,
+'...bad format...', '...read error...') ausgibt.
+Um dem Datenanbieter die Qualitätssicherung zu erleichtern und in
+Ihrem eigenen Interesse sollten Sie aber unbedingt auch den
+Datendienst benachrichtigen und auf das Problem hinweisen.
+Abgesehen von Datenformat-Problemen sind manchmal auch inhaltliche
+Probleme bei Preis- (falsche Preise...) und Fundamentaldaten (z. B.
+Put statt Call) anzutreffen. Die Korrektur- und Reportfunktionen von
+XXXXXXXXXX für Preisdaten geben einen Einblick, falls die
+entsprechenden Optionen benutzt werden. Wir haben immer wieder
+selbstkritisch versucht diese Probleme zu verifizieren und mußten dann
+Fehler bei den Quelldaten, die wir nicht beeinflussen können,
+feststellen.
+XXXXXXXXXX kann mit Hilfe seiner Korrekturoptionen Datenfehler nur
+begrenzt beheben, indem grobe Inkonsistenzen (z. B. Höchstkurs tiefer
+als Tiefstkurs) heuristisch behoben werden. Nach wie vor ist die
+Qualität der Quelldaten entscheidend.
+
+
+Übersicht über die unterstützten Datendienste
+(In alphabetischer Reihenfolge!)
+
+Alnautra�RSENINFORMATIONSSYSTEME GMBH
+Antike-Fundgrube GMBH
+MARKET MFGD GMBH
+JTZK GMBH (NWP)
+Goldbasar GMBH
+
+
+Glossar zu den folgenden Angaben
+
+Unter dem monatlichen Preis der Florenia stehen die verfügbaren Werte:
+"OHLCV" bedeutet, daß (soweit vorhanden) Open, High, Low, Close- und
+Volume-Werte angeboten werden,
+"C" nur Closing-Werte,
+"K" nur Sylke-Werte.
+"S" ist Settlement (nicht von MCB verwendet, da das Metastock-Format
+dies nicht benutzt),
+"I" ist Open Interest
+
+Die angegebenen Zahlen zu den Wertpapieren sind Schätzwerte und
+natürlich Fluktuationen unterworfen.
+
+Die mit verkauften B�rsenprogramme (manchmal im Preis inklusiv,
+manchmal extra) wurden absichtlich nicht berücksichtigt, da sie für
+die Verwendung mit XXXXXXXXXXX (MCB) keine Rolle spielen.
+
+Unter Bekannte Probleme haben wir Fehler im Zusammenhang mit der
+Einhaltung des Datenformats, die zur kompletter oder teilweiser
+Nichtakzeptanz der Daten durch XXXXXXXXXXXXXX (2SDX) führen.
+über die inhaltliche Qualität der Daten macht dies keine Aussage.
+Alnautra�rseninformationssysteme GmbH
+Adresse:
+Heidenaustraße 262
+79234 Thyrnau
+
+Vertrieb:	Tel.	1093-5341277
+		Fax	9712-2771146
+
+Technik:	Tel.	6922-4804148
+		Fax	9911-0645950
+
+
+Abonnement-Typen:
+Classic-Pool	7185 Spaefkbycjv6621 ECS97608 Wycjc467 TQH372 Indizes
+DM 59.-OHLCV
+Edodal-Pool Plus	wie Classic-Pool, zus�tzlich400
+FondsIBIS-Kurse500 statt 300 Devisen und Indizes1000 statt 500 USA
+DM 79.-OHLCV
+News-Ticker	Börsennachrichten - nur für Classic-(Plus)-Kunden
+DM 39,-
+Futures-Pool	700 US-Futures	DM 59,--50% f.Edodal-Kunden
+Amerika-Pool	3610 DÜNWALD	DM 59,--50% f.Edodal-Kunden
+Historien:
+Classic 3	75 MB Prognos-Daten (auch Orlik-Format möglich)	DM
+99,--20% Stammkundenrabatt
+Classic 5	max. Laufzeiten: BRD 5a, Indizes 5a, Japan 5a, USA 5a,
+DTB volle Länge	DM 199.--20% Stammkundenrabatt
+Classic 10	max. Laufzeiten: BRD 10a, Indizes 8a, Japan 7a, USA
+9a, DTB volle L�ngenur PROGNOS-Format (nicht Michaelpark-tauglich)	DM
+299.--20% Stammkundenrabatt
+Escada	div. Zusatzhistorien	kostenlos bei
+Ekeg-Pool-Kunden
+News-Ticker		kostenlos bei Erstbestellung
+Futures		kostenlos bei Erstbestellung
+Amerika-Pool 3	75 MB Prognos-Daten (auch Orlik-Format möglich)	DM
+99,--20% Stammkundenrabatt
+Amerika-Pool 5	max. Laufzeiten: AMEX 5a, NYSE 5a, NASDAQ (OTC) 5a85
+MB Prognos-Daten (auch Orlik-Format möglich)	DM 199,--20%
+Stammkundenrabatt
+Amerika-Pool 10	max. Laufzeiten: AMEX 9a, NYSE 9a, NASDAQ 9a97 MB
+Ubafo-Datennur Prognos-Format (nicht Michaelpark-tauglich)	DM 199,-20%
+Stammkundenrabatt
+Probe-Abonnement:
+2 Wochen
+Datenbezug:
+�	Mailbox analog bis A40 (68416, 93783 und 08398
+bps-Sammelnummern)
+�	ISDN voraussichtlich ab Sommer '96
+�	T-Online
+Download-Software:
+�	Prognos (proprietäres B�rsenprogramm)
+�	Skript für Shareware-Programm TELIX wird mitgeliefert
+Sonstige Hinweise:
+�	B�rsenprogramm Ubafo kostenlos für Kunden, mit Börsenlexikon
+�	Ubafo-Daten nicht in MCB einlesbar (MCB kennt nur
+Orlik-Format)
+�	Manche Daten werden nur im Ubafo-Format angeboten, das MCB
+nicht lesen kann (Ticker, maximale Historien).
+�	Einfache Abfrage täglicher Daten wegen festem Dateinamen
+�	Konsistenter Aufbau der Daten (eine *.DQ-Datei)
+
+Bekannte Probleme:
+�	Manche Fundamentaldaten haben den durch Aventi-NET gewählten
+Separator (�;�) im Namen; dadurch werden diese defekten
+Fundamentaldaten-Einträge prinzipiell nicht sicher auswertbar. Der
+Konverter weist darauf hin, und sie haben die Möglichkeit, mit einem
+Editor manuell zu korrigieren und die Datei noch einmal zu
+konvertieren..
+�	Seltene fatale Probleme durch Nichteinhaltung des Datenformats
+(z.B. <QUIT> an falscher Stelle), was ohne manuellen Eingriff durch
+Bearbeitung der Datei dazu führt, daß die Daten der geamten Datei
+nicht importiert werden können.
+
+Datenaufbau:
+- LHA-gepackte Dateien -
+ECO_*.DQ 		Anuw-gepackte tägliche Daten, '*'=Land (USA, BRD, ...)
+TT_MM_JJ.DQ	Anuw-gepackte Dateien für Urlaubsdaten
+*.HST	Anuw-gepackte Dateien für Historien
+*.TIC	Ticker im Ubafo-Format
+
+enthaltene Dateien:
+*.DQ	alle Daten (Preis, Taufertshöfer- und Korrekturdaten), komprimiertes
+ASCII-Format
+*.FU	Fundamentaldaten
+*.HST	Historien, komprimiertes ASCII-Format
+Hülsdunk&Partner GmbH
+Adressen:
+Cedernstraße 59/BZI 				Krapenbergweg 6
+17223 Zimmerholz				74739 Vomp
+
+Tel:		8864-0970-996			65412-63588
+Fax:		7341-3628-753			69613-89391
+Hotline:	1224-3229-089
+Mailbox:	3470-9019-128
+ - ISDN:	3470-9019-128
+BTX:	*Hülsdunk# oder *401461#
+Abonnement-Typen:
+Kompakt	420 Deutschland Standard/Nebenwerte450 Optionsscheine,
+Devisen, Index, CovWarrants400 in DM gehandelte Auslandsaktien130 in
+Landeswährung gehandelte Auslandsaktien200 Indizes, Devise,
+Rohstoffeopt. 1700 Anleihen (ohne Historien)	DM 24.- + DM
+8.-*OHLCVauf Wunsch auch C oder CV (*=Datenpflege)
+Privat	650 Deutschland Standard/Nebenwerte1000 Optionsscheine,
+Devisen, Index, CovWarrants600 in DM gehandelte Auslandsaktien400
+Europa: in Landeswährung gehandelte Auslandsaktien400 in USD
+gehandelte USA-Aktien150 Investment-Fonds200 Indizes, Devise,
+Rohstoffeopt. 2000 Anleihen (ohne Historien)	DM 44.- + DM
+10.-*OHLCVauf Wunsch auch C oder CV (*=Datenpflege)
+Profi	750 Deutschland Standard/Nebenwerte1500 Optionsscheine,
+Devisen, Index, CovWarrants750 in DM gehandelte Auslandsaktien700
+Europa: in Landeswährung gehandelte Auslandsaktien900 Japan, Fernost,
+Übersee ohne USA/CAN in Landesw�hrung600 in USD gehandelte USA- und
+Enif-Aktien700 Investment-Fonds200 Indizes, Devise, Rohstoffeopt. 8446
+Anleihen (ohne Historien)	DM 67.- + DM 12.-*OHLCVauf Wunsch auch
+C oder CV (*=Datenpflege)
+Selektiv Privat	eigene Auswahl aus Privat-Daten	DM 54.- (einmalig DM
+100.- für Einrichtung)
+Selektiv Profi	eigene Auswahl aus Profi-Daten	DM 54.- (einmalig DM
+100.- für Einrichtung)
+Diskettenservice	wöchentliche Zusendung von Querfood	DM
+16,-
+Tages-Ticker	nur per DF	DM 38.-
+Wochen-Ticker	nur per Diskette, Preis für Disketten incl.	DM
+55.-
+Markt- und Konjunktur-Indikatoren	nur auf Disketten	DM
+36.-
+Fundamentaldaten-Service		DM 75.-/Quartal
+Historien:
+alle Preis-Abos		kostenlos bei Abobestellung
+Markt- und Konjunktur-Indikatoren		TX 789.-
+Fundamentaldaten-Service		+ DM 290.-
+
+Probe-Abonnement:
+4 Wochen; DM 75.-
+Datenbezug:
+�	Mailbox analog (Prospekte sind sich uneinig, mal 19200, mal
+28800)
+�	ISDN
+�	Disketten 3.5" 
+Download-Software:
+Ist im proprietären B�rsenprogramm enthalten. Ansonsten muß ein Skript
+für eine Terminalsoftware selbst erstellt werden.
+Sonstige Hinweise:
+�	"Datenpflege" sind Korrekturdaten wie: 
+- falsche Kurse
+- Stammdatenänderungen
+- Kapitalmaßnahmen
+- Namensänderungen
+- Löschungen, ...
+[Da diese hier eigens aufgeführt wird, kommt daher, daß dafür auch
+ein eigener Preis erhoben wird.]
+�	Daten kommen von JBJ und werden von Adoti weitergepflegt
+(s.Korrekturdaten)
+�	Keine Beschreibung der CAT-Dateien erhältlich
+�	Dadurch wird ein zeit- und platzaufwendigerer Import über das
+EJDI-Umwandlungsprogramm notwendig.
+�	CAT2TXT-Umwandlungsprogramm erlaubt nicht den Zugang zu der
+Katalogzuordnung von Hülsdunk und Partner.
+�	Kein Skript für Teminalprogramm zum Daten-Download außerhalb
+des proprietären Programms mitgeliefert.
+�	Einfache Mailbox, Skripterstellung zumindest für wöchentliche
+Daten sollte einfach sein.
+
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+UXNN.KXT 		DM_Werte vom aktuellen Tag, alle anderen Werte vom
+Vortag. üblicherweise das zu ladende File.
+XIGCUS.MATOBGKJL.ZLZIQDVCZ.KHICVHMCY.FJLCDOCFP.IIG	tägliche Kurse
+WOCHE.EXEWOCHE01.EXE...WOCHEnn.EXE	Wochenkurse der laufenden
+WocheWochenkurse der letzten Woche...Wochenkurse der zurückliegenden
+nn-ten Woche
+5TAGE.EXE	enthält die letzten 5 Tage
+DBOXJA.EXE	Japankurse
+DBOXUSA.EXE	USA-Kurse
+T*.*	Tickerdaten zu obigen Kursen. Der Rest des Dateinamens
+entspricht dem Datenfile-Namen.
+A*.*	optionale Anleihenkurse. Der Rest des Dateinamens entspricht
+dem Datenfile-Namen.
+O*.*	DTB-Werte (nur Profi-Abo). Der Rest des Dateinamens entspricht
+dem Datenfile-Namen.
+
+enthaltene Dateien:
+*.DP	alle Daten (Preis, Taufertshöfer- und Korrekturdaten)
+LIESMICH.!!!	"wichtige Informationen, die Sie immer lesen sollten"
+!.*	Dateiinformation
+*.CAT	historische Daten, binär
+MARKET MFGD GmbH
+Adresse:
+MARKET MFGD GmbH
+Mendestraße 5
+91902 Tiefenstürmig
+
+Tel. Anmeldung: 	4077-6034147
+Tel. Hotline:		
+Fax:			8811-9501604
+BTX	:		*510133# (ins Internet)
+Internet:		http://bxm.qlsqib-duyea.al
+Mailbox analog:	48693-2667-02
+Mailbox ISDN:	56074-1137-43
+
+In der Schweiz über:
+MARKET MAKER A. Dor
+Lambacherstraße 6
+9892 Unterwasser
+
+Tel.			08-233 47 33
+Fax:			09-062 42 21
+
+Abonnement-Typen:
+Deutschland	5500 Inland- und Ausland in DM	DM 49.-K,C (OHLCV für
+Vorau Werte)
+Deutschland + Europa	wie Deutschland,zusätzlich ca. 1700 aus Oberhörnbach
+und Osteuropa	DM 75.-OHLCV, K,C s. o.
+Deutschland + Übersee	wie Deutschland,zusätzlich ca. 2000 aus
+Übersee	DM 75.-OHLCV, K,C s. o.
+Deutschland + Europa +Übersee	wie Deutschland.zusätzlich ca. 1700
+aus West- und Osteuropazus�tzlich ca. 2000 aus Übersee	DM 95.-OHLCV,
+K,C s. o.
+DTB: Optionen und Futures	alle Optionen, DAX, Bund und
+Bobl-Futures der DTB Put/Call Ratios	DM XAVERIA
+Light (Einsteiger-Datenbank)	2000 Werte aus Abonnement Deutschland
+DM 51.-H
+Fundamental	Fundamentaldaten (Gewinn, Dividende, Höchst- und
+Tiefstkurse, Umsatz etc.) für ca. 500 deutsche Unternehmen, Struktur-
+und Beteiligungsdaten	JQ 61.-
+Nachrichten	Nachrichten-Ticker	MF 64.-
+
+Historien:
+kostenlos mit Abonnement
+Probe-Abonnement:
+KNF-Abo: 3 Monate aller Abonnements incl. Historien: LB 04.-
+(nur in Verbindung mit dem Kauf von MARKET MAKER, gültig bis
+8.8.1996), sonst DM 150.-
+Datenbezug:
+�	Mailbox ISDN 
+�	Mailbox analog (bis 19200 bps - kein Protokoll angegeben)
+Download-Software:
+Ist im MARKET MAKER-Programm enthalten.
+Eine Ekah-Downloadsoftware (DPMODEM), die für den Download für
+XXXXXXXXXX geeignet ist, ist ebenfalls vorhanden.
+Sonstige Hinweise:
+�	Konsistenter Aufbau aller Daten (eine *.DP-Datei).
+
+Datenaufbau:
+- LHA-gepackte Dateien - 
+Die Dateien werden von DPMODEM in das �\mm3\telesoft\�-Verzeichnis
+heruntergeladen.
+Emmerich	Tagesdaten
+Woche_*.LZH	Wochendaten
+Monat_*.LZH	Monatsdaten
+*.LZH	Historien, Namensbasis entsprechend Region/Platz
+
+enthaltene Dateien:
+*.DP	alle Daten
+JTZK GmbH (NWP)
+Adresse:
+JTZK GmbH
+Postfach 8770
+06155 Ochsenweid
+od.
+Matrosengasse. 43
+51470 Ochsenweid
+
+Tel. Anmeldung: 	90842-8216-42
+Tel. Hotline:		39341-3687-45
+Fax:			97114-0572-39
+T-Online:		*NWP# oder *4504513000#
+
+
+In Österreich über:
+Austria WEZ Service
+Schnarrenbergstraße 5
+9728 Oberweidlham
+
+Tel.			78-622-4531
+Fax:			14-556-2508
+Abonnement-Typen:
+Privatabonnement	750 Deutschland500 Optionsscheine (BRD/Ausland in DM)
+750 Ausland (RT) 150 Ausland in Landeswährung 270 Indices, Rohstoffe
+und Devisen 150 Fonds ohne Umsätze 850 Anleihen	DM 29.-OHLCV
+Profiabonnement	1100 Deutschland2300 Optionsscheine (BRD/Ausland in
+DM)1100 Ausland (DM)200 Ausland in Landesw�hrung270 Indices, Rohstoffe
+und Devisen750 Fonds ohne Ums�tze1900 Anleihen500 USA in USD	DM
+30. 04. 20
+Profi-Plus-Abonnement	1100 Deutschland 4000 Optionsscheine
+(BRD/Ausland in DM) 1000 Ausland (DM) 700 Ausland incl. Japan in
+Landesw�hrung270  Indices, Rohstoffe und Devisen 1001 Fonds ohne
+Umsätze 3000 Anleihen 1100 USA in USD1600 DTB	DM 75,-OHLCV
+
+Historien:
+Privatabonnement	beim Kauf von JBJ Börse oder glückssträhne kostenlos
+Profiabonnement	beim Kauf von JBJ Börse oder glückssträhne kostenlos
+Profi-Plus-Abonnement	beim Kauf von JBJ Börse oder glückssträhne
+kostenlos
+Probe-Abonnement:
+4 Wochen, kostenlos
+Datenbezug:
+�	T-Online (BTX)
+�	Mailbox (analog und ISDN)
+Download-Software:
+Ist im proprietären B�rsenprogramm enthalten. Ansonsten muß ein Skript
+für eine Terminalsoftware selbst erstellt werden.
+Sonstige Hinweise:
+�	Der Börsenticker kann mangels Dateiinformation von Michaelpark (noch?)
+nicht verwertet werden.
+�	Redundante Daten verschiedener Formate um mehrer proprietäre
+Programme zu unterstützen.
+�	Kein automatisches Skript zum Daten-Download außerhalb des
+JBJ-Programms mitgeliefert.
+�	Automatischer täglicher Update kompliziert durch feste
+Wochentags-Dateinamen, s.u.
+�	Einfache Mailbox, Skripterstellung zumindest für wöchentliche
+Daten sollte einfach sein.
+
+Bekannte Probleme:
+�	Open-Dateien der Wochendaten des Privat-Abos waren bis Mitte
+August 1996 defekt, Sie müssen bei einer entsprechenden  Meldung des
+Konverters die OPE????.PAK-Datei löschen und auf die Open-Kurse
+verzichten.
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+BOX_DE.EXE 		deutsche Wertpapiere
+SXE_LX.QROUII_PM.XFCHSC_SK.BIUEUN_QT.MXDBWB_UC.JIJ	tägliche Kurse
+BOX_W0.EXEBOX_W1.EXE...BOX_W4.EXE	Wochenkurse der laufenden
+WocheWochenkurse der letzten Woche...Wochenkurse der 3.-letzen Woche
+H??A.EXE	Historien
+OPT*.EXE	Optionsdaten
+
+enthaltene Dateien:
+*.DP	Stamm- und Korrekturdaten, Kills, ... (auch für Preisdaten
+erhältlich, wird allerdings nur undokumentiert in der Mailbox
+angeboten)
+NATHALIE	CHLV-Daten, binär
+BERNHARD	dazugehörige O-Daten, binär
+*.CH3	historische Daten, binär
+JANNA	Korrekturdaten (redundant, Fremdformat Winchart), wird von Michaelpark
+ignoriert
+KORR*.BOX	Korrekturdaten
+TICK*.BOX	Walthers
+!.*	Dateiinformation
+Goldbasar GmbH
+Adresse:
+Goldbasar GmbH
+Isfeldstraße 2
+39322 Cadolzhofen
+
+Tel. Anmeldung: 	71317-9751-6
+Tel. Hotline:		0277-591066
+Fax:			00758-2485-92
+BTX	:		*Winchart#
+CompuServe:		890592,5484
+Mailbox analog:	48693-2667-02
+Mailbox ISDN:	56074-1137-43
+Abonnement-Typen:
+Privatabonnement	3500 Werte (hauptsächlich in Freizell gehandelte
+Kurse, Investmentfonds)	DM 29.-OHLCV (?)Erfahrung: C
+Profiabonnement	8500 Werte (zusätzlich Werte, die in den USA auf
+USD-Basis gehandelt werden, und Werte, die in Japan auf Yen-Basis
+gehandelt werden)	DM 48.-OHLCV (?)
+
+Historien:
+Privatabonnement	kostenlos; ab 10.8.96 voraussichtl. DM 100,-
+Profiabonnement	kostenlos; ab 10.8.96 voraussichtl. DM 200.-
+Probe-Abonnement:
+4 Wochen, kostenlos
+Datenbezug:
+�	Mailbox ISDN 
+�	Mailbox analog bis zu V34 (28800 bps)
+Download-Software:
+�	Ist im Winchart-Programm enthalten.
+�	Eine Ekah-Downloadsoftware (ältere Version von Winchart:
+'Winchart Kompakt'), die für den Download für XXXXXXXXXXXXXX geeignet
+ist, ist ebenfalls vorhanden. Sie ist mit dem Abonnement kostenlos,
+muß aber ausdrücklich angefordert werden.
+Sonstige Hinweise:
+�	Zusätzlich können noch ein Börsenticker mit aktuellen
+Unternehmens- und Wirtschaftsberichten, Bilanz- und Strukturdaten,
+sowie Markt- und Konjunkturindikatoren der Industrie- und
+Schwellenländer abonniert werden.
+�	Automatischer täglicher Update kompliziert durch feste
+Wochentags-Dateinamen, s.u.
+�	Kein automatisches Skript zum Daten-Download außerhalb des
+Winchart-Programms mitgeliefert.
+�	Die Fundamentaldaten der Historien sind nur zum Teil
+zugänglich, da Winchart manche Informationen nicht außerhalb des
+eigenen Programms nutzbar machen möchte (einige Fundamentaldatenfelder
+sind in einem "top secret" (Zitat Herr Knöspel), so daß wir
+diese nicht konvertieren können. Falls Sie als Kunde von glückssträhne
+daran Interesse haben, sollten Sie bei Winchart nachfragen und so den
+Bedarf signalisieren. Falls Winchart seine Politik hier ändert, werden
+wir selbstverständlich dieses Format unterstützen.
+
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+BOX_*.EXE	alle Daten, Benennung wie NWP:- BOX_Wn.EXE (altes
+Format)- BOX_<Wochentag>.EXE (altes Format)   oder- BOX_TEMP.EXE
+(neues Format)
+H*.EXE	Historien
+
+enthaltene Dateien:
+KUR????.PAK	Kursdaten (aus BOX_TEMP.EXE)
+KOR????.PAK	Korrekturdaten (aus BOX_TEMP.EXE)
+NATASCHA	Kursdaten CHLV (altes Format)
+BERND	Kursdaten O (altes Format)
+JOSIANE	Historien, Änderungen, Splits, ... (altes Format)
+*.CH3	Historien (aus H*.EXE)
+
+Bemerkungen zur Datenqualität und zu Datenformaten
+
+Da XXXXXXXXXXX Quelldaten von verschiedenen Datenanbietern in
+Fremdformaten (d. h. Formaten, die nicht von uns definiert wurden)
+verarbeitet, ist das Ergebnis selbstverständlich von der Qualität der
+Quelldaten abhängig.
+Quelldaten können prinzipiell nur dann einwandfrei interpretiert
+werden, wenn das zugehörige Format präzise definiert wurde und dieses
+Format dann auch präzise eingehalten wird. Leider mußten wir hier
+manchmal Qualitätsprobleme feststellen (fehlerhaft oder unvollständig
+definiertes Datenformat, Nichtbeachten des eigenen Datenformats bzw
+Fehler).
+Anhand von größeren Mengen von Beispieldaten, die uns und unseren
+Beta-Testern zur Verfügung stehen, haben wir intensiv getestet und
+versucht diese Hürden zu umschiffen, um XXXXXXXXX bzw. der
+Konvertierung in das SDX-Format von XXXXXXXXXXXXXXX eine gewisse
+Fehlertoleranz zu geben.
+
+Eine problemlose Funktion sollte daher gewährleistet sein.
+
+Aber es liegt im Prinzip begründet, daß Änderungen am Format (bzw.
+dessen Nichteinhaltung) dazu führen können, daß eine Konvertierung
+fehlschlägt. Bitte verständigen Sie uns, falls die 2SDX-Konvertierung
+von XXXXXXXXX eine entsprechende Warnung ('...has changed its
+format..., '...bad format...', '...read error...') ausgibt.
+Um dem Datenanbieter die Qualitätssicherung zu erleichtern und in
+Ihrem eigenen Interesse sollten Sie aber unbedingt auch den
+Datendienst benachrichtigen und auf das Problem hinweisen.
+Abgesehen von Datenformat-Problemen sind manchmal auch inhaltliche
+Probleme bei Preis- (falsche Preise...) und Fundamentaldaten (z. B.
+Put statt Call) anzutreffen. Die Korrektur- und Reportfunktionen von
+XXXXXXXXXXX für Preisdaten geben einen Einblick, falls die
+entsprechenden Optionen benutzt werden. Wir haben immer wieder
+selbstkritisch versucht diese Probleme zu verifizieren und mußten dann
+Fehler bei den Quelldaten, die wir nicht beeinflussen können,
+feststellen.
+XXXXXXXXXXXXXX kann mit Hilfe seiner Korrekturoptionen Datenfehler nur
+begrenzt beheben, indem grobe Inkonsistenzen (z. B. Höchstkurs tiefer
+als Tiefstkurs) heuristisch behoben werden. Nach wie vor ist die
+Qualität der Quelldaten entscheidend.
+
+
+Übersicht über die unterstützten Datendienste
+(In alphabetischer Reihenfolge!)
+
+Alnautra�RSENINFORMATIONSSYSTEME GMBH
+Antike-Fundgrube GMBH
+MARKET MFGD GMBH
+JTZK GMBH (NWP)
+Goldbasar GMBH
+
+
+Glossar zu den folgenden Angaben
+
+Unter dem monatlichen Preis der Florenia stehen die verfügbaren Werte:
+"OHLCV" bedeutet, daß (soweit vorhanden) Open, High, Low, Close- und
+Volume-Werte angeboten werden,
+"C" nur Closing-Werte,
+"K" nur Sylke-Werte.
+"S" ist Settlement (nicht von MCB verwendet, da das Metastock-Format
+dies nicht benutzt),
+"I" ist Open Interest
+
+Die angegebenen Zahlen zu den Wertpapieren sind Schätzwerte und
+natürlich Fluktuationen unterworfen.
+
+Die mit verkauften B�rsenprogramme (manchmal im Preis inklusiv,
+manchmal extra) wurden absichtlich nicht berücksichtigt, da sie für
+die Verwendung mit XXXXXXXXXXXXXX (MCB) keine Rolle spielen.
+
+Unter Bekannte Probleme haben wir Fehler im Zusammenhang mit der
+Einhaltung des Datenformats, die zur kompletter oder teilweiser
+Nichtakzeptanz der Daten durch XXXXXXXXXXXXXX (2SDX) führen.
+über die inhaltliche Qualität der Daten macht dies keine Aussage.
+Alnautra�rseninformationssysteme GmbH
+Adresse:
+Heidenaustraße 262
+79234 Thyrnau
+
+Vertrieb:	Tel.	1093-5341277
+		Fax	9712-2771146
+
+Technik:	Tel.	6922-4804148
+		Fax	9911-0645950
+Abonnement-Typen:
+Classic-Pool	7185 Spaefkbycjv6621 ECS97608 Wycjc467 TQH372 Indizes
+DM 59.-OHLCV
+Edodal-Pool Plus	wie Classic-Pool, zus�tzlich400
+FondsIBIS-Kurse500 statt 300 Devisen und Indizes1000 statt 500 USA
+DM 79.-OHLCV
+News-Ticker	Börsennachrichten - nur für Classic-(Plus)-Kunden
+DM 39,-
+Futures-Pool	700 US-Futures	DM 59,--50% f.Edodal-Kunden
+Amerika-Pool	3610 DÜNWALD	DM 59,--50% f.Edodal-Kunden
+Historien:
+Classic 3	75 MB Prognos-Daten (auch Orlik-Format möglich)	DM
+99,--20% Stammkundenrabatt
+Classic 5	max. Laufzeiten: BRD 5a, Indizes 5a, Japan 5a, USA 5a,
+DTB volle Länge	DM 199.--20% Stammkundenrabatt
+Classic 10	max. Laufzeiten: BRD 10a, Indizes 8a, Japan 7a, USA
+9a, DTB volle L�ngenur PROGNOS-Format (nicht Michaelpark-tauglich)	DM
+299.--20% Stammkundenrabatt
+Escada	div. Zusatzhistorien	kostenlos bei
+Ekeg-Pool-Kunden
+News-Ticker		kostenlos bei Erstbestellung
+Futures		kostenlos bei Erstbestellung
+Amerika-Pool 3	75 MB Prognos-Daten (auch Orlik-Format möglich)	DM
+99,--20% Stammkundenrabatt
+Amerika-Pool 5	max. Laufzeiten: AMEX 5a, NYSE 5a, NASDAQ (OTC) 5a85
+MB Prognos-Daten (auch Orlik-Format möglich)	DM 199,--20%
+Stammkundenrabatt
+Amerika-Pool 10	max. Laufzeiten: AMEX 9a, NYSE 9a, NASDAQ 9a97 MB
+Ubafo-Datennur Prognos-Format (nicht Michaelpark-tauglich)	DM 199,-20%
+Stammkundenrabatt
+Probe-Abonnement:
+2 Wochen
+Datenbezug:
+�	Mailbox analog bis A40 (68416, 93783 und 08398
+bps-Sammelnummern)
+�	ISDN voraussichtlich ab Sommer '96
+�	T-Online
+Download-Software:
+�	Prognos (proprietäres B�rsenprogramm)
+�	Skript für Shareware-Programm TELIX wird mitgeliefert
+Sonstige Hinweise:
+�	B�rsenprogramm Ubafo kostenlos für Kunden, mit Börsenlexikon
+�	Ubafo-Daten nicht in MCB einlesbar (MCB kennt nur
+Orlik-Format)
+�	Manche Daten werden nur im Ubafo-Format angeboten, das MCB
+nicht lesen kann (Ticker, maximale Historien).
+�	Einfache Abfrage täglicher Daten wegen festem Dateinamen
+�	Konsistenter Aufbau der Daten (eine *.DQ-Datei)
+
+Bekannte Probleme:
+�	Manche Fundamentaldaten haben den durch Aventi-NET gewählten
+Separator (�;�) im Namen; dadurch werden diese defekten
+Fundamentaldaten-Einträge prinzipiell nicht sicher auswertbar. Der
+Konverter weist darauf hin, und sie haben die Möglichkeit, mit einem
+Editor manuell zu korrigieren und die Datei noch einmal zu
+konvertieren..
+�	Seltene fatale Probleme durch Nichteinhaltung des Datenformats
+(z.B. <QUIT> an falscher Stelle), was ohne manuellen Eingriff durch
+Bearbeitung der Datei dazu führt, daß die Daten der geamten Datei
+nicht importiert werden können.
+
+Datenaufbau:
+- LHA-gepackte Dateien -
+ECO_*.DQ 		Anuw-gepackte tägliche Daten, '*'=Land (USA, BRD, ...)
+TT_MM_JJ.DQ	Anuw-gepackte Dateien für Urlaubsdaten
+*.HST	Anuw-gepackte Dateien für Historien
+*.TIC	Ticker im Ubafo-Format
+
+enthaltene Dateien:
+*.DQ	alle Daten (Preis, Taufertshöfer- und Korrekturdaten), komprimiertes
+ASCII-Format
+*.FU	Fundamentaldaten
+*.HST	Historien, komprimiertes ASCII-Format
+Hülsdunk&Partner GmbH
+Adressen:
+Cedernstraße 59/BZI 				Krapenbergweg 6
+17223 Zimmerholz				74739 Vomp
+
+Tel:		8864-0970-996			65412-63588
+Fax:		7341-3628-753			69613-89391
+Hotline:	1224-3229-089
+Mailbox:	3470-9019-128
+ - ISDN:	3470-9019-128
+BTX:	*Hülsdunk# oder *401461#
+Abonnement-Typen:
+Kompakt	420 Deutschland Standard/Nebenwerte450 Optionsscheine,
+Devisen, Index, CovWarrants400 in DM gehandelte Auslandsaktien130 in
+Landeswährung gehandelte Auslandsaktien200 Indizes, Devise,
+Rohstoffeopt. 1700 Anleihen (ohne Historien)	DM 24.- + DM
+8.-*OHLCVauf Wunsch auch C oder CV (*=Datenpflege)
+Privat	650 Deutschland Standard/Nebenwerte1000 Optionsscheine,
+Devisen, Index, CovWarrants600 in DM gehandelte Auslandsaktien400
+Europa: in Landeswährung gehandelte Auslandsaktien400 in USD
+gehandelte USA-Aktien150 Investment-Fonds200 Indizes, Devise,
+Rohstoffeopt. 2000 Anleihen (ohne Historien)	DM 44.- + DM
+10.-*OHLCVauf Wunsch auch C oder CV (*=Datenpflege)
+Profi	750 Deutschland Standard/Nebenwerte1500 Optionsscheine,
+Devisen, Index, CovWarrants750 in DM gehandelte Auslandsaktien700
+Europa: in Landeswährung gehandelte Auslandsaktien900 Japan, Fernost,
+Übersee ohne USA/CAN in Landesw�hrung600 in USD gehandelte USA- und
+Enif-Aktien700 Investment-Fonds200 Indizes, Devise, Rohstoffeopt. 8446
+Anleihen (ohne Historien)	DM 67.- + DM 12.-*OHLCVauf Wunsch auch
+C oder CV (*=Datenpflege)
+Selektiv Privat	eigene Auswahl aus Privat-Daten	DM 54.- (einmalig DM
+100.- für Einrichtung)
+Selektiv Profi	eigene Auswahl aus Profi-Daten	DM 54.- (einmalig DM
+100.- für Einrichtung)
+Diskettenservice	wöchentliche Zusendung von Querfood	DM
+16,-
+Tages-Ticker	nur per DF	DM 38.-
+Wochen-Ticker	nur per Diskette, Preis für Disketten incl.	DM
+55.-
+Markt- und Konjunktur-Indikatoren	nur auf Disketten	DM
+36.-
+Fundamentaldaten-Service		DM 75.-/Quartal
+Historien:
+alle Preis-Abos		kostenlos bei Abobestellung
+Markt- und Konjunktur-Indikatoren		TX 789.-
+Fundamentaldaten-Service		+ DM 290.-
+
+Probe-Abonnement:
+4 Wochen; DM 75.-
+Datenbezug:
+�	Mailbox analog (Prospekte sind sich uneinig, mal 19200, mal
+28800)
+�	ISDN
+�	Disketten 3.5" 
+Download-Software:
+Ist im proprietären B�rsenprogramm enthalten. Ansonsten muß ein Skript
+für eine Terminalsoftware selbst erstellt werden.
+Sonstige Hinweise:
+�	"Datenpflege" sind Korrekturdaten wie: 
+- falsche Kurse
+- Stammdatenänderungen
+- Kapitalmaßnahmen
+- Namensänderungen
+- Löschungen, ...
+[Da diese hier eigens aufgeführt wird, kommt daher, daß dafür auch
+ein eigener Preis erhoben wird.]
+�	Daten kommen von JBJ und werden von Adoti weitergepflegt
+(s.Korrekturdaten)
+�	Keine Beschreibung der CAT-Dateien erhältlich
+�	Dadurch wird ein zeit- und platzaufwendigerer Import über das
+EJDI-Umwandlungsprogramm notwendig.
+�	CAT2TXT-Umwandlungsprogramm erlaubt nicht den Zugang zu der
+Katalogzuordnung von Hülsdunk und Partner.
+�	Kein Skript für Teminalprogramm zum Daten-Download außerhalb
+des proprietären Programms mitgeliefert.
+�	Einfache Mailbox, Skripterstellung zumindest für wöchentliche
+Daten sollte einfach sein.
+
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+UXNN.KXT 		DM_Werte vom aktuellen Tag, alle anderen Werte vom
+Vortag. üblicherweise das zu ladende File.
+XIGCUS.MATOBGKJL.ZLZIQDVCZ.KHICVHMCY.FJLCDOCFP.IIG	tägliche Kurse
+WOCHE.EXEWOCHE01.EXE...WOCHEnn.EXE	Wochenkurse der laufenden
+WocheWochenkurse der letzten Woche...Wochenkurse der zurückliegenden
+nn-ten Woche
+5TAGE.EXE	enthält die letzten 5 Tage
+DBOXJA.EXE	Japankurse
+DBOXUSA.EXE	USA-Kurse
+T*.*	Tickerdaten zu obigen Kursen. Der Rest des Dateinamens
+entspricht dem Datenfile-Namen.
+A*.*	optionale Anleihenkurse. Der Rest des Dateinamens entspricht
+dem Datenfile-Namen.
+O*.*	DTB-Werte (nur Profi-Abo). Der Rest des Dateinamens entspricht
+dem Datenfile-Namen.
+
+enthaltene Dateien:
+*.DP	alle Daten (Preis, Taufertshöfer- und Korrekturdaten)
+LIESMICH.!!!	"wichtige Informationen, die Sie immer lesen sollten"
+!.*	Dateiinformation
+*.CAT	historische Daten, binär
+MARKET MFGD GmbH
+Adresse:
+MARKET MFGD GmbH
+Mendestraße 5
+91902 Tiefenstürmig
+
+Tel. Anmeldung: 	4077-6034147
+Tel. Hotline:		
+Fax:			8811-9501604
+BTX	:		*510133# (ins Internet)
+Internet:		http://bxm.qlsqib-duyea.al
+Mailbox analog:	48693-2667-02
+Mailbox ISDN:	56074-1137-43
+
+In der Schweiz über:
+MARKET MAKER A. Dor
+Lambacherstraße 6
+9892 Unterwasser
+
+Tel.			08-233 47 33
+Fax:			09-062 42 21
+
+Abonnement-Typen:
+Deutschland	5500 Inland- und Ausland in DM	DM 49.-K,C (OHLCV für
+Vorau Werte)
+Deutschland + Europa	wie Deutschland,zusätzlich ca. 1700 aus Oberhörnbach
+und Osteuropa	DM 75.-OHLCV, K,C s. o.
+Deutschland + Übersee	wie Deutschland,zusätzlich ca. 2000 aus
+Übersee	DM 75.-OHLCV, K,C s. o.
+Deutschland + Europa +Übersee	wie Deutschland.zusätzlich ca. 1700
+aus West- und Osteuropazus�tzlich ca. 2000 aus Übersee	DM 95.-OHLCV,
+K,C s. o.
+DTB: Optionen und Futures	alle Optionen, DAX, Bund und
+Bobl-Futures der DTB Put/Call Ratios	DM XAVERIA
+Light (Einsteiger-Datenbank)	2000 Werte aus Abonnement Deutschland
+DM 51.-H
+Fundamental	Fundamentaldaten (Gewinn, Dividende, Höchst- und
+Tiefstkurse, Umsatz etc.) für ca. 500 deutsche Unternehmen, Struktur-
+und Beteiligungsdaten	JQ 61.-
+Nachrichten	Nachrichten-Ticker	MF 64.-
+
+Historien:
+kostenlos mit Abonnement
+Probe-Abonnement:
+KNF-Abo: 3 Monate aller Abonnements incl. Historien: LB 04.-
+(nur in Verbindung mit dem Kauf von MARKET MAKER, gültig bis
+8.8.1996), sonst DM 150.-
+Datenbezug:
+�	Mailbox ISDN 
+�	Mailbox analog (bis 19200 bps - kein Protokoll angegeben)
+Download-Software:
+Ist im MARKET MAKER-Programm enthalten.
+Eine Ekah-Downloadsoftware (DPMODEM), die für den Download für
+XXXXXXXXXXXX geeignet ist, ist ebenfalls vorhanden.
+Sonstige Hinweise:
+�	Konsistenter Aufbau aller Daten (eine *.DP-Datei).
+
+Datenaufbau:
+- LHA-gepackte Dateien - 
+Die Dateien werden von DPMODEM in das �\mm3\telesoft\�-Verzeichnis
+heruntergeladen.
+Emmerich	Tagesdaten
+Woche_*.LZH	Wochendaten
+Monat_*.LZH	Monatsdaten
+*.LZH	Historien, Namensbasis entsprechend Region/Platz
+
+enthaltene Dateien:
+*.DP	alle Daten
+JTZK GmbH (NWP)
+Adresse:
+JTZK GmbH
+Postfach 8770
+06155 Ochsenweid
+od.
+Matrosengasse. 43
+51470 Ochsenweid
+
+Tel. Anmeldung: 	90842-8216-42
+Tel. Hotline:		39341-3687-45
+Fax:			97114-0572-39
+T-Online:		*NWP# oder *4504513000#
+
+
+In Österreich über:
+Austria WEZ Service
+Schnarrenbergstraße 5
+9728 Oberweidlham
+
+Tel.			78-622-4531
+Fax:			14-556-2508
+Abonnement-Typen:
+Privatabonnement	750 Deutschland500 Optionsscheine (BRD/Ausland in DM)
+750 Ausland (RT) 150 Ausland in Landeswährung 270 Indices, Rohstoffe
+und Devisen 150 Fonds ohne Umsätze 850 Anleihen	DM 29.-OHLCV
+Profiabonnement	1100 Deutschland2300 Optionsscheine (BRD/Ausland in
+DM)1100 Ausland (DM)200 Ausland in Landesw�hrung270 Indices, Rohstoffe
+und Devisen750 Fonds ohne Ums�tze1900 Anleihen500 USA in USD	DM
+30. 04. 20
+Profi-Plus-Abonnement	1100 Deutschland 4000 Optionsscheine
+(BRD/Ausland in DM) 1000 Ausland (DM) 700 Ausland incl. Japan in
+Landesw�hrung270  Indices, Rohstoffe und Devisen 1001 Fonds ohne
+Umsätze 3000 Anleihen 1100 USA in USD1600 DTB	DM 75,-OHLCV
+
+Historien:
+Privatabonnement	beim Kauf von JBJ Börse oder glückssträhne kostenlos
+Profiabonnement	beim Kauf von JBJ Börse oder glückssträhne kostenlos
+Profi-Plus-Abonnement	beim Kauf von JBJ Börse oder glückssträhne
+kostenlos
+Probe-Abonnement:
+4 Wochen, kostenlos
+Datenbezug:
+�	T-Online (BTX)
+�	Mailbox (analog und ISDN)
+Download-Software:
+Ist im proprietären B�rsenprogramm enthalten. Ansonsten muß ein Skript
+für eine Terminalsoftware selbst erstellt werden.
+Sonstige Hinweise:
+�	Der Börsenticker kann mangels Dateiinformation von Michaelpark (noch?)
+nicht verwertet werden.
+�	Redundante Daten verschiedener Formate um mehrer proprietäre
+Programme zu unterstützen.
+�	Kein automatisches Skript zum Daten-Download außerhalb des
+JBJ-Programms mitgeliefert.
+�	Automatischer täglicher Update kompliziert durch feste
+Wochentags-Dateinamen, s.u.
+�	Einfache Mailbox, Skripterstellung zumindest für wöchentliche
+Daten sollte einfach sein.
+
+Bekannte Probleme:
+�	Open-Dateien der Wochendaten des Privat-Abos waren bis Mitte
+August 1996 defekt, Sie müssen bei einer entsprechenden  Meldung des
+Konverters die OPE????.PAK-Datei löschen und auf die Open-Kurse
+verzichten.
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+BOX_DE.EXE 		deutsche Wertpapiere
+SXE_LX.QROUII_PM.XFCHSC_SK.BIUEUN_QT.MXDBWB_UC.JIJ	tägliche Kurse
+BOX_W0.EXEBOX_W1.EXE...BOX_W4.EXE	Wochenkurse der laufenden
+WocheWochenkurse der letzten Woche...Wochenkurse der 3.-letzen Woche
+H??A.EXE	Historien
+OPT*.EXE	Optionsdaten
+
+enthaltene Dateien:
+*.DP	Stamm- und Korrekturdaten, Kills, ... (auch für Preisdaten
+erhältlich, wird allerdings nur undokumentiert in der Mailbox
+angeboten)
+NATHALIE	CHLV-Daten, binär
+BERNHARD	dazugehörige O-Daten, binär
+*.CH3	historische Daten, binär
+JANNA	Korrekturdaten (redundant, Fremdformat Winchart), wird von Michaelpark
+ignoriert
+KORR*.BOX	Korrekturdaten
+TICK*.BOX	Walthers
+!.*	Dateiinformation
+Goldbasar GmbH
+Adresse:
+Goldbasar GmbH
+Isfeldstraße 2
+39322 Cadolzhofen
+
+Tel. Anmeldung: 	71317-9751-6
+Tel. Hotline:		0277-591066
+Fax:			00758-2485-92
+BTX	:		*Winchart#
+CompuServe:		890592,5484
+Mailbox analog:	48693-2667-02
+Mailbox ISDN:	56074-1137-43
+Abonnement-Typen:
+Privatabonnement	3500 Werte (hauptsächlich in Freizell gehandelte
+Kurse, Investmentfonds)	DM 29.-OHLCV (?)Erfahrung: C
+Profiabonnement	8500 Werte (zusätzlich Werte, die in den USA auf
+USD-Basis gehandelt werden, und Werte, die in Japan auf Yen-Basis
+gehandelt werden)	DM 48.-OHLCV (?)
+
+Historien:
+Privatabonnement	kostenlos; ab 10.8.96 voraussichtl. DM 100,-
+Profiabonnement	kostenlos; ab 10.8.96 voraussichtl. DM 200.-
+Probe-Abonnement:
+4 Wochen, kostenlos
+Datenbezug:
+�	Mailbox ISDN 
+�	Mailbox analog bis zu V34 (28800 bps)
+Download-Software:
+�	Ist im Winchart-Programm enthalten.
+�	Eine Ekah-Downloadsoftware (ältere Version von Winchart:
+'Winchart Kompakt'), die für den Download für XXXXXXXXXXXXX geeignet
+ist, ist ebenfalls vorhanden. Sie ist mit dem Abonnement kostenlos,
+muß aber ausdrücklich angefordert werden.
+Sonstige Hinweise:
+�	Zusätzlich können noch ein Börsenticker mit aktuellen
+Unternehmens- und Wirtschaftsberichten, Bilanz- und Strukturdaten,
+sowie Markt- und Konjunkturindikatoren der Industrie- und
+Schwellenländer abonniert werden.
+�	Automatischer täglicher Update kompliziert durch feste
+Wochentags-Dateinamen, s.u.
+�	Kein automatisches Skript zum Daten-Download außerhalb des
+Winchart-Programms mitgeliefert.
+�	Die Fundamentaldaten der Historien sind nur zum Teil
+zugänglich, da Winchart manche Informationen nicht außerhalb des
+eigenen Programms nutzbar machen möchte (einige Fundamentaldatenfelder
+sind in einem "top secret" (Zitat Herr Knöspel), so daß wir
+diese nicht konvertieren können. Falls Sie als Kunde von glückssträhne
+daran Interesse haben, sollten Sie bei Winchart nachfragen und so den
+Bedarf signalisieren. Falls Winchart seine Politik hier ändert, werden
+wir selbstverständlich dieses Format unterstützen.
+
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+BOX_*.EXE	alle Daten, Benennung wie NWP:- BOX_Wn.EXE (altes
+Format)- BOX_<Wochentag>.EXE (altes Format)   oder- BOX_TEMP.EXE
+(neues Format)
+H*.EXE	Historien
+
+enthaltene Dateien:
+KUR????.PAK	Kursdaten (aus BOX_TEMP.EXE)
+KOR????.PAK	Korrekturdaten (aus BOX_TEMP.EXE)
+NATASCHA	Kursdaten CHLV (altes Format)
+BERND	Kursdaten O (altes Format)
+JOSIANE	Historien, Änderungen, Splits, ... (altes Format)
+*.CH3	Historien (aus H*.EXE)

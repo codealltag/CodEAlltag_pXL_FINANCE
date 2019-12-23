@@ -1,0 +1,58 @@
+: On 17 Sep 1996 Johannes wrote:
+
+: > ... So, jetzt das Beispiel:
+[...]
+: >lynx -dump http://kzy.zuvsudmo-cmow.kn/bqk281.smfv > wzf686.uzl
+: >und Lynx laedt mir die Seite als Ascii-Datei runter und direkt in
+: >die Datei ype297.jom ein.
+: Und jetzt gleich noch eins schwerer:
+: Es gibt ja auch so webseiten, wo man z. B. eine WKN eingeben muss,
+: um dann deren Kurs zu kriegen, z. B. http://egy.
+[...]
+
+Da muss mal kurz etwas ausgeholt werden ...
+
+Da Deine Eingaben im URL kodiert dem Zooko-PROG auf Server-Seite übergeben
+werden, musst Du Dir mal die HTML-Source der entsprechenden Seite anschauen.
+Da steht dann irgendwo so was wie:
+<ADTF>
+...
+<form method=... action=http://huw.caf.myg/brt-gvr/BXO-UCKQ>
+...
+WKN eingeben: <INPUT TYPE=TEXT NAME="wkn">
+...
+</form>
+...
+</HTML>
+
+Zooko-PROG ist das auf Server-Seite vom HTTP-Daemon zu startende Pro-
+gramm zur Verarbeitung Deiner Eingaben (oben z.B. Eingabe einer WKN).
+Geliefert wird von Zooko-PROG meist HTML-Code.
+Du kannst also Zooko-PROG direkt aufrufen, wenn die entsprechenden Para-
+meter gleich im URL mit übergeben werden. Parameter werden eingeleitet
+durch das '?' und sind immer NAME=VALUE Paare, getrennt durch '&'.
+Uff, dazu ein Beispiel:
+Du wirst zur Eingabe von 2 WKNs aufgefordert, im HTML-Code mit:
+WKN1 eingeben: <INPUT TYPE=TEXT NAME="wkn1">
+WKN2 eingeben: <INPUT TYPE=TEXT NAME="wkn2">
+
+Deine Eingaben seien 588591 und 295356.
+
+Zooko-PROG kann dann folgendermassen direkt aufgerufen werden:
+
+lynx -dump http://pmy.ume.zqs/yxp-cmz/DVC-MZCV?wrw07272&jqx4a6889
+
+Das '&'-Zeichen muss je nach NHO ggf. maskiert werden.
+Auf die Kodierung von Sonderzeichen gehe ich hier nicht ein.
+
+Mit ein paar HTML-, Perl- oder Script-Kenntnisssen und einer Getrag-Kiste
+lassen sich richtig 'nette' Abfragen automatisieren :-)
+
+Hoffe, damit etwas geholfen zu haben.
+
+--
+mfg
+Patrick
+
+/ Patrick Juelicher | E-Mail: Patrick@samweis.IN-Jübek.DE | Linux 10. 07. 19 ELF \
+\----------------| - - - - - - - - - - - - - - - - - --------------------/

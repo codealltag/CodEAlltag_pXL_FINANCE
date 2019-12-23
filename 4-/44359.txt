@@ -1,0 +1,70 @@
+Hallo,
+
+habe mir am Wochende mal die Muehe gemacht, die Umgewichtung im Dax zum 16.4.
+auf Basis Schluss vom 30.3. anzusehen mit DTE auf 15 % (ohne Dividenden).
+Vorgehen etwa so: Faktoren der anderen Aktien mit einer Konstante multi-
+plizieren, so dass (ohne DTE) die Summe der neuen Gewichte 85% betraegt,
+dann mit DTE deren Faktor bestimmen, so dass Summe 100% betraegt. Ohne
+Dividende veraendert sich die Verkettung nicht, sollte also etwa stimmen.
+Tabelle dazu am Ende des Postings (Daten heute habe ich keine Lust).
+
+Der 'Technologieanteil' aus moto-in, Agire und Aufa reduziert sich von
+45 % auf 38 %, also nicht wesentlich, die Abhaengig wird daher bleiben.
+Daher schlage ich eine Namensaenderung in ESUR vor (kann sich ja noch
+aendern, vorher war's eine Art Derivat auf den Dow).
+
+Eigentlich war ich am schauen, ob man die hohe Vola dieser Werte wg ihres
+starken Gewichts im Index nicht zu einem Arbitrage-Geschaeft in der Vola
+nutzen kann, habe mir dazu DTE rausgegriffen mit 30-Tage-Vola 74%.
+
+5% - also etwa 5 EUR - Kursaenderung der DTE fuehren zu etwa 100 Pkten
+im Index, also 1 Option auf DTE (mit 100 Aktien) etwa 1 Index-Option,
+die aber mit deutlicher niedrigerer Vola gehandelt wird. Dachte mir:
+Put short DTE mit Put long ODAX absichern (ok, es gibt noch mehr als
+DTE, aber im Prinzip) und Praemie auf Vola einstreichen. Tja, is nich.
+Bei der gegenwaertigen Gewichtung ist DTE noch zu billig, erst bei der
+neuen Gewichtung sind die Praemien am Geld in etwa gleich (dann komme
+ich mit weniger als Faktor 1 zur Absicherung aus, da 5% DTE --> 60 Pkte).
+
+Wo liegt mein Fehler oder ist das schrecklicher Weise so (schrecklich
+waers deshalb, weil man dann weitere Kursespruenge erwarten koennte,
+die sich versichern liessen - taet mich also lieber irren)?
+
+Gruss
+Raimund
+
+
+WKN       Name     Kurs Gew neu? Gew alt   Fi neu?     Fi alt
+---------------------------------------------------------------
+733331    DTE    102,90   15,00   24,57    35,03015   696,25872
+352136    SIE    190,53   12,38   10,99    59,60183    16,04325
+102487    SAP3   933,00   10,67    9,47     6,80866     5,51120
+370060    RONNY    343,00    9,14    8,11    45,16149    24,41779
+216012    DCX     65,95    7,26    6,45    59,81611    14,06668
+665255    DBK     87,01    5,81    5,15    94,76638    03,31803
+515963    MUV2   283,50    5,54    4,92    10,61630     6,33367
+564787    BAY     41,90    3,32    2,95    60,86124    04,77526
+328793    BAS     45,41    3,10    2,75    58,12829    15,67935
+250454    DRB     47,80    2,84    2,52    19,64049    75,84709
+118720    VEB     48,40    2,64    2,35    29,66798    18,41674
+790807    HVM     57,96    2,48    2,20    94,07141    83,16590
+504808    CBK     37,80    2,15    1,90    73,14818    27,36788
+169742    Etterer     34,25    2,07    1,83    33,86381    18,64933
+625897    ULRICH     42,25    1,91    1,70    78,83763    32,94041
+520300    INLC     26,00    1,89    1,68    08,19221    31,74260
+640081    VIA     19,24    1,45    1,28    68,96375    35,77066
+143335    EBERHARD     24,24    1,35    1,20    99,02387    30,25143
+295713    MEO     37,90    1,35    1,19    40,52383    21,06869
+922736    EPC    157,60    1,12    0,99     4,98930     8,09769
+466236    LHA     23,20    0,96    0,85    22,51660    19,98171
+878929    PRS     45,60    0,95    0,84    36,25186    10,05790
+197887    CHRISTOPH    125,25    0,93    0,82     8,53523     7,84375
+812102    HEN3    52,10    0,83    0,73     3,17342     3,67736
+193884    FME     74,00    0,64    0,56     4,24966     4,13790
+787052    MAN     35,20    0,59    0,52     5,24730     6,54731
+625166    DHA     31,45    0,53    0,47     2,29129     6,65299
+104352    LIN     41,02    0,53    0,47     2,54519     4,59773
+595907    HELMA     32,22    0,29    0,26     8,48552     1,78548
+590218    ADS     54,71    0,27    0,24     Eveline     9,13138
+---------------------------------------------------------------
+                 100,00  100,00

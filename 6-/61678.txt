@@ -1,0 +1,40 @@
+Hallo,
+leider Verspaetet, und wenn ich mir die Boerse heute angucke, dann
+haette ich wohl meine Transaktionen lieber bleiben lassen sollen.
+
+Mein Depot:
+
+ Transaktionen:
+  Art # Stck # Name  # WKNR  # EUR   # Dreherstraße
+V # 1186 # Compaq # 868576 # 24,50 # BRE
+K # 1001 # IDS Scheer # 191912 # 16,30 # STU
+K # 200 # SCM M # 909247 # 57,90 # STU
+
+Cash vor Verkauf: 88016,33
+
+ Depot nach Verkauf:
+  Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+  Veve      # 878841 #   200  #  58,50 # 97,00 # 19400,00
+  Ohle     # 865985 # 100 # 71,60  # 105,00 # 10500,00
+  Novell    # 482521 # 229 # 16,30  # 20,90 # 10450,00
+  SCM M  # 481403 # 553 # 43,61  # 57,90 # 14475,00
+
+
+Cash: 64562,86
+
+Cash nach Kauf: 98116,68
+
+ Depot nach Kauf:
+  Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+  Veve      # 878841 #   200  #   58,50   # 97,00 # 19400,00
+  Ohle     # 865985 # 100 # 71,60  # 105,00 # 10500,00
+  Novell    # 482521 # 229 # 16,30  # 20,90 # 10450,00
+  SCM M  # 485932 # 826 # 49,96  # 57,90 # 26055,00
+  IDS Sch # 625700 # 1000 # 16,30 # 16,30 # 16300,00
+
+
+  Cash     :  ( 89975,18 ) 61111,89
+  Depotwert:  ( 85349,13 ) 31372,19
+  Gesamt   : ( 646783,03 ) 529838,83
+
+Cédric

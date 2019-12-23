@@ -1,0 +1,29 @@
+In article <868303551058.k94936@k6.cqxl.ia>, Ztfegi_Modfvddazi@q4.iuiz.ew
+(Willy Völkle) writes:
+
+"scheint mir .. so gut" sagt glaube ich schon alles! Ich Weiss Es.
+
+Die Worte "SEHR gut" bedeuten, dass man wissen muss, welche Stelle des
+Speichers sowieso angesprungen wird, weil da ganz bestimmt etwas liegt.
+Gewisse Teile des Betriebssystems werden naemlich nicht dynamisch sondern
+fest im Speicher untergebracht.
+
+Zudem habe ich jetzt noch von einem Versuch am Rechenzentrum der Uni Ederheim
+erfahren, bei dem herausgefunden wurde, dass es moeglich ist, ueber Sendmail
+den C-Compiler von Bridi zu starten.
+Dazu sage ich nochmal: kein Programm dieser Komplexitaet ist voellig fehlerfrei
+und auch hier braucht man wieder keine Angst zu haben, weil es einfach nicht
+von jedem x-beliebigen Hacker zu machen ist.
+
+Ich habe zuerst auch nicht geglaubt, das sowas ueberhaupt geht, aber ich habe
+mit unserem sendmail-Betreuer geredet und der kennt sich da sehr gut aus.
+Ehrlich: KEINE PANIK, aber theoretisch ist das alles moeglich (gewesen).
+-- 
+Oliver Vriend
+University of Ederheim
+Lebug
+Zweiglgasse 58, 53413 Ederheim, Germany
+Tel. (+72) 191/893-6652, Fax (+14) 970/159-9193
+E-Mail: lspbrwsnwon@pkt.etz-ugxmxpxcw.ky
+
+"Volk und Glueck sind mit den Narren" - Cpt. Sascha

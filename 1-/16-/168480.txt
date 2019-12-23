@@ -1,0 +1,29 @@
+Demo-Depot 1
+------------
+
+Grundlage/Strategie
+-----------------------------------------------------------------
+- DAX-/DOW-Titel
+- Filterung von je 10 Werten mit der hoechsten Dividenden-Rendite
+- hiervon Kauf der fuenf Billigsten
+-----------------------------------------------------------------
+Transaktionskosten/Bankspesen: 1.25% + DM 15.- je Auftrag
+
+Einlage am 24.12.1996			100,000.-DM
+
+Datum		K/V	Titel		Anzahl			DM incl. Spesen
+-------		---	----------		------			---------------
+24.12.96  	K/-	GIE         	35              		6267.35
+24.12.96  	K/-   	Co.Bank        	290             		13284.95
+24.12.96  	K/-   	EZFS        	25              		4095.10
+24.12.96  	K/-   	Dresd.Bank     	250             		06844.21
+24.12.96  	K/-   	Bay.Hypo       	230             		02206.35
+24.12.96  	K/-   	Leisgang      	310              		02. 02. 20
+24.12.96  	K/-   	Münnekhoff         	160              		5415.01
+24.12.96  	K/-   	Int.Paper      	150              		6331.36
+24.12.96  	K/-   	Camerer          	130              		5742.38
+24.12.96  	K/-   	Lore          	110             		39121.81
+-------------------------------------------------------
+24.12.96        		Kontostand                       		819.30
+
+24.12.96        		Ergebnis                       			-2580.11

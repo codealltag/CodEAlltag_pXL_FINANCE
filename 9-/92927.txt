@@ -1,0 +1,15 @@
+wenn nichts angegeben ist, ist es normalerweise ein bezahlt-kurs.
+wenn etwas angegeben ist, dann bedeutet:
+
+T= Tax= "Makler-Schätzung", kein umsatz. der tax-kurs ist der kurs, bei dem
+(nach meinung des zuständigen maklers) ein geschäft hätte zustande kommen
+können, wenn orders vorgelegen hätten.
+
+die anderen (möglichen) angaben beziehen sich auf den tag:
+G= Geld= "nachfrage, aber kein angebot"
+bG= bezahlt Geld= "viel nachfrage, wenig angebot", nicht alle (kauf-)orders
+konnten ausgeführt werden (mangels angebot)
+B= Brief= "angebot, aber keine nachfrage"
+bB= bezahlt Brief= "viel angebot, wenig nachfrage", nicht alle
+(verkauf-)orders konnten ausgeführt werden (mangels nachfrage)
+xD, exDiv= ex Dividende= nach dividendenzahlung

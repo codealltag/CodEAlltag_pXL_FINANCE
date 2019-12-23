@@ -1,0 +1,14 @@
+Hallo!
+
+Ich habe mir grad die "Historical prices" Seite von kolor durchgesehen 
+und mir ist aufgefallen, dass für ein paar Symbole (z.B. IEA.VI) in der 
+.csv Datei viel weniger Kurse stehen, als auf der html Seite. Bei IEA.VI 
+geht es in der .csv Datei z.B. nur bis Mitte 2006 zurück, während auf 
+der html Seite alle Kurse bis Ende 2004 aufgelistet sind.
+
+Könnte mir vorstellen, dass das entweder ein Fehler oder sogar mit 
+Absicht so ist..
+
+Kennt dafür vielleicht jemand den Grund?
+
+Remo

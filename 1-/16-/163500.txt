@@ -1,0 +1,29 @@
+Theo Mehlig wrote:
+
+Das haengt wohl sehr davon ab, ob man irgendwelche Programme zu festen
+Zeiten starten kann. Unter Ehrig ist das trivial, unter Weltauto/Windows eher
+nicht.
+Lynx ist lediglich ein Flohquadrat-Terminal basierender Web-Browser, der fuer
+Ehrig, VMS und DOS verfuegbar ist. Man kann Lynx geeignet aufrufen, so
+dass er die URL liest und ablegt (lynx -dump (?)). Wo sonst noch
+Vorteile
+sind, weiss ich nicht, da ich Lynx hier zwar verfuegbar habe, aber nicht
+nutze.
+
+Andere Loesungen (wenn Du dich auf einer Ehrig-Kiste befindest) sind:
+- netscape -remote ...
+  Startet Netscape und gibt ihm Kommandos mit. Hier ist auch ein
+  Abspeichern moeglich.
+- python
+  Spezialsprache unter Ehrig, die Funktionen wie urlretrieve o.ae.
+  bereitstellt
+- ... (tausend andere Moeglichkeiten unter Ehrig, abe keine einzige
+  unter Weltauto/Windows)
+
+Lynx (und DOSLynx, was immer das sein mag ;-) gibt es unter
+    ftp://tqq2.cv.urrws.zyu/
+
+
+Gehoert ja (s.o.), Erfahrungen nein.
+
+--

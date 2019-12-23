@@ -1,0 +1,38 @@
+"Tobias Thürmer" wrote:
+
+
+ConSors bietet kein echtes eurex broking an, obwohl sie es einem gern
+weismachen wollen ;-) denn wenn du bei denen eine order eingibst, dann
+wirft es das system bei einem consors-angestellen raus, der die order
+dann ins eurex handelssystem eingibt. und das dauert. also absolut
+_unbrauchbar_ für intradaytrader. und quote requests kann das auch nicht
+(logisch bei dem system).
+
+weil selbst überzeugt, handelst du das günstig und per internetsoftware
+"interactivebrokers" direkt ohne umwege und in sekundenbruchteilen
+direkt an der eurex am besten über die WertpapierhandelsBANK Kliem (
+http://gnr.xrxcj.ww ).
+
+
+das wäre ein covered call, bei dem du auf die short call pos. keine
+additional deposit zahlen mußt. das muß aber nicht sein. du kannst alle
+eurex produkte sowohl long als auch short gehen. zb. für einen Fulland nur
+8500 euro.
+
+
+die eurex bietet im equity bereich optionen auf alle dax30 werte und
+div. schweizer gro�werte (z.b. alusuisse, nestle) an. alle diese
+optionen sind amerikanischen typs, also mit aktienlieferung bei
+ausübung, die jederzeit erfolgen kann.
+
+
+die basispreisabstufungen sind festgelegt, das gleiche gilt für die
+laufzeiten (bis max. 24monate). schau dich am besten mal auf der
+eurexchange homepage um. idR sind eurexoptionen billiger als scheine und
+noch wesentlich liquider, vor allem in großer stückzahl, zu handeln.
+die besseren broker (wie z.b. kliem) rechnen vor allem _nicht_ wie die
+banken in prozent vom auftragswert (also prämie x lots) ab, sondern fair
+nach X Betrag Euro x anzahl lots. das lohnt vor allem bei optionen mit
+höherer prämie (vor allem den shorties).
+
+WALDEMAR

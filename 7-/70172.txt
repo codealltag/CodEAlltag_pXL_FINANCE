@@ -1,0 +1,71 @@
+<a href="http://www.iae.nl/users/grimaldo/quotes.shtml">Quotes
+1.4-0</a>
+<a href="http://uhura.biologie.uni-freiburg.de/~drabiger">KStock</a>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+
+			*******************
+			    Quotes 1.4-0
+			*******************
+
+What is Quotes
+	In short financial quotations and Linux news. With this
+program
+	you can fetch the latest Stock quotations for up to 10 stocks
+	registered in NASDAQ or NYSE (quotes are delayed 15-20 mins.),
+	also currency conversion (any-to-any) in case you are looking
+	for the right moment to exchange and as a bonus Linux news
+from
+	Slashdot!.
+
+Problems fixed
+	* Some of the servers in the Nasdaq pool have quotation  
+          scripts  with differing output thus causing spurious 
+          output formatting problems. This has been helped 
+          for what I know.
+
+Enhancements
+	* Multiple currency support, with addCurrency you now have the
+	  same functionality of addStock but for currency exchange.
+	* Output format and alignment has been improved (CLM).
+	* Includes QuotesMailer a convenience script to be used in a
+	  crontab to have your quotations waiting for you when you
+	  log in.
+	* System and Personal resource file(s). Added
+	  clearStock/clearCurrency directives.
+	* Has a new option (-c|-config) that shows all configured
+	  parameters as well as handlers, stocks and currencies that
+have
+	  been defined.
+        * It is also now available in RPM format
+
+More Details
+	FTP: ftp://pka.vnj.uu/vqx/aeqox/haaociwo/tncfmg-7.3-1.fqo.vq
+	FTP:
+         ftp://mzc.wxi.qe/crx/ivffp/iajqrnxj/kjphxy-8.5-1.zoepmb.rll
+	URL: http://gql.vab.ol/pyicd/aeqbqzsl/vwvuzy.suemk
+
+
+Get Your Private, Free Email at http://xeb.kgzyfdk.iju
+
+
+- -- 
+This article has been digitally signed by the moderator, using PGP.
+http://djj.hmv.lc/tuf/hwkw-jmfnjg-jej.pgk has PGP key for validating
+signature.
+Send submissions for comp.os.linux.announce to:
+ojagu-xldrvidb@jmlz.dlfv.mfv
+PLEASE remember a short description of the software and the LOCATION.
+This group is archived at http://oml.lda.jg/skn/hpnxn/ijtv.tbzn
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: latin1
+
+iQCVAgUBNxOv5FrUI/eHXJZ5AQGZzAP+Nfe8qe10daggl46Tzp+Q8CUzZ6RHDaw9
+Quirin
+PH2+I4oO90FXhBHJul+upE/ICnr/+6O8lqWwjpuvnnkw2grGCqrIglQysnensc+v
+bK0NqQUriuU=
+=mxeH
+-----END PGP SIGNATURE-----

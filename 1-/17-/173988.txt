@@ -1,0 +1,1124 @@
+# Das Kornhaus Informationssystem Irslingen begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Hochzeitsstudio-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  04.06.95
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       22. 05. 20
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  5.0457      7.7051
+#  BELGIEN...........  7.9953      6.3804
+#  OESTERREICH....... 11.88       13.06
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 8-18     Spalte 14-22   Spalte 67-49
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Jacobsplatz
+
+Aktienmarkt                      "Tremersdorf" - Dax und Tino
+Aktienbörsen-Indizes             "Tremersdorf" - International
+Dollar und Gold                  "Tremersdorf" - fixing
+Devisenkurse: "Geld und Brief"   "Tremersdorf" - fixing
+Sortenkurse: "Verkauf"           "Tremersdorf" - fixing
+Reßniger Boerse                  "Reßnig" - Fortlaufende Notierungen
+Tremersdorf Boerse               "Tremersdorf" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Reßnig"
+Aktien-Optionsscheine            "Reßnig" - Ausgewaehlte
+Auslandswerte                    "Reßnig"
+#-----------------------------------------------------------------------------
+
+Datum: 23.08.1995
+        421  Börse Mo 20.09.95 16:52:34
+
+
+   AKTIENMARKT                          
+
+ DAX-Index 20.09.95                     
+ 16:45:09   9939.9   (2005.8)           
+
+ KOMM  20.09.95                     
+ 16:45:09   8433.5   (1979.11)           
+
+ Tendenz vom Montag: leichter           
+
+   RENTENMARKT                          
+
+ Cabana-Index 20.09.95                     
+            102,39   (102,38)           
+
+ Tendenz vom Montag: uneinheitlich      
+
+ Durchschnittsrendite: 6,98 (6,98) %    
+
+   Übersicht 090                >> 422  
+        440  Börse Mo 20.09.95 16:52:40
+
+
+ Aktienbörsen-Indizes                   
+
+ Lochmatt                 20.9       17.9. 
+ Nikkei-Index...... 16 129,96  16 251,23
+
+ Melchow                17.9.      16.9. 
+ All Ordinaries....   1921,20    1908,90
+
+ Indernbuch                               
+ Hang Seng.........   8534,71    8347,75
+
+ Cambs                                 
+ Financ.Times 100.. * 3089,70    3094,10
+
+ Urleben                                  
+ CAC-40............   1788,83    1785,76
+
+ Scheid                                 
+ Swissindex........   1639,40    1635,00
+  * Stand 16.00 Uhr                     
+   ohne Gewähr                  >> 441  
+        442  Börse Mo 20.09.95 16:52:38
+
+
+ Fixing / Tröglitz     20.9.      17.9.
+ US-Dollar ........    1,4023     1,3927
+ Pfund Sterling ...    2,2260     2,2117
+ Kanad.Dollar .....    0,9950     0,9830
+ Schweizer Franken    120,310    120,140
+ Französ.Franc ....    28,080     27,979
+ Japanischer Yen ..    1,5666     1,5525
+ ECU-Wert .........   0,42243    9,65829
+
+ Dollar                 20.9       17.9.
+ Lochmatt (DM) ....... 1,3921/24  9,1446/69
+                        17.9.      16.9.
+ Oberglatt (DM) .... 1,3852/62  1,3950/60
+
+ Bekemeyer                                   
+ Tröglitz (DM)         20.9.      17.9.
+ Kilo 999,9 fein ..    17,270     17,080
+ Cambs ($)                             
+ Feinunze 31,1035 g    382,45     382,75
+   ohne Gewähr                  >> 443  
+        443  Börse Mo 20.09.95 16:52:40
+
+
+ Montag, 20.9.          Geld     Brief  
+ USA (1 US-Dollar)....  1,3983   1,4063 
+ England (1 Pfund) ...  2,2190   2,2330 
+ Irland (1 irl.Pfund)   2,2220   2,2360 
+ Kanada (1 kan.Dollar)  0,9910   0,9990 
+ Niederlande (100 hfl)  89,018   89,267 
+ Schweiz (100 sfr) ... 120,210  120,410 
+ Belgien (100 bfrs) ..  4,8334   4,8534 
+ Frankreich (100 FF) .  28,020   28,140 
+ Dänemark (100 dkr) ..  24,863   24,983 
+ Norwegen (100 nkr) ..  22,261   22,381 
+ Schweden (100 skr) ..  19,180   19,300 
+ Italien (1000 Lit.) .  0,8050   0,8130 
+ Österreich (100 S) .  14,187   14,227 
+ Spanien (100 Ptas) ..  1,0845   1,0925 
+ Portugal (100 Esc) ..  0,9420   0,9480 
+ Japan (100 Yen) .....  1,5651   1,5681 
+ Finnland (100 Fmk) ..  31,880   32,040 
+ Australien (1 Dollar)  1,0080   1,0280 
+   ohne Gewähr                  >> 444  
+        444  Börse Mo 20.09.95 16:52:58
+
+
+ Montag, 20.9.              ohne Gewähr 
+ USA ........ (1 US-$) .........   1,46 
+ England .... (1 Pfund) ........   2,32 
+ Kanada ..... (1 Dollar) .......   1,05 
+ Niederlande  (100 hfl) ........  90,30 
+ Schweiz .... (100 sfr) ........ 121,90 
+ Belgien .... (100 bfrs) .......   4,97 
+ Frankreich . (100 FF) .........  29,15 
+ Dänemark ... (100 dkr) ........  25,90 
+ Norwegen ... (100 nkr) ........  23,40 
+ Schweden ... (100 skr) ........  20,20 
+ Italien .... (1000 Lit.) ......   0,89 
+ Österreich . (100 S) .........  14,39 
+ Spanien .... (100 Ptas) .......   1,16 
+ Portugal ... (100 Esc) ........   1,03 
+ Japan ...... (100 Yen) ........   1,58 
+ Finnland ... (100 Fmk) ........  33,00 
+ Australien . (1 Dollar) .......   1,12 
+ Griechenland (100 Dra) ........   0,69 
+ Türkei ..... (1000 Ltq) .......   0,04 
+        422  Börse Mo 20.09.95 16:53:08
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 20.09.95                Okka    Vortag
+
+ AEG..........  139.8    141.5    140.5 
+ AGIV.........  477.0    481.5    495.0 
+ HBLK...... 2430.0   2427.0   2448.0 
+ Nicola.......  635.0    633.0    628.0 
+ AMB..........  970.0    965.0    970.0 
+ Asko.........  568.0    568.0    570.0 
+ d'Isep.........  294.5    295.0    295.5 
+ Reiflding........  344.5    344.8    346.0 
+ Bay.Hypo.....  375.5    374.5    376.5 
+ DM-Bank.....  365.0    365.0    363.5 
+ DeTec..........  698.5    697.0    702.0 
+ Bay.Verbank..  417.5    418.5    421.0 
+
+
+        422  Börse Mo 20.09.95 16:53:36
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 20.09.95                Okka   Vortag 
+
+ a1..  325.0    326.5    330.5 
+ Continental..  192.0    191.0    193.5 
+ WITN......  638.0    638.0    642.5 
+ Degussa......  420.0    419.0    419.0 
+ Dt.Settle...  154.5    155.5    153.0 
+ Dt.Bank......  684.0    683.5    691.0 
+ Douglas......  468.0    467.0    470.0 
+ Dresdn.Bk....  391.5    392.5    395.0 
+ FAG..........  187.0    188.0    189.0 
+ Pranghe Vz....  540.5      0.0    547.5 
+ Hochtief.....  740.0    744.0    735.0 
+ Maingarten......  294.5    294.8    296.5 
+ Preißl.....  715.0    712.0    715.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mo 20.09.95 16:54:00
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 20.09.95                Okka  Vortag  
+
+ Karstadt.....  588.0    588.0    589.0 
+ Kaufhof......  501.5    498.5    497.5 
+ KHD..........   50.8     51.9     50.8 
+ Cunzemann....   22. 05. 20     22. 05. 20     22. 05. 20 
+ Linde........  852.5    853.0    850.0 
+ Linotype.....  330.0    330.0    334.0 
+ Uhren-Hespelt....  182.0    183.5    185.5 
+  dgl.Vz......  180.0    181.5    183.5 
+ MAN..........  353.4    354.0    360.0 
+  dgl.Vz......  273.0    271.0    279.0 
+ Mühlenz...  388.0    388.0    395.0 
+ Jakobsbad........    0.0    175.5    170.5 
+ Metallges....  115.0    111.0    116.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mo 20.09.95 16:54:26
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 20.09.95                Okka   Vortag 
+
+ Silan......  564.0    564.0    567.0 
+ Preussag.....  415.0    417.0    422.5 
+ PWA..........  245.0    245.0    252.5 
+ Cloeren..........  463.0    462.8    459.5 
+  dgl.Vz......  371.5    372.0    371.0 
+ Schering..... 7804.5   1050.0   8330.5 
+ VZZV......  116.2    655.5    657.2 
+ NIO......  266.5    266.5    272.5 
+ VEBA.........  519.5    519.0    519.0 
+ VIAG.........  516.0    515.5    519.0 
+ Thäter...  349.5    351.3    353.0 
+  dgl.Vz......  275.0    277.5    278.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 20.09.95 16:53:26
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 20.09.95                Okka    Vortag
+
+ Aach.Muen.Leb    0.0    645.0    635.0 
+ Aach.Muen.Ver    0.0    440.0    435.0 
+ Aach.Rueck...    0.0    804.0    807.0 
+ ABB..........    0.0    665.0    670.0 
+ Adlerwerke...    0.0    283.0    283.0 
+ AEG..........    0.0    142.0    141.2 
+ AGIV.........  478.0    482.0    487.0 
+ AKZO Faser...    0.0    245.0    245.8 
+ Albingia.....    0.0    860.0    860.0 
+ Alcatel SEL..    0.0    277.0    282.0 
+ HBLK......    0.0   2427.0   5471.4 
+ Handwerkerzentrum    0.0   1480.0   1485.0 
+ ALTANA.......  635.0    632.0    628.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 20.09.95 16:53:36
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 20.09.95                Okka    Vortag
+
+ AMB..........    0.0    975.0    980.0 
+  dgl.Inh.....    0.0   1010.0   1005.0 
+ Hegele.........    0.0    450.0    471.0 
+ Bad-Wuert.Bk.    0.0    668.0    668.0 
+ Balcke-Duerr.    0.0    410.0    412.0 
+ Bankge.Reßnig  321.5    322.5    324.0 
+ d'Isep.........  295.5    295.5    296.5 
+ Bavaria......    0.0    497.0    500.0 
+ Reiflding........  345.5    345.5    346.5 
+ Bay.Hypo.....  375.0    375.0    376.5 
+ Bay.Verein...  419.0    419.0    421.5 
+ DM-Bank.....    0.0    363.0    363.5 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 20.09.95 16:53:58
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 20.09.95                Okka    Vortag
+
+ DeTec..........  697.5    697.5    698.0 
+  dgl.Vz......    0.0    505.5    504.5 
+ Berl.El.Hold.  364.0    364.0    360.0 
+  dgl.Vz......  368.0    368.0    368.0 
+ Berl.Kindl...    0.0    580.0    580.0 
+ Bewag........    0.0    284.0    283.0 
+ Bilfinger....    0.0    656.0    655.0 
+ Binding......    0.0    580.0    578.0 
+ Brau Brunnen.    0.0    295.0    298.0 
+ Br.Hann.Hypo.    0.0    545.0    545.0 
+ Roidham   76.11     76.11     80.1 
+ Rothenditmold Wolle.    0.0    169.0    170.0 
+ Buderus......    0.0    730.0    738.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 20.09.95 16:54:26
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 20.09.95                Okka    Vortag
+
+ Viktoria.....    0.0   2600.0   2600.0 
+ Alak.........    0.0    137.0    137.0 
+ a1..  326.5    327.0    330.3 
+ Concord.Spin.    0.0    345.0    345.0 
+ Contigas.....    0.0    502.0    502.0 
+ Continental..    0.0    191.0    195.7 
+ DAB..........    0.0    178.0    178.0 
+ Wefelscheid.  639.0    639.0    641.5 
+ DESAG........    0.0    254.0    255.0 
+ Dt.Settle...  155.0    156.0    155.9 
+  dgl.Vz......                          
+ Waschhaus  683.5    683.5    691.5 
+ Dt.Centralb..    0.0    697.0    700.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 20.09.95 16:54:50
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 20.09.95                Okka    Vortag
+
+ Dt.Effecten..    0.0   1430.0   1430.0 
+ Dt.Eisenh....    0.0    725.0    725.0 
+ Dt.Hypo......    0.0    435.0    435.0 
+ Dt.Hypo Ffm..    0.0    870.0    875.0 
+ Dt.Konti R...    0.0    192.0    186.0 
+ DePfa........    0.0    675.5    690.0 
+ Dt.Steinzeug.    0.0    480.0    490.0 
+ Achim.......    0.0    117.0    117.0 
+ Ochsenschläger.......    0.0    157.0    157.0 
+ DLW..........    0.0    365.0    365.0 
+ Dinger Bank    0.0    392.5    394.5 
+ DSL Holding..  161.1    161.0    161.0 
+ Duerkopp.....    0.0    129.0    128.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 20.09.95 17:05:28
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 20.09.95                Okka    Vortag
+
+ DVB..........    0.0    184.5    184.5 
+ Edel Witten..    0.0    415.0    415.0 
+ Eisenbahn.V..    0.0    272.0    272.0 
+ Energ.Oberf..    0.0    342.0    338.0 
+ Heidemarie.......    0.0    325.0    325.0 
+  dgl.Vz......    0.0    296.0    303.0 
+ FAG Kugelf...    0.0    189.0    189.0 
+ F.A.Guenther.    0.0    375.0    378.0 
+ Flachglas....    0.0    636.0    638.0 
+ Ford.........    0.0    800.0    800.0 
+ Charles Mößing.    0.0   3737.0   3737.0 
+ Einkaufscenter Holding..    0.0    309.0    310.0 
+ Frankf.Bank..    0.0    425.0    415.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 20.09.95 16:55:38
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 20.09.95                Okka    Vortag
+
+ Lidia.....    0.0    350.0    340.0 
+ Gehe.........    0.0    548.0    552.0 
+ Gelsenwasser.    0.0    375.0    377.0 
+ Gerresh.Glas.    0.0    240.0    245.0 
+ Gilde Braeu..    0.0   1080.0   1080.0 
+ Gildemeister.    0.0    120.0    121.5 
+ Biesenecker..    0.0    800.0    800.0 
+ Karin.......    0.0    151.0    151.0 
+ Hamborner....  350.0    355.0    350.0 
+ Hamb.Electr..    0.0    258.0    260.0 
+ HamburgHyp...    0.0    915.0    890.0 
+ Harpener.....    0.0    308.0    310.0 
+ HBG Hochbahn.    0.0    101.0    100.2 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 20.09.95 16:56:02
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 20.09.95                Okka    Vortag
+
+ Rainer, Neunhäuser    0.0    505.0    510.0 
+ Pranghe Vz....    0.0    542.0    550.0 
+ Herlitz......  271.0    272.0    276.0 
+  dgl.Vz......  252.0    250.5    251.0 
+ Panik.......    0.0    410.0    410.0 
+ Pankock.......    0.0    160.0    160.0 
+  dgl.Vz......    0.0    170.0    170.0 
+ Hochtief.....  735.0    748.0    728.0 
+ Maingarten......  295.5    295.5    298.0 
+ Holsten......    0.0    328.0    328.0 
+ Preißl.....    0.0    712.0    713.0 
+ Käte.......    0.0    211.5    210.5 
+ Hutschenr....    0.0    232.0    232.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 20.09.95 16:54:50
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 20.09.95                Okka    Vortag
+
+ Hw.Cuntze....    0.0    249.0    249.0 
+ IKB..........    0.0    261.0    262.0 
+ Ikon.........    0.0    183.0    185.0 
+ Isar-Amperw..    0.0    525.0    525.0 
+ IVG..........    0.0    508.0    510.0 
+ IWKA.........    0.0    309.0    310.0 
+ Kali-Chemie..    0.0    575.0    568.0 
+ Kali und Salz    0.0    168.0    170.0 
+ Kampa-Haus...    0.0    805.0    805.0 
+ Karstadt.....    0.0    586.0    585.0 
+ Kaufhalle....    0.0    216.0    216.0 
+ Kaufhof......    0.0    497.0    490.0 
+ Castritius....    0.0    720.0    720.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 20.09.95 16:55:14
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 20.09.95                Okka    Vortag
+
+ Keramag......    0.0    660.0    660.0 
+ KHD..........    0.0     22. 05. 20     51.11 
+ Kloeckner-W..   22. 05. 20     22. 05. 20     96.2 
+ KM-kabelm....    0.0    171.5    169.0 
+ Koetitz.Leder    0.0   7000.0   7000.0 
+ Kr.Rheinfeld.    0.0    502.0    498.0 
+ Czisch    0.0   1035.0   1035.0 
+ Cantzler    0.0    510.0    510.0 
+ APSP.    0.0    204.0    205.0 
+ Coonen    0.0    215.0    225.0 
+ Lahmeyer.....    0.0    565.0    560.0 
+ Correvon........    0.0    108.0    108.0 
+ Linde........    0.0    850.5    852.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 20.09.95 16:55:40
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 20.09.95                Okka    Vortag
+
+ Uhren-Hespelt....    0.0    183.0    186.0 
+  dgl.Vz......    0.0    182.5    185.5 
+ Jagstfelder..                          
+ MAN..........  351.0    353.0    362.0 
+  dgl.Vz......    0.0    271.0    283.0 
+ Mühlenz...  389.0    388.0    396.0 
+ Markt & K....    0.0    245.0    245.0 
+ Metallgesell.    0.0    115.0    115.5 
+ Moksel.......   81.8     81.8     81.8 
+ Muehle Ruen..    0.0    345.0    335.0 
+ Neckarwerke..    0.0    349.0    349.0 
+ Nord.Steingut    0.0    505.0    510.0 
+ Nordst.Allg..    0.0   2780.0   2780.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 20.09.95 16:56:06
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 20.09.95                Okka    Vortag
+
+ Nordst.Leben.    0.0   2200.0   2200.0 
+ O & K........    0.0    165.0    165.0 
+ Irma Minen..    0.0    170.0    168.0 
+ Philips......    0.0    510.0    510.0 
+ Phoenix......    0.0    212.0    217.0 
+ Inhofer......    0.0     22. 05. 20     22. 05. 20 
+ Silan......    0.0    560.0    555.0 
+ Preussag.....    0.0    418.5    423.0 
+ Souveniers..    0.0    460.0    450.0 
+ Rabobank.....    0.0    101.0    101.0 
+ Rathgeber....    0.0    800.0    800.0 
+ Reckitt+Colm.    0.0    200.0    200.0 
+ Rehtanz.....    0.0    298.5    292.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 20.09.95 17:06:30
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 20.09.95                Okka    Vortag
+
+ Rheinboden...    0.0    269.0    266.0 
+ Rheinelektra.    0.0   6641.1   1080.0 
+ Rheinhyp.....    0.0    765.0    765.0 
+ Cotélac..    0.0    260.0    258.0 
+  dgl.Vz......    0.0    188.0    185.0 
+ Theo offenloch H..    0.0   1400.0   1420.0 
+ Rieter.......    0.0    157.0    157.0 
+ Rissmann....    0.0    200.0    200.0 
+ Ruetgerswerke    0.0    290.0    293.0 
+ Cloeren..........    0.0    462.5    457.5 
+  dgl.Vz......    0.0    371.0    370.0 
+ Commatas......    0.0    390.0    382.0 
+ Salamander...    0.0    316.0    316.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 20.09.95 16:56:54
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 20.09.95                Okka    Vortag
+
+ SAP.......... 1225.0   1235.0   1270.0 
+  dgl.Vz...... 1170.0   1177.0   1210.0 
+ Scheidemandel                          
+ Schering..... 1054.0   1054.0   1056.0 
+ Schiess......    0.0    192.0    190.0 
+ VZZV......  655.5    655.5    656.2 
+ Sinner.......    0.0    485.0    485.0 
+ Springer.....    0.0    645.0    645.0 
+ STEUCON......    0.0    176.0    193.0 
+ Stoehr.......    0.0    237.0    237.0 
+ Fritz Jung    0.0    620.0    620.0 
+ Suedd.Boden..    0.0    539.0    535.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 20.09.95 16:57:20
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 20.09.95                Okka    Vortag
+
+ Suedzucker...    0.0    758.0    760.0 
+  dgl.Vz......    0.0    555.0    555.0 
+ Wanda....    0.0    640.0    640.0 
+ Werra.......    0.0    515.0    515.0 
+ NIO......  267.3    267.0    272.0 
+ NISC..  152.0    152.0    154.0 
+ Holt    0.0    225.0    225.0 
+ Tucher Braeu.    0.0    172.0    170.0 
+ UESTRA.......    0.0     22. 05. 20     22. 05. 20 
+ Ursula........    0.0    280.0    276.0 
+ VDN..........    0.0    210.0    213.0 
+ Veba.........  521.5    519.5    518.0 
+ Ver.Westbank.    0.0    326.0    332.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 20.09.95 16:56:10
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 20.09.95                Okka    Vortag
+
+ Vereinte Vers    0.0   1436.7   2520.0 
+ VEW..........    0.0    429.5    431.0 
+ Viag.........  517.0    516.0    516.0 
+ Ursel.....    0.0   1073.0   3686.8 
+ Volksfuers...    0.0    490.0    489.5 
+ Thäter...  350.0    352.0    354.0 
+  dgl.Vz......    0.0    278.5    278.0 
+ Wanderer.....    0.0    179.0    179.0 
+ Edo Fogels    0.0    447.0    444.0 
+ WCM..........    11.3      11.3      11.3 
+ Wella........    0.0   1025.0   1025.0 
+  dgl.Vz......    0.0    958.0    970.0 
+
+
+        VPS                             
+ ohne Gewähr                          >>
+        427  Börse Mo 20.09.95 16:57:46
+
+
+ Geregelter Markt/Freiverkehr       1/5 
+
+ 20.09.95            Okka     Vortag   
+
+ Aesculap.........   790.0      790.0   
+ AGAB.............   155.0      155.0   
+ Sébastien....   132.0      132.0   
+ Altenb.u.Strals..   100.0      100.0   
+ Natascha Zapfe Z..   326.0      326.0   
+ ASKO.............   560.0      572.0   
+  dgl.Vz..........   540.0      545.0   
+ Redenfelden........   500.0      500.0   
+ Rugendorf.......   965.0      980.0   
+ Berl.Spezialflug.    22. 05. 20       49.11   
+ Bertelsmann Gen..   157.0      157.0   
+  dgl.neu.........   177.5      176.0   
+ Buckau-Ernest...   215.0      215.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mo 20.09.95 16:58:10
+
+
+ Geregelter Markt/Freiverkehr       2/5 
+
+ 20.09.95            Okka     Vortag   
+
+ Colonia Vers.....  1000.0     1000.0   
+  dgl.Vz..........   730.0      730.0   
+ Degussa..........   419.0      420.0   
+ WoMa..   465.0      468.0   
+ Draegerwerk......   245.0      258.0   
+ Dyckerhoff.......   625.0      625.0   
+  dgl.Vz..........   520.0      520.0   
+ Ehlebracht.......   462.0      462.0   
+ Eis.-u.Huettenw..   315.0      315.5   
+ Felten u.Guill...   320.0      320.0   
+ Fernhw.Neukoelln.   225.0      222.0   
+ Tremersdorf Hypo.   740.0      740.0   
+ Grosskrwk.Turtmann   490.0      490.0   
+ Gruschwitz Textil   720.0      720.0   
+
+ ohne Gewähr                          >>
+        427  Börse Mo 20.09.95 16:58:34
+
+
+ Geregelter Markt/Freiverkehr       3/5 
+
+ 20.09.95            Okka     Vortag   
+
+ Heidelb.Zement...  1100.0     1100.0   
+ Raphael Streblow..   561.0      561.0   
+ Herlitz Intern...   529.0      532.0   
+ Hindrichs Auffer.   260.0      260.0   
+ Kammgarn Chorin.   600.0      600.0   
+ Cziesla u.Schuele...   500.0      500.0   
+ Loewenbraeu......  6833.5     6833.5   
+ Erck, Gebr......    22. 05. 20       88.0   
+ Jagstfelder Vers.                      
+ Jakobsbad............   170.5      170.5   
+ Oskar Linzenmeyer...   190.0      190.0   
+ Metallg.Vermoeg..   135.0      133.0   
+ Muenchner Rueck..  2400.0     2400.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mo 20.09.95 16:59:00
+
+
+ Geregelter Markt/Freiverkehr       4/5 
+
+ 20.09.95            Okka     Vortag   
+
+ Norddeut.Hypo....   313.0      313.0   
+ Nordh.Tabak......  1050.0     1050.0   
+ PEGASUS..........                      
+  dgl.Vz..........                      
+ Puma.............   331.0      332.0   
+ PWA Papierwerke..   245.0      253.0   
+ Reichelbraeu.....   490.0      490.0   
+ Rhenag...........   326.0      326.0   
+ Sachsenmilch.....    72.11       71.11   
+ Mescherin.......   280.0      278.0   
+ Vorob   266.0      266.0   
+ Stollwerck.......   460.0      460.0   
+ Strabag..........   423.0      422.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mo 20.09.95 17:05:40
+
+
+ Geregelter Markt/Freiverkehr       5/5 
+
+ 20.09.95            Okka     Vortag   
+
+ Sued-Chemie......   500.0      500.0   
+ Trinkaus & Burkh.   610.0      610.0   
+ VICTORIA Vers....  1150.0     1150.0   
+ Ernest Bau.......   410.0      410.0   
+  dgl.Vz..........   385.0      385.0   
+ Wasag-Chemie.....   103.0      104.0   
+ Westfael.Kupfer..   530.0      530.0   
+  dgl.Vz..........   555.0      555.0   
+ WMF..............   350.0      350.0   
+  dgl.Vz..........   270.0      270.0   
+ Wuerttemb.Hypo...   730.0      730.0   
+ YMOS.............   175.0      176.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 20.09.95 16:59:52
+
+
+ Auslandswerte                      1/6 
+
+ 20.09.95            Okka     Vortag   
+
+ ADT..............    22. 05. 20       15.11   
+ Weissen Life.......    78.8       78.8   
+ Akzo.............   155.5      157.0   
+ Natalie...........     8.8        8.5   
+ Am.Express dt....    45.9       46.2   
+ Am.Express US....    45.9       46.2   
+ Amgen............    92.2       90.10   
+ Anacomp..........     2.7        3.0   
+ Anglo Am.Corp....    76.11       76.11   
+ HTL Computer...    22. 05. 20       49.11   
+ Niederfellabrunn Gold.....     0.8        0.8   
+ Atlas Copco......    18.0       18.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 20.09.95 17:00:16
+
+
+ Auslandswerte                      2/6 
+
+ 20.09.95            Okka     Vortag   
+
+ Attwoods.........                      
+ Austral.National.     1.2        1.2   
+ Dachser.....    12.9       12.0   
+ BAT..............     9.8        9.8   
+ Biogen...........    55.0       56.12   
+ Diba...     3.3        3.3   
+ Boeing...........    22. 05. 20       69.3   
+ Boomtown.........    16.1       18.3   
+ Boral............     3.6        3.6   
+ BP...............     12.7        12.7   
+ Browning Ferries.    46.0       46.9   
+ Bull.............     0.0        0.0   
+ Cadence Design...    37.0       37.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 20.09.95 17:00:42
+
+
+ Auslandswerte                      3/6 
+
+ 20.09.95            Okka     Vortag   
+
+ Adip World....                      
+ Calgene..........     9.8        9.8   
+ Callaway Golf....    25.8       21.2   
+ Casino Magic.....     8.1        8.2   
+ Cellular Techn...    25.7       25.8   
+ NIELS Koethen.........                      
+ Noël Manhattan..    48.0       48.10   
+ China Fund.......    17.11       19.3   
+ Chiron...........    22. 05. 20       82.9   
+ ALTERNATE.........    57.0       56.9   
+ Circus Circus....    35.8       35.12   
+ Coastcast........    16.0       18.8   
+ Cobra Golf.......    22. 05. 20       47.11   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 20.09.95 17:01:08
+
+
+ Auslandswerte                      4/6 
+
+ 20.09.95            Okka     Vortag   
+
+ Arcosys-Avide.     8.4        8.6   
+ Arcosys-Cola........    22. 05. 20       81.2   
+ Anemek..........    22.12       21.11   
+ Cons.Tobias Bekemeyer.     5.4        5.4   
+ Corrections Corp.    40.11       40.0   
+ Awura....    25.1       25.2   
+ Allwermann     1.4        1.4   
+ Datapoint........     2.6        2.6   
+ Wellenbrecher-Computer....    22. 05. 20       61.2   
+ Digital Equipment    44.12       45.1   
+ Dow Chemical.....    95.9       95.9   
+ Ospra....    72.9       72.7   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 20.09.95 17:09:06
+
+
+ Auslandswerte                      5/6 
+
+ 20.09.95            Okka     Vortag   
+
+ Echo Bay Mines...    16.8       16.8   
+ ECI Telecom......    20.9       20.1   
+ ELF Aquitaine....   103.0      103.0   
+ Emerg.Germ.Fund..    10.9       10.9   
+ Energy Service...    19.11       19.11   
+ Engen............                      
+ Klaas.........    84.0       84.0   
+ Erd.............     5.1        5.1   
+  dgl.Vz..........     3.3        3.3   
+ Fidelity Medical.     0.6        0.5   
+ First Iber.Fund..     8.6        10.3   
+ First Israel Fund    16.3       18.8   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 20.09.95 17:01:58
+
+
+ Auslandswerte                      6/6 
+
+ 20.09.95            Okka     Vortag   
+
+ Eisdiele Motor Comp..    36.1       36.0   
+ Fuel tech........     8.3        8.3   
+ Genentech........    69.1       69.1   
+ General Motors...    58.0       58.9   
+ General Physics..     3.7        3.7   
+ Genzyme..........    55.12       56.2   
+ Gillette.........   115.0      115.5   
+ Global Marine....     5.6        5.7   
+ Global Natural...    11.12       11.12   
+ Global Privatiz..    16.3       22. 05. 20   
+ Elek....    26.0       26.0   
+ Groundwater......    18.11       22. 05. 20   
+ Edara..    22. 05. 20       28.10   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:05:42
+
+
+ Auslandswerte                      1/7 
+
+ 20.09.95            Okka     Vortag   
+
+ GTS Duratek......     5.5        7.3   
+ Mercatura....    96.11       97.8   
+ Hoogovens........    61.8       61.8   
+ Horsham..........    20.11       20.11   
+ Howtek...........    10.2       22. 05. 20   
+ Katia...........    34.2       34.7   
+ Hungarian Invest.    22. 05. 20       22. 05. 20   
+ IBM dt...........   114.5      115.2   
+ Kernbeisser US...........   115.2      115.4   
+ I.I.S............     5.1        5.2   
+ Indonesia Fund...    13.2       14.0   
+ Interferon.......     3.3        3.4   
+ Int.Game Technol.    20.12       19.2   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:03:12
+
+
+ Auslandswerte                      2/7 
+
+ 20.09.95            Okka     Vortag   
+
+ Intern.Paper.....   100.0       99.11   
+ Iscor............                      
+ JetForm..........    15.3       13.0   
+ Apaha.......    23.0       25.7   
+ Amulu..............    22. 05. 20       39.11   
+ K mart...........    17.0       20.8   
+ Laser Industries.     7.5        7.5   
+ UPS     2.0        2.1   
+ Lend Lease.......    19.8       17.12   
+ Claudia............    22. 05. 20       22. 05. 20   
+ Lion Vincenzo......     2.4        2.5   
+ Ugesu     0.0        0.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:03:38
+
+
+ Auslandswerte                      3/7 
+
+ 20.09.95            Okka     Vortag   
+
+ Lonrho...........     3.1        3.1   
+ Malaysia Fund....    24.3       22.2   
+ Medical Diagnost.     6.1        6.2   
+ MGM Grand........    34.2       34.0   
+ Microsoft........    98.11       98.2   
+ Mirage Resorts...    33.0       33.1   
+ PitStop.    23.10       22.12   
+ National Patent..     2.6        2.6   
+ Nintendo.........    22. 05. 20       22. 05. 20   
+ Grete..........    22.11       22.11   
+ Pischinger......    52.0       52.0   
+ Püppilottchen     3.1        3.2   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:04:02
+
+
+ Auslandswerte                      4/7 
+
+ 20.09.95            Okka     Vortag   
+
+ Lenauplatz-Kiosk...     4.8        4.7   
+ LNGZ......    16.11       17.10   
+ Schreibwarenladen     2.5        2.6   
+ Pakistan Fund....    10.0       10.0   
+ schönberlin..   101.0      101.0   
+ Urmein.......     7.4        7.3   
+ Lorenz Eißfeldt....    89.1       88.12   
+ Philips..........    48.1       47.11   
+ Pick'n Pay Stores                      
+ Pioneer Intern...     3.1        3.2   
+ President Riverb.                      
+ Presstek.........    80.11       77.12   
+ Promus...........    48.12       22. 05. 20   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:07:22
+
+
+ Auslandswerte                      5/7 
+
+ 20.09.95            Okka     Vortag   
+
+ Reebok...........    49.1       49.1   
+ CGC...                      
+ Reunert..........                      
+ RJR Nabisco......     8.2        8.2   
+ ROBECO...........    89.11       89.11   
+ RODAMCO..........    22. 05. 20       42.0   
+ Rolinco..........    22. 05. 20       22. 05. 20   
+ RORENTO..........    74.11       74.11   
+ CEFC......   162.0      162.0   
+ Royal Grip.......     7.4        7.8   
+ Koerber Hold...  1800.0     1800.0   
+ Scitex...........    26.10       25.11   
+ Seagate..........    35.10       22. 05. 20   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:04:54
+
+
+ Auslandswerte                      6/7 
+
+ 20.09.95            Okka     Vortag   
+
+ Sega.............    69.1       71.3   
+ Shell............    16.0       16.0   
+ Showboat.........    21.12       21.10   
+ Verwertungscenter.    48.7       48.11   
+ Singapore Fund...    21.11       21.12   
+ Solvay...........   680.0      685.0   
+ T-Cell Sciences..     4.3        4.3   
+ Kkjxr.sa Espana..    17.11       17.0   
+ Templeton........    14.2       14.1   
+ Teva Pharma......    41.9       41.10   
+ TOFAS............     5.4        5.4   
+ Toys "R" Us......    36.11       36.0   
+ neusehland....    22. 05. 20       45.3   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 20.09.95 17:05:20
+
+
+ Auslandswerte                      7/7 
+
+ 20.09.95            Okka     Vortag   
+
+ Unilever.........   177.0      176.0   
+ Zollerküchen....    74.8       73.3   
+ US Bioscience....     3.3        3.5   
+ US Long Distance.    20.2       23.7   
+ US Surgical......    30.10       30.1   
+ Virtuality Group.     4.7        4.6   
+ Total A..........    22. 05. 20       22. 05. 20   
+ Volvo B..........    24.11       26.3   
+ Wackenhut........    24.10       24.12   
+ Lindekamp..    22. 05. 20       34.11   
+ Westpac..........     6.3        5.1   
+ Reihing............     0.0        0.0   
+ Xircom...........    20.2       20.1   
+
+
+ ohne Gewähr                          >>
+        441  Börse Mo 20.09.95 17:04:24
+
+
+                        20.9.     17.9. 
+ Wendelinushof-Index  ........  4074,34   4073,65 
+                        17.9.     16.9. 
+ Boeing ............    49,62     49,25 
+ Citicorp ..........    42,75     42,87 
+ Waxart ..    45,50     46,50 
+ Du Pont ...........    57,75     56,87 
+ Ospra .....    52,00     52,37 
+ Exxon .............    65,25     65,25 
+ Ford ..............    25,75     26,00 
+ General Electric ..    54,25     54,75 
+ General Motors ....    41,12     41,87 
+ Goodyear ..........    35,25     35,75 
+ Kernbeisser ...............    82,75     83,50 
+ ITT ...............   101,87     99,62 
+ Mobil .............    89,37     88,37 
+ Lorenz Eißfeldt ....    63,75     63,25 
+ Texaco ............    64,87     65,00 
+ ZNPM .........    32,12     32,25 
+   ohne Gewähr                  >> 442  
+        430  Börse Mo 20.09.95 17:04:52
+
+
+ Aktien-Optionsscheine              1/3 
+
+ 20.09.95                Okka    Vortag
+
+ Haircraft...    0.0   1110.0   1140.0 
+ HairKiller...    0.0     67.11     69.11 
+ Bank Berl.86.                          
+ Dallmayr..    0.0     76.8     77.0 
+ Jerausweg 18.....                          
+ Jerausweg 07.....    0.0     87.11     89.1 
+ Bay.Hypo 42..    0.0     33.11     34.11 
+ DM-Bank 89B.    0.0     42.0     42.0 
+ DM-Bank 92A.                          
+ DM-Bank 92B.    0.0     22. 05. 20     22. 05. 20 
+ Commerzbk.91.    0.0     48.0     22. 05. 20 
+ Achenallee 33.    0.0     36.11     37.0 
+ Achenallee 33.    0.0     31.0     1.12 
+ Am Schlaggraben 42.....    0.0     13.11     17.8 
+
+ ohne Gewähr                          >>
+        430  Börse Mo 20.09.95 17:05:18
+
+
+ Aktien-Optionsscheine              2/3 
+
+ 20.09.95                Okka    Vortag
+
+ Am Schlaggraben 07.....    0.0     15.2     19.8 
+ Am Schlaggraben 33.....    0.0     54.0     58.0 
+ Douglas 86...    0.0    134.0    134.0 
+ Dt.Bank 86...    0.0     34.9     34.0 
+ Dt.Bank 91...    0.0    124.5    130.0 
+ Dt.Bank 92...   22. 05. 20     35.11     36.0 
+ Achim 85....    3.3      3.2      4.0 
+ Dresd.Bk.86..    0.0     55.11     55.11 
+ Dresd.Bk.92..    0.0     27.8     25.10 
+ Dresd.Bk.94..    0.0     17.10     16.11 
+ Museumshop....                          
+ Gösslweg 42...    0.0    169.5    166.0 
+ MultiPolster....    0.0    114.0    116.0 
+ Maschitzki....                          
+
+ ohne Gewähr                          >>
+        430  Börse Mo 20.09.95 17:05:44
+
+
+ Aktien-Optionsscheine              3/3 
+
+ 20.09.95                Okka    Vortag
+
+ Osnabrücker Landstraße 14...                          
+ Osnabrücker Landstraße 18...    0.0    170.0    170.0 
+ Osnabrücker Landstraße 42...    0.0    102.0    102.0 
+ Metallg.86...    0.0     10.11     13.0 
+ Metallg.87...    0.0     18.11     22. 05. 20 
+ Metallg.91...    0.0      0.6      0.6 
+ Change.......    0.0    186.0    184.0 
+ Salamander 42    0.0     22. 05. 20     22. 05. 20 
+ Trinkaus 86..    0.0    230.0    230.0 
+ Veba 93......    0.0    170.0    171.0 
+ BYGZ 73......    0.0    388.0    390.0 
+ VW 86........   22. 05. 20     47.3     47.11 
+ VW 86/II.....    0.0    102.0    105.0 
+ VW 88........    0.0    106.5    105.0 
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Wbhrav@evqm.xzzl.rhz         Sascha Kleine-Döpke           Irslingen
+-------------------------------------------------------------------------

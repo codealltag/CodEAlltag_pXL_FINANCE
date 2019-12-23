@@ -1,0 +1,19 @@
+invalid #2 schrieb:
+
+In news.lists.filters werden seit längerem NoCeM-Nachrichten von
+vjaxk@nqnpr.qi mit dem Betreff "deselzer-Spam" veröffentlicht.
+
+Da es sich bei FTP um ein sehr selektives Opt-In-Verfahren handelt,
+ist das ganze "rechtlich" unbedenklich, d.h. die Spamcancel-Richtlinien
+haben keine Bedeutung.
+
+Dieser Vorteil ist aber auch der größte Nachteil. Die automatische
+Auswertung von FTP erfordert nicht nur die Betriebnahme/Installation
+des Programms "perl-nocem" sondern auch Import eines Glitzerwelt-Keys und
+Konfiguration der Berechtigung des Absenders.
+
+Ich hab das ganze mal auf einem Server installiert, sieht recht
+nett aus.
+
+-- 
+http://dinc.kkyrfxxq.jxl/

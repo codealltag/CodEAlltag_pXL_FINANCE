@@ -1,0 +1,17 @@
+Mist,
+wieder mal vertan, hier korrigiert mit nur fuenf Werten:
+
+Transaktionen:
+ Art # Stck # Name  # WKNR  # EUR   # Minachweg
+   K  # 100 # Appel # 865985 # 7160 # letzter
+Depot:
+ Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+ Goldsprint      # 878841 #   200  #   58,50   #   67,89  # 08296,52
+ Sun Micro # 871111 # 100 # 65,00 # 82,20 # 8220,00
+ Compaq # 868576 # 685 # 21,80 # 21,09 # 14446,65
+ Resales Vz.   # 072231 #   50 # 337,50 # 442,10 # 22105,00
+ Falkenhayner     # 865985# 100 # 71,60  # 71,60 # 7160,00
+
+ Cash     :  (90922.86) 75057,58
+ Depotwert:  (63936,91) 69919,65
+ Gesamt   : (542912,75) 823165,35

@@ -1,0 +1,23 @@
+[...]
+
+
+Hallo!
+Ich werde mich nicht zu dem Artikel aeussern, moechte aber 
+(ungefragt) einen Rat zur Nutzung von WinWord loswerden.
+Das Dokument Klinkner ist 32256Byte lang. Wenn ich das 
+Dokument sichere, schrumpft die Dateigroesse auf 20480Byte.
+Meine Vermutung: in dem (Source-)WinWord ist unter 
+Extras|Optionen die Option "Schnellspeicherung zulassen" 
+angeklickt. Die MS-Hotline hat mir gesagt, diese Option sollte 
+ich ausschalten, da sie WinWord (6.0) unstabil macht. Weiterer 
+Vorteil: die Dateien werden kleiner. Nachteil: laengere Wartezeit 
+beim Speichern. Das ist m.E. aber bei Dateigroessen < 50-100k 
+vernachlaessigbar.
+MfG
+Kaspar
+
+*--------------------------------------------------------------*
+Kaspar Jaentzsch  Fon: +17-59-864-05215
+     at        Fax: +32-82-262-51408
+ SNI ASW QM    EMail: Kaspar.Thbdkj@r48.dqn3.p475.qlq.xs
+X.400: c=DE,a=DBP,p=SCN,o=SNI,ou1=MCH1,ou2=S41,s=Schulz,g=Kaspar

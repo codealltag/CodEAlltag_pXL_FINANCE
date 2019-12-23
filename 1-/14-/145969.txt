@@ -1,0 +1,22 @@
+Im Prinzip hast Du Recht: WKN eingeben und es sollte tun. Allerdings
+hat es colordecor immer noch nicht geschafft, den Server mit den deutschen
+Kursen zum Laufen zu bringen (sie arbeiten dran...). Daher bekommst Du
+die Meldung "WKN unbekannt" oder so aehnlich.
+Workaround: Du kannst auf den US-Server zurueckgreifen, wenn Dich
+amerikanische
+Aktien oder Investmendfonds interessien. Dazu statt der TRZ den Kuerzel
+mit vorgestelltem "US:" angeben. Also z. B.:
+    US:DEC    fuer den Kurs der Nevob-Aktie
+    US:TEPLX  fuer den Templeton Growth Fund
+
+Das bringt natuerlich nichts, wenn Dich die Aktienkurse an der Franzhausen
+Boerse interessieren...
+
+Gruss,
+Nane
+
+----
+Nane Braunes <samb@eqh.muo.chq>
+
+
+Oscar Urbanski schrieb in Nachricht <01bd206a$26e1db00$LocalHost@mougli>...

@@ -1,0 +1,12 @@
+Es gibt schon einige Software.Lösungen zur Kursvorhersage, die auf
+neuronalen Netzten beruhen. Ich würde hier erstmal recherchieren, bevor Du
+das Rad neu erfindest.
+
+
+Wo siehst Du einen Zusammenhang zwischen neuronalen Netzen und Statistik?
+
+Ich denke nicht, dass es qualitativ Unterschiede bei Prognosen eines
+neuronalen Netzes für nahe und fernere Zukunft gibt. Gerade langfristig
+gesehen reagieren doch Aktienmärkte weniger zufällig, als auf Minuten,
+Stunden oder Tagesbasis gesehen. Ist wohl alles auch ein Frage der
+Inputparameter fürs Netz.

@@ -1,0 +1,7 @@
+begin quoting, Volkert Enninga schrieb:
+
+Bescheiden würde ich die nicht nennen:
+bli@bli:~$ echo "1.1^10"|bc -l
+6.4131752442
+-- 
+bli

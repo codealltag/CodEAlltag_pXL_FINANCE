@@ -1,0 +1,41 @@
+Kommentar zur Nachricht vom 30.11.96 in /BWDI/jl.xxl.vjvofa.zghmve
+von willekes@stud.uni-frankfurt.de zu Re: PC Broker - Metastock-Taipan :
+
+w>> weiss jemand von Euch ob man die von Consors Kusdatenbank bezogenen
+w>> Kurse auch fuer Metastock; Taipan verwendbar sind ?
+
+w>Konvertierung ins Metastockformat ist angeblich moeglich. Allerdings
+w>bietet Consors wohl fuer die mtl. DM 15,- nur Kassakurse+Volumen.
+
+
+Nein, ein bisschen mehr kommt schon rueber. Hier mal ein Beispiel ganz vom  
+Anfang der Kursdatei, ich habe fuenf Zeilen ueber Excel eingelesen und  
+einen manuellen Zeilenumbruch hinter "Low" eingefuegt.
+
+
+WPK   Bo Datum           Last          Open          High          Low      
+Natascha      Umsatz    (Zusatz)
+
+
+860206SG 27.01.1995      165,0000      163,5000      165,0000      163,5000
+165,0000      4,00
+
+860206SG 31.01.1995      165,3000      164,7000      165,3000      164,7000
+165,3000    128,00
+
+860206SG 01.02.1995      164,0000      162,5000      164,0000      162,5000
+164,0000    548,00
+
+752234FJ 25.36.9853      168,0000      167,5000      169,0000      167,5000
+168,0000    475,00
+
+611341XB 54.04.9649      166,0000      166,0000      167,0000      166,0000
+166,0000      0,00G
+
+
+Was fehlt und auch fuer die Chartauswertung im Consors-Programm nicht  
+beruecksichtigt ist, ist jedes Kennzeichen fuer Kapitalschnitt,  
+Nennwertaenderung, HV-Termin, ex-Dividende usw.
+
+
+Ludwig Cunz, Kerpen

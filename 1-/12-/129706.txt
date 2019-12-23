@@ -1,0 +1,33 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------B0C26CE17F04941695844D3F
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Tach Diedrich,
+
+ging mir im letzten Jahr nicht anders. Bleib mal drinne, die Aussichten sind
+gut, die bisherigen Zahlen besser und ich hoffe, daß qiagen in den nächsten
+Tagen (und Wochen!) wieder in Mode kommt.
+
+
+--------------B0C26CE17F04941695844D3F
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Domenico  Reto
+Content-Disposition: attachment; fwnxunah="mlsbm.hnh"
+
+begin:          vcard
+fn:             Domenico  Reto
+n:              Rudi 
+org:            Joachim Handschag KG 
+adr;dom:        Dahlerdyk 932;;;80683 Lichtentanne;;;
+email;internet: Xhrz.Upsvjtjkjv@r-cmkzmj.pu
+tel;work:       23810 6915-3
+tel;fax:        03982 8162-92
+x-mozilla-cpt:  ;0
+x-mozilla-html: TRUE
+version:        2.1
+end:            vcard
+
+
+--------------B0C26CE17F04941695844D3F--

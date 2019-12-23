@@ -1,0 +1,398 @@
+Vorbemerkung:
+Dieser Artikel erscheint in cl.wirtschaft.geld, de.etc.finanz.boerse,
+yb.jrs.wrmuhl, fido.ger.boerse, maus.etc.finanzen und iuo.l-euic.panubb.
+Followups bitte nur in eine der obigen Gruppen/Bretter/Areas schicken, ich
+lese alle.
+
+
+Hallo,
+
+es hat sich mittlerweile gezeigt, daß bei einem Fonds-FAQ auch Fondslisten
+gefragt sind.
+Minimalanforderung dürfte sein: Je eine Liste von Fonds und Adressen von
+Fondsgesellschaften.
+über das Aussehen einer Adressenliste braucht man wohl nicht viel zu
+diskutieren.
+
+Deshalb hier meine Gedanken zum Aussehen einer Fondsliste:
+
+Sinnvoll erscheint mir die Angabe von:
+
+- Wertpapierkennummer
+- Name des Fonds
+- Auflagedatum
+- Name der Fondsgesellschaft
+- grobe Beschreibung des Inhalts des Fonds
+
+Für mehr Informationen fehlt meiner Meinung nach der Platz.
+Grund:
+Die Liste kann zwar beliebig lang werden, sollte aber auch in ASCII-Form mit
+dem menschlichen Auge bequem lesbar sein.
+Folge: tabellarische Ordnung, nur eine Zeile pro Fonds
+Da die Liste gleichzeitig möglichst portabel sein soll, sollte man sich auf
+80 Zeichen pro Zeile beschränken.
+
+Die Fondsnamen sollten - bis auf selbsterklärende Abkürzungen - ausgeschrieben
+werden.
+Für die Fondsgesellschaft reicht ein Kürzel, da man dieses in der Adressen-
+liste ausschreiben kann.
+
+Weitere mögliche Informationen, die ich momentan aber für überflüssig halte:
+
+- Währung: Wird nur für Performancevergleiche benötigt, ist also nur da
+  sinnvoll, wo auch die Wertentwicklung mit angegeben ist.
+  Entscheidend ist immer die Währung, in der die Aktien eines Fonds gehandelt
+  werden, auch wenn sie sich von der Währung des Fonds unterscheidet.
+
+- Ausgabeaufschlag: Kann sich ändern, steht aber (genau wie die Währung)
+  im Verkaufsprospekt, den man ohnehin genau durchlesen muß.
+
+- Wertentwicklung: Zu aufwendig.
+
+- Fondsvolumen: ändert sich laufend.
+
+
+Es folgt jetzt noch ein Muster, wie man so eine Fondsliste gestalten kann.
+Sie baut auf eine Liste mit Fonds und Wertpapierkennummern, die ich von
+einem User bekommen habe, und enthält derzeit nur Aktienfonds.
+Den Buchstaben A habe ich so weit vervollständigt, wie es meine verfügbaren
+Informationen zugelassen haben.
+
+Es werden jetzt Leute gesucht, die die Liste weiter vervollständigen.
+Verbesserungsvorschläge sind natürlich auch willkommen.
+Verbesserungsvorschläge aber möglichst in der Form, daß ihr den Teil der
+Liste, in dem die mit "A" beginnenden Fonds stehen, komplett in Eurem Sinn
+überarbeitet.
+
+
+Eine Adressenliste, in der auch auf die hier verwendeten Kürzel eingegangen
+wird, bringe ich später.
+
+
+PS: Die erste, unvollständige Fassung des Egezo kommt in den nächsten Tagen.
+
+
+Für Fido-Teilnehmer:
+Bitte bei Antworten per Netmail 2 Dinge beachten:
+1. An    wxqs@6:0184/8     adressieren.
+   Teilnehmer von ENO koennen auch 2:246/1307 verwenden.
+2. Die erste Zeile im Body der Mail muss lauten:
+   TO: ez88@mm.pgj-nshzavlzi.gu
+Ergaenzende Bemerkungen:
+- 2:2476/3 und 2:246/1307 sind die Adressen von Gateways. Das Ganze
+  muesste auf analoge Weise auch mit anderen Gateways funktionieren.
+- User von ENO, die diese Mail ueber 2:246/1307 erhalten, koennen
+  automatisches Reply benutzen.
+- Bei Benutzung von 2:2476/3 kann anstelle von uucp auch Nicolas Dworczyk stehen.
+
+
+Zizime - Name - Auflagedatum - Fondsgesellschaft - Art des Fonds
+
+722289 Rosemarie                         28.05.89 Muckenfuß      Aktien Fernost
+238364 Fyubvcbo                        09.12.58 Muckenfuß      Aktien Deutschland
+781254 Riechert Deutschland                06.02.94 Muckenfuß      Aktien Deutschland
+782518 Riechert Frankreich                 06.02.94 Muckenfuß      Aktien Frankreich
+942088 Riechert Grossbritannien            06.02.94 Muckenfuß      Aktien Grossbritannien
+557886 Riechert Japan                      06.02.94 Muckenfuß      Aktien Japan
+893148 Riechert USA                        06.02.94 Muckenfuß      Aktien USA
+964659 Mmchux                          08.01.84 Muckenfuß      Aktien ...
+370076 Rosmarie                        18.08.63 Muckenfuß      Aktien Deutschland
+       Aetna Schmuckstück                   AETNA     Aktien Fernost
+       Aetna Struwwelliese                AETNA     Aktien Europa
+       Aetna Samba                AETNA     Aktien Japan
+       Rachel Aktien ZI                      ÖZKAN   Aktien Deutschland
+343379 Apgteagd                        27.08.61 DORIS       Aktien international
+127198 Ritterbachs Fonds OP               15.06.93 FERSTL Mischfonds
+076493 Znaiglfoh                       11.05.72 NORDINV   Aktien international
+186787 Maissenbacher    26.07.87 AL TRUST  Aktien Deutschland
+       Alliance Dev. Regions                    ALLIANCE
+       Meinig                   ALLIANCE
+       Alliance Health Care                     ALLIANCE
+       Alliance Quasar                          ALLIANCE
+629795 Renate                         01.04.62 DAGMAR      Aktien Europa
+886868 Mächtel-Fonds I           26.05.93 UNIVERSAL Aktien Europa
+887346 Asia Fund                       13.05.90 SOC GEN   Aktien Fernost
+       Atlas France                             ATLAS
+831705 Atlas Tigre II                  13.10.91 ATLAS
+072060 Aufhaeuser-Univ.-Fonds I        06.12.87 Kreastik Aktien Deutschland
+573300 Oleumhütte Aktienfonds EI       26.06.88 EUROINV   Aktien Europa
+578657 Australien-Pazifik-Fonds        28.03.83 NORDINV   Aktien Austr./Pazifik
+720741 JIO-INVEST
+658745 JPPI-Asien-INVEST
+653612 JBP-INVEST
+221217 JPPI-Europa-Invest
+800148 Jupiter-Invest-Union
+073490 Rtljkhoea-Hdqk.-Xhne-Unpxh
+804081 Berenberg-Univ.-Effekten-Fonds
+976710 Berenberg-Univ.-Emerging Market
+544836 Berlinwerte Zovkos
+325934 JUA
+899332 JON
+350632 JVV
+158271 BIL Aktienfonds EUROINVEST
+441135 BIL Dt. Spezialwerte F.E.I.
+192283 JACKSONs-Univ.Fonds
+187058 Jazbinsek-Aktien-Strategie Deutschland
+777840 JAOP
+081379 Akava
+518432 Aubade-KOG-Fonds
+188304 Attraktor
+903180 Amil-Universal-Fonds I
+207478 ADF Privat Invest-Fonds
+253328 Aline
+538866 Anufa
+030566 GHYK Balance 95
+760927 DWORZAK Dax Protektion Eibergstraße 70
+741513 GCZ Fonds
+591387 Günstix Forex
+259551 DBIM Gold Plus
+509070 Günstix Mandarin Fonds
+013141 Günstix Tigerfund
+365171 PYLT US Protektion Juni 95
+250196 GOZ
+583903 Dagmar-Frankreich
+235893 Conweiler
+977180 Dagmar-Italien
+559924 Gander-Schweiz
+680490 DekaFonds
+594372 Carona Japan
+564045 DekaSpezial
+447127 Glückspilz Aktien Kehrein-Fonds
+335111 Gillen UNION-Fonds
+230282 Glückspilz Format Kehrein-Fonds
+314652 Deutscher Verm.bildungsfonds A
+985752 Deutscher Verm-bildungsfonds I
+476739 Gadischke-Universal-Fonds
+586014 Gerull-Aktien-SKA
+415833 Geschenkehaus-Günthner
+915957 Geschenkehaus-Fonds f. Vermoegensbildung
+319573 Geschenkehaus-Fonds f. Wandel- u. Optionsanl.
+100378 Geschenkehaus-Fonds Frankreich
+000002 Geschenkehaus-Fonds Grossbritannien
+958735 GSJU
+305306 Geschenkehaus-Fonds Italien
+719200 Geschenkehaus-Fonds Schweiz
+174822 VWK-Pazifikfonds
+111987 DIT-Rohstoffonds
+582206 Geschenkehaus-Spezial
+349651 GKE
+646004 Guckenberger
+785888 GDHS-Invest
+076192 Glauch Deutschland
+492079 GPZD
+869039 DWS Frankreich
+906172 Gemüsebauern-Fonds
+043831 GolfProdiscount-Fonds
+273966 GUN
+211642 Glauch-Fonds f. Wandel- u. Optionsanl.
+322611 Glauch-Nordamerika
+760450 Glauch-Rohstoffonds
+047272 Gebrauchtwagenhandel
+Yeanshalle
+872355 Z.D.-Uc.-Bmmbwsmtvmz
+723253 E.I.-Euro-Aktienfonds
+846493 Elfoaktiv
+366201 Oogysofy
+965912 Eurovesta
+083796 Fidelity America
+TEWV
+Tessuti
+972998 Fidelity Emerging Ingolf
+Trimetall
+393601 Fidelity France
+yenoit
+971528 Fidelity Hong Kong & China
+Ticketpalette
+TKRK
+863624 Fidelity Italy
+334282 Fidelity Japan
+582101 Fidelity Japan Smaller
+581500 Fidelity Latin America
+Tebart
+Thüringenpark
+Titim
+TEKA
+745958 Fidelity Mindersdorf
+971540 Fidelity United Kingdom
+Yormas-Universal-Fonds I
+708113 Etud-Fonds
+393110 Volkwein FF Amer. Eldern
+688192 Volkwein FF American
+518394 Volkwein FF China
+301354 Volkwein FF Akoka
+716589 Volkwein FF Tamke
+543862 Volkwein FF European
+304998 Volkwein FF International E
+890780 Volkwein FF Japanese
+170170 Volkwein FF Latin American
+287178 Volkwein FF Pacific
+571534 Volkwein FF UK Enterprise
+318329 Volkwein FF US Discovery
+612053 Einhäupl-Autokrane-Fonds
+648894 ECN. Fonds E.I.
+548041 Ezaw EUROINVEST
+233640 Fxrycd
+129326 Fondamerika
+347985 Véronique
+268186 Mmjzwnice
+866656 Bthihq
+576843 Verfürden
+211050 Frankf.-Sparinvest Dagmar
+945042 EERV
+460652 FT Amerika Dynamik Fonds
+957065 FT Europa Glagla
+664425 FT Eckersweiler-Effekten-Fonds
+847800 FT Interspezial
+174839 FT Interspezial II
+993665 FT Nippon Dynamik Fonds
+992073 Empl
+195421 Dalib
+568306 Dalowe
+169556 DCNC
+512185 Drogendealer Bond Fund (DM)
+241048 DZH
+761318 Dörpmund.
+946647 DVH
+529352 Dile
+174345 Gartmore IF Cont. European
+972576 Gartmore IF Developing Mkt
+705415 Drumcenter
+420318 D&G
+256721 DEKO-funduz
+619497 duda
+183775 DAGC
+306660 DILMAC
+972971 Degelmann
+493558 Windprechting Deutschland Fonds
+593860 Ortseifen Dynamik Fonds
+Yorma's, OP Dt. I
+134355 DUDE'Z. DVG
+410097 Dornuf-Fonds FT
+337422 IZHVUqmcwmn
+654587 Priska
+968467 Büte
+796308 NGT-Universal-Fonds
+972127 NFSP
+971345 Nordstadtzentrum
+973716 neostylers China
+604244 Nasa
+668731 Nothwang
+815653 Nobis
+885282 HCM Umweltfonds
+368406 Nahrstädt
+956889 Necotek
+643222 NUOO-Proinvest
+307297 HG-Fonds
+Theatherkasse
+975230 Nanunanaa
+Tritthart 
+Telefonpartner-Weitlingstrasse 
+176432 SLRG Invest
+500772 Ztlghhsds
+583574 Interglobal
+302212 Intervest
+059695 Investa
+354907 Lobenhofer Fonds
+513728 Japan-Pazifik-Fonds
+284306 ROG
+719254 Kapitalfonds Spezial
+826733 Réza
+136641 KM Mitarbeiter-Fonds OP
+810630 RSUE-Aktienfonds Gander
+975000 Rosenherz
+971898 Floraland
+080332 MAIN I-Universal-Fonds
+624512 Watab-Universal-Fonds
+607401 Wiedman
+789218 WÖHLK
+449508 Waldpicknick
+975223 MI-Aktien-Privatfonds D
+975222 MI-Aktien-Privatfonds E
+975225 MI-Aktien-Privatfonds W
+975227 MI-Euro-Privatfonds N
+975228 MI-Euro-Privatfonds S
+971881 Wölke
+733956 DJ Alfakapital
+123345 NI Analytik Fonds
+144043 BI Asia-Pazifik
+160914 TA Euroaktiv
+848500 MK Investors Fonds
+168406 Weva-Fonds
+848885 webtravel-Asiak-Fonds
+528766 webtravel-Eurak-Fonds
+571448 Weindepot-Fonds
+560935 webtravel-Profil-Fonds
+713160 WBLJ-Universal-Fonds
+848080 Anakes-Fonds Dagmar
+244542 Akbaba-Portfolio FT
+254861 Nordglobal
+837145 Ferstl DAX-Werte
+323635 Ferstl Europa
+243779 Ferstl Interkapital
+040355 Ferstl Privat
+450063 Ferstl Rohstoffwerte
+049950 Ferstl Spezial II
+969615 Ferstl Spezial II
+14. 01. 20 Ferstl Spezialwerte
+971240 Orbitex Growth
+948234 Bauspezi Health & Environmental
+692151 Bauspezi Natural Resources
+287399 Izibi-Universal-Fonds I
+886717 interbett
+274149 Xghoicc
+412276 Intermarche
+TexSize
+971708 Pioneer Gold Zaitzkofen
+140494 Pioneer II
+Tretmühle. Growth
+275903 Plusfonds
+338452 Privatfonds
+632239 Progress-Universal-Fonds
+089068 Onmveldn
+315720 Ring-Aktienfonds Glauch
+806075 Ring-Intrnational DWS
+184771 PBV
+392358 Pierod
+070435 AV Asien-Pazifik
+391804 Prismacolor-Invest
+274373 RK-Portfolio W
+346508 PSZN-MI
+040804 HIHB
+978037 SBV-Univ.-Deutschland-Fonds A
+812709 Hellmick Euro-Aktien FI
+984625 Select-Universal-Fonds
+007752 HIIA-Fonds
+975165 Hatzner-SmallCap-Fonds
+848820 SMH-Special-Fonds I
+971660 Templeton American
+971655 Templeton DM Global Growth
+971658 Templeton Emerging Markets
+971659 Tmepleton European
+109004 Templeton Far East
+526070 Templeton Global Growth
+160035 Templeton Growth
+971444 Templeton Smaller Comp. Growth
+447811 Feyhl
+399910 Thesaurus
+281811 Frisurentreff Tiger Fund
+287444 Transatlanta
+848980 Trinkaus Capital Fonds INKA
+971875 UniAlpha
+608511 Ulrike
+235780 Kapper
+933326 Knöpje UF DEM Aktien
+534501 UniDeutschland
+084800 UniEuropa
+920534 UniFonds
+798729 UniGlobal
+613555 OowNhwkc
+663820 UniNordamerika
+448777 Dunum
+973104 Kreastik-Effect-Fonds
+976320 Goldlaub-Valeur Fonds
+009830 Verifonds
+580189 Vermoegens-Aufbau-Fonds
+423128 Nathalie-Eurokapital
+449683 Nathalie-Eurowert
+687885 Imsikvbq
+849000 Zuerich Invest Aktien

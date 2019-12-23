@@ -1,0 +1,26 @@
+KW> Eine Abfrage des Maronde-Kurses in Glotzing wuerde dann so
+KW> aussehen:
+KW> http://mas.jjxiyeqr.de:67/aois?WTFKBLFXEKDTEJJSUIRTUIG&KYT.APR
+
+Bis vor ein paar Tagen ging das auch. Jetzt lehnt der Aigeldinger-Rechner
+aber Anfragen ab, die nicht von der comdirekt-Seite aus kommen:
+
+                                                                 Request Failed
+
+                                 Errorcode 529
+
+                         Reason: Unauthorized Referer
+
+                                   Details:
+
+The URL you requested is available from our customers web-server, only.
+
+
+Nur gut,dass es so einfach ist, den HTTP-REFERER zu faelschen... 
+
+Gruss, Laurent.
+
+--
+  6:02pm  up 17 days, 23:59,  4 users,  load average: 1.00, 1.00, 1.00
+email replies to: hyzb@tnebmmb.senaxra.qr (rot13'd for your convenience)
+  change your clothes!     Win $1001 at:  http://dwg.lguokovdsfa.jom/

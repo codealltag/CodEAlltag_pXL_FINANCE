@@ -1,0 +1,123 @@
+Walter Wortmann wrote:
+
+
+ein TSD ist erstmal eine juristische person und nicht der, der hinter
+dem keyboard hockt. diese firma kann mitglied bei der eurex werden. es
+gelten gewisse, festgelegte bedingungen, wie eigenkapitalh�he etc.. die
+genauen daten müßte ich erst raussuchen. ist aber nicht mit einer 50tdm
+gmbh zu machen. früher hat der Non Clearing Member Status 250tdm
+_gekostet_. da die eurex aber seit ein paar jahren auf extremen
+expansionskurs und verdr�ngungskurs (vor allem gegen die liffe) geht,
+wurde es quasi "verschenkt". die sonstigen anforderungen bleiben aber
+weiterhin.
+
+
+der marketmaker ist erstmal idR keine natürliche person, sondern der
+eurex member (ab ncm, general clearer etc. ist egal) selbst, der market
+maker status hat. das ist wiederum an gewisse vorraussetungen gekoppelt
+(spread-breite, verpflichtung zum stellen von handelbaren quotesetc.),
+die die liquidität in den div. segmenten erhöhen sollen. dafür gewährt
+"ihm" die eurex günstigere konditionen beim handeln.
+
+was das zocken angeht, so trifft dies idR auf TSD mit marketmaker status
+zu, nicht aber general clearer, die fast alle marketmaker status haben.
+
+wie ich schon in meinem vorherigen posting schrieb, traden, "zocken"
+kleine NCMs mit eigenem kapital durch die eurex. dabei werden
+logischerweise keine overnight-positionen gefahren, sondern  meist mit
+engen, selbst festgelegten limits getradet, um intraday
+marktschwankungen besonders in den futures, auszunutzen. das rentiert
+sich aber nur mit der entsprechenden ausstattung und mit hohen umsätzen,
+die ohne den marketmaker rabatt einfach zu teuer wären, sodaß sie sich
+nicht mehr lohnen würden.
+
+marketmaker in nicht so liquiden optionsserien lohnt sich deswegen
+immernoch, weil man sich durch die deutlich bessere liquidität des
+passenden futures (z.b. aktienoptionen und dax-future) günstigen hedgen
+(absichern) kann. die spreads müssen zwar den eurex kriterien genügen
+und sind deutlich enger als bei optionsscheinen sowie die effektive
+preisstellung (vor allem bei langlaufenden optionen), aber bieten
+immernoch genügend spielraum. ein hedge über die kasse (FECJ) wäre Herzenslust
+zu teuer und zu aufwendig (falls man keine bank ist).
+
+
+ein finanzdienstleister, wie der name schon sagt, leistet einen dienst.
+dein TSD mit marketmaker status betreibt idR kein kundengesch�ft. dazu
+würde er mittlerweile weitreichende genehmigungen (z.d. SS9 wphg) und
+ggf. eine teilbanklizenz (wie z.b. die Kliemgruppe) benötigen.
+
+
+s.o.. du bist eine firma mit weitreichender kapitalausstattung und kein
+privatier, der mal eben nen coverred call in DCX schreibt ;-)
+obwohl du sowas nat. bei Flieth machen kannst. aber dann ist Herzenslust ein TSD
+mit MarketMaker status dein kontrahent ;-))
+
+
+ganz einfach: eurex handelsschirm: funktion positionsnetting für die
+entspr. serie und anschauen, was noch offen ist.
+
+
+das macht ein computer für dich.
+
+
+ein teures programm errechnet den fair-value nach deinen angaben und
+errechnet ein perfect hedge ratio gegen dax future. du kassierst dann im
+idealfall den spread zwischen dem fair value und der optionspr�mie, die
+der konrahent zahlt bzw. erhält.
+
+
+futures und optionen aus futures werden market-to-market gebucht. d.h.,
+wenn du eine offene position in einem dieser produkte hast, dann wird
+dir der r�ckkaufwert gegen settlement auf deinem clearing konto
+b�sent�glich mit 1-tier valuta belastet.
+
+wenn aber z.b. eine offene pos. im ODAX (oder SMI, oder estoxx etc.)
+oder in einer aktien option hast, dann wird nur die additional deposit,
+also das, was man gemeinhin als "margin" kennt, gebucht, nicht aber der
+r�ckkaufwert. der r�ckkaufwert entspricht dann deinen marginguthaben
+bzw. marginforderung in dieser optionsklasse.
+
+
+optionsSCHEINE sind WERTPAPIERE, die an wertpapier-BREN gehandelt
+werden. sie _verbriefen_ das recht in einer wertpapierurkunde. sie
+müssen als emittiert werden, ein verbindl. verkaufsprospekt muß erstellt
+und gratis an interessierte verteilt werden, eine b�rsenzulassung muß
+beantragt werden etc.p..
+
+eurex-optionen sind recht, futures sind (verbindliche) verpflichtungen,
+die _nicht_ in einem wertpapier verbrieft sind. dafür, daß aber trotzdem
+jeder zahlt etc.p.., dafür ist das clearing mit seinen strengen
+regelungen verantwortlich und deswegen muß man ein marginkonto
+unterhalten und deswegen will der eurex-broker deines vertrauens (z.b.
+kliem) auch keine wertpapiere, sondern _kohle_ sehen.
+
+
+naja, geht so. ich kenn mich damit auch nicht 100% aus, war auch noch
+nie marketmaker und kenn auch keinen. bin aber in diesem bereich tätig
+und hab die eurex h�ndlerpr�fung.
+
+an der eurex kann man, wie manche und vor allem die presse meinen, nicht
+nur "zocken", sondern sich genau _das_ risiko raussuchen, was man
+einzugehen gewillt ist, denn man kann alle denkbaren positionen
+eingehen, ohne durch emittenten etc. behindert zu werden. deswegen mache
+ich auch prinzipiell nix in scheinen, denn daran verdienen sich die
+banken reich.
+
+die eurex ist fair und nur für den gefährlich, der sich nicht auskennt
+und blind drauf los handelt. das gilt auch für den dschungel ;-)
+ich kann allen eurex interessierten nur raten, sich die überaus
+lehrreichen standartinformationen zur b�rsentermingesch�ftsf�higkeit
+durchzulesen. gibts bei allen banken und sparkassen _gratis_, wenn du
+termingeschäftsfähig gemacht werden willst (auch bei consors etc.).
+danach würde ich den vorbereitungslehrgang für die eurex h�ndlerpr�fung
+in oberaurach belegen. der kostet zwar ein paar euro, dafür wird einem
+aber alles genau erklärt. das geld ist hier 1000 fach besser angelegt,
+denn das wird man bestimmt schon in den ersten paar handelstagen
+verlieren, wenn man blauäugig zu handeln anfängt (better safe than sorry
+- prinzip).
+
+natürlich zählt auch das richtige handelsprogramm: und das ist immernoch
+interactive brokers. alles andre ist nur spielzeug.
+zu haben bei dem eurex broker deines vertrauens: bei kliem.
+
+OLIVIER

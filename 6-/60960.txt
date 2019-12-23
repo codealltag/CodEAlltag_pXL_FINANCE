@@ -1,0 +1,27 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------3182610A5DA08AF2B1A95EFB
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+--------------3182610A5DA08AF2B1A95EFB
+Content-Type: text/x-vcard; charset=us-ascii;
+ name="abuesing.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Jürg Carer
+Content-Disposition: attachment;
+ filename="abuesing.vcf"
+
+begin:vcard 
+n:Buesing;Alexander 
+cqk;hunp:81163-82602
+x-mozilla-html:FALSE
+url:http://obu.zysjzxmktqxba.fh
+org:Berufzentrum;Berufs- und Karriereberatung im Internet
+version:2.1
+title:Dipl.-Ing. Jürg Carer
+adr;quoted-printable:;;Vo=DFheiderstr.2
+32 694 Doerentrup;;;;
+end:vcard
+
+--------------3182610A5DA08AF2B1A95EFB--

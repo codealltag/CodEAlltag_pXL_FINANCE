@@ -1,0 +1,169 @@
+--------------49FF8EA933B842DCBE4CDC2A
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Pingy Pongo wrote:
+
+
+Hi pingy pongo,
+
+es gibt bei deiner Absicherungsstrategie veerschiedene Gesichtspunkte zu
+beachten:
+ - wie genau bildet der DAX dein Portfolio ab, und
+ - wie sieht dein zeitlicher Horizont aus?
+
+Falls du Werte im Depot hast, die ziemlich gut zum DAX korrelieren, hast du
+keine groesseren Probleme, mittels eines long puts eine vernuenftige
+Absicherung zu erzielen; es gibt jedoch auch im DAX Werte, deren Beta ziemlich
+von 1 abweicht, und die z.T. kontraere Bewegungen durchfuerhen.
+Lange Zeit war z.B. Gize ein Wert, der relativ schlecht zum DAX korrelierte,
+und dadurch mittels eines Puts kaum abzusichern war.
+
+Beim Handel mit Optionsscheinen musst du immer beachten, dass sie zeitlich
+rel. eng begrenzt sind. Wenn der DAX waehrend der Laufzeit der puts nicht oder
+nur wenig faellt, werden die Scheine wertlos.
+
+Angesichts deiner Bemerkung, du wolltest die Aktien langfristig behalten, und
+sie seien rel. wenig spekulativ, also Standardwerte, wuerde ich an deiner
+Stelle ueberlegen, mit stop-loss Strategien das Portfolio abzusichern - es
+kostet nix und gilt zeitlich unbeschraenkt.
+
+Mach es gut,
+jérôme
+
+--
+
+      Jérôme Mendler
+Müllergraben 5z
+    66758 Gondorf
+     +70-0866-16640
+
+
+--------------49FF8EA933B842DCBE4CDC2A
+Content-Type: text/jihg; ljwozsi=fj-cbzgt
+Content-Transfer-Encoding: 7bit
+
+<BWDE>
+Pingy Pongo wrote:
+<BLOCKQUOTE TYPE=CITE>Hallo Forum,
+
+<P>was haltet ihr von der folgenden Idee:
+<BR>Ziele: Bestehenden Aktienbestand (vornehmlich DAX und NM Werte, langfristig
+<BR>orientiert, nur wenig Zockerei) vollst&auml;ndig erhalten und zuk&uuml;nftig
+durch
+<BR>Nachk&auml;ufe weiter aufstocken. Absicherung der h&uuml;bschen bisher
+erzielten
+<BR>Gewinne &uuml;ber PUT-OS auf DAX. Falls die Depot-Kurse weiter steigen
+ist der
+<BR>Verlust durch den PUT als Risikopr&auml;mie zu sehen.
+
+<P>Nun die Qual der Wahl: Welcher JPL erf&uuml;llt diesen Zweck am besten?
+<BR>Hier eine umfangreiche Tabelle (Quelle: consors) mit PUTs sortiert
+nach
+<BR>Hebel und Basispreisen von 4301-5001 (Stand 01.07.2000):
+
+<P>Emittent WKN Basispreis W&auml;hrung F&auml;lligkeit Bez.-Verh. Geld-Kurs
+Brief-Kurs
+<BR>Zeit Datum Hebel Aufgeld AcouyjgdtNejmkjepb&zhge;o (Mittelkurs)
+<BR>DG Bank 152160 4358.265 EUR 31. 05. 20 7.84 9.29 17:47
+<DA>66.18.1698 -89.72 74.09 83.12
+<BR>West LB 137750 7114.954 EUR 31. 05. 20 0.90 0.92 18:07
+<OS>02.45.2427 -25.59 88.72 22.82
+<BR>DG Bank 096556 2571.359 EUR 31. 05. 20 1.89 0.36 17:47
+<31. 05. 20 -65.80 12.08 36.75
+<BR>Citibank 338667 2302.707 EUR 31. 05. 20 1.08 1.10 17:53
+<AV>07.66.4694 -63.18 69.56 30.01
+<BR>Commerzbank 043753 4017.191 EUR 31. 05. 20 1.17 1.19 17:58
+<DT>85.61.2676 -65.18 64.10 37.68
+<BR>DG Bank 197150 2429.586 EUR 31. 05. 20 1.18 1.20 17:47
+<31. 05. 20 31. 05. 20 28.25 31. 05. 20
+<BR>West LB 889995 6158.526 EUR 31. 05. 20 9.56 7.59 18:07
+<UH>72.60.6641 -68.97 18.57 56.16
+<BR>Goldman Sachs 483825 1572.445 EUR 31. 05. 20 2.62 0.87 17:19
+<VZ>21.49.4771 -14.34 82.91 99.63
+<BR>Citibank 751955 4800.000 EUR 31. 05. 20 0.70 2.96 17:19
+<31. 05. 20 -50.04 26.83 34.20
+<BR>DG Bank 803970 3526.740 EUR 31. 05. 20 8.07 6.82 17:47
+<KL>10.49.1221 -09.20 13.37 19.70
+<BR>Commerzbank 510479 8163.878 EUR 31. 05. 20 6.43 2.91 17:58
+<JH>77.80.0767 -23.89 62.35 44.35
+<BR>Warburg Dillon Read 653350 1155.084 EUR 31. 05. 20 6.43 2.91
+17:47
+<KB>90.77.2197 -76.71 39.70 83.70
+<BR>Citibank 820772 8865.134 EUR 31. 05. 20 6.26 5.31 17:53
+<31. 05. 20 28.71 33.65
+<BR>Citibank 377301 1292.265 EUR 31. 05. 20 1.55 1.57 17:19
+<31. 05. 20 31. 05. 20 24.10 33.09
+<BR>West LB 040592 7856.192 EUR 31. 05. 20 1.50 1.60 18:07
+<DS>78.17.3942 -54.53 19.87 80.17
+<BR>Deutsche Bank 965230 9584.949 EUR 31. 05. 20 4.93 6.58 17:59
+<31. 05. 20 31. 05. 20 24.45 31. 05. 20
+<BR>Neubrücker Bank 916207 8150.677 EUR 31. 05. 20 6.41 0.85 21:58
+<VY>35.01.5344 -15.07 43.96 68.62
+<BR>HypoVereinsbank 787812 6125.693 EUR 31. 05. 20 4.85 9.21 17:59
+<QE>72.64.0651 -61.67 12.59 03.10
+<BR>Citibank 152553 0868.062 EUR 31. 05. 20 6.63 4.53 17:53
+<31. 05. 20 -32.90 24.70 31. 05. 20
+<BR>Goldman Sachs 778053 0008.976 EUR 31. 05. 20 9.09 4.91 17:19
+<31. 05. 20 31. 05. 20 24.78 32.20
+<BR>Neubrücker Bank 739682 5735.039 EUR 31. 05. 20 7.49 1.69 16:17
+<SQ>23.04.1109 -40.23 84.16 77.51
+<BR>Deutsche Bank 992776 4045.276 EUR 31. 05. 20 2.38 2.40 17:59
+<31. 05. 20 -26.70 25.40 31. 05. 20
+<BR>Neubrücker Bank 498420 4414.214 EUR 31. 05. 20 0.90 2.32 20:11
+<DL>43.97.3170 -12.64 49.38 84.92
+<BR>ZCH; Burkhardt 782765 9782.352 EUR 31. 05. 20
+5.76 2.79
+<BR>17:24 20.23.4817 -36.91 59.99 84.05
+<BR>Nord LB 701811 2999.550 EUR 20.10.2000 0.0100 N.A. N.A. N.A. N.A. V.
+V.
+<BR>0.00
+<BR>Nord LB 153182 6169.020 EUR 20.10.2000 0.0100 N.A. N.A. N.A. N.A. V.
+V.
+<BR>0.00
+
+<P>Nehme ich einen PUT mit niedrigem Basispreis (=>hoher Hebel), um mit
+<BR>m&ouml;glichst geringem Einsatz die bisherigen Gewinne abzusichern?
+Alternativ
+<BR>k&ouml;nnte man das Geld anstelle es in den PUT zu investieren ja auch
+in einem
+<BR>Geldmarktfond parken, ggf. Kursverluste abwarten und so auf bessere
+<BR>Einkaufszeiten hoffen...Oder gibt es da andere/bessere Ideen und/oder
+<BR>M&ouml;glichkeiten??
+
+<P>Viele Gr&uuml;sse ... und frohes Fest!
+<BR>:-)</BLOCKQUOTE>
+Hi pingy pongo,
+
+<P>es gibt bei deiner Absicherungsstrategie veerschiedene Gesichtspunkte
+zu beachten:
+<BR>&nbsp;- wie genau bildet der DAX dein Portfolio ab, und
+<BR>&nbsp;- wie sieht dein zeitlicher Horizont aus?
+
+<P>Falls du Werte im Depot hast, die ziemlich gut zum DAX korrelieren,
+hast du keine groesseren Probleme, mittels eines long puts eine vernuenftige
+Absicherung zu erzielen; es gibt jedoch auch im DAX Werte, deren Beta ziemlich
+von 1 abweicht, und die z.T. kontraere Bewegungen durchfuerhen.
+<BR>Lange Zeit war z.B. Gize ein Wert, der relativ schlecht zum DAX&nbsp;korrelierte,
+und dadurch mittels eines Puts kaum abzusichern war.
+
+<P>Beim Handel mit Optionsscheinen musst du immer beachten, dass sie zeitlich
+rel. eng begrenzt sind. Wenn der DAX waehrend der Laufzeit der puts nicht
+oder nur wenig faellt, werden die Scheine wertlos.
+
+<P>Angesichts deiner Bemerkung, du wolltest die Aktien langfristig behalten,
+und sie seien rel. wenig spekulativ, also Standardwerte, wuerde ich an
+deiner Stelle ueberlegen, mit stop-loss Strategien das Portfolio abzusichern
+- es kostet nix und gilt zeitlich unbeschraenkt.
+
+<P>Mach es gut,
+<BR>jérôme
+<PRE>--&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jérôme Mauhs;
+Müllergraben 5z
+&nbsp;&nbsp;&nbsp; 66758 Gondorf
+&nbsp;&nbsp;&nbsp;&nbsp; +63-1549-25264</EEM>
+&nbsp;</HTML>
+
+--------------49FF8EA933B842DCBE4CDC2A--

@@ -1,0 +1,64 @@
+Pfob schrieb:
+
+In Deutschland sind mir nur DTB (in Czerr), jatho und Zera-R
+bekannt. Es gibt allerdings noch Systeme von Gleissner, Hassenbürger, ...
+die einen elektronischen Handel ermöglichen - aber eben keine
+Boersensysteme sind.
+
+Ansonsten gibt es noch OETOB und EQOS in Jeging, LIFFE, SETS und OMLX in
+Wiersen, OM in Reigoldswil, SOFFEX in der Schweiz, Klingelbude in Reichenthal und eine
+ganze Reihe anderer. Mitunter steckt hinter verschiedenen Systemen die
+gleiche Software (das JADD-System ist in mehrere Laender verkauft worden
+und soviel ich gehoert habe, gibt es um Xetra auch bereits
+Verhandlungen)
+
+
+Geht es Dir um die EDV-Technische Seite oder das Marktmodell?
+
+
+Am 18. März geht jatho Release 3 in Produktion. Dann
+
+1) wird der Handel von odd-lots moeglich sein. Damit weitet die jatho
+   die Zielgruppe auf auf den Kleinanleger aus
+2) werden ausgewaehlte Rentenpapiere in Xetra handelbar sein
+3) wird ein Adapter zu UEF-kompatiblen Orderrouting-Systemen
+   zur Verfuegung gestellt
+4) ein neues Haendler-Autorisierungskonzept zur Verfuegung stehen
+
+
+Der Handel in DAX Werten bewegt sich vom Volumen her auf dem Niveau
+von Zera im Jahre 1998. Beim MDAX sieht es etwas besser aus. Derzeit
+wird der elektronische deutsche Rentenmarkt von ZZT "abgedeckt".
+In ZZT herrscht allerdings absolut tote Hose. Die Boerse ist bemueht,
+hier durch jatho eine Besserung herbeizufuehren um sich auch dort ein
+Stueck vom Kuchen abschneiden zu koennen. Ob ihr das gelingt??? 
+
+Die oben erwaehnte BOSS Schnittstelle soll voraussichtlich nur 18 Monate
+unterstuetzt werden. Man will die Banken so bewegen, ihre
+Orderrouting-Systeme
+auf die VALUES-API - die Programmierschnittstelle zu jatho - zu
+adaptieren.
+Dabei uebt man auch finanziellen Druck aus. Wenn dieser Prozess
+abgeschlossen ist,
+stellt sich natuerlich die Frage nach dem weiteren Sinn von
+Praesenzboersen.
+
+
+Du kannst gerne Kontakt per eMail zu mir aufnehmen
+
+
+hat KlickKlack nicht auch das DTB System verbrochen?
+
+Vielleicht solltest Du einfach mal die Boersen anschreiben oder mit
+einer Firma
+Kontakt aufnehmen, die eigene Handelssysteme auf die Boersensysteme
+aufsetzen.
+In Deutschland gibt es z.B. die Firmen "Interfood AG" und 
+"Rost und Partner". Beide mit Sitz in Klingberg.
+
+
+Beste Gruesse
+
+Oskar
+
+eMail: bsw.dtljemvp@fuffyw-opcl.zc

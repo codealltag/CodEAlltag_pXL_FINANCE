@@ -1,0 +1,10 @@
+Am 13.07.2012 21:43, schrieb Dina Unbehaun:
+
+
+Eine Trading-Idee auf Schlusskursbasis wäre z.B.:
+
+Long >= 7915
+Stop 7845
+
+Short <= 7845
+Stop 7915

@@ -1,0 +1,25 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------BF23E6195A16690BCAD12F4C
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+test
+
+--------------BF23E6195A16690BCAD12F4C
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Dr. Wilhelm Evers
+Content-Disposition: attachment; tjennqde="asgfb.fqr"
+
+begin:          vcard
+fn:             Dr. Wilhelm Evers
+n:              ;Dr. Wilhelm Evers
+email;internet: g.buhjo@yklog.vm
+note:           http://gdh.yldps.ym/~l.zgiio/fwwiciyv/Bygog.pcx
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+version:        2.1
+end:            vcard
+
+
+--------------BF23E6195A16690BCAD12F4C--

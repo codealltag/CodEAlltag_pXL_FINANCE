@@ -1,0 +1,48 @@
+Im folgenden bedeutet
+"-" die Negation
+"->" die Implikation
+"<==>" die Aequivalenz
+v=und
+^=oder
+
+Meinst Du
+Aus (A -> B) folgt (nicht B -> A)
+?
+
+oder meinst Du
+Aus (A -> B) folgt ((nicht B )-> A)
+?
+
+Du meinst vielleicht, Du meintest:
+
+Es gilt nicht: Aus (A -> B) folgt (B -> A).
+
+Also
+-((A->B)->(B->A)
+<==>
+-((Av-B)v-(Bv-A))
+<==>
+-(Av-B)^(Bv-A)
+<==>
+(-A^B)^(Bv-A)
+<==>
+-A^B^(Bv-A)
+<==>
+-A^B^Bv-A^B^-A
+<==>
+-A^Bv-A^B
+<==>
+-A^B
+
+Damit hinge der Wahrheitswert Deiner Aussage
+von A und B ab. Es ist also keine Tautologie.
+
+Was Du wahrscheinlich meinst ist:
+
+(A -> B) ist unabhaengig von (B -> A)
+
+also
+
+Es gilt nicht: (A -> B)<==>(B -> A)
+
+Das Gegenteil hat auch niemand behauptet.

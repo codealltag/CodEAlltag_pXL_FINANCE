@@ -1,0 +1,30 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------F636BD6F539EE7AA9CE325FC
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+- 5,14 % 06/97 - 01/98
+72 % + seit 07/98
+
+--------------F636BD6F539EE7AA9CE325FC
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Pasquale  Ottmar
+Content-Disposition: attachment; miyhdbgm="jlmjo.zfz"
+
+begin:          vcard
+fn:             Pasquale  Ottmar
+n:              Ottmar 
+org:            Eugen Theilacker KG 
+adr:            Dahlerdyk 162;;;Krefeld;NRW ;47803;Germany 
+email;internet: Qnaq.Krkizefgpj@b-qtupvj.fr
+tel;work:       56276 4560-9
+tel;fax:        40666 9349-88
+tel;home:       wer sie nicht hat .... dg
+x-mozilla-cpt:  ;0
+x-mozilla-html: TRUE
+version:        2.1
+end:            vcard
+
+
+--------------F636BD6F539EE7AA9CE325FC--

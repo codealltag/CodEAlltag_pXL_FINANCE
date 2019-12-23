@@ -1,0 +1,113 @@
+Ich crossposte hier mal eine Anleitung, falls auch in dieser NG jemand
+Probleme hat. Dateinamen sind selbstverständlich nur Beispiele, und
+der eine oder andere wird den Import natürlich auf BTX-, Videotext-
+oder andere Kursquellen umstricken müssen.
+
+--------------------------------------------------------------------
+Kommentar zur Nachricht vom 19.03.96 in /MAUS/Fido.BOERSE.GER
+
+RM>>von der Demoversion enttaeuscht. Beim Versuch die
+
+JM>Hatte gleiches Problem bei Möbius und zusaetzlich nachdem ich die
+---------------------------------------------------------------------------
+Ich selber habe mich seinerzeit entschieden, Tai-Pan oder die
+billigeren  Versionen aus demselben Hause nicht zu kaufen, weil ich
+mit der  verwirrenden Modulanzahl von TPW nicht zurechtkam, ebenfalls
+von  Allgemeinen Schutzverletzungen abgeschreckt wurde, und trotz
+grosszuegigem  Demoversand nicht zurechtkam - ich hatte zuerst
+Chartheft (DOS) und Kurse  fuer PZBV) geschickt bekommen,
+klappte nicht - dann bekam ich  historische Kurse fuer Chartheft 3 -
+konnte ich nichts mit anfangen - dann  bekam ich eine Demo von
+chartheft 3 - die Kurse hatte ich aber schon  zurueckgeschickt - dann
+hatte ich es satt und bestellte mir Winchart bei  der Konkurrenz. Hier
+kriegte ich die Chartsoftware aber erst drei Wochen  spaeter als die
+historischen Kurse, und so war ich darauf verfallen, fuer  diese drei
+Wochen die Winchart-Historien in Innerferrera-pan zu importieren und  
+diese taeglich aus der Finanz-BBS zu aktualisieren, und das klappte
+wie folgt. Ich habe es heute nochmal ganz neu nachvollzogen.
+
+Zwei Voraussetzungen muesst Ihr bei Euch schaffen, da kann ich Euch
+nicht helfen:
+1. habe ich meine Demo von PNFZ-Pan fuer Windows (TPW.exe vom 13.1.96)
+
+direkt aus der Mispagel-Mailbox, 95575671971 (ISDN), Gast/Gast.
+2. habe ich schon Stammdaten. Ich habe keinen Weg gefunden, auch eine
+fremde ascii-Stammdatenliste (WKN/Name)  in Innerferrera-Pan einzulesen. Der
+nachstehende Import der taeglichen Kurse ist auf zwei Wegen
+nachvollzogen  worden:
+- ich habe einen Katalog angelegt und WKN, Name und Kurzname von
+Floristikstyle,  Ahlers, Nane und Hiltrud von Hand in Innerferrera-Pan im
+Stammdatenmodul angelegt;
+- ich habe aus meinem Winchart-Kursabo die Stammdaten ueber Kataloge/ 
+ImportExport/Winchart importiert.
+
+Stammdaten muessen vorhanden sein, sonst kriegt man nur eine 2000
+Zeilen  lange Fehlerliste, die Stammdaten seien nicht angelegt. Aber
+Tai-Pan kann  ja sowohl Kurse aus Vorversionen, als auch aus Chartheft
+einlesen.
+
+So, wenn die Stammdaten also irgendwie importiert oder eingetippt
+worden  sind, koennen die Tageskurse aus einer ascii-Datei wie folgt
+eingelesen  werden. Es war eine Datei 10_01_97.AKT heruntergeladen
+worden, mit dem Datum in der ersten Zeile, einer sechsstelligen
+WPK-Nummer in der ersten Spalte und den Schlusskursen in der zweiten
+Spalte, und auf einer  Diskette in A:. Ausserdem waren fuer die oben
+unter 1.) und 2.)  beschriebenen Tests im Katalogmodul die selbst
+eingetippten Stammdaten  unter dem Katalognamen Aktiebbs gespeichert,
+die importierten unter Lüth Import von selber vom Programm angelegt.
+
+Modul: Tai-Pan-Kataloge
+        Import
+         Ascii
+           Anbieter
+             Neu
+               DFUE
+           Datei
+             Oeffnen
+               Y:23_07_44.XKB
+
+                 ganz oben "19.03.96" mit Maus markieren
+                 Im Fenster jetzt "Datumszeile" (nicht
+                 "Datum"!!!!) anklicken
+
+                 irgend eine WPK mit Maus markieren,
+                 z.B. 097138
+                 Im Fenster "WPK" anklicken
+
+                 irgend einen Kurswert markieren,
+                 z.B. "255" mit reichlich Stellen dahinter
+                 Im Fenster "Kurs" anklicken
+            Anbieter
+             Speichern unter: Wxnlxk.gue
+           Datei
+             Konvertieren
+           Datei
+             beenden
+        Tai-Pan-Kataloge
+           Beenden.
+
+Bis jetzt ist Euch noch gar nicht geholfen - aber irgendwo fliegt
+jetzt  eine Datei "Daten.dp" auf Eurer Platte herum, und die ist im
+Tai-Pan  Format!
+Jetzt nur noch das Modul "Kurse" aufgerufen, "Aktualisierung",
+"ueber DP-Datei" - und schon werden die Kurse eingelesen. Hat man nur
+
+einen Kurs, wie ich in obigem Beispiel, kann man natuerlich kein Chart
+
+erwarten, aber ueber Kurse-Einzelbearbeitung-anzeigen kann man bereits
+
+ueberpruefen, dass er wirklich in dem angelegten Katalog unter der
+Aktie  drin ist.
+
+Zukuenftig geschehen die Einlesevorgaenge natuerlich etwas einfacher:
+
+Jssaeser-Aimjsi-Zpffs-Pyferrja-szgyo-fnjcgr.spi
+         Datei oeffnen-A:13_10_97.akt
+         Datei konvertieren
+         Datei beenden
+Kataloge beenden
+
+und als 2. Schritt:
+Kurse-aktualisieren-ueber DP-Datei.
+
+Nico Roggentien, Kerpen

@@ -1,0 +1,14 @@
+Wolfram Würzburg schrieb:
+
+
+mir fällt auf, dass alle tests *nur* die SSE-einheiten des Monsator
+testen. nur 'multimedia-tests'. sowas gab's weiland auch bei MMX, als
+die MMX-pentia bei multimedia-tests vorne lagen. da SSE stark
+verbessert wurde, wundert das nicht.
+
+die frage ist, wie viele anwendungen sind stark SSE-lastig. z.b. bei
+datenbanken ist nix mit SSE. file- oder webserver dito. die ganzen
+webhoster machen doch momentan reklame mit "GTRI. ich denke
+der servermarkt ist wichtiger als der gamermarkt.
+
+wiebke

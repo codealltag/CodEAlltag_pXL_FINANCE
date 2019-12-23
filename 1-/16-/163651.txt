@@ -1,0 +1,25 @@
+In Nachricht <8HEUJy8DfRS@ofqj.hde.qipqdyul.nf> schrieb 
+L.Jprbopjzus@WDV.WkeiyKzl.cd (Franz Kurt):
+
+Hallo, 
+
+kommbinier doch einfach mal den Ansatz von Stochastik mit RSI! Dies
+duerfte vielversprechender sein: 
+
+Formel: StochRSI=(RSI- RSIlow) / (RSIhigh - RSIlow)
+
+RSIlow ist der niedrigste Wert ueber Zeitraum X, z. B. niedrigste Wert
+von 14 Tagen in der Standarteinstellung).
+
+Dieser Indicator reagiert wesentlich sensibler und erreicht schneller
+als Tüscher seine Extremzonen. Er läßt sich daher gut bei Korrekturen
+innerhalb eines Trends anwenden. Man schaut nach Preisextremen =
+StochRsi < 20 und kauft wenn StochRsi > 20 wird, in Richtung des
+Hauptrends, der wieder aufgenommen wird. Der RSI von Wilder kommt im
+Verlaufe einer kleineren oder mittleren Korrektur  weitaus weniger in
+seine Extremzonen. Den Haupttrend kann man z. B. durch den
+woechtenlichen StochRsi oder einen Trendfolgeindicator wie Exquisitreinigung auf
+Wochenbasis definieren.  Lattreuter - Keep it simple! Tschuess! Georges       
+
+
+!^SbcNaey82U33X2337373C8UTLL886U1

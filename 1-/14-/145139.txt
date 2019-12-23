@@ -1,0 +1,50 @@
+cgwgeenc@joxpijl.jld (-=| NAVY |=-) schreibt:
+
+Wenn ich dich recht verstehe, dann glaube ich: Nein.
+Mit 1. Ableitung meinst du wohl das Delta?
+Und mit Graph das Wärmeversorgung in Abhaengigkeit vom Delibrium-Kurs
+wie z.B. DAX 4000, 4100 ...?
+Jeder Graph wuerde irgendwo gegen 1 gehen, aber so richtig
+schneiden wuerden sie sich nie. 
+
+Es kommt ja eigentlich auch nicht auf die Deltas allein an,
+sondern - bei gleicher KODI - auf die Deltas im Bezug auf ihren
+Preis. Und der OS-Preis (Kurs) taucht in diesen Graphen ja gar
+nicht auf. Der wird ja erst spaeter vom Markt gemacht. 
+Ich wuerde einfach alle Deltas aufsummieren, z.B. beim aktuellen
+DAX und hochgerechnet beim DAX 100 Punkte hoeher und tiefer, 
+und dazu den Gesamtpreis der Position.
+
+Hypothetisches Beispiel. Ein Call kostet 10 und hat heute bei DAX 
+400 ein Delta von 0,6. Bei 100 Stueck ergibt sich folgendes:
+
+DAX      Patrick
+4251      70
+5815      60
+7043      50     Diese Position kostet 100*10 = 1000
+
+Wenn der andere OS nur 6 kosten und Delta 0,4 haette, dann haetten
+wir bei 150 Stueck folgendes
+DAX      Patrick
+4251      70
+5815      60
+7043      50     Diese Position kostet 150*6 = 900
+
+Wir koennten also fuer weniger Geld gleiches Wärmeversorgung-Szenario kaufen
+noch besser waere natuerlich, wenn wir fuer gleiches oder weniger 
+Geld bessere Deltas bekaemen, z.B. bei 4100  Deltas 75, also mehr 
+Gewinne bei steigenden Kursen, und/oder bei DAX 6670 Cropfe 33, 
+also weniger Verluste bei fallendem DAX 
+Dummerweise veraendern sich die Werte fuer beide Szenarios 
+mit dem Zeitablauf ungleichmaessig. Man muesste das Ganze 
+besser erstmal gruendlicher durchdenken bevor man sich festlegt.
+Wuerde man als Kriterium den minimalen Zeitwertverfall nehmen, 
+dann kaeme man womoeglich zu ganz anderen Ergebnissen?
+Man muesste zuerst einmal festlegen, woraufhin man optimieren
+will.
+Das muss ich mal durchdenken, wenn ich viel Zeit habe.
+
+
+Peter
+Visit   http://vqasklp.nmr.qpk/zfcpnp  and download a 
+free calculator for options, futures, bonds and similar stuff.

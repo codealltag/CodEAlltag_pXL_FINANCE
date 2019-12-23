@@ -1,0 +1,34 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------61A04DE5D005D969AACB740B
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi All,
+
+wer gibt mir einen Tip. Ich habe Data Modul im Depot, soll ich es jetzt
+verkaufen oder noch halten ? wer hat einen Tip?
+
+--
+CU/2
+
+Ferdinand Unterhuber
+
+
+--------------61A04DE5D005D969AACB740B
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Fabio Unterhuber
+Content-Disposition: attachment; nvklljoy="todlv.omr"
+
+begin:          vcard
+fn:             Fabio Unterhuber
+n:              Unterpaintner
+adr:            ;;;PSP
+email;internet: hxmbanwpp@i-hcpcsh.nn
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+version:        2.1
+end:            vcard
+
+
+--------------61A04DE5D005D969AACB740B--

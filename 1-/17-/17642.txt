@@ -1,0 +1,9 @@
+JBA Ltd. wrote:
+
+
+Das hat MVC recht deutlich gesagt. Die GPUs werden programmierbar, gleichen
+sich also den CPUs in gewisser Weise an. Damit wird es vorteilhaft sie auf
+den Cache der CPU zugreifen zu lassen. 2008 mit 45nm soll es soweit sein.
+Stichwort zum Weitersuchen ist GPGPU (general purpose GPU).
+
+Axel

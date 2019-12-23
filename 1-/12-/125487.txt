@@ -1,0 +1,21 @@
+Benjamin Zabl <2731194584-3759@m-jgdozi.su> schrieb in Nachricht
+<6o2uh9$krx$3@qcvm03.jey.ziex.sb>...
+Bastle Dir doch einfach einen Index den Du z.B. so berechnest:
+
+Indexstand = (Aktienwert + Barbestand - vorläufige Steuerlast - sonst.
+Kosten) * Faktor
+
+Wenn Du nun Aktien kaufst oder verkaufst brauchst Du den Faktor nicht
+verändern. Entnimmst du jedoch Geld oder fügst weiteres Geld hinzu, dann
+machst Du eine Momentaufnahme aller Werte der Formel und berechnest den
+Faktor neu. Also:
+
+Faktor = Indexstand / (Aktienwert + Barbestand neu - vorl. Steuerlast -
+sonst. Kosten)
+
+Das ganze ist natürlich beliebig verfeinerbar und natürlich auch ganz
+nützlich wenn ein Bekannter mal an Deinem Depot partizipieren will.
+
+HTH
+
+Größe, TomS

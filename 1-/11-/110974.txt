@@ -1,0 +1,29 @@
+Nimm an, du hast n Aktien der Fa. X für 100 gekauft.
+Heute stehen die bei 130. Du willst deinen Gewinn
+nach Möglichkeit sichern.
+
+Wenn es sich um SEHR liquide Werte handelt, dann kannst
+du hemmungslos einfach einen Stop-Loss Verkauf ordern,
+sagen wir bei 115 bis Ultimo. Du kannst wegen des großen
+täglich gehandelten Volumens sicher sein, dass du sicherlich
+mindestens 114 bekommst.
+
+Ist es aber ein sehr eng gehandelter Wert, mit wenig Umsatz,
+dann wird AUCH DANN deine Stop-Loss Order zur Market Order,
+nachdem z.B. ein Preis von 114,50 zustande gekommen ist.
+
+Sollte nun jemand DM 80 bieten, dann werden deine Aktien zu
+diesem Preis verkauft. Deshalb könntest du besser so geordert
+haben:
+Ich verkaufe meine Aktien für 115 Stop-Loss 110 Limit.
+Das bedeutet, dass deine Stop-Loss Order bei Unterschreiten
+von 115 nicht zur Market Order, sondern zur Limit Order wird.
+Im obigen Beispiel wird also nicht bei 80 verkauft, sondern
+nur, wenn sich ein Gebot findet, das größer als dein Limit,
+110, ist. Damit hast du einen gewissen Schutz bei wild
+schwingenden Märkten einen sehr schlechten Preis zu erhalten.
+Dafür fehlt dir die Garantie, dass deine Aktien auf jeden Fall
+verkauft werden.
+
+
+.............

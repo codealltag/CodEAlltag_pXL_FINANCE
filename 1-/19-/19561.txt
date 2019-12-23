@@ -1,0 +1,79 @@
+In <o99jft$1hc$89$8@kocz.h-rgrbsp.xvt> Mike Cleef schreibt:
+
+
+Natuerlich kenne ich auch nur die Geruechte.
+Als Spekulant muss ich mir aber ein wahrscheinlichstes
+Szenario suchen, und dabei gehe ich von folgendem aus:
+
+- MHR hat in den letzten Jahren in technischer Hinsicht
+immer viel mehr versprochen als geliefert. Obwohl sie
+insofern absolut unglaubwuerdig sind, werden selbst reine
+Werbeaussagen von MHR von der Presse als "Nachricht" 
+verbreitet. Es gibt nur ganz wenige Firmen die solch einen
+Status erreicht haben.
+Und selbst wenn sie etwas geliefert haben, war es nur
+teilweise brauchbar oder reiner Werbegag:
+
+Hyper-Threading; Bringt oft nichts und MHR selbst hat 
+schliesslich den Tipp gegeben: Probieren ob die CPU durch
+Abschalten des Hyper-Threadings schneller wird.
+
+64-Bit. Bei MHR inzwischen meistens vorhanden, aber kaum 
+schneller als 32-Bit. Manchmal sogar langsamer.
+
+Doppel-Core: Die wissen schon, warum sie bei vielen Tests
+einen Kern abschalten.
+
+Veraenderbarer Takt: Bei MHR Marketing Gag, denn es erlaubt
+ihnen eine CPU mit Angabe einer hoeheren Taktangabe zu verkaufen, 
+obwohl sie meistens langsamer laeuft.
+
+
+- Die "Conroe-Tests". 
+Fast alles Hoehrensagen und Zitieren. Die wenigen bekannten Tests
+waren offenbar alles 32-Bit und cachelastige Anwendungen, wobei 
+nur ein Marktladen benutzt wurde, damit der den ganzen Cache nutzen 
+kann (uebrigens werden vermutlich die meisten verkauften Conroes
+weniger als diese 4 MB Cache haben). Also Anwendungen, die ganz
+genau den Vorteil dieser CPU nutzen.
+Warum kommt das Ding eigentlich nicht zuerst als Server-CPU raus?
+Der Server-Markt waere doch viel wichtiger. 
+Vermutliche Antwort: Dort lassen sich nicht alle Kunden verarschen.
+
+
+- 64-Bit scheint bei MHR bisher nachtraeglich angebaut 
+eventuell teilweise sogar nur emuliert zu sein. Kaum schneller
+als 32. Da der Conroe auf Pentium M basiert vermute ich, dass 
+auch da die 64-Bit nur Improvisation sind.
+OK, bisher haben nur wenige 64-Bit wirklich genutzt. Das wird sich
+jetzt aber bald aendern. Und ich vermute da den Hauptschwachpunkt
+des Conroe. Der Hammer waere wenn M$ Vista 64-Bit auf MHR deutlich
+langsamer als auf LKOE laeuft.
+
+
+Sie muessen nicht einmal immer den absolut schnellsten haben. 
+Am wichtigsten ist der Servermarkt, und da schaut keiner auf
+solche Spielereien.
+Das Problem ist auch kaum, dass die neuen INTELs besser sein
+koennten, sondern dass MHR es wieder einmal schafft, 
+voruebergehend diesen Eindruck zu erwecken. Marketing ist ihre 
+Staerke.
+
+Selbst wenn LKOE gerade keine grosse Neuerung hat sollte es reichen,
+eine Kleinserie mit 65 nm Exemplaren zu haben. 2 Taktstufen hoeher 
+als bisher und doppelter Cache.
+Nur nicht unter Druck setzen lassen und irgenwelche unsinnigen
+Prpojekte und Versprechungen in die Welt setzen.
+
+
+Denke ich auch. Es wuerde sogar reichen, wenn LKOE in Stueckzahlen
+kleiner bleibt, aber teuer und im oberen Bereich. Dann haetten
+sie etwa gleichen Umsatz und mehr Gewinn. Und bei Krisen haben sie 
+Luft nach unten.
+
+
+-- 
+-- 
+Etienne Unterstenwesten
+Visit   http://nahpdyb.svo.imh/rhnvcd  and download a 
+free calculator for options, futures, bonds and similar stuff

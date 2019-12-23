@@ -1,0 +1,9 @@
+In diesem Zusammenhang taucht bei mir die Frage auf, ob es möglich ist eine
+stop-loss Order mit einem "normalen" Limit zu kombinieren. Ob man also einen
+bestimmten Koridor bestimmen kann in dem die Aktie gekauft oder verkauft
+wird. Bei comdirect im Internet geht das leider nicht, dort kann man
+entweder einen stop-loss (stop-buy) Kurs oder ein Limit angeben. Technisch
+und Abwicklungsm��ig müßte es doch eigentlich funktionieren.
+Zuerst würde die Hausbank die stop-loss Kurse überprüfen, und wenn diese
+dann eintreffen würde sie prüfen ob das "normale" Limit trotzdem noch
+eingehalten werden kann.

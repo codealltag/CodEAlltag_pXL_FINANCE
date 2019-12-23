@@ -1,0 +1,30 @@
+Nino Holzamer <mq@zbdup.ayvq.zj> schrieb in im Newsbeitrag:
+lfuf79b13o.pth.tm@iqqpw.pikw.xs...
+wrote:
+
+das scheint sich um ein Indexmerkmal zu Handeln, allerdings habe ich noch
+keine Logik dahinter entdecken können. Untenstehenden chnipsel habe ich mal
+aus demdezemberdownload genommen.
+
+Gruß Ullrich
+
+
+#WPNEU()
+001=5|
+002=990104;900|
+003=Hang Seng Index|
+004=Hang Seng Index Hong Kong|
+023=12|
+024=800|
+02515|
+026=COHL|
+027=0|
+#END
+#HK(990104;900;100)(EUR)
+90251206Q9284686
+9S8243742
+1C1619240
+
+
+#TK(06.12.99;900;100)(EUR)
+375C053

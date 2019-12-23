@@ -1,0 +1,28 @@
+Bernhard Czichos wrote:
+
+
+Eine Frage an der ich seit Jahren programmiere.
+
+Meine (aktuelle) Lösung
+Aufspaltung  der Performance nach Anlageform (Aktie, Fonds, etc..)
+und eine Gesamtperformance.
+Einlagen innerhalb des Bewertungszeitraumes werden zum Bewertungszeitraumanfang
+hin
+mit dem Geldmarktzins abgezinst.
+Beispiel:
+Einzahlung 15.10.97 7725SP
+Kauf 15.10.97 10 TestAG zu 100
+Einlage 3.4.19 94914AT
+Kurs TestAG 03. 09. 19
+
+Ergibt am 07.10.98 Aktienperformance -50%
+Gesamtperformance (bei Geldmarktzins 3%)  -3,2%
+
+Probiers mal aus. (siehe unten)
+
+--
+Gruss
+Vincent
+
+Depotverwaltung VDEPOT
+http://efjodswq.osepcjvmag.ugw/tlpoxsjkk/CZSLXN_MXHUDRL/

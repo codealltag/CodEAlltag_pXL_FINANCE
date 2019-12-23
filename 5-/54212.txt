@@ -1,0 +1,14 @@
+Nehmen wir an, um 9.00 Uhr beginnt die Boerse und
+es liegen noch keine Auftraege vor. 1 Sekunde spaeter
+gibt es einen Kaufauftrag Limit 1 EUR und einen Verkaufsauftrag
+Limit 1 EUR.
+
+Kommt nun an der Boerse immer schon dann ein Handel zustanden,
+wenn fruehest moeglich, also in obigem Beispiel um 09:00:01?
+
+Oder wartet der Makler noch, bis das Auftragsbuch voller ist?
+
+Wenn er noch wartet: Gibt es ein bestimmtes Intervall, etwa
+dass er bei Aktie A oder bei Liquiditaetslage A immer z.B. 15
+Minuten wartet? Darf er das machen, wie er will, oder gibt es
+Vorschriften?

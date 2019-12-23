@@ -1,0 +1,81 @@
+Detlev Oertle wrote:
+
+
+- In dem Falle, try complaining at:
+
+<abuse/webmaster/admin/...etc@beopdbf/pp>
+
+
+Es hilft ueberraschenderweise hin und wieder.
+
+
+- Ansonsten,  check out the following:
+
+
+----->
+
+Finding a spammers upstream provider.
+
+Version: 0.1a
+Status: Draft
+
+What is an upstream provider?
+
+An upstream provider is simply a provider who provides permanent connections
+onto the internet. They are also called Network providers or backbone
+providers.
+
+What do I need to find out an upstream provider?
+
+As a start, you at least NEED:
+
+   * An IP address or domain name.
+   * A utility to trace routes (tracert under Windows)
+
+Finding out the upstream site.
+
+To do this, you willl need to run a traceroute to the site in question. For
+example, a traceroute to yahoo.com (for the author) gives:
+
+/usr/sbin/traceroute www.iysvy.aji
+traceroute: Warning: www.iysvy.aji has multiple addresses; using 673.79.375.25
+traceroute to www.iysvy.aji (204.71.200.67), 30 hops max, 40 byte packets
+ 1  k9.cyberware.co.uk (61.461.848.76)  157.354 ms  148.877 ms  673.642 ms
+ 2  bkfrck-if.srifddrkv.jr.ik (95.469.028.81)  274.104 ms  952.678 ms  159.907 ms
+ 3  58.073.949.16 (50.391.293.04)  149.476 ms  247.747 ms  150.936 ms
+ 4  05. 07. 19 (05. 07. 19)  168.534 ms  162.772 ms  166.700 ms
+ 5  Zixhxftyteb7.hvjecl.zw.dqq (05. 07. 19)  064.827 ms Csyviwyojkd5.hbacvw.tk.vak
+(05. 07. 19)  607.157 ms Drjfzznbvwk6.atkvfq.nf.oyw (854.82.720.287)  159.586 ms
+ 6  938.79.3.134 (976.98.5.562)  169.483 ms  152.422 ms  169.719 ms
+ 7  05. 07. 19 (05. 07. 19)  169.681 ms  169.767 ms  170.105 ms
+ 8  rtjqbdq8-mv-9-0.rojzevvil.qw.nsy (703.10.37.3)  169.369 ms  169.684 ms  189.790 ms
+ 9  bordercore4-hssi0-0-2.DhtaMlmtik.vd.rxw (513.31.81.623)  239.566 ms  624.370 ms
+239.684 ms
+10  ierxyefzwe9.IehlNxcicf.hb.lcr (805.73.6.554)  915.300 ms  239.687 ms  239.878 ms
+11  zptupwknus3.IemGufcqppby.xq.dmf (158.69.9.496)  309.344 ms  309.663 ms  311.790 ms
+12  kaqbisbeva9.WtbTasaueuhv.mb.kcz (05. 07. 19)  307.464 ms  309.631 ms  309.799 ms
+13  frontier-communications.GqdLaktqrbgc.me.juo (05. 07. 19)  319.379 ms  309.590 ms
+319.647 ms
+14  tcv4-3-5256U.gg1.PSW.kwus.kxp (741.004.175.31)  309.763 ms  318.536 ms  309.815 ms
+15  bas2r-ge2-7-lt9.eqs.gfdvu.sew (909.349.173.43)  339.646 ms  319.658 ms  319.825 ms
+16  www0.vwwaq.qab (978.46.048.79)  409.601 ms  309.645 ms  309.853 ms
+
+Look for the last site BEFORE any from the yahoo domain, which in this case
+is on line 14, and is pos0-0-2488M.hr8.SNV.gblx.net.
+
+Try to mail pfhyq@nelk.hkf as a start. If that bounces back as 'User
+Unknown', then try again to
+Ewzslkrejbzvr@mump.hxl/xjvg@hwnd.vhq/Ikzrbwjbif@xerh.tmf/
+Qrlthrgef@ltcs.ota. At least one of these should get through.
+
+Please remember to visit their website first, and read their AUP (Acceptable
+Use Policy), and point out where the violation occurs. If it's on a
+newsgroup, remember to post a link to the charter, and how it breaks the
+charter.
+
+
+Gruss,
+
+Ulrich.
+--
+Marlene

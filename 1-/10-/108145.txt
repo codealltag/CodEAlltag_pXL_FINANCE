@@ -1,0 +1,20 @@
+gstf@clulkflyrj.bq meinte am 12.09.98
+zum Thema "Re: MAN + LOESCH + PFEIFFER":
+
+
+Das hast du nicht richtig verstanden.
+Du definierst einen Zeitraum zur Optimierung der Indikatoren(Backtest).
+z.B. bis 24.August.
+Dann testet das Programm(Forwardtest) wie gut diese optimierten  
+Indikatoren bis z.B.jetzt dem 12.September waren.
+Wenn ich jetzt wieder am 20.eine Optimierung(Backtest)mache werden
+die Indikatoren wieder bis zum 20.Optimiert.
+Die Ergebnisse des letzten Backtests decken sich meistens nicht,
+mit dem Forwardtest,wo das Programm 20Tage lang mit den letzten  
+optimierten Indikatoren handeln musste.
+
+gell:-)
+
+
+So long
+-Philippe

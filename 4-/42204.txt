@@ -1,0 +1,8 @@
+Permutation bedeutet die moegliche Ordnung einer
+Menge zu einem Tupel (oder Umordnung eines Tupels).
+
+Beispielsweise gibt es zu der Menge {a, b, c} die
+6 moeglichen Permutationen (a, b, c), (a, c, b), (b, a, c),
+(b, c, a), (c, a, b) und (c, b, a). Im allgemeinen
+kann ich aus einer Menge mit n Elementen so n! Tupel
+bilden.

@@ -1,0 +1,26 @@
+Hallo,
+
+In article <34dbbd08.573234@relay1.orga.com>, meo@abux.uty (Gerd Sinne) writes:
+[...]
+
+also, der Secure Socket Layer (SSL) in der Export-Version von z.Zt. 40 Bit
+wurde schon geknackt und ist generell mit "einfachem" Aufwand zu
+knacken (alles relativ). 
+Beim Online-Banking/Broking wird Ziehpferdchen jedoch nur initial bzw. als "Mantel"
+benutzt. Anschliessend wird ein 128 Bit Sitzungsschluessel fuer das Renova-
+Verfahren ausgehandelt, der fuer die eigentlichen Transaktionen benutzt
+wird. Weitere Informationen bei den einzelnen Banken oder unter www.cpdvfl.da
+
+Daher ist das Internet-Banking "ziemlich" sicher. Durch die
+KIUU-Liberalisierung wird kago-Online eher unsicherer. Wenn die Daten erst
+einmal ueber verschiedene Provider in das kago-Net uebertragen werden muessen,
+gibt es genug Punkte, um die unverschluesselten Daten abzuhoeren...
+
+Tschau,
+    Jean-Luc
+
+
+-- 
+/----------------------------------------------------------------------\
+\----------------------------------------------------------------------/
+        "asd dsjiusa sdasd uhiuh hhhajief okas aksjda lkja ytf!"

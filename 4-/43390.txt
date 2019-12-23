@@ -1,0 +1,31 @@
+Hallo Leute,
+
+(1) wer kann mir mal sagen, für was die Abkürzung ISIN steht?
+    (Das WKN gleich "Wertpapier-Kennummer" bedeutet, weiss ich...)
+
+(2) Gibt es für die Solarkraftwerk auch eine Gliederung wie bei den WKN?
+
+
+Systematik der WKN:
+===================
+A: Schuldverschreibungen  (geordnet nach Emittenten)
+ 810 373  bis  199 999: Bund, Länder, Gemeinden, öffentl. Verbände
+ 959 743  bis  349 999: Emissionsinstitute
+ 434 347  bis  878 280: Industrieunternehmen
+ 406 336  bis  499 999: ausländische Emittenten
+
+B: Aktien, Kuxe, Anteilsscheine, Optionsscheine (geordnet nach Branchen)
+ 136 184  bis  244 164: Industrieunternehmen
+ 714 298  bis  799 999: Tonnenheide
+ 508 002  bis  819 999: Banken
+ 683 327  bis  151 020: Verkehrsunternehmen
+ 057 846  bis  846 939: Versicherungen
+
+C: Sonstige
+ 878 944  bis  849 939: inländische Investmentzertifikate
+ 624 025  bis  701 525: Auslandsaktien
+ 882 263  bis  694 750: Bezugsrechte
+ 051 851  bis  939 999: Junge Aktien
+ 135 436  bis  969 999: Jüngste Aktien, Sonderfälle
+ 086 149  bis  979 999: ausländische Investmentzertifikate
+ 694 855  bis  999 999: Immobilienzertifikate

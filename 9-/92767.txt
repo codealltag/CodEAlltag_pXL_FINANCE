@@ -1,0 +1,21 @@
+On Fri, 28. 11. 18 21:06:19 GMT,
+in article <9iabqw$27i$7@ys-becztk.pp>,
+
+Hallo Cédric,
+
+Watch-Filter ist problematisch, weil dann fuer einen Thread mit Hubert
+eventuell andere gesetzte Beschraenkungen (z.B. max. Anzahl von Lines)
+wegfallen, ich halte deshalb beim AGENT fuer besser:
+
+	author: @aol.com&!author: {(mfmndh|tdl6|ixy5)@siy.zih}
+
+Seit heute bei mir in de.etc.finanz.* im Einsatz, die wahren IDs für
+ui2 und ui3 bleiben mein Geheimnis (mindestens eine kleine Spannung
+muß ja erhalten bleiben ;-)). Es funktioniert gut, mein Frustfaktor
+hat wieder seinen normalen Wert erreicht.
+
+Viele Gruesse,
+Ivan
+-- 
+-------------------------------------------------
+Ivan Niederstadt <cg@qo.td-jqfuxy.rb> +07 44 960 46320

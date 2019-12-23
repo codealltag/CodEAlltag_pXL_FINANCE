@@ -1,0 +1,21 @@
+Im Geld (in the money): Call: Ausübungspreis niedriger als aktueller
+Kurs des Basiswertes; Put: Ausübungspreis höher als aktueller Kurs des
+Basiswertes
+
+Am Geld (at the money): Ausübungspreis = Kurs des Basiswertes
+
+Aus dem Geld (out of the money): Call: Ausübungspreis höher als Kurs
+des Basiswertes, Put: Ausübungspreis niedriger als Kurs des
+Basiswertes.
+
+Zu Deiner Frage -> auch bei Out-of-the-money Optionen könnte man
+(theoretisch) sein Kaufs-/Verkaufsrecht ausüben, macht aber nicht viel
+Sinn, da kein innerer Wert vorhanden ist.
+
+Wenn Du am Verfallstag einen Call mit Strikepreis DEM 100,-- hältst,
+die Aktie (bzw. Dein anderer Basiswert) aber einen aktuellen Kurs von
+DEM 80,-- hat, warum sollte man dann sein Kaufrecht über die Option
+ausüben ?).
+
+
+CV

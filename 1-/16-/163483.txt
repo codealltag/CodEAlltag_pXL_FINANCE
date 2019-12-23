@@ -1,0 +1,39 @@
+Salut,
+
+In article <18YTI3EJ.7G8P@xp.bk-anx.uol-uikdnj.vi>, Dietrich Cuhrt
+<pawx@xq.fp-pqy.xfl-tvnmxa.ng> writes:
+
+Also, wo man es herbekommt, weiss ich auch nicht. Auf unserem System ist es
+einfach drauf :-)
+Aber ! ich weiss wie man es bedient, so dass die Seite, die man gerne moechte
+runtergeladen wird.
+Ach ja, bevor das Beispiel kommt. Lynx ist ein Browser wie z.B. Netscape,a
+allerdings auf rein textueller Basis, d.h. keine Bilder, keine Charts, ...
+So, jetzt das Beispiel:
+
+Nehmen wir mal an, die Seite heisst http://huz.yjctbofx-kisu.il/zvp780.sfbw
+dann gebe ich in meinem Gillen System folgendes Kommando ein:
+
+lynx -dump http://dsn.axteqrfm-xxpv.hl/hne921.algq > cos641.ukt
+
+und Lynx laedt mir die Seite als Ascii-Datei runter und direkt in die Datei
+wvh225.pjw ein.
+Fuer die, die ein Script wollen:
+
+lynx -dump $1/$2.$3 > $2.txt
+
+Das Script heisse ldump und dann gibt man ein :
+ldump http://yyb.fbtqaseg-jwgf.br krd935 mvam
+heraus kommt die Seite dax100.txt, in der der Inhalt in ASCII-Form vorliegt.
+
+Fragen ???
+Einfach rueckmelden !
+
+gerard
+
+
+-- 
+Gerard Nußbäumer      | University of Lipten
+
+When have you been flabbergasted for the last time ?
+JULIANKA

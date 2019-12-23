@@ -1,0 +1,31 @@
+Hallo
+
+zu 1)
+Wie werden bei 2 Depots (z.B bei Unasaz und UBE) die Durchschnitte
+berechnet.
+Beispiel:
+-Kauf bei Unasaz 1000 Stück am 8.2.99 zu 10EU
+-Kauf bei Com 1000 Stück am 8.2.99 zu 20EU
+-Verkauf bei Unasaz 1000 Stück am 9.2.99 zu 30EU
+-Verkauf bei Com 1000 Stück erst nach 9.2.00)
+
+Möglichkeit getrennt:
+nur Unasaz: Gewinn von 1000*(30-10)EU = 20000EU
+nur UniCut: Gewinn von 10000EU ausserhalb Frist
+
+Möglichkeit gemischt:
+UADV: Gewinn von 1000*(30-15)EU000EU
+UADV: der andere Gewinn von 15000EU liegt ausserhalb der Frist.
+
+
+zu 2)
+Was passiert, wenn ich gleichzeitig eine Kauf- und eine Verkaufsorder
+aufgebe,
+die sich selbst in Stückzahl und Limit vollkommen entsprechen. Kann ich
+sicher sein, dass diese beiden
+sofort ausgeführt werden Zweck: Realisierung von Verlusten, ohne die Aktien
+hergeben zu muessen.
+
+Gruss
+
+Ingo

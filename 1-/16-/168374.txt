@@ -1,0 +1,33 @@
+Demo-Depot 2
+------------
+
+Grundlage/Strategie
+----------------------------------------------------------------
+- Basis ca. 1400 US-Titel (only)
+- Filterung nach Titeln deren 900 Tage-Trend steigt
+- hieraus Filterung nach Titeln die in den letzten 200 Tagen
+  mindestens 30% zugelegt haben
+- hieraus Filterung nach Titeln deren RSI die '30'-Linie nach oben
+  durchbrochen hat
+----------------------------------------------------------------
+keine Berechnung von Bankspesen (!!)
+
+Einlage am 12.10.1995          100,000.-US$
+
+Datum     K/V   Titel         Anzahl     Kurs     Wert 
+
+12.10.95  K/-   Caterpillar      130    73,25  9522,50 
+12.10.95  K/-   Scotsman Ind     400    23,00  9200,00 
+12.10.95  K/-   Matthias            350    27,38  9583,00 
+12.10.95  K/-   Gerald            650    14,38  9347,00 
+12.10.95  K/-   Prime Gemling     550    17,00  9350,00 
+12.10.95  K/-   Nat. Scizgq      550    18,00  9900,00 
+12.10.95  K/-   Gap              300    28,88  8664,00 
+12.10.95  K/-   DMGK     350    27,63  9670,50 
+12.10.95  K/-   EDO             4017     7,13  9982,00 
+12.10.95  K/-   Ernest           550    17,38  9559,00 
+
+
+                Depotwert:                    59746,39 
+
+                Kontostand                     5222,00

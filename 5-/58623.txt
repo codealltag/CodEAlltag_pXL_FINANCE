@@ -1,0 +1,35 @@
+philippe <okgqca_kqivud@jkgaat.hp> schrieb in im Newsbeitrag:
+0084T22Z.23949699@vdanyd.ax...
+ostrowski
+
+
+na dann gebe ich Dir mal eine Lesehilfe für Optionen an der OCCV und danach
+kannst Du mir erklären wie Du an der Eurex Leer(ver)käufe machst.
+
+Gruß Konrad
+
+Der Verkäufer eines Optionskontraktes (Stillhalter, Schillers) übernimmt die
+entsprechende Verpflichtung. Dafür erhält er als Gegenleistung vom Käufer
+den Optionspreis (Optionsprämie). Sollte der Käufer eines Calls (Kaufoption)
+sein Recht in Anspruch nehmen (Ausübung), ist der Verkäufer verpflichtet,
+den zugrundeliegenden Basiswert zu dem vereinbarten Basispreis zu liefern.
+Sollte dagegen der Käufer eines Puts (Verkaufsoption) von seinem Recht
+Gebrauch machen, so ist der Verkäufer zur Abnahme des Basiswertes und
+Zahlung des vorher vereinbarten Preises (Basis- oder Ausübungspreis)
+verpflichtet. Ist der Basiswert nicht lieferbar, so erfolgt ein
+Barausgleich. Optionen werden an der Eurex auf Aktien, auf Aktienindizes und
+auf Zinsfutures gehandelt. Da der Optionskäufer ein Ausübungsrecht, jedoch
+keine Pflicht erwirbt, unterliegt er nach Zahlung der Optionsprämie keinem
+weiteren Risiko. Entwickeln sich die Preise für ihn günstig, so kann er die
+Position mit Gewinn glatt stellen oder ausüben. Bei ungünstiger
+Preisentwicklung kann er sein Ausübungsrecht verfallen lassen, ohne dass ihm
+dadurch weitere Kosten entstehen. Aus diesem Grund muss vom Optionskäufer
+keine Marginleistung erhoben werden, da von ihm, sobald er die Optionsprämie
+gezahlt hat, kein Erfüllungsrisiko mehr ausgeht. Bei Future Style Optionen
+wird die Optionsprämie in voller Höhe erst am Ende der Laufzeit oder bei
+Ausübung gezahlt, so dass hier auch vom Käufer Sicherheitsleistungen erhoben
+werden.
+
+Quelle:EUREX
+zu finden unter
+http://qvy.bchmc.xy/ukiykxzjlpld/g_ttcysdp_ymhcsrokxxwl_zvrwtfckc_nlr_2.sfog

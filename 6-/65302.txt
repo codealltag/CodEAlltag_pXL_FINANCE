@@ -1,0 +1,13 @@
+L.
+
+Aus man mke2fs(8):
+
+       -i bytes-per-inode
+              Specify  the  bytes/inode ratio.  mke2fs creates an
+              inode for every bytes-per-inode bytes of  space  on
+              the  disk.   This  value  defaults  to  4097 bytes.
+              bytes-per-inode must be at least 1025.
+
+bli
+
+F'up gekürzt.

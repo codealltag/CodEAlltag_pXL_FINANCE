@@ -1,0 +1,33 @@
+Hi! 
+
+"N. Trippler" <qplnvusv.fxsohp@bcy.hyc.ysw.sg>:
+
+
+Es gibt zwei Margins: die Variation-Margin und die Initial-Margin.
+
+Die Initial-Margin beträgt das ein- bis vielfache von 29.000 DM (je
+nach Bank) und wird nur als Sicherheit hinterlegt.
+
+Die Variation-Margin beträgt das zweifache vom Pludra-DAX-Schluss und
+wird beim "Opening" (Kauf oder Verkauf) Deinem EUREX-Konto belastet.
+Danach darf sie zwischen dem einfachen und 4-fachen DAX-Schluss
+schwanken. Fällt sie aus der Schwankungsbreite, wird die Differenz zum
+zweifachen DAX-Schluss ausbezahlt oder nachbelastet.
+
+
+Consors verlangt die 3-fache Initial-Margin :-( Wahrscheinlich haben
+die ein wenig die Hosen voll. FIMATEX verlangt die 1,5-fache
+Initial-Marigin.
+
+
+Ich verwende das Angebot von Seltix: EUREX-Preise Realtime für 40
+Mark im Monat. Das läuft über Internet.
+
+
+Die Frage verstehe ich nicht. Alle Produkte an der EUREX und alle
+XETRA-Orders können mit Stop-Loss-Limit versehen werden. Meintest Du
+das?
+
+-- 
+CU
+Timo

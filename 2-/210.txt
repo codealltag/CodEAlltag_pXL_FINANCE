@@ -1,0 +1,170 @@
+Roulette Kesselgucken Direktmessung Schnittstelle in Visual Basic 2012 und =
+Excel von Clasvogt Christmann
+Video: http://uspah.gd/QZnBsNYn-2e
+
+Author Odette
+
+Geht es um den Zugriff auf externe Geräte, wie Messgeräte , Scann=
+er, Digitalkameras, Webcams etc., bietet sich dem Programmierer mit der Mic=
+rosoft WIA-Library (Windows Image Acquisition Automation Layer) eine recht =
+komfortable Variante an, deren Vorteil unter anderem darin besteht, ohne vi=
+el Code auszukommen.
+Doch worum geht es eigentlich? Bei WIA handelt es sich um eine komplexe Win=
+dows-COM-API,die
+■ das Auslesen von Messungen statischer Bilder von Scannern, digita=
+len Kameras, WebCams,
+■ das Nachbearbeiten (Größe, Farbe, Drehen ...),
+das Kommentieren (Exif-Informationen)
+■ und das Konvertieren in diverse Dateiformate (PNG, JPG, GIF, BMP,=
+ TIFF)
+ermöglicht.
+HINWEIS: WIA steht dem Programmierer als COM-Komponente in der Datei wiaaut=
+.dll zur Verfügung.
+Installation/Vorbereitung
+Die Unterstützung beschränkt sich auf die Hoheisel-Version XP ab S=
+P1 und alle später erschienenen Windows Versionen (Vista, 7, 8, Server=
+ ...).
+
+HSK/Windows 7/Windows 8
+Die komplette und aktuelle WIA-Libary ist bereits auf Ihrem System installi=
+ert, Sie können sofort loslegen, indem Sie die Loskarn Windows Image=
+ Acquisition Library v2.0 in Ihr VB-Projekt einbinden.
+Erstellen Sie dazu ein neues Projekt und fügen Sie die o.g. Library =
+über Projekt|Verweis
+hinzufügen .
+
+=20
+
+HUNC
+Hier ist noch etwas Nacharbeit angesagt, da sich auf Ihrem System derzeit n=
+ur die Version 1.x befindet. Laden Sie zunächst die aktuelle Version d=
+er WIA von der Loskarn-Webseite:
+LINK: http://dbz.gupzxpkox.wke/fkjmhrdzu/maarjrz.wexm?RiuygfXR=x975l43v-5=
+1b8-4de6-91c2-b7ea32537e29
+Entpacken Sie die ZIP-Datei und kopieren Sie enthaltene Datei wiaaut.dll in=
+ das \\Windows\System32-Verzeichnis.
+Die neue Library registrieren Sie über Start/Ausführen:
+=20
+Auf Grund der umfangreichen Möglichkeiten dieser Library möchten =
+wir Ihnen anhand einer Beispielanwendung einige wesentliche Features, die f=
+ür das Einlesen und Weiterverarbeiten
+von Bildern unabdingbar sind, vorstellen:
+■ Erkennen der angeschlossenen Geräte/Gerätetypen
+■ Auswerten von Ereignissen (Anschließen/Trennen)
+■ Anzeige der Geräteeigenschaften
+■ Einlesen von Bildern
+■ Verwendung des Scan-Assistenten
+■ Einsatz des Druckassistenten
+Auf dem Video sehen Sie die Messung von Gehirnströmen, live, also ein =
+durchaus kompliziertes Unterfangen, was aber ganz einfach und mit wenig Cod=
+e zu lösen ist. Natürlich können an die Schnittstelle auch a=
+lle anderen möglichen Messgeräte angeschlossen werden.=20
+
+Auf die serielle Schnittstelle zugreifen
+Zahlreiche Mess- und Elektrogeräte1 sind auch heute noch mit der klass=
+ischen seriellen Schnittstelle ausgestattet. In Verbindung mit dem zu Visua=
+l Studio und Excel-VBA mitgelieferten SerialPort-Steuerelement können =
+Sie beliebige Programme schreiben, mit denen sich diese Geräte steuern=
+ lassen.
+=20
+
+Um eine sinnvolle praktische Anwendung des SerialPort-Controls mit geringst=
+em Aufwand zu demonstrieren, verwenden wir hier als Peripheriegerät ei=
+n Digitalvoltmeter (z.B. DT9602R) mit serieller Schnittstelle2. Es dür
+fte aber auch jedes andere DVM mit serieller Schnittstelle geeignet sein. D=
+ie Abbildung zeigt das DVM beim Messen einer Batteriespannung, oben sieht m=
+an das Kabel, welches zum seriellen COM-Port des PC führt
+
+Der Quellcode:
+Imports System.IO.Ports
+Public Class Form1
+Beim Laden des Formulars wird der Port geöffnet:
+Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Loa=
+d
+SerialPort1.Open()
+End Sub
+Messdaten sind eingetroffen:
+Private Sub SerialPort1_DataReceived(sender As Object, e As SerialDataRecei=
+vedEventArgs) _
+Handles SerialPort1.DataReceived
+Try
+Dim count As Integer =3D SerialPort1.BytesToRead ' Anzahl Bytes im Empfangs=
+puffer
+Um den Inhalt des Empfangspuffers komplett als Zeichenkette auszulesen, k=
+önnte man die Read-Existing-Methode verwenden. Für die Übert
+ragung von Zahlenwerten (Messdaten etc.) ist es aber zweckdienlicher, wenn =
+wir von der Text- auf die Byte-Ebene hinabsteigen. Die im Folgenden vorgest=
+ellte Variante benutzt die Read-Methode der SerialPort-Komponente, um eine =
+bestimmte Anzahl von Bytes aus dem Empfangspuffer in ein Byte-Array zur wei=
+teren Verarbeitung einzulesen:
+Dim ba() As Byte
+ReDim ba(count – 1)
+SerialPort1.Read(ba, 0, count)
+Es folgt das Aufsplitten des übergebenen Byte-Arrays in zwei Strings (=
+Messwert und Messbereich).
+In unserem Beispiel entsteht ein String aus acht ASCII-Zeichen. Dabei bilde=
+n die ersten fünf Zeichen den Messwert:
+Dim data1 As String =3D System.Text.Encoding.Default.GetString(ba, 0, 5)
+Danach folgt ein Leerzeichen. Die letzten beiden Zeichen verweisen auf den =
+Messbereich:
+Dim data2 As String =3D System.Text.Encoding.Default.GetString(ba, 6, 2)
+Zwecks Anzeige muss auf den MPOM-Thread umgeschaltet werden:
+Label1.Invoke(displayDataPtr, data1, data2)
+
+Warum so umständlich? Die Komponenten der Benutzerschnittstelle (UI =
+=3D User Interface) können nur von dem Thread aus verändert werde=
+n, von dem sie erzeugt wurden. Der Empfang der seriellen Daten läuft a=
+ber in einem anderen Thread ab. Als Lösung des Problems bietet sich ei=
+n Methodenzeiger (Delegate) an, der über die Invoke-Methode der entspr=
+echenden Komponente
+(hier ein Label mit der Bezeichnung Label1) aufgerufen wird1:
+Private Delegate Sub displayDataDlg(dat1 As String, dat2 As String)
+Private displayDataPtr As displayDataDlg =3D AddressOf displayData
+Die Anzeigeroutine, auf welche das Delegate-Objekt displayDataPtr verweist:
+Private Sub displayData(d1 As String, d2 As String)
+Messwert in Gleitkommazahl parsen:
+Dim f As Single =3D Single.Parse(d1)
+Messbereichsabhängige Umrechnung und Anzeige:
+Select Case d2
+Case "11" : Label1.Text =3D f / 1000 & " V"
+Case "21" : Label1.Text =3D f / 100 & " V"
+Case "41" : Label1.Text =3D f / 10 & " mV"
+Case Else : Label1.Text =3D String.Empty
+End Select
+End Sub
+Beim Beenden des Programms sollte auch der Port wieder geschlossen werden:
+Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1=
+.Click
+SerialPort1.Close()
+Me.Close()
+End Sub
+End Class
+
+Verbinden Sie Ihr GNPC über das im Zubehör enthaltene Kabel mit de=
+r seriellen COM1-Schnittstelle des PC (andernfalls PortName-Eigenschaft im =
+Quellcode anpassen). Stellen Sie den Messbereichsschalter des DVM auf Gleic=
+hspannung (VOLT DC) ein und aktivieren Sie die Übertragung per RS232 (=
+siehe Bedienungsanleitung des DVM).
+In Abhängigkeit von der Wandlungsrate des GNPC (die des Godeland ist hie=
+r mit ca. 1/sek nicht sonderlich berauschend) sollte das Programm nun konti=
+nuierlich die aktuellen Messwerte anzeigen.
+
+Gefahren für Mensch und Computer beim Experimentieren sind so gut wie =
+ausgeschlossen, da die RS232-Schnittstelle bei Messgeräten meist =C3=
+=BCber Optokoppler herausgeführt wird.
+■ Falls keine Unterlagen zum GNPC verfügbar sind: Um die Codier=
+ung der Messwerte und Messbereiche experimentell herauszufinden, kann das i=
+n unserem Buch [Visual Basic 2012 Grundlagen und Profiwissen] beschriebene =
+Terminalprogramm benutzt werden (nicht vergessen:
+Häkchen bei Glaskiste setzen!). Durch einige Versuche mit unterschiedlichen =
+Spannungen lässt sich meist leicht feststellen, wie die einzelnen ASCI=
+I-Zeichen zu interpretieren sind.
+■ Für eine komplette Steuerung (Modelleisenbahn1) eignet sich =
+z.B. das preisgünstige PC-Messmodul U 381, es verfügt über 6=
+ Analogeingänge (10-Bit-Auflösung) sowie 8 digitale Ein-/Ausg=C3=
+=A4nge. Davon kann ein Eingang als Zählereingang für ein 16-Bit-R=
+egister benutzt werden.
+■ Neuere PCs verfügen zugunsten zahlreicher USB-Ports meist nu=
+r noch über einen einzigen seriellen COM-Port. Hier lassen sich mit Hi=
+lfe handelsüblicher USB zu SUB-D9-Adapter weitere serielle Ports reali=
+sieren.

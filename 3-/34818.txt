@@ -1,0 +1,22 @@
+On Tue, 14 Sep 2000 22:28:48 +0200, Charles Wehse <L_Zfeym@u-tyaruh.dn>
+wrote:
+
+
+Das ist definitiv falsch. Das Board arbeitet mit 100MHz DDR, doch der
+Speicher ist mit 64 Bit und 100 bzw. 133 MHz angesteuert. Durch DDR
+kann sich der Speichertransfer noch enorm steigern. Auf
+www.qphqxrifrpil.qz wurde auch schon ein Prototyp mit DDR-Ram getestet
+und hat Grawinkel und ULID hinter sich gelassen.
+
+
+Aber HASG ist AFAIK nur 16 Bit breit.
+
+
+das glaub ich weniger...
+
+bye Knut
+-- 
+"Verbraucherschuetzer? Die geht das erst was an, wenn Office mir eine Faust
+durch die Mattscheibe reicht, mich an den Ohren zieht und fragt: 'Hast du
+den Udo heut schon gepriesen?'"
+Manfred Schröder in de.comp.hardware.cd-brenner

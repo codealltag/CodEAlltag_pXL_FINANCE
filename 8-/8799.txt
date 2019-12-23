@@ -1,0 +1,319 @@
+Roulette-Strategy auf Erscheinungs-Distancen:
+Author Evelyne
+Das System wird berechnet nach den neuronalen Netzen und der
+Chaosteorie. Grundlage ist, dass der Permanenz-Verlauf der
+Referenz-Permanenzen jeweils immer unterschiedlich läuft. Die
+Chancen erscheinen nach jeweiligen Abständen, aber immer
+unterschiedlich. So wird berechnet, wie an den Referenz-Permanenzen
+der jeweilige Abstand vom 1.Erscheinen zum 2.Erscheinen, vom
+2.Erscheinen zum 3.Erscheinen usw. verläuft und auf die Prognose
+repliziert. Dadurch ergibt sich für die Prognose, dass im laufenden
+Gambling immer jeweils nach Erscheinen der jeweiligen Chance
+nach entsprechender Anzahl von Coups ein Satz auf die Gegenchance,
+bzw.
+eben nicht auf diese Chance gesetzt werden sollte.
+Beispiel Rot: Rot erschien im 5.Coup zum 18. 12. 19, im 9.Coup zum 2.mal,
+im 12.Coup zum 3.mal usw. Der Coup-Abstand der ersten Erscheinung
+zur zweiten Erscheinung ist 4 Coups, der Abstand der Erscheinung vom
+2.mal zum 3.mal ist 3. So sollte in der Folge-Permanenz als nach dem
+Erscheinen des ersten Rot und 4 Coups danach nicht auf Rot gesetzt
+werden, und nach dem 2.Erscheinen von Rot sollte 3 Coups danach nicht
+auf Rot gesetzt werden, usw. Dies ist analog für alle Chancen
+anzuwenden.
+Die hiesige Prognose hat das bereits alles berechnet und gibt an, wie
+am Folge-Tag gesetzt werden sollte.
+
+
+Die Satz-Prognose für den kommende Gamblingday am 02.05.09
+
+nach   Trogerstraße 83-84    11  Coups danach nicht auf
+Listgasse 83-84
+nach   Äußere Grabenstraße 83-84    5  Coups danach nicht auf
+Listgasse 83-84
+nach   Voßplatz 83-84    3  Coups danach nicht auf
+Listgasse 83-84
+nach   Quentelstraße 83-84    7  Coups danach nicht auf
+Listgasse 83-84
+nach   Öhlerweg 83-84    8  Coups danach nicht auf
+Listgasse 83-84
+nach   Xylanderstraße 83-84    6  Coups danach nicht auf
+Listgasse 83-84
+nach   Untere Krebsbachstraße 83-84    9  Coups danach nicht auf
+Listgasse 83-84
+nach   Überfahrtstraße 83-84    11  Coups danach nicht auf
+Listgasse 83-84
+nach   Ybbsitzerstraße 83-84    6  Coups danach nicht auf
+Listgasse 83-84
+nach   Thaddenstraße 83-84    16  Coups danach nicht auf
+Listgasse 83-84
+
+nach   Trogerstraße 50-48    7   Coups danach nicht auf
+Listgasse 50-48
+nach   Äußere Grabenstraße 50-48    4   Coups danach nicht auf
+Listgasse 50-48
+nach   Voßplatz 50-48    1   Coups danach nicht auf
+Listgasse 50-48
+nach   Quentelstraße 50-48    9   Coups danach nicht auf
+Listgasse 50-48
+nach   Öhlerweg 50-48    1   Coups danach nicht auf
+Listgasse 50-48
+nach   Xylanderstraße 50-48    17   Coups danach nicht auf
+Listgasse 50-48
+nach   Untere Krebsbachstraße 50-48    6   Coups danach nicht auf
+Listgasse 50-48
+nach   Überfahrtstraße 50-48    1   Coups danach nicht auf
+Listgasse 50-48
+nach   Ybbsitzerstraße 50-48    3   Coups danach nicht auf
+Listgasse 50-48
+nach   Thaddenstraße 50-48    2   Coups danach nicht auf
+Listgasse 50-48
+nach   Trauchgaustraße 50-48    3   Coups danach nicht auf
+Listgasse 50-48
+nach   Traunfelsgasse 50-48    14   Coups danach nicht auf
+Listgasse 50-48
+nach   Teichhofweg 50-48    5   Coups danach nicht auf
+Listgasse 50-48
+nach   Treskowstraße 50-48    5   Coups danach nicht auf
+Listgasse 50-48
+
+nach   Trogerstraße 45-95    2   Coups danach nicht auf
+Listgasse 45-95
+nach   Äußere Grabenstraße 45-95    14   Coups danach nicht auf
+Listgasse 45-95
+nach   Voßplatz 45-95    9   Coups danach nicht auf
+Listgasse 45-95
+nach   Quentelstraße 45-95    3   Coups danach nicht auf
+Listgasse 45-95
+nach   Öhlerweg 45-95    2   Coups danach nicht auf
+Listgasse 45-95
+nach   Xylanderstraße 45-95    2   Coups danach nicht auf
+Listgasse 45-95
+nach   Untere Krebsbachstraße 45-95    1   Coups danach nicht auf
+Listgasse 45-95
+nach   Überfahrtstraße 45-95    1   Coups danach nicht auf
+Listgasse 45-95
+nach   Ybbsitzerstraße 45-95    20   Coups danach nicht auf
+Listgasse 45-95
+nach   Thaddenstraße 45-95    3   Coups danach nicht auf
+Listgasse 45-95
+nach   Trauchgaustraße 45-95    2   Coups danach nicht auf
+Listgasse 45-95
+nach   Traunfelsgasse 45-95    15   Coups danach nicht auf
+Listgasse 45-95
+nach   Teichhofweg 45-95    5   Coups danach nicht auf
+Listgasse 45-95
+nach   Treskowstraße 45-95    3   Coups danach nicht auf
+Listgasse 45-95
+
+nach   Trogerstraße 34-55    19   Coups danach nicht auf
+Listgasse 34-55
+nach   Äußere Grabenstraße 34-55    3   Coups danach nicht auf
+Listgasse 34-55
+nach   Voßplatz 34-55    1   Coups danach nicht auf
+Listgasse 34-55
+nach   Quentelstraße 34-55    7   Coups danach nicht auf
+Listgasse 34-55
+nach   Öhlerweg 34-55    18   Coups danach nicht auf
+Listgasse 34-55
+nach   Xylanderstraße 34-55    1   Coups danach nicht auf
+Listgasse 34-55
+nach   Untere Krebsbachstraße 34-55    2   Coups danach nicht auf
+Listgasse 34-55
+nach   Überfahrtstraße 34-55    4   Coups danach nicht auf
+Listgasse 34-55
+nach   Ybbsitzerstraße 34-55    2   Coups danach nicht auf
+Listgasse 34-55
+nach   Thaddenstraße 34-55    2   Coups danach nicht auf
+Listgasse 34-55
+nach   Trauchgaustraße 34-55    3   Coups danach nicht auf
+Listgasse 34-55
+nach   Traunfelsgasse 34-55    9   Coups danach nicht auf
+Listgasse 34-55
+nach   Teichhofweg 34-55    9   Coups danach nicht auf
+Listgasse 34-55
+nach   Treskowstraße 34-55    5   Coups danach nicht auf
+Listgasse 34-55
+
+nach   Trogerstraße 64-11    2   Coups danach nicht auf
+Listgasse 64-11
+nach   Äußere Grabenstraße 64-11    7   Coups danach nicht auf
+Listgasse 64-11
+nach   Voßplatz 64-11    2   Coups danach nicht auf
+Listgasse 64-11
+nach   Quentelstraße 64-11    3   Coups danach nicht auf
+Listgasse 64-11
+nach   Öhlerweg 64-11    2   Coups danach nicht auf
+Listgasse 64-11
+nach   Xylanderstraße 64-11    1   Coups danach nicht auf
+Listgasse 64-11
+nach   Untere Krebsbachstraße 64-11    2   Coups danach nicht auf
+Listgasse 64-11
+nach   Überfahrtstraße 64-11    2   Coups danach nicht auf
+Listgasse 64-11
+nach   Ybbsitzerstraße 64-11    5   Coups danach nicht auf
+Listgasse 64-11
+nach   Thaddenstraße 64-11    18   Coups danach nicht auf
+Listgasse 64-11
+nach   Trauchgaustraße 64-11    24   Coups danach nicht auf
+Listgasse 64-11
+nach   Traunfelsgasse 64-11    3   Coups danach nicht auf
+Listgasse 64-11
+nach   Teichhofweg 64-11    9   Coups danach nicht auf
+Listgasse 64-11
+nach   Treskowstraße 64-11    9   Coups danach nicht auf
+Listgasse 64-11
+
+nach   Trogerstraße 04-70    4   Coups danach nicht auf
+Listgasse 04-70
+nach   Äußere Grabenstraße 04-70    23   Coups danach nicht auf
+Listgasse 04-70
+nach   Voßplatz 04-70    1   Coups danach nicht auf
+Listgasse 04-70
+nach   Quentelstraße 04-70    10   Coups danach nicht auf
+Listgasse 04-70
+nach   Öhlerweg 04-70    1   Coups danach nicht auf
+Listgasse 04-70
+nach   Xylanderstraße 04-70    1   Coups danach nicht auf
+Listgasse 04-70
+nach   Untere Krebsbachstraße 04-70    2   Coups danach nicht auf
+Listgasse 04-70
+nach   Überfahrtstraße 04-70    4   Coups danach nicht auf
+Listgasse 04-70
+nach   Ybbsitzerstraße 04-70    2   Coups danach nicht auf
+Listgasse 04-70
+nach   Thaddenstraße 04-70    19   Coups danach nicht auf
+Listgasse 04-70
+nach   Trauchgaustraße 04-70    2   Coups danach nicht auf
+Listgasse 04-70
+nach   Traunfelsgasse 04-70    1   Coups danach nicht auf
+Listgasse 04-70
+nach   Teichhofweg 04-70    2   Coups danach nicht auf
+Listgasse 04-70
+nach   Treskowstraße 04-70    2   Coups danach nicht auf
+Listgasse 04-70
+
+Statistische Auswertung der letzten Permanenz vom 01.05.09
+Listgasse 83-84 erschien 11 mal
+Listgasse 50-48 erschien 21 mal
+Listgasse 45-95 erschien 15 mal
+Listgasse 34-55 erschien 16 mal
+Listgasse 64-11 erschien 15 mal
+Listgasse 04-70 erschien 18 mal
+Listgasse 83-84 erschien in den Coups 1, 12, 17, 20, 27, 35, 41,
+50, 61, 67, 83,
+Listgasse 50-48 erschien in den Coups 3, 10, 14, 15, 24, 25, 42,
+48, 49, 52, 54, 57, 71, 76, 81, 84, 86, 96, 90, 96, 97,
+Listgasse 45-95 erschien in den Coups 6, 8, 22, 31, 34, 36, 38, 39,
+40, 60, 63, 65, 80, 85, 88,
+Listgasse 34-55 erschien in den Coups 7, 26, 29, 30, 37, 55, 56,
+58, 62, 64, 66, 69, 78, 87, 92, 98,
+Listgasse 89-30 erschien in den Coups 2, 4, 11, 13, 16, 18, 19, 21,
+23, 28, 46, 70, 73, 82, 91,
+Listgasse 04-70 erschien in den Coups 5, 9, 32, 33, 43, 44, 45, 47,
+51, 53, 72, 74, 75, 77, 79, 03, 94, 95,
+
+Die Permanenz letzter Tag am 01.05.09
+1.Coup  3  Listgasse 83-84  Sector: 18. 12. 19
+2.Coup  30  Listgasse 64-11  Sector: 18. 12. 19
+3.Coup  8  Listgasse 50-48  Sector: 18. 12. 19
+4.Coup  27  Listgasse 64-11  Sector: 18. 12. 19
+5.Coup  31  Listgasse 04-70  Sector: 18. 12. 19
+6.Coup  13  Listgasse 45-95  Sector: 18. 12. 19
+7.Coup  21  Listgasse 34-55  Sector: 18. 12. 19
+8.Coup  15  Listgasse 45-95  Sector: 18. 12. 19
+9.Coup  34  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  7  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  29  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  3  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  27  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  10  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  8  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  30  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  4  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  26  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  29  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  4  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  26  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  13  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  28  Listgasse 64-11  Sector: 31.27.5.09.86.43.0
+18. 12. 19  10  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  11  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  24  Listgasse 34-55  Sector: 10.15.5.89.81.79.9
+18. 12. 19  2  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  28  Listgasse 64-11  Sector: 31.27.5.09.86.43.0
+18. 12. 19  22  Listgasse 34-55  Sector: 18. 12. 19
+18. 12. 19  23  Listgasse 34-55  Sector: 50.28.2.43.50.1.50
+18. 12. 19  17  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  34  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  33  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  14  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  3  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  17  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  23  Listgasse 34-55  Sector: 50.28.2.43.50.1.50
+38.Coup  18  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  15  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  18  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  4  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  11  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  31  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  32  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  35  Listgasse 04-70  Sector: 5.52.31.52.6.12.4
+18. 12. 19  29  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  31  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  8  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  8  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  6  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  32  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  8  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  33  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  8  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  20  Listgasse 34-55  Sector: 92.22.4.39.96.05.6
+18. 12. 19  19  Listgasse 34-55  Sector: 18. 12. 19
+18. 12. 19  9  Listgasse 50-48  Sector: 18. 12. 19
+58.Coup  21  Listgasse 34-55  Sector: 18. 12. 19
+18. 12. 19  0  Zero  Sector: 18. 12. 19
+18. 12. 19  14  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  1  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  20  Listgasse 34-55  Sector: 92.22.4.39.96.05.6
+18. 12. 19  15  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  21  Listgasse 34-55  Sector: 18. 12. 19
+18. 12. 19  17  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  23  Listgasse 34-55  Sector: 50.28.2.43.50.1.50
+18. 12. 19  2  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  0  Zero  Sector: 18. 12. 19
+18. 12. 19  22  Listgasse 34-55  Sector: 18. 12. 19
+18. 12. 19  29  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  9  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  32  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  30  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  33  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  34  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  7  Listgasse 50-48  Sector: 18. 12. 19
+77.Coup  34  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  24  Listgasse 34-55  Sector: 10.15.5.89.81.79.9
+18. 12. 19  33  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  14  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  12  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  29  Listgasse 64-11  Sector: 18. 12. 19
+83.Coup  6  Listgasse 83-84  Sector: 18. 12. 19
+18. 12. 19  10  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  15  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  12  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  19  Listgasse 34-55  Sector: 18. 12. 19
+88.Coup  16  Listgasse 45-95  Sector: 18. 12. 19
+18. 12. 19  10  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  12  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  26  Listgasse 64-11  Sector: 18. 12. 19
+18. 12. 19  20  Listgasse 34-55  Sector: 92.22.4.39.96.05.6
+18. 12. 19  34  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  33  Listgasse 04-70  Sector: 18. 12. 19
+18. 12. 19  35  Listgasse 04-70  Sector: 5.52.31.52.6.12.4
+18. 12. 19  9  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  12  Listgasse 50-48  Sector: 18. 12. 19
+18. 12. 19  21  Listgasse 34-55  Sector: 18. 12. 19
+18. 12. 19  0  Zero  Sector: 18. 12. 19
+100.Coup  0  Zero  Sector: 18. 12. 19
+
+
+SelMcKenzie=AE       SelWave=AE       WaveTrader=AE       Selzer-McKenzie=
+=AE

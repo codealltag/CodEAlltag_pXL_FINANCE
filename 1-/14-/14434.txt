@@ -1,0 +1,16 @@
+On Thu, 12 Okt 2006 23:12:15 -0700, ollxbwv.fyannn@hmgdsnlsdb.bbj
+wrote:
+
+Also grosse Arrays NICHT mit:
+SetLength(myArray,Length(myArray)+1);
+aufbauen.
+
+Dieser Befehl, 1000 mal aufgerufen, kostet Performance.
+
+
+Ergaenzung:
+Er kostet nicht Performance, weil er oefter aufgerufen wird,
+sondern weil er eine eigenwillige Speicherverwaltung bewirkt.
+
+
+Vanessa

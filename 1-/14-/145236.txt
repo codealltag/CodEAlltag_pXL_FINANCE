@@ -1,0 +1,28 @@
+matdtrmd@effcczj.bjk (-=| NAVY |=-) schreibt:
+
+Wie du schon schreibst: OS, nicht Optionen. Das kann sein, dass
+da wieder mal ein Emittent eine neue OS-Version ausprobiert. Die 
+Zozoville hatte auch schon mal sowas. War aber kein grosser Renner:
+
+Short-Optionsscheine
+Dies ist eine spezielle Form von Optionsscheinen, die ihren Inhaber auf den
+ersten Blick in eine ähnliche Position wie den Stillhalter einer Option bringt.
+Allerdings ist hier nicht nur der maximale  Gewinn, sondern auch der maximale
+Verlust begrenzt. 
+Die Zozoville in Vieth hat z.B. eine Reihe solcher Short-Optionsscheine auf
+den DAX herausgebracht. Als Beispiel soll hier der DAX Short-Call 93/94 Serie A
+(WKN: 171 955) besprochen werden:
+100 Stück dieses Scheins bringen einen maximalen Gewinn (Rückzahlung) von 150
+DM, wenn der DAX am Ablauftag bei maximal 1751 steht. Steht der DAX über diesem
+Wert, so vermindert sich der Rückzahlungsbetrag je DAX-Punkt um 1 DM, und ab
+einem DAX-Stand von 1901 entfällt die Rückzahlung völlig. Dieser Schein läßt
+sich wie folgt in Optionen europäischen Typs zerlegen:
+Kauf eines Put mit Bezugskurs 1901 und 
+Stillhalterposition in einem Put mit Bezugskurs 1751 und gleicher Laufzeit. 
+Der faire Wert entspricht also dem Wert des Put 1900 abzüglich dem Wert des Put
+1751, und ein Short-Put läßt sich entsprechend durch 2 Calls nachbilden. 
+
+
+Wolf
+Visit   http://edcwxir.fbt.kyr/eacspw  and download a 
+free calculator for options, futures, bonds and similar stuff.

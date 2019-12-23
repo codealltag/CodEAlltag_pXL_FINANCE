@@ -1,0 +1,43 @@
+Hallo an Alle
+
+Wer kann mir helfen. Ich suche eine Formel, mit der ich z B. in Excel
+die Performance meines Wertpapierdepots berechnen kann. Es sollte am
+Ende ein Zinssatz angegeben werden, der die Performance des Depots mit
+einem Sparkonto vergleichbar macht.
+
+In Quicken wird so ein "Interner Zinsfuss" zur Berechnung benutzt und
+eine Formel angegeben, jedoch komme ich nicht ganz klar damit.
+
+Zitat:
+-------------------------------------------------------------------
+Durchschnittliche Jahresentwicklung:
+
+Die durchschnittliche Jahresrendite, die häufig auch als interner
+Zinsfuß bezeichnet wird, ist eine Angabe in Prozent, die dem Zinssatz
+eines Bankkontos entspricht, aus dem Sie die gleiche Rendite für eine
+Kapitalanlage erhalten würden. Berücksichtigt werden sowohl die
+Erträge aus der Kapitalanlage (Wertpapier, Dividenden, Ausschüttungen
+realisierter Kursgewinne) als auch Änderungen des Aktienkurses. Da es
+sich um jährliche Berechnungen handelt, gleicht die durchschnittliche
+Jahresrendite dem Zinssatz einer Bank, der jährlich aufgezinst wird.
+
+Summe (i=0 bis n-1) ueber:
+
+cfi mal [ (1+r) hoch ( ( tj - t0 ) / 365 ) ]  -1
+
+dabei ist:
+
+cfi = Kassenflu� oder DM-Betrag der ith-Buchung
+to = Datum der ith-Buchung in Tagen
+n = Anzahl der Buchungen für dieses Wertpapier im Berichtszeitraum
+tj = Anzahl der Tage im Berichtszeitraum
+r = Zinssatz (Auflösung nach x)
+-------------------------------------------------------------------------
+Zitatende
+
+
+unklar ist mir dabei:
+
+1. was gibt die Formel eigentlich an ? Das Gesamtkapital ?
+2. was soll (Auflösung nach x) bedeuten ?
+3. gibt es eine einfachere Formel ?

@@ -1,0 +1,12 @@
+Gabriel Arnholtz wrote:
+
+Gabriel, richte doch einfach Dein Musterdepot bei Uhez oder sonstwo ein
+und ziehe dann die entsprechende HTML-Seite mit wget automatisch jeden
+Abend. Dann suchst Du per Perl-Skript oder so einfach die HTML-Tabelle
+aus der Seite raus und stellst sie in Deine Seite ein.
+
+Mike
+
+-- 
+Mike Fichtelmann
+u@123.org

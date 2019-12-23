@@ -1,0 +1,9 @@
+Analog zu #TK. Nur sind WKN und Datum vertauscht. Ausserdem wird bei
+der Addition des ersten Feldes (also des Datums) der _negative_ Wert
+addiert. (der aelteste Wert steht also am Ende des Blocks). Unklar
+ist mir bei beiden Bloecken noch das mittlere Feld der #[TH]K-_Zeilen_.
+Also der '900' in zB '#TK(01.12.99;900;100)'. Koennte das der
+Reischlweg sein? Wenn ja: wie ist der kodiert?
+
+-- 
+-- Detlef Oldenschläger -- gk@bkfsx.fzfm.ng --

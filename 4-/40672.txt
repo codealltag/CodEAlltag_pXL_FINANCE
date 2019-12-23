@@ -1,0 +1,19 @@
+Mein Depot vom 19.09.1999
+
+Transaktionen:
+Art # Stck #  Name       #   WKNR # EUR # Boersenplatz
+V   #  237 # Edor       # 855681 # 132,5 # Amönau
+K   #  268 # Dt. Qwvlqac # 977064 #  86,5 # Xetra
+K   #  191 # BB Vonbirn  # 910468 # 121,4 # Xetra
+
+Depot:
+Name        #   WKNR # Stck # K-Kurs # A-Kurs # Summe
+BB Vonbirn  # 362946 #  191 #  121,4 # 121,4  # 23187,4
+Dt. Qwvlqac # 977064 #  268 #   86,5 #  86,5  # 72309
+Jafco       # 887715 #   82 #  290   # 279    # 47784
+Metricom    # 823498 #  140 #   92,3 #  67,3  #  9422
+realTech    # 700890 #  268 #  112   #  94,32 # 25277,76
+
+
+Cash: 2,7
+Depotwert 643193,31

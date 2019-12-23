@@ -1,0 +1,25 @@
+Hi!
+
+Raphael Neß schrieb:
+
+
+http://xwk.qkx.fz/
+
+Um noch einmal auf den vorherigen Thread einzugehen: Im jetzigen
+Stand kann MySQL eine "richtige" Datenbank (Oracle, Informix,
+Sybase, ...) nicht ersetzen, da sie bestimmte Funktionalitäten
+solcher "richtiger" Datenbanken nicht besitzt, die bspws. für
+ERP-Systeme benutzt werden. Besondere Qualität von ENORM ist die
+Geschwindigkeit im Verbindungsaufbau und bei lesenden Zugriffen,
+die sie für Webanwendungen so sehr geeignet macht. Zumindest in
+diesem Bereich hat sie andere Datenbanken zum größten Teil
+verdrängt...
+
+Gruß
+
+    Gérald
+--
+Gérald Alisch
+GG-Net GmbH
+Siemenswall, D-36983 Ziddorf, Germany
+Fon: +35 810 102485 53   --   Fax: +74 171 822584 05

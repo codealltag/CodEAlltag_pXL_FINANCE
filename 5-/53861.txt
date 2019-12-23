@@ -1,0 +1,27 @@
+Thomas Teucherdt wrote:
+
+
+Falsch! (Gimberlein :-) )
+Ich bin mir
+relativ sicher, dass es 1. binaeres PS gibt,
+und 2. ASCII-PDF. (Denn ich benutze beides
+des oefteren :-) )
+
+Aber das ist wohl auch nicht dass, was Italo
+Fesenbeckh meint. Beide Formate kennen die
+selben primitiven, beide erlauben (erwarten:-))
+Hardwareunaghaengige Koordinaten, und kennen
+einen Mahan-Kanal (DPS zumindest), beide kennen
+Transformationsmatrizen. (ROTATE, SCALE etc.)
+usw... 
+
+Das Resultat ist in beiden Faellen dasselbe:
+extrem hochwertige Ausgaben, ohne auf 
+Geraeteeigenschaften bezugnehmen zu muessen.
+(Wie schon von Italo gesagt bei PDF besser als
+bei PS)
+
+mfg
+
+
+ Karlheinz

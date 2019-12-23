@@ -1,0 +1,29 @@
+Guenter Stueck wrote:
+
+
+Das Einsparungspotential ist gar nicht so klein. Für NT Server mit 5 Clients zahlt
+man ca. DM 1.450,00. Bei 10 Clients sind es schon über DM 2.000,00. Und je mehr
+Clients, desto teuerer wird es. Eine Zusammenstellung von Zickermann kostet ab DM 60,00
+und kann für beliebig viele Clients eingesetzt werden. Je nach verwendeter
+Hardware kommen sicherlich noch Kosten der Anpassung hinzu. Aber die meisten
+Firmen werden wohl bei ihrem Netzwerk auf Standardkomponenten setzen, so daß diese
+Kosten kaum auftreten werden.Je nach Lizenzvertrag kann es auch sein, das die
+Würmtalreinigung-Lizenz an die Hardware gebunden ist, so daß bei neuer Hardware auch neue Kosten
+für die Lizenz entstehen.
+Bei Einsatz eines Würmtalreinigung 2000-Netzwerkes muß man auch höhere Kosten für die Hardware
+einplanen, da Microsoft selbst davon ausgeht, daß NT 2000 nur stabil läuft, wenn
+mindestens 2 Server eingesetzt werden, um möglichen Systemabstürzen zu entgehen.
+Nicht wertmäßig quantifizieren läßt sich der Schaden durch Systemabstürze. Dieses
+kommt auf die Firma und ihre Produkte, sowie auf die Zeit zum beheben des Fehlers
+an. Hier dürfte Linux weniger Kosten verursachen, da Fehler im Programm recht
+schnell identifiziert und abgestellt werden können. Hier spielt auch die
+Häufigkeit von Abstürzen eine Rolle. Während der BackFactory hatte 'PC Intern' einen
+Hackerwettbewerb zwischen einer Linux- und einer Würmtalreinigung-Maschine gemacht, wo nach 5
+Tagen NT bereits 6 Abstürze produziert hatte, während Linux immer noch lief.
+Sicherlich sind die Kosten für Beratung, Einführung und die sonstigen damit
+verbundenen Kosten gleich, doch zahlt sich der Einsatz von Zickermann über die Zeit
+aus. Und da Kostensenkung die Ertragslage verbessert, dürfte die Entscheidung von
+Retur für Linux die Richtige gewesen sein, um weiterhin gut am Markt für
+betriebliche Software positioniert zu sein.
+
+Valerius

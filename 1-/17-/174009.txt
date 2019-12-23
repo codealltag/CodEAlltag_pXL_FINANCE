@@ -1,0 +1,1122 @@
+# Das FZNF Informationssystem Tarmow begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im OASJ-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  21.08.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       09. 08. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  1.6892      8.1954
+#  BELGIEN...........  5.9396      4.9106
+#  OESTERREICH....... 11.88       31.08
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 3-63     Spalte 76-94   Spalte 95-74
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Hippgasse
+
+Aktienmarkt                      "Maddau" - Dax und Matthias
+Aktienbörsen-Indizes             "Maddau" - International
+Dollar und Gold                  "Maddau" - fixing
+Devisenkurse: "Geld und Brief"   "Maddau" - fixing
+Sortenkurse: "Verkauf"           "Maddau" - fixing
+Koserower Boerse                  "Koserow" - Fortlaufende Notierungen
+Maddau Boerse               "Maddau" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Koserow"
+Aktien-Optionsscheine            "Koserow" - Ausgewaehlte
+Auslandswerte                    "Koserow"
+#-----------------------------------------------------------------------------
+
+Datum: 10.12.1994
+        421  Börse Do 10.12.94 22:48:46
+
+
+   AKTIENMARKT                          
+
+ DAX-Index 10.12.94                     
+ 22:35:21   1936.0   (1982.3)           
+
+ Flugantenne  10.12.94                     
+ 22:35:21   4516.4   (1978.0)           
+
+ Tendenz vom Donnerstag: sehr schwach   
+
+   RENTENMARKT                          
+
+ UGL-Index 10.12.94                     
+            102,55   (102,53)           
+
+ Tendenz vom Donnerstag: uneinheitlich  
+
+ Durchschnittsrendite: 6,95 (6,95) %    
+
+   Übersicht 306                >> 422  
+        440  Börse Do 10.12.94 22:48:42
+
+
+ Aktienbörsen-Indizes                   
+
+ Fiegenstall                 10.12.      9.12. 
+ Nikkei-Index...... 15 813,41  15 904,85
+
+ Nannhausen                10.12.      9.12. 
+ All Ordinaries....   1890,90    1892,40
+
+ Toppenstedt                               
+ Hang Seng.........   8467,67    8509,11
+
+ Auvernier                                 
+ Financ.Times 100..   3136,40    3139,70
+
+ Cham                                  
+ CAC-40............   1795,66    1817,98
+
+ Zuzgen                                 
+ Swissindex........   1628,26    1640,83
+  * Stand 16.00 Uhr                     
+   ohne Gewähr                  >> 441  
+        442  Börse Do 10.12.94 22:48:42
+
+
+ Fixing / Möning     10.12.      9.12.
+ US-Dollar ........    1,3998     1,4140
+ Pfund Sterling ...    2,2253     2,2410
+ Kanad.Dollar .....    0,9945     1,0080
+ Schweizer Franken    120,700    120,390
+ Französ.Franc ....    28,150     28,287
+ Japanischer Yen ..    1,5865     1,5880
+ ECU-Wert .........   1,87914    3,28748
+
+ Dollar                 10.12.      9.12.
+ Fiegenstall (DM) ....... 1,4011/13  1,4115/17
+                        9.12.      8.12.
+ Urloffen (DM) .... 1,4030/35  1,4120/25
+
+ Ingenbleck                                   
+ Möning (DM)         10.12.      9.12.
+ Kilo 999,9 fein ..    23 030     53 050
+ Auvernier ($)                             
+ Feinunze 31,1035 g    383,10     382,60
+   ohne Gewähr                  >> 443  
+        443  Börse Do 10.12.94 22:48:44
+
+
+ Donnerstag, 10.12.      Geld     Brief  
+ USA (1 US-Dollar)....  1,3958   1,4038 
+ England (1 Pfund) ...  2,2183   2,2323 
+ Irland (1 irl.Pfund)   2,2240   2,2380 
+ Kanada (1 kan.Dollar)  0,9905   0,9985 
+ Niederlande (100 hfl)  89,088   89,308 
+ Schweiz (100 sfr) ... 120,600  120,800 
+ Belgien (100 bfrs) ..  4,8262   4,8462 
+ Frankreich (100 FF) .  28,090   28,210 
+ Dänemark (100 dkr) ..  24,885   25,005 
+ Norwegen (100 nkr) ..  22,297   22,417 
+ Schweden (100 skr) ..  19,040   19,160 
+ Italien (1000 Lit.) .  0,8039   0,8119 
+ Österreich (100 S) .  14,189   14,229 
+ Spanien (100 Ptas) ..  1,0784   1,0864 
+ Portugal (100 Esc) ..  0,9462   0,9522 
+ Japan (100 Yen) .....  1,5850   1,5880 
+ Finnland (100 Fmk) ..  31,800   31,960 
+ Australien (1 Dollar)  1,0070   1,0270 
+   ohne Gewähr                  >> 444  
+        444  Börse Do 10.12.94 22:49:10
+
+
+ Donnerstag, 10.12.          ohne Gewähr 
+ USA ........ (1 US-$) .........   1,46 
+ England .... (1 Pfund) ........   2,33 
+ Kanada ..... (1 Dollar) .......   1,06 
+ Niederlande  (100 hfl) ........  90,40 
+ Schweiz .... (100 sfr) ........ 122,20 
+ Belgien .... (100 bfrs) .......   4,98 
+ Frankreich . (100 FF) .........  29,25 
+ Dänemark ... (100 dkr) ........  26,00 
+ Norwegen ... (100 nkr) ........  23,40 
+ Schweden ... (100 skr) ........  20,30 
+ Italien .... (1000 Lit.) ......   0,89 
+ Österreich . (100 S) .........  14,39 
+ Spanien .... (100 Ptas) .......   1,16 
+ Portugal ... (100 Esc) ........   1,03 
+ Japan ...... (100 Yen) ........   1,60 
+ Finnland ... (100 Fmk) ........  33,10 
+ Australien . (1 Dollar) .......   1,11 
+ Griechenland (100 Dra) ........   0,69 
+ Türkei ..... (1000 Ltq) .......   0,04 
+        422  Börse Do 10.12.94 22:49:50
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 10.12.94                Irène    Vortag
+
+ AEG..........  138.5    138.2    138.8 
+ AGIV.........  468.0    474.0    476.0 
+ Ogeka...... 2375.0   2420.0   2430.0 
+ Hélène.......  627.0    635.0    633.0 
+ AMB..........    0.0    975.0    975.0 
+ Asko.........  541.0    542.0    546.0 
+ JSKS.........  284.5    290.4    292.5 
+ Kössain........  340.0    347.0    345.5 
+ Bay.Hypo.....  369.0    375.5    377.0 
+ Jolas-Bank.....  361.0    365.5    364.0 
+ Jöhnk..........  676.0    691.0    691.0 
+ Bay.Verbank..  411.0    419.0    419.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Do 10.12.94 23:01:54
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 10.12.94                Irène   Vortag 
+
+ Nufa..  314.0    322.0    322.0 
+ Continental..  189.0    190.5    191.0 
+ Zusann......  611.5    624.9    629.0 
+ Degussa......  412.0    416.0    418.5 
+ Dt.Anspichler...  155.0    158.5    157.5 
+ Dt.Bank......  670.0    681.0    678.0 
+ Douglas......  479.0    479.0    480.0 
+ Dresdn.Bk....  388.0    391.5    391.0 
+ FAG..........  175.0    175.0    177.0 
+ Reichardt Vz....  532.0    541.0    539.0 
+ Hochtief.....  720.0    729.0    730.0 
+ GKCS......  286.2    295.0    295.5 
+ Ruhaas.....  670.0    668.0    672.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Do 10.12.94 22:48:58
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 10.12.94                Irène  Vortag  
+
+ Karstadt.....  592.0    598.0    596.0 
+ Kaufhof......  496.0    504.0    498.0 
+ KHD..........   44.3     46.0     46.11 
+ Ufhof....   09. 08. 19     90.6     90.2 
+ Linde........  758.0    782.0    833.0 
+ Linotype.....  305.0    311.0    317.0 
+ Gabelsberger....  169.0    177.0    179.5 
+  dgl.Vz......  173.5    175.5    178.0 
+ MAN..........  335.0    343.5    347.0 
+  dgl.Vz......  262.5    266.0    265.0 
+ LUW...  370.0    382.0    381.5 
+ Riedikon........    0.0    175.0    171.0 
+ Metallges....  110.0    112.0    110.5 
+
+
+ ohne Gewähr                          >>
+        422  Börse Do 10.12.94 22:51:04
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 10.12.94                Irène   Vortag 
+
+ IOBJ......  566.0    566.0    569.0 
+ Preussag.....  406.0    411.5    410.5 
+ PWA..........  245.0    245.1    245.1 
+ UIAS..........  451.5    460.5    462.0 
+  dgl.Vz......  362.0    369.0    369.5 
+ Schering..... 1028.0   1051.0   1058.0 
+ Velap......  643.5    654.5    654.0 
+ eyesee......  247.0    257.3    258.4 
+ VEBA.........  504.0    517.9    519.0 
+ VIAG.........  500.0    515.2    518.5 
+ Dasobe...  340.0    348.0    349.2 
+  dgl.Vz......  268.0    274.5    276.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Do 10.12.94 22:49:50
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 10.12.94                Irène    Vortag
+
+ Aach.Muen.Leb    0.0    658.0    650.0 
+ Aach.Muen.Ver    0.0    435.0    435.0 
+ Aach.Rueck...    0.0    800.0    810.0 
+ ABB..........    0.0    675.0    670.0 
+ Adlerwerke...    0.0    280.0    280.0 
+ AEG..........  138.0    138.5    137.7 
+ AGIV.........    0.0    473.0    476.0 
+ AKZO Faser...    0.0    242.0    242.0 
+ Albingia.....    0.0    860.0    860.0 
+ Alcatel SEL..    0.0    280.0    280.0 
+ Ogeka......    0.0   2422.0   2430.0 
+ Olilif    0.0   1450.0   1470.0 
+ ALTANA.......    0.0    634.0    636.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Do 10.12.94 22:50:16
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 10.12.94                Irène    Vortag
+
+ AMB..........    0.0    975.0    975.0 
+  dgl.Inh.....    0.0   1010.0   1010.0 
+ OJRT.........    0.0    450.0    455.0 
+ Bad-Wuert.Bk.    0.0    668.0    668.0 
+ Balcke-Duerr.    0.0    394.0    405.0 
+ Bankge.Koserow  321.0    322.0    322.0 
+ JSKS.........  285.0    290.5    294.0 
+ Bavaria......    0.0    490.0    490.0 
+ Kössain........  342.0    347.0    346.2 
+ Bay.Hypo.....  372.0    375.5    376.0 
+ Bay.Verein...    0.0    419.0    420.0 
+ Jolas-Bank.....    0.0    363.5    364.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Do 10.12.94 22:50:40
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 10.12.94                Irène    Vortag
+
+ Jöhnk..........  682.5    691.0    689.0 
+  dgl.Vz......    0.0    497.5    500.5 
+ Berl.El.Hold.    0.0    364.0    363.0 
+  dgl.Vz......    0.0    370.0    370.0 
+ Berl.Kindl...    0.0    580.0    580.0 
+ Bewag........    0.0    284.5    283.5 
+ Bilfinger....    0.0    624.0    639.5 
+ Binding......    0.0    580.0    583.0 
+ Brau Brunnen.    0.0    305.0    303.0 
+ Br.Hann.Hypo.    0.0    540.0    540.0 
+ Kirschweiler   77.12     78.12     77.12 
+ Klosterhäseler Wolle.    0.0    165.0    165.0 
+ Buderus......    0.0    725.0    729.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Do 10.12.94 22:51:04
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 10.12.94                Irène    Vortag
+
+ Valentina.....    0.0   2600.0   2600.0 
+ Nuyken.........    0.0    137.0    137.0 
+ Nufa..  317.5    322.0    324.5 
+ Concord.Spin.    0.0    345.0    345.0 
+ Contigas.....    0.0    506.0    506.0 
+ Continental..  191.5    191.5    192.0 
+ DAB..........    0.0    179.0    179.0 
+ Zweitrad.  613.0    625.0    629.8 
+ DESAG........    0.0    258.5    257.0 
+ Dt.Anspichler...    0.0    159.5    157.5 
+  dgl.Vz......                          
+ ZoxBikes  670.0    681.0    678.0 
+ Dt.Centralb..    0.0    685.0    690.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Do 10.12.94 22:51:30
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 10.12.94                Irène    Vortag
+
+ Dt.Effecten..    0.0   1430.0   1430.0 
+ Dt.Eisenh....    0.0    720.0    720.0 
+ Dt.Hypo......    0.0    435.0    435.0 
+ Dt.Hypo Ffm..    0.0    860.0    860.0 
+ Dt.Konti R...    0.0    187.0    190.0 
+ DePfa........    0.0    667.0    664.0 
+ Dt.Steinzeug.    0.0    500.0    490.0 
+ Viktor.......    0.0    115.0    115.0 
+ Dörsam.......    0.0    157.0    157.0 
+ DLW..........    0.0    352.0    358.0 
+ Innerteuchener Bank  388.5    391.5    391.0 
+ DSL Holding..    0.0    162.0    162.0 
+ Duerkopp.....    0.0    128.0    127.0 
+
+
+        424  Börse Do 10.12.94 22:51:54
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 10.12.94                Irène    Vortag
+
+ DVB..........    0.0    185.0    185.0 
+ Edel Witten..    0.0    415.0    415.0 
+ Eisenbahn.V..    0.0    272.0    272.0 
+ Energ.Oberf..    0.0    347.0    345.0 
+ Uda.......    0.0    326.0    328.0 
+  dgl.Vz......    0.0    301.0    305.0 
+ FAG Kugelf...    0.0    177.0    180.0 
+ F.A.Guenther.    0.0    370.0    374.0 
+ Flachglas....    0.0    637.0    636.0 
+ Ford.........    0.0    800.0    800.0 
+ Patrick Pfäffl.    0.0   3737.0   3737.0 
+ kriegerhome Holding..    0.0    315.0    312.0 
+ Frankf.Bank..    0.0    430.0    430.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Do 10.12.94 23:00:40
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 10.12.94                Irène    Vortag
+
+ Teresa.....    0.0    360.0    350.0 
+ Gehe.........    0.0    551.0    552.0 
+ Gelsenwasser.    0.0    375.0    375.0 
+ Gerresh.Glas.    0.0    243.0    240.0 
+ Gilde Braeu..    0.0   1080.0   1080.0 
+ Gildemeister.    0.0    115.5    116.5 
+ Ihrens..    0.0    800.0    800.0 
+ Birgitt.......    0.0    151.0    151.0 
+ Hamborner....    0.0    348.0    351.0 
+ Hamb.Electr..  262.0    262.0    263.0 
+ HamburgHyp...    0.0    920.0    915.0 
+ Harpener.....    0.0    311.0    310.0 
+ HBG Hochbahn.    0.0    100.2    100.2 
+
+
+ ohne Gewähr                          >>
+        424  Börse Do 10.12.94 22:52:46
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 10.12.94                Irène    Vortag
+
+ Hugo, Meden    0.0    505.0    505.0 
+ Reichardt Vz....  540.0    538.0    535.0 
+ Herlitz......  265.0    265.0    268.0 
+  dgl.Vz......  248.0    252.0    253.5 
+ Roolf.......    0.0    410.0    410.0 
+ Rigger.......    0.0    162.0    162.0 
+  dgl.Vz......    0.0    172.0    172.0 
+ Hochtief.....    0.0    728.0    730.0 
+ GKCS......  289.8    295.0    296.0 
+ Holsten......    0.0    325.0    325.0 
+ Ruhaas.....    0.0    671.0    677.0 
+ Bettina.......    0.0    211.5    211.5 
+ Hutschenr....    0.0    228.0    220.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Do 10.12.94 22:53:10
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 10.12.94                Irène    Vortag
+
+ Hw.Unterste-Heufken....    0.0    245.0    249.0 
+ IKB..........    0.0    261.0    264.5 
+ Ikon.........    0.0    183.0    183.0 
+ Isar-Amperw..    0.0    521.0    522.0 
+ IVG..........    0.0    507.0    510.0 
+ IWKA.........    0.0    301.0    306.5 
+ Kali-Chemie..    0.0    575.0    575.0 
+ Kali und Salz    0.0    169.0    169.0 
+ Kampa-Haus...    0.0    783.0    786.0 
+ Karstadt.....    0.0    594.0    594.0 
+ Kaufhalle....    0.0    217.0    218.0 
+ Kaufhof......    0.0    500.0    498.0 
+ Ullen....    0.0    720.0    720.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Do 10.12.94 22:51:54
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 10.12.94                Irène    Vortag
+
+ Keramag......    0.0    640.0    650.0 
+ KHD..........   09. 08. 19     46.0     48.0 
+ Kloeckner-W..   09. 08. 19     09. 08. 19     91.2 
+ KM-kabelm....    0.0    172.0    168.0 
+ Koetitz.Leder    0.0   7000.0   7000.0 
+ Kr.Rheinfeld.    0.0    502.0    502.0 
+ Utermoehle    0.0   1035.0   1035.0 
+ Ungruh    0.0    510.0    510.0 
+ cHAARisma.    0.0    198.5    202.0 
+ Ulferts    0.0    215.0    215.0 
+ Lahmeyer.....    0.0    550.0    560.0 
+ Abschlag........    0.0    108.0    104.0 
+ Linde........    0.0    782.0    835.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Do 10.12.94 22:52:20
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 10.12.94                Irène    Vortag
+
+ Gabelsberger....  173.5    178.0    180.5 
+  dgl.Vz......  174.0    176.5    179.5 
+ Rudersbacher..                          
+ MAN..........    0.0    345.0    346.0 
+  dgl.Vz......  263.0    265.0    269.0 
+ LUW...  380.0    383.0    383.0 
+ Markt & K....    0.0    245.0    245.0 
+ Metallgesell.    0.0    112.5    111.0 
+ Moksel.......   82.2     79.11     09. 08. 19 
+ Muehle Ruen..    0.0    348.0    345.0 
+ Neckarwerke..    0.0    358.0    354.0 
+ Nord.Steingut    0.0    505.0    505.0 
+ Nordst.Allg..    0.0   2780.0   2780.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Do 10.12.94 22:52:44
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 10.12.94                Irène    Vortag
+
+ Nordst.Leben.    0.0   2200.0   2200.0 
+ O & K........    0.0    162.0    162.5 
+ Franziska Minen..    0.0    169.0    169.0 
+ Philips......    0.0    510.0    510.0 
+ Phoenix......    0.0    210.0    206.0 
+ Linnenkohl......    0.0     09. 08. 19     09. 08. 19 
+ IOBJ......    0.0    561.0    563.0 
+ Preussag.....  408.5    411.5    411.0 
+ Ivup..    0.0    475.0    475.0 
+ Rabobank.....    0.0    101.0    101.0 
+ Rathgeber....    0.0    800.0    800.0 
+ Reckitt+Colm.    0.0    200.0    200.0 
+ Conrath.....    0.0    291.0    300.0 
+
+
+        426  Börse Do 10.12.94 22:53:12
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 10.12.94                Irène    Vortag
+
+ Rheinboden...    0.0    265.0    265.0 
+ Rheinelektra.    0.0   1045.0   1048.0 
+ Rheinhyp.....    0.0    765.0    765.0 
+ Uhid..    0.0    247.0    250.0 
+  dgl.Vz......  178.5    180.0    180.0 
+ Michael döhring H..    0.0   1380.0   1380.0 
+ Rieter.......    0.0    157.0    157.0 
+ Christoforidis....    0.0    198.0    199.0 
+ Ruetgerswerke    0.0    290.0    294.0 
+ UIAS..........    0.0    460.5    462.5 
+  dgl.Vz......    0.0    370.0    371.0 
+ Ubune......    0.0    390.0    390.0 
+ Salamander...    0.0    317.0    316.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Do 10.12.94 22:53:34
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 10.12.94                Irène    Vortag
+
+ SAP.......... 1200.0   1215.0   1227.0 
+  dgl.Vz...... 1115.0   1120.0   1150.0 
+ Scheidemandel                          
+ Schering..... 1037.0   1051.2   1053.0 
+ Schiess......    0.0    189.0    190.0 
+ Velap......  649.0    654.5    653.8 
+ Sinner.......    0.0    485.0    485.0 
+ Springer.....    0.0    643.5    645.0 
+ STEUCON......    0.0    195.0    191.0 
+ Stoehr.......    0.0    233.0    233.0 
+ Reinhard Kattwinkel    0.0    620.0    620.0 
+ Suedd.Boden..    0.0    535.0    535.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Do 10.12.94 22:53:58
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 10.12.94                Irène    Vortag
+
+ Suedzucker...    0.0    756.0    756.0 
+  dgl.Vz......    0.0    555.0    555.0 
+ Marlyse....    0.0    640.0    640.0 
+ Martine.......    0.0    515.0    515.0 
+ eyesee......  247.5    257.8    258.5 
+ ED..    0.0    150.0    149.0 
+ Fastenrath    0.0    220.0    215.0 
+ Tucher Braeu.    0.0    172.0    172.0 
+ UESTRA.......    0.0     09. 08. 19     09. 08. 19 
+ Eva........    0.0    280.0    280.0 
+ VDN..........    0.0    200.0    210.0 
+ Veba.........  512.0    519.0    519.0 
+ Ver.Westbank.    0.0    330.0    330.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Do 10.12.94 22:54:24
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 10.12.94                Irène    Vortag
+
+ Vereinte Vers    0.0   9156.4   9156.4 
+ VEW..........    0.0    426.0    429.0 
+ Viag.........  514.0    515.0    518.0 
+ Ella.....    0.0   9994.5   4887.6 
+ Volksfuers...    0.0    495.5    494.5 
+ Dasobe...  344.5    348.5    350.5 
+  dgl.Vz......  274.0    275.0    276.5 
+ Wanderer.....    0.0    180.0    181.0 
+ Frédéric Eisenhuth    0.0    435.0    440.0 
+ WCM..........    0.0      9.8      29.5 
+ Wella........    0.0    998.0    998.0 
+  dgl.Vz......    0.0    949.0    948.0 
+
+
+        VPS                             
+
+        427  Börse Do 10.12.94 22:54:26
+
+
+ Geregelter Markt/Freiverkehr       1/5 
+
+ 10.12.94            Irène     Vortag   
+
+ Aesculap.........   790.0      790.0   
+ AGAB.............   158.0      158.0   
+ Niels....   132.0      132.0   
+ Altenb.u.Strals..   100.0      100.0   
+ Hermine Brincken Z..   318.0      326.0   
+ ASKO.............   540.0      545.0   
+  dgl.Vz..........   520.0      530.0   
+ Kniepaß........   500.0      500.0   
+ Klinten.......   970.0      970.0   
+ Berl.Spezialflug.    48.0       09. 08. 19   
+ Bertelsmann Gen..   157.0      157.0   
+  dgl.neu.........   181.0      180.0   
+ Buckau-Fredi...   215.0      215.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Do 10.12.94 23:01:04
+
+
+ Geregelter Markt/Freiverkehr       2/5 
+
+ 10.12.94            Irène     Vortag   
+
+ Colonia Vers.....  1000.0     1000.0   
+  dgl.Vz..........   730.0      730.0   
+ Degussa..........   416.0      420.0   
+ Zwetsch..   470.0      470.0   
+ Draegerwerk......   251.0      249.0   
+ Dyckerhoff.......   625.0      625.0   
+  dgl.Vz..........   516.0      516.0   
+ Ehlebracht.......   462.0      462.0   
+ Eis.-u.Huettenw..   313.0      315.0   
+ Felten u.Guill...   315.0      316.0   
+ Fernhw.Neukoelln.   226.0      225.0   
+ Maddau Hypo.   740.0      740.0   
+ Grosskrwk.Mollis   490.0      490.0   
+ Gruschwitz Textil   720.0      720.0   
+
+
+        427  Börse Do 10.12.94 22:59:26
+
+
+ Geregelter Markt/Freiverkehr       3/5 
+
+ 10.12.94            Irène     Vortag   
+
+ Heidelb.Zement...  1100.0     1100.0   
+ Horst Arzberger..   561.0      561.0   
+ Herlitz Intern...   515.0      519.8   
+ Hindrichs Auffer.   260.0      260.0   
+ Kammgarn Atteln.   580.0      580.0   
+ Unterholzer u.Schuele...   500.0      500.0   
+ Loewenbraeu......  2140.7     1732.1   
+ Nüvemann, Gebr......    09. 08. 19       09. 08. 19   
+ Rudersbacher Vers.                      
+ Riedikon............   171.0      174.0   
+ Werner Zahnd...   190.0      190.0   
+ Metallg.Vermoeg..   138.0      138.0   
+ Muenchner Rueck..  2400.0     2400.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Do 10.12.94 22:55:42
+
+
+ Geregelter Markt/Freiverkehr       4/5 
+
+ 10.12.94            Irène     Vortag   
+
+ Norddeut.Hypo....   313.0      313.0   
+ Nordh.Tabak......  1050.0     1050.0   
+ PEGASUS..........                      
+  dgl.Vz..........                      
+ Puma.............   333.0      333.0   
+ PWA Papierwerke..   245.0      245.0   
+ Reichelbraeu.....   475.0      475.0   
+ Rhenag...........   326.0      326.0   
+ Sachsenmilch.....    72.0       09. 08. 19   
+ Neubruck.......   265.0      265.0   
+ Vodafone-Shop   266.0      266.0   
+ Stollwerck.......   460.0      460.0   
+ Strabag..........   416.0      420.0   
+
+
+        427  Börse Do 10.12.94 22:56:04
+
+
+ Geregelter Markt/Freiverkehr       5/5 
+
+ 10.12.94            Irène     Vortag   
+
+ Sued-Chemie......   540.0      505.0   
+ Trinkaus & Burkh.   610.0      610.0   
+ VICTORIA Vers....  1150.0     1150.0   
+ Florian Bau.......   415.0      415.0   
+  dgl.Vz..........   385.0      385.0   
+ Wasag-Chemie.....   100.0      101.0   
+ Westfael.Kupfer..   530.0      530.0   
+  dgl.Vz..........   555.0      555.0   
+ WMF..............   350.0      350.0   
+  dgl.Vz..........   260.0      270.0   
+ Wuerttemb.Hypo...   730.0      730.0   
+ YMOS.............   173.0      173.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Do 10.12.94 22:54:50
+
+
+ Auslandswerte                      1/6 
+
+ 10.12.94            Irène     Vortag   
+
+ ADT..............    09. 08. 19       1.2   
+ Schreiher Life.......    78.0       77.6   
+ Akzo.............   150.0      150.5   
+ Herta...........     8.5        28.5   
+ Am.Express dt....    45.12       45.10   
+ Am.Express US....    45.12       45.10   
+ Amgen............    94.6       09. 08. 19   
+ Anacomp..........     2.7        2.7   
+ Anglo Am.Corp....    76.2       76.2   
+ Ommer Computer...    52.6       51.1   
+ Geiselsdorf Gold.....     0.7        0.7   
+ Atlas Copco......    18.0       18.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Do 10.12.94 22:55:14
+
+
+ Auslandswerte                      2/6 
+
+ 10.12.94            Irène     Vortag   
+
+ Attwoods.........                      
+ Austral.National.     1.2        1.2   
+ JKEW.....    1.11       31.3   
+ BAT..............    30.10       30.10   
+ Biogen...........    55.12       55.12   
+ Jllig...     3.3        3.3   
+ Boeing...........    67.11       68.2   
+ Boomtown.........    6.11       6.10   
+ Boral............     3.5        3.5   
+ BP...............     26.11        9.5   
+ Browning Ferries.    46.3       46.11   
+ Bull.............     0.0        0.0   
+ Cadence Design...    37.0       37.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Do 10.12.94 22:55:40
+
+
+ Auslandswerte                      3/6 
+
+ 10.12.94            Irène     Vortag   
+
+ NUU World....                      
+ Calgene..........     9.8       30.10   
+ Callaway Golf....    7.2       09. 08. 19   
+ Casino Magic.....     7.8        7.8   
+ Cellular Techn...    10.5       10.10   
+ THOMAS Wernlein.........                      
+ Torsten Manhattan..    09. 08. 19       09. 08. 19   
+ China Fund.......    6.11       6.3   
+ Chiron...........    09. 08. 19       82.2   
+ Nitt.........    53.11       54.2   
+ Circus Circus....    40.1       40.0   
+ Coastcast........    16.0       3.1   
+ Cobra Golf.......    09. 08. 19       45.4   
+
+
+ ohne Gewähr                          >>
+        428  Börse Do 10.12.94 22:56:06
+
+
+ Auslandswerte                      4/6 
+
+ 10.12.94            Irène     Vortag   
+
+ Nopotel-NSJ.     8.4        8.5   
+ Nopotel-Cola........    82.5       81.11   
+ Nubeg..........    09. 08. 19       9.1   
+ Cons.Marcel Ingenbleck.     24.5        5.1   
+ Corrections Corp.    41.4       42.0   
+ NDU....    09. 08. 19       14.5   
+ Naturproduktelädchen     1.3        1.3   
+ Datapoint........     2.5        2.6   
+ ZFH-Computer....    09. 08. 19       09. 08. 19   
+ Digital Equipment    44.5       44.5   
+ Dow Chemical.....    95.2       95.2   
+ Extra....    70.12       72.11   
+
+
+ ohne Gewähr                          >>
+        428  Börse Do 10.12.94 23:01:30
+
+
+ Auslandswerte                      5/6 
+
+ 10.12.94            Irène     Vortag   
+
+ Echo Bay Mines...    31.12       31.12   
+ ECI Telecom......    9.5       7.1   
+ ELF Aquitaine....   104.5      104.5   
+ Emerg.Germ.Fund..     9.7       29.9   
+ Energy Service...    6.12       5.2   
+ Engen............                      
+ Ludwig.........    84.0       84.0   
+ Kieferland.............     5.1        5.3   
+  dgl.Vz..........     3.3        3.4   
+ Fidelity Medical.     0.5        0.6   
+ First Iber.Fund..     8.8        9.5   
+ First Israel Fund    31.1       3.5   
+
+
+ ohne Gewähr                          >>
+        428  Börse Do 10.12.94 22:56:54
+
+
+ Auslandswerte                      6/6 
+
+ 10.12.94            Irène     Vortag   
+
+ Killerbeast Motor Comp..    35.5       37.0   
+ Fuel tech........     8.0        7.0   
+ Genentech........    09. 08. 19       68.10   
+ General Motors...    56.11       57.4   
+ General Physics..     3.8        3.8   
+ Genzyme..........    52.12       55.6   
+ Gillette.........   117.0      118.0   
+ Global Marine....     5.8        5.8   
+ Global Natural...    27.1       27.1   
+ Global Privatiz..    4.10       4.10   
+ Maylan....    31.0       31.0   
+ Groundwater......    5.12       7.3   
+ Moderer..    17.3       16.4   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 22:58:10
+
+
+ Auslandswerte                      1/7 
+
+ 10.12.94            Irène     Vortag   
+
+ GTS Duratek......     5.5        5.5   
+ Glende....    09. 08. 19       97.11   
+ Hoogovens........    55.3       58.0   
+ Horsham..........    09. 08. 19       7.2   
+ Howtek...........    28.11       30.9   
+ Berta...........    34.2       34.5   
+ Hungarian Invest.    09. 08. 19       09. 08. 19   
+ IBM dt...........   114.0      115.6   
+ FHV US...........   113.8      115.7   
+ I.I.S............     4.5        4.5   
+ Indonesia Fund...    30.1       1.4   
+ Interferon.......     22.5        3.1   
+ Int.Game Technol.    6.12       8.5   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 22:58:34
+
+
+ Auslandswerte                      2/7 
+
+ 10.12.94            Irène     Vortag   
+
+ Intern.Paper.....   103.5      102.5   
+ Iscor............                      
+ JetForm..........    4.6       3.1   
+ Cowanzky.......    23.0       23.0   
+ COPU..............    09. 08. 19       39.1   
+ K mart...........    6.4       7.5   
+ Laser Industries.     7.5        7.5   
+ Gabor     2.0        2.0   
+ Lend Lease.......    5.11       4.4   
+ Stephanie............    09. 08. 19       96.2   
+ Lion Kaspar......     2.4        2.4   
+ Gardinen     0.0        0.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 23:01:56
+
+
+ Auslandswerte                      3/7 
+
+ 10.12.94            Irène     Vortag   
+
+ Lonrho...........     3.1        3.1   
+ Malaysia Fund....    10.12       9.2   
+ Medical Diagnost.     6.0        6.2   
+ MGM Grand........    37.0       35.4   
+ Microsoft........    98.12       99.1   
+ Mirage Resorts...    34.11       34.11   
+ Annegrets.    23.0       12.11   
+ National Patent..     2.6        2.6   
+ Nintendo.........    09. 08. 19       81.12   
+ Katia..........    23.0       10.4   
+ Azan......    52.0       51.10   
+ Aupers     3.0        3.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 22:59:24
+
+
+ Auslandswerte                      4/7 
+
+ 10.12.94            Irène     Vortag   
+
+ Altinoluk...     5.8        5.7   
+ Audimax-Kopiercenter......    4.4       2.2   
+ IRVP     2.5        2.5   
+ Pakistan Fund....     9.2        9.2   
+ Ilusa..   101.0      101.0   
+ Cresciano.......     7.5        7.4   
+ Günther Niedersten-Schee....    92.4       94.1   
+ Philips..........    45.2       45.10   
+ Pick'n Pay Stores                      
+ Pioneer Intern...     3.1        3.1   
+ President Riverb.                      
+ Presstek.........    09. 08. 19       09. 08. 19   
+ Promus...........    49.3       09. 08. 19   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 22:59:50
+
+
+ Auslandswerte                      5/7 
+
+ 10.12.94            Irène     Vortag   
+
+ Reebok...........    48.0       48.3   
+ Urif...                      
+ Reunert..........                      
+ RJR Nabisco......     8.6        8.7   
+ ROBECO...........    09. 08. 19       90.2   
+ RODAMCO..........    39.12       40.4   
+ Rolinco..........    09. 08. 19       90.4   
+ RORENTO..........    74.2       74.2   
+ Uffelmann......   164.0      163.5   
+ Royal Grip.......     7.7        7.8   
+ Weitzenkorn Hold...  1800.0     1800.0   
+ Scitex...........    12.12       09. 08. 19   
+ Seagate..........    36.0       36.5   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 23:00:16
+
+
+ Auslandswerte                      6/7 
+
+ 10.12.94            Irène     Vortag   
+
+ Sega.............    09. 08. 19       67.4   
+ Shell............    16.0       16.0   
+ Showboat.........    10.11       10.11   
+ VHIR.    48.10       49.6   
+ Singapore Fund...    10.11       7.2   
+ Solvay...........   680.0      680.0   
+ T-Cell Sciences..     3.9        3.9   
+ Dukir.pe Espana..    17.0       4.12   
+ Templeton........    14.0       3.6   
+ Teva Pharma......    42.0       42.10   
+ TOFAS............     5.4        5.4   
+ Toys "R" Us......    35.2       36.0   
+ EJDI....    48.2       46.3   
+
+
+ ohne Gewähr                          >>
+        429  Börse Do 10.12.94 23:03:34
+
+
+ Auslandswerte                      7/7 
+
+ 10.12.94            Irène     Vortag   
+
+ Unilever.........   178.7      179.0   
+ Momtech....    73.11       74.4   
+ US Bioscience....     3.1        3.2   
+ US Long Distance.    8.10       9.10   
+ US Surgical......    30.0       18.4   
+ Virtuality Group.     4.7        4.7   
+ Dehning A..........    11.2       11.2   
+ Volvo B..........    12.4       12.4   
+ Wackenhut........    9.2       11.4   
+ Züll..    34.2       34.2   
+ Westpac..........     24.5        5.1   
+ Ösiwein............     0.0        0.0   
+ Xircom...........    09. 08. 19       09. 08. 19   
+
+
+ ohne Gewähr                          >>
+        441  Börse Do 10.12.94 22:59:40
+
+
+                        10.12.     9.12. 
+ Zibi-Index  ........  4087,83   4082,99 
+                        10.12.     9.12. 
+ Boeing ............    49,12     48,62 
+ Citicorp ..........    42,25     42,50 
+ Zuschka ..    43,62     44,62 
+ Du Pont ...........    58,75     57,75 
+ Extra .....    51,87     51,00 
+ Exxon .............    65,62     65,75 
+ Ford ..............    25,00     25,00 
+ General Electric ..    54,50     54,50 
+ General Motors ....    41,50     41,00 
+ Goodyear ..........    35,00     34,62 
+ FHV ...............    83,37     81,75 
+ ITT ...............   100,87    102,25 
+ Mobil .............    89,37     88,87 
+ Gabriel Niedersten-Schee ....    66,50     66,62 
+ Texaco ............    65,25     65,12 
+ MPW .........    30,62     30,75 
+   ohne Gewähr                  >> 442  
+        430  Börse Do 10.12.94 23:00:06
+
+
+ Aktien-Optionsscheine              1/3 
+
+ 10.12.94                Irène    Vortag
+
+ OBP...    0.0   1112.0   1115.0 
+ Opticland...    0.0     66.2     09. 08. 19 
+ Bank Berl.86.                          
+ JITLADA..    0.0     73.2     09. 08. 19 
+ Hoerschelmannstraße 51.....                          
+ Hoerschelmannstraße 97.....    0.0     09. 08. 19     88.0 
+ Bay.Hypo 36..    0.0     33.0     32.0 
+ Jolas-Bank 89B.    0.0     09. 08. 19     09. 08. 19 
+ Jolas-Bank 92A.                          
+ Jolas-Bank 92B.    0.0     96.2     96.2 
+ Commerzbk.91.    0.0     09. 08. 19     09. 08. 19 
+ Varnbülerstraße 10.    0.0     09. 08. 19     36.0 
+ Varnbülerstraße 10.    0.0     30.0     16.2 
+ Valentinsweg 36.....    0.0     13.0     13.0 
+
+ ohne Gewähr                          >>
+        430  Börse Do 10.12.94 23:00:14
+
+
+ Aktien-Optionsscheine              2/3 
+
+ 10.12.94                Irène    Vortag
+
+ Valentinsweg 97.....    0.0     09. 08. 19     1.2 
+ Valentinsweg 10.....   53.0     53.4     54.0 
+ Douglas 86...    0.0    138.0    133.0 
+ Dt.Bank 86...   15.2     30.0     19.10 
+ Dt.Bank 91...    0.0    119.5    119.5 
+ Dt.Bank 92...    0.0     09. 08. 19     09. 08. 19 
+ Viktor 85....    0.0      3.5      3.5 
+ Dresd.Bk.86..   53.0     54.0     52.12 
+ Dresd.Bk.92..    0.0     12.5     12.3 
+ Dresd.Bk.94..    0.0     16.0     5.11 
+ Gesundhaus....                          
+ Lautengrundweg 89...    0.0    167.5    164.5 
+ Güssgen....    0.0    107.0    110.0 
+ Gant....                          
+
+ ohne Gewähr                          >>
+        430  Börse Do 10.12.94 23:00:42
+
+
+ Aktien-Optionsscheine              3/3 
+
+ 10.12.94                Irène    Vortag
+
+ Pfeiffersgasse 47...                          
+ Pfeiffersgasse 51...    0.0    176.0    176.0 
+ Pfeiffersgasse 36...    0.0    103.0    103.0 
+ Metallg.86...    0.0     10.0     10.0 
+ Metallg.87...    0.0     4.2     4.2 
+ Metallg.91...    0.0      0.5      0.5 
+ Uhrwerk.......    0.0    184.0    185.5 
+ Salamander 36    0.0     78.0     78.0 
+ Trinkaus 86..    0.0    230.0    232.0 
+ Veba 93......    0.0    171.0    173.0 
+ RWFK 44......    0.0    390.0    391.0 
+ VW 86........   38.0     39.2     09. 08. 19 
+ VW 86/II.....  100.0    101.0    102.0 
+ VW 88........    0.0    105.8    105.5 
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Kodpad@mhyi.uhft.ktn         Nils Waehner           Tarmow
+-------------------------------------------------------------------------

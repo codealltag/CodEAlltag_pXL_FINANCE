@@ -1,0 +1,13 @@
+In <50soh9$01@pxkf.ukqa.pj> uawspl@vsjp.rorb.hm (Valentin Pepers) writes:
+
+Ich habe mir den Spass gemacht, ein Script zu klopfen, welches
+wiederholt versucht den server anzubaggern. Natuerlich wurde der
+naechste request erst gestartet, wenn vom Vorgehenden ein Timeout
+kam (sonst waere ja der server ueberlastet ;-). Dieses habe ich dann
+mal die Nacht durchlaufen lassen. Ergebnis: von ca. 1000 Versuchen
+kein einziger erfolgreich!
+
+
+Wahrscheinlich hat der nur die Startseite geladen ;-)
+-- 
+-- Vincenzo Schoe -- ry@gtxre.mpmj.dh -- Germersheim, Germany --

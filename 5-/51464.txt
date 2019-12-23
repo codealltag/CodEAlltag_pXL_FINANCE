@@ -1,0 +1,22 @@
+Transaktionen:
+Art # Stck # Name                   # WKNR   # EUR   # Dobmannstraße
+K   #  750 # Betonwerk                # 519000 #  25,46 # Etr.
+K   #  200 # Cisco                  # 878841 # 123,00 # Etr.
+K   #  300 # Consors                # 542700 #  76,00 # Etr.
+K   #  700 # Lipro                  # 521260 #  21,85 # Etr.
+
+Depot:
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+Betonwerk           # 519000 #   750  #   25,46   #   25,46  # 19095,00
+atu             # 878841 #   200  #  123,00   #  123,00  # 24600,00
+Consors           # 899697 #   300  #   76,00   #   76,00  # 22800,00
+Lipro             # 521260 #   700  #   21,85   #   21,85  # 15295,00
+
+
+Cash     :  62507.63
+Depotwert:  20479,04
+Gesamt   : 100000,00
+
+
+Gruss,
+Andre

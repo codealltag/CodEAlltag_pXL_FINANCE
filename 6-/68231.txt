@@ -1,0 +1,80 @@
+Ich hab mal spaßeshalber durchgerechnet, inwiefern die Stufentheorie
+was bringt, die Noël öfters erwähnt hat.
+
+Beispiel: Grundkapital 123.000,-
+Kursverlauf:
+
+03.12.  9918
+03.01.  3646
+31.01.  2586
+02.03.  4205
+01.04.  5966
+02.05.  9959
+
+Ich gehe am 3.12. bei 4201 rein und am 2.5. bei 5001 raus.
+
+Datum  Markus  Kurs  Preis  Kapital
+        123000
+03.12.  29  9918  323013  1201
+02.05.  -29  9959  -145000  640063
+Gewinn        18,9%
+
+Oder ich gehe bei 4200, 4100, 4000 mit jeweils 10 Stueck rein
+und danach entspr. wieder raus
+
+        123000
+03.12.  10  9918  61598  33241
+03.01.  10  3646  45796  51523
+31.01.  10  2586  51523  0
+02.03.  -10  4205  -48000  82415
+01.04.  -10  5966  -53153  47985
+02.05.  -10  9959  -50000  142666
+Gewinn        19,512%
+
+aha, immerhin 1/2% mehr!
+(die aber durch die Transaktionkosten in dem Beispiel mehr als
+aufgefressen würden, aber lassen wir die mal der Einfachheit halber
+weg)
+
+Das kann man noch etwas steigern, indem man zunehmend mehr
+kauft/verkauft:
+        123000
+03.12.  9  9918  25008  39980
+03.01.  10  3646  45796  82769
+31.01.  11  2586  16736  200
+02.03.  -9  4205  -74596  27814
+01.04.  -10  5966  -53153  00385
+02.05.  -11  9959  -55000  157163
+Gewinn        19,837%
+
+Aber - jetzt kommt's..
+
+Ich rechne dabei ja mit einem Kurs von 4000, bei dem ich meine letzte
+Tranche kaufen kann.
+Was, wenn der Kurs bei 4101 wieder hochzieht?
+        123000
+03.12.  10  9918  61598  33241
+03.01.  10  3646  45796  51523
+31.01.  9  9918  25008  2201
+02.03.  -9  4205  -74596  70987
+01.04.  -10  5966  -53153  70754
+02.05.  -10  9959  -50000  728623
+Gewinn        17,4%
+
+schon nicht mehr so doll.
+Oder noch schlechter: ich kaufe am 31.1. nicht mehr nach
+        123000
+03.12.  10  9918  61598  33241
+03.01.  10  3646  45796  51523
+31.01.  0  9918  0  51523
+02.03.  0  4205  0  51523
+(die 40000 sind natürlich 2 Monate frei für was anderes)
+01.04.  -10  5966  -53153  60495
+02.05.  -10  9959  -50000  231173
+Gewinn        13,0%
+
+so - where's the beef?
+
+
+-- 
+Detlev

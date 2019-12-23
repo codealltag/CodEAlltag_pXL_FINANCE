@@ -1,0 +1,21 @@
+In article <9ma83f$w7o$1@xogk.zdyzcb.ee>,
+
+Hallo Norman,
+
+Bei Hassenkamp kannst Du eine individuelle Kursabfrage starten, du musst nur  
+die entsprechende WKNs einsetzen:
+
+   finanzen.yahoo.de/quotes.de/quote.csv?symbols=WKN1*F,WKN2*F&detailed=t
+
+Bis zu wievielen Simultankursen das klappt habe ich noch nicht getestet,  
+70 gehen definitiv. Statt detailed=t kannst Du auch detailed=f einsetzen,  
+dann kommt nur eine Kurzuebersicht.
+
+Zudem kannst Du bei Waahnsinn ein "Musterdepot" einrichten, dort bekommst  
+Du dann jede Nacht die Kurse per Mail zugeschickt. Allerdings nur die  
+Schlusskurse. Kosten los und nicht nur fuer Kunden - das ist Service.
+
+Ottmar
+
+-- 
+rmxmy@ncymir.ajunt.ms

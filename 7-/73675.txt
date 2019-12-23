@@ -1,0 +1,39 @@
+Quote auf die Nachricht vom 07.05.99
+                  Ersteller: _xriuolkw@f.fxzfv.dd_
+                    Betreff: Re: 3sat Boersenspiel ohne 3sat - Stand 6.5.99
+
+Hallo Heribert,
+
+GuMM>> >K   #   90   # DAX-Put 5200 12/99# Eurex  # 223,00 # Eurex
+
+GuMM>Bei den ODAXen macht jder Punkt 5 Euro aus, dh bei Kauf
+GuMM>zu 223 kostet 1 Kontrakt 223x5 = 1115 Euro.
+GuMM>Bitte berichtigen.
+
+Danke fuer die Aufklaerung. Also muss ich die Anzahl durch 5 teilen und  
+den Preis mit 5 multiplizieren?
+
+Dann sieht der Kauf so aus:
+
+K   #   18   # DAX-Put 5200 12/99# Eurex  #1115,00 # Eurex
+
+
+Und das Depot:
+
+Aktueller Depotstand, Stand 06.05.99:
+
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+DAX-Put 5200 12/99# Eurex  #    18  #  1115,00  # 1115,00  # 20070,00
+Zwergenwelt         # 255975 #   200  #    48,50  #   47,70  #  9540,00
+LG Chemical Ltd.  # 899910 #   300  #    33,50  #   39,00  # 11700,00
+Starnet           # 161193 #  1108  #     5,10  #    5,10  # 10200,00
+Yamanouchi Pharm. # 996610 #   250  #    42,00  #   42,00  # 10500,00
+
+Cash         37102,00 Euro
+
+Depotstand:  99112,00 Euro
+
+
+Viele Gruesse
+
+           Gerald                  <http://xqc.tdhwuenb.vf/qmjest>

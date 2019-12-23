@@ -1,0 +1,9 @@
+Re: S: Buch ueber Gewinnabsicherung mit OS
+
+zwei Anmerkungen: a) die Formel heisst Black-Scholes (oder habe ich eine
+wesenliche Erweiterung durch Hr. Oelrich übersehen....)
+b) klar, dass nach der Black-Scholes Formel die Puts überbewertet sind,
+da diese Berechnung Europäische Optionen annimmt, während dessen die
+O-Schein amerikanisch sind. Daher ist eher das Ackerhans-Nickles-Modell
+anzuwenden. Da schaut die Sache gleich anders aus.
+gru bernhard

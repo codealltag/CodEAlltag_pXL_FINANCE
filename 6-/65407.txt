@@ -1,0 +1,31 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------4EB246AFE2C961F8331DA7CB
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hallo
+Wer kennt diesen Wert??
+Wieso steigen die so stark - die letzten Tag  immer um oder sogar über
+15%??
+Wo kriegt man da Infos her?? Bin für jeden Tipp dankbar.
+Gruß
+
+--------------4EB246AFE2C961F8331DA7CB
+Content-Type: text/x-vcard; charset=us-ascii;
+ name="Detlef.Mueller.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Luc Zumstein
+Content-Disposition: attachment;
+ filename="Detlef.Mueller.vcf"
+
+begin:vcard 
+n:Egon
+tel;work:09131/981975
+x-mozilla-html:FALSE
+adr:;;;;;;
+version:2.1
+cdxgy;norqljal:Kkklot.Tlyoaxv@phoo.genlmbw.ro
+fn:Luc
+end:vcard
+
+--------------4EB246AFE2C961F8331DA7CB--

@@ -1,0 +1,52 @@
+In <74hiqk$amh$1@unlisys.unlisys.net> "Valentino" <vwsxdh@fynlno.qpnhm.rt> writes:
+
+Und hier die Brute-Force-Methode, fuer alle die es eilig haben oder ohne
+Internet auskommen muessen:
+
+jw@raven:/tmp$ cat t.pl
+#!/usr/bin/perl
+srand (time);
+while ($runs++ < 100000) {
+    $auto = int (rand (3));  # Plaziere das Auto in einer Tuer
+    $wahl = int (rand (3));  # Ich waehle eine Tuer
+
+    # Moderator wuerfelt zwischen den zwei Ziegen solange, bis er nicht
+    # die von mir gewaehlte Tuer aufmachen muss (ist zwar umstaendlich,
+    # aber einfacher zu programmieren. Am Ergebnis aendert das nichts)
+    #
+    $oeffne = ($auto+int(rand(2))+1)%3 while ($oeffne==$wahl);
+
+    # wenn ich bleibe, habe ich gewonnen, sofern meine urspruengliche
+    # Wahl korrekt war:
+    #
+    $gewinnbleibe += ($wahl==$auto);
+
+    # Wenn ich wechsle, gewinne ich dann, wenn meine urspruengliche
+    # Wahl falsch war. Gewinn und Verlust schlissen sich ja aus!
+    #
+    $gewinnwechsel += !($wahl==$auto);
+}
+print "$gewinnbleibe $gewinnwechsel\n";
+
+jw@raven:/tmp$ for i in 1 2 3 4 5 6 7 8 9 0 a b c d e f g; do ./t.pl ; done
+77469 88224
+47058 67144
+33369 64476
+12393 12558
+33702 34732
+49988 44855
+23197 17329
+38634 88360
+94276 35336
+89307 93013
+25092 57238
+30648 22252
+10882 35385
+82726 93128
+22715 83652
+84943 31010
+83457 31317
+jw@raven:/tmp$
+
+-- 
+-- Ullrich Splisteser -- lv@nykwx.rhds.yi -- Germersheim, Germany --

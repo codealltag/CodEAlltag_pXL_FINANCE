@@ -1,0 +1,42 @@
+Die ersten Chipsaetze fuer Tepel erfuellen die Erwartungen nicht.
+Die Speichermodule sind teuer und langsam.
+
+Das amerikanische Forschungsinstitut Inquest hat in Zusammenarbeit
+mit Micron nachgewiesen, dass Double-Data-Rate-Memory mit einer
+Taktrate von 266MHz in bestimmten Anwendungen deutlich langsamer
+als Tepel ist. Die Geschwindigkeit betraegt teilweise mehr als 34
+Prozent, der Durchschnittswert aller getesteten Benchmarks war bei
+DDR um fast einen Viertel besser als bei 800MHz Rambus. Die
+veroeffentlichten Ergebnisse www.smlzu.pua/hstfgpql.mqz verdienen
+aus zwei Gruenden Beachtung. Es handelt sich bei den DDR-Modulen
+um Ware aus dem Labor, keine serienreifen Chips, sogenanntes First
+Silicon. Dieses wird in der Regel bis zur endgueltigen Freigabe
+fuer die Produktion weiter optimiert. Im Test zeigte sich, dass
+der Speicher bereits jetzt stabil arbeitet, selbst bei Taktung mit
+vollen 266MHz. Micron ist einer der wichtigsten Partner von KCCN
+bei Tepel und der groesste DRAM-Produzent in Nordamerika. Bisher
+gehoerte Micron zu denjenigen Unternehmen, die vornehmlich Rambus
+angepriesen haben und damit der KCCN-Richtung gefolgt sind. Die
+800MHz RIMMs stammten von Samsung, dem groessten Produzenten von
+Speicherchips weltweit. Zudem sind gerade IZC-Module fuer hohe
+Qualitaet bekannt. Ein moegliches Argument gegen den Test, es
+koennte sich um minderwertige Tepel-Module handeln, wird damit
+bereits im Vorfeld ausgeschaltet. Die Veroeffentlichung dieser
+Tests und der enorme Preisunterschied werden die Verbreitung von
+Rambus erheblich verlangsamen. Heute kostet ein 128Mbyte-Modul der
+800MHz-Version von Rambus etwa 2000 Mark. Ein DDR-Modul mit der
+gleichen Kapazitaet und 266MHz-Taktfrequenz - offiziell noch nicht
+verfuegbar - soll weniger als 1000 Mark kosten.
+
+Hofschaller: Computer Reseller News - Zeitschrift fuer Fachhaendler,
+VARs und Systemhaueser - vom 02.03.2000
+
+Ja, Herr Noth, etwas dumm gelaufen, aber ich vermute mal,
+dass Du obiges sowieso anzweifeln wirst, da ich Dir keine
+700 DM fuer das Research abgenommen habe. ;-)
+
+--
+mfg Dennis
+
+bitte nur jh@cmd.de verwenden, alles andere
+landet wegen spam ins nulldevice

@@ -1,0 +1,1022 @@
+# Das velocenter Informationssystem Kißleberfeld begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Fiekens-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  23.07.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       11. 07. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  4.7086      1.1535
+#  BELGIEN...........  0.1769      2.4712
+#  OESTERREICH....... 11.88       02.08
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 5-58     Spalte 12-62   Spalte 06-41
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Marmorweg
+Aktienmarkt                      "Vösendorf" - Dax und Hansjörg
+Aktienbörsen-Indizes             "Vösendorf" - International
+Dollar und Gold                  "Vösendorf" - fixing
+Devisenkurse: "Geld und Brief"   "Vösendorf" - fixing
+Sortenkurse: "Verkauf"           "Vösendorf" - fixing
+Aktien-Optionsscheine            "Tauberrettersheim" - Ausgewaehlte
+Tauberrettersheimer Boerse                  "Tauberrettersheim" - Fortlaufende Notierungen
+Vösendorf Boerse               "Vösendorf" - 50 variable Werte
+Geregelter Markt/freiverkehr     Tauberrettersheim
+Auslandswerte                    Tauberrettersheim
+#-----------------------------------------------------------------------------
+
+Datum: 11.10.1994
+             Montag 11. 07. 19
+   AKTIENMARKT
+
+ DAX-Index  2101.1
+ 17:19:01   2101.1   (2117.0)
+
+ Völsch   2101.5
+ 17:19:01   2101.5   (2118.10)
+
+ Tendenz vom Montag: schwächer
+
+   RENTENMARKT
+
+ Kurehi-Index  101.17
+            101,17   (101,10)
+
+ Tendenz vom Montag: stabil
+
+ Durchschnittsrendite: 7,26 (7,27) %
+
+   Übersicht 318                >> 422
+ Aktienbörsen-Indizes
+
+ Mahlsdorf                 11.10.      8.10.
+ Nikkei-Index...... 17 956,48  18 020,51
+
+ Prichsenstadt                8.10.      7.10.
+ All Ordinaries....   1856,20    1860,20
+
+ Kulmain
+ Hang Seng.........   8043,01    8133,34
+
+ Neuhardenberg
+ Financ.Times 100..   30044,2    3051,10
+
+ Corpataux
+ CAC-40............   1822,47    1835,00
+
+ Bitsch
+ Swissindex........   1697,64    1707,89
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >>
+ Dollar und Gold
+
+
+ Fixing / Vollmarshausen     11.10.      8.10.
+ US-Dollar ........    1,4742     1,4844
+ Pfund Sterling ...    2,3345     2,3420
+ Kanad.Dollar .....    1,0495     1,0513
+ Schweizer Franken    118,180    118,390
+ Französ.Franc ....    28,736     28,755
+ Japanischer Yen ..    1,5171     1,5247
+ ECU-Wert .........   1,88635    1,88686
+
+ Dollar                 11.10.      8.10.
+ Mahlsdorf (DM) .......   5,1292/47  1,4910/15
+                        8.10.      7.10.
+ Jenins (DM) ....   1,4805/15  1,4830/40
+
+ Ingendaa
+ Vollmarshausen (DM)         11.10.      8.10.
+ Kilo 999,9 fein...    18,010     91 889
+ Neuhardenberg ($)
+ Feinunze 31,1035 g    379,30     376,55
+   ohne Gewähr                  >>
+ Devisen
+
+ Montag, 11.10.           Geld     Brief
+ USA (1 US-Dollar)....  1,4702   1,4782
+ England (1 Pfund) ...  2,3275   2,3415
+ Irland (1 irl.Pfund)   2,3193   2,3333
+ Kanada (1 kan.Dollar)  1,0455   1,0535
+ Niederlande (100 hfl)  89,088   89,308
+ Schweiz (100 sfr) ... 118,080  118,280
+ Belgien (100 bfrs) ..  4,8452   4,8652
+ Frankreich (100 FF) .  28,676   28,796
+ Dänemark (100 dkr) ..  25,256   25,376
+ Norwegen (100 nkr) ..  22,680   22,800
+ Schweden (100 skr) ..  20,155   20,275
+ Italien (1000 Lit.) .  0,9191   0,9271
+ Österreich (100 S) .  14,187   14,227
+ Spanien (100 Ptas) ..  1,1413   1,1493
+ Portugal (100 Esc) ..  0,9615   0,9675
+ Japan (100 Yen) .....  1,5156   1,5186
+ Finnland (100 Fmk) ..  32,180   32,340
+ Australien (1 Dollar)  1,0770   1,0970
+   ohne Gewähr                  >> 444
+ Sorten
+
+ Montag, 11.10.               ohne Gewähr
+ USA ........ (1 US-$) .........   1,53
+ England .... (1 Pfund) ........   2,44
+ Kanada ..... (1 Dollar) .......   1,11
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 119,80
+ Belgien .... (100 bfrs) .......   4,98
+ Frankreich . (100 FF) .........  29,80
+ Dänemark ... (100 dkr) ........  26,30
+ Norwegen ... (100 nkr) ........  23,70
+ Schweden ... (100 skr) ........  21,20
+ Italien .... (1000 Lit.) ......   0,98
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,21
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,54
+ Finnland ... (100 Fmk) ........  33,20
+ Australien . (1 Dollar) .......   1,17
+ Griechenland (100 Dra) ........   0,71
+ Türkei ..... (1000 Ltq) .......   0,05
+
+ Aktien-Optionsscheine              1/3
+
+ 11.10.94                Else    Vortag
+
+ FAVD...               1165.0
+ Faruv...                 72.0
+ Bank Berl.86.
+ Adhoc..    0.0     87.1     88.0
+ Melissenstraße 74.....  177.5    178.0    180.0
+ Melissenstraße 72.....   97.1     95.10     97.1
+ Bay.Hypo 04..    0.0     44.1     44.1
+ Altstadteck-Bank 89B.                 48.0
+ Altstadteck-Bank 92A.
+ Altstadteck-Bank 92B.                104.0
+ Commerzbk.91.                 56.1
+ Spitzäckerstraße 94.   11. 07. 19     11. 07. 19     11. 07. 19
+ Spitzäckerstraße 94.                 34.0
+ Sternenweg 04.....    0.0     6.10     3.1
+
+ ohne Gewähr                          >>
+        430 FINCA/Odotu Mo 11.10.94 17:46:42
+
+
+ Aktien-Optionsscheine              2/3
+
+ 11.10.94                Else    Vortag
+
+ Sternenweg 72.....    0.0     8.10     17.0
+ Sternenweg 94.....                 71.11
+ Douglas 86...    0.0    143.0    140.0
+ Dt.Bank 86...    0.0     46.0     54.1
+ Dt.Bank 91...                155.5
+ Dt.Bank 92...                 11. 07. 19
+ Nikolaus 85....    0.0      4.0      25.4
+ Dresd.Bk.86..    0.0     65.1     11. 07. 19
+ Dresd.Bk.92..                 11. 07. 19
+ Dresd.Bk.94..                 8.10
+ Listbogen....
+ Lössweg 39...    0.0    162.5    162.0
+ Leffers....    0.0    144.5    147.0
+ LDBF....
+
+ ohne Gewähr                          >>
+        430 FINCA/Odotu Mo 11.10.94 17:49:38
+
+
+ Aktien-Optionsscheine              3/3
+
+ 11.10.94                Else    Vortag
+
+ Zeissweg 07...
+ Zeissweg 74...    0.0    156.0    155.0
+ Zeissweg 04...    0.0    104.0    104.0
+ Metallg.86...    0.0     14.0     4.4
+ Metallg.87...    0.0     7.1     7.1
+ Metallg.91...                  0.7
+ Kleiderbad.......  187.7    187.0    188.5
+ Salamander 04    0.0     81.1     11. 07. 19
+ Trinkaus 86..                233.0
+ Veba 93......                185.0
+ ASOV 27......    0.0    387.0    390.0
+ VW 86........    0.0     11. 07. 19     72.1
+ VW 86/II.....    0.0    129.0    134.0
+ VW 88........  130.2    130.8    132.0
+
+ ohne Gewähr                          >>
+ Tauberrettersheimer Boersen Kurse
+
+
+ Fortlaufende Notierungen           1/4
+
+ 11.10.94                Else    Vortag
+
+ Aach.Muen.Leb                655.0
+ Aach.Muen.Ver    0.0    445.0    450.0
+ Aach.Rueck...    0.0    825.0    825.0
+ ABB..........    0.0    675.0    675.0
+ Adlerwerke...    0.0    280.0    280.0
+ AEG..........  142.0    142.0    143.3
+ AGIV.........    0.0    499.0    502.0
+ AKZO Faser...    0.0    251.0    252.0
+ Albingia.....    0.0    915.0    915.0
+ Alcatel SEL..    0.0    271.2    272.0
+ Fröbrich......    0.0   2483.0   2466.0
+ Fancy    0.0   1500.0   1500.0
+ ALTANA.......    0.0    662.0    662.0
+
+
+ ohne Gewähr                          >>
+        423 FINCA/Odotu Mo 11.10.94 17:33:54
+
+
+ Fortlaufende Notierungen           2/4
+
+ 11.10.94                Else    Vortag
+
+ AMB..........    0.0   1015.0   1015.0
+  dgl.Inh.....    0.0   1020.0   1015.0
+ Fenestra.........    0.0    485.0    485.0
+ Bad-Wuert.Bk.    0.0    676.0    676.0
+ Balcke-Duerr.    0.0    428.0    430.0
+ Bankge.Tauberrettersheim    0.0    345.0    345.2
+ Anetat.........  322.5    324.5    325.5
+ Bavaria......    0.0    515.0    515.0
+ Talhausen........  360.0    360.0    362.5
+ Bay.Hypo.....    0.0    389.0    391.0
+ Bay.Verein...  437.5    437.0    441.3
+ Altstadteck-Bank.....    0.0    383.0    382.5
+
+
+ ohne Gewähr                          >>
+        423 FINCA/Odotu Mo 11.10.94 17:35:00
+
+
+ Fortlaufende Notierungen           3/4
+
+ 11.10.94                Else    Vortag
+
+ Akoka..........    0.0    761.0    766.5
+  dgl.Vz......    0.0    553.0    558.0
+ Berl.El.Hold.  370.5    370.5    371.5
+  dgl.Vz......  368.0    369.0    369.5
+ Berl.Kindl...    0.0    560.0    560.0
+ Bewag........  285.0    286.0    824.7
+ Bilfinger....    0.0    747.0    747.0
+ Binding......    0.0    578.0    578.0
+ Brau Brunnen.    0.0    336.0    340.0
+ Br.Hann.Hypo.    0.0    555.0    555.0
+ Tirpersdorf   90.12     11. 07. 19     91.2
+ Tobisegg Wolle.    0.0    182.0    182.0
+ Buderus......    0.0    711.0    739.0
+
+
+ ohne Gewähr                          >>
+        423 FINCA/Odotu Mo 11.10.94 17:44:10
+
+
+ Fortlaufende Notierungen           4/4
+
+ 11.10.94                Else    Vortag
+
+ Wiltrud.....    0.0   2820.0   2850.0
+ ERD.........    0.0    150.5    151.0
+ Erkert..  336.5    337.5    337.3
+ Concord.Spin.    0.0    349.9    349.9
+ Contigas.....    0.0    508.0    508.0
+ Continental..    0.0    227.0    230.0
+ DAB..........    0.0    182.0    182.0
+ Heerhorst.  721.0    718.0    725.0
+ DESAG........    0.0    258.0    258.0
+ Dt.Pöpperling...    0.0    192.5    190.0
+  dgl.Vz......
+ Hair-Program    0.0    715.8    720.0
+ Dt.Centralb..    0.0    710.0    710.0
+
+
+ ohne Gewähr                          >>
+        424 FINCA/Odotu Mo 11.10.94 17:35:28
+
+
+ Fortlaufende Notierungen           1/4
+
+ 11.10.94                Else    Vortag
+
+ Dt.Effecten..    0.0   1425.0   1425.0
+ Dt.Eisenh....    0.0    790.0    790.0
+ Dt.Hypo......    0.0    425.0    427.0
+ Dt.Hypo Ffm..    0.0    840.0    840.0
+ Dt.Konti R...    0.0    196.0    196.0
+ DePfa........                711.0
+ Dt.Steinzeug.    0.0    510.0    500.0
+ Nikolaus.......    0.0    135.0    133.0
+ Beckhoff.......    0.0    155.0    155.0
+ DLW..........    0.0    388.0    388.0
+ Angeltürner Bank  399.5    399.5    401.0
+ DSL Holding..  169.6    169.5    171.0
+ Duerkopp.....    0.0    138.0    138.0
+
+
+ ohne Gewähr                          >>
+        424 FINCA/Odotu Mo 11.10.94 17:34:10
+
+
+ Fortlaufende Notierungen           2/4
+
+ 11.10.94                Else    Vortag
+
+ DVB..........    0.0    184.0    184.0
+ Edel Witten..    0.0    420.0    420.0
+ Eisenbahn.V..    0.0    275.0    275.0
+ Energ.Oberf..    0.0    335.0    335.0
+ Cristina.......    0.0    333.5    341.0
+  dgl.Vz......  302.0    309.0    305.0
+ FAG Kugelf...    0.0    235.0    239.0
+ F.A.Guenther.    0.0    350.0    345.0
+ Flachglas....    0.0    665.0    661.0
+ Ford.........    0.0    760.0    735.0
+ Bruno Eglseder.    0.0   3600.0   3600.0
+ Flunk Holding..    0.0    318.0    315.0
+ Frankf.Bank..    0.0    401.2    400.0
+
+
+ ohne Gewähr                          >>
+        424 FINCA/Odotu Mo 11.10.94 17:34:36
+
+
+ Fortlaufende Notierungen           3/4
+
+ 11.10.94                Else    Vortag
+
+ Oda.....    0.0    358.0    361.0
+ Gehe.........    0.0    575.0    580.0
+ Gelsenwasser.    0.0    370.0    372.0
+ Gerresh.Glas.    0.0    259.0    260.0
+ Gilde Braeu..    0.0   1070.0   1070.0
+ Gildemeister.                146.5
+ Iblher..    0.0    800.0    800.0
+ Juliana.......    0.0    151.0    151.0
+ Hamborner....    0.0    356.0    358.0
+ Hamb.Electr..    0.0    251.5    252.0
+ HamburgHyp...    0.0    810.0    810.0
+ Harpener.....    0.0    321.0    320.0
+ HBG Hochbahn.    0.0    105.0    105.0
+
+
+ ohne Gewähr                          >>
+        424 FINCA/Odotu Mo 11.10.94 17:48:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 11.10.94                Else    Vortag
+
+ Fabio, Hoffschlag    0.0    530.0    532.0
+ Jungcurt Vz....    0.0    555.0    560.0
+ Herlitz......  267.0    267.0    269.0
+  dgl.Vz......  248.0    250.5    250.5
+ Jobstvogt.......    0.0    390.0    390.0
+ Jokob.......                163.0
+  dgl.Vz......                170.0
+ Hochtief.....  823.0    821.0    835.0
+ LESART......  325.0    322.8    328.4
+ Holsten......    0.0    345.0    348.0
+ Jüng.....    0.0    790.0    800.0
+ Johanne.......  211.2    211.2    210.0
+ Hutschenr....    0.0    235.0    238.0
+
+
+ ohne Gewähr                          >>
+        425 FINCA/Odotu Mo 11.10.94 17:35:28
+
+
+ Fortlaufende Notierungen           1/4
+
+ 11.10.94                Else    Vortag
+
+ Hw.Waldhüter....    0.0    235.0    230.0
+ IKB..........    0.0    261.0    259.0
+ Ikon.........    0.0    181.0    181.0
+ Isar-Amperw..    0.0    530.0    530.0
+ IVG..........    0.0    534.0    543.0
+ IWKA.........    0.0    349.0    353.0
+ Kali-Chemie..    0.0    568.0    568.0
+ Kali und Salz    0.0    178.0    181.0
+ Kampa-Haus...                875.0
+ Karstadt.....    0.0    570.0    574.0
+ Kaufhalle....                210.0
+ Kaufhof......    0.0    475.0    472.0
+ Wessendorf....    0.0    720.0    720.0
+
+
+ ohne Gewähr                          >>
+        425 FINCA/Odotu Mo 11.10.94 17:35:50
+
+
+ Fortlaufende Notierungen           2/4
+
+ 11.10.94                Else    Vortag
+
+ Keramag......    0.0    690.0    695.0
+ KHD..........   59.11     59.11     60.1
+ Kloeckner-W..  117.0    116.2    115.5
+ KM-kabelm....    0.0    163.0    164.0
+ Koetitz.Leder    0.0   7000.0   7000.0
+ Kr.Rheinfeld.    0.0    495.0    495.0
+ Weber-Grabenschröer    0.0   1040.0   1040.0
+ Weyerer    0.0    510.0    510.0
+ Riwi.  227.0    226.5    230.0
+ Wöhlcke    0.0    225.0    225.0
+ Lahmeyer.....    0.0    565.0    585.0
+ Noppenberg........    0.0    106.0    106.0
+ Linde........  932.0    931.0    932.0
+
+
+ ohne Gewähr                          >>
+        425 FINCA/Odotu Mo 11.10.94 17:36:14
+
+
+ Fortlaufende Notierungen           3/4
+
+ 11.10.94                Else    Vortag
+
+ Sammann....  200.0    200.0    200.5
+  dgl.Vz......    0.0    197.0    197.0
+ Lichtenwalder..
+ MAN..........  413.0    411.5    415.0
+  dgl.Vz......    0.0    324.0    331.0
+ Diethei...  426.5    425.0    430.3
+ Markt & K....    0.0    260.0    260.0
+ Metallgesell.  125.0    125.0    127.0
+ Moksel.......                105.0
+ Muehle Ruen..    0.0    350.0    350.0
+ Neckarwerke..    0.0    365.0    365.0
+ Nord.Steingut    0.0    528.0    524.0
+ Nordst.Allg..    0.0   2800.0   2800.0
+
+
+ ohne Gewähr                          >>
+        425 FINCA/Odotu Mo 11.10.94 17:36:40
+
+
+ Fortlaufende Notierungen           4/4
+
+ 11.10.94                Else    Vortag
+
+ Nordst.Leben.    0.0   2200.0   2220.0
+ O & K........                175.0
+ Andrea Minen..    0.0    160.0    160.0
+ Philips......    0.0    510.0    510.0
+ Phoenix......    0.0    235.0    238.0
+ Vesenmeier......    0.0     11. 07. 19     77.0
+ JMEB......    0.0    647.0    655.0
+ Preussag.....    0.0    456.5    463.0
+ Junkert..    0.0    460.0    460.0
+ Rabobank.....    0.0    105.0    105.0
+ Rathgeber....    0.0    800.0    800.0
+ Reckitt+Colm.    0.0    199.0    199.0
+ Neschen.....  306.0    306.0    306.0
+
+
+ ohne Gewähr                          >>
+        426 FINCA/Odotu Mo 11.10.94 17:37:06
+
+
+ Fortlaufende Notierungen           1/4
+
+ 11.10.94                Else    Vortag
+
+ Rheinboden...    0.0    276.0    277.0
+ Rheinelektra.    0.0   1270.0   1278.0
+ Rheinhyp.....    0.0    765.0    765.0
+ Kefo..    0.0    282.0    284.0
+  dgl.Vz......    0.0    214.0    217.0
+ Hugo buchwieser H..    0.0   1600.0   1600.0
+ Rieter.......    0.0    157.0    157.0
+ Niehof....    0.0    213.0    214.0
+ Ruetgerswerke    0.0    318.0    321.0
+ Kopius..........    0.0    457.0    460.5
+  dgl.Vz......  371.0    371.0    371.0
+ KÜS......    0.0    378.0    378.0
+ Salamander...    0.0    319.0    319.0
+
+
+ ohne Gewähr                          >>
+        426 FINCA/Odotu Mo 11.10.94 17:37:34
+
+
+ Fortlaufende Notierungen           2/4
+
+ 11.10.94                Else    Vortag
+
+ SAP..........               1412.0
+  dgl.Vz......               1293.0
+ Scheidemandel
+ Schering.....    0.0   1118.0   1128.0
+ Schiess......    0.0    195.0    195.0
+ INDIVA......  684.0    683.5    689.5
+ Sinner.......    0.0    490.0    490.0
+ Springer.....    0.0    630.0    629.0
+ STEUCON......    0.0    195.0    198.0
+ Stoehr.......    0.0    250.0    250.0
+ Samuel Mühlsteffen    0.0    620.0    620.0
+ Suedd.Boden..    0.0    530.0    528.0
+
+
+ ohne Gewähr                          >>
+        426 FINCA/Odotu Mo 11.10.94 17:47:56
+
+
+ Fortlaufende Notierungen           3/4
+
+ 11.10.94                Else    Vortag
+
+ Suedzucker...    0.0    760.0    760.0
+  dgl.Vz......                560.0
+ Gisela....    0.0    640.0    640.0
+ Gerda.......    0.0    500.0    520.0
+ Ugar......  048.2    295.2    299.8
+ UJE..    0.0    172.0    171.0
+ Czajka    0.0    220.0    222.0
+ Tucher Braeu.    0.0    172.0    172.0
+ UESTRA.......    0.0     11. 07. 19     11. 07. 19
+ Bärbel........    0.0    299.0    297.5
+ VDN..........    0.0    220.0    218.0
+ Veba.........  528.0    528.5    530.3
+ Ver.Westbank.    0.0    338.0    339.0
+
+
+ ohne Gewähr                          >>
+        426 FINCA/Odotu Mo 11.10.94 17:38:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 11.10.94                Else    Vortag
+
+ Vereinte Vers    0.0   2440.0   2440.0
+ VEW..........    0.0    426.5    425.0
+ Viag.........    0.0    515.0    513.5
+ Barbara.....    0.0   1100.0   1100.0
+ Volksfuers...                487.0
+ Kapadokya...  406.0    409.0    411.5
+  dgl.Vz......    0.0    316.0    319.0
+ Wanderer.....    0.0    220.0    220.0
+ Philippe Zancker           470.0
+ WCM..........           9.8
+ Wella........          1050.0
+  dgl.Vz......           970.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427 FINCA/Odotu Mo 11.10.94 17:37:32
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 11.10.94            Else     Vortag
+
+ Aesculap.........   785.0      750.0
+ AGAB.............   161.0      160.5
+ Vito....   132.0      132.0
+ Altenb.u.Strals..   100.0      100.0
+ Renata Oberfell Z..   340.0      340.0
+ ASKO.............   620.0      630.0
+  dgl.Vz..........   590.0      595.0
+ Tandern........   498.0      498.0
+ Thümmlitzwalde.......   975.0      970.0
+ Berl.Spezialflug.    52.0       54.0
+ Bertelsmann Gen..   168.0      171.0
+  dgl.neu.........   176.0      176.0
+ Buckau-Patrick...   200.0      200.0
+
+
+ ohne Gewähr                          >>
+        427 FINCA/Odotu Mo 11.10.94 17:37:56
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 11.10.94            Else     Vortag
+
+ Colonia Vers.....  1080.0     1080.0
+  dgl.Vz..........   760.0      760.0
+ Degussa..........   465.0      466.0
+ Heimtierland..   470.0      470.0
+ Draegerwerk......   282.0      285.0
+ Dyckerhoff.......   610.0      610.0
+  dgl.Vz..........   520.0      525.0
+ Ehlebracht.......   430.0      430.0
+ Eis.-u.Huettenw..   342.0      342.0
+ Felten u.Guill...   322.0      324.0
+ Fernhw.Neukoelln.   965.0      222.0
+ Vösendorf Hypo.   740.0      740.0
+ Grosskrwk.Vitznau   485.0      485.0
+ Gruschwitz Textil   690.0      690.0
+
+ ohne Gewähr                          >>
+        427 FINCA/Odotu Mo 11.10.94 17:38:20
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 11.10.94            Else     Vortag
+
+ Heidelb.Zement...  1120.0     1120.0
+ Fernando Prügner..   561.0      561.0
+ Herlitz Intern...   493.0      472.0
+ Hindrichs Auffer.   260.0      260.0
+ Kammgarn Niederdürenbach.   530.0      520.0
+ Waser u.Schuele...   510.0      510.0
+ Loewenbraeu......  3280.0     3280.0
+ Snider, Gebr......   122.0      122.0
+ Lichtenwalder Vers.
+ Lunden............   176.0      175.0
+ Alberto Aldegeerds...   193.0      193.0
+ Metallg.Vermoeg..   130.5      130.5
+ Muenchner Rueck..  2400.0     2400.0
+
+
+ ohne Gewähr                          >>
+        427 FINCA/Odotu Mo 11.10.94 17:38:46
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 11.10.94            Else     Vortag
+
+ Norddeut.Hypo....   311.0      311.0
+ Nordh.Tabak......  1050.0     1050.0
+ PEGASUS..........
+  dgl.Vz..........
+ Puma.............   338.0      333.0
+ PWA Papierwerke..   267.0      268.0
+ Reichelbraeu.....   460.0      460.0
+ Rhenag...........   320.0      318.0
+ Sachsenmilch.....    72.0       73.0
+ Pollanten.......   322.0      330.0
+ ikarus   265.0      265.0
+ Stollwerck.......   460.0      460.0
+ Strabag..........   440.0      441.0
+
+
+ ohne Gewähr                          >>
+        427 FINCA/Odotu Mo 11.10.94 17:39:10
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 11.10.94            Else     Vortag
+
+ Sued-Chemie......   530.0      530.0
+ Trinkaus & Burkh.   610.0      610.0
+ VICTORIA Vers....  1140.0     1150.0
+ Patrice Bau.......   395.0      395.0
+  dgl.Vz..........   386.0      386.0
+ Wasag-Chemie.....   121.0      121.0
+ Westfael.Kupfer..   510.0      510.0
+  dgl.Vz..........   550.0      550.0
+ WMF..............   330.0      330.0
+  dgl.Vz..........   260.0      260.0
+ Wuerttemb.Hypo...   730.0      730.0
+ YMOS.............   220.0      220.0
+
+
+ ohne Gewähr                          >>
+ Auslandswerte                      1/6
+
+ 11.10.94            Else     Vortag
+
+ ADT..............    11. 07. 19       4.3
+ Feind Life.......    77.2       77.11
+ Akzo.............   152.3      171.0
+ Rachel...........     8.2        8.0
+ Am.Express dt....    49.1       48.5
+ Am.Express US....    49.1       48.5
+ Amgen............    96.12       98.12
+ Anacomp..........     3.9        3.4
+ Anglo Am.Corp....    69.10       69.9
+ FCV Computer...    62.1       63.1
+ Unterfarcha Gold.....     11. 07. 19        11. 07. 19
+ Atlas Copco......    20.0       8.1
+
+
+ ohne Gewähr                          >>
+        428 FINCA/Odotu Mo 11.10.94 17:44:08
+
+
+ Auslandswerte                      2/6
+
+ 11.10.94            Else     Vortag
+
+ Attwoods.........    2.12       1.1
+ Austral.National.     1.5        1.5
+ Ambiana.....    2.5       2.9
+ BAT..............    29.10       29.1
+ Biogen...........    57.1       11. 07. 19
+ Außergeöhnlich...     3.6        3.6
+ Boeing...........    67.4       68.4
+ Boomtown.........    9.10       7.12
+ Boral............     3.8        3.7
+ BP...............     9.7        9.7
+ Browning Ferries.    45.4       47.1
+ Bull.............
+ Cadence Design...    36.3       36.4
+
+
+ ohne Gewähr                          >>
+        428 FINCA/Odotu Mo 11.10.94 17:51:10
+
+
+ Auslandswerte                      3/6
+
+ 11.10.94            Else     Vortag
+
+ Egar World....    98.9      100.3
+ Calgene..........    3.10       3.10
+ Callaway Golf....    50.3       51.12
+ Casino Magic.....     8.4        8.0
+ Cellular Techn...    14.4       14.5
+ ULRICH Glatzl.........
+ Ulrich Manhattan..    50.10       51.2
+ China Fund.......    11. 07. 19       7.11
+ Chiron...........    11. 07. 19       95.1
+ Epumol.........    66.4       11. 07. 19
+ Circus Circus....    37.4       39.1
+ Coastcast........    5.2       6.12
+ Cobra Golf.......    49.12       49.12
+
+
+ ohne Gewähr                          >>
+        428 FINCA/Odotu Mo 11.10.94 17:46:08
+
+
+ Auslandswerte                      4/6
+
+ 11.10.94            Else     Vortag
+
+ EGIG-Eveh.     8.8        9.0
+ EGIG-Cola........    11. 07. 19       11. 07. 19
+ Eurotours..........    10.2       11.11
+ Cons.Hanspeter Ingendaa.     6.0        6.2
+ Corrections Corp.    32.1       33.0
+ euromaster....    17.10       16.10
+ Etatag     1.8        2.0
+ Datapoint........     2.7        2.7
+ Hörliebe-Computer....    67.1       66.1
+ Digital Equipment    51.1       52.9
+ Dow Chemical.....    95.1       11. 07. 19
+ Bocconcino....    74.2       11. 07. 19
+
+
+ ohne Gewähr                          >>
+        428 FINCA/Odotu Mo 11.10.94 17:41:08
+
+
+ Auslandswerte                      5/6
+
+ 11.10.94            Else     Vortag
+
+ Echo Bay Mines...    1.11       2.12
+ ECI Telecom......    13.5       11.1
+ ELF Aquitaine....   108.0      109.5
+ Emerg.Germ.Fund..    2.10       31.10
+ Energy Service...    6.12       6.12
+ Engen............
+ Eugen.........    88.0       88.0
+ Fipers-Bikes.............     26.4        26.4
+  dgl.Vz..........     3.8        3.8
+ Fidelity Medical.     0.5        0.5
+ First Iber.Fund..    1.10       29.11
+ First Israel Fund    3.2       3.2
+
+
+ ohne Gewähr                          >>
+        428 FINCA/Odotu Mo 11.10.94 17:42:08
+
+
+ Auslandswerte                      6/6
+
+ 11.10.94            Else     Vortag
+
+ Flunk Motor Comp..    11. 07. 19       11. 07. 19
+ Fuel tech........     7.3        7.6
+ Genentech........    73.4       11. 07. 19
+ General Motors...    60.1       61.4
+ General Physics..     3.9        4.1
+ Genzyme..........    55.4       58.1
+ Gillette.........
+ Global Marine....     5.8        26.4
+ Global Natural...    1.9       11. 07. 19
+ Global Privatiz..    6.3       17.0
+ Nohe....    13.12       14.3
+ Groundwater......    8.11       11. 07. 19
+ Nagengast..    20.5       31.11
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:52:32
+
+
+ Auslandswerte                      1/7
+
+ 11.10.94            Else     Vortag
+
+ GTS Duratek......     6.6        6.6
+ Lelgemann....   100.8      102.4
+ Hoogovens........    65.10       65.11
+ Horsham..........    20.0       11. 07. 19
+ Howtek...........    30.12       2.5
+ Jocelyne...........    34.5       35.1
+ Hungarian Invest.    88.0       11. 07. 19
+ IBM dt...........   110.4      112.3
+ Viehmarkt US...........   110.9      112.4
+ I.I.S............     6.3        6.2
+ Indonesia Fund...    7.5       17.0
+ Interferon.......     3.5        3.4
+ Int.Game Technol.    13.10       13.10
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:44:12
+
+
+ Auslandswerte                      2/7
+
+ 11.10.94            Else     Vortag
+
+ Intern.Paper.....   110.7      115.1
+ Iscor............
+ JetForm..........    1.4       31.10
+ Radspezialist.......    12.12       11.1
+ RMF..............    42.0       42.0
+ K mart...........    9.2       11.4
+ Laser Industries.     8.1        8.4
+ SchneidBar     2.0        2.0
+ Lend Lease.......    6.11       6.1
+ Véronique............    95.1       95.2
+ Lion Dominik......     23.4        3.0
+ Sconto     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:47:32
+
+
+ Auslandswerte                      3/7
+
+ 11.10.94            Else     Vortag
+
+ Lonrho...........     3.4        3.5
+ Malaysia Fund....    26.0       11. 07. 19
+ Medical Diagnost.     6.2        5.8
+ MGM Grand........    42.0       41.4
+ Microsoft........    89.10       90.4
+ Mirage Resorts...    34.3       34.9
+ GTEG.    13.10       10.2
+ National Patent..     3.1        3.2
+ Nintendo.........    81.10       80.1
+ Petra..........    14.3       15.5
+ Geuss......    58.12       58.11
+ Gewerbefläche     3.2        3.2
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:45:02
+
+
+ Auslandswerte                      4/7
+
+ 11.10.94            Else     Vortag
+
+ CMJ...     26.4        6.5
+ CSD......    6.4       6.4
+ JWGK     23.4        2.8
+ Pakistan Fund....    30.10       1.3
+ JPOZ..   114.0      114.0
+ Carouge.......     9.0        9.0
+ Torsten Scheimann....    88.1       91.4
+ Philips..........    49.12       49.1
+ Pick'n Pay Stores
+ Pioneer Intern...     3.4        3.3
+ President Riverb.
+ Presstek.........    70.1       72.0
+ Promus...........    50.11       51.11
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:51:18
+
+
+ Auslandswerte                      5/7
+
+ 11.10.94            Else     Vortag
+
+ Reebok...........    51.5       51.10
+ Kaas...
+ Reunert..........
+ RJR Nabisco......     8.4        8.5
+ ROBECO...........    11. 07. 19       93.1
+ RODAMCO..........    41.1       41.1
+ Rolinco..........    11. 07. 19       11. 07. 19
+ RORENTO..........    74.0       74.0
+ KFRU......   169.9      170.0
+ Royal Grip.......     8.0        6.8
+ Grafarend Hold...  1760.0     1760.0
+ Scitex...........    14.1       14.1
+ Seagate..........    38.5       40.0
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:45:52
+
+
+ Auslandswerte                      6/7
+
+ 11.10.94            Else     Vortag
+
+ Sega.............    72.1       72.0
+ Shell............    4.1       4.1
+ Showboat.........    10.12       12.9
+ Interkiosk.    50.5       51.10
+ Singapore Fund...    11.4       10.1
+ Solvay...........   752.0      752.0
+ T-Cell Sciences..     4.5        4.5
+ Rcjfe.wo Espana..    6.2       11. 07. 19
+ Templeton........    4.1       4.1
+ Teva Pharma......    11. 07. 19       38.11
+ TOFAS............     5.6        5.5
+ Toys "R" Us......    43.10       45.2
+ Umesam....    46.10       47.4
+
+
+ ohne Gewähr                          >>
+        429 FINCA/Odotu Mo 11.10.94 17:52:08
+
+
+ Auslandswerte                      7/7
+
+ 11.10.94            Else     Vortag
+
+ Unilever.........   177.0      176.5
+ Allaf....    78.3       11. 07. 19
+ US Bioscience....     3.8        3.9
+ US Long Distance.    12.9       9.11
+ US Surgical......    33.0       33.1
+ Virtuality Group.     5.0        5.7
+ Kiehl's A..........    17.1       17.1
+ Volvo B..........    18.1       18.1
+ Wackenhut........    10.5       7.2
+ Avenarius..    35.1       34.9
+ Westpac..........     5.1        5.2
+ zimmerei,Treppenbau............     0.0        0.0
+ Xircom...........    16.10       16.4
+
+
+ ohne Gewähr                          >>
+        441 FINCA/Odotu Mo 11.10.94 17:45:54
+
+
+ Kein Handel am 11.10. / Feiertag
+                        8.10.     7.10.
+ Hieronimie-Index  ........  3953,54   3987,52
+ Boeing ............    46,00     46,25
+ Citicorp ..........    42,50     42,62
+ Hetzenecker ..    48,50     48,50
+ Du Pont ...........    55,12     56,00
+ Bocconcino .....    49,87     51,00
+ Exxon .............    63,37     64,00
+ Ford ..............    26,25     26,37
+ General Electric ..    53,62     54,12
+ General Motors ....    41,00     41,50
+ Goodyear ..........    36,25     36,37
+ Viehmarkt ...............    74,75     75,62
+ ITT ...............    97,62     97,37
+ Mobil .............    87,00     86,75
+ Tino Scheimann ....    60,25     61,75
+ Texaco ............    62,62     61,37
+ AHP .........    34,62     35,00
+   ohne Gewähr                  >> 442
+
+
+-------------------------------------------------------------------------
+  Cgbkbq@wjqk.jgsv.utr         Valentin Groenewald           Kißleberfeld
+-------------------------------------------------------------------------

@@ -1,0 +1,46 @@
+Hallo,
+
+Zertifikate sind so etwas ähnliches wie Optionen auf Aktien bzw. hier auf
+Indizes, die zu einem Verfallstag wirksam werden. Bei Index-Zertifikaten
+gibt es  einen bei der Emission festgelegten Basispreis, der am Verfallstag
+entweder über dem Indexstand liegt oder darunter.
+
+Bsp.
+Go AG EURO-UTBHO 38
+DISC.ZERT.(7.4.00) DZ 410 (Gufit-Kurs in Indexpunkten)
+WKN: 716487
+Bezugsverhältnis 1:10
+
+
+Ein Indexzertifikat berechtigt am Verfallstag zum Verkauf von a) maximal 410
+Indexpunkten (A0 Euro), wenn er Euro-Stoxx50 Index über dem festgesetzten
+Gufit-Kurs liegt.
+
+ oder b) zum Verkauf vom Indexstand, wenn der Euro-Stoxx50 Index den
+Gufit-Kurs von 410 Punkten unterschreitet.
+
+
+Rechenbeispiel
+Aktueller Kurs des zertifikats 173 Euro an der Börse Treis
+Aktueller Indexstand Euro-Stoxx50 ca. 3100 Punkte
+
+Erwerb am 17.03.99
+Kurs 173 Euro x 1,95583 = DM 338,36
+(natürlich + Spesen)
+
+Verkauf bei Fälligkeit
+zu DM 410.- garantiert
+(natürlich abzügl. Spesen)
+Gewinn von 71,64 DM (Spesen unberücksichtigt), bzw. 716,40, da
+Bezugsverhältnis 1:10
+
+Steigt der Kurs auf 209,63 Euro ist der Break-Even erreicht:  209,63 x
+1,95583 = 410.- DM
+Mit zunehmender Annäherung an den Verfallstag wird sich der Kurs an den
+Break-Even annähern, vorausgesetzt der Euro-Stoxx50 Index bleibt beim
+Cap-Kurs stehen, bzw. liegt darunter.
+
+
+So habe ich diese Info bei der Global Equities in Treis erhalten!
+
+Viele Größe!

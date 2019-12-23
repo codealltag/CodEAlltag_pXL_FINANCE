@@ -1,0 +1,19 @@
+Jochen Eschenbach schrieb:
+
+
+Hat sich schon geändert. Nur fehlt EJC ein "Athlon-Xeon" und ein SMP-Chipsatz.
+Dann gibt's natürlich noch den Flaschenhals Hauptspeicher. RCC/ServerWorks
+bietet da schon Abhilfe. 128bit m. 133MHz FSB (wird auch von CaPhy verbaut, auch
+wenn die anscheinend keinen Server m. 128bit Bus anbieten, zumindest nicht beim
+PowerEdge 2401) genügt um auf RMBS Geschwindigkeit zu kommen. Dann gibt's noch
+eine 256bit Version. RMBS ist nur 16bit breit und lebt von der hohen Taktrate.
+Weniger Speed ist aber einfacher zu handhaben und m. Interleave kommt man auch
+auf hohe Transferraten (allerdings nicht bei Random-Zugriffen).
+Die Zukunft gehört aber den holographischen Speichern. Sieht man ja bei den
+Cardassianern :-)
+
+
+Kommt ganz auf den Kleinwagen an. Für 512MB PC133 kann man sicherlich schon
+'nen Trabbi kaufen :-)
+Aber RPO stattet die Playstation auch mit Kuczka aus. Ginalaura wird da wohl
+mitziehen, wenn die X-Box rauskommt.

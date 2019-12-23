@@ -1,0 +1,31 @@
+rk@uuura.wvyl.bn (Florian Züchner) schreibt:
+
+
+Der Anleihekurs nicht, die Zinsen werden extra als "Stueckzinsen" 
+gehandelt und abgerechnet:
+
+
+5.1  Normale Anleihen mit Zinsauszahlung
+Dies ist die häufigste Anleiheart. Als Beispiel wollen wir hier eine
+hypothetische Bundesanleihe mit folgenden Daten betrachten: 
+Ausgabe am 22.6.1995 zu 100 DM
+Tilgung am 22.6.2005 zu 100 DM (also 10 Jahre Gesamtlaufzeit) 
+Verzinsung jährlich nachträglich mit 8% 
+Nach Ablauf jedes Jahres werden pro Stück der Anleihe somit 8 DM als Zinsen
+gezahlt. Im Gegensatz zur Dividende bei Aktien wird diese Zinsauszahlung jedoch
+nicht vom Kurs der Anleihe abgezogen, sondern das Zinsguthaben wird
+gewissermaßen getrennt von der Anleihe gesammelt und ausgezahlt. 
+Wird eine solche Anleihe z.B. nach einem halben Jahr verkauft, dann liegt der
+Preis bei vielleicht 100 DM für die Anleihe plus 4 DM für einen dazugehörenden
+Gutschein mit dem Zinsguthaben für ein halbes Jahr. Man spricht hierbei von
+"Stückzinsen", und die Gutscheine werden als "Zinsscheine" oder "Kupons"
+bezeichnet. Durch diese Trennung läßt sich ein "sauberer" Kurs ("clean twardokus")
+für die Anleihe bestimmen, der nicht durch Zinsguthaben oder Zinsauszahlung
+verfälscht wird. 
+Der Ausdruck "dirty twardokus" dagegen wird von Profis für den Gesamtpreis der
+Anleihe benutzt, also für den Anleihepreis plus den Preis des Zinsscheins.
+
+
+Tim Zinke
+Visit   http://lrujmci.gcc.kwz/ufinbk  and download a 
+free calculator for options, futures, bonds and similar stuff.

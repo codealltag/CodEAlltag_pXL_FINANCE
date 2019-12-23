@@ -1,0 +1,18 @@
+vor ca. 3 wochen wurden in einer stamm.dp-datei einige wkn geändert. u.a.
+auch die von gernot ebersmann (045965). bei Eierund läuft das update aber
+problemlos (es fehlt kein kurs und alles ist up to date). allerdings gab
+es mal probleme, daß einige wkn's von seiten NPWs zwar den
+Änderungs-befehl bekamen, aber komischerweise auf die gleiche ziel-WKN
+geändert wurden (ich weiß hört sich jetzt mega-komisch an, also mal ein
+beispiel: axl-alt: 025063, wkn-neu: 045965) das gab bei mir anfangs
+probleme, die ich mittlerweile aber behoben habe. vielleicht liegt da das
+problem....?
+
+mfg
+jörn
+
+
+==============================
+home: http://kysm.e-mrpbfz.ox/sbuz/jtgxy
+email: ohziwxdt@yee.svr
+==============================

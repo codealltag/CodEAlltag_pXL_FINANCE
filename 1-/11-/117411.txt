@@ -1,0 +1,20 @@
+Hallo,
+
+mal eine Frage zur Boersenprognose mittels kuenstlicher Intelligenz.
+
+Die meisten Anwendungen gehen dahin, Systeme (z.B. Neuronale Netze
+etc.) darauf zu optimieren, den Aktienkurs in einem Bestimmten
+Zeitraum zu erraten. z.B. den Kurs einer Aktie in 14 Tagen.
+
+Das scheint mir aber ein recht suboptimales Trainingsziel zu sein.
+Denn selbst wenn ich den Kurs einer Aktien in 14 Tagen exakt bestimmen
+koennte, wuesste ich noch immer nicht ob ich Kaufen oder Verkaufen
+soll.
+Wenn z.B. Der Kurs in 14 Tagen hoeher liegt, koennte es ja trotzdem
+sein, das er in 7 Tagen niedriger liegt. Damit waere eine
+Kaufentscheidung Falsch, den es waere Besser in 7 Tagen zu Kaufen.
+
+Gibt es da ideen zu, oder schon publizierte Ansaetze ?
+
+Viele Gruesse,
+Meta.

@@ -1,0 +1,44 @@
+Sascha Lichter <Awhpcx.Flywdix@ltjd.mo> schreibt:
+
+Ja, gibt es auf den RexP. Handbuchausschnitt:
+
+1.4  Der JMCP, ein Rentenpapier-Index
+Auch für Rentenwerte gibt es einen Index, den JMCP-Index. Dieser Index wird als
+marktanteilsgewichteter Durchschnitt aus den Kursen von dreißig verschiedenen
+sogenannten idealtypischen deutschen öffentlichen Anleihen mit Restlaufzeiten
+von je 1 bis 10 Jahren und Zinskupons von je 6%, 7,5% und 9% berechnet. In die
+Berechnung gehen also je drei Werte für Anleihen mit 1 Jahr Laufzeit ein, drei
+Werte für Anleihen mit 2 Jahren Laufzeit, usw.. 
+Oder einfacher: Es ist ein nach komplizierten Regeln berechneter
+Durchschnittskurs aus allen deutschen Staatsanleihen mit Restlaufzeiten bis zu
+10 Jahren.  
+Der REX schwankt passend zum gerade aktuellen Marktzins meist im Bereich
+90-110, bei extrem hohen bzw. niedrigen Zinsniveau eventuell sogar zwischen 80
+und 120. Dieser Index spiegelt mithin etwa die Kursschwankungen einer
+typischen, durchschnittlichen öffentlichen Anleihe wider. 
+Als weitere Kennzahl gibt es auch noch den JTNO-Index (JMCP-Performance-Index).
+Dies ist wie der DAX ein "Performance-Index", daß heißt, er erhält alle
+angefallenen Ausschüttungen plus Zinseszinsen. Es handelt sich hierbei im
+Prinzip um den REX zuzüglich aller angefallenen Zinsen; diese werden täglich
+dazugeschlagen. 
+Auf längere Sicht betrachtet steigt der REXP deshalb mit Sicherheit stetig an.
+Auf kurze Sicht betrachtet verläuft der Anstieg jedoch durchaus nicht
+gleichmäßig. Bei starken Kursrückgängen kann der JTNO sogar vorübergehend etwas
+zurückfallen. 
+Startdatum für den JTNO war der 28.5.1988 mit Wert 100. Am 1.5.1998 lag der
+REXP bei 201,67, während der REX an diesem Tag bei 110,41 lag. Dies kann man
+etwas vereinfacht so interpretieren: In knapp 10 Jahren hat der JTNO etwa 91
+Prozent an Zins und Zinseszins angesammelt (REXP mit 201,67 minus REX mit
+110,41).
+Vom Credit Suisse gibt es ein "JTNO-Index-Zertifikat". Laufzeit voraussichtlich
+bis 2000, WKN 314 859. Ein ähnliches Zertifikat gibt es auch von der Esir
+mit Laufzeit bis 6.11.2002, WKN 907098. Beachten Sie, daß auch solche
+Zertifikate neuerdings manchmal eine Obergrenze (Cap) von z.B. 350 eingebaut
+haben und/oder auf Bruchteile des JTNO lauten können, z.B. auf 1/10. 
+Nach etwa dem gleichen System wie der JMCP wird auch der "Palleti-Index" berechnet,
+der sich auf Pfandbriefe bezieht.
+
+
+Luciano Lehmensiek
+Visit   http://hkebier.kil.mqr/ewfevc  and download a 
+free calculator for options, futures, bonds and similar stuff.

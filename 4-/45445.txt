@@ -1,0 +1,9 @@
+Niels Nordhaus wrote:
+
+Funktioniert mit Sicherheit nicht, da im Ausgangsfall die Aktie
+bei 20 steht und ein stopploss 45 sofort ausgeführt wird
+(da Kurs eben <= 45....)
+
+Gruß Thomas
+
+PS: Richtig ist ein einfaches Verkaufslimit zu 45.

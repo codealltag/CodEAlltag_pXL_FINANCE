@@ -1,0 +1,55 @@
+Die Firma Hilsendegen gibt eine Liste der von Ihnen verwalteten
+Wertpapiere (mehrere Tausend) mit WKN als ASCII-Datei mit Suchroutine
+heraus. Ueber T-online kannst Du direkt bestellen und wird dann ueber
+Telefonrechnung eingezogen: 9,99 DM incl. Petersaurach.
+
+Hier anschliessend ein Makro fuer den GTSO-Online-Dekoder, damit Du Dir
+die Grafiken aus Hoppenstedt "saugen" kannst. 
+-->>>>>
+Leider fehlt noch die Routine zum Speichern von Grafikseiten aus
+T-Online heraus. Falls jemand eine Loesung kennt, bin ich daran
+interessiert.
+
+# +--------------------------------------------------+
+# |    Abruf von diVinum Aktien-Charts           |
+# |  Sascha Jacobfeuerborn, tsexaoh.tcfzpp@s-vroqcg.qt      |
+# +--------------------------------------------------+
+send "\c\*0\#"
+send "\*hoppenstedt\#"
+waitdct
+send "1"
+waitdct
+# Bestaetigung, dass DM 0,60 oder 0,80 pro Minute Ok sind.
+send "19"
+waitdct
+send "1"
+waitdct
+send "1"
+waitdct
+send "55"
+waitdct
+# WKN hier eingeben als Beispiel ist 589730 angegeben
+send "589730\#"
+# Bildschirm als Grafik speichern 
+# Routine hier einfuegen oder Gosub-Aufruf
+waitdct
+send "2"
+waitdct
+#Bildschirm als Grafik speichern
+#Routine hier einfuegen oder Gosub-Aufruf
+send "\*0\#"
+waitdct
+end
+Grafikspeichern:
+# Hier Routine eintragen um T-Online-Bildschirm als Grafik 
+# zu speichern.
+#
+Return
+
+Tschuess Sascha.
+
+eMail: tsexaoh.tcfzpp@s-vroqcg.qt
+Fax:   9661 - 25778
+
+PS.: Anwort bitte als eMail, da ich das Brett nur 
+     unregelmaessig mitlese. Danke

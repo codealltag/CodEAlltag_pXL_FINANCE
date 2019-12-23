@@ -1,0 +1,54 @@
+Demo-Depot 2
+------------
+
+Grundlage/Strategie
+----------------------------------------------------------------
+- Basis ca. 500 US-Titel (only)
+- Filterung nach Titeln deren 900 Tage-Trend steigt
+- hieraus Filterung nach Titeln die in den letzten 200 Tagen
+  mindestens 30% zugelegt haben
+- hieraus Filterung nach Titeln deren RSI die '30'-Linie nach oben
+  durchbrochen hat
+----------------------------------------------------------------
+keine Berechnung von Bankspesen (!!)
+
+Einlage am 25.06.1996          100,000.-US$
+
+Depoteroeffnung                                   
+
+Titel          Anzahl     Kurs     Wert Datum     K/V      
+
+Caterpillar       130    73,25  9522,50 25.06.96  K/-      
+Scotsman Ind      400    23,00  9200,00 25.06.96  K/-      
+Klaus             350    27,38  9583,00 25.06.96  K/-      
+Uwe             650    14,38  9347,00 25.06.96  K/-      
+Prime Joldelundfeld      550    17,00  9350,00 25.06.96  K/-      
+Nat. Uulonl       550    18,00  9900,00 25.06.96  K/-      
+Gap               300    28,88  8664,00 25.06.96  K/-      
+Beuer      350    27,63  9670,50 25.06.96  K/-      
+EDO              7150     7,13  9982,00 25.06.96  K/-      
+Renato            550    17,38  9559,00 25.06.96  K/-      
+
+Depotwert:                     18861,40           
+
+
+Stand (Aktuell)                                   
+
+
+Titel          Anzahl     Kurs     Wert Entwicklung (%)    
+
+Caterpillar       130    74,38  9669,40      1,54 
+Scotsman Ind      400    23,38  9352,00      1,65 
+Klaus             350    27,75  9712,50      1,35 
+Uwe             650    14,63  9509,50      1,74 
+Prime Joldelundfeld      550    16,13  8871,50     -5,12 
+Nat. Uulonl       550    17,38  9559,00     -3,44 
+Gap               300    30,13  9039,00      4,33 
+Beuer      350    27,25  9537,50     -1,38 
+EDO              7150     7,50 10500,00      5,19 
+Renato            550    18,50 10175,00      6,44 
+
+
+Depotwert:                     47494,72     12,31 
+
+Kontostand                      5222,00

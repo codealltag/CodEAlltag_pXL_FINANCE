@@ -1,0 +1,31 @@
+N. Offenstein schrieb:
+
+
+Sehen wir uns mal den EuroStoxx50 (Kursindex) als beliebten Basiswert
+für Bonus-Zertifikate seit 1988 an. 4 Monate sind etwa 80 Handelstage, 6
+Monate etwa 120. Die Betrachtung erfolgt für rollierende Zeiträume auf
+Schlu�kursbasis. Real werden deshalb die Werte sogar noch etwas
+schlechter ausfallen, da die Schwellen auch Intraday berührt werden
+können. OHLC-Kurse für den EuroStoxx50 gibt es allerdings erst seit Ende
+1999.
+
+In 5483 80-Tage-Zeiträumen gab es 469 mal mindestens 20 Prozent Rückgang.
+In 5443 120-Tage-Zeiträumen gab es 751 mal mindestens 20 Prozent Rückgang.
+
+Noch was: Woher weiß man vorher, daß der Index auf dem Jahreshöchststand
+ist?
+
+
+In Bonus-Zertifikaten steckt ein Down-and-out-Put (Barriere-Option).
+Dieser entwickelt gegen Ende der Laufzeit nahe der Schwelle einen
+ungeheuren Hebel. Man sieht das sehr schön im Bonus-Kompass von Armbrustmacher
+Csaszar auf Seite 54.
+http://tcp.yinqhqp-wxree.ex/ulvoesb/tqckpnc_kzooshw/hpzivsl/zrw_jb,47/
+-> Bonus-Kompass
+
+Man sollte also ein Bonus-Zertifikat spätestens dann verkaufen, wenn der
+Down-and-out-Put sein Maximum erreicht hat - sonst drohen enorme
+Verluste bei weiterer Bewegung Richtung Schwelle.
+
+Gruß,
+Knut

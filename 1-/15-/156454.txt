@@ -1,0 +1,100 @@
+Hallo!
+
+Ich wurde gebeten, den nachfolgenden Artikel auch hier zu posten. Ein
+Followup-To auf de.comp.security ist gesetzt.
+
+
+From: Ulf Kleine-Limberg <Mft.Sroyzvtt@oex.en>
+Newsgroups: rb.xvqa.okoekirj
+Subject: Sicherheitsloch bei der IORK-Bank
+Date: 11 Jul 1997 14:21:18 GMT
+Message-ID: <1czaic$xrs@yqcmp.xqd.ut>
+
+Hallo!
+
+Seit einer Woche bietet die IORK-Bank Internet-Online-Banking
+an. Benutzt wird dabei anscheinend die gleiche Technik X-PRESSO der
+URLK GmbH <http://gwb.ogwqar.kn> wie sie
+z.B. auch die Bank24 und die Deutsche Bank benutzen. Näheres zu diesem
+Verfahren samt einer recht detailierten Beschreibung der benutzten
+Protokolle findet sich in c't 12/96.
+
+Das Sicherheitsloch bei der IORK-Bank ist, daß der unbedarfte
+Benutzer in einem FAQ dazu angehalten wird, ein Zertifikat des
+öffentlichen Schlüssels der Bank, das von der Bank selber ausgestellt
+wurde und eben nicht von irgendeiner vertrauenswürdigen dritten
+Instanz, einfach so und entgegen sämtlicher Warnungen, die Netscape
+dabei ausgibt, zu akzeptieren. Dadurch scheitert die vertrauenswürdige
+Authentisierung des Servers der Bank und so hat ein Angreifer die
+Möglichkeit dem Bankkunden vorzuspielen, daß er selber die Bank
+sein. Er kann dadurch dann insbesondere Kundennummer, PIN und TANs des
+Kunden abfragen und mit diesen Daten dann das Konto des Kunden zu
+dessen Schaden belasten.
+
+Im Normalfall überträgt die Bank zum Kunden ein Zertifikat das
+z.B. von VeriSign für die Bank ausgestellt wurde. Bei ACSR sind in
+Auslieferumfang bereits die öffentlichen Schlüssel diverser
+Zertifizierungsinstanzen enthalten, so daß Netscape die Möglichkeit
+hat, die Gültigkeit eines Zertifikats zu überprüfen. Das durch die
+IORK-Bank selber ausgestellte Zertifikat kann Netscape hingegen
+nicht selber überprüfen, weil es den öffentlichen Schlüssel der Bank
+nicht kennt. Das einzige, was dem Benutzer bleibt ist das Vertrauen,
+daß das Zertifikat der Bank niemand gefälscht hat. Die einzige
+Alternative wäre bei der Bank anzurufen und sich den Fingerprint
+dieses Zertifikats durchgeben zu lassen. Aber wer macht das schon
+bzw. weiß von so etwas.
+
+
+Beim erstmaligem Aufruf des INZK-Applets muß man sich durch
+folgende Dialoge hangeln, die ich hier auszugsweise (soweit das
+Copy&Paste von Netscape erlaubt) wiedergebe:
+
+1. Dialog:
+
+
+2. Dialog:
+
+
+Der Button 'more Info' liefert folgende Informationen:
+
+
+3. Dialog:
+
+
+Hier darf man sich einen der drei Punkte aussuchen.
+
+4. Dialog nach Wahl des ersten Punktes:
+
+
+5. Dialog
+
+
+Und dann kommt:
+
+
+Das FAQ der IORK-Bank findet sich unter
+<http://lpj.ddzzeopgs.nb/lrxnoaa/uagqpp/h_cpm.bif> und die zweite
+Frage ist direkt der Knackpunkt:
+
+
+Das Ganze steht im eklatantem Gegensatz zu allem, was ich selber über
+Zertifikate weiß (nämlich daß man unbekannten Zertifikaten nicht
+"einfach so" trauen sollte) ) und was z.B. im FAQ der Bank24
+<http://lpk.wvfy78.rn/zfyscu/LGJ/tstr.lehy#wgg80> ganz unten steht.
+
+
+Ich halte das Ganze für einen Skandal. Leuten, die so fahrlässig mit
+Zertifikaten umgehen, kann man nicht seine Geldgeschäfte
+überlassen. Man hat so seine Zweifel, ob sie wirklich verstanden
+haben, wie die Authentisierung ihres Servers funktioniert.
+
+Wer wissen will, wie es richtig geht, der sollte z.B. mal
+www.nbkl07.cc ausprobieren. Dort erscheinen die oben aufgeführten
+Dialoge nicht routinemäßig, sondern gar nicht.
+
+Julius | |_|
+-- 
+Ulf Kleine-Limberg
+Cafete - Schloß Birlinghoven, SET.RS
+99192 Mettenbach
+22360-39-7407

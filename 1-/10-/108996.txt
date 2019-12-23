@@ -1,0 +1,19 @@
+verstehe ich es korrekt, dass du deine drei indikatoren einfach so
+kalibrierst, so dass sie verlaesslich "steigt" bzw "faellt"
+signalisieren?
+
+dann ist mir die verbindung zu den o.g. transaktionen unklar bzw ein
+weiteres optimierungsproblem. stellt sich die frage: machst du reines
+rein/raus-trading oder verbilligst du bzw sicherst teilgewinne in
+deiner simulation? variiert deine investitionsquote?
+
+
+aehm, seit wann benutzt du dein system bzw ueber welchem zeitraum
+wurde es kalibriert? curve-fitting und over learning sind dir als
+probleme durchaus bekannt, oder?
+
+
+eigentlich wuerde ich gerne ueber die findung von strategien, ihre
+kalibrierung und optimierung  etc. diskutieren. - wir basteln hier
+on-idle an einer art handelssystem-testplattform mit zum teil
+reichlich abgefahrenen moeglichkeiten. -

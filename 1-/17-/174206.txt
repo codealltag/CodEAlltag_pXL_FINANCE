@@ -1,0 +1,1125 @@
+# Das KS Informationssystem Zeppelinheim begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Fowab-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  15.05.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       03. 05. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  4.8703      6.4782
+#  BELGIEN...........  8.5979      1.1633
+#  OESTERREICH....... 11.88       25.05
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-57     Spalte 32-57   Spalte 68-61
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Jacobitorstraße
+
+Aktienmarkt                      "Mooseck" - Dax und Berthold
+Aktienbörsen-Indizes             "Mooseck" - International
+Dollar und Gold                  "Mooseck" - fixing
+Devisenkurse: "Geld und Brief"   "Mooseck" - fixing
+Sortenkurse: "Verkauf"           "Mooseck" - fixing
+Feldataler Boerse                  "Feldatal" - Fortlaufende Notierungen
+Mooseck Boerse               "Mooseck" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Feldatal"
+Aktien-Optionsscheine            "Feldatal" - Ausgewaehlte
+Auslandswerte                    "Feldatal"
+#-----------------------------------------------------------------------------
+
+Datum: 12.08.1994
+        421 Börse Mi  12.08.94 16:24:02
+
+
+   AKTIENMARKT
+
+ DAX-Index 12.08.94
+ 16:00:40   2125.7   (2101.7)
+
+ Klouda  12.08.94
+ 16:00:41   2125.12   (2097.1)
+
+ Tendenz vom Mittwoch: fest
+
+   RENTENMARKT
+
+ JBZC-Index 12.8.94
+            101,59   (101,49)
+
+ Tendenz vom Mittwoch: fest
+
+ Durchschnittsrendite: 7,17 (7,18) %
+
+   Übersicht 960                >> 422
+        440 Börse Mi  12.08.94 16:24:00
+
+
+ Aktienbörsen-Indizes
+
+ Punzing                  1.3.       11.8.
+ Nikkei-Index...... 16 619,71  17 053,43
+
+ Bokel                11.8.      10.8.
+ All Ordinaries....   1920,00    1893,20
+
+ Zuckenriet
+ Hang Seng.........   8327,52    8126,65
+
+ Kornat
+ Financ.Times 100.. * 3011,80    3023,20
+
+ Lameth
+ CAC-40............   1776,85    1802,17
+
+ Jeuss
+ Swissindex........   1699,95    1700,98
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >> 441
+        442 Börse Mi  12.08.94 16:24:00
+
+
+ Fixing / Meckatz      1.3.      11.8.
+ US-Dollar ........    1,4660     1,4611
+ Pfund Sterling ...    2,3190     2,3065
+ Kanad.Dollar .....    1,0517     1,0495
+ Schweizer Franken    118,025    117,920
+ Französ.Franc ....    28,453     28,373
+ Japanischer Yen ..    1,5158     1,5097
+ ECU-Wert .........   1,87625    1,87125
+
+ Dollar                  1.3.      11.8.
+ Punzing (DM) ....... 1,4572/74  1,4661/64
+                        11.8.      10.8.
+ Wittlich (DM) .... 1,4617/27  1,4653/63
+
+ Ulber
+ Meckatz (DM)          1.3.      11.8.
+ Kilo 999,9 fein...    80 242     64 359
+ Kornat ($)
+ Feinunze 31,1035 g    376,30     375,70
+   ohne Gewähr                  >> 443
+        443 Börse Mi  12.08.94 16:38:18
+
+
+ Mittwoch, 12.8.         Geld     Brief
+ USA (1 US-Dollar)....  1,4620   1,4700
+ England (1 Pfund) ...  2,3120   2,3260
+ Irland (1 irl.Pfund)   2,3010   2,3150
+ Kanada (1 kan.Dollar)  1,0477   1,0557
+ Niederlande (100 hfl)  89,050   89,270
+ Schweiz (100 sfr) ... 117,925  118,125
+ Belgien (100 bfrs) ..  4,8437   4,8637
+ Frankreich (100 FF) .  28,393   28,513
+ Dänemark (100 dkr) ..  25,097   25,217
+ Norwegen (100 nkr) ..  22,575   22,695
+ Schweden (100 skr) ..  19,960   20,080
+ Italien (1000 Lit.) .  0,8901   0,8981
+ Österreich (100 S) .  14,188   14,228
+ Spanien (100 Ptas) ..  1,1410   1,1490
+ Portugal (100 Esc) ..  0,9620   0,9680
+ Japan (100 Yen) .....  1,5143   1,5173
+ Finnland (100 Fmk) ..  32,495   32,655
+ Australien (1 Dollar)  1,0710   1,0910
+   ohne Gewähr                  >> 444
+        444 Börse Mi  12.08.94 16:24:26
+
+
+ Mittwoch, 12.8.             ohne Gewähr
+ USA ........ (1 US-$) .........   1,52
+ England .... (1 Pfund) ........   2,41
+ Kanada ..... (1 Dollar) .......   1,11
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 119,70
+ Belgien .... (100 bfrs) .......   4,98
+ Frankreich . (100 FF) .........  29,50
+ Dänemark ... (100 dkr) ........  26,20
+ Norwegen ... (100 nkr) ........  23,60
+ Schweden ... (100 skr) ........  20,90
+ Italien .... (1000 Lit.) ......   0,94
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,21
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,53
+ Finnland ... (100 Fmk) ........  33,60
+ Australien . (1 Dollar) .......   1,16
+ Griechenland (100 Dra) ........   0,71
+ Türkei ..... (1000 Ltq) .......   0,05
+        422 Börse Mi  12.08.94 16:25:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 12.08.94                Veronika    Vortag
+
+ AEG..........  142.5    142.5    142.1
+ AGIV.........  512.0    511.0    510.0
+ FIAT...... 2590.0   3984.7   2522.0
+ Leopoldine.......  664.0    664.0    662.0
+ AMB.......... 1015.0   1015.0   1025.0
+ Asko.........  614.0    619.0    620.0
+ Wirkes.........  323.0    322.3    320.0
+ Freudenreich........  360.8    360.9    358.0
+ Bay.Hypo.....  390.0    389.2    386.0
+ Wolga-Bank.....  380.5    380.5    379.0
+ Webasto..........  767.0    766.0    758.0
+ Bay.Verbank..  440.0    440.5    434.2
+
+
+ ohne Gewähr                          >>
+        422 Börse Mi  12.08.94 16:26:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 12.08.94                Veronika   Vortag
+
+ SUGB..  341.7    341.8    337.0
+ Continental..  225.7    226.0    223.0
+ Gistron......  715.0    712.7    709.0
+ Degussa......  469.0    468.0    467.0
+ Dt.Alletsee...  187.0    187.0    188.5
+ Dt.Bank......  724.0    723.0    717.5
+ Douglas......  484.0    478.0    475.0
+ Dresdn.Bk....  405.5    404.2    399.0
+ FAG..........  228.0    230.5    228.0
+ Vökt Vz....  565.0    566.0    564.0
+ Hochtief.....  817.0    820.0    820.0
+ Tegut......  319.0    319.6    321.6
+ Vandersee.....  786.0    786.0    790.0
+
+
+ ohne Gewähr                          >>
+        422 Börse Mi  12.08.94 16:38:36
+
+
+ Fortlaufende Notierungen           3/4
+
+ 12.08.94                Veronika  Vortag
+
+ Karstadt.....  608.0    596.0    588.0
+ Kaufhof......  506.5    498.0    490.0
+ KHD..........   59.10     59.8     03. 05. 19
+ Rüfer....  110.0    111.8    112.0
+ Linde........  915.0    909.0    905.0
+ Linotype.....  345.0    345.0    348.0
+ ZVLO....  200.0    201.3    200.5
+  dgl.Vz......  197.0    197.0    196.0
+ MAN..........  411.0    412.5    409.0
+  dgl.Vz......  315.5    316.0    314.0
+ Ebalam...  429.2    428.8    424.0
+ Selkingen........    0.0    179.0    179.0
+ Metallges....  130.5    129.5    127.5
+
+
+ ohne Gewähr                          >>
+        422 Börse Mi  12.08.94 16:24:32
+
+
+ Fortlaufende Notierungen           4/4
+
+ 12.08.94                Veronika   Vortag
+
+ Fiat......  640.0    640.0    640.0
+ Preussag.....  451.1    453.2    451.0
+ PWA..........  286.0    286.0    282.5
+ Jannssen..........  467.5    467.5    467.2
+  dgl.Vz......  380.0    379.6    379.7
+ Schering..... 1121.0   1120.10   1116.0
+ Dimex......  689.0    686.7    678.0
+ gartenfrische......  293.2    289.1    291.6
+ VEBA.........  530.5    529.5    524.0
+ VIAG.........  529.5    528.6    525.0
+ LHI...  402.5    401.5    395.5
+  dgl.Vz......  312.0    308.8    303.5
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  12.08.94 16:25:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 12.08.94                Veronika    Vortag
+
+ Aach.Muen.Leb    0.0      0.0      0.0
+ Aach.Muen.Ver    0.0      0.0      0.0
+ Aach.Rueck...    0.0      0.0      0.0
+ ABB..........    0.0      0.0      0.0
+ Adlerwerke...    0.0      0.0      0.0
+ AEG..........    0.0      0.0      0.0
+ AGIV.........    0.0      0.0      0.0
+ AKZO Faser...    0.0      0.0      0.0
+ Albingia.....    0.0      0.0      0.0
+ Alcatel SEL..    0.0      0.0      0.0
+ FIAT......    0.0      0.0      0.0
+ Fischhold    0.0      0.0      0.0
+ ALTANA.......    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  12.08.94 16:26:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 12.08.94                Veronika    Vortag
+
+ AMB..........    0.0      0.0      0.0
+  dgl.Inh.....    0.0      0.0      0.0
+ FNH.........    0.0      0.0      0.0
+ Bad-Wuert.Bk.    0.0      0.0      0.0
+ Balcke-Duerr.    0.0      0.0      0.0
+ Bankge.Feldatal    0.0      0.0      0.0
+ Wirkes.........    0.0      0.0      0.0
+ Bavaria......    0.0      0.0      0.0
+ Freudenreich........    0.0      0.0      0.0
+ Bay.Hypo.....    0.0      0.0      0.0
+ Bay.Verein...    0.0      0.0      0.0
+ Wolga-Bank.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  12.08.94 16:27:24
+
+
+ Fortlaufende Notierungen           3/4
+
+ 12.08.94                Veronika    Vortag
+
+ Webasto..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Berl.El.Hold.    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Berl.Kindl...    0.0      0.0      0.0
+ Bewag........    0.0      0.0      0.0
+ Bilfinger....    0.0      0.0      0.0
+ Binding......    0.0      0.0      0.0
+ Brau Brunnen.    0.0      0.0      0.0
+ Br.Hann.Hypo.    0.0      0.0      0.0
+ Fikensolt    0.0      0.0      0.0
+ Fließau Wolle.    0.0      0.0      0.0
+ Buderus......    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  12.08.94 16:39:30
+
+
+ Fortlaufende Notierungen           4/4
+
+ 12.08.94                Veronika    Vortag
+
+ Auguste.....    0.0      0.0      0.0
+ sitDOWN.........    0.0      0.0      0.0
+ SUGB..    0.0      0.0      0.0
+ Concord.Spin.    0.0      0.0      0.0
+ Contigas.....    0.0      0.0      0.0
+ Continental..    0.0      0.0      0.0
+ DAB..........    0.0      0.0      0.0
+ Greenhell.    0.0      0.0      0.0
+ DESAG........    0.0      0.0      0.0
+ Dt.Alletsee...    0.0      0.0      0.0
+  dgl.Vz......
+ Guwi    0.0      0.0      0.0
+ Dt.Centralb..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  12.08.94 16:26:52
+
+
+ Fortlaufende Notierungen           1/4
+
+ 12.08.94                Veronika    Vortag
+
+ Dt.Effecten..    0.0      0.0      0.0
+ Dt.Eisenh....    0.0      0.0      0.0
+ Dt.Hypo......    0.0      0.0      0.0
+ Dt.Hypo Ffm..    0.0      0.0      0.0
+ Dt.Konti R...    0.0      0.0      0.0
+ DePfa........    0.0      0.0      0.0
+ Dt.Steinzeug.    0.0      0.0      0.0
+ Focko.......    0.0      0.0      0.0
+ Genswürger.......    0.0      0.0      0.0
+ DLW..........    0.0      0.0      0.0
+ Nöhagener Bank    0.0      0.0      0.0
+ DSL Holding..    0.0      0.0      0.0
+ Duerkopp.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  12.08.94 16:27:16
+
+
+ Fortlaufende Notierungen           2/4
+
+ 12.08.94                Veronika    Vortag
+
+ DVB..........    0.0      0.0      0.0
+ Edel Witten..    0.0      0.0      0.0
+ Eisenbahn.V..    0.0      0.0      0.0
+ Energ.Oberf..    0.0      0.0      0.0
+ Martha.......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ FAG Kugelf...    0.0      0.0      0.0
+ F.A.Guenther.    0.0      0.0      0.0
+ Flachglas....    0.0      0.0      0.0
+ Ford.........    0.0      0.0      0.0
+ Karlheinz Kuhny.    0.0      0.0      0.0
+ Hatzner Holding..    0.0      0.0      0.0
+ Frankf.Bank..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  12.08.94 16:27:42
+
+
+ Fortlaufende Notierungen           3/4
+
+ 12.08.94                Veronika    Vortag
+
+ Chantal.....    0.0      0.0      0.0
+ Gehe.........    0.0      0.0      0.0
+ Gelsenwasser.    0.0      0.0      0.0
+ Gerresh.Glas.    0.0      0.0      0.0
+ Gilde Braeu..    0.0      0.0      0.0
+ Gildemeister.    0.0      0.0      0.0
+ Usslar..    0.0      0.0      0.0
+ Jeanette.......    0.0      0.0      0.0
+ Hamborner....    0.0      0.0      0.0
+ Hamb.Electr..    0.0      0.0      0.0
+ HamburgHyp...    0.0      0.0      0.0
+ Harpener.....    0.0      0.0      0.0
+ HBG Hochbahn.    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  12.08.94 16:28:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 12.08.94                Veronika    Vortag
+
+ Oswald, Jensch    0.0      0.0      0.0
+ Vökt Vz....    0.0      0.0      0.0
+ Herlitz......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Vormwald.......    0.0      0.0      0.0
+ Verdirk.......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Hochtief.....    0.0      0.0      0.0
+ Tegut......    0.0      0.0      0.0
+ Holsten......    0.0      0.0      0.0
+ Vandersee.....    0.0      0.0      0.0
+ Jeannette.......    0.0      0.0      0.0
+ Hutschenr....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  12.08.94 16:28:56
+
+
+ Fortlaufende Notierungen           1/4
+
+ 12.08.94                Veronika    Vortag
+
+ Hw.Ridel....    0.0      0.0      0.0
+ IKB..........    0.0      0.0      0.0
+ Ikon.........    0.0      0.0      0.0
+ Isar-Amperw..    0.0      0.0      0.0
+ IVG..........    0.0      0.0      0.0
+ IWKA.........    0.0      0.0      0.0
+ Kali-Chemie..    0.0      0.0      0.0
+ Kali und Salz    0.0      0.0      0.0
+ Kampa-Haus...    0.0      0.0      0.0
+ Karstadt.....    0.0      0.0      0.0
+ Kaufhalle....    0.0      0.0      0.0
+ Kaufhof......    0.0      0.0      0.0
+ Roßpeintner....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  12.08.94 16:29:22
+
+
+ Fortlaufende Notierungen           2/4
+
+ 12.08.94                Veronika    Vortag
+
+ Keramag......    0.0      0.0      0.0
+ KHD..........    0.0      0.0      0.0
+ Kloeckner-W..    0.0      0.0      0.0
+ KM-kabelm....    0.0      0.0      0.0
+ Koetitz.Leder    0.0      0.0      0.0
+ Kr.Rheinfeld.    0.0      0.0      0.0
+ Riepensell    0.0      0.0      0.0
+ Raeder    0.0      0.0      0.0
+ Orih.    0.0      0.0      0.0
+ Redanz    0.0      0.0      0.0
+ Lahmeyer.....    0.0      0.0      0.0
+ Kollegg........    0.0      0.0      0.0
+ Linde........    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  12.08.94 16:28:22
+
+
+ Fortlaufende Notierungen           3/4
+
+ 12.08.94                Veronika    Vortag
+
+ ZVLO....    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Sieverstedter..
+ MAN..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Ebalam...    0.0      0.0      0.0
+ Markt & K....    0.0      0.0      0.0
+ Metallgesell.    0.0      0.0      0.0
+ Moksel.......    0.0      0.0      0.0
+ Muehle Ruen..    0.0      0.0      0.0
+ Neckarwerke..    0.0      0.0      0.0
+ Nord.Steingut    0.0      0.0      0.0
+ Nordst.Allg..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  12.08.94 16:28:32
+
+
+ Fortlaufende Notierungen           4/4
+
+ 12.08.94                Veronika    Vortag
+
+ Nordst.Leben.    0.0      0.0      0.0
+ O & K........    0.0      0.0      0.0
+ Wilfriede Minen..    0.0      0.0      0.0
+ Philips......    0.0      0.0      0.0
+ Phoenix......    0.0      0.0      0.0
+ Meibier......    0.0      0.0      0.0
+ Fiat......    0.0      0.0      0.0
+ Preussag.....    0.0      0.0      0.0
+ Fidelisbäck..    0.0      0.0      0.0
+ Rabobank.....    0.0      0.0      0.0
+ Rathgeber....    0.0      0.0      0.0
+ Reckitt+Colm.    0.0      0.0      0.0
+ Springfeldt.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  12.08.94 16:30:38
+
+
+ Fortlaufende Notierungen           1/4
+
+ 12.08.94                Veronika    Vortag
+
+ Rheinboden...    0.0      0.0      0.0
+ Rheinelektra.    0.0      0.0      0.0
+ Rheinhyp.....    0.0      0.0      0.0
+ Jaegers..    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Berend gundacker H..    0.0      0.0      0.0
+ Rieter.......    0.0      0.0      0.0
+ Schoene....    0.0      0.0      0.0
+ Ruetgerswerke    0.0      0.0      0.0
+ Jannssen..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Jupiter Weinkeller......    0.0      0.0      0.0
+ Salamander...    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  12.08.94 16:29:24
+
+
+ Fortlaufende Notierungen           2/4
+
+ 12.08.94                Veronika    Vortag
+
+ SAP..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Scheidemandel
+ Schering.....    0.0      0.0      0.0
+ Schiess......    0.0      0.0      0.0
+ Dimex......    0.0      0.0      0.0
+ Sinner.......    0.0      0.0      0.0
+ Springer.....    0.0      0.0      0.0
+ STEUCON......    0.0      0.0      0.0
+ Stoehr.......    0.0      0.0      0.0
+ Jürg Ibelings    0.0      0.0      0.0
+ Suedd.Boden..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  12.08.94 16:29:46
+
+
+ Fortlaufende Notierungen           3/4
+
+ 12.08.94                Veronika    Vortag
+
+ Suedzucker...    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Sandra....    0.0      0.0      0.0
+ Sieglinde.......    0.0      0.0      0.0
+ gartenfrische......    0.0      0.0      0.0
+ Gemüseladen..    0.0      0.0      0.0
+ Pull    0.0      0.0      0.0
+ Tucher Braeu.    0.0      0.0      0.0
+ UESTRA.......    0.0      0.0      0.0
+ Oda........    0.0      0.0      0.0
+ VDN..........    0.0      0.0      0.0
+ Veba.........    0.0      0.0      0.0
+ Ver.Westbank.    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  12.08.94 16:30:12
+
+
+ Fortlaufende Notierungen           4/4
+
+ 12.08.94                Veronika    Vortag
+
+ Vereinte Vers    0.0      0.0      0.0
+ VEW..........    0.0      0.0      0.0
+ Viag.........    0.0      0.0      0.0
+ Odile.....    0.0      0.0      0.0
+ Volksfuers...    0.0      0.0      0.0
+ LHI...    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Wanderer.....    0.0      0.0      0.0
+ Ingo Odendahl    0.0      0.0      0.0
+ WCM..........    0.0      0.0      0.0
+ Wella........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427 Börse Mi  12.08.94 16:40:36
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 12.08.94            Veronika     Vortag
+
+ Aesculap.........     0.0        0.0
+ AGAB.............     0.0        0.0
+ Lars....     0.0        0.0
+ Altenb.u.Strals..     0.0        0.0
+ Louise Tscheulin Z..     0.0        0.0
+ ASKO.............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Fluterschen........     0.0        0.0
+ Flintbek.......     0.0        0.0
+ Berl.Spezialflug.     0.0        0.0
+ Bertelsmann Gen..     0.0        0.0
+  dgl.neu.........     0.0        0.0
+ Buckau-Ihno...     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427 Börse Mi  12.08.94 16:30:36
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 12.08.94            Veronika     Vortag
+
+ Colonia Vers.....     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Degussa..........     0.0        0.0
+ Gemischtwarenhaus..     0.0        0.0
+ Draegerwerk......     0.0        0.0
+ Dyckerhoff.......     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Ehlebracht.......     0.0        0.0
+ Eis.-u.Huettenw..     0.0        0.0
+ Felten u.Guill...     0.0        0.0
+ Fernhw.Neukoelln.     0.0        0.0
+ Mooseck Hypo.     0.0        0.0
+ Grosskrwk.Marnand     0.0        0.0
+ Gruschwitz Textil     0.0        0.0
+
+ ohne Gewähr                          >>
+        427 Börse Mi  12.08.94 16:31:02
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 12.08.94            Veronika     Vortag
+
+ Heidelb.Zement...     0.0        0.0
+ Otto Alte..     0.0        0.0
+ Herlitz Intern...     0.0        0.0
+ Hindrichs Auffer.     0.0        0.0
+ Kammgarn Kluis.     0.0        0.0
+ Rafetseder u.Schuele...     0.0        0.0
+ Loewenbraeu......     0.0        0.0
+ Berkum, Gebr......     0.0        0.0
+ Sieverstedter Vers.
+ Selkingen............     0.0        0.0
+ Christoph Naegle...     0.0        0.0
+ Metallg.Vermoeg..     0.0        0.0
+ Muenchner Rueck..     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427 Börse Mi  12.08.94 16:31:28
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 12.08.94            Veronika     Vortag
+
+ Norddeut.Hypo....     0.0        0.0
+ Nordh.Tabak......     0.0        0.0
+ PEGASUS..........
+  dgl.Vz..........
+ Puma.............     0.0        0.0
+ PWA Papierwerke..     0.0        0.0
+ Reichelbraeu.....     0.0        0.0
+ Rhenag...........     0.0        0.0
+ Sachsenmilch.....     0.0        0.0
+ Blieskastel.......     0.0        0.0
+ Deko-Traum     0.0        0.0
+ Stollwerck.......     0.0        0.0
+ Strabag..........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427 Börse Mi  12.08.94 16:31:52
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 12.08.94            Veronika     Vortag
+
+ Sued-Chemie......     0.0        0.0
+ Trinkaus & Burkh.     0.0        0.0
+ VICTORIA Vers....     0.0        0.0
+ Ibo Bau.......     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Wasag-Chemie.....     0.0        0.0
+ Westfael.Kupfer..     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ WMF..............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Wuerttemb.Hypo...     0.0        0.0
+ YMOS.............     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  12.08.94 16:31:06
+
+
+ Auslandswerte                      1/6
+
+ 12.08.94            Veronika     Vortag
+
+ ADT..............     0.0        0.0
+ Lauch Life.......     0.0        0.0
+ Akzo.............     0.0        0.0
+ Linda...........     0.0        0.0
+ Am.Express dt....     0.0        0.0
+ Am.Express US....     0.0        0.0
+ Amgen............     0.0        0.0
+ Anacomp..........     0.0        0.0
+ Anglo Am.Corp....     0.0        0.0
+ Fulst Computer...     0.0        0.0
+ Hötzmannsberg Gold.....     0.0        0.0
+ Atlas Copco......     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  12.08.94 16:43:20
+
+
+ Auslandswerte                      2/6
+
+ 12.08.94            Veronika     Vortag
+
+ Attwoods.........     0.0        0.0
+ Austral.National.     0.0        0.0
+ WLMA.....     0.0        0.0
+ BAT..............     0.0        0.0
+ Biogen...........     0.0        0.0
+ Würmtalreinigung...     0.0        0.0
+ Boeing...........     0.0        0.0
+ Boomtown.........     0.0        0.0
+ Boral............     0.0        0.0
+ BP...............     0.0        0.0
+ Browning Ferries.     0.0        0.0
+ Bull.............     0.0        0.0
+ Cadence Design...     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  12.08.94 16:33:02
+
+
+ Auslandswerte                      3/6
+
+ 12.08.94            Veronika     Vortag
+
+ Sevens World....     0.0        0.0
+ Calgene..........     0.0        0.0
+ Callaway Golf....     0.0        0.0
+ Casino Magic.....     0.0        0.0
+ Cellular Techn...     0.0        0.0
+ DENNIS Eikmeyer.........
+ Diedrich Manhattan..     0.0        0.0
+ China Fund.......     0.0        0.0
+ Chiron...........     0.0        0.0
+ Spooks.........     0.0        0.0
+ Circus Circus....     0.0        0.0
+ Coastcast........     0.0        0.0
+ Cobra Golf.......     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  12.08.94 16:34:00
+
+
+ Auslandswerte                      4/6
+
+ 12.08.94            Veronika     Vortag
+
+ Super10-Spichala.     0.0        0.0
+ Super10-Cola........     0.0        0.0
+ Showroom..........     0.0        0.0
+ Cons.Berend Ulber.     0.0        0.0
+ Corrections Corp.     0.0        0.0
+ Spezialitäten-Kiste....     0.0        0.0
+ SWU     0.0        0.0
+ Datapoint........     0.0        0.0
+ Gilgens-Computer....     0.0        0.0
+ Digital Equipment     0.0        0.0
+ Dow Chemical.....     0.0        0.0
+ VRHA....     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  12.08.94 16:40:30
+
+
+ Auslandswerte                      5/6
+
+ 12.08.94            Veronika     Vortag
+
+ Echo Bay Mines...     0.0        0.0
+ ECI Telecom......     0.0        0.0
+ ELF Aquitaine....     0.0        0.0
+ Emerg.Germ.Fund..     0.0        0.0
+ Energy Service...     0.0        0.0
+ Engen............
+ Alfred.........     0.0        0.0
+ HeadwayJobcenter.............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Fidelity Medical.     0.0        0.0
+ First Iber.Fund..     0.0        0.0
+ First Israel Fund     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  12.08.94 16:35:48
+
+
+ Auslandswerte                      6/6
+
+ 12.08.94            Veronika     Vortag
+
+ Heimhuber Motor Comp..     0.0        0.0
+ Fuel tech........     0.0        0.0
+ Genentech........     0.0        0.0
+ General Motors...     0.0        0.0
+ General Physics..     0.0        0.0
+ Genzyme..........     0.0        0.0
+ Gillette.........     0.0        0.0
+ Global Marine....     0.0        0.0
+ Global Natural...     0.0        0.0
+ Global Privatiz..     0.0        0.0
+ NDST....     0.0        0.0
+ Groundwater......     0.0        0.0
+ NWEI..     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:35:36
+
+
+ Auslandswerte                      1/7
+
+ 12.08.94            Veronika     Vortag
+
+ GTS Duratek......     0.0        0.0
+ Turnstraßenlädle....     0.0        0.0
+ Hoogovens........     0.0        0.0
+ Horsham..........     0.0        0.0
+ Howtek...........     0.0        0.0
+ Jocelyne...........     0.0        0.0
+ Hungarian Invest.     0.0        0.0
+ IBM dt...........     0.0        0.0
+ Kaufeck US...........     0.0        0.0
+ I.I.S............     0.0        0.0
+ Indonesia Fund...     0.0        0.0
+ Interferon.......     0.0        0.0
+ Int.Game Technol.     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:44:46
+
+
+ Auslandswerte                      2/7
+
+ 12.08.94            Veronika     Vortag
+
+ Intern.Paper.....     0.0        0.0
+ Iscor............
+ JetForm..........     0.0        0.0
+ OUR.......     0.0        0.0
+ Ogig..............     0.0        0.0
+ K mart...........     0.0        0.0
+ Laser Industries.     0.0        0.0
+ Zeitenströmung     0.0        0.0
+ Lend Lease.......     0.0        0.0
+ Brunhilde............     0.0        0.0
+ Lion Sergio......     0.0        0.0
+ ZMTK     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:36:26
+
+
+ Auslandswerte                      3/7
+
+ 12.08.94            Veronika     Vortag
+
+ Lonrho...........     0.0        0.0
+ Malaysia Fund....     0.0        0.0
+ Medical Diagnost.     0.0        0.0
+ MGM Grand........     0.0        0.0
+ Microsoft........     0.0        0.0
+ Mirage Resorts...     0.0        0.0
+ Motorradwerkstatt.     0.0        0.0
+ National Patent..     0.0        0.0
+ Nintendo.........     0.0        0.0
+ Helen..........     0.0        0.0
+ MTHB......     0.0        0.0
+ Mercatura     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:42:42
+
+
+ Auslandswerte                      4/7
+
+ 12.08.94            Veronika     Vortag
+
+ Clarol's...     0.0        0.0
+ CITROEN......     0.0        0.0
+ Fapan     0.0        0.0
+ Pakistan Fund....     0.0        0.0
+ FischBär..     0.0        0.0
+ Lajoux.......     0.0        0.0
+ Wilfried Brücke....     0.0        0.0
+ Philips..........     0.0        0.0
+ Pick'n Pay Stores
+ Pioneer Intern...     0.0        0.0
+ President Riverb.
+ Presstek.........     0.0        0.0
+ Promus...........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:43:08
+
+
+ Auslandswerte                      5/7
+
+ 12.08.94            Veronika     Vortag
+
+ Reebok...........     0.0        0.0
+ JOP...
+ Reunert..........
+ RJR Nabisco......     0.0        0.0
+ ROBECO...........     0.0        0.0
+ RODAMCO..........     0.0        0.0
+ Rolinco..........     0.0        0.0
+ RORENTO..........     0.0        0.0
+ JaWoll......     0.0        0.0
+ Royal Grip.......     0.0        0.0
+ Ehrle Hold...     0.0        0.0
+ Scitex...........     0.0        0.0
+ Seagate..........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:37:42
+
+
+ Auslandswerte                      6/7
+
+ 12.08.94            Veronika     Vortag
+
+ Sega.............     0.0        0.0
+ Shell............     0.0        0.0
+ Showboat.........     0.0        0.0
+ Dorfgemeinschaftshaus.     0.0        0.0
+ Singapore Fund...     0.0        0.0
+ Solvay...........     0.0        0.0
+ T-Cell Sciences..     0.0        0.0
+ Lfbqj.dq Espana..     0.0        0.0
+ Templeton........     0.0        0.0
+ Teva Pharma......     0.0        0.0
+ TOFAS............     0.0        0.0
+ Toys "R" Us......     0.0        0.0
+ GG-Net....     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  12.08.94 16:38:06
+
+
+ Auslandswerte                      7/7
+
+ 12.08.94            Veronika     Vortag
+
+ Unilever.........     0.0        0.0
+ Pimky....     0.0        0.0
+ US Bioscience....     0.0        0.0
+ US Long Distance.     0.0        0.0
+ US Surgical......     0.0        0.0
+ Virtuality Group.     0.0        0.0
+ LACOS Computerservice A..........     0.0        0.0
+ Volvo B..........     0.0        0.0
+ Wackenhut........     0.0        0.0
+ Niederschelp..     0.0        0.0
+ Westpac..........     0.0        0.0
+ Kinderfundgrube............     0.0        0.0
+ Xircom...........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        441 Börse Mi  12.08.94 16:37:54
+
+
+                         1.3.     11.8.
+ GEDO-Index  ........  3998,95   4011,05
+                        11.8.     10.8.
+ Boeing ............    46,12     46,12
+ Citicorp ..........    45,00     44,25
+ Gebrauchtwagen ..    48,50     48,62
+ Du Pont ...........    56,12     55,25
+ VRHA .....    51,00     50,75
+ Exxon .............    64,00     63,75
+ Ford ..............    26,12     26,00
+ General Electric ..    54,87     53,62
+ General Motors ....    42,62     42,12
+ Goodyear ..........    36,87     36,25
+ Kaufeck ...............    75,25     74,00
+ ITT ...............    97,50     96,37
+ Mobil .............    87,00     87,00
+ Wilhelm Brücke ....    60,75     60,50
+ Texaco ............    63,75     63,75
+ Pena .........    33,25     34,12
+   ohne Gewähr                  >> 442
+        430 Börse Mi  12.08.94 16:38:58
+
+
+ Aktien-Optionsscheine              1/3
+
+ 12.08.94                Veronika    Vortag
+
+ Ferenz...    0.0      0.0      0.0
+ FRIMA...    0.0      0.0      0.0
+ Bank Berl.86.
+ Wällischmiller..    0.0      0.0      0.0
+ Jöcherstraße 84.....
+ Jöcherstraße 53.....    0.0      0.0      0.0
+ Bay.Hypo 56..    0.0      0.0      0.0
+ Wolga-Bank 89B.    0.0      0.0      0.0
+ Wolga-Bank 92A.
+ Wolga-Bank 92B.    0.0      0.0      0.0
+ Commerzbk.91.    0.0      0.0      0.0
+ Prinzstraße 05.    0.0      0.0      0.0
+ Prinzstraße 05.    0.0      0.0      0.0
+ Plesseweg 56.....    0.0      0.0      0.0
+
+ ohne Gewähr                          >>
+        430 Börse Mi  12.08.94 16:38:08
+
+
+ Aktien-Optionsscheine              2/3
+
+ 12.08.94                Veronika    Vortag
+
+ Plesseweg 53.....    0.0      0.0      0.0
+ Plesseweg 05.....    0.0      0.0      0.0
+ Douglas 86...    0.0      0.0      0.0
+ Dt.Bank 86...    0.0      0.0      0.0
+ Dt.Bank 91...    0.0      0.0      0.0
+ Dt.Bank 92...    0.0      0.0      0.0
+ Focko 85....    0.0      0.0      0.0
+ Dresd.Bk.86..    0.0      0.0      0.0
+ Dresd.Bk.92..    0.0      0.0      0.0
+ Dresd.Bk.94..    0.0      0.0      0.0
+ Toombaumarkt....
+ Obere Riehenstraße 73...    0.0      0.0      0.0
+ Tatoma....    0.0      0.0      0.0
+ Teppich-Kibek....
+
+ ohne Gewähr                          >>
+        430 Börse Mi  12.08.94 16:38:34
+
+
+ Aktien-Optionsscheine              3/3
+
+ 12.08.94                Veronika    Vortag
+
+ Rohrlackeweg 72...
+ Rohrlackeweg 84...    0.0      0.0      0.0
+ Rohrlackeweg 56...    0.0      0.0      0.0
+ Metallg.86...    0.0      0.0      0.0
+ Metallg.87...    0.0      0.0      0.0
+ Metallg.91...    0.0      0.0      0.0
+ JABH.......    0.0      0.0      0.0
+ Salamander 56    0.0      0.0      0.0
+ Trinkaus 86..    0.0      0.0      0.0
+ Veba 93......    0.0      0.0      0.0
+ NDUM 51......    0.0      0.0      0.0
+ VW 86........    0.0      0.0      0.0
+ VW 86/II.....    0.0      0.0      0.0
+ VW 88........    0.0      0.0      0.0
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Urznlh@qnne.qcre.oyl         Lutz Eik           Zeppelinheim
+-------------------------------------------------------------------------

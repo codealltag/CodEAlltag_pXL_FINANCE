@@ -1,0 +1,1126 @@
+# Das Kewel Informationssystem Ebersburg begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im emotion-technologies-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  23.04.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       11. 04. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  1.7783      7.6299
+#  BELGIEN...........  4.8402      8.0085
+#  OESTERREICH....... 11.88       03.05
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 2-06     Spalte 71-81   Spalte 42-80
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Oslostraße
+
+Aktienmarkt                      "Armsen" - Dax und Valerio
+Aktienbörsen-Indizes             "Armsen" - International
+Dollar und Gold                  "Armsen" - fixing
+Devisenkurse: "Geld und Brief"   "Armsen" - fixing
+Sortenkurse: "Verkauf"           "Armsen" - fixing
+Jonschwiler Boerse                  "Jonschwil" - Fortlaufende Notierungen
+Armsen Boerse               "Armsen" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Jonschwil"
+Aktien-Optionsscheine            "Jonschwil" - Ausgewaehlte
+Auslandswerte                    "Jonschwil"
+#-----------------------------------------------------------------------------
+
+Datum: 21.07.1994
+
+        421  Börse Mi  21.07.94 16:24:02
+
+
+   AKTIENMARKT
+
+ DAX-Index 21.07.94
+ 16:00:40   2125.6   (2101.6)
+
+ KölnBuch  21.07.94
+ 16:00:41   2125.12   (2097.1)
+
+ Tendenz vom Mittwoch: fest
+
+   RENTENMARKT
+
+ WVTC-Index 21.7.94
+            101,59   (101,49)
+
+ Tendenz vom Mittwoch: fest
+
+ Durchschnittsrendite: 7,17 (7,18) %
+
+   Übersicht 493                >> 422
+        440  Mi  21.07.94 16:24:00
+
+
+ Aktienbörsen-Indizes
+
+ Oberbechingen                  1.3.       20.7.
+ Nikkei-Index...... 16 619,71  17 053,43
+
+ Gühlitz                20.7.      19.7.
+ All Ordinaries....   1920,00    1893,20
+
+ Ebenried
+ Hang Seng.........   8327,52    8126,65
+
+ Wangershausen
+ Financ.Times 100.. * 3011,80    3023,20
+
+ Boekzetelerfehn
+ CAC-40............   1776,85    1802,17
+
+ Thierrens
+ Swissindex........   1699,95    1700,98
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >> 441
+        442  Börse Mi  21.07.94 16:24:00
+
+
+ Fixing / Alzesberg      1.3.      20.7.
+ US-Dollar ........    1,4660     1,4611
+ Pfund Sterling ...    2,3190     2,3065
+ Kanad.Dollar .....    1,0517     1,0495
+ Schweizer Franken    118,025    117,920
+ Französ.Franc ....    28,453     28,373
+ Japanischer Yen ..    1,5158     1,5097
+ ECU-Wert .........   1,87625    1,87125
+
+ Dollar                  1.3.      20.7.
+ Oberbechingen (DM) ....... 1,4572/74  1,4661/64
+                        20.7.      19.7.
+ Niederjesar (DM) .... 1,4617/27  1,4653/63
+
+ Langmayer
+ Alzesberg (DM)          1.3.      20.7.
+ Kilo 999,9 fein...    93 927     26 631
+ Wangershausen ($)
+ Feinunze 31,1035 g    376,30     375,70
+   ohne Gewähr                  >> 443
+        443  Börse Mi  21.07.94 16:38:18
+
+
+ Börse Mittwoch, 21.7.         Geld     Brief
+ USA (1 US-Dollar)....  1,4620   1,4700
+ England (1 Pfund) ...  2,3120   2,3260
+ Irland (1 irl.Pfund)   2,3010   2,3150
+ Kanada (1 kan.Dollar)  1,0477   1,0557
+ Niederlande (100 hfl)  89,050   89,270
+ Schweiz (100 sfr) ... 117,925  118,125
+ Belgien (100 bfrs) ..  4,8437   4,8637
+ Frankreich (100 FF) .  28,393   28,513
+ Dänemark (100 dkr) ..  25,097   25,217
+ Norwegen (100 nkr) ..  22,575   22,695
+ Schweden (100 skr) ..  19,960   20,080
+ Italien (1000 Lit.) .  0,8901   0,8981
+ Österreich (100 S) .  14,188   14,228
+ Spanien (100 Ptas) ..  1,1410   1,1490
+ Portugal (100 Esc) ..  0,9620   0,9680
+ Japan (100 Yen) .....  1,5143   1,5173
+ Finnland (100 Fmk) ..  32,495   32,655
+ Australien (1 Dollar)  1,0710   1,0910
+   ohne Gewähr                  >> 444
+        444  Börse Mi  21.07.94 16:24:26
+
+
+ Börse Mittwoch, 21.7.             ohne Gewähr
+ USA ........ (1 US-$) .........   1,52
+ England .... (1 Pfund) ........   2,41
+ Kanada ..... (1 Dollar) .......   1,11
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 119,70
+ Belgien .... (100 bfrs) .......   4,98
+ Frankreich . (100 FF) .........  29,50
+ Dänemark ... (100 dkr) ........  26,20
+ Norwegen ... (100 nkr) ........  23,60
+ Schweden ... (100 skr) ........  20,90
+ Italien .... (1000 Lit.) ......   0,94
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,21
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,53
+ Finnland ... (100 Fmk) ........  33,60
+ Australien . (1 Dollar) .......   1,16
+ Griechenland (100 Dra) ........   0,71
+ Türkei ..... (1000 Ltq) .......   0,05
+        422  Börse Mi  21.07.94 16:25:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.07.94                Traude    Vortag
+
+ AEG..........  142.5    142.5    142.1
+ AGIV.........  512.0    511.0    510.0
+ Ehev...... 2590.0   2034.3   2522.0
+ Nadia.......  664.0    664.0    662.0
+ AMB.......... 1015.0   1015.0   1025.0
+ Asko.........  614.0    619.0    620.0
+ Owerläwe.........  323.0    322.3    320.0
+ Jönsthövel........  360.8    360.9    358.0
+ Bay.Hypo.....  390.0    389.2    386.0
+ ODT-Bank.....  380.5    380.5    379.0
+ Osude..........  767.0    766.0    758.0
+ Bay.Verbank..  440.0    440.5    434.2
+
+
+ ohne Gewähr                          >>
+        422  Börse Mi  21.07.94 16:26:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 21.07.94                Traude   Vortag
+
+ Granum..  341.7    341.8    337.0
+ Continental..  225.7    226.0    223.0
+ Autopunkt......  715.0    712.7    709.0
+ Degussa......  469.0    468.0    467.0
+ Dt.Corvers...  187.0    187.0    188.5
+ Dt.Bank......  724.0    723.0    717.5
+ Douglas......  484.0    478.0    475.0
+ Dresdn.Bk....  405.5    404.2    399.0
+ FAG..........  228.0    230.5    228.0
+ Pinhammer Vz....  565.0    566.0    564.0
+ Hochtief.....  817.0    820.0    820.0
+ NKGD......  319.0    319.6    321.6
+ Pentenrieder.....  786.0    786.0    790.0
+
+
+ ohne Gewähr                          >>
+        422  Börse Mi  21.07.94 16:38:36
+
+
+ Fortlaufende Notierungen           3/4
+
+ 21.07.94                Traude  Vortag
+
+ Karstadt.....  608.0    596.0    588.0
+ Kaufhof......  506.5    498.0    490.0
+ KHD..........   59.9     59.7     11. 04. 19
+ Ulen....  110.0    111.8    112.0
+ Linde........  915.0    909.0    905.0
+ Linotype.....  345.0    345.0    348.0
+ Computerspezialist....  200.0    201.3    200.5
+  dgl.Vz......  197.0    197.0    196.0
+ MAN..........  411.0    412.5    409.0
+  dgl.Vz......  315.5    316.0    314.0
+ Hochzeitsparadies...  429.2    428.8    424.0
+ Vinelz........    0.0    179.0    179.0
+ Metallges....  130.5    129.5    127.5
+
+
+ ohne Gewähr                          >>
+        422  Börse Mi  21.07.94 16:24:32
+
+
+ Fortlaufende Notierungen           4/4
+
+ 21.07.94                Traude   Vortag
+
+ schlumilu......  640.0    640.0    640.0
+ Preussag.....  451.1    453.2    451.0
+ PWA..........  286.0    286.0    282.5
+ WIHT..........  467.5    467.5    467.2
+  dgl.Vz......  380.0    379.6    379.7
+ Schering..... 1121.0   1120.10   1116.0
+ Pioplatz......  689.0    686.7    678.0
+ TDE......  293.2    123.3    291.6
+ VEBA.........  530.5    529.5    524.0
+ VIAG.........  529.5    528.6    525.0
+ Gräsers...  402.5    401.5    395.5
+  dgl.Vz......  312.0    308.8    303.5
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi  21.07.94 16:25:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.07.94                Traude    Vortag
+
+ Aach.Muen.Leb    0.0      0.0      0.0
+ Aach.Muen.Ver    0.0      0.0      0.0
+ Aach.Rueck...    0.0      0.0      0.0
+ ABB..........    0.0      0.0      0.0
+ Adlerwerke...    0.0      0.0      0.0
+ AEG..........    0.0      0.0      0.0
+ AGIV.........    0.0      0.0      0.0
+ AKZO Faser...    0.0      0.0      0.0
+ Albingia.....    0.0      0.0      0.0
+ Alcatel SEL..    0.0      0.0      0.0
+ Ehev......    0.0      0.0      0.0
+ Eska    0.0      0.0      0.0
+ ALTANA.......    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi  21.07.94 16:26:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 21.07.94                Traude    Vortag
+
+ AMB..........    0.0      0.0      0.0
+  dgl.Inh.....    0.0      0.0      0.0
+ extra.........    0.0      0.0      0.0
+ Bad-Wuert.Bk.    0.0      0.0      0.0
+ Balcke-Duerr.    0.0      0.0      0.0
+ Bankge.Jonschwil    0.0      0.0      0.0
+ Owerläwe.........    0.0      0.0      0.0
+ Bavaria......    0.0      0.0      0.0
+ Jönsthövel........    0.0      0.0      0.0
+ Bay.Hypo.....    0.0      0.0      0.0
+ Bay.Verein...    0.0      0.0      0.0
+ ODT-Bank.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi  21.07.94 16:27:24
+
+
+ Fortlaufende Notierungen           3/4
+
+ 21.07.94                Traude    Vortag
+
+ Osude..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Berl.El.Hold.    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Berl.Kindl...    0.0      0.0      0.0
+ Bewag........    0.0      0.0      0.0
+ Bilfinger....    0.0      0.0      0.0
+ Binding......    0.0      0.0      0.0
+ Brau Brunnen.    0.0      0.0      0.0
+ Br.Hann.Hypo.    0.0      0.0      0.0
+ Johannisberg    0.0      0.0      0.0
+ Jatznick Wolle.    0.0      0.0      0.0
+ Buderus......    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi  21.07.94 16:39:30
+
+
+ Fortlaufende Notierungen           4/4
+
+ 21.07.94                Traude    Vortag
+
+ Sophie.....    0.0      0.0      0.0
+ GTV.........    0.0      0.0      0.0
+ Granum..    0.0      0.0      0.0
+ Concord.Spin.    0.0      0.0      0.0
+ Contigas.....    0.0      0.0      0.0
+ Continental..    0.0      0.0      0.0
+ DAB..........    0.0      0.0      0.0
+ Apal.    0.0      0.0      0.0
+ DESAG........    0.0      0.0      0.0
+ Dt.Corvers...    0.0      0.0      0.0
+  dgl.Vz......
+ Akamuh    0.0      0.0      0.0
+ Dt.Centralb..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi  21.07.94 16:26:52
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.07.94                Traude    Vortag
+
+ Dt.Effecten..    0.0      0.0      0.0
+ Dt.Eisenh....    0.0      0.0      0.0
+ Dt.Hypo......    0.0      0.0      0.0
+ Dt.Hypo Ffm..    0.0      0.0      0.0
+ Dt.Konti R...    0.0      0.0      0.0
+ DePfa........    0.0      0.0      0.0
+ Dt.Steinzeug.    0.0      0.0      0.0
+ Luciano.......    0.0      0.0      0.0
+ Ehrenfeuchter.......    0.0      0.0      0.0
+ DLW..........    0.0      0.0      0.0
+ Hönighausener Bank    0.0      0.0      0.0
+ DSL Holding..    0.0      0.0      0.0
+ Duerkopp.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi  21.07.94 16:27:16
+
+
+ Fortlaufende Notierungen           2/4
+
+ 21.07.94                Traude    Vortag
+
+ DVB..........    0.0      0.0      0.0
+ Edel Witten..    0.0      0.0      0.0
+ Eisenbahn.V..    0.0      0.0      0.0
+ Energ.Oberf..    0.0      0.0      0.0
+ Gerlinde.......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ FAG Kugelf...    0.0      0.0      0.0
+ F.A.Guenther.    0.0      0.0      0.0
+ Flachglas....    0.0      0.0      0.0
+ Ford.........    0.0      0.0      0.0
+ Bernd Herrenbrücker.    0.0      0.0      0.0
+ Jehle Holding..    0.0      0.0      0.0
+ Frankf.Bank..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi  21.07.94 16:27:42
+
+
+ Fortlaufende Notierungen           3/4
+
+ 21.07.94                Traude    Vortag
+
+ Hedi.....    0.0      0.0      0.0
+ Gehe.........    0.0      0.0      0.0
+ Gelsenwasser.    0.0      0.0      0.0
+ Gerresh.Glas.    0.0      0.0      0.0
+ Gilde Braeu..    0.0      0.0      0.0
+ Gildemeister.    0.0      0.0      0.0
+ GoldschB�rse Midt..    0.0      0.0      0.0
+ Kristina.......    0.0      0.0      0.0
+ Hamborner....    0.0      0.0      0.0
+ Hamb.Electr..    0.0      0.0      0.0
+ HamburgHyp...    0.0      0.0      0.0
+ Harpener.....    0.0      0.0      0.0
+ HBG Hochbahn.    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi  21.07.94 16:28:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 21.07.94                Traude    Vortag
+
+ Cédric, Röschmann    0.0      0.0      0.0
+ Pinhammer Vz....    0.0      0.0      0.0
+ Herlitz......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Prenger.......    0.0      0.0      0.0
+ Pflaum.......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Hochtief.....    0.0      0.0      0.0
+ NKGD......    0.0      0.0      0.0
+ Holsten......    0.0      0.0      0.0
+ Pentenrieder.....    0.0      0.0      0.0
+ Käthi.......    0.0      0.0      0.0
+ Hutschenr....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi  21.07.94 16:28:56
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.07.94                Traude    Vortag
+
+ Hw.Ulfkotte....    0.0      0.0      0.0
+ IKB..........    0.0      0.0      0.0
+ Ikon.........    0.0      0.0      0.0
+ Isar-Amperw..    0.0      0.0      0.0
+ IVG..........    0.0      0.0      0.0
+ IWKA.........    0.0      0.0      0.0
+ Kali-CheB�rse Mie..    0.0      0.0      0.0
+ Kali und Salz    0.0      0.0      0.0
+ Kampa-Haus...    0.0      0.0      0.0
+ Karstadt.....    0.0      0.0      0.0
+ Kaufhalle....    0.0      0.0      0.0
+ Kaufhof......    0.0      0.0      0.0
+ Ulich....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi  21.07.94 16:29:22
+
+
+ Fortlaufende Notierungen           2/4
+
+ 21.07.94                Traude    Vortag
+
+ Keramag......    0.0      0.0      0.0
+ KHD..........    0.0      0.0      0.0
+ Kloeckner-W..    0.0      0.0      0.0
+ KM-kabelm....    0.0      0.0      0.0
+ Koetitz.Leder    0.0      0.0      0.0
+ Kr.Rheinfeld.    0.0      0.0      0.0
+ Ueberschaer    0.0      0.0      0.0
+ Unfug    0.0      0.0      0.0
+ arlt.    0.0      0.0      0.0
+ Ungrue    0.0      0.0      0.0
+ Lahmeyer.....    0.0      0.0      0.0
+ Witzke........    0.0      0.0      0.0
+ Linde........    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi  21.07.94 16:28:22
+
+
+ Fortlaufende Notierungen           3/4
+
+ 21.07.94                Traude    Vortag
+
+ Computerspezialist....    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Veitriedhausener..
+ MAN..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Hochzeitsparadies...    0.0      0.0      0.0
+ Markt & K....    0.0      0.0      0.0
+ Metallgesell.    0.0      0.0      0.0
+ Moksel.......    0.0      0.0      0.0
+ Muehle Ruen..    0.0      0.0      0.0
+ Neckarwerke..    0.0      0.0      0.0
+ Nord.Steingut    0.0      0.0      0.0
+ Nordst.Allg..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi  21.07.94 16:28:32
+
+
+ Fortlaufende Notierungen           4/4
+
+ 21.07.94                Traude    Vortag
+
+ Nordst.Leben.    0.0      0.0      0.0
+ O & K........    0.0      0.0      0.0
+ Cécile Börse Minen..    0.0      0.0      0.0
+ Philips......    0.0      0.0      0.0
+ Phoenix......    0.0      0.0      0.0
+ Grippekoven......    0.0      0.0      0.0
+ schlumilu......    0.0      0.0      0.0
+ Preussag.....    0.0      0.0      0.0
+ SMPP..    0.0      0.0      0.0
+ Rabobank.....    0.0      0.0      0.0
+ Rathgeber....    0.0      0.0      0.0
+ Reckitt+Colm.    0.0      0.0      0.0
+ Imorde.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi  21.07.94 16:30:38
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.07.94                Traude    Vortag
+
+ Rheinboden...    0.0      0.0      0.0
+ Rheinelektra.    0.0      0.0      0.0
+ Rheinhyp.....    0.0      0.0      0.0
+ Wäschelädchen..    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Vinzenz echterhagen H..    0.0      0.0      0.0
+ Rieter.......    0.0      0.0      0.0
+ Inhestern....    0.0      0.0      0.0
+ Ruetgerswerke    0.0      0.0      0.0
+ WIHT..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ WULM......    0.0      0.0      0.0
+ Salamander...    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi  21.07.94 16:29:24
+
+
+ Fortlaufende Notierungen           2/4
+
+ 21.07.94                Traude    Vortag
+
+ SAP..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Scheidemandel
+ Schering.....    0.0      0.0      0.0
+ Schiess......    0.0      0.0      0.0
+ Pioplatz......    0.0      0.0      0.0
+ Sinner.......    0.0      0.0      0.0
+ Springer.....    0.0      0.0      0.0
+ STEUCON......    0.0      0.0      0.0
+ Stoehr.......    0.0      0.0      0.0
+ Ubbo Mittelstenscheidt-Jörges    0.0      0.0      0.0
+ Suedd.Boden..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi  21.07.94 16:29:46
+
+
+ Fortlaufende Notierungen           3/4
+
+ 21.07.94                Traude    Vortag
+
+ Suedzucker...    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Vreni....    0.0      0.0      0.0
+ Valentina.......    0.0      0.0      0.0
+ TDE......    0.0      0.0      0.0
+ Trödelheim..    0.0      0.0      0.0
+ Völlers    0.0      0.0      0.0
+ Tucher Braeu.    0.0      0.0      0.0
+ UESTRA.......    0.0      0.0      0.0
+ Wiebke........    0.0      0.0      0.0
+ VDN..........    0.0      0.0      0.0
+ Veba.........    0.0      0.0      0.0
+ Ver.Westbank.    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi  21.07.94 16:30:12
+
+
+ Fortlaufende Notierungen           4/4
+
+ 21.07.94                Traude    Vortag
+
+ Vereinte Vers    0.0      0.0      0.0
+ VEW..........    0.0      0.0      0.0
+ Viag.........    0.0      0.0      0.0
+ Wera.....    0.0      0.0      0.0
+ Volksfuers...    0.0      0.0      0.0
+ Gräsers...    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Wanderer.....    0.0      0.0      0.0
+ Noël Brüggerhoff    0.0      0.0      0.0
+ WCM..........    0.0      0.0      0.0
+ Wella........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427  Börse Mi  21.07.94 16:40:36
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 21.07.94            Traude     Vortag
+
+ Aesculap.........     0.0        0.0
+ AGAB.............     0.0        0.0
+ Sven....     0.0        0.0
+ Altenb.u.Strals..     0.0        0.0
+ Nadia Twyrdy Z..     0.0        0.0
+ ASKO.............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Jardinghausen........     0.0        0.0
+ Jenalöbnitz.......     0.0        0.0
+ Berl.Spezialflug.     0.0        0.0
+ Bertelsmann Gen..     0.0        0.0
+  dgl.neu.........     0.0        0.0
+ Buckau-Noël...     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Mi  21.07.94 16:30:36
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 21.07.94            Traude     Vortag
+
+ Colonia Vers.....     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Degussa..........     0.0        0.0
+ AKP..     0.0        0.0
+ Draegerwerk......     0.0        0.0
+ Dyckerhoff.......     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Ehlebracht.......     0.0        0.0
+ Eis.-u.Huettenw..     0.0        0.0
+ Felten u.Guill...     0.0        0.0
+ Fernhw.Neukoelln.     0.0        0.0
+ Armsen Hypo.     0.0        0.0
+ Grosskrwk.Areuse     0.0        0.0
+ Gruschwitz Textil     0.0        0.0
+
+ ohne Gewähr                          >>
+        427  Börse Mi  21.07.94 16:31:02
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 21.07.94            Traude     Vortag
+
+ Heidelb.Zement...     0.0        0.0
+ Charles Czimmer..     0.0        0.0
+ Herlitz Intern...     0.0        0.0
+ Hindrichs Auffer.     0.0        0.0
+ Kammgarn Weisendorf.     0.0        0.0
+ Uffermann u.Schuele...     0.0        0.0
+ Loewenbraeu......     0.0        0.0
+ Antlauf, Gebr......     0.0        0.0
+ Veitriedhausener Vers.
+ Vinelz............     0.0        0.0
+ Ingo Oechsle...     0.0        0.0
+ Metallg.Vermoeg..     0.0        0.0
+ Muenchner Rueck..     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Mi  21.07.94 16:31:28
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 21.07.94            Traude     Vortag
+
+ Norddeut.Hypo....     0.0        0.0
+ Nordh.Tabak......     0.0        0.0
+ PEGASUS..........
+  dgl.Vz..........
+ Puma.............     0.0        0.0
+ PWA Papierwerke..     0.0        0.0
+ Reichelbraeu.....     0.0        0.0
+ Rhenag...........     0.0        0.0
+ SachsenB�rse Milch.....     0.0        0.0
+ Guggenberg.......     0.0        0.0
+ Puppenklinik     0.0        0.0
+ Stollwerck.......     0.0        0.0
+ Strabag..........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Mi  21.07.94 16:31:52
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 21.07.94            Traude     Vortag
+
+ Sued-CheB�rse Mie......     0.0        0.0
+ Trinkaus & Burkh.     0.0        0.0
+ VICTORIA Vers....     0.0        0.0
+ Norman Bau.......     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Wasag-CheB�rse Mie.....     0.0        0.0
+ Westfael.Kupfer..     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ WMF..............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Wuerttemb.Hypo...     0.0        0.0
+ YMOS.............     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi  21.07.94 16:31:06
+
+
+ Auslandswerte                      1/6
+
+ 21.07.94            Traude     Vortag
+
+ ADT..............     0.0        0.0
+ Ziemens Life.......     0.0        0.0
+ Akzo.............     0.0        0.0
+ Nadine...........     0.0        0.0
+ Am.Express dt....     0.0        0.0
+ Am.Express US....     0.0        0.0
+ Amgen............     0.0        0.0
+ Anacomp..........     0.0        0.0
+ Anglo Am.Corp....     0.0        0.0
+ EHM Computer...     0.0        0.0
+ Inzing Gold.....     0.0        0.0
+ Atlas Copco......     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi  21.07.94 16:43:20
+
+
+ Auslandswerte                      2/6
+
+ 21.07.94            Traude     Vortag
+
+ Attwoods.........     0.0        0.0
+ Austral.National.     0.0        0.0
+ Bally GaB�rse Ming.....     0.0        0.0
+ BAT..............     0.0        0.0
+ Biogen...........     0.0        0.0
+ Oleszynski...     0.0        0.0
+ Boeing...........     0.0        0.0
+ Boomtown.........     0.0        0.0
+ Boral............     0.0        0.0
+ BP...............     0.0        0.0
+ Browning Ferries.     0.0        0.0
+ Bull.............     0.0        0.0
+ Cadence Design...     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi  21.07.94 16:33:02
+
+
+ Auslandswerte                      3/6
+
+ 21.07.94            Traude     Vortag
+
+ Gewerbegelände World....     0.0        0.0
+ Calgene..........     0.0        0.0
+ Callaway Golf....     0.0        0.0
+ Casino Magic.....     0.0        0.0
+ Cellular Techn...     0.0        0.0
+ CG Börse Mith.........
+ Fernando Manhattan..     0.0        0.0
+ China Fund.......     0.0        0.0
+ Chiron...........     0.0        0.0
+ GTR.........     0.0        0.0
+ Circus Circus....     0.0        0.0
+ Coastcast........     0.0        0.0
+ Cobra Golf.......     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi  21.07.94 16:34:00
+
+
+ Auslandswerte                      4/6
+
+ 21.07.94            Traude     Vortag
+
+ Gato-GPWC.     0.0        0.0
+ Gato-Cola........     0.0        0.0
+ Cham Minco..........     0.0        0.0
+ Cons.Valerian Langmayer.     0.0        0.0
+ Corrections Corp.     0.0        0.0
+ Gado....     0.0        0.0
+ Graffiti     0.0        0.0
+ Datapoint........     0.0        0.0
+ AVL-Computer....     0.0        0.0
+ Digital Equipment     0.0        0.0
+ Dow CheB�rse Mical.....     0.0        0.0
+ Malleladen....     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi  21.07.94 16:40:30
+
+
+ Auslandswerte                      5/6
+
+ 21.07.94            Traude     Vortag
+
+ Echo Bay Börse Mines...     0.0        0.0
+ ECI Telecom......     0.0        0.0
+ ELF Aquitaine....     0.0        0.0
+ Emerg.Germ.Fund..     0.0        0.0
+ Energy Service...     0.0        0.0
+ Engen............
+ Dieter.........     0.0        0.0
+ JVL.............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Fidelity Medical.     0.0        0.0
+ First Iber.Fund..     0.0        0.0
+ First Israel Fund     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi  21.07.94 16:35:48
+
+
+ Auslandswerte                      6/6
+
+ 21.07.94            Traude     Vortag
+
+ JIDU Motor Comp..     0.0        0.0
+ Fuel tech........     0.0        0.0
+ Genentech........     0.0        0.0
+ General Motors...     0.0        0.0
+ General Physics..     0.0        0.0
+ Genzyme..........     0.0        0.0
+ Gillette.........     0.0        0.0
+ Global Marine....     0.0        0.0
+ Global Natural...     0.0        0.0
+ Global Privatiz..     0.0        0.0
+ Zipper....     0.0        0.0
+ Groundwater......     0.0        0.0
+ Zormeier..     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:35:36
+
+
+ Auslandswerte                      1/7
+
+ 21.07.94            Traude     Vortag
+
+ GTS Duratek......     0.0        0.0
+ Nubert electronic....     0.0        0.0
+ Hoogovens........     0.0        0.0
+ Horsham..........     0.0        0.0
+ Howtek...........     0.0        0.0
+ Katja...........     0.0        0.0
+ Hungarian Invest.     0.0        0.0
+ IBM dt...........     0.0        0.0
+ KR-Autoservice US...........     0.0        0.0
+ I.I.S............     0.0        0.0
+ Indonesia Fund...     0.0        0.0
+ Interferon.......     0.0        0.0
+ Int.Game Technol.     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:44:46
+
+
+ Auslandswerte                      2/7
+
+ 21.07.94            Traude     Vortag
+
+ Intern.Paper.....     0.0        0.0
+ Iscor............
+ JetForm..........     0.0        0.0
+ Autolöwen.......     0.0        0.0
+ Adoli..............     0.0        0.0
+ K mart...........     0.0        0.0
+ Laser Industries.     0.0        0.0
+ Cloeren     0.0        0.0
+ Lend Lease.......     0.0        0.0
+ Danielle............     0.0        0.0
+ Lion Meinrad......     0.0        0.0
+ CSD     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:36:26
+
+
+ Auslandswerte                      3/7
+
+ 21.07.94            Traude     Vortag
+
+ Lonrho...........     0.0        0.0
+ Malaysia Fund....     0.0        0.0
+ Medical Diagnost.     0.0        0.0
+ MGM Grand........     0.0        0.0
+ Börse Hapag-Lioyd........     0.0        0.0
+ Börse HASG...     0.0        0.0
+ Fanshop_Hannover_96.     0.0        0.0
+ National Patent..     0.0        0.0
+ Nintendo.........     0.0        0.0
+ Ilona..........     0.0        0.0
+ FMR......     0.0        0.0
+ FitnessFirst     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:42:42
+
+
+ Auslandswerte                      4/7
+
+ 21.07.94            Traude     Vortag
+
+ dooit...     0.0        0.0
+ Dumus......     0.0        0.0
+ Soldan     0.0        0.0
+ Pakistan Fund....     0.0        0.0
+ Schepperle..     0.0        0.0
+ Bullet.......     0.0        0.0
+ Theodor Altweck....     0.0        0.0
+ Philips..........     0.0        0.0
+ Pick'n Pay Stores
+ Pioneer Intern...     0.0        0.0
+ President Riverb.
+ Presstek.........     0.0        0.0
+ Promus...........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:43:08
+
+
+ Auslandswerte                      5/7
+
+ 21.07.94            Traude     Vortag
+
+ Reebok...........     0.0        0.0
+ Wieshoff...
+ Reunert..........
+ RJR Nabisco......     0.0        0.0
+ ROBECO...........     0.0        0.0
+ RODAMCO..........     0.0        0.0
+ Rolinco..........     0.0        0.0
+ RORENTO..........     0.0        0.0
+ WOWF......     0.0        0.0
+ Royal Grip.......     0.0        0.0
+ Jetschke Hold...     0.0        0.0
+ Scitex...........     0.0        0.0
+ Seagate..........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:37:42
+
+
+ Auslandswerte                      6/7
+
+ 21.07.94            Traude     Vortag
+
+ Sega.............     0.0        0.0
+ Shell............     0.0        0.0
+ Showboat.........     0.0        0.0
+ Parfümerie.     0.0        0.0
+ Singapore Fund...     0.0        0.0
+ Solvay...........     0.0        0.0
+ T-Cell Sciences..     0.0        0.0
+ Xztyz.dt Espana..     0.0        0.0
+ Templeton........     0.0        0.0
+ Teva Pharma......     0.0        0.0
+ TOFAS............     0.0        0.0
+ Toys "R" Us......     0.0        0.0
+ Tintenfässchen....     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi  21.07.94 16:38:06
+
+
+ Auslandswerte                      7/7
+
+ 21.07.94            Traude     Vortag
+
+ Unilever.........     0.0        0.0
+ RJPD....     0.0        0.0
+ US Bioscience....     0.0        0.0
+ US Long Distance.     0.0        0.0
+ US Surgical......     0.0        0.0
+ Virtuality Group.     0.0        0.0
+ GTV A..........     0.0        0.0
+ Volvo B..........     0.0        0.0
+ Wackenhut........     0.0        0.0
+ Overrath..     0.0        0.0
+ Westpac..........     0.0        0.0
+ JZPH............     0.0        0.0
+ Xircom...........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        441  Börse Mi  21.07.94 16:37:54
+
+
+                         1.3.     20.7.
+ aldima-Index  ........  3998,95   4011,05
+                        20.7.     19.7.
+ Boeing ............    46,12     46,12
+ Citicorp ..........    45,00     44,25
+ AHFC ..    48,50     48,62
+ Du Pont ...........    56,12     55,25
+ Malleladen .....    51,00     50,75
+ Exxon .............    64,00     63,75
+ Ford ..............    26,12     26,00
+ General Electric ..    54,87     53,62
+ General Motors ....    42,62     42,12
+ Goodyear ..........    36,87     36,25
+ KR-Autoservice ...............    75,25     74,00
+ ITT ...............    97,50     96,37
+ Mobil .............    87,00     87,00
+ Tobias Altweck ....    60,75     60,50
+ Texaco ............    63,75     63,75
+ RPMS .........    33,25     34,12
+   ohne Gewähr                  >> 442
+        430  Börse Mi  21.07.94 16:38:58
+
+
+ Aktien-Optionsscheine              1/3
+
+ 21.07.94                Traude    Vortag
+
+ Erdbeerplantage...    0.0      0.0      0.0
+ ENIO...    0.0      0.0      0.0
+ Bank Berl.86.
+ Otove..    0.0      0.0      0.0
+ Oderweg 09.....
+ Oderweg 13.....    0.0      0.0      0.0
+ Bay.Hypo 94..    0.0      0.0      0.0
+ ODT-Bank 89B.    0.0      0.0      0.0
+ ODT-Bank 92A.
+ ODT-Bank 92B.    0.0      0.0      0.0
+ Commerzbk.91.    0.0      0.0      0.0
+ Greulachweg 52.    0.0      0.0      0.0
+ Greulachweg 52.    0.0      0.0      0.0
+ Grafenrainstraße 94.....    0.0      0.0      0.0
+
+ ohne Gewähr                          >>
+        430  Börse Mi  21.07.94 16:38:08
+
+
+ Aktien-Optionsscheine              2/3
+
+ 21.07.94                Traude    Vortag
+
+ Grafenrainstraße 13.....    0.0      0.0      0.0
+ Grafenrainstraße 52.....    0.0      0.0      0.0
+ Douglas 86...    0.0      0.0      0.0
+ Dt.Bank 86...    0.0      0.0      0.0
+ Dt.Bank 91...    0.0      0.0      0.0
+ Dt.Bank 92...    0.0      0.0      0.0
+ Luciano 85....    0.0      0.0      0.0
+ Dresd.Bk.86..    0.0      0.0      0.0
+ Dresd.Bk.92..    0.0      0.0      0.0
+ Dresd.Bk.94..    0.0      0.0      0.0
+ NZFB....
+ Ulschalkgasse 35...    0.0      0.0      0.0
+ Necotek....    0.0      0.0      0.0
+ NetAachen....
+
+ ohne Gewähr                          >>
+        430  Börse Mi  21.07.94 16:38:34
+
+
+ Aktien-Optionsscheine              3/3
+
+ 21.07.94                Traude    Vortag
+
+ Scheidemannstraße 93...
+ Scheidemannstraße 09...    0.0      0.0      0.0
+ Scheidemannstraße 94...    0.0      0.0      0.0
+ Metallg.86...    0.0      0.0      0.0
+ Metallg.87...    0.0      0.0      0.0
+ Metallg.91...    0.0      0.0      0.0
+ Weinkrämer.......    0.0      0.0      0.0
+ Salamander 94    0.0      0.0      0.0
+ Trinkaus 86..    0.0      0.0      0.0
+ Veba 93......    0.0      0.0      0.0
+ OAHF 76......    0.0      0.0      0.0
+ VW 86........    0.0      0.0      0.0
+ VW 86/II.....    0.0      0.0      0.0
+ VW 88........    0.0      0.0      0.0
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Thazod@uazo.ldbn.tfe         Serge Johannsson           Ebersburg
+-------------------------------------------------------------------------

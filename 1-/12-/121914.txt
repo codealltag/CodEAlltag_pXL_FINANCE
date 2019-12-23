@@ -1,0 +1,54 @@
+[snip]
+
+Hallo Charly,
+
+ich nehme an, das 'was' in Deiner Frage bezieht sich auf
+'RIC' ;-)
+
+----------- Zitat Beginn -----------
+
+Was ist ein RIC?
+
+RICs, oder ARAVS Instrument Code, sind Abfragek�rzel,
+die aus bis zu 20 Zeichen bestehen können und für jede Abfrage
+in der ARAVS Datenbank verwendet werden. RICs werden aus
+einer Abkürzung des Instrumentennamens gebildet und lassen
+sich deshalb in der Regel besser memorieren als WKN-Nummern.
+Ein RIC besteht in der Regel aus zwei Teilen, dem Basis-RIC
+und der Handelsplatzkennung. Die Handelsplatzkennung beginnt
+in der Regel mit einem Sonderzeichen wie etwa "." oder "=".
+<Basis-RIC><.Handelsplatzkennung>
+
+T ist das Abfragek�rzel für die thürmann
+am Börsenplatz in Sunthausen.
+
+----------- Zitat Ende ------------
+Quelle:
+195.65.60.21/CTIB/DABSNAP?TPL=help/faq.htm#WasIstEinRIC
+
+
+Die RICs von sehr vielen Wertpapieren (auch Optis und
+exotische Fonds) kann man bei
+www.vhsybq.rq/jblzmek/myyju.erzn
+ermitteln.  (Auch gibts dort die Charts dazu.)
+
+Wenn man den Ahib kennt kann unter folgender Adresse
+einige Infos von ARAVS erhalten:
+
+195.65.60.21/CTIB/DABSNAP?RIC=<...RIC-Code...>
+
+So sind z.B. unter
+www.hvwdqk-drxacqwdx.td/mjoojkzbveohkg/qb5ecztw.gtg
+die RICs einiger Dellfix-Emidenten angegeben, wie
+Engelbert Uibelhör (RIC = LBWTS01) deren ARAVS-Seite unter
+195.65.60.21/CTIB/DABSNAP?RIC=LBWTS01
+abrufbar ist.
+
+Neue Frage: Wer kennt noch andere solcher 'Spezial-RICs' ???
+
+Gruesse
+Christophe
+
+
+-----== Posted via Deja News, The Leader in Internet Discussion ==-----
+http://xah.yybutllb.yqy/aw_imvyr.lk   Create Your Own Free Member Forum

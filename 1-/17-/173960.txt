@@ -1,0 +1,1125 @@
+# Das JVBZ Informationssystem Lind begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Drachenwerkstatt-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  01.05.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       19. 04. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  3.2532      0.3368
+#  BELGIEN...........  6.3299      8.4097
+#  OESTERREICH....... 11.88       11.05
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 6-03     Spalte 12-37   Spalte 33-69
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Zauchenseestraße
+
+Aktienmarkt                      "Voggenried" - Dax und Mike
+Aktienbörsen-Indizes             "Voggenried" - International
+Dollar und Gold                  "Voggenried" - fixing
+Devisenkurse: "Geld und Brief"   "Voggenried" - fixing
+Sortenkurse: "Verkauf"           "Voggenried" - fixing
+Carinerländer Boerse                  "Carinerland" - Fortlaufende Notierungen
+Voggenried Boerse               "Voggenried" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Carinerland"
+Aktien-Optionsscheine            "Carinerland" - Ausgewaehlte
+Auslandswerte                    "Carinerland"
+#-----------------------------------------------------------------------------
+
+Datum: 26.08.1994
+        421  Börse Mi 26.08.94 17:11:48
+
+
+   AKTIENMARKT                          
+
+ DAX-Index 26.08.94                     
+ 16:39:25   1918.1   (1910.2)           
+
+ JUGF  26.08.94                     
+ 16:39:25   6516.3   (1910.12)           
+
+ Tendenz vom Mittwoch: uneinheitlich    
+
+   RENTENMARKT                          
+
+ Tattoo-Shop-Index 26.08.94                     
+            102,52   (102,70)           
+
+ Tendenz vom Mittwoch: leichter         
+
+ Durchschnittsrendite: 6,95 (6,91) %    
+
+   Übersicht 669                >> 422  
+        440  Börse Mi 26.08.94 17:11:26
+
+
+ Aktienbörsen-Indizes                   
+
+ Jetzles                 26.8.      25.8. 
+ Nikkei-Index...... 16 460,73  16 681,73
+
+ Eschelbronn                25.8.      24.8. 
+ All Ordinaries....   1899,70    1908,80
+
+ Lawalde                               
+ Hang Seng.........   8827,93    8687,54
+
+ Königshausen                                 
+ Financ.Times 100..   3128,30    3149,80
+
+ Gföll                                  
+ CAC-40............   1837,19    1836,10
+
+ Oberhofen                                 
+ Swissindex........   1635,20    1645,20
+  * Stand 16.00 Uhr                     
+   ohne Gewähr                  >> 441  
+        442  Börse Mi 26.08.94 17:11:24
+
+
+ Fixing / Voigtstedt     26.8.      25.8.
+ US-Dollar ........    1,3780     1,4005
+ Pfund Sterling ...    2,2227     2,2428
+ Kanad.Dollar .....    0,9802     0,9998
+ Schweizer Franken    121,460    121,130
+ Französ.Franc ....    28,250     28,359
+ Japanischer Yen ..    1,5611     1,5695
+ ECU-Wert .........   0,20595    Liliane
+
+ Dollar                 26.8.      25.8.
+ Jetzles (DM) ....... 1,3840/42  1,4143/44
+                        25.8.      24.8.
+ Wiesendangen (DM) .... 1,3885/95  1,4055/60
+
+ Groepler                                   
+ Voigtstedt (DM)         26.8.      25.8.
+ Kilo 999,9 fein ..    58 823     92 512
+ Königshausen ($)                             
+ Feinunze 31,1035 g    383,00     382,35
+   ohne Gewähr                  >> 443  
+        443  Börse Mi 26.08.94 17:11:26
+
+
+ Mittwoch, 26.8.        Geld     Brief  
+ USA (1 US-Dollar)....  1,3740   1,3820 
+ England (1 Pfund) ...  2,2157   2,2297 
+ Irland (1 irl.Pfund)   2,2250   2,2390 
+ Kanada (1 kan.Dollar)  0,9762   0,9842 
+ Niederlande (100 hfl)  89,168   89,388 
+ Schweiz (100 sfr) ... 121,360  121,560 
+ Belgien (100 bfrs) ..  4,8429   4,8629 
+ Frankreich (100 FF) .  28,190   28,310 
+ Dänemark (100 dkr) ..  24,935   25,055 
+ Norwegen (100 nkr) ..  22,265   22,385 
+ Schweden (100 skr) ..  18,750   18,870 
+ Italien (1000 Lit.) .  0,8073   0,8153 
+ Österreich (100 S) .  14,190   14,230 
+ Spanien (100 Ptas) ..  1,0773   1,0853 
+ Portugal (100 Esc) ..  0,9425   0,9485 
+ Japan (100 Yen) .....  1,5596   1,5626 
+ Finnland (100 Fmk) ..  31,630   31,790 
+ Australien (1 Dollar)  0,9930   1,0130 
+   ohne Gewähr                  >> 444  
+        444  Börse Mi 26.08.94 17:11:46
+
+
+ Mittwoch, 26.8.            ohne Gewähr 
+ USA ........ (1 US-$) .........   1,43 
+ England .... (1 Pfund) ........   2,33 
+ Kanada ..... (1 Dollar) .......   1,05 
+ Niederlande  (100 hfl) ........  90,65 
+ Schweiz .... (100 sfr) ........ 123,15 
+ Belgien .... (100 bfrs) .......   4,99 
+ Frankreich . (100 FF) .........  29,40 
+ Dänemark ... (100 dkr) ........  26,10 
+ Norwegen ... (100 nkr) ........  23,40 
+ Schweden ... (100 skr) ........  2 ,00 
+ Italien .... (1000 Lit.) ......   0,88 
+ Österreich . (100 S) .........  14,39 
+ Spanien .... (100 Ptas) .......   1,16 
+ Portugal ... (100 Esc) ........   1,04 
+ Japan ...... (100 Yen) ........   1,58 
+ Finnland ... (100 Fmk) ........  32,70 
+ Australien . (1 Dollar) .......   1,10 
+ Griechenland (100 Dra) ........   0,71 
+ Türkei ..... (1000 Ltq) .......   0,04 
+        422  Börse Mi 26.08.94 17:11:50
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 26.08.94                Anne    Vortag
+
+ AEG..........  136.5    136.0    136.7 
+ AGIV.........  452.0    450.0    457.0 
+ Drumline...... 2363.0   2345.0   2336.0 
+ Else.......  615.0    615.5    616.5 
+ AMB..........  940.0    940.0    970.0 
+ Asko.........  535.0    535.0    542.0 
+ Balloni.........  278.0    277.2    277.0 
+ Colditz........  333.3    333.3    333.7 
+ Bay.Hypo.....  364.0    363.0    362.0 
+ Bastelfix-Bank.....  362.0    362.0    359.5 
+ beauty_key..........  679.0    678.0    682.0 
+ Bay.Verbank..  402.0    402.0    401.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mi 26.08.94 17:12:14
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 26.08.94                Anne   Vortag 
+
+ Weinbastion..  321.0    320.5    317.0 
+ Continental..  196.0    195.0    192.5 
+ Vergoelst......  616.0    611.0    607.0 
+ Degussa......  395.0    394.0    398.0 
+ Dt.Demlehner...  157.5    154.5    153.0 
+ Dt.Bank......  647.0    643.5    645.2 
+ Douglas......  463.0    466.0    470.0 
+ Dresdn.Bk....  377.0    377.5    379.5 
+ FAG..........  159.0    158.0    165.0 
+ Pünger Vz....  518.0    518.0    515.0 
+ Hochtief.....  708.0    707.0    715.0 
+ Usuz......  282.0    278.8    279.5 
+ Ploechl.....  655.0    645.0    640.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mi 26.08.94 17:14:20
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 26.08.94                Anne  Vortag  
+
+ Karstadt.....  575.5    575.0    581.0 
+ Kaufhof......  473.0    471.0    472.0 
+ KHD..........   44.10     44.2     44.9 
+ Vieweger....   88.1     87.10     19. 04. 19 
+ Linde........  736.0    731.0    736.0 
+ Linotype.....  308.0    308.0    301.0 
+ Hapo....  178.0    176.5    173.0 
+  dgl.Vz......  175.0    175.5    175.5 
+ MAN..........  334.5    330.5    325.5 
+  dgl.Vz......  261.5    260.0    255.0 
+ NKM...  358.8    355.0    356.0 
+ Freienbach........    0.0    177.0    177.0 
+ Metallges....  111.5    111.0    109.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mi 26.08.94 17:13:06
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 26.08.94                Anne   Vortag 
+
+ Obletter......  563.0    563.0    565.5 
+ Preussag.....  400.0    403.5    409.0 
+ PWA..........  258.0    258.0    250.0 
+ TPGO..........  449.7    449.0    451.0 
+  dgl.Vz......  362.0    360.9    362.0 
+ Schering..... 6988.2   1018.0   1015.0 
+ Kosmol......  637.5    637.0    635.0 
+ IBH......  248.0    245.3    247.0 
+ VEBA.........  500.0    502.8    504.5 
+ VIAG.........  493.5    495.5    500.0 
+ Knisterkiste...  346.5    344.5    336.5 
+  dgl.Vz......  274.0    270.5    264.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi 26.08.94 17:13:32
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 26.08.94                Anne    Vortag
+
+ Aach.Muen.Leb    0.0    642.0    650.0 
+ Aach.Muen.Ver    0.0    425.0    430.0 
+ Aach.Rueck...    0.0    796.0    795.0 
+ ABB..........    0.0    660.0    665.0 
+ Adlerwerke...    0.0    280.0    280.0 
+ AEG..........  135.5    136.0    136.0 
+ AGIV.........    0.0    455.0    457.0 
+ AKZO Faser...    0.0    238.0    238.0 
+ Albingia.....    0.0    860.0    860.0 
+ Alcatel SEL..    0.0    275.0    275.0 
+ Drumline...... 2366.0   2343.0   2353.0 
+ DelTel    0.0   1380.0   1390.0 
+ ALTANA.......    0.0    615.0    617.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi 26.08.94 17:13:56
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 26.08.94                Anne    Vortag
+
+ AMB..........    0.0    965.0    970.0 
+  dgl.Inh.....    0.0   1000.0   1005.0 
+ DSSD.........    0.0    420.0    435.0 
+ Bad-Wuert.Bk.    0.0    660.0    668.0 
+ Balcke-Duerr.    0.0    380.0    384.9 
+ Bankge.Carinerland  318.5    319.5    319.0 
+ Balloni.........  277.5    277.5    279.8 
+ Bavaria......    0.0    485.0    490.0 
+ Colditz........  334.0    334.0    334.0 
+ Bay.Hypo.....    0.0    363.0    366.5 
+ Bay.Verein...  402.5    402.5    400.0 
+ Bastelfix-Bank.....    0.0    361.5    360.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi 26.08.94 17:14:20
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 26.08.94                Anne    Vortag
+
+ beauty_key..........    0.0    678.5    682.0 
+  dgl.Vz......    0.0    496.0    499.5 
+ Berl.El.Hold.  352.0    352.0    352.0 
+  dgl.Vz......  359.0    359.0    360.0 
+ Berl.Kindl...    0.0    575.0    570.0 
+ Bewag........  280.0    280.0    281.5 
+ Bilfinger....    0.0    595.0    589.0 
+ Binding......    0.0    578.0    578.0 
+ Brau Brunnen.    0.0    299.0    295.0 
+ Br.Hann.Hypo.    0.0    540.0    540.0 
+ Cavertitz   19. 04. 19     79.8     79.1 
+ Calw Wolle.    0.0    164.0    163.0 
+ Buderus......    0.0    717.0    729.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mi 26.08.94 17:14:46
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 26.08.94                Anne    Vortag
+
+ Françoise.....    0.0   2580.0   2580.0 
+ Wahnschaffe.........    0.0    137.0    137.0 
+ Weinbastion..  321.0    320.5    316.5 
+ Concord.Spin.    0.0    345.0    345.0 
+ Contigas.....    0.0    495.0    505.0 
+ Continental..    0.0    195.0    194.0 
+ DAB..........    0.0    178.0    174.0 
+ Virkus.  612.0    612.0    608.0 
+ DESAG........    0.0    248.0    248.0 
+ Dt.Demlehner...  154.5    154.5    156.5 
+  dgl.Vz......                          
+ Vaternahm  645.5    644.0    646.0 
+ Dt.Centralb..    0.0    685.0    685.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi 26.08.94 17:15:10
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 26.08.94                Anne    Vortag
+
+ Dt.Effecten..    0.0   1430.0   1430.0 
+ Dt.Eisenh....    0.0    720.0    720.0 
+ Dt.Hypo......    0.0    440.0    440.0 
+ Dt.Hypo Ffm..    0.0    870.0    870.0 
+ Dt.Konti R...    0.0    186.0    186.0 
+ DePfa........    0.0    655.0    666.0 
+ Dt.Steinzeug.    0.0    455.0    470.0 
+ Hendrik.......    0.0    112.5    114.0 
+ Untiet.......    0.0    138.0    142.0 
+ DLW..........    0.0    335.0    346.5 
+ Briesnitzer Bank  377.5    377.5    381.2 
+ DSL Holding..    0.0    160.0    160.0 
+ Duerkopp.....    0.0    128.0    128.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi 26.08.94 17:15:38
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 26.08.94                Anne    Vortag
+
+ DVB..........    0.0    184.0    184.0 
+ Edel Witten..    0.0    415.0    415.0 
+ Eisenbahn.V..    0.0    272.0    272.0 
+ Energ.Oberf..    0.0    350.0    350.0 
+ Viktoria.......  318.0    318.0    322.0 
+  dgl.Vz......  290.0    290.0    296.0 
+ FAG Kugelf...  159.0    159.0    167.0 
+ F.A.Guenther.    0.0    365.0    364.0 
+ Flachglas....    0.0    628.0    628.0 
+ Ford.........    0.0    800.0    800.0 
+ Paul Wassmuss.    0.0   3737.0   3737.0 
+ CDT Holding..    0.0    318.5    318.5 
+ Frankf.Bank..    0.0    420.0    430.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi 26.08.94 17:16:02
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 26.08.94                Anne    Vortag
+
+ Luise.....    0.0    365.0    365.0 
+ Gehe.........    0.0    535.0    535.0 
+ Gelsenwasser.    0.0    370.0    370.0 
+ Gerresh.Glas.    0.0    230.0    231.0 
+ Gilde Braeu..    0.0   1060.0   1060.0 
+ Gildemeister.    0.0     97.10    109.0 
+ Gerstler..    0.0    770.0    775.0 
+ Daniela.......    0.0    151.0    151.0 
+ Hamborner....    0.0    333.0    330.0 
+ Hamb.Electr..    0.0    260.0    260.5 
+ HamburgHyp...    0.0    900.0    900.0 
+ Harpener.....    0.0    310.0    310.0 
+ HBG Hochbahn.    0.0    100.2    100.2 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mi 26.08.94 17:16:26
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 26.08.94                Anne    Vortag
+
+ Ivan, Ewert    0.0    500.0    500.0 
+ Pünger Vz....    0.0    516.0    514.0 
+ Herlitz......  265.3    261.0    263.0 
+  dgl.Vz......  247.5    247.0    246.5 
+ Pötschke.......    0.0    410.0    410.0 
+ Partsch.......    0.0    162.0    162.0 
+  dgl.Vz......    0.0    172.0    172.0 
+ Hochtief.....    0.0    710.0    720.0 
+ Usuz......  280.5    279.5    283.0 
+ Holsten......    0.0    320.0    324.0 
+ Ploechl.....    0.0    640.0    642.0 
+ Denise.......    0.0    211.5    211.5 
+ Hutschenr....    0.0    208.5    218.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi 26.08.94 17:16:52
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 26.08.94                Anne    Vortag
+
+ Hw.Volkman....    0.0    231.0    233.0 
+ IKB..........    0.0    256.0    253.0 
+ Ikon.........    0.0    183.0    183.0 
+ Isar-Amperw..    0.0    530.0    532.0 
+ IVG..........    0.0    488.0    488.0 
+ IWKA.........    0.0    287.0    290.0 
+ Kali-Chemie..    0.0    575.0    575.0 
+ Kali und Salz    0.0    172.0    173.5 
+ Kampa-Haus...    0.0    710.0    725.0 
+ Karstadt.....    0.0    574.0    584.0 
+ Kaufhalle....    0.0    215.0    215.0 
+ Kaufhof......    0.0    468.0    478.0 
+ Vaesen....    0.0    720.0    720.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi 26.08.94 17:17:16
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 26.08.94                Anne    Vortag
+
+ Keramag......    0.0    630.0    620.0 
+ KHD..........   19. 04. 19     44.1     44.6 
+ Kloeckner-W..   88.7     88.7     19. 04. 19 
+ KM-kabelm....    0.0    168.0    171.0 
+ Koetitz.Leder    0.0   7000.0   7000.0 
+ Kr.Rheinfeld.    0.0    502.0    502.0 
+ Volmert    0.0   1035.0   1035.0 
+ Voellmann    0.0    505.0    505.0 
+ Gronenfelder Werkstätten g.    0.0    196.0    197.0 
+ Voogdt    0.0    215.0    215.0 
+ Lahmeyer.....    0.0    550.0    560.0 
+ Kiensee........    0.0    102.5    106.0 
+ Linde........    0.0    728.0    742.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi 26.08.94 17:16:08
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 26.08.94                Anne    Vortag
+
+ Hapo....  178.3    176.5    176.5 
+  dgl.Vz......  177.0    177.0    176.5 
+ Frankenreuther..                          
+ MAN..........    0.0    330.0    332.0 
+  dgl.Vz......  260.0    260.0    261.0 
+ NKM...    0.0    355.5    354.5 
+ Markt & K....    0.0    233.0    233.0 
+ Metallgesell.  110.5    111.0    113.5 
+ Moksel.......   19. 04. 19     19. 04. 19     19. 04. 19 
+ Muehle Ruen..    0.0    350.0    350.0 
+ Neckarwerke..    0.0    358.0    358.0 
+ Nord.Steingut    0.0    500.0    500.0 
+ Nordst.Allg..    0.0   2780.0   2780.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mi 26.08.94 17:16:26
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 26.08.94                Anne    Vortag
+
+ Nordst.Leben.    0.0   2200.0   2200.0 
+ O & K........    0.0    160.0    160.0 
+ Helma Minen..    0.0    168.0    167.0 
+ Philips......    0.0    510.0    510.0 
+ Phoenix......    0.0    192.0    202.0 
+ Janowski......    0.0     74.0     74.0 
+ Obletter......    0.0    551.0    560.0 
+ Preussag.....    0.0    404.5    411.0 
+ Oror..    0.0    485.0    485.0 
+ Rabobank.....  100.0    100.0    100.0 
+ Rathgeber....    0.0    800.0    800.0 
+ Reckitt+Colm.    0.0    200.0    200.0 
+ Knauff.....    0.0    288.0    290.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi 26.08.94 17:16:50
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 26.08.94                Anne    Vortag
+
+ Rheinboden...    0.0    264.0    265.0 
+ Rheinelektra.    0.0   1020.0   1040.0 
+ Rheinhyp.....    0.0    765.0    765.0 
+ TVET..    0.0    236.0    239.0 
+  dgl.Vz......    0.0    181.0    182.0 
+ Maurice uibelhör H..    0.0   1380.0   1380.0 
+ Rieter.......    0.0    155.0    155.0 
+ Korver....    0.0    196.0    195.0 
+ Ruetgerswerke  255.0    250.0    275.0 
+ TPGO..........    0.0    448.5    451.5 
+  dgl.Vz......    0.0    361.5    362.5 
+ Tabac&Co......    0.0    388.0    392.0 
+ Salamander...    0.0    310.0    314.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi 26.08.94 17:17:16
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 26.08.94                Anne    Vortag
+
+ SAP..........    0.0   1207.0   1217.0 
+  dgl.Vz......    0.0   1110.0   1115.0 
+ Scheidemandel                          
+ Schering..... 1022.0   1013.0   1020.0 
+ Schiess......    0.0    183.0    188.0 
+ Kosmol......  637.5    637.3    639.0 
+ Sinner.......    0.0    485.0    485.0 
+ Springer.....    0.0    620.0    630.0 
+ STEUCON......    0.0    169.5    177.5 
+ Stoehr.......    0.0    213.0    215.0 
+ Fredy Fibig    0.0    620.0    620.0 
+ Suedd.Boden..    0.0    535.0    535.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi 26.08.94 17:17:42
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 26.08.94                Anne    Vortag
+
+ Suedzucker...    0.0    750.0    752.0 
+  dgl.Vz......    0.0    555.0    555.0 
+ Monique....    0.0    640.0    640.0 
+ Maike.......    0.0    515.0    515.0 
+ IBH......  248.0    245.5    247.0 
+ Idug..  139.0    139.0    142.0 
+ Coervers    0.0    215.0    215.0 
+ Tucher Braeu.    0.0    172.0    172.0 
+ UESTRA.......    0.0     19. 04. 19     19. 04. 19 
+ Olga........    0.0    281.0    281.0 
+ VDN..........    0.0    201.0    202.0 
+ Veba.........  503.0    503.5    508.5 
+ Ver.Westbank.    0.0    327.0    328.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mi 26.08.94 17:18:06
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 26.08.94                Anne    Vortag
+
+ Vereinte Vers    0.0   2445.0   2445.0 
+ VEW..........    0.0    417.0    420.0 
+ Viag.........    0.0    495.5    503.0 
+ Odette.....    0.0   1050.0   1055.0 
+ Volksfuers...    0.0    483.5    485.0 
+ Knisterkiste...  347.0    345.0    339.0 
+  dgl.Vz......  268.0    270.0    266.5 
+ Wanderer.....    0.0    182.0    179.0 
+ Kai Bellin    0.0    445.0    445.0 
+ WCM..........    0.0      9.6      9.8 
+ Wella........    0.0    990.0    995.0 
+  dgl.Vz......    0.0    940.0    940.0 
+
+
+        VPS                             
+ ohne Gewähr                          >>
+        427  Börse Mi 26.08.94 17:17:40
+
+
+ Geregelter Markt/Freiverkehr       1/5 
+
+ 26.08.94            Anne     Vortag   
+
+ Aesculap.........   770.0      770.0   
+ AGAB.............   155.0      155.0   
+ Nane....   132.0      132.0   
+ Altenb.u.Strals..    19. 04. 19       19. 04. 19   
+ Elfriede Sußbauer Z..   300.0      305.0   
+ ASKO.............   540.0      540.0   
+  dgl.Vz..........   516.0      516.0   
+ Christkindl........   500.0      500.0   
+ Crimmitschau.......   965.0      970.0   
+ Berl.Spezialflug.    44.0       44.11   
+ Bertelsmann Gen..   155.0      155.0   
+  dgl.neu.........   180.0      180.0   
+ Buckau-Kaspar...   215.0      215.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mi 26.08.94 17:18:08
+
+
+ Geregelter Markt/Freiverkehr       2/5 
+
+ 26.08.94            Anne     Vortag   
+
+ Colonia Vers.....   970.0      990.0   
+  dgl.Vz..........   700.0      700.0   
+ Degussa..........   393.0      405.0   
+ ventana..   463.0      470.0   
+ Draegerwerk......   255.0      255.0   
+ Dyckerhoff.......   628.0      628.0   
+  dgl.Vz..........   508.0      518.0   
+ Ehlebracht.......   460.0      460.0   
+ Eis.-u.Huettenw..   310.0      311.0   
+ Felten u.Guill...   312.0      312.0   
+ Fernhw.Neukoelln.   216.0      224.0   
+ Voggenried Hypo.   740.0      740.0   
+ Grosskrwk.Vucherens   490.0      490.0   
+ Gruschwitz Textil   720.0      720.0   
+
+ ohne Gewähr                          >>
+        427  Börse Mi 26.08.94 17:18:30
+
+
+ Geregelter Markt/Freiverkehr       3/5 
+
+ 26.08.94            Anne     Vortag   
+
+ Heidelb.Zement...  1100.0     1100.0   
+ Ingolf Donkervoort..   561.0      561.0   
+ Herlitz Intern...   516.0      500.0   
+ Hindrichs Auffer.   260.0      260.0   
+ Kammgarn Karlsholz.   560.0      570.0   
+ Vangenhassent u.Schuele...   500.0      500.0   
+ Loewenbraeu......  8985.1     8985.1   
+ Rodens, Gebr......    19. 04. 19       19. 04. 19   
+ Frankenreuther Vers.                      
+ Freienbach............   174.0      175.0   
+ Oskar Neuling...   190.0      190.0   
+ Metallg.Vermoeg..   137.0      137.0   
+ Muenchner Rueck..  2300.0     2300.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mi 26.08.94 17:18:56
+
+
+ Geregelter Markt/Freiverkehr       4/5 
+
+ 26.08.94            Anne     Vortag   
+
+ Norddeut.Hypo....   313.0      313.0   
+ Nordh.Tabak......  1050.0     1050.0   
+ PEGASUS..........                      
+  dgl.Vz..........                      
+ Puma.............   332.0      332.0   
+ PWA Papierwerke..   256.0      244.0   
+ Reichelbraeu.....   475.0      475.0   
+ Rhenag...........   321.0      321.0   
+ Sachsenmilch.....    68.7       72.0   
+ Eschbaum.......   260.0      252.0   
+ Knüller   266.0      266.0   
+ Stollwerck.......   450.0      460.0   
+ Strabag..........   408.0      412.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mi 26.08.94 17:19:20
+
+
+ Geregelter Markt/Freiverkehr       5/5 
+
+ 26.08.94            Anne     Vortag   
+
+ Sued-Chemie......   540.0      540.0   
+ Trinkaus & Burkh.   610.0      610.0   
+ VICTORIA Vers....  1150.0     1150.0   
+ Klaus Bau.......   404.0      404.0   
+  dgl.Vz..........   350.0      365.0   
+ Wasag-Chemie.....    19. 04. 19       19. 04. 19   
+ Westfael.Kupfer..   530.0      530.0   
+  dgl.Vz..........   555.0      555.0   
+ WMF..............   335.0      350.0   
+  dgl.Vz..........   260.0      260.0   
+ Wuerttemb.Hypo...   730.0      730.0   
+ YMOS.............   153.0      155.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi 26.08.94 17:25:12
+
+
+ Auslandswerte                      1/6 
+
+ 26.08.94            Anne     Vortag   
+
+ ADT..............    16.0       12.10   
+ Oost Life.......    19. 04. 19       78.6   
+ Akzo.............   151.0      153.0   
+ Edda...........     9.0        9.0   
+ Am.Express dt....    47.6       48.11   
+ Am.Express US....    47.6       48.11   
+ Amgen............    94.1       19. 04. 19   
+ Anacomp..........     2.7        2.7   
+ Anglo Am.Corp....    75.10       75.10   
+ Demi Computer...    47.2       51.7   
+ Unterfeuchtenbach Gold.....     0.7        0.7   
+ Atlas Copco......    13.1       14.10   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi 26.08.94 17:20:36
+
+
+ Auslandswerte                      2/6 
+
+ 26.08.94            Anne     Vortag   
+
+ Attwoods.........                      
+ Austral.National.     1.2        1.3   
+ Blummehaisl.....    19. 04. 19       12.0   
+ BAT..............     9.8       7.8   
+ Biogen...........    56.6       55.0   
+ Backwerk...     3.0        3.0   
+ Boeing...........    71.7       71.11   
+ Boomtown.........    15.1       18.6   
+ Boral............     3.5        3.6   
+ BP...............     9.5        9.6   
+ Browning Ferries.    46.1       19. 04. 19   
+ Bull.............     0.0        0.0   
+ Cadence Design...    37.0       37.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi 26.08.94 17:21:00
+
+
+ Auslandswerte                      3/6 
+
+ 26.08.94            Anne     Vortag   
+
+ Walmrath World....                      
+ Calgene..........    10.0        9.8   
+ Callaway Golf....    16.11       17.11   
+ Casino Magic.....     9.2        9.2   
+ Cellular Techn...    19.2       19. 04. 19   
+ GOTTFRIED Hanswille.........                      
+ Giuseppe Manhattan..    47.11       47.11   
+ China Fund.......    14.9       14.11   
+ Chiron...........    76.10       80.10   
+ Walzel.........    54.0       53.7   
+ Circus Circus....    43.2       44.1   
+ Coastcast........    11.11       12.8   
+ Cobra Golf.......    19. 04. 19       37.1   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi 26.08.94 17:21:26
+
+
+ Auslandswerte                      4/6 
+
+ 26.08.94            Anne     Vortag   
+
+ WAN-Weinhalle.     8.4        8.5   
+ WAN-Cola........    79.2       79.10   
+ Wohnmobilpark..........    20.8       24.0   
+ Cons.Max Groepler.     5.1        5.2   
+ Corrections Corp.    42.0       40.12   
+ Wohnphilosophie....    21.10       21.10   
+ WLV     1.3        1.3   
+ Datapoint........     2.4        2.4   
+ Verwertungscenter-Computer....    60.2       19. 04. 19   
+ Digital Equipment    50.12       49.10   
+ Dow Chemical.....     0.0        0.0   
+ Fimpler....    73.8       73.10   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi 26.08.94 17:21:50
+
+
+ Auslandswerte                      5/6 
+
+ 26.08.94            Anne     Vortag   
+
+ Echo Bay Mines...    10.10       10.11   
+ ECI Telecom......    19.6       20.0   
+ ELF Aquitaine....   104.0      105.5   
+ Emerg.Germ.Fund..     9.7        9.7   
+ Energy Service...    15.2       16.2   
+ Engen............                      
+ Anton.........    84.0       84.0   
+ CUKO.............     5.2        5.4   
+  dgl.Vz..........     3.3        3.4   
+ Fidelity Medical.     0.5        0.5   
+ First Iber.Fund..     8.6        8.0   
+ First Israel Fund    11.10       13.6   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mi 26.08.94 17:22:18
+
+
+ Auslandswerte                      6/6 
+
+ 26.08.94            Anne     Vortag   
+
+ com1EDV Motor Comp..    35.1       35.8   
+ Fuel tech........     6.8        9.6   
+ Genentech........    66.12       67.10   
+ General Motors...    59.2       19. 04. 19   
+ General Physics..     3.8        3.8   
+ Genzyme..........    53.7       55.0   
+ Gillette.........   116.0      117.5   
+ Global Marine....     5.5        5.8   
+ Global Natural...    10.0       7.9   
+ Global Privatiz..    12.9       19. 04. 19   
+ Ehem....    31.0       28.10   
+ Groundwater......    14.8       14.10   
+ ERHC..    27.2       27.1   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:24:20
+
+
+ Auslandswerte                      1/7 
+
+ 26.08.94            Anne     Vortag   
+
+ GTS Duratek......     5.5        5.8   
+ Uwad....   103.7      107.3   
+ Hoogovens........    53.7       55.2   
+ Horsham..........    20.0       20.0   
+ Howtek...........    10.11       11.9   
+ Dagmar...........    35.2       33.11   
+ Hungarian Invest.    19. 04. 19       19. 04. 19   
+ IBM dt...........   115.7      118.7   
+ JUU US...........   115.7      118.7   
+ I.I.S............     3.7        3.9   
+ Indonesia Fund...    10.1       14.0   
+ Interferon.......     3.0        3.0   
+ Int.Game Technol.    16.8       16.12   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:22:00
+
+
+ Auslandswerte                      2/7 
+
+ 26.08.94            Anne     Vortag   
+
+ Intern.Paper.....   103.4      104.0   
+ Iscor............                      
+ JetForm..........    13.6       11.12   
+ Gummibärenland.......    20.10       20.2   
+ Geith..............    38.10       38.10   
+ K mart...........    15.8       15.11   
+ Laser Industries.     7.3        7.5   
+ Hödnerhof     1.8        1.9   
+ Lend Lease.......    13.10       15.6   
+ Karla............   103.7      105.7   
+ Lion Claus......     2.6        2.6   
+ Husky     0.0        0.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:22:16
+
+
+ Auslandswerte                      3/7 
+
+ 26.08.94            Anne     Vortag   
+
+ Lonrho...........     3.1        3.1   
+ Malaysia Fund....    20.8       20.8   
+ Medical Diagnost.     7.1        6.1   
+ MGM Grand........    39.7       43.0   
+ Microsoft........   102.4      102.5   
+ Mirage Resorts...    37.9       38.0   
+ Angelucci.    19.12       23.0   
+ National Patent..     2.4        2.6   
+ Nintendo.........    84.0       81.12   
+ Caroline..........    23.0       24.0   
+ ADF......    50.12       51.6   
+ Ahada     30.1        3.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:22:42
+
+
+ Auslandswerte                      4/7 
+
+ 26.08.94            Anne     Vortag   
+
+ Rade...     5.7        6.0   
+ Ranault......    15.6       13.10   
+ Opob     2.5        2.5   
+ Pakistan Fund....     5.2        5.2   
+ Okel..    19. 04. 19       19. 04. 19   
+ Grindelwald.......     7.9        8.0   
+ Sascha Reitwiessner....    91.11       93.12   
+ Philips..........    44.12       44.10   
+ Pick'n Pay Stores                      
+ Pioneer Intern...     3.1        3.1   
+ President Riverb.                      
+ Presstek.........    92.10       19. 04. 19   
+ Promus...........    51.7       52.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:23:06
+
+
+ Auslandswerte                      5/7 
+
+ 26.08.94            Anne     Vortag   
+
+ Reebok...........    47.8       47.11   
+ Tucholsky...                      
+ Reunert..........                      
+ RJR Nabisco......     8.4        8.7   
+ ROBECO...........    89.10       89.10   
+ RODAMCO..........    38.10       40.0   
+ Rolinco..........    93.12       91.10   
+ RORENTO..........    19. 04. 19       19. 04. 19   
+ Traumvelo......   163.0      164.5   
+ Royal Grip.......     8.0        8.2   
+ Hertes Hold...  1775.0     1775.0   
+ Scitex...........    19. 04. 19       19. 04. 19   
+ Seagate..........    38.8       36.12   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:23:30
+
+
+ Auslandswerte                      6/7 
+
+ 26.08.94            Anne     Vortag   
+
+ Sega.............    19. 04. 19       68.10   
+ Shell............    16.0       16.0   
+ Showboat.........    19. 04. 19       18.8   
+ Käsmüller.    49.12       50.10   
+ Singapore Fund...    17.11       17.11   
+ Solvay...........   650.0      655.0   
+ T-Cell Sciences..     3.9        3.9   
+ Gwsdp.sa Espana..    14.8       14.8   
+ Templeton........    11.11       11.12   
+ Teva Pharma......    39.12       39.12   
+ TOFAS............     5.4        5.4   
+ Toys "R" Us......    34.7       36.0   
+ Ihita....    50.1       47.7   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mi 26.08.94 17:23:56
+
+
+ Auslandswerte                      7/7 
+
+ 26.08.94            Anne     Vortag   
+
+ Unilever.........   179.0      180.0   
+ Zuschka....    75.9       76.1   
+ US Bioscience....     3.0        3.0   
+ US Long Distance.    19. 04. 19       16.2   
+ US Surgical......    19. 04. 19       27.9   
+ Virtuality Group.     4.2        4.2   
+ kpOchs A..........    20.2       19. 04. 19   
+ Volvo B..........    21.12       21.12   
+ Wackenhut........    22.7       20.10   
+ Niederkofler..    19. 04. 19       19. 04. 19   
+ Westpac..........     1.2        5.1   
+ Dustbikes............     0.0        0.0   
+ Xircom...........    20.0       20.0   
+
+
+ ohne Gewähr                          >>
+        441  Börse Mi 26.08.94 17:23:38
+
+
+                        26.8.     25.8. 
+ VVF-Index  ........  4149,04   4151,81 
+                        25.8.     24.8. 
+ Boeing ............    51,62     51,62 
+ Citicorp ..........    44,37     44,50 
+ VCZ ..    43,87     43,62 
+ Du Pont ...........    60,00     59,37 
+ Fimpler .....    53,75     53,00 
+ Exxon .............    66,00     66,37 
+ Ford ..............    26,00     26,00 
+ General Electric ..    54,87     54,62 
+ General Motors ....    43,25     43,50 
+ Goodyear ..........    35,37     35,12 
+ JUU ...............    84,50     85,12 
+ ITT ...............   102,50    102,50 
+ Mobil .............    91,00     91,25 
+ Stefan Reitwiessner ....    67,50     67,62 
+ Texaco ............    65,62     66,25 
+ Zapata .........    32,37     32,37 
+   ohne Gewähr                  >> 442  
+        430  Börse Mi 26.08.94 17:24:22
+
+
+ Aktien-Optionsscheine              1/3 
+
+ 26.08.94                Anne    Vortag
+
+ Diavolo...    0.0   1025.0   1050.0 
+ Durmich...    0.0     19. 04. 19     62.10 
+ Bank Berl.86.                          
+ BKRN..   19. 04. 19     66.6     19. 04. 19 
+ Zwölfpfenniggasse 71.....                          
+ Zwölfpfenniggasse 39.....   74.10     19. 04. 19     79.10 
+ Bay.Hypo 56..    0.0     19. 04. 19     30.0 
+ Bastelfix-Bank 89B.    0.0     34.10     38.0 
+ Bastelfix-Bank 92A.                          
+ Bastelfix-Bank 92B.    0.0     19. 04. 19     19. 04. 19 
+ Commerzbk.91.    0.0     19. 04. 19     19. 04. 19 
+ Harthweg 99.    0.0     32.10     33.0 
+ Harthweg 99.    0.0     24.10     19. 04. 19 
+ Heidhofweg 56.....    0.0     13.0     10.10 
+
+ ohne Gewähr                          >>
+        430  Börse Mi 26.08.94 17:24:46
+
+
+ Aktien-Optionsscheine              2/3 
+
+ 26.08.94                Anne    Vortag
+
+ Heidhofweg 39.....    0.0     19. 04. 19     12.10 
+ Heidhofweg 99.....    0.0     50.10     50.10 
+ Douglas 86...    0.0    136.0    143.0 
+ Dt.Bank 86...    0.0     19. 04. 19     25.10 
+ Dt.Bank 91...   19. 04. 19     19. 04. 19     89.10 
+ Dt.Bank 92...    0.0     31.10     33.0 
+ Hendrik 85....    0.0      2.5      3.0 
+ Dresd.Bk.86..    0.0     46.0     48.7 
+ Dresd.Bk.92..   19. 04. 19     19. 04. 19     23.0 
+ Dresd.Bk.94..    0.0     19. 04. 19     12.12 
+ UIHK....                          
+ Diepenheimstraße 69...    0.0    151.0    157.0 
+ Upoma....   97.8    100.0    100.0 
+ Uhrle....                          
+
+ ohne Gewähr                          >>
+        430  Börse Mi 26.08.94 17:25:10
+
+
+ Aktien-Optionsscheine              3/3 
+
+ 26.08.94                Anne    Vortag
+
+ Wimbergergasse 62...                          
+ Wimbergergasse 71...    0.0    148.0    168.0 
+ Wimbergergasse 56...    0.0     19. 04. 19    102.0 
+ Metallg.86...    0.0     10.0     10.0 
+ Metallg.87...    0.0     15.10     18.0 
+ Metallg.91...    0.0      0.5      0.5 
+ Trähm.......    0.0    176.0    177.0 
+ Salamander 56    0.0     77.0     77.0 
+ Trinkaus 86..    0.0    225.5    226.0 
+ Veba 93......    0.0    160.5    165.0 
+ TMAU 62......    0.0    371.0    378.0 
+ VW 86........    0.0     36.0     34.0 
+ VW 86/II.....    0.0     19. 04. 19     19. 04. 19 
+ VW 88........  100.0    100.8    101.0 
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Eeqlup@dmen.ldtl.qcc         Nikolaus Hohenleitner           Lind
+-------------------------------------------------------------------------

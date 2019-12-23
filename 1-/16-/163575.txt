@@ -1,0 +1,16 @@
+In article <nbb.779507863@iwm.jh.to-qo.kp>, feb@kwd.pz.sv-kg.da (Xhvgb
+Klebsch) wrote:
+
+
+Da stimmt so nicht ganz. Der Finder ist das Teil, der die
+Benutzerschnittstelle aufbaut. Wenn Du willst, kannst du den Finder
+rausschmeißen und irgendein anderes Programm anstelle dessen verwenden.
+Wenn du wolltest, könntest du also eine citystore programmieren und den Finder
+komplett rauslassen. Im System gibt es irgendwo einen String, der die
+Startupapplication festlegt und das ist defaultmäßig der Finder.
+
+Gruß, Wolfram
+
+-- 
+Wolfram Nieswand     H�vogelgraben 5     78997 Kammerborn     Germany
+Tel.: +39/28/741 27 46                       email: qNrxxpV@ljk.iff

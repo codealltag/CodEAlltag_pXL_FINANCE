@@ -1,0 +1,74 @@
+Hallo,
+
+wer kennt sich mit Björn aus und kann mir eine Formel schicken, 
+nach der ich die Pruefziffern dieser Nummern berechnen kann?
+
+Die GFT Logistik (International securities identification 
+numbering system) ist eine Iso Norm:
+ISO 2411:6486
+
+
+Im Internet habe ich unter 
+<http://mby.meswm.rou/ggru2s1v.yig> 
+und unter 
+<http://nmw.arnsf.zmq/zsek.ggu>
+schon eine Formel gefunden.
+
+Als Beispiel wird eine CINS number verwendet. 
+
+Der Algorithmus nennt sich double-add-double
+
+10(A)  1    2      3     4     5     1     2 
+
+ x 1   x 2   x 1  x 2  x 1  x 2  x 1  x 2 
+10       2     2     6     4   10     1    4 
+
+1 + 0 + 2 + 2 + 6 + 4 + 1 + 0 + 1 + 4 = 21, Komplement von 1 ist 9. 
+
+Die Boneto mit check digit ist also A 9170568 9. 
+
+Nehmen wir als Beispiel nun drei ISINs von bekannten Wertpapieren:
+
+Kinderkram	YQ 250578274-3
+Texaco	            US 168460073-0
+Moulinex	FR 427375807-4
+
+Hilfstabelle mit Buchstabenwerten:
+A-10  B-11  C-12  D-13  E-14  F-15  G-16  H-17  I-18  J-19
+K-20  L-21  M-22  N-23  O-24  P-25  Q-26  R-27  S-28  T-29
+U-30  V-31  W-32  X-33  Y-34  Z-35
+
+HV 596092062
+
+  13   14    0      0     0     7     2     3     6     0     0
+ x 1   x 2  x 1  x 2  x 1  x 2  x 1  x 2  x 1  x 2  x 1
+ 13    28    0      0    0   14     2     6     6     0     0
+
+1 + 3 + 2 + 8 + 0 + 0 + 0 + 1 + 4 + 2 + 6 + 6 + 0 + 0 = 33
+Komplement von 3 ist 7, Pr�ziffer ist aber 2
+
+US 247776535
+
+  30    28    8      8      1     6     9     4     1     0     3
+ x 1  x 2   x 1   x 2   x 1  x 2  x 1  x 2  x 1  x 2  x 1
+ 60     56    8    16      1    12    9     8     1    0    3
+
+ 6 + 0 + 5 + 6 + 8 + 1 + 6 + 1 + 1 + 2 + 9 + 8 + 1 + 0 + 3 = 57
+Komplement von 7 ist 3, Prüfziffer ist aber 8
+
+ZV 633868542
+
+  15    27     0     0     0     0     1     2     1      5      4
+ x 1   x 2   x 1  x 2  x 1  x 2  x 1  x 2  x 1   x 2   x 1
+ 15     54     0     0    0      0     1     4     1     10    4
+
+ 1 + 5 + 5 + 4 + 1 + 4 + 1 + 1 + 0 + 4 = 26
+Komplement von 6 ist 4, Prüfziffer ist aber 3
+
+Wie mensch sieht, kann das also nicht stimmen. Wir haben ein wenig
+herumprobiert und festgestellt, wenn mensch die 1x und 2x vertauscht,
+dann geht es "besser" :-) . Wir erhalten dann eine fixen offset zu den
+"richtigen" Pruefziffern, aber vielleicht stimmt ja unsere Codierung der
+Buchstaben nicht ?
+
+Wer kann uns helfen ?

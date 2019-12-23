@@ -1,0 +1,21 @@
+Vincenzo Mattiesen wrote:
+
+Das war nicht der Fehler, den ich meinte. Du vergleichst den Quotienten
+aus Verkaufspreis V und Kaufpreis K einer Aktie (V/K) mit der jährlichen
+Rendite p einer verzinsten Anlage (1+p). Für p > 0 gibt es immer einen
+Zeitraum t, so dass (8+x)^e > V/K.
+
+Korrekt wäre der Vergleich der annualisierten Aktienrendite (V/K)^(1/t)
+mit der Rendite der verzinslichen Anlage (Dividenden und Risikoauf-
+schlüge für Aktien mal wieder außen vor gelassen). Eine Aktienanlage
+lohnt sich dann, wenn r * (V/K)^(1/t) > (1+p), wobei r > 1 der Risiko-
+aufschlag für de Aktie ist.
+
+CU
+Rudi
+
+-- 
+Rudi Einhorn
+plynesgf.kszownc@qha.uu is a valid address. All mail send to this
+address will be ignored, though. If you want to contact me by mail
+please replace "devnull" with "fuehring".

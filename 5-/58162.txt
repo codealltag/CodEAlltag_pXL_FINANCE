@@ -1,0 +1,16 @@
+nicht ganz richtig, der Kurs muss nicht drueber liegen, er kann auch drunter
+liegen.
+
+Stop Buy 41 heisst
+
+Kurs ist bei 40 = nix passiert
+
+Kurs ist bei 41 - kein Handel = nix passiert
+
+Kurs ist bei 42 - kein Handel = nix passiert
+
+Kurs ist bei 41 - es wird gehandelt =  die stop buy order fuer 41 wird im
+Anschluss hieran als unlimitierte Order bestens ausgefuehrt, sofern sie dann
+zum Zuge kommt, der effektive Kaufkurs kann Euro 20 aber auch Euro 80 sein
+oder irgendwo dazwischen/dadrueber/dadrunter, eben der dann gueltige
+Marktwert.

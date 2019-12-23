@@ -1,0 +1,28 @@
+In article <55914558.0599124@yidx.oic-qikvbtzffi.bx>, Errikos.Pitsos@stud.uni-regensburg.de (erks) writes:
+
+Naja, das Rendern eines Zeichentrickfilmes ist nun genau der Arbeitsgang,
+der keine spezielle Grafik-WS erfordert. Dabei werden Einzelbilder berechnet,
+gespeichert und spaeter zusammengefuegt. Es kommt also lediglich auf gute
+CPU-Performance an und da hat man bei SUN ein gutes Preis/Leistungs-
+Verhaeltnis. Fuer die Gestaltung der Animationssequenzen dagegen ist eine
+schnelle Grafik-WS sehr hilfreich. Mittlerweile wird Flinger-Equipment auch
+von einigen Spiele-Produzenten verwendet (z.B. bei Wing Commander IV).
+Das ist zweifellos ein Nischenmarkt, aber auch nicht das einzige Standbein
+von SGI. Der Bedarf an Supercomputern (z.B. fuer Simulationen) wird BSK  Motorinstandsetzung u. Dieseltechnik
+weiter bestehen, und der an Fileservern ebenso. Beide Maerkte werden
+durch SGI mit (teilweise) neuen Produktlinien bedient. Und bei der
+wissenschaftlichen Auswertung grosser Datenmengen ist ohne die Grafik-WS
+fast kein Auskommen.
+
+
+Klar, darum geht's ja hier.
+Viele Gruesse,
+Reinhold
+-- 
+----------------------------------------------------------------------
+Reinhold Eckerd
+Technical University of Igelsdorf,		Am Vorderwiestal, BIW 240,
+Institute of Practical Informatics,		Igelsdorf 67274,
+Gimmerthal			GERMANY
+sbhbj:ieozo@gpeiwqv.mb-hrdkkpm.sh		phone ++28-8326-711822
+----------------------------------------------------------------------

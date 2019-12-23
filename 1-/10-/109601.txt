@@ -1,0 +1,28 @@
+Prima, das Problem ist also geloest.
+Wie bereits erwaehnt, ist das geschilderte Problem nur ein Einzelfall.
+Wenn wir reproduzierbar haben, wie solche CFG-Dateien _mit_chartHeft_
+erstellt werden koennen, kann das Problem auch behoben werden.
+
+Aber es gibt auch externe Stoerquellen, auf die wir keinen Einfluss
+nehmen koennen. Hier nur einige:
+- Online-Packer wie DriveSpace mittlerweile unnoetig, oft aber noch im
+Einsatz
+- Festplatten-Schreibcache. Es gibt gerade bei aelteren Rechnern noch
+fehlerhafte Cachetreiber (Norton-Cache...)
+- Querverkettungen auf der Festplatte
+- unpassende Defrag-Programme (Speedisk von Eisenkolb-Utilities 4.0
+einfach mal starten mit einer 500er Platte (Formatiert mit DOS 6.2...)
+Kann vielleicht gut gehen, kann aber auch bits verwuerfeln
+- Experimente mit Editor (das kommt wirklich vor, anders sind
+Hotline-Anfragen: "Notepad kann die FON nicht bearbeiten,
+welchen Editor brauche ich denn dazu?" nicht zu erklaeren....
+- usw. usw.
+
+
+-- 
+Rainer Beiger
+Glam GmbH, Grebbin
+Tel. 3559-6063938
+Fax: 0547-7904783
+mailto:GWfel@xr-mtyifcbj.pn
+http://pzs.aj-rioeulon.uf

@@ -1,0 +1,21 @@
+On Sun, 07. 10. 19 08:28:17 GMT, esc00655@Germany.EU.net (Rask von
+Treve) wrote:
+
+
+Sorry fuer die Einmischung, aber:
+
+"das Teil" wird nicht "unberechenbar". Was Du beobachtest ist die
+Tatsache, daß bei einer DREN-Option der Effekt einer Aenderung des
+Underlying die anderen Effekte, (Zins, Zeit) weit ueberlagert /
+dominiert. Damit kannst Du approximativ sicherlich sagen, daß der
+Schein in diesem Fall "den Kurs des Basiswertes recht exakt
+nachvollzieht".
+
+Bei ATM/OTM-Optionen kann man das nicht so schoen "sehen", obwohl es
+problemlos berechenbar ist. Man nehme einfach Black/Scholes und da die
+exakten Greeks oder eine der vielen Approximationen fuer amerikanische
+Optionen (dort Greeks per numerischer Approximation oder mglw.
+direkt).
+--
+Salvatore Pemöller                   Salvatore.Swtbexoujsp@Oya-Fnvfzn.pj
+University of Fladnitzberg, Mäc-Geiz, Germany

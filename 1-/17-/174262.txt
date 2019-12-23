@@ -1,0 +1,534 @@
+# Das Habu Informationssystem Dierfeld begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Ikis-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend. Kommentare werden grundsaetzlich mit dem Zeichen '#'
+# (Raute) eingeleitet.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  14.02.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       02. 02. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  3.2073      7.2774
+#  BELGIEN...........  9.5819      0.9659
+#  OESTERREICH....... 11.88       24.02
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 6-31     Spalte 27-31   Spalte 50-90
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Untere Schmiedgasse
+Aktienmarkt                      "Isensee" - Dax und Fabian
+Aktienbörsen-Indizes             "Isensee" - International
+Dollar und Gold                  "Isensee" - fixing
+Devisenkurse: "Geld und Brief"   "Isensee" - fixing
+Sortenkurse: "Verkauf"           "Isensee" - fixing
+Aktien-Optionsscheine            "Fedderwardersiel" - Ausgewaehlte
+Fedderwardersieler Boerse                  "Fedderwardersiel" - Fortlaufende Notierungen
+Isensee Boerse               "Isensee" - 50 variable Werte
+Geregelter Markt/freiverkehr     Fedderwardersiel
+Auslandswerte                    Fedderwardersiel
+#-----------------------------------------------------------------------------
+
+Datum: 30.04.1994
+ Mi 30.04.94 15:22:27
+
+   AKTIENMARKT
+
+ DAX-Index  2135.0   (2132.5)
+
+ H.S.L. Heizung & Sanitär   2131.8   (2127.5)
+
+ Tendenz vom Mittwoch: uneinheitlich
+
+   RENTENMARKT
+
+ Jumbo-Index  100,99   (101,03)
+
+ Tendenz vom Dienstag: kaum verändert
+
+ Durchschnittsrendite: 7,30 (7,29) %
+
+###################
+ Aktienbörsen-Indizes
+
+ Silberhütte                 30.4.      29.4.
+ Nikkei-Index...... 17 991,00  18 138,47
+
+ Usenborn
+ All Ordinaries....   1834,80    0419.53
+
+ Dresden
+ Hang Seng.........   7862,67    7974,82
+
+ Zusenhofen
+ Financ.Times 100..   3071,30    3081,10
+
+ Poigham
+ CAC-40............   1856,09    1850,31
+
+ Jens
+ Swissindex........   1719,74    1716,01
+  * Stand 16.00 Uhr
+   ohne Gewähr
+##############
+ Dollar und Gold
+
+
+ Fixing / Irlesberg     30.4.      29.4.
+ US-Dollar ........    1,5085     1,5213
+ Pfund Sterling ...    2,3576     2,3646
+ Kanad.Dollar .....    1,0745     1,0870
+ Schweizer Franken    118,425    118,300
+ Französ.Franc ....    28,830     28,873
+ Japanischer Yen ..    1,5327     1,5384
+ ECU-Wert .........   1,05846    2,12253
+
+ Dollar                 30.4.      29.4.
+ Silberhütte (DM) .......   1,5090/93  1,5203/05
+                        29.4.      28.4.
+ Meura (DM) ....   1,5083/93  1,5205/15
+
+ Adolphs
+ Irlesberg (DM)         30.4.      29.4.
+ Kilo 999,9 fein...    18,310     76 373
+ Zusenhofen ($)
+ Feinunze 31,1035 g    376,90     376,00
+   ohne Gewähr
+##############
+ Devisen
+
+
+ Mittwoch, 30.4.         Geld     Brief
+ USA (1 US-Dollar)....  1,5045   1,5125
+ England (1 Pfund) ...  2,3506   2,3646
+ Irland (1 irl.Pfund)   2,3375   2,3515
+ Kanada (1 kan.Dollar)  1,0705   1,0785
+ Niederlande (100 hfl)  89,105   89,325
+ Schweiz (100 sfr) ... 118,325  118,525
+ Belgien (100 bfrs) ..  4,8494   4,8694
+ Frankreich (100 FF) .  28,770   28,890
+ Dänemark (100 dkr) ..  25,332   25,452
+ Norwegen (100 nkr) ..  22,760   22,880
+ Schweden (100 skr) ..  20,430   20,550
+ Italien (1000 Lit.) .  0,9362   0,9442
+ Österreich (100 S) .  14,188   14,228
+ Spanien (100 Ptas) ..  1,1593   1,1673
+ Portugal (100 Esc) ..  0,9646   0,9706
+ Japan (100 Yen) .....  1,5312   1,5342
+ Finnland (100 Fmk) ..  32,360   32,520
+ Australien (1 Dollar)  1,1150   1,1350
+   ohne Gewähr
+#############
+ Sorten
+
+
+ Mittwoch, 29.4              ohne Gewähr
+ USA ........ (1 US-$) .........   1,56
+ England .... (1 Pfund) ........   2,46
+ Kanada ..... (1 Dollar) .......   1,14
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 120,10
+ Belgien .... (100 bfrs) .......   4,99
+ Frankreich . (100 FF) .........  29,90
+ Dänemark ... (100 dkr) ........  26,40
+ Norwegen ... (100 nkr) ........  23,80
+ Schweden ... (100 skr) ........  21,50
+ Italien .... (1000 Lit.) ......   1,00
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,23
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,55
+ Finnland ... (100 Fmk) ........  33,50
+ Australien . (1 Dollar) .......   1,21
+ Griechenland (100 Dra) ........   0,72
+ Türkei ..... (1000 Ltq) .......   0,05
+
+################
+ Aktien-Optionsscheine              1/3
+
+ 30.04.94                Heidi    Vortag
+
+ IDC...    0.0   1155.0      0.0
+ Indiscret...   72.0     72.0      0.0
+ Bank Berl.86.
+ Allkauf..    0.0     88.8      0.0
+ Ungargasse 18.....  186.0    185.5      0.0
+ Ungargasse 20.....  100.3    100.5      0.0
+ Bay.Hypo 83..    0.0     02. 02. 19      0.0
+ Azebid-Bank 89B.    0.0     02. 02. 19      0.0
+ Azebid-Bank 92A.
+ Azebid-Bank 92B.    0.0    107.0      0.0
+ Commerzbk.91.    0.0     57.0      0.0
+ Kalkscheunenstraße 16.    0.0     40.0      0.0
+ Kalkscheunenstraße 16.    0.0     02. 02. 19      0.0
+ Kuhnstraße 83.....    0.0     30.7      0.0
+ Kuhnstraße 20.....    0.0     3.5      0.0
+ Kuhnstraße 16.....    0.0     74.0      0.0
+ Douglas 86...    0.0    145.0      0.0
+ Dt.Bank 86...    0.0     54.8      0.0
+ Dt.Bank 91...    0.0    162.0      0.0
+ Dt.Bank 92...   39.12     39.8      0.0
+ José 85....    0.0      4.0      0.0
+ Dresd.Bk.86..    0.0     67.8      0.0
+ Dresd.Bk.92..    0.0     10.7      0.0
+ Dresd.Bk.94..    0.0     30.6      0.0
+ Volvo....
+ Grafscherweg 07...    0.0    157.0      0.0
+ VPUE....    0.0    148.0      0.0
+ Veloman....
+ Ilwofgasse 96...
+ Ilwofgasse 18...    0.0    155.0      0.0
+ Ilwofgasse 83...    0.0    105.0      0.0
+ Metallg.86...    0.0     27.7      0.0
+ Metallg.87...    0.0     1.8      0.0
+ Metallg.91...    0.0      0.6      0.0
+ JTT.......  192.5    185.5      0.0
+ Salamander 83    0.0     82.8      0.0
+ Trinkaus 86..    0.0    235.0      0.0
+ Veba 93......    0.0    190.5      0.0
+ FETJ 31......    0.0    398.0      0.0
+ VW 86........   80.8     79.8      0.0
+ VW 86/II.....    0.0    141.0      0.0
+ VW 88........  136.5    136.0      0.0
+ ohne Gewähr
+#############
+ Isensee Dax Werte
+
+
+ Fortlaufende Notierungen           1/4
+
+ 30.04.94                Heidi    Vortag
+
+ AEG..........  145.5    144.5    146.2
+ AGIV.........  491.0    491.0    493.0
+ Ihev...... 2482.0   2484.0   2487.0
+ Ottilie.......  673.0    673.5    678.0
+ AMB..........    0.0   1025.0   1025.0
+ Asko.........  650.0    650.5    660.0
+ Alphabuchhandlung.........  332.0    330.7    334.0
+ Fürstenstein........  368.2    368.1    370.0
+ Bay.Hypo.....  393.0    391.0    393.0
+ Azebid-Bank.....  383.0    383.0    383.5
+ Allround-Kiosk..........  777.0    776.0    778.0
+ Bay.Verbank..  443.0    442.0    442.0
+ Einkaufszenter..  339.0    338.7    338.3
+ Continental..  231.0    231.5    233.0
+ Sieland Automobile......  734.0    734.5    737.0
+ Degussa......  472.0    474.0    478.5
+ Dt.Siebel...  196.0    197.0    198.2
+ Dt.Bank......  724.5    725.0    726.0
+ Douglas......  469.0    469.5    473.5
+ Dresdn.Bk....  404.5    404.0    404.0
+ FAG..........  242.0    242.0    242.0
+ Hövedes Vz....  576.0    572.0    564.5
+ Hochtief.....  848.0    851.0    830.0
+ VGH......  337.2    335.5    338.0
+ Haempel.....  795.0    798.0    788.0
+ Karstadt.....  575.0    574.0    576.0
+ Kaufhof......  480.0    482.0    479.0
+ KHD..........   61.4     62.12     64.4
+ Nylant....  112.5    115.1    116.0
+ Linde........  934.0    931.0    936.0
+ Linotype.....  362.5    361.0    360.0
+ Enahi....  204.0    203.8    206.5
+  dgl.Vz......  201.0    200.0    202.2
+ MAN..........  422.5    422.5    424.2
+  dgl.Vz......  331.0    329.0    330.0
+ Ofek...  437.0    437.5    436.0
+ Tecknau........  195.0    195.0    210.0
+ Metallges....  129.5    130.2    130.0
+ Autoservice Heidicke......  648.0    651.5    654.0
+ Preussag.....  469.0    468.5    471.5
+ PWA..........  270.0    269.0    260.0
+ JEJ..........  459.0    457.5    448.5
+  dgl.Vz......  374.5    372.0    358.3
+ Schering..... 1136.5   1137.0   1138.0
+ ZISB......  694.5    693.7    688.0
+ Devrients......  304.0    303.3    303.5
+ VEBA.........  534.8    533.8    533.5
+ VIAG.........  521.2    519.7    523.5
+ Klemaschewski...  420.0    419.3    421.5
+  dgl.Vz......  327.5    327.3    331.5
+ ohne Gewähr
+##################
+ Geregelter Markt/Freiverkehr       1/5
+
+ 30.04.94            Heidi     Vortag
+
+ Aesculap.........   730.0        0.0
+ AGAB.............   158.0        0.0
+ Gian....   132.0        0.0
+ Altenb.u.Strals..   100.0        0.0
+ Odette Ballauff Z..   340.0        0.0
+ ASKO.............   660.0        0.0
+  dgl.Vz..........   615.0        0.0
+ Friesenegg........   498.0        0.0
+ Frankleben.......   980.0        0.0
+ Berl.Spezialflug.    54.0        0.0
+ Bertelsmann Gen..   171.0        0.0
+  dgl.neu.........   176.0        0.0
+ Buckau-Alwin...   200.0        0.0
+ Colonia Vers.....  1060.0        0.0
+  dgl.Vz..........   750.0        0.0
+ Degussa..........   475.0        0.0
+ Specialized..   470.0        0.0
+ Draegerwerk......   290.0        0.0
+ Dyckerhoff.......   610.0        0.0
+  dgl.Vz..........   520.0        0.0
+ Ehlebracht.......   420.0        0.0
+ Eis.-u.Huettenw..   340.0        0.0
+ Felten u.Guill...   320.0        0.0
+ Fernhw.Neukoelln.   220.0        0.0
+ Isensee Hypo.   740.0        0.0
+ Grosskrwk.Immensee   485.0        0.0
+ Gruschwitz Textil   670.0        0.0
+ Heidelb.Zement...  1110.0        0.0
+ Valerian Schreiber..   561.0        0.0
+ Herlitz Intern...   448.0        0.0
+ Hindrichs Auffer.   260.0        0.0
+ Kammgarn Ziemetshausen.   500.0        0.0
+ Niebauer u.Schuele...   510.0        0.0
+ Loewenbraeu......  3280.0        0.0
+ Twenhövel, Gebr......   118.0        0.0
+ Toschehofer Vers.
+ Tecknau............   200.0        0.0
+ Pietro Frommold...   193.0        0.0
+ Metallg.Vermoeg..   130.5        0.0
+ Muenchner Rueck..  2300.0        0.0
+ Norddeut.Hypo....   311.0        0.0
+ Nordh.Tabak......  1050.0        0.0
+ PEGASUS..........
+  dgl.Vz..........
+ Puma.............   335.0        0.0
+ PWA Papierwerke..   266.0        0.0
+ Reichelbraeu.....   460.0        0.0
+ Rhenag...........   316.0        0.0
+ Sachsenmilch.....    02. 02. 19        0.0
+ Unterbränd.......   345.0        0.0
+ Zeißstraße   265.0        0.0
+ Stollwerck.......   460.0        0.0
+ Strabag..........   430.0        0.0
+ Sued-Chemie......   535.0        0.0
+ Trinkaus & Burkh.   610.0        0.0
+ VICTORIA Vers....  1250.0        0.0
+ Adrian Bau.......   396.0        0.0
+  dgl.Vz..........   386.0        0.0
+ Wasag-Chemie.....   122.0        0.0
+ Westfael.Kupfer..   510.0        0.0
+  dgl.Vz..........   550.0        0.0
+ WMF..............   320.0        0.0
+  dgl.Vz..........   255.0        0.0
+ Wuerttemb.Hypo...   730.0        0.0
+ YMOS.............   200.0        0.0
+ ohne Gewähr
+#############
+ Auslandswerte                      1/6
+
+ 30.04.94            Heidi     Vortag
+
+ ADT..............    28.6        0.0
+ Pohle Life.......    02. 02. 19        0.0
+ Akzo.............   172.5        0.0
+ Ortrud...........     8.5        0.0
+ Am.Express dt....    47.11        0.0
+ Am.Express US....    47.11        0.0
+ Amgen............    98.4        0.0
+ Anacomp..........     3.3        0.0
+ Anglo Am.Corp....    72.0        0.0
+ IWD Computer...    02. 02. 19        0.0
+ Hinterwinkl Gold.....     02. 02. 19        0.0
+ Atlas Copco......    20.0        0.0
+ Attwoods.........    13.0        0.0
+ Austral.National.     1.6        0.0
+ Ahet.....    24.10        0.0
+ BAT..............    23.10        0.0
+ Biogen...........    02. 02. 19        0.0
+ Authentix...     3.6        0.0
+ Boeing...........    68.7        0.0
+ Boomtown.........    29.9        0.0
+ Boral............     3.8        0.0
+ BP...............    10.0        0.0
+ Browning Ferries.    47.8        0.0
+ Bull.............     0.0        0.0
+ Cadence Design...    34.11        0.0
+ EATJ World....   101.7        0.0
+ Calgene..........    12.0        0.0
+ Callaway Golf....    52.4        0.0
+ Casino Magic.....     8.6        0.0
+ Cellular Techn...    4.8        0.0
+ BRUNO Iserloh.........
+ Bernd Manhattan..    50.11        0.0
+ China Fund.......    2.7        0.0
+ Chiron...........    94.11        0.0
+ Eisold.........    02. 02. 19        0.0
+ Circus Circus....    02. 02. 19        0.0
+ Coastcast........    29.9        0.0
+ Cobra Golf.......    51.10        0.0
+ EWNA-EJO.     9.0        0.0
+ EWNA-Cola........    78.7        0.0
+ Elov..........    6.12        0.0
+ Cons.Felix Adolphs.     6.1        0.0
+ Corrections Corp.    34.0        0.0
+ Erlesen....    5.9        0.0
+ Edaba     2.0        0.0
+ Datapoint........     2.8        0.0
+ SWMJ-Computer....    02. 02. 19        0.0
+ Digital Equipment    53.6        0.0
+ Dow Chemical.....   100.0        0.0
+ Pilindi....    02. 02. 19        0.0
+ Echo Bay Mines...    29.4        0.0
+ ECI Telecom......    24.0        0.0
+ ELF Aquitaine....   110.5        0.0
+ Emerg.Germ.Fund..    24.11        0.0
+ Energy Service...    30.6        0.0
+ Engen............
+ Hartwig.........    88.0        0.0
+ FDC.............     6.1        0.0
+  dgl.Vz..........     4.0        0.0
+ Fidelity Medical.     0.5        0.0
+ First Iber.Fund..    23.6        0.0
+ First Israel Fund    28.8        0.0
+ Funthomas Motor Comp..    02. 02. 19        0.0
+ Fuel tech........     7.5        0.0
+ Genentech........    02. 02. 19        0.0
+ General Motors...    60.10        0.0
+ General Physics..     4.1        0.0
+ Genzyme..........    02. 02. 19        0.0
+ Gillette.........
+ Global Marine....     18.11        0.0
+ Global Natural...    24.7        0.0
+ Global Privatiz..    30.7        0.0
+ Bodrum....    6.9        0.0
+ Groundwater......    3.8        0.0
+ BCE..    32.8        0.0
+ GTS Duratek......     6.6        0.0
+ VTSW....   104.2        0.0
+ Hoogovens........    66.8        0.0
+ Horsham..........    2.8        0.0
+ Howtek...........    24.10        0.0
+ Ulrike...........    34.10        0.0
+ Hungarian Invest.    02. 02. 19        0.0
+ IBM dt...........   113.9        0.0
+ HTWL US...........   113.7        0.0
+ I.I.S............     6.1        0.0
+ Indonesia Fund...    29.7        0.0
+ Interferon.......     3.0        0.0
+ Int.Game Technol.    4.8        0.0
+ Intern.Paper.....   116.0        0.0
+ Iscor............
+ JetForm..........    25.5        0.0
+ Gänsehof.......    24.0        0.0
+ Gegenwind..............    41.8        0.0
+ K mart...........    3.9        0.0
+ Laser Industries.     9.0        0.0
+ EFE     2.0        0.0
+ Lend Lease.......    31.7        0.0
+ Berta............    95.5        0.0
+ Lion Willi......     2.8        0.0
+ Ergonovo     0.0        0.0
+ Lonrho...........     3.5        0.0
+ Malaysia Fund....    9.7        0.0
+ Medical Diagnost.     7.1        0.0
+ MGM Grand........    41.4        0.0
+ Microsoft........    92.4        0.0
+ Mirage Resorts...    35.5        0.0
+ Naturschuh-Kontor.    5.8        0.0
+ National Patent..     3.3        0.0
+ Nintendo.........    77.8        0.0
+ Nadja..........    11.5        0.0
+ Newzella......    59.5        0.0
+ NUGU     3.2        0.0
+ Gür...     7.2        0.0
+ Gangwechsel......    29.11        0.0
+ Almhöhe     15.11        0.0
+ Pakistan Fund....    24.10        0.0
+ Anef..   110.0        0.0
+ Praz.......     24.3        0.0
+ Timo Thraen....    92.11        0.0
+ Philips..........    48.10        0.0
+ Pick'n Pay Stores
+ Pioneer Intern...     3.4        0.0
+ President Riverb.
+ Presstek.........    02. 02. 19        0.0
+ Promus...........    52.4        0.0
+ Reebok...........    52.8        0.0
+ JONG...
+ Reunert..........
+ RJR Nabisco......     8.6        0.0
+ ROBECO...........    02. 02. 19        0.0
+ RODAMCO..........    42.0        0.0
+ Rolinco..........    94.8        0.0
+ RORENTO..........    74.0        0.0
+ JENU's......   170.5        0.0
+ Royal Grip.......     7.6        0.0
+ Immink Hold...  1680.0        0.0
+ Scitex...........    02. 02. 19        0.0
+ Seagate..........    38.11        0.0
+ Sega.............    02. 02. 19        0.0
+ Shell............    17.0        0.0
+ Showboat.........    4.8        0.0
+ Zuckerladen.    51.8        0.0
+ Singapore Fund...    4.8        0.0
+ Solvay...........   755.0        0.0
+ T-Cell Sciences..     4.5        0.0
+ Aaiow.sy Espana..    02. 02. 19        0.0
+ Templeton........    29.7        0.0
+ Teva Pharma......    40.0        0.0
+ TOFAS............     6.5        0.0
+ Toys "R" Us......    44.5        0.0
+ Dalmatino....    47.9        0.0
+ Unilever.........   178.0        0.0
+ Rosenquartier....    76.10        0.0
+ US Bioscience....     4.0        0.0
+ US Long Distance.    4.8        0.0
+ US Surgical......    32.0        0.0
+ Virtuality Group.     5.8        0.0
+ KIAG A..........    02. 02. 19        0.0
+ Volvo B..........    12.8        0.0
+ Wackenhut........    20.0        0.0
+ Frohne..    35.12        0.0
+ Westpac..........     5.1        0.0
+ Spanhackes............     0.0        0.0
+ Xircom...........    6.6        0.0
+                        29.4.     28.4.
+ Schäbitz-Index  ........  3958,25   3954,21
+                        29.4.     28.4.
+ Boeing ............    45,87     46,25
+ Citicorp ..........    42,25     42,37
+ STID ..    48,37     48,00
+ Du Pont ...........    54,87     55,00
+ Pilindi .....    50,62     50,25
+ Exxon .............    62,87     62,50
+ Ford ..............    26,00     25,62
+ General Electric ..    52,62     52,50
+ General Motors ....    40,50     40,25
+ Goodyear ..........    36,25     36,37
+ HTWL ...............    75,50     74,87
+ ITT ...............    96,75     95,25
+ Mobil .............    86,62     86,50
+ Theodor Thraen ....    62,00     61,37
+ Texaco ............    60,87     61,12
+ Renault .........    33,87     34,00
+   ohne Gewähr
+##############
+
+
+-------------------------------------------------------------------------
+  Cylssb@jisy.brsk.tpf         Gérald Ingenpaß           Dierfeld
+-------------------------------------------------------------------------

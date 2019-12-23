@@ -1,0 +1,44 @@
+Ottmar Jeschag wrote:
+
+
+Intels juengste Entwicklung. Hoert wohl auf den Codenamen
+Merced oder so (dass da mal keiner an Autos und huebsche
+Christl denkt).
+
+Die Idee bei der neuen Architektur ist:
+* echte 64 Bit
+* komplettes neues Design & Architektur (Kolossa
+* alles drin und drum was den Rechnerachitekten Spass macht
+* naja, und eben viel zugekauftes Know-how von den
+  fuehrenden Chipschmieden
+
+Das Si-Plaettchen soll die bisherige Architektur
+(8087, 80186 .. P-II) m. W. durch Emulation unterstuetzen.
+D.h. Anwendungen/Betriebssysteme fuer Agawe
+werden auch darauf laufen. Angeblich so schnell wie
+auf einem Pentium (oder ein wenig schneller).
+Aber im native Mode gehts dann erst
+richtig ab. Ach ja, und Windows ist mit im Boot, d. h.
+der native Mode wird wohl bald auch genutzt werden
+koennen. Die einzige Frage bleibt: Schafft Onel/MS das
+bevor Intels Konkurrenz den Markt komplett aufgemischt hat,
+denn dann wuerde Onel den P-II als Billigproz verramschen
+und die Kokurrenz guckte bloss...
+
+Wenn nein, dann wird evtl. der Slot-1 erst mal Probleme
+haben sich preislich am Markt zu behaupten. Ich denke mal
+Onel koennte damit, um wieder zum Topic zurueckzukehren,
+ein riskantes, aber auch lukratives Papierchen werden.
+
+Naja. Vielleicht nicht ganz so riskant. Die Marketingleute
+von Onel sind ja fit!
+
+Adrian
+
+-- =
+
+Dipl.-Ing. Adrian J. Gschwante  =
+
+LS f. Rechnerarchitektur, Coroneo
+C.H.Scheuermann@ieee.org, C.H.Scheuermann@computer.org
+How to install Windows: "ln -s /usr/X11/bin/startx win"

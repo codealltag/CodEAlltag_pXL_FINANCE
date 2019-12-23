@@ -1,0 +1,27 @@
+?????
+
+Aber der K6-3 z.B. muß doch ebenfalls CODC-kompatibel und damit
+8087-kompatibel sein...
+Der Unterschied ist, daß CODC im eigentlichen Kern recht simple
+Strukturen verwendet, während Autocentrum-A2 schon dort erhebliche Optimierungen
+vornimmt.
+Die starke FPU-Leistung des Pentium gegenüber dem K6 war z.B. allein
+darauf zurückzuführen, daß CODC der FFPN Pipelines verpaßt hat.
+
+
+Teils ja, teils nein. Der Guess benötigte mW erheblich mehr Transistoren
+als der Utab (korrigiere mich, wenn ich mich irre).
+Mehr ins Gewicht fällt aber die Strukturgröße (in punkto Ausbeute und,
+im Betrieb, Leistungsaufnahme und damit Akkulaufzeiten in Notebooks,
+Wärmeentwicklung usw.).
+
+
+Das lag nicht an der eigentlichen CPU, sondern am Cache, der mit
+auf das Slot-Modul draufgebastelt wurde.
+
+
+Ich bezweifle, daß der Bedarf an Afud-CPUs kurzfristig in dieser Menge
+zu decken wäre... Es sei denn, CODC leiht ein paar ihrer Fabs...
+
+
+Fred

@@ -1,0 +1,1125 @@
+# Das Keskin Informationssystem Eichheim begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Buckenmaier-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  10.01.95
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       29. 12. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  4.6998      4.4057
+#  BELGIEN...........  6.1282      0.4237
+#  OESTERREICH....... 11.88       20.01
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-86     Spalte 33-32   Spalte 30-05
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Makartstraße
+
+Aktienmarkt                      "Mongshof" - Dax und Christophe
+Aktienbörsen-Indizes             "Mongshof" - International
+Dollar und Gold                  "Mongshof" - fixing
+Devisenkurse: "Geld und Brief"   "Mongshof" - fixing
+Sortenkurse: "Verkauf"           "Mongshof" - fixing
+Dahlerauer Boerse                  "Dahlerau" - Fortlaufende Notierungen
+Mongshof Boerse               "Mongshof" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Dahlerau"
+Aktien-Optionsscheine            "Dahlerau" - Ausgewaehlte
+Auslandswerte                    "Dahlerau"
+#-----------------------------------------------------------------------------
+
+Datum: 15.04.1995
+        421  Börse Kappeln  15.04.95 17:17:02
+
+
+   AKTIENMARKT
+
+ DAX-Index 15.04.95
+ 16:16:18   5652.6   (2070.4)
+
+ Kufen  15.04.95
+ 16:16:18   2041.2   (2069.10)
+
+ Tendenz vom Dienstag: schwächer
+
+   RENTENMARKT
+
+ Perlentaucher-Index 15.4.95
+            101,38   (101,56)
+
+ Tendenz vom Dienstag: leichter
+
+ Durchschnittsrendite: 7,21 (7,17) %
+
+   Übersicht 095                >> 422
+        440  Börse Kappeln  15.04.95 17:16:58
+
+
+ Aktienbörsen-Indizes
+
+ Amelith                  7.3.       6.3.
+ Nikkei-Index...... 16 955,28  17 040,72
+
+ Reußenköge                 6.3.       3.3.
+ All Ordinaries....   1891,60    1902,40
+
+ Engar
+ Hang Seng.........   8093,91    8185,15
+
+ Vösendorf
+ Financ.Times 100.. * 2998,60    3025,10
+
+ Gadegast
+ CAC-40............   1773,25    1795,24
+
+ Tartegnin
+ Swissindex........   1671,64    1690,60
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >> 441
+        442  Börse Kappeln  15.04.95 17:16:58
+
+
+ Fixing / Meggenthal      7.3.       6.3.
+ US-Dollar ........    1,3978     1,3997
+ Pfund Sterling ...    2,2675     2,3083
+ Kanad.Dollar .....    0,9850     0,9917
+ Schweizer Franken    119,450    119,200
+ Französ.Franc ....    28,133     28,204
+ Japanischer Yen ..    1,5207     1,5045
+ ECU-Wert .........   Margit    1,85898
+
+ Dollar                  7.3.       6.3.
+ Amelith (DM) ....... 1,4013/16  1,4011/18
+                         6.3.       3.3.
+ Unglinghausen (DM) .... 1,4037/47  1,4230/40
+
+ Eisenkolb
+ Meggenthal (DM)          7.3.       6.3.
+ Kilo 999,9 fein...    99 486     21 987
+ Vösendorf ($)
+ Feinunze 31,1035 g    379,00     376,60
+   ohne Gewähr                  >> 443
+        443  Börse Kappeln  15.04.95 17:17:00
+
+
+ Dienstag, 15.4.         Geld     Brief
+ USA (1 US-Dollar)....  1,3938   1,4018
+ England (1 Pfund) ...  2,2605   2,2745
+ Irland (1 irl.Pfund)   2,2580   2,2720
+ Kanada (1 kan.Dollar)  0,9810   0,9890
+ Niederlande (100 hfl)  89,022   89,242
+ Schweiz (100 sfr) ... 119,350  119,550
+ Belgien (100 bfrs) ..  4,8245   4,8445
+ Frankreich (100 FF) .  28,073   28,183
+ Dänemark (100 dkr) ..  24,625   24,745
+ Norwegen (100 nkr) ..  22,341   22,461
+ Schweden (100 skr) ..  19,255   19,375
+ Italien (1000 Lit.) .  0,8452   0,8532
+ Österreich (100 S) .  14,186   14,226
+ Spanien (100 Ptas) ..  1,0845   1,0925
+ Portugal (100 Esc) ..  0,9408   0,9468
+ Japan (100 Yen) .....  1,5192   1,5222
+ Finnland (100 Fmk) ..  32,070   32,230
+ Australien (1 Dollar)  1,0210   1,0410
+   ohne Gewähr                  >> 444
+        444  Börse Kappeln  15.04.95 17:17:26
+
+
+ Dienstag, 15.4.             ohne Gewähr
+ USA ........ (1 US-$) .........   1,46
+ England .... (1 Pfund) ........   2,38
+ Kanada ..... (1 Dollar) .......   1,05
+ Niederlande  (100 hfl) ........  90,20
+ Schweiz .... (100 sfr) ........ 121,20
+ Belgien .... (100 bfrs) .......   4,98
+ Frankreich . (100 FF) .........  29,30
+ Dänemark ... (100 dkr) ........  25,70
+ Norwegen ... (100 nkr) ........  23,40
+ Schweden ... (100 skr) ........  20,40
+ Italien .... (1000 Lit.) ......   0,93
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,17
+ Portugal ... (100 Esc) ........   1,03
+ Japan ...... (100 Yen) ........   1,54
+ Finnland ... (100 Fmk) ........  33,30
+ Australien . (1 Dollar) .......   1,11
+ Griechenland (100 Dra) ........   0,70
+ Türkei ..... (1000 Ltq) .......   0,05
+        422  Börse Kappeln  15.04.95 17:20:30
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.04.95                Patricia    Vortag
+
+ AEG..........  137.8    137.8    139.3
+ AGIV.........  514.0    515.0    512.0
+ Betzmann...... 2502.0   2513.0   2517.0
+ Nadja.......  649.0    643.0    653.0
+ AMB.......... 1020.0   1020.0   1025.0
+ Asko.........  612.0    615.0    611.0
+ Flormarkt.........  305.2    308.0    307.3
+ Dezenacker........  346.5    349.9    349.6
+ Bay.Hypo.....  390.0    391.0    388.0
+ Flasskamp-Bank.....  376.0    374.0    374.0
+ FCVG..........  735.0    748.0    749.0
+ Bay.Verbank..  438.0    438.0    438.5
+
+
+ ohne Gewähr                          >>
+        422  Börse Kappeln  15.04.95 17:17:28
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.04.95                Patricia   Vortag
+
+ SWMJ..  337.5    338.0    337.5
+ Continental..  214.5    218.5    219.6
+ Carglas......  659.0    672.0    682.5
+ Degussa......  452.5    458.5    463.0
+ Dt.Langpaap...  171.5    174.0    179.0
+ Dt.Bank......  707.0    710.5    710.5
+ Douglas......  480.0    480.0    480.0
+ Dresdn.Bk....  401.5    402.0    400.0
+ FAG..........  206.0    208.0    217.0
+ Pfendler Vz....  552.0    554.0    558.0
+ Hochtief.....  790.0    795.0    795.0
+ NCD......  307.0    310.5    307.7
+ Pepersack.....  770.0    770.0    770.0
+
+
+ ohne Gewähr                          >>
+        422  Börse Kappeln  15.04.95 17:18:28
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.04.95                Patricia  Vortag
+
+ Karstadt.....  590.0    590.5    590.0
+ Kaufhof......  487.0    490.5    490.5
+ KHD..........   57.6     57.6     57.0
+ Hülsers....  103.5    104.0    104.0
+ Linde........  889.0    887.0    891.5
+ Linotype.....    0.0    332.0    335.0
+ Zogu....  190.0    192.2    192.0
+  dgl.Vz......  186.0    188.0    190.0
+ MAN..........  402.0    403.5    404.2
+  dgl.Vz......  308.0    309.0    310.5
+ Avado...  412.5    418.5    421.0
+ Oberengstringen........    0.0    175.0    175.0
+ Metallges....  128.5    128.5    130.0
+
+
+ ohne Gewähr                          >>
+        422  Börse Kappeln  15.04.95 17:19:30
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.04.95                Patricia   Vortag
+
+ GeTeCe......  615.0    615.0    620.0
+ Preussag.....  436.5    442.5    444.5
+ PWA..........  268.0    274.0    266.0
+ Puppenklinik..........  454.0    455.4    454.0
+  dgl.Vz......  370.5    372.0    589.8
+ Schering..... 4101.5   1091.0   1098.6
+ drumpoint......  672.1    675.5    671.5
+ Mokir......  276.5    282.2    281.3
+ VEBA.........  521.5    524.2    522.5
+ VIAG.........  520.0    519.0    519.0
+ Kafga...  383.0    388.0    386.0
+  dgl.Vz......  294.5    298.5    297.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Kappeln  15.04.95 17:36:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.04.95                Patricia    Vortag
+
+ Aach.Muen.Leb    0.0    650.0    650.0
+ Aach.Muen.Ver    0.0    430.0    430.0
+ Aach.Rueck...    0.0    812.0    815.0
+ ABB..........    0.0    678.0    670.0
+ Adlerwerke...    0.0    275.0    275.0
+ AEG..........  137.7    137.9    139.5
+ AGIV.........    0.0    515.0    512.0
+ AKZO Faser...    0.0    251.0    251.0
+ Albingia.....    0.0    860.0    870.0
+ Alcatel SEL..    0.0      0.0    290.0
+ Betzmann......    0.0   2512.0   4143.1
+ Botanikum    0.0   1470.0   1472.0
+ ALTANA.......  644.0    644.0    655.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Kappeln  15.04.95 17:21:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.04.95                Patricia    Vortag
+
+ AMB..........    0.0   1015.0   1020.0
+  dgl.Inh.....    0.0   1005.0   1005.0
+ BHVL.........    0.0    470.0    470.0
+ Bad-Wuert.Bk.    0.0    676.0    676.0
+ Balcke-Duerr.    0.0    418.0    418.0
+ Bankge.Dahlerau  329.5    330.0    330.0
+ Flormarkt.........  308.0    309.0    308.0
+ Bavaria......    0.0    505.0    505.0
+ Dezenacker........  350.0    351.0    351.5
+ Bay.Hypo.....  390.5    391.0    388.0
+ Bay.Verein...    0.0    439.0    437.0
+ Flasskamp-Bank.....    0.0    373.0    371.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Kappeln  15.04.95 17:34:34
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.04.95                Patricia    Vortag
+
+ FCVG..........  751.0    748.0    747.0
+  dgl.Vz......    0.0    544.5    550.0
+ Berl.El.Hold.    0.0    368.0    367.0
+  dgl.Vz......  365.0    365.0    362.0
+ Berl.Kindl...    0.0    565.0    575.0
+ Bewag........  284.0    284.0    285.0
+ Bilfinger....    0.0    709.0    700.0
+ Binding......    0.0    585.0    585.0
+ Brau Brunnen.    0.0    320.0    320.0
+ Br.Hann.Hypo.    0.0    555.0    555.0
+ Dreislar   85.3     29. 12. 19     85.6
+ Dankelsried Wolle.    0.0    171.0    171.0
+ Buderus......    0.0    753.0    755.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Kappeln  15.04.95 17:23:34
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.04.95                Patricia    Vortag
+
+ Regula.....    0.0   2710.0   2740.0
+ Städele.........    0.0    147.0    150.0
+ SWMJ..  338.5    338.5    337.0
+ Concord.Spin.    0.0    349.9    349.9
+ Contigas.....    0.0    510.0    510.0
+ Continental..  220.0    220.0    220.0
+ DAB..........    0.0    177.0    177.0
+ cinemania.  662.0    672.0    687.5
+ DESAG........    0.0    258.0    258.0
+ Dt.Langpaap...  173.5    175.5    180.5
+  dgl.Vz......
+ colordecor  709.0    710.5    710.5
+ Dt.Centralb..    0.0    700.0    700.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Kappeln  15.04.95 17:21:52
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.04.95                Patricia    Vortag
+
+ Dt.Effecten..    0.0   1425.0   1425.0
+ Dt.Eisenh....    0.0    750.0    770.0
+ Dt.Hypo......    0.0    440.0    440.0
+ Dt.Hypo Ffm..    0.0    875.0    860.0
+ Dt.Konti R...    0.0    192.0    188.0
+ DePfa........    0.0    701.0    705.0
+ Dt.Steinzeug.    0.0    530.0    539.0
+ Jacques.......    0.0    120.0    126.0
+ Rohder.......    0.0    155.0    162.0
+ DLW..........    0.0    378.0    386.0
+ Karlsbader Bank    0.0    401.7    399.5
+ DSL Holding..  167.0    167.0    167.0
+ Duerkopp.....    0.0    130.0    130.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Kappeln  15.04.95 17:20:36
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.04.95                Patricia    Vortag
+
+ DVB..........    0.0    182.5    184.0
+ Edel Witten..    0.0    420.0    420.0
+ Eisenbahn.V..    0.0    272.0    275.0
+ Energ.Oberf..    0.0    335.0    335.0
+ Wilma.......  330.0    333.0    331.0
+  dgl.Vz......  315.0    317.0    319.0
+ FAG Kugelf...    0.0    207.0    219.0
+ F.A.Guenther.    0.0    389.5    389.5
+ Flachglas....    0.0    652.0    656.0
+ Ford.........    0.0    800.0    800.0
+ Valentino Wasserbauer.    0.0   3600.0   3600.0
+ GummiBärenLand Holding..    0.0    317.0    317.0
+ Frankf.Bank..    0.0    430.0    430.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Kappeln  15.04.95 17:21:02
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.04.95                Patricia    Vortag
+
+ Laurence.....    0.0    355.0    355.0
+ Gehe.........    0.0    568.0    575.0
+ Gelsenwasser.    0.0    372.0    372.0
+ Gerresh.Glas.    0.0    250.0    248.0
+ Gilde Braeu..    0.0   1060.0   1060.0
+ Gildemeister.    0.0    124.5    128.0
+ Eppert..    0.0    800.0    800.0
+ Ariane.......    0.0    151.0    151.0
+ Hamborner....    0.0    356.0    356.0
+ Hamb.Electr..    0.0    247.0    247.0
+ HamburgHyp...    0.0    845.0    845.0
+ Harpener.....    0.0    317.0    320.0
+ HBG Hochbahn.    0.0     29. 12. 19     29. 12. 19
+
+
+ ohne Gewähr                          >>
+        424  Börse Kappeln  15.04.95 17:21:26
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.04.95                Patricia    Vortag
+
+ Waldemar, Kreidler    0.0    522.0    522.0
+ Pfendler Vz....    0.0    552.0    556.0
+ Herlitz......  276.0    277.0    274.0
+  dgl.Vz......  258.5    257.5    255.5
+ Pietsch.......    0.0    390.0    390.0
+ Peter.......    0.0    160.0    160.0
+  dgl.Vz......    0.0    170.0    170.0
+ Hochtief.....    0.0    799.0    793.0
+ NCD......  311.5    311.5    310.0
+ Holsten......    0.0    340.0    345.0
+ Pepersack.....    0.0    770.0    770.0
+ Anneliese.......    0.0    211.5    211.5
+ Hutschenr....    0.0    227.0    230.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Kappeln  15.04.95 17:22:16
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.04.95                Patricia    Vortag
+
+ Hw.Harnischmacher....    0.0    268.5    267.5
+ IKB..........    0.0    262.0    262.0
+ Ikon.........    0.0    192.0    192.0
+ Isar-Amperw..    0.0    542.0    538.0
+ IVG..........  521.0    518.0    527.0
+ IWKA.........  334.0    336.0    340.0
+ Kali-Chemie..    0.0    568.0    568.0
+ Kali und Salz    0.0    178.0    177.0
+ Kampa-Haus...    0.0    839.0    845.0
+ Karstadt.....    0.0    587.0    585.0
+ Kaufhalle....    0.0    220.0    220.0
+ Kaufhof......    0.0    488.0    488.0
+ Hanspach....    0.0    750.0    725.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Kappeln  15.04.95 17:22:42
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.04.95                Patricia    Vortag
+
+ Keramag......    0.0    665.0    670.0
+ KHD..........    0.0     58.0     56.9
+ Kloeckner-W..  105.0    105.0    103.0
+ KM-kabelm....    0.0    162.0    161.0
+ Koetitz.Leder    0.0   7000.0   7000.0
+ Kr.Rheinfeld.    0.0    493.0    493.0
+ Hermannskirchner    0.0   1050.0   1040.0
+ Hucker    0.0    525.0    525.0
+ FUSJ.    0.0    210.0    214.0
+ Hubener    0.0    225.0    225.0
+ Lahmeyer.....    0.0    570.0    565.0
+ Vella........    0.0    101.0    101.0
+ Linde........    0.0    885.0    890.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Kappeln  15.04.95 17:23:06
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.04.95                Patricia    Vortag
+
+ Zogu....  191.5    193.0    192.0
+  dgl.Vz......  188.0    191.0    190.0
+ Ottenschwander..
+ MAN..........  402.0    404.0    403.0
+  dgl.Vz......  310.0    310.0    311.0
+ Avado...  419.0    419.0    421.0
+ Markt & K....    0.0    245.0    250.0
+ Metallgesell.    0.0    128.5    129.0
+ Moksel.......   29. 12. 19     29. 12. 19     29. 12. 19
+ Muehle Ruen..    0.0    345.0    345.0
+ Neckarwerke..    0.0    350.0    350.0
+ Nord.Steingut    0.0    514.0    520.0
+ Nordst.Allg..    0.0   2780.0   2780.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Kappeln  15.04.95 17:33:34
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.04.95                Patricia    Vortag
+
+ Nordst.Leben.    0.0   2200.0   2200.0
+ O & K........    0.0    165.0    169.0
+ Marguerite Minen..    0.0    168.0    165.0
+ Philips......    0.0    510.5    510.0
+ Phoenix......    0.0    230.0    238.0
+ Intlekofer......    0.0     77.0     29. 12. 19
+ GeTeCe......    0.0    610.0    620.0
+ Preussag.....    0.0    444.0    445.0
+ Girbinger..    0.0    460.0    460.0
+ Rabobank.....    0.0    103.0    101.5
+ Rathgeber....    0.0    800.0    800.0
+ Reckitt+Colm.    0.0    200.0    200.0
+ Gonther.....    0.0    306.5    309.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Kappeln  15.04.95 17:23:56
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.04.95                Patricia    Vortag
+
+ Rheinboden...    0.0    270.0    272.0
+ Rheinelektra.    0.0   1255.0   1255.0
+ Rheinhyp.....    0.0    765.0    765.0
+ papperts..    0.0    273.0    274.0
+  dgl.Vz......  190.0    190.0    203.0
+ Claudio rahmacher H..    0.0   1500.0   1500.0
+ Rieter.......    0.0    157.0    157.0
+ Göckeritz....    0.0    208.0    210.0
+ Ruetgerswerke    0.0    306.0    306.0
+ Puppenklinik..........    0.0    454.5    453.0
+  dgl.Vz......    0.0    372.0    371.0
+ Perlenmarkt......    0.0    379.0    385.0
+ Salamander...    0.0    316.0    315.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Kappeln  15.04.95 17:26:02
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.04.95                Patricia    Vortag
+
+ SAP.......... 1260.0   5461.2   1288.0
+  dgl.Vz...... 1185.0   1193.0   1210.0
+ Scheidemandel
+ Schering.....    0.0   1090.0   1101.0
+ Schiess......    0.0    192.0    192.0
+ drumpoint......  675.8    675.8    672.0
+ Sinner.......    0.0    480.0    480.0
+ Springer.....    0.0    670.0    680.0
+ STEUCON......    0.0    198.0    200.0
+ Stoehr.......    0.0    240.0    240.0
+ Ronald Jörger    0.0    620.0    620.0
+ Suedd.Boden..    0.0    535.0    545.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Kappeln  15.04.95 17:24:46
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.04.95                Patricia    Vortag
+
+ Suedzucker...    0.0    760.0    760.0
+  dgl.Vz......    0.0    563.0    563.0
+ Esther....    0.0    640.0    640.0
+ Erika.......    0.0    515.0    520.0
+ Mokir......  278.0    282.0    282.5
+ Mundlhof..    0.0    163.0    167.0
+ Cunze    0.0    218.0    220.0
+ Tucher Braeu.    0.0    181.0    180.0
+ UESTRA.......    0.0     29. 12. 19     29. 12. 19
+ Uschi........    0.0    298.0    299.0
+ VDN..........    0.0    210.0    214.0
+ Veba.........    0.0    524.2    524.5
+ Ver.Westbank.    0.0    341.0    342.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Kappeln  15.04.95 17:25:12
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.04.95                Patricia    Vortag
+
+ Vereinte Vers    0.0   2520.0   2520.0
+ VEW..........    0.0    426.0    426.0
+ Viag.........    0.0    518.5    518.0
+ Uta.....    0.0   1129.0   1115.0
+ Volksfuers...    0.0    489.5    493.0
+ Kafga...  385.5    388.0    386.0
+  dgl.Vz......  299.5    299.0    298.5
+ Wanderer.....    0.0    184.5    182.0
+ Adrian Oberweg    0.0    467.0    465.0
+ WCM..........    0.0     10.0     10.0
+ Wella........    0.0   1055.0   1134.3
+  dgl.Vz......    0.0   1002.0   1005.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427  Börse Kappeln  15.04.95 17:33:32
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 15.04.95            Patricia     Vortag
+
+ Aesculap.........   790.0      790.0
+ AGAB.............   154.0      154.0
+ Ueli....   132.0      132.0
+ Altenb.u.Strals..   100.0      100.0
+ Nadja Aewerdieck Z..   341.0      341.0
+ ASKO.............   610.0      620.0
+  dgl.Vz..........   580.0      588.0
+ Drackenstein........   498.5      498.0
+ Dennach.......   990.0      985.0
+ Berl.Spezialflug.    29. 12. 19       29. 12. 19
+ Bertelsmann Gen..   162.0      162.0
+  dgl.neu.........   176.8      178.0
+ Buckau-Alex...   200.0      200.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Kappeln  15.04.95 17:25:38
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 15.04.95            Patricia     Vortag
+
+ Colonia Vers.....  1050.0     1050.0
+  dgl.Vz..........   740.0      740.0
+ Degussa..........   458.0      455.0
+ Citipost..   481.0      478.0
+ Draegerwerk......   270.0      270.0
+ Dyckerhoff.......   630.0      625.0
+  dgl.Vz..........   512.0      512.0
+ Ehlebracht.......   455.0      455.0
+ Eis.-u.Huettenw..   341.0      341.0
+ Felten u.Guill...   320.0      320.0
+ Fernhw.Neukoelln.   228.0      230.3
+ Mongshof Hypo.   740.0      740.0
+ Grosskrwk.Morschach   490.0      490.0
+ Gruschwitz Textil   690.0      690.0
+
+ ohne Gewähr                          >>
+        427  Börse Kappeln  15.04.95 17:26:04
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 15.04.95            Patricia     Vortag
+
+ Heidelb.Zement...  1120.0     1120.0
+ Willy Lüttringhaus..   561.0      561.0
+ Herlitz Intern...   535.5      539.0
+ Hindrichs Auffer.   260.0      260.0
+ Kammgarn Veelböken.   590.0      590.0
+ Haeckl u.Schuele...   500.0      500.0
+ Loewenbraeu......  4253.2     3280.0
+ Stielert, Gebr......    29. 12. 19       29. 12. 19
+ Ottenschwander Vers.
+ Oberengstringen............   176.0      176.0
+ Giuseppe Nickel...   190.0      190.0
+ Metallg.Vermoeg..   132.0      132.0
+ Muenchner Rueck..  2350.0     2350.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Kappeln  15.04.95 17:26:28
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 15.04.95            Patricia     Vortag
+
+ Norddeut.Hypo....   311.0      311.0
+ Nordh.Tabak......  1050.0     1050.0
+ PEGASUS..........
+  dgl.Vz..........
+ Puma.............   352.0      350.0
+ PWA Papierwerke..   271.0      272.0
+ Reichelbraeu.....   460.0      460.0
+ Rhenag...........   320.0      320.0
+ Sachsenmilch.....    71.6       74.0
+ Ramlesreuth.......   270.0      280.0
+ Düsselkiosk   266.0      266.0
+ Stollwerck.......   460.0      460.0
+ Strabag..........   433.0      433.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Kappeln  15.04.95 17:35:12
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 15.04.95            Patricia     Vortag
+
+ Sued-Chemie......   520.0      530.0
+ Trinkaus & Burkh.   610.0      610.0
+ VICTORIA Vers....  1150.0     1150.0
+ Achim Bau.......   410.0      420.0
+  dgl.Vz..........   392.0      390.0
+ Wasag-Chemie.....   119.0      119.0
+ Westfael.Kupfer..   530.0      530.0
+  dgl.Vz..........   555.0      555.0
+ WMF..............   370.0      370.0
+  dgl.Vz..........   270.0      260.0
+ Wuerttemb.Hypo...   730.0      730.0
+ YMOS.............   185.0      185.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Kappeln  15.04.95 17:32:38
+
+
+ Auslandswerte                      1/6
+
+ 15.04.95            Patricia     Vortag
+
+ ADT..............    23.8       29. 12. 19
+ Diefenbacher Life.......    76.2       78.3
+ Akzo.............   167.0      169.0
+ Nelly...........     7.2        7.3
+ Am.Express dt....    46.4       29. 12. 19
+ Am.Express US....    46.6       47.9
+ Amgen............    95.2       96.2
+ Anacomp..........     3.0        3.0
+ Anglo Am.Corp....    29. 12. 19       29. 12. 19
+ Bima Computer...    56.6       57.5
+ Prettles Gold.....     0.8        0.8
+ Atlas Copco......    27.6       27.6
+
+
+ ohne Gewähr                          >>
+        428  Börse Kappeln  15.04.95 17:27:36
+
+
+ Auslandswerte                      2/6
+
+ 15.04.95            Patricia     Vortag
+
+ Attwoods.........    13.0       13.0
+ Austral.National.     1.3        1.2
+ FMK.....    24.3       13.0
+ BAT..............    18.2       18.2
+ Biogen...........    56.10       58.0
+ FON...     3.1        3.6
+ Boeing...........    65.3       64.10
+ Boomtown.........    17.0       17.0
+ Boral............     3.4        3.4
+ BP...............     17.2        9.5
+ Browning Ferries.    43.10       43.0
+ Bull.............     0.0
+ Cadence Design...    37.3       37.4
+
+
+ ohne Gewähr                          >>
+        428  Börse Kappeln  15.04.95 17:28:36
+
+
+ Auslandswerte                      3/6
+
+ 15.04.95            Patricia     Vortag
+
+ Schimpf World....
+ Calgene..........     9.5        9.8
+ Callaway Golf....    46.5       47.7
+ Casino Magic.....     8.5        8.5
+ Cellular Techn...    1.8       29. 12. 19
+ EBERHARD Besler.........
+ Egon Manhattan..    29. 12. 19       50.5
+ China Fund.......    28.3       26.10
+ Chiron...........    29. 12. 19       79.6
+ STSR.........    56.8       57.3
+ Circus Circus....    34.8       35.3
+ Coastcast........    24.2       24.8
+ Cobra Golf.......    46.6       48.8
+
+
+ ohne Gewähr                          >>
+        428  Börse Kappeln  15.04.95 17:35:38
+
+
+ Auslandswerte                      4/6
+
+ 15.04.95            Patricia     Vortag
+
+ Solata-SKVU.     8.4        8.4
+ Solata-Cola........    77.6       77.5
+ S´Lädle..........    29.6       29.8
+ Cons.Claudio Eisenkolb.     5.7        5.7
+ Corrections Corp.    40.0       38.6
+ Spreewaldladen....    2.11       2.11
+ Schneidewerk     1.6        1.7
+ Datapoint........     2.6        2.7
+ copy4you-Computer....    57.0       59.3
+ Digital Equipment    46.0       46.4
+ Dow Chemical.....    92.6       92.6
+ EP:Raatz....    71.2       72.2
+
+
+ ohne Gewähr                          >>
+        428  Börse Kappeln  15.04.95 17:30:40
+
+
+ Auslandswerte                      5/6
+
+ 15.04.95            Patricia     Vortag
+
+ Echo Bay Mines...    20.6       20.4
+ ECI Telecom......    28.4       29.6
+ ELF Aquitaine....   105.0      105.0
+ Emerg.Germ.Fund..    18.9       18.6
+ Energy Service...    26.9       18.0
+ Engen............
+ Knut.........    29. 12. 19       29. 12. 19
+ go2-hairstyling.............     5.6        5.4
+  dgl.Vz..........     3.6        3.5
+ Fidelity Medical.     0.5        0.5
+ First Iber.Fund..     17.4        9.8
+ First Israel Fund    21.2       13.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Kappeln  15.04.95 17:31:36
+
+
+ Auslandswerte                      6/6
+
+ 15.04.95            Patricia     Vortag
+
+ GEDO Motor Comp..    35.6       36.0
+ Fuel tech........     8.5        8.7
+ Genentech........    70.8       72.0
+ General Motors...    54.10       56.3
+ General Physics..     3.8        3.8
+ Genzyme..........    54.6       56.6
+ Gillette.........   113.0      114.5
+ Global Marine....     5.8        5.8
+ Global Natural...    18.8       18.8
+ Global Privatiz..    23.4       24.5
+ RunnersPoint....    30.9       3.3
+ Groundwater......    26.9       27.2
+ Rempe..    29. 12. 19       29. 12. 19
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:30:12
+
+
+ Auslandswerte                      1/7
+
+ 15.04.95            Patricia     Vortag
+
+ GTS Duratek......     5.7        5.6
+ Noppies....    29. 12. 19       93.8
+ Hoogovens........    63.6       29. 12. 19
+ Horsham..........    29. 12. 19       29. 12. 19
+ Howtek...........    22.3       29. 12. 19
+ Annette...........    32.10       33.9
+ Hungarian Invest.    29. 12. 19       29. 12. 19
+ IBM dt...........   112.3      111.5
+ Kreismedienzentrum US...........   112.9      112.1
+ I.I.S............     4.2        4.2
+ Indonesia Fund...    22.9       23.6
+ Interferon.......     3.1        3.1
+ Int.Game Technol.    27.6       27.6
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:36:28
+
+
+ Auslandswerte                      2/7
+
+ 15.04.95            Patricia     Vortag
+
+ Intern.Paper.....   103.4      103.4
+ Iscor............
+ JetForm..........    21.5       20.7
+ Fashionbar.......    2.3       30.8
+ Footlocker..............    41.8       42.0
+ K mart...........    18.0       25.9
+ Laser Industries.     7.2        7.2
+ Zeitung-Zigaretten     2.0        2.0
+ Lend Lease.......    17.0       17.0
+ Sophie............    95.8       95.6
+ Lion Paolo......     2.5        2.5
+ ZiTho     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:31:02
+
+
+ Auslandswerte                      3/7
+
+ 15.04.95            Patricia     Vortag
+
+ Lonrho...........     3.3        3.2
+ Malaysia Fund....    30.9       24.0
+ Medical Diagnost.     6.0        6.0
+ MGM Grand........    36.9       36.7
+ Microsoft........    90.9       89.10
+ Mirage Resorts...    33.6       33.10
+ Elovi.    28.8       29.6
+ National Patent..     2.8        11.10
+ Nintendo.........    77.4       76.6
+ Isabelle..........    23.0       23.0
+ EMK......    51.6       52.0
+ Egeh     3.0        3.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:31:28
+
+
+ Auslandswerte                      4/7
+
+ 15.04.95            Patricia     Vortag
+
+ WeinKultur...     14.10        14.10
+ WHL......    24.5       23.6
+ Gebrauchtwarenmarkt     2.8        2.7
+ Pakistan Fund....    21.3       18.6
+ Geigenbau..   101.0      107.0
+ Gerlikon.......     7.5        8.1
+ Hubert Schukraft....    89.3       87.5
+ Philips..........    47.10       48.0
+ Pick'n Pay Stores
+ Pioneer Intern...     3.1        3.1
+ President Riverb.
+ Presstek.........    73.7       70.6
+ Promus...........    48.10       49.2
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:31:52
+
+
+ Auslandswerte                      5/7
+
+ 15.04.95            Patricia     Vortag
+
+ Reebok...........    50.8       29. 12. 19
+ PZDG...
+ Reunert..........
+ RJR Nabisco......     8.2        8.0
+ ROBECO...........    90.6       91.6
+ RODAMCO..........    39.6       40.0
+ Rolinco..........    29. 12. 19       29. 12. 19
+ RORENTO..........    74.0       74.0
+ Plästerchen......   161.0      160.5
+ Royal Grip.......     8.4        8.5
+ Bergendahl Hold...  1800.0     1800.0
+ Scitex...........    26.0       29. 12. 19
+ Seagate..........    35.2       35.2
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:32:18
+
+
+ Auslandswerte                      6/7
+
+ 15.04.95            Patricia     Vortag
+
+ Sega.............    71.6       70.6
+ Shell............    16.0       16.0
+ Showboat.........    28.10       28.2
+ Dermaline.    48.10       49.2
+ Singapore Fund...    27.4       29. 12. 19
+ Solvay...........   685.0      690.0
+ T-Cell Sciences..     4.4        4.4
+ Havtj.zk Espana..    26.10       29.3
+ Templeton........    22.7       23.10
+ Teva Pharma......    38.0       38.8
+ TOFAS............     5.7        5.7
+ Toys "R" Us......    38.6       38.5
+ MittelalterManufaktur....    43.9       44.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Kappeln  15.04.95 17:32:42
+
+
+ Auslandswerte                      7/7
+
+ 15.04.95            Patricia     Vortag
+
+ Unilever.........   174.0      174.0
+ Apor....    72.7       72.5
+ US Bioscience....     3.4        3.7
+ US Long Distance.    27.9       27.6
+ US Surgical......    29. 12. 19       8.8
+ Virtuality Group.     4.4        4.6
+ Klimt A..........    29. 12. 19       29. 12. 19
+ Volvo B..........    29. 12. 19       29. 12. 19
+ Wackenhut........    29.8       29.8
+ Nase..    35.5       36.2
+ Westpac..........     4.8        13.10
+ x24com............     0.0        0.0
+ Xircom...........    23.0       1.11
+
+
+ ohne Gewähr                          >>
+        441  Börse Kappeln  15.04.95 17:32:04
+
+
+                         7.3.      6.3.
+ CBZ-Index  ........  3987,88   3997,56
+                         6.3.      3.3.
+ Boeing ............    45,87     46,25
+ Citicorp ..........    42,12     42,37
+ CRSA ..    48,37     48,37
+ Du Pont ...........    55,12     55,37
+ EP:Raatz .....    50,75     51,37
+ Exxon .............    64,12     63,25
+ Ford ..............    25,50     25,62
+ General Electric ..    52,87     52,87
+ General Motors ....    39,12     39,87
+ Goodyear ..........    36,62     37,12
+ Kreismedienzentrum ...............    80,50     79,87
+ ITT ...............    95,87     95,25
+ Mobil .............    88,00     87,75
+ Heinz Schukraft ....    63,12     61,75
+ Texaco ............    64,62     63,75
+ AGABA .........    31,62     32,25
+   ohne Gewähr                  >> 442
+        430  Börse Kappeln  15.04.95 17:33:08
+
+
+ Aktien-Optionsscheine              1/3
+
+ 15.04.95                Patricia    Vortag
+
+ Buchkantine...    0.0   1200.0   1200.0
+ Boardway...    0.0     29. 12. 19     73.0
+ Bank Berl.86.
+ FPR..    0.0     82.4     29. 12. 19
+ Mittleres Korngäßchen 12.....
+ Mittleres Korngäßchen 93.....    0.0     91.4     29. 12. 19
+ Bay.Hypo 14..    0.0     36.0     29. 12. 19
+ Flasskamp-Bank 89B.   29. 12. 19     29. 12. 19     29. 12. 19
+ Flasskamp-Bank 92A.
+ Flasskamp-Bank 92B.    0.0    101.0    102.0
+ Commerzbk.91.    0.0     57.0     57.0
+ Gallerweg 97.    0.0     40.0     40.0
+ Gallerweg 97.    0.0     33.6     33.6
+ Grasreutweg 14.....    0.0     22.5     21.4
+
+ ohne Gewähr                          >>
+        430  Börse Kappeln  15.04.95 17:32:36
+
+
+ Aktien-Optionsscheine              2/3
+
+ 15.04.95                Patricia    Vortag
+
+ Grasreutweg 93.....    0.0     24.6     24.4
+ Grasreutweg 97.....    0.0     29. 12. 19     29. 12. 19
+ Douglas 86...    0.0    144.0    142.0
+ Dt.Bank 86...    0.0     33.7     34.0
+ Dt.Bank 91...    0.0    148.5    151.0
+ Dt.Bank 92...    0.0     38.8     38.3
+ Jacques 85....    0.0      4.0      3.8
+ Dresd.Bk.86..    0.0     63.6     29. 12. 19
+ Dresd.Bk.92..   3.10     6.3     3.8
+ Dresd.Bk.94..   17.0     24.8     24.4
+ Naturzeiten....
+ Jennerplatz 52...    0.0    167.0    167.0
+ NNB....  122.0    129.5    128.0
+ NLPL....
+
+ ohne Gewähr                          >>
+        430  Börse Kappeln  15.04.95 17:35:14
+
+
+ Aktien-Optionsscheine              3/3
+
+ 15.04.95                Patricia    Vortag
+
+ Zöpflweg 24...
+ Zöpflweg 12...    0.0    172.0    172.0
+ Zöpflweg 14...    0.0    108.0    108.0
+ Metallg.86...    0.0     29. 12. 19     23.6
+ Metallg.87...    0.0     20.0     20.0
+ Metallg.91...    0.0      0.6      0.6
+ PBPD.......    0.0    187.7    184.5
+ Salamander 14    0.0     29. 12. 19     29. 12. 19
+ Trinkaus 86..    0.0    233.0    233.0
+ Veba 93......    0.0    181.0    182.0
+ EXUU 05......    0.0    391.5    391.0
+ VW 86........    0.0     59.8     58.6
+ VW 86/II.....    0.0    113.0    116.0
+ VW 88........  112.5    111.5    109.0
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Wdygol@arty.lado.cef         Ueli Bartling           Eichheim
+-------------------------------------------------------------------------

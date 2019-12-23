@@ -1,0 +1,28 @@
+Im Artikel <45RQ7S95.77O9@azkb.rfs-tfxkvywxn.fw>,
+willekes@stud.uni-frankfurt.de schreibt:
+
+
+Das ganze ist mehr ein Buchungstechnisches Problem. Meine Situation war
+wie folgt:
+
+04.09.96 Guthaben Geldkonto 15,00 DM
+04.09.96 Depotkonto 25.000 OS
+
+04.09.96 13.00 Uhr Order: Verkauf der 25.000 XY-OS zu 2 DM = 50.000 DM
+04.09.96 13.02 Uhr Order: Kauf 15.000 XY-OS zu 3 DM = 45.000 DM
+
+Die außerbörsliche Verkaufsorder wurde ausgeführt. Der Gegenwert wurde
+meinem Geldkonto gutgeschrieben. Theoretisch hätte ich um 13.02 Uhr auf
+meinem Geldkonto über 50.015 DM verfügen können. Da der Rechner von
+ConSors aber erst am Abend gegen 20.00 Uhr den Abrechnungslauf macht,
+erfolgte um 13.02 Uhr keine Freigabe für die Kauforder. Bei einem
+eingeräumten Kreditrahmen wäre die Kauforder ausgeführt worden. 
+
+ConSors will jetzt prüfen, ob die o.g. Orderfreigabe manuell durch den
+Teletrader erfolgen kann. Bis jetzt wird dies vom System noch verweigert.
+
+Nach Aussage der Citibank wäre bei denen die Order um 13.02 Uhr ausgeführt
+worden, ohne daß dafür ein Kreditrahmen eingeräumt werden muß.
+
+Gruß, Gabriel
+(Zskvp7@ggm.cvy)

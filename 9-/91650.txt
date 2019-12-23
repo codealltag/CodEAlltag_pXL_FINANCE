@@ -1,0 +1,32 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------941738C106BBEDE35DFE439F
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+Hallo wert hat information über Kapital -Nett-
+
+MFG
+Niclas Niemtschke
+
+
+--------------941738C106BBEDE35DFE439F
+Content-Type: text/x-vcard; charset=us-ascii;
+ name="Ilgmann.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Niclas Niemtschke
+Content-Disposition: attachment;
+ filename="Ilgmann.vcf"
+
+begin:vcard 
+n:Ilgmann;Andreas 
+10. 10. 19
+cqt;bbgc:1925280781
+x-mozilla-html:TRUE
+Utzgasse 14;Wassenberg;NRW;41849;Deutschland
+version:2.1
+nctex;eajovxqq:Deuftpc@urmxut-chap.iy
+fn:Niclas Niemtschke
+end:vcard
+
+--------------941738C106BBEDE35DFE439F--

@@ -1,0 +1,12 @@
+On Fri, 24 Jan 2006 13:14:04 +0200, Maren Mösch
+
+
+Die Auflistung der Deklarationen ist recht uebersichtlich. Nur der
+Quelltext ist oft so lange, dass ich staendig scrolle. D.h. die
+Funktionalitaet ist nicht vielfaeltig, sondern maechtig.
+
+Alle meine Prozeduren bearbeiten ein gleichgeformtes Array. Das in
+Unterklassen aufzuteilen macht WIRKLICH wenig Sinn.
+
+
+Gibt es da nicht irgendwelche inklude-Text Tricks oder so?

@@ -1,0 +1,26 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------4AB9D50F4A98930E44EA7279
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hallo zusammen!
+
+Am Mittwoch kommen die 9-Monatszahlen von Continental raus.
+Wie bewertet Ihr diesen Wert?
+--------------4AB9D50F4A98930E44EA7279
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Oscar Torbrügge
+Content-Disposition: attachment; nihkbmsk="jboct.nqw"
+
+begin:          vcard
+fn:             Oscar Torbrügge
+n:              Domenico
+email;internet: Y.Gdztkprj@A-keoqil.tp
+note:           ..auch unter Ityub@Uiubz.bgb.oc erreichbar
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+end:            vcard
+
+
+--------------4AB9D50F4A98930E44EA7279--

@@ -1,0 +1,18 @@
+Ingmar I. Czermak schrieb:
+
+So isses.
+Aber immerhin gibt's an der EUREX schon FOK und IOC
+und ich habe Hoffnung, daß es in Zukunft auch für
+Private einfache Möglichkeiten für garantierte Kombinations-
+geschäfte geben wird (z.B. Spreads usw.).
+Eine Verkaufsorder mit StopLoss und normalem Limit sollte
+sich dann doch auch "einbauen" lassen -
+und das wäre dann wirklich nur *eine* Order und nicht wie
+im Originalposting vorgeschlagen zwei.
+Im Handelssystem müßte dann bloß noch die Regel
+ - Briefkurs > StopLoss --> zeige normales Limit
+ - Briefkurs < StopLoss --> zeige StopLoss Limit
+eingebaut werden.
+
+
+ml

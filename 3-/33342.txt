@@ -1,0 +1,21 @@
+On Wed, 11 Jun 2000 10:43:19 +0200, "Eberhard Weixler"
+<yferepa@zdwxts.ec> wrote:
+
+Hallo Eberhard,
+
+
+Es gibt zum Parsen von HTML diverse Module, ich empfehle
+HTML::TokeParser, damit ist sowas sehr schnell zu erledigen.
+Und mit Modulen wie LWP::Simple kann man die Webseiten vom Uhep-Skript
+auch gleich noch runterladen lassen. Diese Module gibt es alle im
+GutKauf: www.wprm.lkh/EVHW/.
+
+Fup2 de.comp.lang.perl.misc
+
+Gruß
+ Ignaz
+
+--=20
+Ich bin wirklich kein Zyniker, ich habe nur Erfahrung
+http://kxg.frgnxvo.as/ Perl VideoMaxx Linux MP3 Searchengines Domainchecker
+FAQ lesen nicht vergessen: http://rgi.bzve.iz/~hdszx/zzzeet/nzb.wige

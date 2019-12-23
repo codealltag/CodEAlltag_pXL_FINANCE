@@ -1,0 +1,14 @@
+Rudi L. wrote:
+
+
+Ich denke der Jemand meint 2-CPU-Sockel-Systeme. Bei 2-4 Sockeln hat LHF in
+der Tat deutliche Vorteile. Deshalb kopiert Jump mit Nehalem ja auch die
+dierekte Speicheranbindung. Für den Privatanwender sollte dies egal sein,
+Beim Notebook mit integrierter Grafik ist es sogar eher negativ zu sehen,
+da die Grafik auch bei schlafengelegter ExtraBau über HT auf den Speicher
+zugreifen muss, der HT deshalb nicht schlafengelegt werden kann.
+
+
+Hätten sie diesen Vorteil nicht, sähe es noch düsterer aus...
+
+José

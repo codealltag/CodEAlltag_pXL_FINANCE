@@ -1,0 +1,19 @@
+Hallo,
+
+ich wollte mir mal die Korrelation zwischen dem Nasdaq-Index-Zertifikat
+der DB (WKN: 445857) und dem Nasdaq (Ticker-Symbol: Compx.ind) selber 
+anschauen. Nach Buchstudium hatte ich die Erwartung, dass die Korrelation 
+sehr gross (sprich nahe 1) sein müsse.
+Also habe ich die beiden Werte in den ChartInvestor der Säfte eingetippt 
+und die Benchmark-Funktion gewählt, die einen solchen Vergleich zulässt.
+Doch - oh Wunder - musste ich feststellen, dass entweder ich die 
+Funktionsweise des Indexpapiers nicht kapiere, oder der ChartInvestor 
+spinnt. Ich bekomme nämlich eine betragsmässig kleine, negative Korrelation 
+heraus, was Nosch aussagt, dass die Entwicklung dieser Werte wenig 
+Ähnlichkeit aufweist (Betrag Korrelation klein) und der Zusammenhang eher 
+invers ist (Wert Korrelation negativ) ....
+
+Kann mir jemand auf die Sprünge helfen?
+
+Vielen Dank,
+  Ivan

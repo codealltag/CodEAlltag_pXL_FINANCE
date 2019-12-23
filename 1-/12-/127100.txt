@@ -1,0 +1,28 @@
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+--------------E5FF12E137CF6FEE02740A6B
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi,
+noch ein test, dann ist aber schluss
+
+
+--------------E5FF12E137CF6FEE02740A6B
+Content-Type: text/x-vcard; charset=us-ascii; name="vcard.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Description: Visitenkarte für Ignaz Daler
+Content-Disposition: attachment; wkscsuzn="jachj.lpy"
+
+begin:          vcard
+fn:             Ignaz Daler
+n:              Volker
+org:            SGO GmbH
+email;internet: frunymf@s-huqqfq.ga
+title:          Dipl.Ing.
+x-mozilla-cpt:  ;0
+x-mozilla-html: FALSE
+version:        2.1
+end:            vcard
+
+
+--------------E5FF12E137CF6FEE02740A6B--

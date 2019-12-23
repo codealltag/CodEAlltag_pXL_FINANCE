@@ -1,0 +1,10 @@
+Albin Rohlederer wrote:
+
+
+Vielleicht lieber in Perl:
+
+([a|e|i|o|u])nf$1n$1$1n/i
+
+Dann ist man auf der sicheren Seite ;-)
+
+Felix

@@ -1,0 +1,9 @@
+Heimo Interwies <Xmlym.Wvsrnmn@es.nngdc.wze> schrieb in im Newsbeitrag:
+1atz5n$7hw$0@azkot.ip.fuvvhulc.ctgiy.ea...
+
+$spruch = "Wer a sagt, muß auch b sagen.";
+$spruch ~= s/sag/schreib/;
+
+--
+Alexandre Kerschgen
+ICQ: 2638 / iwwfil@nlp.xme

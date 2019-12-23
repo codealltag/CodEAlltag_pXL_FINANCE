@@ -1,0 +1,19 @@
+In article <404f3v5p.57097001@Otwk.LXK.THM.BB>, oikuliuesom@unsnn.tnt 
+(Jochen Lagerpusch) wrote:
+
+
+würde es Dir etwas ausmachen, in Deinem
+Custom header Folgendes einzutragen? :
+
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+Damit mein Reader nicht mit Deinen Umlauten 
+... Überlastet ? und
+Überfordert ?  ist.
+
+-- 
+Digital Photojournalism
+http://tpvqsuluaohgb.pf
+fon/fax: 1771-32524.352

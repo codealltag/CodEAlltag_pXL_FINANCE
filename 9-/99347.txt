@@ -1,0 +1,24 @@
+Helmuth Grüner wrote:
+
+
+=2E.. rein theoretisch nicht. Denn Java-Applets dürfen immer nur
+eine Verbinung dorhing aufmachen, von woaus sie geladen wurden.
+Lädt man das Applett von der lokalen Platte, ist eine Verbinung
+zum Server nicht mehr möglich. Sollte es doch gehen, dann ist
+das Sicherheitsprinzip von Java ausser Kraft gesetzt. Ob das bei
+einer Bankapplikation so sinnvoll ist ... nun ich habe da so meine
+Zweifel.
+Vieleicht ist Consors aber doch eine heimliche Tochter von
+("Nichts ist unmöglich ...") Alhaca.
+
+Willi
+
+-- =
+
+----------------------------------------------------------------------
+Willi Rieble (technical director)         @ computational design gmbh
+bapydvf@ok-je.wj                                     wuppertal/germany
+http://rdy.rq-lu.zk                                  ++86 853 1251 636
+----------------------------------------------------------------------
+  Date: 28/09/99
+Notice: do you know what we are doing? http://rdy.rq-lu.zk

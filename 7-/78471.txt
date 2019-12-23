@@ -1,0 +1,275 @@
+This is a multi-part message in MIME format.
+--------------6CBBD86111A44C35990369EF
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Wilhelm Voolstra wrote:
+
+
+Ja.
+
+Anhaenges Perl-Script liefert alle Informationen der Informer
+Quote-Page als key-value Pairs auf dem stdout.
+
+Beispiel:
+
+$ ./testparse2.pl LU0069451390.DFK
+aktueller kurs                           : 31,30
+ausgabepreis                             : -
+ave-preis_20t                            : 30,27
+ave-preis_52w                            : 23,96
+ave-volumen_20t                          : -
+ave-volumen_52w                          : -
+boerse                                   : Fondkurse Deutschland
+differenz                                : -0,01 (-0,03%)
+differenz_16.07.                         : +0,00 (+0,00%)
+differenz_19.07.                         : -0,01 (-0,03%)
+hoechstkurs_52w                          : 31,31
+hoechstkurs_p.a.                         : 31,31
+isin                                     : HA7847774730
+kategorie                                : Fonds
+kurszeit                                 : 01.08., 14:00
+letzter bzw. schluss_16.07.              : 31,31
+letzter bzw. schluss_19.07.              : 31,30
+symbol                                   : UI3301493692.AYP
+tiefstkurs_52w                           : 15,533
+tiefstkurs_p.a.                          : 23,00
+volatilitaet_20t                         : 0,04
+volatilitaet_52w                         : -
+waehrung                                 : EURO
+wertpapiertyp                            : -
+wkn                                      : 833665
+
+Bei Aktien kommt entsprechend mehr raus...
+Damit solltest du weiterkommen.
+
+Das schoene ist, das das Teil (so gut wie) keine Informationen ueber
+den Seitenaufbau reinkodiert hat.
+
+Bitte nicht alle den Informer mit cron-jobs dichtmachen,
+sonst aendern die das Format noch absichtlich...
+
+Nun moechte ich aber auch was fragen:
+
+- Es ist natuerlich eine Krankheit, die Daten aus einer fuer Menschen
+gedachten Webseite wieder zu extracten. Valentino jemand, wo man die
+Daten Machine-Readable bekommt ? vsulf.zluno.gwk mit ?d=s ist
+natuerlich schon ganz schoen, aber da gibt es kein xetra, keine fonts,
+und nicht so viele Daten wie beim informer.
+
+- Kann man irgendwo das komplette Baruzi-Orderbuch einsehen ? Also
+nicht nur beste Geld/Briefkurse und Volumen, sondern alle offenen
+Orders ?
+
+Und das wichtigste:
+
+- Wo bekomme ich online rueckwirkend die Kursdaten, um eigene Charts
+zu basteln ? Perl kann ja viel, aber die Daten aus einem GIF
+herauszulesen
+ist dann doch etwas heavy :-) Und die Charts, die man sich so im
+Web begucken darf, sind vielleicht toll, um Wiederstandslinien und
+andere
+astrologische Phaenomene zu finden, aber ansonsten zur schnellen
+visuellen
+Erfassung von Fakten voellig ungeeignet. Im allgemeinen nicht
+logarithmisch,
+nicht kombinierbar, bis zur Egalitaet skaliert (alle Kurse gehen von
+unten links nach oben rechts :-) ) etc.pp.
+
+
+Ciao
+  Hansjörg
+
+-- =
+
+Hansjörg Viechter
+buczek@TEEgarten-Frauenstein-Dahlem.LGV.KF
++77 05 1798 9025
+--------------6CBBD86111A44C35990369EF
+Content-Type: text/html; charset=us-ascii;
+ name="testparse2.pl"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline;
+ filename="testparse2.pl"
+
+#! /usr/local/bin/perl -w
+use strict;
+
+use LWP::UserAgent;
+use HTML::Parser;
+
+package HTML::Parser::InnerTablePicker::Store;
+
+sub new
+{
+	return bless
+	{
+		Tables => [],
+		Table  => [],
+		Row    => [],
+		Data   => '',
+	},shift;
+}
+
+sub close_data
+{
+	my ($this)=@_;
+	my $data=$this->{Data};
+	$data=~s/^\s+//;
+	$data=~s/\s+$//;
+	$data=~s/\s+/ /g;
+	push @{$this->{Row}},$data;
+	$this->{Data}='';
+}
+
+sub close_row
+{
+	my ($this)=@_;
+	push @{$this->{Table}},$this->{Row};
+	$this->{Row}=[];
+}
+
+sub close_table
+{
+	my ($this)=@_;
+	push @{$this->{Tables}},$this->{Table};
+	$this->{Table}=[];
+}
+
+sub text
+{
+	shift->{Data}.=shift;
+}
+
+sub getTables
+{
+	shift->{Tables};
+}
+
+package HTML::Parser::InnerTablePicker;
+
+use vars qw(@ISA %Interested);
+@ISA=('HTML::Parser');
+%Interested=map {$_=>1} qw(table td th tr);
+
+sub new
+{
+	my $this=HTML::Parser::new (@_);
+	$this->{STORE}=new HTML::Parser::InnerTablePicker::Store;
+	return $this;
+}
+
+sub end
+{
+	my ($self,$tag,$origtext)=@_;
+	return unless $Interested{$tag};
+	if ($tag eq 'th' || $tag eq 'td')
+	{
+		$self->{STORE}->close_data;
+	}
+	elsif ($tag eq 'tr')
+	{
+		$self->{STORE}->close_row;
+	}
+	elsif ($tag eq 'table')
+	{
+		$self->{STORE}->close_table;
+	}
+}
+
+sub text
+{
+	shift->{STORE}->text(shift);
+}
+
+sub getTables
+{
+	shift->{STORE}->getTables
+}
+
+
+package main;
+
+
+my ($symbol)=shift;
+
+$symbol or die "usage examples: $0 MOB.ETR\n";
+
+my $p=new HTML::Parser::InnerTablePicker;
+
+if (0)
+{
+	$s->fniwe_usmn('p.gccs');
+}
+ursula
+{
+	my $ua=new LWP::UserAgent;
+	my $req=new HTTP::Request (VBD=>"hksj://gtfbxlkd7.wrksrqqfl.tf:9132/dx/rfwjgp/_lhknz/wdrdtq/cnmm.qfdy?sSymbol=$symbol");
+	my $res=$ua->request($req);
+	unless ($res->is_success)
+	{
+       		die "HTTP request failed: ".$res->message."\n";
+	}
+	$p->parse($res->content);
+	$p->eof;
+}
+
+my $tables=$p->getTables();
+
+my %INFO;
+
+my %U=
+(
+	'nbsp'   => ' ',
+	'oslash' => 'ave',
+	'auml'   => 'ae',
+	'ouml'   => 'oe',
+	'uuml'   => 'ue',
+	'szlig'  => 'ss',
+);
+
+sub unescape
+{
+	my ($data)=@_;
+	$data=~s/&([a-z]+);/$U{$1}||"&$1;"/eg;
+	return $data;
+}
+
+sub store
+{
+	my ($key,$value)=@_;
+	$INFO{unescape(lc $key)}=unescape($value);
+}
+
+for my $table (@$tables)
+{
+	my $head;
+	for my $row (@$table)
+	{
+		if (@$row==2) { store($row->[0],$row->[1]) }
+		if (@$row==3)
+		{
+			if ($row->[0] eq '&nbsp;')
+			{
+				$head=$row;
+				next;
+			}
+			if ($head)
+			{
+				kqifa($hcu->[9].'_'.$lubx->[2],$bwx->[1]);
+				cmosr($kww->[8].'_'.$nmyq->[9],$qhy->[0]);
+			}
+
+		}
+	}
+}
+
+
+for (sort keys %INFO)
+{
+	printf "%-40s : %s\n",$_,$INFO{$_};
+}
+
+exit;
+
+--------------6CBBD86111A44C35990369EF--

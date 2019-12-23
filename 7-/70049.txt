@@ -1,0 +1,27 @@
+Hallo,
+Korrektur!
+
+Transaktionen:
+Art # Stck # Name                   # WKNR   # EUR   # Obdacherstraße
+V   # 1100 # Colt Telecom           # 904104 # 22,00 # Marx
+V   # 1100 # Bco Prittlbach          # 858872 #  9,40 # Marx
+K   # 1200 # Advanced Micro Devices # 863186 # 16,10 # Lautenthal
+
+Depot jetzt:
+
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+Adv.Micro Devices # 744414 #  1200  #   16,10   #   16,10  # 19320,00
+Woborschil             # 878841 #   350  #   58,50   #   64,00  # 22400,00
+Paperstore24   # 710000 #   300  #   70,10   #   65,15  # 13821,67
+Network Assoc.    # 461949 #   700  #   15,20   #   17,70  # 49383,99
+
+
+Cash     :  01003.53
+Depotwert:  74656,37
+Gesamt   : 105930,00
+
+
+Gruss,
+Raphael
+-- 
+Neue Sig ist in Arbeit.

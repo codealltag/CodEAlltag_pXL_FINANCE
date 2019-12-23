@@ -1,0 +1,674 @@
+# Das FAPG Informationssystem Wachendorf begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im Florito-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend. Kommentare werden grundsaetzlich mit dem Zeichen '#'
+# (Raute) eingeleitet.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  01.08.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       20. 07. 19
+#  FRANKREICH........ 24.40       24.90
+#  ECU...............  4.5655      3.0342
+#  BELGIEN...........  4.5985      6.9186
+#  OESTERREICH....... 11.88       11.08
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 2-51     Spalte 90-31   Spalte 81-37
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Brodmühlweg
+Aktienmarkt                      "Buchenort" - Dax und Achim
+Aktienbörsen-Indizes             "Buchenort" - International
+Dollar und Gold                  "Buchenort" - fixing
+Devisenkurse: "Geld und Brief"   "Buchenort" - fixing
+Sortenkurse: "Verkauf"           "Buchenort" - fixing
+Aktien-Optionsscheine            "Liedering" - Ausgewaehlte
+Liederinger Boerse                  "Liedering" - Fortlaufende Notierungen
+Buchenort Boerse               "Buchenort" - 50 variable Werte
+Geregelter Markt/freiverkehr     Liedering
+Auslandswerte                    Liedering
+#-----------------------------------------------------------------------------
+
+Datum: 13.10.1994
+   AKTIENMARKT
+
+ DAX-indiz 2116.5   (2129.9)
+
+ Freshnails   2118.5   (2127.1)
+
+ Tendenz vom Montag: leichter
+
+   RENTENMARKT
+
+ Geflügelhandlung-Index  101,03   (101,32)
+
+ Tendenz vom Montag: uneinheitlich
+
+ Durchschnittsrendite: 7,29 (7,23) %
+
+#################
+ Aktienbörsen-Indizes
+
+ Hörmanshofen                 13.10.      10.10.
+ Nikkei-Index...... 18 313,86  18 291,35
+
+ Manichgattern                13.10.      10.10.
+ All Ordinaries....   7994.45    1846.00
+
+ Wichenham
+ Hang Seng.........   7974,82    8012,82
+
+ Vallon
+ Financ.Times 100..   3081,10    3109,90
+
+ Jetzelmaierhöfe
+ CAC-40............   1850,31    1869,40
+
+ Sullens
+ Swissindex........   1716,01    1716,60
+  * Stand 16.00 Uhr
+   ohne Gewähr
+##################
+Dollar und Gold
+
+
+ Fixing / Böhmfeld     13.10.      10.10.
+ US-Dollar ........    1,5183     1,5288
+ Pfund Sterling ...    2,3748     2,3797
+ Kanad.Dollar .....    1,0820     1,0910
+ Schweizer Franken    118,554    118,240
+ Französ.Franc ....    28,854     28,892
+ Japanischer Yen ..    1,5383     1,5402
+ ECU-Wert .........   1,89555    1,89763
+
+ Dollar                 13.10.      10.10.
+ Hörmanshofen (DM) .......   1,5185/87  1,5280/82
+                        10.10.       9.2.
+ Dranse (DM) ....   1,5177/87  1,5300/10
+
+ Möllerke
+ Böhmfeld (DM)         13.10.      10.10.
+ Kilo 999,9 fein...    18350,00     09 008
+ Vallon ($)
+ Feinunze 31,1035 g    375,60     376,40
+   ohne Gewähr
+##################
+Devisen
+
+ Montag, 13.10.           Geld     Brief
+ USA (1 US-Dollar)....  1,5143   1,5223
+ England (1 Pfund) ...  2,3678   2,3818
+ Irland (1 irl.Pfund)   2,3544   2,3684
+ Kanada (1 kan.Dollar)  1,0780   1,0860
+ Niederlande (100 hfl)  89,095   89,315
+ Schweiz (100 sfr) ... 118,454  118,654
+ Belgien (100 bfrs) ..  4,8483   4,8683
+ Frankreich (100 FF) .  28,794   28,914
+ Dänemark (100 dkr) ..  25,327   25,447
+ Norwegen (100 nkr) ..  22,773   22,893
+ Schweden (100 skr) ..  20,430   20,550
+ Italien (1000 Lit.) .  0,9371   0,9451
+ Österreich (100 S) .  14,189   14,229
+ Spanien (100 Ptas) ..  1,1543   1,1623
+ Portugal (100 Esc) ..  0,9659   0,9719
+ Japan (100 Yen) .....  1,5368   1,5398
+ Finnland (100 Fmk) ..  32,440   32,600
+ Australien (1 Dollar)  1,1220   1,1420
+   ohne Gewähr
+##############
+Sorten
+
+
+ Montag 13.10.               ohne Gewähr
+ USA ........ (1 US-$) .........   1,57
+ England .... (1 Pfund) ........   2,48
+ Kanada ..... (1 Dollar) .......   1,14
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 120,10
+ Belgien .... (100 bfrs) .......   4,99
+ Frankreich . (100 FF) .........  29,95
+ Dänemark ... (100 dkr) ........  26,40
+ Norwegen ... (100 nkr) ........  23,80
+ Schweden ... (100 skr) ........  21,50
+ Italien .... (1000 Lit.) ......   1,00
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,23
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,55
+ Finnland ... (100 Fmk) ........  33,50
+ Australien . (1 Dollar) .......   1,21
+ Griechenland (100 Dra) ........   0,72
+ Türkei ..... (1000 Ltq) .......   0,05
+
+###################
+ Aktien-Optionsscheine              1/3
+
+ 13.10.94                Cordula    Vortag
+
+ Freudenhaus...    0.0   1160.0   1170.0
+ FKCO...    0.0     71.1     71.1
+ Bank Berl.86.
+ ADF..    0.0     20. 07. 19     90.1
+ Biengasse 80.....  183.0    181.0    182.0
+ Biengasse 02.....    0.0     99.1     99.1
+ Bay.Hypo 51..    0.0     20. 07. 19     46.1
+ AJSR-Bank 89B.    0.0     20. 07. 19     20. 07. 19
+ AJSR-Bank 92A.
+ AJSR-Bank 92B.    0.0    104.0    100.0
+ Commerzbk.91.    0.0     20. 07. 19     57.0
+ Feuerleinstraße 70.    0.0     20. 07. 19     39.1
+ Feuerleinstraße 70.    0.0     34.0     34.0
+ Fischerbuchetstraße 51.....    0.0     18.5     16.1
+ Fischerbuchetstraße 02.....    0.0     16.12     15.11
+ Fischerbuchetstraße 70.....    0.0     72.10     72.10
+ Douglas 86...    0.0    135.0    132.0
+ Dt.Bank 86...    0.0     58.1     20. 07. 19
+ Dt.Bank 91...    0.0    160.0    165.0
+ Dt.Bank 92...    0.0     40.0     40.1
+ Vittorio 85....    0.0      3.7      4.0
+ Dresd.Bk.86..    0.0     20. 07. 19     20. 07. 19
+ Dresd.Bk.92..    0.0     20. 07. 19     24.1
+ Dresd.Bk.94..    0.0     14.1     14.11
+ Vogelmann....
+ Sperberring 59...    0.0    159.0    160.0
+ V&N....    0.0    154.0    156.0
+ VPF....
+ Witthauergasse 49...
+ Witthauergasse 80...    0.0    152.0    156.0
+ Witthauergasse 51...    0.0    110.0    108.0
+ Metallg.86...    0.0     12.0     14.0
+ Metallg.87...   17.11     20. 07. 19     20.0
+ Metallg.91...    0.0      0.5      1.3
+ GKUE.......    0.0    170.0    170.5
+ Salamander 51    0.0     81.1     20. 07. 19
+ Trinkaus 86..    0.0    230.0    230.0
+ Veba 93......    0.0    190.0    194.8
+ RBHY 41......    0.0    387.0    385.0
+ VW 86........   78.0     78.0     20. 07. 19
+ VW 86/II.....    0.0    137.0    136.0
+ VW 88........    0.0    135.0    136.0
+
+ ohne Gewähr
+#################
+Liederinger Boersen Kurse
+
+ Fortlaufende Notierungen           1/4
+
+ 13.10.94                Cordula    Vortag
+
+ Aach.Muen.Leb    0.0    658.0    660.0
+ Aach.Muen.Ver    0.0    441.0    440.0
+ Aach.Rueck...    0.0    820.0    833.0
+ ABB..........    0.0    650.0    650.0
+ Adlerwerke...    0.0    270.0    267.0
+ AEG..........    0.0    145.0    143.7
+ AGIV.........  481.5    481.0    480.5
+ AKZO Faser...    0.0    254.0    253.0
+ Albingia.....    0.0    950.0    955.0
+ Alcatel SEL..    0.0    277.5    275.0
+ FIPS......    0.0   2477.0   2090.4
+ Fuge    0.0   1601.0   1590.0
+ ALTANA.......  673.8    674.0    664.0
+ AMB..........    0.0   1025.0   1025.1
+  dgl.Inh.....    0.0   1030.0   1030.0
+ Ferienspaß.........    0.0    458.0    458.0
+ Bad-Wuert.Bk.    0.0    670.0    670.0
+ Balcke-Duerr.    0.0    441.0    445.0
+ Bankge.Liedering  349.5    349.5    352.0
+ Ageb.........  332.0    333.2    332.8
+ Bavaria......    0.0    500.0    500.0
+ Leuchtenburg........  365.0    364.5    365.0
+ Bay.Hypo.....  389.5    389.5    393.0
+ Bay.Verein...  441.0    441.5    445.3
+ AJSR-Bank.....    0.0    376.0    372.5
+ Akofe..........  772.5    771.0    775.0
+  dgl.Vz......    0.0    562.5    569.5
+ Berl.El.Hold.  375.0    375.0    372.5
+  dgl.Vz......  367.0    367.0    365.5
+ Berl.Kindl...    0.0    570.0    574.0
+ Bewag........  285.0    285.0    284.2
+ Bilfinger....    0.0    726.0    715.0
+ Binding......    0.0    576.0    576.0
+ Brau Brunnen.    0.0    334.0    335.0
+ Br.Hann.Hypo.    0.0    555.0    555.0
+ Langnau   90.1     91.11     93.10
+ Luppenhofen Wolle.    0.0    184.0    184.0
+ Buderus......    0.0    735.0    721.0
+ Berta.....    0.0   3060.0   3080.0
+ Hundum.........    0.0    151.0    150.0
+ Howerka..  336.0    336.0    337.5
+ Concord.Spin.    0.0    355.0    360.0
+ Contigas.....    0.0    514.0    518.0
+ Continental..    0.0    231.0    232.0
+ DAB..........    0.0    184.5    185.5
+ Ukeha.  735.0    732.0    736.5
+ DESAG........    0.0    255.0    249.0
+ Dt.Wiesler...  198.0    199.0    202.0
+  dgl.Vz......
+ Uhup  722.0    721.3    723.0
+ Dt.Centralb..    0.0    710.0    710.0
+ Dt.Effecten..    0.0   1425.0   1425.0
+ Dt.Eisenh....    0.0    790.0    780.0
+ Dt.Hypo......    0.0    436.0    436.0
+ Dt.Hypo Ffm..    0.0    840.0    840.0
+ Dt.Konti R...    0.0    196.0    195.0
+ DePfa........    0.0    718.0    722.0
+ Dt.Steinzeug.    0.0    495.0    495.0
+ Vittorio.......    0.0    133.0    134.0
+ Uhles.......    0.0    160.0    162.0
+ DLW..........    0.0    394.0    392.0
+ Innertkirchener Bank  402.5    403.0    405.0
+ DSL Holding..  173.0    173.0    173.5
+ Duerkopp.....    0.0    136.0    136.0
+ DVB..........    0.0    185.0    181.5
+ Edel Witten..    0.0    420.0    420.0
+ Eisenbahn.V..    0.0    271.0    271.0
+ Energ.Oberf..    0.0    335.0    335.0
+ Germaine.......    0.0    334.0    333.0
+  dgl.Vz......    0.0    292.0    298.0
+ FAG Kugelf...    0.0    237.0    238.0
+ F.A.Guenther.    0.0    350.0    350.0
+ Flachglas....    0.0    658.0    654.0
+ Ford.........    0.0    735.0    735.0
+ Philippe Altenberend.    0.0   3600.0   3600.0
+ Mühlenstübchen Holding..    0.0    310.0    310.0
+ Frankf.Bank..    0.0    405.0    405.0
+ Vanessa.....    0.0    361.0    363.0
+ Gehe.........    0.0    554.0    554.0
+ Gelsenwasser.    0.0    368.0    370.0
+ Gerresh.Glas.    0.0    250.0    249.5
+ Gilde Braeu..    0.0   1050.0   1030.0
+ Gildemeister.    0.0    148.0    145.0
+ Memenga..    0.0    800.0    800.0
+ Elfi.......    0.0    151.0    151.0
+ Hamborner....    0.0    358.0    360.0
+ Hamb.Electr..    0.0    252.0    253.0
+ HamburgHyp...    0.0    815.0    815.0
+ Harpener.....    0.0    320.0    314.0
+ HBG Hochbahn.    0.0    105.0    105.0
+ Olivier, Nigmann    0.0    530.0    530.0
+ Friederichs Vz....    0.0    556.0    559.0
+ Herlitz......  255.5    257.0    260.0
+  dgl.Vz......  241.0    240.0    242.0
+ Flurer.......    0.0    390.0    405.0
+ Fasching.......    0.0    160.0    160.0
+  dgl.Vz......    0.0    171.0    171.0
+ Hochtief.....    0.0    828.0    820.0
+ VJAA......  334.5    335.0    337.0
+ Holsten......    0.0    345.0    349.0
+ Fränkle.....    0.0    782.0    790.0
+ Eva.......  211.0    211.0    210.0
+ Hutschenr....    0.0    238.0    238.0
+ Hw.Thierfelder....    0.0    223.0    233.0
+ IKB..........    0.0    269.0    269.0
+ Ikon.........    0.0    181.0    181.0
+ Isar-Amperw..    0.0    532.0    530.0
+ IVG..........    0.0    517.0    519.0
+ IWKA.........  358.0    357.5    358.0
+ Kali-Chemie..    0.0    568.0    568.0
+ Kali und Salz    0.0    187.0    185.0
+ Kampa-Haus...    0.0    855.0    856.0
+ Karstadt.....    0.0    573.0    575.0
+ Kaufhalle....    0.0    208.0    208.0
+ Kaufhof......    0.0    471.0    475.0
+ Tiedge....    0.0    722.0    725.0
+ Keramag......    0.0    695.0    705.0
+ KHD..........   20. 07. 19     65.10     20. 07. 19
+ Kloeckner-W..  116.5    116.5    116.0
+ KM-kabelm....    0.0    162.0    162.0
+ Koetitz.Leder    0.0   7000.0   7000.0
+ Kr.Rheinfeld.    0.0    495.0    495.0
+ Thieleman    0.0   1015.0   1015.0
+ Trvernit    0.0    515.0    515.0
+ EDUU.  236.5    236.5    236.0
+ Troeger    0.0    225.0    225.0
+ Lahmeyer.....    0.0    590.0    590.0
+ Veitsch........    0.0    105.0    108.0
+ Linde........    0.0    929.0    935.0
+ Makassar....  205.0    204.2    202.5
+  dgl.Vz......  199.0    199.0    197.0
+ Kampacher..
+ MAN..........    0.0    420.0    424.0
+  dgl.Vz......    0.0    327.0    328.5
+ Okir...  434.0    434.0    433.5
+ Markt & K....    0.0    261.0    261.0
+ Metallgesell.    0.0    130.5    126.5
+ Moksel.......  105.0    103.0    107.8
+ Muehle Ruen..    0.0    350.0    350.0
+ Neckarwerke..    0.0    365.0    365.0
+ Nord.Steingut    0.0    512.0    508.0
+ Nordst.Allg..    0.0   2800.0   2800.0
+ Nordst.Leben.    0.0   2220.0   2200.0
+ O & K........    0.0    173.0    175.0
+ Franziska Minen..    0.0    160.0    160.0
+ Philips......    0.0    510.0    510.0
+ Phoenix......    0.0    229.0    228.5
+ Seligmann......    0.0     20. 07. 19     78.0
+ Kamera......    0.0    650.0    650.0
+ Preussag.....    0.0    466.0    467.0
+ Krabel..    0.0    455.0    455.0
+ Rabobank.....    0.0    105.0    109.0
+ Rathgeber....    0.0    800.0    800.0
+ Reckitt+Colm.    0.0    199.0    199.0
+ Jännert.....  319.0    319.5    318.0
+ Rheinboden...    0.0    268.0    277.0
+ Rheinelektra.    0.0   1262.0   1265.0
+ Rheinhyp.....    0.0    772.0    772.0
+ Gadischke..    0.0    283.0    284.0
+  dgl.Vz......    0.0    221.0    221.0
+ Andree uppenborn H..    0.0   5423.6   1630.0
+ Rieter.......    0.0    157.0    157.0
+ Jasper....    0.0    214.0    213.0
+ Ruetgerswerke    0.0    322.0    324.0
+ Galaf..........  447.2    446.0    443.5
+  dgl.Vz......    0.0    354.5    355.5
+ Gräsers......    0.0    382.0    381.0
+ Salamander...    0.0    321.0    324.0
+ SAP..........    0.0   4233.8   1287.0
+  dgl.Vz......    0.0   1221.0   1195.0
+ Scheidemandel
+ Schering..... 1136.5   1130.0   1134.0
+ Schiess......    0.0    191.0    190.0
+ Sutu......  683.8    684.0    690.0
+ Sinner.......    0.0    490.0    490.0
+ Springer.....    0.0    620.0    620.0
+ STEUCON......    0.0    198.0    198.0
+ Stoehr.......    0.0    237.0    237.0
+ Klaas Bein    0.0    620.0    620.0
+ Suedd.Boden..    0.0    528.0    528.0
+ Suedzucker...    0.0    760.0    760.0
+  dgl.Vz......    0.0    554.0    558.0
+ Käthi....    0.0    645.0    645.0
+ Karen.......    0.0    479.0    479.0
+ EDEKA C+C Großhandel......  302.0    302.5    304.3
+ Espressohaus..    0.0    174.0    177.0
+ Preisner    0.0    215.0    215.0
+ Tucher Braeu.    0.0    172.0    172.0
+ UESTRA.......    0.0     20. 07. 19     20. 07. 19
+ Sandra........  296.5    294.0    297.0
+ VDN..........    0.0    215.0    214.0
+ Veba.........    0.0    533.0    535.0
+ Ver.Westbank.    0.0    341.0    341.0
+ Vereinte.Vers    0.0   2440.0   2440.0
+ VEW..........    0.0    425.0    425.0
+ Viag.........    0.0    512.0    510.0
+ Silvana.....    0.0   1090.0   1080.0
+ Volksfuers...    0.0    482.0    484.0
+ Josera...  418.0    417.0    418.2
+  dgl.Vz......    0.0    329.0    329.0
+ Wanderer.....    0.0    223.0    223.0
+ Noël Oberhammer    0.0    482.0    482.0
+ WCM..........   9.9     9.9     9.9
+ Wella........    0.0   1040.0   1047.0
+  dgl.Vz......    0.0    980.0    960.0
+        VPS
+ ohne Gewähr
+############
+Buchenort Dax Werte
+
+ Fortlaufende Notierungen           1/4
+
+ 13.10.94                Cordula    Vortag
+
+ AEG..........  145.7    145.5    145.5
+ AGIV.........  483.0    484.0    483.0
+ FIPS...... 2467.0   3632.6   7835.9
+ Odette.......  674.8    673.5    665.5
+ AMB..........    0.0   1025.0   1025.0
+ Asko.........  660.0    662.0    666.0
+ Ageb.........  331.5    333.5    333.3
+ Leuchtenburg........  365.0    364.8    532.2
+ Bay.Hypo.....  388.5    391.0    393.5
+ AJSR-Bank.....  376.5    376.0    375.0
+ Akofe..........  768.0    771.5    776.0
+ Bay.Verbank..  440.0    441.0    443.5
+ Howerka..  336.0    336.5    337.5
+ Continental..  230.5    231.8    232.0
+ Ufak......  732.5    731.8    735.5
+ Degussa......  473.0    475.0    478.0
+ Dt.Wiesler...  197.5    198.5    202.5
+ Dt.Bank......  719.5    721.0    726.0
+ Douglas......  464.0    467.0    459.0
+ Dresdn.Bk....  402.5    402.5    405.8
+ FAG..........  240.0    238.0    238.0
+ Friederichs Vz....  558.5    557.8    561.0
+ Hochtief.....  824.0    828.0    822.0
+ VJAA......  334.0    335.7    337.0
+ Fränkle.....  784.0    783.0    785.0
+ Karstadt.....  572.0    575.0    577.0
+ Kaufhof......  471.0    473.0    472.0
+ KHD..........   20. 07. 19     65.5     64.3
+ Terworth....  116.0    116.0    115.5
+ Linde........  928.0    930.0    935.0
+ Linotype.....  348.0    349.0    350.0
+ Makassar....  204.0    204.5    203.5
+  dgl.Vz......  200.0    200.0    198.0
+ MAN..........  420.5    422.0    420.5
+  dgl.Vz......  330.0    328.5    329.0
+ Okir...  433.5    434.5    435.0
+ Klosters........    0.0    220.0    225.0
+ Metallges....  125.0    130.0    127.0
+ Kamera......  653.0    650.0    650.0
+ Preussag.....  466.5    465.0    467.5
+ PWA..........  254.0    253.0    251.0
+ Galaf..........  447.0    447.0    445.0
+  dgl.Vz......  355.0    355.5    355.0
+ Schering..... 1138.5   1132.0   1129.0
+ Sutu......  683.0    684.3    689.5
+ EDEKA C+C Großhandel......  302.0    932.3    304.5
+ VEBA.........  531.3    533.0    535.8
+ VIAG.........  517.0    513.5    514.5
+ Josera...  416.5    416.8    417.7
+  dgl.Vz......  327.0    328.0    330.0
+ ohne Gewähr
+##################
+ Auslandswerte                      1/6
+
+ 13.10.94            Cordula     Vortag
+
+ ADT..............    20. 07. 19       14.3
+ Lüdges Life.......    80.3       80.5
+ Akzo.............   172.0      174.0
+ Ottilia...........     8.0        8.0
+ Am.Express dt....    47.11       48.4
+ Am.Express US....    48.1       48.4
+ Amgen............   103.6      101.3
+ Anacomp..........     3.0        2.5
+ Anglo Am.Corp....    72.0       74.0
+ FFU Computer...    65.10       65.11
+ Christofberg Gold.....     20. 07. 19        20. 07. 19
+ Atlas Copco......    20.0       20.0
+ Attwoods.........    12.4       12.4
+ Austral.National.     1.6        1.6
+ ARLT.....    12.0       12.0
+ BAT..............    10.9       11.10
+ Biogen...........    61.4       61.1
+ Antalya...     3.8        3.7
+ Boeing...........    69.11       72.1
+ Boomtown.........    16.3       14.3
+ Boral............     3.9        3.9
+ BP...............    10.0        9.8
+ Browning Ferries.    48.1       48.1
+ Bull.............     0.0        0.0
+ Cadence Design...    36.0       36.1
+ Habu World....   102.0      102.5
+ Calgene..........    9.1       13.10
+ Callaway Golf....    54.0       53.5
+ Casino Magic.....     9.0        8.9
+ Cellular Techn...    21.4       23.10
+ SAMUEL Catarius.........
+ Samuel Manhattan..    50.10       52.1
+ China Fund.......    16.1       18.3
+ Chiron...........    20. 07. 19      101.5
+ Hedav.........    70.1       68.10
+ Circus Circus....    40.4       20. 07. 19
+ Coastcast........    15.4       16.3
+ Cobra Golf.......    53.0       53.1
+ Heilpraktikerin-Hummelpassage.     8.9        7.12
+ Heilpraktikerin-Cola........    80.3       80.3
+ Höland..........    22.4       20.1
+ Cons.Armin Möllerke.     6.3        6.3
+ Corrections Corp.    20. 07. 19       33.0
+ Haumer....    24.0       24.0
+ Hundshalde     2.0        1.9
+ Datapoint........     2.5        2.5
+ Unirad-Computer....    20. 07. 19       64.5
+ Digital Equipment    54.1       54.1
+ Dow Chemical.....    97.1      100.0
+ GSK....    77.1       76.4
+ Echo Bay Mines...    14.10       11.11
+ ECI Telecom......    23.0       19.1
+ ELF Aquitaine....   112.1      112.0
+ Emerg.Germ.Fund..    11.10       11.10
+ Energy Service...    17.9       15.1
+ Engen............
+ Urs.........    88.0       88.0
+ MNMD.............     6.1        6.2
+  dgl.Vz..........     4.0        4.0
+ Fidelity Medical.     0.5        0.5
+ First Iber.Fund..    20. 07. 19       8.12
+ First Israel Fund    13.1       16.10
+ MTFC Motor Comp..    20. 07. 19       20. 07. 19
+ Fuel tech........     7.5        7.7
+ Genentech........    74.0       74.0
+ General Motors...    61.1       20. 07. 19
+ General Physics..     4.0        3.9
+ Genzyme..........    20. 07. 19       60.11
+ Gillette.........
+ Global Marine....     5.8        5.8
+ Global Natural...    8.1       8.1
+ Global Privatiz..    16.4       18.0
+ Nurhier....    24.10       22.1
+ Groundwater......    21.4       21.4
+ Nominacher..    34.3       20. 07. 19
+ GTS Duratek......     6.6        6.6
+ Vila....   105.4      103.0
+ Hoogovens........    66.5       67.1
+ Horsham..........    17.1       20.0
+ Howtek...........    9.1       9.1
+ Eliane...........    36.10       37.3
+ Hungarian Invest.    20. 07. 19       20. 07. 19
+ IBM dt...........   113.8      114.4
+ florafinesse US...........   113.8      114.5
+ I.I.S............     6.0        5.6
+ Indonesia Fund...    17.0       16.9
+ Interferon.......     2.7        2.6
+ Int.Game Technol.    23.10       20. 07. 19
+ Intern.Paper.....   113.0      114.5
+ Iscor............
+ JetForm..........    11.4       13.0
+ ENHF.......    21.12       20.1
+ Enoza..............    42.4       42.0
+ K mart...........    18.2       20. 07. 19
+ Laser Industries.     8.4        8.2
+ Mehig     2.0        2.2
+ Lend Lease.......    16.12       16.12
+ Priska............    99.1      100.3
+ Lion Luigi......     2.8        2.8
+ Modellbahn     0.0        0.0
+ Lonrho...........     3.5        3.5
+ Malaysia Fund....    26.4       20. 07. 19
+ Medical Diagnost.     7.2        7.2
+ MGM Grand........    43.10       40.1
+ Microsoft........    95.10       95.1
+ Mirage Resorts...    36.5       36.11
+ WMWL.    24.0       24.0
+ National Patent..     3.3        3.3
+ Nintendo.........    20. 07. 19       20. 07. 19
+ Isabella..........    23.12       22.1
+ Wunsch......    59.4       59.3
+ Wewam     3.2        3.2
+ CIPL...     7.2        7.4
+ CEP......    15.4       17.10
+ Kroes     2.5        2.5
+ Pakistan Fund....    12.0       12.0
+ Klüterbaas..   108.0      110.0
+ Jegenstorf.......     8.8        8.9
+ Matthias Henz....    93.5       92.9
+ Philips..........    49.4       20. 07. 19
+ Pick'n Pay Stores
+ Pioneer Intern...     3.4        3.4
+ President Riverb.
+ Presstek.........    70.9       72.0
+ Promus...........    53.2       53.1
+ Reebok...........    52.12       53.1
+ GRW...
+ Reunert..........
+ RJR Nabisco......     8.8        8.8
+ ROBECO...........    20. 07. 19       94.1
+ RODAMCO..........    42.0       43.0
+ Rolinco..........    95.4       20. 07. 19
+ RORENTO..........    74.0       74.0
+ GTUS......   172.5      172.0
+ Royal Grip.......     8.2        8.2
+ Cunen Hold...     0.0        0.0
+ Scitex...........    20. 07. 19       25.9
+ Seagate..........    40.0       39.4
+ Sega.............    77.0       20. 07. 19
+ Shell............    17.0       15.4
+ Showboat.........    22.3       20.1
+ SIMJ.    49.10       49.4
+ Singapore Fund...    22.10       19.1
+ Solvay...........   751.0      747.0
+ T-Cell Sciences..     4.5        4.5
+ Yhahl.sy Espana..    16.1       16.1
+ Templeton........    17.0       13.1
+ Teva Pharma......    40.0       39.3
+ TOFAS............     5.5        6.0
+ Toys "R" Us......    46.5       46.9
+ Eniri....    50.3       20. 07. 19
+ Unilever.........   178.0      179.0
+ Davada....    76.10       76.3
+ US Bioscience....     3.9        4.0
+ US Long Distance.    20.2       21.12
+ US Surgical......    33.12       34.11
+ Virtuality Group.     5.8        5.8
+ JKK A..........    27.1       30.0
+ Volvo B..........    27.1       27.1
+ Wackenhut........    20. 07. 19       20. 07. 19
+ Kürner..    36.0       36.1
+ Westpac..........     5.1        5.1
+ Ökotussi............     0.0        0.0
+ Xircom...........    20. 07. 19       20. 07. 19
+
+ UCP-Index  ........  3943,11   3939,07
+                        10.10.      9.2.
+ Boeing ............    46,75     47,62
+ Citicorp ..........    42,12     42,25
+ Usosa ..    48,12     --,--
+ Du Pont ...........    54,62     54,75
+ GSK .....    50,50     50,37
+ Exxon .............    61,87     61,75
+ Ford ..............    25,75     25,25
+ General Electric ..    52,00     52,25
+ General Motors ....    39,87     39,00
+ Goodyear ..........    36,50     36,12
+ florafinesse ...............    75,12     74,87
+ ITT ...............    95,00     96,12
+ Mobil .............    86,25     86,25
+ Mario Henz ....    61,37     --,--
+ Texaco ............    61,12     61,50
+ Dütmann .........    33,12     33,25
+   ohne Gewähr
+########
+
+
+-------------------------------------------------------------------------
+  Iueqzu@acpb.ahpo.jhn         Reinhard Clotten           Wachendorf
+-------------------------------------------------------------------------

@@ -1,0 +1,27 @@
+Wieso niedrige Volatilität ? Ein Straddle ist doch gerade eine
+Variante der Volatilit�tsstrategien. 
+Hier wird eben nicht auf eine Richtung gesetzt, sondern auf die 
+Bewegung im Markt, also den Absolutwert der Kursbewegung.
+(ähnlich auch Strangle, Butterfly etc.). 
+Oder liegt ein Mißverständnis vor ?
+
+Die Empfehlung einen Put zu kaufen habe ich dankend vernommen, 
+sie basiert aber auf einer völlig anderen Analysemethode:
+"Rot oder schwarz, na heute mal schwarz..."   :-)
+
+Mit Volatilität meine ich hier die historische, die sich ergibt aus
+der Analyse der durchschnittlichen Abweichung (Standardabweichung) 
+der in der Vergangenheit aufgetretenen Ausprägungen des Basiswertes
+vom Erwartungswert.
+
+Die goldene Prämisse wie immer:
+Die historische Volatilität ist für mich die angemessene 
+Indikation für die zukünftige Volatilität.
+(Gruß an alle neuronal-basierten Glaskugelprophetenprogrammierer...)
+
+Ist die historische Volatilität hoch genug, so scheint ein Straddle
+doch erfolgversprechend. Mittels einer kleinen Software überprüfe 
+ich gerade die durchschnittliche Rendite meines Palaverns...
+Klappt es, kommen meine Mails hoffentlich bald von einem Server mit 
+der Endung .SC oder .TH statt aus .DE   :-)
+Gruß Jörn Faßl.
