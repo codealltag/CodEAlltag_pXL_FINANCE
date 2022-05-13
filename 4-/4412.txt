@@ -1,0 +1,123 @@
+Ecart beim Roulette von Wöhrner Wallenwein
+Author R.Wallenwein
+Video http://gid.cbfhzwt.xpn/ejyrh?c=9N2KuGqklZQHd
+
+Wenn wir, als Systemspieler, uns auch in das Casino trauen, in der
+Hoffnung mit unserem System zu gewinnen, so haben wir doch eine
+gewisse Furcht vor den Ereignissen im Spielsaal und in den Internet-
+Casinos.
+Ob zu Recht, wollen wir mit diesem Artikel durchleuchten.
+
+Schon oft hörte man von " Merkwürdigkeiten " beim Zahlenfallo. Sicher
+sind diese teil auch auf " natürlicheEcarterscheinungen"
+zurückzuführen. Oft denkt man nur, da man verloren hatte, dass nicht
+alles mit rechten Dingen zuging. Damit sie im Bedarfsfall die
+Richtigkeit prüfen können, soll ein schneller Prüfalgorythmus Abhilfe
+schaffen.
+Zur schnellen Übersicht eignet sich eine Prüfstrecke von 36 Coups
+( eine Rotation ), die mehrmals notiert wird. Die Zahlen können
+selbstverständlich auch hintereinander nausgewertet werden, wenn ohne
+System gespielt werden soll. Für die praktische Erprobung empfiehlt es
+sich erst, nur im reinen masse egale zu setzen, da auf den mehrfachen
+Chancen lediglichvom Umsatz 2,7% als Verlust zu veranschlagen sind.
+Einen zweiten Durchgang und einen dritten Durchgang kann man dann mit
+etwas höheren Einsätzen wagen. Im Regelfall zeigen sich nanch drei
+Rotationen, sofern vorhanden, bereits Unregelmäßigkeiten.
+
+Als Gradmesser eignet sich eine Tabelle für Standardabweichungen, wie
+sie nach der Gauss`schen Klockenkurve vorgegeben ist. Ebenfalls
+geeignet ist eine Untersuchung nach dem so genannten "
+Zweidrittelgesetz ".
+
+Erster Test :
+
+Jeweils sechs Transversalen Simple bilden eine Transversalenrotation.
+Innerhalb von sechs Notierungen sollten zwei Tranversalen nicht
+erscheinen. Zumindest als Durchschnittswert im Rahmen von 6x6 ( eine
+36er Rotation ) mal drei Rotationen (108 Coups ) müsste annähernd
+dieser Wert erreicht werden.
+
+Zweiter Test :
+
+Für Transversalen Plein gilt eine 12er Rotation, da 12 Transversalen
+Plein vorhanden sind. Auch hier besteht nach dem Zweidrittelgesetz die
+Anforderung, dass sich vier Transversalen in einer 12er Rotation nicht
+zeigen werden. Bezogen auf eine Pleinrotation von 36 Coups sind dies
+drei Versuche und in drei Pleinratationen neun Versuche.
+
+Dritter Test :
+
+Genau 23,574 Zahlen sollten in einer Pleinrotation von 36 Coups wegen
+des Zweidrittelgesetzes erscheinen. Mit geringen Schwankungen wird
+sich dieser Wert auch manifestieren.
+
+Vierter Test :
+
+Die Standardabweichungen zeigen ein klares Bild. Bei einfachen Chancen
+sollten innerhalb der ersten Standardabweichung rund 75% innnerhalb
+einer Rotation von 36 Coups vorhanden sein ( wegen des geraden
+Coupwertes -ohne Zeroberücksichtigung ist ein Nullergebnis möglich von
+18 zu 18 und deswegen anstatt der rund 68% hier 75%). Grundsäzliche
+Verteilung der Standardabweichung auf den einfachen Chancen:
+
+
+Standartabweichungen und ihr Prozentuales Verhalten
+
+1 Sigma 68,26% Aller Ergebnisse bleiben darin
+2 Sigma 95,44% Aller Ergebnisse bleiben darin
+3 Sigma 99,73% Aller Ergebnisse bleiben darin
+
+Diese Prozentwerte teilen sich dann hälftig in Plusse und Minusse.
+
+Wie sieht das masse =E9gale im Endergebniss auf einer Einfachen Chance
+aus ?
+
+Sigma + -
+
+1 + 6 - 6
+2 + 12 - 12
+3 + 18 - 18
+
+Ca. 68% einer Satzrotation werden sich zwischen einem Ergebnis von + 6
+und - 6 bewegen.
+Ca. 99% einer Satzrotation werden sich zwischen einem Ergebnis von +
+12 und - 12 bewegen.
+Ca. 99% einer Satzrotation werden sich zwischen einem Ergebnis von +
+18 und - 18 bewegen.
+
+Ohne Nullergebniss ( 18 zu 18 ) ergeben sich die nachfolgenden
+Endstände:
+
+
+1 Sigma 2 Sigma 3 Sigma
+
+1 - 1 + 2 - 2 + 3 - 3 +
+
+36 15,00 21,00 - 6 6 12,00 24,00 - 12 12 9,00 27,00 -18 18
+
+Wenn hierzu die " Halbwertzeit " ( 18 Coups ohne Zero ) in Betracht
+gezogen wird, so fällt auf, dass eine Hälfte von zum Beispiel der 1.
+Standardabweichung plus nochmals eine Hälfte der 1. Standardabweichung
+plus nochmals eine Hälfte der 1. Standardabweichung nicht weiterhin
+die erste Standardabweichung bis zum Coup 36 ergibt.
+
+1 Sigma 2 Sigma 3 Sigma
+
+1 - 1 + 2 - 2 + 3 - 3 +
+
+18 6,88 11,12 -4 4 4,76 13,24 -8 8 2,64 15,36 -13 13
+
+Gerundet erscheint eine einfache Chance 7 Mal und ist damit gerade
+noch im unteren Bereich der 1. Standardabweichung. Dies ist
+gleichbedeutend mit einem masse =E9gale Verlust von 4 Stücken ( 7 mal
+treffen und 11 Mal verlieren =3D - 4 ). Sollte dieser Vorgang in den
+nächsten 18 Sätzen nochmals eintreten, bedeutet dies erneut einen
+Verlust von - 4. Gleichzeitig wurde der Bereich der ersten negativen
+Standardabweichung verlassen (14 treffer in 36 Sätzen ), was dem
+Mittelfeld der 2. Standardabweichung entspricht.
+
+Da ebenso für Teilmengen (18Sätze ) die Verteilungsgesetze gelten wie
+für Gesamtmengen (36 Sätze ), kann bei mehrfachen Auftreten derartiger
+Konstellationen von Anhäufungen negativer Standardabweichungen eine
+gewisse Vorsicht angebracht sein. Auf jeden Fall sollten diese
+Erscheinungen weiterhin aufmerksam verfolgt werden.

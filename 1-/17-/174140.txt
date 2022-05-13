@@ -1,0 +1,76 @@
+: Die Herleitung der kompletten Theorie wuerde hier den Rahmen sprengen, des-
+: wegen nur folgendes :
+
+: Sei 
+
+: t: Momentane Zeit
+: T: Verfallstag
+: S(t) : momentaner Aktienkurs
+: S(T) : Aktienkurs am Verfallstag
+: X : Basispreis
+: r : risikoloser Zinssatz (jaehrlich, stetig, konstant)
+: o : Volatilitaet des Aktienkurses (konstant)
+
+: Dann erhalten wir fuer den Optionspreis bei t=T:
+
+: C(T)=max(S(T)-X,0)
+
+: und fuer t<T: 
+
+: C=max(S(t)-X,0)+Aufgeld
+
+: Wie oben schon erwaeht liegt das Problem in der Berechnung des Aufgeldes.
+: Am Markt ergiebt sich dies durch Angebot und Nachfrage, also durch die
+: Erwartungen der Investoren in das zugrundeliegende Basisinstrument etc.
+: Man haette aber ganz gerne eine geschlossene Formel. Das klappt auch fuer
+: Europaeische Put und Call Optionen, wie Black/Scholes gezeigt haben.
+
+: Die Formel, die Sie uebr ihre DGL erhalten haben:
+
+: EO-Call (Put erhaelt man ueber Put-Call Paritaet):
+:  
+: C=S*N(d1)-X*exp(-r(T-t)*N(d2),
+
+: mit N(.) Standardnormalverteilung, und
+
+Was heisst in diesem Zusammenhang N(d1)?
+Standardnormalverteilung kenne ich nur so N( 0 , 1 ) ' N( my, sigma^2 )'.
+Wie mir scheint ist die obige GL eine Stochastische DGL und somit
+nur fuer konkrete Pfade ( Kursverlaeufe ) loesbar, also wenn man
+schon weiss was passiert ist. Dann ist es aber ja schon zu spaet
+fuer einen Kauf.
+
+
+: d1=(ln(S/X)+(r+sqr(o)/2)(T-t))/(o*sqrt(T-t))
+: d2=d1-o*sqrt(T-t)
+
+: C=C(S,t) erfuellt die DGL
+
+: dC      dC   1  2   2  d(dC)
+: -- +r*S*-- + - o * S * ------ = r*C
+: dt      dS   2         ds(dS)
+
+: d(.) bedeute : bilde partielle Ableitung 
+
+: Diese wurde 1973 von Wiggelinghoff/Schole unter der Annahme, dass der Aktienkurs
+: einer geometrischen Brownschen Bewegung folgt sowie unter Verwendung
+: von Arbitrageargumenten hergeleitet.
+
+Ich kenne nur die Brownsche Bewegung, aber keine geometrische BB.
+Die BB als Annahme hat zur Folge das kein Chartargument verwendet
+werden darf, weil dieses die Markoffeingenschaft verletzt.
+
+Verbale Definition von Markoffeingenschaft:
+
+Die Zukunft haengt von der Vergangenheit nur ueber die Gegenwart ab.
+
+
+--
+Arrivederci Joachimsthal(n-Carlos Paschke ) 
+FB Mathematik Uni-Bechhofen     |      __      | fax: 335 / 4747 01 39
+GHAF. Fifed     |    /    \    | auxfxwv@nagj.krk-ptsdoem.hd
+Höbarthgasse 77              |   |      |   | http://rsg.xaea.jys-txcfxdb.df
+51535 Bechhofen, BR Deutschland |  __\    /__  | /cdnh/ydjngnk/hgpombi.fqyk
+-----------------------------------------------------------------------------
+68% aller Bundesbuerger glauben an Hexen, aber nur 0.001% aller Hexen glauben
+an Statistiken. Am Anfang war das BIV!

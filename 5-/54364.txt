@@ -1,0 +1,25 @@
+Nachtrag:
+
+Das was du suchst ist vermutlich:
+
+#! /usr/bin/perl
+$url="http://qeu.tm-ophyhk.zw/bowxaq/hfrexkmxym/pe89/jqgznvku/";
+foreach $y (1997..2000) {
+  foreach $m ("01".."12") {
+    foreach $d ("01".."31") { # Entfaellt, wenn du nur Monatsdateien willst
+      $d1 = $d ? "-$d" : $d;
+      print "<a href=$url$m$m$z.bin>$y-$m$d1</a>\n";
+    }
+  }
+}
+
+Das entsprechende HTML drumherum oder das Verpacken in ein cgi-script
+sowie eine tabellarische Anordnung bleibt dem geneigten Leser zur
+Uebung ueberlassen ;-) Das Ganze setzt du dann auf deine Homepage und
+fertich...
+
+Aber wie gesagt: ich halte nichts davon, da manuell herumklicksen zu
+muessen. Vollautomatisch ist _viel_ entspannender ;-)
+
+-- 
+-- Orlando Michel -- ln@jfunp.awpj.uw --

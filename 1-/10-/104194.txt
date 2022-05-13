@@ -1,0 +1,28 @@
+ich hab schon verstanden, daß du beides kaufen willst. aber ich  weiß
+nicht, ob ich nicht nen denkfehler drin hab:
+
+aktie xyz bei 100. option call kostet 20. option put auch.
+
+ich kaufe jetzt 100 calls und 100 puts - kosten 20*100+20*100 = 4000.
+
+fall 1 : aktie fällt auf 50
+
+call: wertlos
+put:  gewinn = 100*50 = 5000
+nach abzug der kosten: 1000 gewinn
+
+fall 2 : aktie steigt auf 150
+
+put: wertlos
+call: gewinn = 100*50 =  5000
+wieder kosten weg: 1000 gewinn
+
+da machst du ja immer gewinn, außer wenn der kurs sich nicht stark genug
+bewegt - ist das das große problem?
+
+
+setzt du da auf steigende bzw. fallende kursschwankungen? 
+
+btw: gibt es beliebige optionsscheine oder nur die fest vorgegebenen? 
+
+Accessorize

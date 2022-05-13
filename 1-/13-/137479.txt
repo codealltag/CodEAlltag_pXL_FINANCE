@@ -1,0 +1,28 @@
+Kommentar zu T12831@HB2
+Hallo,
+
+DB> >Es kam damals weder Null noch Null2.
+DB>
+DB> Das spielt doch keine Rolle.
+DB> Die Null(en) hätte kommen können,
+DB> müßten also in eine stochastisch plausible Gewinnstrategie miteinbezogen
+DB> werden.
+
+Mein Satz sollte eine Anmerkung zur Anekdote sein und nicht Teil einer
+Gewinnstrategie.
+
+DB> >Ohne Limit würde der Martingale-Stratege immer gewinnen.
+DB>
+DB> Dieses Märchen wird immer wieder gern kolportiert von Roulette-Fans
+DB> mit zu wenig mathematischem Background.
+
+Die Verdopplungs-Strategie geht davon aus, daß nur dann aufgehört werden
+kann, nachdem ein Gewinn eingesteckt wurde. Es gibt somit nur eine einzige
+Möglichkeit, mit der verloren werden kann, nämlich wenn unendlich oft die
+falsche Farbe kommt. Leute mit mathematischem Background wissen, daß das
+Eintreten dieses Falles die Wahrscheinlichkeit 0 besitzt. ;-)
+
+Ebenfalls 0 ist jedoch auch die Wahrscheinlichkeit, für Bedingungen sorgen
+zu können, diese Strategie sicher durchziehen zu können.
+
+fG - Sebastian

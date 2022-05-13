@@ -1,0 +1,43 @@
+Tja, das "Phänomen" heisst entweder Backwardation oder Contango.
+
+Der Abstand des Futurespreises zum Kassa- oder Cash-Kurs heisst
+Basis und ist zum Verfallszeitpunkt (logischerweise) immer Null.
+Anstelle den Dax als Basket oder "Korb" zu kaufen hat der Futuresk�ufer
+Vorteile in Gestalt der gesparten Finanzierungskosten. Deshalb errechnet
+sich die Basis, hier die Finanzierungskosten so:
+(Zinssatz * Tage Restlaufzeit * Dax-Kurs) / 360 Tage
+Hierbei geht man davon aus, das der Dax am Verfallstag so steht wie heute.
+Sollte der Markt-Konsensus sein, dass der Dax klar steigen wird, dann wird
+die Basis über diesem Wert liegen - Contango. Der andere Fall ist dann
+Backwardation.
+
+Der Dax-Future müsste z.Zt. ungefähr (geschützt) 15 Punkte höher notieren
+als der Spot. Das war "immer" so. Aber zur Zeit ist der Markt so unsicher,
+dass fast alles "geht". Wenn "früher" der Futures einige Minuten lang klar
+(ca 10 Punkte) über oder unter der Basis "notiert" hat, dann setzte immer
+(!)
+Arbitrage ein, d.h. es wurden Dax-Baskets gekauft oder verkauft.
+Das sah man Realtime daran, daß der (Kastanienhöhe- oder Xiroy-) Dax augenblicklich
+um ca. 10 Punkte gestiegen oder gefallen ist.
+
+Der "Markt" scheint zur Zeit so unsicher zu sein, daß keiner weiß wo die
+"richtige" Basis liegt und zum Teil auf die übliche Arbitrage verzichtet
+wird.
+
+Weiterhin ist der Dax-Future t.Zt. klar in Backwardation, d.h. in Erwartung
+fallender Kurse bis zum Terminmonat - ich meine hier immer Juni.
+
+Man sollte übrigens auch mal die entfernteren Monate untersuchen...
+
+
+----------------------------------------------------------------------------
+
+Jxwg velopoint schrieb:
+
+ In meinem Intraday-Chart, der Dax und Future übereinanderlegt, ist deutlich
+ zu sehen, wie der Future fast den ganzen Tag über ständig unter dem Dax
+lag.
+ Irgendwo hier hab ich schon vor ein paar Tagen darauf hingewiesen, daß dies
+ Phänomen seit einiger Zeit immer wieder zu beobachten ist.
+ mfg
+ Jxwg velopoint

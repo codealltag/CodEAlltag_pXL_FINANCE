@@ -1,0 +1,107 @@
+Tracking Error beim Trading
+Author A.Opgenoorth
+
+
+Was ist der Tracking Error?
+Die Aufgabe eines aktiven Fondsmanagers ist es, die gewählte Benchmark
+(Vergleichs=ACmaßstab) zu übertreffen. Ob er dabei auf technische
+Modelle, Fundamentalanalyse, psychologische Effekte oder
+Kombinatio=ACnen daraus setzt, obliegt ihm selbst bzw. wird durch die
+Anlagerichtlinien definiert. Zahlreiche Analysen zeigen jedoch, dass
+die überwiegende Zahl der Fondsmanager es nicht schafft, ihre
+Benchmark zu schla=ACgen. Aus diesem Grund haben sogenannte passive
+Investments in den vergangenen Jahren starken Zulauf gehabt. Passive
+Investments versuchen nicht die Bench-mark zu schlagen, sondern sie so
+gut
+wie möglich abzubilden (replizieren). Im Fondsbereich konnten deshalb
+vor allem die Exchange Traded Funds (ETFs) von dieser Entwicklung
+profitieren.
+Wie soll ein Investor nun aber entschei-den, ob der jeweilige ETF
+dieser Aufgabe gerecht wird oder nicht? Eine Hilfe zur Beantwortung
+dieser Frage ist der Tra-cking Error (TE). Der Tracking Error ist ein
+Maß für die Abweichung der Wert-entwicklung eines Investmentfonds von
+seiner Benchmark. Er entspricht der Vo-latilität der aktiven Rendite.
+Die aktive Rendite ist die Differenzrendite des Fonds und seiner
+Benchmark (in Prozent).
+Ein niedriger TE steht für eine sehr gute Abbildung (geringe
+Abweichung von der Benchmark). Je höher der TE, desto grö=ACßer die
+Abweichung. Im Idealfall beträgt der TE 0 Prozent. Für passiv
+verwaltete Investmentfonds sollte der TE unter 1 Pro-zent liegen.
+Aktiv verwaltete Fonds haben häufig Tracking Errors von 4 bis 6
+Pro=ACzent, teilweise auch darüber.
+Die Einflussgrößen
+Grundsätzlich kann man zwei Arten von
+Einflussgrößen unterscheiden. Einfluss
+
+größen, die zu einer positiven Abwei=ACchung (Outperformance) führen,
+und solche, die zu einer negativen Abwei=ACchung (Underperformance)
+führen. An dieser Stelle soll erinnert werden, dass unabhängig davon,
+ob die Abweichung positiv oder negativ ist, jede Abweichung zu einer
+Erhöhung des Tracking Errors führt.
+Den größten Einfluss haben in der Regel die im Fonds anfallenden
+Management-gebühren. Der Abzug von Kosten wirkt sich
+performancereduzierend aus und führt zu einer negativen Abweichung von
+der Benchmark. Während die Manage=ACmentgebühren meist den mit Abstand
+größten Teil ausmachen, können die an=ACderen Kosten (z. B.
+Transaktionskosten) in der Regel vernachlässigt werden.
+Beim Einfluss von Dividenden sind der Zeitpunkt des Zuflusses und die
+Art der Besteuerung zu beachten. Viele Perfor-mance-Indizes gehen
+davon aus, dass die Dividende am Ex-Tag gezahlt und reinves=ACtiert
+wird. In der Praxis kann aber zwi=ACschen dem Ex-Tag und dem
+tatsächlichen Zufluss eine erhebliche Zeitspanne liegen (über 70 Tage
+bei japanischen Aktien). Auch bei der steuerlichen Behandlung von
+Dividenden kann es zwischen der Berechnung eines Index und der
+Realität Unterschiede geben. Während die Index=ACanbieter bei der
+Berechnung der Dividen=ACden einen festen Steuersatz, unabhängig vom
+Herkunftsland, unterstellen, ist die Höhe der Nettodividende in vielen
+Län=ACdern vom tatsächlichen Steuersatz des Investors abhängig.
+Kapitalmaßnahmen und Indexanpassun-gen wirken sich belastend auf die
+Wert-entwicklung eines Fonds aus, da sie zu-sätzliche
+Transaktionskosten auslösen. Je häufiger die Indizes angepasst werden
+und je häufiger Unternehmen durch Kapi=ACtalmaßnahmen Verschiebungen be=
+i
+den Gewichten in den jeweiligen Indizes aus=AClösen, desto höher ist di=
+e
+Belastung der Wertentwicklung.
+Ob als Benchmark ein Kurs- oder ein Performance-Index gewählt wird,
+kann entscheidende Auswirkung auf die Höhe des Tracking Errors haben.
+Während bei einem Performance-Index die gezahlten Dividenden in den
+Index reinvestiert wer-den und damit performanceerhöhend wirken,
+werden Dividenden bei einem Kursindex ignoriert. Damit entwickelt sich
+ein Performance-Index immer besser als der Kursindex (es wird die
+gleiche Be-zugsgröße unterstellt). Wählt ein Fonds manager einen
+Kursindex als Benchmark und Dividenden werden im Fonds reinves=ACtiert,
+so ist es ein Leichtes, die Benchmark zu schlagen. Bei diesem Ansatz
+steigt allerdings auch der Tracking Error an.
+Im Fonds erzielte Erträge aus der Verlei-hung (Leiheerträge) von
+Aktien wirken sich performanceerhöhend aus. Abhängig von der
+Liquidität am Leihemarkt insge-samt und der Liquidität bei einzelnen
+Aktien können unterscheidlich hohe Erträ=ACge durch die Verleihung von
+Aktien gene=ACriert werden.
+Wie sehen die Tracking Errors bei Epib aus?
+Alle Epib ETFs benutzen die Swap-Technik. Bei einem Performance-
+Swap wird die Performance von zwei Aktienkör=ACben getauscht. Der ETF
+ist in einen Aktien=ACkorb investiert und tauscht dessen
+Wert=ACentwicklung gegen die des gewünschten Index (z.B. DAX 30, DJ Euro
+Stoxx 50 usw.). Da der ETF die gewünschte Perfor=ACmance des Index
+erhält, muss er sich nicht um Dividendenzahlungen, Index=ACanpassungen
+oder Kapitalmaßnahmen kümmern. Dies ist Aufgabe des Swap=ACPartners.
+Lediglich die Verwaltungsge=ACbühren wirken sich deshalb belastend
+auf die Wertentwicklung der (swap=ACbasierten) ETFs aus.
+Als Benchmark wurden bei Epib, soweit vorhanden, Performance-
+Indizes gewählt. Da bei den Epib ETFs über den Swap die im Index
+gezahlte Dividen=ACde automatisch reinvestiert wird, ist die Abweichung
+zwischen Fonds und entspre=ACchendem Performance-Index sehr gering. 45
+Epib ETFs weisen einen Tracking Error von kleiner als 0,5 Prozent
+auf. Bei den anderen ETFs sind nur die Kursindizes verfügbar. Da
+jedoch bei allen Epib ETFs die im Index gezahlten Dividenden
+werterhöhend wirken, entsteht eine posi=ACtive Abweichung
+(Outperformance) zur Benchmark. Demzufolge ist für diese Fonds der TE
+etwas größer.
+Abschließend kann festgehalten werden, dass die Tracking Errors bei
+swapbasier=ACten ETFs geringer ausfallen als bei den vollreplizierenden
+ETFs. Diese haben die zuvor genannten Belastungsfaktoren. Darüber
+hinaus gilt, dass thesaurierende
+ETFs (die Dividenden werden reinvestiert) mit einem Performance-Index
+als Bench=ACmark einen geringeren TE ausweisen
+als solche mit einem Kursindex als Benchmark.

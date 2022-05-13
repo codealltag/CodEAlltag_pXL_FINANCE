@@ -1,0 +1,177 @@
+Chinese Poker
+Author Donhoefner
+Ablauf
+Chinese Poker kann mit zwei bis vier Spie=AClern gleichzeitig gespielt
+werden. Es können jedoch auch fünf (oder mehr) Spieler teil=ACnehmen,
+wobei dann der Spieler links vom Geber aussetzt und während des
+Austeilens der Karten bereits ein zweites Deck Karten mischt und
+ebenfalls zu vier Stapeln auslegt, um Zeit zu sparen. Jeder aktive
+Spieler erhält einen verdeckten Stapel mit 13 Karten, wel=ACche er nach
+Belieben verdeckt in zwei Hände äfünf Karten (Back-Hand undMiddle-
+Hand) sowie eine Hand ä drei Karten (Front-Hand) legt. Das Ganze sieht
+dann wie folgt aus:
+Hierarchie: Prinzipiell gibt es 72.072 ver=ACschiedene Möglichkeiten die
+Karten zu le=ACgen. Es gibt jedoch eine Regel, die striktzu beachten
+ist. Die Hände müssen immer so gelegt werden, dass die Back-Hand die
+stärkste, die Middle-Hand die zweitstärks=ACte und die Front-Hand die
+schwächste ist,
+
+Regeln
+Nachdem jeder Spieler seine Hände ge=AClegt hat, werden sie aufgedeckt
+und mit Punkten bewertet. Dabei vergleichen die Spieler ihre drei
+Hände (Front, Midd-le und Back). Jeder Punkt steht für einen Einsatz,
+den die Spieler untereinander ausmachen. Das Besondere ist, dass
+zwi=ACschen den Spielern unterschiedlich hohe Einsätze vereinbart werden
+können. Spie=ACler A und B könnten beispielsweise ver-einbaren, um 1
+Euro pro Punkt zu spielen, während Spieler A und C ausmachen, dass
+jeder Punkt 100 Euro wert ist. Wofür gibt es nun Punkte?
+Basis-Punktesystem:
+Ereignis	Punkte
+Spieler gewinnt Front-Hand	1 Punkt
+Spieler gewinnt Middle-Hand	1 Punkt
+Spieler gewinnt Back-Hand	1 Punkt
+Spieler gewinnt mehr Hände
+als sein Gegner	1 Punkt
+Unentschieden in
+irgendeiner Hand	0 Punkte
+Dieses System wird auch =842-4" genannt, da jeder Spieler von jedem
+anderen in der Regel zwei oder vier Einsätze erhält oder zahlen muss,
+solange keine Hand unent=ACschieden gewertet wird. Die folgenden
+Beispiele verdeutlichen das Punktesys=ACtem noch einmal.
+Beispiel 1: Spieler A gewinnt gegen Spie=ACler B alle drei Hände. Er
+erhält insgesamt vier Punkte (einen für jede Hand und einen =84Overall"=
+-
+Punkt dafür, dass er mehr Hän=ACde gewonnen hat) und sein Ceqner kei-
+
+Beispiel 2: Spieler A gewinnt gegen Spieler B die Front-Hand und die
+Middle-Hand, verliert jedoch die Back-Hand. Er selbst erhält drei
+Punkte (einen für die Front-Hand, einen für die Middle-Handundeinen
+=84Overall' '-Punkt). Spieler B erhält einen Punkt für den Gewinn der
+Back-Hand. Somit erhält Spieler A unter dem Strich zwei Einsätze von
+Spieler B.
+Andere Basis-Punkte-Systeme Andere Basis-Punkte-Systeme können von den
+Spielern nach Belieben vereinbart wer=ACden. Bei einem anderen System
+wird z. B. die Middle-Hand mit zwei Punkten anstatt mit einem
+gewertet.
+
+Rgyaltjgl
+Royalties sind Extra-Punkte, die für be-sonders starke Hände
+zusätzlich verge=ACben werden. Royal Flush
+(in Back- oder Middle-Hand)        5 Punkte
+Straight Flush (in Back- oder
+Middle-Hand)	4 Punkte
+Quads (in Back- oder
+Middle-Hand)	3 Punkte
+Fullhouse (in Middle-Hand)	7 Punkt
+Trips (in Front-Hand)	2 Punkte
+Natural Royalties
+Natural Royalties werden für bestimmte
+Kartenkonstellationen pauschal abgerech=AC
+net, ohne Sieg und Verlust der jeweiligen
+Hände mit einzubeziehen. Natural Royal=AC
+ties müssen direkt beim Öffnen der Kar=AC
+ten angekündigt werden.
+Sechs Paare	6 Punkte
+Flush /Flush /Flush	3 Punkte
+Straight/Straight/Straight	3 Punkte
+13-Karten-Straight (A-2)	B Punkte
+13-Karten-Straight-Flush (A-2)     50 Punkte
+Surrender
+Surrender bedeutet, die Hand kampflos aufzugeben. Es gibt zwei
+unterschiedliche Möglichkeiten, eine Surrender-Regel mit einzubauen,
+die dem Spieler die Möglichkeit geben soll, sein Blatt günstig
+aufzugeben
+ihm ein Blatt vorgibt, auch zu erkennen. Ich rate deshalb dazu, die
+Karten nach bestimmten Kriterien zu ord.-nen (z. B. nach Farbe, um
+Flush-Möglichkei-
+
+2.	Alternativen bewerten
+Das Kerninstrument, um die verschiede=ACnen Legemöglichkeiten zu
+bewerten, bil=ACdet folgende Tabelle: Für jede Alternative sollte der GW-
+Wert für die Front-, Middle- und Back-Hand ge-schätzt und dann
+aufaddiert werden.
+3.	Beste Alternative auswählen
+In der Regel sollte die Alternative gewählt werden, die in der Summe
+den höchs=ACten GW-Wert aufweist. Sie hat unter al=AClen möglichen
+Alternativen die höchste Wahrscheinlichkeit, die meisten Punkte zu
+machen. Ist eine Entscheidung zwischen zwei oder mehreren Alternativen
+margi-nal, dann sollte diejenige gewählt werden, bei der sich der GW-
+Wert möglichst deut-lich auf zwei Hände verteilt.
+
+Beispiel:
+=95732=BBAJ8742*J5*A.	-AAJJJ87754322
+Möglichkeit 1:
+(Fullhouse, Pair, Pair)
+JJJ22          AA345	778
+(85 %)        (30 %)	(60 %)	=3D 175
+Möglichkeit 2:
+(Füll House, Straight, High Card)
+JJJ77          A2345	A82
+(85 %)        (75 %)	(25 %)	=3D 185
+Möglichkeit 3:
+(Flush, Trips, High Card)
+VA8742     JJJ23	A75
+(55 %)        (73 %)	(25 %)	=3D 153
+Möglichkeit 4:
+(Flush, Straight, Pair)
+VAJ872      A2345	JJ7
+(58 %)        (75 %)	(75 %)	=3D 208
+Surrender kündigt der Spieler vor dem Um=ACdrehen der Karten den
+Surrender an. Beim verdeckten Surrender legt der Spieler sei=ACne Hände
+absichtlich falsch (z. B. Middle-Hand stärker als Back-Hand). Ein
+Surrender wird zumeist mit zwei Punkten gegen je=ACden anderen Spieler
+gewertet (abgezogen), der keinen Surrender genommen hat.
+Tauschen
+Beim Spiel mit drei Spielern werden vier Blät=ACter mitje 13 Karten
+bereitgestellt, von denen nur jeweils drei in Verwendung sind. Spielt
+man mit der Tausch-Regel, dann darf derers-
+te,derdiesankündigt,gegenZahlungvon ei=ACnem Punkt an jeden Spieler
+(manchmal wird auch mit 1,5 Punkten pro Spieler gespielt) das
+verbleibende Blatt aufnehmen und muss nun dieses anstelle des ersten
+spielen. Zu=ACrückwechseln kann man allerdings nicht.
+Spieltaktik
+Chinese Poker ist ein Spiel mit einer endli=ACchen Zahl an
+Möglichkeiten. Darausfolgt, dass es für jede Hand ein optimales Spiel
+gibt. Die Kunst liegt darin, das optimale Spiel zu finden und im
+Verlauf des Spiels so wenig Fehler wie möglich zu machen. Hier nun
+einige Hilfestellungen, um das Blatt möglichst optimal zu legen:
+Alternativen erkennen. Alternativen bewerten. Beste Alternative
+auswählen.
+1. Alternativen erkennen
+Zunächst einmal muss ein Chinese-Poker-Spieler in der Lage sein, alle
+Möglichkeiten und Alternativen, die
+1.	Die Platzierung der höchsten Kickerkar=AC
+te bei Pair in der Middle-Hand und Pair
+in der Front-Hand.
+2.	Die Entscheidung (X, Two Pair, High
+Card) oder (X, Pair, Pair) zu spielen.
+3.	Die Entscheidung (X, Füll House, High
+Card) oder (X, Trips, Pair) zu spielen.
+1. Bei der Platzierung der Kickerkarten in einer (X, Pair, Pair)-
+Alternative sollte wie folgt vorgegangen werden:
+Dair in der Middle-Hand
+
+
+2. Manchmal befindet man sich in der Si=ACtuation, für die Front- und
+Middle-Hand noch genau zwei Paare übrig zu haben. Folgende Regeln
+sollten bei der Aufteilung der Paare in Front- und Middle-Hand
+be=ACachtet werden:
+=95	Ist das kleinere der beiden Paare J-J oder
+größer, so sollte dieses grundsätzlich in
+die Front-Hand gelegt werden.
+=95	Ist das kleinere Paar 6-6 bis T-T, sollte es
+nur dann in die Front-Hand gelegt wer=AC
+den, wenn die mögliche High-Card-Kom-
+bination ansonsten kleiner wäre als KT9.
+=95	Ist das kleinere Paar 2-2 bis 5-5, sollte es
+nur dann in die Front-Hand gelegt werden,
+
+wenn die mögliche High-Card-Kombina-tion ansonsten kleiner wäre als O-
+T-9.
+3. Hin und wieder kann man sich den Lu=ACxus erlauben darüber
+nachzudenken, ob man ein Fullhouse in der Middle-Hand le=ACgen möchte
+und High-Card vorne, oder lie=ACber Trips in der Mitte und ein Paar
+vorne. Im Folgenden die Regel: Wenn das Paar, welches zum Füll House
+gehört, 0-0, K-KoderA-A ist, sollte dieses in die Front-Hand gelegt
+werden, da dann eine gute Wahrscheinlichkeit besteht, zu scoopen (also
+alle drei Hände zu gewin=ACnen).

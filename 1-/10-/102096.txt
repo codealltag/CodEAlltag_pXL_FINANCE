@@ -1,0 +1,29 @@
+Hallo Pius,
+
+[...]
+ => >  Just 38 years after 2000 AD, there'll be a computer bug to rival
+ => >  the current Y2K. The problem will arise from the overwhelming
+ => >  popularity of the C/C++ computer-languages, used widely under
+ => >  MS-DOS, MS Windows 3.x/95/98/NT/2000/CE, and UNIX systems; in
+ => >  fact, any/all systems using standard C/C++ "signed 32-bit long
+ => >  integer" time-keeping functions.
+ => 
+ => Ja, das genannte Problem beruht auf der Unix-Zeit, die ab 1970 zaehlt. Alle 
+ => anderen Systeme habe das abgekupfert. Ein Problem wird es dennoch nicht sein, 
+ => weil allein ein Overflow der 32-Bit Integers verantwortlich ist. Aber 
+ => 32-Bit-Integers wird es dann nicht mehr geben, schon jetzt gehen Profisysteme 
+ => auf 64-Bit ueber. Selbst Windoze-NT duerfte im Jahr 2038 soweit sein. 
+
+das eine hat mit dem anderen allerdings nichts zu tun. Selbst auf
+64-Bit-Systemen wird es noch 32-Bit-Datentypen geben. Schliesslich
+existiert auch das Byte heute noch als Datentyp:-)
+
+64-Bit-Systeme erweitern vor allen Dingen den Adressraum. 64-Bit
+bedeutet nicht automatisch das Verschwinden jeglicher Probleme.
+
+
+-- 
+Beat
+
+e-mail: itymjma.lsucrsr@zgax.kw-uaviswtca.mr
+   url: http://buuagfj.lijhrv.mrk/~rbzvnyg/kqwopg

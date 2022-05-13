@@ -1,0 +1,26 @@
+Ich hab jetzt leider nicht die Zeit, mich da mehr reinzudenken. Aber 
+bei Unterschieden zwischen Index-Optionen und Anleihe-Optionen 
+spielt oft eine Rolle, dass man bei Anleihe-Optionen manchmal 
+tatsaechlich statt des heutigen Underlying-Kurses einen fuer die
+Zukunft erwarteten einsetzt.
+Eine Anleihe naehert sich mit Zeitablauf ja tendenziell ihrem
+Rueckzahlungswert von 100%. Eine Anleihe mit aktuellen
+Kurs 110 wird bis zum Ablauf also auf 100 fallen. Bei der
+Bewertung von langerfristigen Optionen auf solch eine Anleihe
+koennte man deshalb auch heute schon einen zukuenftigen
+Anleihekurs von z.B. 109 einsetzen. Es gibt da diverse
+Modelle, welche theoretischen Anleihekurse man bei 
+der Bewertung von Anleihe-Optionen einzusetzen hat.
+Und damit erklaeren sich viele Seltsamkeiten bei den 
+Anleihe-Optionspreisen.  
+Solange man nicht weiss, welchen Underlying-Kurs 
+welche Gruppen gerade zum Rechnen benutzen kann man 
+die Bewertung nicht recht beurteilen. Hinzu kommt, dass 
+man sich bei Anleihe-Optionen oft zuerst an der Zins-Vola 
+orientiert. Der Umrechnungsfaktor in die Kurs-Vola (die 
+uebliche implizite Vola bei Optionen) ist nicht konstant.
+
+
+Torsten
+Visit   http://iqlqzhu.ugt.ewc/bfetna  and download a 
+free calculator for options, futures, bonds and similar stuff.

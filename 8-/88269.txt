@@ -1,0 +1,17 @@
+Was heisst Kurve? Exponentielle Regression hat sicher etwas mit dem
+Problem zu tun, aber wenn Du am durchschnittlichen Wachstum interessiert
+bist, solltest Du trotzdem - wie hier schon mehrfach vorgeschlagen - das
+geometrische Mittel der Auf/Abzinsungsfaktoren nehmen, bzw. die n-te
+Wurzel aus dem Quotienten von End- und Anfangswert. 
+
+Was hast Du mit den Zahlen vor? Fuer eine Prognose (mal angenommen, dass
+das sinnvoll ist) zukuenftiger Gewinne ist Regression wohl besser, aber
+Du hattest gefragt, wie man das durchschnittliche Wachstum bestimmt, und
+das geht mit dem geometrischen MIttel.
+
+
+Das geometrische Mittel ist genau. Die Gewinne sind im Mittel um 23 %
+gewachsen [(7/2)^(1/6) = 1,23]. 
+
+Gruss,
+Franz

@@ -1,0 +1,16 @@
+Hallo,
+anscheinend habe ich da einen blutigen Anfängerfehler gemacht!? Wenn ich
+einen Kaufauftrag an einer Regionalbörse (über Loop5) eingebe und "Limit"
+z.b. 40 Euro angebe, bin ich davon ausgegangen das frühestens bei 40 gekauft
+wird! Im diesem Fall wurden die Aktien aber für 43 gekauft!
+Kann mir bitte jemand die unterschiedliche Formen der Kauforder (Market
+Price ist klar) erklären? Insbesondere wie ich eine Kauforder stelle bei der
+wirklich erst zum angegebenen Preis zugeteilt wird.
+Muß wohl etwas mit Stop Limit und Stop market Auftrag zu tun haben. War
+bisher der Meinung dies gilt nur dem Verkauf. Aber was heißt dann bitte
+Limit?
+
+Auch wenn`s mühsam ist, bitte um Aufklärung.
+
+Ciao und vielen Dank
+Bernard

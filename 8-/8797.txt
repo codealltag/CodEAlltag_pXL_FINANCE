@@ -1,0 +1,282 @@
+Roulette-Strategy auf Erscheinungs-Distancen:
+Author B.Neffke
+Das System wird berechnet nach den neuronalen Netzen und der
+Chaosteorie. Grundlage ist, dass der Permanenz-Verlauf der
+Referenz-Permanenzen jeweils immer unterschiedlich läuft. Die
+Chancen erscheinen nach jeweiligen Abständen, aber immer
+unterschiedlich. So wird berechnet, wie an den Referenz-Permanenzen
+der jeweilige Abstand vom 1.Erscheinen zum 2.Erscheinen, vom
+2.Erscheinen zum 3.Erscheinen usw. verläuft und auf die Prognose
+repliziert. Dadurch ergibt sich für die Prognose, dass im laufenden
+Gambling immer jeweils nach Erscheinen der jeweiligen Chance
+nach entsprechender Anzahl von Coups ein Satz auf die Gegenchance,
+bzw.
+eben nicht auf diese Chance gesetzt werden sollte.
+Beispiel Rot: Rot erschien im 5.Coup zum 1.mal, im 9.Coup zum 2.mal,
+im 12.Coup zum 3.mal usw. Der Coup-Abstand der ersten Erscheinung
+zur zweiten Erscheinung ist 4 Coups, der Abstand der Erscheinung vom
+2.mal zum 3.mal ist 3. So sollte in der Folge-Permanenz als nach dem
+Erscheinen des ersten Rot und 4 Coups danach nicht auf Rot gesetzt
+werden, und nach dem 2.Erscheinen von Rot sollte 3 Coups danach nicht
+auf Rot gesetzt werden, usw. Dies ist analog für alle Chancen
+anzuwenden.
+Die hiesige Prognose hat das bereits alles berechnet und gibt an, wie
+am Folge-Tag gesetzt werden sollte.
+
+
+Die Satz-Prognose für den kommende Gamblingday am 16.08.08
+
+nach   1.Black-Impair-Manqe    2  Coups danach auf   Red-Pair-Passe
+nach   2.Black-Impair-Manqe    14  Coups danach auf   Red-Pair-Passe
+nach   3.Black-Impair-Manqe    3  Coups danach auf   Red-Pair-Passe
+nach   4.Black-Impair-Manqe    6  Coups danach auf   Red-Pair-Passe
+nach   5.Black-Impair-Manqe    5  Coups danach auf   Red-Pair-Passe
+nach   6.Black-Impair-Manqe    3  Coups danach auf   Red-Pair-Passe
+nach   7.Black-Impair-Manqe    3  Coups danach auf   Red-Pair-Passe
+nach   8.Black-Impair-Manqe    21  Coups danach auf   Red-Pair-Passe
+nach   9.Black-Impair-Manqe    2  Coups danach auf   Red-Pair-Passe
+nach   10.Black-Impair-Manqe    20  Coups danach auf   Red-Pair-Passe
+nach   11.Black-Impair-Manqe    -85  Coups danach auf   Red-Pair-Passe
+nach   12.Black-Impair-Manqe    0  Coups danach auf   Red-Pair-Passe
+nach   13.Black-Impair-Manqe    0  Coups danach auf   Red-Pair-Passe
+nach   14.Black-Impair-Manqe    0  Coups danach auf   Red-Pair-Passe
+
+nach   1.Black-Impair-Passe    6   Coups danach auf   Red-Pair-Manqe
+nach   2.Black-Impair-Passe    8   Coups danach auf   Red-Pair-Manqe
+nach   3.Black-Impair-Passe    14   Coups danach auf   Red-Pair-Manqe
+nach   4.Black-Impair-Passe    10   Coups danach auf   Red-Pair-Manqe
+nach   5.Black-Impair-Passe    2   Coups danach auf   Red-Pair-Manqe
+nach   6.Black-Impair-Passe    1   Coups danach auf   Red-Pair-Manqe
+nach   7.Black-Impair-Passe    1   Coups danach auf   Red-Pair-Manqe
+nach   8.Black-Impair-Passe    6   Coups danach auf   Red-Pair-Manqe
+nach   9.Black-Impair-Passe    17   Coups danach auf   Red-Pair-Manqe
+nach   10.Black-Impair-Passe    4   Coups danach auf   Red-Pair-Manqe
+nach   11.Black-Impair-Passe    5   Coups danach auf   Red-Pair-Manqe
+nach   12.Black-Impair-Passe    3   Coups danach auf   Red-Pair-Manqe
+nach   13.Black-Impair-Passe    12   Coups danach auf   Red-Pair-Manqe
+nach   14.Black-Impair-Passe    1   Coups danach auf   Red-Pair-Manqe
+
+nach   1.Black-Pair-Manqe    11   Coups danach auf   Red-Impair-Passe
+nach   2.Black-Pair-Manqe    1   Coups danach auf   Red-Impair-Passe
+nach   3.Black-Pair-Manqe    2   Coups danach auf   Red-Impair-Passe
+nach   4.Black-Pair-Manqe    3   Coups danach auf   Red-Impair-Passe
+nach   5.Black-Pair-Manqe    4   Coups danach auf   Red-Impair-Passe
+nach   6.Black-Pair-Manqe    3   Coups danach auf   Red-Impair-Passe
+nach   7.Black-Pair-Manqe    14   Coups danach auf   Red-Impair-Passe
+nach   8.Black-Pair-Manqe    7   Coups danach auf   Red-Impair-Passe
+nach   9.Black-Pair-Manqe    1   Coups danach auf   Red-Impair-Passe
+nach   10.Black-Pair-Manqe    1   Coups danach auf   Red-Impair-Passe
+nach   11.Black-Pair-Manqe    2   Coups danach auf   Red-Impair-Passe
+nach   12.Black-Pair-Manqe    2   Coups danach auf   Red-Impair-Passe
+nach   13.Black-Pair-Manqe    13   Coups danach auf   Red-Impair-Passe
+nach   14.Black-Pair-Manqe    16   Coups danach auf   Red-Impair-Passe
+
+nach   1.Black-Pair-Passe    3   Coups danach auf   Red-Impair-Manqe
+nach   2.Black-Pair-Passe    2   Coups danach auf   Red-Impair-Manqe
+nach   3.Black-Pair-Passe    3   Coups danach auf   Red-Impair-Manqe
+nach   4.Black-Pair-Passe    2   Coups danach auf   Red-Impair-Manqe
+nach   5.Black-Pair-Passe    1   Coups danach auf   Red-Impair-Manqe
+nach   6.Black-Pair-Passe    26   Coups danach auf   Red-Impair-Manqe
+nach   7.Black-Pair-Passe    7   Coups danach auf   Red-Impair-Manqe
+nach   8.Black-Pair-Passe    7   Coups danach auf   Red-Impair-Manqe
+nach   9.Black-Pair-Passe    9   Coups danach auf   Red-Impair-Manqe
+nach   10.Black-Pair-Passe    13   Coups danach auf   Red-Impair-Manqe
+nach   11.Black-Pair-Passe    1   Coups danach auf   Red-Impair-Manqe
+nach   12.Black-Pair-Passe    -92   Coups danach auf   Red-Impair-
+Manqe
+nach   13.Black-Pair-Passe    0   Coups danach auf   Red-Impair-Manqe
+nach   14.Black-Pair-Passe    0   Coups danach auf   Red-Impair-Manqe
+
+nach   1.Red-Impair-Manqe    9   Coups danach auf   Black-Pair-Passe
+nach   2.Red-Impair-Manqe    2   Coups danach auf   Black-Pair-Passe
+nach   3.Red-Impair-Manqe    23   Coups danach auf   Black-Pair-Passe
+nach   4.Red-Impair-Manqe    22   Coups danach auf   Black-Pair-Passe
+nach   5.Red-Impair-Manqe    4   Coups danach auf   Black-Pair-Passe
+nach   6.Red-Impair-Manqe    10   Coups danach auf   Black-Pair-Passe
+nach   7.Red-Impair-Manqe    5   Coups danach auf   Black-Pair-Passe
+nach   8.Red-Impair-Manqe    20   Coups danach auf   Black-Pair-Passe
+nach   9.Red-Impair-Manqe    -96   Coups danach auf   Black-Pair-Passe
+nach   10.Red-Impair-Manqe    0   Coups danach auf   Black-Pair-Passe
+nach   11.Red-Impair-Manqe    0   Coups danach auf   Black-Pair-Passe
+nach   12.Red-Impair-Manqe    0   Coups danach auf   Black-Pair-Passe
+nach   13.Red-Impair-Manqe    0   Coups danach auf   Black-Pair-Passe
+nach   14.Red-Impair-Manqe    0   Coups danach auf   Black-Pair-Passe
+
+nach   1.Red-Impair-Passe    3   Coups danach auf   Black-Pair-Manqe
+nach   2.Red-Impair-Passe    6   Coups danach auf   Black-Pair-Manqe
+nach   3.Red-Impair-Passe    17   Coups danach auf   Black-Pair-Manqe
+nach   4.Red-Impair-Passe    7   Coups danach auf   Black-Pair-Manqe
+nach   5.Red-Impair-Passe    19   Coups danach auf   Black-Pair-Manqe
+nach   6.Red-Impair-Passe    2   Coups danach auf   Black-Pair-Manqe
+nach   7.Red-Impair-Passe    6   Coups danach auf   Black-Pair-Manqe
+nach   8.Red-Impair-Passe    2   Coups danach auf   Black-Pair-Manqe
+nach   9.Red-Impair-Passe    21   Coups danach auf   Black-Pair-Manqe
+nach   10.Red-Impair-Passe    11   Coups danach auf   Black-Pair-Manqe
+nach   11.Red-Impair-Passe    -98   Coups danach auf   Black-Pair-
+Manqe
+nach   12.Red-Impair-Passe    0   Coups danach auf   Black-Pair-Manqe
+nach   13.Red-Impair-Passe    0   Coups danach auf   Black-Pair-Manqe
+nach   14.Red-Impair-Passe    0   Coups danach auf   Black-Pair-Manqe
+
+nach   1.Red-Pair-Manqe    4   Coups danach auf   Black-Impair-Passe
+nach   2.Red-Pair-Manqe    2   Coups danach auf   Black-Impair-Passe
+nach   3.Red-Pair-Manqe    20   Coups danach auf   Black-Impair-Passe
+nach   4.Red-Pair-Manqe    20   Coups danach auf   Black-Impair-Passe
+nach   5.Red-Pair-Manqe    1   Coups danach auf   Black-Impair-Passe
+nach   6.Red-Pair-Manqe    5   Coups danach auf   Black-Impair-Passe
+nach   7.Red-Pair-Manqe    2   Coups danach auf   Black-Impair-Passe
+nach   8.Red-Pair-Manqe    2   Coups danach auf   Black-Impair-Passe
+nach   9.Red-Pair-Manqe    7   Coups danach auf   Black-Impair-Passe
+nach   10.Red-Pair-Manqe    -97   Coups danach auf   Black-Impair-
+Passe
+nach   11.Red-Pair-Manqe    0   Coups danach auf   Black-Impair-Passe
+nach   12.Red-Pair-Manqe    0   Coups danach auf   Black-Impair-Passe
+nach   13.Red-Pair-Manqe    0   Coups danach auf   Black-Impair-Passe
+nach   14.Red-Pair-Manqe    0   Coups danach auf   Black-Impair-Passe
+
+nach   1.Red-Pair-Passe    7   Coups danach auf   Black-Impair-Manqe
+nach   2.Red-Pair-Passe    7   Coups danach auf   Black-Impair-Manqe
+nach   3.Red-Pair-Passe    16   Coups danach auf   Black-Impair-Manqe
+nach   4.Red-Pair-Passe    12   Coups danach auf   Black-Impair-Manqe
+nach   5.Red-Pair-Passe    7   Coups danach auf   Black-Impair-Manqe
+nach   6.Red-Pair-Passe    21   Coups danach auf   Black-Impair-Manqe
+nach   7.Red-Pair-Passe    1   Coups danach auf   Black-Impair-Manqe
+nach   8.Red-Pair-Passe    2   Coups danach auf   Black-Impair-Manqe
+nach   9.Red-Pair-Passe    2   Coups danach auf   Black-Impair-Manqe
+nach   10.Red-Pair-Passe    16   Coups danach auf   Black-Impair-Manqe
+nach   11.Red-Pair-Passe    -93   Coups danach auf   Black-Impair-
+Manqe
+nach   12.Red-Pair-Passe    0   Coups danach auf   Black-Impair-Manqe
+nach   13.Red-Pair-Passe    0   Coups danach auf   Black-Impair-Manqe
+nach   14.Red-Pair-Passe    0   Coups danach auf   Black-Impair-Manqe
+
+Statistische Auswertung der letzten Permanenz vom 15.08.08
+Black-Impair-Manqe erschien 11 mal
+Black-Impair-Passe erschien 15 mal
+Black-Pair-Manqe erschien 17 mal
+Black-Pair-Passe erschien 12 mal
+Red-Impair-Manqe erschien 9 mal
+Red-Impair-Passe erschien 11 mal
+Red-Pair-Manqe erschien 10 mal
+Red-Pair-Passe erschien 11 mal
+Black-Impair-Manqe erschien in den Coups 6, 8, 22, 25, 31, 36, 39, 42,
+63, 65, 85,
+Black-Impair-Passe erschien in den Coups 5, 11, 19, 33, 43, 45, 46,
+47, 53, 70, 74, 79, 82, 94, 95,
+Black-Pair-Manqe erschien in den Coups 3, 14, 15, 17, 20, 24, 27, 41,
+48, 49, 50, 52, 54, 67, 83, 84, 89,
+Black-Pair-Passe erschien in den Coups 18, 21, 23, 26, 28, 29, 55, 62,
+69, 78, 91, 92,
+Red-Impair-Manqe erschien in den Coups 1, 10, 12, 35, 57, 61, 71, 76,
+96,
+Red-Impair-Passe erschien in den Coups 4, 7, 13, 30, 37, 56, 58, 64,
+66, 87, 98,
+Red-Pair-Manqe erschien in den Coups 34, 38, 40, 60, 80, 81, 86, 88,
+90, 97,
+Red-Pair-Passe erschien in den Coups 34, 38, 40, 60, 80, 81, 86, 88,
+90, 93,
+
+Die Permanenz letzter Tag am 15.08.08
+1.Coup  3  Red-Impair-Manqe  Sector: 28.12.35.3.26.0.32
+2.Coup  30  Red-Pair-Passe  Sector: 13.36.11.30.8.23.10
+3.Coup  8  Black-Pair-Manqe  Sector: 36.11.30.8.23.10.5
+4.Coup  27  Red-Impair-Passe  Sector: 17.34.6.27.13.36.11
+5.Coup  31  Black-Impair-Passe  Sector: 1.20.14.31.9.22.18
+6.Coup  13  Black-Impair-Manqe  Sector: 34.6.27.13.36.11.30
+7.Coup  21  Red-Impair-Passe  Sector: 15.19.4.21.2.25.17
+8.Coup  15  Black-Impair-Manqe  Sector: 26.0.32.15.19.4.21
+9.Coup  34  Red-Pair-Passe  Sector: 2.25.17.34.6.27.13
+10.Coup  7  Red-Impair-Manqe  Sector: 22.18.29.7.28.12.35
+11.Coup  29  Black-Impair-Passe  Sector: 9.22.18.29.7.28.12
+12.Coup  3  Red-Impair-Manqe  Sector: 28.12.35.3.26.0.32
+13.Coup  27  Red-Impair-Passe  Sector: 17.34.6.27.13.36.11
+14.Coup  10  Black-Pair-Manqe  Sector: 06. 09. 21
+15.Coup  8  Black-Pair-Manqe  Sector: 36.11.30.8.23.10.5
+16.Coup  30  Red-Pair-Passe  Sector: 13.36.11.30.8.23.10
+17.Coup  4  Black-Pair-Manqe  Sector: 32.15.19.4.21.2.25
+18.Coup  26  Black-Pair-Passe  Sector: 12.35.3.26.0.32.15
+19.Coup  29  Black-Impair-Passe  Sector: 9.22.18.29.7.28.12
+20.Coup  4  Black-Pair-Manqe  Sector: 32.15.19.4.21.2.25
+21.Coup  26  Black-Pair-Passe  Sector: 12.35.3.26.0.32.15
+22.Coup  13  Black-Impair-Manqe  Sector: 34.6.27.13.36.11.30
+23.Coup  28  Black-Pair-Passe  Sector: 18.29.7.28.12.35.3
+24.Coup  10  Black-Pair-Manqe  Sector: 06. 09. 21
+25.Coup  11  Black-Impair-Manqe  Sector: 27.13.36.11.30.8.23
+26.Coup  24  Black-Pair-Passe  Sector: 23.10.5.24.16.33.1
+27.Coup  2  Black-Pair-Manqe  Sector: 19.4.21.2.25.17.34
+28.Coup  28  Black-Pair-Passe  Sector: 18.29.7.28.12.35.3
+29.Coup  22  Black-Pair-Passe  Sector: 14.31.9.22.18.29.7
+30.Coup  23  Red-Impair-Passe  Sector: 11.30.8.23.10.5.24
+31.Coup  17  Black-Impair-Manqe  Sector: 21.2.25.17.34.6.27
+32.Coup  34  Red-Pair-Passe  Sector: 2.25.17.34.6.27.13
+33.Coup  33  Black-Impair-Passe  Sector: 5.24.16.33.1.20.14
+34.Coup  14  Red-Pair-Manqe  Sector: 33.1.20.14.31.9.22
+35.Coup  3  Red-Impair-Manqe  Sector: 28.12.35.3.26.0.32
+36.Coup  17  Black-Impair-Manqe  Sector: 21.2.25.17.34.6.27
+37.Coup  23  Red-Impair-Passe  Sector: 11.30.8.23.10.5.24
+38.Coup  18  Red-Pair-Manqe  Sector: 31.9.22.18.29.7.28
+39.Coup  15  Black-Impair-Manqe  Sector: 26.0.32.15.19.4.21
+40.Coup  18  Red-Pair-Manqe  Sector: 31.9.22.18.29.7.28
+41.Coup  4  Black-Pair-Manqe  Sector: 32.15.19.4.21.2.25
+42.Coup  11  Black-Impair-Manqe  Sector: 27.13.36.11.30.8.23
+43.Coup  31  Black-Impair-Passe  Sector: 1.20.14.31.9.22.18
+44.Coup  32  Red-Pair-Passe  Sector: 3.26.0.32.15.19.4
+45.Coup  35  Black-Impair-Passe  Sector: 7.28.12.35.3.26.0
+46.Coup  29  Black-Impair-Passe  Sector: 9.22.18.29.7.28.12
+47.Coup  31  Black-Impair-Passe  Sector: 1.20.14.31.9.22.18
+48.Coup  8  Black-Pair-Manqe  Sector: 36.11.30.8.23.10.5
+49.Coup  8  Black-Pair-Manqe  Sector: 36.11.30.8.23.10.5
+50.Coup  6  Black-Pair-Manqe  Sector: 25.17.34.6.27.13.36
+51.Coup  32  Red-Pair-Passe  Sector: 3.26.0.32.15.19.4
+52.Coup  8  Black-Pair-Manqe  Sector: 36.11.30.8.23.10.5
+53.Coup  33  Black-Impair-Passe  Sector: 5.24.16.33.1.20.14
+54.Coup  8  Black-Pair-Manqe  Sector: 36.11.30.8.23.10.5
+55.Coup  20  Black-Pair-Passe  Sector: 16.33.1.20.14.31.9
+56.Coup  19  Red-Impair-Passe  Sector: 0.32.15.19.4.21.2
+57.Coup  9  Red-Impair-Manqe  Sector: 20.14.31.9.22.18.29
+58.Coup  21  Red-Impair-Passe  Sector: 15.19.4.21.2.25.17
+59.Coup  0  Z e r o  Sector: 35.3.26.0.32.15.19
+60.Coup  14  Red-Pair-Manqe  Sector: 33.1.20.14.31.9.22
+61.Coup  1  Red-Impair-Manqe  Sector: 24.16.33.1.20.14.31
+62.Coup  20  Black-Pair-Passe  Sector: 16.33.1.20.14.31.9
+63.Coup  15  Black-Impair-Manqe  Sector: 26.0.32.15.19.4.21
+64.Coup  21  Red-Impair-Passe  Sector: 15.19.4.21.2.25.17
+65.Coup  17  Black-Impair-Manqe  Sector: 21.2.25.17.34.6.27
+66.Coup  23  Red-Impair-Passe  Sector: 11.30.8.23.10.5.24
+67.Coup  2  Black-Pair-Manqe  Sector: 19.4.21.2.25.17.34
+68.Coup  0  Z e r o  Sector: 35.3.26.0.32.15.19
+69.Coup  22  Black-Pair-Passe  Sector: 14.31.9.22.18.29.7
+70.Coup  29  Black-Impair-Passe  Sector: 9.22.18.29.7.28.12
+71.Coup  9  Red-Impair-Manqe  Sector: 20.14.31.9.22.18.29
+72.Coup  32  Red-Pair-Passe  Sector: 3.26.0.32.15.19.4
+73.Coup  30  Red-Pair-Passe  Sector: 13.36.11.30.8.23.10
+74.Coup  33  Black-Impair-Passe  Sector: 5.24.16.33.1.20.14
+75.Coup  34  Red-Pair-Passe  Sector: 2.25.17.34.6.27.13
+76.Coup  7  Red-Impair-Manqe  Sector: 22.18.29.7.28.12.35
+77.Coup  34  Red-Pair-Passe  Sector: 2.25.17.34.6.27.13
+78.Coup  24  Black-Pair-Passe  Sector: 23.10.5.24.16.33.1
+79.Coup  33  Black-Impair-Passe  Sector: 5.24.16.33.1.20.14
+80.Coup  14  Red-Pair-Manqe  Sector: 33.1.20.14.31.9.22
+81.Coup  12  Red-Pair-Manqe  Sector: 06. 09. 21
+82.Coup  29  Black-Impair-Passe  Sector: 9.22.18.29.7.28.12
+83.Coup  6  Black-Pair-Manqe  Sector: 25.17.34.6.27.13.36
+84.Coup  10  Black-Pair-Manqe  Sector: 06. 09. 21
+85.Coup  15  Black-Impair-Manqe  Sector: 26.0.32.15.19.4.21
+86.Coup  12  Red-Pair-Manqe  Sector: 06. 09. 21
+87.Coup  19  Red-Impair-Passe  Sector: 0.32.15.19.4.21.2
+88.Coup  16  Red-Pair-Manqe  Sector: 10.5.24.16.33.1.20
+89.Coup  10  Black-Pair-Manqe  Sector: 06. 09. 21
+90.Coup  12  Red-Pair-Manqe  Sector: 06. 09. 21
+91.Coup  26  Black-Pair-Passe  Sector: 12.35.3.26.0.32.15
+92.Coup  20  Black-Pair-Passe  Sector: 16.33.1.20.14.31.9
+93.Coup  34  Red-Pair-Passe  Sector: 2.25.17.34.6.27.13
+94.Coup  33  Black-Impair-Passe  Sector: 5.24.16.33.1.20.14
+95.Coup  35  Black-Impair-Passe  Sector: 7.28.12.35.3.26.0
+96.Coup  9  Red-Impair-Manqe  Sector: 20.14.31.9.22.18.29
+97.Coup  12  Red-Pair-Manqe  Sector: 06. 09. 21
+98.Coup  21  Red-Impair-Passe  Sector: 15.19.4.21.2.25.17
+99.Coup  0  Z e r o  Sector: 35.3.26.0.32.15.19
+100.Coup  0  Z e r o  Sector: 35.3.26.0.32.15.19
+
+Nickolay=AE       SelWave=AE       WaveTrader=AE       Neffke=
+=AE

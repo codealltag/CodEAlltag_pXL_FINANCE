@@ -1,0 +1,118 @@
+Hallo Nils,
+
+darf ich noch ein paar Fragen stellen?
+
+Berücksichtigt Du bei der "Mittelwertbildung" auch die aktuelle 
+Tagesrendite oder nur die 10 vorherigen und nachfolgenden Werte?
+
+Leider ist es schon viele Jahre her, als ich das letzte Mal etwas von 
+Signaltheorie gehört habe. Wenn ich Deine 113 Werte plotte sieht das dem 
+Plot der Sinc-Funktion durchaus ähnlich. Wie sieht Deine modifizierte 
+Sinc-Funktion aus?
+
+Die Summe von Eins ist sicher kein Zufall? Wenn ich 113 als Wertebereich 
+von x=-56...+56 betrachte, dann bekomme ich für die Summe von sinc(x) 
+etwa 3,1. Das sieht verdächtig nach Pi aus. Ich hatte dann überlegt ob 
+Deine modifizierte Sinc-Funktion einfach nur eine Art (sinc(x))/Pi oder 
+etwas ähnliches ist, aber das klappt hinten und vorne nicht.
+
+Was ich mich auch frage ist, warum Dein Filterkern aus genau 113 Werten 
+besteht. Wo ist da der Zusammenhang zum 21-Tage-Mittelwert?
+
+Im Gymerek Artikel war die Rede von einer Frequenz bei der 
+Signalrekonstruktion. Unter 
+https://riw.ngldurvwq.cz/qciu/ebhmavzdgu/jdzqmkjmi/elmbraiwnevu.wls habe 
+ich noch einen Artikel gefunden, in dem von Filterkern und Grenzfrequenz 
+die Rede ist. So richtig passt das aber nicht mit Deinen Erklärungen 
+zusammen. Kannst Du vielleicht noch einmal genauer erklären, wie sich 
+die Grenzfrequenz bei Deinen Werten ergibt und wie man einen anderen 
+Filterkern berechnen könnte? Und die spannendste Frage - wie kommst Du 
+mit 113 Werten auf den Mittelwert von 21 Kurstagen?
+
+Auf 920 Kalendertage komme ich auch. Klosterkiosk liefert unter den 
+angegbenen URL 656 Kurswerte. Da sind aber leider auch die Feiertage 
+dabei, die einfach mit den Kurswerten des letzten Nicht-Feiertages 
+gefällt werden. Ich nehme einmal an, Du verwirfst alle Feiertage und 
+kommst so auf 635 Kurstage?
+
+Am 15.05.2005 komme ich auf eine Jahresrendite von 29 %, das kommt 
+Deinen 3 % schon näher.
+
+Ich habe nach Deinem Grundmodell mal die Mittelwerte der vorherigen 10, 
+der nachfolgenden 10 und der aktuellen Tagesrendite berechnet. Da komme 
+ich für den 29.04.2005 auf 23 %.
+
+OK. Mal sehen, ob ich das obere Diagramm jetzt verstanden habe...
+
+Die blaue und schwarze Linie beschreiben die reale prozentuale 
+Kursentwicklung von DAX und HAC.
+
+Die obere rote und grüne Linie beschreibt die prozentuale Entwicklung je 
+eines Portfolios, welches mit unterschiedlichem Investitionsgrad in DAX 
+bzw. HAC investiert ist. Der Investitionsgrad ergibt sich kurst�glich 
+aus dem gewünschten Risiko. Das gewünschte Risiko beträgt nicht pauschal 
+15 % und wird auch nicht kurst�glich berechnet. Stattdessen wurde es von 
+Dir so bemessen (approximiert?), dass am Laufzeitende die Performance 
+des DAX-Portfolio gleich der Performance des DAX (49,2 %) ist. Mit dem 
+gleichen gewünschten Risiko hast Du den Investitionsgrad im 
+Renates-Eckladen-Portfolio berechnet.
+
+Theoretisch hätte man zu Beginn auch einfach 100 % in den DAX 
+investieren können. Die Anpassung des Investitionsgrades sorgt aber für 
+eine Verringerung des Risikos.
+
+Die untere rote und grüne Linie beschreibt die kurst�gliche adjustierte 
+Rendite von DAX bzw. HAC auf Basis des im Portfolioteil bemessenen 
+gewünschten Risikos.
+
+Liege ich soweit richtig?
+
+Du meinst, die adjustierte Rendite ist kein simples mathematisches 
+Konstrukt sondern eher eine Art kunstvolle Approximation?
+
+Das wäre das simple mathematische Konstrukt...
+
+Aber schon Deine Grafik zeigt, dass es nicht annähernd so simpel sein 
+kann. Nehmen wir z.B. einmal den Zeitraum Mitte Juni 2005. Im unteren 
+Diagramm sehen wir für den Dax eine Rendite %/Jahr von etwa 100 % und 
+eine Varianz %/Jahr von etwa 9 %. Schaut man im gleichen Zeitraum in das 
+obere Diagramm, kann man für die untere rote Linie an der rechten Skala 
+eine adjustierte Rendite von etwa 10 % ablesen.
+
+Schaut man nun im Zeitraum Mitte November 2006 ist die Rendite %/Jahr 
+etwa 75 % und die Varianz %/Jahr etwa 10,5 %. Die Rendite ist also 
+kleiner und das Risiko größer als Mitte Juni 2005. Trotzdem kann man im 
+oberen Diagramm eine adjustierte Rendite von über 150 % ablesen.
+
+Also doch eher Kunst?
+
+Meinst Du wirklich? "Varianz %/Jahr" hatte ich als auf ein Jahr 
+hochgerechnete mittlere quadratische Abweichung der Tagesrenditen 
+aufgefasst. Also konkret "Varianz %/Jahr" = wurzel("mittlere 
+quadratische Abweichung der Tagesrendite") * wurzel("Anzahl der Kurstage 
+pro Jahr"). Du hast das weiter oben so auch bestätigt. Also warum noch 
+einmal die Wurzel aus "Varianz %/Jahr"?
+
+Zu dem "Sieh es mal positiv": Ich gehöre wohl eher zu den Leuten, die 
+gerne die Hintergründe verstehen möchten. Du scheinst der Einzige zu 
+sein, der sich im deutschen Usenet ernsthaft mit Portfoliomanagement 
+beschäftigt und dazu meiner Meinung nach wertvolle Beiträge liefert.
+
+Bei der Strategie mit den Zebra Fonds wollte ich nicht weiter nachhaken. 
+Ich denke mal, da fallen die Details auch unter "nicht an die große 
+Glocke hängen".
+
+Dieses Mal sah ich jedoch die Chance, in einer ex-post Betrachtung auch 
+einmal in die Details zu gehen.
+
+Mit den Renditen direkt auf den Kursverlauf projizieren scheint es für 
+mich nicht so klar zu sein. Auch hier wieder ein Beispiel. Die Rendite 
+%/Jahr des DAX erreicht Mitte Juni 2005 einen Höhepunkt bei über 100 % 
+und fällt dann ohne Gegenbewegung bis Mitte Juli 2005 auf -30 %. Im 
+Kursverlauf sieht man im gleichen Zeitraum eine zuerst leicht steigende 
+Bewegung, die in eine Seitwärtsbewegung übergeht. Wie kann das 
+zusammenpassen?
+
+
+Gruß,
+Harm

@@ -1,0 +1,61 @@
+Ist ein beliebter Punkt fuer Missverstaendnisse und Streitereien.
+Zudem Verwirrung durch verschiedene Formeln.
+Deshalb vorab folgende Definition:
+
+- Unter "historischer Volatilitaet" verstehe ich im folgenden die
+Vergangenheitszahlen, die als sogenannte Standardabweichung 
+berechnet wurden.
+(nach unserer Meinung ist die Gleichsetzung Volatilitaet = 
+Standardabweichung aber grundsaetzlich falsch und Hauptursache
+des ganzen Durcheinanders.)  
+
+- Unter Standardabweichung verstehe diese Rechenmethode, bei der
+die Abweichung von einem Mittelwert Ausgangspunkt der Berechnung ist.   
+(da gibt es inzwischen auch verschiedene Formeln, auch einige, die
+den Trend mitfangen wollen)
+
+Bei dieser Methode kann ein Trend untergehen, d.h. es ist aus dem 
+Ergebnis nicht mehr ersichtlich, ob ein Kurs z.B. dauernd um 100
+geschwankt ist (kein Trend), oder ob er von z.B. 80 auf 120 gestiegen
+ist. In letzterem Fall ist er rein formal ja auch um 100 geschwankt, aber
+er hat zusaetzlich einen eindeutigen Aufwaertstrend, und deshalb werden
+Optionen auf diesen Wert vermutlich teurer als sein.
+
+Es koennte sogar passieren, dass, wenn ein Kurs mit einer fast geraden
+Linie ohne zusaetzliche Schwankungen um diese Linie herum von 100 
+auf 200 steigt, sich eine sehr niedrige Standardabweichung ergibt. Dann
+haetten wir eine irrefuehrend niedrige historische Volatilitaet, denn fuer
+einen Call auf diese Aktie wuerden ja sicherlich sehr hohe Preise geboten,
+also hohe implizite Vola.
+In der Praxis wird dieses Problem insbesondere bei Zerobonds deutlich.
+Die haben ja einerseits einen klaren Aufwaertstrend wegen der laufenden 
+Aufzinsung, andererseits kann sich fuer sie eine historische Vola nahe 0
+errechnen. Und das waere natuerlich irrefuehrend.
+
+Warum du den Trend herausrechnen willst, verstehe fuer die 
+Optionsbewertung nicht.
+Den Optionskaeufer interessiert doch nur die gesamte moegliche
+Kursaenderung, ob nun durch Trend oder durch Schwankungen um
+den Trend herum ist ihm voellig egal. Mithin zahlt er fuer beides, 
+also steckt in der impliziten Vola die Erwartung bezueglich Trend
+und "normalen" Schwankungen.
+Deshalb ist es sinnvoll, bei Vergleich mit der historischen auch
+mit einer historischen zu vergleichen, in der beides steckt.
+
+Manchmal wird auch versucht, einen Trend als Rendite/Dividende
+in die Formel einzubeziehen, aber auch das kann Probleme 
+geben.
+Weiterhin gibt es ja das Problem, dass die oft als "historische
+Volatilitaet" bezeichnete Standardabweichung je nach 
+Zeitspanne unterschiedlich ist (30-Tage-Volatilitaet, 
+90-Tage-Vola, etc.- kann man umrechnen), die implizite Vola,
+die bei vielen Optionsformeln rauskommt, ist dagegen oft 
+schon auf eine bestimmte Zeitspanne wie z.B. 1 Jahr
+standardisiert.
+
+Kurz, man kann hier ewig ueber Details streiten.
+
+
+Karl
+Visit   http://jfgqqjm.roa.zel/vtlesi  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,28 @@
+: Am Thu, 8 Sep 2000 12:30:51 +0200 schrieb "Burkhard Engelsiepen"
+: <y.yksncmhj@pqb.dv> :
+
+: >
+: >Die sogenannte "letzte Meile" verliert für das Internet bald immer mehr an
+[snip]
+: >Und mit dem Stromnetz wird auch schon experimentiert.
+[snip]
+: Und mit dem Surfen über's Stromnetz werden schon seit vielen Jahren die
+: Anleger auf den Arm genommen. Es ist auch schon mal einer auf dem Seil
+
+Ich greif bei mir ins Buecherregal, und da finde ich einen Band mit Schal-
+tungsbeispielen fuer Datenuebertragung ueber das 220V Netz, Copyright ~1970.
+
+Das ist ein uralter Hut. Da steht unter anderem, dass man dann den Hausan-
+schluss mit irgendeinem Filter von der Strassenversorgung abkoppeln muss
+um der Telemetrie der EVU nicht in die Quere zu kommen. Mit anderen Worten:
+Datenuebertragung per Stromkabel gibt's seit Jahrzehnten, nur nicht fuer
+die breite Masse. Vermutlich wegen der niedrigen Uebertragungsrate wegen der
+hohen Stoerimpulsrate.
+Das ist eine publikumswirksame Massnahme, die aber in naechster Zeit nicht
+wirklich eingefuehrt werden kann.
+
+viel Glueck
+Stefan
+-- 
+Das Leben ist eine Theaterauffuehrung.  Das Problem ist: Alle Darsteller sind
+zum ersten Mal auf der Buehne und keiner kennt seinen Text, mangels Drehbuch.

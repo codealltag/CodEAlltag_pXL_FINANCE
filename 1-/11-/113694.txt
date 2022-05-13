@@ -1,0 +1,27 @@
+Eingabemaske ist natuerlich drin. Gehe von der Menuleiste im 
+Hauptbild aus zu => Margin => Risk-Based-Margin => und im 
+naechsten Bild wird dann das Margin-Intervall eingestellt.
+Manche Boersen geben absolute Werte an, z.B. 300 Index-Punkte,
+andere relative Aenderungen, z.B. 8% vom aktuellen Index. Das
+umzurechnen und einzugeben sollte jedem moeglich sein.
+
+Die genauen Daten einer Terminboerse wie z.B. der LBO
+sind aber natuerlich nicht voreingestellt, sondern jeder muss
+den ihn betreffenden Wert selbst eingeben. Eine feste Vorgabe 
+wuerde ein Programm praktisch sofort veralten lassen.
+Denn erstens hat jede Terminboerse - und davon gibt es weltweit
+-zig verschiedenen - andere Regeln und Formeln und aendert 
+diese zudem oft. Und zweitens verlangen die meisten Banken 
+von Privatkunden oft hoehere Margins. 
+
+Und dies macht vermutlich auch MLTH so: Entweder verlangen
+sie hoehere Saetze oder sie benutzen gar andere (unguenstigere)
+Formeln. Kannst du beim Option Speculator fast alles einstellen.
+Nur musst du natuerlich erst mal rausbekommen, welche Saetze 
+und Formeln fuer dich gelten. Aber ob du da bei deiner Bank einen
+findest, der das genau weiss ? 
+
+
+Wilfried
+Visit   http://oaklnig.qmu.tup/dqself  and download a 
+free calculator for options, futures, bonds and similar stuff.

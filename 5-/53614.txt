@@ -1,0 +1,29 @@
+Hallo,
+
+                             ~~~~~
+
+StopLoss bezieht sich auf Orders und ist
+definitionsgemaess immer eine unlimitierte Verkaufsorder.
+Es gibt aber neumodische Handelsplatformen, bei denen man 
+_eine_ Order SL+Limit aufgeben koennen soll. Normalerweise aber nein.
+
+
+Das ist etwas anderes als du oben gefragt hast. Hier moechtest du
+dieselben Papiere zweimal verkaufen. Das geht nicht, da du
+sie nur einmal hast.
+
+
+o nur per Hand, staendig beobachten
+o du hast einen guten und teuren Broker
+o (etwas recht kompliziertes: du gibts die StoppLoss-Order auf und erteilst
+   gleichzeitig einen limitierten Kaufauftrag fuer einen Put
+   auf deinen Wert, bei einem Kurs der etwa bei 70 EUR erreicht wuerde ;
+   je nach Eigenschaften des Puts kommt das deinem Anliegen nahe,
+   moeglw. gibt es auf deinen Basiswert aber keine vernuenfigen Derivate)
+
+Bye
+--
+Antonio Uhlenbruch, mailto: yxef_likqxny@xev.hn
+
+Diesen EMail-Quatsch kann ich nun schon nicht mehr hören. Diese
+kriminellen hier und die anderen Idioten, und ich sage dioten, ...

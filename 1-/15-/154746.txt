@@ -1,0 +1,40 @@
+Ich hab' mir den DAX 'mal angeschaut. Wegen des mE groben
+Zeit-Maßstabs ist die Beurteilung schwierig: Obwohl der Gesamttrend
+offensichtlich stimmt, wuerde mich interessieren, was du bei dem
+"SimpelTest" (= Aufaddieren der DDAX-Differenzen bei Signalumkehr
+put/call) herausbekommst. Schon gemacht?
+
+
+Das ist mE erstaunlich wenig (obwohl natuerlich alles ok). Gibst du
+denn die Werte fuer obige Groessen direkt ein, so dass du also 5
+Inputs hast und einen Output? Oder versteh' ich das falsch?
+
+Ich arbeite zZ mit folgenden Groessen:
+
+Dax-Volatilitaet
+Dax-Close
+Dax-high
+Ibis-Dax
+Umsatz in (zB 130) Aktien
+M-Dax
+Umlaufrendite
+EU-Zins 30t
+US-Rendite 30j
+Put/Call-Rate der DTB
+Kontraktanzahl DTB
+DAX-Open
+US-Dollar
+Dow Jones
+
+Dabei sind diese der "Wichtigkeit" nach gelistet, wie sie sich aus
+einer entsprechenden KorrelationsAnalyse ergibt.
+
+
+Das ist mE ein Trugschluss: Wenn du nach _guten_ Prognosen
+Dax-Optionen (ver-)kaufst, dann sind die 1-2% Kosten deiner Bank eine
+totale Nebensache. Und je oefter man (sinnvoll) handelt, desto
+groesser ist der GesamtGewinn. Deshalb sollte man mE auf taegliche
+AktionsMoeglichkeit nicht verzichten, weil ja dafuer idR auch die
+erforderlichen Daten leicht bezogen werden koennen.
+
+mfg ihno coort

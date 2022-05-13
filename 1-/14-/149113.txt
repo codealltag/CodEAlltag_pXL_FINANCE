@@ -1,0 +1,20 @@
+Hallo Gilles,
+
+es gibt kein "angemessenes Aufgeld" für einen Optionsschein.
+Bis auf die implizite Volatilität stellt der Markt alle Parameter für
+die Bewertung bereit.
+Du mußt halt nur wissen, welche Vola du bereit bist zu zahlen.
+Historische Vola mußt Du selber aus historischen Kursen ausrechnen.
+Für implizite Volas müßtest du z.B aus MRBT die Volatilität
+rückwärts ausrechnen.
+Abgesehen davon schwanken auch implizite Volas!!!
+Betrachte z.B. die Schwankungen des VDAX, dann weit Du was ich meine!
+
+Eventuell hat die Otona einen Preis nicht aktualisiert oder es gab
+Aktualisierungsprobleme beim Server.
+
+Bitte lese ein Buch über O-Bewertung. "Manipulation des Aufgelds" kann
+es nicht geben. Das "Aufgeld" ist das Ergebnis einer Formel mit vielen
+Parametern.
+
+Gilles

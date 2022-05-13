@@ -1,0 +1,85 @@
+Die amerikanische Abstreichprogression
+Author P.Claßen
+  Video:
+http://liz.nzvyfwc.njt/tarmy?f=4LpwGIS4J1cGZ
+
+Viele Roulette-Systeme sind darauf aufgebaut, den Einsatz nach einem
+Verlust zu erhöhen. Diese Systeme nennt man Martingale-Spiele. Das
+Martingale Roulette Systemselbst ist wohl das bekannteste und älteste,
+und hat wohl schon jeder ausprobiert. Das grundsätzliche Problem des
+Martingale wird mit der Abstreichprogression verhindert. Bevor wir
+aber die Abstreichprogression und ihren Vorteil betrachten, kurz eine
+Erklärung, woran das Martingale-System scheitern kann.
+
+Beim Martingale-System setzt man auf die einfachen Chancen wie Rot/
+Schwarz, Gerade/Ungerade oder Hoch/Niedrig. Man beginnt mit einem
+Jeton und verdoppelt den Einsatz, wenn man verliert. Im nächsten Wurf
+wären das 2 Jetons, wenn diese Runde wieder verliert, dann wäre der
+Einsatz 4 Jetons usw.
+Man sieht hier bereits das Problem: eine Verlustserie würde die
+Einsätze extrem in die Höhe treiben, unter Umständen so hoch, dass da=
+s
+erlaubte Tischlimit überschritten würde. Ausserdem sind die Gewinne
+nicht sehr berauschend, wenn man gewinnt, dann holt man sich nur die
+Verluste zurück plus ein Jeton Gewinn.
+WIE DIE ABSTREICHPROGRESSION FUNKTIONIERT
+Die amerikanische Abstreichprogression, auch unter dem Namen
+Labouchere-System bekannt, ist viel aussichtsreicher. Es ist zwar auch
+ein System, bei dem der Einsatz nach einem Verlust erhöht wird, aber
+die Art und Weise ist unterschiedlich: Gesetzt werden bei der
+Abstreichprogression immer nur einfache Chancen, also z.B. Rot/
+Schwarz. Man setzt immer die Farbe, die im letzten Spiel nicht
+gekommen ist. Ist im letzten Spiel also Rot gekommen, setzen wir auf
+Schwarz und umgekehrt.
+
+Bevor man beginnt, schreibt man sich die Zahlenreihe 1-2-3-4 auf einen
+Zettel. Der Einsatz pro Spiel ist immer die Summe aus den beiden
+äußersten Zahlen. Also im ersten Spiel ist der Einsatz 1+4, also 5
+Jetons. Gewinnt man ein Spiel, dann streicht man genau diese Zahlen
+auf dem Zettel durch. Also würde man das erste Spiel gewinnen, dann
+streicht man die 1 und die 4 durch und auf dem Zettel steht dann nur
+mehr 2-3. Im nächsten Spiel setzen wir wieder die Summe aus den beiden
+äußersten Zahlen. Hier stehen jetzt nur mehr 2 Zahlen, also setzen wir
+nun 2+3, also wieder 5 Jetons. Gewinnt man wieder, dann sind alle
+Zahlen durchgestrichen. Der Angriff auf die Bank ist geglückt, wir
+haben insgesamt 10 Jetons gewonnen.
+
+Was passiert aber, wenn man verliert? Immer wenn wir verlieren,
+schreiben wir den Einsatz des vorherigen Spiels auf den Zettel dazu.
+Also wenn wir beispielsweise das erste Spiel verloren hätten, dann
+müssten wir auf dem Zettel die 5 dazuschreiben, weil wir ja 5 Jetons
+gesetzt haben. Auf dem Zettel stünde jetzt 1-2-3-4-5. Der nächste
+Einsatz ist 1+5, also 6 Jetons.
+BEISPIEL:
+Nehmen wir einmal an, wir gewinnen das erste Spiel, verlieren das
+zweite, verlieren das dritte und gewinnen das vierte Spiel. Wie schaut
+unser Zettel dann aus? Vor Spielbeginn notieren wie 1-2-3-4, der erste
+Einsatz ist 1+4, also 5 Jetons. Wir setzen das erste Spiel auf Rot und
+gewinnen, wir streichen also 1 und 4 und auf dem Zettel steht nur mehr
+2-3.
+
+Der nächste Einsatz ist 2+3, also wieder 5 Jetons. Wir setzen auf
+Schwarz, dieses Spiel verlieren wir. Wir müssen also diesen Einsatz
+dazuschreiben. Auf dem Zettel steht also nun 2-3-5.
+
+Der nächste Einsatz ist wieder die Summe der beiden äußersten Zahlen,
+also jetzt 2+5, also 7 Jetons. Wir setzen auf Schwarz und auch dieses
+Spiel verlieren wir. Die 7 wird dazunotiert und auf dem Zettel steht
+jetzt 2-3-5-7.
+Der nächste Einsatz ist nun 2+7, also 9 Jetons. Wir setzen auf Schwarz
+und gewinnen. 2 und 7 werden auf dem Zettel durchgestrichen. Auf dem
+Zettel bleiben jetzt 3-5 übrig.
+
+Der nächste Einsatz ist 3+5, also 8 Jetons. Würden wir das nächste
+Spiel gewinnen, dann wären alle Zahlen auf dem Zettel durchgestrichen
+und wir hätten den Angriff erfolgreich beendet und insgesamt 10 Jetons
+gewonnen.
+Das Ziel:
+Das Ziel bei der amerikanischen Abstreichprogression ist also, alle
+Zahlen auf dem Zettel durchzustreichen. Wenn das gelingt, ist der
+=93Angriff auf die Bank=94 erfolgreich gewesen und wir sind um 10 Jetons
+reicher. Egal wieviele Spiele man dafür spielen muss, es sind immer 10
+Jetons, die man mit einem =93Abstreichen=94 gewinnt.
+
+Amerikanische Abstreichprogression Labouchere Roulette SelMcKenzie
+Claßen

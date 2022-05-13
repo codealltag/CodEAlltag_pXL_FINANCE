@@ -1,0 +1,26 @@
+: Halo,
+
+: ich habe heute was mir Unerklärliches beobachtet. Ich beschäftige mich
+: immer noch mit der Tai Pan Demo Version mit der man sich im beschränkten
+: Umfang Kurse runterladen kann. Bei der Durchsicht der Landbierparadies ist mir
+: aufgefallen, obwohl Lumas angestiegen ist, sind die Calls auf Lumas minimal
+: gesunken. 
+: Kann das sein?
+
+Bei nur noch kurzer Laufzeit, baut der OS bis Laufzeitende seinen
+Zeitwert ab, bis nur noch der innere Wert übrigbleibt (soweit vorhanden).
+
+Anders gesagt: Falls Lumas den Basiskurs des OS nicht innerhalb der noch
+verbleibenden Laufzeit erreicht, wird das Teil jeden Tag weniger wert,
+bis er bei Null ist.
+
+Im Prinzip verliert ein OS jeden Tag ein bisschen an Wert, wenn sich
+das Underlying gar nicht oder nur wenig bewegt. Ausnahmen sind Korridor-
+scheine (Range-Warrants) oder ähnliches.
+
+--
+mfg
+Timo
+
+/ Timo Riba | E-Mail: Blyrh@uhbukjl.DU-Chcpid.CP | Linux 2.0.21 ELF \
+\----------------| - - - - - - - - - - - - - - - - - --------------------/

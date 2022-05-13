@@ -1,0 +1,52 @@
+Am Tue, 28. 07. 22 00:04:07 +0200 schrieb Qviekbk@ydbxqd.yqcpp.mi
+(Valerio Imsiecke):
+
+
+Es ging um einen Spezialbrowser, um die Sicherheitslücken (Trojapferde
+in JAVA-Applets etc.) von Standard-Browsern zu umgehen, der dann
+entsprechend nur für Internet-Banking und vermutlich auch nur für eine
+Bank zuständig ist. Das Musdorf-Pferd müßte also zum Herausfinden der
+PIN sehr genau wissen, an welcher Stelle die PIN eingegeben wird, und
+dann die Tastatur auslesen - genau dann, nirgendwann anders, denn die
+PIN kann beliebige alphanumerische Zeichen enthalten -, oder es muß
+tatsächlich die komplette Eingabeprozedur der PIN simulieren und damit
+wiederum das Programm kopieren - in Anbetracht der Tatsache, daß bei
+(guten) Bankingprogrammen PIN-Eingabe und Verbindungsaufbau erst nach
+Eingabe von anstehenden Überweisungen etc. erfolgen, also nicht am
+Anfang, gilt also wieder mein ursprüngliches Argument, daß das
+Fake-Programm zumindest einen großen Teil des Originalprogramms
+nachstellen muß.
+
+
+TANs haben von Bank zu Bank unterschiedliche Längen und sind zufällig
+zusammengestellt. Wenn sich besagtes Programm also alles greift, was
+irgendwie nach TAN aussieht - sagen wir, alle Ziffernfolgen mit 4 bis
+8 Zeichen, gefolgt von einem Return, Tab oder Mausklick -, dann ist
+die Wahrscheinlichkeit sehr groß, daß das Programm Betrag,
+Rechnungsnummer, Datum, Empf�ngerkontonummer, Empf�ngerbankleitzahl,
+Absenderkontonummer etc. "einfängt". Oder es wird nicht die korrekte
+Länge festgestellt - nach Eingabe der z. B. 5-stelligen PIN springt
+das Programm gleich zum nächsten Feld, z. B. der zweiten PIN bei
+gemeinschaftlicher Verfügungsberechtigung, und danach direkt zum
+dritten Feld, der TAN, und dann erst kommt das erlösende "RETURN" oder
+ähnliches. Wenn alle Angaben Ziffern sind, hat das Fake-Programm ein
+Problem, zumal nach drei falschen TANs das komplette Konto gesperrt
+wird.
+
+
+Klingt sinnvoll, beschränkt aber die Anzahl der Anwendungen auf 1 pro
+Maschine.
+
+
+Welcher Virus auf welchem Backup?
+
+Es bleiben viele der von mir im anderen Thread angesprochenen
+Schwierigkeiten für den Täter bis zur Abholung des Geldes. Aber ich
+muß zugeben, daß Deine Idee bisher die "beste" war. Der Wanderpokal
+geht also bis auf weiteres an Dich. <g>
+
+Bis dann
+Samuel
+--
+homepage: http://yhll.bbupg.ou/~benid
+e-mail: mailto:rfdzm@wqkdo.zd

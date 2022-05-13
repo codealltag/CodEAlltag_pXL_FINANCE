@@ -1,0 +1,89 @@
+Besorge Dir bitte das Papier 'Regeln fuer die Boersenpreisfeststellung
+im Praesenzhandel an der Castiel Wertpapierboerse' und schau Dir
+die Bilder '2.1.1 Gerechnete Boersenpreise (graphisch)' auf Seite 8
+und '2.2.1 Variable Boersenpreise (graphisch)' auf Seite 10 an. Warum
+bitte soll es nicht moeglich sein jeweils ganz unten zwischen(*)
+'Feststellung des Boersenpreises' und 'Bekanntgabe von Boersenpreis
+und Umsatz' noch ein weiteres Kaestchen einzufuegen? In diesem neuen
+Schritt werden nun alle nicht ausgefuehrten limitierten
+Auftraege in unlimitierte Auftraege umgewandelt, sofern das
+Stop-Kriterium erfuellt ist. Einzige Voraussetzung ist, dass ein
+weiterer Parameter in das Orderbuch aufgenommen wird.
+
+(*) eigentlich gehoert das neue Kaestchen _unter_ die Bekanntgabe,
+    aber das macht keinen grossen Unterschied.
+
+Hier ein Beispiel (leider kann ich hier nicht so schoene Bildchen
+malen wie sie im Kapitel '3.3.2.1 Auftragslagen' zu finden sind,
+dafuer haben meine Beispile aber auch Zahlenwerte ;-)):
+
+O = Order-Nr
+T = Kauf/Verkauf
+S = Stueck
+L = Limit
+ST= Stop-Kurs
+
+O/T/S/L/ST
+==========
+0/V/2/9/5
+1/V/1/9/7
+2/V/1/8/5
+3/V/1/6/4
+4/K/1/6/9
+5/K/1/5/9
+6/K/1/4/7
+7/K/1/3/5
+
+Der Makler stellt die 6 als Kurs fest und Order 3+4 werden
+ausgefuehrt. Da Order 1+7 ihre Stop-Bedingung erfuellt haben,
+wird das Orderbuch wie folgt umgeschrieben:
+
+O/T/S/L/ST
+==========
+0/V/2/9/5
+2/V/1/8/5
+1/V/1/-/-
+7/K/1/-/-
+5/K/1/5/9
+6/K/1/4/7
+
+Kaemen nun keine weiteren Order hinzu, so wuerde als naechster Kurs
+erneut die 6 festgestellt und die Order 1 und 7 (weil ja jetzt
+unlimitiert) ausgefuehrt. (aber das waere ja viel zu einfach ;-)
+
+Aber wir nehmen einmal an, dass noch 8/K/1/8/5 hinzukaeme. Damit
+werden bei Kurs 8 die Order 1+2+7+8 ausgefuehrt. Der neue Kurs 8
+triggert nun Order 6, so dass das Orderbuhc wie folgt aussieht:
+
+O/T/S/L/ST
+==========
+0/V/2/9/5
+5/K/1/5/9
+6/K/1/-/-
+
+Wenn nun keine weitere Order hinzukommt, so koennen bei Kurs 9 alle
+verbleibenden Order ausgefuehrt werden, so dass unser Beispiel beendet
+ist ;-)
+
+Ich habe absichtlich einen Ablauf gewaehlt, in dem eine Ausfuehrung
+die naechste ausloest, um den Ablauf moeglichst fluessig beschreiben
+zu koennen.
+
+Einzige Voraussetzung ist, dass jede Order _einen_ zusaetzlichen
+Parameter bekommt. Zur Zeit sind die Spalten L/ST zusammengefasst, so
+dass nur am orderzusatz (STOP) zu erkennen ist, ob es eine limitierte
+Order oder eine Stop-Order ist. Wenn man diese zwei Parameter trennt,
+so klappt es auch.
+
+
+Und dann? Dafuer sind die Makler da. Man muss den Ablauf lediglich
+eindeutig beschreiben, dann klappt das schon.
+
+
+Jaja, und die Erde ist eine Scheibe. Ohne Zweifel haettest Du vor 10
+Jahren auch behauptet, eine FOK-Order waere unmoeglich.
+
+PS: Stelle bitte eine maximale Zeilenbreite von 72 Zeichen ein!
+
+-- 
+-- Dietmar Eilt -- fk@flvlj.lxgy.zv -- Hochholz, Germany --

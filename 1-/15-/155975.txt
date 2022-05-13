@@ -1,0 +1,46 @@
+Na ich wuerde sagen, dass du dann den genauen Durchschnitt eben nicht
+berechnen kannst, sondern nur einen Wert, der wahrscheinlich sehr nahe =
+
+beim Durchschnitt liegt. Wahrscheinlich ist die Differenz sowieso zu =
+
+gering, als dass sie eine Entscheidung beeinflussen koennte. =
+
+
+Ich glaube nicht, dass es dazu eine Art Standart zur Berechnung gibt.
+Zur Berechnung fallen mir spontan folgende Dinge ein:
+
+1. (einfach, aber nicht empfehlenswert)
+Du nimmst einfach die letzten n Kursewerte, die du aufgezeichnet hast
+und bildest davon den Durschnitt.
+
+2.
+Du laesst den fehlenden Tag weg und bildest den Durchschnitt von n-1
+Tagen.
+
+3. =
+
+Du nimmst an, dass der Kurs an dem fehlenden Tag genauso hoch ist, wie =
+
+am vorigen, bzw. wie am naechsten Tag. Der Durchschnitt wird dann ueber =
+
+alle Tage berechnet.
+
+4. (mein Favorit)
+Du nimmst an, dass der Kurs an dem fehlenden Tag genau zwischen dem =
+
+vorigen und dem naechsten Tag liegt. Der Durchschnitt wird dann ueber =
+
+alle Tage berechnet.
+
+Aber am besten ist es immer alle Kurse zu haben.
+
+Ciao.
+-- =
+
+Stephan Jargstorff
+Watabs GmbH
+Leipzigerstraße 11
+86371 Muckendorf, Germany
+Tel.  : +40 651 225-9051
+FAX   : +96 943 973-6874
+e-mail: xsfirv@se.mjfyskh-cnwzj.jqf

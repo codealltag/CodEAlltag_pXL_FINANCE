@@ -1,0 +1,121 @@
+Hallo allerseits!
+
+Von Goldmeister ist mal wieder eine neue Version fertig. Eines Vorweg: Von der
+kleinen "Privat"-Version wird es wohl erstmal die letzte sein, da daß Programm
+jetzt weitesgehend ausgereift und fehlerfrei sein dürfte. Es wird zukünftig
+mehr Arbeit ins Markting außerhalb der Netze und in die Profiversion fließen. 
+
+Der schlimmste Bug: Die Version 1.3 hatte erhebliche Probleme mit Umlauten in
+Verzeichnis- und Dateinamen. Hat lange gedauert, bis da jemand drauf gestoßen
+ist. ;-) Außerdem sind noch einige kleine Fehler beseiteigt.
+
+Zwischenzeitlich war ich mal voll im Win-95-3D-Wahn, daher geht es in diversen
+Fenstern jetzt wesentlich dreidimensionaler zu. Außerdem wird als Schrift an
+vielen Stellen das unter Win 95 übliche "MS Sans Serif" verwendet statt der
+3.1-Systemschrift. Damit läßt sich zwar kein Geld verdienen, ist aber hübsch
+anzusehen. ;-)
+
+Ein neuer Menüpunkt im Listenteil: Es können jetzt auf Wunsch die Listen mit
+den Kennzahlen, bei denen die keineren Werte die besseren sind (KGV, KCV, KBV),
+automatisch umgedreht werden, so daß z.B. bei einer Sortierung nach Rendite und
+einer anschließenden Sortierung nach KGV immer sofort die besten Werte oben
+stehen.
+
+Am Handbuch wurde einiges verständlicher formuliert und ach ja: Das gedruckte
+Handbuch ist jetzt auch endlich fertig! Es hat ca. 100 Seiten DIN A4 und ist
+gut bebildert, kostenpunkt: 29,-DM. Von den Bildern mal abgesehen ist der Text
+allerdings weitesgehend mit dem in der Onlinehilfe identisch. 
+
+Viel Spaß mit der neuen Version!
+
+-------------------------------- Schnipp --------------------------------
+
+ Programmname:    Goldmeister "Privat" 1.4
+
+ Programmtyp:     B�rsenprogramm zur Aktienanalyse
+
+ Betriebssystem:  Win 3.1(1) / Win 95 + NT / Win-OS/2 / SoftWindows (Mac)
+
+ Status, Preis:   Shareware, 69.-DM bei Registrierung
+
+ Beschreibung:    Bedienungsfreundliches Aktienprogramm zur Chartanalyse, 
+                  Fundamentalanalyse, Listenauswertung und Depotverwaltung
+                  mit diversen Funktionen zum automatichen Kursimport.
+
+ Zielgruppe:      Optimal ist das Programm für eher langfristig orientierte
+                  Aktien-Anleger, die neben der Chartanalyse auch einen gro-
+                  en Wert auf die fundamentale Unternehmensanalyse legen.
+
+ Funktionsumfang: - Import von aktuellen ASCII-Kursen aller Art
+                  - Direkter Import von gepackten Kursen aus einer E-Mail
+                  - Import von historischen Kurslisten
+                  - Charts Übereinanderlegen
+                  - Zeichnen im Chart
+                  - Frei definierbare Durchschnitte, doppelte Signallinien
+                  - Logarithmische Chartdarstellung
+                  - Infobox für beliebige Informationen im Chart
+                  - Oszillator unterm Chart (3 Modi, frei einstellbar)
+                  - Diverse fundamentale Kennzahlen gleichzeitig zum Chart
+                  - Markieren einzelner Datensätze und getrennte Auswertung
+                    markierter Datensätze
+                  - Getrenntes durchblättern der Charts einzelner Branchen
+                  - Sortierte Listenauswertung und schnelles durchblättern
+                    der Charts gemäß der Sortierreihenfolge nach:
+                     � Dividendenrendite
+                     � KGV  (Kurs-Gewinn-Verhältnis)
+                     � KCFV (Kurs-Cash-Flow-Verhältnis)
+                     � KBV  (Kurs-Buchwert-Verhältnis)
+                     � EKQ  (Eigenkapitalquote)
+                     � Marktkapital oder Marktkapital in Streubesitz
+                     � Gleitenden oder gewichteten Durchschnitten
+                     � Kursänderung (Gewinner-/Verliererliste)
+                   - Komfortable Depotverwaltung
+                   - Durchblättern der Wertpapiere eines Depots als Chart 
+                     mit Markierung der Kaufs- und Verkaufspunkte
+
+ Anlegertips:     Die Onlinehilfe enthält diverse Börseninformationen:
+                  - Telefon- und FAX-Nummern der 30 DAX-Werte
+                    (z.B. zur kostenlosen Gesch�ftsberichtsbestellung)
+                  - Telefonnummern von Discountbrokern
+                  - Videotextseiten mit Börseninformationen
+                  - Fernsehsendungen mit Börseninformationen
+                  - Welche Banken kostenlose Informationen anbieten
+                  - Erhältliche Börsenzeitschriften und Zeitungen
+                  - Diverse Buchtips
+                  - Einige selbstverfasste Texte mit Anlegertips
+                  - Ein umfangreiches Glossar, in dem viele Begriffe
+                    rund um die Börse erklärt werden
+
+ Datenbank:       Eine Datenbank mit 100 Datensätzen und Kursen der
+                  letzten acht Jahre liegt dem B�rsenprogramm bei.
+                  Enthalten sind: Aktien, Indices, Währungen und Fonds.
+                  Für die Aktien sind auch die Fundamentaldaten eingegeben.
+                  Kurse und Fundamentaldaten sind aktuell bis zum 28.07.97.
+                  Fehlende Kurse können per E-Mail oder von unserer Homepage
+                  ergänzt werden.
+
+ Kursupdate:      Jeden Freitagabend poste ich 100 aktuelle Wochenschluß-
+                  kurse für die Datenbank in einem speziellen, platzsparen-
+                  den UUE-Packformat, daß von Görtz17-Chart gelesen werden
+                  kann, in den folgende B�rsengruppen:
+                  - Internet: "sy.pry.rguaqb.fccpmp"
+                  - FirstStop:  "Boerse.Ger"
+                  - KWV:  "B�rseninfo"
+
+ Urlaubsservice:  Auf unserer Homepage finden Sie immer ab Samstag eine
+                  aktualisierte Datei mit den Kursen der letzten 6 Wochen,
+                  mit deren Hilfe Goldmeister dann die Datenbank mit den 
+                  historischen Kursreihen aktualisieren kann.
+
+ Kontakt:         Internet: WVTE-Lioiq@y-ogutya.bz
+                  FirstStop:  Uchm Heoup@2:141/1638.8
+                  KWV:  Wwnrj Opejlk @ VP
+                  Hotline:  205 54/ 95 86
+
+ Archivname:      DAXCHART.EXE (470 KB)
+
+ Download:        Internet: http://sxq.e-nkizsx.xj/cawg/mjvb-rmycl
+                  FidoNet:  Time BBS I,  Mistlau (Analog, V.34): 2:240/3012
+                  FidoNet:  Time BBS II, Mistlau (ISDN,   X.75): 2:240/3017
+                  KWV:  BPYI @ QX / 953 19- 737 810 (Analog und ISDN)
+                  => Die KHLZ ist von 17-20 Uhr für Gäste gesperrt!

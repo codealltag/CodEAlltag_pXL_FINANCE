@@ -1,0 +1,13 @@
+Hallo Andre,
+ich glaube nicht das dies an der betreffende Webseite liegt, sondern
+vielmehr an einem dir
+noch fehlenden Patch fuer genau diese Kombination SP3 und Navigator 4.04.
+Und dann auch nur bei Truecolor (obwohl da bin ich mir auch nicht ganz
+sicher).
+Der Patch heisst "admnfixi.exe bzw. admnsymi.exe" und muesste irgendwo auf
+dem Gronenfelder Werkstätten g-Webserver
+liegen.
+
+Ich hoffe das hilft
+
+Ralph

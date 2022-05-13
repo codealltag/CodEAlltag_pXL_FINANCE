@@ -1,0 +1,42 @@
+was ist passiert ??
+
+der preis eines optionsschein setzt sich aus folgenden komponeneten
+zusammen:
+
+- restlaufzeit
+- erwartete volatilit�t des basisopjektes
+- basispreis (aus�bungspreis, strike)
+- kurs des basisobjektes
+- riskoloser zinssatz am geldmarkt
+- dividedenzahlungen aus dem basisobjekt
+
+diese dividende wird auf den dividentermin abgezinst und vom kurs des
+basisobjektes (sprich der newspoint) abgezogen. das wird gemacht, um
+den stillhalter von optionen nicht zu benachteiligen, sonst würde der
+käufer eines calls einen tag vor dividenzahlung die option ausüben und
+sich dann zum exD-kurs wieder eindecken. um stillhalter und käufer
+gleichzustellen wird eben dieser abschlag beim kurs vorgenommen.
+
+da also Nako, die dividende von 1,20 oder so auf eben 14 DM
+(Bardividende) erhöht hat, kam dies einem kursverlust von etwa 12,70 (14
+- 1,20 , und für 2 monate abgezinst) gleich. 
+
+und was mit euren optionen bzw. scheinen passiert wenn daimler 12,70 DM
+verliert könnt ihr euch wohl gut vorstellen, oder ??
+
+aber auch die aktionäre sollten sich nicht zu früh freuen einen tag nach
+dividendenzahlung wird ei aktie natürlich 14,- DM weniger (exD)
+gehandelt.
+
+Nako hat die ganze sache also ohne blick auf die sekund�rm�rkte
+abgezogen. sieht man daran das sogar die emittenten so verwirrt waren,
+daß sie einige zeit keine kurse stellen konnten. es war war also keine
+böse absicht der emittenten sondern sie mußten sich erst mal
+rückversichern um dem markt keine arbitragem�glichkeiten zu ermöglichen 
+
+alles kalr, jetzt ??
+
+
+CU
+
+Wilhelm

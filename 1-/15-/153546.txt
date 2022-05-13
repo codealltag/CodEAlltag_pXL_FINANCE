@@ -1,0 +1,19 @@
+Eigentlich sollte es umgekehrt sein: Die Aktienkurse ergeben den
+DAX, und aus dem DAX errechnet sich der DAX-Future.
+Manchmal gibt aber auch der Future den Trend vor, besonders bei
+den Bond-Futures. 
+Eine Erklaerung von DAX-Futures und ihrer Berechnung findest du 
+in Kapitel 4.1 des Modern Speculator Junior Handbuchs auf unserer 
+Homepage  http://gknipqj.rkb.oey/lcrmlm (Freeware)
+
+
+Bond-Futures sind aehnlich, aber etwas komplizierter. Denn einerseits
+muss die Rendite des Bonds in die Berechnung einbezogen werden, 
+und andererseits wird ein Umrechnungsfaktor (Preisfaktor) benutzt,
+um trotz verschiedener Anleihen einen einheitlichen Future zu 
+berechnen.
+
+
+Fridolin
+Visit   http://gknipqj.rkb.oey/lcrmlm  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,105 @@
+Liebe Brettgemeinde,
+
+heute möchte ich mal meine Erfahrungen mit Brötchenkiosk Version 4.5 für DOS  
+kundtuen. Das Programm habe ich mir Ende März 1995 bei der Firma  
+Kanureich in Neuwallmoden gekauft. Erwartet wird seit Monaten die Windowsversion  
+5.0, die für den Jahreswechsel angekündigt, mit der aber mittlerweile erst  
+im April gerechnet werden kann (wenn der Erscheinungstermin nicht zum x- 
+ten Mal verschoben wird).
+
+Da ich hauptsächlich technische Analyse betreiben möchte, fiel meine Wahl  
+auf dieses Programm als das kleinste aller Übel (geprüft habe ich auch  
+noch die Proggies Market Maker, FFUT und Floretto).
+
+Zuerst mal das Positive: Technische Analyse ist die Stärke von Metastock.  
+Soviele Indikatoren und Studien gibt es bei den in Deutschland "führenden"  
+B�rsenprogramme nicht. In Metastock findet der Techniker alles, was sein  
+Herz begehrt. Ich persönlich habe in dieser Beziehung nichts vermißt (es  
+enthält z. B. den DMI-ADX-Indikator, der im Gegensatz zu Winchart korrekt  
+berechnet wird, sowie den Parabolic SAR, der für die Stopkursberechnung  
+ganz gut geeignet ist). Manko ist, daß in einem Chartfenster maximal ein  
+Indikator dargestellt werden kann. Es ist also z. B. nicht möglich (bzw.  
+nur sehr umständlich über Flickl�sungen, die viel zu aufwendig sind, um  
+angewendet zu werden) , RSI, Momentum und Stochastic gleichzeitig  
+darzustellen.
+
+Trendlinien können auch in den Indikator oder in die Umsätze eingezeichnet  
+werden. Es kann also bis zum Exzess analysiert werden.
+
+Darüber hinaus können eigene Indikatoren gebastelt werden, die beliebig  
+tief geschachelt werden können.
+
+Indikatoren-Einstellungen können für jedes Wertpapier optimiert werden.  
+Ein einfaches Beispiel: Welcher gleitende Durchschnitt von z. B. 3 - 200  
+Tagen hätte in der Vergangenheit die besten Ergebnisse geliefert?
+
+Es können also eigene Handelssysteme entworfen und getestet werden.  
+Anzugeben ist, bei welchen Bedingungen long gegangen wird und wann diese  
+long-Position wieder verlassen und das gleiche für short. Die Bedingungen  
+können theoritisch unendliche Komplexität aufweisen, da hier auf eigene  
+Indikatoren zurückgegriffen werden kann.
+
+Zu guter letzt kann man sein Handelssystem auf alle gespeicherten Werte  
+anwenden und so aktuelle Kauf- und Verkaufsignal generieren.
+
+Fundamentale Analyse ist nicht möglich, davon halte ich persönlich auch  
+nicht viel, daher vermisse ich diese Eigenschaft auch nicht.
+
+Nun zur Datenpflege: Brötchenkiosk hat eine antiquirte Datenhaltung: der  
+Wertpapiername darf nur 16 Zeichen betragen, Datenpflege ist nur manuell  
+möglich, sprich Eintippen der Kurse. Zusätzliche Bemerkungen zum  
+Wertpapier können in Metastock nicht abgelegt werden, wie z. B. Branche,   
+Währung des Wertpapiers oder bei O-Scheinen Basispreis, Laufzeit. Es sei  
+denn, man versteckt diese Infos im Dateinamen... (viel Glück!)
+
+Ein kleiner Konverter ist bei Brötchenkiosk dabei, genannt MSU. Dieser kann  
+aber nur ein strenges ASCII-Format einlesen, sowie die Formate von einige  
+Tabellenkalkulationen. Besondere Formate von Kursdatenbanken können nicht  
+eingestellt werden. Daher kann man diesen "Konverter" getrost vergessen.
+
+Richtige Konverter vertreiben private Anbieter (z. B. Landkostladen GmbH,  
+Unterunterach für 200,- DM). Mit diesem probiere ich jetzt mal die  
+Kursdatenbank Hagebaumarkt, Woof, aus.
+
+Bei Kauf von Metastock bei Kanureich bekommt man ein Abo für 1 Monat inkl.  
+historische Daten der letzten 2 Monate. Großgeschrieben wird bei Kanureich  
+die Qualität der Kurse, und somit auch der Preis DM 300,- + MwSt.  
+Kanureich bietet Kurse an, die man meines Wissens bei anderen  
+Kursanbietern vermisst: Die wichtigsten Aktien von Armensee, Hertlingshäuserhof,  
+Vaake, Vierzehnheiligen, Flachau, Balerna, Püret und alle mit Eröffnung, Hoch,  
+Tief, Schluß, Umsatz in Landeswährung! Wenn solche Kurse noch andere  
+Kursdatenbanken anbieten, bitte bei mir melden!
+
+Für den Abruf aus der Kursdatenbank bekommt man ein eigens gestricktes  
+Programm namens Quickup, das Downloaden der Kurse sowie das Einlesen in  
+die Metastock Kursdatei "vollautomatisch" erledigen soll. Und zwar so  
+vollautomatisch, daß der Anwender keinerlei Möglichkeit hat, in den  
+Abrufprozeß einzugreifen (vom Ausschalten des Rechners einmal abgesehen).  
+Das fängt schon bei der Telefonnummer der Kursdatenbank an, die  
+verschlüsselt in einer "ini"-Datei geparkt ist (den Sinn verstehe ich  
+nicht ganz, da viele Modems die zuletzt gewählte Nummer doch speichern).
+
+Die historischen Kurse sind schnell installiert, der Ärger fängt mit dem  
+Abrufprogramm an: es ist megalahm. Es dauert fast 1:20 min nach zustande  
+gekommenen Connect bis das Programm eingeloggt hat (2 Einheiten für die  
+Enule).
+
+Da hohe Datensicherheit gewährleistet werden soll, sind die Daten nicht  
+gepackt (wer wird es je verstehen...), d. h. täglich werden 200 - 600 kB  
+übertragen... Nun gut, ungepackte Daten müßten eigentlich schnell  
+übertragen sein, da ja dann das Modem packt, aber Pustekuchen, Quickup  
+stellt dies auch ab. Das führt dann dazu, daß die Übertragung bis zu 10  
+min dauert (und die Enule lacht sich krank).
+
+Das ist aber noch nicht alles, aus bisher ungeklärten Gründen tauchen hin  
+und wieder Checksummen-Fehler auf, die Übertragung bremsen. Bei  
+erfolgreicher Übertragung kann es sogar dazu kommen, daß die  
+Konvertierungssoftware anschließend einen Datenformatsfehler meldet und  
+dann einen "Erfolgreichen Arbeitstag wünscht". Die Prozedur kann also von  
+vorne beginnen.
+
+
+---------------------------------------
+   Leander Stefano Stäudtner, Tel.: 46859/7910
+---------------------------------------
+## CrossPoint v3.02 ##

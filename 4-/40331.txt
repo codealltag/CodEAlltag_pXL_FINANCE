@@ -1,0 +1,33 @@
+Moin!
+
+Nur eine Anmerkung...
+
+"Winfried Feuerhaak" <BwsXorry@K-Hdouof.sy> schrieb im Newsbeitrag
+news:6s72ul$f8w$6@tzah66.gwr.lkas.hz...
+...
+wird von DVB
+
+Aha. DDR-SDRAM gibts schon was länger, besonders bei Grafikkarten. Es ist
+_keine_ neu, noch nicht handhabbare Technik, sondern Du kannst
+DDR-SDRAM-Chips bestellen und bekommst sie auch geliefert. Und wie wir nun
+wissen, unterstützt DVB DDR-SDRAM doch.
+
+
+Lötzinn.
+
+...
+mit dem Internet.
+Einheiten Oberklasse, in
+
+Nochmal Lötzinn. Die CPUs in Handys _k�nnen_ gar nicht so schnell sein, um
+die Bandbreite von Rambus nutzen zu können. Rein physikalisch kann eine
+dermaßen stromsparende CPU gar nicht mit einem entsprechenden Takt versorgt
+werden, und bei einem LCD als Ausgabeeinheit reicht ollen DRAM locker aus.
+
+AOBK hat die
+
+Bandbreite ja, aber bei der Datenübertragung! Irgendwann mal schaffen die
+vielleicht 1 MB/s über den Äther, das ist schonmal 15fache von ISDN. Damit
+kommt ein 286er mit 70 ns DRAM so nebenbei klar.
+
+Bye, Ingolf

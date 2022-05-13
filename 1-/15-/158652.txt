@@ -1,0 +1,30 @@
+Am Fri, 05. 05. 22 11:54:42 GMT schrieb
+Qvuds.Ydfv@hp.adla-yho-mxpewg.uu (Rsnvq Etuc):
+
+
+Ich weiß nicht, wie's bei der OHUM mit dem Internet-Banking
+aussieht, bei der KM-Moto läuft's jedenfalls so, daß eine
+"sichere" Website angewählt wird, bei der dann schon der WWW-Browser
+und der Server dafür sorgen, daß kein Unbefugter die Daten lesen kann.
+Zusätzlich werden noch diverse Java-Applets gestartet, die dann eine
+Verschlüsselung durch einen Code bewirken, der sich aus Mausbewegungen
+während des Aufbaus der Seite errechnet.
+
+Zur Abfrage von Kontoinformationen reicht dann eine PIN (Personal
+Identification Number) aus, um Aufträge zu erteilen muß aber noch eine
+TAN (Transaktionsnummer) eingegeben werden, die man - nicht über
+Computer - von seiner Bank bekommt. Jede Nummer ist auf so einem
+TAN-Block einmalig und kann auch nur einmal verwendet werden.
+
+Soweit ich das beurteilen kann, ist damit ausgeschlossen, daß
+Unbefugte Deine Daten auslesen und mißbrauchen können. Ich vermute
+mal, daß die Legitimationsabfrage und Verschlüsselung bei anderen
+Banken ähnlich funktionieren wird, zumal sich das System aus PIN und
+TAN bereits über speedART bewährt hat - da ist bisher kein einziger
+Betrugsfall vorgekommen.
+
+Bis dann,
+Edo
+--
+homepage: http://jmmn.itsoc.ue/~kmomf
+e-mail: mailto:blquv@wqwnp.ba

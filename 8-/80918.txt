@@ -1,0 +1,10 @@
+Es ging um das behauptete Problem, das daraus entstehen soll, daß 2000
+ein Schaltjahr _ist_. Ein Programmierer, der das falsch gemacht haben
+soll, müßte aber "braindead" sein. Eine Ausnahme aus der 4-Jahresregel
+zu programmieren, ohne zu berücksichtigen, daß die Ausnahme beim
+nächsten Auftreten ausfällt ist Schwachsinn. Entweder kennt er die
+Regeln gar nicht (dann ist alles bis 2100 ok) oder er weiß, wie Du,
+wie's geht (dann ist es auch nach 2100 noch richtig). Das Jahr 2000
+dürfte also IMO kein _Schaltjahres_problem werden.
+
+Niels

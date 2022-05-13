@@ -1,0 +1,39 @@
+Hallo Niko,
+
+Du meintest zum Thema "Stop-Buy-Problem mit Calumet" am 07.07.97:
+
+RK> Folgender Fall:
+RK> Montag: Stop-Order 100,- zur Kasse (aktueller Kurs 95,--)
+RK> Freitag: Kassakurs 102,40 (na also, dachte ich jetzt wird
+RK> gekauft) Montag: Kassakurs 105,- (jetzt wurde erst gekauft, wie
+RK> sich herausstellte!)
+
+Ja klar, ist immer so.
+
+RK> - Warum konnte am Freitag, als der Stop-Buy-Kurs erreicht war,
+RK> nicht mehr gekauft werden (er meinte mangels Angebot, aber bei
+RK> einem Daxwert?)
+
+Weil der Kassakurs auf der Basis der vorliegenden Orders gebildet  
+wird. Man kann also nicht nach Bildung des Kassakurses zum Kassakurs  
+kaufen. Erst wenn der Kassakurs festgesetzt ist, kann festgestellt  
+werden, ob er ueber dem Stop-Buy-Limit liegt. Dann wird - fuer den  
+Folgetag - eine unlimitierte Order zur Kasse losgelassen.
+
+RK> - Wird dann am Folgetag mit Kassaschlusskurs oder
+RK> vielleicht mit dem Eroeffnungskurs gekauft ?
+
+Zum Kassakurs. (Kassaschlusskurs gibt's nicht.)
+
+RK> - Was passiert, wenn der Kurs am Folgetag wieder unter den
+RK> Stop-Buy-Kurs faellt?
+
+Wird gekauft.
+
+Anders ist es im variablen Handel. Weil dort im Verlauf der  
+Handelszeit laufend Kurse zustandekommen, kann sofort nach  
+Ueberschreiten des Limits (ebenfalls unlimitiert) geordert werden.
+
+Schoene Gruesse,
+                Florian
+                                email: dze@tyyogerbc.kxw.ua

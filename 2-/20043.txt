@@ -1,0 +1,32 @@
+Du solltest vielleicht besser keine Tipps geben,
+jedenfalls nicht bevor du den Unterschied zwischen 
+Optionen und Futures nicht verstanden hast.
+
+Ganz kurz:
+
+Bei einem OS (in diesem Fall Put) kann er von seinem
+(Verkaufs)Recht Gebrauch machen, und das wird er wenn die 
+Aktie faellt. Er muss aber nicht. Das bedeutet: Wenn 
+die Aktie steigt nutzt er die Option nicht sondern 
+verkauft zu dem hoeheren Aktienkurs.
+Er kann bei stark steigenden Aktienkurs deshalb mehr
+herausholen als wenn er die Aktie zum heutigen Kurs
+verkauft.
+Eine Absicherung mit Put-OS ist eine Absicherung, bei
+der man die Chance auf Kurssteigerung behaelt. Jedenfalls
+im Prinzip. Deshalb ist eine Option teurer als ein Future. 
+
+Bei Future-Konstruktionen dagegen steht er im Prinzip genau
+so, als ob er die Aktie zum heutigen Kurs verkauft haette.
+Selbst wenn die Aktie stark steigt - er hat nichts mehr
+davon.
+
+Solange der Fragesteller nicht konkreter wird (welche
+Aktie?), kann man ihm nichts raten.
+
+
+-- 
+-- 
+Nico Uedelhoven
+Visit   http://rxuxgbl.rpd.gur/uctfpm  and download a 
+free calculator for options, futures, bonds and similar stuff

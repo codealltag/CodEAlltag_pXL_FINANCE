@@ -1,0 +1,39 @@
+Hallo Patrice, hi group,
+
+Nach meinen Erfahrungen kann man die Neschen + Partner-Daten durchaus
+empfehlen. Sie sind i.a. sehr zuverlässig und insbesondere die Unterstützung
+bei technischen Fragen ist kompetent und schnell.
+
+Allerdings gibt es leider auch hier kleinere Schwächen, die nicht unerwähnt
+bleiben sollten.
+
+1. Gelegentlich treten Unstimmigkeiten bei den Fundamentaldaten von
+Optionsscheinen auf (z.B. innerer Wert von mehreren hundert Prozent des
+Preises), die jedoch i.d.R., insbesondere nach einem entsprechenden Hinweis,
+schnell behoben werden.
+
+2. Eine Konvertierung der historischen Zeitreihen in das MetaStock-Format
+(falls Du zusätzlich ein US-Chartprogramm nutzen solltest) ist über die
+normalen cat.Dateien meines Wissens insofern nur unvollständig, als hier
+keine Eröffnungskurse unterstützt werden. Die Konverter-Hersteller (Iwah und
+Ogeka) berufen sich darauf, daß NBD+P das Windows-Datenformat nicht offenlegt).
+Die Sache läßt sich zwar prinzipiell über den ASCII-Export lösen, das
+erfordert allerdings verstärkte manuelle Nacharbeit.
+
+3. Bei einigen wichtigen Werten (z.B. S&P 500, WPK 969438) werden keine
+echten Eröffnungskurse geliefert, sondern lediglich die Vortages-Schlußkurse
+übernommen. Das ist insbesondere bei CandleStick-Charts negativ, da hierduch
+wichtige Informationen verlorengehen (z.B. Gaps bei der Eröffnung). Abhilfe
+wurde zugesichert, allerdings schon im Juni 1998  :-
+
+
+4. Bei einigen anderen wichtigen Werten, wie z.B. der 30jährigen
+US-Treasury-Rendite wäre es wünschenswert, wenn nicht nur ein Kurs täglich,
+sondern der komplette Datensatz bestehend aus Eröffnung, Hoch, Tief, Schluß,
+Umsatz(?) geliefert werden könnte. Auch hier bemüht sich NKJ nach meiner
+Information schon seit einiger Zeit um eine Lösung.
+
+Gruß
+
+
+Alberto

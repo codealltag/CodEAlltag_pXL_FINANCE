@@ -1,0 +1,24 @@
+lo,
+
+eine Frage zum Wasserhof-Handel:
+
+Wie kann es sein, dass bei einer bid/ask Spanne von 100/102 auf Wasserhof
+ein Kurs von 101 
+zustande kommt, ohne dass vorher die 
+bid/ask quotes geaendert wurden (es muesste zumindest ganz kurz z.B.
+ein bid von 101 
+aufflackern...)  - es muessten ja in diesem 
+Fall praktisch auf einen Schlag zeitgleich ein Kauf und Verkauf beide
+limitiert auf 101 
+eintrudeln, was ich mir aber auch aufgrund 
+der Haeufigkeit dieser Beobachtung nicht vorstellen kann. Zudem steht
+b/a nach solchen 
+trades ueblicherweise wieder auf 
+Ausgangsniveau - also in diesem Beispiel wieder auf 100/102 (was
+implizieren wuerde, dass 
+die beiden Orders nicht nur zeitglich, 
+sondern auch in der gleichen Groessenordnung ins System kamen).
+
+einer ne Erklaerung? thx, cu
+
+Patrick

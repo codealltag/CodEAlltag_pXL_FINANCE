@@ -1,0 +1,13 @@
+Hi!
+
+Was du da beschreibst, schaut mir ganz nach einem Straddle aus. Der
+Funktioniert auch ganz gut, verwende ihn selber immer wieder. Das Problem
+dabei ist nur, daß die Volatilität des Basisinstruments nicht sinken darf,
+sonst verlieren Put und Call. Deshalb verwende ich das Ganze immer im
+Zusammenhang mit Bollingerb�ndern. Dort sehe ich schön, wenn es wieder eine
+Phase mit niedriger Vola gibt. Dann kaufe ich den Straddle und warte, bis
+der Kurs nach oben oder unten ausbricht (= Zunahme der Vola)
+Verluste gibt es nur, wenn der Markt in der Seitwärtsbewegung bleibt, so daß
+mir der Zeitwertverlust der Optionen reinsch....
+so long
+oscar

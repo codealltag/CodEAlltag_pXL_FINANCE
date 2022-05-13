@@ -1,0 +1,106 @@
+Labouchere Roulette System
+Author V.Mayenfels
+Video:
+http://uqe.rlafida.gnq/jtbna?z=3D0ikbq5fKcBW
+Das Labouchere Roulette System wird auch =93Split Martingale=94, =93Cross-
+Out=94 oder =93Cancellation=94 genannt.
+Im Grunde genommen musst du nur ein paar Zahlen aufschreiben=85nehmen
+wir beispielsweise die Zahlen 1 2 3. Diese Zahlen stellen
+Wetteinheiten dar. Jede Wette besteht aus der ersten und der letzten
+Zahl einer Reihe. Bei diesem Beispiel ist es die 1 und die 3, was 4
+Wetteinheiten ergibt. Wenn du gewinnst, streichst du die zwei Zahlen,
+die du soeben addiert hast und wette auf die nächsten zwei äußeren
+Zahlen. In diesem Beispiel gäbe es nur eine einzelne Zahlenwette, die
+aus zwei Einheiten besteht. Wenn die Wette gewinnt, vervollständigst
+du die Zahlenfolge und gewinnst die Summe der gesamten Zahlen (hier
+sechs). Geht die Wette verloren, fügst du die Summe der addierten
+Einheiten ans Ende der Serie. Wenn also die erste Wette eine 4 ist und
+sie verliert, fügst du 4 hinzu und bei der nächsten Wette addierst du
+die Zahlen 1 und 4, dass ergibt dann 5. Und so weiter, =85
+Dies bedeutet, dass du nur 1/3 deiner Wetten und zwei weitere gewinnen
+musst, damit du die Serie beenden kannst und die Gesamtbetrag der
+Serie gewinnst.
+Um das ganze einfach darzustellen nehmen wir eine neue Zahlenreihe:
+1 2 3 4 =96 Die zwei äußeren Zahlen (1 und 4) werden addiert: 1+4=3D5
+Nun werden also 5 Einheiten gewettet. Verlieren wir die Wette, stellen
+wir die 5 an das Ende unserer Labouchere-Reihe (1 2 3 4 5) und rechnen
+uns die nächste Wetteinheit aus: 1+5=3D6.
+Somit haben wir jetzt 6 Wetteinheiten. Machen wir nun mit der Reihe
+weiter:
+X 2 3 4 X =96 Nehmen wir wieder die zwei äußersten Zahlen: 2+4=3D6 =96 =
+Setze
+6 Einheiten. Wenn du gewinnst bleibt die folgende Reihe: X X 3 X X =96
+wette 3 Einheiten. Verlierst du, füge die 3 ans Ende der Reihe hinzu =96
+das schaut so aus: X X 3 X X 3. Addiere nun die zwei Zahlen: 3+3=3D6.
+Setze nun 6 Einheiten. Gewinnst du, hast du die Reihe beendet.
+Du musst folgendes im Auge behalten- hast du eine kurze Reihe mit
+großen Zahlen, wirst du zwar schneller fertig sein aber du riskierst
+auch relative hohe Wetten. Andererseits brauchst du für eine kurze
+Labouchere-Reihe ziemlich lange aber die Wetteeinsätze sind niedriger.
+Im Grunde genommen musst du die richtige Balance, zwischen der für
+dich passenden Reihenlänge und Zahlenhöhe finden.
+Ausserdem solltest du bei der Erstellung deiner Labouchere-Reihe
+darauf achten, dass die Summe der äußeren Zahlen das Tischlimit nicht
+übersteigt. Also wird eine Reihe mit den Zahlen 21 1 2 3 20 für ein
+Roulettetisch mit einem Minimaleinsatz von $25 und einem
+Maximaleinsatz von $1000 unpassend sein, da der erste Wetteinsatz
+1025$ (21+20=3D41 nun 41x25=3D 1025) den sein würde. Genau aus diesem
+Grund ist eine Reihe mit 6 7 8 9 gefährlich, da du im Falle eines
+Verlustes beim nächsten Einsatz bereits das Limit überseteigen
+würdest.
+Aufteilen der Labouchere Reihe
+Möchtest du eine aggressivere Reihe erstellen, solltest du wissen, wie
+du die Reihe aufteilst. Das Aufteilen einer Labouchere-Reihe bedeutet,
+dass du eine Unterreihe hast, an der du zuerst arbeitest, bevor du
+zurück zur originalen Reihe gehst. Du kannst diese Methode anwenden,
+um die Anzahl deiner Wetten zu verringern oder aber auch um das
+Tischlimit nicht zu übersteigen.
+Um eine Unterreihe zu erstellen, nimmst du die Summe der letzen Zahlen
+deiner Hauptreihe und erstellst eine Labouchere -Unterreihe, die mit
+jener Zahl übereinstimmt. Haben wir beispielsweise die folgende Reihe:
+X X 3 4 X X 7 10 13 16. Dann beträgt die nächste Wette 19 Einheiten
+(3+16), was allerdings sehr knapp beim Tischlimit liegt und überhaupt
+einen hohen Einsatz bedeutet.
+Deswegen teilst du deine Reihe auf, indem du die letzte Zahl (16)
+nimmst und wie gefolgt aufteilst: 1 1 1 2 3 4 5 3. Wichtig ist, dass
+die Ziffernsumme dieser Zahlen 16 (in diesem Fall) ergibt. Somit hast
+du:
+Eine Hauptreihe: 3 4 7 10 13 16
+Eine Unterreihe: 1 1 1 2 3 4 4
+In diesem Fall beträgt die nächste Wette nicht 19 Einheiten (3 und 16
+von der Hauptreihe), sondern 5 Einheiten (1 und 4 von der Unterreihe).
+Hast du die Unterreihe beendet, kannst du die dazugehörige Zahl der
+Hauptreihe durchstreichen. Somit würde eine Hauptreihe aus den Zahlen
+3 4 7 10 13 X übrig bleiben.
+Zurück bei der Hauptreihe, können wir nun eine Wette von 16 Einheiten
+setzen oder wir entschließen uns die Reihe erneut aufzuspalten. Dann
+hätten wir eine neue Unterreihe, die die Ziffernsumme 13 ergeben muss.
+Beim Labouchere-System kannst du jederzeit Unterreihen erstellen =96 es
+ist immer eine gute Option.
+Es gibt bei diesem System verschiedenste Varianten. Eine davon würde
+sein, wenn man am Anfang mehrere 1er verwendet, damit die Serie nicht
+so schnell wächst. Nehmen wir zum Beispiel die Zahlenfolge 1 1 1 2 2
+3. Beendest du diese Serie, gewinnst du 10 Einheiten (1+1+1+2+2+3=3D10).
+Die erste Wette ist wieder einmal die Vier =96 du musst 1/3 plus 3
+gewinnen.
+Es gibt auch ein verkehrtes Labouchere-System, für all die Mutigen
+unter euch. Hier stellst du die Gewinnerzahl an das Ende der Reihe und
+wenn du verlierst, streichst du die 2 äußeren Zahlen. Um dies besser
+zu veranschaulichen, nehmen wir die folgende Reihe:
+1 2 3 4 =96 Nun addieren wir die zwei äußeren Zahlen (1+4) und erhalten
+die 5. Gewinnst du, wird diese Zahl nun an die Reihe angefügt: 1 2 3 4
+5. Die nächste Wetteinheit ist nun 6 (1+5) und die neue Reihe ist: 1 2
+3 4 5 6. Wiederhole dies bis du das Tischlimit erreichst.
+Verlierst du, streiche die Zahlen am Ende der Reihe weg. Beim vorigen
+Beispiel würden wir die 1 und die 6 streichen, wenn wir die nächste
+Runde verlieren. Verlierst du die Reihe, beginnst du einfach mit einer
+neuen.
+Das verkehrte Labouchere-System wurde durch Arno Ißleb bekannt. Er
+erstellte ein =84Kartell=93 aus 13 Spielern, die alle das verkehrte
+Labouchere-System verwendeten, um das Casino Municipale in Kappelen, im
+Jahr 1966, in den Bankrott zu treiben. Sie wurden von allen
+französischen Casinos verbannt und abgeschoben =96 allerdings mit einem
+großen Geldbündel in der Tasche!
+Auf jeden Fall zahlt sich das Labouchere-System, sowie seine verkehrte
+Variante, durchaus aus =96 probier es und du wirst begeistert sein!
+Labouchere Roulette Roulettesystem SelMcKenzie Mayenfels

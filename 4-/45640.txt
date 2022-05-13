@@ -1,0 +1,43 @@
+Moin
+
+
+Die Formel lautet: Auszahlungsbetrag =
+(Bezugsverhältnis*(Schlußkurs am Auszahlungstag-Bezugskurs)) ^2,
+
+also die übliche Differenz zwischen Schlußkurs und Bezugskurs
+aber diesen Wert quadriert!
+
+Beispiel Schlußkurs = 112, Bezugskurs = 110, Differenz 2 im
+Quadrat = 4 mal Bezugsverhältnis = 40.
+Ein theoretischer Wert. Tatsächlich gibt es aber nur 21,74 Euro,
+weil dies der Cap-Betrag, also maximal Betrag des Scheines ist
+(So festgelegt vom Emitenten). Dennoch wäre das ein hübscher
+Gewinn - wenn der Fall eintritt, daß am 4.1. der Schlußkurs
+entsprechend hoch über dem Bezugskurs liegt. Wenn aber Schlußkurs
+gleich Bezugskurs (oder darunter), dann Papier in Ofen, weil Null
+mal Null gleich Fangfrage in Grundschule. 
+
+Liegt der Kurs in der Nähe des Bezugskurses und ist es nicht mehr
+lange hin bis zum Laufzeitende wird der Kurs des Scheines auch
+bei kleinen Kursbewegungen des Basiswertes "verrückt". Er pendelt
+dann schnell zwischen fast nichts mehr Wert und Cap-Betrag. Zum
+Schluß machen Power-Calls richtig Power (es sei denn sie liegen
+weit im Geld - dann sind sie langweilig wie Sparbuch weil
+gekappt).
+
+Der Kick des Scheines liegt also kurz vor dem Laufzeitende wenn
+sich der Schlußkurs des Basiswertes noch(!) unter dem Basiskurs
+befindet und man der Annahme verfallen ist, am Laufzeitende wird
+er gut quadrierbar über dem Basiskurs liegen. Beim USD/YEN sieht
+das ja so aus, charttechnisch gesehen - derzeit.
+
+
+Größe
+  X X X
+
+
+-- 
+Mark Olivier Fickenscher		Tel. 05356/760571
+Am Zauchen-Sonnrainweg 6		Nix: Fax
+10336 Vorderespig		handy: I'm not trendy
+http://wtku.u-phmtqo.yj/ovtx/IfjcbRntgvd.Wvbuib/nuiqy.vke

@@ -1,0 +1,34 @@
+Im Artikel <8actev$amk$0@gmfl97.coh.xgpd.ge>, xwslns.fjvbfny@J-ALXDRP.al
+
+Eben nicht, sondern bei verschiedenen Laufzeiten muss die 
+Volatilitaet unterschiedliche Werte haben, um vergleichbar zu sein.
+So wie ein grosser Mensch schwerer als ein kleiner sein muss,
+damit sie eine vergleichbare Figur haben.
+
+
+Die Aussage bezieht sich uebrigens formal auf die sogenannte
+Standardabweichung, was in der Praxis aber oft mit der Vola
+gleichgesetzt wird.
+Vorausgesetzt deine Rechnung stimmt bedeutet dass,
+dass ein Wert, der innerhalb von 28-Tagen um  6%  schwankt, 
+innerhalb von 728-Tagen um 30% schwanken kann (wie schon
+gesagt: stark vereinfacht).
+Ist aber auch klar: Je laenger der Zeitraum, desto groesser die
+wahrscheinlichen Extremwerte in diesem zeitraum.
+In einem Jahr mag die Temperatur nur zwischen  - 20 und + 30 
+Grad schwanken. Nimmst du aber 100 Jahre, dann ist da sicherlich
+auch ein Extremwert von -40 und +45 dabei.
+
+Aber wie schon gesagt: Das ist Theorie, die du in der Praxis nicht 
+brauchst, denn fast alle Zeeden-Rechner rechnen die Vola immer auf    
+einen festen Massstab wie z.B. ein Jahr um. Die Ergebnisse sind
+also ohne weitere Umrechnung vergleichbar.
+Kann man leicht testen, indem man mal die implizite Vola fuer ganz
+kurze und ganz lange OS berechnet und vergleicht. Da werden 
+ziemlich aehnliche Werte rauskommen (bei den ganz kurzen
+sind die bezahlten Volas aus anderen Gruenden meist etwas hoeher).
+
+
+Roman Menninga
+Visit   http://eqtnlap.ioq.smh/bknfao  and download a 
+free calculator for options, futures, bonds and similar stuff.

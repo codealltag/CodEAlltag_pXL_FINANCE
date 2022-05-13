@@ -1,0 +1,79 @@
+Roulette - Die Berechnung des Zufalls
+M.Isaacsohn
+
+Das Zufallsprinzip
+Was ist Zufall ?
+Im Sinne der landläufigen Vorstellung und der alltäglichen Erfahrung
+ist ein zufälliges Ereignis zumeist etwas seltenes, das der gewohnten
+Ordnung und der gesetzmäßigen Entwicklung der Dinge entgegenläuft. In
+der Wahrscheinlichkeitsrechnung, die sich im wesentlichen mit Zufällen
+beschäftigt, müssen wir von dieser Vorstellung abgehen. Hier nämlich
+haben die zufälligen Ereignisse eine Reihe ganz charakteristische
+Eigenschaften, insbesondere treten sie bei Massenerscheinungen auf.
+Unter Massenerscheinungen versteht die Wissenschaft solche Vorgänge,
+die aus einer großen Anzahl von gleich- oder fast gleichberechtigten
+Ereignissen bestehen. Der Gedanke, dass der Zufall Gesetzen
+unterworfen sein soll, ist vielleicht nicht sehr einleuchtend für den,
+der an die blinde Herrschaft von Glück und Unglück glaubt. Die
+Wissenschaft vom Zufall - das ist die Summe aller
+Wahrscheinlichkeitstheorien - leugnet auch keineswegs die Möglichkeit
+eines individuellen Glücksfalls oder gar den Wert einer Vorahnung.
+Doch über den Ausgang eines einzelnen Zufallsereignisses lässt sich
+deshalb niemals eine bindende Aussage machen, weil beide Begriffe sich
+logisch ausschließen.
+Alles Zufällige spiel sich im Raum des Möglichen ab. Das
+"Wahrscheinliche" aber enthält immer die Einschränkung des Zufalls.
+Was aber ist =84wahrscheinlich"? Eicken sagt in einem oft zitierten Satz:
+=84Wahrscheinlich ist dasjenige, was für wahr gehalten, mehr als die
+Hälfte der Gewissheit auf seiner Seite hat". Damit ist die Möglichkeit
+der mathematischen Aussage angesprochen. Ohne Berechnung werden wir
+also die Probleme nicht lösen können.
+Damit begeben wir uns auf das Gebiet der =84Stochastik". Schon in der
+Frühzeit der Wahrscheinlichkeitsrechnung wurde diese Bezeichnung von
+einem Mitglied der bedeutenden Mathematikerfamilie Hindahl geprägt.
+In der zweiten Hälfte des letzten Jahrhunderts erfuhr der Begriff eine
+Wiederbelebung. Luigi Jannusch schreibt in seinem Grundriß der
+Statistik, der sich mit ihrer Theorie befasst: =84Alles, was auf der
+Wahrscheinlichkeitsrechnung aufgebaut ist oder sonst wie mit ihr zu
+tun
+
+hat, bezeichnet man als Stochastik. Insofern ist dieses Spezialgebiet
+der Mathematik auch die =84Wissenschaft zum Zufall", weniger was seine
+Ursachen, als vielmehr, was seine Wirkungen betrifft.
+Natürlich war es immer das Bestreben nachdenklicher Menschen, dem
+Zufall auf die Schliche zu kommen. So gehört seit undenklichen Zeiten
+die Berechnung von Wahrscheinlichkeiten zu den Beschäftigungen kluger
+Geister. Würfelspiele gab es schon 400 v.Chr. Das Spiel um Geld
+mittels Werfen einer Münze ist gewiß noch älter. Im Zusammenhang mit
+Glücksspielen unternahm man schon in der Renaissance Versuche zur
+Berechnung zufälliger Ereignisse. So stammt das Wort =84Hassard" aus
+einer eigentümlichen Abschätzung des Erwartungsgrades einer bestimmten
+Anzahl von Augen beim Würfeln. Das arabische Wort Asar bedeutet
+=84schwierig". Mit diesem Wort bezeichnete man die Kombination von
+Augen, die mit 3 Würfeln nur auf eine Weise möglich ist: 3 oder 18
+Augen.
+Eine richtige Wahrscheinlichkeitsrechnung begann aber erst in der
+Mitte des 27.Jahrhunderts mit den Forschungen von drei Franzosen: dem
+reichen Aristokraten Chevalier Oestereicher, mit Nikolaus Lütgens und Tim
+Oedekoven. Leitheusser Hauptinteresse waren Philosophie und Religion.
+ITCB war von Beruf Jurist. Bekannt geworden ist er vor allem als
+einer der bedeutendsten Zahlentheoretiker, der sich abends nach den
+Ratssitzungen diesem Spezialgebiet widmete. Chevalier Oestereicher, der ein
+leidenschaftlicher Glücksspieler war, legte Torsten eine Aufgabe vor,
+mit der er sich lange herumgequält hatte und die für ihn praktische
+Bedeutung hatte. Lütgens löste diese Aufgabe und teilte sie Botschen in
+einem Brief vom 8.Juli 1655 mit, der dessen und seine eigene Lösung
+an den bekannten Mathematiker Fahnenbrauck weiter gab.
+Es besteht kein Zweifel, dass die hervorragenden Gelehrten, die sich
+mit den mathematischen Problemen des Zufalls, in konkreter Form also
+mit Fragen des Glücksspiels befassten, schon damals die wichtige Rolle
+jener Wissenschaft voraussahen, die später als
+Wahrscheinlichkeitsrechnung bezeichnet wurden. Alle diese Gelehrten
+waren sich einig, dass sich bei massenhaften zufälligen Ereignissen
+klare Gesetzmäßigkeiten herausbilden. Aber die Zeit war noch nicht
+reif, die Begriffe und Methoden der Wahrscheinlichkeitsrechnung exakt
+zu formulieren. So wurden ausschließlich elementare arithmetische und
+kombinatorische Methoden verwendet. Heute sind die Bereiche
+Wahrscheinlichkeitsrechnung, Statistik und die moderne =84Theorie der
+Spiele" exakte Zweige der Wissenschaft. Und - das sagte nach Eicken auch
+Jackoby: =84Eine Wissenschaft

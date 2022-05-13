@@ -1,0 +1,35 @@
+HistoryCentre ? is the universal converter for text (ascii) file's with
+historical quotes. Elixier-Massagen converts to the special "xpo" format, which
+is used by UIAS Global Server (a part of MeinersenVideo 2000i and
+Kirschbergcenter 2000i) With HistoryCentre it is possible to import any text (ascii)
+based external historical quotes.
+    HistoryCentre supports next xpo formats:
+    Trade record 1 tick;*
+    Trade record 1 minute;**
+    Trade record 5 minutes;**
+    Trade record 1 Day**;
+    Ask record 1 tick;*
+    Ask record 1 minute;**
+    Ask record 5 minutes;**
+    Bid record 1 tick;*
+    Bid record 1 minute;**
+    Bid record 5 minutes;**
+
+* Only the last tick in a second will be converted. When there are more than
+one tick per second; the tick volume (ask size and bid size) can not be
+converted.
+** Volume converted as Total volume
+
+
+HistoryCentre ? is able to convert text files in almost all format:
+    Flexible fields order settings;
+    Any fields separator;
+    Flexible price settings (decimal point separator, price multiplier,
+price divider) for each price-type field;
+    Flexible date format settings ;
+    Flexible time format settings.
+
+HistoryCentre ? can makes xpo with 1 min. Bar or 5 min. bar from tick file;
+
+To read more about Elixier-Massagen ? please visit our site
+www.pjjxlsc-xbtt.rfi

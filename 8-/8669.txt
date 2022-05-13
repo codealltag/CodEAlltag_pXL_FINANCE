@@ -1,0 +1,143 @@
+Auswahlwette Toto Betting Strategy:
+Author V.Pfeuffert
+Die Strategy kann eigentlich nicht auf Tipscheinen angewandt werden,
+da diese bekanntlich im voraus abgegeben werden müssen. Verwendet
+werden
+kann die Strategy aber im Wettbüro oder bei Live-Wetten, da die
+jeweiligen vorherigen Resultate
+in die Satz-Berechnung mit einbezogen werden müssen.
+Zunächst wird anhand der letzten Spielwoche festgestellt, an welcher
+Spiel-
+Position sich ein jeweiliges Resultat 1/Heimsieg, 0/Unentschieden, 2/
+Auswärtssieg befindet. Beispielsweise
+2/ Auswärtssieg, die erste 2 im SpielNumber.5, die zweite 2 im
+SpielNumber 9, die dritte 2
+im SpielNumber 12, die vierte 2 im SpielNumber 27 usw. Der SpielNumber-
+Abstand der Erscheinung
+der ersten 2 zur zweiten 2 ist somit 4, der zweiten 2 zur dritten 2
+ist 3 ,
+der dritten 2 zur vierten 2 ist 15 usw.  Nun wird dies auf die
+Folgewoche
+repliziert, und zwar ebenfalls auf das Erscheinen dieser Chancen und
+deren Spiel-Abstände.
+Erscheint z.B. in der Folgewoche die erste 2 in SpielNumber 3, dann
+ist auf SpielNumber 7
+die Chance nicht zu wetten. Erscheint die zweite 2 in der SpielNumber
+11, dann ist auf
+die SpielNumber 14 die Chance nicht zu wetten. Erscheint die dritte 2
+in SpielNumber 13,
+dann ist die Chance auf SpielNumber 28 nicht zu wetten, usw.
+So anwenden auf alle 3 Chancen, 1/Heimsieg, 0/Unentschieden, 2/
+Auswärtssieg.
+
+
+Die Satz-Prognose für die kommende Spielperiode am 06.03.09
+
+nach   1.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   2.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   3.Heimsieg    3   Numbers danach nicht auf   Heimsieg
+nach   4.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   5.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   6.Heimsieg    3   Numbers danach nicht auf   Heimsieg
+nach   7.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   8.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   9.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   10.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   11.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   12.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   13.Heimsieg    4   Numbers danach nicht auf   Heimsieg
+nach   14.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   15.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   16.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+nach   17.Heimsieg    3   Numbers danach nicht auf   Heimsieg
+nach   18.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   19.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   20.Heimsieg    2   Numbers danach nicht auf   Heimsieg
+nach   21.Heimsieg    3   Numbers danach nicht auf   Heimsieg
+nach   22.Heimsieg    4   Numbers danach nicht auf   Heimsieg
+nach   23.Heimsieg    1   Numbers danach nicht auf   Heimsieg
+
+nach   1.Unentschieden    3   Numbers danach nicht auf   Unentschieden
+nach   2.Unentschieden    1   Numbers danach nicht auf   Unentschieden
+nach   3.Unentschieden    3   Numbers danach nicht auf   Unentschieden
+nach   4.Unentschieden    3   Numbers danach nicht auf   Unentschieden
+nach   5.Unentschieden    4   Numbers danach nicht auf   Unentschieden
+nach   6.Unentschieden    7   Numbers danach nicht auf   Unentschieden
+nach   7.Unentschieden    3   Numbers danach nicht auf   Unentschieden
+nach   8.Unentschieden    4   Numbers danach nicht auf   Unentschieden
+nach   9.Unentschieden    3   Numbers danach nicht auf   Unentschieden
+nach   10.Unentschieden    3   Numbers danach nicht auf
+Unentschieden
+
+nach   1.Niederlage    2   Numbers danach nicht auf   Niederlage
+nach   2.Niederlage    1   Numbers danach nicht auf   Niederlage
+nach   3.Niederlage    17   Numbers danach nicht auf   Niederlage
+nach   4.Niederlage    1   Numbers danach nicht auf   Niederlage
+nach   5.Niederlage    6   Numbers danach nicht auf   Niederlage
+nach   6.Niederlage    4   Numbers danach nicht auf   Niederlage
+nach   7.Niederlage    4   Numbers danach nicht auf   Niederlage
+nach   8.Niederlage    3   Numbers danach nicht auf   Niederlage
+nach   9.Niederlage    2   Numbers danach nicht auf   Niederlage
+
+Statistische Auswertung des letzten Spieltages vom 27.02.09
+1/Heimsieg erschien 24 mal
+0/Unentschieden erschien 11 mal
+2/Niederlage erschien 10 mal
+1/Heimsieg erschien in den Numbers 1, 2, 4, 7, 9, 10, 13, 14, 16, 17,
+19, 20, 21, 25, 26, 27, 28, 31, 33, 35, 37, 40, 44, 45,
+0/Unentschieden erschien in den Numbers 8, 11, 12, 15, 18, 22, 29, 32,
+36, 39, 42,
+2/Niederlage erschien in den Numbers 3, 5, 6, 23, 24, 30, 34, 38, 41,
+43,
+Erscheinungs-Abstände 1/Heimsieg   1, 1, 2, 3, 2, 1, 3, 1, 2, 1, 2, 1,
+1, 4, 1, 1, 1, 3, 2, 2, 2, 3, 4, 1,
+Erscheinungs-Abstände 0/Unentschieden   8, 3, 1, 3, 3, 4, 7, 3, 4, 3,
+3,
+Erscheinungs-Abstände 2/Niederlage   3, 2, 1, 17, 1, 6, 4, 4, 3, 2,
+
+Die Spielperiode letzter Tag am 27.02.09
+1.Number  1 zu 0  Heimsieg
+2.Number  5 zu 1  Heimsieg
+3.Number  1 zu 3  Niederlage
+4.Number  2 zu 1  Heimsieg
+5.Number  1 zu 2  Niederlage
+6.Number  0 zu 2  Niederlage
+7.Number  4 zu 1  Heimsieg
+8.Number  0 zu 0  Unentschieden
+9.Number  1 zu 0  Heimsieg
+10.Number  3 zu 1  Heimsieg
+11.Number  1 zu 1  Unentschieden
+12.Number  1 zu 1  Unentschieden
+13.Number  2 zu 0  Heimsieg
+14.Number  2 zu 1  Heimsieg
+15.Number  1 zu 1  Unentschieden
+16.Number  2 zu 0  Heimsieg
+17.Number  2 zu 1  Heimsieg
+18.Number  0 zu 0  Unentschieden
+19.Number  2 zu 0  Heimsieg
+20.Number  2 zu 1  Heimsieg
+21.Number  4 zu 1  Heimsieg
+22.Number  0 zu 0  Unentschieden
+23.Number  0 zu 2  Niederlage
+24.Number  0 zu 2  Niederlage
+25.Number  2 zu 0  Heimsieg
+26.Number  4 zu 0  Heimsieg
+27.Number  3 zu 2  Heimsieg
+28.Number  4 zu 0  Heimsieg
+29.Number  1 zu 1  Unentschieden
+30.Number  1 zu 2  Niederlage
+31.Number  1 zu 0  Heimsieg
+32.Number  3 zu 3  Unentschieden
+33.Number  1 zu 0  Heimsieg
+34.Number  0 zu 1  Niederlage
+35.Number  2 zu 1  Heimsieg
+36.Number  2 zu 2  Unentschieden
+37.Number  2 zu 0  Heimsieg
+38.Number  0 zu 1  Niederlage
+39.Number  1 zu 1  Unentschieden
+40.Number  4 zu 1  Heimsieg
+41.Number  0 zu 2  Niederlage
+42.Number  0 zu 0  Unentschieden
+43.Number  1 zu 2  Niederlage
+44.Number  2 zu 1  Heimsieg
+45.Number  2 zu 0  Heimsieg

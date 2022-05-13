@@ -1,0 +1,32 @@
+Die Berechnungsweise fuer den Hebel lautet:
+Kurs des Underlyings / (OS-Kurs * Bezugsverhaeltnis) = Hebel
+
+Um bei Deinem Beispiel zu bleiben, wuerde ein Underlying-Kurs von 100
+bei einem Hebel von 4 einen OS-Kurs von 25 bedeuten (nicht 20!).
+Bei einem Anstieg des Basiswertes auf 101, muesste theoretisch
+der OS-Kurs auf 25,25 zulegen.
+Wie gesagt theoretisch, denn aufgrund des Zeitwertverlustes
+wird der OS sogar an Kurswert verlieren, wenn sich der Basiswert im
+Grunde
+nur geringfuegig in die gewuenschte Richtung bewegt.
+
+Grundsatz:
+Man sollte sich bei einem OS-Investment auf keinen Fall dazu verleiten
+lassen,
+irgendeinen theoretischen Wert fuer einen OS anhand eines Hebels
+auszurechnen.
+Je naeher naemlich der Verfallstermin rueckt, desto groesser wird der
+Hebel - 
+und zwar automatisch (Zeitwertverfall).
+Es ist deshalb wichtig, wann der Basiswert von 100 auf 101 steigt: ob
+das gleich tags
+darauf, nachdem der OS erworben wurde, der Fall ist, oder erst in 3
+Monaten.
+
+Ich moechte allen ans Herz legen, die daran denken Optis ins Depot zu
+nehmen, sich
+erst einmal gruendlich damit zu beschaeftigen - es koennte sonst (nach
+vielen 
+schlaflosen Naechten) ein boeses Erwachen geben :-(((
+
+Valentin

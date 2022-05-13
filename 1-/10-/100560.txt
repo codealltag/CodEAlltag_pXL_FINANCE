@@ -1,0 +1,193 @@
+Hallo
+
+
+Wenn man mit Optionsscheinen arbeiten möchte, dürfte es
+sinnvoll sein, sich mittels Bücher und Informationen aus dem
+WWW ein Verständnis für die Funktionsweise von OS zu
+erarbeiten. Verständnis ist aber mehr als bloß das Wissen,
+was bedeutet der Hebel, das Aufgeld etc.
+
+Grundlegend ist sind die Einschätzung des Basiswertes. Eine
+Einschätzung, nämlich die Kursentwicklung in einem
+bestimmten Zeitabschnitt ist gegeben. Wichtig ist aber auch
+die Einschätzung der Volatilität. Die ist augenblicklich für
+RUBF rekordhoch. Sollte die Volatilität in dem angepeilten
+Zeitraum nachlassen und auf den langjährige Durchschnitt
+zurückfallen, würde sie rund 50% verlieren. Das hätte einen
+massiven negativen Einfluss auf die Wertentwicklung der OS.
+Also folgendes Szenario:
+
+Zeitraum:         rund 400 Tage
+Positive Annahme: Basiswert steigt um 100%
+                  Volatilität bleibt in etwa auf dem
+                  jetzigen hohen Niveau.
+
+Negative Annahme: Basiswert wird in rund 400 Tagen auf
+		  jetzigen Niveau in etwa bleiben (oder wieder landen)
+                  Volatilität läßt um 50% nach.
+
+Hebel, Aufgeld, Delta etc. sind jetzt bei der Auswahl
+relativ uninteressant. Interessant ist zunächst die
+Laufzeit. Sie muß aufgrund der Vorgabe z.B. mindestens bis
+22. Mai 2000 gehen. Da die Annahme "stark" ist, in gut
+einem Jahr wird die RUBF deutlich über dem heutigen Wert
+gehandelt, suche ich Papiere, die mindestens einen
+Basispreis von 450 Euro haben.
+
+Die so vorweg ausgewählten Papiere sind nun Interessant
+aufgrund ihrer geschützten Wertentwicklung! Es nutzt ja
+nichts, wenn ein Papier einen hohen Hebel hat und ein
+geringes Aufgeld, wenn dagegen die Wertentwicklung in dem
+angenommen Zeitraum mangelhaft ist.
+
+Um die Wertentwicklung abschätzen zu können, nimmt man die
+entsprechenden "modernen" Berechnungsmethoden. Mit ihnen
+kann man nicht nur das Delta, die implizite Volatilität und
+den fairen Wert etc. berechnen, mit ihnen kann man auch die
+Wertentwicklung des Scheines unter der gegebenen Annahme
+vorausberechnen. Man erhält eine Wahrscheinlichkeitsaussage
+über den Wert, den die Scheine unter der gegebenen Annahme
+haben werden. Anhand dieser Aussage läßt sich das Risiko
+oder der Sinn eines Engagements abschätzen.
+
+Zum Berechnen gibt's Programme (ich habe mir selbst eines
+geschrieben). Man braucht dann Datenquellen und die mir
+zugänglichen Datenquellen sind leider nur "leidlich"
+brauchbar, weil sie immer wieder Fehler beinhalten, z.B.
+über die Optionsscheinwerte. Die Ergebnisse sollten also mit
+einer anderen Datenquelle gegengecheckt werden, bevor man
+ein Papier kauft aufgrund einer Berechnung, denen eventuell
+falsche Werte zugrundeliegen. Folgende Berechnungsergebnisse
+sollten also überprüft werden (habe ich nicht gemacht, ist
+mir jetzt zuviel Arbeit).
+
+Unter der gegeben Annahme haben sich folgende Papiere als
+"vorteilhaft" gezeigt:
+
+WPKNR   Kurs    Fair     Imp. Vol  Delta
+727457  1.28    1.04      65.50     46.8
+
+Basispreis  Laufzeit     Gibe  Aufgeld
+434.59     04-06-2000     2.9      55.8%
+
+(unter der Annahme, daß die Volatilität in etwa so hoch
+bleibt)
+max. Gewinn  max Verlust  
+223.30%        -95.30%
+
+unter der Annahme, daß die Volatilität um bis zu 50%
+nachläßt
+
+max Gewinn   max Verlust
+111.8%         -74.8%
+
+
+WPKNR   Kurs    Fair     Imp. Vol  Delta
+727588  1.01    0.84       62.70    39.7
+
+Basispreis  Laufzeit     Gibe  Aufgeld
+485.72     04-06-2000      3.0     67.6%
+
+(unter der Annahme, daß die Volatilität in etwa so hoch
+bleibt)
+max. Gewinn  max Verlust  
+216.70%        -98.00%
+
+unter der Annahme, daß die Volatilität um bis zu 50%
+nachläßt
+
+max Gewinn   max Verlust
+100.9%        -80.3
+
+
+WPKNR   Kurs    Fair     Imp. Vol  Delta
+729900  1.27    1.09       63.00    46.8
+
+Basispreis  Laufzeit     Gibe  Aufgeld
+450.00     06-08-2000     2.8      60.5%
+
+
+(unter der Annahme, daß die Volatilität in etwa so hoch
+bleibt)
+max. Gewinn  max Verlust  
+218.00%        -88.00
+
+unter der Annahme, daß die Volatilität um bis zu 50%
+nachläßt
+
+max Gewinn   max Verlust
+99.0%          -71.0%
+
+(Wichtiger Hinweis, die derzeitigen Optionsscheinpreise sind
+nicht unbedingt der Briefkurs! Der liegt oft höher und
+versaut einem so unter Umständen die Rechnung)
+
+
+Unter der gegebenen Annahme wird man also maximal rund 200%
+Gewinn haben, wenn die Aktie um 100% in diesem Zeitraum
+zunimmt und die Volatilität in etwa so hoch bleibt.
+
+Dem 100% mehr mit einem Optionsschein steht das Risiko
+beiseite, rund 90% des eingesetzten Kapitals zu verlieren,
+wenn der Basiswert in etwa bei heutigem Niveau liegen würde.
+
+Ob das Chancen/Risikoverhältnis unter der gegebenen Annahme
+akzeptabel ist bleibt dem persönlichen Geschmack
+vorbehalten. Die einzelnen Werte könnte man noch
+interpretieren (ist mir jetzt zuviel Arbeit). So zum
+Beispiel die Frage, warum die Optionsscheine
+(wahrscheinlich) nur 200% Wertentwicklung haben werden, wenn
+doch die Aktie um 100% zulegt (in dem Zeitraum). Das erklärt
+sich aus der dann noch verbleibenden Laufzeit des OS unter
+Berücksichtigung der weiterhin angenommen hohen Volatilität,
+vor allem aber auch aufgrund ihres hohen derzeitigen Preises
+infolge der hohen Volatilität.
+
+
+ändert man nun die Annahme über die Entwicklung des
+Basiswertes, zum Beispiel, indem man annimmt, die RUBF wird
+nicht in gut einem Jahr 100% über dem heutigen Wert liegen,
+sondern in einem halben Jahr rund 50% über heutigem Wert,
+ergeben sich natürlich ganz andere Möglichkeiten mit den zur
+Verfügung stehenden OS. Die ganze Spekuliererei steht und
+fällt mit dem Angebot an OSen und der Annahme eines
+Szenarios über den Basiswert.
+
+Wichtig ist aber auch zu wissen, wie man sich verhält, wenn
+die Entwicklung nicht den Lauf nimmt, den man erhoffte. Wenn
+also das Papier weiter abschwirrt oder nicht recht
+vorankommt. Oder anderherum: wenn das Papier wider erwarten
+in kurzer Zeit stark ansteigt und man in kurzer Zeit schon
+einen guten Gewinn hat. Das erste Papier hätte einen
+wahrscheinlichen Wertzuwachs von 263% wenn RUBF in den
+nächsten 200 Tagen bei etwa gleicher Volatilität um 100%
+steigt! Es könnte sinnvoll sein, schon dann den Gewinn
+mitzunehmen, wenn man der Ansicht ist, das war zu schnell
+und gibt Rückschläge. Denn diesen Wertzuwachs wird der OS so
+schnell nicht mehr haben, selbst wenn RUBF noch ein
+deutliches Stück mehr als 100% in 400 Tagen hätte (dat ist
+alles halt sehr "dynamisch" mit diesen Scheinen!)
+
+Ich hoffe diese Hinweise reichen zunächst. Sie dürften
+Zeigen, das "optisch" günstige Gelegenheit bei genauerem
+hinschauen mit einigen Pferdefüßen (oder wie die Dinger
+heißen) versehen sind. Mit Optionsscheinen habe ich schon
+fett Geld verdient, leider ist das schärfen nach goldigen
+Gelegenheiten manchmal echt Arbeit, will man sich möglichst
+nicht die Stimmung (und die Bilanz) versauen.
+
+
+ Größe
+ X X X
+
+===================================================================
+
+Knut Volker Dannhauser
+Am Lollandring 9
+61272 Altenmedingen
+
+Tel. 34651/250579
+Fax: Nix
+handy: I'm not trandy
+egopage:
+http://wafl.r-fqkzgz.tn/bkvn/BlzdvVrfeja.Awzzty/mmekf.sfk

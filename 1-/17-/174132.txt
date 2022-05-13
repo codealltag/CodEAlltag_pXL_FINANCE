@@ -1,0 +1,65 @@
+Hi,
+
+hier mal ein Versuch, die Optionspreistheorie darzulegen. Um die
+ganze Sache zu vereinfachen, wollen wir uns im folgenden auf
+Europaeische Optionen (EO) beschraenken. Das zugrundeliegende Basis
+instrument (Aktie) moege keine Dividene zahlen.
+
+Der Optionspreis setzt sich zusammen aus dem inneren Wert sowie dem
+Aufgeld (Zeitwert). Das Aufgeld ist der Preis, den man sozusagen fuer
+die Hebelwirkung des Derivats Option zu bezahlen hat. Die Kunst besteht
+nun darin, dieses Aufgeld zu berechnen. Dazu bedarf es einiger Mathematik.
+
+Die Herleitung der kompletten Theorie wuerde hier den Rahmen sprengen, des-
+wegen nur folgendes :
+
+Sei 
+
+t: Momentane Zeit
+T: Verfallstag
+S(t) : momentaner Aktienkurs
+S(T) : Aktienkurs am Verfallstag
+X : Basispreis
+r : risikoloser Zinssatz (jaehrlich, stetig, konstant)
+o : Volatilitaet des Aktienkurses (konstant)
+
+Dann erhalten wir fuer den Optionspreis bei t=T:
+
+C(T)=max(S(T)-X,0)
+
+und fuer t<T: 
+
+C=max(S(t)-X,0)+Aufgeld
+
+Wie oben schon erwaeht liegt das Problem in der Berechnung des Aufgeldes.
+Am Markt ergiebt sich dies durch Angebot und Nachfrage, also durch die
+Erwartungen der Investoren in das zugrundeliegende Basisinstrument etc.
+Man haette aber ganz gerne eine geschlossene Formel. Das klappt auch fuer
+Europaeische Put und Call Optionen, wie Black/Scholes gezeigt haben.
+
+Die Formel, die Sie uebr ihre DGL erhalten haben:
+
+EO-Call (Put erhaelt man ueber Put-Call Paritaet):
+
+C=S*N(d1)-X*exp(-r(T-t)*N(d2),
+
+mit N(.) Standardnormalverteilung, und
+
+d1=(ln(S/X)+(r+sqr(o)/2)(T-t))/(o*sqrt(T-t))
+d2=d1-o*sqrt(T-t)
+
+C=C(S,t) erfuellt die DGL
+
+dC      dC   1  2   2  d(dC)
+-- +r*S*-- + - o * S * ------ = r*C
+dt      dS   2         ds(dS)
+
+d(.) bedeute : bilde partielle Ableitung 
+
+Diese wurde 1973 von Black/Schole unter der Annahme, dass der Aktienkurs
+einer geometrischen Brownschen Bewegung folgt sowie unter Verwendung
+von Arbitrageargumenten hergeleitet.
+
+Alles klaro nun, so hoffe ich.
+
+MfG Luis

@@ -1,0 +1,54 @@
+Klar, immer eine gute Idee, wenn Du irgendwelche mysteriösen Gründe hast, die Position selbst nicht
+glattzustellen. Habe ich letzte Woche auch gemacht (Achtung: NAVY KAUFT PUTS, oh-ooh!) mit meiner
+Griechenlandposition. Charttechnisch gefällt mir der ATG überhaupt nicht, das sieht nach ~1.000
+Punkten Korrektur aus. Da ich aber den Futtermittel Fonds habe (mit Ausgabeaufschlag), wäre es
+blödsinnig, die Position jetzt rauszuschmeißen (weil letzter Nachkauf noch nicht im Plus).
+
+Also habe ich einen ganz einfachen DeltaHedge gemacht.
+
+
+Es geht nicht darum, *welcher* Put am besten ist, sondern *wie*viel* Putvolumen Du zum Absichern
+brauchst.
+
+a) Einfache Variante:
+
+Schnappe Dir einen Put mit Laufzeit = so lange, wie Du meinst, daß eine Korrektur dauern würde. Er
+muß am Geld liegen. Nun schaue Dir das Bezugsverhältnis an und das Delta (= Nominale Veränderung des
+Puts bei Veränderung des Underlyings). Bei einem Depotvolumen von sagen wir mal 100.000 EUR und
+einem Bezugsverhältnis von 1:100 und einem Delta von 0.3 mußt Du also 100.000 * 100 / 0.3 Puts
+kaufen, um zu 100% abgesichert zu sein.
+
+Problem: Wenn es crasht steigt die Vola, Du �berhedgest Dich. Außerdem nimmt das Delta zu, was den
+Effekt verstärkt. Prinzipiell müßtest Du jeden Tag Positionen im Put auf- oder abbauen, um immer +/-
+Null zu stehen (= Gammahedge) - ist aber wenig praktikabel und macht wenig Spaß.
+
+
+b) komplizierte Variante:
+
+Schnappe Dir einen Optionsrechner (gibts z.B. bei Ciclisti). Schätze das max. Korrekturpotential ein
+und rechne um, wieviele EUR Dein Gesamtverlust in dem Zeitraum x wären. Nun nimm Dir einen Put am
+Geld mit RLZ x und setze den OS-Rechner darauf an. Nun unterstelle das Szenario, daß das Underlying
+um n% fällt (= m TEUR Verlust) und rechne mit dem Put gegen, wieviel er bei gleichem Szenario
+gewinnt. Nun setze die Anzahl der zu kaufenden Puts noch ins richtige Verhältnis, so daß bei n%
+Verlust nominal der Put genauso viel gewinnt. 100% gehedged!
+
+Problem: Vola bleibt außen vor - Du könntest Dich �berhedgen. Zumindest wird aber die Veränderung
+des Deltas bei der Optionspreisberechnung beachtet. Der 100%ige Hedge trifft aber nur ein, wenn zum
+Ende der Korrekturphase das Underlying immer noch beim Maximalverlust steht. Liegt es höher, bist Du
+zu wenig gehedged, liegt es niedriger, zu viel. 
+
+
+Ich habe Variante b) benutzt, und damit fahre ich bis jetzt ganz gut (Korrektur bis jetzt: 250
+Punkte). Sollte sich Griechenland aber längerfristig nicht erholen (Frühjahr), dann fliegt die
+gesamte Position raus. Auch bei einem 100%igen Hedge ist es allemal besser, die Position als
+Termingeld zu haben als im Depot. Zumal es ja auch Leute gibt, die gewisse Finanzierungskosten
+haben.
+
+CU COELLEN.
+
+
+-- 
+This signature causes *heavy* Internet traffic and has been sent by 
+Ulfert Dörer.
+----------------------------------------------------------------
+Erzählen Sie mir nicht, daß die Menschheit dort nicht hingehört. Die Menschheit gehört dorthin, wo immer sie auch hingehen will. Und wenn sie erst einmal dort ist, wird sie viel erreichen. - Professor Francis Luckoff

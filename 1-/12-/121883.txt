@@ -1,0 +1,26 @@
+Fuer die Masse der digitalen Schaltkreise sehe ich in Deinem Zeithorizont
+(2 Jahre) keine wirkliche Alternative zur CMOS-Technologie (also n-Kanal
+und p-Kanal Feldeffekttransistoren). => Standard-CMOS-Prozess
+Fuer bestimmte Einsatzfaelle (Analoge Teilschaltungen, Treiber fuer
+hoehere Spannungen/Stroeme, teilw. bei hohen Geschwindigkeiten) haben
+bipolare Transistoren Vorteile. Diese sind allerdings in der Herstellung
+aufwendiger (mehr Prozessschritte) und haben wiederum auch Nachteile
+(z.B. hoeherer Leistungsverbrauch). Deshalb sehe ich eine grosse Zukunft
+nicht in reinen bipolaren Prozessen, sondern in der Kombination (BiCMOS-
+Prozesse).
+Die beiden genannten reinen CMOS-Prozessarten duerften fuer vielleicht
+98-99% aller Anwendungsfaelle gewaehlt werden.
+
+Daneben gibt es noch fuer selten Spezialfaelle Loesungen:
+z.B. fuer sehr schnelle digitale Schaltungen die ECL-Technik (reiner 
+Bipolarprozess).
+Dann gibt es noch die Gallium-Arsenid basierenden Technologieen, z.B. 
+fuer Anwendungen im Weltraum oder bei militaerischen Einrichtungen
+(groessere Immunitaet gegenueber z.B. Alpha-Strahlen) und fuer sehr grosse 
+Schaltgeschwindigkeiten.
+
+Gruss,
+Lars Thäger
+
+e-mail: Ox.Wwmbyg@fedbaif.myg
+www:    http://vfo85.fg.wgo-dtanljalk.qk/~efsina

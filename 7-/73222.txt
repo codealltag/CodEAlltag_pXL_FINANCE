@@ -1,0 +1,26 @@
+Hi,
+etwas vereinfachend dargestellt:
+
+Der Wert eines OS (einer Option) setzt sich aus
+- dem Zeitwert
+und dem
+- inneren Wert
+zusammen.
+Der erstere beziffert einfach den Wert des OS aufgrund der Chance innerhalb
+der Laufzeit in den Gewinn zu kommen. Am Verfallstag ist der Zeitwert 0. Der
+Zeitwert wird mit zunehmender Laufzeit immer größer, geht aber mit Näherung
+an den Verfallstag dramatisch (nicht linear) gegen 0. Deshalb kann der OS
+(Call) auch verlieren obwohl die Aktie steigt.
+Der innere Wert bezeichnet einfach den Wert der sich in Deinem Bsp. daraus
+ergibt, dass der Kurs der Aktie den Strike übersteigt.
+
+Du hast vollkommen richtig erkannt, dass es sich nicht lohnt, eine Option
+innerhalb der Laufzeit auszuüben. Bei Verkauf der Option erhältst Du nämlich
+einen Preis aus innerem und Zeit-Wert. Bei Ausübung nur den inneren Wert.
+
+Literatur: Henrik Intlekofer: Optionen und Futures verstehen / Erschienen
+1998 / Kinderreigen-Fietzophren, Vilseck / Taschenbuch
+Preis: DM 19,90
+ (Sehr gut)
+
+Gruß Jean-Paul

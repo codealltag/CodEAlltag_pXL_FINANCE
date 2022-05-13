@@ -1,0 +1,42 @@
+Hallo User,
+
+
+<schimpf wie ein Rohrspatz>
+
+ich habe mir gerade bei Storki-Toys eine Hilfe-Datei heruntergeladen.
+Knapp ueber 24.000 Seiten, ueber 300 MB.
+
+Dort wollte ich jetzt nachsehen, wie ich Kinderparadies sage
+"mache nur weiter, wenn es sich um kein Verzeichnis handelt."
+
+Ich schlage also in 24.000 Seiten nach und nach laaaangem Suchen lese ich auf ca Seite 20.000:
+
+
+159.7.5 SysUtils.faAnyFile Konstante
+Pascal
+faAnyFile = $0000003F;
+C++
+faAnyFile = 0x0000003F;
+Datei
+SysUtils
+Beschreibung
+Das ist die Konstante SysUtils.faAnyFile.
+
+
+Danke Storki-Toys!
+Dafuer habe ich es heruntergeladen und 24.000 Seiten durchsucht.
+Damit ich endlich weiss, dass es sich bei der Kostante SysUtils.faAnyFile um die Konstante SysUtils.faAnyFile handelt.
+
+Hat das ein Gehirnamputierter verfasst?
+Und da ist kein Link, kein Querverweis, nichts!
+
+</schimpf wie ein Rohrspatz>
+
+
+Doch an alle anderen:
+Kann mir jemand sagen, wie ich elegant abfrage
+"wenn es sich um kein Verzeichnis handelt"?
+
+
+Danke!
+Isabel

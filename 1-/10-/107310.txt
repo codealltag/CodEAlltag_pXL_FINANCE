@@ -1,0 +1,34 @@
+Theoretisch hättest Du recht. Es könnte allerdings auch so sein, daß die Zahl der
+Optionsscheine wesentlich höher ist als die an einem solchen Tag umgesetzte Menge an
+Aktien, die nötig ist, um den Kurs zu drücken.
+
+Beispiel:
+
+1. Jemand begibt 1.000.000 Calls auf die Aktie X zum Kurs 100.
+2. Vor dem Fälligkeitstermin tendiert X  zu einem Kurs 110.
+
+Dann wäre eine Gesamtzahlung (effektiv geliefert wird eine Aktie i.d.R. ohnehin nicht,
+sonst würde es noch teurer) von 10*1.000.000 fällig, d.h. 10 Mio.
+
+Nehmen wir nun an, daß in der Zeitspanne, bis der F�lligkeitskurs ermittelt wird,
+gerade mal 100.000 Aktien gehandelt werden und daß der Stillhalter tatsächlich die
+Aktien verkauft. Dann haben wir bei einem letzten Verkaufskurs von 100 einen Verlust
+aus "zu billigen" Aktienverkäufen von maximal 10*100.000, d.h. 1 Mio, während die
+Optionsscheininhaber leer ausgehen.
+
+Ist doch ein gutes Geschäft, wenn man eben so mal 9 Mio sparen kann? :-) Und damit ist
+die Sache ja noch nicht zu Ende, denn die wissen natürlich auch selbst, daß die Aktie
+wieder steigt.  D.h., sie werden versuchen, sie anschließend schnell günstig
+zurückkaufen.
+
+Das funktioniert allerdings nur, wenn an dem betreffenden Tag nicht gerade ein starker
+liquider Käufer am Markt ist, der alles stur zu 110 aufkauft. Dann könnte man nichts
+weiter tun. Der Kurs würde vielleicht sogar steigen, wenn das andere Marktteilnehmer
+mitbekommen.
+
+In der Praxis wird man ein solch hektisches und unsicheres Szenario natürlich
+vermeiden wollen, d.h. man versucht den Call rechtzeitig zurückzukaufen, wenn die
+Kurse über 100 zu gehen drohen. Falls das nicht geht, kann man zur Absicherung auch
+zusätzliche Aktien kaufen.
+
+Giovanni

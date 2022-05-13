@@ -1,0 +1,30 @@
+-
+Hallo Gottfried,
+naja it helps a little.
+Da mich ODAX zu festen Terminen interessieren, lese ich Deine
+Formel wie folgt: implVola =3D quadratische Funktion im Strike
+(Nach der ueblich erforderlichen Entklammerung von Formeln),
+und schaetze mal, das gilt falls Strike am Geld. Oder soll der
+Parabel wo anders der Scheitel gezogen werden? Mit dem Ansatz
+hab ich=B4s =B4ne zeitlang schon versucht, komme aber bei Optionen
+weit aus dem Geld zu wirklichkeitsfremden Werten. Schaut man
+sich die ueblichen Bildchen an, dann liegt die Vermutung einer
+Kettenlinie nahe (die im Scheitel durch eine Parabel approx. =
+
+wird) y =3D a*cosh(x/a), cosh(x) =3D 0.5*(exp(x)+exp(-x)).
+Naehrungsweise hab ich versucht, x^2 + x + 1/x + 1/x^2 zu
+verwenden (parametrisiert), bekomme aber "Schieflagen", die wir
+zur Zeit haben, nicht in den Griff. Koennte mir vorstellen,
+der "richtige" Ansatz ist: Kettenlinie =B0 Drehung und Translation.
+Nur sind dann die Parameter bloed zu bestimmen. Befuerchte ich.
+Was nicht heissen soll, dass ich mich der Frage wissenschaftlich
+naehern will. Nur praktisch.
+
+Zu Deiner Frage Trend vs. Markterwartung: ja. Und genau die
+Erwartung des Terminmarkts will ich sehen :)
+
+PS: was ist die Kurtositaet (hoffentlich kein hinterhaeltiger
+Schreibfehler)?
+
+MfG
+Simon

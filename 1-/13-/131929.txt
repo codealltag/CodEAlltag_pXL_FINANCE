@@ -1,0 +1,46 @@
+Versuch mal die Einstellungen in den zwei INI-Dateien zu ändern!
+Du findest diese im Windowshauptverzeichnis
+-QFN.INI
+-QFNONL.INI
+Bitte aber vorher die beiden sichern.
+
+Cu Rolf
+lmigzid@x-yqvdhp.kq
+
+NCSchwager schrieb in Nachricht
+<6830305390457905.ZKA77058@dmvohm84.skog.fgk.snj>...
+:>Hallo,
+:>
+:>ich weiß, daß dieses Posting eigentlich in die de.etc.finanz.software
+:>gehört. Leider bietet mein Newsserver diese neue Gruppe noch nicht an und
+:>ich konnte noch keinen anderen Server finden, der sie bereitstellt..
+:>
+:>Zum Thema: Wenn ich versuche in ökonsum ein Konto auf Onlinebanking
+:>umzustellen (durch Markieren der Checkbox "Online Kontozugang und
+:>Zahlungsverkehr"), so bleiben diese Einstellungen nicht erhalten. Sobald
+ich
+:>den Kontoeinstellungsdialog durch Klick auf "OK" schließe, ist die
+:>Einstellung weg.
+:>
+:>Weiß jemand, wie ich diesen offensichtlichen Bug umgehen kann. Ich habe
+:>Quicken schon auf einem frischen Windows 95B (inkl. IE4.01)
+installiert. --
+:>Ohne Verbesserung der Situation. :-(
+:>
+:>TIA,
+:>  gottfried!
+:>
+:>
+:>
+:>
+:>
+:>
+:>
+:
+:Das Problem hatte ich auch.
+:Bei mir lag es daran, dass ich die Directory-Vorgaben von Quicken
+veraendert
+:habe. Das entsprechende Modul kommt mit langen Namen nicht zurecht. Also
+:Quicken ins Root und nicht unter Programme installieren.
+:
+:Valentin

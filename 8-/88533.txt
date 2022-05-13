@@ -1,0 +1,18 @@
+Hallo Reginald,
+
+das durchschnittliche Wachstum in % über n perioden errechnet sich bei einem
+Anfangswert A und einem Endwert E nach folgender Formel:
+
+W = 100*((E^(1/n))/A)-100
+
+Du kannst zur Berechnung auch folgende benutzerdefinierte Funktion
+verwenden:
+
+Function DWachstum(Anfangswert, Endwert, Perioden)
+DWachstum = 100 * (Endwert ^ (1 / Perioden) / Anfangswert) - 100
+End Function
+
+Gruß
+Helmut Oudman
+
+Zahlenreihe in Excel

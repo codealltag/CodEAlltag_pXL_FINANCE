@@ -1,0 +1,124 @@
+Hallo,
+
+während des Wartens auf neue Höhenflüge im DAX hier mal ein
+philosophisches Gedankenspiel:
+
+Was ist das Problem an vielen bekannten Investmentsystemen? Richtig, sie
+funktionieren nur unter bestimmten Voraussetzungen und auch dann nicht
+immer und sind in der Regel nicht mathematisch fundiert. Nun bin ich
+kein Mathematiker, deshalb erwartet bitte keine Geistesblitze im
+Folgenden, ich habe aber ein paar Überlegungen angestellt.
+
+Die mathematische Disziplin, die sich für Investmentstrategien eignen
+könnte, ist die Wahrscheinlichkeitstheorie. Nehmen wir das allseits
+bekannte Roulettebeispiel: Wenn ich 10000 Mal auf rot setze, dann wird
+kaum einer bezweifeln, daß ich am Ende in etwa meinen Einsatz auf
+plus/minus Null gehalten habe. Setze ich hingegen nur 10 Mal auf rot, so
+hätte ich z.B. in dem gar nicht mal so unwahrscheinlichen Fall, daß nur
+4 mal rot kommt, immerhin 20% meines Kapitals verloren (Nehmen wir an 1
+DM Einsatz pro Spiel, ich gewinne vier Mal, beende also mit 8 DM). Um
+20% meines Kapitals bei 10000 Spielen zu verlieren dürfte nur 4000 Mal
+rot kommen - ein deutlich unwahrscheinlicherer Fall. Die Masse macht's
+also, das Gesetz der großen Zahlen.
+
+Wie kann man nun so etwas in Aktieninvestments umsetzen, wo wir ja nicht
+nur plus/minus Null, sondern z.B. mit 20% Gewinn rauskommen wollen?
+Nehmen wir mal der Einfachheit halber nur die DAX-30 Aktien und nehmen
+wir weiter an wir verfügen über tägliche historische Kurse der letzten -
+sagen wir mal - 10 Jahre. Und wir wollen unseren Gewinn in einem Jahr
+erwirtschaften (Spekulationsfrist!).
+
+Wir fangen mal ganz "primitiv" an und geben alles in eine Datenbank ein
+und schreiben ein Programm, das einfach diese 10 Jahre durchrechnet.
+Will heißen: das Programm simuliert ein Investment in jede DAX-Aktie an
+jedem Tag dieser 10 Jahre und schaut was ein Jahr später daraus geworden
+ist. Eine rein statistische Analyse also, die uns mit Sicherheit dem
+Gesetz der großen Zahlen nicht annähernd so nah bringt, wie wir es gerne
+hätten. Aber das Vergrößern der Datenmenge ist ja eine mathematisch
+triviale Aufgabe (ob es in der Realität möglich ist soviel historische
+Daten zu bekommen ist eine andere Geschichte). Weiterhin mag man denken,
+das ganze Unterfangen ist eher sinnlos, da der 8. August 1992 (das
+ideale Einstiegsdatum, wie unser Programm herausgefunden hat) nie wieder
+kommen wird. An dieser Stelle müssen wir daher eine Hypothese aufstellen:
+
+Hypothese 1: Die Börse verhält sich zyklisch und Kursbewegungen
+wiederholen sich grundsätzlich im Lauf der Zeit.
+
+Diese Hypothese liegt ja auch der technischen Analyse zugrunde und kann
+dort wie hier nicht bewiesen werden. Zur Sicherheit sollten wir also
+noch andere Faktoren dazunehmen, vielleicht kamen die Kursbewegungen ja
+nicht aus rein technischen Gründen zustande, sondern auch aus
+fundamentalen. Wir nehmen also eine Reihe von Fundamentalzahlen (KGV,
+Dividende, allgemeine Zinssituation, Dollarstand, Branchenzugehörigkeit
+oder was weiß ich alles) dazu und lassen unser Computerprogramm
+herausfinden, ob es "ähnliche" Situationen gegeben hat. Zum Beispiel
+könnten solche Dinge rauskommen: Aktien mit einem KGV unter 15 haben
+immer eine gute Performance auf ein Jahr gesehen, wenn man sie im Herbst
+kauft. Oder: es lohnt überproportional oft, wenn man an einem Punkt
+einsteigt, der weniger als 20% über dem 52-Wochen Tief liegt. Hierbei
+könnte man Techniken aus dem Data Mining einsetzen. Das führt uns zu
+einer weiteren Hypothese:
+
+Hypothese 2: Fundamentale Ähnlichkeiten bewirken in statistisch
+(technisch) ähnlichen Situationen ähnliche Kursbewegungen.
+
+Diese Hypothese beweist sich selbst durch das Data-Mining Programm, zwar
+nicht mathematisch, aber immerhin empirisch. Was uns nun noch fehlt ist
+der psychologische Faktor, der natürlich historisch nicht mehr richtig
+erfaßt werden kann. Ohnehin müßte selbst zur Feststellung des
+psychologischen Faktors am heutigen Börsentag eine repräsentative
+Untermenge der Händler befragt werden. Repräsentativ ist im übrigen in
+der Psychologie definiert als 5% der Gesamtmenge, wobei die einzelnen
+Probanden nach bestimmten Vorschriften ausgesucht werden. Ein
+schwieriges Unterfangen also die psychologischen Daten auch nur für ein
+paar aktuelle Tage mittels elektronischem Fragebogen zu ermitteln. Etwas
+erleichtern kann man es, wenn man nicht 5% aller Händler befragt,
+sondern 5% aller Händler, die zusammen 80% des Umsatzes machen. Damit
+kann man sich womöglich auf die kleinere Gruppe der institutionellen
+Anleger beschränken und braucht nicht allen Millionen Privatanlegern
+hinterherlaufen. Dies wiederum bringt eine neue Hypothese:
+
+Hypothese 3: In technisch und fundamental ähnlichen Situationen
+reagieren ähnliche Personen auch psychologisch ähnlich.
+
+Diese Hypothese kann man - unter den oben genannten Schwierigkeiten -
+durch repräsentative Umfragen und anschließendes Data Mining auf der
+Basis der vorher schon gesammelten Daten empirisch belegen.
+
+Gut, jetzt bleiben noch ein paar Fragen, die ich gerne zur Diskussion
+stellen würde:
+
+1) Habe ich wichtige Einflußfaktoren (neben den technischen,
+fundamentalen und psychologischen) vergessen? Ist die Gesamtzahl an
+Einflußfaktoren vielleicht viel zu hoch, um sie alle zu erfassen?
+
+2) Unter der Voraussetzung all diese Daten könnten gesammelt werden,
+glaubt ihr, daß dieses System treffende Voraussagen für die Zukunft
+machen könnte, wenn es nur wenige benutzen? (Wenn jeder es benutzt,
+führt es sich natürlich selbst ad absurdum)
+
+3) Wenn wir all diese Daten sammeln könnten, wird uns dann das Gesetz
+der großen Zahlen helfen, oder bräuchten wir viel mehr Daten, als die
+Börse jemals hergeben könnte? (Diese Frage kann natürlich nur per
+Schätzung aus dem Bauch beantwortet werden)
+
+4) Ist es überhaupt prinzipiell möglich sich vom Gesetz der großen
+Zahlen an der Börse helfen zu lassen? Oder sind die aus der Börse zu
+gewinnenden Zahlen grundsätzlich arbiträr? Will heißen: wenn ich einen
+Zufallsgenerator jeden Tag eine Zahl generieren lasse und nach drei
+Trilliarden Jahren die Zahlen von einem Computer auswerten lasse, dann
+werde ich (wenn der Zufallsgenerator wirklich zufällig ist) keine Muster
+erkennen und keine Voraussagen auf die nächste zu ziehende Zufallszahl
+machen können. Ist das bei der Börse vielleicht auch so?
+
+5) Gibt es irgendwelche Forschungen in dieser Richtung? Hat sowas
+schonmal jemand versucht?
+
+Bin gespannt auf Eure Meinungen,
+
+Winfried
+
+-- 
+Winfried Niemitz
+Onim, software development
+lfsv@lgkqe.dl

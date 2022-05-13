@@ -1,0 +1,21 @@
+Hallo Volkert,
+
+da auch Deine selbsteingegebenen Daten wie alle anderen Daten
+gespeichert werden, werden auch diese Daten uebernommen.
+
+Stabilitaet ist immer relativ. Die Datenbank laeuft auf Btrieve, das
+von Natur aus recht stabil ist. Der grosse Vorteil ist, dass bei
+eventuellen Fehlern die Datenbank wieder rekonstruiert werden kann.
+
+Natuerlich ist die Daily.DB gewaltig, die Alternative ware, die Daily
+nach verschiedenen Kriterien aufzuteilen, etwa nach einzelnen WPs,
+nach WP-Arten oder nach Jahren. Dies alles haette aber den Nachteil,
+dass man mehr HD-Zugriffe braucht als jetzt - was sich negativ auf die
+Perfomance auswirkt. Das soll ja auch nicht sein.
+
+Wir diskutieren uns allerdings die Koepfe heiss, wie wir das am besten
+machen. Sicherlich wird es eine gute Loesung werden.
+
+Viele Gruesse
+
+Sven

@@ -1,0 +1,75 @@
+Delta beim Börsen Trading
+Author M.Rosenboem
+Video:
+http://asr.hajlbhe.tid/olmbi?s=8F0O72ZiI5Zv9
+
+Zuletzt  stand das berühmte Optionspreis- Modell von Black und Scholes
+im Mittel-punkt. Obwohl mittlerweile schon fast vierzig Jahre alt, ist
+das Grundmodell wegen seiner Einfachheit noch in nahezu jedem
+Finanzinstitut in Gebrauch. Die bekannte Formel lässt eine
+vergleichswei-se einfache Berechnung des fairen Werts von sowohl Call-
+als auch Put-Optionen zu.
+Doch professionelle Händler, und auch Privatanleger, interessiert
+häufig noch viel mehr, wie sich der Wert der Option entwickelt, wenn
+sich Marktumstände ändern. Was geschieht mit meinem Opti=AConsschein,
+wenn der Kurs meines Basis=ACwerts steigt? Welchen Einfluss hat eine
+fallende Volatilität?
+Hier liegt ein großer Vorteil des Black & Scholes-Modells klar auf der
+Hand: Es lässt nicht nur die Berechnung des Opti=AConswerts zu, sondern
+bietet auch die Möglichkeit, den Einfluss von sich än-dernden
+Marktgrößen explizit zu berech-nen. Den sogenannten Sensitivitäten
+oder auch kurz =BBGriechen=AB sind die folgenden Ausgaben der Academy
+gewidmet. Die bekannteste Kennzahl ist das sogenannte Delta. Sie gibt
+an, wie stark der Wert einer Option auf eine Bewegung des zugrunde
+liegenden Index oder der Aktie, auf den sich die Option bezieht,
+reagiert, und kann für Calls Werte zwischen null und eins und für Puts
+Werte zwischen null und minus eins annehmen.
+In dem nebenstehenden Kasten ist die Formel für das Delta nachzulesen,
+die
+mathematisch in der sogenannten par=ACtiellen Ableitung des
+Optionspreises nach dem Basiswertkurs besteht.
+Was besagt diese Kennzahl genau? Zur genaueren Betrachtung wird eine
+Call-Option bezogen auf die Aktie der Bitterveld mit einem Basispreis
+von EUR 36 und einer Laufzeit bis zum 26. Februar 2011 herangezogen.
+Diese kostet am 30. November 2010 an der deutschen Terminbörse Papierprofi EUR
+1,29 im Verkauf (=BBBriefkurs=AB) und weist ein Delta von 0,39 auf. Danach
+steigt der Wert des Calls um 39 Cent,
+wenn die B-Aktie einen Euro an Wert gewinnt. Beachten müssen
+Anleger allerdings, dass ein Verlust im gleichen Verhältnis droht,
+wenn die jeweilige Aktie einen Kursrückgang verzeichnet. Eine Put-
+Option mit gleicher Laufzeit und ei=ACnem Basispreis von EUR 34, notiert
+bei EUR 1,40 und hat ein Delta von =970,43. Fällt die Aktie um einen
+Euro, steigt der Put um 43 Cent und umgekehrt. Das Delta ist nicht nur
+hilfreich, wenn es darum geht, das Verhalten einer Option oder eines
+Optionsscheins einzuschätzen, sondern ist mindestens ebenso wichtig
+als Risikomaß sowohl für Optionshändler als auch Privatanleger.
+Durch den Kauf einer Put-Option kann sich der Inhaber von Aktien gegen
+mögli=ACche Verluste absichern. Möchte man sich gegen einen B-
+Kursverfall unter EUR 34 bis Mitte Februar absichern, kann man die
+bereits beschriebene Put-Option erwerben. Jetzt kommt das Delta ins
+Spiel. Der Aktieninhaber kauft pro Aktie 2,33 Put-Optionen (1
+dividiert durch 0,43), das heißt, 100 Aktien würde man durch den Kauf
+von 233 Optionen absichern. Fällt die B-Aktie um EUR 1 (somit
+fällt die gesamte Aktienposition um EUR 100), steigt die
+Optionsposition um EUR 100 (0,43 multipliziert mit 233). So heben sich
+Gewinne und Verluste aus Options=ACund Aktiengeschäft genau auf.
+Ganz einfach, ist man versucht zu sagen, jedoch muss man leider an
+dieser Stelle ein paar Einschränkungen machen. Die wichtigste besteht
+darin, dass die mit Delta bezeichnete Kennzahl eine Moment=ACaufnahme
+ist, also mit ihrer Hilfe nur dann eine korrekte Wertentwicklung
+berechnet werden kann, wenn alle anderen Markt
+variablen und -parameter, außer dem Aktienkurs, konstant auf dem
+gleichen Niveau bleiben. Eine Annahme, die in der Realität natürlich
+äußerst selten anzu=ACtreffen ist. Außerdem bleibt die Kennzahl selbs=
+t
+nicht konstant. Die Abbildung zeigt die Entwicklung des Deltas des
+bisherigen Beispiels in Abhängigkeit vom aktuellen B-Aktienkurs.
+Die Grafik zeigt, dass der Parameter generell Werte zwischen null und
+eins und bei einem Aktienkurs in der Nähe des Basispreises eine
+Ausprägung um
+0,5 annimmt.
+Neben dem Aktienkurs kann die Volatilität einen ebenso starken
+Einfluss auf den Preis einer Option haben. Mithilfe einer anderen
+Kennzahl (dem =BBGamma=AB) lassen sich auch Rückschlüsse über die
+Entwick=AClung des Deltas ziehen.
+Delta beim Trading an der Börse =96 SelMcKenzie Rosenboem

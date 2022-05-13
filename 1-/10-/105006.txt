@@ -1,0 +1,193 @@
+Dividendenrenditestrategien mit DAX-Werten (Teil 2)
+
+Letztesmal habe ich Zahlen zu einigen Dividendenrenditestrategien
+vorgestellt, wobei auch die Vorzugsaktien mit einbezogen wurden. Es
+blieb noch die Frage, was die Beruecksichtigung der Nennwerte an den
+Ergebnissen aendert. Diese Frage muss vorerst unbeantwortet bleiben.
+Inzwischen habe ich Ergebnisse, wie es ohne Vorzugsaktien ausssieht. 
+Dabei aendert sich das Bild etwas. Die Zahlen fuer die Jahr fuer Jahr
+Ergebnisse stammen wieder von Valerio Jacobtorweihen. Die Veroeffentlichung
+erfolgt wieder mit dem Zusatz:
+
+Sämtliche Rechte liegen bei Valerio Jacobtorweihen. Ausschließlich für den
+persönlichen, privaten Gebrauch. Keine Speicherung in sonstigen
+Medien, insbesondere elektronischen, keine Publizierung der Daten in
+elektronischen wie z.B. dem Internet Elaw oder Olivotti oder
+schriftlichen Medien ( z.B. Bücher Zeitschriften Zeitungen) ohne
+meine schriftliche Zustimmung. Eine Verantwortung für die Richtigkeit
+der Daten wird von mir (Valerio Jacobtorweihen) nicht übernommen.
+
+Die Zahlen sind vom 4.2.86 bis 03.01.98. Zum besseren Vergleich
+gibt's auch noch mal die Tabelle mit den Vorzugsaktien.
+
+DAX incl VZ:
+
+Jahr	DAX	DAX+VZ	Top10	Dogs	F4	F2	PPP	RP2	RP4
+1986   -29,24  -28,34   -5,83	-4,10	-2,69	-2,21	-0,26	-0,68	-2,69
+1987	40,68	31,04	62,29	80,06	70,42	75,69	96,77	85,07	80,13
+1988	34,11	42,35	43,03	67,83	66,41	71,47	91,72	34,76	51,50
+1989   -22,94  -19,41  -25,66  -28,30  -26,13  -26,64  -28,70  -29,28  -23,41
+1990	15,51	11,85	25,87	17,62	15,03	15,51	17,43	17,86	22,24
+1991	-3,55	-1,87	-2,06	-0,71	 2,57	 1,63	-2,12	 0,33	 2,93
+1992	47,89	45,46	56,64	68,29	66,65	63,30	49,90	63,29	52,49
+1993	-7,15	-3,62	-3,49	 1,39	-0,47	 1,72	10,47	 3,74	-0,49
+1994	 8,92	 4,25	 5,33	 7,75	 8,63	 8,51	 8,05	 4,74 	 0,11
+1995	26,41	25,92	37,52	31,57	39,02	47,98	83,78	27,34	21,51
+1996	48,78	53,78	54,78	46,21	46,52	44,25	35,16	38,89	38,71
+1997	16,93	15,58	11,40	 2,80	 8,27	 3,71  -14,53	21,35	 6,02
+
+DAX ohne VZ:
+
+Jahr	DAX	        Top10	Dogs	F4	F2	PPP	RP2	RP4
+1986   -29,24	        -9,81  -28,30  -23,15  -20,45	-9,68  -19,54  -13,03
+1987	40,68	        56,92	80,16	70,54	75,79	96,77	94,50	74,91
+1988	34,11	        33,10	45,91	46,29	42,76	28,61	68,23	50,11
+1989   -22,94          -22,09  -26,48  -25,93  -24,85  -20,51  -29,28  -23,41
+1990	15,51	        24,24	22,42	15,03	15,51	17,43	17,86	22,24
+1991	-3,55	         2,18	-0,71	 2,57	 1,63   -2,12	 0,33	 0,27
+1992	47,89	        55,38	72,05	71,35	67,06	49,90	40,05	51,18
+1993	-7,15	        -4,42	 2,74	 1,21	 3,06	10,47	 5,91	 2,33
+1994	 8,92	         4,80	 2,43	 1,98	 3,19	8,05	-3,18	 0,32
+1995	26,41	        42,76	44,95	35,25	31,73	17,64	28,62	32,61
+1996	48,78	        56,95	64,56	69,45	67,67	60,52	43,45	59,04
+1997	16,93	         7,78	 6,80	-1,43	-4,96  -19,08	-9,31	-5,73
+
+Die Ergebnisse sind Jahr fuer Jahr und beinhalten
+Wertsteigerung+Dividende. Steuergutschriften wurden nicht
+beruecksichtigt, da sie von Anleger zu Anleger individuell
+verschieden sind. Transaktions-, Depot- und sonstige Unkosten sind
+nicht beruecksichtigt. Dabei bedeuten im einzelnen:
+
+Top10: Aus allen zur Auswahl stehenden Aktien (+Vorzuegen) werden die
+10 mit den hoechsten Dividendenrenditen gewaehlt und zu gleichen
+Anteilen gekauft. Die Dividendenrendite ergibt sich aus: 
+letzte gezahlte Dividende / Kurs.
+
+Dogs (of the DAX): Aus den Top Ten werden die fuenf mit dem
+niedrigsten Kurs gewaehlt und zu gleichen Anteilen gekauft.
+Unterschiedliche Nennwerte werden dabei nicht beruecksichtigt. 
+
+F4 (Foolish Four): Dieselbe Liste wie bei den Dogs, nur wird die
+Aktie mit dem niedrigsten Kurs gestrichen und stattdessen die mit dem
+zweitniedrigsten doppelt gewichtet. (In einer nach steigendem Preis
+(nicht der Dividendenrendite!) sortierten Liste der Top10 wird also
+statt (1,2,3,4,5) wie bei den Dogs (2,2,3,4,5) genommen.) 
+Bemerkung:
+Das entspricht nicht der aktuellen Fool4 Strategie von The Motley
+Fool, sondern ist eine aeltere Variante. Fuer die derzeit verfolgte
+Fool4 Strategie (UV4) liegen mir keine Zahlen vor. Die derzeitige
+("offizielle") Strategie von SÜGEMI sieht vor, (2,3,4,5) zu kaufen,
+falls (1) gleichzeitig die Aktie mit der hoechsten Dividendenrendite
+ist und (1,2,3,4) falls nicht.
+
+F2 (Foolish 2): Nur die billigsten (bezieht sich auf den Kurs) zwei
+Aktien der F4, also (2,3)
+
+FTP (fragt mich nicht nach der Abkuerzung): aus der Top10-Liste
+nur die zweitbilligste Aktie. Eine 1-Aktienstrategie.
+
+RP2 und RP4 (Ratio Procedure): Fuer alle Aktien wird der Quotient 
+DR x DR / Kurs gebildet (DR = Dividendenrendite) gebildet. Die Liste
+wird nach fallendem Quotienten sortiert (= hoechster Wert zuerst).
+Aus der resultierenden Liste wird die erste Aktie gestrichen und dann
+die naechsten 2 bzw. 4 zu gleichen Teilen gekauft. Unterschiedliche
+Nennwerte werden hier wie bei allen anderen Strategien nicht
+beruecksichtigt.
+
+Die durchschnittlichen jaehrlichen Renditen ueber die verschiedenen
+5- und 10-Jahreszeitraeume sind aus der folgenden Tabelle
+ersichtlich. Gewinne (und Verluste) vom Vorjahr wurden dabei jeweils
+reinvestiert. Die Renditen wurde mit der Zinseszinsformel
+ausgerechnet. Alle Zahlenangaben sind in Prozent. Das Jahr 1997 wurde
+nicht beruecksichtigt, da es noch nicht abgeschlossen ist.
+
+DAX mit Vorzuegen:
+
+Zeitraum    DAX   DAX+Vz  TOP10   Dogs   FF4    FF2    RP4    RP2    PPP
+
+87-91       3,5    3,8    15,4    19,6   18,6   20,1   20,0   15,6   25,8
+88-92      10,1   10,5    16,3    20,4   19,8   21,0   21,3   15,8   25,3
+88-93      11,2   12,9    19,5    18,8   19,3   19,2   17,4   13,0   18.7
+89-94       3,2    4,4     6,7     7,4    7,6    7,4    7,9    7,2    6,3
+90-95      10,8    9,9    14,4    16,5   16,3   16,2   13,8   16,0   15,5   
+91-96      12,8   12,5    16,5    19,2   20,8   22,1   13,7   17,8   26,3
+92-97      23,0   23,1    27,6    28,7   29,7   30,9   20,7   25,7   34,8
+
+87-96       8,0    8,1    15,9    19,4   19,7   21,1   16,8   16,7   26,1
+88-97      16,4   16,7    21,8    24,5   24,7   25,9   21,0   20,7   30,0
+
+G:V(5)                     1:1     1:0    0:0    0:0    1:3    0:2    4:1
+G:V(10)                    0:0     0:0    0:0    0:0    0:0    0:2    2:0
+
+DAX ohne Vorzuege:
+
+Zeitraum    DAX   DAX+Vz  TOP10   Dogs   FF4    FF2    RP4    RP2    PPP
+
+87-91       3,5    3,8    12.8    11.1   10.3   11.6   16.4   17.0   16.3
+88-92      10,1   10,5    15.6    18.6   16.9   17.2   19.8   22.3   18.3
+89-93      11,2   12,9    15.4    17.5   17.0   16.0   16.3   14.5   12.0
+89-94       3,2    4,4     8.0     9.6    8.8    8.7    7.8    4.4    8.6
+90-95      10,8    9,9    14.6    17.1   15.8   15.8   13.7   11.1   15.5
+91-96      12,8   12,5    17.8    21.1   19.7   18.9   15.6   13.1   15.6
+92-97      23,0   23,1    28.4    34.0   32.2   31.4   26.8   21.5   27.6
+
+87-96       8,0    8,1    15.3    16.0   14.9   15.2   16.0   15.1   16.0
+88-97      16,4   16,7    21.8    26.1   24.3   24.1   23.2   21.9   22.8
+
+G:V(5)                     0:1     5:0    0:1    0:0    0:0    2:4    0:1
+G:V(10)                    0:1     2:0    0:0    0:0    1:0    0:1    1:0
+
+G:V(5) = Gewinner : Verlierer im 5-Jahreszeitraum: gibt an, wie oft
+eine Strategie ueber alle 5-Jahreszeitraeume die beste und die
+schlechteste war. Ohne Vorzuege hatte z.B. RP2 in den 7 moeglichen
+5-Jahreszeitraeumen 2-mal die beste und 4-mal die schlechteste
+durchschnittliche Jahresrendite.
+
+Offensichtlich macht es einen Unterschied, ob man die Vorzuege dazu
+nimmt oder nicht. Laesst man sie weg, dann ist die Dogs of the DAX
+klar die beste Strategie. Das sieht man nicht nur an den
+durchschnittlichen Jahresrenditen, sondern auch daran, dass diese
+Strategie in 5 der 7 5-Jahreszeitraeume das beste Ergebnis gebracht
+hat und nie das schlechteste.
+
+Die meisten Strategien funktionieren besser, wenn man die
+Vorzugsaktien dazunimmt. Besonders PPP war viel besser mit
+Vorzugsaktien. Nur bei den Dogs ist das Bild nicht so klar:
+Vergleicht man die entsprechenden 5-Jahreszeitraeume, so waren die
+Dogs mit Vorzuegen in dreien besser (87-92), in den anderen vier 
+schlechter (90-97).
+
+Es ist schwer zu sagen, welches die absolut beste Strategie ist, will
+man nicht alles auf eine Karte setzen (PPP mit Vorzuegen). Dazu
+reicht die betrachtete Zeit wohl nicht aus. Immerhin laesst sich
+feststellen, dass alle auf laengere Sicht deutlich bessere Ergebnisse
+gebracht haben als der Durchschnitt (DAX). Die RP-Strategien gehoeren
+sowohl mit als auch ohne Vorzuege zu den schlechteren.
+
+Wieviel ist (theoretisch) in 10 Jahren aus 100 KDM geworden, wenn man
+keine Depot- und Transaktionskosten zu zahlen brauchte?
+
+mit Vorzuegen:
+
+Zeitraum  DAX     DAX+Vz  TOP10   Dogs   FF4    FF2    RP4    RP2     PPP
+
+87-96     216,69  217,60  438,66  587,00 602,48 676,70 472,70 468,01 1013,98
+88-97     455,62  466,96  720,99  894,95 907,15 998,20 673,34 654,47 1374,06
+
+ohne Vorzuege:
+
+Zeitraum  DAX     DAX+Vz  TOP10   Dogs   FF4    FF2    RP4    RP2     PPP
+
+87-96                     413,96  442,04 400,79 412,19 441,18 406,66  439,57
+88-97                     720,39 1014,54 883,72 868,78 781,22 806,77  725,03
+
+alles in KDM. (KDM = Kilo-DM = 1.000 DM)
+
+Zum Schluss noch die uebliche Warnung: wenn etwas ueber laengere Zeit
+hinweg klappt, heisst das nicht, dass es jedes (naechstes) Jahr
+klappt. Es gibt Jahre, da ist der DAX besser gewesen als alle
+gezeigten Strategien. Siehe 1994.
+
+Sergio
+--
+Sergio Freitagsmüller  ***  eMail qeja@ui.pws-yciwprcot.uo

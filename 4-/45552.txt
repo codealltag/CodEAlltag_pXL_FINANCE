@@ -1,0 +1,76 @@
+Ich kenn das Papier nicht und hab keine Lust die Daten zu suchen.
+Hier nur wieder mal das Prinzip von Power Calls (falls sie nicht schon
+wieder was veraendert haben). Ist also kein Wundermittel.
+(bitte nicht lachen, der Dax war wirklich mal bei 2000, ist noch gar
+nicht so lange her)
+
+"Power Warrants"
+Bei dieser Art von Optionsscheinen wird der mögliche Gewinn quadriert. Als
+Beispiel soll hier der DAX Power Warrant (Call) WKN 813 197 von FPLM
+Maxmo (F&F) erklärt werden:
+Dies ist ein europäischer Call auf 1/100 DAX mit Basiskurs 2000 und Ablauf
+(Ausübungstag) 26. Mai 1996. Es ist eine Obergrenze (Cap) bei einem DAX-Stand
+von 2500 eingebaut. Bei einem normalen Optionsschein ergäbe dies folgendes
+Gewinnprofil:
+DAX:	2100		Gewinn:	1 (2100 minus 2000) mal 1/100 
+     	2200				2
+     	2300			 	3
+    	2400               			4
+    	2500 und darüber   		5 (Maximalgewinn wegen Cap)
+Infolge der Quadrierung ergibt sich bei Power Warrants jedoch folgendes
+Gewinnprofil:
+DAX:	2100		Gewinn:	1 mal 1 = 1
+    	2200				2 mal 2 = 4
+    	2300				3 mal 3 = 9
+    	2400               			4 mal 4 = 16
+    	2500 und darüber     		5 mal 5 = 25 (Maximalgewinn wegen Cap)
+Dabei ist zu beachten, daß sich bei Gewinnen unter 1, also im Bereich von 2000
+bis 2100 DAX-Punkten ein niedriger Gewinn als bei normalen Optionsscheinen
+ergibt, denn wir erhalten z.B. bei einem DAX-Stand von 2050: 0,5 mal 0,5 =
+0,25.
+Für eine Näherungsberechnung des fairen Wertes eines solchen Power Call muß man
+sich mithin zuerst eine Tabelle oder Kurve des Gewinnprofils erstellen (ähnlich
+wie gerade hier oben gezeigt). Nun muß man versuchen, dieses Gewinnprofil durch
+ein Bündel herkömmlicher europäischer Calls möglichst ähnlich nachzubilden.
+Beispiel: 
+Man kauft einen Call 2000 und 2 Calls 2100. Auch durch dieses Optionsbündel
+gelangt man zu einem Gewinn von 1 bei einem DAX-Stand von 2100 und einem Gewinn
+von 4 bei einem DAX-Stand von 2200. 
+Kauft man nun noch 2 Calls 2200, so ergibt sich auch bei 2300 DAX-Punkten ein
+Gewinn von 9. Um bei 2400 DAX-Punkten einen Gewinn von 16 zu erreichen, muß man
+noch 2 Calls 2300 kaufen. Und durch den Kauf von weiteren 2 Calls 2400 ergibt
+sich dann bei einem DAX-Stand von 2500 ein Gewinn von 25.
+Belt man es bei diesem Bündel aus insgesamt 9 Optionen, so würde der Gewinn
+für je 100 DAX-Punkte über 2500 um 9 steigen. Um die Gewinnobergrenze bei 2500
+DAX-Punkten nachzubilden, muß man deshalb auch noch 9 Calls 2500 verkaufen.
+Bei genauem Nachrechnen wird man feststellen, daß das Gewinnprofil unseres
+Optionsbündels nur bei den für die Rechnung benutzten Stufen (DAX 2100, 2200,
+..., 2500) genau mit dem Gewinnprofil des Power Call übereinstimmt. Bei allen
+Zwischenpunkten dagegen erbringt das Optionsbündel geringfügig höhere Gewinne. 
+Man könnte diese geringen Unterschiede problemlos immer weiter vermindern,
+indem man die Nachbildung mit weiteren Zwischenstufen und/oder leicht
+veränderten Basisstufen oder Stückzahlen berechnet. Es genügt aber auch, sich
+zu merken, daß die Nachbildung mittels Optionsbündel tendenziell etwas
+günstiger ausfällt.
+Der FUJU DAX Power Warrant wurde am 26. Mai 1995 bei einem
+DAX-Stand von 2080 zu 8,65 DM ausgegeben. Damals wurden DAX-Optionen etwa mit
+einem OPN-Wert von 15 gehandelt. Berechnet man das alternative Optionsbündel
+mit einem OPN von 15, so ergibt sich ein fairer Wert von etwa 7,40 DM, während
+die 8,65 DM für den TuB Power Warrant einem sehr hohen und damit teuren OPN von
+rund 40 entsprechen. Bei Berücksichtigung des etwas günstigeren Gewinnprofils
+des Optionsbündels kann man sagen, daß der Power Warrant rund 20% überteuert
+angeboten wurde.
+Dies ist ein typisches Beispiel dafür, wie ein eigentlich ganz normales Produkt
+nur wegen einer attraktiven neuen Verpackung ("quadrierte Gewinne") plötzlich
+mit 20% Aufpreis verkauft werden konnte - und (fast) keiner hat's gemerkt. Man
+stelle sich einmal vor, was mit einem Fonds-Manager geschehen würde, der eine
+normale Anleihe mit 20% Aufpreis gekauft hätte ... - obwohl auch das leider
+praktisch täglich vorkommt; die neue Verpackung heißt in diesem Fall dann oft
+"unkündbarer Floater", "Zinsphasenanleihe", "gecollarter Floater", "Step-up
+Callable Bond" oder ähnlich.
+
+
+-- 
+Willy Ishag
+Visit   http://nopfcco.ylr.kja/bikkpf  and download a 
+free calculator for options, futures, bonds and similar stuff.

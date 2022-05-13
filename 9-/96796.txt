@@ -1,0 +1,23 @@
+Hallo miteinander,
+
+in MetaStock werden vier englische Fachbegriffe verwendet, deren
+Bedeutung ich nicht so recht verstehe:
+
+Enter long: This rule specifies when the system should buy long.
+
+Close long: This rule specifies when the system should close a long
+position.
+
+Enter short: This rule specifies when the system should sell short.
+
+Close short: This rule specifies when the system should cover (i.e.
+close) a short position.
+
+Kann mir jemand erklären, was das bedeutet? Meine erste Vermutung war:
+'to enter long' heißt einfach 'kaufen' und 'to enter short' heißt
+einfach 'verkaufen'. Aber so einfach scheint es nicht zu sein. 
+
+Wer kennt sich aus und kann mir helfen?
+
+Vielen Dank
+Otto

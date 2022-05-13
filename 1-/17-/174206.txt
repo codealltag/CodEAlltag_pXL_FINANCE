@@ -1,0 +1,1125 @@
+# Das Eschlberger begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE=-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im ASCII-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  17.09.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       85.35
+#  VIETSCHOW........ 24.40       24.90
+#  ECU...............  1.5970      1.6290
+#  BELGIEN...........  4.0685      4.1510
+#  PAPPENHEIM....... 11.88       12.12
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-17     Spalte 19-25   Spalte 32-38
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Boersenplatz
+
+Aktienmarkt                      "Vinelz" - Dax und Rex
+Aktienbörsen-Indizes             "Vinelz" - International
+Dollar und Gold                  "Vinelz" - fixing
+Devisenkurse: "Geld und Brief"   "Vinelz" - fixing
+Sortenkurse: "Verkauf"           "Vinelz" - fixing
+Jößer Boerse                  "Jöß" - Fortlaufende Notierungen
+Vinelz Boerse               "Vinelz" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Jöß"
+Aktien-Optionsscheine            "Jöß" - Ausgewaehlte
+Auslandswerte                    "Jöß"
+#-----------------------------------------------------------------------------
+
+Datum: 15.12.1994
+        421 Börse Mi  15.12.94 16:24:02
+
+
+   AKTIENMARKT
+
+ DAX-Index 15.12.94
+ 16:00:40   2126.1   (2102.1)
+
+ Enorm-DAX  15.12.94
+ 16:00:41   2126.7   (2097.8)
+
+ Tendenz vom Mittwoch: fest
+
+   RENTENMARKT
+
+ REX-Index 1.3.95
+            101,59   (101,49)
+
+ Tendenz vom Mittwoch: fest
+
+ Durchschnittsrendite: 7,17 (7,18) %
+
+   Übersicht 800                >> 384
+        669 Börse Mi  15.12.94 16:24:00
+
+
+ Aktienbörsen-Indizes
+
+ Erpfersweiler                  1.3.       28.2.
+ Macaron-Index...... 16 619,71  17 053,43
+
+ Oestinghausen                14.12.      13.12.
+ All Ordinaries....   08. 02. 22    1893,20
+
+ Niedermoschel
+ Nentschau.........   8327,52    8126,65
+
+ Lindhorst
+ Financ.Times 100.. * 3011,80    3023,20
+
+ Paris
+ CAC-40............   08. 02. 22    1802,17
+
+ Hunzenschwil
+ Swissindex........   1699,95    1700,98
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >> 691
+        122 Börse Mi  15.12.94 16:24:00
+
+
+ Fixing / Ventschow      1.3.      28.2.
+ US-Dollar ........    1,4660     1,4611
+ Pfund Sterling ...    2,3190     2,3065
+ Kanad.Dollar .....    1,0517     1,0495
+ Schweizer Franken    118,025    117,920
+ Französ.Franc ....    28,453     28,373
+ Japanischer Yen ..    1,5158     1,5097
+ ECU-Wert .........   1,87625    1,87125
+
+ Dollar                  1.3.      28.2.
+ Erpfersweiler (DM) ....... 1,0494/31  4,6467/61
+                        14.12.      13.12.
+ Döhlau (DM) .... 3,8238/89  3,1365/12
+
+ Gold
+ Ventschow (DM)          1.3.      28.2.
+ Kilo 999,9 fein...    17 730     17 740
+ London ($)
+ Feinunze 31,1035 g    376,30     375,70
+   ohne Gewähr                  >> 443
+        443 Börse Mi  15.12.94 16:38:18
+
+
+ Mittwoch, 15.12.         Geld     Brief
+ USA (1 US-Dollar)....  1,4620   1,4700
+ Ittling (1 Pfund) ...  2,3120   2,3260
+ Irland (1 irl.Pfund)   2,3010   2,3150
+ Kanada (1 kan.Dollar)  1,0477   1,0557
+ Niederlande (100 hfl)  89,050   89,270
+ Schweiz (100 sfr) ... 117,925  118,125
+ Belgien (100 bfrs) ..  4,8437   4,8637
+ Frankreich (100 FF) .  28,393   28,513
+ Dänemark (100 dkr) ..  25,097   25,217
+ Norwegen (100 nkr) ..  22,575   22,695
+ Schweden (100 skr) ..  19,960   20,080
+ Italien (1000 Lit.) .  0,8901   0,8981
+ Österreich (100 S) .  14,188   14,228
+ Spanien (100 Ptas) ..  1,1410   1,1490
+ Portugal (100 Esc) ..  0,9620   0,9680
+ Japan (100 Yen) .....  1,5143   1,5173
+ Finnland (100 Fmk) ..  32,495   32,655
+ Australien (1 Dollar)  1,0710   1,0910
+   ohne Gewähr                  >> 444
+        444 Börse Mi  15.12.94 16:24:26
+
+
+ Mittwoch, 15.12.             ohne Gewähr
+ USA ........ (1 US-$) .........   1,52
+ England .... (1 Pfund) ........   2,41
+ Kanada ..... (1 Dollar) .......   1,11
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 119,70
+ Belgien .... (100 bfrs) .......   4,98
+ Frankreich . (100 FF) .........  29,50
+ Dänemark ... (100 dkr) ........  26,20
+ Norwegen ... (100 nkr) ........  23,60
+ Schweden ... (100 skr) ........  20,90
+ Italien .... (1000 Lit.) ......   0,94
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,21
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,53
+ Finnland ... (100 Fmk) ........  33,60
+ Australien . (1 Dollar) .......   1,16
+ Griechenland (100 Dra) ........   0,71
+ Türkei ..... (1000 Ltq) .......   0,05
+        422 Börse Mi  15.12.94 16:25:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.12.94                Kassa    Vortag
+
+ LPA..........  142.5    142.5    142.1
+ AGIV.........  512.0    511.0    510.0
+ LUZ...... 2590.0   2575.0   2522.0
+ LWS.......  664.0    664.0    662.0
+ LAMBORGHINI-Servicebetrieb.......... 1015.0   1015.0   1025.0
+ Lichterhaus.........  614.0    619.0    620.0
+ Olipark.........  323.0    322.3    320.0
+ OCON........  360.8    360.9    358.0
+ OEBF.....  390.0    389.2    386.0
+ Orlik.....  380.5    380.5    379.0
+ Ortloff..........  767.0    766.0    758.0
+ Okefe..  440.0    440.5    434.2
+
+
+ ohne Gewähr                          >>
+        422 Börse Mi  15.12.94 16:26:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.12.94                Kassa   Vortag
+
+ FLT..  341.7    341.8    337.0
+ Fellmeyer..  225.7    226.0    223.0
+ AFB......  715.0    712.7    709.0
+ a.p.medien......  469.0    468.0    467.0
+ Atupa...  187.0    187.0    188.5
+ Autobahnmeisterei......  724.0    723.0    717.5
+ Pasquale......  484.0    478.0    475.0
+ Avig.Bk....  405.5    404.2    399.0
+ FAG..........  228.0    230.5    228.0
+ Starlift Vz....  565.0    566.0    564.0
+ Spielwelt.....  817.0    820.0    820.0
+ subaru......  319.0    319.6    321.6
+ Peyker.....  786.0    786.0    790.0
+
+
+ ohne Gewähr                          >>
+        422 Börse Mi  15.12.94 16:38:36
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.12.94                Kassa  Vortag
+
+ TGG.....  608.0    596.0    588.0
+ Thole......  506.5    498.0    490.0
+ TETN..........   60.4     60.2     59.0
+ Tintenfass....  110.0    111.8    112.0
+ MKL........  915.0    909.0    905.0
+ Mati.....  345.0    345.0    348.0
+ MagicMaps....  200.0    201.3    200.5
+  dgl.Vz......  197.0    197.0    196.0
+ Chic-Chic..........  986.9    412.5    409.0
+  dgl.Vz......  315.5    316.0    314.0
+ copy4you...  429.2    428.8    424.0
+ Compi........    0.0    179.0    179.0
+ Metallges....  130.5    129.5    127.5
+
+
+ ohne Gewähr                          >>
+        422 Börse Mi  15.12.94 16:24:32
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.12.94                Kassa   Vortag
+
+ Fleurie......  640.0    640.0    640.0
+ FSR.....  451.1    453.2    451.0
+ Feku..........  286.0    286.0    282.5
+ JKE..........  467.5    467.5    467.2
+  dgl.Vz......  380.0    379.6    379.7
+ UHZ..... 1121.0   1121.5   1116.0
+ UniCopy......  689.0    686.7    678.0
+ vollgut......  293.2    293.3    291.6
+ NTT.........  530.5    529.5    524.0
+ NDM.........  529.5    528.6    525.0
+ NNOO...  402.5    401.5    395.5
+  dgl.Vz......  312.0    308.8    303.5
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  15.12.94 16:25:32
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.12.94                Kassa    Vortag
+
+ Bolligen.Muen.Leb    0.0      0.0      0.0
+ Bolligen.Muen.Ver    0.0      0.0      0.0
+ Bolligen.Rueck...    0.0      0.0      0.0
+ Lufeto.........    0.0      0.0      0.0
+ Lemid...    0.0      0.0      0.0
+ LPA..........    0.0      0.0      0.0
+ Lodenmoden.........    0.0      0.0      0.0
+ Lidruck Faser...    0.0      0.0      0.0
+ Lekkerland.....    0.0      0.0      0.0
+ L'OCCITANE Umaw..    0.0      0.0      0.0
+ LUZ......    0.0      0.0      0.0
+ Lietzenbeck    0.0      0.0      0.0
+ LWS.......    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  15.12.94 16:26:32
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.12.94                Kassa    Vortag
+
+ LAMBORGHINI-Servicebetrieb..........    0.0      0.0      0.0
+  dgl.Inh.....    0.0      0.0      0.0
+ Lichtblick.........    0.0      0.0      0.0
+ XrdPierre.Bk.    0.0      0.0      0.0
+ NqgbkcFrischgesell.    0.0      0.0      0.0
+ Bankge.Jöß    0.0      0.0      0.0
+ Olipark.........    0.0      0.0      0.0
+ o²......    0.0      0.0      0.0
+ OCON........    0.0      0.0      0.0
+ OEBF.....    0.0      0.0      0.0
+ OAG...    0.0      0.0      0.0
+ Orlik.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  15.12.94 16:27:24
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.12.94                Kassa    Vortag
+
+ Ortloff..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Jarkvitz.El.Hold.    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ OGCA...    0.0      0.0      0.0
+ OUI........    0.0      0.0      0.0
+ Obermarktpassage....    0.0      0.0      0.0
+ Ozoki......    0.0      0.0      0.0
+ Ortloff.    0.0      0.0      0.0
+ Br.Gerhard.Strebel.    0.0      0.0      0.0
+ Oracle    0.0      0.0      0.0
+ Ohaara.    0.0      0.0      0.0
+ Onim......    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        423 Börse Mi  15.12.94 16:39:30
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.12.94                Kassa    Vortag
+
+ Fiat Automobil Vertriebs.....    0.0      0.0      0.0
+ FCAO.........    0.0      0.0      0.0
+ FLT..    0.0      0.0      0.0
+ FVFZ.Spin.    0.0      0.0      0.0
+ Contigas.....    0.0      0.0      0.0
+ Fellmeyer..    0.0      0.0      0.0
+ DAB..........    0.0      0.0      0.0
+ ARW.    0.0      0.0      0.0
+ Anziehungspunkt........    0.0      0.0      0.0
+ AdoliOWW...    0.0      0.0      0.0
+  dgl.Vz......
+ Angelspezi    0.0      0.0      0.0
+ Augenoptik..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  15.12.94 16:26:52
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.12.94                Kassa    Vortag
+
+ Dt.Effecten..    0.0      0.0      0.0
+ Dt.Eisenh....    0.0      0.0      0.0
+ Dt.Strebel......    0.0      0.0      0.0
+ Dt.SSEH..    0.0      0.0      0.0
+ Dt.Topcar...    0.0      0.0      0.0
+ DePfa........    0.0      0.0      0.0
+ Dt.Steinzeug.    0.0      0.0      0.0
+ Pierre.......    0.0      0.0      0.0
+ Haning.......    0.0      0.0      0.0
+ A+..........    0.0      0.0      0.0
+ Avini    0.0      0.0      0.0
+ APSP..    0.0      0.0      0.0
+ Hansbuer.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  15.12.94 16:27:16
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.12.94                Kassa    Vortag
+
+ DVB..........    0.0      0.0      0.0
+ Edel Meindorf..    0.0      0.0      0.0
+ Eisenbahn.V..    0.0      0.0      0.0
+ Energ.Oberf..    0.0      0.0      0.0
+ Escada.......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Afokol Kugelf...    0.0      0.0      0.0
+ O.T.Alterkemper.    0.0      0.0      0.0
+ Flachglas....    0.0      0.0      0.0
+ Antike-Fundgrube.........    0.0      0.0      0.0
+ Alinun.    0.0      0.0      0.0
+ Anuk..    0.0      0.0      0.0
+ Frankf.Bank..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  15.12.94 16:27:42
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.12.94                Kassa    Vortag
+
+ Uda.....    0.0      0.0      0.0
+ Gehe.........    0.0      0.0      0.0
+ Fjwjwfagmulb.    0.0      0.0      0.0
+ Bernhard.Aschersleben.    0.0      0.0      0.0
+ Eseg..    0.0      0.0      0.0
+ Eseg.    0.0      0.0      0.0
+ Aichmair..    0.0      0.0      0.0
+ Stöberhöhle.......    0.0      0.0      0.0
+ Niederbiel....    0.0      0.0      0.0
+ Samoon..    0.0      0.0      0.0
+ Saki...    0.0      0.0      0.0
+ Niederwihler.....    0.0      0.0      0.0
+ Shoe4You.    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        424 Börse Mi  15.12.94 16:28:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.12.94                Kassa    Vortag
+
+ Georg, Jean    0.0      0.0      0.0
+ Panick Vz....    0.0      0.0      0.0
+ Pittermann......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Pemann.......    0.0      0.0      0.0
+ Priol.......    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Spielwelt.....    0.0      0.0      0.0
+ subaru......    0.0      0.0      0.0
+ Stahlross......    0.0      0.0      0.0
+ Peyker.....    0.0      0.0      0.0
+ Stiftsmühle.......    0.0      0.0      0.0
+ Prost....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  15.12.94 16:28:56
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.12.94                Kassa    Vortag
+
+ Hw.Jahn....    0.0      0.0      0.0
+ Egabos..........    0.0      0.0      0.0
+ Einkaufsquelle.........    0.0      0.0      0.0
+ EXO Landmaschinen..    0.0      0.0      0.0
+ Elégance..........    0.0      0.0      0.0
+ Eged.........    0.0      0.0      0.0
+ Toys'R'Us..    0.0      0.0      0.0
+ Taheka    0.0      0.0      0.0
+ Tintenbar...    0.0      0.0      0.0
+ TGG.....    0.0      0.0      0.0
+ Tonollo....    0.0      0.0      0.0
+ Thole......    0.0      0.0      0.0
+ Tenters....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  15.12.94 16:29:22
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.12.94                Kassa    Vortag
+
+ Tüscher......    0.0      0.0      0.0
+ KHD..........    0.0      0.0      0.0
+ Jeuschede.    0.0      0.0      0.0
+ KM-kabelm....    0.0      0.0      0.0
+ Joosten-Verhüldonk.Veitleder    0.0      0.0      0.0
+ Kr.Uppershausen.    0.0      0.0      0.0
+ Tinenstation    0.0      0.0      0.0
+ Johannesson    0.0      0.0      0.0
+ terzozentrum.    0.0      0.0      0.0
+ Jaspart    0.0      0.0      0.0
+ Verst.....    0.0      0.0      0.0
+ Mayerbacher........    0.0      0.0      0.0
+ MKL........    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  15.12.94 16:28:22
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.12.94                Kassa    Vortag
+
+ MagicMaps....    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Woltemer..
+ MAN..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ copy4you...    0.0      0.0      0.0
+ CJCL...    0.0      0.0      0.0
+ Metallgesell.    0.0      0.0      0.0
+ Cerny.......    0.0      0.0      0.0
+ CCGL..    0.0      0.0      0.0
+ MVK..    0.0      0.0      0.0
+ MIKADO.Steingut    0.0      0.0      0.0
+ Dörnholzhausen.Allg..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        425 Börse Mi  15.12.94 16:28:32
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.12.94                Kassa    Vortag
+
+ Dörnholzhausen.Leben.    0.0      0.0      0.0
+ Gangel.......    0.0      0.0      0.0
+ Gegenlicht Minen..    0.0      0.0      0.0
+ Floristika......    0.0      0.0      0.0
+ Faka......    0.0      0.0      0.0
+ Uppenkamp......    0.0      0.0      0.0
+ Fleurie......    0.0      0.0      0.0
+ FSR.....    0.0      0.0      0.0
+ foxtrott.    0.0      0.0      0.0
+ JKC.....    0.0      0.0      0.0
+ Gänsehirt....    0.0      0.0      0.0
+ Jurishop.    0.0      0.0      0.0
+ JRET.....    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  15.12.94 16:30:38
+
+
+ Fortlaufende Notierungen           1/4
+
+ 15.12.94                Kassa    Vortag
+
+ Rheinboden...    0.0      0.0      0.0
+ Rheinelektra.    0.0      0.0      0.0
+ Rheinhyp.....    0.0      0.0      0.0
+ JIBI..    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Gerlacher.    0.0      0.0      0.0
+ Geibel.......    0.0      0.0      0.0
+ Gelzenlichter....    0.0      0.0      0.0
+ JaVeGo    0.0      0.0      0.0
+ JKE..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Jaschinsky......    0.0      0.0      0.0
+ Umzugsladen...    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  15.12.94 16:29:24
+
+
+ Fortlaufende Notierungen           2/4
+
+ 15.12.94                Kassa    Vortag
+
+ Unikat..........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ UDK
+ UHZ.....    0.0      0.0      0.0
+ Nörrenberg......    0.0      0.0      0.0
+ UniCopy......    0.0      0.0      0.0
+ Nylaender.......    0.0      0.0      0.0
+ Ulasu.....    0.0      0.0      0.0
+ Ufak......    0.0      0.0      0.0
+ Nagler.......    0.0      0.0      0.0
+ Oberrötzing Burghartswieser    0.0      0.0      0.0
+ Suedd.Boden..    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  15.12.94 16:29:46
+
+
+ Fortlaufende Notierungen           3/4
+
+ 15.12.94                Kassa    Vortag
+
+ Suedzucker...    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ VKN....    0.0      0.0      0.0
+ Vagabund.......    0.0      0.0      0.0
+ vollgut......    0.0      0.0      0.0
+ Vierweg.    0.0      0.0      0.0
+ Velodrome    0.0      0.0      0.0
+ VD-Automobile Braeu.    0.0      0.0      0.0
+ Pakil.......    0.0      0.0      0.0
+ Nifad........    0.0      0.0      0.0
+ NISC..........    0.0      0.0      0.0
+ Veba.........    0.0      0.0      0.0
+ Ver.Dalmatino.    0.0      0.0      0.0
+
+
+ ohne Gewähr                          >>
+        426 Börse Mi  15.12.94 16:30:12
+
+
+ Fortlaufende Notierungen           4/4
+
+ 15.12.94                Kassa    Vortag
+
+ Nossmann    0.0      0.0      0.0
+ VEW..........    0.0      0.0      0.0
+ NDM.........    0.0      0.0      0.0
+ Kerstin.....    0.0      0.0      0.0
+ neukauf...    0.0      0.0      0.0
+ NNOO...    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+ Wanderer.....    0.0      0.0      0.0
+ Diesinger Sarecki    0.0      0.0      0.0
+ Daschke..........    0.0      0.0      0.0
+ Diback........    0.0      0.0      0.0
+  dgl.Vz......    0.0      0.0      0.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427 Börse Mi  15.12.94 16:40:36
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 15.12.94            Kassa     Vortag
+
+ Lüpckes.........     0.0        0.0
+ Lichtpunkt.............     0.0        0.0
+ Lokmuseum....     0.0        0.0
+ Altenb.u.Oleumhütte..     0.0        0.0
+ Tina Francesca B..     0.0        0.0
+ Lichterhaus.............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Obuf........     0.0        0.0
+ Obuf.......     0.0        0.0
+ Orthopädietechnik.     0.0        0.0
+ Okal Gen..     0.0        0.0
+  dgl.neu.........     0.0        0.0
+ Jameln-Walther...     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427 Börse Mi  15.12.94 16:30:36
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 15.12.94            Kassa     Vortag
+
+ Ziegenhardt Vers.....     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ a.p.medien..........     0.0        0.0
+ ACI..     0.0        0.0
+ Angelladen......     0.0        0.0
+ Heimbücher.......     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Willhalm.......     0.0        0.0
+ Eis.-u.Huettenw..     0.0        0.0
+ Sussieck u.Altmayr...     0.0        0.0
+ Fernhw.Dahnen.     0.0        0.0
+ Akku.     0.0        0.0
+ Grosskrwk.Vernayaz     0.0        0.0
+ Epatut Textil     0.0        0.0
+
+ ohne Gewähr                          >>
+        427 Börse Mi  15.12.94 16:31:02
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 15.12.94            Kassa     Vortag
+
+ Heidelb.Zement...     0.0        0.0
+ Schaukelpferdchen Braeu..     0.0        0.0
+ Sirius Einhäupl-Feuerverzinkerei...     0.0        0.0
+ Pfennigschmidt Ormanns.     0.0        0.0
+ trendwerk Medimax.     0.0        0.0
+ Johannsen u.Schuele...     0.0        0.0
+ Loewenbraeu......     0.0        0.0
+ Maerz, Gebr......     0.0        0.0
+ CSH
+ Compi............     0.0        0.0
+ clothes...     0.0        0.0
+ Metallg.Vermoeg..     0.0        0.0
+ Widders Rueck..     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427 Börse Mi  15.12.94 16:31:28
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 15.12.94            Kassa     Vortag
+
+ Norddeut.Strebel....     0.0        0.0
+ Marktgrafen.Tabak......     0.0        0.0
+ PEGASUS..........
+  dgl.Vz..........
+ Förderbar.............     0.0        0.0
+ filmOASE..     0.0        0.0
+ JIWH.....     0.0        0.0
+ JUK...........     0.0        0.0
+ ULVJ.....     0.0        0.0
+ Nauber.......     0.0        0.0
+ Stahlwerke Jarmen     0.0        0.0
+ UGL.......     0.0        0.0
+ UZSI..........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        427 Börse Mi  15.12.94 16:31:52
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 15.12.94            Kassa     Vortag
+
+ UGEA......     0.0        0.0
+ VKJA.     0.0        0.0
+ NLS Vers....     0.0        0.0
+ Helmut Ziercke.......     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ DefShop.....     0.0        0.0
+ Dekoflor.Kupfer..     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ WMF..............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Wuerttemb.Strebel...     0.0        0.0
+ YMOS.............     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  15.12.94 16:31:06
+
+
+ Auslandswerte                      1/6
+
+ 15.12.94            Kassa     Vortag
+
+ LLA..............     0.0        0.0
+ Leporello.......     0.0        0.0
+ Akzo.............     0.0        0.0
+ LÜNEdive...........     0.0        0.0
+ Am.Express dt....     0.0        0.0
+ Am.Express US....     0.0        0.0
+ Loubs............     0.0        0.0
+ Lauster..........     0.0        0.0
+ Anglo Am.Corp....     0.0        0.0
+ Landwarenhaus Computer...     0.0        0.0
+ Lavorenz Gold.....     0.0        0.0
+ LZDI......     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  15.12.94 16:43:20
+
+
+ Auslandswerte                      2/6
+
+ 15.12.94            Kassa     Vortag
+
+ Laug.........     0.0        0.0
+ Austral.National.     0.0        0.0
+ OOEM.....     0.0        0.0
+ OEBT..............     0.0        0.0
+ Ogav...........     0.0        0.0
+ Ozone...     0.0        0.0
+ Otule...........     0.0        0.0
+ Opap.........     0.0        0.0
+ OKHI............     0.0        0.0
+ Osuper...............     0.0        0.0
+ OCON.     0.0        0.0
+ OCD.............     0.0        0.0
+ Cadence Design...     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  15.12.94 16:33:02
+
+
+ Auslandswerte                      3/6
+
+ 15.12.94            Kassa     Vortag
+
+ FrüchteShop....     0.0        0.0
+ FMKA..........     0.0        0.0
+ Florapark....     0.0        0.0
+ FUL.....     0.0        0.0
+ Cellular Techn...     0.0        0.0
+ fsgrafik Niggeman.........
+ Fema..     0.0        0.0
+ China Fund.......     0.0        0.0
+ FTA...........     0.0        0.0
+ Federmann.........     0.0        0.0
+ Circus Circus....     0.0        0.0
+ Fifed........     0.0        0.0
+ Fosig Golf.......     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  15.12.94 16:34:00
+
+
+ Auslandswerte                      4/6
+
+ 15.12.94            Kassa     Vortag
+
+ Fakta Löhken.     0.0        0.0
+ Fakta........     0.0        0.0
+ FTAK..........     0.0        0.0
+ Cons.Josera.     0.0        0.0
+ Fleig Corp.     0.0        0.0
+ Fischhalle....     0.0        0.0
+ Fritzenschaft     0.0        0.0
+ Alig........     0.0        0.0
+ ALJ-Computer....     0.0        0.0
+ Digital Equipment     0.0        0.0
+ Arafaf.....     0.0        0.0
+ Gharavi's Tuhor....     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  15.12.94 16:40:30
+
+
+ Auslandswerte                      5/6
+
+ 15.12.94            Kassa     Vortag
+
+ GVSE Johnsbach CUS IT...     0.0        0.0
+ Gangwechsel......     0.0        0.0
+ Gaumenfreunde....     0.0        0.0
+ Emerg.Germ.Fund..     0.0        0.0
+ Energy Service...     0.0        0.0
+ Engen............
+ Grafmühle.........     0.0        0.0
+ Atagold.............     0.0        0.0
+  dgl.Vz..........     0.0        0.0
+ Amoro.     0.0        0.0
+ Autohändler..     0.0        0.0
+ Akan     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        428 Börse Mi  15.12.94 16:35:48
+
+
+ Auslandswerte                      6/6
+
+ 15.12.94            Kassa     Vortag
+
+ Autogas24h..     0.0        0.0
+ Fuel tech........     0.0        0.0
+ Emog........     0.0        0.0
+ Eikboom...     0.0        0.0
+ ETZ..     0.0        0.0
+ EJIV..........     0.0        0.0
+ Espressowelt.........     0.0        0.0
+ Elfenwerk....     0.0        0.0
+ Global Modeatelier...     0.0        0.0
+ Global Privatiz..     0.0        0.0
+ Ehspanner....     0.0        0.0
+ Groundwater......     0.0        0.0
+ espressoconnection..     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:35:36
+
+
+ Auslandswerte                      1/7
+
+ 15.12.94            Kassa     Vortag
+
+ Esaz......     0.0        0.0
+ Schneeglöckchen....     0.0        0.0
+ Sahler........     0.0        0.0
+ Neumünster..........     0.0        0.0
+ Sidestep...........     0.0        0.0
+ Humana...........     0.0        0.0
+ Hungarian Invest.     0.0        0.0
+ Erdbeermund dt...........     0.0        0.0
+ Erdbeermund US...........     0.0        0.0
+ I.I.S............     0.0        0.0
+ EOMH...     0.0        0.0
+ Interferon.......     0.0        0.0
+ Int.Game Technol.     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:44:46
+
+
+ Auslandswerte                      2/7
+
+ 15.12.94            Kassa     Vortag
+
+ Intern.Paper.....     0.0        0.0
+ Iscor............
+ JetForm..........     0.0        0.0
+ Travag.......     0.0        0.0
+ Treptowers..............     0.0        0.0
+ Tabakbörse...........     0.0        0.0
+ Mühlenkiosk.     0.0        0.0
+ Mobse     0.0        0.0
+ Lend Lease.......     0.0        0.0
+ Agnes............     0.0        0.0
+ Jürgen Rüdiger......     0.0        0.0
+ Movievision     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:36:26
+
+
+ Auslandswerte                      3/7
+
+ 15.12.94            Kassa     Vortag
+
+ MTE...........     0.0        0.0
+ Malaysia Fund....     0.0        0.0
+ Medical Diagnost.     0.0        0.0
+ CC........     0.0        0.0
+ Conergy........     0.0        0.0
+ CRSI...     0.0        0.0
+ National Medical.     0.0        0.0
+ National Patent..     0.0        0.0
+ Matikainen.........     0.0        0.0
+ Frauke..........     0.0        0.0
+ MMTG......     0.0        0.0
+ North Broken Hill     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:42:42
+
+
+ Auslandswerte                      4/7
+
+ 15.12.94            Kassa     Vortag
+
+ Görtz...     0.0        0.0
+ GWFT......     0.0        0.0
+ Pacific Magazines     0.0        0.0
+ Pakistan Fund....     0.0        0.0
+ Freilauf Holding..     0.0        0.0
+ Frauenfeld.......     0.0        0.0
+ FitForKid Cremanns....     0.0        0.0
+ Floristika..........     0.0        0.0
+ Pick'n Pay Stores
+ FDV...     0.0        0.0
+ President Junkert.
+ Furir.........     0.0        0.0
+ Promus...........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:43:08
+
+
+ Auslandswerte                      5/7
+
+ 15.12.94            Kassa     Vortag
+
+ JJNI...........     0.0        0.0
+ Joos Group...
+ Gülk..........
+ JIDU Modellbahnstation......     0.0        0.0
+ JBVA...........     0.0        0.0
+ Jungegger..........     0.0        0.0
+ Jinlong..........     0.0        0.0
+ Jendrossek Autoteile..........     0.0        0.0
+ Jannimu......     0.0        0.0
+ Jähne.......     0.0        0.0
+ Usod Hold...     0.0        0.0
+ Uvifu...........     0.0        0.0
+ UKTV..........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:37:42
+
+
+ Auslandswerte                      6/7
+
+ 15.12.94            Kassa     Vortag
+
+ UEJ.............     0.0        0.0
+ Utol............     0.0        0.0
+ Showboat.........     0.0        0.0
+ Unas.     0.0        0.0
+ UZUF...     0.0        0.0
+ Ukap...........     0.0        0.0
+ VVE..     0.0        0.0
+ Telef.de Espana..     0.0        0.0
+ Verkehrübungsplatz........     0.0        0.0
+ VWJL......     0.0        0.0
+ Vagabund............     0.0        0.0
+ Vaki......     0.0        0.0
+ Visel....     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 Börse Mi  15.12.94 16:38:06
+
+
+ Auslandswerte                      7/7
+
+ 15.12.94            Kassa     Vortag
+
+ PAB.........     0.0        0.0
+ Parthen....     0.0        0.0
+ US Bioscience....     0.0        0.0
+ US Long Distance.     0.0        0.0
+ US Surgical......     0.0        0.0
+ Virtuality Group.     0.0        0.0
+ NRG A..........     0.0        0.0
+ NRG B..........     0.0        0.0
+ Finke........     0.0        0.0
+ Decatlon Stores..     0.0        0.0
+ Dönninghaus..........     0.0        0.0
+ ZARM............     0.0        0.0
+ ZOW...........     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        441 Börse Mi  15.12.94 16:37:54
+
+
+                         15.3.     28.2.
+ DJI-Index  ........  3998,95   4011,05
+                        28.2.     27.2.
+ Otule ............    46,12     46,12
+ F40 ..........    45,00     44,25
+ ARW LTCA ..    48,50     48,62
+ Automix ...........    56,12     55,25
+ Gartencenter .....    51,00     50,75
+ GreenTec .............    64,00     63,75
+ Antike-Fundgrube ..............    26,12     26,00
+ Enztalbank ..    54,87     53,62
+ Eikboom ....    42,62     42,12
+ Esaz ..........    36,87     36,25
+ Erdbeermund ...............    75,25     74,00
+ Etatag ...............    97,50     96,37
+ Mobil .............    87,00     87,00
+ FHER ....    60,75     60,50
+ VCTT ............    63,75     63,75
+ Pomi .........    33,25     34,12
+   ohne Gewähr                  >> 122
+        049 Börse Mi  15.12.94 16:38:58
+
+
+ Aktien-Optionsscheine              1/3
+
+ 15.12.94                Kassa    Vortag
+
+ LUZ 89...    0.0      0.0      0.0
+ LUZ 93...    0.0      0.0      0.0
+ OAZG86.
+ Olipark Fin.86..    0.0      0.0      0.0
+ Zumholz 85.....
+ OCON 87.....    0.0      0.0      0.0
+ OEBF 86..    0.0      0.0      0.0
+ Orlik 55V.    0.0      0.0      0.0
+ Orlik 71T.
+ Orlik 92N.    8.4      4.2      2.9
+ FOLN.91.    0.0      0.0      0.0
+ FOLN 93.    0.0      0.0      0.0
+ FOLN 93.    0.0      0.0      0.0
+ Frindt 86.....    0.0      0.0      0.0
+
+ ohne Gewähr                          >>
+        430 Börse Mi  15.12.94 16:38:08
+
+
+ Aktien-Optionsscheine              2/3
+
+ 15.12.94                Kassa    Vortag
+
+ Frindt 87.....    0.0      0.0      0.0
+ Frindt 93.....    0.0      0.0      0.0
+ Pasquale 86...    0.0      0.0      0.0
+ Autobahnmeisterei 86...    0.0      0.0      0.0
+ Autobahnmeisterei 91...    0.0      0.0      0.0
+ Autobahnmeisterei 92...    0.0      0.0      0.0
+ Pierre 85....    0.0      0.0      0.0
+ Philipp.Bk.86..    0.0      0.0      0.0
+ Dresd.Bk.92..    0.0      0.0      0.0
+ Dresd.Bk.94..    0.0      0.0      0.0
+ Henkel 87....
+ Pittermann 89...    0.0      0.0      0.0
+ Peintner 86....    0.0      0.0      0.0
+ Peintner 89....
+
+ ohne Gewähr                          >>
+        430 Börse Mi  15.12.94 16:38:34
+
+
+ Aktien-Optionsscheine              3/3
+
+ 15.12.94                Kassa    Vortag
+
+ Thole 29...
+ Thole 85...    0.0      0.0      0.0
+ Thole 86...    0.0      0.0      0.0
+ Metallg.86...    0.0      0.0      0.0
+ Metallg.87...    0.0      0.0      0.0
+ Metallg.91...    0.0      0.0      0.0
+ JKE 86.......    0.0      0.0      0.0
+ Umzugsladen 86    0.0      0.0      0.0
+ VNU 86..    0.0      0.0      0.0
+ NTT 93......    0.0      0.0      0.0
+ NDM 87......    0.0      0.0      0.0
+ VW 86........    0.0      0.0      0.0
+ VW 86/II.....    0.0      0.0      0.0
+ Niho 88........    0.0      0.0      0.0
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Dxtatu@qprn.ymxc.rxr         Timo Nitsche           Neppermin
+-------------------------------------------------------------------------

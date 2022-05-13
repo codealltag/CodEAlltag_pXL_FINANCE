@@ -1,0 +1,23 @@
+Hallo zusammen!
+
+Ich habe folgendes Problem:
+
+Ich lege monatlich 100 DM in einen Aktienfond an und möchte nun die Rendite
+p.a. berechnen. Aber wie mache ich das?
+
+Das eingesetzte Kapital steigt ja von Monat zu Monat. Wäre es eine einmalige
+Zahlung (K0) zum Zeitpunkt t=0, dann könnte ich ja einfach die Rendite zum
+Zeitpunkt t=n ausrechnen, in dem ich wie folgt rechne:
+
+r = Kn / K0 / n
+
+Oder?
+
+Wie ist es aber bei steigendem eingesetzen Kapital. Schließlich müßten sich
+die ersten 100 DM doch mehr verzinsen als die letzten. Oder mache ich da
+irgendwie einen Gedankenfehler?
+
+Wer kann mir helfen? Gibts für sowas vielleicht eine Exceltabelle?
+
+Viele Größe,
+Lothar

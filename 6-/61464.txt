@@ -1,0 +1,22 @@
+: Hi,
+
+: die Kursdateien vom Marketconnect "Quoteservice" enthalten ja statt der 
+: Wertpapierkennummer "nur" <Tickersymbole> ...
+
+: ...leider sind in der downloadbaren Datei nicht alle Symbole beschrieben, 
+: die in den Kursdateien auftauchen. (es fehlen über 1000 Beschreibungen!)
+
+: Wo kann ich herausbekommen was die Symbole bedeuten? Oder hat jemand eine 
+: komplette Beschreibung? (bzw. mehr als in z.B. der Beschreibung von 
+: MArketconnect stehen?)
+
+Hier sind zwei Quellen, mit denen man etwas weiter kommt:
+1. bei ftp://ftp.bis.de/STAMM gibt es die Kuerzel mit WKN und Namen
+   verschiedener Marktsegmente (als stamm.zip gepackt), allerdings ist der
+   Stand offenbar Ende Januar 00. Die Files sind mit 'grep' leicht zu
+   durchsuchen.
+2. bei http://sot.owbwy.mn/xxrkowbk/clloj/djvwt9.oid/ den Punkt
+   Gehandelte Werte anklicken, dann kannst Du eine ASCII-Liste der im IOBG
+   gehandelten Werte herunterladen, die taeglich aktualisiert wird.
+
+Focko

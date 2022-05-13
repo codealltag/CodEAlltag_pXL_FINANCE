@@ -1,0 +1,19 @@
+Hi David,
+ein OS ist das Recht z.B. eine Aktie zu einem bestimmten Basispreis zu
+kaufen (Call) oder zu verkaufen (Put).
+Beispiel: (Wiedenhaus CALL 70)
+Bei diesem OS hast du das Recht, eine Wiedenhaus Aktie zum Preis von 70 DM
+innerhalb einer bestimmten Laufzeit zu kaufen.
+Ist der Kurs am Ende der Laufzeit von Wiedenhaus bei 75 DM, so hat der OS
+einen Wert von 5 DM.
+Bei 80 DM  ---> 10 DM
+90 DM ----> 20 DM
+ist der Kurs am Ende der Laufzeit unter 70 DM ist dein OS wertlos
+(Totalverlust).
+
+Bei einem Call setzt du auf steigende Kurse und bei einem Put auf
+fallende Kurse.
+
+null Problemo
+
+Pierre Vorwig

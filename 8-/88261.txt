@@ -1,0 +1,23 @@
+Hallo Marc,
+
+das war ein Supertip von Dir. Habe alles Gesuchte in der Excel-Hilfe gefunden. Es muß da
+es
+prozentuale Steigungen sind sich aber um eine Regressionskurve handeln.
+
+Steigung = INDEX(RKP(A1:A7);1)=1,16033.....       entspr. einer 16%igen jährl.
+Gewinnsteigerung
+
+Schnittpunkt = INDEX(RKP(A1:A7);2)=2,1967        Anfangswert der Trendkurve
+
+Unter A1:A7 verbergen sich unsere bekannten Beispielwerte 2,3,6,7,1,9,7
+
+Fazit:
+
+Die Gewinne dieser Beispielaktie steigen durchschnittlich mit 16% vom Anfangswert 2,1967
+aus.
+Da diese Gewinne aber sehr geschwankt haben sind die Ergebnisse natürlich nicht absolut
+genau.
+
+Gruss
+
+Ivano

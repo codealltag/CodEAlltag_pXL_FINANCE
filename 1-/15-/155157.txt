@@ -1,0 +1,18 @@
+Hallo Willy,
+
+die Daten die ich bekomme laufen auch korrekt in die DB. Nur: ich
+bekomme für etliche Werte keine Daten mehr oder zumindest unter
+einer WPKN, die in meiner DB nicht bekannt ist. Ich habe mal einen
+Filter darüber laufen lassen: ca. 560 von 5380 Werten haben einen
+Aktualisierungsstand vor dem 26.05.98 (OS/Anleihen/Optionen habe ich
+ausgenommen).
+
+Das WP, an dem mir die Sache auffiel, ist MO in CRATZENBACH. Bis Anfang Mai
+lieferte AJDS diese Kurse unter WPKN 251777. Plötzlich kamen die Kurse
+unter WPKN 025063 (hat mir AJDS Ende letzter Woche mittgeteilt). Seit
+Dienstag kommen die Kurse nun auch nicht mehr unter 025063. Sie kommen
+aber auch nicht unter 251777. Auf die Mitteilung der wiederum neuen WPKN
+warte ich im Moment noch.
+
+Gruß
+Valerio

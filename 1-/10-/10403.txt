@@ -1,0 +1,437 @@
+Delta-Hedge
+Author Ißleb
+Letztens haben wir den statischen Delta-Hedge erläutert. Zur
+Erinnerung: Durch den einmaligen Kauf einer Absicherung in Form eines
+Puts kann ein Portfolio zum Laufzeitende des Optionsscheins gegen
+Kursverluste versichert werden. In der vorliegenden Ausgabe stellen
+wir nun den dynamischen Delta-Hedge vor, der mit einigen Nachteilen
+des statischen Delta-Hedges aufräumen wird.
+Der statische Delta-Hedge hat seine Be=ACzeichnung voll und ganz
+verdient, da zu keinem Zeitpunkt während der Laufzeit Anpassungen an
+den zwischenzeitlichen Kursverlauf vorgenommen werden. In die=ACsem
+Punkt ist er tatsächlich bestens mit dem Abschluss der
+Vollkaskoversicherung eines Automobils vergleichbar. Darüber hinaus
+war der gesamte Zeitwertanteil der eingesetzten Versicherungsprämie am
+Ende der Laufzeit stets verloren, und die Absicherung garantierte den
+Werterhalt eines Portfolios nur zum Laufzeitende.
+Beim dynamischen Delta-Hedge wird hingegen die Kennzahl Delta, die
+be=ACkanntlich die Änderung des Options=ACscheinwertes bei Veränderung =
+des
+Basis=ACwertkurses angibt, berücksichtigt. Da sich diese Kennzahl
+laufend ändert, wird auch die Absicherungsposition perma-
+nent angepasst. Tatsächlich erfolgt die Anpassung in Intervallen, da
+die Trans=ACaktionskosten bei einer Vielzahl von sehr kleinen Geschäften
+ansonsten ins Ufer=AClose wachsen würden.
+Wie genau sieht nun aber die Be=ACrücksichtigung des Deltas beim
+dynami=ACschen Delta-Hedge aus? Zu Beginn die=ACser Schilderung zunächst
+einmal eine schlechte Nachricht: Die Anzahl der für einen statischen
+Delta-Hedge zu kaufen=ACden Optionsscheine reicht nicht aus. Ein
+Anleger, der auch während der Laufzeit jeweils abgesichert sein
+wollte, wäre unterversichert, da die statische Absiche=ACrung immer nur
+am Ende der Laufzeit greift. Der Grund hierfür: Der Options=ACscheinwert
+hat bei Verfall =96 sofern im Geld =96 ein =84Delta=93 von minus eins, vor=
+=ACher
+aber stets ein höheres Delta. Das
+Minus gibt an, dass der Put steigt, wenn der Basiswert fällt. Der Wert
+eins gibt an, dass die Entwicklung absolut linear ist: pro Euro, den
+der Basiswert fällt, steigt ein Optionsschein (bereinigt um das Ratio)
+um einen Euro.
+Vor dem Verfall =96 also zum Zeit=ACpunkt für den möglichen Abschluss
+einer entsprechenden Versicherung =96 wird das Delta jedoch betragsmäßi=
+g
+kleiner sein als der Wert eins. Die Entwicklung des Basiswertes wird
+nicht =84eins zu eins=93 nachvollzogen, sondern nur =84Delta zu eins=93, al=
+so
+entsprechend um das Delta ge=ACdämpft. Bei einem Delta von =960,5
+be=ACdeutet dies, dass ein Kursrückgang von einem Euro beim Basiswert
+nur zu einem (wiederum um das Ratio bereinigten) An=ACstieg des
+Optionsscheins von 0,50 Euro führen würde. Da der Anleger mit einem
+dynamischen Delta-Hedge jedoch zu jedem Zeitpunkt die volle
+Absicherung anstrebt, muss er nun entsprechend mehr Optionsscheine
+kaufen, damit diese zu=ACsammen die insgesamt benötigte Perfor=ACmance
+liefern. Im vorliegenden Beispiel wären das 1 dividiert durch 0,5 =96
+also genau 2 Optionsscheine pro zugrunde liegender Aktie (siehe
+Beispielrechnung).
+Für den statischen Delta-Hedge, so wie er in der letzten Folge
+besprochen wurde, hätte dagegen ohne die Berück=ACsichtigung des
+aktuellen Deltas der Kauf von 1.000 Optionsscheinen gereicht. So
+erscheint die dynamische Absicherung
+Anzahl Optionsscheine
+10.000 Euro
+Anzahl Optionsscheine =3D =97
+BEISPIELRECHNUNG
+
+auf den ersten Blick sehr teuer und da=ACmit uninteressant =96 an spätere=
+r
+Stelle wird sich aber zeigen, dass diese ober=ACflächliche Betrachtung
+zu einem falschen Schluss führen würde =85
+Doch spielen wir zunächst das hypo=ACthetische Beispiel der Absicherung
+ein=ACmal durch. Die Ausführungen schließen an diejenigen der
+Beispielrechnung un=ACten auf dieser Seite an. Fiele der Basis=ACwert nun
+um einen Euro auf 99 Euro, so wäre das Portfolio des Anlegers nur noch
+99	Euro x 100 Aktien =3D 9.900 Euro
+wert. Auf der anderen Seite wären die
+2.000 Optionsscheine voraussichtlich je=AC
+weils um Delta x Ratio x Kursbewegung
+(also =960,5 x 0,1 x (=961 Euro) =3D 0,05 Eu=AC
+ro) im Wert gestiegen. Das würde dann
+einen Anstieg des Wertes der Options=AC
+scheinposition (von 2.000 x 0,05 Euro =3D
+2.000 Stück
+100	Euro) bedeuten und damit wie ge=AC
+plant den Kursrückgang der Aktienposi=AC
+tion genau ausgleichen. Jedoch gilt dies
+auch umgekehrt im Falle eines Aktien=AC
+kursanstiegs =96 von diesem könnte der
+Anleger auch nicht profitieren: Ein An=AC
+stieg der Aktien auf 101 Euro würde den
+Wert des Portfolios zwar auf 10.100 Eu=AC
+ro ansteigen lassen, jedoch stünden die=AC
+ser Steigerung Verluste in Höhe von Del=AC
+ta x Ratio x Kursbewegung (also =960,5 x
+0,1 x (+1 Euro) =3D =960,05 Euro pro Op-
+tionsschein und damit -100 Euro insge=ACsamt) gegenüber =85
+Wann wird der dynamische Delta-Hedge dynamisch?
+Die Dynamik des dynamischen Delta-Hedges tritt auf, wenn der Anleger
+seine Optionsscheinposition anpasst - denn eine Kursveränderung des
+Basiswertes führt auch zu einer Änderung des Deltas des
+Optionsscheins. Da er tiefer ins Geld kommt, wenn der Basiswert fällt,
+wird das Delta des Optionsscheins betrags=ACmäßig größer, und der
+Anleger wäre mit der bestehenden Position überversichert. Anknüpfend
+an das vorhergehende Bei=ACspiel stellen wir folgende Rechnung auf: Das
+Delta hat sich bei dem Kursrückgang ( J der Akademie-Aktie von 100 auf
+99 Eu=ACro von -0,5 auf -0,53 verändert. Damit müsste der Anleger nun
+gemäß obiger Formel nur 1.887 Optionsscheine mit dem Delta von -0,53
+halten. So muss er - und hier offenbart sich die Dynamik des Vorgangs
+- 113 Optionsscheine verkau=ACfen. Stiege der Aktienkurs zum Beispiel
+auf 101 Euro und würde sich ein Delta von -0,48 einstellen, wäre er
+unterversi=ACchert. Er müsste also weitere Options=ACscheine hinzukaufen.
+Der Clou an diesem Vorgehen: Der Anleger muss immer Put-Optionsschei
+ne hinzu kaufen, wenn die zugrunde lie-i) gende Aktie steigt - die
+Puts also billig werden. Umgekehrt muss er Scheine verkaufen, wenn die
+Aktie fällt, seine Puts also im Wert gestiegen sind. Damit nimmt er
+genau die entgegengesetzte Po=ACsition zu dem Emittenten ein, für den
+wir einen Delta-Hedge in der Folge 7 der Atak-Akademie
+vorgestellt haben. Der Emittent musste immer teu=ACer kaufen und billig
+verkaufen. Im fast immer englischen Fachjargon werden die beiden
+Positionen nämlich wie folgt be=ACzeichnet: Der Emittent ist in dem Fall
+=84Volatilität short=93 (er hat eine Options=ACscheinposition verkauft un=
+d
+muss sich nun absichern), während der Anleger f~\ =84Volatilität long=
+=93
+ist (er hat eine Op=ACtionsscheinposition aufgebaut).
+Diese beiden Positionen unterschei=ACden sich in einer Reihe von Punkten
+grundlegend, wie Tabelle 1 zeigt. Damit wird deutlich, welche beiden
+Strategien ein Anleger mit dem dynamischen Delta-Hedge verfolgen kann:
+1. Einerseits kann er so mit beliebigen Put-Optionsscheinen (falls
+kein passen=ACder Am-Geld-Put verfügbar ist) eine Form der Absicherung
+herstellen, bei der er weder positive noch negative Erträge aus
+Kursbewegungen der von ihm ge=AChaltenen Aktien erhält.
+Beispiel
+Ein Anleger geht davon aus, dass die Ak=ACtienperformance in jedem
+September schlecht ist, und nutzt beliebige Puts, um
+für genau diesen Zeitraum sein Portfolio von den Kursbewegungen des
+Basiswer=ACtes unabhängig zu machen. Dazu muss er dann keinen Am-Geld-
+Put mit Fälligkeit 22. Oktober 2003 finden, den er für die
+Absicherung mittels des statischen Delta-Hedges bräuchte. Den es aber
+in der Realität nicht gab.
+2. Ein Anleger erwartet starke Kursän=ACderungen in der Zukunft und geht
+dabei von größeren Veränderungen aus, als den über die implizite
+Volatilität in den Optionsscheinpreis vom Emittenten ein-gepreisten.
+Denn während die eigent=ACliche Basiswert-Kursbewegung durch den Delta-
+Hedge keinen Einfluss auf den Ge=ACsamtwert des Portfolios hat, kann
+durch die regelmäßige Anpassung nach starken Schwankungen über die
+geänderten Put=ACKurse Geld =84verdient=93 werden. In die=ACsem Zusammenh=
+ang
+ist es irrelevant, ob die Aktie steigt oder fällt.
+Dieser zweite Fall soll an zwei Bei=ACspielen (vgl. Szenario A und
+Szenario B) vorgestellt werden. In beiden Fällen führt ein Anleger
+einen dynamischen Delta-Hedge mit Put-Optionsscheinen durch. Er hält
+ein Portfolio von 100 Skanform=SZEG, die jeweils zu 100 Euro
+notieren; der Portfolio-Wert beträgt also 10.000 Euro. Als Put hat er
+einen leicht im-Geld notierenden Optionsschein mit Aus=ACübungskurs 105
+Euro und einer Laufzeit von einem Jahr gewählt. Die implizite
+Volatilität wird konstant mit 26% p.a. angenommen, und alle
+Anpassungen er=ACfolgen, um Transaktionskosten zu spa-
+ren, annahmegemäß nur an jedem Mo-natsersten. Die beiden Szenarien
+unter=ACscheiden sich nur in der eingetretenen Kursentwicklung. Im
+ersten Fall sind die Kursschwankungen moderat, im zweiten Fall bricht
+die Aktie nach einem Kursan=ACstieg wieder ein, vergleiche Chart 1. In
+beiden Fällen hat die Skanform-Aktie nach einem Jahr wieder genau den
+Wert, zu dem sie am Jahresanfang notierte. Da-mit sind die Einflüsse
+des Basiswertkur=ACses auf das Endvermögen ausgeschlossen, entscheidend
+ist nur die Schwankungsin=ACtensität.
+Die Entwicklung über das Jahr kann in Szenario A wie folgt abgelesen
+werden:
+Am 23. Februar 2003 notiert die Aktie bei 100 Euro, steigt bis zum 23.
+März 2003 auf 105 Euro, fällt im nächsten Mo=ACnat wieder auf 98 Eur=
+o
+zurück und so weiter.
+Bei einem Kurs von 100 Euro am 23. Februar 2003 notiert der oben
+er=ACwähnte Put-Optionsschein bei 11,43 Eu=ACro =96 zusammengesetzt aus 5
+Euro (105 Euro =96 100 Euro) innerem Wert und 6,43 Euro (11,43 Euro =96 5
+Euro) Zeit=ACwert. Das Delta dieses Optionsscheins beträgt =960,477.
+Mit der Formel aus der Beispiel=ACrechnung auf Seite 2 und der Annahme,
+dass es sich um einen Optionsschein mit dem Bezugsverhältnis 1:1
+handelt, er=ACrechnet sich folglich eine Position in Hö=AChe von 210
+Optionsscheinen, die der An=ACleger halten muss, um sein Portfolio von
+10.000 Euro in Akademie-Aktien Delta=ACneutral abzusichern. Zu Beginn
+hat er
+
+noch keine Optionsscheine und muss entsprechend alle 210
+Optionsscheine zum aktuellen Marktpreis kaufen. Der Aufwand beträgt
+2.397 Euro, die so auch in der Spalte des kumulierten Be=ACtrages
+erscheinen.
+Am 23. März ist das Delta seines Op=ACtionsscheines nach dem Anstieg
+des Ba=ACsiswertes gesunken, so dass er nun eine Position von 234
+Optionsscheinen benötigt. Er muss also 24 weitere Schei=ACne zum neuen =
+=96
+niedrigeren Preis =96 kau=ACfen, dafür weitere 215 Euro aufwenden und hat
+so insgesamt 2.612 Euro in Optionsscheinen angelegt (siehe Szena=ACrio
+A).
+Führt er diese Strategie bis zum Ende durch, so hält er am Schluss
+eine Position von 223 Optionsscheinen im Wert von jeweils 5 Euro,
+insgesamt also
+1.115 Euro, für die er jedoch insgesamt kumuliert 1.410 Euro
+aufgewendet hat. Die Aktienposition ist unverändert 10.000 Euro wert.
+Die Spekulation ist in diesem Falle nicht aufgegangen, der An=ACleger
+hat Geld verloren.
+Fallen jedoch die Kursbewegungen größer aus, wie in Szenario B, so
+wendet sich das Bild. In den unten stehenden Chart sind die beiden
+Kursverläufe wäh=ACrend eines Jahres einmal gegenüberge=ACstellt: Es =
+ist
+klar ersichtlich, dass Szena=ACrio B wesentlich volatiler ist.
+Die gleiche tabellarische Aufstellung wie oben führt nun auch zu einem
+ganz anderen Ergebnis (siehe Szenario B).
+In diesem Fall besitzt der Anleger am Laufzeitende 118 Optionsscheine,
+die ebenfalls zu je 5 Euro automatisch aus=ACgeübt würden =96 aber dar=
+über
+hinaus hat
+er während der Laufzeit durch den billi=ACgen Kauf und teuren Verkauf
+von Op- ( J tionsscheinen einen Überschuss von über 6.000 Euro
+erzielt, so dass sich die An=ACnahme der starken Kursbewegungen für den
+Anleger ausgezahlt hat.
+In der Gegenüberstellung der ge=ACdachten Kursverläufe zu der jeweilige=
+n
+Entwicklung des Investorvermögens zeigt sich, dass die größten
+Zuwächse immer angesichts einer besonders erratischen Kursentwicklung
+erfolgen. In diesem Rahmen ist jedoch gerade die Richtung der
+Kursbewegung nicht relevant.
+
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+Das Gamma bei Optionsscheinen
+Author Ißleb
+Gamma =96 Trader=92s bester Freund  optionsscheine und Turbos
+unterschei=ACden sich in mehreren wichtigen Punkten. Der wohl wichtigste
+ist, dass Turbos ausknocken können und bei Erreichen einer bestimmten
+Barriere entweder wertlos oder mit einem Restwert ver=ACfallen. Bis zum
+Ausknocken notieren sie dafür immer nur genau zum inneren Wert bzw.
+mit einem relativ kleinen Finanzierungsaufgeld, wenn es sich um Turbos
+mit einer begrenzten Laufzeit handelt.
+Im Gegenteil hierzu setzt sich bei Optionsscheinen, die den Vorteil
+haben, nicht auszuknocken, der Gesamtwert im=ACmer aus innerem Wert und
+Zeitwert zu=ACsammen. Dabei kann der Zeitwert, auch
+absolutes Aufgeld genannt, durchaus den Löwenanteil oder =96 bei Aus-dem-
+Geld-Optionsscheinen =96 den gesamten Wert des Optionsscheins ausmachen.
+Dieses Aufgeld beim Optionsschein ist nun die Ursache für die
+unangeneh=ACmen Seiten der Optionsscheine: Da es sich über die Laufzeit
+bis zum Verfall auf jeden Fall bis auf Null abbaut, macht ein Anleger
+durch diesen Zeitwertverlust nur durch das Halten des Optionsscheins
+einen Verlust, wenn alle anderen kurs=ACbestimmenden Faktoren
+unverändert bleiben. Die Zeit arbeitet also gegen den Anleger.
+Außerdem wirkt sich auch der kursbestimmende Faktor Volatilität auf
+den Zeitwert eines
+Da die Entwicklung der Volatilität für	die =84falsche=93 Richtung dem
+Anleger	Weiter angenommen, der DAX=AE
+die meisten Anleger weniger leicht ein-	nicht den Gewinn nehmen, wenn
+er	würde nun aufgrund von positiven
+zuschätzen und nachzuvollziehen ist als	grundsätzlich richtig gelegen
+hat und	Nachrichten am nächsten Tag bereits zur
+die des Basiswertkurses, ist die Volatili-	sich die Kurse danach auch
+in seine Rich-	Eröffnung um über 1,5 Prozent auf
+tätsabh=E4ngigkeit der Optionsscheinkur-	tung bewegen.	3.700 Punkte
+zulegen, und ein Investor
+se gerade für weniger erfahrene Anleger Eng verbunden mit dem Problem
+wollte entweder mit Optionsscheinen
+ein Grund, zu Turbo-Produkten zu grei-	des Ausknockens der Turbo
+Futures ist,	oder Turbo Futures intraday auf weiter
+fen, da bei diesen die Volatilität keine	dass dadurch die verfügbare
+Produkt-	steigende Kurse setzen. Je nachdem, wel-
+Rolle spielt.	auswahl eingeschränkt ist. Denn es kann	ches Ziel der
+Anleger verfolgt, wird er
+Wie schon ausgeführt, baut sich der	ja keinen Turbo Future geben, der
+keinen	zu unterschiedlichen Ergebnissen bei sei-
+Zeitwert über die Laufzeit nach und	inneren Wert hat. Damit ist der
+Finan-	ner Auswahl kommen.
+nach bis auf Null ab und ist so entspre-	zierungslevel eines Turbo
+Futures Long	Sehen wir uns für beide Produkt-
+chend ganz kurz vor dem Verfall schon	stets niedriger als der aktuelle
+Kurs des	kategorien jeweils zwei typische Vertre-
+sehr niedrig. Genau an diesem Zu-	Basiswertes; das Umgekehrte gilt für
+den	ter an: Für die Turbo Futures gehen das
+sammenhang setzt nun die Idee mit den	Short. Wegen der Eigenschaft des
+Turbo	aggressivste verfügbare Instrument, der
+sehr kurz laufenden Optionsscheinen an:	Futures, dass der Knock-out-
+Level im-	3.500er, und als geringfügig moderatere
+Da bei einer sehr kurzen Restlaufzeit der	mer noch einen Abstand von
+3% zum	Variante der 3.400er ins Rennen. Auf der
+Zeitwert bereits sehr gering ist, kann sich	Finanzierungslevel haben
+muss, ist sogar	Seite der Optionsscheine ist die Auswahl ( J
+nur noch entsprechend wenig bis zum	ein Band von 6% rund um den
+aktuel-	größer, hier würden Optionsscheine mit
+Laufzeitende abbauen, und auf der an-	len Basiswertkurs festgelegt, in
+dem kein	einer Vielzahl von Laufzeiten und Basis-
+deren Seite sind auch die Auswirkungen	Finanzierungslevel eines Turbo
+Futres	preisen zur Verfügung stehen. Da der
+einer geänderten Volatilitätserwartung	liegen kann.	Anleger nur
+kurzfristig engagiert sein
+auf den Kurs des Optionsscheins nur Trotz aller Anstrengungen der
+Emit-	möchte, spielt für ihn die Laufzeit keine
+noch gering.	tenten, die Emission von neuen Wertpa-	Rolle, und um das
+eingesetzte Kapital ge=AC
+Während damit die beiden wichtigs-	pieren so schnell wie möglich zu
+be-	ring zu halten, möchte er sich mit einem
+ten Nachteile von Optionsscheinen für	werkstelligen, dauert dieser
+Prozess noch	möglichst großen Hebel engagieren - mit
+Anleger wesentlich abgemildert werden,	immer mindestens einen Tag.
+Daher sind	diesen Kriterien fällt die Wahl der Op-
+bleiben die Vorteile von Optionsscheinen	Emittenten auch beschränkt
+darin, nach	tionsscheinlaufzeit auf die jeweils kürze-
+weiterhin bestehen. Ganz wesentlich ist	einer Marktbewegung neue Turbo-
+Pro-	ste Laufzeit. (Atak bietet in
+der Unterschied zwischen Optionsschei-	dukte bereitzustellen. Dies
+führt dazu,	den kommenden Monaten jeweils sogar
+nen und Turbo Futures in Bezug auf die	dass in Märkten mit einem
+ausgeprägten	zwei Verfalltage pro Monat an.)
+Laufzeit: Während die Laufzeit der Op-	Trend die Instrumente, die auf
+ein An-	Auf der Suche nach einem großen
+tionsscheine durch ein festes Ende be-	halten des Trends setzen, einen
+immer	Hebel spielen die Optionsscheine nun
+grenzt ist, laufen Turbo Futures zumin-	geringer werdenden Hebel
+anbieten.	auch den oben erwähnten Vorteil aus, f~\
+dest theoretisch unendlich. Eigentlich ein Angenommen, ein Emittent
+würde	dass es Basispreise gibt, die dicht am
+Punkt für die Turbos; um jedoch negati-	seine Produktpalette stets so
+pflegen,	oder sogar aus dem Geld notieren. Wir
+ve innere Werte bei den Turbo Futures zu	dass der Abstand zwischen den
+einzel-	nehmen an, der Anleger zieht den leicht
+vermeiden, knocken diese bei Erreichen	nen Turbo Futures 50 Punkte
+betragen	im Geld notierenden Optionsschein mit
+einer Kursschwelle aus, und ihre Lauf-	würde (dass also Longs auf den
+DAX=AE	einem Basispreis von 3.600 und den ge-
+zeit endet unmittelbar.	mit den Finanzierungsleveln 3.300,	nau am Geld
+notieren Optionsschein mit
+Ein Anleger verliert - zumindest bei	3.350, 3.400 etc. existieren
+würden): der	einem Basispreis von 3.700 Punkten in
+der Konstruktion der Turbo Futures -	Schlusskurs des Vortages betrage
+3.650	Betracht.
+zwar durch das eigentliche Ausknocken	Punkte, sodass der Turbo Future
+mit	In Grafik 1 sind die Kurse der vier
+des Turbo Futures nichts, denn der vol-	dem höchsten
+Finanzierungslevel und	Instrumente in Abhängigkeit von ver-
+le Restwert, zu dem unser Händler sein	damit dem größten Hebel einen
+Finan-	schiedenen Basiswertkursen dargestellt.
+Absicherungsniveau auflösen konnte,	zierungslevel von 3.500 Punkten
+und ei-	Für die beiden Optionsscheine wurden
+wird erstattet - doch hat ein Anleger sich	nen Knock-out von 3.605 (=3D
+3.500 + 3%	eine Restlaufzeit von 0,1 Jahren, eine Vo-
+ja mit einem solchen Instrument ent-	x 3.500) Punkten hat. Der
+nächsth=F6here	latilität von 20% sowie ein Zinssatz von
+sprechend für eine Kursbewegung posi-	Finanzierungslevel würde 3.550
+Punkte	3% unterstellt. Es ist gut zu erkennen,
+tionieren wollen, und nach dem Aus-	betragen haben und einen Finanzie-
+dass die Turbo Futures (gelb und türkis)
+knocken nimmt er an einer Kursbewe-	rungslevel von 3.657 Punkten
+gehabt ha-	jeweils ein lineares Auszahlungsprofil ha=AC
+gung des Basiswertes nicht mehr teil. Bei	ben und wäre damit beim
+Vortages-	ben, das schnurgerade in beide Richtun-
+Optionsscheinen, die nicht ausknocken,	Schlusskurs von 3.650
+ausgeknockt wor-	gen verläuft - bei niedriger werdenden
+kann auch eine kurzfristige Bewegung in	den.	Basispreisen jedoch nicht
+die Nulllinie
+
+
+erreicht, sondern wegen der jeweils da=ACvor einsetzenden Knock-out-
+Ereignisse schon vorher endet. Die beiden Op=ACtionsscheine dagegen
+gehen im rechten Bereich zwar auch in eine Gerade über, zeigen aber
+bei sinkenden Basiswertkur=ACsen das charakteristisch gekrümmte
+Ver=AChalten und sinken immer näher an den Wert null heran, ohne jedoch
+auszu=ACknocken.
+Doch nur aus dem Diagramm der Preise kann der Anleger, der mit einem
+weiteren deutlichen Anstieg der Kurse rechnet, noch nicht ablesen,
+welches Pro=ACdukt ihm den größten Vorteil liefert. Da=ACzu muss er die
+jeweils eintretenden Ren=ACditen in den einzelnen Fällen betrachten, f J
+denn der Wert eines Optionsscheins un=ACter einem gegebenen Szenario
+muss ja ins Verhältnis zu seinem Kaufkurs gesetzt werden. Diese
+Betrachtung erfolgt in Grafik 2.
+Hier ist klar zu erkennen, dass die Nullrendite bei allen Wertpapieren
+bei 3.700 Punkten, also genau dem Kurs ge=ACgeben ist, zu dem der
+Anleger sich für ein Instrument entscheiden möchte. Bei fallenden
+Kursen des Basiswertes (links von 3.700) verlieren alle Instrumente an
+Wert, wobei die Turbo Futures relativ schnell ihr Knock-out-Ereignis
+zeigen. Bei deutlich steigenden Kursen dagegen unterscheiden sich die
+Instrumente sehr (~~\ deutlich: Der zum Betrachtungszeitpunkt am Geld
+notierende Call (blau) zeigt eine deutlich stärkere Performance als
+alle anderen Instrumente. Im Vergleich erweisen sich die Turbos
+regelrecht als lahme Enten, und die 15 Jahre alte
+Optionsscheinkonstruktion zieht per=ACformancetechnisch deutlich
+davon ...
+Vergleicht man nur den 3.700er Call mit dem 3.500er Turbo, so kommt
+man zu dem in Tabelle 1 dargestellten Ergeb=ACnis.
+Dabei kann man erkennen, dass der Turbo Future das streng lineare
+Verhält=ACnis hat, während der Optionsschein durch seine Krümmung ums=
+o
+stärker auf Kursveränderungen des Basiswertes rea=ACgiert, je tiefer er
+im Geld ist, das heißt, je weiter er in die vom Anleger erwarte=ACte
+Richtung läuft. Das heißt, dass ein Optionsschein umso schneller
+steigt, je
+weiter er steigt, aber umso langsamer fällt, je weiter er fällt.
+Dieser Effekt ist die Folge des bei Optionsscheinen gege=ACbenen Gammas
+(vergleiche Akademie=ACFolge 7). Das unterschiedliche Verhalten nach
+oben und nach unten bei Options=ACscheinen wird deutlich, wenn man in
+Ta=ACbelle 1 die Reaktion des Call-Options-scheins 3.700 mit dem Turbo
+Long 3.500 vergleicht. Während der Turbo Fu-ture bei einem Anstieg des
+Basiswertes um 50 Punkte mit einem Anstieg von 25% und bei einem
+Rückgang des Ba=ACsiswertes mit einem Rückgang um =9625% reagiert, kann
+der Optionsschein im glei=ACchen Szenario beim Anstieg um 50 Punk=ACte um
++29% zulegen und verliert bei ei=ACnem Rückgang um 50% ebenfalls nur
+25%. Damit zeigt sich der Vorteil des Gammas bei einem Optionsschein
+gegen-über einem Turbo Future, der kein Gam-ma hat. Weiter fällt auf,
+dass bei diesem sehr kurz laufenden Optionsschein der Anleger mit dem
+Schein sogar in jedem Falle besser fährt als mit dem Turbo.
+Dies ist allerdings eine Betrachtung, die nur intraday gilt. Bezieht
+man den größeren Zeitwertverlust des Options=ACscheins gegenüber dem
+Turbo mit ein, so kann sich bei längeren Haltezeiten das Bild ändern.
+Eine genaue Betrachtung ist in jedem Fall vor einem Engagement
+an=ACgeraten, da auch andere Parameter, wie die Volatilität, die
+Berechnungen beein-
+flussen können.
+Die höhere Reagibilität der Op=ACtionsscheine wird auch im Vergleich de=
+r
+Hebel deutlich. Dabei darf man jedoch nur Gleiches mit Gleichem
+vergleichen und kann bei Turbos den Hebel heran=ACziehen, muss bei
+Optionsscheinen jedoch das Omega betrachten. Der einfache Hebel würde
+bei einem Optionsschein zu einem absurden Vergleich führen. Das Omega
+ergibt sich als Produkt aus Delta und dem einfachen Hebel und gibt
+genau wie der Hebel beim Turbo an, um wie viel Prozent sich der Kurs
+des Ins=ACtruments voraussichtlich ändert, wenn sich der Basiswert um 1%
+ändert.
+Man kann den Hebel der Turbo Fu-tures und das Omega der
+Optionsschei=ACne in einem gemeinsamen Diagramm auftragen. Beim
+Vergleich der Linien in diesem Chart (Grafik 3) ist insbesonde=ACre
+darauf zu achten, wie die Linie des 3.700er Calls zu der des 3.600er
+Calls liegt und wie die Kurve des Turbos 3.500 (wieder durch den Knock-
+out begrenzt) relativ zu der des 3.400ers liegt. Wir ha=ACben oben schon
+festgestellt, dass es kei=ACnen Turbo Future mit einem höheren He=ACbel
+geben kann, da dieser wegen des Knock-outs bereits nicht mehr
+existieren würde. Jedoch sind durchaus noch ag=ACgressivere Call-
+Optionsscheine verfüg=ACbar, da diese nicht ausknocken. Mit Aus-dem-Geld-
+Optionsscheinen lassen sich
+
+
+praktisch beliebig hohe Omega-Werte er=ACzielen, der Anleger muss jedoch
+umso mehr den absoluten Spread der Op=ACtionsscheine sowie bei einer
+längeren Haltezeit den Zeitwertverlust beachten.

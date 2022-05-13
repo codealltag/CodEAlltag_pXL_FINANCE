@@ -1,0 +1,11 @@
+Hallo Paolo
+
+WJF>Black-Scholes Formel
+WJF>
+WJF>         C=max(0; Sa*N(d1)-(E*exp(-r*t))*N(d2))
+
+Nur leider bekomme ich da bei Puts und Devisen-OS oft ziemlich Humbug
+heraus. Werden die evtl. nach dem binomialen OS-Modell berechnet, oder
+mach ich was falsch?
+
+-Samu

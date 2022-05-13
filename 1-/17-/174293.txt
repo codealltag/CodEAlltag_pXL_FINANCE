@@ -1,0 +1,15 @@
+In article <3ulxt7$kzd@di05.oj.kuf-mhxejemqd.xh>, an71@wl.upu-smxznmasg.pp (Tteqbz Kbqp) writes:
+
+Dazu gibt es keine geschlossenen Formel, man kann nur iterativ rechnen, also
+eine Rendite p% annehmen, nach jeder Einzahlung das Kapital bis zur naechsten
+Einzahlung mit p% (pro Jahr) verzinsen und am Schluss schauen, ob der "richtige"
+Wert herauskommt. Falls nicht, muss man ein anderes p waehlen (wie? --> siehe
+mathematische Iterationsverfahren) und von vorn rechnen. 
+
+Falls Du zwischendurch Kapital abziehst, sind Konstellationen moeglich,
+bei denen das Verfahren zwangslaeufig abbricht.
+
+
+Weiss ich nicht, kannst Du in wenigen Zeilen aber selbst scheiben.
+
+Gruss, Gilles

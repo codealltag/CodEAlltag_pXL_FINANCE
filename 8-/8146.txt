@@ -1,0 +1,30 @@
+Hallo Heimo, Undine,
+
+
+... ich merke schon :\
+
+
+Naja, ich habe das System von Anfang an so konzipiert, dass es ein 
+Portfolio beliebiger Größe, verarbeitet.
+Ich hatte mir überlegt die Ergebnisse mehrerer "zufällig" zusammengesetzter 
+Pf's zu vergleichen - ohne zu bedenken dass die frei verfügbaren 
+Aktien-csv's durch Splits und Dividenden in den OHLC Daten praktisch 
+"unbrauchbar" sind.
+Darum läuft es jetzt erstmal auf Indizes ... für Wechselkurse etc. habe ich 
+noch keine daily Daten gefunden ...
+
+
+Das ist ja eigentlich der Kern meiner Frage, was ist eine signifikante 
+Abweichung - was nicht?
+
+
+Ja, das funktioniert manchmal verdächtig gut ;)
+
+
+thx
+
+
+Hhm - einen solchen Drawdown wird mein real-pf wahrscheinlich nicht 
+verkraften ;)
+
+MfG, Tim

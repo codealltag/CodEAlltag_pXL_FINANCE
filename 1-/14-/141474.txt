@@ -1,0 +1,56 @@
+Buchauszug:
+
+4.8  Gekappte Optionsscheine
+Dies ist eine etwas "exotische" Variante von Optionsscheinen, die Grundlage
+vieler komplexer Derivate ist. Sie sollten sich deshalb unbedingt mit der
+Systematik solcher "Caps" (Obergrenzen) vertraut machen. Beispiel: 
+Ein DAX-Call 1999 Cap 400 ist ein Call mit Bezugskurs 1999, bei dem der
+maximale Gewinn auf 400 beschränkt ist. Der Unterschied zu einem normalen Call
+1999 liegt also darin, daß ein Steigen des DAX über 2400 hinaus keinen weiteren
+Gewinn bringt. Einen solchen Call kann man gedanklich folgendermaßen zerlegen: 
+Es wird ein ganz normaler Call 1999 gekauft. 
+Gleichzeitig wird ein ganz normaler Call 2400 mit gleicher Restlaufzeit
+geschrieben. 
+Beides zusammen ergibt eine Kombination, die zwischen einem DAX-Stand von 1999
+und einem Stand von 2400 einen stetig wachsenden Gewinn bringt, während es
+oberhalb 2400 keinen weiteren Zuwachs gibt, weil dann der zusätzliche Gewinn
+aus dem Call 1999 durch den Verlust aus dem geschriebenen Call 2400
+neutralisiert wird. 
+Der faire Wert eines Call 2000 Cap 400 berechnet sich deshalb als fairer Wert
+eines normalen Call 2000 minus dem fairen Wert eines normalen Call 2400. 
+In der Praxis müssen wir dazu folgendermaßen vorgehen: 
+Zuerst benötigen wir einen OPN-Wert als Grundlage für alle weiteren
+Berechnungen. Dazu suchen wir uns den Kurs eines beliebigen DAX-Calls mit
+möglichst ähnlicher Restlaufzeit und ähnlichem Bezugskurs, stellen seine
+Grunddaten ein und können dann seinen OPN-Wert berechnen. Nehmen wir als
+Beispiel ein OPN von 20 . 
+Nun werden die Daten des DAX-Call 1999 eingestellt. Als OS-Kurs können wir
+einen Schätzwert einstellen. Nach erfolgter Erstberechnung (links) stellen wir
+nun in der "Was-wäre-wenn"-Box den oben ermittelten Referenz-OPN-Wert von 20
+ein und drücken "OK, Rechnen" (rechts). In der Scrolltabelle können wir jetzt
+entsprechend des aktuellen DAX-Standes den fairen Wert für den DAX-Call 1999
+ablesen. Bei einer angenommenen Restlaufzeit von 2 Jahren, bei einem Marktzins
+von 7%, einem OPN von 20 und einem DAX-Stand von 2100 wären dies ungefähr 442 .
+
+Nach dem gleichen Schema läßt sich 242 als fairer Wert für den DAX-Call 2400
+ermitteln. Der Einfachheit halber haben wir hier beide Beispiele mit einem
+einheitlichen OPN-Wert von 20 berechnet.
+In der Praxis gibt es hier aber einen gewissen Spielraum, da man die OPN-Werte
+etwas auf- oder abrunden kann, je nachdem ob und welche der beiden
+Einzeloptionen gerade im oder aus dem Geld ist. 
+Für den DAX-Call 1999 Cap 400 mit zwei Jahren Restlaufzeit errechnet sich
+schließlich ein fairer Wert von 442-242 = 200 (das Ergebnis muß natürlich nicht
+immer so schön rund sein). Mithin sind Kurse etwa im Bereich von 190 bis 210
+gerechtfertigt. Liegt der tatsächliche Börsenkurs tiefer, so sollte man einen
+Kauf erwägen, liegt er höher, so sollte man über einen Verkauf nachdenken. 
+Gekappte Puts werden sinngemäß berechnet. Kombinationen aus gekappten Calls und
+Puts lassen sich unter Umständen auch als Zerobond berechnen; vergleichen Sie
+dazu das Kapitel zu Zerobonds.  
+Fast alle ungewöhnlichen Optionskonstruktionen lassen sich mit etwas Nachdenken
+auf eine ähnliche Art und Weise in mehrere Einzeloptionen zerlegen und dann
+problemlos berechnen. 
+
+
+Friedrich
+Visit   http://cydgvgr.lnl.qrb/fjdtlk  and download a 
+free calculator for options, futures, bonds and similar stuff.

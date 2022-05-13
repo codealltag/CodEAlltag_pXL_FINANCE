@@ -1,0 +1,49 @@
+Im Artikel <0OPFKBukpEY@kmjv.rby.apihrvlo.sa>,
+
+Welcher Missbrauch? Auf diesem Gebiet sehe ich da keine Gefahr. Daten,
+sprich Informationen, gibt es viel zu viele, die Kunst besteht darin, die
+relevanten herauszufiltern. Selbst dann, wenn viele Leute das tun, werden
+sie die Infos verschieden interpretiert,  neuronale Netze hin, neuronale
+Netze her.
+
+Um das verstaendlicher zu machen, werde ich ein wenig aus dem
+Naehkaestchen plaudern. Eines vorweg: Ich bin kein Computerfachmann, habe
+nur genug ueber neuronale Netze gelernt, um das Prinzip zu verstehen und
+um sinnvoll damit experimentieren zu koennen. Mein Eindruck: Die Dinger
+werden meistens entweder ueber- oder unterschaetzt.
+
+Nehmen wir den Versuch, eine Prognose auf den DAX in 20 Tagen abzugeben.
+Im Prinzip reichten in der juengsten Vergangenheit zwei Informationen fuer
+eine zuverlaessige Voraussage: Dollar-Kurs und, vor allem,
+Kapitalmarkt-Zinsen. Also fuettern wir ein Netz mit diesen beiden
+Datenreihen, zusaetzlich mit den DAX-Kursen, und lassen es fleissig
+lernen. Anschliessend testen wir es anhand von zurueckgehaltenen Daten,
+und stellen erfreut fest, dass das Netz einen unglaublich guten
+Korrelations-Koeffizienten hat und, zumindest im Trend, prima Prognosen
+abgibt. Nebenbei bemerkt, dafuer haetten wir eigentlich keinen Computer
+gebraucht. Aergerlich ist nur eines: Weder wir noch der Computer wissen,
+wie zum Bleistift der Dollar in einer Woche steht. Wenn er auf DM 1,45
+faellt und vielleicht die Zinsen noch etwas ansteigen, ist die ganze
+schoene Prophezeiung nur Makulatur. 
+
+Man kann natuerlich zunaechst eine Prognose auf den Dollar bzw. die Zinsen
+entwickeln und dem DAX-Netz als Vorgabe anbieten. Allerdings kommt man
+schnell vom Hundertsten ins Tausendste. Besser ist es, das eigene Gehirn
+einzusetzen: Drohen irgendwelche Gefahren fuer den Dollarkurs oder die
+Zinsen? Wenn nicht, das Programm laufen lassen. Und zusaetzlich Fakten
+lernen lassen, die sich vermutlich in der Zukunft auswirken werden: Kaufen
+Gross- oder Kleinanleger? Liquiditaetsstroeme, Open-Interest an der
+Terminboerse, Put-Call-Ratio mit echten Umsaetzen usw. Soweit diese Daten
+nicht direkt als Zahlen vorliegen, kann man sie errechnen oder dem Netz
+die entsprechenden "Indizien" vorgeben. Schliesslich erhaelt man eine
+Voraussage, die deutlich bessere Ergebnisse als "triviale" Prognosen
+bringen sollte. Das neuronale Netz kann eben Verbindungen zwischen vielen
+Lernfaktoren "erkennen", die mit dem Gehirn nicht oder nur schwer zu
+packen sind. Eine Gefahr liegt darin, dass der Computer ein Muster lernt,
+das nur in den Lerndaten zufaelligerweise vorhanden war.  Ausserdem kann
+sich der Markt eines Tages wieder an ganz anderen Daten orientieren, nicht
+mehr an den Zinsen. Dann wuerde unser schoenes neuronales Netz ziemlich
+doof aussehen. Wenn man das Ganze als Hilfsmittel fuer den eigenen
+Verstand benutzt, duerfte aber nichts schiefgehen.
+
+:-) Konrad

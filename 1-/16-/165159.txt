@@ -1,0 +1,57 @@
+Datum: 16.08.96                Uhrzeit:  14:45
+
+Maltzahn "Privat" hat mit 200 DM Kaufpreis ein fuer HATWAS Brauchbar g-Computer gutes  
+Preis-Leistungsverhaeltnis. Vorteile gegenueber den noch billigeren oder  
+den Shareware-Programmen sind zum Beispiel, wahlfrei logarithmische  
+Skalierung, dass man sich Trendlinien und Texte aller Art in`s Chart  
+einzeichnen kann, sowie Gruppen bilden ("Beobachtung", "Hitech"), in die  
+man die gewuenschten Werte mit einem Knopfdruck abstellen kann.  
+Anschliessend kann man innerhalb der Gruppe, aus dem Chart heraus, mit  
+einem einzigen Mausklick blaettern. Ferner lassen sich Aktien nach  
+Kaufsignalen sortiert auflisten.
+
+Wer nicht nur das Maltzahn-Privat besitzt, sondern auch die bei Maltzahn  
+erhaeltliche, kostenlose Demo noch auf seinem PC hat, sei hiermit vor  
+einigen verwirrenden Fehlern in derselben gewarnt.
+
+1.) Die Demo bietet vier Menuepunkte, Nr. 1-4, an. Wer versehentlich eine  
+"5" eingibt, befindet sich ploetzlich im ganz normalen Winchart, aber in  
+der Profi-Version 4.3.
+
+2.) Wer die Demo in z.B. ein Directory \Windemo zuerst installiert hat und  
+anschliessend die Kursdateien mit allen Subdirectories aus der Vollversion  
+von Maltzahn Privat (aktuell: 5.2) z.B. aus \Winchart\windaten nach  
+\windemo\windaten rueberkopiert hat (nicht die Demo nach der Vollversion  
+installieren, weil sonst die Demodaten die richtigen alle plattmachen -  
+und die laufenden Kursdaten muessen in genau dem Verzeichnis liegen, in  
+das die Demo mit ihrem Original-Installationsprogramm installiert wurde!),  
+muss nur noch taeglich die Dateien Master.dat und Master.ix in das Demo- 
+Directory rueberkopieren, z.B. per Batch. Da man in der Vollversion von  
+Maltzahn "Privat" das gleiche Datenverzeichnis, in dem Beispiel  
+\windemo\windaten, permanent einstellen kann, greifen jetzt sowohl die  
+Voll- als auch die Demoversion auf die taeglich aktualisierten Kursdaten  
+zu, nur muss man Kursaktualisierungen, Einzeichnen von Trendlinien usw.  
+natuerlich mit der "Privat"-Version erledigen, da die Demo nichts  
+abspeichern kann.
+
+3.) Das Problem ist jetzt, dass man aus Versehen die Demo aufrufen koennte  
+und trotzdem auf die aktuellen Daten der "Privat"-Version zugreift, statt  
+nur auf die Demo-Daten. Hierbei wird man voellig verwirrt, weil man fuer  
+seinen eigenen Datenbestand vorher unbekannte Menuepunkte angezeigt kriegt  
+wie Equivolume und Candlestick Charts, Zyklusfinder, Fibonacci Time-Zones,  
+Fan-Lines und Arc-Lines, Wilders Delta MTD, LTD, Aufgeld/Hebelberechnung,  
+Black&Scholes, Second Reflection, Beta, Bollinger, CCI, Detrend, DMI,  
+Durchschnittsbaender, Hebel, Negativ Volume Index, Notis, OBOS,  
+Phasenanalyse, Williams usw. usf.
+Ich meine, wenn einem die Standard-Charts und Indikatoren aus der  
+"Privat"- oder der "light"-Version nicht genuegen, haette man sich doch  
+die Vollversion von "Maltzahn Profi" zu 750,-- DM oder noch teurere  
+Programme wie Pado oder ZJJ gekauft, oder?
+
+Anmerkung: wer nur die Demo besitzt, kann sich zwar die Demopunkte  
+ansehen, aber keine aktuellen Kurse einspielen. Nur der Besitzer der  
+"light" oder Privat-Version kann in der beschriebenen Konstellation durch  
+die ungewohnten Features der Demo irritiert werden.
+
+
+Leander Spathelf, Kolbenhof

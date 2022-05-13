@@ -1,0 +1,49 @@
+Hallo,
+
+ich bin noch recht neu in der Finanzwelt und bin auch nicht vom Fach, 
+habe aber mal eine Rechnung gemacht um herauszufinden um wieviel Prozent 
+eine Aktie steigen muss damit der Investor einen Gewinn macht. Dabei bin 
+ich auf etwas merkwürdiges gestoßen. Frage:
+
+Ist es richtig das je länger man eine Aktie hält, je größer die Rendite 
+sein muss, damit man im Vergleich zu einer festverzinsten Geldanlage 
+einen Gewinn macht?
+
+Die Frage kommt wohl daher das es, soweit ich es verstanden habe, auf 
+Aktien keine Zinsenzinsen gibt.
+
+Meine Rechnung sieht folgendermaßen aus:
+
+Sei
+V das Transaktionsvolumen in einer Währung,
+k die Transaktionsgebühren des Brokers in Prozent,
+z die Rendite eines z.B. Sparkontos,
+n die Haltezeit in Jahren,
+x die benötigte Rendite der Aktie nach n Jahren in Prozent.
+
+x muss folgende Ungleichung erfüllen:
+
+V(1+x) - Vk - V(1+x)k > V(1+z)^n
+
+D.h. der Verkaufswert minus der Gebühren für Ankauf/Verkauf muss größer 
+sein als das was sich auf einem Sparkonto in der gleichen Zeit hätte 
+ansammeln können.
+
+Es folgt
+
+1 + x > [(1+z)^n + k] / (1-k)
+
+Für k=0.25%, z=5% muss also
+
+x >  0.6% für n=0.027 (10 Tage),
+x >  1.3% für n=0.166 (60 Tage),
+x >  5,5% für n=1,
+x > 63,5% für n=10.
+
+Es muss also auch einen Zeitpunkt geben, z.B. nachdem man 20 Jahre die 
+Käferstein Aktie gehalten hat, wo man nur noch Verlust macht, da die Aktie 
+niemals aufholen könnte.
+
+Danke.
+
+Othmar

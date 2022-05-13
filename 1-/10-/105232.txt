@@ -1,0 +1,26 @@
+Macht Euch das Ziegenproblem doch mal an einem einfacheren Beispiel klar
+: Es gibt 1000 Türen, hinter 999 sind Ziegen und hinter einer ist ein
+extra. Nach Deiner Wahl werden 998 Türen mit Ziegen geöffnet (dauert
+zwar ziemlich lange, aber ist machbar). Es bleiben 2 Türen übrig, Deine
+1.Wahl und die Tür, die von den freien nicht geöffnet wurde. Die
+Wahrscheinlichkeit, daß hinter der Tür die ich nicht gewählt habe ein
+extra ist, ist ungleich höher, als die, daß hinter meiner Tür der
+Wagen wartet.
+
+Im Falle der ersten Wahl stehen die Chancen 1 : 1000 , daß ich die
+richtige Tür öffne. Umgekehrt ist also die Wahrscheinlichkeit, daß
+hinter den Türen die ich nicht gewählt habe der extra (warum
+eigentlich kein Karasoy?) wartet 999 : 1000. Wenn nun von den 999 Türen
+998 sicher falsche geöffnet werden (beeinflußt nicht die
+Wahrscheinlichkeit, daß der extra hinter einer dieser Türen wartet) ,
+ist die Wahrscheinlichkeit, daß hinter der letzten Tür der ist immer
+noch 999 : 1000 . Ich wäre doch schön blöd, wenn ich jetzt nicht
+wechseln würde.
+
+Natürlich ist das nur etwas überspitzt dargestellt, es geht natürlich
+auch mit drei Türen. Dann ist die Wahrscheinlichkeit nach dem Wechseln
+allerdings nur 2:3 , allerdings besser, als auf seiner alten Tür hocken
+zu bleiben.
+
+
+Ist also auch logisch lösbar.

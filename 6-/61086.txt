@@ -1,0 +1,22 @@
+Warum dann nicht einen Straddle am Geld (oder nur ein wenig hoeher) und einen
+Call mit hoeherer Basis schreiben? Dann bist Du gegen Kurssteigerungen
+geschuetzter, aber gewinnst so richtig nur bei einen Crash. Mann kann z.B. auch
+fuer den Straddle eine laengere Laufzeit waehlen, als fuer den geschriebenen
+Call - dann hat man auch kaum Zeitwertverlust. Dann darf's nur nicht ganz
+schnell nach oben gehen (was mir aber schon passsiert ist :-(.... ).
+
+Aber langsam ueberlege ich mir auch ein paar ungedeckte Puts zu kaufen oder
+einen syntetischen Minifuture zu verkaufen. Urban hat ja auch vorgestern
+geschrieben, wenn es nochmal 2-3 mal so weiter hoch geht, kauft er Puts. Heute
+waere es dann nur noch 1-2 mal.
+
+Uebrigens denke ich war der Volax (Vola-Future) fuer die Profis zu
+uninteressant, da der Kontraktwert zu niedrig war. Und dann war er ja noch auf
+die Vola am Geld bezogen, was eigentlich auch unguenstig ist - Immerhin will man
+sich ja gegen das Vega bei einem bestimmten Basiswert absichern und da es nunmal
+den Smile gibt, unterscheidet sich das Vega am Geld von den anderen Vegas.
+Eigentlich waere ein Vola-Future was feines, nur man sollte bei seiner
+Definition schon den Smile beruecksichtigen. Na vielleicht gibt es ja irgentwann
+einen neuen Anlauf....
+
+Kay.

@@ -1,0 +1,18 @@
+vor ca. 3 wochen wurden in einer stamm.dp-datei einige wkn geändert. u.a.
+auch die von ulf bült (025063). bei Towe läuft das update aber
+problemlos (es fehlt kein kurs und alles ist up to date). allerdings gab
+es mal probleme, daß einige wkn's von seiten Glauch zwar den
+Änderungs-befehl bekamen, aber komischerweise auf die gleiche ziel-WKN
+geändert wurden (ich weiß hört sich jetzt mega-komisch an, also mal ein
+beispiel: wkn-alt: 025063, wkn-neu: 025063) das gab bei mir anfangs
+probleme, die ich mittlerweile aber behoben habe. vielleicht liegt da das
+problem....?
+
+mfg
+pascal
+
+
+==============================
+home: http://lgvz.y-ynkijo.tr/vzwe/sczxl
+email: ajmpjwyq@ciw.fqs
+==============================

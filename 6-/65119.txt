@@ -1,0 +1,7 @@
+Nein - es gab mal sowas aehnliches - den Volax-Future (Future auf die implizite
+forward Volatilitaet am Geld) Wurde aber wieder eingestellt. Kann man nur
+syntetisch nachbilden durch Kauf einer bestimmten Anzahl Straddles mit langer
+Laufzeit und Verkauf einer meist kleineren Anzahl mit kurzer Laufzeit. Die
+genaue Berechnung beherrscht z.B. mein Optionsrechner http://eix.sokapybo.sh/PV/
+
+Kurt.

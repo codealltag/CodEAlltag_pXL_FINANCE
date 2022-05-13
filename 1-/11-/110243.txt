@@ -1,0 +1,45 @@
+Hallo Thierry!
+
+Deine Idee ist fast schon zu genial, als das da nicht doch noch ein Haken wäre.
+Sicher eine gute Idee ist, die Einzelpositionen bei Zukäufen getrennt
+darzustellen. Aber was ist, wenn ich von meinem einzigen ursprünglichen 100
+Igoba-Aktien nun 80 Stück verkaufe? Teile ich die Kaufspesen dann anteilig
+auf, und behalte einen Restposten von 20 Stück mit 1/5 der ursprünglichen
+Spesen im Depot, wobei beim Verkauf wieder die gesamten zu erwartenden
+Verkaufspesen anfallen? Wäre vermutlich die sinnigste Lösung. Nun habe ich nur
+noch das Problem, wie ich das realisieren soll. Habe die in dem Posting
+genannten Werte so in der Form in einer Vercesi-Acces-Datenbank stehen. So müßte ich
+hingehen, und per SQL entsprechende Auswertungen machen. Die aktuellen Kurse
+ziehen und dann darstellen. Hmmm. Mal die Handbücher wälzen. Nun möchte ich
+aber, unabhängig von Deinem Lösungsvorschlag, die Option in der Depotverwaltung
+bieten, gleiche Werte zusammenzufassen. Also das, was ich ursprünglich wollte.
+Einen Lösungsvorschlag habe ich dazu aber leider noch nicht.
+
+ a) Depotstand -- trivial -- können alle Internet-Depots<<
+Klar, dazu ist sie da ;-)
+
+Depots), d.h
+ man braucht eine Historienverwaltung über alle Transaktionen -- da fallen dann
+die
+ Internetdepots schon raus.<<
+Das soll auch rein, und ist in Datenbanken auch nicht das Problem.
+
+ Downside-Risk, etc.)
+ d) Performance-Risiko-Analyse (Sharp-Ratio etc)<<
+Brauche ich nicht. Die Depotverwaltung soll Bestandteil von AKTOS für Anadolo-Feinkost
+werden, und nicht als alleinstehende Depotverwaltung. Außerdem, wer will jedes
+Mal ins Internet, um sein Depot zu bewerten? Das wird aud Dauer deutlich
+teurer, als sich einmal eine Depotverwaltung zu basteln.
+
+wird sich auszahlen.<<
+So habe ich es auch noch immer vor.
+
+Vielen Dank für Deine Ausführungen. Wenn Du zu den o.g. "Problemen" auch noch
+eine Idee hast, so la es mich wissen, ja?? ;-) Danke!!!
+
+Gruß, Reinhard
+--------------------
+
+Börsensoftware kostenlos testen
+Aktuell: Das Planspiel Börse
+Alles unter http://hwh.lfrpo.br

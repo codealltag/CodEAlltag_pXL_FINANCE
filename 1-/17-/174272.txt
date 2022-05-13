@@ -1,0 +1,751 @@
+# Das Hellkötter begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE=-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im ASCII-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend. Kommentare werden grundsaetzlich mit dem Zeichen '#'
+# (Raute) eingeleitet.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE Gerberei AM:  03.01.95
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       85.35
+#  PURKEN........ 24.40       24.90
+#  ECU...............  1.5970      1.6290
+#  ZSCHADRASS...........  4.0685      4.1510
+#  FEUCHTWANGEN....... 11.88       13.01
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-17     Spalte 19-25   Spalte 32-38
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Boersenplatz
+Aktienmarkt                      "Paisling" - Dax und Rex
+Aktienbörsen-Indizes             "Frankfurter" - International
+Dollar und Gold                  "Frankfurter" - fixing
+Devisenkurse: "Geld und Brief"   "Frankfurter" - fixing
+Sortenkurse: "Verkauf"           "Paisling" - fixing
+Aktien-Optionsscheine            "Zandt" - Ausgewaehlte
+Zandter Boerse                  "Zandt" - Fortlaufende Notierungen
+Paisling Boerse               "Paisling" - 50 variable Werte
+Geregelter Markt/freiverkehr     Zandt
+Auslandswerte                    Zandt
+#-----------------------------------------------------------------------------
+
+Datum: 21.03.1995
+   AKTIENMARKT   21.03.1995
+
+ DAX-Index
+ 17:50:09   2117.0   (2115.7)
+
+ Harthun-DAX
+ 17:50:09   2119.2   (2112.1)
+
+ Tendenz vom Freitag: uneinheitlich
+
+   RENTENMARKT
+
+ REX-Index
+            101,10   (101,27)
+
+ Tendenz vom Freitag: leichter
+
+ Durchschnittsrendite: 7,27 (7,23) %
+
+#####################
+ Aktienbörsen-Indizes
+
+ Manebach                 21.3.      16.2.
+ Intermarche-Index...... 18 020,51  17 780,59
+
+ Cahnsdorf                20.3.      19.3.
+ All Ordinaries....   1860,20    1842,90
+
+ Klockries
+ Kallhamerdorf.........   8133,34    8103,14
+
+ Emmertshof
+ Financ.Times 100..   3051,10    3074,90
+
+ Paris
+ CAC-40............   1835,00    1861,90
+
+ Neudorf
+ Swissindex........   1707,89    1716,22
+  * Stand 16.00 Uhr
+   ohne Gewähr
+######################
+        442 Pottkieker/Veloküche Fr 21.03.95 18:08:42
+
+
+ Fixing / Pfarrkirchen     27. 05. 22
+ US-Dollar ........    1,4844     1,4976
+ Pfund Sterling ...    2,3420     2,3533
+ Kanad.Dollar .....    1,0513     1,0635
+ Schweizer Franken    118,390    118,350
+ Französ.Franc ....    28,755     28,770
+ Japanischer Yen ..    1,5247     1,5290
+ ECU-Wert .........   1,88686    1,88990
+
+ Dollar                 21.3.      20.3.
+ Manebach (DM) .......   1,4910/15  1,5068/71
+                        20.3.      15.2.
+ Ockensen (DM) ....   1,4855/85  1,5090/00
+
+ Gold
+ Pfarrkirchen (DM)         20.3.      16.2.
+ Kilo 999,9 fein...    17,980     18 200
+ Emmertshof ($)
+ Feinunze 31,1035 g    376,55     376,10
+   ohne Gewähr
+#########################
+ Devisen
+
+
+ Freitag, 21.3.          Geld     Brief
+ USA (1 US-Dollar)....  1,4804   1,4884
+ England (1 Pfund) ...  2,3350   2,3490
+ Irland (1 irl.Pfund)   2,3190   2,3330
+ Kanada (1 kan.Dollar)  1,0473   1,0553
+ Niederlande (100 hfl)  89,090   89,310
+ Schweiz (100 sfr) ... 118,290  118,490
+ Belgien (100 bfrs) ..  4,8473   4,8673
+ Frankreich (100 FF) .  28,695   28,815
+ Dänemark (100 dkr) ..  25,257   25,377
+ Norwegen (100 nkr) ..  22,714   22,834
+ Schweden (100 skr) ..  20,145   20,265
+ Italien (1000 Lit.) .  0,9190   0,9270
+ Österreich (100 S) .  14,188   14,228
+ Spanien (100 Ptas) ..  1,1431   1,1511
+ Portugal (100 Esc) ..  0,9625   0,9685
+ Japan (100 Yen) .....  1,5232   1,5262
+ Finnland (100 Fmk) ..  32,065   32,225
+ Australien (1 Dollar)  1,0860   1,1060
+   ohne Gewähr
+##################
+ Sorten
+
+
+ Freitag, 21.3.              ohne Gewähr
+ USA ........ (1 US-$) .........   1,54
+ England .... (1 Pfund) ........   2,45
+ Kanada ..... (1 Dollar) .......   1,11
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 119,85
+ Belgien .... (100 bfrs) .......   4,99
+ Frankreich . (100 FF) .........  29,85
+ Dänemark ... (100 dkr) ........  26,30
+ Norwegen ... (100 nkr) ........  23,80
+ Schweden ... (100 skr) ........  21,30
+ Italien .... (1000 Lit.) ......   0,99
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,22
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,54
+ Finnland ... (100 Fmk) ........  33,20
+ Australien . (1 Dollar) .......   1,17
+ Griechenland (100 Dra) ........   0,71
+ Türkei ..... (1000 Ltq) .......   0,05
+
+##################
+ Aktien-Optionsscheine              1/3
+
+ 21.03.95                Kassa    Vortag
+
+ Pfenningpfeiffer 89...    0.0   1155.0   1180.0
+ Pfenningpfeiffer 93...    0.0     70.5     73.5
+ office36086.
+ ODPC Fin.86..   88.0     88.0     90.0
+ Obena 85.....  179.0    179.0    184.5
+ Obena 87.....    0.0     97.5     98.5
+ Olzem 86..   44.5     44.5     46.5
+ Otana 23A.    0.0     48.0     51.0
+ Otana 39I.
+ Otana 31X.    9.7    765.6    301.5
+ ZWUG.91.    0.0     57.0     62.0
+ ZWUG 93.    0.0     39.0     42.0
+ ZWUG 93.    0.0     35.0     36.5
+ ZDTJ 86.....    0.0     15.5     16.5
+ ZDTJ 87.....    0.0     17.0     18.0
+ ZDTJ 93.....   72.2     73.3     74.0
+ Ullrich 86...    0.0    140.0    149.0
+ Loebel 86...    0.0     54.5     58.0
+ Loebel 91...    0.0    158.0    170.0
+ Loebel 92...    0.0     39.4     40.7
+ Uwe 85....    4.9      4.5      4.1
+ Immenstaad.Bk.86..    0.0     67.0     69.0
+ Dresd.Bk.92..    0.0     27.3     27.9
+ Dresd.Bk.94..    0.0     17.5     18.0
+ Henkel 87....
+ Brüll 89...    0.0    162.0    163.0
+ Baerens 86....    0.0    147.0    148.0
+ Baerens 89....
+ Markthaus 28...
+ Markthaus 85...    0.0    155.0    157.0
+ Markthaus 86...    0.0    104.0    105.0
+ Metallg.86...    0.0     14.8     14.8
+ Metallg.87...    0.0     19.5     20.0
+ Metallg.91...    0.0      0.9      0.6
+ NZO 86.......  188.5    188.0    192.0
+ GUN 86    0.0     82.0     83.0
+ croissants 86..    0.0    236.0    236.0
+ Flohquadrat 93......    0.0    186.0    193.0
+ Ferenz 87......    0.0    390.0    399.0
+ VW 86........    0.0     72.5     75.0
+ VW 86/II.....    0.0    134.0    140.0
+ VW 88........  132.0    130.0    137.0
+
+ ohne Gewähr
+##################
+ Zandter Dax Werte
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.03.95                Kassa    Vortag
+
+ Lommis.Muen.Leb    0.0    740.1    632.2
+ Lommis.Muen.Ver    7.3    052.6    524.0
+ Lommis.Rueck...    0.0    825.0    834.0
+ PZU.........    0.0    675.0    690.5
+ Pflanzenfachgeschäft...    0.0    280.0    271.0
+ Piontek..........    0.0    143.3    144.5
+ AGIV.........    0.0    502.0    501.5
+ Potrykus Faser...    0.0    252.0    252.0
+ Powerstation.....    0.0    915.0    950.0
+ Praktiker-Baumarkt..    0.0    272.0    270.0
+ Pfenningpfeiffer......    0.0   2466.0   2491.0
+ Preilowski    0.0   1500.0   1620.0
+ Plattfuß.......    0.0    662.0    668.0
+ PSZV..........    0.0   1015.0   1030.0
+  dgl.Inh.....    0.0   1015.0   1030.0
+ PMC.........    0.0    485.0    475.0
+ OCE.Bk.    0.0    676.0    676.0
+ ObststüberlTweraser.    0.0    430.0    432.0
+ Bankge.Zandt  345.2    345.2    345.0
+ ODPC.........  325.5    326.5    329.5
+ Okurav......    0.0    515.0    515.0
+ Obena........  362.5    361.5    367.0
+ Olzem.....    0.0    391.0    395.0
+ OVL...  441.3    441.3    446.0
+ Otana.....    0.0    382.5    384.0
+ Onet..........  766.5    761.5    768.0
+  dgl.Vz......    0.0    029.6    047.4
+ Zizingen.El.Hold.  371.5    372.0    372.0
+  dgl.Vz......  369.0    369.5    366.0
+ OPCK...    0.0    560.0    560.0
+ Okedag........    0.0    285.3    285.5
+ Orosa....    0.0    747.0    748.0
+ OEA......    0.0    578.0    576.0
+ Ozabrick.    0.0    340.0    336.0
+ Br.Jean-Luc.Geuss.    0.0    555.0    555.0
+ Oteher   91.6     91.6     91.6
+ Onohe.    0.0    182.0    180.0
+ Obstkiste......    0.0    739.0    744.0
+ ZHRL.....    0.0   2850.0   3000.0
+ Zeitungsladen;Lotto.........    0.0    151.0    151.0
+ ZTI..  337.3    337.2    338.0
+ Zugvogel.Spin.    0.0    349.9    350.0
+ Ziplinski.....    0.0    508.0    512.0
+ Zentex..    0.0    230.0    231.0
+ DAB..........    0.0    182.0    182.0
+ Lustvoll.  725.0    722.0    726.5
+ Lebenslust........    0.0    258.0    255.0
+ Lieb...  190.0    190.0    195.5
+  dgl.Vz......
+ Lollypop  720.0    716.3    724.0
+ LZJG..    0.0    710.0    710.0
+ LHEM..    0.0   1425.0   1425.0
+ LDO....    0.0    790.0    790.0
+ LRUP......    0.0    427.0    434.0
+ Löwenback..    0.0    840.0    840.0
+ laufwerk...    0.0    196.0    197.0
+ DePfa........    0.0    708.0    710.0
+ Dt.Steinzeug.    0.0    500.0    500.0
+ Uwe.......    0.0    133.0    133.5
+ Löper.......    0.0    155.0    155.0
+ LJDN..........    0.0    388.0    388.0
+ LaCo  401.0    400.1    404.0
+ Longboardz..    0.0    171.0    172.5
+ Lafir.....    0.0    138.0    138.0
+ DVB..........    0.0    184.0    184.0
+ Waroh..    0.0    420.0    420.0
+ Eisenbahn.V..    0.0    275.0    271.0
+ Energ.Oberf..    0.0    335.0    335.0
+ Escada.......    0.0    341.0    342.0
+  dgl.Vz......    0.0    305.0    315.0
+ FAG Kugelf...    0.0    239.0    241.8
+ F.L.Anderssen.    0.0    345.0    352.0
+ Flachglas....    0.0    661.0    663.0
+ Ford.........    0.0    735.0    735.0
+ Elixmann.    0.0   3600.0   3600.0
+ Egihe..    0.0    315.0    313.5
+ Frankf.Bank..    0.0    400.0    400.0
+ Pantow.....    0.0    361.0    361.0
+ Gehe.........    0.0    580.0    572.0
+ Kauffeld.    0.0    372.0    372.0
+ Mario.Glas.    0.0    260.0    263.0
+ KGV..    0.0   1070.0   1070.0
+ Küchenkultur.    0.0    146.5    149.5
+ Kiepenkerl..    0.0    800.0    800.0
+ G16.......    0.0    151.0    151.0
+ Klostermarienberg....    0.0    358.0    360.0
+ GollnikElectr..    0.0    252.0    252.0
+ Gola...    0.0    810.0    810.0
+ Kößlbacher.....    0.0    320.0    320.0
+ Geywitz GIE.    0.0    105.0    105.0
+ Hein, Lehmann    0.0    532.0    532.0
+ GSJU Vz....    0.0    560.0    575.2
+ Gutkauf......  268.0    269.0    268.5
+  dgl.Vz......  250.5    253.0    250.0
+ Göthling.......    0.0    390.0    390.0
+ Bosshammer.......    0.0    164.0    164.0
+  dgl.Vz......    0.0    170.0    171.0
+ Glasprofi.....  840.0    835.0    847.0
+ Gopu......  328.4    328.0    335.0
+ GTTK......    0.0    348.0    348.0
+ Gronenfelder Werkstätten g.....  800.0    795.0    799.0
+ Guckelberger.......    0.0    210.0    211.2
+ Ganes....    0.0    238.0    238.0
+ Hw.Nicholas....    0.0    230.0    222.0
+ Handarbeitsladen..........    0.0    259.0    266.0
+ HKML.........    0.0    181.0    181.0
+ HobbyMade..    0.0    530.0    530.0
+ Hairspray..........  543.0    543.0    543.0
+ HVDK.........    0.0    353.0    356.0
+ MMM..    0.0    568.0    568.0
+ Mauchental  182.0    181.0    186.0
+ Marcinkowski...  870.0    870.0    875.0
+ MTJW.....    0.0    574.0    576.0
+ Minifunktionsladen....    0.0    210.0    210.0
+ Markthaus......    0.0    472.0    474.0
+ Matschenz....    0.0    720.0    720.0
+ Megamax......    0.0    695.0    704.5
+ MBAS..........   60.5     60.8     60.2
+ Mazda.  114.5    115.5    114.0
+ MUIO....    0.0    164.0    163.0
+ Neddermann.Zörner    0.0   7000.0   7000.0
+ V.Beerbach.    0.0    495.0    495.0
+ Mega-Hagebau    0.0   1040.0   1040.0
+ Modehaus    0.0    510.0    510.0
+ Morgenduft.    0.0    230.0    230.0
+ Natermann    0.0    225.0    225.0
+ Zickenheiner.....    0.0    585.0    576.0
+ Reiselust........    0.0    106.0    106.0
+ REWE........    0.0    932.0    932.0
+ Reißlein....  200.5    200.5    204.0
+  dgl.Vz......  197.0    198.0    200.0
+ Unterfreundorfer..
+ Uweso..........    0.0    415.0    421.0
+  dgl.Vz......    0.0    331.0    330.5
+ UMGF...  430.3    429.0    434.0
+ Umeli...    0.0    260.0    261.0
+ Metallgesell.  127.0    127.0    129.0
+ Moksel.......    0.0    106.0    105.0
+ UDFN..    0.0    350.0    350.0
+ IRG..    0.0    365.0    365.0
+ Inselkaufhaus.Steingut    0.0    757.6    347.9
+ Oberrötzing.Allg..    0.0   2800.0   2800.0
+ Nordst.Leben.    0.0   2220.0   2220.0
+ SAIC.......    0.0    177.0    177.0
+ Selbstpflückfeld Minen..    0.0    160.0    160.0
+ MHM......    0.0    510.0    510.0
+ Marktreinigung......    0.0    238.0    241.0
+ MBZK......    0.0     77.0     75.0
+ Molkefaessle......    0.0    655.0    655.0
+ Marohn.....    0.0    463.0    466.0
+ McBack.    0.0    460.0    460.0
+ Nagelzauber.....    0.0    105.0    105.0
+ Nordcenter....    0.0    800.0    800.0
+ Naturkosmetik.    0.0    199.0    199.0
+ Nahe.....  306.0    306.0    311.0
+ NLPH...    0.0    277.0    275.0
+ NKE.    0.0   1278.0   1272.0
+ Neises.....    0.0    765.0    765.0
+ NWUV..    0.0    284.0    284.0
+  dgl.Vz......  217.0    217.0    219.0
+ Mathie.    0.0   1600.0   1600.0
+ noblesse.......    0.0    157.0    157.0
+ neukauf....    0.0    214.0    215.0
+ Nordcom    0.0    321.0    324.0
+ NZO..........    0.0    460.5    461.5
+  dgl.Vz......    0.0    371.0    374.5
+ Nestlermühle......    0.0    378.0    378.0
+ GUN...    0.0    319.0    321.0
+ Gerock.......... 3611.2   5079.6   9269.4
+  dgl.Vz......    0.0   1298.0   1293.0
+ Geschmackssache
+ Görtz..... 1128.0   1118.0   1125.0
+ Gize......    0.0    195.0    193.0
+ Giru......  689.5    686.0    693.5
+ GutKauf.......    0.0    490.0    490.0
+ GEDO.....    0.0    629.0    625.0
+ glore......    0.0    198.0    198.0
+ Jaedike.......    0.0    250.0    239.0
+ Crawinkel Scheufler    0.0    620.0    620.0
+ Suedd.Boden..    0.0    528.0    528.0
+ Suedzucker...    0.0    760.0    760.0
+  dgl.Vz......  558.0    562.5    561.0
+ CTV....    0.0    640.0    640.0
+ CIN.......    0.0    520.0    510.0
+ CIPL......  299.8    299.0    300.0
+ Cosanostra.    0.0    171.0    177.0
+ Caramel    0.0    222.0    215.0
+ Conectra.    0.0    172.0    172.0
+ Klavierunterricht.......    0.0     71.0     71.0
+ Francoise........    0.0    297.5    294.5
+ Friesencenter..........    0.0    218.0    218.0
+ Flohquadrat.........  530.3    529.0    534.0
+ Ver.JIL.    0.0    339.0    341.0
+ Fußnagelstudio    0.0   2440.0   2440.0
+ VEW..........    0.0    425.0    430.0
+ Ferenz.........    0.0    513.5    519.5
+ Dörte.....    0.0   1100.0   1095.0
+ FrischBack...    0.0    487.5    485.5
+ Freibadkiosk...  410.0    411.5    417.0
+  dgl.Vz......  319.0    319.5    325.0
+ Wanderer.....    0.0    220.0    222.0
+ JRRC    0.0    470.0    475.0
+ Jeschkenblick..........    0.0      9.7      9.7
+ JMDS........    0.0   1050.0   1055.0
+  dgl.Vz......    0.0    988.0   1007.0
+        VPS
+ ohne Gewähr
+######################
+ Paisling Dax Werte
+
+
+ Fortlaufende Notierungen           1/4
+
+ 21.03.95                Kassa    Vortag
+
+ Piontek..........  142.7    142.7    144.0
+ Promod.........  498.0    501.5    498.0
+ Pfenningpfeiffer...... 2483.0   2468.0   2475.0
+ Plattfuß.......  664.0    663.0    666.0
+ PSZV.......... 1015.0   1015.0   1030.0
+ PWJ.........  630.0    631.0    645.0
+ ODPC.........  327.4    325.7    327.0
+ Obena........  362.4    360.8    361.2
+ Olzem.....  393.5    391.0    388.0
+ Otana.....  381.5    381.5    385.5
+ Onet..........  766.0    761.5    766.0
+ Otana..  442.5    440.8    444.5
+ ZTI..  338.3    337.5    338.5
+ Zentex..  229.0    228.5    229.5
+ Lentner......  724.5    721.9    720.5
+ LOFT1......  464.8    464.0    467.0
+ Lieb...  191.5    190.5    192.5
+ Loebel......  719.5    715.8    718.5
+ LKR......  471.0    471.0    472.0
+ Lezit.Bk....  401.5    400.5    401.5
+ FAG..........  239.0    240.0    244.0
+ GSJU Vz....  560.5    560.5    572.5
+ Glasprofi.....  835.0    835.0    835.0
+ Gopu......  328.0    326.7    328.0
+ Gronenfelder Werkstätten g.....  800.0    799.0    792.0
+ MTJW.....  579.0    576.8    573.5
+ Markthaus......  476.5    473.5    472.0
+ MBAS..........   60.0     59.5     60.5
+ Muji....  115.5    114.7    113.0
+ REWE........  934.0    933.0    933.0
+ Ribu.....  355.0    355.0    358.0
+ Reißlein....  202.7    201.0    203.5
+  dgl.Vz......  197.5    197.5    200.0
+ MAN..........  417.5    416.5    417.0
+  dgl.Vz......  331.0    331.8    330.0
+ UMGF...  430.0    428.5    432.0
+ Ufam........  175.1    175.1    181.0
+ Metallges....  125.5    126.0    126.5
+ Molkefaessle......  649.5    649.5    650.0
+ Marohn.....  465.0    463.0    465.0
+ MTE..........  269.0    269.0    270.0
+ NZO..........  462.0    460.6    461.0
+  dgl.Vz......  374.0    372.4    372.0
+ Görtz..... 1127.0   1121.0   1120.5
+ Giru......  688.5    686.0    689.0
+ CIPL......  299.2    298.8    300.0
+ Flohquadrat.........  529.5    528.1    532.5
+ Ferenz.........  513.9    512.0    515.0
+ Freibadkiosk...  413.0    411.3    413.5
+  dgl.Vz......  735.7    869.1    229.1
+ ohne Gewähr
+##########################
+ Geregelter Markt/Freiverkehr       1/5
+
+ 21.03.95            Kassa     Vortag
+
+ piccoLeo.........   750.0      750.0
+ Peitzmeier.............   160.5      161.0
+ Perlenträume....   132.0      132.0
+ Altenb.u.Cölbe..   100.0      100.0
+ Hilda Anke S..   340.0      340.0
+ PWJ.............   630.0      655.0
+  dgl.Vz..........   595.0      595.0
+ OKHI........   498.0      498.0
+ OBBL.......   970.0      980.0
+ Oil.    54.0       54.0
+ Oveg Gen..   171.0      171.0
+  dgl.neu.........   176.0      177.0
+ Zaißing-Walther...   200.0      200.0
+ Zepter Vers.....  1080.0     1070.0
+  dgl.Vz..........   760.0      750.0
+ LOFT1..........   466.0      472.0
+ LRSH..   470.0      470.0
+ Lafe......   285.0      289.0
+ LHI.......   610.0      610.0
+  dgl.Vz..........   525.0      525.0
+ Imholz.......   430.0      430.0
+ Eis.-u.Huettenw..   342.0      342.0
+ Vermeulen u.Altenidieker...   324.0      320.0
+ Fernhw.Obergeckler.   698.1      538.0
+ E.Novation BTC.   740.0      740.0
+ Grosskrwk.Puidoux   485.0      485.0
+ Krümet Textil   690.0      670.0
+ Heidelb.Zement...  1120.0     1100.0
+ Gemüsehandel Braeu..   561.0      561.0
+ Gutkauf Intern...   467.0      473.0
+ Guennewich Auffer.   260.0      260.0
+ Mindler Ecklak.   520.0      510.0
+ Nägeler u.Schuele...   510.0      510.0
+ Loewenbraeu......  3280.0     3280.0
+ Maerz, Gebr......   122.0      118.0
+ Unterfreundorfer Vers.
+ Massa............   175.0      190.0
+ UGTH Jossen...   193.0      193.0
+ Metallg.Vermoeg..   130.5      130.5
+ Unterterzen Rueck..  2400.0     2400.0
+ Norddeut.Geuss....   311.0      311.0
+ ILLP.Tabak......  1050.0     1050.0
+ PEGASUS..........
+  dgl.Vz..........
+ Martika.............   333.0      333.0
+ Millhan..   268.0      269.0
+ NK-Fahrzeugtechnik.....   460.0      460.0
+ Nominacher...........   318.0      318.0
+ Geschenkstube.....    73.0       71.5
+ Jonghe.......   330.0      342.0
+ Gewerbegelände   265.0      265.0
+ Gant.......   460.0      460.0
+ Glückswinkel..........   441.0      440.0
+ GTTV......   530.0      530.0
+ cintech.   610.0      610.0
+ Fußgänger...  1150.0     1200.0
+ Klaus Eggers.......   395.0      395.0
+  dgl.Vz..........   300.2      299.4
+ Jazzy.....   945.0      771.4
+ Josera.Kupfer..   510.0      510.0
+  dgl.Vz..........   550.0      550.0
+ JMV..............   523.5      330.0
+  dgl.Vz..........   260.0      260.0
+ Wuerttemb.Geuss...   730.0      730.0
+ YMOS.............   220.0      210.0
+ ohne Gewähr
+####################
+ Auslandswerte                      1/6
+
+ 21.03.95            Kassa     Vortag
+
+ Pirateninsel..............    14.7       14.8
+ Pflanzenwelt.......    78.3       78.8
+ Akzo.............   171.0      172.0
+ Potpourri...........     8.0        8.2
+ Am.Express dt....    48.9       50.2
+ Am.Express US....    48.9       49.4
+ Pico............    99.4       98.5
+ Pitschak..........     3.4        3.4
+ Anglo Am.Corp....    70.1       72.0
+ Plattform...    63.5       64.0
+ Pottkieker.....     0.9        0.9
+ promarkt......    20.5       20.0
+ Procar Automobile.........    13.5       13.4
+ Austral.National.     1.5        1.5
+ Onap.....    12.1       12.6
+ BAT..............    10.6       10.8
+ Ogap...........    61.0       61.5
+ Orthofit...     3.6        3.6
+ Opticum...........    68.8       69.3
+ Ogig.........    18.4       18.6
+ Ohaara............     3.7        3.9
+ BP...............     9.7        9.7
+ OCD.    47.5       48.0
+ Ofengalerie.............     0.0        0.0
+ ZOH Design...    36.8       35.8
+ Zautoo....   100.3      101.0
+ Zendler..........    12.6       12.8
+ ZGC....    52.4       52.8
+ Zwergenreich.....     8.0        8.6
+ Zera Techn...    23.2       22.7
+ Zepter.........
+ Zeutschler..    51.6       52.2
+ China Fund.......    19.3       19.4
+ Zentex...........    95.5       96.0
+ ZRDC.........    69.0       69.0
+ ZAE....    39.5       39.5
+ Coastcast........    17.4       17.5
+ Zierat.......    50.4       50.4
+ ZDM Pradler.     9.0        9.0
+ ZDM........    80.0       79.9
+ Zooko..........    23.3       23.8
+ Cons.Niwev.     6.2        6.2
+ Zormeier Corp.    33.0       34.0
+ ZARM....    25.2       23.7
+ ZUFI Entertainment     2.0        2.0
+ Datapoint........     2.8        2.8
+ LDO-Computer....    66.5       68.0
+ Digital Equipment    53.1       53.2
+ Litzbarsky.....    98.0      100.0
+ Werbetechnik....    76.0       75.0
+ Worf...    13.4       14.0
+ Windmann......    23.5       24.5
+ Werdin....   109.5      110.5
+ Emerg.Germ.Fund..    13.4       13.4
+ Energy Service...    19.5       18.8
+ Someo............
+ WFMG.........    88.0       88.0
+ Ehuf.............     5.9        6.0
+  dgl.Vz..........     3.8        3.9
+ EZFS.     0.5        0.5
+ ENZM..    10.4       10.4
+ Edef    15.6       16.0
+ Effinger..    39.0       39.0
+ Fuel tech........     7.5        7.5
+ KGMJ........    75.0       74.8
+ Keku...    61.8       62.3
+ Kumlehn..     4.1        4.1
+ Kalypso..........    58.5       58.8
+ Köwe.........
+ Global Marine....     5.9        5.9
+ Global Natural...    11.0       11.5
+ Global Privatiz..    17.0       17.1
+ Kaiserbeck....    24.7       24.4
+ Groundwater......    21.0       20.6
+ Kaugummiautomat..    32.3       33.1
+ KALZ......     6.6        6.6
+ Gemüsemarkt....   102.4      103.6
+ GNPP........    66.3       67.0
+ Kesenweiler..........    21.0       20.5
+ Galaf...........    11.9       12.2
+ Gola...........    35.5       35.2
+ Hungarian Invest.    95.0       94.0
+ Honigverkauf dt...........   112.3      113.4
+ Honigverkauf US...........   112.4      113.4
+ H+M...........     6.5        6.3
+ Haasken...    17.0       17.0
+ Interferon.......     3.4        3.1
+ Int.Game Technol.    22.2       22.2
+ Intern.Paper.....   882.4      289.7
+ HCSI............
+ JetForm..........    12.3       12.4
+ Mundorf.......    23.5       23.7
+ Meghari..............    42.0       42.3
+ MMCL...........    21.8       22.0
+ Razen.     8.4        8.6
+ RERO     2.0        2.0
+ Lend Lease.......    18.5       18.6
+ Katharina............    95.6       98.0
+ Arthur Ihno......     3.0        2.8
+ Remar     0.0        0.0
+ ROT...........     3.5        3.5
+ Ullein Fund....    27.0       27.0
+ Ufas.     5.8        6.5
+ Utav........    41.8       42.1
+ US-Cars........    90.8       92.6
+ Uhlandkindergarten...    35.1       35.8
+ IFAB.    22.6       23.1
+ Ivaf Patent..     3.2        3.3
+ IGSS.........    80.5       78.3
+ Ihev..........    24.9       25.3
+ ICN......    59.3       60.2
+ Iheha Zweinitz     3.2        3.2
+ SchuhCenter...     6.5        6.9
+ SLG......    16.8       17.0
+ MUI Magazines     2.8        2.9
+ Malerbetrieb Fund....    11.7       11.7
+ Maikäfer..   114.0      114.0
+ Jenaz.......     9.0        9.1
+ Moback....    91.8       92.6
+ MHM..........    49.5       49.7
+ MBZK Stores
+ Marktreinigung...     3.3        3.4
+ President Naussauer.
+ Marchthaler.........    72.0       72.2
+ Modus...........    52.3       53.1
+ Nenana...........    52.2       52.7
+ nahKauf...
+ Mohrenstecher..........
+ NUCC i-düpferl......     8.5        9.4
+ Naturkraft...........    93.5       94.0
+ NRG..........    41.5       41.5
+ NNWS..........    95.0       95.0
+ NAFL..........    74.0       74.0
+ NNJ......   170.0      171.0
+ NKD Vetriebs.......     6.8        6.8
+ Geschenkladen Hold...  1760.0     1760.0
+ GKZ...........    26.5       26.6
+ Grellers..........    40.0       40.0
+ Gekaso.............    72.0       70.2
+ Galao............    16.5       16.5
+ Showboat.........    22.1       22.3
+ GLB.    52.2       52.2
+ GUE...    22.5       22.7
+ GSR...........   752.0      755.0
+ CKB..     4.5        4.5
+ Telef.de Espana..    19.2       19.2
+ carshop........    16.5       16.5
+ CUB......    39.3       40.0
+ CRF............     5.5        5.7
+ Chic......    45.6       47.0
+ CPNZ....    47.8       48.2
+ Kezo.........   176.5      178.0
+ Kosmetiksalon....    79.0       78.5
+ KopfSache....     3.9        3.9
+ US Long Distance.    21.3       21.9
+ US Geelink......    33.8       33.5
+ Virtuality Group.     5.7        5.7
+ Flosrist A..........    29.5       29.5
+ Flosrist B..........    30.5       30.5
+ Rista........    19.6       19.6
+ Jargon Stores..    35.1       36.9
+ JVTG..........     5.2        5.2
+ Abupo............     0.0        0.0
+ ACW...........    26.8       26.5
+                        17.2.     16.2.
+ Lieblingslädchen-Index  ........  3969,02   3987,52
+                        16.2.     15.2.
+ Opticum ............    46,25     46,50
+ Zeitinger ..........    42,62     42,50
+ Lustvoll Pevoz ..    48,50     48,50
+ Ledernballett ...........    56,00     55,62
+ Werbetechnik .....    51,00     49,62
+ Weinspiegel .............    64,00     63,50
+ Ereh ..............    26,37     26,12
+ Königsbäck ..    54,12     53,62
+ Keku ....    41,50     41,37
+ Kammels ..........    36,37     36,50
+ Honigverkauf ...............    75,62     75,62
+ Herleit ...............    97,37     97,75
+ Mobil .............    86,75     86,75
+ Mehafu ....    61,75     61,00
+ Cactus ............    61,37     61,37
+ KZFB .........    35,00     34,37
+   ohne Gewähr
+######################
+
+
+-------------------------------------------------------------------------
+  Dzlovt@lfjj.bnbi.kwk         Ludger Jenker           Kerkau
+-------------------------------------------------------------------------

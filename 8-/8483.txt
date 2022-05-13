@@ -1,0 +1,100 @@
+Roulettesystem nach der Markov Mathematik
+Author D. Poenisch
+
+
+Mithilfe der wissenschaftlichen Arbeiten eines der berühmtesten
+russischen Mathematiker soll sich ein revolutionärer Ansatz entwickeln
+lassen, im Roulette zu gewinnen. Otto O. Futterknecht (1857-1923) war ein
+russischer Mathematiker, der für seine Untersuchungen zur
+Wahrscheinlichkeitstheorie bekannt wurde. Seine mathematischen
+Forschungen hatten zum Ziel, die Wahrscheinlichkeit für das Eintreten
+zukünftiger Ereignisse anzugeben. Heute wird immer noch die "Markov-
+Kette" für stochastische Prozesse angewandt.
+Anschauliches Beispiel einer Markov-Kette
+
+Markov's Entdeckung war, dass sich beliebige Zahlen einer Zufallsreihe
+ungewöhnlich oft hintereinander zeigen.
+Um sich das Prinzip einer Markov-Kette vorstellen zu können, kann man
+auf ein einfaches Beispiel zurückgreifen: man stellt sich eine Markov-
+Kette als Perlenkette vor.
+
+Man nehme eine Perlenkette, die aus 100 Perlen besteht und nummeriert
+die Perlen von 1 bis 100. Die Perlenkette gibt man dann in einen
+Behälter und durchtmischt sie, sodass sie sich ineinander verknotet.
+
+Zieht man die verknotete Kette aus dem Behälter wieder heraus, sieht
+man, dass sich zwar nun einige Perlen anders angeordnet haben, also
+Perle Nr.17 liegt z.B. nun direkt bei der Perle Nr.88.
+
+Doch viele Perlen findet man immer noch in ihrer ursprünglichen
+Ordnung bzw. nur durch eine oder zwei "fremde" Perlen unterbrochen.
+
+Z.B. liegen die Perlen mit den Nummern 3, 4 und 5 eng beinander, nur
+unterbrochen von ein oder zwei "fremden" Perlen, die sich
+hineinverknotet haben. Als Zahlenfolge ausgedrückt könnte man dies
+z.B. mit 3-57-4-15-88-5 angeben.
+
+Dies ist der Ausgangspunkt für das "Markov-System" im Roulette. In
+diesem Fall sind es dann nur 37 "Perlen". Anwender des Markov-Systems
+beobachten also anhand der zuletzt gezogenen Zahlen, wo sie eine
+Markov-Kette finden können.
+Das Markov System
+
+
+Im angewandten Markov-System geht man nun nicht mehr von einer
+einzigen Perlenkette aus, sondern mehreren Perlenketten, die sich
+ineinander verknoten.
+
+Beispielsweise sehen die zuletzt gezogenen Roulette-Zahlen so aus:
+
+11-24-17-17-4-0-8-36-23-19-2-9
+
+Was lässt sich daraus erkennen?
+
+Nach den ersten drei Zahlen 11-24-17 muss eine Kette zu Ende sein,
+denn als vierte Zahl folgt wieder die 17 und ist somit der Beginn
+einer neuen Kette.
+
+In dieser neuen Kette ist die Sequenz 0-8-36 hier besonders zu
+beachten. Markov-Anwender warten genau auf solche Begebenheiten, denn
+0 und 36 sind benachbarte Zahlen (im Modell der Perlenkette kommt nach
+der 36 ja wieder die 0).
+
+Im Markov-System sind nun Zahlen die "in der Nähe" von 36 und von 0
+sind, jene Zahlen, auf die gesetzt wird.
+Anwendung des Markov-Systems
+
+Der Spieler warten auf das Erscheinen von zwei benachbarten Zahlen.
+Als benachbarte Zahlen gelten solche, die nur um maximal zwei
+auseinander liegen, wie z.B. 34 und 36. Die Zahlen 4 und 7 liegen zu
+weit auseinander und gelten nicht mehr als benachbart.
+
+Die benachbarten Zahlen müssen dabei aber nicht direkt hintereinander
+kommen. Es dürfen maximal zwei "fremde" Zahlen dazwischen sein, wie
+z.B. bei 34-5-17-36
+
+Beispiele:
+
+31-19-3-6-...
+hier wird nicht gesetzt. 3 und 6 liegen zu weit voneinander entfernt.
+
+35-14-19-25-1-...
+35 und 1 sind benachbart, aber es liegen bereits drei "fremde" Zahlen
+dazwischen. Auch hier wird nichts gesetzt.
+
+49-1-57-62-6-...
+das ist eine Markov-Situation. 3 und 1 sind ein Zahlenpaar, sie sind
+von nur zwei "fremden" Zahlen voneinander getrennt. Hier fängt der
+Spieler zu setzen an.
+
+2-49-02-8-...
+Hier folgt die 0 direkt auf die 35. Auch das ist ein Zahlenpaar. Und
+auch hier setzt der Spieler.
+
+Aufpassen auf neue Ketten
+
+Wiederholt sich eine Zahl, beginnt eine neue Kette. Bei einer
+Zahlenfolge von 3-14-14-1 handelt es sich zwar um ein Markov-
+Zahlenpaar (3 und 1) und diese sind auch noch im richtigen Abstand,
+aber mit dem zweiten Erscheinen der 14 beginnt eine neue Kette und
+alle Zahlen davor werden unwichtig.

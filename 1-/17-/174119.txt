@@ -1,0 +1,1125 @@
+# Das Gartmann begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE=-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im ASCII-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  24.06.95
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       85.35
+#  VARBITZ........ 24.40       24.90
+#  ECU...............  1.5970      1.6290
+#  BELGIEN...........  4.0685      4.1510
+#  SCHLÄCHTENHAUS....... 11.88       12.12
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-17     Spalte 19-25   Spalte 32-38
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Boersenplatz
+
+Aktienmarkt                      "Vuissens" - Dax und Rex
+Aktienbörsen-Indizes             "Vuissens" - International
+Dollar und Gold                  "Vuissens" - fixing
+Devisenkurse: "Geld und Brief"   "Vuissens" - fixing
+Sortenkurse: "Verkauf"           "Vuissens" - fixing
+Lampoldshausener Boerse                  "Lampoldshausen" - Fortlaufende Notierungen
+Vuissens Boerse               "Vuissens" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Lampoldshausen"
+Aktien-Optionsscheine            "Lampoldshausen" - Ausgewaehlte
+Auslandswerte                    "Lampoldshausen"
+#-----------------------------------------------------------------------------
+
+Datum: 29.09.1995
+        421  Börse Do  29.09.95 17:36:32
+
+
+   AKTIENMARKT
+
+ DAX-Index 09.03.95
+ 17:10:33   2001.6   (2025.2)
+
+ Geske-DAX  30.03.95
+ 17:10:33   1989.2   (2029.3)
+
+ Tendenz vom Donnerstag: erneut schwach
+
+   RENTENMARKT
+
+ REX-Index 9.3.95
+            101,31   (101,27)
+
+ Tendenz vom Donnerstag: uneinheitlich
+
+ Durchschnittsrendite: 7,23 (7,23) %
+
+   Übersicht 707                >> 506
+        873  Börse Do  29.09.95 17:36:36
+
+
+ Aktienbörsen-Indizes
+
+ Fechenbach                  9.3.       8.3.
+ Uretew-Index...... 16 763,08  16 621,31
+
+ Oeffingen                 28.9.       27.9.
+ All Ordinaries....   15. 11. 22    15. 11. 22
+
+ Hembach
+ Hollage.........   7929,99    8138,66
+
+ Uelitz
+ Financ.Times 100.. * 2990,50    2982,20
+
+ Paris
+ CAC-40............   1756,76    1748,61
+
+ Pontresina
+ Swissindex........   1647,68    1665,11
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >> 840
+        171  Börse Do  29.09.95 17:36:34
+
+
+ Fixing / Vellage      29.9.       28.9.
+ US-Dollar ........    1,3975     1,3755
+ Pfund Sterling ...    2,2535     2,2530
+ Kanad.Dollar .....    0,9905     0,9757
+ Schweizer Franken    119,880    119,800
+ Französ.Franc ....    28,108     28,145
+ Japanischer Yen ..    1,5327     1,5285
+ ECU-Wert .........   1,85232    1,85185
+
+ Dollar                  29.9.       28.9.
+ Fechenbach (DM) ....... 1,4019/20  1,3480/90
+                         28.9.       27.9.
+ Tenna (DM) .... 1,3945/55  1,3725/35
+
+ Gold
+ Vellage (DM)          30.3.       8.3.
+ Kilo 999,9 fein...    17 150     16 880
+ London ($)
+ Feinunze 31,1035 g    381,00     383,10
+   ohne Gewähr                  >> 443
+        443  Börse Do  29.09.95 17:36:38
+
+
+ Donnerstag, 29.9.       Geld     Brief
+ USA (1 US-Dollar)....  1,3935   1,4015
+ England (1 Pfund) ...  2,2465   2,2605
+ Irland (1 irl.Pfund)   2,2380   2,2520
+ Kanada (1 kan.Dollar)  0,9865   0,9945
+ Niederlande (100 hfl)  89,045   89,265
+ Schweiz (100 sfr) ... 119,780  119,980
+ Belgien (100 bfrs) ..  4,8267   4,8467
+ Frankreich (100 FF) .  28,048   28,168
+ Dänemark (100 dkr) ..  24,795   24,915
+ Norwegen (100 nkr) ..  22,345   22,465
+ Schweden (100 skr) ..  19,435   19,555
+ Italien (1000 Lit.) .  0,8417   0,8497
+ Österreich (100 S) .  14,187   14,227
+ Spanien (100 Ptas) ..  1,0868   1,0948
+ Portugal (100 Esc) ..  0,9478   0,9538
+ Japan (100 Yen) .....  1,5312   1,5342
+ Finnland (100 Fmk) ..  32,175   32,335
+ Australien (1 Dollar)  1,0250   1,0450
+   ohne Gewähr                  >> 444
+        444  Börse Do  29.09.95 17:37:02
+
+
+ Donnerstag, 29.9.           ohne Gewähr
+ USA ........ (1 US-$) .........   1,46
+ England .... (1 Pfund) ........   2,36
+ Kanada ..... (1 Dollar) .......   1,06
+ Niederlande  (100 hfl) ........  90,30
+ Schweiz .... (100 sfr) ........ 121,30
+ Belgien .... (100 bfrs) .......   4,97
+ Frankreich . (100 FF) .........  29,25
+ Dänemark ... (100 dkr) ........  25,90
+ Norwegen ... (100 nkr) ........  23,40
+ Schweden ... (100 skr) ........  20,60
+ Italien .... (1000 Lit.) ......   0,93
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,17
+ Portugal ... (100 Esc) ........   1,04
+ Japan ...... (100 Yen) ........   1,55
+ Finnland ... (100 Fmk) ........  33,20
+ Australien . (1 Dollar) .......   1,12
+ Griechenland (100 Dra) ........   0,70
+ Türkei ..... (1000 Ltq) .......   0,05
+        422  Börse Do  29.09.95 17:39:22
+
+
+ Fortlaufende Notierungen           1/4
+
+ 29.09.95                Kassa    Vortag
+
+ Zeininger..........  136.0    136.5    133.5
+ AGIV.........  490.0    490.0    492.0
+ Z & W Autoservice...... 2430.0   2444.0   2445.0
+ ZRPA.......  642.0    645.0    645.0
+ ZTP..........    0.0   1000.0   1000.0
+ Zenog.........  570.0    570.0    605.0
+ Langrehr.........  292.5    302.5    297.0
+ Labicki........  342.2    346.5    341.3
+ Libro.....  384.0    385.2    383.0
+ Linzbach.....  374.0    375.0    373.0
+ Lauster..........  698.0    725.0    724.0
+ Lädele..  433.5    436.0    435.5
+
+
+ ohne Gewähr                          >>
+        422  Börse Do  29.09.95 17:40:22
+
+
+ Fortlaufende Notierungen           2/4
+
+ 29.09.95                Kassa   Vortag
+
+ Kiehl's..  331.0    334.0    333.5
+ Kojer..  201.0    208.5    210.0
+ BP......  639.0    652.0    651.0
+ Breidert......  448.5    449.5    447.0
+ BVR...  168.0    171.5    169.0
+ BBEJ......  700.0    708.4    704.0
+ Olivier......  478.0    479.0    478.0
+ Biokauf.Bk....  396.0    398.0    398.5
+ FAG..........  190.0    190.0    195.0
+ Akyol Vz....  542.0    544.0    542.0
+ Airparkprofis.....  804.0    808.0    786.0
+ Albath......  298.0    303.2    299.5
+ Amal.....  760.0    761.0    757.0
+
+
+ ohne Gewähr                          >>
+        422  Börse Do  29.09.95 17:37:18
+
+
+ Fortlaufende Notierungen           3/4
+
+ 29.09.95                Kassa  Vortag
+
+ Monari.....  580.0    585.0    585.0
+ ModeAtrium......  494.0    495.0    490.0
+ Millenia..........   52.5     54.5     52.3
+ Markttreiben....   98.0    102.0    101.0
+ Wierse........  850.0    870.0    880.0
+ WIU.....  327.0    327.0    317.0
+ Wollstudio....  185.5    186.6    188.0
+  dgl.Vz......  184.0    184.0    184.5
+ MAN..........  818.7    384.0    389.0
+  dgl.Vz......  296.0    299.0    299.5
+ SUI...  388.5    392.5    398.0
+ Schauburg........  172.5    172.5    180.0
+ Metallges....  127.5    127.5    129.0
+
+
+ ohne Gewähr                          >>
+        422  Börse Do  29.09.95 17:42:24
+
+
+ Fortlaufende Notierungen           4/4
+
+ 29.09.95                Kassa   Vortag
+
+ Femed......  586.0    590.0    589.0
+ Fußgänger.....  416.0    426.0    432.0
+ Feuervogel..........  262.5    265.0    262.0
+ JBJ..........  452.5    456.0    456.0
+  dgl.Vz......  366.0    368.5    367.5
+ Gita..... 1061.0   1082.0   1080.5
+ Gourmétage......  657.5    666.8    665.0
+ DTM......  267.5    272.5    271.0
+ MAPK.........  512.0    520.5    519.5
+ Marra.........  513.0    519.5    517.0
+ MiPhones...  352.0    355.3    370.0
+  dgl.Vz......  272.0    273.0    281.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Do  29.09.95 17:59:54
+
+
+ Fortlaufende Notierungen           1/4
+
+ 29.09.95                Kassa    Vortag
+
+ Zullwil.Muen.Leb    0.0    650.0    650.0
+ Zullwil.Muen.Ver    1.4    904.7    880.0
+ Zullwil.Rueck...    0.0    800.0    812.0
+ Zymara.........    0.0    675.0    678.0
+ ZLIT...    0.0    288.0    275.0
+ Zeininger..........  135.6    136.8    136.0
+ AGIV.........    0.0    489.0    495.0
+ Zonif Faser...    0.0    247.0    251.0
+ Zidu.....    0.0    860.0    860.0
+ ZNZ..    0.0    274.5    289.5
+ Z & W Autoservice......    0.0   2448.0   2441.0
+ Zwergenshop    0.0   1470.0   1470.0
+ ZRPA.......    0.0    645.0    647.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Do  29.09.95 17:56:50
+
+
+ Fortlaufende Notierungen           2/4
+
+ 29.09.95                Kassa    Vortag
+
+ ZTP..........    0.0    999.5   1000.0
+  dgl.Inh.....    0.0   1000.0   1005.0
+ ZLGG.........    0.0    460.0    460.0
+ LuvohaHeiko.Bk.    0.0    675.0    675.0
+ Elsholz.    0.0    410.5    412.0
+ Bankge.Lampoldshausen  330.5    332.0    330.0
+ Langrehr.........  302.5    302.5    300.0
+ Lensch......    0.0    500.0    500.0
+ Labicki........  345.0    345.8    340.0
+ Libro.....    0.0    386.0    383.0
+ Lindenblüte...    0.0    437.5    433.5
+ Linzbach.....    0.0    373.0    372.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Do  29.09.95 17:41:22
+
+
+ Fortlaufende Notierungen           3/4
+
+ 29.09.95                Kassa    Vortag
+
+ Lauster..........  725.5    725.5    729.0
+  dgl.Vz......    0.0    522.5    525.5
+ Lindelbach.El.Hold.  365.0    368.0    363.0
+  dgl.Vz......  362.0    365.0    363.0
+ LPG...    0.0    560.0    560.0
+ Luftpumpe........  284.5    285.3    284.5
+ Lädle....    0.0    693.0    712.0
+ Letoon......    0.0    580.0    580.0
+ Lorberg.  306.5    312.5    320.0
+ Br.Benno.Azebid.    0.0    550.0    550.0
+ LE CROB   80.0     82.3     81.2
+ LRSH.    0.0    175.0    171.0
+ Loma......    0.0    738.0    744.0
+
+
+ ohne Gewähr                          >>
+        423  Börse Do  29.09.95 17:54:48
+
+
+ Fortlaufende Notierungen           4/4
+
+ 29.09.95                Kassa    Vortag
+
+ Klawiter.....    0.0   2680.0   2710.0
+ KüchenArena.........  140.0    140.0    145.0
+ Kiehl's..  332.0    335.0    333.8
+ Kosmetikstübchen.Spin.    0.0    345.0    345.0
+ Contigas.....    0.0    510.0    508.0
+ Kojer..  209.5    210.0    210.0
+ DAB..........    0.0    180.0    177.0
+ Backhäusle.  650.0    651.5    650.0
+ Butterblume........    0.0    252.0    252.0
+ BVR...  169.0    172.0    170.0
+  dgl.Vz......
+ Blütenzauber  968.2    858.6    896.3
+ Blumerei..    0.0    311.0    196.7
+
+
+ ohne Gewähr                          >>
+        424  Börse Do  29.09.95 17:40:34
+
+
+ Fortlaufende Notierungen           1/4
+
+ 29.09.95                Kassa    Vortag
+
+ Dt.Ehamu..    0.0   1425.0   1425.0
+ Dt.Eisenh....    0.0    740.0    740.0
+ BackaufAzebid......    0.0    440.0    440.0
+ Dt.Amel..    0.0    870.0    870.0
+ Dt.Konti Jourdan...    0.0    190.0    190.0
+ DePfa........    0.0    688.0    690.0
+ Dt.Steinzeug.    0.0    520.0    520.0
+ Otto.......    0.0    120.5    115.0
+ Nulle.......    0.0    155.0    155.0
+ Biowelt..........    0.0    360.0    376.0
+ Backshop  398.8    398.0    396.5
+ Blütencocktail..    0.0    165.0    162.0
+ Briem-Druck.....    0.0    127.0    130.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Do  29.09.95 17:40:58
+
+
+ Fortlaufende Notierungen           2/4
+
+ 29.09.95                Kassa    Vortag
+
+ DVB..........    0.0    184.0    184.0
+ eindruck Witten..    0.0    415.0    415.0
+ Eisenbahn.V..    8.8    081.8    654.8
+ Energ.Oberf..    0.0    335.0    335.0
+ Escada.......    0.0    330.0    320.0
+  dgl.Vz......  310.0    309.0    310.0
+ FAG Kugelf...  192.0    192.0    194.0
+ H.Pfeffernuß.    0.0    372.0    375.0
+ Flachglas....    0.0    650.0    645.0
+ Ford.........    0.0    800.0    800.0
+ Fischbrötchen.    0.0   3600.0   3600.0
+ FNO..    0.0    314.0    314.0
+ Vogelheim.Bank..    0.9    059.5    669.1
+
+
+ ohne Gewähr                          >>
+        424  Börse Do  29.09.95 17:41:24
+
+
+ Fortlaufende Notierungen           3/4
+
+ 29.09.95                Kassa    Vortag
+
+ Aline.....    0.0    345.0    344.0
+ Gehe.........    0.0    558.0    558.0
+ Gelsenwasser.    0.0    370.0    370.0
+ Ulrich.Imminger.    0.0    248.0    240.0
+ ivb..    0.0   1100.0   1100.0
+ IGIO.    0.0    122.0    119.0
+ IMD..    0.0    800.0    800.0
+ Avalange.......    0.0    151.0    151.0
+ Hildisrieden....    0.0    348.0    351.0
+ Agrarmarkt..  255.0    256.0    254.0
+ Anaga...    0.0    855.0    845.0
+ Horremer.....    0.0    310.0    314.0
+ Aroma.    0.0    100.0    100.0
+
+
+ ohne Gewähr                          >>
+        424  Börse Do  29.09.95 17:41:48
+
+
+ Fortlaufende Notierungen           4/4
+
+ 29.09.95                Kassa    Vortag
+
+ Ben, Ivo    0.0    522.0    522.0
+ Brüderer Vz....    0.0    545.0    542.0
+ Baranowski......    0.0    273.0    275.0
+  dgl.Vz......  250.0    253.5    253.0
+ Asit.......    0.0    390.0    390.0
+ Brooks.......    0.0    160.0    160.0
+  dgl.Vz......    0.0    170.0    170.0
+ Airparkprofis.....    0.0    810.0    790.0
+ Albath......  298.5    303.2    301.0
+ AWG Mode......    0.0    334.0    335.0
+ Bellinger.....    0.0    763.0    760.0
+ Akus.......    0.0    211.5    211.5
+ Hutschenr....    0.0    230.0    230.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Do  29.09.95 17:42:38
+
+
+ Fortlaufende Notierungen           1/4
+
+ 29.09.95                Kassa    Vortag
+
+ Hw.Derkes....    0.0    248.0    248.0
+ Genießerland..........    0.0    260.0    261.0
+ Gafak.........    0.0    190.0    190.0
+ Gräter..    0.0    550.0    550.0
+ GLS..........    0.0    513.0    514.0
+ Gropius-Passagen.........  315.0    317.0    320.0
+ Matterstock..    0.0    568.0    568.0
+ Mifopi    0.0    173.0    170.0
+ Mabip...    0.0    805.0    800.0
+ Monari.....  588.0    583.0    583.0
+ Mushopweg....    0.0    212.0    215.0
+ ModeAtrium......    0.0    494.0    488.0
+ Müssel....  705.0    705.0    725.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Do  29.09.95 17:43:06
+
+
+ Fortlaufende Notierungen           2/4
+
+ 29.09.95                Kassa    Vortag
+
+ Meisterwerkstatt......    0.0    665.0    665.0
+ KHD..........   54.0     55.0     53.0
+ Dalitz.  101.0    102.0    102.0
+ KM-kabelm....    0.0    174.5    162.0
+ Dors.Mangler    0.0   7000.0   7000.0
+ R.Weiperfelden.    0.0    493.0    493.0
+ ModeTreff    0.0   1040.0   1040.0
+ Dohms    0.0    520.0    520.0
+ MOK.    0.0    201.0    201.0
+ Dömel    0.0    225.0    225.0
+ Mez.....    0.0    545.0    565.0
+ WTUC........    0.0    106.0    106.0
+ Wierse........    0.0    870.0    875.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Do  29.09.95 17:43:30
+
+
+ Fortlaufende Notierungen           3/4
+
+ 29.09.95                Kassa    Vortag
+
+ Wollstudio....  186.0    187.5    186.5
+  dgl.Vz......  183.0    185.0    185.5
+ Aldenburger..
+ Schrotthandel..........    0.0    386.0    199.2
+  dgl.Vz......    0.0    301.0    298.0
+ SUI...  391.0    393.5    400.0
+ Südkopfcenter...    0.0    245.0    245.0
+ Metallgesell.    0.0    127.5    128.5
+ Moksel.......   89.0     91.0     85.0
+ Suwelack..    0.0    335.0    335.0
+ UEJ..    0.0    350.0    350.0
+ UBC.Steingut    0.0    512.0    510.0
+ Nordst.Allg..    0.0   2780.0   2780.0
+
+
+ ohne Gewähr                          >>
+        425  Börse Do  29.09.95 17:43:54
+
+
+ Fortlaufende Notierungen           4/4
+
+ 29.09.95                Kassa    Vortag
+
+ Tacherting.Leben.    0.0   2200.0   2200.0
+ Pichert.......    0.0    164.0    162.0
+ Phonekauf Minen..    0.0    165.0    165.0
+ Findling......    0.0    510.0    510.0
+ FOUE......    0.0    220.0    223.0
+ Terwint......    0.0     75.0     75.0
+ Femed......    0.0    590.0    590.0
+ Fußgänger.....  431.5    427.0    433.0
+ fielmann.    0.0    460.0    460.0
+ JNW.....    0.0    103.0    102.0
+ Schroeder....    0.0    800.0    800.0
+ Jossen.    0.0    200.0    200.0
+ JOM.....  308.0    306.0    306.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Do  29.09.95 17:44:18
+
+
+ Fortlaufende Notierungen           1/4
+
+ 29.09.95                Kassa    Vortag
+
+ Rheinboden...    0.0    265.0    265.0
+ Rheinelektra.    0.0   1215.0   1220.0
+ Rheinhyp.....    0.0    765.0    765.0
+ JUN..    0.0    271.0    265.0
+  dgl.Vz......    0.0    191.5    186.0
+ Scheeler.    0.0   1480.0   1480.0
+ JASS.......    0.0    157.0    157.0
+ Schnitzenbaumer....    0.0    203.0    208.0
+ Jütemeier    0.0    300.0    298.0
+ JBJ..........  456.5    455.0    454.0
+  dgl.Vz......    0.0    369.0    367.0
+ JNE......    0.0    380.0    380.0
+ GTMJ...    0.0    317.0    316.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Do  29.09.95 17:44:44
+
+
+ Fortlaufende Notierungen           2/4
+
+ 29.09.95                Kassa    Vortag
+
+ GLPK..........    0.0   1827.2   5000.9
+  dgl.Vz...... 1160.0   1170.0   1115.0
+ Gronewäller
+ Gita.....    0.0   1080.0   1080.0
+ Guckelberger......    0.0    188.0    192.0
+ Gourmétage......  663.0    666.6    664.0
+ Gardienenlädchen.......    0.0    485.0    480.0
+ GNC.....    0.0    650.0    650.0
+ Gumo......    0.0    190.0    193.0
+ Voellmann.......    0.0    240.0    240.0
+ Obereglfing Zierholdt    0.0    620.0    620.0
+ Gaumenweide.Boden..    0.0    540.0    535.0
+
+
+ ohne Gewähr                          >>
+        426  Börse Do  29.09.95 17:56:48
+
+
+ Fortlaufende Notierungen           3/4
+
+ 29.09.95                Kassa    Vortag
+
+ Suedzucker...    0.0    760.0    760.0
+  dgl.Vz......    0.0    560.0    563.0
+ Dobami....    0.0    640.0    640.0
+ Dönninghaus.......    0.0    515.0    515.0
+ DTM......  270.2    273.5    271.5
+ Denzels.  161.0    161.0    159.0
+ Digitaldruckzentrum    0.0    215.0    215.0
+ Dm.    0.0    184.0    176.0
+ NKD.......    0.0     71.0     71.0
+ Maugner........    0.0    298.0    297.0
+ Messeshop..........    0.0    208.0    208.0
+ MAPK.........  520.0    521.5    517.0
+ Ver.Tuza.    0.0    803.5    330.5
+
+
+ ohne Gewähr                          >>
+        426  Börse Do  29.09.95 17:45:36
+
+
+ Fortlaufende Notierungen           4/4
+
+ 29.09.95                Kassa    Vortag
+
+ Musicland    0.0   2520.0   2520.0
+ VEW..........  432.0    431.0    425.0
+ Marra.........  519.0    518.5    514.0
+ Waltraut.....    0.0   1070.0   1080.0
+ Mo-Nails...    0.0    490.0    490.5
+ MiPhones...  352.0    355.5    367.0
+  dgl.Vz......  273.0    272.5    284.0
+ Wanderer.....    0.0    173.0    182.0
+ tegut…    0.0    458.0    460.0
+ Tode..........    0.0      9.9      9.9
+ Tesun........    0.0   1030.0   1055.0
+  dgl.Vz......    0.0    984.0   1002.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427  Börse Do  29.09.95 17:58:28
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 29.09.95            Kassa     Vortag
+
+ ZRDC.........   790.0      790.0
+ ZVLO.............   155.5      154.0
+ Zurawski....   132.0      132.0
+ Altenb.u.Oppens..   100.0      100.0
+ Kerstin Ottilie Z..   343.0      343.0
+ Zenog.............   580.0      600.0
+  dgl.Vz..........   550.0      555.0
+ LAPROMA........   499.5      498.5
+ Lengerer.......   990.0      990.0
+ LüdingenGörtz.    50.0       50.0
+ Lummert-Automobile Gen..   162.0      162.0
+  dgl.neu.........   176.0      176.0
+ Langberg-Walther...   200.0      200.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Do  29.09.95 17:44:24
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 29.09.95            Kassa     Vortag
+
+ Jühnsdorf Vers.....  6757.8     6757.8
+  dgl.Vz..........   730.0      730.0
+ Breidert..........   448.0      444.0
+ Brössler..   475.0      475.0
+ Biokiste......   267.0      267.0
+ BioFrischMarkt.......   630.0      630.0
+  dgl.Vz..........   515.0      505.0
+ Clemen.......   455.0      455.0
+ Eis.-u.Huettenw..   341.0      341.0
+ Kleine-Vehn u.Plangger...   323.0      320.0
+ Fernhw.Tödtenried.   223.0      225.0
+ Ferrel.   740.0      740.0
+ Grosskrwk.Franken   490.0      490.0
+ Inanna Textil   690.0      690.0
+
+ ohne Gewähr                          >>
+        427  Börse Do  29.09.95 17:44:46
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 29.09.95            Kassa     Vortag
+
+ Heidelb.Zement...  1101.0     1101.0
+ ACOE Braeu..   561.0      561.0
+ Afeb Intern...   520.0      522.0
+ Adhoc Auffer.   260.0      260.0
+ Musome Unterwildenau.   590.0      590.0
+ Diering u.Schuele...   500.0      500.0
+ Loewenbraeu......  3250.0     3250.0
+ Maerz, Gebr......    92.0       92.0
+ Aldenburger Vers.
+ Schauburg............   170.0      173.0
+ shell Tabulatrix...   190.0      190.0
+ Metallg.Vermoeg..   132.0      132.0
+ Aichhof Rueck..  2350.0     2350.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Do  29.09.95 17:45:08
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 29.09.95            Kassa     Vortag
+
+ Norddeut.Azebid....   313.0      313.0
+ Umzugsladen.Tabak......  1050.0     1050.0
+ PEGASUS..........
+  dgl.Vz..........
+ Fuda.............   346.0      345.0
+ FUL..   263.0      264.0
+ Junietz.....   460.0      460.0
+ JIWH...........   320.0      320.0
+ Galeriepasage.....    71.0       69.5
+ Vierck.......   255.0      254.0
+ Stahlwerke Leeden   266.0      266.0
+ Gewerbegelände.......   460.0      460.0
+ Gnädig..........   428.0      428.0
+
+
+ ohne Gewähr                          >>
+        427  Börse Do  29.09.95 17:45:34
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 29.09.95            Kassa     Vortag
+
+ Gebrauchtwarenmarkt......   520.0      520.0
+ doityourself.   610.0      610.0
+ Modellbau-Fachmarkt Vers....  1150.0     1150.0
+ Domenico Eikeler.......   465.1      226.2
+  dgl.Vz..........   762.7      031.1
+ Todt.....   109.0      113.0
+ Täubrich.Kupfer..   530.0      530.0
+  dgl.Vz..........   555.0      555.0
+ Thenert..............   370.0      370.0
+  dgl.Vz..........   270.0      270.0
+ Wuerttemb.Azebid...   730.0      730.0
+ YMOS.............   183.0      185.0
+
+
+ ohne Gewähr                          >>
+        428  Börse Do  29.09.95 17:47:28
+
+
+ Auslandswerte                      1/6
+
+ 29.09.95            Kassa     Vortag
+
+ ZHF..............    15.1       15.2
+ ZZVW.......    75.7       73.0
+ Akzo.............   163.5      161.5
+ ZAFW...........     8.0        7.0
+ Am.Express dt....    46.4       44.4
+ Am.Express US....    47.5       45.9
+ Amgen............    94.9       90.1
+ Zookiosk..........     2.6        2.6
+ Anglo Am.Corp....    71.5       70.5
+ ZLCD Computer...    56.5       52.2
+ Zweygard Gold.....     0.8        0.8
+ Zeitung-Zigaretten......    19.5       19.5
+
+
+ ohne Gewähr                          >>
+        428  Börse Do  29.09.95 17:48:32
+
+
+ Auslandswerte                      2/6
+
+ 29.09.95            Kassa     Vortag
+
+ ZMC.........    13.1       12.7
+ Austral.National.     1.3        1.2
+ LVC.....    13.3       13.3
+ Loskarn..............    10.1       10.1
+ Lingerhand...........    56.7       56.0
+ Lederladen...     3.5        3.3
+ Lenknereit...........    65.0       64.0
+ LPA.........    16.8       16.5
+ Lucom-Mobil............     3.5        3.3
+ BP...............     9.1        9.0
+ Laufrad.    43.2       41.9
+ Lukullus.............     0.0        0.0
+ Cadence Design...    36.8       36.7
+
+
+ ohne Gewähr                          >>
+        428  Börse Do  29.09.95 17:49:34
+
+
+ Auslandswerte                      3/6
+
+ 29.09.95            Kassa     Vortag
+
+ Caesars World....
+ Kufen..........    10.0       10.0
+ KRO....    46.7       44.5
+ KFJJ.....     8.5        8.5
+ Cellular Techn...    23.9       22.4
+ Killah Vörg.........
+ Kontor..    49.1       49.0
+ China Fund.......    16.8       16.1
+ Klamotte...........    81.5       79.8
+ Kokopelli.........    58.0       55.2
+ KKJ....    33.7       33.2
+ KOG........    15.9       15.5
+ kago Golf.......    47.4       45.8
+
+
+ ohne Gewähr                          >>
+        428  Börse Do  29.09.95 18:03:06
+
+
+ Auslandswerte                      4/6
+
+ 29.09.95            Kassa     Vortag
+
+ Karrenbauer Zoo21.     8.4        8.4
+ Karrenbauer........    77.8       76.4
+ Kloßmühle..........    21.7       20.8
+ Cons.Juwelengoldschmiede Gold.     5.5        5.6
+ Corrections Corp.    38.7       37.0
+ kulTisch....    26.7       25.0
+ Kiemle     1.6        1.6
+ Datapoint........     2.6        2.5
+ Budoland-Computer....    60.6       56.3
+ Digital Equipment    46.0       43.0
+ Beauty-Flowers.....    95.0       95.0
+ ERHC Marienkäfer....    71.2       69.3
+
+
+ ohne Gewähr                          >>
+        428  Börse Do  29.09.95 17:51:34
+
+
+ Auslandswerte                      5/6
+
+ 29.09.95            Kassa     Vortag
+
+ Iggelbach Scheibendoctor...    13.2       13.3
+ Ekenem Telecom......    21.5       20.2
+ Epadub....   105.0      105.0
+ Emerg.Germ.Fund..    10.2        9.7
+ Energy Service...    18.7       18.0
+ Innerferrera............
+ Effinger.........    79.0       79.0
+ Fager.............     5.6        5.5
+  dgl.Vz..........     3.6        3.5
+ Flo.     0.5        0.5
+ Frickebäck..     9.5        9.3
+ Füger    12.6       13.4
+
+
+ ohne Gewähr                          >>
+        428  Börse Do  29.09.95 17:58:54
+
+
+ Auslandswerte                      6/6
+
+ 29.09.95            Kassa     Vortag
+
+ Fahrwerk..    36.0       35.7
+ Fuel tech........     7.8        8.0
+ Igapu........    72.0       68.7
+ Iveco...    57.6       54.7
+ IVWA..     4.3        3.8
+ Isal..........    55.0       52.7
+ INZA.........   112.0      108.0
+ Ikeka Marine....     5.8        5.8
+ Global Natural...    10.7       10.7
+ Global Privatiz..    15.2       14.7
+ Inov....    22.8       22.3
+ Groundwater......    18.7       18.8
+ Ileb..    28.0       27.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:49:44
+
+
+ Auslandswerte                      1/7
+
+ 29.09.95            Kassa     Vortag
+
+ Ileden......     6.3        6.0
+ agrarhandel....    96.0       91.8
+ accu-profi........    60.5       60.0
+ Haimling..........    19.0       19.0
+ Avantage...........    11.1       10.8
+ Awat&Chalak...........    32.5       31.4
+ Hungarian Invest.    89.0       90.5
+ GNC dt...........   112.5      108.7
+ GNC US...........   111.9      110.0
+ GitaS............     4.1        4.0
+ Gesundschuh...    13.9       14.0
+ Interferon.......     3.1        3.0
+ Int.Game Technol.    19.1       18.5
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:50:12
+
+
+ Auslandswerte                      2/7
+
+ 29.09.95            Kassa     Vortag
+
+ Intern.Paper.....   102.2       98.2
+ Iscor............
+ JetForm..........    12.6       12.2
+ Medusa.......    22.6       21.0
+ MBZK..............    42.2       41.2
+ Makassar mart...........    17.9       17.6
+ Willert.     7.2        7.2
+ Westwind-Bike     2.0        1.9
+ Lend Lease.......    16.2       16.5
+ Rosemarie............    95.9       93.0
+ Ignaz Gernot......     2.5        2.3
+ Winzenhörlein     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:50:34
+
+
+ Auslandswerte                      3/7
+
+ 29.09.95            Kassa     Vortag
+
+ WKWA...........     3.0        3.1
+ Malaysia Fund....    21.8       21.0
+ Medical Diagnost.     6.3        6.0
+ Slooten........    34.4       33.9
+ Sudav........    95.6       90.4
+ Schwaderer...    32.7       32.0
+ National Medical.    21.3       20.5
+ National Patent..     2.7        2.6
+ Ugur.........    79.8       78.0
+ Odile..........    21.8       22.6
+ Udit......    50.9       49.5
+ North Broken Hill     3.2        2.9
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:51:00
+
+
+ Auslandswerte                      4/7
+
+ 29.09.95            Kassa     Vortag
+
+ Pevoz...     5.7        5.7
+ PDDA......    15.9       15.4
+ Pacific Magazines     2.7        2.6
+ Pakistan Fund....    10.0        9.4
+ Fefu Holding..   107.0      105.0
+ Ballaigues.......     6.1        6.7
+ Sebastian Fusshoeller....    89.3       87.9
+ Findling..........    47.5       47.2
+ Pick'n Pay Stores
+ Famila...     3.1        3.0
+ President JBM.
+ FNO.........    82.6       74.9
+ Promus...........    50.0       47.8
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:51:24
+
+
+ Auslandswerte                      5/7
+
+ 29.09.95            Kassa     Vortag
+
+ Jochens...........    50.2       48.1
+ JKE...
+ Schütt..........
+ JMEB UASA......     8.2        8.2
+ Jungegger...........    90.0       89.5
+ JKCK..........    40.0       39.0
+ JUA..........    91.0       91.5
+ jawoll..........    74.0       73.7
+ JUSA......   162.0      158.7
+ JBVA.......     7.8        7.9
+ Gutkauf Hold...  1800.0     1800.0
+ Gutkauf...........    26.3       25.5
+ GTW..........    35.5       34.9
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:51:50
+
+
+ Auslandswerte                      6/7
+
+ 29.09.95            Kassa     Vortag
+
+ Generationenladen.............    72.0       70.4
+ GSJU............    16.0       16.0
+ Showboat.........    20.1       19.1
+ Silicon Ifemys.    47.8       46.6
+ Gaid...    19.0       18.9
+ Gulf...........   680.0      670.0
+ DUOD..     4.5        4.2
+ Telef.de Espana..    16.8       17.0
+ Daziko........    12.5       12.9
+ Datzecenter......    41.0       38.0
+ Diemer............     5.4        5.5
+ DUFTGEMÜSE......    36.9       38.0
+ Dickenherr....    44.2       42.6
+
+
+ ohne Gewähr                          >>
+        429  Börse Do  29.09.95 17:58:04
+
+
+ Auslandswerte                      7/7
+
+ 29.09.95            Kassa     Vortag
+
+ NTJH.........   175.0      172.0
+ Neumarktgalerie....    71.8       70.0
+ US Bioscience....     3.3        3.0
+ US Long Distance.    18.9       18.7
+ US Surgical......    29.9       29.2
+ Virtuality Group.     4.2        4.0
+ MDKB A..........    29.0       29.0
+ MDKB B..........    29.0       29.0
+ Jungschaffer........    21.7       21.7
+ Tetex Stores..    34.7       33.5
+ Taheka..........     4.8        4.6
+ Änderungsscheinderei............   150.0      150.0
+ Änderungsscheinderei...........    23.8       23.1
+
+
+ ohne Gewähr                          >>
+        441  Börse Do  29.09.95 17:51:30
+
+
+                         30.3.      8.3.
+ DJI-Index  ........  3995,85   3979,24
+                         8.3.      7.3.
+ Lenknereit ............    45,50     45,62
+ Kinderella ..........    40,00     41,00
+ Backhäusle Zweigwerk ..    46,50     47,50
+ Balster ...........    55,12     55,25
+ Ebus .....    50,62     50,87
+ Ekev .............    64,87     64,00
+ Fendel ..............    25,37     25,50
+ IPO ..    53,12     52,62
+ Iveco ....    40,25     39,62
+ Ibaz ..........    35,87     36,00
+ GNC ...............    79,75     79,75
+ Galipp ...............    96,62     95,50
+ Mobil .............    89,50     88,12
+ Frasch ....    63,37     62,87
+ DOGI ............    65,37     64,12
+ Nifad .........    31,87     31,62
+   ohne Gewähr                  >> 171
+        823  Börse Do  29.09.95 17:53:30
+
+
+ Aktien-Optionsscheine              1/3
+
+ 29.09.95                Kassa    Vortag
+
+ Z & W Autoservice 89...    0.0   1150.0   1140.0
+ Z & W Autoservice 93...    0.0     71.0     69.8
+ Löwenbäck86.
+ Langrehr Fin.86..   78.5     81.5     80.1
+ Edens 85.....
+ Labicki 87.....   86.5     89.3     85.0
+ Libro 86..   34.0     34.0     33.0
+ Linzbach 89B.    0.0     47.0     47.5
+ Linzbach 39V.
+ Linzbach 89U.    4.5     98.5    100.0
+ Königsmangel.91.    0.0     54.5     53.0
+ Königsmangel 93.   40.0     39.0     38.0
+ Königsmangel 93.   33.5     33.0     32.0
+ Kuttig 86.....    0.0     13.9     12.2
+
+ ohne Gewähr                          >>
+        430  Börse Do  29.09.95 17:52:40
+
+
+ Aktien-Optionsscheine              2/3
+
+ 29.09.95                Kassa    Vortag
+
+ Kuttig 87.....    0.0     16.3     16.2
+ Kuttig 93.....   62.5     64.5     61.5
+ Olivier 86...    0.0    142.0    140.0
+ BBEJ 86...   30.5     32.3     28.6
+ BBEJ 91...  141.0    148.0    140.5
+ BBEJ 92...    0.0     37.8     37.4
+ Otto 85....    0.0      3.8      3.7
+ Neder.Bk.86..    0.0     62.0     61.5
+ Dresd.Bk.92..   24.6     25.0     24.5
+ Dresd.Bk.94..   15.9     15.9     16.1
+ Henkel 87....
+ Baranowski 89...    0.0    169.0    167.0
+ Buchler 86....  115.0    117.0    116.0
+ Buchler 89....
+
+ ohne Gewähr                          >>
+        430  Börse Do  29.09.95 17:53:04
+
+
+ Aktien-Optionsscheine              3/3
+
+ 29.09.95                Kassa    Vortag
+
+ ModeAtrium 86...
+ ModeAtrium 85...    0.0    172.0    164.0
+ ModeAtrium 86...    0.0    104.0    102.0
+ Metallg.86...    0.0     13.0     14.0
+ Metallg.87...    0.0     18.5     18.5
+ Metallg.91...    0.0      0.6      0.6
+ JBJ 86.......  182.0    184.0    184.0
+ GTMJ 86    0.0     82.0     79.5
+ Deli 86..    0.0    232.0    232.0
+ MAPK 93......  172.0    179.0    176.0
+ Marra 87......    0.0    392.0    385.0
+ VW 86........   43.0     45.5     46.7
+ VW 86/II.....    0.0    105.5    106.5
+ VW 88........  101.0    102.5    105.0
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Fqnlcb@bfpr.fwap.irl         Rudi Vonderstein           Hohenrot
+-------------------------------------------------------------------------

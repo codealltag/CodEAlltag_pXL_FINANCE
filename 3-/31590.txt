@@ -1,0 +1,16 @@
+Wenn du die WPKN und den Kurs z.B. in Zelle A1
+stehen hast, trägst du z.B. in Zelle A2 folgende Formel ein:
+
+=WECHSELN(RECHTS(A1;LNG(A1)-FINDEN(",";A1;1));".";",")*1
+
+Damit hast du in Zelle A2 den Kurs als Zahl stehen
+und kannst weiter damit rechnen. Wenn du den Kurs
+lieber im Textformat haben möchtest, lässt du einfach
+das "*1" am Ende der Formel weg.
+
+MfG
+Patrick
+--
+B�rsenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gängigen Formate:
+http://yih.cxkeklaqloz.su/

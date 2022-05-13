@@ -1,0 +1,29 @@
+Entweder Du benutzt das Formular auf der Trollblümchen-WEB-Seite so, wie es Trollblümchen
+vorsieht, oder Du bastelst Dir selbst was. Dazu kannst Du ja mal von dort
+eine Anfrage manuell starten und dann in Deiner Browserhistory nachsehen,
+was Dein Browser so daraus gemacht hat. Mit ein bisschen Phantasie kommt
+man bei obiger URL auf diese Interpretation der Parameter:
+
+s=Titel/WKN+"."+Dietschwil   (.DE steht für XETRA)
+a=Startmonat-1
+b=Starttag
+c=Startjahr
+d=Endmonat-1
+e=Endtag
+f=Endjahr
+g=zeitl.Auflösung              (d steht für täglich)
+
+
+Da ich selber eben erst anfange, mich ersthaft mit B�rsenthemen zu
+beschäftigen, bin ich da selbst noch auf der Suche. Bisher kenne ich
+nur drei Ansätze. Du kannst ein kostenpflichtigen Realtime-Ticker
+nutzen oder im WEB einen der ein paar Minuten verzögert ist oder
+Du ziehst Dir die Werte aus den Videotext (z.b. bei VEIW).
+CMIIW aber ich glaube, letztere sind Realtime.
+
+
+Gruß Ullrich
+
+-- 
+ "Was glaubst du, was FAQ heisst? Foellig Abstruser Quatsch?"
+ (Ralph Leclaire in dcouln)

@@ -1,0 +1,62 @@
+Hallo,
+
+ich versuche mich momentan an der theoretischen Optimierung eines Depots. Es 
+sollen die folgenden Effekte möglichst optimiert genutzt werden. Zunächst 
+wird ein stark diversifiziertes Depot nach Narbe optimiert. Dann sollen 
+regelmäßig Beträge eingezahlt werden um den Cost-Average-Effekt auszunutzen. 
+Außerdem soll nach dem Couch-Potato-Ansatz regelmäßig umgeschichtet werden.
+
+Damit sich alle an der Diskussion beteiligen können möchte ich kurz die drei 
+Effekte erläutern.
+1. Optimierung nach Markowitz
+Es gibt Asset Klassen, die sich stark gegenläufig entwickeln. Es kann also 
+das Chance-Risiko-Profil eines Portfolios verbessert werden, indem man 
+verschiedene Asset Klassen mischt. Bei gleicher Chance kann so das Risiko 
+minimiert werden, oder bei gleichem Risiko die Chance verbessert werden.
+2. Cost-Average-Effekt
+Zahlt man regelmäßig einen gleichbleibenden Betrag X in bestimmte Fonds ein, 
+dann ist langfristig der Durchschnittspreis pro Anteil geringer als wenn man 
+immer eine bestimmte Anzahl Anteile gekauft hätte. Die Erklärung: Es werden 
+automatisch mehr Anteile gekauft, wenn der Preis gering ist und weniger 
+Anteile wenn der Preis hoch ist. Der CAE kommt vor allem dann zum Tragen, 
+wenn die Volatilität recht hoch ist.
+3. Couchpotato-Ansatz
+Regelmäßig (z.B. 1-4 mal im Jahr) wird das Depot so umgeschichtet, daß die 
+ursprüngliche Asset Allocation wieder hergestellt wird. Die Erklärung ist 
+ganz einfach, so wird automatisch von gestiegenen Assets in gesunkene 
+umgeschichtet. So werden Gewinne mitgenommen und in Assets, die 
+Nachholbedarf haben, wird mehr Geld angelegt.
+
+Jetzt die entscheidende Frage:
+Sollen die Sparpläne nur auf die volatilen Teile des Depots angewendet 
+werden oder auf alle?
+Die Sparpläne werden gemäß der ursprünglichen Asset Allocation eingerichtet.
+Wenn sie nur auf die volatilen Teile des Depots angewendet werden, dann 
+profitiert davon der Cost-Average-Effekt, da sich dieser bei den weniger 
+volatilen Teilen ohnehin kaum auswirken würde. Allerdings müßte man dann 
+regelmäßig beim Umschichten (Couchpotato) von den volatilen Assets in die 
+weniger volatilen Assets umschichten. Verteilt man die Sparpläne über das 
+komplette Depot wäre der CAE geringer, dafür käme der CPA voll zum Tragen. 
+Das Problem ist also: Es lassen sich nicht beide Effekte gleichzeitig 
+optimal nutzen.
+
+Letztlich läßt sich diese Frage wahrscheinlich nur durch eine mathematische 
+Optimierung lösen. Leider fehlt mir hierfür das Fachwissen und auch das 
+entsprechende Programm.
+
+Nebenfragen:
+1. Wie oft im Jahr sollte nach dem Sparplan Geld eingezahlt werden?
+2. Wie oft im Jahr sollte nach dem Couchpotatoansatz umgeschichtet werden?
+3. Wie oft im Jahr sollte man das Depot nochmals nach Markowitz optimieren?
+4. Macht eine regelmäßige Dynamisierung der Einzahlungen Sinn?
+5. Wie oft im Jahr sollte man überprüfen, ob sich noch alle Fonds vernünftig 
+entwickeln?
+
+Ich freue mich auf Eure Meinungen.
+
+Größe
+Willi
+
+-- 
+http://cghrhbcjn.yxmpk.ru <- Profis Fondsblog
+http://jfp.ocmv.th

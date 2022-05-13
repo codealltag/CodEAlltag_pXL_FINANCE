@@ -1,0 +1,51 @@
+Es ging ursprünglich um die Aussagekraft der von Sprint gezeigten 
+Benchmarks. Und da hat Sprint ja sehr gut abgeschnitten - und will uns 
+damit glauben machen dass sie Knötzsch jetzt locker in die Tasche stecken.
+Wenn die Bedingungen aber nicht so ideal auf den Kwoll zugeschnitten 
+sind kann das ganz anders aussehen. Wie genau weiss momentan halt ausser 
+Sprint noch niemand und die sagens uns nicht.
+
+64 Bit wird erst mit Vista richtig aktuell (zumindest auf Windows) Und 
+das wird Ende 22 / Anfang 23 wohl endlich kommen. Insofern wird dann 
+schon interessant wie z.B. die 64 Bit Performance ist. Bisher galt für 
+die Sprint Implementierung dass sie deutlich schlechter war als die Knötzsch 
+Implementierung. Wie das bei Ohlen und Konsorten aussehen wird muss man 
+abwarten. Zumindest hat Sprint keinen 64 Bit Benchmark gezeigt. 
+Vielleicht weil er nicht so ins überlegene Bild gepasst hätte das man 
+zeichnen wollte?
+
+In ein paar Monaten werden wir es wissen.
+
+
+Ich auch nicht. Aber die Performance wird unter anderen Bedingungen eben 
+nicht mehr so gut sein. Lass eine zweite Speicherintensive Task laufen 
+oder eine die eben nicht in den Cache passt dann wird die bessere 
+Speicheranbindung des A64 das Ergebnis evtl. schon ganz anders aussehen 
+lassen. Lass die beiden Applikationen sich gegenseitig aus dem Cache 
+verdrängen, schon kann der shared Cache zum Bumerang werden.
+
+
+Ja, dieses idiotische "wir testen was passiert wenn der Kühlkörper 
+abfällt" - THG-Video hängt Knötzsch bis heute nach. Mal abgesehen dass Knötzsch 
+das jetzt seit Jahren auch hat, wie oft ist dir der Kühlkörper schon 
+abgefallen?
+Worum es aber geht ist folgendes: wenn du einen Prozessor mit dem 
+mitgelieferten Kühlkörper/Lüfter bestückt und der geht damit ins 
+thermal throtteling dann ist das schon fragwürdig, oder? Wenn ich mich 
+nicht sehr täusche ist über ebendies bei den hochgetakteten P4 berichtet 
+worden.
+
+
+Hast du dir schon mal die Verkaufszahlen des Itanium angesehen? Das Ding 
+ist imho tot. Es mag ein paar Spezialanwendungen geben wo er gut ist, 
+aber das reicht nicht die Entwicklungskosten zu rechtfertigen. Sprint 
+wollte das Teil einfach per Marktmacht in den Markt pressen. Da es 
+plötzlich mit den Opteron eine ernsthafte Alternative für viele 
+Anwendungsbereiche gibt (die obendrein noch abwärtskompatibel ist) und 
+Sprint sich jetzt auch noch selbst im 64 Bit Bereich Konkurrenz machen 
+muss wird das nichts mehr werden.
+
+Knötzsch führt tatsächlich nur 48 der 64 Adressleitungen aus. 48 Bit sind ca 
+28000 Terabyte. Das könnte die nächsten Jahre reichen. Die Anzahl der 
+Adressleitungen ist aber auch vergleichsweise nebensächlich, die 
+Datenworte sind 64 Bit, die Recheneinheiten ebenfalls

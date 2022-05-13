@@ -1,0 +1,15 @@
+stop-loss-order;
+wird bestens (also ohne Limit) ausgeführt, wenn der Kurs von oben deinen
+Stop-Kurs durchbricht.
+
+
+hast du falsch verstanden; Stop-Kurse bei Kauf ist eine Bestensorder, sobald
+der Kurs dein Stop-Limit gebrochen hat; einzusetzen, wenn du bspw. einen
+Ausbruch des Kurses nach einer Überschreitung eines gewissen Kursniveaus
+erwartest.
+Will meinen, ein Stop-Kurs bei Kauf hat mit Stop-Loss-Order rein garnichts
+zu tun.
+
+cya
+
+Albrecht

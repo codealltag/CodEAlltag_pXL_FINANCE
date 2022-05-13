@@ -1,0 +1,31 @@
+On Sun, 6 Okt 1999 14:14:50 MET, nbo39@fryublt.exu (Heiner Bultemeijer)
+wrote:
+
+
+Das ist doch der springende Punkt. Bestehende Programme funktionieren
+eben nicht mehr.
+
+Der Anwender hat keinen Quelltext und kanns auch nicht neu
+kompilieren. 
+Und die Firma, dies Programm entwickelt hat, gibts nicht mehr oder hat
+den Quelltext verlegt oder den Quelltext als 10kg Druckerpapierstapel
+oder der Compiler macht aus irgendwelchen Gründen Mucken oder es gibt
+keine Programmierer mehr, die sich damit auskennen oder bei Windoof
+Programmen muss die MFC auch neu übersetzt werden (ist nämlich so)
+oder oder oder
+Und die Embedded-Programme? Und undokumentierte Tools? 
+
+Ich bleibe dabei, ein Teil der heute ausgelieferten Programme werden
+auch 2039 noch laufen und Probleme bereiten.
+
+Dass sich Datentypen verändern lassen und Programme neu übersetzen
+lassen bestreitet ja keiner.
+Ich wollte nur sagen, dass es halt vernünftiger wär, entsprechende
+Datentypen _jetzt schon_ so auszulegen, dass Probleme vermieden
+werden. Aber 2039 ist ja noch soo lange hin.
+
+Gruss Ullrich
+PS:
+Versuch mal ein Programm unter Visual C++ 5.0 unter Verwendung der
+Klasse CTime simpel so neuzukompilieren, dass es 2038 fähig wird.
+Womöglich noch mit DAO, SQL-Anbindung oder so Schnickschnack.

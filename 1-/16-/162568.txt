@@ -1,0 +1,47 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Jean
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9) *
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+Handbuch MarketMaker Boersensoftware
+Maggi Zubereitung... ;)... ich benoetige jetzt eine hohe
+                           Volatilitaet fuer meine Suppe...
+
+
+Die Volatilitaet gilt als Mass fuer die Beweglichkeit eines Wertpapiers.  
+Die Volatilitaet gibt an, um welchen Prozentsatz der Kurs eines  
+Wertpapiers im Zeitraum von einem Jahr schwanken kann, wenn die bisherigen  
+Kursveraenderungen zugrundegelegt werden. Ein Vola von 20% bedeutet, dass  
+dieses Wertpapier von +20% bis -20% schwanken kann.
+
+Diese einfache Definition funktioniert waehrend der meisten Zeit recht  
+gut, aber sie beruecktsichtigt nicht die Tage mit extremen Kursbewegungen.

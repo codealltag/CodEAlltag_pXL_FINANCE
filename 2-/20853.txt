@@ -1,0 +1,348 @@
+Roulette-Gambling-Prognose
+für Dienstag, 4.September 2006
+Casino Carlsgrün
+              Lernbecher=AE       SelWave=AE       WaveTrader=AE
+Lämmel=AE
+
+Für die entsprechenden Coups ist die Chance zu setzen, die für diese
+Coups prognostiziert sind.
+Lautet z.B. die Vorgabe: InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-4, Coups 11, 13,
+17, 19
+dann sind für diese Coups die Transversalen-Simple mit den Numbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33 zu setzen.
+oder Vorgabe:OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 2,
+6, 10
+dann sind für diese Coups die Transversale-Simple mit den Numbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36 zu setzen.
+Die möglichen Figuren sind:
+x--  Figur 2
+-x-
+--x
+--x  Figur 3
+-x-
+x--
+x-x  Figur 4
+---
+x-x
+x-x  Figur 5
+-x-
+x-x
+x-x  Figur 6
+x-x
+x-x
+x-x  Figur 7
+xxx
+x-x
+Es ist aber bereits jeweils für die entsprechenden Coups die Vorgabe
+gegeben,
+auf welche Figur (Coup-Folge) zu setzen ist.
+Die Prognose-Berechnungen sind mit neuronalen Netzen und der von
+Lämmel=AE
+entwickelten Chaos-Therory for Gambling erstellt.
+Buch-Tip: *AlphaCode*, Author Jan Lämmel
+http://xeh.DomnlXtoq.nm       http://wyo.Wyvxlqav-Shhfllobon.bxz
+
+
+              Range ca.  1.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 1,
+5, 9
+              Range ca.  2.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 2, 6,
+10
+              Range ca.  3.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 2, 6,
+10
+              Range ca.  4.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 5,
+7, 9
+              Range ca.  5.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 7,
+9, 11
+              Range ca.  6.Coup:
+              Range ca.  7.Coup:
+              Range ca.  8.Coup:
+              Range ca.  9.Coup:
+              Range ca.  10.Coup:
+              Range ca.  11.Coup:
+              Range ca.  12.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 12,
+14, 18, 20
+              Range ca.  13.Coup:
+              Range ca.  14.Coup:
+              Range ca.  15.Coup:
+              Range ca.  16.Coup:
+              Range ca.  17.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 17,
+19, 23, 25
+              Range ca.  18.Coup:
+              Range ca.  19.Coup:
+              Range ca.  20.Coup:
+              Range ca.  21.Coup:
+              Range ca.  22.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-4, Coups 22, 24,
+28, 30
+              Range ca.  23.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 23,
+25, 29, 31
+              Range ca.  24.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 24, 28,
+32
+              Range ca.  25.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 25,
+29, 33
+              Range ca.  26.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 28, 30,
+32
+              Range ca.  27.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 29,
+31, 33
+              Range ca.  28.Coup:
+              Range ca.  29.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 31,
+33, 35
+              Range ca.  30.Coup:
+              Range ca.  31.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 31,
+35, 39
+              Range ca.  32.Coup:
+              Range ca.  33.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 33,
+35, 39, 41
+              Range ca.  34.Coup:
+              Range ca.  35.Coup:
+              Range ca.  36.Coup:
+              Range ca.  37.Coup:
+              Range ca.  38.Coup:
+              Range ca.  39.Coup:
+              Range ca.  40.Coup:
+              Range ca.  41.Coup:
+              Range ca.  42.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 42,
+44, 48, 50
+              Range ca.  43.Coup:
+              Range ca.  44.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 44,
+48, 52
+              Range ca.  45.Coup:
+              Range ca.  46.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 48,
+50, 52
+              Range ca.  47.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-6, Coups 47,
+49, 50, 52, 53, 55
+              Range ca.  48.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 50,
+52, 54
+              Range ca.  49.Coup:
+              Range ca.  50.Coup:
+              Range ca.  51.Coup:
+              Range ca.  52.Coup:
+              Range ca.  53.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 53,
+55, 59, 61
+              Range ca.  54.Coup:
+              Range ca.  55.Coup:
+              Range ca.  56.Coup:
+              Range ca.  57.Coup:
+              Range ca.  58.Coup:
+              Range ca.  59.Coup:
+              Range ca.  60.Coup:
+              Range ca.  61.Coup:
+              Range ca.  62.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 62,
+66, 70
+              Range ca.  63.Coup:
+              Range ca.  64.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 64, 68,
+72
+              Range ca.  65.Coup:
+              Range ca.  66.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 66,
+70, 74
+              Range ca.  67.Coup:
+              Range ca.  68.Coup:
+              Range ca.  69.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 71, 73,
+75
+              Range ca.  70.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 70,
+74, 78
+              Range ca.  71.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 73, 75,
+77
+              Range ca.  72.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 74,
+76, 78
+              Range ca.  73.Coup:
+              Range ca.  74.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 76,
+78, 80
+              Range ca.  75.Coup:
+              Range ca.  76.Coup:
+              Range ca.  77.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 79,
+81, 83
+              Range ca.  78.Coup:
+              Range ca.  79.Coup:
+              Range ca.  80.Coup:
+              Range ca.  81.Coup:
+              Range ca.  82.Coup:
+              Range ca.  83.Coup:
+              Range ca.  84.Coup:
+              Range ca.  85.Coup:
+              Range ca.  86.Coup:
+              Range ca.  87.Coup:
+              Range ca.  88.Coup:
+              Range ca.  89.Coup:
+              Range ca.  90.Coup:
+              Range ca.  91.Coup:
+              Range ca.  92.Coup:
+              Range ca.  93.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 95,
+97, 99
+              Range ca.  94.Coup:
+              Range ca.  95.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 95,
+99, 103
+              Range ca.  96.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 96,
+100, 104
+              Range ca.  97.Coup:
+              Range ca.  98.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 98,
+102, 106
+              Range ca.  99.Coup:
+              Range ca.  100.Coup:
+              Range ca.  101.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 101,
+105, 109
+              Range ca.  102.Coup:
+              Range ca.  103.Coup:
+              Range ca.  104.Coup:
+              Range ca.  105.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 105,
+109, 113
+              Range ca.  106.Coup:
+              Range ca.  107.Coup:
+              Range ca.  108.Coup:
+              Range ca.  109.Coup:
+              Range ca.  110.Coup:
+              Range ca.  111.Coup:
+              Range ca.  112.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 114,
+116, 118
+              Range ca.  113.Coup:
+              Range ca.  114.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-5, Coups 114,
+116, 118, 120, 122
+              Range ca.  115.Coup:
+              Range ca.  116.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-5, Coups 116,
+118, 120, 122, 124
+              Range ca.  117.Coup:
+              Range ca.  118.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 120,
+122, 124
+              Range ca.  119.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 119,
+123, 127
+              Range ca.  120.Coup:
+              Range ca.  121.Coup:
+              Range ca.  122.Coup:
+              Range ca.  123.Coup:
+              Range ca.  124.Coup:
+              Range ca.  125.Coup:
+              Range ca.  126.Coup:
+              Range ca.  127.Coup:
+              Range ca.  128.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 130,
+132, 134
+              Range ca.  129.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 129,
+133, 137
+              Range ca.  130.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 130,
+134, 138
+              Range ca.  131.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 131,
+135, 139
+              Range ca.  132.Coup:
+              Range ca.  133.Coup:
+              Range ca.  134.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 134,
+138, 142
+              Range ca.  135.Coup:
+              Range ca.  136.Coup:
+              Range ca.  137.Coup:
+              Range ca.  138.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 138,
+142, 146
+              Range ca.  139.Coup:
+              Range ca.  140.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 142,
+144, 146
+              Range ca.  141.Coup:
+              Range ca.  142.Coup:
+              Range ca.  143.Coup:
+              Range ca.  144.Coup:
+              Range ca.  145.Coup:
+              Range ca.  146.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 148,
+150, 152
+              Range ca.  147.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-6, Coups 147,
+149, 150, 152, 153, 155
+              Range ca.  148.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 150,
+152, 154
+              Range ca.  149.Coup:
+              Range ca.  150.Coup:
+              Range ca.  151.Coup:
+              Range ca.  152.Coup:
+              Range ca.  153.Coup:
+              Range ca.  154.Coup:
+              Range ca.  155.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 155,
+159, 163
+              Range ca.  156.Coup:
+              Range ca.  157.Coup:
+              Range ca.  158.Coup:
+              Range ca.  159.Coup:
+              Range ca.  160.Coup:
+              Range ca.  161.Coup:
+              Range ca.  162.Coup:
+              Range ca.  163.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 163,
+165, 169, 171
+              Range ca.  164.Coup:
+              Range ca.  165.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 165,
+169, 173
+              Range ca.  166.Coup:
+              Range ca.  167.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 169,
+171, 173
+              Range ca.  168.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 168,
+173, 177
+              Range ca.  169.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-3, Coups 171,
+174, 176
+              Range ca.  170.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-3, Coups 173,
+174, 177
+              Range ca.  171.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-2, Coups 171,
+176, 180
+              Range ca.  172.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-2, Coups 173,
+176, 181
+              Range ca.  173.Coup:  OutsideNumbers
+1,2,3,10,11,12,19,20,21,22,23,24,25,26,27,34,35,36, Figur-4, Coups 174,
+176, 180, 182
+              Range ca.  174.Coup:  InsideNumbers
+4,5,6,7,8,9,13,14,15,16,17,18,28,29,30,31,32,33, Figur-4, Coups 174,
+177, 181, 183 =20
+              Range ca.  175.Coup:

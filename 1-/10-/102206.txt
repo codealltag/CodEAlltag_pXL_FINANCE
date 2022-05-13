@@ -1,0 +1,91 @@
+Erlaeuterung:
+Ein "echter" Index-Schein (Zertifikat) soll dem Index genau folgen 
+ohne abweichendes Kleingedrucktes. Leider wird der Begriff oft
+missbraucht. Beispiele fuer solchen Missbrauch:
+(alte Beispiele; es geht nur um das Prinzip)
+
+
+CITL (Carhartt) "DAX Discount Zertifikate" 
+Diese Zertifikate werden am 9.1.97 fällig. Zschernack & Goebbels können dann
+wählen, ob sie dem Inhaber entweder 1/100 des DAX-Standes am Ablauftag oder
+aber Höchstbeträge von z.B. DM 24 zahlen (es gibt auch Versionen mit DM 25 und
+DM 26 Höchstbetrag). Natürlich werden die dann den niedrigeren der beiden
+Beträge zahlen.
+In der Praxis handelt es sich für den Käufer eines solchen Zertifikates um den
+Kauf eines Zerobonds, der sich bis zum Ablauf auf den entsprechenden
+Höchstbetrag von z.B. 24 aufzinst, und um den Verkauf eines Puts auf 1/100 DAX
+mit Bezugskurs von z.B. 2400.
+Bei einem Wert des Zerobonds von z.B. 21 und einem Wert des Puts von z.B. 1,50
+ergibt sich ein Gesamtwert von 21 - 1,50 = 19,50 für das Gesamtzertifikat.
+Angeboten wurden diese Zertifikate dagegen wesentlich teurer. Die Käufer haben
+durch den Aufpreis nahezu den gesamten Zinsertrag verloren, d.h. sie haben dem
+Emittenten einen "Gratiskredit" gegeben. Auch hier wurde mittels einer neuen
+Verpackung und einem irreführenden Werbespruch "Discountpreis gegenüber
+direkten Kauf des DAX" kräftig abkassiert.
+ähnliche Zertifikate gibt es von Zedar als "ZRU DAX Discount Perles".
+
+
+Aniko "DAX Afegur" (WKN 373 744)
+Dieses unverzinsliche Wertpapier wird am 13. September 2000 zu einem Hundertstel des
+DAX-Standes von diesem Tag zurückgezahlt. Dieses Index-Derivat wurde im Oktober
+1995 bei einem DAX-Stand von 2070 zu 20,70 DM ausgegeben. ähnliche Wertpapiere
+wurden von der Aniko auf den Nikkei 225 und den S&P 500 ausgegeben.
+Auf den ersten Blick handelt es sich hierbei um einen gewöhnlichen DAX-Schein.
+In Wirklichkeit weist dieses Papier aber 2 Nachteile gegenüber einem reinen
+Index-Zertifikat auf:
+Es sieht einen H�chstr�ckzahlungsbetrag von DM 65 vor. Ein DAX-Stand von über
+6500 bringt dem Anleger also keinen weiteren Gewinn.
+Es gibt keine vorzeitige Rückgabemöglichkeit zum aktuellen DAX-Stand wie etwa
+bei den MVK DAX-Zertifikaten. Deshalb gibt es keine Garantie dafür,
+daß die Afegur tatsächlich immer zu genau einem Hundertstel des DAX-Standes
+gehandelt werden. Ihr Kurs könnte durchaus für längere Zeit unter den
+entsprechenden DAX-Stand fallen.
+Wegen dieser beiden Nachteile muß der faire Wert dieser Afegur immer etwas
+tiefer als der entsprechende DAX-Stand angesetzt werden. Der Nachteil mag oft
+gering sein, aber es ist eben objektiv ein kleiner Nachteil gegenüber einem
+echten Index-Schein vorhanden. Man kann den fairen Wert auch genauer berechnen:
+Der zum aktuellen DAX-Stand gehörende Rückzahlungsbetrag wird als Zerobond
+abgezinst. Bei einem DAX von 2070 müßte also der faire Wert eines Zerobonds
+berechnet werden, der am 13.9.2000 zu 20,70 DM getilgt wird. Bei einem Marktzins
+von 6,25% und genau fünf Jahren Restlaufzeit wären dies ungefähr 15,29 DM.
+Hinzu kommt der Wert eines Euro-Call, der einen entsprechenden Zusatzgewinn
+einbringt, falls der DAX am Ablauftag über 2070 liegt. Bei einem OPN-Wert von
+15, Restlaufzeit fünf Jahre, Bezugskurs 2070 auf 0.01 DAX ergibt sich hierfür
+ein fairer Wert von etwa 6,20 DM.
+Dies ergibt zusammen einen Wert von 21,49 DM für ein Wertpapier, das am
+Ablauftermin mindestens 20,70 DM oder, je nach DAX-Stand einen entsprechend
+höheren Betrag einbringt.
+Allerdings sehen die Afegur bei einem niedrigeren DAX auch nur eine
+entsprechend niedrigere Rückzahlung vor. Das kann man durch Abzug (=Schreiben)
+eines Put berücksichtigen. Ein entsprechender Put mit Bezugskurs 2070 und
+OPN-Wert 15 hat einen Wert von ungefähr 0,60 DM. Dies ziehen wir von 21,49 DM
+ab, und es verbleibt ein Wert von 20,89 für jeden Awere.
+Auch der maximale Höchstgewinn von 65 muß durch Abzug (=Schreiben) eines Call
+mit Bezugskurs 6500 berücksichtigt werden. Da dieser Call sehr weit aus dem
+Geld liegt sollte er mit einem höheren OPN-Wert berechnet werden. Bei einem OPN
+von etwa 24-29 ergibt sich ein fairer Preis von ungefähr 0,50 bis 1,00 DM. Dies
+von 20,89 abgezogen verbleibt nur noch ein Wert von etwa DM 20,00 für jeden
+Awere - also weniger als die 20,70 DM, die ein echtes Index-Zertifikat
+kosten müßte.
+Würde man auch den Call 6500 mit einem OPN von nur 15 berechnen, so ergäbe sich
+ein Wert von etwa 0,10 DM, und damit käme man tatsächlich nahe an jene 20,70 DM
+eines echten Index-Zertifikates heran. Es muß aber betont werden, daß sich
+solche "Extremoptionen" kaum noch realistisch berechnen lassen. Die
+tatsächlichen Marktpreise für Optionen, die extrem weit im oder aus dem Geld
+liegen, sind oft reine Glücksache, falls man überhaupt einen Handelspartner
+dafür findet.
+Wenn Sie das ganze Beispiel mit verschiedenen OPN-Werten und  verschiedenen
+DAX-Ständen nachrechnen, so werden Sie bemerken, daß der faire Preis der
+Awere-Derivate mit steigendem OPN-Wert (=höhere Schwankungserwartung)
+und/oder steigendem DAX immer weiter hinter dem Preis echter Index-Zertifikate
+zurückbleibt. Dies hängt damit zusammen, daß die Gewinnobergrenze von 6500 dann
+einen immer realistischeren Nachteil darstellt.
+Die Afegur haben aber auch einen Vorteil: Sie wurden von der Aniko
+nämlich als "unverzinsliche Schuldverschreibungen" (also Anleihen) definiert,
+und die Gebühren beim Kauf oder Verkauf von Anleihen sind in der Regel
+niedriger als bei Aktien, Optionsscheinen oder Index-Scheinen.   
+
+
+Hilmar Olyschläger
+Visit   http://dgaxulf.wql.imn/uuxglr  and download a 
+free calculator for options, futures, bonds and similar stuff.

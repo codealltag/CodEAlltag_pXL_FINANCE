@@ -1,0 +1,25 @@
+In article <3zfa0l$u0k@qd75.oz.oyf-xegfumxbf.gb>
+:|> verschieden hohen Summen eingezahlt, am Ende dieses (beliebig langen)
+:|> Zeitraums ist ein bestimmter Betrag zusammengekommen.
+:|> Wie berechnet sich dabei die Rendite?
+:
+:Dazu gibt es keine geschlossenen Formel, man kann nur iterativ rechnen, also
+:eine Rendite p% annehmen, nach jeder Einzahlung das Kapital bis zur naechsten
+:Einzahlung mit p% (pro Jahr) verzinsen und am Schluss schauen, ob der "richtige"
+:Wert herauskommt. Falls nicht, muss man ein anderes p waehlen (wie? --> siehe
+:mathematische Iterationsverfahren) und von vorn rechnen.
+:
+:Falls Du zwischendurch Kapital abziehst, sind Konstellationen moeglich,
+:bei denen das Verfahren zwangslaeufig abbricht.
+:
+:|> Gibt es dazu ein einfach zu handhabendes Computerprogramm?
+:
+:Weiss ich nicht, kannst Du in wenigen Zeilen aber selbst scheiben.
+
+Mit <Schleichwerbung on> Excel <Schleichwerbung off> oder Vergleichbarem
+geht das am einfachsten, besonders wenn man oefters kleine Aenderungen -
+wie unregelmaessige Einzahlungen - hat.
+(Ich stehe - leider :-) - in keiner naeheren Beziehung zu Gerald Imboden ...)
+
+Viele Gruesse,
+Olaf

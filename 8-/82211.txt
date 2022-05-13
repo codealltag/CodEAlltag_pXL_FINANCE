@@ -1,0 +1,45 @@
+Moin Mike!
+
+Mike Maak -> all, 08.05.1999: "Shinawatra: StopLoss bei WAZJ
+ ;-("
+
+[...]
+ WS> jetzt hab auch ich mal einen ominoesen Deal
+ WS> zu meinem Nachteil...
+
+ WS> Bitte helft mir zu verstehen, ob ich einfach Pech hatte,
+ WS> oder ob da was faul sein koennte:
+
+Da ist wohl nichts faul. Ist eher ein Problem des Stop-Loss.
+Ein wenig Pech ist auch dabei; scheint ein wenig liquider Titel zu
+ sein.
+
+
+ WS> 500 Shinawatra (SWFT, 887180) in meinem Depot sollten heute bei
+ WS> 4,90 per Stoploss-Order auf genau diesem Niveau abgesichert
+ WS> werden.
+
+Das wird wohl in den seltesten Faellen gelingen.
+Bei Unterschreiten des Stop-Loss (4,90) erteilst Du automatisch einen
+ unlimitierten (!) Verkaufsauftrag ...
+
+
+ WS> Die entsprechende WAZJ-Order wurde angenommen um 11.55h.
+ WS> Zu dieser Zeit wurde (15 Min. Verzoegerung) der Kurs 4,90
+ WS> angezeigt. Heute abend: Die Stuecke sind verkauft zu 4,65 !
+
+... und bekommst halt nur das, was angeboten wird. Und das kann
+ durchaus betraechtlich unter Deinem Stop-Loss liegen.
+
+
+Abhilfe: 
+kein Stop-Loss, dafuer ein limitierter Verkaufsauftrag. Das
+ garantiert Dir, dass mindestens zu dem Limit verkauft wird. Setzt
+ aber voraus, dass Du, was ja bei einem Stop-Loss nicht erforderlich
+ ist, selbst den Kurs beobachtest und ggf. die Verkaufsorder
+ erteilst.
+Setzt Du das Limit zu hoch, kann es Dir allerdings passieren, dass Du
+ die Aktie nicht loswirst...
+
+
+Tschuess, Ulfert!

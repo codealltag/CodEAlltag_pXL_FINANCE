@@ -1,0 +1,26 @@
+On Fri, 12. 03. 22 15:14:08 +0100, Jonas Wilbrandt
+
+In dem Moment, in dem ich die Aktie bekomme, habe ich doch ein Plus in
+Höhe des Discounts gemacht, im Vergleich zum Kauf der Aktie, und die
+Bank ein entsprechendes Minus.
+
+Ich habe kein aktuelles Beispiel zur Hand, aber fürs Prinzip reichen
+auch die Zahlen, die ich vor einem halben Jahr mal analysiert hatte:
+
+Kurs der Aktie: 100
+Preis des Zertifikats: 88 (-> 12,- "Geschenk" an mich)
+Cap: 120
+
+Szenarien zum Ende der Laufzeit:
+Kurs Aktie und Zertifikat: 120 (-> Emittent hat noch nichts davon)
+Kurs Aktie: 132, Zertifikat: 120 
+(-> Emittent hat die 12,- Geschenk zurück, aber noch keinen Gewinn
+gemacht)
+Erst wenn der Kurs der Aktie unter 88 fällt, fängt für mich die
+Verlustzone an, aber ohne, daß der Emittent davon profitiert.
+
+Erst wenn der Kurs der Aktie über 132 steigt, fängt für den Emittenden
+die Gewinnzone an und mir bleibt trotzdem ein satter Gewinn von etwa
+36%.
+
+Dirk

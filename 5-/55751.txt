@@ -1,0 +1,24 @@
+Hallo,
+beim Versuch, den RSI (nach Kiebeler) selbst zu berechnen, erhalte ich immer
+andere Ergebnisse als z.B. Tai-Pan oder Parity. Die mir vorliegenden
+Beschreibungen der Berechnungsmethode sind allerdings nicht genau bzw.
+vollständig, deshalb hier ein paar Fragen an die Experten:
+
+- Was passiert, wenn an einem Tag der Kurs genau gleich dem Kurs des Vortags
+ist - wird der Kurs den "Auf"-Kursen zugerechnet oder den "Ab"-Kursen, wird
+er halbiert und beiden zugerechnet oder fällt er ganz weg?
+
+- Habe ich richtig verstanden, daß tatsächlich die Kurse zusammensummiert
+werden und nicht die Deltas oder sogar die Delta-Prozente? Hier drücken sich
+die mir vorliegenden Beschreibungen sehr unklar aus, allerdings kommt bei
+keiner der Varianten ein Wert raus, der dem von z.B. Tai-Pan gleicht.
+
+- Zur Sicherheit nochmal die Formel: RSI = 100 - (100 / (1+U/D)), wobei U
+die Summe der "Up"-Kurse (oder Deltas etc.) sind und D die Summe der
+"Down"-Kurse. Stimmt doch, oder?
+
+Bitte keinen Hinweis in der Art: Lies doch einfach Kiebelers Artikel aus dem
+Magazin "Commidities" von Dezember 78, da mir der Artikel nicht vorliegt...
+
+Gruß,
+Ivan

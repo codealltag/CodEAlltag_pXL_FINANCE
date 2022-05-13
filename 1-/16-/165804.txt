@@ -1,0 +1,37 @@
+Ingolf Jünger wrote (de.etc.Barleon.boerse)
+
+Ich versuche es moeglichst einfach darzustellen, ganz ohne Nebensatz
+werde ich aber bei dieser komplexen Materie nicht auskommen:
+Bei Aktienoptionen muss der Basiswert bei der Ausuebung tatsaechlich
+geliefert werden, bei einer Indexoption (z.B. auf den DAX) bekommt man
+einen Barausgleich.
+Auf Dein Beispiel bezogen heisst das: Du brauchst der Bank lediglich
+mitzuteilen, dass Du die Option ausueben willst. Der Schreiber der
+Option (Stillhalter) bekommt dann Deine Aktien automatisch aufgedrueckt,
+da Du sie ja schon im Depot hast. Wenn Du zuwenig Aktien im Depot hast
+(z.B. 100 Aktien, aber 200 Optis), dann muessen die fehlenden Stuecke
+erst ueber die Boerse gekauft werden, um sie dann zum Strikepreis
+(ebenfalls ueber die Boerse) an den Stillhalter weiterzuverkaufen.
+Jedenfalls ist die Ausuebung der Option mit Spesen verbunden, da es ja
+ein Verkauf der Aktien ist - nur stehen der Kaeufer der Aktien und der
+Verkaufspreis fuer Dich individuell schon fest. 
+Wenn Du die Aktien nicht unbedingt verkaufen willst, weil Du in
+naechster Zeit wieder mit einem Anstieg rechnest (falls Du mit weiterhin
+fallenden Kursen rechnest, hast Du die Aktien - nicht den Put -
+hoffentlich ohnehin schon laengst verkauft), wuerde ich Dir deshalb
+raten (um Spesen zu sparen), die Optionsscheine zu verkaufen. Dies
+deshalb, weil der Wert der OS ein geringeres Volumen hat als Dein
+Aktienpaket und somit auch weniger Spesen anfallen. Ein Verkauf der OS
+ist allerdings nur solange moeglich, als ein Handel damit vorgesehen ist
+- meistens ist das bis 14 Tage vor dem Verfallstag.
+Wenn Du aber trotzdem ausueben moechtest, waerst Du diesbezueglich eine
+Ausnahme, denn eigentlich werden Z2-Geschaefte schon vor dem
+Ausuebungstag glattgestellt. Du solltest dann Deiner Bank rechtzeitig
+(mindestens einen Tag vorher, wenn nicht noch frueher) mitteilen, das Du
+ausueben moechtest, ansonsten verfaellt die ganze Tranche wertlos - auch
+wenn Du eine Million Gewinn gemacht haettest. Im Gegensatz zur
+Verrechnung mit Deinen Aktien im Depot geht das naemlich nicht
+automatisch.
+Deshalb: Verfallstag ganz dick rot im Kalender anstreichen!!!
+
+Emil

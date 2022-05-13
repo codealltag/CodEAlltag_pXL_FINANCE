@@ -1,0 +1,218 @@
+Roulette Interview mit dem Kesselgucker Knut Cölln
+Das Interview führte C.Mitterbacher
+Video:
+http://agb.semacas.jwj/lkqcp?g=9Grf1Ogz1lQ2z
+
+Mister Cölln, Sie haben in den letzten Wochen Schlagzeilen als
+Gewinner der Kessselguckermethode gemacht. Können Sie sich unseren
+Hörern erst mal vorstellen?
+Ja, ich heisse Knut Cölln und komme aus den Anden in Peru und bin
+hier in Winnenberg als Strassenmusikant aufgetreten, um mein Geld  zu
+verdienen.  Durch Zufall bin ich an das Buch von dem Wissenschaftler
+Mitterbacher gestossen, das Buchg heisst Professionelle Roulette
+Prediction. Ich dachte, probviere ich das doch gleich mal im Casino am
+Altisheim aus, denn ich suche eine ordentliche Einnahmequelle.
+Dann lief das sehr gut und ich habe mich mit Kesselgucken näher
+befasst und auch wissenschaftlich gearbeitet und meine etwas
+veränderte Methode entwickelt.
+Mister Cölln, können Sie unseren Hörern sagen, wie Ihre Methode
+funktioniert und wieviel Sie schon gewonnen haben?
+Meine veränderte Kesselgucken Methode gebe ich natürlich jedem
+bekannt, gewonnen habe ich in den letzten 2 Jahren etwa 250 Tausend
+Euro undf lebe ganz gut von dem Kesselgucken.
+Aber meine Methode ist kompliziert und man muss sehr gut üben, um da
+klar zu kommen, weshalb ich jetzt meine Kesselgucken Methode hier mal
+ganz genau für Ihre Hörer erkläre:
+
+Um Tests und Simulationen durchzuführen, mußte zuerst festgelegt
+werden, was als =BBgeordneter Klumpen=AB in Frage kommt. Im Prinzip alles:
+jede vorab festgelegte Sequenz bestimmter Länge einer Einfachen
+Chance. Nach einigen Tests entschied ich mich, das wiederholte
+isolierte Auftreten jeder Einfachen Chance für sich allein genommen
+als geordneten Klumpen anzusehen. Die Wiederholungen identifizierte
+ich also mit der Ordnung des Musters: je mehr Wiederholungen, desto
+größer oder stärker die Ordnung. Und ich beschloß darauf zu wetten,
+daß die Ordnung nach dem zweiten isolierten Erscheinen einer (jeden)
+Einfachen Chance abbrach, und wenn nicht, noch einmal nach dem dritten
+isolierten Erscheinen. Trat das ein, war die Wette bzw. die Partie
+gewonnen. Brach die Ordnung bereits vorher ab, kam es erst gar nicht
+zum Einsatz. Trat die Einfache Chance dagegen mindestens viermal
+isoliert auf, so war die Partie verloren.
+Beispiel. Bezeichnen wir eine bestimmte Einfache Chance mit X und ihre
+Gegenchance mit Y. Und nehmen wir an, folgende Permanenz liege vor:
+Y ... X Y ... X Y ... X
+Die mehrmals angeführten drei Punkte nach der Y-Chance bedeuten, daß Y
+jeweils in einer beliebigen Sequenzlänge vorkommen kann. (Kommt zum
+Beispiel auch Y wiederholt isoliert vor, haben wir eine klassische
+Intermittenz-Situation vorliegen, und Y wäre auch an der Reihe; auf
+die Intermittenzen, für die eine spezielle Regel gilt,
+Wir betrachten hier prinzipiell nur die Chance X für sich allein. Und
+stellen fest, daß sie bereits zweimal isoliert vorkam und jetzt auch
+als letzter Coup erschien.
+Das ist aber bereits unser Einsatzsignal, wenn wir auf den Abbruch
+dieses isolierten Erscheinens von X wetten wollen. Und zwar müßten wir
+für den nächsten Coup genau auf X setzen, denn nur wenn X auch
+tatsächlich erscheint, ist die Ordnung unterbrochen.
+Tritt X ein, haben wir unsere Wette beim ersten Anlauf gewonnen und
+die Partie ist beendet.
+Tritt die Gegenchance Y ein, dann haben wir unseren ersten Einsatz
+verloren =96 die Wette aber noch nicht. Nun warten wir ab, bis die
+Chance X wieder erscheint. Sobald es soweit ist, wird der zweite (und
+letzte) Satz der Partie wieder auf X getätigt.
+Erscheint diesmal X, haben wir die Wette beim zweiten Anlauf gewonnen.
+Kommt dagegen Y, haben wir unsere Wette endgültig verloren. Egal, wie
+der zweite gesetzte Coup ausgeht: die Partie ist zu Ende.
+Falls Z=E9ro dazwischenfunkt: Haben wir keinen Einsatz getätigt,
+beachten wir das Ereignis gar nicht. Liegt dagegen gerade ein Einsatz
+auf dem Tableau, so wird er vorerst gesperrt (en prison). Wir lassen
+ihn in diesem Fall teilen und setzen unser Spiel fort, ohne Z=E9ro
+weiter zu beachten. (Wir werden die sog. Z=E9ro-Steuer, nämlich -1,35%
+aller getätigten Einsätze, bei unseren Erwartungsberechnungen später
+gebührend berücksichtigen.)
+Die wiederholten isolierten Ereignisse nenne ich auch =BBsemi-reguläre=AB
+Muster, weil sich diese Ordnung nur auf eine und nicht auf beide
+komplementäre Teile einer einfachen Chance erstreckt. Allerdings
+ertreckt sich das Spiel auf alle sechs Einfachen Chancen, wodurch eine
+gewisse Risikostreuung gewährleistet wird, wie wir noch sehen werden.
+
+
+Die Auswertung der Partien hat zu berücksichtigen, daß es drei
+Ausgänge für jede Wette gibt:
+1. Gewinn auf Anhieb: (+)
+2. Verlust des ersten und Gewinn des zweiten Satzes: (=96, +)
+3. Verlust der beiden Sätze: (=96, =96)
+Die ersten längeren Tests liefen mit einem Zufallsgenerator.
+Ergebnis........Wahrscheinlichkeit.........relative Häufigkeit
+der Wette......(theor.; ohne Z=E9ro)........(Zufallsgenerator)
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=
+=97=97=96=96=97=97
+(+).......................50,0 %.......................45,0 =96 55,0 %
+(=96, +)...................25,0 %.......................22,5 =96 32,5 %
+(=96, =96)....................25,0 %.......................17,5 =96 27,5 %
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=
+=97=97=96=96=97=97
+Summe...............100,0 %...........................100,0 %
+Obwohl viele Teilergebnisse als normal, erwartungsgemäß zu bezeichnen
+waren, gab es dennoch eine Überraschung, die immer wiederkehrte und
+auch über längere Zeiträume verharrte. Es war in erster Linie eine
+Diskrepanz zwischen den Häufigkeiten von (=96, +) und (=96, =96). Die (=
+=96, +)
+kamen nämlich beständig häufiger vor als die (=96, =96), während in=
+ dieser
+Zeit die Gewinne auf Anhieb, (+), in etwa 50% ausmachten, was
+theoriekonform ist.
+Über lange Zeiträume sahen die Resultate (gerundet) in etwa wie folgt
+aus:
+Ergebnis...........relative Häufigkeit
+=97=97=97=97=97=97=97=97=97=97=97=97=96=96=97=97=97=97=97
+(+).........................50,0 %
+(=96, +).....................27,5 %
+(=96, =96)......................22,5 %
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=96=96=97=97=97
+Summe.................100,0 %
+Diese Diskrepanz taufte ich als =BBAsymmetrie=AB (der 1. Art, um genau zu
+sein, denn es sollte noch eine zweite, ähnliche Diskrepanz
+hinzukommen).
+Dann gab es zwar auch Abschnitte, in denen kaum ein Unterschied
+zwischen den Ergebnissen (=96, +) und (=96, =96) auffiel. Meistens lagen
+dann aber die Gewinne auf Anhieb, die Ereignisse (+), deutlich
+zwischen 55 und 60%.
+Ergebnis...........relative Häufigkeit
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=96=96=97=97=97
+(+).........................55,0 %
+(=96, +).....................22,5 %
+(=96, =96)......................22,5 %
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=96=96=97=97=97
+Summe.................100,0 %
+Das ist die empirische Diskrepanz, die ich =BBAsymmetrie der 2. Art=AB
+nannte. Das Merkwürdige dabei war zweifellos der Umstand, daß
+mindestens eine Asymmetrie-Art fast immer auftrat; wenn nicht die
+erste, dann die zweite.
+Die Asymmetrien kommen aber nicht stets in der schönsten
+Regelmäßigkeit vor; es kann sogar lokale Häufungen von Wettverlusten
+(=96, =96) geben. Die Häufigkeiten schwanken vielmehr um ihren wahren
+Mittelwert, besonders wenn die Stichproben tendenziell klein sind.
+Natürlich habe ich mir den Kopf zerbrochen, ob diese Diskrepanzen
+nicht einfach an meinem Zufallsgenerator lagen =96 was möglich schien.
+Deshalb beschloß ich, mir Disketten mit realen Jahrespermanenzen zu
+besorgen und die Simulationen darauf auszudehnen. Aber eins nach dem
+anderen.
+
+Konsequenzen für ein bedingtes Gewinnspiel
+Wenn sich die Resultate einigermaßen bestätigen sollten, was würde
+dann dieses Spiel auf Abbruch von Ordnungen bringen? Wenn die
+gefundenen Diskrepanzen bzw. Abweichungen auftreten und solange sie
+anhalten, ist ein Spiel mit positiver empirischer Erwartung möglich =96
+und zwar selbst bei Masse-=E9gale-Einsätzen. Rechnen wir die Geschichte
+einmal durch.
+Masse-=E9gale-Einsätze
+Die Strategie besteht darin, einen Einsatz E auf den Abbruch eines
+lokalen, semi-regulären Musters zu setzen. Bei Gewinn ist die Partie
+zu Ende.
+Bei Verlust ist ja das geordnete Muster nicht abgebrochen. Bei
+nächster Gelegenheit wird noch genau einmal ein Einsatz E auf Abbruch
+gesetzt. Die Partie ist dann endgültig beendet =96 ob gewonnen oder
+verloren.
+Nehmen wir eine Asymmetrie 1. Art an, sowie die relativen
+Durchschnittshäufigkeiten 50,0% für (+), 27,5% für (=96, +) und 22,5%
+für (=96, =96).
+Unsere mittleren Setzergebnisse sind die folgenden:
+Ereignis.....Häufigkeit.....Ergebnis [Stk].......Prod. Häuf. x Erg.
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=
+=97=97=97=97=97=97=97=97=97
+(+)...............0,500..............+1E......................+0,50E
+(=96 +)............0,275...............=B10 ......................=B10
+(=96 =96).............0,225.............=962E.......................=960,45=
+E
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=
+=97=97=97=97=97=97=97=97=97
+Summe.........1,000.........................................+0,05E
+Die Summe der Glieder der rechten Kolonne ist die empirische Erwartung
+der Partie bei einem Masse-=E9gale-Einsatz von E, nämlich +0,05E oder
++5% des Einsatzes E.
+Pro Partie wird im Mittel
+0,5 x E + 0,275 x (2E) + 0,225 x (2E) =3D 1,5 x E =3D 1,5E
+eingesetzt.
+Bezüglich des Einsatzes beträgt die Rendite also
++0,05E / 1,5E =3D ca. +0,0333 oder +3,33%.
+Die =BBZ=E9ro-Steuer=AB muß an dieser Stelle mit 1,35% noch in Abzug
+gebracht werden; somit ergibt die Asymmetrie der 1. Art eine
+empirische Umsatzrendite von knapp +2%.
+
+Für eine Asymmetrie 2. Art sehen die Resultate wie folgt aus:
+Ereignis.....Häufigkeit.....Ergebnis [Stk].......Prod. Häuf. x Erg.
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=
+=97=97=97=97=97=97=97=97=97
+(+)...............0,550..............+1E......................+0,55E
+(=96 +)............0,225...............=B10 ......................=B10
+(=96 =96).............0,225.............=962E.......................=960,45=
+E
+=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=97=
+=97=97=97=97=97=97=97=97=97
+Summe.........1,000.........................................+0,10E
+
+Die Summe der Glieder der rechten Kolonne ist die empirische Erwartung
+der Partie bei einem Masse-=E9gale-Einsatz von E, nämlich +0,1E oder
++10% des Einsatzes E.
+Der Einsatz pro Partie bleibt unverändert 1,5E. Bezüglich des
+Einsatzes ist die Rendite also
++0,1E / 1,5E =3D ca. +0,0666 oder +6,66%.
+Abzüglich der Z=E9ro-Steuer ergibt dies empirisch etwa + 5,3% der
+Einsätze.
+Empirischer Erwartungs-Mix
+Erwartungs-Mix: 2,0% x (2/3) + 5,3% x (1/3) =3D ca. +3,1 % der
+Einsätze.
+Die Asymmetrie der 1. Art kommt etwa doppelt so häufig vor wie die der
+2. Art. Somit ergibt sich der folgende empirische
+Kapitalbedarf (masse =E9gale)
+Aus geeigneten Kapitalbedarfstabellen können wir den Kapitalbedarf bei
+Masse-=E9gale-Einsätzen, bei einer Erwartung von +3% und bei einer
+vernünftigen Ruinwahrscheinlichkeit von 5% leicht ausmachen: etwa
+zwischen 50 und 75 Stücke. Auch aus Gründen des persönlichen
+Wohlbefindens empfiehlt sich eine stille Reserve in gleicher Höhe; nur
+eine große Anzahl von Stücken macht das Spiel sicherer.
+
+Mister Cölln, wir danken Ihnen für dieses Gespräch.
+
+Roulette Kesselgucken Interview Roulettesystem SelMcKenzie Mattiebe
+Gueldenpennig

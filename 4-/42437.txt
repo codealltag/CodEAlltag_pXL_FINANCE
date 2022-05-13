@@ -1,0 +1,45 @@
+Moin, moin
+
+
+(6*5/2)/(6*6*6*6*6*6)=0,032150....%
+                           ^
+                          Hier der Gegenbeweis!
+Reicht das?
+
+Ansonsten komme ich auf eine Wahrscheinlichkeit von 0,803% dafür, dass
+_genau_ vier von sechs Depots Erfolg hatten, wenn die
+Erfolgswahrscheinlichkeit 1/6 ist. Es fehlt IMO, dass die beiden
+nichterfolgreichen Depots mit der Wahrscheinlichkeit 5/6 versehen sind.
+
+Also
+
+(15 Permutationen)*((5/6)*(5/6)*(1/6)*(1/6)*(1/6)*(1/6))=0,803%
+
+Die fünfzehn Permutationen:
+
+1.  --++++
+2.  -+-+++
+3.  -++-++
+4.  -+++-+
+5.  -++++-
+6.  +--+++
+7.  +-+-++
+8.  +-++-+
+9.  +-+++-
+10. ++--++
+11. ++-+-+
+12. ++-++-
+13. +++--+
+14. +++-+-
+15. ++++--
+
++ = Depot erfolgreich
+- = Depot nicht erfolgreich
+
+
+IMO nein, zwei Fälle mit 5/6
+
+
+Aha.
+
+Gruss Raymond

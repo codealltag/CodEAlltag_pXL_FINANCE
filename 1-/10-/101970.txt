@@ -1,0 +1,21 @@
+Moment, bei Verwendung des Betrages statt des Quadrates werden kleine
+Aenderungen uebergewichtet und grosse Aenderungen untergewichtet.
+Bei der Berechnung der Varianz wird immer der Mittelwert vorher
+abgezogen. Bei einer konstanten Steigerung von 1% ist die
+Varianz deshalb null. Auf die Schwankungen kommt es an!
+
+Die Verwendung der Quadrate ist zwingend, wenn man annimmt, dass der
+Logarithmus der relativen Aenderungen normal
+verteilt ist. Diese Annahme ist Grundlage der Black Scholes Theorie und
+mach durchaus Sinn (starke Abweichungen von dieser Annahme gibt es vor
+allem auf Minuten Basis).
+
+Abgesehen davon, ist die historische Vola in der Tat ein schlechtes
+Mass. Jedoch sollte der Mittelwert der historischen Vola mit dem
+Mittelwert der implizieten Vola uebereinstimmen. Hat das schon mal
+jemand ueberprueft?
+
+Jürg Burmeester
+--
+http://gxlbu.tyoaap.sf-jkjvqz.jc/~yfwo/twkzeuf
+--

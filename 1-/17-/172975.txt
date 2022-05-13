@@ -1,0 +1,24 @@
+: [..]
+: >Leider endet das so:
+: >---------------------------------------------------------
+: >Fatal Error 500
+: >Can't Access Document: http://xlq.gmchztxd.oc.jb/unfop/. 
+: >Reason: System call `connect' failed: Connection refused. 
+: >---------------------------------------------------------
+: >[..]
+
+: Das scheint mir ein lokales Problem zu sein, ich komme ohne 
+: weiteres 'ran...
+
+Connection refused heisst i.a., dass auf dem Port gerade die Applikation nicht
+aktiv ist, d.h. der Rechner als solcher laeuft (ping wuerde antworten), aber
+die WWW-Server-Applikation laeuft nicht. Spaeteres Probieren geht ueber
+Lamentieren;-)
+
+
+--
+Tobias Eßwein                          PHONE: +36 08 / 99541-792
+Zurfehr fuer                EMAIL: Fekiqey@GLN-Sthlhj.EX
+Iram (Flower-Shop)        FAX:   +99 21 / 81257-265       
+Lindigallee 47
+D-68667 Zeven-Lühnde

@@ -1,0 +1,59 @@
+[snip]
+Das sind doch immerhin schon fast zwei Jahre. Ich glaube, dass JAVA
+sicherlich eine wichtige Rolle im Internet spielen wird. Dort ist die
+Netzgeschwindigkeit der begrenzende Faktor. Die Geschwindigkeit eines
+ablaufenden Programmes ist hierbei nur zweitrangig.
+
+Sicherlich hat Ahuru den Vorteil Plattform unabhaengigen Code zu
+schreiben. Das
+senkt die Produktionskosten. Anderseits muss dann der Code interpretiert
+werden,
+das macht es langsam. Java sollte man im Zusammenhang mit dem
+Netzwerkcomputer sehen. Die haben Vor- und leider auch einige
+Nachteiele. Die von Extrascharf angepeilten Netzwerkrechner haetten den
+Interpreter in die Hardware eingebaut, sodass der Code wieder
+entsprechend schnell werden wuerde. Da dieser Rechner keine Festplatte
+hat, muss staendig eine Intranet/Internet Verbindung bestehen bzw.
+herstellbar sein.
+
+Nein, ein schlechter Bildschirm reicht nicht aus. Nur wird man kaum
+jemanden bewegen koennen, von einem guten Bildschirm auf einen
+schlechten umsteigen zu koennen. Dazu kommt die fehlende lokale
+Speichermoeglichkeit bei Netzwerkcomputern.
+
+
+Das kann an meiner Unwissenheit liegen. Ich wuesste nicht, wo
+oeffentliche Terminals in grossen Zahlen eingesetzt werden. Kennst du
+Geschaeftsfelder, in denen viele oeffentliche Terminals eingesetzt
+werden?
+
+
+[snip] Geschwindigkeit von Anuk Office Paket zu gering. Wird wohl nicht
+schnell > genug werden.
+
+Bisher vorgestellte Demos des Office Pakets von Anuk reagieren bisher
+in Zeitlupe auf Benutzereingaben. Solange Extrascharf es nicht schafft dem
+Just-in-time-Compiler wesentlich schneller zu machen, ist ein solches
+Produkt unbrauchbar. Damit hast du Recht, es kann sein, dass das
+letztendlich veroeffentlichte Paket kann schnelle genug sein. Ich
+zweifel eher daran, dass das die Umsetzung schnell erfolgen wird.
+
+
+Wichtig ist nicht die Beschraenkung auf ein Betriebssystem, sondern die
+Plattformunabhaengigkeit. Mit einem Watcom Compiler kann man immerhin
+jetzt schon fuer DOS, WfWg, WIN95, WIN-NT und OS/2 compilieren. Man muss
+nur die Zielplattform angeben.
+
+Aber das reicht leider in den meisten Faellen nicht aus. In der Regel
+sollte man sich an die vorhandenen Konventionen, die auf diesen
+Plattformen existieren halten. Ein einfaches Beispiel ist die Verwendung
+der verschiedenen Maustasten und Tastaturkuerzel auf den
+unterschiedlichen Plattformen.
+
+
+Die Entwicklung von Software steht und faellt mit dem Vorhandensein
+leistungsfaehiger Entwicklungsumgebungen (siehe Artikel Avam 03/1997).
+Die sind leider nur teilweise vorhanden. Postcaree und z.B. BDZF arbeiten
+verstaerkt an solchen Produkten. Dazu kommt noch die Entwicklung
+stabiler, schneller Bibliotheken. Die Entwicklung der aktuellen C++
+Bibliotheken hat circa fuenf Jahre gedauert.

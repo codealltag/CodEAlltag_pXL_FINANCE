@@ -1,0 +1,217 @@
+User Preferences
+User Information
+First Name Type your first name.
+Last Name Type your last name.
+Nickname Type your Internet Phone nick name. This is required to connect to
+Community Browser servers. The nick name can contain a maximum of nine
+characters without spaces.
+Comment Type a comment about yourself
+Phone Type your phone number. Other users can call you by this number
+through the Dialer if you include the country code. You can enter the number
+with or without hyphens.
+E-mail Type our e-mail address. Other users can use this address to send you
+voice mail or to call you if you have subscribed to the Addressing Service
+Country Type the country you are in (click None to leave this item empty in
+the user lists).
+Internet Phone Address Displays your Internet Phone address if you
+subscribed to the Addressing Service. This address is visible to other users
+when you are in a chat room. Other users can use this address to call you
+directly.
+Audio Preferences
+Audio Settings
+Start Test/Stop Test Click to start or stop, respectively, the audio test.
+Status Displays the state of the test:
+Idle - No voice
+Active - Recording voice, but not long enough for significant playback
+Recording - Recording voice, long enough for significant playback
+Playing - Playing back the recorded voice
+Record Drag the slider to adjust the voice recording level. This is only
+available when the Voice Activation Mode is Manual.
+Playback To increase the volume, drag the slider to the right.
+Voice Activation Mode Automatic Quiet Environment - Select to activate
+automatic voice if you use Internet Phone in a quiet environment.
+Automatic Noisy Environment - Select to activate automatic voice if you use
+Internet Phone in a noisy environment.
+Manual - Select this option to activate the voice manually.
+Time Before Idle - Adjust the wait time from the end of the voice until the
+recording is stopped.
+Devices
+Recording Device Select the recording device that you use during calls and
+voice mail.
+Playback Device Select the playback device that you use during calls and
+voice mail.
+Use Full Duplex Select to start Internet Phone automatically in full-duplex
+mode. If the user at the other end of a call is in half-duplex mode, or if
+full-duplex mode fails, Internet Phone will run in half-duplex mode.
+Use Speaker Phone Mode Select this option if you use speakers and
+microphone. This will reduce echo problems when you are in a full-duplex
+mode. When you use handset or headset clear this option for better
+performance.
+Use Standard Sampling Rate Select to run Internet Phone with devices that
+claim to support 8000 Hz sampling rate, but in fact, do not at a
+satisfactory level. This option reduces audio quality and affects both
+recording and playback devices.
+Use 8 Bits Select to run Internet Phone with devices that claim to support
+16-bit audio but in fact, do not at a satisfactory level. This option
+reduces audio quality and affects both recording and playback devices.
+Use Audio Compatible Mode Select this option if you have an audio device
+with MWave chipsets or Sound Blaster on Windows NT. You can also select this
+option if you have another card and the other options do not fix your audio
+problem.
+Codecs The Audio Codecs properties affect recording and transmitting audio
+only. Audio playback is affected by the other user's Audio Codecs settings.
+Choose codec automatically Select to allow Internet Phone to decide upon the
+audio codecs and their priority. This automatic selection will be suggested
+to the other user' system while negotiatiating audio capabilities.
+Clear to set audio codecs priority manually. Note that even if you set the
+codecs priority manually, the actual codec that will be used during a call
+depends on the other user's supported codecs and the available bandwidth.
+Priority of codecs used for audio compression If you choose to set the audio
+codecs priority manually, you can arrange the codecs in the list by
+priority:
+Click Up to move the selected codec up the list, giving it a higher
+priority.
+Click Down to move the selected codec down the list, giving it a lower
+priority.
+Events
+Audio Notifications Double-click a listed event to activate its event sound.
+No Sound Select to disable all event sounds.
+Change Sounds Click to change an event sound from OGFL Control Panel
+Play button Click to play the selected event sound.
+Stop button Click to stop the currently playing sound.
+Community Browser Preferences
+Main
+Join to last room on startup Select to automatically open the Community
+Browser with the last room that was active each time you start Internet
+Phone.
+Enable/Disable Parental Control Click to enable parental control. A dialog
+box will open, and prompt you to enter and confirm a supervisor password. If
+you enabled parental control, the button will then change to a Disable
+button. Click to enter the password and cancel parental control.
+Servers
+Try another server after: XX Seconds Set the amount of time Internet Phone
+will try to connect to one server before moving on to the next server if the
+attempt was unsuccessful. The default time is 30 seconds, and the allowed
+range is between 10 and 120 seconds.
+Clear Server Performance Information Click to reset the server performance
+history.
+Web Content
+Cache Folder The Community Broswer employs a cache in order to reduce
+download time from the Internet. A cache is a folder on your hard disk in
+which the Community Broswer stores information downloaded from the Internet.
+The next time you want to access this information, it will appear much
+faster because it is already stored on your hard disk. This means that the
+first time you use the Community Browser things may be a bit slow, depending
+on the speed of your Internet connection. As you continue to use the
+Community browser, things will speed up, since most of the information is
+already stored locally in the cache. This box displays the folder containing
+the Community Browser browser cache.
+Cache Size Set the amount of memory the cache can use. The default is 10MB,
+and the allowed range is between 5MB and 50MB.
+Move Cache Folder Click to select a different path for the cache folder.
+Clear Cache Click to clear the cache contents. This operation will close the
+Community Browser and the next time you use it things may be a bit slow,
+since the information is downloaded from the Internet.
+Web Browser The Community Browser displays information your computer
+receives from the Internet, just like a Web browser. If you have Nachtkiosk
+Internet Explorer installed on your system, you will be able to view content
+that contains animation, plug-ins and Java applets. If you do not have
+A&V Explorer installed, the Community Browser will display its content
+using an internal browser, which means that you will not be able to view all
+types of content properly. We therefore recommend that you install N&M Networks
+Internet Explorer on your system. Note that if you use another type of Web
+broswer, such as Netscape Navigator, you can install Internet Explorer on
+your system and still use the other browser to browse the Internet.
+Internal - Select to use the internal Web browser to display Web content in
+the Community Browser.
+Internet Explorer - Select to use Microsoft Internet Explorer to display Web
+content in the Community Browser.
+Use Proxy Select to enable to enter an HTTP proxy server address and port.
+Proxy Port Type the proxy server port to use if the Use Proxy option is
+selected. Grayed when Use Proxy option is not selected.
+Proxy Address Type the host name or IP address of the proxy server to use if
+the Use Proxy option is selected. Grayed when Use Proxy option is not
+selected.
+Video Preferences
+Video Test
+Device Name Displays the name of the video device that is recording during
+the video test.
+Codec Name Name of the video codec that is being used during the video test.
+Different codecs can be selected.
+Start/Stop Test Click the Start Test button to start the video test. Click
+the Stop button to stop the video test.
+Codec Quality Drag this slider to adjust the video compression quality. If
+the quality is higher, the video speed is slower. If the quality is lower,
+the video speed is higher.
+Frame Rate Displays current speed of the video display (number of frames per
+second) in the remote view window.
+Bandwidth Displays available bandwidth required to transmit the compressed
+video in the remote view window.
+Device
+Device Name Select the video device to capture video.
+Video Source Click to adjust camera properties of the selected video device
+driver.
+Video Format Click to set image size* and quality properties of the selected
+video device driver.
+Video Display Click to set Self View properties of the selected video device
+driver.
+Captured picture size Select the preferable video capture size*: Small,
+Normal, Large.
+*Please note: Internet Phone receives the information about the image size
+from your selection for the Captured picture size option (i.e., Small,
+Normal or Large) and ignores any changes you apply to the image size through
+the Video Format dialog.
+Voice Mail Preferences
+Message
+Prompt for Voice Message whenever someone is not available Select to
+automatically open the Voice Mail window after you call to an e-mail
+address, but there is no answer.
+Default Comment Type text that will automatically be included in your voice
+mail message.
+Signature
+Reply-to Address Type your e-mail address for your voice mail in case you do
+not want to show your e-mail address to other users, but you want to use the
+Voice Mail feature.
+Signature Type a signature that will automatically be included in your voice
+mail message.
+Send my Internet Phone Address shortcut with the message Select to attach an
+Internet Phone Address file to your voice mail so that the other user can
+return your call easily.
+Attach a shortcut to your Internet Phone Address to every message This
+option is enabled only if you have registered the Addressing Service. Select
+it to attach your Internet Phone address to every voice message you send so
+that the recipients can easily call you using Internet Phone .
+Mail Server
+SMTP Server Type the host name or IP address of the mail server that you are
+using to send voice mail messages.
+SMTP Server Time-out Set the amount of time Internet Phone will try to send
+a voice mail before notifying that your voice mail transmission is not
+successful. The default time is 30 seconds, and the allowed range is between
+10 and 120 seconds.
+Services Preferences
+Services
+View Services by Type Select one of the installed types of services:
+All - all types of services
+Fax - only Fax services
+Telephony - only Telephony services
+List of Services Displays the list of services with the relevant service
+parametrs: Name of the service provider, service Description, date you last
+Modified this service, Update availability notifier - this entry reminds you
+that you have received a new .ips file from the service provider, with
+updates for the selected service (e.g., new destinations to call, new
+service tariffs etc.) but in order for the update to take effect you must
+install the new service file. The service unique ID is also displayed.
+Set As Default Click to make the selected service the default service. This
+service will always be used whenever you try to call to a regular phone or
+fax (unless you select a different service using the dialer). This option is
+enabled only when a specific type of service is displayed, e.g, Telephony or
+Fax.
+Remove Click to remove the selected telephony service from the List of
+Services.
+Properties Click to change your user ID and password for the selected
+service.
+Install New Service Click to browse for a new Internet Phone Service (.ips)
+file to install.
+Default Service Displays the name of the default service from the list.
+
+--------------------------------------------------------------------

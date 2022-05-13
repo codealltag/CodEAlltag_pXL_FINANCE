@@ -1,0 +1,114 @@
+*Europaeische* Optionsscheine...
+
+
+Weil mit steigendem Zins effektiv der Strike (genauer: dessen present
+value) sinkt, damit wird die Auszahlung hoeher. (grundlegend
+Overmeyer/Beckmeyer)
+
+
+Put-Call-Parity (arbitrage).
+
+
+Vielleicht sollte man erstmal das richtige Modell (naemlich einen
+amerikanischen Bewerter) einsetzen? Und dann sich auch ansehen, ob die
+Optionen, die Du Dir ansiehst in-the-money, at-the-money oder
+out-of-the-money sind (SMILE-Effekt)
+
+
+Super <g>
+
+
+Korrekt (nichts anderes uebrigens ist eine gaengige Interpretation der
+N(d1) und N(d2) Terme bei B-S)
+
+
+Korrekt.
+
+
+Ich kenne es nicht - will aber nichts heissen. Vor allem wuerde mich
+mal eine saubere Herleitung interessieren (siehe unten). Mit den
+Informationen, die Du gegeben hast, kann man effektiv NICHTS anfangen;
+keine Annahmen, keine adaequate Prozessbeschreibung, nichts
+substanzielles, was man ueberpruefen koennte.
+
+
+Skepsis. Wo ist denn Deine Annahme, die Du anders als B-S setzt? Wenn
+Du die gleichen Annahmen und den gleichen zugrundeliegenden
+stochastischen Prozess nimmst, kommst Du ZWANGSLAUEFIG zu B-S. Denn
+wenn der stochastische Prozess:
+
+dS = mu * S * dt + sigma * S * GeometricBrownianMotion
+
+ist, dann ist B-S die einzige Loesung... und wenn Du oben einen random
+walk nimmst, dann ist das gleichzusetzen mit mu = 0, also einen random
+walk ohne drift. Und mu (also die erwartete Wertsteigerung des
+underlying) spielt keine Rolle bei der Bewertung der Option...
+
+Soweit ich das aus Deinem Posting und der Hilfe-Datei Deiner Software
+ueberblicken kann, modellierst Du:
+
+dS = mu * S * dt + sigma * S * GeometricBrownianMotion
+
+mu = konstant
+sigma = konstant
+Zins = konstant
+keine Dividendenzahlungen
+  (weder kontinuierlich noch diskret)
+
+Vermutlich duerftest Du die Standardannahme setzen, dass Investoren
+risikoneutral sind (aber das brauchen wir nicht unbedingt, wir muessen
+nur so bewerten duerfen) und dass der Markt arbitragefrei ist (sonst
+hast Du ein ziemliches Problem).
+
+Mit all diesen Annahmen moechte ich mal gerne sehen, wie Du zu einem
+ANDEREN Ergebnis kommst als Black-Scholes.
+
+
+Interessant: Du verlangst Geld (50 DM) fuer eine Software, die mit
+einem falschen Modell (Black-Scholes!) bestehende AMERIKANISCHE
+Optionen bewerten will (kein Hinweis darauf, dass die Mehrzahl der
+gehandelten Optionen american style ist). Ausserdem ignoriert Deine
+Software freundlicherweise Dividenden... Dass Du die Moeglichkeit
+einraeumst, mit verschiedenen Waehrungen zu arbeiten OHNE eine
+Verzinsung fuer den anderen Waehrungsraum abzufragen, ist schlicht
+eine Frechheit und zeugt von absoluter Inkompetenz - dies ist kein
+flame / Beleidigungsversuch sondern schlicht ein Fakt.
+
+
+Ich habe mir mal den Spass erlaubt, fuer eine Aktie XYZ, Volatilitaet
+= 10%, Zinssatz = 5%, Preis = Bezugskurs = 100; Verhaeltnis 1/1;
+"Laufzeit" = 13.4.1998 deine B-S-Implementation anzusehen... 
+
+Nach Deinem Programm ist ein Call wert:
+
+11.01.98: 2.69
+12.04.98: 0.26
+
+Das ist aber nicht so ganz korrekt; EXAKT sind naemlich:
+
+11.01.97: 2,6609694371574
+12.04.97: 0,213936107411911
+
+Das mag hier zwar sehr akademisch aussehen, es sind aber immerhin
+etwas ueber 1% im ersten Fall und 20% (!) im letzteren Fall (man nehme
+nur ein anderes Bezugsverhaeltnis und schon sieht das auch in
+absoluten Betraegen entsprechend aus). Ich denke, ich weiss wo Deine
+Fehlbewertung steckt. Experimente haben naemlich gezeigt, dass Deine
+Software grobe Fehlbewertungen vornimmt, wenn der Preis nahe dem
+Bezugskurs liegt und nicht mehr viel Restlaufzeit vorhanden ist.
+
+Bevor Du argumentierst, dass *meine* Berechnungen falsch sind, kann
+ich Dir versichern, dass ich meine Ergebnisse mit professioneller
+Software (Trading-Lizenz ab USD 1000) verifiziert habe.
+
+In Anbetracht der Probleme halte ich a) Deine Software fuer einen
+schlechten Witz und vor allem absolut fuer unverantwortlich, weil
+Dritte damit Papieren bewerten sollen und b) denke mir angesichts der
+weiter oben dargestellten Probleme so meinen Teil...
+
+Ich bin ab Freitag fuer 10 Tage im Urlaub und stehe bis dahin (oder
+danach) gerne zur oeffentlichen Diskussion zur Verfuegung.
+--
+Eysbkd.Neiddbrceuj@DLI-Kycufi.ON
+http://hsjjso.cf.wmm-vgjtde.lz/~k9tfbc49/
+University of Piberschlag, Laibstadt, Germany

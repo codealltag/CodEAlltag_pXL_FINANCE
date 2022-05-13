@@ -1,0 +1,18 @@
+Nein. Stop buy bedeutet, das erst gekauft wird, wenn das Limit erreicht
+wurde, dann wird die Order zur billigst order.
+
+
+Bei Stop loss wird erst verkauft, wenn das Limit unterschritten ist, dann
+wird diese Order zur bestens Order:
+
+Beispiel
+
+Stop - Buy Limit 105,00
+
+Kurse: 101 102 103 104 105 110 100 95
+Der Kauf würde dann zum Kurs von 110 erfolgen...
+
+Stop Loss: Limit 100
+Der Verkauf würde mit 95 erfolgen.
+
+Gruß marcel

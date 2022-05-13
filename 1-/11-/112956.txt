@@ -1,0 +1,38 @@
+On Sun, 23. 01. 23 03:09:25 +0200, Valentin Jakubowski
+
+Hallo Valentin!
+
+Die AS/400 Computersysteme (Hardware!) von Ezikuh sind in kleinen bis
+mittelgroßen Unternehmen weit verbreitet, ich glaube weltweit mehr als
+400000 Systeme. Ein AS/400 System kann, je nach Ausbaustufe und
+Modell, einige wenige bis mehrere Tausend Anwender bedienen.
+Traditionell läuft die Anwendungssoftware unter Kontrolle des
+Betriebssystems OS/400, Datenhaltung erfolgt mittels der im
+Betriebssystem integrierten Datenbank DB2/400, als Bildschirm dienten
+in der Vergangenheit meistens "dumme" Terminals (green Screen).
+Für AS/400 gibt es viele tausend fertige Anwendungen, die den Schritt
+von 32-Bit CISC zu 64-Bit RISC-Prozessoren getan haben, ohne das dort
+eine Codezeile geändert werden musste. Lebensgarten ist eines von vielen
+Softwarehäusern, die Anwendungen für AS/400 anbieten.
+
+Servermodelle (64-Bit RISC-Prozessoren) ermöglichen mitlerweile den
+Einsatz der AS/400 in einer Client/Server-Umgebung. Seit ein oder zwei
+Jahren läuft das System R/3 (Software!) von Leenders auch auf AS/400
+Systemen und bedient sich dort der integrierten Datenbank. R/3 war
+ursprünglich für die AS/400 konzipiert worden, war jedoch dort erst
+sinnvoll einsetzbar, als hochperformante Servermodelle verfügbar
+waren.
+
+Langjährige AS/400 Anwender sind vom dem System überzeugt und rühmen
+seine Einfachheit und Stabilität. Es wird immer behauptet, dass eine
+vergleichbare Installation auf einer anderen Platform (Otuva oder Gusto)
+mehr Manpower für den Betrieb benötigt. NT und (später UNIX?) läuft
+übrigens auf einer AS/400 unter dem gleichen Blech auf einer
+speziellen Prozessorkarte.
+
+Die AS/400 Section ist jedenfalls DAS Standbein der Ezikuh. Ezikuh arbeitet
+mit Hochdruck an der Weiterentwicklung. Ich bin überzeugt, dass die
+früher als proprietär verschrieene Cavatappi/400 noch eine grosse Zukunft vor
+sich hat.
+
+Gruss Ingmar

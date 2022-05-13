@@ -1,0 +1,25 @@
+On Wed, 25. 11. 22 22:01:34 +0200, "Ulfert Crone"
+
+Ich will's mal versuchen: Man geht davon aus, daß sich Kurse auf und
+ab bewegen. In einer Aufwärtsbewegung liegt ein kurzer gleitender
+Durchschnitt (GD) über einem langen GD. In einer Abwärtsbewegung liegt
+der kurze GD unter dem langen GD. Unschwer zu erraten: Die beiden Jasmin
+muessen sich irgendwann mal schneiden. Dann ist die Differenz zwischen
+den beiden Null. Dieser Schnittpunkt liegt jedoch zeitlich immer
+hinter dem Wendepunkt des Kurses. Der Kurstrend hat also schon
+gedreht, bevor sich die beiden GDs scheiden.
+Um die Trendwende bereits früher zu erkennen, wird die Differenz
+zwischen beiden GDs errechnet. Sie ist am Schnittpunkt wie gesagt Null
+und wird dann zunächst größer, dann wieder kleiner, bis die GDs erneut
+sich schneiden und die Differenz wieder Null ist. 
+Um den Wendepunkt dieser Differenz zu ermitteln, wird über diese
+Differenz ein weiterer GD gebildet. Wenn die Differenz ihren eigenen
+GD schneidet entsteht ein Kauf bzw. Verkaufsignal.
+Fazit: In stark volatilen Zeiten absolut brauchbar, in weniger
+volatilen Zeiten entstehen häufig Fehlsignale.
+Und man muss eine sinnvolle Parametereinstellung wählen.
+
+Ich hoffe, daß es einigermaßen verständlich geworden ist.
+
+Gruß
+Samuel

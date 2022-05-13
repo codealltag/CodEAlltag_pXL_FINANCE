@@ -1,0 +1,91 @@
+Hallo helene,
+
+also nochmal: AndingTopfoto berücksichtigt Dein Argument "Call muß verzinst
+werden".
+
+Zur Vereinfachung nehmen wir einen (dividendenlosen) Wert der
+Volatilität 0.
+Die Elog AG notiere (seit Jahren) mit 110. Ein Call macht nur Sinn im
+Geld, sagen wir, Du willst die Aktie in 1 Jahr für 100 kaufen (weil Du
+jetzt
+zuwenig Geld hast). Als risikolosen Zinssatz nehmen wir 4% an.
+
+Der Call kostet zunächst den inneren Wert, das sind 10 und ist eine Art=
+
+Anzahlung.
+Darüber hinaus gebe ich Dir praktisch für 1 Jahr einen Kredit über =
+100.
+Wenn ich 110 Mark risikolos zu 4% anlegen kann, dann auch Deine 10 Mark,
+denn das könntest Du auch. Für den Kredit verlange ich also von Dir 4=
+%
+auf
+die 100 Mark, somit ist mein Preis 10,00 + 4% auf 100,00 =3D 14,00 DM
+(jetzt)
+Deine 10 angelegt geben 0,40 DM (künftig).
+
+Was willst Du zahlen? =
+
+Du zahlst 10 und willst 4% zurück, bist also bereit 9,60 DM zu zahlen
+und
+fairerweise auch noch die Kreditzinsen auf 100 von 4 Mark, =
+
+Dein Preis ist daher 13,60 DM.
+
+Was machen wir jetzt? Als eine deutsche Bank kann ich doch nicht
+draufzahlen?
+
+Mit Aktien und Optionen "haben wir fertig"!
+Dein Problem lautet mehr oder weniger:
+vorschüssige Zinsen, endfälliges Darlehen, Abschlagszahlung, ...
+Und eine Lösung dazu ist nicht nobelpreisverdächtig
+
+Und damit kann man eben nicht so einfach mit 4% für beide Seiten
+rechnen.
+Nehmen wir daher eine stetige Verzinsung mit 4%.
+
+r =3D stetiger Zinssatz =3D 0.04
+S =3D spot =3D 110 Mark
+E =3D excercise =3D 100 Mark
+
+Laut BS mit Vola =3D 0 (isalsogarnichBlackScholes) errechnet sich der =
+
+Preis des Calls als C =3D S - E*exp(-r) =3D 13.92 Mark.
+
+Wie das?
+
+Meine 110 stetig verzinst geben S*exp(r) =3D 114.49 Mark (und nicht nur
+114)
+also S*exp(r) - S =3D 4.49 Mark Zinsen.
+Um in einem Jahr 4.49 bei 4% zu haben (dann hätte ich sie ja erst),
+genügt es,
+heute 4.49*exp(-r) =3D 4.31 anzulegen; dies statt 4 Mark oben.
+Die Abzinsung des inneren Wertes von 10 Mark ist (S - E)*exp(-r) =3D 9.61=
+
+statt 9.60.
+
+Du zahlst also (S-E)*exp(-r) + (S*exp(r) - S)*exp(-r) =3D S - E*exp(-r),
+denn exp(r)*exp(-r) =3D 1, auch nach der Regierungserklärung.
+
+Nach einem Jahr haben daher:
+  9.61 verzinst gibt 10
++ 4.49 verzinst gibt 4.49
++ 100 von Dir (Darlehen zurück)
+- Aktie im Wert von 110
+=3D 4.49 Zinsgewinn für mich wie gewünscht.
+
+Also werde ich als Bank an WAISENBERG nicht verarmen, sondern habe nur falsch
+gerechnet.
+Und Du mußt trotzdem mehr für einen Call zahlen, wenn die Zinsen
+steigen. Ätsch.
+
+MfG
+Italo
+
+PS: Hoffentlich landet=B4s diesmal den Richtlinien entsprechend in der NG=
+=2E
+Wenn nicht,
+dann muß der Beitrag sofort löschen werden. Formlos. Denn es ist mir
+echt unangenehm,
+jemanden dazu zu zwingen, mich als Idioten zu beschimpfen ... Wo=B4s ev.
+nur an der
+Software liegt.

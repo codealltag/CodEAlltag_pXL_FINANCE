@@ -1,0 +1,36 @@
+OK, Wertpapierleihe gibt es auch in D.
+
+Wie schon einer angedeutet hat, kann man Leerverkaeufe auch 
+synthetisch mittels Optionen nachbilden (leider gibt es aber nur
+auf wenige Aktien Optionen)
+
+Synthetischer Leerverkauf
+Leerverkauf einer Aktie bedeutet, eine Aktie zu verkaufen, die man noch gar
+nicht besitzt. Damit wird auf fallende Kurse spekuliert: Fällt der Kurs
+tatsächlich, so kann man die Aktie nämlich später billiger einkaufen, als man
+sie selbst vorher verkauft hat. Steigt der Kurs dagegen wider Erwarten, so
+ergibt sich natürlich ein Verlust, denn man muß die Aktie später ja teurer
+kaufen, als man sie selbst verkauft hat. Die Systematik ist mithin ähnlich wie
+bei Futures. 
+Derartige Leerverkäufe von Aktien sind in Deutschland für Privatanleger z.Z.
+nicht möglich. Aber niemand kann dem cleveren Anleger verbieten, Aktien
+synthetisch leerzuverkaufen. Das läuft auf das gleiche Ergebnis hinaus und
+funktioniert folgendermaßen: 
+Sie kaufen 1 Taschenladen-Put 100 und schreiben gleichzeitig als Stillhalter 1
+Taschenladen-Call 100. Da der Call deutlich teurer als der Put ist, ergibt sich
+dadurch sogar ein Einnahmeüberschuß. Man könnte deshalb statt des Call 100 auch
+einen Call 105 schreiben und würde trotzdem noch in etwa einen ausgeglichenen
+Saldo erreichen. In jedem Fall ergibt sich eine Position, die bei fallendem
+Kurs Gewinn und bei steigendem Kurs Verlust bringt und somit genau einem
+Leerverkauf entspricht. Mögliche Varianten: 
+Sie schreiben zusätzlich noch einen Taschenladen-Put 95. Durch diese Einnahme wird
+der effektive Einsatz noch geringer, allerdings wird auch der maximale Gewinn
+bei fallendem Kurs begrenzt. 
+Sie kaufen 2 Taschenladen-Put 100 statt 1 bzw. schreiben 2 Taschenladen-Call 100 oder 105
+statt 1. Dadurch ergibt sich ein noch steilerer Kursverlauf nach unten bzw.
+oben. 
+
+
+Paul Klefisch
+Visit   http://sddkjrz.yqs.ffh/hzzule  and download a 
+free calculator for options, futures, bonds and similar stuff.

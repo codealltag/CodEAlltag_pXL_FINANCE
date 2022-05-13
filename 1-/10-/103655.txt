@@ -1,0 +1,104 @@
+Hier kurz die wichtigsten Details bei Anleihen und Derivaten.
+Nebenfrage: heisst die Mehrzahl von den Dingern in Deutsch 
+eigentlich Euro, Euros, Eumels oder wie?
+
+
+Anleihen:
+Es bleibt weiterhin bei der Notiz in %, so daß sich an den 
+Börsenkursen und der Berechnung nichts ändert. Die Nominalwerte 
+der meisten alten DM-Anleihen werden dagegen auf Euro umgestellt. 
+Es wird aber nicht jedes einzelne Anleihestück von z.B. DM 100 oder 
+DM 1.000 umgestellt, sondern der gesamte Depotbestand an einer 
+Anleihe. Dadurch werden Rundungsfehler minimiert. Aus einem 
+Depotbestand von DM 10.000 in Anleihen X werden mithin Euro 
+5.112,92 (auf 2 Nachkommastellen genau). Diese "krummen" Beträge 
+der alten Anleihen sind auch handelbar. Wer will kann versuchen, 
+durch Ver- oder Zukauf eines krummen Betrages wieder auf runde 
+Bestände zu kommen.
+Neue Anleihen dagegen werden wieder in runden Beträgen von z.B. 
+Euro 100 oder 1000 ausgegeben. Die Zinsgutschriften erfolgen in 
+der jeweiligen Kontow�hrung.
+
+
+Aktienoptionen und -OS
+In den meisten Fällen erfolgt die Umstellung dadurch, daß 
+sowohl der Kurs der zugrundeliegenden Aktie, der Bezugskurs 
+der Aktie, und auch der Kurs der Option gleichzeitig auf Euro 
+umgestellt werden. Und damit stimt es dann automatisch wieder.
+Allerdings kann im Einzelfall im Kleingedruckten der jeweiligen 
+Option eine andere Regelung festgelegt sein.
+Komplizierter können Fälle sein, in denen sich bei der Umstellung 
+des Nominalwertes der zugrundeliegenden Aktie (z.B. von bisher 
+DM 5 auf Euro 1 je Aktie) eine Änderung der Anzahl der 
+umlaufenden Aktien ergibt. In solchen Fällen wird das 
+Bezugsverhältnis und/oder der Bezugspreis geändert.
+Dann gibt es noch den Fall von in Euro notierten Optionen auf 
+Aktien, deren Kurs nicht in Euro notiert wird. Also z.B. OS-Kurs 
+in Euro, Aktienkurs in US$. Hier muß man umrechnen wie bisher 
+auch schon in solchen Fällen.
+
+
+Index-Zertifikate
+Bei den bisher in DM gehandelten alten Indexzertifikate wird es 
+etwas kompliziert, weil diese in Zukunft in EURO notiert werden, 
+aber weiterhin Anspruch auf den Index in DM geben. Der Dax und 
+die meisten andere Indices werden zwecks Vermeidung von 
+Verwirrungen jedoch durch Einbau des Euro-Umrechnungskurses 
+in die Indexformeln auf EURO umgestellt, so daß die Indexstände 
+nahtlos an das alte DM-Niveau anknüpfen (der Dax halbiert sich also
+nicht!). Die Kurse der alten Indexzertifikate muessen deshalb 
+immer etwa dem Index geteilt durch 1,95583 entsprechen. 
+Beispiel: Bei DAX 5000 ist ein altes Dax-Zertifikat ungefähr
+2.556,46 EURO wert.
+Es ist anzunehen, daß schnell neue, gleich auf Indexstand = Wert 
+in EURO definierte Indexscheine herauskommen und die alten 
+Scheine deshalb seltener und seltener und bald ganz verschwinden 
+werden.
+
+
+Indexoptionen und -OS
+Die Umstellung alter Indexoptionen ist etwas kompliziert. Sie sind 
+meist auf z.B. DM 1 je Indexpunkt im Geld definiert und daraus 
+werden dann eben etwa 0,51 Euro. Ihr Kurs wird ebenfalls in Euro 
+notiert. Hier muss man während der Übergangsphase also etwas 
+umdenken bzw. umrechnen. Am besten man berechnet sie 
+komplett in DM und rechnet dann erst die Ergebnisse in Euro um.
+Alle neuen Indexoptionen werden selbstverständlich in glatten 
+Euro bzw. Euro-Cents definiert, so daß diese dann problemlos in 
+Euro berechnet werden können.
+Zu beachten ist, daß es weiterhin natürlich in Fremdwährungen 
+definierte Indexoptionen auf Nicht-Euro-Indices geben kann (z.B. 
+OS auf den S&P500 bei denen 1 Indexpunkt = 1 US$).
+Hier ist komplett in Fremdwährung zu rechnen und dann nur der 
+Optionspreis auf Euro umzurechnen.
+
+
+Zinsoptionen und -OS
+Die Umstellung alter ZInsoptionen ist etwas kompliziert. Sie sind 
+meist auf z.B. DM 1 je Anleihe- oder Rentenindexpunkt im Geld 
+definiert und daraus werden dann eben etwa 0,51 Euro. Ihr Kurs 
+wird ebenfalls in Euro notiert. Hier muss man während der 
+Übergangsphase also etwas umdenken bzw. umrechnen. Am besten 
+man berechnet sie komplett in DM und rechnet dann erst die 
+Ergebnisse in Euro um. 
+Alle neuen Zinsoptionen werden selbstverständlich in glatten 
+Euro bzw. Euro-Cents definiert, so daß diese dann problemlos in 
+Euro berechnet werden können.
+
+
+Währungsoptionen und -OS
+Ist eine Euro-Währung involviert, z.B. bei einem OS DM : US$, 
+so kann man entweder weiterhin mit DM rechnen und erst das 
+Ergebnis in Euro umrechnen. Oder man setzt gleich statt DM 
+den entsprechenden Euro-Betrag ein
+
+
+Futures
+Bei Futures ändert sich prinzipiell nichts, außer daß der Wert 
+je Indexpunkt bei neuen Futures in Euro festgelegt ist. Der 
+Dax-Future z.B. wird dazu von DM 100 auf Euro 25 je
+Dax-Punkt umgestellt.
+
+Gebhard
+Visit   http://xiktarl.fqb.xwm/askvda  and download a 
+free calculator for options, futures, bonds and similar stuff.

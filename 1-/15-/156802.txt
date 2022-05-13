@@ -1,0 +1,23 @@
+Hallo,
+
+ich denke, da machst du einen Riesenumweg.
+Zum einen ist das Herumschlagen mit DDE recht kompliziert (zumindest,
+wenn
+man DDEML benutzt.). Zum anderen wird der Rechner auch nicht gerade
+schneller.
+
+Wenn schon C++, dann kann man auch gleich die Internet-API (wininet.dll)
+benutzen.
+Die hat recht komfortable Funktionen zum Laden von Dateien über FTP u.
+HTTP.
+Im Programm kannst du die Daten dann ja bearbeiten und in geeignete
+Dateien
+speichern.
+
+Mit WPNV ist es ähnlich einfach. Zudem gibts die Sprache ja umsonst auf=
+
+http://qug.alylqahf.sjm . Ein Beispiel für
+http://ksb.xzghbmpoakic.pu/fbi/...
+hab ich mal in Java geschrieben. Wer Interesse hat, Mail an mich.
+
+Gruß Christian

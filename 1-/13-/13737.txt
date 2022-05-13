@@ -1,0 +1,100 @@
+POT ODDS UND OUTS
+
+
+Author  Leman
+Der Author Herr Leman war selbst Teilnehmer an den World
+Series of Pokler in den Jahren 2003, 2004, 2005, 2006 und 2007 und
+gibt hier ein paar Tips zu den Pot Outs und Outs
+
+
+Wenn man auf dem Flop noch nichts getroffen hat oder man nicht
+erwartet, damit die beste Hand zu haben (z.B. Bottom-Pair), dann ist
+es wichtig zu wissen, wie hoch die Chance auf ein besseres Blatt ist.
+
+Mit Hilfe von Outs lässt sich diese Wahrscheinlichkeit errechnen,
+während man bei den Pot Odds errechnet, ob sich ein Call bei einem
+bestimmten Pot und den gegebenen Odds lohnt.
+
+Es ist wichtig, deine Pokerstrategie an diese gegebenen Größen
+anzupassen.
+Pot Odds
+Unter Pot-Odds versteht man im Grunde nicht anderes als das Verhältnis
+zwischen der Höhe des zu gewinnenden Pots und dem zu bringenden
+Einsatz. Besteht beispielsweise ein potsize bet, d.h. ein Spieler
+setzt genau den Betrag, der bereits im Pot liegt, gegen uns, so haben
+die Pot-Odds einen Wert von 2.
+
+Pot-Odds = ( Pot + gegnerischer Bet ) : eigener Call = 2
+
+Für unseren Einsatz kriegen wir (vorausgesetzt wir gewinnen ;) ) das
+Doppelte zurück, also lauten die Pot-Odds 2 zu 1.
+
+Um auf Dauer in solchen Situationen zu gewinnen muss unsere
+Gewinnerwartung (Gewinnchance) mindestens 33% (2 zu 1) betragen. Wie
+man auf diese Größe kommt, klären wir unter Outs und Odds.
+
+Wichtig: Je größer die Pot-Odds, desto kleiner die benötigten
+Gewinnchancen.
+
+Beispiel: Wenn sich im Pot $180 befinden und der Gegner $60 setzt,
+dann benötigen wir mindestens 20% (4 zu 1) Gewinnchancen um unseren
+Call mathematisch zu rechtfertigen.
+
+Pot-Odds = ($180 + $60) : $60 = 4
+
+Da wir für unsere $60 das Vierfache rausbekommen (vorausgesetzt wir
+gewinnen), lauten die Pot-Odds 4 zu 1 (4:1).
+Outs und Odds
+Nun ist es wahrlich nicht immer einfach unsere Gewinnchance in
+Unkenntnis des gegenerischen Blattes zu errechnen. Hier wiederum
+fließen mehrere Faktoren ein die uns die Entscheidung erleichtern. Zum
+einen könnte man schon Informationen über seinen Gegner gesammelt
+haben, die einem verraten welches Blatt er haben könnte zum anderen
+kennen wir unsere Karten und die Karten auf dem Board. Hieraus lässt
+sich ermitteln, wie viel kommende Karten (Helpcards) einem helfen
+könnten, sein Blatt zu verbessern. Die Anzahl dieser Helpcards nennt
+man Outs.
+
+Hält man beispielsweise 9♣ und 10♣ und das Board bringt 4♥,7♣, 8♣, so
+haben wir 21 Outs, die unserer Blatt leicht bis signifikant
+verbesseren können.
+9 Karten (übrigen ♣-Karten zum Flush bzw. Straight Flush)
++ 6 Karten für den Straight (vier 6en + vier Jungen - 6♣ - J♣)
++ 6 Karten für das High Pair
+===========
+21 outs
+Wie errechnet man jetzt aus den Outs, die Odds also die
+Wahrscheinlichkeit?
+Eine Betrachtung der Outs wird erst nach dem Flop wirklich
+interessant. Wir sehen also 3 Karten im Board plus 2 Karten in unserer
+Hand, 47 Karten sind für uns verdeckt. Dabei haben wir 2 Kreuzen auf
+der Hand und im Flop liegen 2 weitere Kreuzen. Es fehlt uns also nur
+ein Kreuz zum Flush. Insgesamt gibt es 13 Kreuze, abzüglich der 4
+Kreuz (im Flop und in unserer Hand) bleiben 9 Outs. Von den 47
+verdeckten Karten sind nun 9 "gut" und 38 "schlecht". Wir setzen jetzt
+gute Karten und schlechte Karten ins Verhältnis um die Odds zu
+berechnen.
+
+38 : 9 → 4.22 : 1 ≈ 4 : 1
+Dieser Wert bedeutet, dass man in 5(!) Fällen einmal auf eine "gute"
+Karte, also ein Kreuz, trifft.
+
+An dieser Stelle nehmen wir uns wieder die Pot Odds vor. Diese helfen
+uns zu entscheiden, wann man eine solche "Chance" callen sollte. Wenn
+wir, wie im obigen Beispiel, nur 1 von 5 Händen gewinnen, dann sollte
+uns der Pot im Falle des Gewinns 5x soviel einbringen, wie wir gesetzt
+haben, da wir davon ausgehen, dass vor vorher schon 4x einen solchen
+Pot (mit identischem Einsatz) verloren haben.
+
+Beispiel:
+Der Flop liegt offen und wir zählen 9 outs, es befinden sich noch 5
+Spieler im Pot, der bereits $120 beträgt. Du sitzt "on the
+button" (d.h. du bist als Letzter am Zug) und der "under the
+gun" (UTG), d.h. der erste Spieler setzt $40, 3 Spieler folden und
+einer callt. Jetzt bist du dran: der Pot beträgt mittlerweile $200,
+der zu erbringende Einsatz $40.
+Wir beginnen mit den Pot Odds: $200 / $40 = 5, somit betragen die Pot
+Odds 5:1. Da wir unsere Outs schon gezählt haben, wissen wir um unsere
+Chance von 4:1 eine "gute" Karte zu treffen. Wenn nun die Pot Odds
+(5:1) höher sind als die Odds (4.22:1), dann ist ein Call
+gerechtfertigt.

@@ -1,0 +1,51 @@
+Hallo zusammen,
+
+vor ca. 1-2 Monaten sind verschiedene Banken mit sog. Equity linked bonds
+(Ich glaube, es gab auch noch andere Namen) herausgekommen. Das sind eine
+Art Wandelanleihen, die meist zwischen 9 - 15 % Zins zahlen und der Emittent
+hat ein Wahlrecht, ob er den Nominalwert zurückzahlt oder dem Käufer eine
+best. Anzahl Aktien gibt.
+Ich habe mich jetzt gefragt, ob es nicht lohnenswert wäre, diese Anleihen
+jetzt zu kaufen. Dabei bin ich aber auf ein grundsätzliches Problem
+gestossen. Wie bewertet man diese Anleihen?
+Meine Überlegungen dazu sind wie folgt:
+1.) Ich gehe von einer Anlagesumme von DM 10.000 aus.
+2.) Kauf der Anleihe der P&A (Emittent). Nominalzins 12 %,
+Fälligkeit 22.11.1999, Laufzeitbeginn 22.11.1998 Man bekommt 10.000 DM oder
+10 SAP Vz. zurück
+3.) Aufgrund fehlender Daten bin ich von einem 1-Jahres-Zins von 3,5 % und
+von einer L2-Vola von 45 % ausgegangen.
+
+Im Grunde genommen kann ich diese Anleihen mir auch selbst zusammenbasteln.
+Indem ich meine 10.000 DM auf Festgeldbasis anlege und eine Putoption mit
+Basis 1000 Laufzeit 1 Jahr verkaufe. Leider habe ich die Emissionsdaten
+dieser Anleihe nicht. Also habe ich versucht, die Prämie mir herzuleiten:
+10.000DM Anlage                                10.000 DM Anlage
+      350DM Zins aus Festgeld               1.200 DM aus Anleihe
+----------------------                                      ----------------
+-------------------
+10.350 DM                                            11.200 DM
+Die Differenz müsste die Optionsprämie ergeben. Der Einfachheit halber
+rechne ich mit den 850 DM weiter. Meiner Meinung nach müsste dieser Betrag
+noch abgezinst werden, da sich sonst ein Nachteil für den Anleihekäufer
+ergibt.
+Wenn ich also per heute meine Konstruktion aus Festgeld und Short Put
+auflösen will, ergibt sich für mich folgende Rechnung:
+10.000,-- DM Anlage
++     58,33DM Zins für 60 Tage
++   850,-- DM Optionsprämie (opening)
+./.1.371,59DM Optionsprämie (closing) (L2 Vz, 1.022 DM, Vola 45%,
+Restlaufzeit 300 Tage)
+--------------------------------------------------------
+9.536,74 DM Gesamtbetrag oder 95,37 %
+
+Falls also diese Annahmen stimmen, sollte der (faire) Kurs der Anleihe bei
+95,37 % liegen.
+
+Jetzt die Frage an die Experten. Liege ich mit diesen Gedanken richtig? Oder
+wenn nein, wie kann man den fairen Wert dieser Anleihen ermitteln?
+
+
+--
+Timo Dürrwaechter
+Nmpazpwow@lswxkqja.al

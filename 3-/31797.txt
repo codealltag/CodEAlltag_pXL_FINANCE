@@ -1,0 +1,83 @@
+Wenn man bei Buy&Hold mit 1500 startet und die Stop Strategie
+der umgekehrten Stufentechnik verwendet, dann ist der Verlust
+beim ersten Stop groesser. 
+
+Sinn einer Buy&Hold Strategie ist Wauer, keine Stops zu haben
+(von daher das "Hold") und alles Geld zu investieren. Risikominimierung
+wird bei Buy&Hold durch die Auswahl der Titel erzielt, nicht durch
+Stops. Ich spreche der umgekehrten Stufenstrategie nicht ab, unter
+bestimmten Bedingungen bessere Ergebnisse zu erzielen als Buy&Hold. 
+Wie ich aber gezeigt habe, ist Buy&Hold unter Umstaenden besser als 
+die umgekehrte Stufentechnik.
+
+
+Sagen wir bei Crash. Da besteht ausserdem die Gefahr, dass alle
+Werte gleichzeitig stark fallen. Der Eindruck des falsches Bildes
+bleibt, da der Kreditanteil deutlich hoeher werden kann als die 
+in der Tabelle sichtbaren 31%. Mehr als 50% Kreditanteil als
+systembedingt nehme ich zurueck. S.u.
+
+
+Kommt darauf an, wie Du vergleichen willst. Ich vergleiche gerne
+mit identischen Startbedingungen, d.h. gleiches Startkapital. Du
+kannst auch nach bestimmten Endbedingungen vergleichen (z.B. 
+maximaler Verlust), da kommt dann halt was anderes raus.
+
+
+Deine Rechnung ist richtig, meine wars nicht. Gut, wenn wenigstens
+einer nachrechnet ;) Ich weiss leider nicht mehr, wie ich gerechnet
+hatte, vermutlich hatte ich bei meiner Prozentrechnung die
+Wertsteigerung der frueher gekauften Aktien nicht beruecksichtigt.
+
+
+Auch falsch, 39,2% war richtig.
+
+
+Its a feature, oder das wird bewusst in Kauf genommen. Du hast 
+bei der Stufentechnik fast nie, dass ein Anleger zum Nachkaufkurs 
+des anderen einsteigt. Ich vermute, es dient dazu das Verfahren 
+einfach zu halten. Kaufs- und Verkaufspunkte liegen bei gleichen 
+Kursen. So wie es ist (anstelle gleitend nachgezogenem Stop Loss) 
+hat es den "Vorteil", dass das Stop Loss meistens tiefer liegt 
+als 33% Verlust vom letzten Hoechstkurs. 
+
+Ich denke, auch das ist beabsichtigt. 33% waeren vielleicht 
+manchmal wirklich zu wenig. Irgendwo soll die Balance gefunden 
+werden zwischen Verlustvermeidung und Gewinnmaximierung. 
+Man kanns auch anders machen.
+
+
+Es ist mehr ein Handelssytem als ein Aktienauswahlsystem. Das
+Vermeiden defensiver Titel (heisst hier: langsam steigende) bleibt
+dem Geschick des Investors ueberlassen. Es steht dem Investor
+frei, sich von Titeln zu trennen, die seiner Meinung nach nicht
+die richtige Performance hatten. Da die Aktienauswahl unter anderem
+auf relativer Staerke aufbaut, koennte man z.B. das Zeug 
+rausschmeissen, das nach zwei Jahren sich nicht besser entwickelt
+hat als der Markt.
+
+
+Deswegen die Empfehlung, nach dem Chart zu sehen. Worauf Du 
+wahrscheinlich hinauswillst, ist, dass die relative Staerke ueber
+verschieden lange Zeitraeume gemessen werden kann. Relative Staerke
+ueber 52 Wochen ist was anderes als ueber 13 Wochen.
+
+Tip: Auch die mechanischen Investoren vom Motley Fool haben sich
+darueber Gedanken gemacht und Strategien mit "ueberlappender" 
+relativer Staerke entwickelt. Ziel ist es, Aktien zu finden, die
+relative Staerke in mehreren Zeitraeumen zeigen, z.B. ueber die 
+letzten 13 und 26 Wochen; laeuft bei TMF unter Relative Strength
+Overlap 13/26 (siehe http://gdt.jipguelzyon.net/hannjfp/d4294.svj;
+Backtest auf http://wrj.klxkxjt.ozf/qu/qomzkby/, mit Screen 1 =
+RS26, Screen 2 = RS13, 1-monatiger Halteperiode, Ranks 1-20, 
+Limit 3 gar nicht mal so uebel mit durchschnittlich +72%/Jahr von
+1986-99).
+
+
+Ah, nicht ganz. Empfohlen wird, erst bei einem neuen 52 Wochen
+Hoch des Etos einzusteigen. Das ist etwas, was man in 5 Minuten
+rausfinden kann. Die Idee dahinter ist, dass sich dann der Markt im
+Aufwaertstrend befindet.  Natuerlich gibts manchmal auch 52 Wochen
+Hochs unmittelbar vor einem Crash, aber so ist halt die Welt ;)
+
+Egon

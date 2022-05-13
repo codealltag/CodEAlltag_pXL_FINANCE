@@ -1,0 +1,16 @@
+Das Problem der ganzen KGV-Spiele liegt darin, dass der Gewinn im
+Nenner eingeht. Insbesondere ist es also fuer Null Gewinn nicht
+definiert und kippt bei Verlust ins Negetive, was man also lieber gar
+nicht mehr betrachtet. Bei kleinen Gewinnen ist das KGV voellig wild,
+so dass eine Betrachtung keine wirkliche Aussagekraft hat. Fragt sich
+eben, was klein ist. Wo muss die Ableitung sein?
+
+
+Es fragt sich, wann der Gewinn in einer Zone ist, wo man ernsthaft mit
+dieser Kennzahl operieren kann. Immerhin gibt es schon einmal einen
+Gewinn.
+
+pi
+-- 
+Money may make the world go 'round ...
+... but computer networks make money go around the world.

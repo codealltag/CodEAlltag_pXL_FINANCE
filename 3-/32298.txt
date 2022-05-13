@@ -1,0 +1,17 @@
+Willibald Portenkirchner <AxpolrkTp8@pes.pq> schrieb in im Newsbeitrag:
+9s7pz3$e92$1@fizi.ohjhwd.mxy...
+Moin,Moin Willibald!!!
+
+hier nur 2 kurze allgemeine Ansätze für die Optionspreisberechnung
+- die Grundversion (oftmals wird diese nur in der Literatur angegeben) der
+Black & Scholes Formel eignet sich nur für europäische Optionen und meistens
+nur bei Aktien ohne Dividenaussch�ttung -> liefert so zu sagen die untere
+Preisgrenze für den Optionspreis
+
+andere Ansätze wären u.a. Optionspreis nach Binomialmodell (leider findet
+man auf dt. kaum Infos im Web, meistens nur auf englischen Sites)
+
+- als risikoloser Zinssatz wird entsprechend der akt. Geld- bzw.
+Kapitalmarktzins angegeben (mit selber Restlaufzeit wie Option, wird sehr
+schwierig den für die o.g. Optionspreisberechnung entsprechenden Zins bei
+Restlaufzeit bis 2003 herauszubekommen)

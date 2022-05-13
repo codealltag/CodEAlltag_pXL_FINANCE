@@ -1,0 +1,10 @@
+Hallo Sascha,
+das Perl-Modul holt die Kurse standarm��ig von NDU ab. Für
+Eisenharz müßtest Du Dir ein eigenes Modul schreiben, daß von
+Finance:Quote uafgerufen wird. Vorgehen ist irgendwo in der Doku von
+Greenland:Quote. Ansonsten schaue Dir innerhalb von Finance:Quote einmal
+VWD.pm an. VWD.pm ließt meines Wissens nach auch nur ein Tabelle auf der
+webseite aus.
+
+Gruß,
+Günther

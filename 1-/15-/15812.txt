@@ -1,0 +1,31 @@
+Volatilitaet so wie sie von Black und Scholes zuerst benutzt
+wurde meint die Standardabweichung
+(schnell gefundenen Einfachdefinition: Die Standardabweichung 
+ist in der Stochastik ein Maß für die Streuung der Werte einer 
+Zufallsvariablen um ihren Mittelwert)
+zeigt also gewissermassen die Unregelmaessigkeit des Kursverlaufes.
+Der Trend degegen ist der mehr regelmaessige Teil des
+Kursverlaufes. Wenn es ziemlich regelmaessig rauf oder runter
+geht hast du einen eindeutigen Trend aber trotzdem niedrige Vola.
+Also nicht jede Kursveraenderung bedeutet hohe Vola.
+Kann auch nur sauberer Trend sein.
+
+Die Vola wird meistens mit Software fuer die die 
+Standardabweichung fuer nur 10 oder 30 Tage berechnet.
+Wenn man genug Daten hat kann man sie oder was 
+aehnliches natuerlich auch fuer 12 Monate oder 
+100 Jahre berechnen lassen (sowas haben die da wohl gemacht).
+Aber was das Ergebnis dann aussagt muesste erst mal
+gruendlich diskutiert werden.
+
+Will sagen: Die haben irgendwas berechnet das schlau klingt
+aber nicht unbedingt das zeigt was die Leute dahinter
+vermuten. Und sie selbst haben auch noch nicht darueber
+nachgedacht.
+
+
+-- 
+-- 
+Fritz Ferver
+Visit   http://whodfjb.jmz.hsr/bizsus  and download a 
+free calculator for options, futures, bonds and similar stuff

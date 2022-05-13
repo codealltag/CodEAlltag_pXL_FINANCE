@@ -1,0 +1,22 @@
+Hallo,
+
+
+ich möchte (just for fun) ein kleines Programm zur Depotverwaltung schreiben
+und möchte mir dafür gerne die jeweils die Kurse der für mich relevanten
+Wertpapiere (Aktien, Fonds, etc.) börsentäglich besorgen, z. B. per FTP oder
+HTTP.
+
+Im Idealfall stelle ich mir das so vor, daß ich dem jweiligen Server
+mitteile, welche für welche WKN ich den aktuellen Kurs haben möchte und er
+mir dann mit dem selbigen antwortet.
+
+Kennt jemand eine Dienst, der etwas derartiges anbietet?
+
+Ich habe eigentlich keine Lust, einen Dienst wie z. B. Stockquote zu
+abonnieren, da ich nicht alle dort genannten Aktien brauche, sondern nur
+meine eigenen sowie diejenigen die ich beobachten möchte.
+
+
+Danke,
+
+Ralph

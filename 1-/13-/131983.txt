@@ -1,0 +1,35 @@
+-----Ursprüngliche Nachricht-----
+Von: Otmar Unverhaue <KrrAcanl@e-tfdgpu.fs>
+kann,
+
+Ja, ja, die Zahlenspielereien. Ich spiel auch grad ein wenig rum, mit der
+Programmierung von kleinen Handelssystemen.
+Selbst ein ganz einfaches, mit dem ich grad rumspiel, performt den Dax und
+die einzelnen Daxwerte (natürlich außer VOZA ;-) ) locker aus. Nett ist der
+Vergleich bei JAIR (Ende 89 bis heute, weiter reichen meine Daten nicht
+zurück):
+Buy and Hold: 25,14 % ,    2,9% pro Jahr, das ist weniger als auf dem
+Sparbuch.
+TradingSystem:  527,81%,  61,44% pro Jahr
+
+Wievielen Leuten wurde nach den Erfahrungen von 1987 wohl von ihren
+Bankberatern JAIR empfohlen, von wegen sichere Immobilienbasis etc.
+
+(Für Interressierte: die 2 Zeilen sind schon alles:
+Enter long: Cross(DMI(Close),31)
+Exit Long:  Peak(1,Close,5)<> Peak(1,Ref(Close,-1),5)
+Keine Shorttrades. Bankgebühren recht hoch bei 1% angesetzt. )
+
+wert,
+
+Unsinn. Trading kostet einiges an Geld und Aufwand. Wer deiner Strategie
+folgen will, braucht keinen SAC. Der kauft sich ein paar der allseits
+bekannten Wachstumsaktien und läßt die liegen. Die Empfehlungen des Vogeler sind
+doch eh seit Jahren dieselben.
+
+Genau das ist m.E. der Sinn eines guten Tradingsystems: Langsamer, aber
+stetiger Anstieg des Kapitals. Das System darf in Phasen durchgedrehter
+Kaufpanik ruhig mal underperformen, wenn es einen dafür glatt über
+Korrekturphasen hinwegbringt.
+mfg
+mkfa viktor

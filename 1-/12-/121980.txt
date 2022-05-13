@@ -1,0 +1,22 @@
+Hallo Paul,
+
+Den Firmenname "diesein" hast Du wohl zu recht gewählt, denn
+Deine Rechnung ist zwar richtig, aber unnötig kompliziert. Denn
+
+Rendite = 10^(LOG(akt.Depotwert/Kaufpreis)/Laufzeit)  -1
+            = (10^LOG(akt.Depotwert/Kaufpreis)) ^(1/Laufzeit)  -1
+            = (akt.Depotwert/Kaufpreis)^(1/Laufzeit)  -1
+
+Daher dürfte es Dir einleuchten, daß die n-te Wurzel mit einem
+Tabellenkalkulationsprogramm i.a. sehr wohl ausgerechnet werden kann, denn
+offensichtlich gilt: n-te Wurzel aus x = x^(1/n)
+
+mfg
+
+    Vinzenz
+
+--
+----------------------------------------------------
+                   Vinzenz Ippach
+Herrnwahlthann, Stadt des Deutschen Meisters 1998
+----------------------------------------------------

@@ -1,0 +1,43 @@
+Kurszusätze:=20
+Die Kurszusätze zeigen an, wie vollständig die zum festgestellten =
+Kurs limitierten Kauf- und Verkaufsaufträge ausgeführt werden =
+konnten:
+
+                     b (bezahlt) oder Kurs ohne Zusatz
+                     Alle Aufträge wurden ausgeführt.
+
+                     bG (bezahlt Geld)
+                     Die zum festgestellten Kurs limitierten =
+Kaufaufträge müssen nicht vollständig ausgeführt sein, es =
+bestand
+                     weitere Nachfrage.
+
+                     bB (bezahlt Brief)
+                     Die zum festgestellten Kurs limitierten =
+Verkaufsaufträge müssen nicht vollständig ausgeführt sein, es
+                     bestand weiteres Angebot.
+
+                     ebG (etwas bezahlt Geld)
+                     Die zum festgestellten Kurs limitierten =
+Kaufaufträge konnten nur zu einem geringen Teil ausgeführt
+                     werden.
+
+                     ebB (etwas bezahlt Brief)
+                     Die zum festgestellten Kurs limitierten =
+Verkaufsaufträge konnten nur zu einem geringen Teil ausgeführt
+                     werden.
+
+                     ratG (rationiert Geld)
+                     Die zum Kurs und darüber limitierten sowie =
+unlimitierte Kaufaufträge konnten nur beschränkt ausgeführt
+                     werden.
+
+                     ratB (rationiert Brief)
+                     Die zum Kurs und niedriger limitierten sowie =
+unlimitierte Verkaufsaufträge konnten nur beschränkt
+                     ausgeführt werden.
+
+    Imhorst <66870575683@y-jgrwjg.ij> schrieb in Nachricht =
+<81S6E1T5.7X6D6924@c-whpmjo.ik>...
+    Wer kann bitte diesen Kurszusatz deffinieren ?=20
+    VDufG=20

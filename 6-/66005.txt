@@ -1,0 +1,9 @@
+die Zahlungseingänge werden mit dem Kapitalmarktzins diskontiert.
+siehe WIWA-Excel-Hilfe Stichwort "Nettobarwert", -Funktion "NBW".
+Zahlungseingänge sind die Gewinne in einem Anlagehorizont und am Schluß 
+der Kurswert berechnet aus dem KGV des Kapitalmarktzinses.
+
+Hoffentlich war das jetzt nicht zu kompliziert.
+Probier es einfach mit ein paar Werten selber aus.
+
+Francesco

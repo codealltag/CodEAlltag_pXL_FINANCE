@@ -1,0 +1,153 @@
+Protective Put Optionsstrategie Trading Piasecki Praas
+Jägg Put Optionsstrategie Trading Epifer Praas
+Johannwille
+Author W.Pruehß
+Video http://hxf.tjyyxie.kmi/iznio?l=6DamfKq__CMOc
+
+Den meisten Anlegern ist bekannt, dass
+sich Call und Put Optionsscheine hervorragend
+eignen gehebelt auf steigende
+bzw. fallende Aktienkurse zu spekulieren.
+Doch es gibt auch noch andere Möglichkeiten,
+um Put Optionsscheine sinnvoll
+einzusetzen. Beispielsweise kann man sie
+in Kombination mit dem Basiswert als
+eine Art =BBVersicherung=AB bzw. =BBAbsicherung=AB
+gegen fallende Aktienkurse verwenden.
+Diese Kombination bezeichnet man
+als sogenannte Protective-Put-Strategie.
+Dabei kauft der Anleger den Basiswert
+und einen Put bezogen auf den gleichen
+Basiswert. Die Laufzeit und den Basispreis
+wählt der Anleger selbst, je nachdem,
+wie viel Risiko er bei seiner Investition
+eingehen will. Fällt der Aktienkurs
+unter den Basiswert des Puts, so kann der
+Anleger den Optionsschein ausüben und
+den inneren Wert realisieren, um damit
+die Verluste aus dem Aktieninvestment
+auszugleichen.
+Das Ziel eines Protective Puts ist es also,
+den Verlust, den man mit dem Kursverfall
+des Basiswerts erleidet, durch den Gewinn
+des gekauften Puts zu kompensieren.
+Beispiel:
+Ein Anleger besitzt 1.000 Aktien des
+Unternehmens A. Der Kurs der A-Aktie
+notiert bei EUR 10,20. Aus der Zeitung
+erfährt der Anleger von der unmittelbar
+bevorstehenden Veröffentlichung der
+Unternehmenszahlen. Aus dem Zeitungsbericht
+geht ebenfalls hervor, dass Analysten,
+die das Unternehmen bewerten, sich
+nicht einig sind, ob diese Zahlen positive
+oder negative Auswirkungen auf die Aktienkursentwicklung
+haben werden. Der
+Anleger ist verunsichert, denn sollte der
+Markt die veröffentlichten Unternehmenszahlen
+negativ auffassen, würden die
+Aktien des Unternehmens fallen und der
+Anleger würde einen Verlust erleiden. Da
+der Anleger aber langfristig von einer
+positiven Kursentwicklung ausgeht,
+möchte er seine Unternehmensanteile
+nicht verkaufen, sondern sich gegen etwaige
+Kursrückgänge der Aktie absichern.
+So kauft der Anleger 1.000 Put Optionsscheine
+mit einem Bezugsverhältnis von
+1:1 bezogen auf die A-Aktie. Der Basispreis
+des Puts liegt bei EUR 10,00 und
+die Restlaufzeit beträgt drei Wochen. Der
+Preis des Optionsscheins liegt zum Kaufzeitpunkt
+bei EUR 0,15. Daraus ergibt
+sich ein Gesamtpreis der Investition von
+EUR 150 (1.000 x 0,15).
+Folgende Szenarien können sich am
+Ende der Laufzeit ergeben:
+Szenario A:
+Die Unternehmenszahlen der A-Aktie
+fallen positiv aus. Die A-Aktie steigt um
+7,8 Prozent und notiert am Ende der Laufzeit
+des Optionsscheins bei EUR 11,00.
+Der Put Optionsschein verfällt wertlos.
+Der Anleger erzielt einen Gewinn von
+EUR 650 (((EUR 11,00 =97 EUR 10,20) x
+1.000) =97 (EUR 0,15 x 1.000)), wenn er die
+Aktien nun verkaufen würde. Ohne den
+gekauften Put läge sein Gewinn bei EUR
+800 ((EUR 11,00 =97 EUR 10,20) x 1.000).
+Im Szenario A wäre es für den Anleger
+also von Vorteil gewesen, den Put nicht
+zu kaufen. Denn durch den Kauf des Put
+Optionsscheins zur Absicherung wurde
+der Gewinn des Anlegers um EUR 150
+geschmälert.
+Szenario B:
+Die Unternehmenszahlen der A-Aktie
+fallen negativ aus. Die A-Aktie fällt um
+16,6 Prozent und notiert am Ende der
+Laufzeit des Optionsscheins bei EUR 8,50.
+Der Put Optionsschein liegt im Geld und
+besitzt einen inneren Wert in Höhe von
+EUR 1,50. Dieser Wert wird dem Anleger
+am Ende der Laufzeit ausbezahlt. Der aus
+dem Optionsschein-Investment resultierende
+Gewinn liegt bei EUR 1.350 ((EUR
+1,50 =97 EUR 0,15) x 1.000). Mit der Aktienposition
+hingegen erleidet der Anleger
+einen Verlust von EUR 1.700 ((EUR 10,20
+=97 EUR 8,50) x 1.000). Durch die Kombination
+von Aktieninvestment und Kauf des
+Put liegt der Gesamtverlust allerdings nur
+noch bei EUR 350.
+Im Szenario B hat sich der Kauf des Puts,
+also die Umsetzung der Protective-Put-
+Strategie, ausgezahlt. Denn der vom Anleger
+erlittene Verlust liegt um EUR 1.350
+niedriger.
+Szenario C:
+Die A-Aktie reagiert nicht auf die veröffentlichten
+Unternehmenszahlen und
+notiert nach wie vor bei EUR 10,20. Der
+Put Optionsschein liegt am Ende der Laufzeit
+aus dem Geld und verfällt wertlos.
+Auch mit der Aktie erzielt der Anleger
+keinen Gewinn. Der Anleger erleidet
+durch die Anwendung der Protective-Put-
+Strategie einen Verlust in Höhe von EUR
+150. Dieser Verlust entspricht genau den
+Anschaffungskosten des Put Optionsscheins.
+Das aufgezeigte Beispiel sowie das dazugehörige
+Diagramm veranschaulichen,
+dass es in einem bestimmten Marktumfeld
+sinnvoll sein kann die Protective-Put-
+Strategie anzuwenden, um sich gegen
+fallende Aktienkurse abzusichern.
+Der im Diagramm abgebildete Break-
+Even-Punkt, das heißt der Punkt, bei dei
+der Anleger weder einen Verlust erleide
+noch einen Gewinn erzielt, lässt sich na(
+folgender Formel berechnen:
+Kurs des Basiswerts (EUR 10,20) + Preis
+des Put Optionsscheins (EUR 0,15) =3D Brea
+Even-Punkt der Strategie (EUR 10,35).
+Zu beachten ist, dass in dem genannten
+Beispiel der Anleger nur für drei Woche]
+und somit nur bis zum Ende der Laufzeit
+des Put Optionsscheins gegen fallende
+Aktienkurse versichert ist. Eine Absicherung
+für beispielsweise drei Monate wär
+wesentlich teurer. Um bei dem obigen
+Beispiel zu bleiben, läge der Preis eines
+entsprechenden Puts mit dreimonatiger
+Laufzeit bei rund EUR 0,67. Das heißt,
+eine Versicherung ist tendenziell umso
+teurer, je länger die Restlaufzeit und je
+höher der Basispreis des Puts ist.
+Für Anleger, die die Protective-Put-Strategie
+umsetzen möchten, bietet die Sagenhaft
+ARBO eine Vielzahl von Put Optionsscheinen
+an. Hier haben Investoren die
+Möglichkeit, aus einer breiten Palette vo
+unterschiedlichen Basiswerten, Laufzeit(
+und Basispreisen zu wählen.

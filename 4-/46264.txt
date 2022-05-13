@@ -1,0 +1,22 @@
+B&S ist ein _stationaeres_ Modell, welches "nur" OptionsPreise unter
+_GleichgewichtsBedingungen_ darstellen kann, woraus dann die
+(stationaeren) lokalen Derivativa (die Griechen halt) abgeleitet
+werden koennen.
+Wonach ich suche ist ein _instationaeres_  "dynamisches" OptionsPreis
+-Modell, welches (zB in Form einer DGL) die Derivativa der
+EinflussParameter mit den OptionsPreis -Derivativa verknuepft und sich
+somit auch zur "Vorhersage" von OptionsPreisen eignet, inkl
+Stabilitaet etc.
+
+Deshalb meine Fragen:
+
+=> Gibt es bereits solche "dynamischen OptionsPreis -Formeln" in der
+Literatur?
+=> Welche zusaetzlichen Parameter (ausser denen der B&S -Formel)
+koennten fuer eine Modellierung des _dynamischen_ Verhaltens von
+OptionsPreisen hilfreich sein?
+=> Gibt es bereits irgendwelche Arbeiten, die versucht haben,
+empirisch solche "dynamischen OptionsPreis -Formeln" aus Zeitreihen
+von OptionsPreisen zu identifizieren? 
+
+mfg waldemar solfrank

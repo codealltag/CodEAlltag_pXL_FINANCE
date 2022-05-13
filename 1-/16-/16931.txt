@@ -1,0 +1,18 @@
+Wie kommen nur alle auf diesen Klops? Die Spannung wird bei CMOS niedrig
+gehalten, damit die internen Kapazitäten nicht so hoch aufgeladen werden
+müssen. Statisch verbraucht CMOS 0 Ampere und die Verlustleitung ist in
+erster Näherung proportional zur Frequenz und dem Hub:
+
+Gemäß Q=CU folgt dQ/dt = C dU/dt also I= C dU/dt
+
+je schneller die Umladung eines C, desto mehr Strom ==> mehr
+Verlustleistung.
+Deshalb bringen ja auch hochauflösender Prozesse (60nm = kleineres C)
+Vorteile.
+
+Es wird andere Gründe haben, wenn die Spannung (geringfügig) erhöht
+wird. Wichtig ist allerdings der interne Signalhub, und der kann trotz
+höherer externer Spannung klein bleiben.
+
+
+Gunter

@@ -1,0 +1,36 @@
+Eine aehnliche Idee steht hinter der Konstruktion des VDAX, der die implizite
+Volatilitaet einer synthetischen at-the-money-DAX-Option mit einer konstanten
+Restlaufzeit von 45 Tagen misst.
+Die Vorgehensweise ist dabei wie folgt:
+Man ermittelt zunaechst VDAX-Subindices fuer jede aktuell gehandelte Laufzeit,
+dies sind immer acht Termine gleichzeitig:
+Maerz 98
+September 98
+Oktober 98
+November 98
+Februar 99
+Mai 99
+November 99
+Mai 00
+
+Die Subindices werden ermittelt, indem die impliziten Volatilitaeten derjenigen
+vier DAX-Optionen, deren Bezugskurse den auf die Laufzeit bezogenen
+DAX-Future-Kurs umschliessen (2 Calls und 2 Puts), berechnet werden.
+Diese werden linear interpoliert, so dass man den Subindex erhaelt.
+Zur Ermittlung des VDAX werden diejenigen Subindices herangezogen, die die
+Laufzeit von 45 Tagen umschliessen. Durch Interpolation wird so der VDAX
+berechnet.
+Er stellt somit einen Indikator fuer das Preisniveau von DAX-Optionen dar. 
+Hohes VDAX-Niveau -> Optionen sind teuer
+Niedriges VDAX-Niveau -> Optionen sind billig
+
+Die Entwicklung des VDAX zeichnet nicht ganz die oben beschriebene Entwicklung
+nach. Zu Beginn des Jahres 1997 lag er bei 15 % und stieg relativ kontinuierlich
+bis zur Jahresmitte auf mehr als 30 %. Nach einem zwischenzeitlichen Rückgang
+auf 22 % erreichte er sein Allzeithoch waehrend des Oktobercrashs bei 43 %, um
+seitdem kontinuierlich auf derzeit 21 % zurueckzufallen.
+
+ITALO
+pzw@amcausirvbp.wh
+WARRANT ONLINE - http://xzd.snyseucapkh.pl/wnd/
+Alle Stammdaten von Optionsscheinen und Indexzertifikaten

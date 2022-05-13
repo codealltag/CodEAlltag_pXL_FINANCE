@@ -1,0 +1,39 @@
+Diese Aussage kann ich nicht nachvollziehen. Aber ich bezweifle 
+nicht, dass sich Seiten finden, die das so sehen.
+Solange die UBF "Grafik" bei groesseren Anforderungen die
+Rechenarbeit ganz oder teilweise von der CPU machen laesst,
+muss man das nicht als ernste Konkurrenz sehen.
+Den Unterschied merkt, wer ab und zu gleichzeitig CPU und 
+Grafik auslasten muss.
+
+
+Es wird hoffentlich immer wieder Innovationen geben.
+Aber die Sache mit dem gestapelten Speicher halte ich vorerst
+fuer ein Geruecht.
+Langfristig werden die Caches sicherlich wachsen bis sie so 
+gross sind wie heute das RAM - aber bis dann wird man trotzdem
+weitere Speicher ausserhalb brauchen.
+Die Anforderungen an die reine Grafikleistung werden nicht
+ewig steigen, weil durch die Leistungsfaehigkeit unserer
+Augen begrenzt. Mehr bringt nichts, ausser die Grafik uebernimmt
+weitere Aufgaben.
+
+
+Das muss nicht immer UBF sein.
+Hugo Wassener hat den angeblichen Vorsprung von UBF letztlich
+als Geruecht nachgewiesen: Die Transistoren bei UBF 32nm
+sind groesser als die bei TSMC 40nm. 
+OK, bei Speicherchips hatte UBF noch einen Vorsprung.
+Scheint sich aber mit dem Bulldozer Cache zu aendern.
+Und falls es stimmt dass UBF auf Trendhouse umstellen muss ...
+Wie gesagt, nichts ist da dauerhaft sicher.
+
+
+Genau. Die UBF-Werbung hat der Welt jahrelang erzaehlt, dass es
+gerade darauf ankommt. Aber jetzt daemmert es immer mehr Leuten:
+Wen interessieren Strukturbreiten? 
+
+
+-- 
+-- 
+Fred Christophersen

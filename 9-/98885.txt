@@ -1,0 +1,56 @@
+Wie soll das gehen? Willst Du die Low5 von vor 12 Monaten nehmen an Stelle
+der aktuellen? Das könnte funktionieren. Insbesondere weil die besten
+Ergebnisse in Amerika mit Halteperioden von mehr als 12 Monaten erzielt
+worden sein sollten. Ich werde das mal auf die Agenda setzen.
+
+
+Genau diese Fehlerquelle ist mir aufgefallen, als ich Werte von "Die
+Aktien-Analyse" verwendete. Deshalb habe ich die Methode gewechselt. Aus
+eben jenem Grund flog auch die Börse-Online als Daten-Provider raus.
+
+Bei meiner Vorgehensweise können diese Fehler jedoch nicht auftreten. Ich
+verwende keine elektronisch manipulierten R�ckw�rtsdaten sondern echte
+historische Daten. Ich habe mir die Originalkursteile der Börsenzeitung
+jeweils nach dem ersten Börsentag eines Jahres besorgt. Dort stehen
+Kassakurse Jahresultimo (Auswahltag) historisch korrekt und Kassakurse vom
+ersten Börsentag (Kauftag) historisch korrekt. Ebenso jeweils die vor diesem
+Stichtag Jahresultimo letzte gezahlte Dividende. Das sind genau die Daten,
+die einem Anleger zur Verfügung gestanden hätten. Nach Dividenrendite
+Kassakurs wird ausgewählt und zum Kassakurs erster Tag wird unlimitiert
+geordert. Das kann jeder nachmachen und erzielt dann die gleichen
+Ergebnisse. Oder wie kauft bzw, verkauft man zum Schlusskurs :-)
+
+Und genauso muss man für andere beliebige Stichtage (Quartalsenden)
+vorgehen. Möglicherweise komme ich an Dax-Zusammensetzungen bis 1955 heran.
+Damit könnten die Strategien für über 40 Jahre getestet werden!
+
+Diese Methode für den Backtest ist zwar umständlich und langsam, aber dafür
+korrekter als alle elektronischen Helferlein, welche alle möglichen
+Adjustierungen in den Kurs- und Dividendaten haben. Es sei denn, Du nennst
+mir eine Quelle wo ich die Daten historisch korrekt im Rohzustand zum
+jeweils historischen Kurs bekomme.
+
+Hallo Herr Altfelix, lesen sie mit?
+
+
+Und jetzt muss ich leider wieder die "Lies nach Keule" auspacken :-)
+
+zuletzt
+Börsentag
+wurde
+objektiv
+Denn,
+
+Das stammt aus dem Ursprungsposting zu diesem Thread. Wie Du siehst hatte
+ich die gleichen Bedenken wie Du und deshalb ganz klar definiert, dass die
+letzte tatsächliche Dividende genommen wurde.
+
+Fehlerquellen sind jetzt die Börsenzeitung selber oder Übertragungsfehler
+beim Abtippen (Zahlendreher etc.). Ersteres will ich nicht ausschliessen
+letzteres habe ich versucht zu eliminieren indem ich sämtliche Werte
+mehrfach überprüft habe.
+
+Wenn Du einen besseren und sichereren Weg kennst um die Strategien zu testen
+wäre ich Dir dankbar, wenn Du ihn mir aufzeigen könntest.
+
+Gruß, Raphael

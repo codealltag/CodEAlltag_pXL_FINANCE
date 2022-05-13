@@ -1,0 +1,4 @@
+Der Grund fuer die Umwandlung in Integer wird das Vermeiden von
+Rundungsfehlern sein.
+
+benjamin

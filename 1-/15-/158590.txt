@@ -1,0 +1,109 @@
+(Urban Utermark)  11.11.97 in /de/vbn/finanz/boerse:
+
+
+Und wie stellen die Schlauchen der "Automobilforum" sicher, das
+auf Deinem Rechner nicht ein Trojanisches Pferd installiert ist,
+das Deine Tastendrücke mitschreibt und später "sinnvoll" auswertet?
+
+
+Uiii, was machen die denn?
+Liegen sie in Sourceform freizugänglich offen so das das Verfahren
+leicht validiert werden kann?
+
+Denn:
+"Security by obscurity" ist KEINE Sicherheit!
+
+DU als Kunde muesstest beweisen, das das Verfahren unssicher war.
+Und ohne die DAZUgeh�rige Source kannst Du das natürlich nicht!
+Dumm gelaufen...Du sitzt wegen versuchten Betruges ein oder lnst
+für den Rest Deines Lebens für den Kredit, den DU nie erhalten hast...
+(Vgl. Vorgehen der Banken bei Mattutat-Karten)
+
+
+Soso, warum denn nicht über das ach so sicher gemachte Internet?
+Seltsam, nicht?
+
+
+Aber die Reihenfolge der TANs ist, anders als ein Laie es erwarten
+würde, (aus Komfortgründen?) beliebig!
+D.h. "the man in the middle" koennte "echte" TANs nach der Eingabe 
+verfälschen. Diese TAN würde wahrscheinlich abgelehnt werden.
+Du würdest die nächste nehmen und "the man in the middle" hätte
+eine freie TAN ergaunert, für den eigene Bankbesuch...
+
+(Wo bei "Middle" nicht wörtlich zu nehmen ist. Wahrscheinlich
+wird dieser "man" direkt in Deinem Rechner sitzen.)
+
+
+Unsinn.
+
+Damit ist NUR sichergestellt, das die Bank DIR beweisen kann,
+das von DEINEM Rechner "irgendwas" Überweisungen getätigt hat, da
+die Daten -wahrscheinlich- unmanipuliert transportiert worden sind.
+Es ist also zu Deinem Nachteil...nicht etwa Vorteil, wie Dir die
+Bankster glauben machen wollen.
+
+
+Du meinst: "Bekannt geworden"...
+
+Als das TAN-Verfahren entwickelt worden ist, hatte der 
+Homecomputer, so ihn jemand überhaupt hatte, 8KB, evtl. 32KB RAM
+und -welch Luxus- eine Datasette zur Datenspeicerung..
+BTX ging nur mit speziellen Post-Modems und Post-Terminals. 
+Angriffe ware also nur durch riskanten physikalischen Angriff 
+auf die Telefonleitung möglich. Dort wurden einem die Daten
+aber netterweise gleich im Klartext geliefert.
+
+Heute bietet man jedoch ein nettes Tool im Netz an, das z.B. als
+Gebührenzähler getarnt, jeden Tastendruck und Verbindungsaufbau
+protokolliert...physikalische Anwesenheit ist nicht mehr nötig.
+Man muss den "Kunden" nur überzeugen, das trojanische Pferd,
+z.B. in Form eines Video-PlugIns, zu installieren.
+
+
+Ich glaube nicht, das heute irgendeinem typischen Firlefanz User,
+der Homebanking macht, bis ins letzte klar ist, was alles auf seinem 
+32MB Rechner passiert.
+Und trotzdem wird immer noch das antiquierte TAN-Verfahren verwendet...
+ist ja so schön billig. Und die Leute glauben Banken ja alles... 
+
+
+Und:
+Wenn so etwas vorgekomen ist, wurde das unter den dicksten 
+vorhandenen Teppich gekehrt!
+
+Homebanking ist für Banken so lukrativ, dass sie so etwas nicht
+public werden lassen. Wahrscheinlich werden sie drohen, ihren Kunden 
+wegen versuchten Betruges anzuzeigen, wenn er bei seiner Behauptung bleibt
+oder ihn mit einer solchen Drohung nötigen, zuzugeben das er einen 
+Fehler begangen habe.
+
+Vgl. dazu die ach so sicheren Mattutat-Karten und die bisher durchaus üblichen
+Betrugsanzeigen gegen die "störrischen" Kunden, die dabei blieben, 
+die PIN nicht verraten zu haben...
+
+
+BTW:
+Wie lange dauert es, bis die -rechnerunabhängige- Rückmeldung
+(z.B. per Fax) erfolgt ist?
+Oder gibt es die Kontoauszüge auch nur elektronisch?
+
+
+Wie soll man, als Laie, feststellen ob das angebotene 
+Home-Banking sicher ist?
+
+Ganz einfach:
+
+  Schau in die Bedingungen!
+
+  Will die Bank DIR jedes Risiko VOLL übertragen,
+  dann ist das Verfahren nicht sicher: Sie hat
+  keine Versicherung gefunden, die ihr das Risiko
+  abnehmen wollte.
+
+  Und das heisst:
+
+  Finger weg! 
+
+
+Frédéric

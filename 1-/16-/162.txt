@@ -1,0 +1,102 @@
+Visual Basic 2012 Excel 2013 Scanner programmieren Paulekuhn Prügl=
+zie
+Author C.Paulekuhn
+Video: http://zuvgq.ob/cfyAi0BlrS1
+
+Heute zeige ich Ihnen, wie Sie einen Scanner programmieren, der alle Future=
+s hat wie Schwarz-Weiss, Graustufen und Farbe. Ebenfalls als OCD mit Texter=
+kennung und auch als PDF.=20
+Sehen Sie auf dem Video, ich habe hier die Funktionalität des Scanners in=
+ zwei Beispielen dargestellt.=20
+Der Source Code ist recht simple und ich geben ihn hier wie auch auf der Te=
+xtseite des Videos wieder und Sie können somit ganz flott einen eigenen S=
+canner mit allen Futures programmieren.=20
+Leider ist es nicht möglich, den Source Code auf der Textseite des Videos=
+ zu schreiben, da er programmierbarte Steuerelemente enthält und nicht an=
+genommen werden. Deshalb sollten Sie sich das Video genau ansehen, der  Sou=
+rce Code ist dort abgefilmt.=20
+Hier nun der Originasl-Source-Code:
+Private Sub ScannerButtonScanMitDialog_Click(sender As Object, e As EventAr=
+gs) Handles ScannerButtonScanMitDialog.Click
+        Me.Refresh()
+        Zeichnen =3D Me.CreateGraphics
+
+        Dim WIA_Dialog As New WIA.CommonDialog()
+        Dim ScanBild As BKOT.ImageFile =3D Nothing
+        ScanBild =3D WIA_Dialog.ShowAcquireImage(WIA.WiaDeviceType.ScannerD=
+eviceType, WIA.WiaImageIntent.GrayscaleIntent, WIA.WiaImageBias.MaximizeQua=
+lity, wiaFormatJPEG, False, False, False)
+        If ScanBild IsNot Nothing Then
+            Dim vector As WIA.Vector =3D ScanBild.FileData
+            ScannerBildEingescannt.Image =3D Image.FromStream(New MemoryStr=
+eam(CType(vector.BinaryData(), Byte())))
+        End If
+
+        Dim NeuBild As New Bitmap(ScannerBildEingescannt.Image)
+        Zeichnen.DrawImage(NeuBild, 10, 50, 450, 530)
+    End Sub
+
+    Private Sub ScannerButtonOhneDialog_Click(sender As Object, e As EventA=
+rgs) Handles ScannerButtonScanOhneDialog.Click
+
+        X =3D "Funktioniert nur, wenn der Modus (* SchwarzWeiss, Graustufe,=
+ Farbe * eingestellt ist. "
+        X =3D X & "Ebenfalls muss die Auflösung (*75,100,150,,200,300..60=
+0.7dpi* eingestellt sein."
+        MsgBox(X)
+
+        Me.Refresh()
+        Zeichnen =3D Me.CreateGraphics
+
+        Dim WIA_Dialog As New WIA.CommonDialog()
+        Dim Scanner As WIA.Device =3D WIA_Dialog.ShowSelectDevice(WIA.WiaDe=
+viceType.ScannerDeviceType, False, False)
+
+        Dim dpi_Auflösung As Integer =3D Convert.ToInt16(ScannerComboBoxA=
+uflösung.SelectedItem)
+        Select Case ScannerComboBoxFarbe.SelectedIndex
+            Case 0
+                Scanner.Items(1).Properties("Current Intent").Value =3D 4  =
+' 4 =3D SchwarzWeiss
+            Case 1
+                Scanner.Items(1).Properties("Current Intent").Value =3D 2 '=
+ 2 =3D Graustufe
+            Case Else
+                Scanner.Items(1).Properties("Current Intent").Value =3D 1 '=
+ 1 =3D  Color
+        End Select
+        Scanner.Items(1).Properties("Horizontal Resolution").Value =3D dpi_=
+Auflösung ' dots per inch/Horizontal
+        Scanner.Items(1).Properties("Vertical Resolution").Value =3D dpi_Au=
+flösung ' dots per inch/Vertikal
+        Scanner.Items(1).Properties("Horizontal Start Position").Value =3D =
+0 ' x links oben
+        Scanner.Items(1).Properties("Vertical Start Position").Value =3D 0 =
+' y links oben
+
+        'Größe des Scanbereichs (Inch * dpi):
+        'Scanner.Items(1).Properties("Horizontal Extent").Value =3D 8.5 * d=
+pi     // Breite =3D inch * dpi
+        'Scanner.Items(1).Properties("Vertical Extent").Value =3D 11 * dpi =
+       // Höhe   =3D inch * dpi
+
+        Dim ScanBild As WIA.ImageFile =3D Scanner.Items(1).Transfer()
+        If ScanBild IsNot Nothing Then
+            Dim vector As WIA.Vector =3D ScanBild.FileData
+            ScannerBildEingescannt.Image =3D Image.FromStream(New MemoryStr=
+eam(CType(vector.BinaryData(), Byte())))
+        End If
+
+        Dim NeuBild As New Bitmap(ScannerBildEingescannt.Image)
+        Zeichnen.DrawImage(NeuBild, 10, 50, 450, 530)
+
+    End Sub
+
+    Private Sub ButtonScannerSpeichern_Click(sender As Object, e As EventAr=
+gs) Handles ButtonScannerSpeichern.Click
+        Directory.CreateDirectory("c:\1")
+        ScannerBildEingescannt.Image.Save("c:\1\ScannerbildBild.png", Syste=
+m.Drawing.Imaging.ImageFormat.Png)
+        MessageBox.Show("Scannerbild gespeichert unter c:\1\Scannerbild.png=
+", SEL)
+    End Sub

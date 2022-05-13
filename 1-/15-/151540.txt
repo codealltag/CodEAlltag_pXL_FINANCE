@@ -1,0 +1,9 @@
+Käferstein-Kürzel für Devisen zur Mark findet man als:
+RIC(Fremdwährung)DEM= z.B. GBPDEM= für Pfunde gegen Marken
+geht das nicht hilft manchmal:
+RIC(FW)DEM=R (für REUTERS calculated) z.B. NOKDEM=R für Norwegenkronen
+gg. Marken
+
+Den Bund fut. findet man unter BDLc1 für den nächstfälligen bzw. BDLZ7
+für Dez. Maturity
+für BUNd fut an der liffe gilt FDBc1

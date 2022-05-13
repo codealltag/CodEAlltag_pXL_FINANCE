@@ -1,0 +1,13 @@
+Der Energiebedarf steigt eigentlich etwa proportional mit dem Takt,
+jedoch ist es so, daß ein höherer Takt tendenziel auch eine höhere
+Kernspannung bedingt, da Transistoren bei höherer Spannung schneller
+durchschalten. Der Energiebedarf wiederum steigt mit zunehmender
+Spannung quadratisch an, so daß sich insgesamt ein deutlich wachsender
+Energiehunger mit ansteigendem Takt ergibt.
+
+Den Energieverbrauch eines Gesamtsystems einzuschätzen ist aber recht
+schwierig. Zum Beispiel fällt wieder negativ ins Gewicht, daß für ein
+Dualsystem zwei Ventilatoren und zwei Spannungswandler benötigt werden.
+Insbesondere letztere verheizen einiges.
+-- 
+bli

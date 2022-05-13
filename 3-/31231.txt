@@ -1,0 +1,62 @@
+Paul Graepp <nosfuc-urinoc@dnchkr.mjl> schrieb in im Newsbeitrag:
+5aiqha$40wl$7@yesb.qydj.css...
+
+mag sein, dass ich den mechanismus nicht verstanden habe.
+deswegen verdiene ich wohl nichts an der börse;)
+vielleicht liegt das daran, dass das problem durchaus mit der
+henne und dem ei vergleichbar ist.
+oder besser gesagt, es ist ein dynamisches system: die nachfrage
+und das angebot haben aus meiner sicht genauso einen einfluss
+auf den kurs, wie aus deiner perspektive der kurs die nachfrage und
+das angebot einer aktie bestimmen.
+
+
+es hat nur dann keinen einfluss, wenn zum aktuellen kurs ständig neue orders
+eintreffen.das trifft nicht immer zu! und deshalb verändert sich ja auch ein
+kurs.
+
+wenn du einblick in das orderbuch des maklers hättest und
+siehst, das beispielsweise insgesamt 50000 aktien angeboten
+werden, aber insgesamt nur 10000 nachgefragt werden, würdest
+du die aktie kaufen? (orders mit einem limit 100% über oder unter dem
+aktuellen kurs mal ausgenommen) die leute, die ihre aktien nicht loswerden,
+werden ihre limite solange -und damit den kurs- runtersetzen, bis wieder
+entsprechende nachfrage herrscht!
+kommen wir auf dein beispiel zurück:
+
+
+warum will einer überhaupt zu 98 verkaufen wollen, wo doch der kurs bei 100
+liegt??? imho nicht realistisch.
+
+
+was bleibt hier übrig?
+einer will 1000 XYZ zu 96 kaufen und
+einer will 500 XYZ für 101 verkaufen.
+die nachfrage ist also grösser als das angebot.
+was kann jetzt passieren?
+1. die parteien einigen sich über einen preis von bspw. 98,5
+    bleibt immer noch eine nachfrage über 500 stück.
+    der käufer will die 500 stück unbedingt haben, also geht er mit seinem
+limit
+    so lange hoch, bis er welche angeboten bekommt und sich die parteien
+wieder über einen preis einig werden (die nachfrage hat hier den preis und
+der preis das angebot bestimmt). also ist der kurs insgesamt gestiegen!
+2. es kommt ein weiteres angebot über 500 stück mit einem limit
+(normalerweise) über dem aktuellen kurs rein. das verhältnis von angebot
+und nachfrage ändert sich hier also! nachfrage=angebot, der kurs wird sich
+wahrscheinlich in der mitte zwichen bid/ask einpendeln.
+
+nochmal:
+    es intereressiert doch nicht, wie sich der kurs von einer feststellung
+zur             nächsten ändert, sondern vielmehr wie er sich in einem
+längeren zeitraum         ändert, denn damit verdiene ich mein geld (oder
+auch nicht).
+
+beispiel:
+    zum zeitpunkt t0 kaufe ich eine aktie und möchte sie zum zeitpunkt t1
+wieder     verkaufen.gilt dann nicht
+    nachfrage(t1)-nachfrage(t0)>angebot(t1)-angebot(t0)->kurs(t1)>kurs(t0)?
+    will sagen: ist der nachfragestrom grösser als der angebotsstrom, dann
+steigt     der kurs.
+
+-johannes

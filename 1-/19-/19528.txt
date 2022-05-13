@@ -1,0 +1,642 @@
+Roulettesystem * Fibonacci * by SelMckenzie=AE
+
+live on stage am 4.8.2005 Casino Lössel
+
+Unger=AE   SelWave=AE   WaveTrader=AE   Ungerer=AE
+Dieses System bietet aufgrund der Fibonacci-Retracements
+in seiner richtigen Anwendung hervorragende
+Gewinn-Möglichkeiten und ist als äusserst profitable zu bezeichnen.
+Die gleiche Systematic ist auch auf das Börsen-Trading anwendbar
+und funktioniert ebenfalls sehr profitable. Dabei muss lediglich
+Black und Red in Steigende-Kurse und Fallende-Kurse umgedacht werden.
+Buch-Empfehlung: * Trading with Fibonacci Rules *
+Author: Johann Ungerer
+erschienen im Verlag GPS
+
+Die erforderlichen Buchungs-Kriterien:
+1=2E) Retracements zum Golden Schnitt:
+Für jeden fortlaufenden Coup muss muss das Retracement
+in der WurfWeiten-Länge im Kessel zum Goldenen Schnitt
+festgestellt werden.
+Das Retracement der WurfWeiten berechnet sich wie folgt:
+Ist die aktuelle WurfWeite grösser als die Vor-WurfWeite: 61,5%
+Ist die aktuelle WurfWeite kleiner als die Vor-WurfWeite: 38,5%
+Ist die aktuelle WurfWeite gleich wie die Vor-WurfWeite: Golden Cut
+Beispiel: 10-35-17-32-29
+von 10/Black zu 35/Black =3D 38,5%,
+von 35/Black zu 17/Black =3D 38,5%,
+von 17/Black zu 32/Red =3D 61,5%
+von 32/Red zu 29/Black =3D 38,5%
+Dann muss für jede einzelne Chance die Erscheinungs-
+Addition auf das Retracement des Goldenen Schnitts
+erfolgen, bei dem Permanenzverlauf 10-35-17-32-29
+wäre das Black/1+1=3D2, Red/1, Black/1
+Erschiene jetzt z.B. nach Plein-29/Black das Plein 24/Black,
+würde die die Erscheinungs-Addition Black/1, Black/1 lauten,
+da 32/Red zu 29/Black ein Retracement von 38,5%,
+29/Black zu 24/Black eine Retracement von 61,5% hat.
+Diese (umgedachten) Berechnungen treffen exact die Vorgaben
+der Geometrie der Ellipse (hier: der Roulette-Kessel) und
+die Wachstums-Bewegung der Spirale (in den Roulette-Kessel
+factisch eingelegt), die keinen rechnerischen Endpunkt hat
+Die aufeinanderfolgenden Segmente  dieser factisch
+Spirale differieren bezüglich ihrer Grösse genau um den
+Factor der Fibonacci-Relation (Retracement). Alle Spiralen,
+deren Wachstums-Raten Elemente der Fibonacci-Folge
+(0.618-1.000-1.618-2.618-4.236-6.854-11.090 usw.)
+sind, werden somit epizykeldisch in den Epizykel gelegt.
+
+2=2E) Berechnung Anzahl der Erscheinung der Chancen und Ecart:
+In laufender Permanenz muss nach jedem Coup der Anzahl der
+Erscheinung pro Chance festgestellt werden, für die letzten 37 Coups.
+z=2EB. nach dem 37.Coup: 21 x Black, 14 x Red, 2 x Zero
+Nach jedem Coup muss der Ecart pro Chance berechnet werden.
+Der Ecart berechnet sich wie folgt (z.B.für Black)
+Erscheinung Black + Red =3D 21+14 =3D 35 ./. Black (21) =3D 14
+=3D 21+14=3D35-21=3D14 geteilt durch Wurzel aus 21+14 =3D Ecart von 2,4
+Dieser Ecart nunmehr muss dann in das Verhältnis der
+Fibonacci-Folge gesetzt werden. Die Fibonacci-Folge ist
+(0.618-1.000-1.618-2.618-4.236-6.854-11.090 usw.)
+und wird auf die additionelle Erscheinung der geometrischen
+Ellipse (hier Roulette-Kessel) auf das WurfWeiten-Retracement
+repliziert, jedoch immer auf das aktuell erschienene Retracement.
+Dadurch wird die Population nach Fibonacci im Roulette-Kessel
+produziert. Diese umgesetzte Art der Ecart-berechnung ist von
+fundamelntaler Bedeutung für die Satzfindung.
+Die aktuell nicht erschienene Chance wird auf das
+Retracement von 0.618 des echten Ecarts zurückverlegt, um hier die
+Diskrepanz der sogenannten Population zur aktuell
+erschienenen und Ecart-populierten Chance festzustellen.
+Beispiel: Permanenz ...10-13-29-2-13
+10-13/61,5%=3D0,618, 13-29/38,5%=3D0,618, 29-2/38,5%=3D1,000,
+2-13=3D38,5%=3D1,618
+Ist actuell der echte Ecart z.B. 3,8, dann beläuft sich der
+künstliche Ecart nunmehr auf 6,1 (3,8 * 1,618 =3D 6,1484)
+Dieser künstliche Ecart stellt gleichzeitig auch die
+Restistance-Line der möglichen Erscheinungsweise der
+jeweiligen Chance dar und sollte bei der Satzfindung auch
+nicht überschritten werden, weil grundsätzlich davon
+auszugehen ist, dass ein Satz über die Restistance-Line hinaus
+ein Fehltreffer werden könnte.
+Die Roulette-Regeln, dass, wenn der Ecart um so höher ist,
+auch die Trefferchance steigt, trifft hier nur bedingt zu,
+da es sich hier ja um einen quasi aufgepumpten Ecart
+des echten Ecart handelt.
+Gleiches gilt für den künstlichen Ecart der Gegenchance für die
+Support-Line, die aber zwangsläufig nicht unterschritten
+werden kann, weil bei wiederholtem Erscheinen dieser
+actuell rückständigen Chance der echte Ecart zwar fallen,
+der künstliche Ecart aber steigen würde.
+
+3=2E) Berechnung der Standard-Abweichung:
+Die Standard-Abweichung berechnet sich grundsätzlich wie folgt:
+Erscheinung der einzelnen Chance innert 37 Coups in Percent.
+Die Standard-Abweichung 0 =3D 48,64, und zwar
+18 PleinNumbers pro Chance geteilt durch 37 Kessel-Fächer.
+Standard-Abweichung plus/minus Erscheinung ./. 48,64
+Es ist hier wichtig, dass die Standard-Abweichung immer nur auf
+die Erscheinungen innert der letzten 37 Coups berechnet wird.
+z=2EB. last 37.Coups: 21 x Black, 14 x Red, 2 x Zero
+Black =3D 56,76%, Red =3D 37,83%, Zero =3D 5,41%
+Standard-Abweichung: Black =3D +8.12, Red =3D -10.81
+Retracement Black: +8.12/*0.618 =3D 5.018
+Retracement Red: -10.81/1.618 =3D -6.681
+Die Satz-Entscheidung hängt ebenfalls entscheidend
+davon ab, weil der Näherungs-Value sich an den
+künstlichen Ecart (nicht echten Ecart) mehr und mehr
+anpasst und in der Folge ein Satz auf die partielle
+Chance erfolgen sollte und in den meisten Fällen auch
+zum Treffer führt.
+free Software-Download:
+http://yep.Gjodkz-GvRdynal.fm
+http://zac.AhvkbnDiqsacunsac.ah
+http://bhp.JqjsbovgGfdfv.jl
+
+Erscheinung der einzelnen PleinNumbers:
+01 x Plein-00  zero  Grosse Serie  Sector:  35-3-26-0-32-15-19-
+01 x Plein-01  one  Orphelins  Sector:  24-16-33-1-20-14-31-
+00 x Plein-02  two  Grosse Serie  Sector:  19-4-21-2-25-17-34-
+01 x Plein-03  three  Grosse Serie  Sector:  28-12-35-3-26-0-32-
+02 x Plein-04  four  Grosse Serie  Sector:  32-15-19-4-21-2-25-
+01 x Plein-05  five  Kleine Serie  Sector:  8-23-10-5-24-16-33-
+01 x Plein-06  six  Orphelins  Sector:  25-17-34-6-27-13-36-
+02 x Plein-07  seven  Grosse Serie  Sector:  22-18-29-7-28-12-35-
+03 x Plein-08  eight  Kleine Serie  Sector:  36-11-30-8-23-10-5-
+01 x Plein-09  nine  Orphelins  Sector:  20-14-31-9-22-18-29-
+02 x Plein-10  ten  Kleine Serie  Sector:  30-8-23-10-5-24-16-
+03 x Plein-11  eleven  Kleine Serie  Sector:  27-13-36-11-30-8-23-
+02 x Plein-12  twelve   Grosse Serie  Sector:  29-7-28-12-35-3-26-
+03 x Plein-13  thirteen  Kleine Serie  Sector:  34-6-27-13-36-11-30-
+02 x Plein-14  fourteen  Orphelins  Sector:  33-1-20-14-31-9-22-
+00 x Plein-15   fifteen   Grosse Serie  Sector:  26-0-32-15-19-4-21-
+01 x Plein-16  sixteen   Kleine Serie  Sector:  10-5-24-16-33-1-20-
+02 x Plein-17  seventeen  Orphelins  Sector:  21-2-25-17-34-6-27-
+02 x Plein-18  eighteen  Grosse Serie  Sector:  31-9-22-18-29-7-28-
+04 x Plein-19  nineteen  Grosse Serie  Sector:  0-32-15-19-4-21-2-
+03 x Plein-20   twenty   Orphelins  Sector:  16-33-1-20-14-31-9-
+01 x Plein-21  twentyone   Grosse Serie  Sector:  15-19-4-21-2-25-17-
+01 x Plein-22  twentytwo   Grosse Serie  Sector:  14-31-9-22-18-29-7-
+05 x Plein-23  twentythree  Kleine Serie  Sector:  11-30-8-23-10-5-24-
+01 x Plein-24  twentyfour  Kleine Serie  Sector:  23-10-5-24-16-33-1-
+03 x Plein-25  twentyfive   Grosse Serie  Sector:  4-21-2-25-17-34-6-
+04 x Plein-26  twentysix   Grosse Serie  Sector:  12-35-3-26-0-32-15-
+02 x Plein-27  twentyseven   Kleine Serie  Sector:
+17-34-6-27-13-36-11-
+01 x Plein-28  twentyeight   Grosse Serie  Sector:  18-29-7-28-12-35-3-
+01 x Plein-29  twentynine   Grosse Serie  Sector:  9-22-18-29-7-28-12-
+02 x Plein-30  thirty  Kleine Serie  Sector:  13-36-11-30-8-23-10-
+02 x Plein-31  thirtyone   Orphelins  Sector:  1-20-14-31-9-22-18-
+02 x Plein-32  thirtytwo   Grosse Serie  Sector:  3-26-0-32-15-19-4-
+02 x Plein-33  thirtythree  Kleine Serie  Sector:  5-24-16-33-1-20-14-
+00 x Plein-34  thirtyfour   Orphelins  Sector:  2-25-17-34-6-27-13-
+00 x Plein-35  thirtyfive  Grosse Serie  Sector:  7-28-12-35-3-26-0-
+02 x Plein-36  thirtysix  Kleine Serie  Sector:  6-27-13-36-11-30-8-
+
+Erscheinung der einzelnen PleinNumbers in Prozent:
+1,5153  %  für Plein  zero  Grosse Serie  Sector:  35-3-26-0-32-15-19-
+1,5153  %  für Plein  one  Orphelins  Sector:  24-16-33-1-20-14-31-
+0,0002  %  für Plein  two  Grosse Serie  Sector:  19-4-21-2-25-17-34-
+1,5153  %  für Plein  three  Grosse Serie  Sector:
+28-12-35-3-26-0-32-
+3,0304  %  für Plein  four  Grosse Serie  Sector:  32-15-19-4-21-2-25-
+1,5153  %  für Plein  five  Kleine Serie  Sector:  8-23-10-5-24-16-33-
+1,5153  %  für Plein  six  Orphelins  Sector:  25-17-34-6-27-13-36-
+3,0304  %  für Plein  seven  Grosse Serie  Sector:
+22-18-29-7-28-12-35-
+4,5456  %  für Plein  eight  Kleine Serie  Sector:
+36-11-30-8-23-10-5-
+1,5153  %  für Plein  nine  Orphelins  Sector:  20-14-31-9-22-18-29-
+3,0304  %  für Plein  ten  Kleine Serie  Sector:  30-8-23-10-5-24-16-
+4,5456  %  für Plein  eleven  Kleine Serie  Sector:
+27-13-36-11-30-8-23-
+3,0304  %  für Plein  twelve   Grosse Serie  Sector:
+29-7-28-12-35-3-26-
+4,5456  %  für Plein  thirteen  Kleine Serie  Sector:
+34-6-27-13-36-11-30-
+3,0304  %  für Plein  fourteen  Orphelins  Sector:
+33-1-20-14-31-9-22-
+0,0002  %  für Plein   fifteen   Grosse Serie  Sector:
+26-0-32-15-19-4-21-
+1,5153  %  für Plein  sixteen   Kleine Serie  Sector:
+10-5-24-16-33-1-20-
+3,0304  %  für Plein  seventeen  Orphelins  Sector:
+21-2-25-17-34-6-27-
+3,0304  %  für Plein  eighteen  Grosse Serie  Sector:
+31-9-22-18-29-7-28-
+6,0607  %  für Plein  nineteen  Grosse Serie  Sector:
+0-32-15-19-4-21-2-
+4,5456  %  für Plein   twenty   Orphelins  Sector:
+16-33-1-20-14-31-9-
+1,5153  %  für Plein  twentyone   Grosse Serie  Sector:
+15-19-4-21-2-25-17-
+1,5153  %  für Plein  twentytwo   Grosse Serie  Sector:
+14-31-9-22-18-29-7-
+7,5759  %  für Plein  twentythree  Kleine Serie  Sector:
+11-30-8-23-10-5-24-
+1,5153  %  für Plein  twentyfour  Kleine Serie  Sector:
+23-10-5-24-16-33-1-
+4,5456  %  für Plein  twentyfive   Grosse Serie  Sector:
+4-21-2-25-17-34-6-
+6,0607  %  für Plein  twentysix   Grosse Serie  Sector:
+12-35-3-26-0-32-15-
+3,0304  %  für Plein  twentyseven   Kleine Serie  Sector:
+17-34-6-27-13-36-11-
+1,5153  %  für Plein  twentyeight   Grosse Serie  Sector:
+18-29-7-28-12-35-3-
+1,5153  %  für Plein  twentynine   Grosse Serie  Sector:
+9-22-18-29-7-28-12-
+3,0304  %  für Plein  thirty  Kleine Serie  Sector:
+13-36-11-30-8-23-10-
+3,0304  %  für Plein  thirtyone   Orphelins  Sector:
+1-20-14-31-9-22-18-
+3,0304  %  für Plein  thirtytwo   Grosse Serie  Sector:
+3-26-0-32-15-19-4-
+3,0304  %  für Plein  thirtythree  Kleine Serie  Sector:
+5-24-16-33-1-20-14-
+0,0002  %  für Plein  thirtyfour   Orphelins  Sector:
+2-25-17-34-6-27-13-
+0,0002  %  für Plein  thirtyfive  Grosse Serie  Sector:
+7-28-12-35-3-26-0-
+3,0304  %  für Plein  thirtysix  Kleine Serie  Sector:
+6-27-13-36-11-30-8-
+
+Satz mit Gewinn erfolgte in den Coups:
+9, 14, 18, 19, 20, 45,
+
+Satz mit Verlust erfolgte in den Coups:
+1, 2, 3, 4, 5, 10, 11, 21, 22, 24, 25, 28,
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Ungerer=AE
+
+Der Satz-Stücke-Verlauf:
+45, 44, 42, 40, 39, 39, 39, 38, 36, 34, 32, 32, 32, 30, 30, 30, 30, 28,
+25, 22, 20, 19, 19, 18, 17, 17, 17, 16, 16, 16, 16, 16, 15, 15, 15, 15,
+14, 13, 11, 9, 9, 8, 8, 8, 5, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1,
+1, 0, 0, 0, 0, 0, 0,
+
+Der Gewinn-Stücke-Verlauf:
+72, 70, 68, 64, 62, 62, 62, 60, 58, 56, 52, 52, 52, 50, 50, 50, 50, 48,
+42, 36, 32, 30, 30, 30, 28, 28, 28, 28, 28, 28, 28, 28, 26, 26, 26, 26,
+24, 22, 18, 14, 14, 14, 14, 14, 10, 8, 6, 6, 6, 6, 4, 4, 4, 4, 2, 2, 2,
+2, 2, 2, 0, 0, 0, 0, 0, 0,
+
+Der Saldo-Stücke-Verlauf:
+27, 26, 26, 24, 23, 23, 23, 22, 22, 22, 20, 20, 20, 20, 20, 20, 20, 20,
+17, 14, 12, 11, 11, 12, 11, 11, 11, 12, 12, 12, 12, 12, 11, 11, 11, 11,
+10, 9, 7, 5, 5, 6, 6, 6, 5, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1,
+1, 0, 0, 0, 0, 0, 0,
+Unger=AE   SelWave=AE   WaveTrader=AE   Ungerer=AE
+
+Satz mit Treffer erfolgte bei Erscheinen des * Pleins * in den Coups:
+13 for 58.Coup, 11 for 53.Coup, 4 for 49.Coup, 6 for 48.Coup, 10 for
+47.Coup, 25 for 22.Coup,
+Satz mit Fehltreffer erfolgte bei Erscheiner des * Pleins * in den
+Coups:
+33 for 66.Coup, 31 for 65.Coup, 24 for 64.Coup, 20 for 63.Coup, 32 for
+62.Coup, 22 for 57.Coup, 28 for 56.Coup, 26 for 46.Coup, 30 for
+45.Coup, 29 for 43.Coup, 13 for 42.Coup, 30 for 39.Coup,
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Selzer-Freudenschuss=AE
+Satz mit Treffer erfolgte bei Erscheinen der * WurfWeite * in den
+Coups:
+21 for 58.Coup, 1 for 53.Coup, 31 for 49.Coup, 29 for 48.Coup, 19 for
+47.Coup, 15 for 22.Coup,
+Satz mit Fehltreffer erfolgte bei Erscheiner der * WurfWeite * in den
+Coups:
+33 for 66.Coup, 6 for 65.Coup, 33 for 64.Coup, 23 for 63.Coup, 33 for
+62.Coup, 33 for 57.Coup, 15 for 56.Coup, 21 for 46.Coup, 35 for
+45.Coup, 18 for 43.Coup, 12 for 42.Coup, 8 for 39.Coup,
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Selzer-Freudenschuss=AE
+66.Coup:  33.__.  .__.33  33.__.    set  1/0/0/  won  2/0/0  Saldo  27
+Satz:  61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Black,
+61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 61,5%  Ecart: 2,4 / 3,5
+/ StaAbw -8,1 / 10,8  ,
+65.Coup:  31.__.  .__.31  31.__.    set  1/0/0/  won  2/0/0  Saldo  26
+Satz:  38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Black,
+38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 38,5%  Ecart: 2,5 / 3,4
+/ StaAbw -5,4 / 8,1  ,
+64.Coup:  24.__.  24.__.  24.__.    set  1/1/0/  won  2/2/0  Saldo  26
+Satz:  61,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  Now set  Black,
+61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Pair, 61,5%
+Ecart: 2,5 / 3,4 / StaAbw -5,4 / 8,1  ,
+63.Coup:  20.__.  20.__.  20.__.    set  1/1/0/  won  0/2/0  Saldo  24
+Satz:  38,5%  Ecart: 3,7 / 2,2 / StaAbw 13,5 / -10,8  Now set  Black,
+38,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  Now set  Pair, 38,5%
+Ecart: 2,5 / 3,4 / StaAbw -5,4 / 8,1  ,
+62.Coup:  .__.32  32.__.  32.__.    set  0/1/0/  won  0/0/0  Saldo  23
+Satz:  61,5%  Ecart: 3,9 / 2,0 / StaAbw 16,2 / -13,5  , 61,5%  Ecart:
+3,7 / 2,2 / StaAbw 13,5 / -10,8  Now set  Pair, 61,5%  Ecart: 2,5 / 3,4
+/ StaAbw -5,4 / 8,1  ,
+61.Coup:  .__.21  .__.21  21.__.    set  0/0/0/  won  0/0/0  Saldo  23
+Satz:  38,5%  Ecart: 3,7 / 2,2 / StaAbw 13,5 / -10,8  , 38,5%  Ecart:
+3,7 / 2,2 / StaAbw 13,5 / -10,8  , 38,5%  Ecart: 2,7 / 3,2 / StaAbw
+-2,7 / 5,4  ,
+60.Coup:  .__.05  .__.05  .__.05    set  0/0/0/  won  0/0/2  Saldo  23
+Satz:  61,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  , 61,5%  Ecart:
+3,7 / 2,2 / StaAbw 13,5 / -10,8  , 61,5%  Ecart: 2,9 / 3,0 / StaAbw 0,0
+/ 2,7  ,
+59.Coup:  .__.07  .__.07  .__.07    set  0/0/1/  won  0/0/2  Saldo  22
+Satz:  38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 38,5%  Ecart: 3,5
+/ 2,4 / StaAbw 10,8 / -8,1  , 38,5%  Ecart: 2,7 / 3,2 / StaAbw -2,7 /
+5,4  Now set  Manqe,
+58.Coup:  13.__.  .__.13  .__.13    set  1/0/1/  won  2/0/0  Saldo  22
+Satz:  38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Black,
+38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 38,5%  Ecart: 2,5 / 3,4
+/ StaAbw -5,4 / 8,1  Now set  Manqe,
+57.Coup:  22.__.  22.__.  22.__.    set  1/1/0/  won  2/2/0  Saldo  22
+Satz:  61,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  Now set  Black,
+61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Pair, 61,5%
+Ecart: 2,4 / 3,5 / StaAbw -8,1 / 10,8  ,
+56.Coup:  28.__.  28.__.  28.__.    set  1/1/0/  won  0/0/0  Saldo  20
+Satz:  38,5%  Ecart: 3,7 / 2,2 / StaAbw 13,5 / -10,8  Now set  Black,
+38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Pair, 38,5%
+Ecart: 2,5 / 3,4 / StaAbw -5,4 / 8,1  ,
+55.Coup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/0/0  Saldo  20
+Satz:  61,5%  Ecart: 3,9 / 2,0 / StaAbw 16,2 / -13,5  , 61,5%  Ecart:
+3,4 / 2,5 / StaAbw 8,1 / -5,4  , 61,5%  Ecart: 2,7 / 3,2 / StaAbw -2,7
+/ 5,4  ,
+54.Coup:  .__.01  .__.01  .__.01    set  0/0/0/  won  0/0/2  Saldo  20
+Satz:  61,5%  Ecart: 3,7 / 2,2 / StaAbw 13,5 / -10,8  , 61,5%  Ecart:
+3,2 / 2,7 / StaAbw 5,4 / -2,7  , 61,5%  Ecart: 2,9 / 3,0 / StaAbw 0,0 /
+2,7  ,
+53.Coup:  11.__.  .__.11  .__.11    set  1/0/1/  won  0/0/0  Saldo  20
+Satz:  38,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  Now set  Black,
+38,5%  Ecart: 3,0 / 2,9 / StaAbw 2,7 / 0,0  , 38,5%  Ecart: 2,7 / 3,2 /
+StaAbw -2,7 / 5,4  Now set  Manqe,
+52.Coup:  .__.36  36.__.  36.__.    set  0/0/0/  won  0/0/0  Saldo  20
+Satz:  38,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  , 38,5%  Ecart:
+3,0 / 2,9 / StaAbw 2,7 / 0,0  , 38,5%  Ecart: 2,7 / 3,2 / StaAbw -2,7 /
+5,4  ,
+51.Coup:  .__.27  .__.27  27.__.    set  0/0/0/  won  0/0/0  Saldo  20
+Satz:  61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 61,5%  Ecart: 3,2
+/ 2,7 / StaAbw 5,4 / -2,7  , 61,5%  Ecart: 2,9 / 3,0 / StaAbw 0,0 / 2,7
+ ,
+50.Coup:  .__.16  16.__.  .__.16    set  0/0/0/  won  0/0/2  Saldo  20
+Satz:  38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 38,5%  Ecart: 3,0
+/ 2,9 / StaAbw 2,7 / 0,0  , 38,5%  Ecart: 2,9 / 3,0 / StaAbw 0,0 / 2,7
+,
+49.Coup:  26.__.  26.__.  .__.04    set  1/0/1/  won  2/2/2  Saldo  20
+Satz:  61,5%  Ecart: 3,2 / 2,7 / StaAbw 5,4 / -2,7  Now set  Black,
+61,5%  Ecart: 3,0 / 2,9 / StaAbw 2,7 / 0,0  , 61,5%  Ecart: 2,7 / 3,2 /
+StaAbw -2,7 / 5,4  Now set  Manqe,
+48.Coup:  28.__.  28.__.  .__.06    set  1/1/1/  won  2/2/2  Saldo  17
+Satz:  61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Black,
+61,5%  Ecart: 3,2 / 2,7 / StaAbw 5,4 / -2,7  Now set  Pair, 61,5%
+Ecart: 2,7 / 3,2 / StaAbw -2,7 / 5,4  Now set  Manqe,
+47.Coup:  10.__.  10.__.  .__.10    set  1/1/1/  won  2/2/0  Saldo  14
+Satz:  38,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  Now set  Black,
+38,5%  Ecart: 3,2 / 2,7 / StaAbw 5,4 / -2,7  Now set  Pair, 38,5%
+Ecart: 2,7 / 3,2 / StaAbw -2,7 / 5,4  Now set  Manqe,
+46.Coup:  26.__.  26.__.  26.__.    set  1/1/0/  won  0/2/0  Saldo  12
+Satz:  38,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  Now set  Black,
+38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Pair, 38,5%
+Ecart: 2,5 / 3,4 / StaAbw -5,4 / 8,1  ,
+45.Coup:  .__.30  30.__.  30.__.    set  0/1/0/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 3,5 / 2,4 / StaAbw 10,8 / -8,1  , 61,5%  Ecart:
+3,4 / 2,5 / StaAbw 8,1 / -5,4  Now set  Pair, 61,5%  Ecart: 2,5 / 3,4 /
+StaAbw -5,4 / 8,1  ,
+44.Coup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 61,5%  Ecart: 3,4
+/ 2,5 / StaAbw 8,1 / -5,4  , 61,5%  Ecart: 2,7 / 3,2 / StaAbw -2,7 /
+5,4  ,
+43.Coup:  29.__.  .__.29  29.__.    set  1/0/0/  won  2/0/0  Saldo  12
+Satz:  61,5%  Ecart: 3,2 / 2,7 / StaAbw 5,4 / -2,7  Now set  Black,
+61,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 61,5%  Ecart: 2,9 / 3,0
+/ StaAbw 0,0 / 2,7  ,
+42.Coup:  13.__.  .__.13  .__.13    set  1/0/0/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 3,2 / 2,7 / StaAbw 5,4 / -2,7  Now set  Black,
+61,5%  Ecart: 3,2 / 2,7 / StaAbw 5,4 / -2,7  , 61,5%  Ecart: 3,0 / 2,9
+/ StaAbw 2,7 / 0,0  ,
+41.Coup:  .__.__.  .__.__.  .__.__.    set  0/0/0/  won  0/0/0  Saldo
+11  Satz:  38,5%  Ecart: 3,4 / 2,5 / StaAbw 8,1 / -5,4  , 38,5%  Ecart:
+3,0 / 2,9 / StaAbw 2,7 / 0,0  , 38,5%  Ecart: 3,0 / 2,9 / StaAbw 2,7 /
+0,0  ,
+40.Coup:  .__.03  .__.03  .__.03    set  0/0/0/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 3,5 / 2,5 / StaAbw 8,1 / -8,1  , 61,5%  Ecart: 3,2
+/ 2,8 / StaAbw 2,7 / -2,7  , 61,5%  Ecart: 3,0 / 3,0 / StaAbw 0,0 / 0,0
+ ,
+39.Coup:  .__.30  30.__.  30.__.    set  0/1/0/  won  0/0/0  Saldo  12
+Satz:  38,5%  Ecart: 3,5 / 2,5 / StaAbw 8,1 / -8,1  , 38,5%  Ecart: 3,2
+/ 2,8 / StaAbw 2,7 / -2,7  Now set  Pair, 38,5%  Ecart: 2,8 / 3,2 /
+StaAbw -2,7 / 2,7  ,
+38.Coup:  .__.25  .__.25  25.__.    set  0/0/0/  won  0/0/0  Saldo  12
+Satz:  38,5%  Ecart: 3,5 / 2,5 / StaAbw 8,1 / -8,1  , 38,5%  Ecart: 3,3
+/ 2,7 / StaAbw 5,4 / -5,4  , 38,5%  Ecart: 2,8 / 3,2 / StaAbw -2,7 /
+2,7  ,
+37.Coup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/0/0  Saldo  12
+Satz:  Gold Cut  Ecart: 3,3 / 2,7 / StaAbw 5,4 / -5,4  , Gold Cut
+Ecart: 3,2 / 2,8 / StaAbw 2,7 / -2,7  , Gold Cut  Ecart: 2,8 / 3,2 /
+StaAbw -2,7 / 2,7  ,
+36.Coup:  .__.14  14.__.  .__.14    set  0/0/0/  won  0/0/0  Saldo  12
+Satz:  61,5%  Ecart: 3,2 / 2,8 / StaAbw 2,7 / -2,7  , 61,5%  Ecart: 3,0
+/ 3,0 / StaAbw 0,0 / 0,0  , 61,5%  Ecart: 3,0 / 3,0 / StaAbw 0,0 / 0,0
+,
+35.Coup:  .__.12  3.__.  .__.12    set  0/0/0/  won  0/0/2  Saldo  12
+Satz:  38,5%  Ecart: 3,0 / 2,9 / StaAbw 2,7 / 0,0  , 38,5%  Ecart: 3,0
+/ 2,9 / StaAbw 2,7 / 0,0  , 38,5%  Ecart: 2,9 / 3,0 / StaAbw 0,0 / 2,7
+,
+34.Coup:  .__.07  .__.07  .__.07    set  0/0/1/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 2,9 / 2,9 / StaAbw 2,7 / 2,7  , 61,5%  Ecart: 3,1
+/ 2,7 / StaAbw 5,4 / 0,0  , 61,5%  Ecart: 2,7 / 3,1 / StaAbw 0,0 / 5,4
+Now set  Manqe,
+33.Coup:  .__.19  .__.19  19.__.    set  0/0/0/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 2,8 / 3,0 / StaAbw 2,7 / 5,4  , 61,5%  Ecart: 3,0
+/ 2,8 / StaAbw 5,4 / 2,7  , 61,5%  Ecart: 2,6 / 3,1 / StaAbw 0,0 / 8,1
+,
+32.Coup:  31.__.  .__.31  31.__.    set  0/0/0/  won  0/0/0  Saldo  11
+Satz:  61,5%  Ecart: 2,7 / 3,0 / StaAbw 2,7 / 8,1  , 61,5%  Ecart: 2,8
+/ 2,8 / StaAbw 5,4 / 5,4  , 61,5%  Ecart: 2,7 / 3,0 / StaAbw 2,7 / 8,1
+,
+31.Coup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/2/0  Saldo  11
+Satz:  Gold Cut  Ecart: 2,7 / 2,9 / StaAbw 5,4 / 8,1  , Gold Cut
+Ecart: 2,7 / 2,9 / StaAbw 5,4 / 8,1  , Gold Cut  Ecart: 2,7 / 2,9 /
+StaAbw 5,4 / 8,1  ,
+30.Coup:  11.__.  .__.11  .__.11    set  0/1/0/  won  0/2/0  Saldo  10
+Satz:  38,5%  Ecart: 2,6 / 2,9 / StaAbw 5,4 / 10,8  , 38,5%  Ecart: 2,6
+/ 2,9 / StaAbw 5,4 / 10,8  Now set  Impair, 38,5%  Ecart: 2,7 / 2,7 /
+StaAbw 8,1 / 8,1  ,
+29.Coup:  .__.27  .__.27  27.__.    set  0/1/0/  won  2/2/0  Saldo  9
+Satz:  61,5%  Ecart: 2,6 / 2,8 / StaAbw 8,1 / 10,8  , 61,5%  Ecart: 2,4
+/ 3,0 / StaAbw 5,4 / 13,5  Now set  Impair, 61,5%  Ecart: 2,6 / 2,8 /
+StaAbw 8,1 / 10,8  ,
+28.Coup:  .__.19  .__.19  19.__.    set  1/1/0/  won  2/2/0  Saldo  7
+Satz:  38,5%  Ecart: 2,5 / 2,8 / StaAbw 8,1 / 13,5  Now set  Red, 38,5%
+ Ecart: 2,3 / 3,0 / StaAbw 5,4 / 16,2  Now set  Impair, 38,5%  Ecart:
+2,6 / 2,6 / StaAbw 10,8 / 10,8  ,
+27.Coup:  .__.19  .__.19  19.__.    set  1/1/0/  won  0/0/0  Saldo  5
+Satz:  61,5%  Ecart: 2,3 / 2,9 / StaAbw 8,1 / 16,2  Now set  Red, 61,5%
+ Ecart: 2,1 / 3,1 / StaAbw 5,4 / 18,9  Now set  Impair, 61,5%  Ecart:
+2,7 / 2,5 / StaAbw 13,5 / 10,8  ,
+26.Coup:  04.__.  04.__.  .__.04    set  0/0/0/  won  0/0/0  Saldo  5
+Satz:  61,5%  Ecart: 2,2 / 2,9 / StaAbw 8,1 / 18,9  , 61,5%  Ecart: 2,0
+/ 3,1 / StaAbw 5,4 / 21,6  , 61,5%  Ecart: 2,7 / 2,4 / StaAbw 16,2 /
+10,8  ,
+25.Coup:  11.__.  .__.11  .__.11    set  0/1/0/  won  0/0/0  Saldo  6
+Satz:  38,5%  Ecart: 2,2 / 2,8 / StaAbw 10,8 / 18,9  , 38,5%  Ecart:
+2,0 / 3,0 / StaAbw 8,1 / 21,6  Now set  Impair, 38,5%  Ecart: 2,6 / 2,4
+/ StaAbw 16,2 / 13,5  ,
+24.Coup:  26.__.  26.__.  26.__.    set  0/0/0/  won  0/0/0  Saldo  6
+Satz:  61,5%  Ecart: 2,2 / 2,7 / StaAbw 13,5 / 18,9  , 61,5%  Ecart:
+1,8 / 3,1 / StaAbw 8,1 / 24,3  , 61,5%  Ecart: 2,4 / 2,4 / StaAbw 16,2
+/ 16,2  ,
+23.Coup:  .__.36  36.__.  36.__.    set  0/0/0/  won  2/0/2  Saldo  6
+Satz:  38,5%  Ecart: 2,3 / 2,5 / StaAbw 16,2 / 18,9  , 38,5%  Ecart:
+1,9 / 2,9 / StaAbw 10,8 / 24,3  , 38,5%  Ecart: 2,5 / 2,3 / StaAbw 18,9
+/ 16,2  ,
+22.Coup:  .__.25  .__.25  25.__.    set  1/1/1/  won  2/0/0  Saldo  5
+Satz:  38,5%  Ecart: 2,1 / 2,6 / StaAbw 16,2 / 21,6  Now set  Red,
+38,5%  Ecart: 1,9 / 2,8 / StaAbw 13,5 / 24,3  Now set  Impair, 38,5%
+Ecart: 2,6 / 2,1 / StaAbw 21,6 / 16,2  Now set  Passe,
+21.Coup:  .__.18  18.__.  .__.18    set  1/0/0/  won  2/0/0  Saldo  4
+Satz:  61,5%  Ecart: 2,0 / 2,6 / StaAbw 16,2 / 24,3  Now set  Red,
+61,5%  Ecart: 1,7 / 2,8 / StaAbw 13,5 / 27,0  , 61,5%  Ecart: 2,6 / 2,0
+/ StaAbw 24,3 / 16,2  ,
+20.Coup:  .__.12  12.__.  .__.12    set  1/0/0/  won  0/0/0  Saldo  3
+Satz:  Gold Cut  Ecart: 1,8 / 2,7 / StaAbw 16,2 / 27,0  Now set  Red,
+Gold Cut  Ecart: 1,8 / 2,7 / StaAbw 16,2 / 27,0  , Gold Cut  Ecart: 2,5
+/ 2,0 / StaAbw 24,3 / 18,9  ,
+19.Coup:  30.__.  08.__.  .__.08    set  0/0/0/  won  0/0/0  Saldo  3
+Satz:  38,5%  Ecart: 1,6 / 2,8 / StaAbw 16,2 / 29,7  , 38,5%  Ecart:
+1,8 / 2,5 / StaAbw 18,9 / 27,0  , 38,5%  Ecart: 2,3 / 2,1 / StaAbw 24,3
+/ 21,6  ,
+18.Coup:  26.__.  26.__.  26.__.    set  0/0/0/  won  0/0/0  Saldo  3
+Satz:  38,5%  Ecart: 1,6 / 2,6 / StaAbw 18,9 / 29,7  , 38,5%  Ecart:
+1,9 / 2,4 / StaAbw 21,6 / 27,0  , 38,5%  Ecart: 2,1 / 2,1 / StaAbw 24,3
+/ 24,3  ,
+17.Coup:  17.__.  .__.17  .__.17    set  0/0/0/  won  0/2/0  Saldo  3
+Satz:  61,5%  Ecart: 1,7 / 2,4 / StaAbw 21,6 / 29,7  , 61,5%  Ecart:
+1,9 / 2,2 / StaAbw 24,3 / 27,0  , 61,5%  Ecart: 2,2 / 1,9 / StaAbw 27,0
+/ 24,3  ,
+16.Coup:  13.__.  .__.13  .__.13    set  0/1/0/  won  0/0/0  Saldo  2
+Satz:  38,5%  Ecart: 1,8 / 2,3 / StaAbw 24,3 / 29,7  , 38,5%  Ecart:
+1,8 / 2,3 / StaAbw 24,3 / 29,7  Now set  Impair, 38,5%  Ecart: 2,0 /
+2,0 / StaAbw 27,0 / 27,0  ,
+15.Coup:  .__.32  32.__.  32.__.    set  0/0/0/  won  0/0/0  Saldo  2
+Satz:  38,5%  Ecart: 1,8 / 2,1 / StaAbw 27,0 / 29,7  , 38,5%  Ecart:
+1,5 / 2,3 / StaAbw 24,3 / 32,4  , 38,5%  Ecart: 1,8 / 2,1 / StaAbw 27,0
+/ 29,7  ,
+14.Coup:  20.__.  20.__.  20.__.    set  0/0/0/  won  0/0/0  Saldo  2
+Satz:  38,5%  Ecart: 1,6 / 2,1 / StaAbw 27,0 / 32,4  , 38,5%  Ecart:
+1,6 / 2,1 / StaAbw 27,0 / 32,4  , 38,5%  Ecart: 1,9 / 1,9 / StaAbw 29,7
+/ 29,7  ,
+13.Coup:  .__.09  .__.09  .__.09    set  0/0/0/  won  2/0/0  Saldo  2
+Satz:  61,5%  Ecart: 1,7 / 1,9 / StaAbw 29,7 / 32,4  , 61,5%  Ecart:
+1,7 / 1,9 / StaAbw 29,7 / 32,4  , 61,5%  Ecart: 1,9 / 1,7 / StaAbw 32,4
+/ 29,7  ,
+12.Coup:  .__.18  18.__.  .__.18    set  1/0/0/  won  0/0/0  Saldo  1
+Satz:  38,5%  Ecart: 1,4 / 2,0 / StaAbw 29,7 / 35,1  Now set  Red,
+38,5%  Ecart: 1,4 / 2,0 / StaAbw 29,7 / 35,1  , 38,5%  Ecart: 1,7 / 1,7
+/ StaAbw 32,4 / 32,4  ,
+11.Coup:  33.__.  .__.33  33.__.    set  0/0/0/  won  0/0/0  Saldo  1
+Satz:  61,5%  Ecart: 1,2 / 2,1 / StaAbw 29,7 / 37,8  , 61,5%  Ecart:
+1,5 / 1,8 / StaAbw 32,4 / 35,1  , 61,5%  Ecart: 1,5 / 1,8 / StaAbw 32,4
+/ 35,1  ,
+10.Coup:  26.__.  26.__.  26.__.    set  0/0/0/  won  0/0/0  Saldo  1
+Satz:  61,5%  Ecart: 1,3 / 1,9 / StaAbw 32,4 / 37,8  , 61,5%  Ecart:
+1,3 / 1,9 / StaAbw 32,4 / 37,8  , 61,5%  Ecart: 1,6 / 1,6 / StaAbw 35,1
+/ 35,1  ,
+9=2ECoup:  10.__.  10.__.  .__.10    set  0/0/0/  won  0/0/0  Saldo  1
+Satz:  38,5%  Ecart: 1,3 / 1,7 / StaAbw 35,1 / 37,8  , 38,5%  Ecart:
+1,3 / 1,7 / StaAbw 35,1 / 37,8  , 38,5%  Ecart: 1,7 / 1,3 / StaAbw 37,8
+/ 35,1  ,
+8=2ECoup:  17.__.  .__.17  .__.17    set  0/0/0/  won  0/0/0  Saldo  1
+Satz:  61,5%  Ecart: 1,4 / 1,4 / StaAbw 37,8 / 37,8  , 61,5%  Ecart:
+1,4 / 1,4 / StaAbw 37,8 / 37,8  , 61,5%  Ecart: 1,4 / 1,4 / StaAbw 37,8
+/ 37,8  ,
+7=2ECoup:  30.__.  08.__.  .__.08    set  0/0/0/  won  0/0/2  Saldo  1
+Satz:  61,5%  Ecart: 1,5 / 1,1 / StaAbw 40,5 / 37,8  , 61,5%  Ecart:
+1,1 / 1,5 / StaAbw 37,8 / 40,5  , 61,5%  Ecart: 1,1 / 1,5 / StaAbw 37,8
+/ 40,5  ,
+6=2ECoup:  .__.14  14.__.  .__.14    set  0/0/1/  won  0/0/0  Saldo  0
+Satz:  38,5%  Ecart: 1,6 / 0,8 / StaAbw 43,2 / 37,8  , 38,5%  Ecart:
+1,2 / 1,2 / StaAbw 40,5 / 40,5  , 38,5%  Ecart: 0,8 / 1,6 / StaAbw 37,8
+/ 43,2  Now set  Manqe,
+5=2ECoup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  38,5%  Ecart: 1,3 / 0,9 / StaAbw 43,2 / 40,5  , 38,5%  Ecart:
+1,3 / 0,9 / StaAbw 43,2 / 40,5  , 38,5%  Ecart: 0,4 / 1,8 / StaAbw 37,8
+/ 45,9  ,
+4=2ECoup:  .__.19  .__.19  19.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  61,5%  Ecart: 1,0 / 1,0 / StaAbw 43,2 / 43,2  , 61,5%  Ecart:
+1,0 / 1,0 / StaAbw 43,2 / 43,2  , 61,5%  Ecart: 0,5 / 1,5 / StaAbw 40,5
+/ 45,9  ,
+3=2ECoup:  .__.25  .__.25  25.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  61,5%  Ecart: 0,6 / 1,2 / StaAbw 43,2 / 45,9  , 61,5%  Ecart:
+0,6 / 1,2 / StaAbw 43,2 / 45,9  , 61,5%  Ecart: 0,6 / 1,2 / StaAbw 43,2
+/ 45,9  ,
+2=2ECoup:  20.__.  20.__.  20.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  38,5%  Ecart: 0,0 / 1,4 / StaAbw 43,2 / 48,6  , 38,5%  Ecart:
+0,0 / 1,4 / StaAbw 43,2 / 48,6  , 38,5%  Ecart: 0,7 / 0,7 / StaAbw 45,9
+/ 45,9  ,
+1=2ECoup:  30.__.  30.__.  .__.08    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  61,5%  Ecart: 0,0 / 1,0 / StaAbw 45,9 / 48,6  , 61,5%  Ecart:
+0,0 / 1,0 / StaAbw 45,9 / 48,6  , 61,5%  Ecart: 1,0 / 0,0 / StaAbw 48,6
+/ 45,9  ,
+
+Roulettesystem * Fibonacci * by SelMckenzie=AE
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Ungerer=AE
+Dieses System bietet aufgrund der Fibonacci-Retracements
+in seiner richtigen Anwendung hervorragende
+Gewinn-Möglichkeiten und ist als äusserst profitable zu bezeichnen.
+Die gleiche Systematic ist auch auf das Börsen-Trading anwendbar
+und funktioniert ebenfalls sehr profitable. Dabei muss lediglich
+Black und Red in Steigende-Kurse und Fallende-Kurse umgedacht werden.
+Buch-Empfehlung: * Trading with Fibonacci Rules *
+Author: Johann Ungerer
+erschienen im Verlag GPS
+
+Die erforderlichen Buchungs-Kriterien:
+1=2E) Retracements zum Golden Schnitt:
+Für jeden fortlaufenden Coup muss muss das Retracement
+in der WurfWeiten-Länge im Kessel zum Goldenen Schnitt
+festgestellt werden.
+Das Retracement der WurfWeiten berechnet sich wie folgt:
+Ist die aktuelle WurfWeite grösser als die Vor-WurfWeite: 61,5%
+Ist die aktuelle WurfWeite kleiner als die Vor-WurfWeite: 38,5%
+Ist die aktuelle WurfWeite gleich wie die Vor-WurfWeite: Golden Cut
+Beispiel: 10-35-17-32-29
+von 10/Black zu 35/Black =3D 38,5%,
+von 35/Black zu 17/Black =3D 38,5%,
+von 17/Black zu 32/Red =3D 61,5%
+von 32/Red zu 29/Black =3D 38,5%
+Dann muss für jede einzelne Chance die Erscheinungs-
+Addition auf das Retracement des Goldenen Schnitts
+erfolgen, bei dem Permanenzverlauf 10-35-17-32-29
+wäre das Black/1+1=3D2, Red/1, Black/1
+Erschiene jetzt z.B. nach Plein-29/Black das Plein 24/Black,
+würde die die Erscheinungs-Addition Black/1, Black/1 lauten,
+da 32/Red zu 29/Black ein Retracement von 38,5%,
+29/Black zu 24/Black eine Retracement von 61,5% hat.
+Diese (umgedachten) Berechnungen treffen exact die Vorgaben
+der Geometrie der Ellipse (hier: der Roulette-Kessel) und
+die Wachstums-Bewegung der Spirale (in den Roulette-Kessel
+factisch eingelegt), die keinen rechnerischen Endpunkt hat
+Die aufeinanderfolgenden Segmente  dieser factisch
+Spirale differieren bezüglich ihrer Grösse genau um den
+Factor der Fibonacci-Relation (Retracement). Alle Spiralen,
+deren Wachstums-Raten Elemente der Fibonacci-Folge
+(0.618-1.000-1.618-2.618-4.236-6.854-11.090 usw.)
+sind, werden somit epizykeldisch in den Epizykel gelegt.
+
+2=2E) Berechnung Anzahl der Erscheinung der Chancen und Ecart:
+In laufender Permanenz muss nach jedem Coup der Anzahl der
+Erscheinung pro Chance festgestellt werden, für die letzten 37 Coups.
+z=2EB. nach dem 37.Coup: 21 x Black, 14 x Red, 2 x Zero
+Nach jedem Coup muss der Ecart pro Chance berechnet werden.
+Der Ecart berechnet sich wie folgt (z.B.für Black)
+Erscheinung Black + Red =3D 21+14 =3D 35 ./. Black (21) =3D 14
+=3D 21+14=3D35-21=3D14 geteilt durch Wurzel aus 21+14 =3D Ecart von 2,4
+Dieser Ecart nunmehr muss dann in das Verhältnis der
+Fibonacci-Folge gesetzt werden. Die Fibonacci-Folge ist
+(0.618-1.000-1.618-2.618-4.236-6.854-11.090 usw.)
+und wird auf die additionelle Erscheinung der geometrischen
+Ellipse (hier Roulette-Kessel) auf das WurfWeiten-Retracement
+repliziert, jedoch immer auf das aktuell erschienene Retracement.
+Dadurch wird die Population nach Fibonacci im Roulette-Kessel
+produziert. Diese umgesetzte Art der Ecart-berechnung ist von
+fundamelntaler Bedeutung für die Satzfindung.
+Die aktuell nicht erschienene Chance wird auf das
+Retracement von 0.618 des echten Ecarts zurückverlegt, um hier die
+Diskrepanz der sogenannten Population zur aktuell
+erschienenen und Ecart-populierten Chance festzustellen.
+Beispiel: Permanenz ...10-13-29-2-13
+10-13/61,5%=3D0,618, 13-29/38,5%=3D0,618, 29-2/38,5%=3D1,000,
+2-13=3D38,5%=3D1,618
+Ist actuell der echte Ecart z.B. 3,8, dann beläuft sich der
+künstliche Ecart nunmehr auf 6,1 (3,8 * 1,618 =3D 6,1484)
+Dieser künstliche Ecart stellt gleichzeitig auch die
+Restistance-Line der möglichen Erscheinungsweise der
+jeweiligen Chance dar und sollte bei der Satzfindung auch
+nicht überschritten werden, weil grundsätzlich davon
+auszugehen ist, dass ein Satz über die Restistance-Line hinaus
+ein Fehltreffer werden könnte.
+Die Roulette-Regeln, dass, wenn der Ecart um so höher ist,
+auch die Trefferchance steigt, trifft hier nur bedingt zu,
+da es sich hier ja um einen quasi aufgepumpten Ecart
+des echten Ecart handelt.
+Gleiches gilt für den künstlichen Ecart der Gegenchance für die
+Support-Line, die aber zwangsläufig nicht unterschritten
+werden kann, weil bei wiederholtem Erscheinen dieser
+actuell rückständigen Chance der echte Ecart zwar fallen,
+der künstliche Ecart aber steigen würde.
+
+3=2E) Berechnung der Standard-Abweichung:
+Die Standard-Abweichung berechnet sich grundsätzlich wie folgt:
+Erscheinung der einzelnen Chance innert 37 Coups in Percent.
+Die Standard-Abweichung 0 =3D 48,64, und zwar
+18 PleinNumbers pro Chance geteilt durch 37 Kessel-Fächer.
+Standard-Abweichung plus/minus Erscheinung ./. 48,64
+Es ist hier wichtig, dass die Standard-Abweichung immer nur auf
+die Erscheinungen innert der letzten 37 Coups berechnet wird.
+z=2EB. last 37.Coups: 21 x Black, 14 x Red, 2 x Zero
+Black =3D 56,76%, Red =3D 37,83%, Zero =3D 5,41%
+Standard-Abweichung: Black =3D +8.12, Red =3D -10.81
+Retracement Black: +8.12/*0.618 =3D 5.018
+Retracement Red: -10.81/1.618 =3D -6.681
+Die Satz-Entscheidung hängt ebenfalls entscheidend
+davon ab, weil der Näherungs-Value sich an den
+künstlichen Ecart (nicht echten Ecart) mehr und mehr
+anpasst und in der Folge ein Satz auf die partielle
+Chance erfolgen sollte und in den meisten Fällen auch
+zum Treffer führt.
+free Software-Download:
+http://yep.Gjodkz-GvRdynal.fm
+http://zac.AhvkbnDiqsacunsac.ah
+http://bhp.JqjsbovgGfdfv.jl

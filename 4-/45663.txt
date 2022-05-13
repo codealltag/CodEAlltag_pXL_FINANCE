@@ -1,0 +1,32 @@
+Also eine Kauforder billigst oder eine verkaufsorder bestens wird auf den Markt
+geworfen und bei liquiden Werten normalerweise zu einem fairen Kurs abgewickelt.
+Eine Kauforder mit Limit 100 heisst nichts anderes als das Du bereit bist fuer
+Deine Aktien bis 100 zu bezahlen (natuerlich pro Stueck). Sollte also der Kurs
+ueber 100 Euro sein bekommst Du keine Aktien.
+Eine Verkauforder mit Limit 200 heisst Du willst Deine Aktien fuer mindestens
+200 vertickern. Bei Kursen unter 200 behaeltst Du Deine Aktien.
+
+ACHTUNG: Bei Aktien mit nur geringen Umsaetzen koennen unlimitierte Order zu
+unfairen Preisen abgewickelt werden.
+Limits nicht mit Stop-Loss oder Stop-Buy verweckseln.
+
+Stop-Loss:
+Aktien koennen mittels eines Stop-Loss abgesichert werden. Du hast Aktien und
+gibst fuer diese ein Stop-Loss von 100 auf. Sollte der Kurs dann auf 100 oder
+darunter sinken wird eine unlimitierte Verkaufsorder plaziert. Deine Aktien
+koennen dann z.B. fuer 95, 80 oder 110 verkauft werden, jenachdem welcher Kurs
+als naechstes erstellt wird.
+
+Stop-Buy:
+Eine Stop-Buy Order bedeutet nicht das was man denken koennte. Du willst Aktien
+mittels Stop-Buy 200 ordern. Sollte der Kurs 200 erreichen oder _darueber_
+steigen, wird eine unlimitierte Kauforder plaziert. Stop-Buy Order werden/wurden
+oft fuer OS benutzt oder wenn man Aktien erst nach ueberschreiten einer
+wichtigen Wiederstandszone kaufen will.
+
+
+Ich hoffe ich habe mich klar genug ausgedrueckt.
+
+
+Ciao
+Valentin

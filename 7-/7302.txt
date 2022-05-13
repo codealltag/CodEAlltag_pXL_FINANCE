@@ -1,0 +1,1728 @@
+BlackJack
+Author F.Ziereisen
+More infos:
+http://wu.amufehm.xnc/mrzw/47645338202q249d293tu
+and
+http://ew.btejcra.upi/pimtt/05220621303a915x749sd
+Die HiLo-Zählung:
+Eine der populärsten und leichtesten BlackJackKartenzählungsstrategien
+ist die Hi-Lo Zählung. Der Grund dafür, das diese Strategieso beliebt
+ist ist, das sie einfach zu lernen und leicht anzuwenden ist. Jede
+Karte im Deck bekommt einen Wert von entweder -1, +1 oder 0. Der
+Gesamtwert eines 52 Kartendecks ist Null.
+
+Das System, auch bekannt als das Plus/Minus System, wurde ursprünglich
+von Arthur Maurath als das Remake von Otto Veidt Zehnerzählung Black
+Jack Kartenzählungssystem eingeführt. Dieses System wird nicht häufig
+von professionellen Black Jack Spielern verwendet, aber für Hobbyisten
+und denjenigen, die während des Urlaubs spielen, oder gerade damit
+anfangen, ist es schnell und einfach zu lernen, sowie auch einfach an
+einem echten Black Jack Tisch anzuwenden.
+
+Die Hi Low Zählungsstrategie ist im Grund ein einfacher Weg, um die
+hohen Karten im Deck zu verfolgen. Dieses System nennt man ein
+"bilanziertes System". Wenn jede Karte im Deck runtergezählt würde,
+wäre die Bilanz Null.
+
+Die niedrigeren Karten im Deck erhalten den Wert von +1 (Karten 2-6).
+Die mittleren Karten oder "Neutrale Karten" 7-9 bekommen den Wert Null
+oder +0. Die Bildkarten, oder hohe Karten, 10, Jack, Königin, König
+und Ass bekommen alle einen -1 Wert.
+
+
+Die Zählung beginnt, wenn neu gemischt wird und ein neuer Schuh im
+Black Jack Spiel eingeführt wird. Die Tischzählung ist in diesem
+Moment bei Null. Wenn die Karten gezeigt werden, addieren Sie 1,
+subtrahieren Sie 1 oder addieren Sie 0. Wenn wir bei Null beginnen und
+Ihre Kartenzählenist 0 (der Anfang eines neuen Schuhs oder eines neuen
+Decks Karten) und es wird ein König ausgeteilt, ist die Tischzählung
+-1. Wenn eine 3 als nächstes ausgeteilt wird, ist die Tischzählung
+eine 0 (-1 plus +1 =3D 0).
+
+Je höher Ihre Zählung, desto wahrscheinlicher ist es, das es im Deck
+noch hohe Karten gibt. Ein Deck mit hohen Karten ist zu Ihrem Vorteil.
+Es ist wahr, das eine Show mit höheren Karten sowohl für den Dealer,
+als auch für den Spieler gut ist. Zu wissen, das es eine bessere
+Chance gibt, das eine hohe Karte kommt, kann einige der schwierigen
+Entscheidungen viel einfacher machen. Auch, genau das Gegenteil, wenn
+die Zählung niedrig ist und Sie sich mit einer Hand von einem
+Gesamtwert von 16 gegen einen Dealermit einer 9, können Sie den Hit
+nehmen, wissend, das wahrscheinlich eine niedrige Karte kommt.
+
+Je mehr Karten ausgeteilt und gezählt sind, desto genauer ist die
+Black Jack Hi-Low Zählungsmethode. Es gibt natürlich keine Garantien,
+da es ja kein Glücksspiel wäre, wenn es welche gäbe, jedoch kann die
+Verwendung von Black Jack Strategien Ihre Chancen verbessern und Ihnen
+eine bessere CHANCE zu gewinnen geben.
+
+Die K.O.-Zählung
+Im Knockout Kartenzählungssystem, wie im Buch Knock Out Blackjack
+erklärt, sind alle Kartenwerte gleich dem im Hi Low System, außer des
+Werts der 7. In diesem System wird die 7 als eine niedrige Karte
+betrachtet und damit ein Plus Wert, anders als im Hi Low System, in
+dem es eine neutrale Karte ist. Eine andere Abweichung zwischen den
+Systemen ist, dass das KO System keine bilanzierte Strategieist,
+wogegen es die Hi Low Zählung und die Hi Opt Strategien sind.
+
+Der Fakt, das sie unbilanziert ist, macht die KO Zählung zu einer
+Level Eins Strategie, was bedeutet, wenn Sie bei einer Null anfangen
+und das ganze Deck unter Verwendung der Knock-Out
+Kartenzählungsstrategie runterzählen, werden Sie nicht bei einer Null
+enden. In der Hi Low Methode ist die 7 neutral, jedoch ist sie eine
+Plus eins in der Knock out BlackJackKartenzählungsmethode, also
+addiert es 4 Punkte zu dem Deck und wenn Sie die Karten richtig
+gezählt haben, müssten Sie auf einer positiven 4 herauskommen.
+
+Wenn Sie bei Null anfangen und eine niedrige Karte wird gespielt,
+werden Sie eine eins addieren. Jetzt ist Ihre Summe 1. Wenn die
+nächste Karte niedrig ist, addieren Sie einen weiteren Punkt. Wenn
+eine höhere Karte kommt, ziehen Sie eins ab. Wenn eine neue Hand
+beginnt, geht die Zählung weiter. Sie wird nicht aktualisiert, bis ein
+neuer Schuh gemischt wird. Eine Zählung, die in jeder Richtung hoch
+ist, deutet darauf hin, dass das Deck entweder auf der hohen oder
+niedrigen Seite schwer ist. Eine hohe positive Zählung, zeigt an, das
+niedriger Karten im Deck übrig sind und in der Folge ist es das
+Gegenteil mit einer hohen negativen Zählung.
+
+
+Wo man die Zählung beginnt
+Eine Formel, genannt "Initial Running Count" oder IRC, wird verwendet,
+um zu bestimmen, bei welcher Zahl die Zählung beginnt. Wenn Sie nur
+mit einem Deck Karten spielen, beginnt die Zählung bei Null, wenn Sie
+jedoch das KO System verwenden, beginnt die Zählung nicht automatisch
+bei Null. Sie sollten bei dieser Situation auf das spezifische IRC
+zurückgreifen.
+
+Wie es bei jedem Black Jack Kartenzählungssystem ist, sollten Sie das
+System Zuhause mit einem Deck Karten immer wieder üben, bis Sie es
+perfektioniert haben. Um sich selbst zu überprüfen, denken Sie daran,
+das Sie immer mit einer positiven 4 enden sollten, wenn Sie das Deck
+heruntergezählt haben. Sie müssen in der Lage sein, den Ablauf der
+Karten zu zählen, ohne Ihre Lippen zu bewegen, eine Pause zu machen,
+oder irgendwelche teuren mathematischen Fehler zu machen.
+
+Sobald Sie sich an dieses System gewöhnt haben, gibt es einige Dinge,
+die Sie sich effektiv antrainieren können, um Ihre Zählungszeit zu
+verbessern.
+
+
+Tipps zur Verbesserung Ihres Spiels
+Üben Sie sich darin, Karten zu erkennen, die einander aufheben, wie
+zum Beispiel: eine negative Karte hebt eine positive Karte auf. Also
+würden eine Zwei und ein König sich gegenseitig aufheben.
+
+Lernen Sie Karten in Paaren zu zählen. Verwenden Sie diese Methode wie
+Flash-Karten. Sobald Sie Ihr Gehirn dahingehend geschult haben, das es
+weiß das 2 + k =3D 0 ist und k + k =3D 2 und so weiter, werden Sie merken=
+,
+das sich Ihre Zählungszeit signifikant reduziert hat. Ein gutes Ziel
+wäre ein ganzes Deck in zweier Karten in 25030 Sekunden zu zählen.
+
+Die Misch-Zählung/Mischverfolgung
+Die BlackJackMischverfolgungsmethode ist ein bisschen alt und in
+echten oder Online-Kasinos wahrscheinlich nicht sehr nützlich. Jedoch
+kann die Methode trotzdem bei niedrigeren Black Jack Spielen benutzt
+werden, bei denen keine modernen Mischmethoden (wie den "Big C Cut"
+oder automatische Mischmaschinen) verwendet werden.
+
+Die Technik sollte jedoch nicht komplett verworfen werden, da es
+Zeiten geben wird, in denen Sie die richtige Situation finden werden,
+um diese Methode anzuwenden und wahrscheinlich sogar zu ihrem Vorteil
+verwenden zu können. Mischverfolgung ist jedoch keine getestete und
+echte wissenschaftliche Methode und sie stützt sich mehr auf die
+Fähigkeit des Spielers etwas zu erraten, statt auf konkrete Fakten.
+
+Mischverfolgung funktioniert nicht bei Online-Black Jack Spielen. Der
+Grund dafür ist, das menschliche Fehler oder andere Elemente online
+entfernt sind und die Karten durch Internet-Zufallsgeneratoren perfekt
+gemischt werden. Sie können nicht wirklich sehen, wo im Deck eine
+Karte landet oder verworfen wird, wenn das Mischen beginnt, also gibt
+es keine Möglichkeit, das jemand wissen oder erahnen kann, in welchem
+Teil des Decks die Karte endet.
+
+Kartenverfolgung ist nicht so leicht, wenn das Kasino, in dem Sie
+spielen, die Half Cut-Methode anwendet, auch bekannt als "The Big C".
+Wenn ein Kasino die Half Cut-Methode anwendet, für gewöhnlich bei
+einem zufälligen Spieler, in der Mitte und dann Richtung des letzten
+Drittels des Decks durch die Cut-Karte geteilt, geht das Spiel weiter,
+bis die Cut-Karte erreicht ist. Dann werden keine weiteren Karten mehr
+von diesem Schuh ausgeteilt.
+
+Der gesamte Schuh wird nicht durchgespielt, wenn die oben genannte
+Methode angewendet wird. Tatsache ist, wenn 6 Decks verwendet werden,
+könnten zwei ganze Decks überhaupt nicht gespielt werden.
+
+Da Black Jack Spieler die Informationen, die man bei der Verwendung
+der sehr grundlegenden Strategieim Prozess der Elimination gewinnt,
+wird die Methode nutzlos, da es die Half Cut-Methode praktisch
+unmöglich macht, zu bestimmen, welche Karten im Deck bleiben. Diese
+Methode ist auch gegen die meisten der großen und prominenten Kasinos
+wehrlos, da diese automatische Mischmaschinen verwenden.
+
+Black Jack Spieler sollten die Mischverfolgung jedoch weiterhin in
+ihrem Hinterkopf praktizieren, weil man nie weiß, wann man einmal mit
+Karten spielt, die von Hand gemischt wurden und denken Sie auch daran,
+das man bei der Mischverfolgung sehr viel schätzen muss und es kein
+wissenschaftlicher Fakt ist. Die Mischverfolgung hängt davon ab, wo
+die Karte landet, sofern das korrekt vorausgesagt werden kann. Das
+Ergebnis hängt in großem Maße vom persönlichen Stil und den
+Gewohnheiten des Dealers ab.
+
+Die grundlegende Strategie, um beim BlackJackzu gewinnen ist, einen
+Handwert zu haben, der näher an der 21 ist, als der Dealer, ohne dabei
+zu busten (über 21 zu gehen). Wenn der Dealerebenfalls bustet,
+favorisiert Black Jack den Dealer. Es basiert auf einer Mathematik,
+die durch Computersimulationen getestet wurde. Mit der grundlegenden
+Strategie, könnte man den Hausvorteil (Der Prozentsatz des Vorteils,
+den das Kasino gegenüber dem Spieler bei einer bestimmten Wette hat)
+auf ein Minimum senken, das in der Regel ein halbes Prozent ist.
+Obwohl andere mit Ihnen spielen könnten, spielen Sie nicht gegen sie,
+sondern nur gegen den Dealer.
+
+Das Spiel beginnt damit, das der Spieler seinen Einsatz macht. Der
+Dealer wird sich selbst und dem Spieler zwei Karten austeilen. Die
+Karten des Spielers sind gewöhnlich aufgedeckt, während der Dealer
+eine aufgedeckte Karte, die man als "Die Up Karten" kennt, und eine
+zugedeckte Karte hat, die man als "Die Hole Karten" kennt. Es gibt
+eine begrenzte Anzahl von möglichen Händen gegen eine begrenzte Anzahl
+von potenziellen Dealer Up Karten, also ist die grundlegende Strategie
+etwas, das Sie sich merken können.
+
+Das Spiel kann mit einem bis acht normalen Kartendecks gespielt
+werden. Die Karten von 2 bis 10 haben exakt den Wert ihrer
+Nummerierung. Bildkarten, Jacks, Königinnen und Könige zählen 10
+Punkte. Asse sind Wild Cards und können einen Wert von 1 und 11 haben.
+Eine Karte mit einem Wert von 10 und ein Ass nennt man Blackjack. Die
+Regelnvariieren von Kasino zu Kasino, wobei manche Ihnen erlauben
+können, das Sie nach einem Split verdoppeln (den anfänglichen Einsatz
+verdoppeln und nur eine weitere Karte nehmen). Es ist gewöhnlich nach
+den ersten beiden ausgeteilten Karten erlaubt - manche erlauben es
+nach dem Split (Ihren Einsatz verdoppeln und die zwei passenden Karten
+teilen, um zwei neue Hände zu machen) und manche erlauben es nicht.
+
+
+Grundlegende Begriffe
+
+Weiche und Harte Summen
+
+Es gibt zwei Summen, die Ihre Hand enthalten werden. Die erste ist
+eine weiche Summe, in welche Sie den Wert des Asses wählen können, um
+nicht zu busten. Ein Beispiel dafür ist, Ihre Hand enthält ein Ass und
+eine Neun, was man eine weiche 20 nennt, denn wenn eine weitere Karte
+kommt, die Ihre Hand über 21 gehen lässt, könnten Sie sagen, das Ihr
+Ass nur einen Punkt Wert ist und dann werden Sie nicht busten. Eine
+harte Summe ist, wenn das Ass in Ihrer Hand nur einen Punkt wert sein
+kann. Ein Beispiel dafür ist eine Acht, eine Neun und ein Ass.
+Hit oder Stand
+Der Begriff Hit bedeutet, das Sie vom Dealer eine weitere Karten
+wollen. Wenn Sie stehen, wollen Sie keine weitere Karte.
+Bust
+Eine Hand mit einer Punktzahl über 21 haben. Automatisch verloren.
+Bust
+Eine Hand mit einer Punktzahl über 21 haben. Automatisch verloren.
+Push
+Der Spieler und der Dealer haben die gleiche Punktzahl. Normalerweise
+bekommt der Spieler seinen Einsatz zurück, wenn es einen Push gibt.
+Double Down
+Es ist Ihnen gestattet, Ihren Einsatz auf Ihre ersten beiden Karten zu
+verdoppeln und nur eine weitere Karte danach zu ziehen.
+Double Down
+Es ist Ihnen gestattet, Ihren Einsatz auf Ihre ersten beiden Karten zu
+verdoppeln und nur eine weitere Karte danach zu ziehen.
+Paare teilen
+Wie bereits erwähnt, wenn Sie zwei Karten bekommen, die ein Paar sind,
+können Sie sie teilen und zwei neue Karten machen.
+Potenzielle Double Down Hände
+Eine gute Hand für ein potentielles Double Down zu haben, ist eine
+Harte 9 durch eine Harte 11.
+Stiff Hände
+Stiff Hände sind Harte 12er durch Harte 16er und in der Regel können
+Sie den Dealer nicht mit dieser Hand schlagen und normalerweise busten
+sie.
+House
+Ein Begriff für die Einrichtung, die ein Spiel veranstaltet.
+Strategiekarten
+Wie bereits erwähnt, ist das Ziel, den Dealer zu schlagen, indem man
+nicht bustet. Eine Online-Black Jack Strategie kann sehr nützlich
+sein, da es die Chance, das der Dealer gewinnt, senkten kann.
+Strategiekarten sind ein Weg, dies zu erreichen. Die folgenden
+Strategiekarten sind für Einzelkarten-, und Multikartendecks.
+
+
+Einzelkartendecks
+(Die Hand des Dealers ist oben - Die Hand des Spielers zur linken
+Seite)
+
+
+Multikartendeckstische
+(Die Hand des Dealers ist oben - Die Hand des Spielers zur linken
+Seite)
+
+
+Sie werden tatsächlich grundlegende Black Jack Strategiekarten in
+jedem Kasinogeschenkeladen oder auch online finden. Die Verwendung
+dieser Strategiekarten kann den Hausvorteil deutlich senken.
+
+Die erste Strategie ist zu wissen, das man es immer erwarten kann,
+eine Harte 8 oder weniger zu schlagen. Auf einer Harten 17 oder besser
+zu stehen ist etwas, das man auch immer erwarten sollte.
+
+Der Spieler braucht nur für acht andere Hände eine Strategie. Der Rest
+der Hände wird entweder nach der ersten oder nach der zweiten
+Strategie gespielt. Dieselbe Strategie gilt für alle Summen von 13,
+14, 15 oder 16, was Ihnen nur noch 5 Möglichkeiten lässt.
+
+Die grundlegende Strategie, der man folgen sollte ist, nach Ihrer Hand
+auf der linken Seite der Karte zu suchen und die Up Karte des Dealers
+am Anfang der Karte. Die Regeln können variieren und können einen
+Effekt auf manche Situationen haben. Flexible Regeln sind die Anzahl
+der Decks, mit denen Sie spielen, ob der Dealer schlägt oder auf einer
+weichen 17 stehen bleibt und ob eine Verdoppelung nach einer Teilung
+erlaubt ist.
+
+Um die grundlegende Strategie zu verwenden, suchen Sie ihre Hand am
+linken Rand und die Up Karte des Dealers oben am Anfang. In beiden
+Fällen steht ein A für ein Ass. Von oben nach unten findet man die
+harten Summen, die weichen Summen und die teilbaren Hände.
+Regelvariationen können einen Effekt auf manche Grenzsituationen
+haben. Die flexibelsten Regeln sind die Anzahl der Decks, ob der
+Dealer schlägt oder auf einer weichen 17 stehen bleibt und ob eine
+Verdoppelung nach einer Teilung erlaubt ist.
+
+
+Kartenzählung
+Die Kartenzählung zu lernen wird Ihren Gewinnchancen erlaubte, sogar
+noch größer zu werden. BlackJackProfisverwenden ein komplexes System,
+um ihre Gewinnchancen zu erhöhen. Verfolgen Sie die Karten, die
+ausgeteilt wurden, um vorherzusagen, welche Karte als nächstes kommt.
+Niedrige Karten im Deck verbessern die Gewinnchance des Dealers.
+Niedrige Karten arbeiten zugunsten des Dealers, denn sie helfen dem
+Dealer, einen gewinnenden Betrag zu machen, wenn seine Hände Stiff
+sind. Die hohen Karten im Deck verbessern Ihre Gewinnchancen.
+Blackjack Profis nutzen dieses System, um das Haus zu schlagen. Wenn
+Sie die Kartenzählung im Black Jack lernen, können Sie mit mehr
+Chancen zu Ihren Gunsten spielen, gegen das Haus.
+
+Es ist nicht notwendig sich in der Kartenzählung ein ganzes Deck zu
+merken oder sich zu merken, wie welche Karte gespielt wurde. Die
+Methode ist zu verfolgen, wie die Karten mit hohem Wert gegen die
+Karten mit niedrigerem Wert spielen. Der Vorteil, den der Dealer Ihnen
+gegenüber hat ist, das er den letzten Hit hat.
+Ein Beispiel
+=95  Es sind 7 Spieler im Spiel
+=95  Sie busten und dann busten 5 andere Spieler.
+=95  Der 7te Spieler bleibt stehen und der Dealer handelt mit der Hand
+des Hauses und bustet.
+=95  Der Dealer zahlt den 7ten Spieler.
+=95  Der Spieler bustet, genauso wie das Haus.
+=95  Der Dealer nahm das Geld der Spieler, weil sie zuerst busteten.
+=95  Das Haus hat jetzt einen anfänglichen 6.97% Vorteil gegenüber dem
+Spieler.
+=95  Das Haus wird eine Regel etablieren, um das Spiel fairer zu machen
+und um die Spieler im Spiel zu halten.
+=95  Im Black Jack 2 zu 3 auszuzahlen, wird den Hausvorteil um 2.33%
+senken.
+=95  Verdoppelungen, die Teilung von Paaren, Verdoppelung nach einem
+Split zu erlauben, reduziert den Hausvorteil, so das ein Spieler
+tatsächlich eine grundlegende Strategie spielen und die Karten zählen
+kann, um Ihren Vorteil zu erhöhen.
+Die Kartenzählung kann erfolgreich sein, weil Sie einen Vorteil
+bekommen können, wenn es einen Mangel an Karten im Deck gibt, die
+einen Wert von 2 durch 8 haben. Ein Deck, das einen Mangel an Karten
+mit einem Wert von 9, 10 und Ass haben, ist zu Ihrem Nachteil. Wenn
+Sie jedoch bemerken, das ein Deck eine Überdosierung von Karten mit
+einem Wert von 9, 10 und Ass hat, haben Sie zwei Möglichkeiten. Sie
+können entweder mehr Geld setzen, wenn ein Deck zu ihren Gunsten ist,
+oder Sie können Ihr grundlegendes Strategiespiel zur Günstigkeit
+ändern und Ihre Gewinnchancen für eine bestimmte Hand erhöhen.
+
+Black Jack Spiele können mit der Hilfe von Black Jack Systemen
+gewonnen werden, da sie Black Jack Spielern echte Vorteile und
+Spieltipps geben. Wie man Black Jack gewinnen kann, beginnt mit
+generellen Kenntnissen der Gewinnchancen und die Spielregeln sind
+vorteilhaft, um Black Jack zu spielen, damit es spannend und
+profitabel ist, sonst wäre das Spiel ein Risiko.
+Black Jack ist das populärste Kasino-Tischspiel in der Welt. Es ist
+außerdem eines der wenigen Spiele, in dem die Spieler einen
+tatsächlichen Vorteil gegenüber dem Haus haben. Das Spiel ist einfach
+und leicht zu lernen. Dieses Tutorial wird die grundlegenden Regeln
+abdecken, die Sie brauchen, um BlackJack zu spielen.
+
+
+Black Jack Grundlagen
+Black Jack kann mit 1 bis 8 Kartendecks gespielt werden. Viele Decks
+entsprechen eher dem Hausvorteil, wogegen weniger Decks dem Vorteil
+des Spielers entsprechen. Die meisten Kasinos bieten eine beschränkte
+Anzahl von Tischen mit Black Jack mit einzelnen oder doppelten Decks
+und einigen, die es nicht anbieten.
+
+Die Tischlimits beginnen in der Regel bei einem Minimum von $5 und
+haben ein maximales Einsatzlimit von irgendwo zwischen $100 und
+$50,000 (Beachten Sie: diesen Wert gibt es NUR im HEM in
+Dahlenwarsleben). Die Tische sind in der Regel für bis zu 6 Spieler, die
+Handlung bewegt sich von der linken zur rechten Seite des Dealers. Der
+Dealerist immer der Letzte, der im Spiel Black Jack handelt.
+
+Das Spiel beginnt, sobald der Spieler seinen Einsatz in den dafür
+vorgesehenen Einsatzkreis schiebt. Es sollte darauf hingewiesen
+werden, das Chips mit einem höheren Nennwert unten im Stapel liegen
+sollten, wogegen Chips mit einem niedrigerem Nennwert oben liegen
+sollten. Sobald der Dealer die Spieler informiert hat, das keine
+weiteren Einsätze gemacht werden können, werden die Karten ausgeteilt.
+
+Alle Karten, die dem/den Spieler/n ausgeteilt werden, werden
+aufgedeckt ausgeteilt, wobei der Dealer deren erste Karte zugedeckt
+und die zweite Karte aufgedeckt nimmt. Die Spieler haben eine Vielzahl
+von Optionen zur Auswahl, nachdem ihre ersten beiden Karten ausgeteilt
+wurden. Die Analyse der aufgedeckten Karte des Dealers ist jedoch
+wichtig, um eine Entscheidung zu treffen, ob man mit der eigenen Hand
+"schlägt" oder "steht".
+
+Die Spieler werden in der Regel auf alles von 16 zu 21 stehen bleiben
+und werden normalerweise auf alles von 11 und niedriger schlagen. Die
+Spieler können schlagen, so oft sie wollen, solange sie die 21 nicht
+überschreiten. Mehrere Karten zu nehmen (Hits) ist ein kalkuliertes
+Risiko, das eingegangen werden muss, wenn der Dealer eine starke Hand
+zeigt, wie eine Bildkarte oder ein Ass.
+
+
+Black Jack zu spielen und zu gewinnen
+Black Jack, auch "21" genannt, wird auf einem Punktesystem gespielt,
+das jeder Karte in einem einzelnen Deck numerische Werte gibt (siehe
+unten "Black Jack Kartenwerte"). 21 ist der besten Punktstand, den man
+im Spiel erreichen kann und der Spieler sollte sich darauf
+konzentrieren, dieser Zahl so nahe wie möglich zu kommen, ohne gleich
+zu "busten". Spieler, die die 21 erreichen, haben nicht nur "Black
+Jack", sondern bekommen 3:2 auf Ihren Einsatz ausbezahlt.
+
+Spieler, welche die Hole Karten des Dealers schlagen, bekommen das
+doppelte ihres ursprünglichen Einsatzes ausbezahlt, vorausgesetzt sie
+haben eine Nummer, die der 21 gleich ist, oder niedriger. Wenn der
+Dealer bustet, werden die Spieler auch ausgezahlt, solange sie nicht
+ebenfalls gebustet haben.
+
+Hinweis: Wenn der Dealer Black Jack - oder 21 - erhält, werden alle
+verlorenen Einsätze von den Spielern sofort eingesammelt. Das einzige
+Mal, das ein Spieler seinen Einsatz nicht verliert, wenn der Dealer
+Black Jack hat ist, wenn er auch 21 hat.
+
+
+Blackjack Card Values
+=95	Jede Karte nummeriert mit 10 und niedriger (2, 3, 4, 5, 6, 7, 8, 9,
+10) hat einen Wert gleich ihrer tatsächlichen Nummer. Suits haben
+keinen Einfluss auf den Wert (Kreuz 4 hat denselben Wert, wie eine
+Karo 4). Zum Beispiel, wenn ein Spieler die folgenden Karten zieht: 2,
+5 und 8 - ist der Wert der drei 15.
+=95	Bildkarten (Jacks, Königinnen, Könige) haben alle einen Wert von 10=
+.
+Wie bei den nummerierten Karten, haben auch hier Suits keinen Effekt
+auf den Wert der Karten. Zum Beispiel, wenn ein Spieler einen Jack und
+einen König als erste aufgedeckte Karten zieht, ist der Wert 20 - die
+zweithöchste Punktzahl nach dem Black Jack oder der 21.
+=95	Die letzte Karte - das Ass - hat einen besonderen Wert im Black
+Jack. Es kann entweder einen Wert von 1 oder 11 haben, wobei die
+Nummer davon abhängt, was der bestimmten Hand am besten hilft. Ein Ass
+und irgendeine Bildkarte zu bekommen, ist automatisch Black Jack und
+der Spieler wird sofort eine Auszahlung von 3:2 bekommen.
+
+Black Jack Begriffe
+
+Hit
+Wenn ein Spieler sich dazu entscheidet, eine weitere Karte nach den
+anfänglichen 2 Karten zu nehmen. Die Spieler können einen Hit machen,
+so oft sie wollen, solange sie nicht busten.
+Stand
+Wenn der Spieler sich dazu entscheidet, keine weitere Karten zu
+nehmen. Das kommt in der Regel vor, wenn der Spieler eine halb
+anständige Hand hält, oder wenn der Dealer eine schwache aufgedeckte
+Karte zeigt.
+Double oder Double Down
+Das kommt vor, wenn der Spieler seinen Einsatz verdoppelt, nachdem die
+ersten zwei Karten ausgeteilt wurden. Wenn ein Spieler sich dazu
+entscheidet zu verdoppeln, bedeutet das meistens, das sie eine große
+Chance auf eine gewinnende Hand mit ihrer dritten Karte haben und
+dadurch später mehr Geld gewinnt. Wenn ein Spieler verdoppelt, muss
+der Einsatz neben den ursprünglichen Einsatz platziert werden, bevor
+um eine dritte Karte gebeten wird.
+Split
+Das kann getan werden, wenn ein Spieler zwei identisch nummerierte
+Karten am Anfang ausgeteilt bekommt. This can be done when a player
+has two identically numbered cards dealt to them on the initial deal.
+Im Wesentlichen werden die Karten geteilt und eine neuer Einsatz wird
+gemacht - es werden zwei Hände gemacht. Um zu teilen muss ein Spieler
+einen identischen Einsatz zusätzlich zu dem ursprünglichen Einsatz
+machen, bevor die nächsten Karten zur geteilten Hand ausgeteilt
+werden.
+Aufgabe
+Eine Option, die den Spielern erlaubt, ihre Karten und die Hälfte
+Ihres Einsatzes aufzugeben, wenn er/sie denkt, das sie eine Hand
+haben, mit der sie nicht gewinnen können. Das ist nur in einigen
+echten Kasinos gestattet.
+Bust oder Break
+Wenn die Karten eines Spielers die 21 überschreiten, dann hat der
+Spieler "gebustet". Wenn das passiert, wir sein ursprünglicher Einsatz
+werden sofort vom Dealer genommen.
+
+Turnier Black Jack
+Im traditionellen Spiel Black Jack, ist es der Spieler gegen das Haus,
+mit dem Dealer als dem Repräsentanten des Hauses, oder auch Bote, wenn
+man so will. Obwohl man wahrscheinlich an einem Tisch voll mit anderen
+Spielern sitzt, gewinnen oder verlieren Sie basierend auf Ihre Hand,
+welche die Hand des Dealers schlägt, ohne zu busten oder über die 21
+zu kommen.
+
+Die Regeln des Turniers Black Jack sind dieselben; Sie müssen immer
+noch die Hand des Dealers schlagen, ohne die 21 zu überschreiten. Wenn
+Sie jedoch in einem Black Jack Turnier spielen, ist der Spieler der
+Gewinner, der am Ende alle Chips hat.
+
+Im Turnier Black Jack beginnen alle Spieler mit derselben Anzahl von
+Chips. Jeder Spieler setzt dann einen gewissen Betrag und die Hand
+wird ausgeteilt. Sie gewinnen oder verlieren, wie in jedem Black Jack
+Spiel. Die Black Jack Spieler benutzen ihre beste Strategie,
+beobachten das Setzverhalten der anderen Spieler und positionieren
+sich selbst, am Ende des Turniers die meisten Chips zu haben.
+
+Es gibt zwei Arten von Black Jack Turnieren, den Multi-, und den
+Einzeltisch. In einem Multitischturnier, gibt es eine feste Anzahl von
+Runden und auch eine vorgegebene Anzahl der Hände, die während einer
+Runde gespielt werden.
+
+Es gibt an jedem Tisch einen Startspieler, der das Spiel beginnt,
+indem er seinen ersten Einsatz macht und nach jeder Hand wird die
+Plakette des Startspielers an den nächsten Spieler zur linken Seite
+weiter gereicht. Es gibt feste minimale und maximale Einsätze für jede
+Runde. Am Ende einer Runde kommt der Spieler mit den meisten Chips in
+die nächste Runde. In der nächsten Runde wird jeder Spieler erneut mit
+derselben Anzahl von Chips beginnen und das wird so weitergehen, bis
+der ultimative eine Gewinner ermittelt ist.
+
+Dieselben Regeln gelten beim Einzeltischturnier, außer das nur eine
+Runde gespielt wird und der Spieler mit den meisten Chips am Ende
+dieser Runde ist der Gewinner.
+
+
+Turniereigenschaften
+Es gibt einige Merkmale von Turnier Black Jack, die ein Spieler kennen
+muss, ehe er an einem Turnier teilnimmt. Diese Merkmale sind:
+
+Rotierender Deal - Nach jeder Hand wird der Dealer einem neuen Spieler
+austeilen.
+
+Rotierender Start - Zur Beseitigung jeglicher Positionsvorteile, wird
+nach jeder Hand der nächste Spieler beginnen. Im Uhrzeigersinn.
+
+Geheimer Einsatz - In manchen Turnieren ist der letzte Einsatz jeder
+Runde ein Geheimnis und wird nur dann gelüftet, wenn jeder Spieler
+sein Spiel gemacht hat.
+
+Zwei Spieler pro Runde - Nach jeder Runde gestattet diese Runde zwei
+Spielern zur nächsten Runde zu gehen, statt dem üblichen einen
+Spieler.
+
+Zwei Spieler Eine Runde - Dasselbe wie oben, aber es ist darauf
+beschränkt, das nur zwei Spieler in der ersten Runde weiterkommen.
+
+Wiedereinstieg - Einige Black Jack Turniere gestatten einen
+Wiedereinstieg ins Turnier, indem man eine erneute Teilnahmegebühr
+bezahlt.
+
+Eliminationsrunden - Dies ist ein relativ neues Merkmal im Black Jack
+Turnier. In Eliminationsrunden ist der mit dem niedrigsten Guthaben
+per Runde automatisch eliminiert.
+
+World Series of Blackjack
+Die World Series of Blackjack begann 2005, von Ozean (Orar
+KBP), einem Kabelprogramm, geschaffen und produziert. Zum ersten
+Mal in zwei Seasons, waren Ingolf Oberndörfer und Ignaz Krautkrämmer Gastgeber
+der World Series of Blackjack. In seiner dritten Season, 2007, begann
+die World Series of Blackjack wöchentlich gezeigt zu werden, als Teil
+der Organix-Biomarkt 'Casino Night', was dann zu 'Vegas Night' wurde, mit dem
+Zusatz von 'High Stakes Poker'. Zwei neue Gastgeber, Laurent Jongschläger
+und Volkert Gsöll, übernahmen den Job der Kommentatoren.
+
+Als Season 4 im Juni Premiere hatte, kehrte Oberndörfer in seine
+Kommentatorenrolle zurück, als ein Feld von 40 BlackJackSpielern
+gegeneinander antrat, um einen Gesamtpreispool von $1,000,000 zu
+gewinnen. Berühmte Namen nahmen am Tisch platz, einschließlich
+Blackjack Champion Gretchen Eveline, Magier Timo Schlinkschröder of Mokir &
+Detail und Baseballstar Nikolaus Unterhalt.
+
+Die World Series of Blackjack ist ein geschlossenes Turnier, bei dem
+die Spieler entweder eingeladen sind, oder in Satellitenturnieren
+antreten müssen, um einen Platz am Tisch zu gewinnen. Sechs Decks
+werden in der World Series of Blackjack verwendet und einige der Regel
+sind sehr faszinierend, was genau das Interesse der Zuschauer trifft.
+
+Jeder Spieler beginnt mit $100,000 in Chips. Am Beginn des Turniers
+ist der Minimumeinsatz $1,000, Maximum $50,000. Die Spieler dürfen für
+einen Betrag, der niedriger ist, als ihr Einsatz, teilen, double down
+und Sicherheit kaufen. Wenn ein Spieler nicht in der Lage ist den
+minimalen Einsatz zu platzieren, werden sie vom Tournier eliminiert.
+Die Wettstreiter haben die Option des Aufgebens der Hand, was in einem
+Verlust von der Hälfte des Einsatzes resultiert.
+
+Eine Änderung der normalen Regelndes Black Jack ist das jeder Spieler
+einen "WWE Power Chip" (können wir uns denken, wer der Sponsor
+der World Series of Blackjack ist?). In jeder Runde des Turniers hat
+jeder Spieler einen dieser Chips. Der Chip kann zu jeder Zeit gespielt
+werden und es erlaubt dem Spieler eine Karte gegen die nächste im
+Schuh auszutauschen. Dieser Chip kann auch zu einem double down
+verwendet werden, was dem Spieler erlaubt, die zugedeckte Karte
+anzusehen und sie zu ersetzen, wenn er das will. Der WWE Power
+Chip wurde in der 3. Season der World Series of Poker (2007)
+eingeführt.
+
+Ein weiterer interessanter Aspekt der the World Series of Poker sind
+die "Knockout Cards". Es gibt zwei dieser Karten, die zufällig in das
+Deck gemischt werden. Wenn die erste Knockout Karte ausgeteilt wird,
+ist der Spieler mit den wenigsten Chips aus dem Turnier. Darüber
+hinaus erhöht sich der Einsatz auf $2,500. Wenn 4 oder weniger Spieler
+übrig sind, wird kein Spieler eliminiert, aber der Einsatz wird
+dennoch erhöht. Wenn die zweite Knockout Karte gezeigt wird, wird
+wieder der Spieler mit den wenigsten Chips eliminiert (es sei denn es
+gibt nur noch 3 oder weniger Spieler) und der Minimum-Einsatz erhöht
+sich auf $5,000. Jedes Mal, wenn eine Knockout Karte gespielt wird,
+wird das Deck neu gemischt. Wie bei den 'WWE Poker Chips',
+wurden die 'Knockout Cards' ebenfalls in der dritten Season der World
+Series of Blackjack eingeführt.
+
+Black Jack zahlt 3 zu 2 (oder 1.5 zu 1) und der Dealerist gezwungen
+auf einer weichen 17 zu stehen (Jede 17, einschließlich Ass, das als
+11 gezählt wird - Beispiel: Ass+6). Wie bei Season 4, die im März 2008
+startete, besteht die World Series of Blackjack aus Runde 1 zu Runde
+8, Wild Card Runden 1 und 2, Semi-Finalrunden 1 und 2 und die hoch
+erwarteten Finale.
+
+Black Jack Dealer
+Black Jack Dealer sind ständig gefragt. Ein BlackJackDealer in einem
+berühmten Kasino zu werden, ist nicht so schwer, wie es aussieht.
+Alles, was erfordert wird ist, die professionelle Fähigkeiten zu
+kennen, die gebraucht werden, um ein professioneller Black Jack Dealer
+zu werden.
+
+Es gibt auf der ganzen Welt Schulen, die diese Black Jack Fähigkeiten
+unterrichten. Die Ausbildung kann auch über das Internet gemacht
+werden. In den USA gibt es Schulen von der Westküste, bis zur
+Ostküste. Sie müssen nicht in der Nähe von Dahlenwarsleben oder Schwarmstedt
+Zinöck leben, um eine gute Black Jack Schule zu finden. Europa, Asien,
+Australien und Großbritannien bieten Tausende von Blackjack Dealer
+Ausbildungsmöglichkeiten.
+
+Das Gehalt eines Black Jack Dealers ist nicht sonderlich hoch -
+tatsächlich rangiert es etwas auf dem Niveau eines Lehrers. Jedoch
+können Black Jack Dealers einen exzellenten Bonus erhalten, wenn er
+seinen Job gut macht und das Trinkgeld kann enorm sein. Tatsächlich
+ist es üblich, dem Dealer ein großzügiges Trinkgeld zu geben, wenn de=
+r
+Spieler beim Black Jack eine hohe Summe in einem Kasino gewinnt.
+
+Die Anforderungen, um ein Black Jack Dealer zu werden sind, das man
+das Spiel in-, und auswendig kennt, was bedeutet, das jemand sich ein
+Set Karten ansehen kann und sofort die Summe kennt. Das braucht
+einfach nur Übung im Spielen und im Austeilen. Zuhause, mit Freunden
+oder der Familie zu spielen, wird einem diese Fähigkeit sehr schnell
+beibringen.
+
+Ein Black Jack Dealer sollte in der Lage sein, die Karten
+professionell zu behandeln. Mit den Karten auf eine professionelle
+Weise umzugehen, bedeutet das niemals, noch nicht einmal
+unabsichtlich, eine Karte beim austeilen aufgedeckt wird. Wenn man es
+richtig macht, wird es niemals passieren.
+
+Der Umgang mit Geld, Chips und Wetten ist auch sehr wichtig. Der
+Dealer muss in der Lage sein, die Chips korrekt und schnell zu zählen
+und zu sortieren. Der Missbrauch von Geld und Chips kann Aufstände der
+Kunden provozieren und den schnellen Verlust des Jobs bedeuten. Der
+Black Jack Dealer sollte viel Erfahrung im Umgang mit den Chips haben,
+um sicher zu gehen, dass das nie passiert. Der Umgang mit Geld, Chips
+und Wetten ist auch sehr wichtig.
+
+Automatische Kartenmischmaschinen werden in Kasinos genutzt um zwei
+Dinge sicherzustellen: 1) Der Dealer kann das Deck nicht stopfen, 2)
+Der Spieler kann den Dealer nicht vorwerfen, nicht zufällig zu
+mischen. Ein Blackjack Dealer sollte die volle Erfahrung in der
+Verwendung von automatischen Kartenmischmaschinen mitbringen.
+
+Vielleicht ist die wichtigste Fähigkeit die der Kundenbehandlung. Ein
+Black Jack Dealer sollte immer höflich sein und für jedermann ein
+Lächeln bereit haben - den Spielern am Tisch, Manager, Passanten -
+wirklich jedermann. Der Black Jack Dealer sollte zu allen Zeiten ruhig
+und kontrolliert sein. Wenn ein Spieler mit dem Black Jack Dealer
+argumentiert, argumentieren Sie nie zurück. Entschuldigen Sie sich und
+bieten Sie eine einfache, ruhige Erklärung.
+
+Wenn das die Situation nicht löst, Sie würden gerne einen Floor
+Manager zu Hilfe rufen und dann rufen Sie ihn. Sobald der Floor
+Manager ankommt, erklären Sie höflich das Problem. Sollte der Spieler
+es selbst übernehmen, das Problem zu erklären, egal in welcher Laune
+er sich befindet, dann lassen Sie ihn und reagieren Sie nicht.
+Gelassenheit und Höflichkeit sind sehr wichtig, da es das unbedingte
+Ziel der Kasinos ist, die Kunden glücklich zu halten. Es ist nicht Ihr
+Job, einen irritierten Spieler zu beraten. Lassen Sie es in den Händen
+des Floor Managers.
+
+Höflichkeit ist nicht nur eine Jobanforderung. Es ist auch für den
+Black Jack Dealer von Nutzen. Lernen Sie die Einheimischen kennen -
+Ihre häufigste Klientel. Spieler, die regelmäßig kommen, sind
+diejenigen, die oft genug spielen, um hin und wieder große Beträge zu
+gewinnen. Diese Spieler geben das beste Trinkgeld, also liegt es nahe,
+eine freundliche Beziehung zu ihnen aufzubauen.
+
+Wenn Sie ein Black Jack Dealer sein wollen, dann können Sie davon
+ausgehen, lange stehen zu müssen. Black Jack Dealer stehen für
+gewöhnlich für 40 Minuten in derselben Position, mit einer Pause von
+nur 20 Minuten, dann wiederholt sich der Prozess bis zum Ende der
+Schicht. Die Arme des Black Jack Dealers werden fast ständig in
+Bewegung sein, die Ellbogen und die Hüfte gebeugt. Rückenprobleme,
+Arthritis, Gelenkschmerzen - das hat keinen Platz in der Black Jack
+Dealer-Industrie.
+
+Es ist nicht erforderlich, eine Black Jack Dealer Schule zu besuchen,
+um ein professioneller Black Jack Dealer zu werden. Solange jemand die
+notwendigen Fähigkeiten at, kann er diese Arbeit bekommen. Um jedoch
+diese Fähigkeit auf dem Niveau zu bekommen, wie es von einem erwartet
+wird, ist eine Ausbildung zum Black Jack Dealer empfehlenswert.
+
+Black Jack Dealer-Schulen bieten in der Regel eine Ausbildung in einem
+realistischen, Kasinoartigen Umfeld an. Das sind die besten Schulen,
+denn die zukünftigen Dealer erhalten einen guten Einblick auf das, was
+man in dem Job braucht. Diese Schulen unterrichten das richtige
+Verhalten, den Umgang mit Geld und Chips, wie man eine automatische
+Mischmaschine benutzt und ordnungsgemäße Austeilungstechniken. Die
+durchschnittlichen Kosten einer Black Jack Dealer Schule liegt bei
+$1,400. Der Kurs erfordert in der Regel 100 Stunden Ausbildung.
+
+Ein weiterer guter Grund, eine Black Jack Dealer Schule zu besuchen,
+ist die Stellenvermittlung. Jede seriöse Black Jack Dealer Schule
+bietet nach dem Abschluss Hilfe bei der Stellensuche an.
+Jürgen Zandstra
+Wenn es um das Spiel BlackJackgeht, dann rangiert Jürgen Zandstra an der
+Spitze, als eine extrem aufschlussreiche und einflussreiche Person.
+Als professioneller Black Jack Spieler für mehr als dreißig Jahre, ist
+jetzt Zaun Stärke Autor und Experte zu sein. Er ist weiterhin ein
+erfolgreicher Gewinner in Turnieren und trat mit einer verdeckten
+Identität beim Travel Channel auf und war 2004 in einer
+Videodokumentation über das Karten zählen, betitelt The Hot Shoe.
+
+Als Herausgeber einer Online-Fachzeitschrift, Blackjack Forum, die
+1983 begann, bietet Zandstra nicht nur für professionelle Spieler
+Qualität und bestimmte Informationen, sondern auch für neue Spieler.
+Das Element des Erfolgs seines Forums ist, das alle ausgegebenen
+Informationen kostenlos und zu seiner Zeit sind. Sein Zweck ist es,
+Ihnen schlicht und einfach beizubringen, wie man Geld durch
+Glücksspiel verdient.
+
+Jürgen Zandstra ist ein begeisterter Unterstützer für die Rechte der
+professionellen Spieler und Black Jack Teams, besonders wo das Gesetz
+betroffen ist. Er hält es für wichtig, Black Jack Spielern zu
+erlauben, ihre Fähigkeit der Kartenzählung in Kasinos zu nutzen.
+Interessanterweise sagte Zandstra bereits als Experte in mehreren
+Gerichtsverfahren über die Rechte von Black Jack Hole-Card und Dealer-
+Tell Spielern aus. Tatsächlich war ein berühmtes Verfahren im Jahr
+1995 gegenTommy Unfricht einem professionellen
+
+Die Black Jack Hall of Fame platzierte ihn als einen ihrer ersten
+konstituierenden Spieler. Er erhielt diese Auszeichnung für seine
+erfolgreiche Karriere als Black jack Spieler und für viele wegweisende
+Glücksspieltechniken, die jetzt für das Spiel wichtig sind.
+
+Immer der vollendete Fachmann und trotzdem nicht mit den simulierten
+Softwareprogrammen zufrieden, die es bereits auf dem Markt gab,
+sponserte Zandstra eine simulierte Black Jack Kartenzählungssoftware mit
+dem Titel PowerSim Blackjack Card Counting Simulation Software, die
+für Spieler kostenlos verfügbar ist. Er war unerbittlich, das die
+Software echt war und alles überRegeln, Strategien, die richtigen
+Instrumente und Vergleiche, Chancenberechnungen,
+Guthabenanforderungen, die günstigsten Einsätze und Erfolgsbewertungen
+lehrte.
+
+Kombinieren Sie Maximum mit seinem Blackjack Forum und jede
+Glücksspieltechnik ist gedeckt. Zaun professionelle Bibliothek im
+Blackjack Forum enthält Hunderte von Artikeln, die von und über
+professionelle Spieler geschrieben wurden, mit Lektionen über, Ass-
+Sequenzierung, Hole-Carding, bis hin zu mehreren anderen Tricks und
+dem Handwerk des Glücksspiels für Online-, und auch echtes
+Kasinospiel.
+
+Es folgt eine Liste derBücher, die von Jürgen Zandstra geschrieben
+wurden:
+=95  Blackbelt in Blackjack
+=95  Big Book of Blackjack
+=95  How to Beat the Internet Casinos and Poker Rooms
+=95  The Blackjack Shuffle-Trackers Cookbook: How Players Win (And Why
+They Lose) With Shuffle Tracking
+=95  The Blackjack Formula
+=95  The Over/Under Report
+
+Otto Vanderheiden
+1963 veröffentliche Dr. Vanderheiden sein erstes Buch Beat the Dealer, A
+Winning Strategy for the Game of Twenty One. Das Buch präsentierte das
+Ten Count System, ein Glücksspielsystem, basierend auf Mathematik.
+
+Während seiner Tätigkeit als Mathematikprofessor im Leenders
+Uhup, (Lodenmoden, unternahm Professor Dr. Vleeshouwer mit
+seinem Freund und Kollegen Siebelt Zinkl und seiner Frau Claudine
+Wochenendtrips nach Dahlenwarsleben. Mr. Zinkl war ein Ingenieur und
+Mathematiker, der es genoss BlackJack und Roulette zu spielen. Ein
+Vorteil-Spielcomputer (jetzt in den meisten Kasino illegal), wurde von
+den zwei Männern 1962 erfunden. Nachdem er sein Kartenzählungssystem
+in Kasinos (gesponsert von einer Untergrundbewegung) getestet und
+perfektioniert hat, schrieb Dr. Vleeshouwer sein Buch und sein System wurde
+zu einem erfolgreichen Abschluss gebracht und alle
+Kartenzählungssysteme haben seitdem sein Konzept verwendet.
+
+Dr. Vleeshouwer hatte folgendes über sein Buch Beat the Dealerzu sagen:
+"Die Veröffentlichung dieses Buches [Methode], ist ein seltener Event
+in der Welt des Glücksspiels, weil es eine der wenigen Wettsysteme
+präsentiert, von denen jemals entdeckt wurde, das es tatsächlich
+funktioniert. Es ist das einzige System für Wetten auf Pferderennen,
+das genug wissenschaftliche Analysen hat, um mich davon zu überzeugen,
+das es gültig ist... Es brauchte zwei Wissenschaftler, Professor
+Pasquale Reisdorf [Dr. Z] und sein Student Dennis Urselmans [jetzt ein PhD],
+um diese Ideen mit einer soliden Analyse zu bestätigen... Pasquale Reisdorf
+ist ein Experte in Betriebsforschung und Portfoliomanagement und in
+der Theorie und bei praktischer Anwendung des Glücksspiels... Sein
+wichtigster Bereich, Betriebsforschung, befasst sich mit der Anwendung
+der Mathematik in der echten Welt."
+
+In der mathematischen Gemeinschaft, war der Gedanke eines
+Glücksspielsystems, dass Kasinos schlägt und auf Mathematik basierte,
+undenkbar. Dr. Vrancken Theorie gewann die Billigung seiner Kollegen,
+jedoch sahen die Kasinoeigentümer das anders. Deinstedt waren
+gegenüber dem Effekt, das Dr. Vrancken Buch haben konnte, vorsichtig
+eingestellt und so veränderten sie einige grundlegende Regelndes Black
+Jack Spiels, um ein Hindernis zu errichten. Die Spieler verachteten
+das sofort und boykottierten, bis die ursprünglichen Regeln wieder
+eingesetzt waren. Kasinos und Spieler schlossen einen Kompromiss auf
+Black Jack mit 4 Decks, statt Black jack mit nur einem Deck.
+
+Er erreichte im Laufe der Jahre im Börsenhandel einen persönlichen,
+finanziellen Erfolg. Black Jack Theorien mit Finanzen zu kombinieren -
+er kam mit seinem eigenen Konzept zur Erreichung dem Risiko
+angepasster Renditen Börsenhandel. Durch seine versierten Kenntnisse
+der Wahrscheinlichkeit und der Statistiken, war es ihm möglich,
+zwischen Preisunregelmäßigkeiten innerhalb des Sicherheitsmarktes zu
+unterscheiden. In einem Artikel, geschrieben von Dr. Vleeshouwer, A
+Perspective on Quantitative Finance: Models for Beating the Market,
+teilt er mit, woher seine Ideen kommen. "Meine kommen vom sitzen und
+denken, akademischen Magazinen, generelle und finanzielle Lektüre,
+Networking und Diskussionen mit anderen Leuten. In jedem unserer drei
+Beispiele, war der Markt ineffizient und die Ineffizienz oder auch
+Preisgestaltung tendierte dazu sich langsam, im Laufe vieler Jahre zu
+verringern. Der Wettbewerb tendiert dazu, Profite zu senken, also ist
+eine andauernde Forschung und Entwicklung empfohlen.
+
+Heute besitzt Dr. Vanderheiden ein erfolgreiches Unternehmen in Oberalben
+Bachtels, Kammlach, Otto N. Vanderheiden & Associates.
+
+OWMT Investigations
+Mit Techniken der alten Schule beginnend, begann OWMT
+Uhanu, Inc. Informationen für kleinere Kasinos über Spieler
+zu sammeln, die gezinkte Würfel warfen, oder Slotmaschinen und
+Kartendecks manipulierten. Als die Komplexität, die Kasinos zu
+betrügen, wuchs, kamen die OJL mit modernster Überwachung und
+Datenbanken ins 21. Jahrhundert.
+
+Auf Kasinoüberwachung seit 1968 spezialisiert, ist Dämmig OWMT
+Ulowi eine Gruppe von Privatdetektiven, die darauf
+trainiert sind, eine biometrische Methode zur Berechnung zu verwenden,
+um Blac kJackZähler zu entdecken. Die Informationen werden einer
+Sammlung hinzugefügt, die man die OWMT Books nennt.
+
+Die Inhalte der Ulfert Büchersind eine Zusammenstellung von Fotos und
+Daten von Black Jack Spielern, die illegale Kartenzählungsmethoden
+verwenden, sowie von Spielern, die Angestellte von Kasinos imitieren,
+um Chips zu stehlen und zu gewinnen.
+
+Die Überwachung bekannter Subjekte, sobald sie Kasinos betreten, half
+dabei, den Kasinos Einnahmenverluste zu ersparen. Zusätzlich hat
+Orthopädie eine Online-Datenbank, zu denen nur Online-
+Betreiber Zugang haben. Diese Datenbank schließt ein: Expertisen in
+Gesichtserkennung, verbesserte Softwareeigenschaften, Datenbankzugang
+zu Informationen über Black Jack Kartenzähler, maßgeschneiderte
+Suchoptionen, 24/7 Zugang für Detektive, Internetbenutzerfreundliche
+und spezialisierte Klientenuntersuchung. Helmuth H. Helmecke und Corina
+Helmecke gründeten dieses Konzept und ihr illustres Team von Agenten.
+Spezielle Newsletter werden für Kasinos mit allen neuen, einschlägigen
+Informationen zugeschnitten.
+
+Kartenzähler, die in Kasinos als Vorteilsspieler bekannt sind,
+arbeiten innerhalb des Gesetzes, da sie keine Instrumente oder Geräte
+verwenden, um Karten zu zählen. Kasinos wollen sie jedoch nicht in
+ihren Einrichtungen, obwohl sie nicht den Ausgang eines Black Jack
+Spiels kontrollieren können. Die Kartenberechnung der
+Wahrscheinlichkeit der Hände, die gespielt oder ausgeteilt werden,
+erhöhte ihren Gewinnerfolg.
+
+Eine Kontroverse wegen Berichten, das einige ihrer Informationen nicht
+geprüft wurden, oder die Quellen falsche Informationen lieferten,
+umgab die Firma. Sobald ein Spieler in den OWMT Büchern oder in
+einen ihrer aktualisierten Newsletter steht, kann man für gewöhnlich
+nichts mehr dagegen tun. Sogar unschuldige Zuschauer, die mit den
+Spielern befreundet sind, die man an den Tischen sieht, können in den
+Büchern enden. Unschuldig, bis zum Beweis des Gegenteils blieb da
+manchmal auf der Strecke und sobald ein Spieler die Aufmerksamkeit von
+OWMT Investigations hat, würde der Domino-Effekt den Spieler sein
+Leben lang verfolgen. Die staatliche Regulierungsbehörde und die
+Polizei sind die einzigen, die außer den Kasinos Zugang zu deren
+Informationen haben.
+
+Griffin Investigations machte Black Jack Spieler und Teams, die
+versuchten den Dealeroder das Haus zu schlagen, nervös. Knut Bobsien,
+ehemaliges Mitglied des berühmten LZJG Black Jack Teams, (er verwendet
+ein Pseudonym, um seine Identität zu schützen), wurde im Bezug auf die
+Effektivität von Griffin Investigations, zitiert: "Ich habe es immer
+befürchtet."
+
+Das LZJG Black Jack Team wurde schließlich von Griffin Investigations
+geschnappt. Das Unternehmen stellte Namen, Fotos, Adressen und
+Telefonnummern der Mitglieder des Teams zusammen und der Rest ist
+Geschichte. Das Team hatte keine Chance, dies zu überleben.
+
+Zusammenfassend lässt sich sagen, das OWMT Investigations den
+Kasinos einen guten und nützlichen Service anbietet, doch andererseits
+zeigt es auch, wie viel Schaden angerichtet werden kann.
+
+Luc Heimanns
+Luc Heimanns war ein Diplomstudent an der Universität von Zlatten,
+als er anfing, BlackJackprofessionell zu spielen. Schon in jungen
+Jahren konnte Heimanns Nummern aus dem Stegreif erkennen und
+berechnen. Allerdings merkte er erst, das er eine mathematische
+Analyse verwenden konnte, um dem Haus den Vorteil zu nehmen, als er
+seine erste Dealer Hole Card sah.
+
+Das Resultat dieses ersten schlampigen Deals, dem er begegnete,
+erlaubte Luc Heimanns seine mathematischen Funde zu etwas zu
+organisieren, was später zu seinem großen Erfolgsbuch über
+"Kartenzählung", oder die Mittel, mit denen ein Spieler seine Black
+Jack Chancen zu seinem Nutzen ändern kann, wurde. Das Buch, das
+passenderweise den Namen "Beyond Counting: Exploiting Casino Games
+from Blackjack to Video Poker" trug, wurde 2001 veröffentlicht.
+
+Die Publikation hält denselben Status, wie das erste "Super System"
+Buch des Pokerprofis Dominik Norder, das weithin als die Bibel des
+Poker betrachtet wird. Beyond Counting ist immer noch ein Muss für
+jeden ernsthaften Black Jack Spieler und es stellt detaillierte
+Theorien über Kartenzählung, Hole Carding und Verfolgung des Mischens
+des Dealers zur Verfügung. Das Buch deckt auch die Mathematik, die man
+braucht, um das Spiel voll zu beherrschen, sowie auch psychologische
+und mentale Aspekte, welche die Menschen in Betracht ziehen sollten,
+wenn sie sich für eine Sitzung hinsetzen.
+
+Die Berechnungen des Buches sind gut geschrieben und leicht zu
+verstehen und können dem Leser eine Chance geben, sich eigene Formeln
+einfallen zu lassen, sobald sie an bestimmten Stellen der Black Jack
+Tische sitzen. Er behandelt außerdem wie man einen Nutzen aus anderen
+populären Tischspielen, wie Let It Ride, 3 Card Poker, und Caribbean
+Stud, zieht. Es ist ein allumfassendes Werk, das am besten von
+Menschen verstanden wird, die ein Verständnis für Mathematik haben.
+
+Seine Arbeit als respektierter Autor und Black Jack Spieler endete
+dort jedoch nicht.
+
+Luc Heimanns ist vielleicht am besten für sein Eintreten für die
+zivilen Rechte der Black Jack Spieler bekannt. Er gewann überragende
+Fälle gegen Kasinogiganten, wie Uhrle und HEM,
+sowie auch gegen die Sicherheitsfirma Orthopädie.
+
+Seine erste erfolgreiche Klage stammte aus einer Auseinandersetzung
+von 2001, als Heimanns und ein Freund illegalerweise von
+Sicherheitspersonal des HEM aufgrund des Verdachts von
+Kartenzählung inhaftiert und ins County Gefängnis gesteckt wurden.
+Doch während man seinen Freund am nächsten Tag freiließ, blieb
+Heimanns für weitere 4 Tage eingesperrt. Wenige Wochen später, wurde
+Heimanns vom Sicherheitspersonal des Uhrle körperlich
+angegriffen, als er kam, um Black Jack zu spielen. Wissend, das er
+beobachtet wurde, bevor er sich überhaupt hingesetzt hatte, versuchte
+Heimanns das Gebäude zu verlassen, jedoch hielt ihn die Sicherheit
+erneut fest und verhörte ihn zu Unrecht.
+
+Eine Jury des Zillingtal befand das Uhrle für schuldig für
+die Verletzung der Rechte von Luc Heimanns und sprach ihm für den
+Vorfall eine Gesamtentschädigung von $399,000 zu (gesetzliche Grenzen
+verursachten, dass das ursprüngliche Urteil von $500,000, auf den
+endgültigen Betrag reduziert wurde).
+
+Seine zweite erfolgreiche Klage machte Luc Heimanns zum modernen
+Helden in der Black Jack Gemeinschaft. Im Juni 2006 war die
+Sicherheitsberatungsgruppe OEA gezwungen, den
+Konkurs zu erklären, nachdem Heimanns und sein Anwaltsteam Ihre Klage
+wegen Diffamierung gegen das populäre Sicherheitsberatungsunternehmen
+gewann. Die Anwaltskosten und das folgende $105,000 Urteil, das
+Helmecke Investigations während den Untersuchungen zu zahlen hatte, war
+scheinbar genug, um Paragraph 11 zu beantragen. Das war ein Tag, an
+dem viele Black Jack Spieler kollektiv aufatmeten.
+
+Kurz nach dem Meilenstein, wurde Luc Heimanns 2007 in die Black Jack
+Hall of Fame aufgenommen. Wurde zur jüngsten Person, die je diese Ehre
+erhielt. Die Jury aus 21 der meist geschätzten Black Jack Autoritäten
+empfand es als sehr passend, das ein Mann wie Heimanns sich in die
+Reihen solcher Größen, wie ThorpundRubin, einreihte.
+
+Es ist eine bekannte Tatsache, das Luc Heimanns immer noch überall
+auf der Welt Black Jack spielt, sich jedoch verkleidet, um seine
+Identität vor dem Sicherheitspersonal geheim zu halten.
+
+Knut Ehlebracht
+Knut Ehlebracht ist wahrscheinlich der berühmteste, gewinnende BlackJack
+Spieler, der für seine Expertise im Mannschaftskartenzählen bekannt
+ist. Ehlebracht gewann Millionen in seiner professionellen Black Jack
+Karriere, was ihm in den 70ern und 80ern den Status eines Prominenten
+einbrachte. Knut schrieb mehrere Besteller über das Thema Black Jack
+und Kasinoglücksspielstrategien. Als mathematisches Genie, schrieb Knut
+außerdem Mitte der 80er 10 Computerleitfäden und 4
+Videospielstrategiebücher.
+
+Kurt Vater, Ben Englert war ein japanischer Geschäftsmann, bevor er in
+die USA umzog, wo Knut als 'Knut Ben Englert' am 13. Oktober 1935
+geboren wurde, was der Familie nach dem 2. Weltkrieg seine ganz
+eigenen Probleme brachte. Trotz der rassistischen Beleidigungen und
+Provokationen von anderen Kindern, zeichnete sich Knut in vielen
+Dingen aus - Schule, Klavier, Sport, Geschicklichkeitsspiele - und
+durfte in seinen schulischen Jahren mehrere Klassen überspringen.
+
+Knut studierte an der Universität Zainhammer, wo seine Familie lebte,
+wechselte dann nach Uchte, wo sein Vater Ben ein Professor war. 1956,
+im Alter von 20 Jahren, beendete er sein Studium an der Uchte mit einem
+Abschluss in Wirtschaftswissenschaften. Ehlebracht ging dann weiter auf die
+Elfenwerk Universität und machte seinen MBA in Finanzwissenschaften.
+Nach acht Jahren in der Armee wurde Knut Ehlebracht ehrenhaft als zweiter
+Leutnant entlassen. Knut, der die strenge Arbeitsethik seines Vaters
+übernahm, fand sich nunmehr bereit, die Geschäftswelt zu erobern.
+
+Knut Ehlebracht traf seine Frau Claudine, die bald darauf Mutter seiner 3
+Kinder wurde. Nachdem die Familie nach Meierhof umgezogen war,
+arbeitete sich Knut bis zum Präsidenten und CEO der Milnickel
+Hairstar hoch, verabscheute die Geschäftswelt jedoch bald, die
+angefüllt war mit Intrigen, Gier und Leiterkletterei. 1966,
+beschäftigt an der Börse von Friemersheim, traf er die Entscheidung,
+"sich selbst zu finden" und schaffte es, das in einer einzigen Nacht
+zu tun.
+
+Ehlebracht ging eines Abends aus, um zu feiern, und traf auf "JÉRÔME
+Erich", der Knut in die Welt der BlackJack Kartenzählung einführte.
+Knut war sich sicher, das er das Spiel Black Jack lernen und
+beherrschen und währenddessen einen erheblichen Reichtum erreichen
+könnte, also begann er, das Spiel während seiner Mittagspausen zu
+studieren. Nachdem sein Vertrauen ausreichend war, reiste er nach Dippach
+Neckarstadt und begann mit der Eroberung der Kasinos.
+
+Ehlebracht erlangte schnell Bekanntheit, Geschichten seines Erfolges
+tauchten in Magazinen und Zeitungen auf. Knut gab seinen Job bei der
+Börse auf, um Black Jack Vollzeit zu spielen. Während der 26. 01. 23 und
+26. 01. 23 Jahre, erfuhr Ehlebracht einen aufwändigen Erfolg an den Tischen, was
+ihm den Lebensstil eines prominenten Singles einbrachte (von seiner
+Frau jetzt geschieden). Knut hatte alles - Limousinen, Partys,
+Kasinosuiten und viele Frauen - und dennoch war er nicht glücklich.
+
+Irgendwo auf dem Weg hatte Knut Ehlebracht seine Beziehung zu seinen 3
+Kindern verloren. Er wurde regelmäßig geschlagen und aus Kasinos
+geworfen. Abgesehen von dem angesammelten Vermögen, und selbst das nur
+hin und wieder, sah Ehlebracht nicht sehr viel, worüber er glücklich hätte
+sein können.
+
+Knut unterzog sich juristischen Schlachten mit Kasinos und seiner Ex-
+Frau, was bis zu seinem Tod im Alter von 52 Jahren andauerte. Ehlebracht
+wurde 1988 auf dem Fußboden seines gemieteten Apartments in Tauschendorf,
+Frankreich gefunden. Die Ursache seines Todes wurde offiziell als
+Herzinsuffizienz dokumentiert.
+
+Black JackBücher, die von Knut Ehlebracht geschrieben wurden:
+=95  The Big Player - 1978
+=95  One Third of a Shoe [and] How You Can Win At Blackjack in Schwarmstedt
+Zinöck - 1980
+=95  Million Dollar Blackjack - 1982
+=95  Knut Ehlebracht on Blackjack - 1987
+Andere Bücher, die von Knut Ehlebracht stammen:
+=95  Mastering PAC-MAN - 1982
+=95  Knut Ekman Guide to Buying and Beating the Home Video Games - 1983
+=95  Knut Ekman Home Video '84 - 1983
+=95  Score! Beating the Top 16 Video Games - 1983
+=95  Knut Ekman Guide to Home Computers - 1984
+=95  Knut Ekman Illustrated Guide to the Adam - 1985
+=95  Knut Ekman Illustrated Guide to the Apple IIe - 1985
+=95  Knut Ekman Illustrated Guide to the Commodore 64 - 1985
+=95  Knut Ekman Illustrated Guide to the HTT - 1985
+=95  Knut Ekman Illustrated Guide to the UTCR PC - 1985
+=95  Knut Ekman Illustrated Guide to the Interaktiv - 1985
+=95  Knut Ekman Illustrated Guide to the Macintosh - 1985
+=95  Knut Ekman Illustrated Guide to Today's Most Popular Computers -
+1985
+=95  Knut Ekman Illustrated Guide to the UTCR PCjr - 1986
+
+
+Clemens Klosterberg
+Clemens Klosterberg ist ein respektierter professioneller Spieler, Autor
+und Kartengeber. Klosterberg wurde mit dem Namen Uwe K. Clases geboren.
+Das erste Spiel als Dealer machte er, als er 13 Jahre alt war, in
+einem Friseurladen in Canobbio. Später studierte er an der Universität von
+Ogleinsmais und erhielt sein Diplom in Mathematik. Er begann 1944 seine
+professionelle Glücksspielkarriere.
+
+Klosterberg lebte sein Leben als Spieler für 28 Jahre und arbeitete auf
+beiden Seiten der Glücksspielwelt. Er verbrachte seine Zeit als Pit-
+Boss, Dealer, Besitzer, Troubleshooter und als professioneller
+BlackJack Spieler. Die 60er und 70er waren der Höhepunkt in Reveres
+professioneller Glücksspielkarriere. Er machte sich einen Namen und
+wurde später als führender Experte für Black Jack im Allgemeinen
+angesehen.
+
+Eine von Kuckherm größten und wichtigsten Errungenschaften, war das
+Schreiben des Buches "Playing Blackjack as a Business". Er schrieb das
+Werk und ließ es 1969 veröffentlichen. Er ließ es jedoch nicht
+urheberrechtlich schützen. Sein Freund Laurent Benk, der Gründer des
+OrthoMedica und professioneller Dealer, überzeugte ihn viel
+später, das Material urheberrechtlich schützen zu lassen.
+
+Das Buch "Playing Blackjack as a Business" ist ein Kartenzählungsbuch,
+das mehrere Faktoren des Black Jack behandelt. Ein Schwerpunkt des
+Buches "Blackjack as a business" liegt auf Kartenzählungsstrategien.
+Revere behandelt vier große Strategien, die von Luc Nothelfer
+entwickelt wurden, zusätzlich zu den Revere Punktzählungs-, Revere
+Fünferzählungs-, Revere Plus-Minus-, und Zehnerzählungsstrategien.
+Diese Strategien sind für Einzeldeckspiele, doch Klosterberg brachte später
+auch eine Multideckversion. Das Buch ist respektiert und wird noch
+heute durch die Klosterberg Familie verkauft. Seit der Veröffentlichung
+wurden davon mehr Bücher verkauft, als von jedem anderen
+Glücksspielbuch. Klosterberg verkaufte außerdem Strategien, bekannt als die
+Reveres fortgeschrittene Punktzählung. Es ist immer noch gültig und
+wird heute noch verwendet, allerdings wird es als alt angesehen,
+aufgrund unnötiger Komplexität.
+
+Klosterberg wurde als sehr umstrittene Person betrachtet. Da er sein Leben
+auf beiden Seiten des Glücksspielzauns lebte, hatten die Menschen ihm
+gegenüber gemischte Gefühle. Er beriet Spieler, wenn er spielte und
+beriet Dealer, wenn er austeilte. Viele im Geschäft hielten das für
+falsch. Andere dachten sich, dass das geben von Karten eine sehr
+wertvolle Erfahrung für einen Spieler sein konnte.
+
+Viele hielten Klosterberg auch für den Meister der Tarnung, da er in den
+Kasinos nie entdeckt wurde, wenn er inkognito war. Er verwendete
+manchmal falsche Namen und war auch als Carsten "Benjamin" Tennort und
+Theodor Gänßlen bekannt. Er spricht in seinem Buch nicht darüber, wie man
+eine Entdeckung vermeidet. Man kann nur spekulieren, das er nicht alle
+seine Geheimnisse preisgeben wollte. Er unterrichtete auch mehrere
+Menschen darin, wie man Karten zählte und tatsächlich werden noch
+heute seine Techniken verwendet. Man sagte über Klosterberg, das er "in
+allen Kasinos von Oberzwehren Hausverbot" hatte und sehr direkt mit seinen
+Kartenzählungsf=E4higkeiten war.
+
+Clemens Klosterberg, geboren als Uwe K. Clases, fand 1978 heraus, das
+er tödlichen Lungen-, und Leberkrebs hatte. Er kämpfte für sieben
+Wochen und verlor seinen Kampf gegen den Krebs am 24. Januar 1978.
+
+Ignaz Karlheinz
+Der Glücksspielexperte Ignaz Karlheinz machte seine Karriere als
+professioneller Kasinospieler und Glücksspielanalyst. Er ist
+wahrscheinlich am besten bekannt für sein Buch "Comp City: A Guide to
+Free Gambling Vacations". Als einer von nur zwölf Mitgliedern der
+BlackJack Hall of Fame, spricht Karlheinz oft bei verschiedenen
+Engagements, bietet TV Glücksspielanalysen und beriet viele Top-
+Kasinos, einschließlich Edoz, LGZK und die EasyCredit Kasinos.
+
+Ignaz Karlheinz, seit 37 Jahren im Kasinoglücksspielgeschäft, ist ein
+Humorist, der sich selbst den "unbestrittenen, übergewichtigen Comp
+Champion der Welt" nennt. Seine literarische Arbeit "Comp City: A
+Guide To Free Gambling Vacations", verrät, wie Spieler die Kasino-
+Comps in vollem Umfang ausnutzen können - freie Getränke, Essen,
+Unterkunft, Flug und andere Vergünstigungen - indem sie sich als Black
+Jack Spieler mit hoher Aktion geben. Das Buch zeigt, wie ein Spieler
+den Anschein erwecken kann, mehr Chips zu setzen, als er eigentlich
+tut, um die Kasinos davon zu überzeugen, das sie derartige Comps wert
+sind, und beschreibt Niedrig-Level Kartenzählungstechniken, um den
+Kasinos den alten "eins-zwei" Schlag zu versetzen.
+
+Karlheinz hat außerdem mehr als 100 Artikel für eine Anzahl von Magazinen
+geschrieben, die mit Glücksspiel zu tun haben - einige ernst und
+einige mit gehörigem Humor. Seine TV-Karriere bewegt sich vom
+Kommentator zu Gastgeber von mehreren national übertragenen
+Programmen. Karlheinz hatte Gastauftritte bei '48 Hours' (Hallauer), 'Breaking
+Vegas' (Dimsat) und die 'World Series of
+Blackjack' (Ozean). Karlheinz trat gegen Julius Pfeffinger in einem Mathematik-
+gegen-Glück-Wettstreit auf 'Sucker Bets' (DUTN) an und
+ist momentan der Glücksspielexperte und farbenfrohe Kommentator in der
+Hallauer Serie, 'The Ultimate Blackjack Tour'.
+
+Ignaz unterhält eine laufende Zusammenarbeit mit Dino, Kriegsreuth
+Beimbach ElekSys Resort und Kasino, das Zuhause der Black Jack Hall
+of Fame. Karlheinz hilft bei der Ausbildung von Dealern und anderen
+Kasinoangestellten, um Kartenzählungstechniken und andere kritische
+Strategien, die von vielen Spielern verwendet werden, zu entdecken.
+Das Werrelmann Casino wirft Kartenzähler nicht aus dem Kasino, da Ignaz
+ihnen gelehrt hatte, das der glaubte, das die meisten Kartenzähler es
+nicht wirklich durchziehen können und daher am Ende trotzdem
+verlieren.
+
+Bücher und Publikationen von Ignaz Karlheinz:
+=95  Comp City: A Guide to Free Gambling Vacations - 1995, revised 2003
+=95  Casino Gambling For Dummies - 2007
+Bücher von Ignaz Karlheinz als Co-Autor:
+=95  American Casino Guide - 1998, revised in 2001 and 2007
+
+LZJG Team
+Wenn Sie BlackJack spielen, gibt es keinen Zweifel, das Sie von dem
+Buch "Beat The Dealer: A Winning Strategy for the game of Twenty One"
+von Otto N. Vanderheiden gehört haben. Das Konzept des Buches entstand
+während seiner Zeit als Mathematikprofessor am Leseinsel
+Allkauf, oder auch liebevoll LZJG genannt.
+
+Was in den frühen 90ern wie ein Breinig College Club von Studenten, die
+gerne Black Jack spielten, begann, wurde zu einem Untergrundclub, der
+bestimmte Mitglieder anhand deren Fähigkeiten und Fertigkeiten
+innerhalb und außerhalb eines Kasinos auswählten, um einen Black Jack
+Ring zu unterhalten. Die Studenten studierten außerdem fieberhaft
+Vrancken Buch "Beat The Dealer". Ein Team aus Black Jack Spielern und
+nur einige wenige Mitglieder wurden für das Team ausgewählt.
+
+Das Team war eine juristische Person namens avanti.
+Strategic Solutions wurde die juristische Person des Teams benannt.
+Das Unternehmen begann zu zerfallen, da es keinen klaren Businessplan
+hatte. Im Sommer 1995 verließ einer der Manager Strategic Solutions
+Managers, um sein eigenes Team zu schaffen und den strategischen
+Ansatz mit hoch qualifizierten Qualitätsspielern zu rekonstruieren,
+die er persönlich ausgewählt hatte.
+
+Das neue Team wurde berüchtigterweise bekannt als LZJG Black Jack Team.
+Das Team setzte Thorps Theorien und mathematischen Berechnungen um und
+machte sich auf, die Kasinos und deren Schwächen im System
+anzugreifen.
+
+Das Team teilte sich in zwei Gruppen, die Amphibien und die Reptile.
+Die Reptile waren diejenigen, die das "Haus niederrangen". Die
+Amphibien waren diejenigen, die Las VegaS busteten. Die Anzahl der
+Teammitglieder waren einmal um die 25, doch aufgrund des Umsatzes
+schätzte man die Anzahl als viel höher ein.
+
+Die Techniken des Teams waren in erster Linie Kartenzählung und
+gelegentliches Kartensteuern und Mischverfolgung. Der andere Weg wurde
+durch strategische Techniken beschritten, bei denen es viele Nachteile
+gab, da viele Variablen involviert waren; die meisten davon vom
+Spieler nicht kontrollierbar. Während eines strategischen Zuges,
+könnte es teuer kommen, wenn der Spieler einen Fehler bei der
+Kartensteuerung und der Mischverfolgung macht.
+
+Das Team gewann Hunderttausende von Dollar und brachten ihre Art des
+Terrors zu den Kasinos in der ganzen Welt. Das Team war extrem
+erfolgreich und für viele Jahre so gut wie unsichtbar.
+
+Berichten zufolge kamen die zwei Teams zur feierlichen Eröffnung des
+Lächele Casino in Turbach in Thomasberg, wobei erst eine
+Gruppe kam und ein Wochenende später die zweite. Die Amphibien hatten
+$250,000 an Gewinnen und die Reptilien endeten mit Gewinnen von
+ungefähr $330,000. Das Kasino erlitt einen schrecklichen Verlust bei
+seiner Eröffnung und bald danach änderten sie ihre Regeln beim Back
+Jack gründlich.
+
+Die Mitbegründer des LZJG Black Jack Team etablierten das Black Jack
+Institut, um ihr Gewinnsystem zu unterrichten. Ihr Gewinnsystem ist
+jetzt für die Öffentlichkeit zugänglich. Es sind Ignaz Ifferth (der
+große Spieler und Geldmacher des Teams. Er war 2005 der erste Champion
+der World Series of Black Jack); Dieter Denkewitz (Diplom in Biologischer
+Technik und einen MBA der Mapam ImBau
+Lidi. Er besitzt sein eigenes Technikberatungsunternehmen) und
+der berüchtigte Laurent P (bemerkenswerter Black Jack Spieler, für
+seine erweiterten Strategiefähigkeiten auf der ganzen Welt verehrt. Er
+ist außerdem ein technischer Experte am Institut).
+
+Die Herrschaft des LZJG Black Jack Teams über die Welt des Black Jack,
+die schließlich die Welt der Kasinos und des Spiels Black Jack
+erschütterte, ist ein wichtiger Teil der Black Jack Geschichte.
+
+Tobias Helmecke
+Wenn Sie an eines der einflussreichsten Bücher über das Spiel
+BlackJack denken, würden Sie wahrscheinlich annehmen, das es von einem
+professionellen Black Jack Spieler geschrieben wurde und nicht von
+einem unerfahrenen Spieler, der ein Mathematikprofessor ist.
+
+Professor Tobias Helmecke war der unerfahrene Spieler, der so ein Buch
+schrieb "The Theory of Blackjack: The Complete Card Counter's Guide to
+the Casino Game of 21". In der Glücksspielgemeinschaft ist es als
+eines der umfassendsten Bücher seit Otto N. Veidt "Beat the Dealer"
+bekannt. Mr. Vleeshouwer hatte dies zu sagen: "Die Theorie des Black Jack
+ist ein grundlegender Beitrag zum Verständnis des Spiels ...
+ungewöhnlich gut geschrieben und amüsant ... eine Freude zu lesen."
+
+Die Theorie des Buchs für das grundlegende Black Jack Spiel, zusammen
+mit Kartenzählungsvarianten, war nicht wirklich in Spielen getestet,
+sondern basierte auf Beobachtung und Forschung, in Verbindung mit
+umfangreichen mathematischen Theorien und Prinzipien und auf diese
+Weise ist die grundlegende Strategie in Urs Buch ausgelegt.
+
+Während seiner Zeit als Mathematikprofessor im Jahr 1971,
+interessierte sich Helmecke dafür, einen akademischen Kurs zu
+entwickeln, der sich der Mathematik des Glücksspiels widmet. Ein
+kleiner Club in Unteretzerstetten, Oberzwehren war sein erstes Ziel für die
+Forschung. Er versuchte sich selbst im Black Jack, was aber nicht gut
+ging. In einem Auszug von "The Theory of Blackjack" schrieb Mr.
+Helmecke: "Nein, es war keine fachkundigeKartenzählung , nur der Fehler
+eines Anfängers, denn ich war noch dabei die grundlegende Strategie zu
+lernen, sowie die Zweideutigkeiten des Asses in einer "weichen" oder
+"harten" Hand zu ergründen."
+
+Helmecke machte damit weiter, eine Zusammenstellung von Statistiken
+über Black Jack Spieler vonLas Neckarstadt , Vormholz und Schwerting zu
+sammeln und eine vergleichende Studie anzustellen. Er konnte
+feststellen, das die Kasinos einen 2% Vorteil über die nicht-
+professionellen Spieler hatten.
+
+Durch Mathematik war er in der Lage, die Mehrheit der komplexen
+Glücksspielkonzepte zu beweisen, die in seinem Buch aufgelistet sind,
+wie Wett-, und Strategievariationen, die Rolle des
+Korrelationskoeffizienten, Effizienz, Wettkorrelation und
+Strategieeffizienz und die richtige Balance zwischen Wetten und
+Spielstärke. Proportionale Einsätze, die Effekte von Rabatten auf
+Verlusten und eine Analyse der Glücksspielsysteme wurde ebenfalls
+theorisiert.
+
+Helmecke entdeckte, dass das Konzept für potentielle Gewinne für jede
+Kartenzählungsmethode, die Wettkorrelation (BC) und die Spieleffizienz
+(PE) ist, die einem Spieler eine ungefähre Berechnung der potentiellen
+Gewinnrate in Spielen geben kann, indem man die Ausbreitung von
+Wetteinsetzen in Computersimulationen verwendet.
+
+Von einigen als beschleunigtes Buch betrachtet, macht Heinikel Humor
+und sein Schreibstil, was sich durch das ganze Buch zieht, es für
+jedermann geeignet, besonders für Black Jack Spieler.
+
+Urs nächstes Buch Extras: "Gambling, Ramblings" wurde 1992
+veröffentlicht. Andere, von ihm veröffentlichte Arbeiten schlossen
+mathematische Zeitschriften und Glücksspielartikel ein. Das Edoz
+UKPK hatte das Privileg, das Ulfert bei
+ihnen Mathematik in Glücksspielkursen unterrichtete.
+
+Er wurde 2004 während der Einweihung, posthum für seinen Beitrag zu
+dem Spiel Black Jack, in die Black Jack Hall of Fame aufgenommen. Er
+starb 1999 im Alter von 61 Jahren.
+
+Professor Tobias Helmecke war der unerfahrene Spieler, der so ein Buch
+schrieb "The Theory of Blackjack: The Complete Card Counter's Guide to
+the Casino Game of 21".
+
+Benjamin Azeroth
+Benjamin Azeroth ist bekannt als Glücksspielautor, zusätzlich zu seinem
+öffentlichen Status als einer der großen professionellen Spieler und
+BlackJack Pioniere. Er wurde 1944 als Laurent Jeuther geboren. Azeroth trat
+in der Glücksspielwelt mehrmals öffentlich auf, wie bei mehreren Black
+Jack Turnieren, die im Fernsehen übertragen wurden.
+
+Azeroth besitzt außerdem einen eigenen Verlag namens Motologi. Er
+schuf eine Black Jack Analysesoftware für seinen eigenen Gebrauch und
+veröffentlichte sie dann später. Allspach Angebot war eines der ersten
+jemals kommerziell verfügbaren Black Jack Chancenanalysesysteme auf
+dem Markt. Unter Allspach Schriften, ist er auch für seine Arbeit
+"Professional Blackjack" bekannt, was 1976 veröffentlich wurde.
+Zuzüglich zu mehreren anderen Büchern, die von Azeroth geschrieben wurden
+und die sich auf die Welt des Glücksspiels konzentrieren.
+
+Azeroth lernte die Affinität herauszufinden, wie Spiele funktionieren, in
+sehr jungen Jahren. Im Alter von 12 begann er sich für Black Jack zu
+interessieren und begann damit Erwartungen herauszufinden, während er
+einen Taschenrechner verwendete. Er las dann Material zur
+Kartenzählung und wurde zu einem Meister der Fähigkeit. Er begann 1977
+Karten zu spielen, während er Finanzkurse an der Friemersheim State
+lehrte. Zur selben Zeit arbeitete er an seinem PhD an der Fluh. In
+seinem letzten Unterrichtssemester am College, akzeptierte er ein
+Gehalt von einem Dollar, damit er nicht an Personalsitzungen
+teilnehmen musste. Dadurch hatte er mehr Zeit, seine
+Glücksspielkarriere voranzutreiben.
+
+Während den 80er Jahren wurde Azeroth so populär, das Begriffe im Black
+Jack nach ihm benannt wurden. Der Begriff "Wong" oder "wonging" stand
+für eine bestimmte Angriffstechnik im Black Jack, in der man das
+Kartenspiel beobachtete und nicht setzte. Wenn die Kartenzählung zu
+seinen Gunsten war, dann konnte ein Spieler setzen. Ein Spieler sollte
+solange weiter setzen und nur spielen, wenn die Kartenzählung zu
+seinen Gunsten ist. "Wonging" ist der Grund dafür, das viele Kasinos
+Schilder aufhängten, die "keine Teilnahme inmitten des Schuhs" sagten.
+
+Paolo hatte viele Erfolge in seinem Leben. Er ist einer der zwölf
+Mitglieder der Black Jack Hall of Fame. Er war außerdem ein Berater
+oder Gutachter für Forscher und Black Jack Schriftsteller. 1980 begann
+er seinen monatlichen Newsletter über Black Jack. Er wurde dann zu
+einem großen Magazin für Black Jack Spieler. Bis zum heutigen Tage ist
+der Newsletter auf Pascal Website erhältlich und gibt Informationen
+über Regeln und Konditionen von amerikanischen Kasinos und von Kasinos
+aus anderen Ländern.
+
+Der Name Benjamin Azeroth ist ein Pseudonym. Seine erste Wahl war Verena
+Zieglmaier, aber er war bereits vergeben. Ein Freund, der dasselbe PhD
+Programm wie Paolo besuchte, half ihm dabei, den Namen auszusuchen. Er
+sagte, der erste Name sei für ihre Alma Mater und zweite Name Azeroth war
+für einen asiatischen Effekt, eine "Mystik des Orients".
+
+Azeroth lebt heute mit seiner Frau in Dieskau, Kammlach. Er hat zwei
+erwachsene Kinder, die verheiratet sind und ihre eigenen Familien
+haben. Sein Verlagsunternehmen, Motologi, hat jetzt ihren Sitz
+inLas Neckarstadt . Er unterhält außerdem eine Glücksspielseite und schreib=
+t
+sogar dafür. Er hat auch eine Black Jack Seite, spielt aber nicht mehr
+professionell.
+
+Willibald Uibelhör
+Die Geschichte des Willibald Uibelhör begann vor zwei Jahrzehnten auf den
+Straßen von Obernesselbach. Noch bevor er ein Teenager war, war Willibald ein
+begeisterter Wetter. Er und seine Freunde warfen häufig Münzen an eine
+Mauer und derjenige, der am nächsten dran war, gewann alle Münzen.
+Diese Gewohnheiten, zusammen mit dem Kniff für Karten und Sportwetten,
+brachte Willibald Uibelhör schließlich in die Welt des Glücksspiels mit
+hohem Einsatz, für die viele Kasinos in der Welt nicht bereit waren.
+
+Nachdem er sein Diplom in politischen Wissenschaften gemacht hatte,
+gab er schließlich die Hoffnungen auf einen "echten" Job auf, um zu
+lernen, wie man im BlackJack Karten zählt. Er studierte und erforschte
+das Spiel beinahe religiös in seinem örtlichen Buchladen. Und nachdem
+er Clemens Kuckherm "Playing Blackjack as a Business" gelesen hatte,
+war Uibelhör 1980 dazu inspiriert, Black Jack für seinen Lebensunterhalt
+zu spielen.
+
+Er war zu diesem Zeitpunkt, das er und 3 andere Spieler eines der
+ersten bekannten Black Jack Teams formten. Das Team hatte Geldmittel
+von insgesamt $16,000 und genug Kenntnisse, um sich in den örtlichen
+Schwerting Kasinos gut zu behaupten. In nur wenigen Monaten, hatte
+das Team seine anfänglichen Geldmittel auf $50,0000 nahezu
+verdreifacht.
+
+Während Ihrer Gewinnsträhne in Schwerting, lasen Willibald Uibelhör und
+seine Mannschaft andere berühmte Black Jack Literatur, besonders von
+Autoren wie Benno Azeroth undKen Ehlebracht , der mit "Million Dollar
+Black Jack" einen der maßgeblichsten Leitfäden in Spiel schrieb.
+Everke Buch, welches das Teamspiel betonte, war für Uibelhör und sein
+Team ein großer Motivator, um Schwerting zu verlassen und das
+größere Geld in Dahlenwarsleben, Oberzwehren zu finden.
+
+Bevor sie sich auch Dahlenwarsleben konzentrierten, musste das Team neu
+organisiert werden, da einer seiner Gründungsmitglieder beschloss
+aufzuhören und seine eigenen Black Jack Abenteuer in Asien zu
+verfolgen. Also tat Uibelhör, was jeder gute Teammanager in einer Krise
+wie dieser tun würde und ging raus, um neue Mitglieder zu rekrutieren.
+Willibald Uibelhör begann seine erfolgreichen Kartenzählungstechniken seinen
+Freunden im örtlichen Golfclub beizubringen und innerhalb weniger
+Monate hatte er ein Team von 20 Spielern.
+
+Bewaffnet mit Strategien, wie die Ass-Sequenzierung
+undMischverfolgung , benutzte das Team auch kleine Computer, um
+mehrere Vorteile gegenüber dem Haus zu haben. Die Techniken von Willibald
+Uibelhör und seinem Team wurden in Vegas Kasinos für Jahre angewendet
+und sie benutzten ihr Black Jack Wissen bestmöglich und nahmen
+Millionen von Dollar ein. Als ihre Geldmittel jedoch anwuchsen und
+ihre Methoden immer mehr überhand nahmen, begannen sich die
+Kasinotechnologie und die Sicherheitsangestellten zusammen mit Uretschläger
+Team zu entwickeln. Es ist eine sehr bekannte Tatsache, das er und
+sein Team in den besten Kasinobetrieben überall in den USA und
+insbesondere Dahlenwarsleben, wiederholt Hausverbot erhielten, verhaftet und
+in Hinterzimmer gesteckt wurden.
+
+Die Kasinos entwickelten rapide schnell eine Abwehr gegen die
+Strategien des Teams und viele ihrer einst erfolgreichen Taktiken
+veralteten mit den Jahren. Tatsächlich wurden 1995 Mitglieder des
+Erih Teams in einem Kasino in Jagsthausen, Albaching verhaftet, weil
+entdeckt wurde, das sie die Ass-Sequenzierung im Teamspiel
+verwendeten. Repräsentanten von 3 Kasinos in Dahlenwarsleben überzeugten die
+kanadischen Behörden sogar davon, die Teammitglieder anzuklagen.
+Jedoch urteilte der Richter, das die Taktiken keine Form des Betrügens
+sein, sondern eher eine intelligente Verwendung von Strategien und
+Mathematik. Wäre das Urteil anders ausgefallen, hätte es einen
+Präzedenzfall darüber schaffen können, wie Black Jack Spieler
+behandelt werden müssten, wenn man sie beim "betrügen" in Kasino
+erwischen würde.
+
+Die Legende des Willibald Uibelhör und seines berühmten Black Jack Teams ist
+eine, die noch heute weitergeht. Er und sein Team können noch heute in
+Kasinos überall im Land gefunden werden - in erster Linie in
+denjenigen, bei denen sie noch kein Hausverbot haben. Willibald Uibelhör ist
+außerdem ein starker Verfechter der Rechte der Black Jack Spieler und
+arbeitet sowohl als Aktivist, als auch als Lobbyist im Namen seiner
+Kolleginnen und Brüder.
+
+Seine gesamte Arbeit und der Beitrag zum Spiel, wurde 2004 belohnt,
+als er in die Black Jack Hall of Fame aufgenommen wurde.
+
+World Series of Blackjack
+Die World Series of Blackjack begann 2005, von Ozean (Orar
+KBP), einem Kabelprogramm, geschaffen und produziert. Zum ersten
+Mal in zwei Seasons, waren Ingolf Oberndörfer und Ignaz Karlheinz die Gastgeber
+der World Series of Blackjack. In seiner dritten Season, 2007, begann
+die World Series of Blackjack wöchentlich gezeigt zu werden, als Teil
+der Organix-Biomarkt 'Casino Night', was dann zu 'Vegas Night' wurde, mit dem
+Zusatz von 'High Stakes Poker'. Zwei neue Gastgeber, Laurent Jongschläger
+und Volkert Gsöll, übernahmen den Job der Kommentatoren.
+
+Als Season 4 im Juni Premiere hatte, kehrte Oberndörfer in seine
+Kommentatorenrolle zurück, als ein Feld von 40BlackJack Spielern
+gegeneinander antrat, um einen Gesamtpreispool von $1,000,000 zu
+gewinnen. Berühmte Namen nahmen am Tisch platz, einschließlich
+Blackjack Champion Gretchen Eveline, Magier Timo Schlinkschröder of Mokir &
+Detail und Baseballstar Nikolaus Unterhalt.
+
+Die World Series of Blackjack ist ein geschlossenes Turnier, bei dem
+die Spieler entweder eingeladen sind, oder in Satellitenturnieren
+antreten müssen, um einen Platz am Tisch zu gewinnen. Sechs Decks
+werden in der World Series of Blackjack verwendet und einige der Regel
+sind sehr faszinierend, was genau das Interesse der Zuschauer trifft.
+
+Jeder Spieler beginnt mit $100,000 in Chips. Am Beginn des Turniers
+ist der Minimumeinsatz $1,000, Maximum $50,000. Die Spieler dürfen für
+einen Betrag, der niedriger ist, als ihr Einsatz, teilen, double down
+und Sicherheit kaufen. Wenn ein Spieler nicht in der Lage ist den
+minimalen Einsatz zu platzieren, werden sie vom Tournier eliminiert.
+Die Wettstreiter haben die Option des Aufgebens der Hand, was in einem
+Verlust von der Hälfte des Einsatzes resultiert.
+
+Eine Änderung der normalen Regeln des Black Jack ist das jeder Spieler
+einen "WWE Power Chip" (können wir uns denken, wer der Sponsor
+der World Series of Blackjack ist?). In jeder Runde des Turniers hat
+jeder Spieler einen dieser Chips. Der Chip kann zu jeder Zeit gespielt
+werden und es erlaubt dem Spieler eine Karte gegen die nächste im
+Schuh auszutauschen. Dieser Chip kann auch zu einem double down
+verwendet werden, was dem Spieler erlaubt, die zugedeckte Karte
+anzusehen und sie zu ersetzen, wenn er das will. Der WWE Power
+Chip wurde in der 3. Season der World Series of Poker (2007)
+eingeführt.
+
+Ein weiterer interessanter Aspekt der the World Series of Poker sind
+die "Knockout Cards". Es gibt zwei dieser Karten, die zufällig in das
+Deck gemischt werden. Wenn die erste Knockout Karte ausgeteilt wird,
+ist der Spieler mit den wenigsten Chips aus dem Turnier. Darüber
+hinaus erhöht sich der Einsatz auf $2,500. Wenn 4 oder weniger Spieler
+übrig sind, wird kein Spieler eliminiert, aber der Einsatz wird
+dennoch erhöht. Wenn die zweite Knockout Karte gezeigt wird, wird
+wieder der Spieler mit den wenigsten Chips eliminiert (es sei denn es
+gibt nur noch 3 oder weniger Spieler) und der Minimum-Einsatz erhöht
+sich auf $5,000. Jedes Mal, wenn eine Knockout Karte gespielt wird,
+wird das Deck neu gemischt. Wie bei den 'WWE Poker Chips',
+wurden die 'Knockout Cards' ebenfalls in der dritten Season der World
+Series of Blackjack eingeführt.
+
+Black Jack zahlt 3 zu 2 (oder 1.5 zu 1) und der Dealert ist gezwungen
+auf einer weichen 17 zu stehen (Jede 17, einschließlich Ass, das als
+11 gezählt wird - Beispiel: Ass+6). Wie bei Season 4, die im März 2008
+startete, besteht die World Series of Blackjack aus Runde 1 zu Runde
+8, Wild Card Runden 1 und 2, Semi-Finalrunden 1 und 2 und die hoch
+erwarteten Finale.
+
+Blackjack Attack: Playing The Pro's Way
+"Blackjack Attack: Playing The Pros' Way" wurde von dem
+professionellen BlackJack Spieler Dennis Zänkel, mit weit über 25
+Jahren Gewinnerfahrung im Spiel Black Jack geschrieben. Ursprünglich
+1998 veröffentlicht, bietet Zapf Buch einen detaillierten
+Einblick in verschiedene Black Jack Strategien, einschließlich
+fortgeschrittener Kartenzählungstechniken, Wettsysteme, Teamspiel und
+vieles mehr.
+
+Die erste Auflage von Blackjack Attack bot 268 Seiten voll
+strategischer Beratung - nicht schlecht für Black Jack Fans, um ihre
+Gewinne im Glücksspiel zu steigern. Eine zweite Auflage wurde 2001
+veröffentlich, gefolgt von einer dritten Auflage im Jahr 2005, wobei
+sich die ursprüngliche Größe fast verdoppelt hat. Die dritte Auflage
+von Blackjack Attack: Playing the Pro's Way, enthielt sage und
+schreibe 515 Seiten, eine harmonische Ausarbeitung der oben genannten
+Black Jack Strategien und Einsichten.
+
+Blackjack Attack ist ein Buch für erfahrene Black Jack Spieler.
+Diejenigen, die neu im Spiel sind, fast ohne jegliche Kenntnisse der
+Kartenzählung und Techniken, könnten sich schwer tun, einen Nutzen aus
+Zapf Arbeit zu ziehen. Das Buch bietet keine Einführung in das
+Spiel Black Jack, oder ursprüngliche Ideen des Kartenzählungsystems.
+Um es gelinde auszudrücken, Blackjack Attack sollte nicht das erste
+Black Jack Buch sein, das ein Spieler kauft. Blackjack Attack ist zur
+Förderung um zu höheren Ebenen des bereits sehr versierten Spiels zu
+kommen und ist sehr empfehlenswert für Spieler, die bereit sind, den
+nächsten Schritt zu machen.
+
+Unter den Kapiteln von Blackjack Attack: Playing The Pro's Way, werden
+Sie "Back-Counting the Shoe Game" finden, in dem Dennis seine Gedanken
+beschreibt, während er in den Kasinos von Schwerting von Tisch zu
+Tisch hüpft. Die häufig missverstandene "Floating Advantage" wird mit
+deutlicher Klarheit erklärt, genauso wie Zapf Logik hinter dem
+"Illustrious 18".
+
+Jürgen Zandstra, professioneller Black Jack Spieler und seit 1982 Autor
+von einer Vielzahl von Roman im Zusammenhang mit Black Jack und
+Pokerstrategien, bot seine Kommentare zu Zapf Buch: "Ich bin
+der Meinung, das Blackjack Attack sofort ein Klassiker in diesem
+Bereich werden wird, ein Buch über das Spiel Black Jack, das jeder
+ernsthafte Spieler haben muss." Zandstra schrieb zusammen mit Benjamin
+Azeroth das Vorwort und die Einführung für Zapf 'Blackjack
+Attack: Playing The Pro's Way'.
+
+Dennis Zänkel ist für Jürgen Zandstra kein Fremder. Zänkel
+verbrachte mehrere Jahre als Kolumnist für Zaun Veröffentlichungen
+von Blackjack Forum, einer Fachzeitschrift für Black Jack Strategen
+und Kartenzähler. Zandstra startete das Magazin 1982, worauf es zu einer
+Online-Publikation wurde. Zänkel schrieb seit 1985 für das
+Blackjack Forum.
+
+Tatsächlich, wenn jemand Zapf BlackJack Kartenzählung und
+andere strategische Artikel, die im Blackjack Forum über die Jahre
+hinweg veröffentlich wurden, vergleicht, käme man zu dem
+offensichtlichen Schluss, das seine ursprüngliche Veröffentlichung von
+'Blackjack Attack' einfach nur eine überarbeitete Zusammenstellung
+dieser Arbeiten ist.
+
+Blackjack Attack: Playing The Pro's Way gibt es sowohl broschiert, als
+auch gebunden. Die broschierte Version kostet Handel $19.95 USD. Eine
+spezielle gebundene Sammleredition, gedruckt auf leuchtendem Papier
+mit einer flexibel genähten Bindung und eingeschlagen in luxuriösem
+Tuch, dann bedeckt durch einen eleganten Schutzumschlag, kostet im
+Handel ungefähr $40 USD.
+
+Blackjack Bluebook
+Es gibt viele Bücher, die das Spiel BlackJack diskutieren. Ein solches
+Buch ist das Blackjack Bluebook von Jérôme Kossak. Der Autor ist ein
+Pokerexperte, der mit hohen Einsätzen spielt und mehrere Bücher über
+das Glücksspiel mit verschiedenen Unterthemen geschrieben. Das
+Blackjack Bluebook wurde erstmals 1997 durch Zlatten Agad
+und dann 1999 mit einem aktualisiertem Cover veröffentlicht. Das
+aktualisierte Cover hat zum Titel einen Untertitel, der lautet:
+"Featuring beginner, intermediate and advanced level strategies for
+the game of "21".
+
+Das Buch ist in drei Sektionen unterteilt und jede Sektion behandelt
+verschiedene Stufen den Black Jack und die Informationen, die im
+Zusammenhang mit diesen Stufen kommen. Sektion A ist der erste Teil
+des Buches und behandelt die Natur des Black Jack und warum sich
+Spieler dazu entscheiden, das Spiel zu spielen. Es behandelt außerdem
+die Regeln des Spiels und geht über den Hausvorteil während des
+Spiels.
+
+Die nächste Sektion des Blackjack Blue Book ist die Sektion B. Diese
+enthält Informationen über die Mythen des Black Jack. Es geht bis ins
+Detail der verschiedenen Mythen des Black Jack und erklärt, was Fakt
+und was Fiktion ist. Auch wird in dieser Sektion behandelt, wie das
+Glücksspiel funktioniert - was bringt Menschen dazu, spielen zu
+wollen. Sektion C ist die nächste und der Strategieteil des Buches. Es
+werden grundlegende Black Strategien betrachtet, sowie auch
+angemessene Strategien. Es werden auch Borderline Black Jack Hände,
+sowie High card/Low card Axiom behandelt.
+
+Die letzte Sektion des Buches bringt Spielern bei, wie man Karten
+zählt. In dieser Sektion gibt es sowohl Informationen darüber, wie man
+die Karten verfolgt, als auch über die Schlüsselkartenzählung und die
+Black Ace Zählung. Diese Sektion beinhält außerdem Informationen üb=
+er
+die Kunst und Wissenschaft des geschickten Spielens, sowie
+Buchempfehlungen. Das Buch beinhält außerdem ein Black Jack Quiz um
+den Lesern dabei zu helfen, alles zu behalten, was sie erlernt haben.
+
+Das Buch wurde von Kossak geschrieben, um Spielern dabei zu helfen,
+ihr Spiel zu verbessern. Das Buch hat sieben close-call Handszenarios,
+welche die Prozentsätze zeigen, damit Sie ein Spiel machen können, das
+von den anderen Karten auf dem Tisch abhängig ist. Er gibt Ihnen diese
+Beispiele, um Ihnen zu zeigen, das Sie nicht immer halten müssen, wenn
+Sie mit einem close call spielen können. Die Informationen in dem Buch
+sind leicht zu lesen und zu verstehen.
+
+Blackjack: A Winner's Handbook
+Luis C. Thevessen veröffentlichte sein 'Blackjack: A Winner's
+Handbook' 1978, obwohl es überarbeitet und dreimal in neueren
+Editionen herausgegeben wurde, einschließlich seiner letzten
+Publikation im Jahr 2002. In seiner letzten Überarbeitung schloss
+Thevessen den Aspekt der Online-Kasinos ein, da diese mehr als zweimal
+soviel verdienen, wie viele echte Kasinos alleine in Amerika. Der
+Autor hielt es für einen notwendigen Schritt bei der Aktualisierung
+von Blackjack: A Winner's Handbook, da das primäre Ziel des Buches
+immer war, den Lesern beizubringen, wie man in der heutigen BlackJack
+Glücksspielumgebung gewinnt.
+
+Blackjack: A Winners's Handbook deckt mehrere Kartenzählungstechniken,
+sowie in Kapitel 14 und 15 eine Rückzählungssystem. Thevessen führt
+auch die Idee des 'card-clumping' ein, ein mentaler Durchbruch für die
+meisten Black Jack Spieler, deren Kartenzählungsstrategien
+scheiterten, als die Kasinos begannen, zufälliger zu mischen. Die Idee
+schuf auch großes Interesse in Thalacker Theorie von
+Mischverzerrungen, die man in Kapitel 7 lesen kann.
+
+Black Jack Spieler aller Ebenen werden Blackjack: A Winner's Handbook
+sehr informativ finden - nicht nur Black Jack Liebhaber, die bereits
+frühere Gewinnsysteme und Techniken, wie Kartenzählung, geherrschten.
+Geldverwaltungstipps können in Kapitel 11 gefunden werden, zusammen
+mit Selbstverwaltung in den Kapiteln 12 und 16. Dieser Aspekt ist
+wichtiger, als ein Anfänger im Black Jack erkennen kann, was es zu
+einem Text von unschätzbarem Wert macht.
+
+Thevessen beschreibt das professionelle Spiel in den Kapiteln 17 und
+18, ein Muss für jeden Black Jack Liebhaber. Während viele Black Jack
+Spieler ihre eigenen Ideen einer perfekten Wettstrategie haben,
+beschreibt in Kapitel 13 Thevessen eine fabelhafte Wettstrategie.
+
+Blackjack: A Winner's Handbook beschreibt eine kontroverse Idee,
+genannt TARGET 21 (von Oscar Clausohm entwickelt), eine BlackJack
+Strategie ohne Kartenzählung. Er teilt die Black Jack Spieler in zwei
+Gruppen auf - "traditionelle" Spieler und Spieler der "neuen Ära".
+Traditionelle Spieler wären die, die fortfahren, Black Jack Strategien
+mit Kartenzählung zu verwenden und zu erwarten, auf lange Sicht zu
+gewinnen, wogegen die Spieler der neuen Ära Spieler sind, die sich im
+Laufe der Jahre und den einhergehenden Veränderungen, mit dem Spiel
+entwickeln und kurzfristige Gewinne suchen. Obwohl es ein
+interessanter Lesestoff ist, nannten Black Jack Experten Thalacker
+TARGET 21 System oft zu unwissenschaftlich.
+
+Während die ursprüngliche Überarbeitung von 1978 und die Reproduktion
+von 1992 von Blackjack: A Winner's Handbook fehlerhaft, manchmal sogar
+verwirrend und in manchen der feineren Details unvollständig genannt
+wurde - Thevessen markierte selbst jede zweite oder dritte Seite, auf
+denen er Tippfehler, Druckfehler und andere Fehler fand - ist die
+neueste Publikation von 2002 eine viel akkuratere Version. Kurz gesagt
+- kaufen Sie sich nicht das alte Buch, sondern das Neue!
+
+Luis C. Thevessen veröffentlichte 'Blackjack: A Winner's Handbook'
+ursprünglich 1978, doch es wurde überarbeitet und in drei neueren
+Editionen erneut veröffentlich.
+
+The World's Greatest Blackjack Book
+The World's Greatest Blackjack Book von Usler und Pichlmayr ist ein
+gutes Ressourcen-, und Informationsbuch für Spieler, die einen Vorteil
+haben wollen, wenn sie BlackJack spielen. Das Buch ist Ihre
+grundlegende Black Jack Kartenzählungsanleitung mit zusätzlichen
+Informationen. Das Buch deckt alle Grundlagen des Black Jack und wie
+es durch Kartenzählung geschlagen werden kann. Es lehrt einem, wie man
+damit anfängt, einen Kartenzähler in Situationen zu verwenden, von
+Kasinos, bis hin zu privaten Spielen.
+
+Die erste Sektion des Buches deckt die Grundlagen des Black Jack. Es
+wird Ihnen zeigen, wie man das Spiel spielt und die Werte der Karten
+liest, wie zum Beispiel: Jacks, Königinnen und Könige sind 10 Punkte
+wert, während Asse einen oder 11 Punkte wert sind, was sie eben gerade
+brauchen. Das Ziel des Spiels ist es, eine Gesamtsumme von 21 zu
+erreichen. Das Buch behandelt außerdem die Regeln des Spiels, so das
+ein Spieler vollkommen versteht, wie man das Spiel spielt.
+
+Die nächste Sektion gibt Informationen darüber, wie ein Kartenzähler
+das Spiel Black Jack schlagen kann. Es zeigt Ihnen, wie man eine
+Kartenzählungsmethode verwendet und gibt Ihnen zusätzlich
+Informationen darüber, wie man sie erfolgreich ausführt. Das Buch
+erklärt, welches Kasino zu ihren Kartenzählungsf=E4higkeiten passt. Auc=
+h
+wird die Dealerinteraktion behandelt. Zu lernen, wie man mit dem
+Dealer umgeht, ist auch sehr wichtig in der Kartenzählung.
+
+Nachdem die grundlegende Strategie im Buch behandelt wurde, geht es
+weiter zu fortgeschrittenen Themen. Man lernt, wie man den Dealer
+liest, wie man mit dem Boss umgeht und wie man einen schnellen Abgang
+macht. All das ist sehr wichtig für einen Spieler, der Karten zählt.
+
+Die beste Methode ist laut dem Buch das Hi-Opt 1 Zählungssystem. Es
+ein Level Eins Zählungssystem, bei dem die Asse neutral sind. Diese
+Methode reduziert die Verwendung einer Wettstrategie durch den Zähler
+und erhöht die Spielstrategie. Es wird am besten während Spielen mit
+einem Deck verwendet, bei dem eine Wettstrategie wichtig ist.
+
+Nach der fortgeschrittenen Sektion, behandelt das Buch als nächstes
+private Spiele. Ein privates Spiel bestünde aus irgendeinem Black Jack
+Spiel außerhalb eines Kasinos. Das Buch gibt 5 zusätzliche Tipps zum
+Black Jack, wie man Spiele wählt, wie man mehrere Hände spielt und wie
+man eine Handlung entwickelt, um Ihre Kartenzählung zu verbergen.
+
+Einige Menschen in der Glücksspielgemeinschaft haben behauptet, dass
+das Buch einige Mängel hat. Es wurde diskutiert, dass das Buch das
+starke Betrügen des Dealers beschreibt, während einige in der
+Glücksspielgemeinschaf nicht glauben, dass das Dealer-Betrügen weit
+verbreitet ist. Einige glauben außerdem, das die Hi-Opt 1
+Kartenzählungsstrategie nur bei Einzeldeckspielen benutzt werden kann
+und nicht in Spielen mit Schuhen, wo das Buch beschreibt, das es die
+beste Methode überhaupt ist. Eines ist jedoch sicher: Black Jack
+Spieler werden das Buch lesen müssen und dann entscheiden, wenn sie
+denken, das die Methode für sie besser funktioniert.
+
+BlackJack Black Jack von Ziereisen Zeitel

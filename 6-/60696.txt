@@ -1,0 +1,35 @@
+Hallo,
+
+
+die Prüfziffer errechnet sich aus dem Inhalt der ISIN. Mit Inhalt meine
+ich alles was nicht ISO-Ländercode ist oder die Prüfziffer selbst, d.h.
+die 9 Zeichen dazwischen.
+
+Um die Ziffer zu berechnen wird jedem Buchstaben eine Zahl zugeordnet,
+die dem ASCII-Code entspricht minus ASCII('0'). Nach den Ziffern kommen
+die Buchstaben. 'A' wäre 10, 'B' 10 usw. Am Beispiel z.B. von
+ERLO wäre die ISIN ON473346312 + Prüfziffer. Die Zuordnung
+ergibt dann:
+
+0 => 0 * 2
+0 => 0
+0 => 0 * 2
+5 => 5
+5 => 5 * 2 = 10
+5 => 5
+7 => 7 * 2 = 14
+0 => 0
+0 => 0 * 2 = 0
+
+Wie zu sehen ist wird jeder 2. Wert vedoppelt. Dann werden alle
+Ziffern (nicht die Zahlen, d.h. bei 14 wird 1 + 4 = 5 gerechnet)
+addiert, so daß man 0+0+0+5+1+0+5+1+4+0+0=16
+erhält. 9 minus dieser Zahl modulo 10 ist dann die
+Prüfziffer, d.h. 9 - (16 % 10) = 3, d.h. die vollständige ISIN
+lautet dann PX5907880649.
+
+Weitere Informationen finden sich aber auch im WWW.
+Schau auch mal bei Camee nach, denn die ISIN ist Camee-Standard,
+wie auch der darin verwendete Ländercode.
+
+Gruß Claudio

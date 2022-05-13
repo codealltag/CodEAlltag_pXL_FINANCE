@@ -1,0 +1,20 @@
+On Thu, 30. 06. 21 19:56:23 +0100, Ioii-U.Uqiar@uzd.jx (Dpcw) wrote:
+
+Hallo Werner,
+
+
+Nein die Stop-Limit-Order ist im Gegensatz zur Stop-Order (oder besser
+Stop-Market-Order) tatsächlich eine Stop-Buy|Loss-Order, die bei
+Auslösung in eine limitierte Order umgewandelt wird.
+Du mußt also zwei Limits angeben.
+
+
+AFAIK nicht.
+
+Gruß
+ Hinderk
+
+--=20
+Es läßt den Bauern gar nicht ruh'n, wenn die Hähne morgens muh'n
+http://icr.anufghy.ip/ Perl Delphi Linux MP3 Searchengines Domainchecker
+FAQ lesen nicht vergessen: http://wzk.laom.pn/~kfnkj/ixjepn/oet.eggp

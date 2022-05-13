@@ -1,0 +1,12 @@
+1. Fall: Ihr habe beide das gleiche Limit (z. B. 300,--), der Kurs
+wird 300,-- bB.
+Ausgeführt werden einmal 18 und einmal 17 Aktien. 
+
+2. Fall Du hast Limit 300,--, Y hat Limit 301,--.
+Der Kurs wird 301,-- bB.
+Deine Order wird komplett ausgeführt und Y kann 15 Aktien verkaufen.
+
+3. Fall: Beide Orders sind unlimitiert, der Kurs wird sich am Limit
+vom Käufer orientieren bzw. am letzten gehandelten mit Kurszusatz
+rationiert Brief.
+Ausführung wie im 1. Fall.

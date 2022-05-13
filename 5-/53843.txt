@@ -1,0 +1,70 @@
+--
+Gruß an *.* !
+
+habe Gestern versucht, _unlimitiert_bei EETES Aktien zu ordern. Habe
+um ca. 00.30 also _nach_ Boersenschluss einen Order wie folgt abgegeben:
+
+[x] Kauforder
+Abrechungskonto   [x]  Standart
+WKN     xxxxxx
+Stück/Nominal      xx
+Limit [leer]
+<---- !!!!!
+Order gültig bis [Datum angegeben(HEUTE)]
+Orderzusatz [leer] Kassa [leer] Stop Buy
+Boersenplatz [angegeben]
+
+
+Als ich am nächsten Tag gegen 11.00 kucken wollte, ob der Order
+ausgeführt wurde, konnte ich unter Orderinfo sehen :
+
+
+kauforder gültig bis HEUTE                                HEUTE
+Ordernummer         xxxxxxx
+Wertpapiername XXXXXXXXX
+WP-WKN xxxxxx
+Limitkurs 0,00
+Limitkurszusatz Kein Zusatz
+Boersenplatz [z.b. 94-Ummern]
+Orderzusatz [Kein Zusatz]
+
+
+Auftragstatus:  [Ausgeführt], ich konte den also werder ändern noch
+schtreichen,  es gab da noch ein Zusatz 'GES.AUSG.DEBOS' -was mag das
+bedeuten?
+
+12.00 das Gleiche
+13.00  ------
+-------------
+16.00 -------
+
+als ich gegen 22.00 nachgesehen habe - war die Aktie da !
+Ich frage mich : wann werden solche Aufträge ausgeführt? sollen sie
+nicht gleich um 9.30 ausgeführt werden? Passiert das nach Shema F ->
+'mal sehen wann der Kurs am schechtesten ist?' Wer entscheidet wann das
+überhaupt passieren soll ?
+Wie sollte man Kauf/Verkaufaufträge limitieren, wann sollte man die
+Aufträge erteilen, um Aktie schnell ins Depot zu bekommen?
+
+Fragen über Fragen.......
+
+
+Bevor hier jemand denkt, ich frage in der NG an, da ich Geld für 01803
+spaten will - NEIN, die Hotline ist gnadenlos überfüllt, ich habe
+aufgelegt, nachdem ich die tolle Consorswatemusik 15min lang 'geniessen'
+durfte. Zu der Musik  bin ich übrigens nach dem 8. Wahlversuch
+durchgekommen - Emip ist eine reine KATASTROPHE !!!!! Bis
+jetzt hatte ich nicht die Ehre gehabt, einen Mitarbeiter von EETES
+sprechen zu dürfen -Gibt's die überhaupt???
+
+Es sind bestimmt triviale Sachen, ich möchte aber nicht nur mir die
+Experimente sparen, es bleiben  viellecht auch auch ein paar 'dummen'
+Anfragen der NG erspart...
+
+
+bye.@aql
+
+THX 4 RE!
+
+--
+mailto:_wg@bcolomniu.lpl

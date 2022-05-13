@@ -1,0 +1,809 @@
+Visual Basic 2010 Strategiespiel programmieren Zirnich Zellmann
+Steggemann
+Author R.Zinsler
+Video http://lmv.wietojl.yst/tpmzu?q=9NUW9ImN-6P-w
+
+Heute zeige ich Ihnen, wie man ein komplettes Strategiespiel
+programmiert. Ich habe hier ein Snowboardspiel auf einer Skipiste
+genommen, aber man kann es natürlich genausogut als Rennwagenspiel
+oder sonstwas programmieren.
+Den Code habe ich so geschrieben, dass er gut lesbar ist und Sie
+müssten das Video jeweils anhalten, um den Code abschreiben zu
+können.
+Sie sehen, das Spiel funktioniert wunderbar.
+Zinsler
+
+Der Code lautet:
+Public Class Form1
+    Inherits System.Windows.Forms.Form
+    Declare Function GetAsyncKeyState Lib "user32" (ByVal vKey As
+Integer) As Short
+    Dim x(30), y(30), mogulx(7), moguly(7), rockx(6), rocky(6) As
+Integer
+    Dim mykeyup, mykeyleft, mykeyright, mykeydown As Boolean
+    Dim contact As String
+    Dim speedx, speedy As Integer
+    Dim switcharm, rightcount, leftcount As Integer
+    Dim direction As String
+    Dim whichKey As Integer
+    Dim santax, santay As Integer
+    Dim SantaCrash As Boolean
+    Dim santaCrashCount As Integer
+    Dim santaCrashx, santaCrashy As Integer
+    Dim pinkSkierDirection, greenSkierDirection, santaDirection As
+String
+    Dim greenSkierCrash, pinkSkiercrash As Boolean
+    Dim greenSkierCrashCount, pinkSkierCrashCount As Integer
+
+    Private Sub Form1_KeyDown(ByVal sender As Object, ByVal e As
+System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
+        whichKey =3D e.KeyCode
+        If whichKey =3D 39 Then
+            mykeyright =3D True
+            mykeyup =3D False
+            mykeyleft =3D False
+            mykeydown =3D False
+        End If
+        If whichKey =3D 37 Then
+            mykeyright =3D False
+            mykeyup =3D False
+            mykeyleft =3D True
+            mykeydown =3D False
+        End If
+        If whichKey =3D 38 Then
+            mykeyright =3D False
+            mykeyup =3D True
+            mykeyleft =3D False
+            mykeydown =3D False
+        End If
+        If whichKey =3D 40 Then
+            mykeyright =3D False
+            mykeyup =3D False
+            mykeyleft =3D False
+            mykeydown =3D True
+        End If
+    End Sub
+
+    Private Sub Form1_KeyUp(ByVal sender As Object, ByVal e As
+System.Windows.Forms.KeyEventArgs) Handles Me.KeyUp
+        whichKey =3D e.KeyCode
+        If whichKey =3D 39 Then
+            mykeyright =3D False
+        End If
+        If whichKey =3D 37 Then
+            mykeyleft =3D False
+        End If
+        If whichKey =3D 38 Then
+        End If
+        If whichKey =3D 40 Then
+        End If
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles MyBase.Load
+        Dim skitype As String
+        Randomize()
+        contact =3D "no"
+        For i =3D 0 To 30
+            ReDim Preserve picTreeTarget(i)
+            picTreeTarget(i) =3D New PictureBox
+            picTreeTarget(i).Text =3D CStr(i)
+            picTreeTarget(i).Size =3D picTree.Size
+            If i < 15 Then picTreeTarget(i).Image =3D picTree.Image
+            If i >=3D 15 Then picTreeTarget(i).Image =3D picTree2.Image
+            picTreeTarget(i).Visible =3D True
+            AddHandler picTreeTarget(i).Click, AddressOf
+PictureBox_Click
+            Me.Controls.Add(picTreeTarget(i))
+            x(i) =3D Int(Rnd() * 800) + 1
+            y(i) =3D Int(Rnd() * 600) + 1
+            picTreeTarget(i).Location =3D New Point(x(i), y(i))
+        Next i
+        For i =3D 0 To 7
+            ReDim Preserve picMogulTarget(i)
+            picMogulTarget(i) =3D New PictureBox
+            picMogulTarget(i).Text =3D CStr(i)
+            picMogulTarget(i).Size =3D picMogul.Size
+            picMogulTarget(i).Image =3D picMogul.Image
+            picMogulTarget(i).Visible =3D True
+            picMogulTarget(i).BackColor =3D Color.Transparent
+            AddHandler picMogulTarget(i).Click, AddressOf
+PictureBox_Click
+            Me.Controls.Add(picMogulTarget(i))
+            picMogulTarget(i).Location =3D New Point(mogulx(i),
+moguly(i))
+        Next i
+        For i =3D 0 To 5
+            ReDim Preserve picRockTarget(i)
+            picRockTarget(i) =3D New PictureBox
+            picRockTarget(i).Text =3D CStr(i)
+            picRockTarget(i).Size =3D picRock.Size
+            picRockTarget(i).Image =3D picRock.Image
+            picRockTarget(i).Visible =3D True
+            picRockTarget(i).BackColor =3D Color.Transparent
+            AddHandler picRockTarget(i).Click, AddressOf
+PictureBox_Click
+            Me.Controls.Add(picRockTarget(i))
+            rockx(i) =3D Int(Rnd() * 800) + 1
+            rocky(i) =3D Int(Rnd() * 600) + 1
+            picRockTarget(i).Location =3D New Point(rockx(i), rocky(i))
+        Next i
+        speedy =3D 5
+        speedx =3D 0
+        santaDirection =3D chooseDirection()
+        skitype =3D "santa"
+        picSantaTarget.Image =3D chooseImage(santaDirection, skitype)
+        picSantaTarget.Location =3D New Point(Int(Rnd() * 800) + 1,
+Int(Rnd() * 600) + 1)
+        pinkSkierDirection =3D chooseDirection()
+        skitype =3D "pink"
+        picPinkSkierTarget.Location =3D New Point(Int(Rnd() * 800) + 1,
+Int(Rnd() * 600) + 1)
+        picPinkSkierTarget.Image =3D chooseImage(pinkSkierDirection,
+skitype)
+        greenSkierDirection =3D chooseDirection()
+        skitype =3D "green"
+        picGreenSkierTarget.Location =3D New Point(Int(Rnd() * 800) + 1,
+Int(Rnd() * 600) + 1)
+        picGreenSkierTarget.Image =3D chooseImage(greenSkierDirection,
+skitype)
+    End Sub
+    Function chooseImage(ByVal d As String, ByVal skitype As String)
+As Image
+        Dim myimage As Image
+        If d =3D "SE" Then
+            If skitype =3D "pink" Then
+                myimage =3D picPinkSkierLeft.Image
+            End If
+            If skitype =3D "green" Then
+                myimage =3D picGreenSkierLeft.Image
+            End If
+            If skitype =3D "santa" Then
+                myimage =3D picSantaLeft.Image
+            End If
+        ElseIf d =3D "SW" Then
+            If skitype =3D "pink" Then
+                myimage =3D picPinkSkierRight.Image
+            End If
+            If skitype =3D "green" Then
+                myimage =3D picGreenSkierRight.Image
+            End If
+            If skitype =3D "santa" Then
+                myimage =3D picSantaRight.Image
+            End If
+        Else
+            If skitype =3D "pink" Then
+                myimage =3D picPinkSkierStraight.Image
+            End If
+            If skitype =3D "green" Then
+                myimage =3D picGreenSkierStraight.Image
+            End If
+            If skitype =3D "santa" Then
+                myimage =3D picSanta0.Image
+            End If
+        End If
+        Return myimage
+    End Function
+    Function chooseDirection() As String
+        Dim directChoose As Integer
+        Dim direct As String
+        directChoose =3D Int((Rnd() * 3) + 1)
+        If directChoose =3D 1 Then
+            direct =3D "SE"
+        ElseIf directChoose =3D 2 Then
+            direct =3D "SW"
+        Else
+            direct =3D "S"
+        End If
+        Return direct
+    End Function
+    Private Sub PictureBox_Click(ByVal sender As System.Object, ByVal
+e As System.EventArgs)
+        Dim pic As PictureBox =3D DirectCast(sender, PictureBox)
+    End Sub
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Timer1.Tick
+        Dim i As Integer
+        Static h As Integer
+        Static jump As Integer
+        Dim skitype As String
+        If contact =3D "hit" Then h =3D h + 1
+        If h =3D 15 Then
+            imgOuch.Visible =3D False
+        End If
+        If h > 14 Then
+            contact =3D ""
+            h =3D 0
+            imgOuch.Visible =3D False
+        End If
+        If SantaCrash =3D False Then
+            If santaDirection =3D "SW" Then
+                picSantaTarget.Location() =3D New
+Point(picSantaTarget.Left - speedx + 25, picSantaTarget.Top - speedy +
+23) 'moves santa independently
+            End If
+            If santaDirection =3D "SE" Then
+                picSantaTarget.Location() =3D New
+Point(picSantaTarget.Left - speedx - 25, picSantaTarget.Top - speedy +
+23) 'moves santa independently
+            End If
+            If santaDirection =3D "S" Then
+                picSantaTarget.Location() =3D New
+Point(picSantaTarget.Left - speedx, picSantaTarget.Top - speedy + 23)
+'moves daniela independently
+            End If
+        End If
+        If SantaCrash =3D True And contact <> "hit" Then
+            picSantaTarget.Location() =3D New Point(picSantaTarget.Left
+- speedx, picSantaTarget.Top - speedy) 'moves daniela independently
+        End If
+        If greenSkierCrash =3D False Then
+            If greenSkierDirection =3D "SW" Then
+                picGreenSkierTarget.Location() =3D _
+                    New Point(picGreenSkierTarget.Left - speedx + 25,
+picGreenSkierTarget.Top - speedy + 23) 'moves daniela independently
+            End If
+            If greenSkierDirection =3D "SE" Then
+                picGreenSkierTarget.Location() =3D _
+                    New Point(picGreenSkierTarget.Left - speedx - 25,
+picGreenSkierTarget.Top - speedy + 23) 'moves daniela independently
+            End If
+            If greenSkierDirection =3D "S" Then
+                picGreenSkierTarget.Location() =3D _
+                    New Point(picGreenSkierTarget.Left - speedx,
+picGreenSkierTarget.Top - speedy + 23) 'moves daniela independently
+            End If
+        End If
+        If pinkSkiercrash =3D False Then
+            picPinkSkierTarget.Image =3D picPinkSkierTarget.Image
+            If pinkSkierDirection =3D "SW" Then
+                picPinkSkierTarget.Location() =3D _
+                    New Point(picPinkSkierTarget.Left - speedx + 25, _
+                              picPinkSkierTarget.Top - speedy + 23)
+            End If
+            If pinkSkierDirection =3D "SE" Then
+                picPinkSkierTarget.Location() =3D _
+                    New Point(picPinkSkierTarget.Left - speedx - 25, _
+                              picPinkSkierTarget.Top - speedy + 23)
+            End If
+            If pinkSkierDirection =3D "S" Then
+                picPinkSkierTarget.Location() =3D _
+                    New Point(picPinkSkierTarget.Left - speedx, _
+                              picPinkSkierTarget.Top - speedy + 23)
+            End If
+        End If
+        If picSantaTarget.Top > 632 Then
+            santaDirection =3D chooseDirection()
+            skitype =3D "santa"
+            picSantaTarget.Image =3D chooseImage(santaDirection,
+skitype)
+            picSantaTarget.Left =3D Int(Rnd() * 800) + 1
+            picSantaTarget.Top =3D -32
+            SantaCrash =3D False
+        End If
+        If picSantaTarget.Top < -32 Then
+            santaDirection =3D chooseDirection()
+            skitype =3D "santa"
+            picSantaTarget.Image =3D chooseImage(santaDirection,
+skitype)
+            picSantaTarget.Left =3D Int(Rnd() * 800) + 1
+            picSantaTarget.Top =3D -32
+            SantaCrash =3D False
+        End If
+        If picPinkSkierTarget.Left < -32 Then
+            santaDirection =3D chooseDirection()
+            skitype =3D "santa"
+            picSantaTarget.Image =3D chooseImage(santaDirection,
+skitype)
+            picSantaTarget.Left =3D Int(Rnd() * 800) + 1
+            picSantaTarget.Top =3D -32
+            SantaCrash =3D False
+        End If
+        If picPinkSkierTarget.Left > 800 Then
+            santaDirection =3D chooseDirection()
+            skitype =3D "santa"
+            picSantaTarget.Image =3D chooseImage(santaDirection,
+skitype)
+            picSantaTarget.Left =3D Int(Rnd() * 800) + 1
+            picSantaTarget.Top =3D -32
+            SantaCrash =3D False
+        End If
+        If picPinkSkierTarget.Top > 632 Then
+            pinkSkierDirection =3D chooseDirection()
+            skitype =3D "pink"
+            picPinkSkierTarget.Image =3D chooseImage(pinkSkierDirection,
+skitype)
+            picPinkSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picPinkSkierTarget.Top =3D -32
+            pinkSkiercrash =3D False
+        End If
+        If picPinkSkierTarget.Top < -32 Then
+            pinkSkierDirection =3D chooseDirection()
+            skitype =3D "pink"
+            picPinkSkierTarget.Image =3D chooseImage(pinkSkierDirection,
+skitype)
+            picPinkSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picPinkSkierTarget.Top =3D -32
+            pinkSkiercrash =3D False
+        End If
+        If picPinkSkierTarget.Left < -32 Then
+            pinkSkierDirection =3D chooseDirection()
+            skitype =3D "pink"
+            picPinkSkierTarget.Image =3D chooseImage(pinkSkierDirection,
+skitype)
+            picPinkSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picPinkSkierTarget.Top =3D -32
+            pinkSkiercrash =3D False
+        End If
+        If picPinkSkierTarget.Left > 800 Then
+            pinkSkierDirection =3D chooseDirection()
+            skitype =3D "pink"
+            picPinkSkierTarget.Image =3D chooseImage(pinkSkierDirection,
+skitype)
+            picPinkSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picPinkSkierTarget.Top =3D -32
+            pinkSkiercrash =3D False
+        End If
+        If picGreenSkierTarget.Top > 632 Then
+            greenSkierDirection =3D chooseDirection()
+            skitype =3D "green"
+            picGreenSkierTarget.Image =3D
+chooseImage(greenSkierDirection, skitype)
+            picGreenSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picGreenSkierTarget.Top =3D -32
+            greenSkierCrash =3D False
+        End If
+        If picGreenSkierTarget.Top < -32 Then
+            greenSkierDirection =3D chooseDirection()
+            skitype =3D "green"
+            picGreenSkierTarget.Image =3D
+chooseImage(greenSkierDirection, skitype)
+            picGreenSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picGreenSkierTarget.Top =3D -32
+            greenSkierCrash =3D False
+        End If
+        If picGreenSkierTarget.Left < -32 Then
+            greenSkierDirection =3D chooseDirection()
+            skitype =3D "green"
+            picGreenSkierTarget.Image =3D
+chooseImage(greenSkierDirection, skitype)
+            picGreenSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picGreenSkierTarget.Top =3D -32
+            greenSkierCrash =3D False
+        End If
+        If picGreenSkierTarget.Left > 800 Then
+            greenSkierDirection =3D chooseDirection()
+            skitype =3D "green"
+            picGreenSkierTarget.Image =3D
+chooseImage(greenSkierDirection, skitype)
+            picGreenSkierTarget.Left =3D Int(Rnd() * 800) + 1
+            picGreenSkierTarget.Top =3D -32
+            greenSkierCrash =3D False
+        End If
+        If contact =3D "jump" Then jump =3D jump + 1
+        If jump =3D 6 Then
+            contact =3D ""
+            jump =3D 0
+            If contact <> "hit" Then
+                picSnowBoardTarget.Image =3D picSnowBoard0Right.Image
+            End If
+            If contact =3D "hit" Then
+                picSnowBoardTarget.Image =3D picSnowBoardCrash1.Image
+            End If
+        End If
+        Call kdown()
+        Call kright()
+        Call kleft()
+        For i =3D 0 To 30
+            If contact <> "hit" Then
+                x(i) =3D x(i) - speedx
+                y(i) =3D y(i) - speedy
+                picTreeTarget(i).Location =3D New Point(x(i), y(i))
+                If i < 8 And contact <> "hit" Then
+                    mogulx(i) =3D mogulx(i) - speedx
+                    moguly(i) =3D moguly(i) - speedy
+                    picMogulTarget(i).Location =3D New Point(mogulx(i),
+moguly(i))
+                End If
+                If i < 6 And contact <> "hit" Then
+                    rockx(i) =3D rockx(i) - speedx
+                    rocky(i) =3D rocky(i) - speedy
+                    picRockTarget(i).Location =3D New Point(rockx(i),
+rocky(i))
+                End If
+            End If
+            If picSnowBoardTarget.Left < picTreeTarget(i).Left + 8 _
+                And picSnowBoardTarget.Left > picTreeTarget(i).Left -
+16 Then
+                If picSnowBoardTarget.Top < picTreeTarget(i).Top +
+0.25 * speedy _
+                    And picSnowBoardTarget.Top > picTreeTarget(i).Top
+- 0.75 * speedy + 1 _
+                    Then
+                    picSnowBoardTarget.Image =3D
+picSnowBoardCrash1.Image
+                    speedx =3D 0
+                    rightcount =3D 0
+                    leftcount =3D 0
+                    imgOuch.Location =3D New
+Point(picSnowBoardTarget.Left + 8, _
+=20
+picSnowBoardTarget.Top - 32)
+                    imgOuch.Visible =3D -1
+                    contact =3D "hit"
+                    speedy =3D 5
+                End If
+            End If
+            If i < 6 Then
+                If picSnowBoardTarget.Left < picRockTarget(i).Left +
+24 _
+                    And picSnowBoardTarget.Left >
+picRockTarget(i).Left - 32 Then
+                    If picSnowBoardTarget.Top < picRockTarget(i).Top +
+0.25 * speedy _
+                        And picSnowBoardTarget.Top > _
+                        picRockTarget(i).Top - 0.75 * speedy + 1 Then
+                        speedx =3D 0
+                        picSnowBoardTarget.Image =3D
+picSnowBoardCrash1.Image
+                        imgOuch.Location =3D New
+Point(picSnowBoardTarget.Left + 8, _
+=20
+picSnowBoardTarget.Top - 32)
+                        imgOuch.Visible =3D True
+                        contact =3D "hit"
+                        speedy =3D 5
+                    End If
+                End If
+            End If
+            If i < 8 Then
+                If picSnowBoardTarget.Left < picMogulTarget(i).Left +
+32 _
+                    And picSnowBoardTarget.Left >
+picMogulTarget(i).Left - 32 Then
+                    If picSnowBoardTarget.Top < picMogulTarget(i).Top
++ 0.25 * speedy _
+                        And picSnowBoardTarget.Top >
+picMogulTarget(i).Top - 0.75 * _
+                        speedy + 1 Then
+                        picSnowBoardTarget.Image =3D
+picSnowBoardJump.Image
+                        contact =3D "jump"
+                    End If
+                End If
+            End If
+            If y(i) < -32 Then
+                x(i) =3D Int(Rnd() * 800) + 1
+                y(i) =3D 600
+                picTreeTarget(i).Left =3D x(i)
+            End If
+            If y(i) > 600 Then
+                x(i) =3D Int(Rnd() * 800) + 1
+                y(i) =3D -32
+                picTreeTarget(i).Left =3D x(i)
+            End If
+            If x(i) < -32 Then
+                y(i) =3D Int(Rnd() * 600) + 1
+                x(i) =3D 800
+                picTreeTarget(i).Top =3D y(i)
+            End If
+            If x(i) > 800 Then
+                y(i) =3D Int(Rnd() * 600) + 1
+                x(i) =3D -32
+                picTreeTarget(i).Top =3D y(i)
+            End If
+            If i < 8 Then
+                If moguly(i) < -32 Then
+                    mogulx(i) =3D Int(Rnd() * 800) + 1
+                    moguly(i) =3D 600
+                    picMogulTarget(i).Left =3D mogulx(i)
+                End If
+                If moguly(i) > 600 Then
+                    mogulx(i) =3D Int(Rnd() * 800) + 1
+                    moguly(i) =3D -32
+                    picMogulTarget(i).Left =3D mogulx(i)
+                End If
+                If mogulx(i) < -32 Then
+                    moguly(i) =3D Int(Rnd() * 600) + 1
+                    mogulx(i) =3D 800
+                    picMogulTarget(i).Top =3D y(i)
+                End If
+                If mogulx(i) > 800 Then
+                    moguly(i) =3D Int(Rnd() * 600) + 1
+                    mogulx(i) =3D -32
+                    picMogulTarget(i).Top =3D y(i)
+                End If
+            End If
+            If i < 6 Then
+                If rocky(i) < -32 Then
+                    rocky(i) =3D 600
+                    rockx(i) =3D Int(Rnd() * 800) + 1
+                    picRockTarget(i).Left =3D rockx(i)
+                End If
+                If rocky(i) > 600 Then
+                    rockx(i) =3D Int(Rnd() * 800) + 1
+                    rocky(i) =3D -32
+                    picRockTarget(i).Left =3D rockx(i)
+                End If
+                If rockx(i) < -32 Then
+                    rocky(i) =3D Int(Rnd() * 600) + 1
+                    rockx(i) =3D 800
+                    picRockTarget(i).Top =3D y(i)
+                End If
+                If rockx(i) > 800 Then
+                    rocky(i) =3D Int(Rnd() * 600) + 1
+                    rockx(i) =3D -32
+                    picRockTarget(i).Top =3D y(i)
+                End If
+            End If
+            If picSantaTarget.Left < picTreeTarget(i).Left + 8 _
+                And picSantaTarget.Left > picTreeTarget(i).Left - 16
+Then
+                If picSantaTarget.Top < picTreeTarget(i).Top + 8 _
+                    And picSantaTarget.Top > picTreeTarget(i).Top - 16
+Then
+                    picSantaTarget.Image =3D picSantaCrashAlone.Image
+                    SantaCrash =3D True
+                End If
+            End If
+            If i < 6 Then
+                If picSantaTarget.Left < picRockTarget(i).Left + 8 _
+                    And picSantaTarget.Left > picRockTarget(i).Left -
+16 Then
+                    If picSantaTarget.Top < picRockTarget(i).Top + 8 _
+                        And picSantaTarget.Top > picRockTarget(i).Top
+- 16 Then
+                        picSantaTarget.Image =3D
+picSantaCrashAlone.Image
+                        SantaCrash =3D True
+                    End If
+                End If
+                If i < 1 Then
+                    If picSantaTarget.Left < picSnowBoardTarget.Left +
+32 _
+                        And picSantaTarget.Left >
+picSnowBoardTarget.Left - 32 Then
+                        If picSantaTarget.Top < picSnowBoardTarget.Top
++ 32 _
+                            And picSantaTarget.Top >
+picSnowBoardTarget.Top - 16 Then
+
+                            picSantaTarget.Image =3D
+picSantaCrashAlone.Image
+                            picSantaTarget.Location =3D _
+                                New Point(picSantaTarget.Left + 32,
+picSantaTarget.Top)
+                            picSnowBoardTarget.Location =3D _
+                                New Point(picSnowBoardTarget.Left,
+picSnowBoardTarget.Top)
+                            picSnowBoardTarget.Image =3D
+picSnowBoardCrash1.Image
+                            contact =3D "hit"
+                            imgOuch.Location =3D _
+                                New Point(picSnowBoardTarget.Left + 8,
+picSnowBoardTarget.Top - 32)
+                            imgOuch.Visible =3D True
+                            SantaCrash =3D True
+                        End If
+                    End If
+                End If
+                If i < 1 Then
+                    If picGreenSkierTarget.Left <
+picSnowBoardTarget.Left + 32 _
+                        And picGreenSkierTarget.Left >
+picSnowBoardTarget.Left - 32 Then
+                        If picGreenSkierTarget.Top <
+picSnowBoardTarget.Top + 32 _
+                            And picGreenSkierTarget.Top >
+picSnowBoardTarget.Top - 16 Then
+                            picGreenSkierTarget.Image =3D
+picGreenSkierCrash.Image
+                            picGreenSkierTarget.Location =3D _
+                                New Point(picGreenSkierTarget.Left +
+32, _
+                                          picGreenSkierTarget.Top)
+                            picSnowBoardTarget.Location =3D _
+                                New Point(picSnowBoardTarget.Left,
+picSnowBoardTarget.Top)
+                            picSnowBoardTarget.Image =3D
+picSnowBoardCrash1.Image
+                            contact =3D "hit"
+                            imgOuch.Location =3D New
+Point(picSnowBoardTarget.Left + 8, _
+=20
+picSnowBoardTarget.Top - 32)
+                            imgOuch.Visible =3D True
+                            greenSkierCrash =3D True
+                        End If
+                    End If
+                End If
+                If i < 1 Then
+                    If picPinkSkierTarget.Left <
+picSnowBoardTarget.Left + 32 _
+                        And picPinkSkierTarget.Left >
+picSnowBoardTarget.Left - 32 Then
+                        If picPinkSkierTarget.Top <
+picSnowBoardTarget.Top + 32 _
+                            And picPinkSkierTarget.Top >
+picSnowBoardTarget.Top - 16 Then
+                            picPinkSkierTarget.Image =3D
+picPinkSkierCrash.Image
+                            picPinkSkierTarget.Location =3D _
+                                New Point(picPinkSkierTarget.Left +
+32, _
+                                          picPinkSkierTarget.Top)
+                            picSnowBoardTarget.Location =3D _
+                                New Point(picSnowBoardTarget.Left,
+picSnowBoardTarget.Top)
+                            picSnowBoardTarget.Image =3D
+picSnowBoardCrash1.Image
+                            contact =3D "hit"
+                            imgOuch.Location =3D _
+                                New Point(picSnowBoardTarget.Left + 8,
+_
+                                          picSnowBoardTarget.Top - 32)
+                            imgOuch.Visible =3D True
+                            pinkSkiercrash =3D True
+                        End If
+                    End If
+                End If
+                If SantaCrash =3D True Then
+                    santaCrashCount =3D santaCrashCount + 1
+                    If santaCrashCount > 80 Then
+                        SantaCrash =3D False
+                        santaCrashCount =3D 0
+                        picSantaTarget.Image =3D picSanta0.Image
+                        contact =3D ""
+                        imgOuch.Visible =3D False
+                    End If
+                End If
+                If greenSkierCrash =3D True Then
+                    greenSkierCrashCount =3D greenSkierCrashCount + 1
+                    If greenSkierCrashCount > 80 Then
+                        greenSkierCrash =3D False
+                        greenSkierDirection =3D chooseDirection()
+                        skitype =3D "green"
+                        picGreenSkierTarget.Image =3D _
+                            chooseImage(greenSkierDirection, skitype)
+                        greenSkierCrash =3D False
+                        greenSkierCrashCount =3D 0
+                        contact =3D ""
+                        imgOuch.Visible =3D False
+                    End If
+                End If
+                If pinkSkiercrash =3D True Then
+                    pinkSkierCrashCount =3D pinkSkierCrashCount + 1
+                    If pinkSkierCrashCount > 80 Then
+                        pinkSkiercrash =3D False
+                        pinkSkierDirection =3D chooseDirection()
+                        skitype =3D "pink"
+                        picPinkSkierTarget.Image =3D _
+                            chooseImage(pinkSkierDirection, skitype)
+                        pinkSkiercrash =3D False
+                        pinkSkierCrashCount =3D 0
+                        contact =3D ""
+                        imgOuch.Visible =3D False
+                    End If
+                End If
+            End If
+        Next i
+    End Sub
+    Sub kdown()
+        If mykeydown And contact <> "hit" Then
+            rightcount =3D 0
+            leftcount =3D 0
+            direction =3D "S"
+            speedy =3D speedy + 2
+            If speedy > 5 Then speedy =3D 25
+        End If
+        If direction =3D "S" Then
+            If contact <> "jump" And contact <> "hit" And (mykeyleft =3D
+False Or mykeyright =3D False) Then
+                switcharm =3D switcharm + 1
+                If switcharm < 11 Then picSnowBoardTarget.Image =3D _
+                    picSnowBoard0Right.Image
+                If switcharm > 10 Then picSnowBoardTarget.Image =3D _
+                    picSnowBoard0Left.Image
+                If switcharm > 20 Then switcharm =3D 0
+            End If
+        End If
+
+    End Sub
+    Sub kright()
+        If mykeyright And contact <> "hit" Then
+            leftcount =3D 0
+            rightcount =3D rightcount + 1
+            If rightcount =3D 1 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard60Right.Image
+                speedx =3D 10
+                speedy =3D 22
+            End If
+            If rightcount =3D 2 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard60Right.Image
+                speedx =3D 15
+                speedy =3D 19
+            End If
+            If rightcount =3D 3 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard45Right.Image
+                speedx =3D 20
+                speedy =3D 16
+            End If
+            If rightcount =3D 4 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard45Right.Image
+                speedx =3D 10
+                speedy =3D 8
+            End If
+            If rightcount =3D 5 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard90.Image
+                speedx =3D 5
+                speedy =3D 0
+            End If
+            If rightcount =3D 6 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard90.Image
+                speedx =3D 2
+                speedy =3D 0
+            End If
+            If rightcount > 6 Then
+                direction =3D "SE"
+                picSnowBoardTarget.Image =3D picSnowBoard90.Image
+                speedx =3D 0
+                speedy =3D 0
+            End If
+        End If
+    End Sub
+    Sub kleft()
+        If mykeyleft And contact <> "hit" Then
+            rightcount =3D 0
+            leftcount =3D leftcount + 1
+            If leftcount =3D 1 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard60Left.Image
+                speedx =3D -10
+                speedy =3D 22
+            End If
+            If leftcount =3D 2 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard60Left.Image
+                speedx =3D -15
+                speedy =3D 19
+            End If
+            If leftcount =3D 3 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard45Left.Image
+                speedx =3D -20
+                speedy =3D 16
+            End If
+            If leftcount =3D 4 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard45Left.Image
+                speedx =3D -10
+                speedy =3D 8
+            End If
+            If leftcount =3D 5 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard90.Image
+                speedx =3D -5
+                speedy =3D 0
+            End If
+            If leftcount =3D 6 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard90.Image
+                speedx =3D -2
+                speedy =3D 0
+            End If
+            If leftcount > 6 Then
+                direction =3D "SW"
+                picSnowBoardTarget.Image =3D picSnowBoard90.Image
+                speedx =3D 0
+                speedy =3D 0
+            End If
+        End If
+    End Sub
+End Class

@@ -1,0 +1,207 @@
+Fraktale programmieren mit Visual Basic 2010 von  Einerhand Elders
+Voermanns programmieren mit Visual Basic 2010 von  Einerhand
+Elter
+Video:
+http://hsjvy.yx/mmc9bwjCCai
+http://oovxo.gp/T9KMGlSmIqU
+
+
+        EIN FRAKTAL:
+
+
+        Dim Schleifendurchlauf As Double ' Anzahl der Iterationen
+        Dim a As Double ' Hopalong-Parameter
+        Dim b As Double ' Hopalong-Parameter
+        Dim c As Double ' Hopalong-Parameter
+        Dim x As Double ' Hopalong-Parameter
+        Dim y As Double ' Hopalong-Parameter
+        Dim i As Double ' Iterationsvariable
+        Dim yy As Double ' Hopalong-Parameter
+        Dim xx As Double ' Hopalong-Parameter
+        Dim Abbildungsgrösse As Double ' Größe der Abbildung
+        Dim Farbzählung As Integer ' Farb-Berechnung
+        Dim Sprungwert As Double ' Farb-Berechnung
+
+
+        Dim Für1 As Double : Für1 =3D Val(TextBoxFraktal101.Text)
+'Anzahl Schleifendurchlauf
+        '100.000 ist schnell, kann mehrere Millionen sein, aber dann
+schöne Fraktale, aber lange Rechenzeit
+        Dim Für2 As Double : Für2 =3D TextBoxFraktal102.Text
+        Dim Für3 As Double : Für3 =3D TextBoxFraktal103.Text
+        Dim Für4 As Double : Für4 =3D TextBoxFraktal104.Text
+        Dim Für5 As Double : Für5 =3D Val(TextBoxFraktal105.Text)
+        Dim Für6 As Double : Für6 =3D Val(TextBoxFraktal106.Text)
+        Dim Abstand_links_oben As Integer : Abstand_links_oben =3D 300
+        Dim Abstand_von_unten : Abstand_von_unten =3D 300
+
+        xx =3D 0
+        yy =3D 0
+        x =3D 0
+        y =3D 0
+        Farbzählung =3D 0
+        'Den Variablen werden die in den TextBoxen gespeicherten Werte
+zugeordnet.
+        'Die Werte in den TextBoxen können vom Anwender vor dem Start
+einer neuen Grafik geändert werden
+        a =3D CInt(Für2)
+        b =3D CInt(Für3)
+        c =3D CInt(Für4)
+        Schleifendurchlauf =3D Für1
+        Sprungwert =3D Für6
+        Abbildungsgrösse =3D Für5
+
+        For dieSchleife =3D 1 To Schleifendurchlauf
+            If Farbzählung > 255 Then Farbzählung =3D 1 'Die Variable
+=84counter=93 sorgt für die Änderung der Farben beim Zeichnen
+            Zeichnen.FillRectangle(New
+SolidBrush(System.Drawing.Color.FromArgb(255 - Farbzählung, _
+            Farbzählung, 127 + Farbzählung / 2)), New Rectangle(10 *
+x / Abbildungsgrösse + Abstand_links_oben, 10 * y / Abbildungsgrösse +
+Abstand_von_unten, 1, 1))
+            'Die Hopalong-Formel:
+            xx =3D y - Math.Sign(x) * Math.Sqrt(Math.Abs(b * x - c))
+            'Ein kleiner "Trick" zum sprunghaften Ändern der Farben
+            If Math.Abs(x - xx) < Sprungwert Then
+                Farbzählung =3D Farbzählung + 1
+            End If
+            'Weiterer Teil der Hopalong-Formel
+            yy =3D a - x
+            'Dies sind Alternativen zur obigen Zeile, die ebenfalls
+interessante Ergebnisse liefern:
+            'können auch stillgelegt werden
+            yy =3D b - x
+            yy =3D a + b - x
+            yy =3D a - b - x
+            yy =3D b * b - x
+            yy =3D Math.Sqrt(a * b) - x
+            'Weiterer Teil der Hopalong-Formel
+            x =3D xx
+            y =3D yy
+
+        Next dieSchleife
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::=
+:::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::=
+::::::::::::::::::::::
+EIN ANDERES FRAKTAL:
+
+        Dim yyy As Integer ' Äußere Schleifenvariable zum Zeichnen
+        Dim xxx As Integer ' Innere Schleifenvariable zum Zeichnen
+        Dim i As Integer ' Innerste Schleifenvariable zur Iteration
+        Dim buffer As Double ' Speichervariable für Zeichenmode 2
+        Dim xx As Double ' Variable für Hopalong-Algorithmus
+        Dim yy As Double ' Variable für Hopalong-Algorithmus
+        Dim x As Double ' Variable für Hopalong-Algorithmus
+        Dim y As Double ' Variable für Hopalong-Algorithmus
+        Dim farbwert As Integer ' Farb-Umrechnung
+        Dim flag As Byte ' Schaltvariable für Zeichenmode 2
+        ' ################################## Parameter
+############################################
+        Dim breite As Integer =3D 600 ' Bildbreite (Darf geändert
+werden)
+        Dim höhe As Integer =3D 400 ' Bildhöhe (Darf geändert werden)
+        Dim innenschleife As Integer ' Maximaler Iterationswert;
+Festgelegt in TextBox 5
+        Dim a As Double ' Hopalong-Parameter und gleichzeitig linker
+oberer Startpunkt (X) der Grafik
+        Dim b As Double ' Hopalong-Parameter und gleichzeitig linker
+oberer Startpunkt (Y) der Grafik
+        Dim c As Double =3D 32.234 ' Dritter Parameter für die Hopalong-
+Gleichung. Darf verändert werden.
+        ' Hier können andere Werte jedoch zu völlig anderen
+Ergebnissen führen
+        Dim stap As Double ' Über Textbox 3 änderbar: Schrittweite
+bzw. Auflösung
+        Dim graphmode As SByte =3D -1 ' Kann mit Button 2 in 1 geändert
+werden
+        Dim schwelle As Double ' Nur relevant für grafikmodus 2
+        Dim farbfaktor As Integer ' Kann geändert werden
+
+
+        'Abfrage der in den TextBoxen gespeicherten, vorgegebenen
+Variablen
+        a =3D TextBoxFraktal201.Text ' Über Textbox 1 änderbar /
+Startkoordinate X
+        stap =3D TextBoxFraktal203.Text ' Über TextBox 3 änderbar /
+Auflösung
+        schwelle =3D TextBoxFraktal204.Text ' Über TextBox 4 änderbar /
+Schwelle für mode 2
+        innenschleife =3D TextBoxFraktal205.Text ' Über TextBox 5
+änderbar / Anzahl der Iterationen
+        farbfaktor =3D TextBoxFraktal206.Text ' Über TextBox 6
+änderbar / Verwandlung der Rechenergebnisse in Farben
+        For yyy =3D 1 To breite ' Erste, äußere Verschachtelungsebene:
+Bildbreite: X-Koordinate
+            a =3D a + stap 'Inkrementierung des Parameters a um den Wert
+stap (z.B. 0,004)
+            b =3D TextBoxFraktal202.Text 'Neue "Zeile": b muss auf
+Anfangswert zurückspringen und wird neu incrementiert
+            For xxx =3D 1 To höhe ' Zweite Verschachtelungsebene:
+Bildhöhe: =92 Y-Koordinate zum Zeichnen
+                b =3D b + stap 'Inkrementierung des Parameters b um den
+Wert stap
+                buffer =3D 0 ' Farbwertberechnung: Buffer-Reset
+                xx =3D 0 ' Hoplaong-Parameter Reset
+                yy =3D 0 ' Hoplaong-Parameter Reset
+                x =3D 0 ' Hoplaong-Parameter Reset
+                y =3D 0 ' Hoplaong-Parameter Reset
+                For i =3D 1 To innenschleife 'Dritte, innere
+Verschachtelungsebene
+                    ' Hoplaong-Schleife - Kann von ca. 100 bis
+unbegrenzt variiert werden
+                    ' Hopalong-Gleichung:
+                    xx =3D y - Math.Sign(x) * Math.Sqrt(Math.Abs(b * x -
+c))
+                    yy =3D a - x
+                    ' Berechnung der Farbe des zu zeichnenden Pixels
+                    ' Zwei Methoden zur Farbberechnung: Graphmode 0
+und 1. Der Modus kann von der
+                    ' Benutzeroberfläche aus gewählt werden.
+                    ' Mode 1: Speichern des höchsten Wertes in
+=84buffer=93
+                    If graphmode =3D -1 Then
+                        If x > buffer Then buffer =3D Math.Abs(x)
+                    End If
+                    ' Mode 2: Abbruch der Schleife bei Erreichen eines
+Schwellenwertes
+                    If graphmode =3D 1 Then
+                        flag =3D 1
+                        If Math.Abs(x) > schwelle Then
+                            If flag =3D 1 Then
+                                buffer =3D i 'Schleifenwert i wird in
+Buffer gespeichert
+                                Exit For 'Schleife wird verlassen
+                            End If
+                        End If
+                        flag =3D 0
+                    End If
+                    ' Teil der Hopalong-Gleichung:
+                    x =3D xx
+                    y =3D yy
+                Next i 'Ende der inneren Schleife zur Berechnung eines
+einzigen Punktes
+                ' Umrechnung in Farbwert. Variable "farbfaktor" kann
+in TextBox 6 geändert werden
+                farbwert =3D CInt(farbfaktor * buffer)
+                If farbwert > 511 Then farbwert =3D 511
+                If farbwert > 255 And farbwert < 512 Then farbwert =3D
+farbwert - 256
+                ' Es folgt das Zeichnen des betreffenden Farbpixels an
+den Koordinaten yyy und xxx.
+                ' Der Einsatz der Variablen "farbwert" als rgb-Werte
+ist nur ein Beispiel.
+                ' Die besten Ergebnisse lassen sich mit Paletten-
+Arrays erzielen, in denen zu jedem Wert
+                ' der Variablen "farbwert" die jeweiligen RGB-Werte
+gezielt nach Gesichtspunkten der
+                ' optimalen Wahrnehmung bzw. der Ästhetik eingetragen
+sind.
+                Zeichnen.FillRectangle(New SolidBrush _
+                (System.Drawing.Color.FromArgb(farbwert, 125 +
+farbwert / 2, 255 - farbwert)), _
+                New Rectangle(yyy, xxx, 1, 1))
+            Next xxx
+        Next yyy

@@ -1,0 +1,90 @@
+Hallo B�rsenfreaks,
+an alle die bereits seit längerem an der Börse tätig sind und die sich
+mit der DTB schon auseinandergesetzt haben. Ich möchte aufgrund von
+vielen Anfragen heute einmal eine DTB Strategie in diesem Forum
+einbringen.
+Vorüberlegungen: 
+1. Ich möchte keine Spekusteuer zahlen, also müssen die Kontrakte
+auslaufen.
+2. Welcher Zeitraum kommt dafür in Frage -- 5 - 6 Wochen Restlaufzeit
+3. Wie entwickelt sich der Dax in dieser Zeit? Wie sieht der Chart aus ,
+wo laufen die Trendkanäle usw.
+4. Wie groß ist der max. DAX-Ausschlag in dieser Zeit ( beläuft sich auf
+ca. 250 PKT.)
+.
+Nach diesen Überlegungen kann ich nun an die Zusammenstellung meiner
+Kontrakte gehen. Das folgende Beispiel mit Daten von 18. Dezember 97 soll
+nur die unterschiedlichen Wege der ZVG - Arbeit verdeutlichen. ( Habe
+keine Daten von Anfang Februar)
+.
+Gehen wir also davon aus, daß der DAX weiter nach oben läuft. Also bis
+zur M�rzverfall von heute auf ca. 4850 Punkte.
+Wenn ich dieser Annahme bin, so kann ich also Calls kaufen, um an diesem
+Anstieg teilzuhaben. Um nicht zuviel Kapital einzusetzen, wähle ich die
+ODAXCalls 3/4700 die DM 61 kosten. Bei dem erreichen des Ziel am 18.
+Januar habe ich also einen Gewinn von DM 89 (Spesen nicht berücksichtigt).
+Beim DAX von unterhalb 4760 mache ich Verlust !!
+.
+Wie kann ich nun anders diesen Gewinn erwirtschaften ?
+.
+Nun, ich kann Puts schreiben. Ich könnte bei meiner Einschätzung
+eigentlich auf Puts mit Basis 4800 setzen, aber das ist natürlich sehr
+riskant. Also suche ich mir eine Kontraktgröße die mir selbst bei einer
+Trendwende nichts anhaben kann. Bereits oben hatten wir festgestellt,
+daß die max durchschnittliche DAXver�nderung bei 250 Pkt. liegt. Nun
+gut, der ODAX-Kontrakt Put 3/4350 ergibt eine Prämie von DM 42. Also
+schreibe ich 2 Kontrakte und erziele ebenfalls DM 84 bis 18.Januar. Die
+eingenommen Prämie kann ich gleich in irgendwelche Aktien investieren,
+die ihrerseits wieder dem Kurs ausgesetzt sind. 
+.
+Um die Angelegenheit noch abzurunden, kann ich natürlich bei der obigen
+Markteinschätzung auch noch ODAXCalls schreiben. Hier bieten sich die
+ODAX-Calls mit Basis 3/4900 an. Die bringen dann nochmals eine Prämie
+von DM 12.
+.
+Diese Kombination wird auch Strangle-Verkauf genannt. Natürlich ist das
+Verlustrisiko im Grundsatz unbegrenzt, allerdings läuft hierbei der
+Zeiteffekt für den Schreiber und bei den eingegangenen Positionen, die
+wie hier relativ weit aus dem Geld sind, ist das Verlustrisiko recht
+gering.
+Sollte es wieder erwarten doch gegen einen laufen, d.h. der Dax
+entwickelt sich besser oder schlechter, so ist das erstens nicht am Tag
+nach dem Schreiben der ODAXe sondern vermutlich erst am Ende der
+Laufzeit. Bei so einem schlechten Verlauf, muß man dann seine Position
+rollen. D.h. ich schließe meine ODAXe März und schreibe gleichzeitig
+neue auf April. In der Regel kann man dann 200 Pkt. in der Basis höher
+schreiben, ohne einen Differenzbetrag zuzuschießen. So bleibt einem die
+Prämie erhalten.
+.
+Folgenden Zusammenstellung für das Jahr 1997 haben zu einem guten
+Resultat geführt.
+1. Aus der Marginhinterlegung von DM 100000 in Aktien wurden ca. DM
+140000
+2. Das Depot wurde mtl. veroptioniert, was wiederum einen
+Prämieneinnahme von ca DM 3000 * 11 Monate brachte. Diese Prämien in
+Aktien neu angelegt mit Gewinnsteigerung von ca. 20% machte am
+Jahresende DM 40000.
+3. DTB Kontrakte mit dem oben beschriebenen Stangle - Verkauf mit einer
+mtl. Prämieneinnahme von DM 5000 * 10 Monate ebenfalls in Aktien
+reinvestiert erbrachte einen Gewinn von DM 60000 in Aktien.
+Alles zusammen war der Depotbestand am Jahresende 1997 bei einem Wert
+von DM 240000.
+Und das steuerfrei, da keinerlei Spekusteuer anfiel.
+.
+Im Jahr 1997 mußte ich insgesamt dreimal meine Callpositionen rollen.
+Das war im Juni und Juli, wobei dann die Positionen im August ausliefen
+und das war eine Callpositionen auf Cobank im Dez, wobei diese dann im
+Januar wertlos wurde. Nach dem Oktobercrash mußte einmal die Putposition
+gerollt werden. Also, der Markt bestätigt sich immer wieder selbst, denn
+eine Endlosrallye ohne Konsolidierung gibt es nicht.
+.
+Bleibt noch zu erwähnen, daß natürlich auch neben dieser Strategie
+Calls/Puts für Intradays gekauft werden können. Allerdings sagt auch die
+Statistik, daß an der DTB zu 75% der Käufer einer Option der Verlierer
+ist. Dies gilt nach meienr eigenen Erfahrung aus dem letzten Jahr
+tatsächlich, denn dort sind meine Gekauften Positionen bei weitem nicht
+so gut aufgegangen wie dir o.b. Stangle Strategie.
+
+So, viel Spaß beim rekapitulieren ich bin gespannt auf Eure Reaktionen.
+Gruß Romy
+(übrigens, niemand ist vollkommen und fehlerfrei)

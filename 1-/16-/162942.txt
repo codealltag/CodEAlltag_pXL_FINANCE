@@ -1,0 +1,14 @@
+Hallo Carsten,
+
+eine Loesung fuer dein Problem:
+
+Spalte A: Zeitachse
+Spalte B: taegl.Kurs
+Spalte C: 12 Tage GD    Formel: =SUMME(B1:B12)/12
+Spalte D: 38 Tage GD                =SUMME(B1:B38)/38
+Spalte E:200 Tage GD               =SUMME(B1:B200)/200
+
+somit bekommst du alle drei GDs(oder mehr) in ein Diagramm.
+
+mfg
+Ivano Wieskemper

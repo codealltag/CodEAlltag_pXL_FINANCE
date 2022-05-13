@@ -1,0 +1,37 @@
+Seh ich _fast_ genauso:
+
+Wenn Du 100ter Stuecke hast, so bringt ein geschriebener Call mit
+Basis 200 auf Dez nochmals 20% (die Praemie ist zu versteuern) -
+falls Du nicht an einen drastischen Fall glaubst. Wenn doch, dann
+mit niedrigerer Basis (Steuer wird auf Praemie faellig).
+
+Bei weniger Invest: lass uns mal Deinen Spitzensteuersatz bei 25%
+annehmen (Student?). Bei sofortigem Verkauf werden von den 100 
+Gewinn ca 25 an die Steuer gehen. Put 200 Sep kostet ca 25, bringt
+das gleiche. Bei 35% Steuersatz ... musst Du selbst schaun, aber
+ich tippe mal, dass sich das mit Gebuehren nicht rechnet. Zumal
+der ausgeuebte Put schwer als Aufwendung durchzusetzen sein wird
+bzw ein Kursgewinn bei Glattstellung in die Spekufrist faellt.
+
+Allein Deine Frage legt mir die Frage nahe, ob ein synthtischer
+Leerverkauf wirklich Deine Wahl sein sollte ...
+
+Als Variante faellt mir noch ein: aus dem Verkaufgewinn einen
+Teil in die teuren Puts stecken. Steigt NOA, mindert der Verlust
+der Puts den Gewinn und die Steuerschuld (daher nur einen Teil,
+selbst wenn Du eher an einen Ruecklauf glaubst). Fallen sie, so
+bleibt mehr in der Kasse.
+
+Konkret etwa so (mit 10%) pro Aktie: 'halber' Put kostet 12,50.
+
+NOA steigt auf 240 -> Put verliert etwa die Haelfte, Verlust 6.
+Statt 100 EUR ./. 25% = 75 EUR nach Steuer bleiben also etwa
+(100 - 6) ./. 25% = 71
+NOA faellt auf 160 -> Put verdoppelt sich etwa, Gewinn 12, also
+(100 + 12) ./. 25% = 84
+
+Haengt also vom Markt und individuellen Fall ab, also selber
+rechnen.
+
+Gruss
+Sergio

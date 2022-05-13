@@ -1,0 +1,24 @@
+Hallo,
+
+mein Depot fuer diese Woche, letzte Woche habe ich es
+bis auf die unlimitierten Kaufankuendigungen, die ich auch
+umzusetzen gedachte, nicht geschafft. Diese behandele ich
+aber trotzdem als gekauft, und zwar diesen Freitag, weill
+ich keine historischen Schlusskurse finden kann.
+
+Transaktionen:
+ Art # Stck # Name  # WKNR  # EUR   # Boersenplatz
+   K  # 200 # Novell # 873019 # 4410,00 # letzter
+   K  # 100 # Appel # 865985 # 7160 # letzter
+Depot:
+ Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+ Esisi      # 878841 #   200  #   58,50   #   67,89  # 13578,00
+ PESF # 871111 # 100 # 65,00 # 82,20 # 8220,00
+ Elbinghaus # 868576 # 685 # 21,80 # 21,09 # 14446,65
+ Pötzinger Vz.   # 716463 #   50 # 337,50 # 442,10 # 22105,00
+ Novell    # 873019 # 200 # 22,05 # 22,05 # 4410,00
+ Appel     # 865985# 100 # 71,60  # 71,60 # 7160,00
+
+ Cash     :  (49992.00) 38422,00
+ Depotwert:  (52477,50) 69919,65
+ Gesamt   : (102469,50) 108341,65

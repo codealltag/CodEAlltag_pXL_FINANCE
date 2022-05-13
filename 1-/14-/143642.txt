@@ -1,0 +1,15 @@
+ich habe mir anhand der black-scholes-formel ein excel-tabelle
+"gebastelt" die mir den fair-value von optionsscheinen berechnet.
+
+desweiteren lasse ich mir noch das delta und das leverage berechen.
+
+leider kann ich mit meiner vorliegenden literatur ('professionele
+berwertung von os' / Prof. Hobein) nicht herauslesen wie ich mit
+hilfe der briefkurse der emittenten die impl. Vola berechne. ich würde
+auch gerne wissen wie man die anderen griechen anhand von formeln
+berechnet. wer kennt erschwingliche literatur, bzw. kann mir die formeln
+zeigen.?
+
+wilfried
+
+cu

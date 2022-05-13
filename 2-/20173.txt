@@ -1,0 +1,28 @@
+Hallo,
+
+kann mir hier zufällig jemand erklären wie ich eine bestehende
+Position mithilfe von Derivaten absichern kann.
+
+z=2EB. folgendes:
+
+Bestand: 100 Aktien der Athesia
+
+Verkauf in 6 Monaten zum heutigen Preis (oder besser)
+
+
+Ich möchte also ein Instrument haben, das sich bei sinkendem
+Aktienkurs entsprechend im Wert steigert, so dass ich in 6 Monaten die
+Aktien (zum dann aktuellen Börsenkurs) und das Derivate Instrument
+verkaufen kann um dann den Betrag herausbekomme, als wenn ich die
+Aktien heute Verkaufen würde. Bei steigendem Aktienkurs werden einfach
+die Aktien verkauft, aus der Absicherung muss dann kein Profit mehr
+abfallen.
+
+Alles was ich bisher weiss ist, das dies wohl mit Optionsscheinen
+machbar sein sollte. Hier wäre also wohl ein Put OS nötig.
+Aber wie wähle ich einen solchen Schein aus, und wieviele muss ich
+kaufen?
+
+
+Grüße,
+Thomas

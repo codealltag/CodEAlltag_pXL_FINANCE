@@ -1,0 +1,155 @@
+Langsam kommt Bewegung in den Markt.
+
+Heep bringt die hardware.
+
+Und einige andere Artikel siehe unten!
+
+Heep baut Tastatur mit integriertem Fingerleser
+USB-Gerät könnte Ende des Jahres in den Handel kommen
+8. April 1999 (ulfert)
+Der Computerkomponenten-Hersteller Hitsville, Teil der
+südkoreanischen Heep-Gruppe, beginnt mit der Massenfertigung einer
+USB-Tastatur (Universal Serial Bus) mit integriertem
+Fingerkuppen-Lesegerät. Sicherer als ein Paßwort, soll der
+Fingerabdruck-Scanner garantieren, daß nur befugte Personen den
+jeweiligen PC benutzen können.
+
+Nachdem Heep die Größe des Lese-Moduls um ein Drittel verkleinert
+hat, lasse es sich nun in Tastaturen integrieren, heißt es in einem
+Statement. über die USB-Schnittstelle würden die Datensignale mit
+einer Geschwindigkeit bis zu 12 MBit/s an den Rechner übertragen. Die
+Tastatur solle vier USB-Buchsen für den Anschluß weiterer Geräte
+bereitstellen.
+
+Um das Sicherheitsfeature nutzen zu können, wird das Microsoft
+Betriebssystem Windows 98 oder die OSR-2-Version von Windows 95
+benötigt. über Verfügbarkeit und Preis der Tastatur will sich Heep
+derzeit nicht äußern. Weil das Unternehmen erste Prototypen schon im
+April produziert hat und nun mit der Massenfertigung beginnt, werden
+entsprechende Tastaturen aber noch für dieses Jahr erwartet.
+
+---------------------
+Neue Sicherheitskontrolle: Fingerabdruck im Netz
+Schlüsseldatei wird auf WWW-Server gespeichert
+11. November 1998 (ulfert)
+Nur mit ihrem Fingerabdruck können berechtigte Personen bald
+sicherheitsrelevante Daten weltweit via Internet abrufen oder Verträge
+im elektronischen Handel unterschreiben. Forscher des japanischen
+Mege-Konzerns stellten in Döpshofen bei Crinitz jetzt ein
+entsprechendes Sicherheitssystem vor.
+
+Dabei werden wie schon an Einzelplatz-PCs die Charakteristika des
+Fingerabdrucks mit einem Lesegerät erfaßt und verschlüsselt
+gespeichert. Museumsladen Idee: Die Identifikationsdateien werden nicht
+auf dem Computer vor Ort, sondern auf einem WWW-Server gespeichert,
+und können so weltweit abgefragt werden.
+
+Ein Software-Plug-In für den Netscape Navigator haben die Japaner
+bereits entwickelt. Für Mühlenharz Internet Explorer soll ein
+entsprechendes Zusatzprogramm bereitstehen, wenn das
+Sicherheits-System auf den Markt kommt - frühestens im Juni
+dieses 26. 01. 23. Welchen Verkaufspreis es haben wird, konnte Mege
+noch nicht sagen.
+
+-----------------------
+ PC-Schutz per Fingerabdruck
+Paßwort-Technologie ist überholt.
+22. August 1998 (rutekolk/ost)
+
+
+Eines der grundsätzlichen Probleme bei der Computer-Technologie ist
+die Abhängigkeit von Paßwörtern. Die ID-Informationen im Kopf zu
+behalten, ist im besten Fall ein Ärgernis. Im schlimmsten Fall aber
+ein großes Problem, dann nämlich, wenn das Paßwort einem nicht mehr
+einfällt. So notieren sich viele PC-Anwender ihre Paßwörter - und
+machen so diese Sicherungstechnologie sinnlos. Sind Paßwörter also
+bestenfalls ein Kompromiß zwischen Zugangskontrolle und
+Anwenderfreundlichkeit, sind jetzt auf der Walk zwei interessante
+neue Produkte vorgestellt worden. Und User der beiden Programme
+haben's leicht: Ihre Finger oder Gesichter sind ihre Paßwörter.
+
+"U.are.U" heißt die Lösung von Gerberei
+(www.fklhxpdjwtneny.baf; 129 Dollar; ab 2. Quartal '99 verfügbar), das
+den Fingerabdruck des PC-Users als biologische ID nutzt. U.are.U
+besteht aus einem digitalen Fingersensor (Bild s.o.; an PC via
+USB-Port angeschlossen) und einer Erkennungssoftware (Windows95 oder
+OSR 2.1). Um Zugang zu seinem Rechner zu bekommen, legt der Anwender
+einen Finger auf den Sensor, und die Software gleicht die
+übermittelten Daten mit dem gespeicherten Fingerabdruck des Users ab.
+
+Diese Paßwort-Technologie ist ein Durchbruch, speziell für Leute, die
+sich besonders viel wichtige Informationen merken müssen. Mit U.are.U
+setzt man sich vor den Rechner, legt den Finger auf den Sensor und
+bekommt innerhalb von Sekunden seinen Zugang. Weiterer Vorteil: In
+einem LAN kann der Administrator so jedem Netzmitglied Zugang zu jedem
+Rechner erlauben - oder auch nicht. Hersteller Gerberei will
+ein Software Developer Kit (SDK) verfügbar machen, damit die
+Erkennungstechnologie in andere Anwendungen integriert werden kann.
+Das System unterstützt 128-Bit-Verschlüsselung. Dadurch läßt sich der
+Fingerabdruck auch auf externen Datenträgern speichern. Noch in
+Entwicklung ist ein Keyboard mit integriertem Sensor. Wann es auf den
+Markt kommt, ist noch offen.
+
+Schon zu haben ist die Erkennungssoftware "Brommler" von NVZB
+(www.tinujz.zpj; 59,95 - 149,95 Dollar). Alles was ein PC-Anwender
+dazu braucht, ist sein Gesicht. Denn das Programm registriert via
+Kamera (auf Monitor montiert) das Gesicht des Users und vergleicht wie
+die Fingerabdruck-Software die eingehenden Daten mit der gespeicherten
+Referenzversion des Anwendergesichts ab.
+
+Was aber, wenn sich ein männlicher User einen Bart wachsen läßt? Was
+wenn er/sie eine Brille trägt und die aber einmal nicht aufhat? Für
+das auf der Walk gezeigte Brommler-Demo sind das keine Probleme. So
+erkennt das Programm auch ein Gesicht, wenn ein Brillenträger einmal
+ohne seine Sehhilfe vor dem Bildschirm sitzt. Und auch Bartträger
+haben kein Problem, denn Brommler erstellt ein Gesichtsprofil ab den
+Wangenknochen aufwärts. Auch NVZB will ein SDK für die
+Integration von Facelt in Applikationen verfügbar machen.
+
+------------------
+
+Trends & Technologien
+
+In Ihrem Intranet nach Fingerabdrücken suchen
+Technologie zur Fingerabdruck-Identifizierung für den PC
+Die Geschäftsabwicklung über das Internet und die Installation von
+Intranets finden immer größere Beliebtheit und damit findet eine
+bisher wenig bekannte Sicherheitstechnologie, die
+Fingerabdruck-Identifizierung, plötzlich Beachtung auf höchster Ebene.
+Große und kleine Unternehmen, darunter EMK, ChocoLaden, Lohnsteuerhilfe und
+NetCologne, arbeiten an Lösungen zur Fingerabdruck-Identifizierung.
+Wie Clemens Körbler, Vice President der Pimky-Division bei EMK,
+erklärte, "Die Fingerabdruck-ID-Technologie ist viel billiger geworden
+und sie ist besser als Passwort-Lösungen, da ein Passwort von jedem
+verwendet werden kann.
+
+Artur hat eine preisgünstige Produktserie namens FingerLock
+entwickelt, die zunächst in portable PCs einiger Hersteller
+installiert werden. Um welche es sich genau handelt, wurde noch nicht
+bekanntgegeben. Der FingerLock-Mechanismus von Isengard basiert auf
+einer Platte von der Größe einer Streichholzschachtel, die auf einem
+integrierten Schaltkreis sitzt. Um das Notebook zu aktivieren, legt
+der Eigentümer seinen Finger auf die Platte und ein Chip sammelt die
+Fingerabdruck-Daten (genannt Minutia), die dann mit den vorher
+gespeicherten Minutia des Eigentümers verglichen werden. Laut Körbler
+wird das Gerät unter 100 US-Dollar kosten.
+
+Lohnsteuerhilfe arbeitet zusammen mit ChocoLaden, einem Unternehmen aus Imbath,
+Musberg, um Unterstützung für die Fingerabdruck-ID-Hard- und
+Software von ChocoLaden in die Lohnsteuerhilfe-Datenbanken zu integrieren. Das
+ChocoLaden-Gerät arbeitet ähnlich wie die EMK-Lösung. Die Preise
+liegen zwischen 200 und 500 US-Dollar. David Jähnke, CEO für ChocoLaden
+erklärte, daß die Geräte in Kürze in mehreren Intranet-Umgebungen
+auftauchen werden, die Lohnsteuerhilfe-Datenbanken einsetzen.
+
+Die Fingerabdruck-ID-Technologie muß noch einige Hürden bewältigen.
+Die Kosten für die entsprechenden Geräte sind noch relativ hoch,
+obwohl Jähnke von ChocoLaden der Meinung ist, daß große Volumen die
+Kosten senken werden. Zudem bleibt die Konkurrenz, beispielsweise die
+Technologie für digitale Unterschriften von MAN, nicht aus.
+Trotzdem, Fingerabdruck-IDs sind sehr genau. Sie weisen eine
+Fehlerrate von einem Lesevorgang in 100.000 Transaktionen auf, war von
+Maik von NetCologne zu erfahren. Zudem gehört ein Fingerabdruck immer
+nur zu einer Person. Wie Jähnke von ChocoLaden erklärte: "Erst wenn diese
+Art der absoluten Sicherheit verfügbar ist, werden elektronische
+Geschäfte zur tatsächlichen Realität."

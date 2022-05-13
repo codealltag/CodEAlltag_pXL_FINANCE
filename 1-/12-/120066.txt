@@ -1,0 +1,22 @@
+Richtig vermutet, es sind immer %-Werte, die mit dem Nominalwert
+(Nennwert) in Beziehung gesetzt werden muessen. Dieser kann z.B.
+DM 5.000 betragen.
+Noch nicht ganz klar ist es wie die Umstelling in EURO erfolgen wird.
+Aus einer DM 100 Anleihe wuerde da ja z.B eine EURO 55 Anleihe, 
+und da mit % zu rechen wird unuebersichtlich, und fuer viele Softwaren
+praktisch unmoeglich.
+Vermutlich wird man die "Cent-Methode" waehlen, bei der die Anleihen
+buchmaessig in kleinste Teile aufgeteilt werden. Aus deiner EURO 55 
+Anleihe wuerden also 5.500 Cent-Anleihen, die man dann wieder in % 
+bewerten oder zu z.B. 10.000 Cent = Euro 100 Anleihen zusammenfassen
+koennte.
+
+Ich kenne keine Gratissite im Netz, wo man Daten zu allen Anleihen 
+findet. Da muss man jedesmal suchen. Da meist grosse Volumen wie
+nominal 100.000 oder 10.000.000 gehandelt werden sind der einzelne
+Nominalwert und Spesen fuer den Profi relativ egal.
+
+
+Berthold
+Visit   http://wrvojhi.tmq.ima/gprcvg  and download a 
+free calculator for options, futures, bonds and similar stuff.

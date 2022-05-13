@@ -1,0 +1,22 @@
+Wie so vieles kann man das ueber ein Makro loesen.
+Besonders komfortabel waere es natuerlich, wenn man
+den anzuzeigenden Bereich frei waehlen kann.
+
+Also definiert man irgendwo zwei Zellen, in denen man
+den Start- und den Endzeitpunkt des Charts ablegt.
+Das Makro nimmt jetzt diese Werte und aktualisiert
+den x-Bereich der Grafik.
+
+Im Normalfall sollte ja der aktuellste Wert den Endpunkt
+des Charts bestimmen. Also muss das Makro nachsehen,
+wo der letzte Wert steht, und die Position dieses Wertes
+in die oben erwaehnte Zelle fuer das Darstellungsende
+eintragen.
+
+MfG
+Oliver
+--
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate
+mit KURSEXTRAKT V.2.3.7.
+http://lyd.ovtojq.hx/hbgx/cht/

@@ -1,0 +1,16 @@
+Im Moment möchte ich gar nicht handeln. Ich versuche jetzt nur zu 
+ermitteln, welche Erkenntnisse ich aus dem Kursticker mit den Ask/Bid 
+Angaben gewinnen kann. Aber wie ich sehen kann, führt eine erhöhte 
+Nachfrage nicht unbedingt auch zum Kursanstieg.
+Ich konnte gestern aber einmal beobachten, dass der Kurs stark gefallen 
+ist mit folgender Ticker-Info
+
+Zeit          Bid        Ask        Bidsize  Asksize
+14:47:47      21,61      21,64      463      463
+14:47:46      21,66      21,67      462      6.172
+14:47:40      21,71      21,72      684      820
+14:47:35      21,71      21,72      684      471
+
+Der Kurs hatte sich später wieder normalisiert, als höhere Bidsize Werte 
+im Ticker erschienen, also die Nachfrage wieder größer war. Da war Kurs 
+dann mal stimmig zu Angebot und Nachfrage.

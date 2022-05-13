@@ -1,0 +1,49 @@
+Hyperhreading bringt in manchen Fällen was, in anderen nicht und in 
+wieder anderen bremst es sogar. Das ist ein bekannter Fakt.
+Persönli fand ich das eigentlich eine ganz pfiffige Idee, auch wenn sie 
+letztlich nicht viel gebracht hat. Sie war allerdings wohl mehr aus der 
+Not geboren da P4 so einen erbärmlichen IPC hat.
+Und natürlich ein ganz toller Marketing Gag. Ich habe mal eine Trittschack's 
+Webseite angesurft ind der Trittschack's demonstriert hat wie ein Excel Makro 
+mit Hyperthreading mehr als doppelt so schnell lief :-)
+Was natürlich völlig absurd ist aber genau das trifft was Jürg vorher 
+anmerkte.
+
+
+Tatsache ist dass es bei Extrawurst was bringt, komisch was?
+EDC (so heisst die Architektur) ist nicht nur ein paar Adressleitungen 
+mehr sondern auch breitere Datenbusse, mehr Register, neue Befehle
+
+
+Die Conroe Tests waren mit Applikationen die nicht von Dual-Core 
+profitieren, also wohl Singlethreaded sind. In diesem Fall steht der 
+Anwendung bei Bohnlander der gesamte Cache zur Verfügung und der ist nun mal 
+4x so gross wie bei Extrawurst. Wenn man jetzt noch die Anwendung so auswählt 
+dass sie in die 4 MB gut reinpasst hat man optimale Bedingungen für 
+einen guten Benchmark geschaffen
+
+
+Er redet von Thermal Throtteling, nicht von der sinnvollen 
+Runterregelung des Taktes bei geringer Last. Der P4 wird gern mal etwas 
+wärmer wenn er hoch getaktet ist, dann regelt er sich automatisch runter 
+  auch wenn eigentlich volle Leistung gefragt wäre. Das ist zwar besser 
+als abrauchen aber was hat der Kunde von einem schnellen Prozessor den 
+er leider wegen zu grosser Wärmeentwicklung nicht voll nutzen kann?
+
+
+Cachelastige Anwendung: siehe oben: passt in Bestada 4MB Cache aber 
+nicht in Euroduo 1MB Cache => logischerweise ein Vorteil für Bohnlander
+
+
+Was unterscheidet eigentlich eine "echte" 64 Bit CPU von einer 
+"unechten". Sind die 32 zusätzlichen Leitungen nur aufs Die gemalt oder was?
+Ist der Pentium ein unechter 32 Bit Prozessor weil er auch 16 bit kann?
+
+Wie lange es den Teppichlager noch gibt bleibt abzuwarten. Ich denke in 1-2 
+Jahren wird Trittschack's das Ding endgültig einstellen
+
+
+Du spuckst ziemlich grosse Töne für das was du letztlich an Wissen 
+offenbarst
+
+Gruß Ingolf

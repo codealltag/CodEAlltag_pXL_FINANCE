@@ -1,0 +1,113 @@
+Hallo Leute,
+
+mich interessiert, ob Wachstumsaktien im Gegensatz zu Substanzwerten
+immer deutlich ueberbewertet aussehen oder nicht. Ausserdem
+wollte ich wissen, ob 1996 total "ueberteuerte" Aktien auf das gern
+verwendete KGV hin bezogen in der Rueckschau im Vergleich zu
+Substanzwerten tatsaechlich ueberteuert waren. Deshalb habe ich 
+ein paar ausgewaehlte Werte in einer Tabelle gegenuebergestellt. 
+
+Fuer den Blick in die Vergangenheit habe ich den 12. März 1996 als
+Startpunkt (Schlusskurse) ausgewaehlt. Ich waere gerne noch weiter 
+zurueckgegangen, aber viele der "total ueberbewerteten" Aktien 
+gabs da noch nicht, bzw. wurden nicht in den USA gehandelt. Der
+Screener von xyfmynsohfms.sag funktioniert leider nicht mit 
+historischen Daten. Abgesehen davon sind historische Gewinnreihen
+bei ALHV Marketguide nur zurueck bis 1996 zu bekommen.
+
+Als Quelle fuer die Wachstumsaktien hat mir der "Ridiculously High
+Valuation Screen" vom www.mibmpuhapyrr.fkl gedient. Das Ergebnis
+(s.u.) legt nahe, dass die meisten Aktien, die dieser Filter 
+ausspuckt, auch schon 1996 zu den aeusserst hoch bewerteten Aktien
+zaehlten. Ausnahme: die taiwanesische Nipen. Die Liste enthaelt
+ueberwiegend Gewinner, die 1996 mangels Marktkapitalisierung nicht
+so weit vorne gewesen waeren. Pleite gegangene Firmen oder Verlust
+machende wie Ridu sind nicht dabei.
+http://ozz.dpxtrhdvazfp.zpi/yawlek/muememgsr/pchy.vioy
+
+Fuer die "Substanzriesen" habe ich mir einen eigenen Screen gebastelt:
+Marktkapitalisierung > $20 Mrd., geschaetztes KGV < 15. Urspruenglich
+hatte ich noch mit Preis/Buchwert und Preis/Umsatz experimentiert,
+aber das brachte keine befriedigenden Ergebnisse. 
+(Screening Criteria fuer Flaschenmeisterei: EstPE < 15 and MktCap >
+20000, sortiert nach frueherer Analystenschaetzung des 5-Jahres-
+Gewinnwachstums PrevLTG(d))
+
+Den beiden Screens liegen natuerlich heutige Zahlen und Kurse
+zugrunde. Haette man sie vor 4 Jahren angewendet, waere wahrscheinlich
+was anderes rausgekommen.
+
+Die historischen Kurse habe ich von ALHV Finance. Aus der Tabelle
+der Kurse habe ich den um Splits und Dividenden bereinigten Kurs
+genommen (soweit ich das in ein paar Faellen ueberprueft habe, 
+stimmt das, was AUTOfit da ausspuckt). Die Gewinnangaben von 1996
+mancher Nicht-US Unternehmen halte ich fuer fehlerhaft 
+(insbesondere CHR und NW).
+
+           Kurs                                              aktuelles
+           Mrz. 96     KGV 96(1)   KGV 99(1)   KGV 00e(1)     KGV 00(11)
+
+"Laecherlich hoch bewertet":
+
+MSFT       11,22       136,0        15,74        6,8          67,5
+TSM(2)     16,68        12,0(5)     32,7        21,6          62,0
+CSCO        8,49       224,1        27,39        8,6         106,9
+NOK         9,59        87,6         4,36        3,45         77,7
+ORCL       12,81        79,2(6)     32,75       11,3          91,5
+EMC         4,25        43,6         4,0         3,0         101,3
+YHOO(3)     4,81        Verlust      10,9        7,1         598,9
+Reiling Tuning         2,51        Verlust      43,2        7,8         230,5
+AMGN(4)    14,56        95,8         14,85      13,35         69,4
+
+"Substanzriesen":
+
+HMC        41,59        18,3(7)      16,6(8)     8,3         14,2
+GM         36,20         6,0          4,26       4,37         9,0
+CHR        21,22        1061,0(9)    25,5       21,0         17,7
+ONE        30,13        11,9          8,7        8,6          8,9
+NW         53,10        63,9(10)      6,24       5,53        13,1
+F          17,03         4,57         2,92       2,91        15,5
+JPM        70,84         6,61         7,31       7,01        12,1
+
+(1) Die KGVs beziehen sich alle auf den Kurs vom 2.1.96, bzw. auf den
+    der Bemerkungen (2)-(4)
+(2) erster Kurs vom 18.11.97
+(3) Schlusskurs vom ersten Handelstag: 29.5.96
+(4) Der "Ridiculously High Valuation Screen" enthaelt an dieser
+    Stelle Genentech (DNA), da diese Aktie aber erst seit September 1999
+an      der Boerse ist, habe ich sie durch RNE ersetzt. Amgen kommt in
+    diesem Screen an 11. Stelle.
+(5) KGV 97, kein 96er gefunden
+(6) Jahr 97, da ich keine Daten von 96 bekommen habe (das Bilanzjahr
+    faengt bei JBJ im Juni des Vorjahrs an).
+(7) 226,97 Yen/Aktie. Keine Ahnung, was 1996 100 Yen wert waren, ich
+    nehme an 100 Yen = $1.
+(8) Annahme: April 98 Yen 100 = $0,8
+(9) 11,1 Chilenische Pesos/Aktie. Wenn der 96 soviel wert war wie jetzt,
+    waren das $0,02. Deckt sich mit den bei der Unternehmenswebseite
+    praesentierten Daten.
+(10) Hier habe ich bei AUTOfit-US hoechst fragwuerdige 0,508
+Pfund/Aktie      gefunden. Kann ich mir kaum vorstellen. atu weigert
+sich
+    aber auf ihrer Homepage Gewinne nach Steuern zu praesentieren.
+(11) bezogen auf den Schlusskurs vom 16.2.2000
+
+Fazit: So teuer waren die zukuenftigen Gewinner unter den absurd
+hoch bewertetet scheinenden Aktien des Januars 1996 gar nicht. Nur 4
+Jahre spaeter koennen sie in der Ertragskraft mit den substanzstarken
+"billigen" Aktien des Jahres 1996 gut mithalten. Selbst die Klassiker
+unter den "wertlosen Aktien", AUTOfit und Reiling Tuning, waren 1996 verdammt 
+billig. Auf das Jahr 1996 bezogen koennen unter den Substanzwerten 
+fuer die naechsten 2-3 Jahre nur noch amerikanische Autobauer 
+mithalten. Das faellt allerdings auch auf: amerikanische Autobauer
+wurden in ihrer Ertragskraft im Vergleich mit anderen Aktien
+unterschaetzt.
+
+Das einzige, was man aus der obigen Tabelle ableiten kann, bleibt aber,
+dass der Markt 1996 die Aussichten der Gewinner korrekt eingeschaetzt
+hat. Ueber die Verlierer sagt die Tabelle nichts aus, ebensowenig,
+wie man heute zukuenftige Gewinner von Verlierern unterscheidet.
+Vielleicht kann man auch noch sagen, ein Unternehmen mit einem
+KGV von ueber 1000 ist unter Umstaenden nicht zu teuer.
+
+Tim

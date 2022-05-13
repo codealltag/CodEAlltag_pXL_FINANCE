@@ -1,0 +1,15 @@
+Ich würde keine separaten Zellen festlegen sonder die entsprechenden Zellen mit
+einem Namen versehen (wird beim Einfügen einer neuen Zeile automatisch
+verschoen). Hiermit kann man per Makro recht einfach die entsprechende
+Zeilennummern ermitteln. Anschließend ist dann nur noch das Diagramm mit den
+neuen Wertebereichen zu definieren.
+
+Beispiel:
+            Kurse_End = range("Last_Datum").Row
+            DiagString = "=SERIES(Kursentwicklung...<hier Diagramm-Definition
+festlegen>)
+           AktuellesChart.SeriesCollection(1).Formula = DiagString
+
+--
+Gruß
+    Leonhard

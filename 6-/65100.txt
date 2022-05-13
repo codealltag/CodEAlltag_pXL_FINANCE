@@ -1,0 +1,11 @@
+Der Begriff wird IMHO etwas klarer, wenn man sich erinnert, wo er wohl
+urspruenglich herkommt: der Begrenzung von Verlusten einer short-Position.
+Wenn eine Verkaufte Option im Wert steigt (also der Wert der Position
+faellt) ist man ja verpflichtet, bei Ablauf zu immer hoeherem Preis zu
+kaufen. Um den Verlust zu begrenzen sagt man eben: "ich will nicht noch
+teurer kaufen als es jetzt schon ist" und setzt dementsprechend ein
+Stop-Buy. So betrachtet ist ein SB das genaue Gegenteil des SL. Man muss
+nur die richtigen Parameter "umdrehen" [;-)
+
+-- 
+-- Felix Reinhard -- bw@eouew.hqvg.vc -- Kattien, Germany --

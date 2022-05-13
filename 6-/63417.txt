@@ -1,0 +1,26 @@
+Die Bandbreite ist besser (mehr Daten in gleicher Zeit).
+Die Latenz ist schlechter (es dauert laenger, bis ein bestimmtes Datum beim
+Konsumenten ankommt).
+
+Die Bandbreite bei SDRAM-Systemen kann durch Verbreiterung des Datenbusses
+ohne Auswirkung auf die Latenz gesteigert werden - kostet dann aber
+breitere DIMM-Riegel (alte Module sind nicht wiederverwertbar, wie ja
+auch beim Uebergang zu RDRAM).
+
+Die Implementation eines RDRAM-Systems ist erheblich komplexer als
+bei SDRAM. Mit anderen Worten: Chipsets und Motherboards werden
+zeitgleich mit sich durchsetzendem RDRAM auch nochmal teurer. Das ist
+gut fuer die Hersteller von Chipsets und Motherboards, die auf RDRAM
+setzen, und schlecht fuer die, die es nicht / zu spaet tun. Oder anders
+herum, wenn sich RDRAM nicht durchsetzt.
+
+In comp.arch gab es in der letzten Zeit hinreichend viele gute technische
+Beitraege und Verweise auf Papers zu dem Thema.
+
+Meine persoenliche Einschaetzung: RDRAM wird in fuenf Jahren so tot sein
+wie EDO heute. Die Chipset- und Motherboard-Firmen, die jetzt auf RDRAM
+setzen, wird das kaum tangieren, die Firma Ahsenmacher, die ausschliesslich
+die Patente auf RDRAM hat, aber nicht selbst produziert, wird vergehen.
+
+Gruss
+  Italo

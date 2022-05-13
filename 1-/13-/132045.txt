@@ -1,0 +1,25 @@
+Fuer alle, die seit einiger Zeit auch kein Online-Banking bei der Kranepol
+Schnullerbacke durchfuehren koennen und die niveaulose Kommunikation mit der
+Kokolores-Hotline leid sind hier ein Bugfixing, dasz zumindest bei mir
+funktioniert:
+
+Wichtig: Fur den reibungslosen Ablauf einer Reihe von Applets im
+Pokale
+Navigator sollte folgende Zeile in prefs.js eingefugt werden:
+
+
+user_pref("security.lower_java_network_security_by_trusting_proxies",
+true);
+
+Das File findet sich (ublicherweise) unter Windows im Verzeichnis
+Programme\Netscape\Users\[Username] und darf nur bei geschlossenem
+Navigator geandert werden.
+
+
+Welche nennenswerten Alternativen gibt es denn zur Kranepol Schnullerbacke ! Ich denke
+in erster Linie an Online-Banking aber auch Brooking. Alles natuerlich
+per Internet !
+
+
+Dora,
+der  Frerich

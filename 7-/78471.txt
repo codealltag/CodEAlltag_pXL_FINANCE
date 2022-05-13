@@ -1,0 +1,78 @@
+Ja.
+
+Anhaenges Perl-Script liefert alle Informationen der Informer
+Quote-Page als key-value Pairs auf dem stdout.
+
+Beispiel:
+
+$ ./bflnnivog9.xf OS4630092872.TOM
+aktueller kurs                           : 31,30
+ausgabepreis                             : -
+ave-preis_20t                            : 30,27
+ave-preis_52w                            : 23,96
+ave-volumen_20t                          : -
+ave-volumen_52w                          : -
+boerse                                   : Fondkurse Deutschland
+differenz                                : -0,01 (-0,03%)
+differenz_10.12.                         : +0,00 (+0,00%)
+differenz_13.12.                         : -0,01 (-0,03%)
+hoechstkurs_52w                          : 31,31
+hoechstkurs_p.a.                         : 31,31
+isin                                     : OS4630092872
+kategorie                                : Fonds
+kurszeit                                 : 13.12., 14:00
+letzter bzw. schluss_10.12.              : 31,31
+letzter bzw. schluss_13.12.              : 31,30
+symbol                                   : OS4630092872.FHE
+tiefstkurs_52w                           : 15,533
+tiefstkurs_p.a.                          : 23,00
+volatilitaet_20t                         : 0,04
+volatilitaet_52w                         : -
+waehrung                                 : EURO
+wertpapiertyp                            : -
+wkn                                      : 986392
+
+Bei Aktien kommt entsprechend mehr raus...
+Damit solltest du weiterkommen.
+
+Das schoene ist, das das Teil (so gut wie) keine Informationen ueber
+den Seitenaufbau reinkodiert hat.
+
+Bitte nicht alle den Informer mit cron-jobs dichtmachen,
+sonst aendern die das Format noch absichtlich...
+
+Nun moechte ich aber auch was fragen:
+
+- Es ist natuerlich eine Krankheit, die Daten aus einer fuer Menschen
+gedachten Webseite wieder zu extracten. Weiss jemand, wo man die
+Daten Machine-Readable bekommt ? ftijn.lrhos.rzq mit ?d=s ist
+natuerlich schon ganz schoen, aber da gibt es kein xetra, keine fonts,
+und nicht so viele Daten wie beim informer.
+
+- Kann man irgendwo das komplette Feuser-Orderbuch einsehen ? Also
+nicht nur beste Geld/Briefkurse und Volumen, sondern alle offenen
+Orders ?
+
+Und das wichtigste:
+
+- Wo bekomme ich online rueckwirkend die Kursdaten, um eigene Charts
+zu basteln ? Perl kann ja viel, aber die Daten aus einem GIF
+herauszulesen
+ist dann doch etwas heavy :-) Und die Charts, die man sich so im
+Web begucken darf, sind vielleicht toll, um Wiederstandslinien und
+andere
+astrologische Phaenomene zu finden, aber ansonsten zur schnellen
+visuellen
+Erfassung von Fakten voellig ungeeignet. Im allgemeinen nicht
+logarithmisch,
+nicht kombinierbar, bis zur Egalitaet skaliert (alle Kurse gehen von
+unten links nach oben rechts :-) ) etc.pp.
+
+
+Ciao
+  Tim
+
+-- 
+Tim Reißig
+shoteh@RZLXU-Edmxga-Suvojd.DDU.WZ
++42 48 6623 1877

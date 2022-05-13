@@ -1,0 +1,56 @@
+Dann lebe ich wohl in einer anderen Realitaet.
+Mal ein kleines Beispiel (wenn Du dann Lust hast, kann ich ja auch mal einen
+Beweis heraussuchen, der die Sortierung als korrekt identifiziert):
+
+  nach den Tagen sort.  nach Monaten  nach Jahren
+  (dabei zuerst nach  sortiert
+   der 1. dann nach
+   der 2. Spalte)
+
+985668    234340    985668    552951
+234340    552951    890605    910807
+910807    910807    910807    985668
+552951    438357    234340    234340
+438357    985668    438357    438357
+  ^^
+  1.
+^^  ^^
+3.  2.
+
+Also wenn das nicht richtig sortiert ist, weiss ich auch nicht (es war ja
+die bedingung <jjttmm> vorausgesetzt.
+
+Man faengt einfach bei der niederwertigsten Stelle an und sortiert danach.
+Dann nach der naechsthoeherwertigen Stelle usw. Das Ergebnis ist die
+sortierte Folge.
+
+Was jetzt ? Habe ich was neues entdeckt ? Man konnte Deine
+Datumsschreibweise doch sortieren, obwohl es nicht geht ?
+(Wie gesagt: wenn gewuenscht, suche ich Dir auch den Beweis dazu raus, dass
+dieses Verfahren korrekt ist.)
+
+
+Ja, nur ein klein wenig. Intern macht der Prozessor genau das gleiche. Er
+prueft jedes Bit und vertauscht die Zahlen entsprechend.
+
+Man benoetigt O(log(n)) Schritte (n ist die maximale Laenge der Zahlen) und
+dann das Ganze noch fuer das Sortieren der Zahlen untereinander. Wenn die
+Laenge der Zahlen bekannt ist, braucht man eine konstante Zeit, naemlich
+O(log(const)) = O(1), genau wie der Prozessor. Der hat fuer bestimmte
+Zahlenlaengen das Ganze so beschleunigt, dass er in einem Rechenschritt
+fertig wird, also auch O(1).
+
+
+Wer hat gesagt, dass irgendwas konvertiert werden soll/muss ?
+
+
+s.o.
+
+
+Analog zu meinem oben dargestellten Verfahren. Kein Problem. Ich kann es,
+wenn gewuenscht, aber auch an einem von Dir gewaehlten Beispiel
+demonstrieren.
+(Die auftretenden Ziffern sind ja wohl bekanntlich vom verwendeten
+ Zahlensystem abhaengig.)
+
+            ciao, Lars

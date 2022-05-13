@@ -1,0 +1,35 @@
+Hallo,
+
+zum einen meine ich, dass das Urteil explizit die Aussage enthaelt,
+das keine der Bewertungsmethoden anwendbar ist! Zum anderen
+handelt es sich bei dem anzuwendenden Verfahren definitiv nicht 
+um FIFO!
+
+Folgendes Beispiel: 
+
+1)	6.1.00   Kauf   1 St    5000 Euro
+2)  1.2.99   Kauf   1 St   10000 Euro
+3)  1.2.00   Verk.  1 St   10000 Euro
+
+Nach dem FIFO-Verfahren wuerden nun in 3) die 
+Papiere aus 1) verkauft. 
+-->  Gewinn von 5000 Euro
+
+Stimmt aber nicht. Nach dem BFH Urteil,
+wird der Bestand in zwei Teile geteilt, den
+mit abgelaufener Frist und den mit noch
+nicht abgelaufener Frist. Der Verkauf erfolgt
+nun zunaechst aus dem Bestand mit abgelaufener 
+Frist, wobei der Einstandspreis nach der 
+Methode des Durchschnittspreises berechnet werden muss.
+->  Einstandspreis = (5000+10000)/2  = 7500 p. St.
+->  Verkauf zu 10000
+
+-->  Gewinn von 2500 Euro.
+
+Auch fuer den zweiten Teil gilt als Einstandspreis der
+durchschnitt aller Einzelpreise. (gewichtet versteht sich :-) )
+
+mfg
+
+  Domenico

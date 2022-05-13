@@ -1,0 +1,23 @@
+hallo otto
+
+ich habe auch schon mal angefangen mit matlab zu arbeiten,
+bin aber recht schnell an einigen dingen gescheitert.
+nach wie vor finde ich aber, dass es eine gute moeglichkeit
+ist eigene ideen auszuprobieren.
+vielleicht faellt dir ja was zu meinen problemen ein.
+aktienkurse - und zwar fuer sehr viele aktien auf einmal - 
+zu bekommen ist kein problem. diese gibts fuer jeden tag unter
+http://zgi.iwdeadyt.fq.ec/bwvln/myvjzgwm/tpeedl/ als ascii
+dateien. diese dateien in matlab einzulesen und in einem besseren
+format abzuspeichern ist kein problem. nachteile aber sind:
+1. man bekommt so keine angaben zum handelsvolumen.
+2. einige -meist die interessanten- aktien splitten doch
+   recht haeufig, so dass sich eine automatische auswertung 
+   von einigen hundert aktien stark erschwert.
+an diesem punkt habe ich erstmal meine aktivitaeten eingestellt
+aber vielleicht hast du ja eine loesung.
+
+gruss hansruedi
+
+-- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

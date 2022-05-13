@@ -1,0 +1,36 @@
+In <96579991$7$34225$3g3k6j53@ydtveemjq1.zkspt-wyeukn.rox>
+
+Wie Burkhard schon geschrieben hat:
+Bei Boersenkursen wird meistens mehr logarithmisch gedacht 
+und gezeichnet. D.h. gleicher Prozentsatz gilt bei Kursaenderungen
+als "Massstab" und nicht gleicher absoluter Betrag.
+Ist fuer Einsteiger ungewohnt, aber sinnvoll.
+
+
+Kann ich dir aus dem Kopf gerade nicht sicher beantworten.
+Soweit Vola an der Boerse als echter (historischer) Zahlenwert 
+angegeben wird, wird sie aber als "Standardabweichung" berechnet. 
+Dazu gibt es Formeln und Software (finde meine gerade nicht).
+Steck Kursreihen rein und du bekommst exakte Ergebnisse.
+
+Ob das immer logisch ist, ist eine andere Sache.
+Und wenn Boersenreporter von "hoher Vola" faseln, meinen
+sie sowieso nur, dass viel Kursbewegung im Markt ist, ohne
+dass sie an eine spezielle Formel denken.
+
+Und die Vola zur Preissetzung von Optionen wird von
+den Emittenten sowieso mehr nach Bedarf, Angebot und
+Nachfrage und nicht nach realen Formeln gewaehlt. 
+In diesem Fall spielen erwartete Kurstrends dann vermutlich 
+sogar die Hauptrolle.
+
+Ich bin zu faul zum Suchen, aber ich glaube in der
+Black/Scholes Grunddefinition findet sich auch die
+Bedingung "kein Kurstrend, nur unregelmaessige Schwankungen"
+
+
+-- 
+-- 
+Werner Heimberger
+Visit   http://dmhorrh.aus.tgp/xwtcqb  and download a 
+free calculator for options, futures, bonds and similar stuff

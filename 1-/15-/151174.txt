@@ -1,0 +1,37 @@
+Damkröger u. Oehler gingen von der damals schon bekannten  Formel fuer den Wert einer
+Call-Option bei angenommener kontinuierlichen Verzinsung r aus: 
+
+                   C=S-E*exp(-r*t)        fuer       S> S-E*exp(-r*t)
+   und         C=0                                         S<= S-E*exp(-r*t)    
+
+oder anders ausgedrueckt:
+
+                  C=max(0; S-E*exp(-r*t))
+
+ S:   Aktienkurs bei Endfaelligkeit der Call-Option
+ E:   Ausuebungspreis der Call-Option
+
+Beispiel fuer den Wert eines Calls bei Endfaelligkeit (t=0) mit S0 DM, E5 DM
+C=max(0; S-E)=5 DM 
+
+Da der Aktienkurs aus heutiger Sicht am Ende der Laufzeit des Calls nicht bekannt ist,
+muss er geschaetzt werden.
+Damkröger u. Oehler Verdienst war es, den wahrscheinlichsten Aktienkurs bei Verfall der
+Option abzuschaetzen. Mit Hilfe der Funktionswerte (Wahrscheinlichkeiten) der
+Normalverteilungsfunktion gelang es ihnen die obige Formel zu veraendern.
+Den Aktienkurs S bei Endfaelligkeit in den aktuellen Aktienkurs Sa einer Aktie mit
+Gewichtung ueberzufuehren.
+
+Black-Scholes Formel 
+
+         C=max(0; Sa*N(d1)-(E*exp(-r*t))*N(d2))
+mit
+         d1=[ln(Sa/E)+(r+1/2*sqr(2))*t] / v*sqrt(t)
+
+         d2=[ln(Sa/E)+(r-1/2*sqr(2))*t] / v*sqrt(t)
+
+Sa:       Aktienkurs heute
+N(d):    Funktionswert der Normalverteilung bei d
+v:          Standardabweichung (Volatilitaet der Aktie)
+
+Bruno

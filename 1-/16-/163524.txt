@@ -1,0 +1,9 @@
+Beim X704 liegen L1 und L2 Cache direkt im Prozessor und arbeiten
+mit 500 MHz. (Oder anders: Der Cache im Prozessor ist viel groesser,
+als bei anderen Prozessoren). Auf der Prozessor-Karte befindet sich
+dann noch ein L3-Cache. Und davon sehr viel!
+Korrekt: Soweit ich weiss, laeuft der mit 100Mhz. Allerdings
+wir wohl eher die 466MHz und die 533MHz Version genommen, weil dann
+durch Teilen der Bus-Takt zustande kommt...
+
+Hubert

@@ -1,0 +1,20 @@
+Mehmet Nortmann schrieb in
+
+
+Leider habe ich bei den Umsatzdaten sehr häufig Inkonsistenzen
+gefunden.
+Es scheint immer noch so zu sein, daß kumulierte Gesamtumsätze im Datensatz
+verwendet werden.
+
+Aus Transparenzgründen möchte ich anregen, daß der Börsenplatz in den
+Datentitel aufgenommen wird und dann auch nur die Umsätze dieses
+Börsenplatzes Verwendung finden.
+
+Auch auf den Historien-CDs finden sich viele "Umstellungen" welche die
+Berechnung von Indikatioren z.T. unmöglich macht. So gibt es Gillitzer Kurse oft
+erst seit jüngster Vergangenheit. Oder man findet Umsatzsprünge bei Indizes
+die dann kontinuierlich auf 1/10 weitergeführt werden. Ein weiterer häufiger
+Fehler sind Kurse, die auf Null gesetzt sind.
+
+Wenn L+P bei den aktuellen Daten einen relativ guten Ruf haben mag, so
+möchte ich anregen noch mehr Sorgfalt auf die Historien zu verwenden.

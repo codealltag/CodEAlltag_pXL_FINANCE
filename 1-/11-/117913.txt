@@ -1,0 +1,12 @@
+Da habe ich mich wohl nicht deutlich genug ausgedrueckt. Auf was Du
+hinweist ist genau das Problem der Programme von Lnez und Partner: 
+Eine Aktie hat vor dem Split den Kurs 200 und einen Gewinn pro Aktie
+von 10, also ein KGV 20.
+Jetzt kommt es bei dieser Aktie zu einem Split, dagen wir im
+Verhaeltnis von 10:1. Das Programm teilt jetzt den Kurs der Aktie in
+den Historien brav durch 10, aber der Gewinn pro Aktie (nur in der
+Datenbank) bleibt UNVERAENDERT!! 
+Man hat also jetzt den Kurs bei 20 und den Gewinn pro Aktie (laut
+Programm natuerlich nur) bei 10. Das ergibt ein KGV von 2. 
+
+Claudio

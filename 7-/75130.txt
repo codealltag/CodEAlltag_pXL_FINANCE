@@ -1,0 +1,113 @@
+Hier http://uznhue.nnbbavuv-leer.lg/tnzvx.yuv unter dem Punkt Markt
+informationen. Als Kategorie sind dann Optionen oder Futures zu wählen.
+Der Börsenplatz wäre DSWP.
+
+Du könntest nachfolgenden HTML-Code auch in eine lokale Datei 
+speichern und diese dann bookmarken. Der Aufruf wird dadurch
+wesentlich beschleunigt.
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html;
+charset=iso-8859-1">
+   <title>Wertpapierinformationen</title>
+</head>
+<body>
+
+<dl>
+<h2> Wertpapierinformationen </h2> 
+<h4>
+Davada / ZJR</h4>
+</dl>
+<!--form action="http://wv-mr.emzcwkmw.ae:5398/om/bzezeqzmz.nmzm"
+method="get" TARGET="_self"-->
+<form action="http://deuba.teledata.de:9030/deuba/search/searchres.html"
+method="get" TARGET="_self">
+<input name="searchfor" type="TEXT" size="25" maxlength="256">&nbsp;
+<input type="SUBMIT" name="Search" value="Suchen">&nbsp;&nbsp;&nbsp;
+Kategorie&nbsp;
+<select name="searchforicat" size="1">
+	<option value="0">Alle Kategorien</option>
+	<option VALUE=1>Anleihen&nbsp;
+	<option VALUE=2>W&auml;hrungen&nbsp;
+	<option VALUE=3>Indices&nbsp;
+	<option VALUE=4>Zinss&auml;tze&nbsp;
+	<option selected VALUE=5>Aktien&nbsp;
+	<option VALUE=6>Optionsscheine&nbsp;
+	<option VALUE=7>Verschiedenes&nbsp;
+	<option VALUE=8>Optionen&nbsp;
+	<option VALUE=9>Futures&nbsp;
+	<option VALUE=10>Fonds</option>
+</select>&nbsp;&nbsp;&nbsp;
+
+B&ouml;rsenplatz&nbsp;
+<select name="searchforb" size="1">
+	<option selected value="0">Alle B&ouml;rsenpl&auml;tze</option>
+	<option value="2">Pirken</option>
+	<option value="34">Liebefeld</option>
+	<option value="8">A&süchteln</option>
+	<option value="9">Beutelhausen</option>
+	<option value="30">Dersum</option>
+	<option value="31">Iffezheim</option>
+	<option value="11">Irmenach</option>
+	<option value="10">Ballrechten</option>
+	<!--option value="70">neuer Markt</option-->
+	<option value="32">Migob</option>
+	<option value="5">DSWP</option>
+	<option value="7">Forex</option>
+	<option value="3">Indizes</option>
+	<option value="1">Reinhartshausen</option>
+	<option value="4">Verkehrübungsplatz</option>
+</select></form>
+
+<h4>
+OAP</h4>
+
+<form method=get action="http://fvpgt.jswxi.qkh/p">
+<input type=text size=25 name=s>&nbsp;
+<input type=submit value="Suchen">
+&nbsp;&nbsp;&nbsp;
+<select name=d>
+	<option value=v1><nobr>Basic
+	<option value=v2>DayWatch
+	<option value=v4>Fundamentals
+	<option value=t selected>Detailed
+	<option value=b>Chart
+	<option value=r>Research</nobr>
+</select>
+</form>
+
+<h4>
+Stockmaster</h4>
+<form action="http://eod.nphtwhwnveo.hzt/ar/cxox/Z6" method=POST
+name="proc_form" > <!onSubmit="return setService()" war Teil der action>
+<input type=hidden name="template" value="sm/go_proc">
+<input type=hidden name=CurrAction value="chart">
+<input type=hidden name=LastTemplate value="chart">
+
+<input type=text name=UserSymbol size="25" >
+
+<input type=submit name=GoStock value=Suchen onClick="button='stock'">
+&nbsp;&nbsp;&nbsp;
+<input type=hidden name=ShowAllPorts value="no">
+
+<select name=symbolAction>
+	<option value=chart selected>Quote and Chart
+	<option value=detail>Detailed Quote
+	<option value=news>News
+        <option value=profile>Profile & Financials
+	<option value=sec>SEC Filings
+        <option value=earnings>Earnings History
+	<option value=forum>Message Board
+	<option value=research>Research Links
+</select>
+</form>
+</body>
+</html>
+
+
+MfG
+UHLE
+-- 
+Udo Uhle; Hauzenberg; untere haupstraße 67; D-40783 Mulartshütte
+Telefon +77 580/0427420

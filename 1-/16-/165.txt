@@ -1,0 +1,305 @@
+Visual Basic 2012Excel 2013 eigenen Videorecorder programmieren von Altbauer-=
+Debel Achternkamp
+Video: http://oekok.yh/ce6DBuUclPR
+
+Author R,.Ameling
+
+Heute zeige ich Ihnen, wie Sie einen eigenen Videorecorder programmieren k=
+önnen, mit allen Futures. Natürlich geht das auch mit allen anderen Ver=
+sionen von Visual Basic wie 2006,2009,2011 und 2013 ebenso mit VBA Excel.=
+=20
+Den Souce Code füge ich nachstehend bei und habe ihn auch abgefilmt. Leid=
+er lässt sch der Source Code nicht in die Kommentarspalte dieses Videos s=
+chreiben, aber Sie können sich ja die Abfilmung ansehen oder unter
+Rtfwrhxo.smb/Outbackbrumby=20
+in dem entsprechenden Thread direkt herauskopieren.=20
+Hier nun der Source-Code:
+
+Imports System.IO
+Imports System.Text
+Imports System.Runtime.InteropServices
+Public Class Form1
+
+    Public Class C_MCI
+        <DllImport("winmm.dll", CharSet:=3DCharSet.Auto)>
+        Private Shared Function mciSendString(lpstrCommand As String,
+                                lpstrReturnString As StringBuilder, uReturn=
+Length As Integer,
+                                hwndCallback As IntPtr) As Integer
+        End Function
+
+        <DllImport("winmm.dll", CharSet:=3DCharSet.Auto)>
+        Private Shared Function mciGetErrorString(dwError As Integer,
+                                  lpstrBuffer As StringBuilder, uLength As =
+Integer) As Integer
+        End Function
+
+        Private Function getMciError(errCode As Integer) As String
+            Dim errMsg As New StringBuilder(255)
+            If mciGetErrorString(errCode, errMsg, errMsg.Capacity) =3D 0 Th=
+en
+                Return "Zierrath-Fehler " & errCode
+            Else
+                Return errMsg.ToString()
+            End If
+        End Function
+
+        Private _alias As String =3D "mciAlias"
+        Private _isOpen As Boolean =3D False
+
+        Public ReadOnly Property IsOpen As Boolean
+            Get
+                Return _isOpen
+            End Get
+        End Property
+
+        Public Sub Open(filename As String)
+            If Me._isOpen Then Me.Close()
+            If Not File.Exists(filename) Then
+                MessageBox.Show("Die Datei '" & filename & "' ist nicht vor=
+handen!", "Fehler",
+                                 MessageBoxButtons.OK, MessageBoxIcon.Error=
+)
+            End If
+            Dim mciStr As String =3D "open " & Chr(34) & filename & Chr(34)=
+ &
+                " type mpegvideo alias " & _alias
+            'MessageBox.Show(mciStr)
+            Dim res As Integer =3D mciSendString(mciStr, Nothing, 0, IntPtr=
+.Zero)
+            If res <> 0 Then
+                MessageBox.Show(getMciError(res),
+                               "MCI-Fehler beim Öffnen des Geräts ('Ope=
+n'-Befehl)",
+                               MessageBoxButtons.OK, MessageBoxIcon.Error)
+                Exit Sub
+            End If
+
+            mciStr =3D "set " & Me._alias & " time format ms"
+            res =3D mciSendString(mciStr, Nothing, 0, IntPtr.Zero)
+            If res <> 0 Then
+                MessageBox.Show(getMciError(res), "MCI-Fehler beim Zuweisen=
+ des Zeitformats", _
+                                MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+
+            Me._isOpen =3D True
+
+        End Sub
+
+        Public ReadOnly Property Length As Integer
+            Get
+                Dim buffer As New StringBuilder(255)
+                Dim res As Integer =3D mciSendString("status " & _alias & "=
+ length", buffer,
+                                           buffer.Capacity, IntPtr.Zero)
+                If res <> 0 Then
+                    MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Len=
+gth'-Befehl", _
+                                    MessageBoxButtons.OK, MessageBoxIcon.Er=
+ror)
+                End If
+                Return Convert.ToInt32(buffer.ToString())
+            End Get
+        End Property
+
+        Public Sub Play(von As Integer, bis As Integer)
+            Dim res As Integer =3D mciSendString("Play " & _alias & " From =
+" & von & " To " _
+                                               & bis, Nothing, 0, IntPtr.Ze=
+ro)
+        End Sub
+
+        Public Sub Play()
+            Play(0, Me.Length)
+        End Sub
+
+        Public Property Position As Integer
+            Get
+                Dim buffer As New StringBuilder(261)
+                Dim res As Integer =3D mciSendString("status " & _alias & "=
+ position",
+                                          buffer, buffer.Capacity, IntPtr.Z=
+ero)
+                If res <> 0 Then
+                    MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Pos=
+ition'-Befehl", _
+                                    MessageBoxButtons.OK, MessageBoxIcon.Er=
+ror)
+                End If
+                Return Convert.ToInt32(buffer.ToString())
+            End Get
+            Set(value As Integer)
+                Dim res As Integer =3D mciSendString("seek " & _alias & " t=
+o " & value, Nothing, 0, _
+                                                   IntPtr.Zero)
+                If res <> 0 Then
+                    MessageBox.Show(getMciError(res), "Fehler beim 'Seek'-B=
+efehl", _
+                                    MessageBoxButtons.OK, MessageBoxIcon.Er=
+ror)
+                End If
+                res =3D mciSendString("play " & _alias, Nothing, 0, IntPtr.=
+Zero)
+                If res <> 0 Then
+                    MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Pla=
+y'-Befehl", _
+                                    MessageBoxButtons.OK, MessageBoxIcon.Er=
+ror)
+                End If
+            End Set
+        End Property
+
+        Public Sub Pause()
+            Dim res As Integer =3D mciSendString("Pause " & _alias, Nothing=
+, 0, IntPtr.Zero)
+            If res <> 0 Then
+                MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Pause'-=
+Befehl", _
+                                MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        End Sub
+
+        Public Sub Resume_()
+            Dim res As Integer =3D mciSendString("Resume " & _alias, Nothin=
+g, 0, IntPtr.Zero)
+            If res <> 0 Then
+                MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Resume'=
+-Befehl", _
+                                MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        End Sub
+
+        Public Sub volume(wert As Integer)
+            Dim res As Integer =3D mciSendString("setaudio " & _alias & " v=
+olume to " & wert, _
+                                               Nothing, 0, IntPtr.Zero)
+            If res <> 0 Then
+                MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Volume'=
+-Befehl", _
+                                MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        End Sub
+
+        Public Sub Stop_()
+            Dim res As Integer =3D mciSendString("Stop " & _alias, Nothing,=
+ 0, IntPtr.Zero)
+            If res <> 0 Then
+                MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Stop'-B=
+efehl", _
+                                MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+        End Sub
+
+        Public Sub Close()
+            If Me._isOpen Then
+                Dim res As Integer =3D mciSendString("Close " & _alias, Not=
+hing, 0, IntPtr.Zero)
+                If res <> 0 Then
+                    MessageBox.Show(getMciError(res), "MCI-Fehler beim 'Clo=
+se'-Befehl", _
+                                    MessageBoxButtons.OK, MessageBoxIcon.Er=
+ror)
+                End If
+                Me._isOpen =3D False
+            End If
+        End Sub
+
+    End Class
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase=
+.Load
+        'gehört zum VideoPlayer
+        VideoPlayerTrackBarFilmVorspulen.Maximum =3D 10000
+        VideoPlayerTrackBarFilmVorspulen.LargeChange =3D 1
+        Uhr11.Interval =3D 100
+        VideoPlayerTrackBarLautstärke.Maximum =3D 1000
+        VideoPlayerTrackBarLautstärke.Value =3D 1000
+        VideoPlayerTrackBarLautstärke.LargeChange =3D 100
+    End Sub
+
+    Private myMCI As New C_MCI()
+
+    Private kf As Single =3D 1
+
+    Private Sub VideoPlayerButtonVideoDateiÖffnen_Click(sender As Object,=
+ e As EventArgs) _
+        Handles VideoPlayerButtonVideoDateiÖffnen.Click
+        If OpenFileDialog1.ShowDialog() =3D DialogResult.OK Then
+            uaMMX.Open(OpenFileDialog1.FileName)
+            kf =3D Convert.ToSingle(myMCI.Length) / VideoPlayerTrackBarFilm=
+Vorspulen.Maximum
+            ToolStripStatusLabel1.Text =3D OpenFileDialog1.FileName
+            VideoPlayerButtonAbspielen.Text =3D "PLAY"
+        End If
+    End Sub
+
+    Private Sub VideoPlayerButtonAbspielen_Click(sender As Object, e As Eve=
+ntArgs) _
+        Handles VideoPlayerButtonAbspielen.Click
+        If VideoPlayerButtonAbspielen.Text =3D "PLAY" Then
+            myMCI.Play()
+            Uhr11.Enabled =3D True
+            VideoPlayerButtonAbspielen.Text =3D "STOPP"
+        Else
+            uaMMX.Stop_()
+            Uhr11.Enabled =3D False
+            VideoPlayerTrackBarFilmVorspulen.Value =3D 0
+            VideoPlayerLabelZurAnzeige.Text =3D "00:00"
+            VideoPlayerButtonAbspielen.Text =3D "PLAY"
+        End If
+    End Sub
+
+    Private Sub VideoPlayerButtonPause_Click(sender As Object, e As EventAr=
+gs) _
+        Handles VideoPlayerButtonPause.Click
+        If VideoPlayerButtonPause.Text =3D "PAUSE" Then
+            myMCI.Pause()
+            VideoPlayerButtonPause.Text =3D "WEITER"
+        Else
+            VideoPlayerButtonPause.Text =3D "PAUSE"
+            myMCI.Resume_()
+        End If
+    End Sub
+
+    Private Function getMinutes() As String
+        Dim sekunden As Integer =3D Convert.ToInt32((VideoPlayerTrackBarFil=
+mVorspulen.Value * kf / 1000))
+        Return (sekunden / 60).ToString("00") & ":" & (sekunden Mod 60).ToS=
+tring("00")
+    End Function
+
+
+    Private Sub Uhr11_Tick(sender As Object, e As EventArgs) Handles Uhr11.=
+Tick
+        Dim val As Integer =3D Convert.ToInt32(myMCI.Position / kf)
+        If val < VideoPlayerTrackBarFilmVorspulen.Maximum Then
+            VideoPlayerTrackBarFilmVorspulen.Value =3D val
+            VideoPlayerLabelZurAnzeige.Text =3D getMinutes()
+        Else
+            myMCI.Stop_()
+            Uhr11.Enabled =3D False
+            VideoPlayerTrackBarFilmVorspulen.Value =3D 0
+            VideoPlayerLabelZurAnzeige.Text =3D "00:00"
+            VideoPlayerButtonAbspielen.Text =3D "PLAY"
+        End If
+    End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles =
+_
+        VideoPlayerTrackBarFilmVorspulen.Scroll
+        Try
+            Me.myMCI.Position =3D Convert.ToInt32(VideoPlayerTrackBarFilmVo=
+rspulen.Value * kf)
+        Catch ex As Exception
+            MessageBox.Show(ex.Message, Application.ProductName,
+                MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Private Sub TrackBar2_Scroll(sender As Object, e As EventArgs) Handles =
+_
+        VideoPlayerTrackBarLautstärke.Scroll
+        myMCI.volume(VideoPlayerTrackBarLautstärke.Value)
+    End Sub
+End Class

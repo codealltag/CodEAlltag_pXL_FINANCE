@@ -1,0 +1,8 @@
+Das Orderbuch sieht folgendermaßen aus:
+1000 Stück Kauf Limit 100,--
+1000 Stück Verkauf Limit 100,--
+1000 Stück Verkauf Limit 99,--
+
+Bei Kurs 99,-- haben Limit Kauf und Limit Verkauf 99,-- ein Recht auf
+Ausführung. Der Kurs wird 99,-- bezahlt.
+Das VK Limit 100,-- geht leer aus.

@@ -1,0 +1,50 @@
+[Bitte demnaechst KEINE Binaerdaten mehr posten. Das ist
+Verschwendung von Bandbreite und kostet ALLE _Leser_ Geld!]
+
+Deine Daten sind ziemlich unbrauchbar:
+
+- Dir fehlt eine Auswertung der Volatilitaet
+- Dir fehlt die risikofreie Verzinsung (Zinsstrukturkurve)
+- Dir fehlt die dividend yield (keine Ahnung was das in Deutsch
+heisst, ist auf jeden Fall die Dividende unter Annahme einer
+zeitkontinuierlichen Ausschuettung, entspricht einer Art Cost of
+Carry)
+- alternativ: sichere Dividenden-Zahlungen (abzinsen und vom Kurs
+abziehen).
+
+Ansonsten ist Black-Scholes ja wohl banal:
+
+C = Kurs*exp(-yield*RestZeit)*N(d1) - Strike*exp(-risikofreier
+Zins*Restzeit) * N(d2)
+
+wobei d1 = (ln(strike/Kurs) - (risikofreier zins - yield + vola^2
+/ 2) * restzeit) / vola * sqrt(restzeit)
+
+d2 = d1 - vola * sqrt(restzeit)
+
+Put ueber Put-Call-Parity oder aber die Vorzeichen (bei d?,
+Strike, Kurs) umdrehen.
+
+Annahme: alles zeitkontinuierliche Werte; interest rates und
+yields muessen auf zeitstetige Werte hochgerechnet werden.
+
+************************************
+DISCLAIMER: Kommt aus dem Kopf !!!!
+************************************
+
+Berechne halt Deine Vola (ist die sample standard deviation - eh,
+Standardabweichung der Stichprobe(?)) und dann hast Du es...
+
+Wenn Du mehr wissen moechtest: 
+
+Nodorff, Dirk (1992): Options, futures, and other derivative
+securities, LottoTotto.
+
+Eisenhart, Dirk C. / Döbke, Frerich (1985): Options markets, Elov
+K & K Laborbedarf.
+
+PS: Es gibt sicherlich auch akzeptable deutsche Buecher mit denen
+man sich ZUERST beschaeftigen koennte.
+--
+Gtapsy.Rxolqsfvyfr@Dev-Xrkflf.jg      http://byy.uc.agp-jdjpiy.kc/~i5otpf22/
+University of Haber, Pfaffenstetten, Germany

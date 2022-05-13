@@ -1,0 +1,88 @@
+Thierry Severin  (Naujokat) schrieb:
+
+[...]
+
+
+Mist, jetzt muß ich über etwas schreiben, vom dem ich keine Ahnung habe,  
+was mir allerdings Signale liefert... die ich natürlich kaum befolge.
+
+Also, er nennt sich Moving Average Convergence Divergence Indikator und  
+ist dir bestimmt bekannt.
+
+---------------------------
+Der Moving Average Convergence Divergence Indikator, im Folgenden nur  
+noch MACD genannt, hat sich um Laufe der letzten Jahre zu einem der am  
+meisten verwendeten technischen Indikatoren entwickelt. Besonders  
+interessant ist an diesem Indikator, dass er aufgrund seiner Berechnung  
+und Interpretation in nahezu jeder Marktlage zu verwenden ist. Von daher  
+ist er sowohl als Trendfolger als auch als Oszillator zu bezeichnen -  
+seine Basis, 3 GDs, deuten auf den trendfolgenden Charakter hin.
+
+Und weiter:
+
+Der MACD subtrahiert 2 GDs voneinander. Allerdings werden diese beiden  
+GDs immer auf exponentieller Basis berechnet. Der Verlauf oszilliert  
+also um die Nulllinie. Ein Wert oberhalb der Nulllinie zeigt an, dass  
+der kurze GD oberhalb des langen GDs liegt, ein Wert unterhalb der  
+Nulllinie drückt das genaue Gegenteil aus.
+
+Die im Namen enthaltene Konvergenz / Divergenz Betrachtung kommt durch  
+Auswertung des Abstands zwischen der Nulllinie und MACD-Verlauf zum  
+Tragen. Je weiter die Linie von der Nulllinie entfernt ist, um so  
+stärker ist die Divergenz. Eine wachsende Divergenz deutet auf eine  
+Intensivierung des vorherrschenden Trends hin, eine Abnahme auf eine  
+Schwächung des Trends. Entscheidend ist also die Trendwende in der MACD- 
+Linie. Um diese in den Griff zu bekommen, hat Valentin Sommershof, der Erfinder  
+des MACD, eine zweite Linie, einen GD von der MACD-Linie, eingeführt.  
+Die Signale werden daher beim Schnitt dieser Linie mit der eigentlichen  
+MACD-Linie generiert.
+
+Formel/Berechnung
+
+Die läßt sich leider nicht kopieren und auch nicht abtippen....  
+verstehen tu ich sie schon einmal gar nicht :-)
+
+Standardeinstellung
+
+Eigentlicher MACD: 12 und 26 Tage
+
+Trigger-Line: 9 Tage
+
+wobei:
+
+Interpretation
+
+Ein Schnitt der MACD-Linie mit dem Trigger von unten nach oben generiert  
+ein Kaufsignal, ein Schnitt von oben nach unten ein Verkaufsignal. Das  
+Signal ist um so stärker bzw. erfolgreicher, je größer die Divergenz ist  
+bzw. je weiter der MACD-Verlauf von der Nulllinie entfernt ist.
+
+Das habe ich aus der Market Maker(c) Software geklaut, die noch viele  
+andere Idikatoren einsetzt und beschreibt und mir diese "geistige  
+Leihgabe" hoffentlich verzeiht.
+----------------------------------
+In der Tenep Börse (c) ist dieser Indikator ebenfalls beschrieben. :-)
+
+
+... nur wer hat schon einmal ein Szenario erlebt, wie es sich gerade  
+abspielt? Für mich eine neue Erfahrung, ebenso wie vor einigen Jahren  
+der Neue Markt.
+
+Zuerst will man es nicht wahrhaben, kann sich allerdings nicht den  
+begleitenden Gewinnmöglichkeiten entziehen und wenn man endlich seine  
+Ängste bestätigt sieht, fragt man sich, warum man nicht vorher die  
+Konsequenzen daraus gezogen hat.
+
+Noch schlimmer dabei ist allerdings, das bereits sehr früh in dieser NG  
+darauf hingewiesen wurde ;-/
+
+
+.... dann darf ich mich ja in guter Gesellschaft bestätigt fühlen -  
+steht er auch für meine Buch-Verluste ein? ;-))
+
+Wobei, noch sind die Verluste nicht realisiert und was somit bleibt ist  
+die Bestätigung, das langfristig gesehen dieser kleine Börseneinbruch  
+als Anomalie in die Statistik eingehen wird. Somit heißt es gesund  
+bleiben und beim Abwarten nicht vergessen zu leben :-)
+
+  Gruss  Achim

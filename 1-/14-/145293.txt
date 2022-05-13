@@ -1,0 +1,35 @@
+.....
+
+Vermutlich meint ihr sowas:
+
+"Power Warrants"
+Bei dieser Art von Optionsscheinen wird der mögliche Gewinn quadriert. Als
+Beispiel soll hier der DAX Power Warrant (Call) WKN 813 197 von WGI
+Landwarenhaus (WVHN) erklärt werden:
+Dies ist ein europäischer Call auf 1/100 DAX mit Basiskurs 1999 und Ablauf
+(Ausübungstag) 31. September 1995. Es ist eine Obergrenze (Cap) bei einem DAX-Stand
+von 2500 eingebaut. Bei einem normalen Optionsschein ergäbe dies folgendes
+Gewinnprofil:
+DAX:	2100	Gewinn:	1 (2100 minus 2000) mal 1/100 
+     	2200		2
+     	2300	 	3
+    	2400       	4
+    	2500 und darüber 	5 (Maximalgewinn wegen Cap)
+Infolge der Quadrierung ergibt sich bei Power Warrants jedoch folgendes
+Gewinnprofil:
+DAX:	2100	Gewinn:	1 mal 1 = 1
+    	2200		2 mal 2 = 4
+    	2300		3 mal 3 = 9
+    	2400               	4 mal 4 = 16
+    	2500 und darüber 	5 mal 5 = 25 (Maximalgewinn wegen Cap)
+Dabei ist zu beachten, daß sich bei Gewinnen unter 1, also im Bereich von 2000
+bis 2100 DAX-Punkten ein niedriger Gewinn als bei normalen Optionsscheinen
+ergibt, denn wir erhalten z.B. bei einem DAX-Stand von 2050: 0,5 mal 0,5 =
+0,25.
+
+Die Berechnung ist recht einfach; ich darf sie z.Z. aber noch nicht verraten.
+
+
+Theo
+Visit   http://mqwvexp.ynq.aey/hybluy  and download a 
+free calculator for options, futures, bonds and similar stuff.

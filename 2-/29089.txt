@@ -1,0 +1,22 @@
+*Vernuenftige* newsreader bieten die Moeglichkeit die Reihenfolge,
+Ansicht usw. von postings von gewissen Regeln abhaengig zu machen.  Die
+einfachste Variante ist das Killfile.  Steht die Mailadresse des
+Headers im Killfile wird der Artikel erst gar nicht angezeigt.
+Deutlich komplexer ist das scoring.  Hier werden die Beitraege in
+Abhaengigkeit ihres scores gefiltert und sortiert.  Scores koennen dabei
+je nach newsreader auf das Vorkommen bestimmter Eintraege im Header
+vergeben werden.  z.B. (pseudo code)
+From: Tucholsky -100
+Subject: virus -100
+
+Wenn Du als lesbaren score -150 eingetragen hast, siehst du genau die
+Beitraege nicht, bei denen der Poster einen Tucholsky account hat und Virus im
+Subject stehen hat.  Das ganze geht auch dynamisch, dass heisst
+Autoren, Subjects usw. werden hoch oder runtergescort, je nachdem ob du
+den Beitrag gelesen, gar nicht gelesen, oder aktiv geloescht hast.  Das
+alles natuerlich global oder auf eine Gruppe bezogen.  
+
+Was davon OE kann weiss ich nicht.  OE 5 Nutzer plonken zumindestens ab
+und an, also scheint es sowas wie ein killfile zu geben. 
+
+Carsten

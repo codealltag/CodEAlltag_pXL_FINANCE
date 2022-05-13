@@ -1,0 +1,21 @@
+Hi,
+
+In Crange wird einem ja Kuse zugesichert, dass
+keine Teilausführungen gemacht werden.
+Wie funktioniert das eigentlich.
+
+Beispiel eines bestimmten (imaginären) Tages:
+Umsatz 10000 Stück/Tag
+6 Trades/Tag
+
+Meine Order 1234 Stück (krumme Zahl). Bekomme aber exakt 1234 Stück.
+Wie funktioniert das. Da muss doch jemand anders auch 1234 Stück verkaufen,
+weil die nichtteilausf�hrungen doch auch für die anderen gelten.
+Oder ist das so selten, dass man bestimmte Mengen verkauft, sondern es
+dem Kurs überlässt? Ich mein man kann in Crange ja Kuse explizit
+sagen, dass man Teilausführungen möchte. Oder wird da eine Art
+von Arbitrage betrieben dass sowas geht?
+
+lg,
+
+   Jakob

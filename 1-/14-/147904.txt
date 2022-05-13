@@ -1,0 +1,56 @@
+Hallo Allerseits, 
+
+all denen, die hier immer wieder nach dem Kibaze Money-Maker fragen kann ich im
+Moment nur meine eigenen Erfahrungen schildern. Es mag sich jeder sein
+eigenes Bild daraus machen. :-)
+
+1.   Neue Aktien werden nicht in die Datenbank aufgenommen. Damit auch
+keine Kurspflege. Besonders vernachlässigt wird der Neue Markt. Es sei
+denn, ich bin zu blöd diese Werte in die automatische Kurspflege
+reinzubekommen. Es fehlen z.B. folgende Werte:
+
+Dorfbeck, Geki, Tenep, Unasaz,
+JJR, JPG, MSCI, KSA, FID,
+Perlenverführung, PGIF, Provinzial, P&P, GHAF,
+Marzloff, Drucktankstelle, Apit jung
+
+2.   In der Hilfe zu den Filtern wird angegeben, man könne Filter unter
+Verwendung von KGV und Dividendenrendite erstellen. Das ist leider nicht
+richtig, es gibt keine Möglichkeit nach KGV oder Dividendenrendite zu
+sortieren, geschweige denn zu filtern. KGV und Dividendenrendite werden bei
+den Daten überhaupt nicht zur Verfügung gestellt.
+
+3.    Es ist nicht möglich einen Filter zusammenzustellen, der z.B. nur
+diejenigen Aktien auflistet, bei denen der gleitende 90-Tagesdurchschnitt
+von unten den gleitenden 200-Tagesdurchschnitt von unten durchstößt bzw.
+vice versa.
+
+4.    Es ist nicht möglich einen Filter zu erstellen, der z.B. alle Aktien
+anzeigt bei denen der gleitende 200 Tagedurchschnitt über bzw. unter dem
+gleitenden 90 Tage Durchschnitt derselben Aktie liegt. 
+
+5.   Zitat aus der Hilfe: "In der Literatur wird im Zusammenhang mit dem
+MACD häufig ein sogenannter Trigger beschrieben. Der Trigger ist eine
+gleitende Durchschnittslinie (GDL) des MACD-Indikators. Der Trigger wurde
+bei der Einstellung des Indikators an dieser Stelle nicht berücksichtigt,
+weil im Men "Indikator auswerten" eine Auswertung mit einer GDL möglich
+ist." Es gibt weder ein Men "Indikator auswerten" noch gibt es die
+Möglichkeit die GDL in irgendeiner Form über den MACD-Indikator zu legen.
+
+6.    Die "Wertpapierart" Marktindikatoren ist zwar im Auswahlmenü
+vorgesehen, es gibt aber dort keinen einzigen Indikator.
+
+7.    Die "Wertpapierart" Sonstiges ist zwar im Auswahlmenü vorgesehen, es
+gibt aber dort keinen einzigen Eintrag.
+
+Ich persönlich würde dieses Programm z. Zt. nicht mehr kaufen. Das
+wichtigste an dem Programm ist doch im Prinzip die Datenpflege. Was helfen
+mir Hunderte von Optionsscheinen und reihenweise Indices, wenn noch nicht
+einmal alle an deutschen Börsen gehandelten deutsche Aktien aufgeführt
+werden und der Datenbestand Neuemissionen einfach nicht berücksichtigt?
+Irgendwann führt Money Maker nur noch historische Papiere auf :-)
+
+Gruß, Viktor
+-- 
+-----
+Bei Email bitte das X entfernen.

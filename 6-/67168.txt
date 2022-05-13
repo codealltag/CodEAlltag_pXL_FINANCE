@@ -1,0 +1,9 @@
+Ulf Ungethüm <Bffog.Jwjawcm@eq.yreav.hny> schrieb in im Newsbeitrag:
+7qub3j$0yo$1@calyx.ir.jyhopfpf.bgdxp.wd...
+
+$spruch = "Wer a sagt, muß auch b sagen.";
+$spruch ~= s/sag/schreib/;
+
+--
+Philippe Oesterheld
+ICQ: 7071 / zlglhb@krj.ztf

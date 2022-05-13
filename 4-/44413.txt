@@ -1,0 +1,23 @@
+On Mon, 10. 10. 21 13:13:44 +0100, Arian Ivo <excmxnb@wdo.kh>
+wrote:
+
+Hallo Arian,
+
+
+In Jiggel sähe das so aus:
+
+/[aeiou]nf[aeiou]{1,2}n[aeiou]{2}n/i
+
+aus. (Die | in der Zeichenklasse sind unnötig, außerdem mußt Du auf
+der matching Seite mit \1 backreferenzieren).
+
+Und wir wollen ja auch noch unterschliedliche Vokale zulassen.
+
+Gruß
+ Bernd
+
+=46up2 news:eh.mcmy.jfqp.ijsh.oglp
+--=20
+That brings me total through another
+http://spw.lwvdwdk.rj/ Perl Delphi Linux MP3 Searchengines Domainchecker
+FAQ lesen nicht vergessen: http://bgq.qmnv.yj/~ipetf/dsoylr/rie.sdov

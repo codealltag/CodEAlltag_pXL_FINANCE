@@ -1,0 +1,113 @@
+Da die genannte Programmfamilie vom Hersteller in lauffähigen Demos
+angeboten wird, als auch billige Versionen samt historischen Kursen
+auf CD erhaeltlich sind, weiss ich, dass Interesse daran besteht. Aber
+was soll der Neueinsteiger/Bafoegempfaenger usw. mit einem teuren
+Kurs-Abo. 
+Wie man die laufenden Daten aus ascii-Dateien der Finanz-BBS
+reinkriegt, habe ich kuerzlich beschrieben. Hier reiche ich noch die
+Variante "BTX-Kurse" nach, da der Betreiber der Finanz-BBS
+Verzweiflung signalisiert hat - zu viele neue, oft gar nicht mit
+Mailboxen vertraute Gaeste.
+
+Ausgangslage: BTX-Kurse vom 16.8. wurden gelesen und als eine (oder
+mit "Anhängen" mehrere) Seite(n) in eine Datei gespeichert, z.B. von
+ZSPP *200000# (dort kostenlos)
+
+Stammdaten muessen vorhanden sein, egal woher. Ich habe keinen Weg
+gefunden, auch eine fremde ascii-Stammdatenliste (WKN/Name)
+einzulesen.
+So, wenn die Stammdaten also irgendwie importiert oder eingetippt
+worden  sind, koennen die Tageskurse aus der BTX-Seitendatei wie folgt
+eingelesen  werden. 
+Diese hat irgendwo das Datum stehen (ich habe es mit dem Editor um die
+Jahresziffer ergänzt, weiss aber nicht, ob das nötig war), und Spalten
+mit dem Namen und dem Kurs.
+Modul: Kataloge
+        Import
+         Ascii
+           Anbieter
+             Neu
+               BTX
+           Datei
+             Oeffnen
+               (die gespeicherte Seite)
+                 ganz oben "16.08.96" mit Maus markieren
+                 Im Fenster jetzt "Datumszeile" (nicht
+                 "Datum"!!!!) anklicken
+
+                 irgend einen Aktiennamen mit Maus markieren,
+                 z.B. Chlupka
+                 Im Fenster "Name" anklicken
+
+                 irgend einen Kurswert markieren,
+                 z.B. "255" mit reichlich Stellen dahinter
+                 Im Fenster "Kurs" anklicken
+
+	Den Bereich markieren, wo Datum und die
+	Werte bzw. Aktiennamen stehen
+	Im Fenster "Seite" anklicken
+
+             Anbieter
+	Zuordnen
+	Erstmal den Katalog mit den passenden
+	     Stammdaten öffnen, z.B. MDVE
+	Jetzt nacheinander im einen Fenster
+	     die gelieferten Aktiennamen markieren,
+	     im anderen Fenster den gleichen 
+	     Aktiennamen aus den Stammdaten
+	     (Anmerkung: jedesmal, wenn im Laufe
+	       der Zeit im Uhup-Angebot dieser 
+                       Name geaendert, z.B. abgekuerzt oder z.B.
+                       von "MWOU" unter "Cleanpark" ver-
+                       lagert wird, kriegt man natuerlich nicht
+                       mehr den Kurs korrekt aktualisiert!)
+	Das Programm vermerkt aus den Stammdaten
+                      die WKN hinter den Aktiennamen im Fenster
+                      mit den BTX-Werten und merkt sie sich 
+                      fuer zukuenftige Aktualisierungen
+               Wichtig: Die Zeilen auf der BTX-Seitendatei,
+                     in denen keine Kurse stehen (Ueberschrift
+	     usw), mit "Ignorieren" markieren, 
+                     sonst laesst sich das ganze 
+                     Anbieterformat gar nicht abschliessen 
+                     und speichern.
+            Anbieter
+             Speichern unter: BTX.afm
+           Datei
+             Konvertieren
+           Datei
+             beenden
+        Kataloge
+           Beenden.
+
+Bis jetzt ist Euch noch gar nicht geholfen - aber irgendwo fliegt
+jetzt  eine Datei "Daten.dp" auf Eurer Platte herum, und die ist im
+richtigen  Format!
+Jetzt nur noch das Modul "Kurse" aufgerufen, "Aktualisierung",
+"ueber DP-Datei" - und schon werden die Kurse eingelesen. Hat man nur
+einen einzigen Tageskurs, wie ich in obigem Beispiel, kann man
+natuerlich kein Chart
+erwarten, aber ueber Kurse-Einzelbearbeitung-anzeigen kann man bereits
+ueberpruefen, dass er wirklich in dem angelegten Katalog unter der
+Aktie  drin ist.
+
+Zukuenftig geschehen die Einlesevorgaenge natuerlich etwas einfacher:
+
+Kataloge-Import-Ascii-Anbieter-laden-BTX.afm
+         Datei oeffnen-(die neuesten, aus 
+		     BTX gespeicherten Seiten)
+         Datei konvertieren
+         Datei beenden
+Kataloge beenden
+
+und als 2. Schritt:
+Kurse-aktualisieren-ueber DP-Datei.
+
+Und weiss der Henker, warum der Programmierer den 2. Schritt nicht
+automatisch an den 1. angehaengt hat!
+OT: hier noch eine Anmerkung fuer den Programmierer der erwaehnten
+Software. So eine Beschreibung wie oben gehoert gefaelligst in den
+Hilfstext und das Handbuch, und nicht nur als Halbsatz ("... muss
+zumindest die Seitendefinition enthalten") !!! Auch wenn man
+(berechtigterweise) den Standpunkt vertritt, ein ernsthafter Investor
+sollte lieber das Kurs-Abo nutzen.

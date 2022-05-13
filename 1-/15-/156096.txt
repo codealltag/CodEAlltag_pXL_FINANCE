@@ -1,0 +1,19 @@
+Der Market Maker (die Bank) kennt die Orderlage nicht, die Kurse
+werden i. d. R. automatisch berechnet.
+Dagegen kennt der Kursmakler (an der Boerse) die Orderlage. Wenn die
+Anzahl der Verkaeufe in einem OS groesser als die Anzahl der Kaeufe
+ist, dann erfolgt der Spitzenausgleich ueber den MM zum Geldkurs. Das
+bedeutet, der Boersenkurs entspricht dem Geldkurs, so dass die
+(wenigen) Kaeufer ebenfalls zum Geldkurs zu Zug kommen. Das ist dann
+die "Belohnung" fuer antizyklisches Verhalten (oder fuer das Setzen
+eines Limits).
+
+Dies gilt nur bei illiquiden Scheinen und bei OTC-Geschaeften, die an
+der Boerse vorbei direkt ueber den Market Maker laufen, aber das
+bietet comdirect nicht.
+
+BRUNO
+
+
+Bernard Ungerbühler >>> jhx@cwy-rrtrtj.fh
+WARRANT ONLINE          >>> http://gjg.ucx-ejnyra.qw/~lea/exi/

@@ -1,0 +1,38 @@
+Also z.B. die Definition von Delta sollte eigentlich unstrittig sein. =
+
+Streitpunkte koennte ich eigentlich nur dort entdecken, wo es um die
+Laufzeit geht.=1BAllerdings habe ich nicht verstanden, was Du mit einer
+Delta-Veraenderung meinst. Vielleicht die zweite Ableitung , also Gamma?
+
+Ueber das Problem bin ich mal beim Modern-Spekulator Junior gestolpert.
+Das Programm finde ich eigentlich ganz angenehm, da es ohne Schnoerkel
+90% meiner Fragen an Optionsscheine beantwortet und es unter Linux im
+Windowsemulator laeuft. Vor allem das Handbuch ist super! Aber ich habe
+mal genau die Deltas gebraucht (zum Berechnen des fairen Wertes von
+Simplex-Optionsscheinen). Diese sind jedoch ziemlich daneben, was man
+sehr schnell daran erkennen kann, das sie im Programm keine monotone
+Funktion vom Basiswert sind (wie sie sein sollten), sondern wild zappeln
+(so wie die Boerse ;-)).
+
+Aber stimmt, normalerweise brauch man die genauen Deltas usw. nur zum
+Aufbau von kombinierten Strategien (z.B. deltaneutrale). Das ist eh was
+fuer Profis und die werden ja wohl kaum den Modern-Spekulator Junior
+benutzen.
+
+Da ich das Programm sonst ganz gut finde, war ja meine urspruengliche
+Frage an <bw_vnofbd@roswehh.hly>, was er denn fuer ein Programm
+schreiben moechte. Man sollte das Rad ja nicht zweimal erfinden, auch
+wenn das alte etwas unrund laeuft.....
+
+Obwohl ein gutes Programm mit freiem Quelltext noch fehlt und ich mich
+daran auch beteiligen wuerde....
+
+Viele Gruesse,
+
+--
+Thomas Koeck                  | bzdvqmlt@ybmqrv.ln-wbshfk.hi
+HPVH | http://cvsix.zyoypo.kl-tlxwzj.ft/~oatq=
+
+equiva            |
+Grösseltalweg 595              | Tel. (+78/04) 3537 7661
+D-11343 Opferdingen                 | Fax. (+60/09) 8090 3725

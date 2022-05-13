@@ -1,0 +1,10 @@
+Ich finde wiederum die "Zerobond + short Put"-Methode i.a. einfacher.
+
+Bei der anderen Methode muß man nämlich statt Aktie einen
+Zero-Strike-Call (also Aktie ohne Dividenden) nehmen - und da ergibt
+sich das Problem, daß man Annahmen über die Dividende treffen muß. Das
+ist nur einfacher, wenn keine Dividenden während der Restlaufzeit
+gezahlt werden (bzw. generell bei Performance-Indizes wie DAX).
+
+Gruß,
+Bruno

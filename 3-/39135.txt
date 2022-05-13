@@ -1,0 +1,15 @@
+"Leon Altpaß" <de.etc.finanz.boerse@gmx.de> wrote:
+
+[Berechnungsbeispiel:]
+
+Hmm, und was geschieht, wenn eine Firma praktisch pleite ist (die Aktie
+notiert weit unter dem Emissionspreis), aber es findet nur ein geringer
+Umsatz statt? In Deinem obigen Beispiel saehe das so aus:
+
+Zeichnungswert = 100 * 100 EUR
+Zusatzwert = -99 EUR (aufgrund eines Umsatzes bei 1 EUR)
+Marktwert = 100 * 100 EUR - 99 EUR = 9.901 EUR
+
+Die Firma waere nach Deiner Formel doch hoffnungslos ueberbewertet.
+
+Gruss Sergio

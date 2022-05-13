@@ -1,0 +1,23 @@
+Nui_Qcttdtlol@mb.visx.gw (=?ISO-8859-1?Q?Klaas?=) wrote:
+
+Moin,
+
+Eine kleine Korrektur:
+RS=Durchschnitt d. Aufwaerts_differenz_ d. Schlusskurse etc.
+       Durchschnitt d. Abwaerts_differenz_ d. etc.
+Sorry
+
+Ergibt also die Kursdifferenzen +2, -1, +2, -5, +1
+Nun wird der einfache gleitende Durchschnitt gebildet, indem die
+Summe der Aufwaerts- bzw. Abwaertsdifferenz jeweils durch  die
+_gewaehlte RSI-Periode_ dividiert wird, in Deinem Bsp. also durch 5.
+
+RS=((2+2+1)/5)/((1+5)/5)=1/1,2=0,833333
+
+RSI 5=45,46
+
+Gruss, Niko
+--------------------------------------------------------------------------------------------------------------
+DAX fuer Trader 
+http://nldc.k-fnhcos.rt/hidl/Buxudqzll-Jqtkjkv
+------------------------------------------------------------------------------------------------------------

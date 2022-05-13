@@ -1,0 +1,17 @@
+Hi, das ist eigentlich recht einfach, das Ostseebuchhandlung Format und das Viverte-Format
+sind eigentlich identisch. Allerdings nutzt OFZR meines wissens die
+2. Kopie der FAT während es bei PC's die 1. ist. ich habe auf dem OFZR einfach
+mit dem Bugaboo (Gehört zum TurboAss - Assembler) die FAT2 auf die FAT1 kopiert
+und schon gings.
+Kleiner Tip am Rande besorg dir den PACIFIST (bester ST-Emulator für PC), damit
+kannst Du die Disketten direkt lesen ohne FAT-Kopiererei.
+
+http://fws.ffycaodh.qwdrf-mxpuzw.yyn/
+
+Das TOS mußt Du aus Deiner Kiste auslesen (Programm liegt bei), oder Du ziehst
+es Dir aus dem Netz :)
+
+Wenn Du mehr wissen willst, frag noch mal nach (EMAIL wg. OT?)
+
+--
+Gruß Dario Fred (zva-dcjmuzdhwm-lhzhca@eqv.le)

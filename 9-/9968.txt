@@ -1,0 +1,39 @@
+Roulette Prediction Analysis Software
+Author Ziegenbein
+
+Advanced Graphical User Interface
+Roulette Wheel Analysis uses a variety of screens to
+highlight the status of your wheels.
+A main screen shows an overview of all wheels, both
+in use and in storage, with graphical representation
+of the standard deviation calculation for each wheel.
+The main screen view enables the user to quickly
+compare wheels and check for errors.
+Polar and Bar charts views represent data bias
+results and sector checking that easily highlights hot
+spots. Data can be filtered on date ranges, number
+of spins, direction of wheel or by dealer name (if
+optiona.
+A rota speed graph enables the casino to set a minimum and
+maximum speed that they would like all wheels to be spun at
+(revolutions per minute or pockets per second). Data can then
+be easily compared against the acceptable tolerance. To make
+full analytical use of this =91speed check=92, reports can be filtered
+by date range, number of spins, direction or by dealer name
+
+A historical screen enables a linear time line chart to be created
+for the life of the wheel, which includes all maintenance events
+and can be setup to view multiple wheels at the same time.
+This can be used to compare wheel performance over time and
+can also be used to work out the effectiveness of maintenance
+events and wheel relocation.
+The Maintenance screen
+is a simple interface for
+service engineers to
+use for recording any
+maintenance procedure
+that has occurred on the
+wheel. Wheel location
+tracking is easily entered
+using a simple =91drag and
+drop=92 tool.

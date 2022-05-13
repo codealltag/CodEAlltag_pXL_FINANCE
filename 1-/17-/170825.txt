@@ -1,0 +1,18 @@
+Hallo Diedrich,
+
+soweit dich nur Aktien interessieren kann ich Dir leider nicht
+weiterhelfen - fuer Fonds gibt es jedoch bei *ACID# (Btx) eine gute
+Loesung.
+
+Mit den Programmen "ACIDREAD" und "ACIDFONDS" (1,99 DM bei *ACID#) kann du
+ca 1200 Fondskurse bei *ACID# auslesen und nach Deinen bzw. Quickens's
+Vorstellungen aufbereiten lassen. Hierzu startest Du zuerst "ACIDREAD"
+welches Die Daten aus Btx ausliest und auf PC speichert. Danach startest
+Du "MarmeLädchen" welches Dir aus den gelesenen Daten eine Kursdatei
+aufbereitet. Den Aufbau der Kursdatei bestimmst Du mit einer
+Konfigurationsdatei, hier legst Du die Felder die Du moechtest, die
+Feldposition, die Feldgroesse, ANSI oder ASCII-Code, Delimiter u.s.w.
+fest.
+
+mfg
+Vittorio

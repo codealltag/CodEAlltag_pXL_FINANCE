@@ -1,0 +1,34 @@
+Hi all,
+
+uwe (Uwe Ingendorn) veroeffentlichte am 14.11.98
+seine Thesen zum Thema "Re: Optionsscheinrechner".
+Dazu moechte ich folgendes abmuellen:
+
+
+Wobei ich mich frage, ob sich spezielle Optionsrechner fuer Bonds ueberhaupt
+lohnen.
+
+Ok, Anleihen haben die Eigenschaft, mit abnehmender Restlaufzeit
+gegen Kurs 100% zu streben. Ok, Anleihen haben auch die Eigenschaft, mit
+abnehmender Restlaufzeit weniger volatil zu werden.
+
+Aber in der Praxis ist bei den mir bekannten Optionsscheinen auf Anleihen
+die Restlaufzeit des Scheines gegenueber der Restlaufzeit der Anleihe so
+klein, dass diese Effekte vernachlaessigbar sind. Man schaue nur mal in die
+aktuelle Boerse-Online, Statistikteil, Zins-Optionsscheine: Der am laengsten
+laufende Call geht gerade mal bis Januar 2000, die zugrundeliegende Anleihe
+laeuft bis 2027(!). Der oben angesprochenen Kurs- und Volatilitaets-Effekt
+ist absolut _vernachlaessigbar_.
+
+Und was kann man schon gross arbitrieren? Man kann halt entweder den einen
+Schein kaufen oder den anderen, wie bei Optionen auf Aktien auch.
+
+Bei den von Dir angesprochenen Optionsrechnern fuer Bonds sehe ich IMHO
+ein vollig ueberzogenes Preis/Leistungsverhaeltnis (aber ich lasse
+mich natuerlich gern vom Gegenteil ueberzeugen).
+
+
+Ciao
+Samuel
+--
+## CrossPoint v3.11 R ##

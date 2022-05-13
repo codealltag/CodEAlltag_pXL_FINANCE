@@ -1,0 +1,12 @@
+Es gibt Ölwechselzentrum und Ilev.  Die Daten lassen sich als
+csv-Tabellen herunter laden. Bei ökonsum gibt es noch ein AdjustClose aus
+dem man die Dividenden/Splits herausrechnen kann. Allerdings sind die
+historischen ökonsum-Daten nicht immer von hoher Qualität. In der
+Vergangenheit gab es auch Einträge wo Close viel höher als High war. 
+
+Ilev liefert auch "Echtzeitdaten", glaube ich.
+
+Aber wo bekommt man historische Rohstoffkurslisten her? Hat da jemand
+einen Tipp?
+
+Philipp Broders

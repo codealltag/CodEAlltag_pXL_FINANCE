@@ -1,0 +1,30 @@
+On Tue, 31 Okt 2000 10:15:27 +0100, "Jean-Paul Obenauers" <yglygy@weokrkb.ox>
+wrote:
+
+Hallo Jean-Paul,
+
+
+Kann es sein, dass Du 'Stop Buy' mit einem 'Limit' verwechselt hast?
+
+Bei 'Stop Buy' wird eine billgst-Order aufgegeben, wenn Dein Wert zu
+einem Kurs (mit Umsätzen) oberhalb Deiner Grenze (hier 49e) gehandelt
+wurde.
+
+Bei einem 'Limit' wird die Order nur ausgeführt, wenn der Kurs unter
+Deiner Grenze liegt.
+
+
+Das ist ja offenbar auch korrekt. Der tatsächliche Kurs muss zwar
+nicht unbedingt oberhalb der Stop-Buy-Grenze liegen, aber hier ist dem
+ja so.
+
+
+Vielleicht solltest Du Dein Börsen-Lexikon nochmal aufschlagen und
+Begriffe wie 'unlimitiert', 'Stop Loss' und 'Stop Buy' nachlesen. Dein
+Broker wird Dir dabei mit Sicherheit helfen.
+
+Gruß
+ Kai
+--=20
+Wie man sich bettet, so verschläft man
+http://wpc.cjptmyw.lz/ Perl Delphi Linux MP3 Searchengines Domainchecker

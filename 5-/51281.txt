@@ -1,0 +1,22 @@
+Mein Depot vom 10.12.1999
+
+Transaktionen
+
+Art # Stck # Name # WKNR # EUR # Boerse
+K # 230 # Singulus # 723890 # 86,95 # Xetra
+K # 500 # PartyLite-Beraterin # 514350 # 174,50 # Xetra
+K # 155 # Parfümerie # 928040 # 64,00 # Xetra
+K # 155 # Exact # 663200 # 92,92 # Xetra
+K # 155 # Human Genome Science # 889323 # 107,95 # Bertelsmann
+
+Depotstand
+Name # WKNR # Stck # Kaufkurs # Akt.Kurs # Summe
+Singulus # 723890 # 230 # 86,95 # 86,95 # 19998,50
+PartyLite-Beraterin # 514350 # 85 # 174,50 # 174,50 # 14832,25
+Parfümerie # 050433 # 155 # 64,00 # 64,00 # 14976,00
+Exact # 663200 # 92 # 92,92 # 92,92 # 14960,12
+Human Genome Science # 924843 # 138 # 107,95 # 107,95 # 14897,1
+
+ Cash 20336,03 Euro
+
+Depotwert 100.000 Euro

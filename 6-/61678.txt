@@ -1,0 +1,40 @@
+Hallo,
+leider Verspaetet, und wenn ich mir die Boerse heute angucke, dann
+haette ich wohl meine Transaktionen lieber bleiben lassen sollen.
+
+Mein Depot:
+
+ Transaktionen:
+  Art # Stck # Name  # WKNR  # EUR   # Boersenplatz
+V # 1185 # Compaq # 868576 # 24,50 # BRE
+K # 1000 # NIOA # 683273 # 16,30 # STU
+K # 200 # SCM M # 929449 # 57,90 # STU
+
+Cash vor Verkauf: 43054,50
+
+ Depot nach Verkauf:
+  Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+  mükra      # 878841 #   200  #  58,50 # 97,00 # 19400,00
+  Appel     # 865985 # 100 # 71,60  # 105,00 # 10500,00
+  Novell    # 873019 # 500 # 16,30  # 20,90 # 10450,00
+  Perlhuhn M  # 909247 # 250 # 43,61  # 57,90 # 14475,00
+
+
+Cash: 72087,00
+
+Cash nach Kauf: 44207,00
+
+ Depot nach Kauf:
+  Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+  mükra      # 878841 #   200  #   58,50   # 97,00 # 19400,00
+  Appel     # 865985 # 100 # 71,60  # 105,00 # 10500,00
+  Novell    # 873019 # 500 # 16,30  # 20,90 # 10450,00
+  Perlhuhn M  # 909247 # 450 # 49,96  # 57,90 # 26055,00
+  IDS Sch # 625700 # 1000 # 16,30 # 16,30 # 16300,00
+
+
+  Cash     :  ( 43054,50 ) 44207,00
+  Depotwert:  ( 87842,50 ) 82705,00
+  Gesamt   : ( 130897,00 ) 126912,00
+
+Nick

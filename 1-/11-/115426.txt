@@ -1,0 +1,26 @@
+Wolf Stepan schrieb in Nachricht
+<20s6398e.90967003@jskstrlymosq.ugcpnpw.pm.odq>...
+
+Anderer Ansatz:
+Deine Aktie steht (wie in Deinem anderen Beispiel) um 110 DM.
+
+Du möchtest sie kaufen.
+Dann kannst Du einen limitierten Kaufauftrag geben.
+Z.B. Kauf zu Limit 100.
+Fällt die Aktie nun auf 100 oder niedriger, so wird sie zu diesem Kurs
+gekauft.
+Gibst Du einen Stop-Buy-Auftrag, z. B. bei 120, so wird die Aktie gekauft,
+sobald dieser Kurs erreicht wird, nur mit dem Unterschied, daß sie nach
+Erreichen dieses Kurses gekauft wird, unabhängig davon, zu welchem Kurs Du
+sie dann endgültig kaufst (bitte korrigiert mich, falls ich mich irgendwo
+irre).
+
+Du möchtest sie verkaufen.
+Dann kannst Du einen limitierten Verkaufauftrag geben.
+Z. B. Verkauf zu Limit 120.
+Das Papier wird dann zu einem Kurs von 120 oder darüber verkauft, wenn
+dieser erreicht wird.
+Gibst Du einen Stop-Loss-Auftrag, z. B. bei 100, so wird die Aktie verkauft,
+sobald dieser Kurs erreicht wird, nur mit dem Unterschied, daß sie nach
+Erreichen dieses Kurses verkauft wird, unabhängig davon, zu welchem Kurs Du
+sie dann endgültig verkaufst.

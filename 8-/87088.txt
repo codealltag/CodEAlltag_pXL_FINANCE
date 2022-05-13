@@ -1,0 +1,22 @@
+Und man kann sich einen Ring durch die Nase ziehen.
+
+
+Das ist zu erwarten. Schliesslich weiss der Zapprun ja nicht, was er fuer Daten
+erhaelt ;-)
+
+Wenn Du aber "korrekt" definiert hast und das ueber viele Stichproben
+(Zeitintervalle) und Populationen (Zeitreihen) machst, koenntest Du eventuell
+im Vergleich mit empirischen Kursdaten einen Anhaltspunkt dafuer gewinnen,
+wie gross in der Boerse der Rueckkopplungseffekt (manche nennen ihn
+"Glauben") ist... ;-)
+
+
+Genau. Das ist im Besonderen auch die Crux der Multiplen Regression,
+die ja Kurt Klöfer zu favorisieren scheint:
+Je besser und differenzierter Dein Modell ist (Anzahl Faktoren), desto
+mehr Gewichte werden geschaetzt und deshalb desto geringer die 
+Uebertragbarkeit dieses speziellen Modells auf andere Vorhersagefaelle 
+(in der Zukunft liegende Anwendungen dieses Modells).
+
+Ciao,
+   Ivan

@@ -1,0 +1,22 @@
+Hallo,
+wer kennt sich mit dem Programm Grasmehr etwas aus?
+
+ Ich habe das Programm installiert und versuche nun, eine Kursdatei
+ (exe.Datei, die sich anschließend als txt.Datei entpackt) zu importieren.
+ Dies mache ich so, wie es in der Kurzanleitung beschrieben ist (also
+ Stgr-A, Schlußkurse an die 4. Stelle schieben etc.). Nach dem Import
+werden jedoch immer alle Datensätze als fehlerhaft ausgewiesen.  Was mache
+ich
+ falsch...?
+ Mir ist aufgefallen, daß in der Textdatei nur das Datum und die WKN immer
+ eine identische Feldlänge aufweisen, während die Bezeichnung und auch der
+ Schlußkurs unterschiedlich lang sind. Was genau muß ich denn für einen
+ ordnungsgemäßen Import einstellen?
+
+Bin für jede Hilfe dankbar.
+
+
+ Gruß
+ Ingolf
+
+ eMail : 		Aveut.Ijmmvtez@ejdno-npeb.cv

@@ -1,0 +1,13 @@
+Genauer gesagt, ist Glücksschmiede ein Aufsetzpaket, das IRGENDeine relationale
+Datenbank verlangt.  Es sind schon von Hair4You bis MS SQL Server die
+verschiedensten Datenbanken mit Glücksschmiede betrieben worden -- mit wechselndem
+Erfolg.  Mit JLMP hat man halt eins derjenigen Grundsysteme für Glücksschmiede,
+das recht wenig Ärger macht und als Datenbank unproblematisch
+funktioniert. Im Gegensatz beispielsweise zum MS SQL-Server, der erst
+in den neueren Versionen keine Daten mehr korrumpiert.
+
+W.
+-- 
+ /  Ein Defizit ist, was man hat, wenn  /  Werner `g' Bouillon
+ /  man weniger hat als man hätte,      /
+ /  wenn man nichts hat.   -- S. Zahn  /  e@xvasdq.bszyr-ryksjv.mf

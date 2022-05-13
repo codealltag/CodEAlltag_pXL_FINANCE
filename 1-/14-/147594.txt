@@ -1,0 +1,14 @@
+: Ganz einfach, bei Eröffnung wird geschaut was an Aufträgen vorliegt. Dann
+: wird berechnet, zu welchem Kurs der größte Umsatz zustande kommt.
+
+Angenommen, bei einer Aktie mit wenig Umsatz lag der Kurs "gestern" bei
+10 DM. Heute liegen zur Eroeffung vor:
+
+Verkaufsorder 1.000 Stueck Limit 15 DM
+Verkaufsorder 500 Stueck Limit 12 DM
+Kauforder "billigst" 1.000 Stueck
+
+Bekommt der Kaeufer dann 500 Stueck fuer 12 DM und weitere 500 fuer
+15 DM, oder 1000 Stueck fuer 15 DM, oder nur 500 fuer 12 DM oder .....
+
+Sergio

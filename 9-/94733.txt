@@ -1,0 +1,38 @@
+Das ist ein beliebter Denkfehler ...
+
+   +----+----+------------- Server
+   C
+
+Wenn A, B und C mit dem Server reden wollen,
+welcher Switch könnte ihnen dabei helfen,
+wenn die Übertragungsrate auf allen Leitungen
+auf 100MBit begrenzt ist?
+Im Durchschnitt werden die 3 nur 33MBit bekommen.
+Mit oder ohne Switch.
+
+Switchkommunikation wird erst dann interessant,
+wenn
+ - entweder die einzelnen Partner *untereinander*
+   viel Schwätzen (A mit B, dann bleiben 100Mbit
+   zum Server alleine für C) oder
+ - hinter dem Switch ein dickeres Kabel zum Server
+   führt (z.B. 1GBit)
+
+Das erste ist beim Internetzugang von zuhause aus
+nicht der Fall -> Thema erledigt.
+Für die zweite Variante scheint mir das Stromnetz
+nicht geeignet. Es müßte dann (im Gegensatz zur
+bisher üblichen Ringverteilung) ein Sternnetz aufgebaut
+werden -> also alle Straßen aufreißen. Man hätte
+dann neben dem Telefonnetz ein zweites Sternnetz
+aufgebaut.
+Aus Sicht der Volkswirtschaft sollte man dann doch besser
+Restkapazitäten in Telefon- und Kabelnetzen nutzen
+(z.B. mit ADSL).
+
+Der Anwendungszweck der Powerline-Datenübertragung
+muß also erst noch ein wenig genauer spezifiziert werden.
+Für "100MBit ins Wohnzimmer" scheints auf jeden Fall
+nicht gedacht :-)
+
+ml

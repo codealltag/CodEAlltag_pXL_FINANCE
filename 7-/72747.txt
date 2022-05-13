@@ -1,0 +1,17 @@
+Mist,
+wieder mal vertan, hier korrigiert mit nur fuenf Werten:
+
+Transaktionen:
+ Art # Stck # Name  # WKNR  # EUR   # Boersenplatz
+   K  # 100 # Appel # 865985 # 7160 # letzter
+Depot:
+ Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+ JNAV      # 878841 #   200  #   58,50   #   67,89  # 13578,00
+ TopKauf # 871111 # 100 # 65,00 # 82,20 # 8220,00
+ JKEW # 868576 # 685 # 21,80 # 21,09 # 14446,65
+ Tromposaund Vz.   # 716463 #   50 # 337,50 # 442,10 # 22105,00
+ Appel     # 865985# 100 # 71,60  # 71,60 # 7160,00
+
+ Cash     :  (49992.00) 42832,00
+ Depotwert:  (52477,50) 69919,65
+ Gesamt   : (102469,50) 108341,65

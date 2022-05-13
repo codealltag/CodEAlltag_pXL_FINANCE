@@ -1,0 +1,18 @@
+danke für die Mühe
+
+
+genau mit diesen Formeln habe ich meine Probleme.
+Bei der obigen Formel ist außerdem immer "EMA" statt "EMA1" angegeben.
+Ich nehme aber an, das ist nur ein Versehen?
+
+Aber viel wichtiger: wenn ich den Faktor 2/x+1 benutze, bekomme ich
+wild gezackte Kurven.
+
+2/(x+1) ergibt zwar geglättete Kurven, aber der Faktor macht so keinen
+Sinn - ich könnte ja gleich x um 1 höher wählen (x ist hier die Anzahl
+der Tage für den gleitenden Durchschnitt)
+
+[seufz]
+
+-- 
+Sébastien

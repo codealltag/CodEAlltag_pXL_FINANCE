@@ -1,0 +1,19 @@
+Interessante Frage, aber da doch sowieso eine tägliche Verrechnung zum
+Settlementpreis erfolgt, ist das doch egal! Zum Zeitpunkt der Glattstellung
+existiert dann nur noch eine LONG - welche das ist, ist eben egal. überlege
+selbst einmal: Du nimmst Dir zwei LONGs mit 5000 und 5050 und stellst einen
+glatt. Was für einen Unterschied macht es da, welcher es ist, da ja beide
+zum Settlementpreis des Vortages "abgerechnet" worden sind? Die beiden
+unterscheiden sich somit nicht mehr voneinander...
+
+
+So ist es, Du bist dann flat - hast keinerlei Verpflichtungen mehr. Die
+Claeringstelle wäre ja blöd, wenn sie für Dich dann zwei (absolut konträre)
+Positionen führen würde: sie hätte damit nur mehr Arbeit ohne irgendeinen
+konkreten Nutzen. Schließlich muß sie nun von Dir keinerlei Sicherheit mehr
+bekommen und somit "schließt sie Deinen Fall ab".
+Ich hoffe, meine Erklärung ist stimmig und verständlich.
+
+
+Edouard Ehrhart
+http://vsr.kqows.xs/~sxseb

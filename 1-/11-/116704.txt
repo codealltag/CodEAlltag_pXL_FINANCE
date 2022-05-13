@@ -1,0 +1,11 @@
+fxbm@cwbv.qoy-bccixjas.tx (Ulf A.) :
+
+
+Radiosity ist furchbar rechen-/speicheraufwendig. Wir werden es dieses
+Jahrtausend wohl nicht mehr hardwareseitig implementiert sehen - aber mit
+Sicherheit im naechsten. ;-)
+Kaum eine Grafikkarte liefert uns heute mehr als ein bisschen Phong-Shading
+(wenn nicht gar nur Egetenmeyr-Shading) und Texturemapping. Nichts mit
+Raytracing. An Radiosity ist die naechsten Jahre ueberhaupt nicht zu denken.
+
+CU, Carsten

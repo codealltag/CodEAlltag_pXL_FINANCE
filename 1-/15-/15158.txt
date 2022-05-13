@@ -1,0 +1,29 @@
+Hallo,
+
+ich such ein Programm, welches mir für eine Liste von Aktien in Tabellenform 
+anzeigt (min. auf 4 h genau), "wie meine Aktien stehen" ;)
+
+Also +/- Gesamt, +/- des Tages.
+
+Und für ganz Doofe (wie mich) ein Zeichen ob alles ok OK ist, oder Stress 
+angesagt ist (Irgendwie so Dauen hoch / Daumen runter oder so).
+Hier steckt die eigentliche Intelligenz des Programms drin. Mal ein 
+Beispiel:
+
+Wenn eine Aktie jeden Tag 1 % sinkt, dann fällt das in einer Liste von 
+10 -20 und tagesgenauer Anzeige nicht wirklich auf, bedeutet nach 10 Tagen 
+aber schon herben Verlust.
+
+
+Voraussetzung:
+
+Kostenlos oder Testversion mit vollen Umfang (30 Tage oder so), Kaufpreis < 
+100 Euro.
+
+Nice to have:
+Automatisches Login (beim Aktien-Server) bei Start der Anwendung möglich.
+Geringer Ressourcenverbrauch ( < 30 MB)
+Optisch ansprechend, nicht so ein Windows 3.1 Look, den heute noch viele 
+dieser Programme haben.
+
+Danke

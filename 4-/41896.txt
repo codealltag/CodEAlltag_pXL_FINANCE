@@ -1,0 +1,25 @@
+"Peter Waasner" <nxvkpvw@xve.il> schrieb im Newsbeitrag
+news:kryHDJ3Kx6yLFL+biPJ1C6+K90V3@hcjx.airucrs.dyy.mo...
+
+Ja, die Willkuer liegt darin, dass man festgelegt hat, dass
+die Aenderung immer relativ zum Ausgangspunkt und nicht
+zum Endpunkt angegeben wird. Am besten waere es, man naehme
+sie immer relativ zum geometrischen Mittel
+
+Beispiel:
+100 und 130
+geometrisches Mittel 114.017542509913797913604902556675
+
+100 + 30
+= 100 + 26,3117405792108764416011313592502% von
+114,017542509913797913604902556675
+
+130 - 30
+= 130 - 26,3117405792108764416011313592502% von
+114,017542509913797913604902556675
+
+So dass man bei dieser Konvention sagen koennte es sind in beide
+Richtung 26% zwischen 100 und 130.
+
+Oder man legt fest, dass sich die Aenderung bei Steigerungen immer
+auf den Endwert und bei Minderungen auf den Anfangswert bezieht.

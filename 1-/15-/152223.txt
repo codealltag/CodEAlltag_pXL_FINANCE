@@ -1,0 +1,31 @@
+der amtliche mittelkurs ist ein gewichtetes mittel aus den letzten
+handelsminuten vor dem fixing. die genaue gewichtung kennt nur die
+börse selbst, aber sie behält sie für sich. der grund dafür ist ebenso
+einfach wie naheliegend: man will kursmanipulationen verhindern.
+(ähnlich wie beim settlement im future-bereich, da ist das settle oft
+auch nicht gleich dem last)
+man muß sich vor augen halten, daß das göda devisenfixing
+einzigartig ist (ansonsten wird der $ u. alle anderen devisen ja
+überall "durchgehend" gehandelt) insofern kommt dem fixing eine
+ziemliche bedeutung im bereich der abrechnung von ALLEN möglichen
+geschäften zu.(leitw�hrung $ !)...und da machen ein paar hunderstel
+rauf oder runter für manchen ein kleines vermögen aus.
+überhaupt sollte man gerade im devisenbereich SEHR vorsichtig sein mit
+begriffen wie amtlicher mittelkurs,geld,brief usw.
+das von dir gegebene beispiel zeigt deutlich warum.
+ein bid/ask spread von fast 1pfennig ist völliger QUATSCH. wer schon
+jemals realtime-devisenkurse gesehen hat (und da sind eigentlich
+sowieso nur FOREX-kurse ernst zu nehmen) weiß was ich meine.
+frag 10 leute die kursabos haben nach dem $-kurs von heute (oder
+besser noch nach open/hi/lo/last) und du wirst mindestens genauso viel
+VERSCHIEDENE werte genannt bekommen. je nachdem woher der lieferant
+seine daten bezieht, was er als handelszeit definiert usw...
+eigentlich gibt es nur 2 arten einen vernünftigen w�hrungschart zu
+führen:	1. auf basis des göda devisenfixings (dann gibts nur
+"schlu�kurse")	2. mit op/hi/lo/last (dann ist open "japan-open" und
+cl ist "zehnbach-schluß") hi und low liegen irgendwo dazwischen.
+
+--
+yoyo
+
+diese message besteht zu 100% aus biologisch abbaubaren daten;

@@ -1,0 +1,18 @@
+Da hammer ja wieder einen unverbesserlichen Optimisten hier ;-) Es kommt
+immer darauf an, welchen Zeitraum man betrachtet. (Und ich behaupte, dass
+der von mir gewaehlte Zeitraum repraesentativer ist als Deiner, weil er
+knapp 100 statt nur 30 Jahre beruecksichtigt ;-))
+
+Der Dow war am 24.12.1900 bei 51.6 Punkten. Am 24.12.1997 stand er bei 7965
+Punkten. Daraus folgt fuer die letzten 97 Jahre:
+
+cx@eojcs:~# perl -e 'print ((7965/51.6)**(1/(1998-1901)), "\n")'
+1.05332460127504
+
+Also ca. 5.33% pro Jahr im Durchschnitt. Dabei sind freilich Dividenden
+nicht beruecksichtigt. Interessant waere in diesem Zusammenhang auch die
+Kaufkraftentwicklung. Was konnte man 1901 im Vergleich zu heute fuer
+$1000.- kaufen? Hat da jemand Vergleichszahlen?
+
+-- 
+-- Georges Elias -- cs@wdkom.sesa.zu -- Hemsen, Germany --

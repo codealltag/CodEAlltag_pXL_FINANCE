@@ -1,0 +1,97 @@
+Visual Basic 2011 Excel VBA eMail Account programmieren Egloff
+Eberharth
+Video http://dgs.kxsrnlw.upc/altpe?h=7TTFsHZNc60mz
+
+Author U.Eberharth
+Heute zeige ich Ihnen, wie Si emit Visual Basic oder mit Excel einen
+eigenen funktionieenden eMail Account programmieren und damit eMails
+mit Anhängen usw. Auch an Kopie-Empfänger versenden können.
+Natürlich kann das auch in eine bestehende Applikation eingebaut
+werden und funktioniert reibungslos.
+Welche Steuerelemente Sie brauchen, sehen Sie auf dem Video und auch
+den Code. Hier sollten Sie das Video anhalten, um den relativ kleinen
+Code abschreiben zu können.
+Das wars dann.
+Eberharth
+Der Code lautet:
+Imports System.Configuration
+Public Class Form1
+    Private Sub Form1_Load(ByVal sender As Object, ByVal e As
+System.EventArgs) Handles Me.Load
+        BoxAnhang.ValueMember =3D "FullName"
+        BoxAnhang.DisplayMember =3D "Name"
+        BoxAnhang.DataSource =3D New ArrayList
+    End Sub
+    Private Sub KnopfSenden_Click(ByVal sender As System.Object, ByVal
+e As System.EventArgs) Handles KnopfSenden.Click
+        Try
+            Dim eMail As New Mail
+            Dim mailFrom As String =3D
+ConfigurationManager.AppSettings("mailFrom")
+            Dim smtpHost As String =3D
+ConfigurationManager.AppSettings("smptHost")
+            Dim smtpUser As String =3D
+ConfigurationManager.AppSettings("smtpUser")
+            Dim smtpPass As String =3D
+ConfigurationManager.AppSettings("smtpPass")
+            Dim smtpPort As String =3D
+ConfigurationManager.AppSettings("smtpPort")
+            BoxMailEingabe.Text =3D BoxMailEingabe.Text.Replace(",",
+";")
+            BoxKopieSendenAn.Text =3D BoxKopieSendenAn.Text.Replace(",",
+";")
+            BoxZweiteKopieSendenAn.Text =3D
+BoxZweiteKopieSendenAn.Text.Replace(",", ";")
+            Dim mailTo() As String =3D BoxMailEingabe.Text.Split(";")
+            Dim mailCC() As String =3D BoxKopieSendenAn.Text.Split(";")
+            Dim mailbCC() As String =3D
+BoxZweiteKopieSendenAn.Text.Split(";")
+            Dim strSubject As String =3D BoxBetreff.Text
+            Dim strBody As String =3D BoxDerText.Text
+            Dim sAttachments() As String
+            ReDim sAttachments(BoxAnhang.Items.Count - 1)
+            Dim mArr As ArrayList =3D BoxAnhang.DataSource
+            For i As Integer =3D 0 To sAttachments.GetUpperBound(0)
+                sAttachments(i) =3D CType(mArr(i), IO.FileInfo).FullName
+            Next
+            eMail.Send(mailFrom, smtpHost, smtpUser, smtpPass,
+smtpPort, mailTo, _
+                       mailCC, mailbCC, strSubject, strBody,
+sAttachments)
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+
+    Private Sub BoxAnhang_DragEnter(ByVal sender As System.Object,
+ByVal e As System.Windows.Forms.DragEventArgs) Handles
+BoxAnhang.DragEnter
+        e.Effect =3D DragDropEffects.All
+    End Sub
+
+    Private Sub BoxAnhang_DragDrop(ByVal sender As System.Object,
+ByVal e As System.Windows.Forms.DragEventArgs) Handles
+BoxAnhang.DragDrop
+        Dim path() As String =3D e.Data.GetData(DataFormats.FileDrop,
+False)
+        Dim mArr As ArrayList =3D BoxAnhang.DataSource
+
+        For i As Integer =3D 0 To path.Length - 1
+            Dim bFileExists As Boolean =3D False
+            'prüfen ob datei schon angefügt
+            For j As Integer =3D 0 To mArr.Count - 1
+                Dim existingFile As IO.FileInfo =3D mArr(i)
+                If existingFile.FullName =3D path(i) Then
+                    bFileExists =3D True
+                End If
+            Next
+            If Not bFileExists Then
+                mArr.Add(New IO.FileInfo(path(i)))
+            End If
+        Next
+        BoxAnhang.DataSource =3D Nothing
+        BoxAnhang.ValueMember =3D "FullName"
+        BoxAnhang.DisplayMember =3D "Name"
+        BoxAnhang.DataSource =3D mArr
+    End Sub
+End Class

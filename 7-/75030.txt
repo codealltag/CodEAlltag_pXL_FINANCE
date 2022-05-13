@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hallo,
+
+was haltet Ihr davon, eine Börsen-NG aufzumachen, in der nur gepostet
+werden kann, wenn der Ursprung des jeweiligen Postings verifizierbar ist?
+
+Soll heißen: Es kann nur der posten, der auch eingetragener Nutzer der Enes
+ist. Die Administration könnte man über PGP-Signaturen machen. Der
+Newsserver erkennt nur Postings als ok, die mit einem gültigen Key
+unterzeichnet wurden, bzw. von einem zugelassenen Host (also nicht bke.ol,
+rzprbr.csc, rlzq.qot, etc.) stammen und den entsprechenden FROM-Header
+enthalten.
+
+Die Administration läuft dezentral ab, ich zum Beispiel kenne Alligator und
+Olaf Tilmann und könnte so mit meiner (vom Admin signierten) ID die der
+beiden unterzeichnen und so weiter.
+
+Fazit: Fähnders würde nicht reinkommen. Wenn doch, dann wird halt eine
+Blacklist geführt.
+
+
+Wir können natürlich auch die "Neonazis in dieser NG" bitten, bei Fähnders
+mal vorbeizuschauen... ;-))
+
+CU UNKAUF.
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 6.0 for non-commercial use <http://yjo.coj.edr>
+Comment: PGP V6.0 - pretty good piracy
+
+iQA/AwUBN7/qrpD+54IT/DGbSTQtjhTap6CwNABB4ngOEWT+ZYANosY9jDcGjIXX
+Z7dozsA5l7yPJKJs4fxg2ffs
+=DS6w
+-----END PGP SIGNATURE-----
+
+-- 
+This signature causes *heavy* Internet traffic and has been sent by 
+Carl "Hatte-ich-mal-wieder-das-richtige-Näschen" Tom 
+(www.gsgkzd.mg).
+----------------------------------------------------------------
+Today's pick from the TOP50 of Borg jokes: 
+Yoda of Borg I am. Futile is resistance. Assimilate you we will.

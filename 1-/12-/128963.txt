@@ -1,0 +1,73 @@
+Y2K - Was ist das Problem?
+---------------------------
+Die meisten Computer auf der Welt ticken wie eine Zeitbombe ihre restlichen
+Tage bis zum 21.6.2000. Wenn die Uhr am Silvesterabend die Nullstunde
+schlägt, werden viele Computer und viele in Haushaltsgeräten befindlichen
+Smartger�te, die Computer-Chips enthalten, nicht mehr richtig
+funktionieren. Alle Funktionen, die mit einem sechsstelligen Datum rechnen,
+werden das Jahr als 1900 statt 2000 interpretieren, oder einfach abbrechen.
+
+Verdeutlichung: Datenbanken sollten vierstellige Jahre speichern (z.B.
+22.04.1999). Stattdessen hat man vor 10, 20 oder 30 Jahren Dater nur mit
+zweistelligen Jahresziffern gespeichert, um Speicherplatz zu sparen und
+dadurch die Schnelligkeit (Performanz) der Systeme zu erhöhen. Solche
+Altsysteme speichern also ein Datum so: 05.06.99. Wenn z.B. eine Bank
+Zinsen berechnet, werden die Datumfelder in Tage umgewandelt. In dem
+Zeitraum vom 05.06.99 bis 05.07.99 errechnet der Computer 30 Tage. Was für
+Zinstage errechnet er für den Zeitraum vom 04.06.00 bis 04.07.00 ?
+
+Nun wäre das alles kein Problem, wenn alle EDV-Verantwortlichen sich
+rechtzeitig auf den Datumswechsel vorbereiten würden. Leider ist das nicht
+der Fall ! Dazu gibt es jede Menge "Beweise" (siehe unten). Jede Menge
+Autoren - darunter auch angesehene EDV-Spezialisten und Unternehmensberater
+- behaupten, daß viele Firmen und Regierungsstellen sich zu spät bzw. noch
+gar nicht mit der Umstellung befaßt haben. 
+
+Um das Problem in den Griff zu bekommen, muß jede Zeile der Programme
+(program code) von Programmierern überprüft werden. Für die
+Programmänderungen und Tests gibt es zu wenig Zeit und ungenügende
+Fachkräfte. Viele der Programmierer der alten Programmiersprachen (Cobol,
+Assembler, Fortran...) sind bereits in den Ruhestand eingetreten. Die
+Kosten, um die Software auf der ganzen Welt umzustellen, werden auf 600
+Milliarden US Dollar geschützt. 
+
+"Beweise", Warnungen und Szenarien
+----------------------------------
+Nicht nur kann es zu Problemen bei Geldinstituten und Regierungsämtern
+geben, sondern auch bei Dienstleistungsunternehmen wie z.B. Krankenhäuser,
+Elektrizitätswerke, Telekommunikationsfirmen, die Bahn, Flugverkehr, Börsen
+usw. Daraus enstehen könnten neben Todesfälle auch jede Menge
+Firmenpleiten, eine Rezession, unzählige Gerichtsverfahren uvm. Die VideoCity
+empfiehlt, daß man sogar extra Bares zur Hand haben soll, falls
+Geldmaschinen nicht funktionieren. (Emmen Post am 12.11.98).
+
+Auszüge:
+--------
+Zeitzwang könnte Ämter zwingen, nur die EDV-Systeme höchster Priorität
+umzustellen, und dabei die Ressourcen von anderen Projekten umzugliedern
+(RGM)
+Das Guthaben von über einer Million Bankkunden könnte elektronisch
+vernichtet werden - Gehaltsabrechnungen könnten in Chaos geraten durch
+verspäteten Überweisungen (oder gar keine) - Kreditnehmer könnten bei
+Hypotheken- und Kreditkartenzahlungen in Verzug geraten - Geldautomaten
+könnten aussetzen - Regierungsverg�tungen wie z.B. Rentenzahlungen könnten
+eingefroren werden 
+
+Eine DCS Netzwerktechnik-Umfrage stellt fest, daß viele Firmen den
+Jahr-2000-Vorbereitungen hinterher hängen (techweb)
+1/4 von 6000 auf der ganzen Welt befragten Firmen und Regierungsämtern
+haben noch gar nicht angefangen, ihre Computersysteme umzustellen. Die
+Hälfte der Befragten haben gar nicht vor, diese Umstellung zu testen.
+
+Aufforderung
+------------- 
+Ist noch jemand an diesem Thema interessiert? Ich bin gerade dabei, eine
+Webseite zu erstellen. Für alle Infos wäre ich dankbar.
+
+Gruß, Walter D.
+
+----------------------------------------------
+"Live long and prosper"
+e-mail:  vxhcxbssex@fmkrq-awoxcz.
+To reply add DE after the period.
+DE hinzufügen

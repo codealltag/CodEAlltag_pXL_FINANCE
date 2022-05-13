@@ -1,0 +1,28 @@
+Im Artikel <36T63627.07AU2552@xtjmas.ph-mkti.kb.et>, Domenico Preuschl
+
+Zunächst wird der "signifikante Kurs" berechnet. Das ist High, Low und Close
+addiert und durch 3 geteilt. 
+über den signifikanten Kurs wird ein einfacher gleitender Durchschnitt
+gebildet.
+Dann wird die "mittlere Abweichung" berechnet aus den Differenzen der
+signifikanten Kurse zum Gleitenden Durchschnitt.
+Der aktuelle CCI ergibt sich, indem man diese mittlere Abweichung mit einer
+Konstanten (0.015) multipliziert und durch die Differenz zwischen dem heutigen
+signifikanten Kurs und dem gleitenden Durchschnitt teilt.
+Meistens liegt der CCI zwischen -100 und +100. Dann spricht man von einem
+trendlosen Markt.
+In der Literatur werden folgende Handelssignale genannt:
+überschreitet der CCi die +100 von unten nach oben: Kaufsignal
+Unterschreitet der CCI diese Marke wieder: Exit.
+Umgekehrt für Short.
+
+Hier die Formeln:
+X=(H+L+C)/3  (signifikanter Kurs)
+MA(X)=Xt + Xt-1 + Xt-2...+Xt-n+1)/n  (Moving Average von X über n Perioden)
+s(X)=(abs(xt-MA(x)t)+.....+abs(Xt-n+1 - MA(x)t) /n
+                            (Standardabweichung)
+CCI=(Xt - MA(x)t) / (0.015*s(x)t)
+
+Ich hoffe, daß die Formeln so korrekt wiedergegeben sind.
+
+Viele Größe aus Untermühlhausen

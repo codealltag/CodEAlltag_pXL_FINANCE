@@ -1,0 +1,10 @@
+ADR oder nicht ADR haengt von der Art der Aktie ab.
+in den USA werden namenspapiere gehandelt. da aber fast alle deutschen papiere
+inhaberaktien sind, muß meist dieser umweg gewählt werden 
+
+zu den kursdifferenzen: liegt halt am umsatz. kurse bilden sich nicht von
+alleine, sondern durch angebot und nachfrage. wenn kein umsatz zustande kommt,
+gibt es halt keine kurse. nebenwerte haben nun mal keine market maker, die
+verpflichtet sind, ständig faire kurse zu stellen.
+
+jacques

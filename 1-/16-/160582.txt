@@ -1,0 +1,40 @@
+Greetings,
+
+Mir scheint - auf Anhieb zumindest - daß ein Kanal einen ziemlichen 
+Tiefgang haben müßte, wenn ein einfacher put oder call sich auszahlen 
+soll.  Darüberhinaus, ein put oder ein call der "hängt", vierliert 
+ja täglich an Wert.
+
+Meine Überlegungen sind zwar von futures options stark beeinflußt aber 
+bitte.  So paradox es klingt, kann ich mir vorstellen, daß am oberen 
+Rand des Kanals eine call Strategie nützlich sein könnte.  Natürlich muß 
+es gut durchdacht sein und ist nicht unter allen Umständen möglich:  man 
+kauft einen at-the-money call und VERkauft zwei weiter draussen liegende 
+calls, sodaß ein "credit" ("credit" im englischen Sinne des Wortes, ein 
+Guthaben also) entsteht.  Entwickelt sich der Markt nach unten, 
+steckt man auf alle Fälle den "credit" in die Tasche und schläft im 
+Abrahams Schoss.  
+
+Bewegt sich der Preis langsam nach oben, ist alles klar:  man gewinnt 
+durch den gekauften call, sowie durch den "credit" von den VERkauften 
+calls und deren almlichen Verfall, solange sie nicht in-the-money 
+sind.  Diese spread ist sogar auch dann noch kurz profitable, wenn der 
+eine ungedeckte call sogar etwas in the money rutscht, weil man ja den 
+"credit" als Polster verbucht hat.
+
+Unter diesen Umständen macht auch ein geringfügiger Ausbruch wenig.  Im 
+Gegenteil, wäre ganz begr��enwert.  Viele Ausbrüche sind ja ohnehin 
+blind.  Der Klou beim ganzen, ist das Guthaben, das "credit".  Bewegen 
+sich die Preise drastisch nach oben, so kann man sich immernoch vor dem 
+Aderlass aus dem Staub machen.  Viele drastische Ausbrüche bruhigen sich 
+ja dann auch und verwandeln sich in neue trading ranges.  
+
+Ich glaube, man braucht stärkere Beweggründe zum einfachen Kauf eines 
+puts oder calls als den Rand eines Kanals.  Da muß man schon was 
+saftiges voraussehen.  Und wenn man unbedingt auf diese Strategie 
+versessen ist, dann zumindest ein covered call oder put, damit die 
+Auslage nicht so schmerzhaft ist.  Wie sollte ich da noch Spaß haben, 
+wenn ich eine Stange Geld ausgebe und zittern muß, daß sich die Dame 
+nicht umdreht und dann von der anderen Seite will . . .
+
+Valentin

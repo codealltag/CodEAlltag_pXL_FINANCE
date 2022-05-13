@@ -1,0 +1,35 @@
+Friedhelm <pykgw@yrqslfw.mk> schrieb in im Newsbeitrag:
+0k2n73$qo1$6@mgog68.ixz.drql.nf...
+
+Hallo Friedhelm,
+
+meine -knappe- Antwort basiert auf Daten von
+http://lofpiuwbckzzbk0.tmshvqj.we/fgm-fxb/qz-xfsvexcubx.oko?ZPH=629330
+
+Zunaechst ist momentan eine sehr hohe Volatilitaet im Markt, d.h. call-OS
+sind allein wg grosser Kursschwankungen der Aktien in den letzten Monaten
+recht teuer. Das bedeutet im konkreten Fall, dass obiger OS bereits dann an
+Wert verliert, wenn sich die Marktsituation beruhigen sollte und damit die
+vola sinken wuerde.
+
+Dies kann sogar bedeuten, dass selbst im Falle steigender Kurse des
+underlyings NOK der OS an Wert verlieren koennte.
+
+Ein Bsp: der Kurs steigt auf EUR 66; gleichzeitig sinkt die Vola von heute
+65% auf 55%. Der OS verliert bei diesem Szenario ca 5% an Wert -
+nachzuvollziehen mithilfe des Szenariorechners auf obiger website, und bei
+sonst konstanten input-Daten.
+
+Guenstiger waere es fuer dich, einen OS im Geld zu verwenden; das Risiko
+wird dabei etwas reduziert, da der Einfluss der Vola auf den OS nicht mehr
+so gross ist. Gleichzeitig ist die Hebelwirkung natuerlich reduziert, also
+der OS steigt prozentual nicht mehr so stark wie mit dem OS deiner
+Wahl...der Preis fuer das verminderte Risiko eben. Beispielsweise hat der OS
+379427 einen strike von 55 und notiert damit im Geld.
+
+Wenn Du nicht davon ausgehst, dass OLIVER sehr stark an Wert gewinnt, wuerde
+ich dir momentan jedoch dazu raten, noch was abzuwarten, bis sich die Vola
+wieder etwas beruhigt.
+
+Viel Erfolg,
+rudolf

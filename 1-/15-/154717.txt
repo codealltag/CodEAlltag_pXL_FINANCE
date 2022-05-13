@@ -1,0 +1,42 @@
+: Ich wuerde ASCII bevorzugen (meine Unix-Kiste spricht kein Micro$oft).
+meine auch nicht ...
+
+: In den Dateien sollte enthalten sein:
+: - das Datum. Wenn es pro Tag eine Datei gibt, genuegt es, das Datum
+:   im Kopf der Datei anzugeben. Ansonsten bitte in jeder Zeile.
+: - WKN (oder ISIN) in jeder Zeile. Ticker-Symbole oder Papiernamen
+:   bitte nur in Ausnahmefaellen.
+: - Oben erwaehnt Ihr zwar, dass Ihr nur Schlusskurse anbieten wollt,
+:   ich wuerde aber dennoch vorschlagen, dass Ihr fuer die anderen
+:   Werte (Open, High, Low, Close, Kassa, Volume) Platzhalter einfuehrt.
+:   Wenn Ihr das Format so festlegt, dass nicht verfuegbare Werte
+:   einfach leer bleiben, seid Ihr wohl am flexibelsten.
+
+: - ASCII
+: - in einer Datei nur Kurse von einem Tag
+: - in der ersten Zeile: Datum im Format TT.EDGAR.YYYY (mit fuehrenden
+:   0 bei Monat und Tag)
+: - in allen anderen Zeilen:
+:   WKN;Open;High;Low;Close;Kassa;Volume
+:   bzw. in Eurem Fall:
+:   WKN;;;;Close;;
+:   Als Trennzeichen wuerde ich das Semikolon dem Komma vorziehen. So
+:   entsteht keine Fehlinterpretation (Dezimalpunkt oder
+:   Tausendertrenner).
+:   Falls es Papiere sind, zu denen es keine WKN gibt, diese durch
+:   das Tickersymbol oder den Namen ersetzen.
+
+Dieses Format würde ich auch favorisieren, da es sich sehr leicht mit
+diversen Unix-Utilities (z.B. perl) bearbeiten lässt. Für unsere
+Micro-Softies lässt sich dieses Format per ASCII-Import mit Excel
+weiterverarbeiten.
+
+: > - Welche Daten wollt Ihr haben ?
+Soviel wie moeglich in komprimierter Form per Mailserver ;-)
+
+--
+mfg
+Eric
+
+/ Eric Spies | E-Mail: Kdiqq@awcckpx.LF-Pcnheg.HV | Linux 2.0.21 ELF \
+\----------------| - - - - - - - - - - - - - - - - - --------------------/

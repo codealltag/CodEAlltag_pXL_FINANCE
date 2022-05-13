@@ -1,0 +1,344 @@
+*** zum Thema vom: 16.05.97 - Re: Charts und gleitende Durchschnitte
+
+
+..... ich haenge hier einfach mal einige Definitionen zur Bewertung eines  
+Charts mit ran.....
+
+Ueber den Sinn bzw. Unsinn einer Bwertung nach den etsprechenden  
+Indikatoren bin ich mir bis heute nicht schluessig ;)...
+
+
+Bye von Mehmet
+
+
+          Bollinger Band's
+          Gleitende Durchschnitte
+          Phasenanalyse
+          Momentum
+          Coppock
+          Trendbestaetigung (TBI)
+          Relative Staerke (RSI)
+          Trendkorrelations-Analyse
+          Volatilitaet
+          Overbougt-Oversold
+          Stochastic-Indikator
+          Performance/Beta
+          Directional Movement
+          Indikator (DMI)
+          Williams % R-Indikator
+          On-Balance-Volumen (OBV)
+          Kurs-Volumen-Trend (KVT)
+
+
+          Bollinger Band's
+
+          optisch wird die Kurslinie von zwei Linien begleitet, deren
+          Abstand zur Kursline differiert. Diese Differenz wird aus dem
+          gleitenden Durchschnitt, z.B. ueber 20 Tage (einstellbar)
+          gebildet, der nach oben und unten verschoben wird. So ziehen
+          sich die Baender bei starken Kursschwankungen auseinander und
+          schmiegen sich bei festen Werten naeher an diese. Damit bieten
+          sie die Moeglichkeit eines optimierten Stop, gemessen am
+          gleitenden Durchschnitt, zu setzen.
+
+          Wenn der Kurs die Bollinger Baender durchbricht liegt eine
+          Extremsituation vor, wobei der Kurs kurzfristig wieder in die
+          Bebaenderung zurueckfaellt
+
+
+          Gleitender Durchschnitt
+
+          Nur der Vollstaendigkeit halber soll auch dieser Indikator
+          erwaehnt werden, doch laesst gerade der gleitende Durchschnitt
+          (in der Folge kurz G.D. genannt) dem Interpreten sehr viel
+          Spielraum bei seiner Betrachtungsweise.
+
+          G.D. glaetten die Marktfluktation und die kurzfristige
+          Volatilitaet und geben somit einen Hinweis in welche Richtung
+          der Markt gehen mag. Da sie keine Ueberkauft- oder
+          Verkauft-Informationen geben, ist der G.D. als
+          Trendfolgenindikator zu betrachten. Es gibt sehr viele Arten und
+          Kombinationen von G.D., so dass es nicht immer leicht faellt
+          fuer jeden Zustand den passenden G.D. zu finden.
+
+          Die G.D. berechnen sich als Mittelwert einer frei waehlbaren
+          Menge von Werten einer bestimmten Zeitreihe, wobei gesagt werden
+          darf, je kuerzer der G.D. desto unsicherer ist seine
+          Aussagekraft - es wird also Schnelligkeit gegen Sicherheit
+          abgewogen werden muessen. Die wohl gebraeuchlichsten sind der
+          200 Tage und der 90 Tage G.D., wobei die untere Grenze wohl
+          durch den 25 Tage G.D. gebildet wird.
+
+          Durchbricht die Kursline von oben nach unten den G.D. so ist
+          dieses als Verkaufssignal zu bewerten, im umgekehrten Fall als
+          Kaufsignal. Ebenso gilt als Kaufsignal, wenn der kurzfristige
+          Durchschnitt den langfristigen von unten kommend schneidet.
+
+
+          Phasenanalyse
+
+          Bei der Phasenanalyse wird der gleitende Durchschnitt um einen
+          bestimmten Prozentsatz verschoben, damit weniger Signale als bei
+          einem normalen GD erzeugt werden. Bei jedem Durchbruch des
+          Kurses durch diesen verschobenen GD aendert sich die Phase, also
+          von Kauf- in Verkaufsphase und umgekehrt.
+
+
+          Momentum
+
+          Dieser einfach aussehende Indikator enthaelt einen Grossteil
+          mehr Informationen als man auf den ersten Blick sieht, und der
+          Wert dieser Information, der in der Art seiner Berechnung liegt,
+          fuehrt zu den vielseitigsten Anwendungsmoeglichkeiten.
+
+          Das Momentum ist ein kurz- bis mittelfristiger Indikator, wobei
+          dieser um eine Nullinie schwankt. Wird diese durchbrochen
+          spricht man von einem Signal was, wenn der Durchbruch von unten
+          nach oben geschieht als Kauf, andernfalls als Verkaufssignal
+          gewertet wird. Nach Art des Indikators - er berechnet sich aus
+          dem Quotienten des aktuellen Kurses mit dem Kurs vor der
+          angegebenen Anzahl von Tagen - kommen diese Signale relativ
+          spaet, es kann v.d. bereits eine Drehung des Indikator unterhalb
+          der Nulline als Kaufsignal gewertet werden. An der
+          Geschwindigkeit oder Steigungsrate des Anstiegs laesst sich auch
+          die Beweglichkeit des Wertpapiers ersehen.
+
+
+          DHOU-Indikator
+
+          Der Coppock-Indikator gibt mittel- bis langfristige Signale. Es
+          vergleicht die Schluskurse eines bestimmten Intervalls (z.B. 30
+          Tage) ueber die gewaehlte Anzahl von Intervallen (z.B. 10). Der
+          Indikator schwankt um eine Nullinie, wobei nicht der Durchbruch,
+          sondern eines Drehung des Indikators unterhalb der Linie als
+          Signal (Trendwechsel) gewertet wird. Dieses gilt natuerlich auch
+          oberhalb der Nullinie, was dann als Warnsignal betrachtet werden
+          kann.
+
+
+          Trendbestaetigungs-Indikator (TBI)
+
+          Der Trendbestaetigungs-Indikator (TBI) basiert auf dem
+          Verhaeltnis von zwei gleitenden Durchschnitten. Ueblich ist ein
+          kurzfristiger und ein mittelfristiger GD. Der TBI schwankt um
+          eine Nullinie, wobei ein Durchbruch durch diese bedeutet, dass
+          sich die beiden GD gekreuzt haben.  Wird die Nullinie von unten
+          nach oben durchbrochen, hat der kurzfristige GD den
+          langfristigen GD gekreuzt, was als Kaufsignal zu werten ist.
+          Beim Durchbruch von oben nach unten hat der kurzfristige GD den
+          langfristigen GD gekreuzt, was dann als Verkaufssignal zu werten
+          ist.
+
+          (siehe dazu auch gleitender Durchschnitt (5) )
+
+
+          Relative-Staerke-Index (RSI)
+
+          Der Relative-Staerke-Index (RSI) ist wahrscheinlich der
+          populaerste und vielleicht auch wichtigste Indikator. Der Index
+          gibt unter den meisten Marktbedingungen verlaessliche
+          Ueberkauft- und Ueberverkauft-Signale. Der RSI berechnet ein
+          Verhaeltnis der Aufwaerts- und Abwaerts-Schlusskurse ueber eine
+          ausgewaehlte Zeitperiode und drueckt das Resultat als Oszillator
+          auf einer Skala von 0 bis 100 aus.
+
+          Es werde zwei Moeglichkeiten seiner Interpretation genannt.
+
+          Zum einen wird der Kursverlauf des RSI mit dem Kursverlauf
+          verglichen, um unterschiedliche Entwicklungen herauszufinden.
+          Wenn der RSI faellt oder stagniert, waehrend der Kurs weiter
+          steigt ist ein Signal fuer einen Trendwechsel gegeben.
+
+          Die andere Interpretationsmoeglichkeit liefert Signale, wenn der
+          RSI unterhalb von 30% oder oberhalb von 70% notiert. In diesen
+          Faellen liegt das Ende eines Abwaertstrens bzw. das Ende eines
+          Aufwaertstrend vor und eine gegenlaeufige Kursbewegung ist
+          wahrscheinlich.
+
+          Leider war es mir bisher nicht moeglich fuer die Dauer bzw.
+          Heftigkeit der Gegenreaktion eine allgemeingueltige Aussage zu
+          finden.
+
+
+          Trendkorrelations-Analyse (TKA) (Erweiterung vom RSI)
+
+          Die Trendkorrelations-Analyse (TKA) baut auf dem RSI auf. Beim
+          RSI muss die Konvergenz bzw. Divergenz gegenueber dem
+          Kursverlauf selbst ermittelt werden, der TKA analysiert nun den
+          Zusammenhang zwischen RSI und dem Kursverlauf und gibt dieses
+          als mathematische Zahl wieder. Diese Zahl wird als grafische
+          Darstellung einer sich um die Nulline bewegenden Kurve
+          wiedergegeben. Ein Durchbruch durch die Nullinie wird als Signal
+          bewertet, wobei ein kleiner TKA-Wert auf eine Divergenz zum RSI
+          hinweist.  Spekulative Signale sind bereits bei einer Drehung
+          des TKA unterhalb der Nulline gegeben, was auf einen
+          Trendwechsel nach laengerer Abwaertsbewegung hindeutet.
+
+
+          Volatilitaet
+
+          Die Volatilitaet gilt als Mass fuer die Beweglichkeit eines
+          Wertpapiers.  Die Volatilitaet gibt an, um welchen Prozentsatz
+          der Kurs eines Wertpapiers im Zeitraum von einem Jahr schwanken
+          kann, wenn die bisherigen Kursveraenderungen zugrundegelegt
+          werden. Ein Vola von 20% bedeutet, dass dieses Wertpapier von
+          +20% bis -20% schwanken kann.
+
+          Diese einfache Definition funktioniert waehrend der meisten Zeit
+          recht gut, aber sie beruecktsichtigt nicht die Tage mit extremen
+          Kursbewegungen.
+
+
+          Ueberkauft/Ueberverkauft Indikator
+
+          Der Ueberkauft/Ueberverkauft Indikator ist als kurzfristiger
+          Indikator zu betrachten und stellt eine Momentaufnahme des
+          Marktes da.
+
+          In seiner Darstellung pendelt die Kurslinie zwischen 0% und
+          100%, wobei der Bereich zwischen 30% und 70% keine Bewertung
+          zulaesst. Bei Durchbruechen wird davon ausgegangen, dass ein
+          ueberverkaufter Wert-Index < 30% kurzfristig im Kurs steigt,
+          waehrend ein ueberkaufter Wert-Index > 70% kurzfristig keine
+          weitere Kurssteigerung erwarten laesst.
+
+          Bisher konnte ich nicht ermitteln, ob sich die Heftigkeit
+          (Steigungswinkel des Indikators) des Durchbruchs als Gratmesser
+          fuer die Staerke der zu erwartende Gegenreaktion verwenden
+          laesst, auch findet dieser Oszillator allenfalls in der
+          Beimischung zu anderen Indikatoren seine Anwendung.  Ebenfalls
+          unklar blieb, ob der Indikator auch bei Aktien oder
+          hauptsaechlich auf Indices eingesetzt werden sollte.
+
+
+          Stochastic-Indikator
+
+          Der Stochastic-Indikator besteht aus zwei Linien, die zwischen 0
+          und 100 oszillieren. Die Linien werden mit %K und %D
+          beschrieben. Als Kaufsignal gilt, wenn %K ueber %D ansteigt,
+          nachdem der Ozillator ein Tief unter 25 durchgefuehrt hat.
+          Faellt dagegen %K unter %D, wobei %K vorher >75 war, dann ist
+          dieses als Verkaufssignal zu sehen. Da es sich hierbei um sehr
+          kurzfristige Zyklen handelt, ist dieser Indikator wohl nur im
+          Zusammenspiel mit anderen Idikatoren sinnvoll.
+
+
+          Persoenlich sehe ich in diesem Indikator fuer den normalen
+          Aktienhandel keinen Nutzen, da sich die Signale zu aehnlich in
+          ihrem steitigem Wechsel zeigen und man schon wegen der Gebuehren
+          kaum in der Lage ist danach zu verfahren.
+
+
+          Performance/Beta-Indikator
+
+          Nur der Vollstaendigkeit wegen soll dieser Indikator erwaehnt
+          werden, der lediglich dazu dient, die Kursbewegung zweier
+          Wertpapiere zu vergleichen.  Dieser Idikator wird manchmal auch
+          als Relative-Staerke bezeichnet, hat aber mit dem gleichnamigen
+          Indikator nichts zu tun.
+
+          Man erhaelt mit dem Performance/Beta-Indikator einen Chart, der
+          anzeigt um viel Prozent das dargestellte Wertpapier oder der
+          Gesamtmarktindex z.B.  DAX besser oder schlechter gelaufen ist
+          als der Vergleichswert.
+
+          Anmerkung: Der Beta-Faktor ist ein statistisches Mass fuer die
+          Performence.
+
+
+          ADX (Average Directional Movenment Indikator)
+
+          Nicht so sehr der Einstieg, vielmehr der optimale Ausstieg aus
+          einer Position stellt haeufig das entscheidene, eigentliche
+          Kriterium da.  Sicherlich kann allein schon dadurch eine
+          Verbesserung erziehlt werden, dass zuerst die erste haelfte der
+          Position zur Gewinnsicherung und die andere Haelfte erst bei
+          eindeutigem Trendwechsel glattgestellt wird.
+
+          Unterstuetzung bei der Festlegung des aktuellen Trends bietet
+          der DMI oder in seiner Glaettung der ADX (Average Directional
+          Movenment Indikator) bzw. bei weiterer Glaettung der ADXR
+          (dieser "R" reduziert die Aussage des ADX durch seine weitere
+          Glaettung aber bereits so sehr, dass seine Effektivitaet
+          angezweifelt wird). Der DMI bzw. seine Abwandlungen bieten nun
+          die Moeglichkeit die Staerke eines Trends zu beschreiben und die
+          persoenliche Risikobereitschaft darauf abzustimmen.
+
+
+          Kurz zum Inhalt:
+
+          Der DMI geht von der Annahme aus, das in einem Aufwaertstrend
+          das Hoch des heutigen Tages ueber dem gestrigen liegen soll;
+          beim Abwaertstrend liegt in Analogie dazu, der aktuelle
+          niedriger als der Kurs des gestrigenden Tages. Die Differenz
+          zwischen diesen Kursen ist das auf- bzw.  abwaertsgerichtet
+          Directional Movement (+D1, -D1). Der ADX wird nun direkt aus +D1
+          & -D1 abgeleitet (die Mathematik dazu bitte selbst nachlesen)
+          und bestimmt den Grad des Trends am Markt. Es ist daher wichtig
+          den ADX nur als Trendmesser zu verstehen, der auch in Fall von
+          steigenden bzw.  fallenden Kursen einen entgegengesetzen
+          Richtung einnehmen kann. Auch lassen die Betrachtungsvariationen
+          von Berechnungszeitraum und Glaettungsfaktor sehr viel Spielraum
+          zur eigenen Definition, von daher ist der DMI nur als
+          unterstuetzender Indikator unter einen von vielen Moeglichen
+          einzusetzen. Er nimmt bei der Chartanalyse einen hohen
+          Stellenwert ein und eine genauere Beschreibung wuerde meine
+          Moeglichkeiten sicherlich uebersteigen.
+
+
+          Williams %R-Indikator
+
+          Vom Prinzip her ist der Williams %R-Indikator ein
+          Stochastic-Indikator (siehe auch (2) ), er verwendet jedoch in
+          seiner Berechnungsformel unter dem Bruchstrich anstelle des
+          Tiefstkurses den Hoechstkurs.
+
+          Optisch stellt er sich als Linie da, die sich zwischen 0 und 100
+          bewegt.  Bei der Interpretation wird ueberprueft, ob sich der
+          Indikator im ueberkauften Bereich ueber 80% oder im
+          ueberverkauften Bereich unter 20% befindet. Verlaesst der
+          Indikator eine dieser beiden Zonen und kehrt wieder in der
+          mittleren Bereich zurueck, ist das als Handlungssignal zu
+          bewerten.
+
+
+          On-Balance-Volumen Indikator
+
+          Der On-Balance-Volumen Indikator setzt Umsaetze und
+          Kursveraenderungen in Relation. Das Volumen eines jeden Tages
+          wird mit einem Plus- oder Minus- Zeichen versehen, je nachdem ob
+          der Schlusskurs gegenueber dem Vortag hoeher oder niedriger lag.
+          Das Resultat wird zum gestrigen Wert des Indikators addiert und
+          das Ergebnis ist die OBV Linie.
+
+          Der OBV zeigt also an, ob Kapital in den Aktienmarkt fliesst
+          oder ihm entzogen wird. Durch Einblendung des gleitenden
+          Durchschnittes (beliebig einstellbar) laesst sich folgende
+          Interpretation konstruieren. Faellt der Indikator unter seine
+          Durchschnittslinie, spricht man von einem Verkaufssignal, in
+          seiner Umkehr von einem Kaufsignal.
+
+          Ein Idikator der es lohnt naeher betrachtet zu werden, da diese
+          Faktoren oftmals sehr vernachlaessigt werden.
+
+
+          Kurs-Volumen-Trend-Indikator (KVT)
+
+          Der Kurs-Volumen-Trend-Indikator (KVT) aehnelt in seiner
+          Konzeption dem OBV-Indikator. Der Unterschied ist, dass er die
+          Groesse der Kursbewegung zusaetzlich erfasst.
+
+          Der KVT wird durch Multiplikation des Tagesvolumens mit der
+          prozentualen Veraenderung des Wertpapiers zum Vortag berechnet.
+          Dieser Wert wird bei einem gestiegenen Kurs addiert, bei einem
+          gefallenen subtrahiert.
+
+          Optisch stellt er sich als Drei-Linien-Chart da, Kurzfristiger-
+          und Lanfristiger-gleitender Durchschnitt und die KVT Linie.
+          Notiert der KVT ueber seinen beiden gleitenden Durchschnitten,
+          ist dies als ein positives Signal zu werten. Sollte der KVT den
+          kurzfristigen gleitenden Durchschnitt nach unten durchbrechen,
+          ist ein erstes Warnzeichen gegeben. Eine Marktkorrektur ist dann
+          wahrscheinlich, wenn der KVT auch den langfristigen gleitenden
+          Durchschnitt nach unten durchbricht. Der Absulte Wert des KVT
+          ist fuer die Interpretation uninteressant.

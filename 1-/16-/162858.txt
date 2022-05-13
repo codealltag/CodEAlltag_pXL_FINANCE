@@ -1,0 +1,9 @@
+Wie wird der Kassakurs festgelegt.
+Ich stelle mir folgende Möglichkeiten vor.
+1. (Höchstkurs +Tiefstkurs)/2
+2. (KursKauf(1)+KursKauf(2)+.....+KursKauf(N))/N
+3.
+(KursKauf(1)*Stückzahl(1)+KursKauf(2)*Stückzahl(2)+.....+KursKauf(N)*Stückz
+hl(3))/Gesamtstückzahl
+
+Gruß Urs

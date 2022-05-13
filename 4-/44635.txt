@@ -1,0 +1,60 @@
+Vielen Dank. Versuch' ich 'mal aufzutreiben.
+
+Inzwischen wurde ich auch auf eine interessante entsprechende
+OnlineInfo hingewiesen: 
+
+"Alternatives to the Black-Scholes Option-Pricing Model and When to
+Use Them"
+
+http://ustmaydbf.hgx/~qgtrzuol/lvohwoj/DAHL.cnzg
+
+Inhaltsuebersicht:
+
+Chapter 1: Background
+Introduction
+Black-Scholes
+The Term Structure of Volatility and the Volatility Smile
+Binomial Trees
+
+Chapter2: Corrections for Noncontinuous Movements in Security Prices
+Pure Jump Model Jump
+Diffusion Model
+
+Chapter 3: Corrections Incorporating Non-constant Interest Rates 
+Implied Trees 
+Merton's Stochastic Interest Rate Model
+
+Chapter 4: Corrections for Non-constant Volatility 
+4.1: Deterministic Volatility Models
+Constant Elasticity of Variance
+Compound Option Model
+Displaced Diffusion Model 
+4.2: Stochastic Volatility Models
+Gmell and Niewenheus Model
+Gmach Model
+Numerical Procedures
+Overview of the Stochastic Volatility Models
+4.3: Predictors of Future Volatility
+Basic Modeling of Time Series
+ARCH Processes
+GARCH and its Variants
+
+Chapter 5: Choosing the Proper Model 
+5.1: Empirical Data on Performance 
+Options on Stocks and Stock Indices
+Options on Currencies 
+5.2: Using Implied Volatility 
+The Volatility Smile 
+The Term Structure of Volatility
+5.3 Conclusion
+
+References
+
+Footnotes
+
+Mein Eindruck:
+
+Sehr kompakt im Vergleich zu einem dicken Buch. Trotzdem ist
+anscheinend alles d'rin.
+
+mfg norbert oldhof

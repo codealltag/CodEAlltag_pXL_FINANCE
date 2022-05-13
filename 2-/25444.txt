@@ -1,0 +1,45 @@
+Etwas Spekulation ist auch auf Seiten der Bank dabei.
+Manchmal sogar, bewusst oder aus Versehen, sehr viel.
+
+Das technische Problem ist, dass u.a. die Stueckzahl 
+eines umlaufenden Derivates nicht konstant ist. Im Prospekt
+steht nur z.B. "bis zu 10 Millionen Stueck ...".
+In der Praxis aendert sich die Anzahl der wirklich 
+umlaufenen Stueck staendig. Deshalb muesste der Emittent
+auch seine Absicherung staendig aendern.
+
+Das macht er in der Praxis aber nicht. Waere zu aufwendig.
+Sie benutzen meisten dynamische Hedging-Software bei denen 
+etwas Spielraum eingestellt wird.
+Erst wenn sie z.B. mit mehr als 1000 Delta im Verlust oder 
+Gewinn sind wird angepasst.
+
+Buchauszug, wie das etwa ablaeuft:
+
+Das Delta wird bei großen Portfolios aus verschiedenen Optionen und
+zugrundeliegenden Aktien oft zur Darstellung des Gesamtrisikos benutzt. Dazu
+werden die Deltas aller Einzelpositionen aufaddiert, wobei bei
+Stillhalterpositionen ein Vorzeichenwechsel erfolgt und bei Aktien bzw.
+Index-Scheinen immer ein Delta von genau 1 angesetzt wird (bei 1/10-Scheinen
+natürlich nur 0,1 Delta). Ein Gesamtdelta von 300 bedeutet dann, dass das
+Gewinn-/Verlustpotenzial des Gesamtportfolios einem Portfolio von 300 Aktien des
+zugrundeliegenden Wertes entspricht. Durch Zukauf oder Verkauf von Aktien
+und/oder Optionen kann dieses Gesamtrisiko dann jederzeit genau gesteuert
+werden. Dies können Sie später in der Combi-Funktion dieses Programms
+nachvollziehen.
+Bei "delta-neutralen" Anlagetechniken wird ein Portfolio so ausgerichtet, dass
+es nicht mehr auf Änderungen des zugrundeliegenden Wertes reagiert. Werden also
+beispielsweise 100 Aktien (Gesamtdelta 100) gehalten und dazu Puts mit einem
+Gesamtdelta von -100 gekauft, so ergibt sich für dieses Portfolio ein Delta von
+0 ("delta-neutral"). Insbesondere in amerikanischer Literatur werden solche
+Techniken geradezu als Wundermittel beschrieben. Sie sind auch zweckmäßig, um
+ein Portfolio vorübergehend abzusichern. Ein Portfolio dauernd delta-neutral zu
+halten ist jedoch unsinnig, denn dadurch gäbe man ja auch alle Gewinnchancen
+auf.
+
+
+-- 
+-- 
+Noël Noack
+Visit   http://wtbzcsi.srg.nst/uljbmd  and download a 
+free calculator for options, futures, bonds and similar stuff

@@ -1,0 +1,53 @@
+Ullrich Vennegerts <NIOGTYN@TWQ.UI> schrieb in im Newsbeitrag:
+35WR6592.YR72DS32@CQS.HW...
+
+Ich lese hier ?20 - soll das 20 Euro heißen?
+
+
+Nein. Korrekt wäre eine Kauforder mit Limit 15.
+
+Ob ultimo oder andere Gültigkeit ist eine zweite Frage, zu der in Deinem
+Szenario nichts gesagt ist. In der Regel (das kommt auf Deine Bank an)
+bedeutet ultimo, dass Du Dich an Deinen Kaufauftrag bis zum Monatsende
+gebunden fühlst. Meist kannst Du auch eine andere Gültigkeit angeben, wenn
+Dir danach ist.
+
+
+Nein. In diesem Fall wäre eine Verkauforder mit Limit 45 das Richtige.
+Zu ultimo siehe oben.
+
+
+Stopbuy und Stoploss sind offensichtlich für die meisten am Anfang schwer
+verständlich. Ich versuch's mal zu erklären:
+
+Stopbuy: Du gehst davon aus, dass eine Aktie stark an Wert zulegen wird,
+wenn sie nur erst einmal eine bestimmte Marke (zum Beispiel 100 Euro)
+überschritten hat. Unter diesen Voraussetzungen gibst Du eine Stopbuy-Order
+zu 100 auf. Das bedeutet, dass Du _unlimitiert_ kaufst, sobald einmal zu
+einem Kurs von 100 Euro oder mehr an der Börse Deiner Wahl ein Handel
+zustande kam. In aller Regel kommst Du beim ersten darauffolgenden Handel
+zum Zug - ganz gleich, ob dieser dann zu einem Kurs unter, über unter bei
+genau 100 Euro abgewickelt wird.
+
+Stoploss (analog): Du gehst davon aus, dass eine Aktie stark an Wert
+verlieren wird, wenn sie nur erst einmal eine bestimmte Marke (zum Beispiel
+100 Euro) unterschritten hat. Unter diesen Voraussetzungen gibst Du eine
+Stoploss-Order zu 100 auf. Das bedeutet, dass Du _unlimitiert_ verkaufst,
+sobald einmal zu einem Kurs von 100 Euro oder weniger an der Börse Deiner
+Wahl ein Handel zustande kam. In aller Regel kommst Du beim ersten
+darauffolgenden Handel zum Zug - ganz gleich, ob dieser dann zu einem Kurs
+unter, über unter bei genau 100 Euro abgewickelt wird.
+
+Dies soll lediglich die Funktionsweise von Stoploss und Stopbuy
+verdeutlichen. Ob der Einsatz solcher Orders sinnvoll ist, hängt ganz von
+der Situation und der persönlichen Einschätzung ab. Ich nutze solche
+Orderm�glichkeiten nicht, setze mir allerdings für meine Aktien ein
+"mentales Stoploss".
+
+Gruß
+Pascal
+
+--
+information in grafik
+grafiKS
+Dga.Vlptwuxn@rjc.cq

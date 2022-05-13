@@ -1,0 +1,140 @@
+Hallo allerseits!
+
+Von Luti ist jetzt die neue Version 1.6 fertig.
+
+Zur Weihnachtszeit bekam ich das erste mal die Meldung, daß Luti   
+nicht mit der neuesten Version Windows NT 4.0 Servicepack 3  
+zusammenarbeitet und gleich beim Hochfahren aus dem Speicher fliegt.
+Diese  
+Meldung wurde kurz danach von weiteren NT-Usern bestätigt. :-(  Das  
+Problem ist jetzt behoben.
+
+Das hier regelmäßig gepostete UUE-Format hat sich geändert, die  
+Kommastellenangabe ist da jetzt mit drin (die sonst in DAXA-Chart  
+mitgeschleift wurde). Dadurch gibts weniger Ärger bei Umstellungen auf
+5- 
+DM-Aktien und Splits. Nachteil: Bei allen Usern mit alten
+Lafia-Versionen  
+wird jetzt der AAA-Index um den Faktor 10 zu groß eingelesen.
+Abhilfe:  
+Den Kurs von Hand korrigieren oder Updaten.
+
+Hier nochmal die wichtigsten Änderungen der 1.6 in Stichworten:
+
+ - NT 4.0 Servicepack 3: Absturzprobleme behoben!
+ - Kommastellenangabe in das UUE-Format eingebaut
+ - Langfristchart läuft bei hoher Volatilität und eingeschaltetem
+   Logarithmus nicht mehr im historischem Bereich aus dem Fenster
+ - Setup komplett überarbeitet
+ - Absturz-Fehler beim Speichern von "Nur-Nullkurs-Datensätzen" raus
+ - Ab Plus-Version: AKT-Datei wird gleich bei fehlender INI-Datei
+   automatisch geladen, falls vorhanden
+ - Kommplettes Plus/Profi-Upgrad mit "dr�berinstallieren" automatisiert
+   ohne nervende Abfragen
+ - Redrawfehler nach Kommaver�nderung in der Tageskurseingabe beseitigt
+ - Lafia-Version in die INI-Datei mit rein (als
+"DaxaIniInstall_Version$")
+ - Ab Plus-Version AKT Standard (statt AK1)
+ - Fehler bei Durchschnittberechnung vom Marktkapital korrigiert
+ - Geänderte Extension wird beim Speichern der Datensätze übernommen.
+ - Fundamentaldaten in den Fundamantaldatendateien jetzt mit korrektem
+   Datum im automatisch vergebenen Dateinamen
+ - Scrollen im Depot verbessert
+ - Hilfe-Button im Faktor-Dialog eingebaut
+
+Und ab hier jetzt mein Standard-Infotext:
+
+-------------------------------- Schnipp
+--------------------------------
+
+Programmname:    Luti "Privat" 1.6
+
+Programmtyp:     B�rsenprogramm zur Aktienanalyse
+
+Betriebssystem:  Win 3.1(1) / Win 95 + NT / Win-OS/2 / SoftWindows (Mac)
+
+Status, Preis:   Shareware, 69.-DM bei Registrierung
+
+Beschreibung:    Bedienungsfreundliches Aktienprogramm zur Chartanalyse,
+                 Fundamentalanalyse, Listenauswertung und Depotver-
+                 waltung mit diversen Funktionen zum automatichen
+                 Kursimport.
+
+Zielgruppe:      Optimal ist das Programm für eher langfristig orien-
+                 tierte Aktien-Anleger, die neben der Chartanalyse auch
+                 einen großen Wert auf die fundamentale Unternehmens-
+                 analyse legen.
+
+Funktionsumfang: - Import von aktuellen ASCII-Kursen aller Art
+                 - Direkter Import von gepackten Kursen aus einer E-Mail
+                 - Import von historischen Kurslisten
+                 - Charts Übereinanderlegen
+                 - Zeichnen im Chart
+                 - Frei definierbare Durchschnitte
+                 - doppelte Signallinien
+                 - Logarithmische Chartdarstellung
+                 - Infobox für beliebige Informationen im Chart
+                 - Oszillator unterm Chart (3 Modi, frei einstellbar)
+                 - Diverse fundamentale Kennzahlen gleichzeitig zum
+                   Chart
+                 - Markieren einzelner Datensätze und getrennte
+                   Auswertung markierter Datensätze
+                 - Getrenntes durchblättern der Charts einzelner
+                   Branchen
+                 - Sortierte Listenauswertung und schnelles durchbl�t-
+                   tern der Charts gemäß der Sortierreihenfolge nach:
+                    * Dividendenrendite
+                    * KGV  (Kurs-Gewinn-Verhältnis)
+                    * KCFV (Kurs-Cash-Flow-Verhältnis)
+                    * KBV  (Kurs-Buchwert-Verhältnis)
+                    * EKQ  (Eigenkapitalquote)
+                    * Marktkapital oder Marktkapital in Streubesitz
+                    * Gleitenden oder gewichteten Durchschnitten
+                    * Kursänderung (Gewinner-/Verliererliste)
+                 - Komfortable Depotverwaltung
+                 - Durchblättern der Wertpapiere eines Depots als Chart
+                   mit Markierung der Kaufs- und Verkaufspunkte
+
+Anlegertips:     Die Onlinehilfe enthält diverse Börseninformationen:
+                 - Telefon- und FAX-Nummern der 30 DAX-Werte
+                   (z.B. zur kostenlosen Gesch�ftsberichtsbestellung)
+                 - Telefonnummern von Discountbrokern
+                 - Videotextseiten mit Börseninformationen
+                 - Fernsehsendungen mit Börseninformationen
+                 - Welche Banken kostenlose Informationen anbieten
+                 - Erhältliche Börsenzeitschriften und Zeitungen
+                 - Diverse Buchtips
+                 - Einige selbstverfasste Texte mit Anlegertips
+                 - Ein umfangreiches Glossar, in dem viele Begriffe
+                   rund um die Börse erklärt werden
+
+Datenbank:       Eine Datenbank mit 100 Datensätzen und Kursen der
+                 letzten acht Jahre liegt dem B�rsenprogramm bei.
+                 Enthalten sind: Aktien, Indices, Währungen und Fonds.
+                 Für Aktien sind auch die Fundamentaldaten eingegeben.
+
+Kursupdate:      Jeden Freitagabend poste ich 100 aktuelle Wochenschluß-
+                 kurse für die Datenbank in einem speziellen, platzspa-
+                 renden UUE-Packformat, daß von Luti gelesen
+                 werden kann, in den folgende B�rsengruppen:
+                 - Internet: "az.koz.rszsaj.gwdidp"
+                 - Carusell:  "Boerse.Ger"
+                 - Brade:  "B�rseninfo"
+
+Urlaubsservice:  Auf unserer Homepage finden Sie immer ab Samstag eine
+                 aktualisierte Datei mit den Kursen der letzten 6 Wo-
+                 chen, mit deren Hilfe Luti dann die Datenbank
+                 mit den historischen Kursreihen aktualisieren kann.
+
+Kontakt:         Internet: STJB-Fwntu@g-fofelp.th
+                 Carusell:  Tpoa Sznec@2:943/9045.1
+                 Brade:  Geeey Sdsxbb @ BA
+                 Hotline:  353 28/ 48 00
+
+Archivname:      DAXCHART.EXE (492 KB)
+
+Download:        Internet: http://tba.b-lttqjq.id/bbdc/cill-tlmyr
+                 FidoNet:  Time BBS I,  Twisteden (Analog, V.34): 2:240/3012
+                 FidoNet:  Time BBS II, Twisteden (ISDN,   X.75): 2:240/3017
+                 Brade:  AEZA @ DL / 099 74- 343 205 (Analog und ISDN)
+                 => Die Blütenwerkstatt ist von 17-20 Uhr für Gäste gesperrt!

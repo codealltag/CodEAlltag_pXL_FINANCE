@@ -1,0 +1,21 @@
+Breiteres Speicherinterface ? Rambus ist z.B. nur 16 Bit breit, dagegen
+wird SDRam und DDRam mit 16 Bit betrieben.
+
+Hier mal die aktuellen max. Geschwindigkeiten
+
+PC100 = 0,8 GB/s
+PC133 = 1,064 GB/s
+
+DDR100= 1,6 GB/s
+DDR133= 2,128 GB/s
+
+RDRAM600 = 1,064 GB/s
+RDRAM700 = 1,424 GB/s
+RDRAM800 = 1,6 GB/s
+
+Wenn man diese Zahlen liest, und auch weiß daß DDRAM und SDRAM erheblich preiswerter
+als RDRAM ist, dann ist es nicht verwunderlich daß erfahrene Techniker in DDRAM die
+bessere
+technische Zukunft sehen.
+
+Olivier

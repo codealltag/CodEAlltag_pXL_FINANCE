@@ -1,0 +1,43 @@
+Average True Range beim Trading
+Author W.Päs
+
+Die True Range ergibt sich immer aus der größten Differenz unter drei
+Möglichkeiten, eine Kursspanne zu berechnen: als Spanne zwischen
+heutigem Hoch und heutigem Tief (D1), als Spanne zwischen
+Vor=ACtagesschluss und heutigem Hoch (D2), als Spanne zwischen
+Vortagesschluss und heutigem Tief (D3). Damit werden Kurslücken in die
+Berechung der Ran-ge einbezogen, die sich aus
+Meinungsbildungsprozessen nach Börsenschluss ergeben haben
+ATR steht für Average True Range, auf Deutsch: die durchschnittliche
+wahre Spanne. Als Spanne oder Range wird die Kursschwankung innerhalb
+eines be=ACstimmten Zeitraums bezeichnet, also etwa die des DAX an einem
+Tag. Die Spanne ist die Differenz zwischen Hoch und Tief. Eröffnungs-
+und Schlusskurs spielen da=ACbei keine Rolle. Nun haben wir die Range,
+aber noch nicht die True Range.
+Meinungsbildung erfolgt rund um die Uhr. Die True Range ergibt sich
+nun aus der Überlegung, dass die Meinungsbil=ACdung an den Märkten nich=
+t
+ausschließ=AClich während der offiziellen Handelszeiten stattfindet. Im
+Gegenteil: Gerade in den Zeiten, in denen die Börsen geschlos=ACsen
+haben, findet ein Meinungsbildungs=ACprozess statt, der seinen Ausdruck
+dann
+im Eröffnungskurs findet und oftmals zu sogenannten Kurslücken führt.
+Wenn der DAX am Vortag bei 4.800 Punkten schloss und heute bei 4.840
+Punkten eröffnet, dann hat die Trading-Gemein=ACde offensichtlich über
+Nacht eine positi=ACve Einstellung gewonnen und ist kollek=ACtiv bereit,
+für den Index mehr zu zahlen als am Vortagesschluss. Daher wird die
+True Range aus der größten Kursdifferenz unter folgenden drei
+Möglichkeiten er=ACrechnet: der Distanz vom heutigen Hoch zum heutigen
+Tief, der Distanz vom gest=ACrigen Schluss zum heutigen Hoch, der
+Distanz vom gestrigen Schluss zum heu=ACtigen Tief.
+Konkretes Beispiel einer ATR. Das Chart zeigt diese drei Möglichkeiten
+nochmals grafisch aufbereitet. Bei D1 reicht die Tagesspanne in die
+Spanne des Vortages hinein. Die Tagesspanne weist damit die größte
+Kursdifferenz un=ACter den drei genannten Möglichkeiten auf. Bei den
+beiden anderen Beispie=AClen für Kursverläufe sind Kurslücken
+ent=ACstanden, die für die Berechnung der True Range ausschlaggebend
+sind. Damit ist die True Range nun definiert. Die Ave=ACrage True Range
+wird gebildet, indem man einen Durchschnitt dieser Wer=ACte über einen
+bestimmten Zeitraum er=ACrechnet. Gängig hierfür sind beispiels=ACweise=
+ 14
+Tage.

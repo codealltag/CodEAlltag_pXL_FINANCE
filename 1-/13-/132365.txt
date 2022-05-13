@@ -1,0 +1,37 @@
+Der "Delta" Wert bezeichnet die theoretisch zu erwartende Änderung 
+des Optionskurses bei einer Änderung des DAX-Standes (Leitkurses) 
+um 1 . Im Beispiel müßte hier ein Wert von ungefähr 0,80 angezeigt 
+werden. Würde der DAX-Stand um 1 ansteigen oder fallen, so würde 
+der Optionskurs um ungefähr 0,80 steigen oder fallen.
+Formel: Theoretischen OS-Kurs fuer z.B. DAX 5000 und DAX 5001
+berechnen und den Abstand zwischen beiden nehmen. Um eine
+Optionsformel kommst du also nicht herum.
+
+
+Hebel (Gearing, Leverage):
+Das ist der Leitkurs (Underlying wie z.B. DAX) : Optionskurs, 
+zum Beispiel also 1700 : 140 =
+12,1 . Mit dieser Kennzahl verbindet sich die Vorstellung, bei einer
+Veränderung des Leitkurses um 1% würde sich der Optionskurs um etwa
+12,1% ändern. Diese Vorstellung ist allerdings recht vereinfachend
+und deshalb in vielen Fällen irreführend.
+Das bereits erklärte Konzept des Delta-Wertes ist genauer als der
+Hebel, denn der Delta-Wert ist kein pauschaler Prozentwert, sondern
+er ist ein absoluter Wert. Vor allem aber ist der Delta-Wert nicht
+konstant, sondern er verändert sich mit der Kurshöhe, und das gibt
+die Realität besser wieder als ein konstanter Hebel.
+
+Manchmal wird dieser Hebel auch als "klassicher Hebel" (Gearing)
+bezeichnet und daneben durch Multiklikation mit dem Delta auch 
+ein "theoretischer Hebel" (Leverage) berechnet.
+
+
+Der Beta-Faktor zeigt, wie ein Wert mit dem Gesamtmakt geht,
+oder besser in der Vergangenheit ging. 
+Bei 1 steigt/faellt er wie der Index, bei 0.5 halb so stark, bei
+2 doppelt so stark, bei -1 umgekehrt, usw.. 
+
+
+Werner
+Visit   http://cqujrql.jxc.gsm/bigwmh  and download a 
+free calculator for options, futures, bonds and similar stuff.

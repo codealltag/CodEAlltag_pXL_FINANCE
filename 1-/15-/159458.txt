@@ -1,0 +1,101 @@
+Noe. Ich glaube Markov-Ketten haben Martingal-Eigenschaft (aber da bin
+ich zuwenig stochastisch bewandert bzw. kann mich nicht erinnern).
+
+
+Hm, gute Idee <g>.
+
+
+Ja, aber ich betrachte das zunaechst einmal als eine Art persoenlichen
+Angriff auf mein Verstaendnis: Da kann doch dieses bloede BLANKENFORTH perfekt
+(und risikokorrigiert) den Index schlagen - und ich weiss nicht warum!
+Das geht einfach nicht <g>. Nein, wenn es eine Moeglichkeit gaebe, aus
+dem NN Informationen zu induzieren, die (meinetwegen auch nur grob)
+Anhaltspunkte zum Verstaendnis der Zusammenhaenge liefern - super!
+Aber nach meinem Kenntnisstand ist ein NN mehr oder weniger ein
+train-and-forget ("forget"=keine Gedanken mehr) System: Man bekommt
+selbst maximal feedback ueber den Output, aber die darunterliegenden
+Schichten lassen sich einfach nicht erschliessen.
+
+Mich aergern Blankschein gerade deswegen - und weil sie anscheinend auf
+*einigen* Gebieten ganz nette Erfolge haben (z.B. bei der
+Bilanzanalyse zur Kreditwuerdigkeitpruefung bzw. zur
+Konkursvorhersage). Ich persoenlich bin beleidigt ;-) , wenn eine
+Software mehr "weiss" als ich - und sie dieses "Wissen" auch nicht
+preisgibt.
+
+
+Kann man das naeher spezifizieren? Ich habe mal ein banales
+backpropagation Netz seziert, aber ich wuesste nicht, wo sich das
+Verteilungsannahmen widerspiegeln?
+
+
+Aber das ist ja genau der Punkt: Wie ?! Wenn ich darauf eine
+schluessige Antwort erhalte, werde ich zum Wanderprediger fuer Blankschein,
+nur habe ich bisher noch nie von einem BLANKENFORTH gehoert, das "Fragen" nach
+dem "warum" schluessig und "verstaendlich" beantwortet.
+
+
+Ok. Sehe ich ein <g> - der Punkt war aber nicht das '+' sondern der
+Automatismus.
+
+
+Ok. Gutes Argument.
+
+
+Wie? Da zumindest eine Andeutung zu bekommen, waere HOCHinteressant.
+
+
+Stimmt. Ich wuerde auch gerne ein NN einsetzen, aber halt unter der
+Praemisse, dass ich einen Erkenntnisvorteil sehe.
+
+
+Ich rutsche jetzt provokativ etwas in die Philosophie: Ist aber gerade
+die Reduktion auf eine geringe Paramterzahl nicht auch ein Vorteil?
+Und gerade hier ist der Mensch doch eindeutig vorbelastet.
+
+Bei nichtlinearen Problemen (die nicht einmal chaotischer Natur sein
+brauchen) sind wir leider komplett hoffnungslos. Seufz.
+
+
+Die Regeln bleiben gleich (ziemlich harte Praemisse), die
+Informationsmenge waechst, damit wird der Kurs neu bewertet.
+
+
+Jup. Aber die auf dem Parkett? 
+Egal, es ist ein (recht erfolgreiches) theoretisches Konstrukt.
+
+
+Damit sagst Du, dass Finanzmaerkte nicht sonderlich
+informationseffizient sind. Ich kann nicht beurteilen, ob Blankschein in der
+Lage sind, diese dann vorhandenen Preisdifferenzen auszunutzen.
+Leider.
+
+
+Immerhin hat man dann aber mal was... Und kostenlos. Ich will ja
+zunaechst einmal nur ein "Spielzeug" haben, denn mir selbst wird es
+mit Sicherheit an qualitativ hochwertigen Daten fehlen.
+
+
+Aus der "Erkenntnis"perspektive... Ich argumentiere hier immer nur aus
+der "wissenschaftlichen" Warte - in der Praxis wuerde ich in dem
+Moment, in dem ich positiv Ergebnisse mit NNs haette, (fast) alle
+Bedenken ueber Bord werfen.
+
+
+Danke!
+
+Mein Standpunkt derzeit ist:
+- NNs sind aus der Sicht der Erkenntnisgewinnung - Stichwort:
+   verstaendliche und nachvollziehbare Zusammenhaenge - nicht
+   sehr ergebnisfoerderlich, aber
+- in der Praxis klappt's (vielleicht) - nur warum? Aber in der Praxis
+   wuerde ich mich auch um das "warum" nur kuemmern um herauszufinden,
+   ob das BLANKENFORTH dauerhaft leistungsfaehig bleibt.
+   Stichwort: Wettrennen der Technologie... Alle ruesten mit NNs auf,
+      also auch wir, also...
+
+Dietmar
+--
+Wfhltm.Kusrfzenglu@HMH-Haqytq.QS
+http://wdewtp.ny.hyc-fjisww.xd/~h7mxzh03/
+University of Fahrenbach, Kälberau, Germany

@@ -1,0 +1,16 @@
+auf Quicken 6 ? Wo bekommt man das jetzt noch ?
+
+
+Hallo Albrecht,
+
+ich glaube gar nicht mal, daß es an Quicken liegt. Ich tippe eher auf
+die CAPI. Schließlich wird die CAPI 1.1 auch vom T-Online Decoder
+unter NT nicht erkannt. Unter Win95 (wo auch Quicken funktioniert) ist
+das anders.
+
+Kannst Du vielleicht mal ausprobieren, ob bei Dir die CAPI 1.1 vom
+Wetterer Decoder erkannt wird (Einstellungen -> Grundeinstellungen ->
+Manuelle Kofiguration -> ISND-Betrieb -> ISDN-CAPI Testen...
+
+Danke,
+  Laurent

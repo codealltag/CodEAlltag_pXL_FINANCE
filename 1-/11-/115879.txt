@@ -1,0 +1,38 @@
+Ich hab im Moment auch keinen Quelltext dazu vorliegen. Kann 
+mich aber erinnern, dass die viele dieser "amerikanischen Formeln"
+nur Zusaetze zu BS waren. Also einfach Zuschlagfaktoren, um die
+amerikanische Optionen teurer als europaeische sein muessten.
+In der Marktpraxis sind die Unterschiede aus guten Gruenden
+aber oft wesentlich geringer als theoretisch notwendig, so dass 
+sich das entweder ganz eruebrigt oder jeder seinen ganz
+speziellen Zuschlagfaktor berechnen kann, den er fuer richtig haelt
+(und die sind dann Firmengeheimnis).
+
+In der professionellen Literatur sind Theorien über den fairen Mehrpreis von
+amerikanischen Optionen gegenüber europäischen Optionen sehr beliebt.
+Entsprechend viele Programme gibt es, die diese Optionen mit verschiedenen
+Formeln berechnet. Die Praxis zeigt aber, daß der tatsächliche Preisunterschied
+in den meisten Fällen sehr gering ist. 
+Mit Recht, denn zum einen kann der Inhaber einer europäischen Option seinen
+Gewinn bei liquiden Optionsbörsen jederzeit durch einen Verkauf der Option
+realisieren, zum anderen wird auch der Inhaber einer amerikanischen Option
+diese nur in Sonderfällen ausüben; auch er wird seinen Gewinn lieber durch
+einen Verkauf der Option realisieren. Der Grund: Bei einem Verkauf der Option
+erhält er den vollen Optionspreis (einschließlich des Aufpreises), während er
+bei Ausübung nur den meist geringeren inneren Wert realisieren kann. Und bei
+einer Ausübung fallen zudem in der Regel zusätzliche Spesen an.
+Ausnahmsweise kann sich das vorzeitige Ausüben einer amerikanischen Option
+allerdings dann lohnen, wenn während der Laufzeit der Option eine
+Dividendenauszahlung und damit eine entsprechende Herabsetzung des
+Underlying-Kurses zu erwarten ist. 
+Allerdings darf es bei amerikanischen Optionen keinen Optionskurs unter dem
+inneren Wert geben. Würde bei einem DAX vom 1000 nämlich ein Put 1500 zu 450
+gehandelt, so wären sofort Arbitrageure zur Stelle, die diesen Put kaufen und
+ausüben würden und so einen problemlosen Gewinn von 50 realisieren könnten.
+Alle derartigen Puts würden sofort ausgeübt, oder ihr Kurs würde auf ungefähr
+500 steigen. 
+
+
+Hartwig
+Visit   http://texhupc.eud.xrl/mjrupx  and download a 
+free calculator for options, futures, bonds and similar stuff.

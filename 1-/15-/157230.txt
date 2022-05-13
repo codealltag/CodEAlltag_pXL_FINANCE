@@ -1,0 +1,47 @@
+<< Angesichts der überfälligen Dax/Dow-Konsolidierung und einer
+vielleicht schwächeren Börse in den Sommermonaten halte ich
+kurzfristig einen Put auf den Dax für eine gute Idee.
+
+Ich habe aber noch keine Erfahrung mit Index-Optionsscheinen. Gibt es
+da etwas besonderes zu beachten? Was bedeutet Geld/Brief bei den
+Kursangaben im VT, z.B. VT bei Etarur.>>
+
+Hallo Sandrine,
+
+der Basispreis der DAX-Put-Optionsscheine sollte "im Geld" liegen, d.h.
+der OS sollte einen "inneren Wert" haben. Dies ist immer dann der Fall,
+wenn der Basispreis größer ist, als der DAX (DAX = 3750, Basispreis = 3800
+oder 3850).
+
+Wichtig ist auch die Restlaufzeit der OS. Je kürzer die Restlaufzeit,
+desto höher ist auch der Gewinn / Verlust.
+
+1. OS (Basis 3800, Laufzeit April 1998, Kursveränderung beim DAX -30
+Punkte):
+Kursveränderung des OS von 1,25 DM auf 1,33 DM = 6,4 % Gewinn
+
+2. OS (Basis 3800, Laufzeit August 1998, Kursveränderung beim DAX -30
+Punkte):
+Kursveränderung des OS von 1,94 DM auf 2,01 DM = 3,6 % Gewinn
+
+3. OS (Basis 3800, Laufzeit März 1999, Kursveränderung beim DAX -30
+Punkte):
+Kursveränderung des OS von 2,69 DM auf 2,78 DM = 3,3 % Gewinn
+
+Bei der Laufzeit sollte man auch auf das Aufgeld achten (Differenz
+zwischen OS-Kurs und inneren Wert) da dieses bis zum Ende der Laufzeit
+abgebaut wird.
+
+Weiterhin sollte man beachten, daß die OS auch in ausreichender Menge
+gehandelt werden (Umsatz größer 100.000 Stck. pro Tag) und das die
+Differenz zwischen Geld- und Briefkurs möglichst gering ist. Zum Briefkurs
+kannst Du die OS kaufen und zum Geldkurs verkaufen. Die OS der Kieskemper
+erfüllen in der Regel diese Voraussetzungen. Außerbörsliche Kurse gibts
+auf Videotext Seite 145 ff. (SAT1).
+
+Hier zwei OS der Kieskemper:
+WPK 818493, Basispreis 3800, Laufzeit August 1998
+WPK 818501, Basispreis 3800, Laufzeit März 1999
+
+Gruß, Dario
+(Mahtp2@aon.hae)

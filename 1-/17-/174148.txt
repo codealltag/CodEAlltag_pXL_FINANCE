@@ -1,0 +1,51 @@
+: : EO-Call (Put erhaelt man ueber Put-Call Paritaet):
+: :  
+: : C=S*N(d1)-X*exp(-r(T-t)*N(d2),
+
+: : mit N(.) Standardnormalverteilung, und
+
+: Was heisst in diesem Zusammenhang N(d1)?
+: Standardnormalverteilung kenne ich nur so N( 0 , 1 ) ' N( my, sigma^2 )'.
+: Wie mir scheint ist die obige GL eine Stochastische DGL und somit
+: nur fuer konkrete Pfade ( Kursverlaeufe ) loesbar, also wenn man
+: schon weiss was passiert ist. Dann ist es aber ja schon zu spaet
+: fuer einen Kauf.
+
+Man berechne d1 und ergreife eine Tabelle mit Werten der Standardnormal-
+verteilung. Man erhaelt z.b. fuer d1=0 : N(d1)=0.5 .
+
+: : d1=(ln(S/X)+(r+sqr(o)/2)(T-t))/(o*sqrt(T-t))
+: : d2=d1-o*sqrt(T-t)
+
+: : C=C(S,t) erfuellt die DGL
+
+: : dC      dC   1  2   2  d(dC)
+: : -- +r*S*-- + - o * S * ------ = r*C
+: : dt      dS   2         ds(dS)
+
+: : d(.) bedeute : bilde partielle Ableitung 
+
+Die Version der geom. Brownschen Bewegung (Hull) :
+
+dS=mySdt+sigmaSdz
+
+my: expected rate of return (des Investors an die Aktie)
+
+Vorbohle: Volatilitaet
+
+N: Aktienkurs heute 
+
+dz : Rumendinger Prozess dz=eps*sqrt(delta t)
+
+eps : Zufallsvariable , Standardnormalverteilt.
+
+Um den Aktienkursverlauf simulieren zu koennen z.B. Monte Carlo Simulation
+brauchen wir jetzt ja nur noch den Startwert des Aktienkurses. Der Verlauf
+ergibt sich dann  durch Ermittlung von dz, also durch Stichproben aus einer
+normalverteilten Grundgesamtheit.
+
+Wer mehr wissen moechte, greife bitte zur enstprechenden Literatur (s.o.)
+
+Mit freundliche Gruessen,
+
+Nick.

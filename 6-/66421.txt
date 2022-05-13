@@ -1,0 +1,21 @@
+Nun ich bin natuerlich viel zu unerfahren. Aber man kann sich doch mal in
+die Lage eines Stillhalters versetzen - etwa in die einer Bank, die
+Optionsscheine auf eine Aktie des Neuen Marktes verkaufen will. Diese darf nicht
+spekulieren, sondern muss das Risiko bewerten und entsprechend ein Aufgeld
+(=impl. Volatilitaet) nehmen. Bei einer neuen Aktie wird man natuerlich das
+Risiko sehr grosszuegig "rechnen" und eine hohe impl. Volatilitaet verkaufen.
+
+Historische Volatilitaeten ueber einen kurzen Zeitraum helfen bei der
+Risikoabschaetzung wenig. Besser faehrt man dann sicherlich mit einem
+Worst-Case-Scenario. Nehmen wir mal Dein Lieblingsbeispiel Venator und Du willst
+Stillhalter in Puts werden. Kurs ist zur Zeit ca. 7$ bei 5$ gibt's grosse
+Unterstuetzung und bei 3$ liegt der Buchwert. Viel mehr als Halbierung des
+Kurses schein nicht moeglich. Daher wurde ich fuer Strikes bei 7$ als
+3-Monatsvola ca. 200%, 6-Monatsvola 141%, 1 Jahr 100%, 2 Jahre 71% usw. nehmen.
+Ist natuerlich viel zu hoch gerechnet. Aber es gibt doch auch ausgearbeitete
+Theorien zur Optionsscheinpreisung mit Worst Case Scenario. Ein Buch von Franz
+Christophers ist mir da irgentwie in Erinnerung.
+
+Gabriel
+--
+http://kqgkqzvg.ef

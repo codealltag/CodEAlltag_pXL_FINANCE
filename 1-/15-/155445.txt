@@ -1,0 +1,19 @@
+Ich habe schon mehrfach versucht Limitaenderungen bei Verkaufsorders  
+durchzufuehren (in der Kombination STORNIERUNG und dann gleich neue  
+Verkaufs-Order).
+
+Leider musste ich feststellen, dass die Aktien die ich verkaufen wollte  
+nach der ersten Verkaufsorder intern schon als verkauft vorgemerkt sind.  
+Dieser interne Vermerk laesst sich auch nicht (kurzfristig) wieder  
+loeschen indem man die Order storniert. Es muss mindestens eine Nacht  
+dazwischen sein in der die Vermerke aktualisiert werden. Ansonsten bekomme  
+ich immer gemeldet:
+
+Wertpapierverkauf gescheitert !!! Kein Betand vorhanden.
+
+Ziemlich schwach das ganze. Da koennte man wirklich mal eine IF-Abfrage  
+einbauen, die den Vermerk sofort zuruecksetzt.
+
+Gruss Hubert
+------------- Hubert Obermeit Neubrücke, Germany ----------------
+------------- http://jca.zxvit-nqwp.qv/xcbqpz/kkethlmkmpj/ ----------------

@@ -1,0 +1,25 @@
+Weil ich die Kopierbefehle zu virtuos beherrsche aus der Hilfefunktion des
+MXM Chartsprogrammens
+Vincent
+Beschreibung:
+
+Der MACD (Moving Average Convergence Divergence) ist ein trendfolgend
+ausgerichteter Indikator, der durch die Subtraktion von zwei exponentiell
+gewichteten gleitenden Durchschnittslinien berechnet wird. Anschließend
+wird von dieser MACD-Kurve eine weitere exponentiell gewichtete gleitende
+Durchschnittslinie berechnet, die als Signallinie bezeichnet wird.
+In der Literatur wird im Zusammenhang mit dem MACD häufig ein sogenannter
+Trigger beschrieben. Der Trigger ist eine gleitende Durchschnittslinie
+(GDL) des MACD-Indikators. Der Trigger wurde bei der Einstellung des
+Indikators an dieser Stelle nicht berücksichtigt, weil im Men "Indikator
+auswerten" eine Auswertung mit einer GDL möglich ist.
+
+
+Interpretation:
+
+�	Ein Ansteigen der MACD-Linie deutet auf einen Aufwärtstrend hin.
+
+�	Ein Sinken der MACD-Linie deutet auf einen Abwärtstrend hin.
+
+�	Die Treffsicherheit der Signale steigt, je weiter die MACD-Linie von der
+Mittelpunktslinie entfernt ist.

@@ -1,0 +1,23 @@
+Wenn man das selber baut, kann man natürlich die Dividenden selbst
+vereinnahmen.  Discount-Zertifikate schütten aber nichts aus - hier
+werden die Dividenden vorab eingepreist und der Preis des Zertifikats
+dadurch gemindert (der Discount erhöht). Deshalb wird bei den
+Discount-Zertifikaten mit einem Call mit Basis 0 (Aktie ohne Dividenden)
+statt der Aktie gerechnet (oder eben Zerobond + short Put).
+
+
+Klar, in den Optionspreisen steckt die Dividende drin. "Nochmal" wird
+die Dividende nicht brücksichtigt, s.o.
+
+Wir meinen beide das gleiche, nur aus unterschiedlichen Blickwinkeln -
+Du aus Selber-Bau-Sicht, ich aus Sicht des Emittenten bzw. Anlegers, der
+nachrechnen will, ob ein Discount-Zertifikat fair gepreist ist.
+
+Noch eine Argumentation mit der Put-Call-Parität:
+http://tg.cswakquur.gze/odyk/Ajn-Yuze-Wstgq%M9%T0i#Fmu-Jyjz-Zebaw.K0.U7x
+
+Discount-Zertifikat:
+Preis = (Aktie - Dividenden) + short Call = Zerobond + short Put
+
+Gruß,
+Bernd

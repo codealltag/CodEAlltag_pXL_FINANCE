@@ -1,0 +1,24 @@
+Prinzipiell:
+   - Je länger die Laufzeit desto geinger Omega.
+   - Je tiefer im Geld desto geringer das Agio und das Omega.
+
+Bei einer längeren Laufzeit können sich die Kurse weiter bewegen als bei einer kurzen -logisch.
+Aus diesem Grunde ist das Agio höher. Da die Aussicht bei langfristigen sich eben mehr langfristig
+orinentiert reagieren diese auf kurzfristige Schwankungen eben schwächer als kurzfristige, für die sich
+in der nächsten Zeit alles entscheidet.
+
+Ein Beispiel (Strike 80)
+
+Kurs der Aktie\Restlaufzeit (Tage)           60          700
+100                                                         21        34,29   (Kurs des OS)
+
+geht die Aktie nun in zwei Monoaten um 5% hoch:
+105 (-60 Tage)                                        25        37,33
+                                                             +19%    +9%
+
+Geht sie um 5% runter
+95 (-60 Tage)                                          15        29,45
+                                                            -29%       -14%
+
+
+CG

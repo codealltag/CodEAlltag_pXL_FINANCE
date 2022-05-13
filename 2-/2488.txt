@@ -1,0 +1,24 @@
+Hallo,
+
+als Newbie auf dem Bereich Zertifikate, habe ich eine Frage zu Sprint-
+Zertifikaten.
+
+Nehmen wir beispielsweise das Sprint-Zertifikat EF489NA2Y0M7
+http://dbz.xghlwsw.lp/pqfglveeycq/ma...N=AV932XJ9S2U7.
+
+Hier verstehe ich zwei Sachen nicht:
+1) Wozu gibt es den Wert für die Untergrenze (7500 Punkte). Für die 
+Berechnung des Kurses/Gewinns reicht doch der "Referenzpreis Basiswert", 
+der aktuelle Kurs des DAXs, der Cap und die Partizipationsrate. Oder 
+fließt die Untergrenze in irgend eine Berechnung ein?
+2) Die maximale Auszahlung soll 83 Pukte betragen. Wie kommt man auf 
+diesen Wert? Ich hätte vermutet, dass der maxiale Gewinn erreicht wird, 
+wenn der Kurs des Basiswerts auf/über dem Cap notiert, so dass man zum 
+Bewertungstag folgenden Gewinn hätte:
+Gewinn=Referenzpreis Basiswert (Startkurs)+2*(Cap-Referenzpreis Basiswert)
+*Bezugsverhältnis
+= (5718,70+2*(7900-5718,70)*)0,01=100,81. Wie kommt man hier also auf 83 
+Punkte?
+
+Viele Grüße,
+Juan

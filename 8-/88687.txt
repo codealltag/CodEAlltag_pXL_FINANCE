@@ -1,0 +1,25 @@
+ist 'ne kennzahl, die die veränderung des einen wertes im verhältnis zur 
+veränderung des gesamten marktes angibt. z.b. wird die Änderung des kurses der 
+aktie x zur veränderung des dax betrachtet und dann eine "abhängigkeit" ermittelt.
+beta unter null bedeuted, daß die aktie (o. "das papier") sich gegenläufig zum 
+markt entwickelt.
+beta zw. 0 und 1 heißt, daß das papier sich zwar marktkonform entwickelt, aber im 
+durchschnitt geringer als der markt.
+beta über 1 heißt, das papier hat eine höhere kurs�nderung als der gesamtmarkt.
+
+
+ist eine kennzahl, die die preisschwankung eines wertes (innerhalb eines 
+bestimmten zeitraumes) angibt. ein papier mit einer hohen volatilit�t ("vola") 
+hat also ein hohes ausmaß (nominell und/oder von der häufigkeit) an 
+kursschwankungen. die vola ist für die ermittlung der optionspr�mie interessant 
+(höhere vola bedeuted mehr chancen - mehr risiken - höhere prämie).
+
+
+? muß jemand anders sagen, hab ich so noch nie gesehen. könnte mir vorstellen, 
+daß es was mit pari oder parität zu tun haben könnte (in welchem zusammenhang 
+hast du das gelesen?).
+
+gru aus jalm
+der ivan  
+
+NewsGroups Suchen, lesen, schreiben mit http://xsdivpq.iho.ny

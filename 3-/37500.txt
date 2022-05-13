@@ -1,0 +1,87 @@
+Eigentlich wollte ich mit meiner ausführlichen Darstellung über die
+versteckten Kosten von kombinierten Finanzprodukten jedem Kleinanleger
+(LIEBER ERIC ... -> Kleinanleger soll in keinster Weise abwertend
+klingen, soll nur eine Abgrenzung von institutionellen Anlegern sein, die im
+Regelfall NICHT fertig konstruierte Produkte kaufen, da diese oftmals zu
+teuer gepreist sind, falls doch mal ein fertig konstruiertes Finanzprodukt
+billiger ist als eine Kombination aus den Einzelprodukten wird man
+risikolose Abitragegesch�fte machen mit der Folge, dass die Preise sich
+wieder "Normalwerten" anpassen).
+
+
+NOCHMAL: AUSWIRKUNG KAUF DISCOUNTZERTIFIKATE am Beispiel Kauf eines Discount
+Zertifikates mit CAP 9000 und Bezugsverhältnis 1:1
+
+(wichtig ist die individuelle Betrachtung des Verkaufprospektes, die jeder
+Emittent dem Anleger kostenlos zur Verfügung stellen muss. Dort findet man
+alle wichtigen Merkmale, die sehr ausführlich beschrieben werden, z.B. das
+der Spread (=Spanne zwischen Ankaufs- und Verkaufskurs) bei einigen
+Emittenten abhängig von der Tageszeit ist, wie beispielsweise vom B2B
+Internet Select Zertifikat (=Basketzertifikat) der Fonstore nach 15.45 3% sonst
+5%)
+
+    -> Betrachtung bei Fälligkeit: DAX <= 9000 -> Rückzahlungsbetrag =
+Daxstand
+                                               DAX >   9000 ->
+Rückzahlungsbetrag 9000
+
+        => theoretische Verlust ist max. eigensetztes Kapital, wobei ein
+Daxstand von 0 völlig unrealistisch ist, wohingegen es bei Zertifikaten auf
+Einzelwerten, gerade High-Tech-Unternehmen schon wieder anders aussieht
+
+        => max. Gewinn begrenzt auf den Cap von 9000 (auch wenn Dax auf
+10.000 oder 11.000 steigen sollte -> ist nur exemplarisches Beispiel)
+
+...
+
+-> dein Gewinn ist somit begrenzt auf den max. Betrag von 30%, der nur ein
+einem bestimmten Fall eintritt
+    bei einer Aktie ist der Kursgewinn umbegrenzt
+
+=> das heißt mit DiscountZertifikaten führt ein Anleger gut bei einem
+Seitwärtstrend des entsprechenden Basiswertes (nur komisch, dass die meisten
+Emittenten DiscountZertifikate auf High-Tech-Unternehmen begeben, die i.d.R.
+sehr volatil sind)
+
+
+siehe vgl. oben mit DaxDiscountZertifikat
+steuerlich: - sowohl Kursgewinne bei Aktie als auch bei Discountzertifikat
+ESt-pflichtig (Spekusteuer Gewinne größer 1000 DM
+                  innerhalb von 12 Monaten)
+                - meines Erachtens gibt es bezüglich der steuerlichen
+Behandlung des Discounts noch kl�rungsbedarf vor den entsprechenden
+Finanzgerichten demnächst wird wohl eine Anweisung erwartet (sorry, mehr
+Infos hab ich dazu nicht bin kein Experte für dt. Steuerrecht)
+
+
+zu Kleinanlegern siehe oben
+
+
+schön, wenn du das persönlich so siehst, nur solch "formale" Bestimmungen,
+wie sie vom BörsenG (z.B. Termingeschäftsfähigkeit) oder WpHG (z.B. Pflicht
+des Beraters den Kunden über Risiken aufzuklären) verlangt werden, dienen
+einzig dem SCHUTZ DER KAPITALANLEGER vor unerwarteten Risiken
+Teilweise gibt es solche Bestimmungen noch nicht so lange (früher hatte man
+kaum eine Chance auf Schadensersatz bei falscher Anlageberatung -> falsch
+soll heissen man wurde nicht entsprechend über die möglichen Risiken
+aufgeklärt)
+
+
+   richtig! nur Gewinn ist halt nicht beschränkt
+=> daher ist Discountzertifikat ganz gut für Seitwärtstrend
+
+
+will ich nicht auschließen (hängt von den einzelen Zertifikatsbedingungen
+ab -> sind leider nicht einheitlich, sonst wäre der Vergleich viel
+einfacher)
+
+Für nähere Informationen:
+ - "Indexzertifikate" vom Wengler Verlag ca 60 DM (sehr
+detailierte Infos zu Zertifikaten, sehr empfehlenswert)
+- "Optionen und Futures verstehen" 4. Auflage TIU-Verlag 19,90 DM (einst der
+ausführlichsten dt. Bücher zu dem Thema, inkl. Optionsstrategien, Bewertung,
+Abitragesch�fte, Hedging,...  super Buch)
+- sehr guter Artikel in "VKDZ 08/99" zu Berechnung von Kennzahlen
+Discountzertifikate und Reverse Convertible Bonds
+- kompetenten und vor allem objektiven Wertpapierberater bei Deiner Bank
+befragen (viel spass beim suchen)

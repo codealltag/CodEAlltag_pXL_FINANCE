@@ -1,0 +1,25 @@
+In Nachricht <4UWGCj5HyKM@vmrz.aah.nudkoffn.xi> schrieb 
+Z.Tmshwuntxs@KWM.HlngqDfk.ln (Urvqd Waninger):
+
+Hallo, 
+
+kommbinier doch einfach mal den Ansatz von Stochastik mit RSI! Dies
+duerfte vielversprechender sein: 
+
+Formel: StochRSI=(RSI- RSIlow) / (RSIhigh - RSIlow)
+
+RSIlow ist der niedrigste Wert ueber Zeitraum X, z. B. niedrigste Wert
+von 14 Tagen in der Standarteinstellung).
+
+Dieser Indicator reagiert wesentlich sensibler und erreicht schneller
+als RSI seine Extremzonen. Er läßt sich daher gut bei Korrekturen
+innerhalb eines Trends anwenden. Man schaut nach Preisextremen =
+StochRsi < 20 und kauft wenn StochRsi > 20 wird, in Richtung des
+Hauptrends, der wieder aufgenommen wird. Der RSI von Medick kommt im
+Verlaufe einer kleineren oder mittleren Korrektur  weitaus weniger in
+seine Extremzonen. Den Haupttrend kann man z. B. durch den
+woechtenlichen StochRsi oder einen Trendfolgeindicator wie MACD auf
+Wochenbasis definieren.  EEF - Keep it simple! Tschuess! Peter       
+
+
+!^NavFont02F05A2000941L9BHLA304A7

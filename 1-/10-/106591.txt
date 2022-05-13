@@ -1,0 +1,79 @@
+Hallo Nikolaus,
+
+mit der Firma Mertzbach/Scheunen habe ich persönlich eher schlechte
+Erfahrungen gemacht:
+
+Die bisherige Version 3 stürzte bei mir und vielen anderen Benutzern
+regelmäßig ab, der Kommentar von Mertzbach dazu war nur, daß der Fehler an
+Windows läge (ist natürlich oft richtig, aber in diesem Fall halte ich das
+für eine billige Ausrede schlampiger Programmierer).
+
+Gut sind die vielen Filter- und Darstellungsmöglichkeiten, in dieser
+Hinsicht bietet das Programm weit mehr, als ich eigentlich benötige.
+
+Der Support ist schlecht, bei technischen Problemen antwortete mir lange
+niemand, und dann kamen nur inkompetente Standardfloskeln wie "neu
+installieren" oder so, die auch keine Lösung brachten und auf die
+eigentliche Frage überhaupt nicht eingingen.
+
+Jetzt ist nach Jahren endlich ein Update herausgekommen (32-Bit-Version, V
+4). Hier hat sich einiges gebessert, ich finde die ganze Oberfläche aber
+immer noch schlecht programmiert. Das Programm reagiert generell sehr träge.
+Auf einem 200-er Pentium dauert das Einlesen der täglichen Kurse ca. 30
+Minuten. Während dieser Zeit kann man den Rechner gar nicht (Version 3) oder
+so gut wie nicht (Version 4) benutzen, da die Marchthaler-Software
+offensichtlich die Windows-Messagequeue nicht richtig abarbeitet (liegt
+natürlich auch daran, daß Win 95/98 kein preemptives Multitasking kennt).
+
+Beim Versuch des "Updates" Version 4, mein Depot aus der Version 3 zu
+übernehmen (eigentlich eine simple ASCII-Datei!), stürzt das Programm
+jedesmal ab. Der Support konnte nicht helfen und meinte, es sei ein Fehler
+im Depot, und ich solle die Kurshistorien (!) neu einlesen (was am Problem
+vorbeigeht und natürlich nichts gebracht hat, der Fehler lag ja nicht an den
+Kursen). Die Erklärung des Herstellers, Zitat einer Mail vom "Marchthaler
+Support":
+
+     Bekannt ist auch allgemein, daß 32-Bit-Software
+     wegen der höheren "Arbeits-Genauigkeit" gegen
+     über 16-Bit-Software auch bereits bei kleinen
+     Dateifehlern mit Fehlermeldungen reagiert. Diese
+     Datenfehler können bereits unter der 16-Bit Version
+     (z.Bsp. durch einen oder mehrere Rechnerabst�rze)
+     entstanden, aber bisher nicht aufgefallen sein.
+
+Abstürze gab es regelmäßig, s.o., dennoch gab es mit dem Depot bislang nie
+Probleme. Mein Hinweis, daß eine als "Update" verkaufte Version doch
+eigentlich in der Lage sein sollte, meine Depotdaten zu übernehmen, die in
+der Vorgängerversion problemlos funktionieren, wurde folgendermaßen
+beantwortet:
+
+     Die Bezeichnung "Update" wurde nur für Kunden gewählt,
+     die bereits die Version 30 bezogen haben. Dies hat aber
+     nur einen "preislichen" aber keine "programmtechnischen"
+     Hintergrund. Neukunden erhalten genau dasselbe
+     Programmsystem, nur daß es wiederum aus rein preislichen
+     Gründen dann als Vollversion" bezeichnet wird. Die Version
+     40 ist datentechnisch eine von Version 30 autarke komplette
+     Neuentwicklung und ist keine "erweiterte" Version 30.
+     Da niergends eine andereslautende Definition unsererseits
+     veröffentlicht ist, basiert Ihre Definition unserer
+     "Update"-Bezeichnung auf eigenen Vermutungen.
+     Die Definition zum Begriff "Update" ist nicht generell
+     standardisiert und wird von Hersteller zu Hersteller anders
+     interpretiert.
+
+Diese Haarspaltereien des Herstellers zum Begriff "Update" fand ich wenig
+hilfreich oder kundenfreundlich, und schon gar nicht kulant. Meine Frage, ob
+ich das Update wegen des nicht funktionierenden Depots zurückgeben könne, um
+wie bisher mit der ebenfalls fehlerhaften, aber zumindest arbeitsfähigen
+alten Version weiter zu wurschteln, wurde lapidar mit dem Hinweis abgetan,
+Software sei grundsätzlich von der Rückgabe ausgeschlossen.
+
+Ich habe dann irgendwann die Lust verloren, mich mit dieser Firma weiter
+herumzuärgern.
+
+
+Soweit meine Erfahrungen.
+
+Gruß,
+Luca

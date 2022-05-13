@@ -1,0 +1,284 @@
+94% Telefonkostenersparnis - Internet-Telefon Software here
+Internet-Bild-Conference-Telefon Software fullversion free
+free download by
+www.RjtWnfma.wb
+www.VxunwltJjmgb.nf
+www.TkaiyjuLnyxt.rmn
+www.CenchwgMkijv.cpg.rm
+www.Runro.gy
+www.HmtkZO.mw
+Computer-Telefon, Internet-Telefon, Bildtelefon, Conference-Telefon,
+Voice-Mail, Dateitransfer, Remote Access/Fernwartung, Whiteboard, Chat ,
+Anrufanzeige mit CD-Zugriff, Wählen aus anderen Anwendungen, Anrufanzeige in
+anderen Anwendungen, Telefonbuch CDs , Least Cost Router und Scheduler,
+Call-by-Call Selection, Gesprächs-Statistik, Freisprechen, Integration mit
+MS-Office, Lotus Notes, MS-Outlook , Zugriff auf ODBC Datenbanken,
+Komfortfunktionen: Makeln, Weiterleiten,... , Elektronische Visitenkarten,
+Modul für Internet-Live-Concerte (Musicprogramm), modernste Internet-
+Architektur
+
+
+Internet Phone
+The Internet Phone window provides tools for making a call and performing
+other calling functions. In the Internet Phone window, you can:
+  Call other people by typing their e-mail, IP or Internet Phone address in
+the Call Line.
+  Call a regular telephone using the Dialer.
+  Add Multimedia Features to your calls such as sending and receiving video,
+voice mail, text chat, whiteboard session, and file transfer
+  View the Animated Assistant for information about your call.
+  See the User Information of the person you are speaking with.
+  Control the Video Settings.
+  See the status of your call in the Message Line.
+  Perform calling functions such as Answer, Hold, Hang Up, answer to Call
+Waiting, Redial, and Return Call.
+  Control the Audio Settings.
+  Keep a record of recent calls in the Session list and redial anyone you
+want.
+  Maintain a list of NetPals who you may want to call more often.
+  Find more information by the Status Indicators: do you share data with the
+other person, what is your conversation mode (half-, full-duplex), are you
+connected to the addressing server and what is your Internet connection
+quality.
+  Click the connection quality indicator to view incoming and outgoing audio
+and video Statistics.
+The Community Browser Window
+The Community Browser window provides access to virtual communities, or chat
+rooms, in which you can search for and contact people who share similar
+interests.
+In the Community Browser window, you can:
+Search and call people in Public Chat Rooms, which SelPhone maintains for
+Internet Phone users.
+Search and call people in Member Chat Rooms that you and other Internet
+Phone users create.
+Create your own public or private chat room, adding textual and graphic web
+content to supplement the chat room's topic.
+Create a list of your Favorite chat rooms.
+Search for a person to call in a user directory.
+Participate in an on-line conference.
+Making Your First Call
+You are now ready to make your first call. Perform the following procedure
+to make an Internet Phone call from the Community Browser window.
+To make your first call
+Run Internet Phone. The Internet Phone window appears on the screen.
+Click the Community Browser tool button.
+In the Community Browser window, you automatically join one of the Public
+Chat rooms.
+On the left-hand side of the chat room is a list of currently on-line
+Internet Phone users. Call a person from the user list in one of the
+following ways:
+Double-click the person's name.
+Right-click the person's name and then choose Call.
+The call is in progress and Internet Phone attempts to reach the person you
+selected. The Animated Assistant shows that you are connecting, and you can
+hear simulated telephone ringing sounds. If the person accepts your call,
+you can have a conversation.
+Speak clearly into the microphone. Be careful not to speak too closely to
+the microphone, or your voice will sound high and distorted on the other
+side. Make sure that the Record Level bar in the Audio Settings of the
+Internet Phone window is always bright green and does not reach deep into
+the red zone. If it does, you are speaking too loudly.
+End the conversation in one of the following ways:
+Click the Hang Up button in the Internet Phone window.
+Point to User in the Phone menu and choose Hang Up.
+The conversation ends.
+Conversation Modes
+There are two modes of conversation: Full-Duplex and Half-Duplex. In a
+full-duplex conversation, both users can speak at the same time; in a
+half-duplex conversation, users take turns speaking.
+In order to be able to conduct a full-duplex conversation, both users'
+systems must support full-duplex mode. A full-duplex sound card must be
+installed. If your system supports full-duplex mode, but the other user's
+system supports only half-duplex mode, Internet Phone will automatically
+switch to half-duplex.
+During a conversation you can switch between full-duplex and half-duplex
+mode at will.
+To switch between full-duplex and half-duplex mode
+Point to Audio in the Options menu and choose Full Duplex depending on your
+requirement:
+When selected: Full-duplex mode. If both users' systems support
+full-duplex, both of you can speak simultaneously.
+When cleared: Half-duplex mode - both of you must take turns speaking.
+At the bottom of the Internet Phone window, the Conversation Mode icon
+displays the current mode.
+NOTE If the mode automatically switched to half-duplex because the other
+user has only half-duplex capability, the conversation mode icon is changed,
+indicating that your system is now in half-duplex mode. This mode will last
+only during the current conversation.
+Full-Duplex Conversation
+During a full-duplex conversation, both you and the other person can speak
+simultaneously, just as easily as if you were using a phone. Note that there
+can be a short delay before what you say is transferred and played on the
+other user's system.
+The following events occur in the Internet Phone window:
+The Animated Assistant shows you are talking with each other.
+The Message line indicates the current mode of conversation. The different
+modes are:
+
+  No one is talking
+Nobody is speaking.
+You or the other person can start speaking. Talking
+What you say is transmitted over the Internet to the other person. Listening
+What he or she says is transmitted over the Internet to you. Both
+What you both say is transmitted over the Internet to each other.
+Half-Duplex Conversation
+A half-duplex conversation is identical in nature to a full-duplex
+conversation, except for the following:
+During conversation, you and the other person must take turns speaking (more
+like using a ham radio than a telephone).
+The Animated Assistant and the Message Line supply you with information
+about the remote side status. The message line indications are as follows:
+  No one is talking
+You can start speaking. Talking
+Your voice is being transmitted over the Internet to the other person.
+Listening
+What the other person says is transmitted over the Internet to you.
+You can interrupt the other person in the middle of speech.
+Press the Push to Talk button in the Audio Settings area in the Internet
+Phone window. Do not release this button until you wish to stop talking.
+NOTE Internet Phone sets full-duplex mode as the default value at Internet
+Phone startup. To set half-duplex mode as the default, choose
+Audio>Preferences from the Options menu. Click the Devices tab and clear the
+Use Full Duplex to start Internet Phone in half-duplex mode as the default.
+Receiving a Call
+You can easily recognize an incoming call when:
+You hear a telephone ringing sound.
+The Animated Assistant shows that you are receiving a call.
+The Answer button text blinks in red.
+The Message Line displays the message Ringing.
+The caller's user information is displayed in the User Information section.
+A new entry is displayed in the Session list with a ringing telephone icon
+at its left.
+If you accept the call, the conversation with the other person starts. You
+can also see the name of the person who called you on the Internet Phone
+window title bar.
+To accept an incoming call
+Click the Answer button or point to User in the Phone menu and choose
+Answer.
+Double-click on the new entry in the Session list.
+TIP The Session list can help you track the calls from other users that
+arrived while you were in the middle of another conversation. After you
+disconnect, the names of the people who tried to call you appear on the
+Session list with a small grayed icon displayed to the left. You can return
+a call to a person by double-clicking on his or her name.
+Blocking Calls
+To block all incoming calls, choose Do Not Disturb from the Phone menu.
+The Do Not Disturb icon appears near the Message Line indicating you are in
+the Do Not Disturb mode.
+Choosing this option allows you to conduct a conversation or perform other
+functions without any interruptions.
+You can receive calls from specific people in the KCJ list even if the
+Do Not Disturb mode is active.
+To disable the Do Not Disturb mode
+Do one of the following:
+Click the Do Not Disturb icon. The icon disappears indicating you are no
+longer in the Do Not Disturb mode.
+Clear the Do Not Disturb command in the Phone menu.
+Other Calling Features
+Call Holding
+You can put the current session on hold if you want to call or answer
+someone else without disconnecting your current call. In the Session list
+you can maintain several on-hold sessions and move between them, keeping
+only one session active while the rest are on hold. The icon to the left
+indicates the status of each session.
+To put the current session on hold
+Do one of the following:
+During a conversation, click the Hold button. The text on the Hold button
+changes to Resume.
+Select another user from the Session list.
+To resume a session on hold
+Do one of the following:
+Click the Resume button.
+Select a user on hold from the Session list and resume the conversation.
+Call Waiting
+When you are in the middle of a conversation and someone calls you, the text
+on the Answer button blinks in red and changes to Call Waiting. To answer a
+waiting call, click the blinking Call Waiting button. The previous
+conversation is automatically put on hold.
+Call Muting
+To mute your microphone, click the microphone icon on the Audio Settings.
+Choosing this option when you are in a full-duplex mode prevents picking up
+background noise and interrupting the other person while he or she is
+speaking.
+Chat Rooms
+The chat rooms in the Community Browser are categorized by topic to attract
+users who share similar interests. A chat room contains a list of currently
+on-line users who have joined that specific chat room, as well as graphic
+and textual Web content pertaining to the room's subject. The user lists
+contain the names of the currently on-line chat room participants, along
+with their user information and Internet Phone capabilities.
+Periodically, the Community Browser automatically updates itself. It adds
+new users who logged on and removes those who logged off.
+You can easily join, leave and create chat rooms of your own. After joining
+a chat room, you can call other people on the chat room's user list and
+communicate with them using a variety of multimedia features.
+Joining and Leaving Chat Rooms
+You can view and then choose to join any chat room that appears in the
+various views of the Community Browser window. In the View mode you can see
+the chat room Web content. When you choose to join the room you can also see
+the users that are on-line in this room.
+To view a chat room
+Click any chat room icon. The Web content appears.
+To join a chat room
+Do one of the following:
+Click on the blinking Join button (located on the left of the chat room
+title.)
+Choose Join from the Chat Room menu
+You are now joined to the selected chat room, you can see the on-line users
+and your name is added to the user list. Furthermore, the chat room icon
+appears in the Joined Chat Room list at the bottom of the Community Browser.
+This list contains the icons of all chat rooms you currently joined,
+regardless of view and topic.
+To join more than one chat room at the same time
+Each time you want to join a new chat room, you may keep previous chat rooms
+you have joined active. In this way, you will be able to receive calls from
+people in chat rooms that you are not currently in. All of your active chat
+room icons will appear in the Joined Chat Room list.
+Click the Join button to join a chat room. The chat room icon is added to
+the Joined Chat Room list.
+Browse the hierarchy of the Community Browser window and click another chat
+room icon.
+Repeat steps 1 and 2 each time you want to join another chat room.
+To leave a chat room
+Do one of the following:
+Choose Leave from the Chat Room menu to leave the current chat room.
+Select a chat room icon from the Joined Chat Room list. Click the Leave
+button.
+Select a chat room icon from the Joined Chat Room list. Right-click on it
+and choose Leave.
+When you leave a chat room, its icon is removed from the Joined Chat room
+list. Your name is also removed from the user list, and you return to the
+View mode.
+Creating a Chat Room
+In Internet Phone you can easily create new chat rooms and wait for others
+to join.
+When you create a chat room, you must choose if it will be Public, which is
+open to all Internet Phone users, or Private, which is open only to specific
+people who know the room name. If the new chat room is Public, it appears in
+both the Member and your Favorites views. If the new chat room is Private,
+it appears only in your Favorites view.
+To create a public and/or private chat room
+Choose New... from the Chat Room menu. The New Chat Room form appears.
+Enter all of the requested information.
+After a short interval, the new chat room will be active. Other users will
+see your room after they update the Community Browser window or after they
+log in at a different time.
+Private Chat Rooms
+If you want to conduct private conversations, you can create a private chat
+room. This "unlisted'' chat room cannot be seen on the Member chat room
+list, and can only be accessed by users who know the exact name of the
+private chat room.
+When another person wants to join this private chat room and reach you
+there, he/she must open a private chat room with exactly the same name. When
+a person joins this chat room, his or her user name appears on the User list
+and one of you can double-click the other's name to place a call.
+To join an existing private chat room
+Point to Open in the Chat Room menu.
+In the form, select Private and enter the name of the private chat room that
+you want to join.
+The Favorites View
+The Favorites view contains your personal list of chat rooms that you want
+to visit on a regular basis. This list is not limited by number, and you can
+use it to quickly join chat rooms and call users. The Favorites view also
+contains private chat rooms.
+To add a chat room to the Favorite view

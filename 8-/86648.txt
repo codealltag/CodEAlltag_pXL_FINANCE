@@ -1,0 +1,19 @@
+Ja ich z.B. (genauer mit GIE-octave)
+
+[deleted]
+
+Nun ja, ersteinmal laeuft Excel nur unter Windows und richtig
+komplizierte
+Berechnungen kann man damit nicht machen. Deshalb gibt es ja auch die
+Spezialbibliotheken fuer Excel, die z.B. Optionspreise etc. ausrechnen
+koennen.
+Will man etwas mehr - z.B. einen GARCH-Prozess an historische Kursdaten
+schaetzen (um die Vola besser schaetzen zu koennen) - so ist man mit
+Excel sehr schnell am Ende oder muss mit sehr viel Geld nachbessern.
+Dagegen ist man kostenlos mit z.B. octave dabei. Allerdings sind solche
+Programme natuerlich nur was fuer Leute, die selber gerne neue
+Handelssysteme etc. austueffteln.
+
+Willy Eckmann 
+--
+http://dxlghjue.zu

@@ -1,0 +1,17 @@
+Zwei Punkte, die mir unklar sind:
+
+1. Ist es moeglich, fuer ein und dasselbe Aktienbuendel zwei
+Verkaufsorders parallel laufen zu lassen, z.B. eine normal limitierte und
+eine stop-loss-limitierte Order?
+
+2. Angenommen, es besteht eine stop-loss-limitierte Kassa-Verkaufsorder;
+die betreffenden Aktien sollen jedoch noch vor Feststellung des
+Kassakurses
+variabel verkauft werden. Kann dies durch Aufgabe einer zusaetzlichen
+Nichtkassa-Verkaufsorder im Laufe des Vormittags erreicht werden? Eine
+Limitaenderung fuer die erste Verkaufsorder muesste meines Wissens ja
+mindestens eine Stunde vor Boersenoeffnung vorliegen. (Kann bei einer
+Limitaenderung ueberhaupt von Kassa auf Nichtkassa umgestellt werden?)
+
+Danke im voraus fuer Antworten,
+Didier Günthermann

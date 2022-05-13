@@ -1,0 +1,214 @@
+Trading Handelssystem Entwicklung
+Author Zeiträger
+
+
+Die Entwicklung von Handelssystemen ist heutzutage gleichbedeutend mit
+Backtesting geworden. Es lohnt sich, daran zu erinnern, dass
+Backtesting zwar ein wesentlicher aber doch eben nur einTeil des
+Systementwicklungsprozesses ist, und dass noch weitere Schritte
+dazugehören, die alle ihr eigenes Gewicht und ihre eigene Bedeutung
+haben.
+
+Eine vollständige Entwicklungsmethode für Handels-systcmc umfasst
+sechs verschiedene Schritte, die in Bild l gezeigt werden.
+Die Modellfindung ist der erste wesentliche Schritt bei der
+Handelssystcmentwicklung. Ohne ein geeig=ACnetes Modell ist die
+Entwicklung eines Handelssystems ein hoffnungsloses Unterfangen.
+Danach ist die Imple-mentierung des Modells der zweite wichtige
+Schritt; sie erlaubt dem Entwickler, mit dem Handelssystem
+fortzufahren und es mit Daten aus der Vergangenheit zu testen.
+Einige Entwickler übergehen den Schritt der Vali-dierung und machen
+direkt mit der Analyse der Back-lest-Ergcbnisse weiter. Dann passiert
+der häufige Fehler, dass Modellverbesscrung zur Modellermittlung wird.
+Wir wollen nun versuchen, den Zweck der einzelnen Schritte zu
+verdeutlichen, die Bestandteil einer jeden Entwicklungsmethodik für
+ein vollständiges Handels=ACsystem sind.
+
+mathematischen Methoden basieren und die zukünftige Kursrichtung
+vorherzusagen versuchen.
+Der Modellfindlingsschritt kostet viel Zeit und kann frustrierend
+sein, wenn man nicht einigen Richtlinien folgt. Modelle können sehr
+kompliziert werden, wenn es nicht gelingt, die Komplexität durch
+Handelserfahrung zu reduzieren und den Prozess dadurch auf einem
+realis=ACtischen und praktischen Niveau zu halten.
+Bild 2 zeigt ein Beispiel für ein Kursmuster für das Trading des DAX.
+Es ist ein simples Modell, das man wie folgt beschreiben kann:
+wenn heutiges Hoch > Hoch von gestern
+und gestriges Tief > Hoch von vor drei Tagen
+und Tief von vor zwei Tagen > Tief von vor drei Tagen
+und Hoch von vor zwei Tagen > Tief von gestern
+und Hoch von vor drei Tagen > Tief von vor zwei Tagen
+und heutiges Tief > Hoch von vor zwei Tagen
+und Hoch von gestern > heutiges Tief
+
+
+1. Schritt: Modellfindung
+Es gibt keine strikten Richtlinien und Rezepte, denen bei der Findung
+von Modellen für Handelssysteme gefolgt werden müsste. Jeder
+Handelssystemcntwickler verlässt sich auf Erfahrungen und verfügbare
+Werkzeuge bei diesem Schritt. Einige verlassen sich zum Beispiel auf
+die visuelle Betrachtung historischer Kurs-Charts und versuchen,
+Musterformationen zu identifizieren, die als Grundlage für die
+Entwicklung von Modellen dienen können. Andere vertrauen auf
+Algorithmen, die auf Indikatoren   der   technischen   Analyse   und
+anderen
+
+2. Schritt: Implementierung des Modells Wenn ein Modell für ein
+Handelssystem zur Verfü=ACgung steht, ist der nächste Schritt, es
+umzusetzen. Im Kontext der hier dargestellten vollständigen Methodik
+für die Entwicklung von Handelssystemen ist es nicht ausreichend, ein
+Modell für ein Handelssystem zu finden, das man in der Theorie für den
+Handel verwenden könnte. Es ist auch erforderlich, dass die Logik des
+Modells in einer Form vorliegt, die die Umsetzung in eine
+Programmiersprache ermöglicht. Es gibt für diesen speziellen  Zweck
+Programmiersprachen  im  Rahmen
+
+
+kommerzieller Backtesting-Software, die die erforder=ACliche Zeit für
+die Entwicklung von und Fehlerbeseiti=ACgung in Programm-Codes
+signifikant verkürzen.
+Die Bilder 3, 4 und 5 zeigen den für die Umsetzung des Kursmusters aus
+Bild 2 erforderlichen Code jeweils in Wealth-Lab, Metastock und
+Tradestation. Die Ein=ACstiegslogik wurde mit einer Ausstiegslogik
+kombiniert, um ein vollständiges Handelssystem zu implementieren.
+Diese Beispiele vermitteln einen Eindruck von den Pro-
+grammierfähigkeiten, die selbst bei einem so simplen Modell für ein
+Muster benötigt werden. Kompliziertere Modelle verlangen
+Programmierfähigkeiten, die der Durchschnittsmensch vielleicht nicht
+besitzt. So kann also der Entwicklungsprozess eines Handelssystems bei
+diesem Schritt stecken bleiben, wenn man die Kunst und Wissenschaft
+des Programmierens nicht beherrscht und keine professionelle Hilfe
+verfügbar ist.
+3.	Schritt: Backtesting
+Backtesting bedeutet das Fahren eines Handelssystem-modells mit
+historischen Daten und die Erzeugung von Einstiegs- und
+Ausstiegspunkten. Die Ein- und Ausstiegspunkte werden zusammen mit dem
+Daten-Input für die Berechnung von Performance-Parametern verwendet;
+dazu gehören die in Tabelle 1 aufgeführten Parameter.
+Backtesting ist nützlich für die Analyse der hypo-thetischen
+historischen Performance von Tradingsyste-men, aber es liefert
+keinerlei Hinweise auf ein geeignetes Modell, das verwendet werden
+könnte. Computer-Leistung und die Flexibilität von Backtesting-Program-
+men sind also nutzlos, wenn der erste und der zweite Schritt des
+Entwicklungsprozesses für Handelssysteme nicht vor diesem dritten
+Schritt erfolgreich absolviert worden sind.
+4.	Schritt: Validierung der Backtesting-Ergebnisse
+Zu einem vernünftigen Vorgehen gehört die Validierung
+der Ergebnisse aus dem Backtesting, um zu entscheiden,
+ob sie der beabsichtigten Funktion des Handelssystems
+entsprechen.  Fehler in der Berechnung des Modells
+oder in der Umsetzung können Gründe für irreführende
+Ergebnisse des Backtestens sein. Die Validierung bezieht
+sich daher auf die manuelle Überprüfung der Ergeb=AC
+nisse mit dem Ziel zu entscheiden, ob die hypothetische
+historische Funktion der beabsichtigten Funktion ent-
+
+spricht. Manche Handelssystementwickler übersprin-gen den
+Validierungsschritt, weil mit ihm die mühsame Überprüfung der Ein- und=
+
+Ausstiegspunkte und viele manuelle Berechnungen verbunden sind.
+Trotzdem ist dies ein sehr wichtiger Schritt in der Methodik der
+Ent=ACwicklung von Handelssystemen.
+Zur Überprüfung, ob die Umsetzung korrekt erfolgt ist, genügt eine
+Stichprobe der Ein- und Ausstiegs=ACpunkte, gefolgt von manuellen
+Berechnungen auf der Basis der mathematischen Formulierung des
+Modells. Allerdings kann eine so vereinfachte Methode der Validierung
+nicht   sicherstellen,   dass   alle   Ein-   und
+
+Ausstiegspunkte generiert wurden, die das Modell ge-nerieren sollte.
+Die Effektivität des Validierungsschritles steigt daher mit der Menge
+der historischen Kursdaten an, die man für das Backtesten verwendet
+hat, so dass entsprechend viele Ein- und Ausstiege erzeugt wurden.
+5. Schritt: Analyse der Ergebnisse Die Ergebnisse des Backtestens
+können nur im Zusam=ACmenhang mit der beabsichtigten Funktion des
+Modells analysiert werden. Die Entscheidung über die Annah=ACme oder
+Ablehnung eines Handelssystems hängt von den erhaltenen Ergebnissen
+und auch von den Zielen des Traders ab. Wenn ein Handelssystem zum
+Beispiel für den kurzfristigen Handel entwickelt wurde, sich aber
+ergibt, dass es ein eher längerfristiges trendfolgcndes System
+geworden ist, sollte es trotz vielleicht annehm=ACbarer Ergebnisse
+abgelehnt werden. Daher sollte die Analyse der Ergebnisse mit
+berücksichtigen, ob die tatsächliche Funktion des Systems mit der
+beabsichti=ACgten Funktion hinsichtlich des anwendbaren Zeitrah=ACmens
+übereinstimmt. Zum Beispiel verwenden manche Entwickler von
+Handelssystemen spontane Methoden, um ein System zu zwingen, im
+ausgewählten Zeitrahmen
+
+zu funktionieren. Dazu zählt unter anderem die Platzie=ACrung eines
+Zeitlimits bei offenen Positionen. Aus dieser Praxis resultiert
+aufgrund verschiedener Faktoren oft eine Verschlechterung der späteren
+Performance; einer der Gründe ist, dass die zukünftige Volatilität von=
+
+der=ACjenigen signifikant abweichen kann, die bei den für das Back-
+Testen verwendeten historischen Daten vorlag.
+Die Analyse der Backtesting-Ergebnisse ist ein ziem=AClich komplexer
+Prozess, dessen Effektivität letzten Endes stark vom analytischen
+Geschick des Traders abhängt. Es ist genau so wichtig. Subjektivität
+beim Analyse=ACvorgang auszuschalten wie ein System mit dem Zweck zu
+entwickeln, Emotionen vom Trading fernzuhalten. Wenn ein System
+akzeptiert wurde, aber seine Analyse ist nicht richtig und objektiv
+durchgeführt worden, dann mag man Emotionen beim Traden letztlich
+ausblenden, aber sie sind noch im System selbst versteckt.
+6. Schritt: Verbesserung des Modells
+Nach der gründlichen Analyse der Backtest-Ergebnisse kann der
+Entwickler versuchen, die historische Perfor=ACmance des Modells durch
+gezielte Veränderungen zu verbessern. Es können zum Beispiel andere
+Ausstiegs-varianten eingesetzt werden, um so zu versuchen, die
+geeignetsten für einen bestimmten Markt und die ge=ACwünschte Funktion
+herauszufinden. Man muss dabei beachten, dass der Verbesserungsschritt
+nicht mit dem Optimierungsschritt zu verwechseln ist. Ersteres ist ein
+sinnvolles Vorgehen, letzteres nicht.
+Es ist schwierig festzulegen, wann eine bestimmte Änderung am Modell
+dazu führt, dass es sich in ein völlig anderes Modell verwandelt. Dies
+kann nur durch die Analyse von Backtesting-Ergebnissen erfolgen. Als
+Beispiel: die Änderung der Logik für das Ausstiegsziel von einem
+einfachen Prozentsatz vom Einstiegskurs wie in den Codes der Bilder 2
+5 in einen nachlaufenden Stopp (Trailing Stopp) kann in einigen
+Systemen zu einem spektakulären Anstieg des Gewinnfaktorwertes führen.
+Das kann aber gleichzeitig die Umwandlung eines kurzfristigen
+Handelssystems in ein langfristiges bedeuten. Alle Veränderungen
+müssen daher im Rah=ACmen der beabsichtigten Funktion bleiben. Diese
+Regel wird nicht von allen Systementwicklern befolgt, weil sie sich
+auf die Bewertung der Ergebnisse in absoluteji Zah=AClen konzentrieren
+und nicht darauf achten, ob die vor=ACgenommenen Änderungen das System
+in ein anderes
+verwandeln, das nicht der ursprünglichen Spezifikation entspricht.
+Optimierung und die Einführung spontaner Methoden zur Reduzierung von
+Verlust-Trades müssen in diesem Schritt vermieden werden. Es gilt die
+empi=ACrische Regel, dass Änderungen an einem Modell nicht zu empfehlen
+sind, die zur Reduzierung von Verlust-Trades vorgenommen werden, wenn
+sie nicht gleichzeitig die Anzahl der Gewinn-Trades erhöhen. Der Grund
+liegt in der Möglichkeit, dass eine solche Verbesserung nur ein Filter
+für Verlust-Trades ist, für die bestimmte Bedingungen in den
+historischen Daten vorgelegen ha=ACben. Wenn das System dann im echten
+Trading verwen=ACdet wird, können neue Bedingungen auftreten, die nicht
+gefiltert werden und die Reduzierung betrifft nun viel=ACleicht die
+Gewinn-Trades. Das kann zum Beispiel vor=ACkommen, wenn ein System nur
+in einer Phase getestet wurde, in der ein (Aufwärts-) Trend vorlag.
+Wenn der Entwickler die Systemlogik ändert, um Short-Trades
+herauszufiltern, indem er zum Beispiel Einstiegssig=ACnale
+herausfiltert, die bei einer positiven Differenz von zwei Gleitenden
+Durchschnitten vorkommen, kann die Anzahl an Verlust-Trades
+signifikant verringert werden. Beim wirklichen Traden könnte sich der
+Trend jedoch in einen ausgedehnten Bärenmarkt umkehren, und das System
+würde dann die Short-Trades herausfiltern, die nahe dem Höhepunkt
+einer kurzfristigen Umkehr vor=ACkommen, und das sind natürlich die
+Trades mit dem höchsten Gewinnpotenzial in einer Abwärtsbewegung.
+Um zu vermeiden, dass man Opfer einer unbe-absichtigten Optimierung
+aufgrund bestimmter in historischen Daten vorliegender Bedingungen
+wird, ist es empfehlenswert Märkte zu testen, die mehrere Auf-schwung/
+Abschwungzyklcn aufweisen
+Zusammenfassung
+Zur Entwicklung von Handelssystemen gehört mehr als nur Backtesting.
+Erfolgreicher Entwurf, Ausführung und Analyse von Handelssystemen sind
+Teile eines ziemlich komplizierten Prozesses, der sowohl zeitintensiv
+ist als auch Kenntnisse verlangt. Durch die Aufteilung des Prozesses
+in diesem Artikel in sechs einzelne Schritte wollten wir uns ein Bild
+von den dabei auftretenden Schwierigkeiten machen.
+Handelssystementwickler sind heutzutage in Anbetracht von Computern,
+Software und Informationstechnologie in einer besseren Aus=ACgangslage
+als ihre Vorgänger vor zwanzig Jahren. Aber unabhängig von
+technologischen Vorteilen speziell bei Computer-Geschwindigkeit und
+Programmiersprachen gilt immer noch GIGO (garbage in - garbage out),
+und jeder Trader, der sich an Handelssystemen versucht, sollte sich
+dessen bewusst sein

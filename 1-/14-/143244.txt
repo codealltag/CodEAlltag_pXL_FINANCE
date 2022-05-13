@@ -1,0 +1,16 @@
+Der SMI befindet sich im überkauften Bereich (RSI = 83).
+Der SMI wird vielleicht zu Beginn der Woche nochmals
+die 7000er Marke testen. Danach sind Put's angesagt.
+
+Symbol Type Strike Expiry     Ratio Last Volume Premium Prem_p_a
+SMIQQ  put  6500   5-Dez-98  500   1.03 104500  1.68     2.01
+SMIAE  put  6500   6-Dez-98  100   5.5   18000  2.19     2.61
+SMIDG  put  6400   15-Jan-99  250   2.05 409500  0.2      0.22
+SMIDH  put  6200   3-Jul-99  250   1.75   2000  -3.79    -4.14
+SMIMH  put  6100   6-Mrz-98  200   1.43   5000  -7.43    -12.62
+SMICC  put  6000   7-Sep-98  200   0.11  42000  -12.71   -144.98
+SMILE  put  5999   1-Jan-98  100   1.96  14000  -10.19   -25.13
+SMIAF  put  6000   6-Jun-98  100   3.55 150000  -7.88    -9.4
+SMIDK  put  6000   3-Jan-99  250   1.48   8800  -7.67    -8.38
+SMIPP  put  5999   5-Jun-98  500   0.69   5000  -8.03    -9.61
+SMIVU  put  5999   4-Jun-98  200   1.6       0  -8.39    -10.07

@@ -1,0 +1,18 @@
+Muss man aufpassen, dass man mit genuegender Rechnergenauigkeit
+arbeitet! Bei kleinen Restlaufzeiten wird der Fehler auch groesser -
+aber man kann ja auch z.B. 5.01 und 5.00 Tage berechner und die
+Differenz bilden ;-).
+
+Geht mit MATZKOWS genauso, nur dass man den Zinssatz entsprechend variieren
+muss.
+
+Formeln kann man sich natuerlich auch ableiten - muss man halt die
+partielle Ableitung der B-S-Formel nach der Restlaufzeit bzw. des
+Zinssatzes bilden (nochmal ;-))
+
+Didier
+
+PS. Was soll denn das fuer ein Programm werden?
+--
+http://iraun.vzjfgn.bt-leqjai.vr/~ddyt
+--

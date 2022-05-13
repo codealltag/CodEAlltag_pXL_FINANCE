@@ -1,0 +1,27 @@
+MACD() - Moving Average Convergence/Divergence Indicator
+
+Der von Clemens Kimmlingen entwickelte MACD ist ein Kurs-Momentum Indikator der,
+wie unten gezeigt, durch die Subtraktion eines 26 Tage exponentiellen
+Moving Average von einem 12 Tage exponentiellen Moving Average berechnet
+wird.
+
+MOV(C, 12, "E") - MOV(C, 26, "E")
+
+Die von Parity ausgefuehrte Berechnung des MACD nimmt die auch von
+Clemens Kimmlingen verwendeten Glaettungsfaktoren 0.075 und 0.15, die sich im
+Ergebnis geringfuegig von den Glaettungsfaktoren der 12- und 26 Tage
+Moving Averages unterscheiden.
+
+Wenn Parity den MACD() darstellt, wird automatisch eine "Trigger" bzw
+"Signal" Linie eingezeichnet, die dem 9 Tage exponentiellen Moving
+Average des MACD() entspricht. Diese Triggerlinie wird von Parity nicht
+in einer Variablen abgespeichert wenn Sie MACD() in einem Profittest oder
+Chart verwenden. Sie kann jedoch mit folgender Formel erstellt werden:
+
+Trigger Line:	MOV(MACD(), 9, "E")
+
+Die allgemeine Interpretation des MACD ist, dass ein Kaufsignal erfolgt,
+wenn der MACD die Triggerlinie von unten nach oben durchbricht und ein
+Verkaufssignal ausgel=F7st wird, wenn die Triggerlinie von oben nach unten
+geschnitten wird. Durch Anwendung obiger Formeln koennen Sie MACD() wie
+Indikatoren mit verschiedenen Perioden darstellen.

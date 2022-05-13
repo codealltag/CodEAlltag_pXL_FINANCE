@@ -1,0 +1,15 @@
+Von sinkender Volatilität profitieren Derivate, wo Volatilität verkauft 
+wird. So wird bei Discount-Zertifikaten bzw. Aktienanleihen der 
+Basiswert gekauft und eine Call-Option verkauft bzw. eine Put-Option 
+verkauft und eine Nullkuponanleihe gekauft.
+
+Weiterhin profitieren einige Produkte mit exotischen Optionen von 
+sinkender Volatilität. Der Preis des Down-and-out-Put (Barrier-Option) 
+in Bonuszertifikaten (hier wird die Option *ge*kauft) steigt bei 
+sinkender Volatilität. Korridor-Optionsscheine (Range-Optionen) 
+profitieren von sinkender Vola, wenn der Basiswert sich in der 
+Bandbreite befindet. Inline-Optionsscheine (digitale Optionen) gewinnen 
+ebenfalls bei sinkender Vola an Wert.
+
+Gruß,
+Wilhelm

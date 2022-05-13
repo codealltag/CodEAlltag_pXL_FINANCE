@@ -1,0 +1,27 @@
+Hallo Ignaz
+
+LM>Leider habe ich den Orginalthread verpasst. Was meinst Du denn genau mit
+LM>künstlichen Kursverläufen? Wenn ich mir eine Kursreihe entsprechend der
+
+                val += (float)rand() / st + C;
+
+Mehr nicht.
+
+LM>Random Walk Hypothese generiere kann es natuerlich nicht klappen. Aber
+LM>echte Kursverläufe sind nun mal nicht rein zufällig, z.B. sind die
+LM>Quadrate der täglichen Renditen korreliert.
+
+Sieht aber verdammt echt aus.
+
+LM>Ich würde gerne mal einen kleinen Wettkampf ausschreiben. Ich generiere
+LM>sagen wir mal 10 künstliche Kursreihen nach bestem Wissen und Gewissen
+LM>und wähle 10 echte Indices aus (mit falschem Datum).
+LM>
+LM>Mich wuerde wirklich interessieren, wer dann die echten herraus findet.
+LM>Ich jedenfalls nicht.
+LM>
+LM>Also wer macht mit?
+
+Würde ich mir nicht zutrauen, aber nur so zum Spaß ...
+
+-Timo

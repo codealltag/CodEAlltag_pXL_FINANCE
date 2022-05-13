@@ -1,0 +1,14 @@
+Wenn eine Groesse um x % abnimmt, dann ist der zugehoerige
+Abzinsungsfaktor 1-(x/100). Wenn also zum Beispiel ein Kurs im ersten
+Jahr um 0 % faellt und im zweiten Jahr um 20 %, dann ist er im Mittel
+pro Jahr um 11 % gefallen. Das ist das Ergebnis der obigen Rechnung.
+
+"89 % durchschnittliche Aenderung" und "Veraenderungsrate" sind
+Begriffe, die mir nicht klar werden wollen. Ich wuerde von
+Veraenderungsfaktor oder Auf/Abzinsungsfaktor reden, aber vielleicht
+meinen wir ja das gleiche. Die Die "Durchschnittliche Aenderung" waere
+fuer mich (1-0,89)*100 = -11%.
+die 0,89 koennte man "durchschnittlichen Veraenderungsfaktor" nennen,
+aber ich denke man wird ihn meist wie oben interpretieren wollen.
+
+Robert

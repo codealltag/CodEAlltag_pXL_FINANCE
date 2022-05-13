@@ -1,0 +1,29 @@
+die Patane stellt selbst die geld/brief spannen, tritt also als market
+maker auf. dadurch kann sie auch die stückzahl und den kurs garantieren.
+interessant wirds sein, ihre spannen mit einem realtime kurssystem (z.b.
+Demm) zu vergleichen um zu sehen, ob sie die spannen breiter stellt
+als aktuell am markt. das selbe machen ja auch die optionsscheinh�user,
+denn dadurch wird das meiste geld verdient. der vorteil der Perlerei
+gegenüber den op-scheinh�usern ist ja der, daß sie sich gleich kasse
+gegen kasse sowohl an der börse selbst, als auch otc im
+interbankenhandel hedgen können. außerdem können sie auch noch
+eigenbest�nde auf- bzw abbauen und das ohne den börslichen markt zu
+belasten.
+
+eine gute idee, mit der sich zusätzlich zum (für sie hoffentlich)
+gesteigerten transaktionsvolumen (provisionen) noch das handelsergebnis
+aus den spreads ordentlich geld scheffeln läßt. das ganze wird aber kaum
+bei großen transaktionen mit gegenwert > 500tsd euro realisieren lassen,
+aber die klientel ordert ja im 10-20 tsd euro bereich oder geringer.
+
+dazu können sie ja bei bedarf noch in cats/os einschleifen. technisch
+alles zusammen nat. sehr aufwendig aber das wird sich wohl nach einiger
+zeit gut rechnen.
+
+zum daytraden ist das nat ungeeignet, da
+
+a) du ja vor jeder transaktion eine TAN eingeben mußt
+b) es keine orderbuchtiefe gibt, die du ggf. einsehen könnest (z.b. bei
+Änderungsdienst) um die markttendenz abzulesen
+
+PASCAL

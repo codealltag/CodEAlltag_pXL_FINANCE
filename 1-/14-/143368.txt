@@ -1,0 +1,60 @@
+Unterburgers Freitags und Montags Depot
+
+Wie errechne ich das Montagsdepot ?
+Nehmen wir als Beispiel Afugeh:
+GamesTower hat am Freitag 600 Stück a. 135 DM geordert das macht ein
+Kaufvolumen von genau 81.000,- .
+Ich hole mir nun den Montagskassakurs von Afugeh (152,50) und rechne sein
+kaufvolumen durch den Montaskurs und erhalte so nun die Stückzahl an
+Aktien die jemand am Montag für das Geld bekommen hätte.
+In diesen Fall 81000 / 152,50 = 531,14754 Stück.
+Die runde dann auf/ab und komme dann auf 531 Stück a 152,50 macht
+80.977,50 DM (die zu 81.000 DM fehlende DM schreibe ich der Liqudität
+zu).
+Also hat Putzschneider in meinen Depot 
+nicht   600 Stück a. 135,-
+sondern 531 Stück a. 152,50 DM gekauft.
+
+
+So nun zuerst das Original Davada-Depot:
+
+
+Name	Stück 	  Kaufk.	  aktuell      
+
+Afugeh        100 	 135,00   123,50   
+VitaAktiv  25  	 408,50   385,00   
+Hama    	    30   	 172,50   201,50
+Haumer	  600	   72,00     72,00    
+VSWJ	    30   	 560,00   560,00
+
+Liquidität:                        5.362,50
+Gesamt                         93.382,50
+
+
+Hier nun das zwischenzeitliche Prior-Davada-Montags-Depot:
+
+Name       Stück   Kaufk.  aktuell      Wert
+----------------------------------------------
+Afugeh          531   152,50   123,50   
+VitaAktiv    23   444,00   385,00   
+Hama             22   230,00   201,50   
+Liquidität:                           3.750,50
+Gesamt    :                         82.617
+
+Verkaeufe werden auch montags zum Kassakurs abgerechnet:
+Also hier die anvisierten Transaktionen
+
+Verkauf Afugeh 443 Stueck am Montag (Rest dann 88)
+Von dem Gegenwert sind dann 1612 abzuziehen (Liquiditaet soll 5362,50
+betragen) und das Geld wird dann auf Haumer und VSWJ verteilt
+Haumer 43.200 und VSWJ 16.800, also 28 Prozent VSWJ und 72 % Haumer
+
+Dann muss das Depot aktualisiert werden.
+
+Viele Gruesse 
+Vittorio
+
+Keine spam/bulk emails. 
+No spam/bulk emails.
+Do not send me any unsolicited mail.
+Danke/Thank you.

@@ -1,0 +1,12 @@
+Ist ganz einfach. Ich habe mich auch schon mit dem Gedanken beschäftigt,
+ein Konvertierungsprogramm zu schreiben. Die Dateien sind Klartext ASCII
+und wie eine system.ini in verschiedene Segmente eingeteilt. Ich habe
+mir bisher nicht die Muehe gemacht, da auch noch alle Schluessel zu be-
+trachten, das sollte aber nur eine Fleissarbeit sein.
+Klartext? Jupp! Habe ich festgestellt, als letzten Monat defekte
+Dateien kamen und Leichen davon in einem temporaeren Verzeichnis
+haengen blieben. Die Dateien sind komprimiert und lassen sich mit
+einem uralten DOS-Programm lha.exe auspacken. Ein wenig Arbeit ist
+es dann wohl noch, sollte aber möglich sein.
+
+Carlos

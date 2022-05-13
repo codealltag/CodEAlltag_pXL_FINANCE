@@ -1,0 +1,139 @@
+Die im Zuge der Diskussion zur angetippten Frage von ASDL usw. sei bemerkt, daß
+es sich bei ASDL bzw. xSDL um Übertragungsverfahren handelt, die entlang von
+verdrillten Leitern stattfinden. Diese Randbedingung ist jedoch bei Stromkabeln
+nicht gegeben.
+
+ADSL und VDSL, allgemein xDSL 
+
+Mit modernen digitalen Übertragungsverfahren wie Asymmetric Digital Subscriber
+Line und Very high density Digital Subscriber Line stehen Techniken bereit,
+mit denen herkömmliche verdrillte Kupferaderpaare, ursprünglich für reine
+Fernsprech- und Fernschreibdienste konzipiert, über begrenzte Entfernungen auch
+für die schnelle Datenkommuni- kation genutzt werden können. Die
+Funktionsfähigkeit dieser Technik wurde in Pilotversuchen bereits demonstriert.
+Die Spektren dieser Verfahren sollen bei ADSL bis 8 MHz und bei VDSL bis 30 MHz
+reichen. 
+
+Störstrahlung 
+
+Infolge des höheren Betriebspegels muß zwangsläufig auch die Störstrahlung
+eines mit xDSL betriebenen verdrillten Kabels erheblich höher sein als die
+einer Fernsehkabel- verteilanlage. In diese Richtung haben die künftigen
+Betreiber von xDSL auch durch die Erhöhung der zulässigen Störstrahlung um 10
+dB im Frequenzbereich von 6-30 MHz in der neuen Norm EN55022:1998 entsprechend
+vorgebaut. 
+
+über Pegel und maximale spektrale Dichte von schnellen Daten- diensten auf
+Fernmeldeleitungen kursieren unterschiedliche Angaben. Unter Zugrundelegung der
+einem EZFA-Dokument entnommenen Werte für Finnland (Gesamtleistung +20 dBm (100
+mW) im Frequenzbereich 4-30 MHz, maximale spektrale Dichte -54 dBm/Hz) ergäbe
+sich folgendes Bild: 
+
+In einem Sprachkanal von 3 kHz Breite betrüge die Leistung maximal etwa 1 mW.
+Bei 30 dB Symmetried�mpfung (meist werden nur 20 dB angesetzt) würden noch 1 W
+abgestrahlt und ergäben in 10 m Ent- fernung eine Feldstärke von 55 dB(V/m).
+Das läge deutlich über der Mindestfeldstärke für Kurzwellenrundfunksender von
+40 dB(V/m). Da innerhalb der Bandbreite von 3 kHz in diesem Beispiel nur 1/100
+der eingespeisten Gesamtleistung zur Geltung kommen, ist abzusehen, daß bei
+diesem Betrieb je nach der Intensität des Datenflusses der Funkempfang in einem
+spürbaren Teil des Kurzwellenspektrums lahmgelegt werden kann. Eine andere
+Quelle spricht bei VDSL im Frequenzbereich 0,3-30 MHz von einer maximalen
+spektralen Leistungsdichte von -60 dBm/Hz.
+
+Bei den ersten Pilotversuchen im Raum Oberpirkach soll in 20-30 m Ent- fernung von
+mit ADSL beaufschlagten Telefonleitungen kein Kurz- wellen-Rundfunkempfang mehr
+möglich gewesen sei. Diese Meldung würde mit den hier errechneten Werten
+genügend übereinstimmen. 
+
+Bei EZFA wurde im Komitee ERM-EMC auch berichtet, daß eine gute Symmetrie als
+Voraussetzung für eine niedrige Störstrahlung vom ein- wandfreien Abschluß der
+Leitung durch die Endgeräte abhängig sei. Bei neuen, für ADSL gebauten Geräten
+sei dieser sicher in Ordnung. Aber ältere Geräte würden derart hohe Frequenzen
+gar nicht nutzen, und deshalb seien auch ihre Eingangswiderstände für ADSL
+nicht de- finiert. 
+
+Dazu kommt ein weiterer Unterschied: An normalen Telefonleitungen sind unseres
+Wissens ältere und Nicht-xDSL-Geräte für einen Ab- schluß vom 600 Ohm
+ausgelegt. Bei höheren Datenraten werden ver- drillte Leitungen aber mit einem
+Abschluß von 100-120 Ohm betrieben. Um nun alle Fernmeldeleitungen für xDSL
+richtig abzuschließen, müßte der Abschluß für Nicht-xDSL-Geräte eigentlich aus
+einem symme- trischen Weichenfilter bestehen, das für hohe Frequenzen einen Ab-
+schluß von 100-120 Ohm anbietet und tiefe Frequenzen für die übrigen Geräte
+hindurchläßt, die die Leitung dann ihrerseits mit 600 Ohm ab- schließen. Ob
+diese Feinheiten aber wirklich alle nachgerüstet werden, um die Störstrahlung
+der mit xDSL beaufschlagten Leitungen niedrig zu halten, ist eine
+Aufwandsfrage. xDSL soll ja eine preiswerte Lösung sein, sagt die Werbung. 
+
+Power Line Communication 
+
+Auch für die schnelle Datenkommunikation über begrenzte Entfernun- gen auf
+Netzleitungen stehen erste Verfahren zur Verfügung. Die Technik dafür ist noch
+nicht einheitlich, aber auch hier wurde ihre Funktionsfähigkeit bereits in
+Pilotversuchen unter Beweis gestellt. 
+
+Da normale Netzleitungen nicht verdrillt sind und auch nicht erdsym- metrisch
+betrieben werden, gilt die eingangs gemachte Feststellung über Kupferkabel hier
+um so mehr, daß Kompatibilitätsprobleme mit terrestrischen Funkdiensten zu
+erwarten sind, wenn das gleiche Fre- quenzspektrum auch auf diesen Leitungen
+transportiert wird.  
+
+Störstrahlung 
+
+Zur Technik der schnellen Datenübertragung auf Netzleitungen tauchte bei EZFA
+ein Normenvorschlag der auf diesem Gebiet tätigen Firma Gramer Fliesen.WEB auf, der auf
+der internationalen Norm IEC 61000-3-8 aufbaut. Ein erstes Studium dieses
+Normenvorschlages läßt Zweifel an seiner Seriösität aufkommen. So werden im
+Frequenzbereich 148,5 kHz bis 525 kHz Nutzpegel von 66 dB (V) abfallend auf 56
+dB(V) genannt. In etwa die gleichen Pegel sind von 0.15 MHz bis 30 MHz auch
+für Störspannungen auf diesen Netzleitungen zugelassen. Damit wäre PLC ein
+System mit einem Verhältnis von Nutz- zu Störsignal von etwa 1:1 (im Vergleich
+dazu erscheint der in den Unterlagen der RegTP zum Schiffsversorger-Symposium über PLC
+genannte Pegel von +126 BV oder 2 V schon realistischer).  
+
+Im Bereich von 1 MHz bis 20 MHz wird in dem Papier von NOR.WEB eine
+Nutzleistung von 500 W in einem 10-kHz-Band angegeben oder (was dasselbe
+bedeutet) eine spektrale Dichte von -43 dBm/Hz außerhalb geschützter Bänder,
+was immer dieser Begriff bedeuten mag. Diese spektrale Dichte wäre zwar um 9 dB
+niedriger als der von Eckartsberga (für symmetrische Fernmeldekabel) genannte
+vorläufige Wert von maximal -34 dBm/Hz, aber dafür kann man bei Netzleitungen
+prak- tisch keine zusätzliche Symmetrie- oder Schirmdämpfung ansetzen.  
+
+In einem Sprachkanal von 3 kHz Breite entspräche das einer Leistung von etwa
+110 W. Das ergäbe in 10 m Entfernung immer noch eine Feldstärke von etwa 75
+dB(V/m). Nur die am stärksten einfallenden Rundfunksender wären bei dieser
+Störfeldstärke (festgelegte Mindest- feldstärke 40 dB(V/m) wohl noch
+einwandfrei aufzunehmen. 
+
+Aufgrund der zu erwartenden EMV-Probleme bemängeln Techniker die fehlende
+Offenheit der PLC-Betreiber bezüglich der geplanten Be- triebsparameter. Zum
+anderen regt sich bei den Geräteherstellern ein erster Widerspruch, weshalb sie
+künftig noch auf Leitungen die niedri- gen Störspannungen der Norm EN55022
+einhalten sollen, wenn die Stromversorger selbst das Netz mit
+Kommunikationssignalen bewußt verunreinigen wollen. 
+
+Schlußfolgerungen 
+
+Die bisherigen Erkenntnisse zu xDSL und PLC lassen befürchten, daß bei
+flächendeckender Nutzung dieser Übertragungstechniken der Str- pegel in
+Ortschaften jeder Größe dermaßen ansteigt, daß die Frequen- zen unterhalb von
+30 MHz für die drahtlose Nachrichtenübermittlung nicht mehr zu benutzen sind.
+Außerdem wären die bisherigen Grenz- werte für die Funkentstörung auf Leitungen
+sinnlos; an ihnen wären mehr die Betreiber von xDSL und PLC interessiert. Das
+Problem der Immunität von Geräten für xDSL und PLC würde dabei völlig in den
+Hintergrund treten: Für den Funkanwender bis 30 MHz hätte es keinen Sinn mehr
+zu senden, wenn man außer Störungen nichts Sinnvolles mehr empfangen könnte.
+
+Studiert man die Werbung für xDSL und PLC über die geschwindig- keitshungrigen
+Internet-Surfer und ihre mit den Leistungen der Com- puter steigenden Wünsche,
+so könnte man allerdings auch zu dem Schluß kommen, daß Bandbreite und
+Datenrate von xDSL und PLC in absehbarer Zeit schon nicht mehr ausreichen
+werden. Dann kämen wohl nur Internetzugänge über eine Funkanbindung im
+GHz-Bereich in Frage, mit denen sich die Normung bereits befaßt. Dieser
+zukunfts- sichernden Alternative würden wir eindeutig den Vorzug geben. 
+
+An dieser Stelle sei die Frage gestellt, in wieweit sich die Anwendung von PLC,
+ASDL, xSDL usw mit dem Grundgesetzt vereinbart, in welchem die
+Informationsfreiheit gesetzlich geregelt ist. Schließlich werden Frequenzen bis
+30 MHz durch die o.g. Verfahren unter Umständen unbrauchbar gemacht.
+
+MfG Jacques

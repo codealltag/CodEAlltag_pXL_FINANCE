@@ -1,0 +1,577 @@
+Roulette Strategy The Garden System
+Author Lamsfuhs
+
+ EVERY SESSION CONSISTS OF TWO PARTS:
+
+
+ 1) The Selection Process.
+
+ 2) The Playing Period.
+
+
+ 1) The Selection Process:
+
+
+ This is the first thing you do to start a session.
+
+ If there are scoreboards in the tables where you play, it will save
+you about 40 to 60 minutes of the selection process.
+
+ Use the table's scoreboard and copy the numbers on paper, or write
+them down as they hit if there is not scoreboard.
+
+ You must write the numbers in the same order they hit.
+
+ When a number repeats, circle it.
+
+ What you need is a group of 24 different numbers, with at least 10 *
+repeaters.( see UPDATE ) It could take from 34 to 56 outcomes to find
+a group like this.
+
+ Most times it takes about 50 outcomes
+
+ Example:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11
+
+ x x x x
+
+ x x
+
+ x
+
+
+ In this example we have finished a selection process successfully.
+
+ There are 10 repeaters, numbers 31, 34, 25, 16, 26, 12, 9, 2, 7, and
+29.
+
+ Now you are wondering what are those "x". Every "x" means a hit of
+that number. So now you think: "Ok, so number 31 has hit 3 times".
+That is wrong, number 31 has hit 5 times.
+
+ Pay attention:
+
+ First time number 31 hits, you write it down. Second time it hits,
+you circled it. And every next time the number hits, you add it a
+"x".
+
+ Therefore: in the above example we have that, 31 has hit 5 times, 34
+has hit 2 times, 25 has hit 2 times, 16 has hit 2 times, 26 has hit 3
+times, 12 has hit 2 times, 9 has hit 4 times, 2 has hit 3 times, 7 has
+hit 2 times, 29 has hit 2 times, and all the others numbers have hit
+only 1 time.
+
+ Later, you will learn why you need to know how many times a number
+has hit.
+
+
+ What if you come across with a non playable selection (less than 10
+repeaters)?
+
+ If you come across with a group of 24 numbers with less than 10
+repeaters, that is a non playable selection.
+
+ But don't worry, because it doesn't happen too often.
+
+ Also you can track 2 tables at the same time, if you have the
+chance.
+
+ If you find a non playable selection, forget it and start a new one.
+DO NOT PLAY IT.
+
+ I know it could be disappointing to track about 34 to 56 outcomes and
+then leave it, but I think Safety First.
+
+
+ IMPROVEMENTS APPLIED TO "THE GARDEN" SYSTEM.
+
+
+ To avoid so many unqualified sessions (the ones with less than 10
+repeaters) I have tested and implemented a new rule.
+
+ Originally, when you come across with a session with less than 10
+repeaters, you should forget it and not play it.
+
+ Well, I have changed that, and it has proved better results.
+
+ Firstly, now the necessary amount of repeaters is not 10 anymore, but
+9.
+
+ Now with the new rule, when you come across with a session with less
+than 9 repeaters, DO NOT FORGET IT.
+
+ What you should do is the following:
+
+ KEEP TRACKING UNTIL YOU GET 9 REPEATERS.
+
+ While tracking add new numbers at the end of the string and cross out
+the oldest number with only 1 hit (the closest one to the beginning of
+the string). Do this until you have 9 repeaters. Remember that you
+should ALWAYS HAVE ONLY 24 NUMBERS IN YOUR SELECTION.
+
+ Do not forget to cross out the oldest number with only one hit every
+time you add a new number to the string.
+
+ Do not forget to circle repeaters numbers as they hit.
+
+ Once you have your 9 repeaters, stop tracking and start the playing
+period.
+
+
+ 2) The Playing Period:
+
+
+ After you have a selection of 24 numbers, you start playing.
+
+ You place flat bets in all 24 numbers.
+
+ When you are ready to start and you have your chips, DO NOT BET THE
+FIRST SPIN.
+
+ To start playing you have to wait until what would have been a
+winning happens, or until what would have been 3 loses in a row
+happens, whatever comes first.
+
+ Keep tracking these "would be" numbers, as instructed below.
+
+
+ Lets continues with the above outcomes example:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11
+
+ x x x x
+
+ x x
+
+ x
+
+
+ Lets start with the most common and easy of the sessions.
+
+ Lets say the first spin (the one you do not bet), number 20 hits;
+that would have been a winning, so next spin you start betting. Do not
+forget to track number 20 (circle it, as this is the second time it
+hits).
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11
+
+ x x x x
+
+ x x
+
+ x
+
+
+ So, now you have placed flat bet in all the above numbers.
+
+ Now lets say number 25 hits. That is a winning, and you are 12 units
+up.
+
+ NOW YOU FINISH THAT SESSION.
+
+
+ There are 3 circumstances under which you MUST FINISH a session :
+
+
+ a) When you are 12 units up, between 10 spins from the spin you
+started to place bets.
+
+ b) If you are not 12 units up between 10 spins, you keep playing
+until you are -12 units down. As soon as you are -12 units down you
+finish that session. You can do this until spin number 90 (counting
+from the first spin you have tracked, NOT from the first spin you have
+placed bets). Don't worry too much about this, as this very rarely
+happens, if ever. Usually you finish a session before play spin number
+20. The longest session I have recorded is 31 spins to finish -12
+units; and that have happened once in 750 sessions.
+
+ When I talk about 90 spins, I'm talking about the worst possible
+scenario. I think it is almost impossible to happen, since either you
+surely will finish the session under circumstance "a" or you will
+finish when you are -12 units before 90 spins (circumstance "b"), or
+you will finish the session under circumstance "c".
+
+ c) As soon as you are -84 or -96 units down, you finish that session.
+Of course it is the less common circumstance.
+
+
+ ALWAYS REMEMBER: There is a maximum of 10 spins to be 12 units up.
+NEVER FORGET THAT.
+
+ After spin number 10, from the time you started to place bets, your
+objective is to be -12 units down. Do not try to profit after 10th
+spin. If you do that, you are not playing "The Garden" system
+properly.
+
+
+ Lets continue with more examples:
+
+
+ These are our numbers from the original example:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11
+
+ x x x x
+
+ x x
+
+ x
+
+
+ Lets say first spin number 23 hits, that would have been a lost, but
+you are not betting first spin, remember?
+
+ What you do now is to add number 23 at the end of the string; but now
+you have 25 numbers; so you cross out the first number of the string,
+ignore numbers with more than one hit, this is easy to do because
+numbers with more than one hit are circled.
+
+ So, you cross out number 19.
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x
+
+ x x
+
+ x
+
+ 23
+
+
+ Lets say next spin number 27 hits, that would have been a lost, but
+you are not placing bets yet, remember?
+
+ So, you add number 27 at the end of the string and cross out number
+1.
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x
+
+ x x
+
+ x
+
+
+ 23, 27
+
+
+ Lets say next spin number 11 hits, that would have been a winning, so
+you can start placing bets next spin.
+
+ So, you circle number 11. Never forget to circle repeaters numbers,
+or if they are already circled, don't forget to add them a "x".
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x
+
+ x x
+
+ x
+
+
+ 23, 27
+
+
+ Now lets say next spin number 36 hits, that is a losing. Now you are
+-24 units down.
+
+ So, you add number 36 at the end of the string and cross out number
+21. Remember not to cross out numbers with more than one hit; that is
+the reason why you don't cross out number 31 in this example.
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x
+
+ x x
+
+ x
+
+
+ 23, 27, 36
+
+
+ Now lets say next spin, number 7 hits, that is a winning. Now you are
+-12 units down.
+
+ So, you add a "x" under number 7. Do not cross out any numbers, since
+there are not new numbers added to the string.
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x x
+
+ x x
+
+ x
+
+
+ 23, 27, 36
+
+
+ Now lets say next spin, number 18 hits, that is a winning. Now you
+are even.
+
+ So, you circle number 18. Do not cross out any numbers, since there
+are not new numbers added to the string.
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x x
+
+ x x
+
+ x
+
+
+ 23, 27, 36
+
+
+ Now lets say next spin number 9 hits, that is a winning. Now you are
+12 units up. Therefore you FINISH THIS SESSION.
+
+
+ So in this example you finished the session under circumstance "a",
+and your winnings-losing balance should look like this:
+
+ -24, -12, 0, +12
+
+
+ Lets see an example of a session finished under circumstance "b":
+
+ -24, -12, 0, -24, -48, -36, -60, -48, -36, -24, (from now on your
+objective is -12) -48, -36, -24, -12
+
+
+ Lets see an example of a session finished under circumstance "c":
+
+ -24, -48, -36, -60, -84
+
+
+ Lets see another example of a session finished under circumstance
+"c":
+
+ -24, -12, 0, -24, -48, -72, -96
+
+
+ What if you have not more numbers with only one hit to cross out?
+
+ This question is the reason why you need to know how many times every
+number have hit.
+
+ If you come across with this situation, you start crossing out
+numbers with two hits. Always remember to cross out the oldest number
+(the closest one to the beginning of the string).
+
+ If you ever come across with the situation in which you have not more
+numbers with two hits, cross out numbers with three hits (this
+circumstance is very rare).
+
+
+ What if a crossed out number hits again?
+
+ When a crossed out number came back, you ADD IT at the end of the
+string and CIRCLE IT since it has hit twice. And you CROSS OUT the
+oldest number with only 1 hit. You should always have only 24 numbers
+in your selection.
+
+ If you come across with a situation in wich a "circled and crossed
+out number" came back, you add it at the end of the string and add a
+"x" under it, since it has hit three times.
+
+
+ Example, lets say that in any given moment your selection look like
+this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x x x
+
+ x x
+
+ x
+
+ x
+
+
+ 23, 27, 36, 5, 32
+
+
+ Next spin, number 21 hits. As it is crossed out, you add it at the
+end of the string and CIRCLE IT since it has hit twice. And you CROSS
+OUT the oldest number with only 1 hit (in this example would be number
+33).
+
+ Now your selection should look like this:
+
+
+ 19, 1, 31, 21, 34, 8, 22, 25, 33, 16, 26, 28, 12, 9, 35, 13, 2, 7,
+24, 29, 20, 18, 0, 11,
+
+ x x x x x
+
+ x x
+
+ x
+
+
+ 23, 27, 36, 5, 32, 21
+
+
+ VERY IMPORTANT GUIDELINES:
+
+
+ Always remember you do not bet in the first spin, you must wait until
+what would have been a winning happens, or until what would have been
+3 loses in a row happens, whatever comes first.
+
+
+ Always remember: There is a maximum of 10 spins to be 12 units up.
+NEVER FORGET THIS RULE.
+
+
+ Always remember that ONLY after a losing you add a new number, and
+cross out a number.
+
+
+ Always remember that ONLY after a winning you circle a repeater
+number, or add a "x" to a repeater number.
+
+
+ How many sessions should you play and what value of chips?
+
+ Well, I think the best is to play two sessions a day, 3 or 4 days a
+week, with $2 chips.
+
+ At least that is what I do. But it's up to you.
+
+ I suggest you to play as a professional player. What it means? Well,
+have discipline, stick to the system instructions and don't be
+greedy.
+
+
+ TESTERS READ THIS:
+
+
+ What I need from you is:
+
+
+ Number of winning sessions.
+
+ Number of losing sessions. As you know, there are three kinds of
+losing sessions (-12, -84, and -96). I need the number of losing
+sessions of all three types.
+
+ Your total winnings-losing balance.
+
+ Also if it is possible, number of winning spins and number of losing
+spins.
+
+ Your opinion.
+
+ Of course feel free to e-mail me if you have any questions.
+
+ Any ideas about any progression or regression to improve results,
+will be welcome.
+
+GARDEN SYSTEM TEST RESULTS REPORT
+
+ HAND TEST RESULTS
+
+ SPINS: 54,008
+ TOTAL SESSIONS: 1,256
+ WON SESSIONS: 991 (Every won session is +12)
+ LOST SESSIONS (-12): 181
+ LOST SESSIONS (-84): 52
+ LOST SESSIONS (-96): 32
+ TOTAL BALANCE: +2,472
+
+
+ LONG TERM COMPUTER TEST RESULTS
+ TEST 1:
+ SPINS: 115,000
+ TOTAL SESSIONS: 2,753
+ WON SESSIONS (+12): 2,211
+ LOST SESSIONS (-12): 341
+ LOST SESSIONS (-84): 132
+ LOST SESSIONS (-96): 69
+
+ TOTAL BALANCE: +4,728
+
+
+ TEST 2:
+ SPINS: 80,000
+ TOTAL SESSIONS: 2,215
+ WON SESSIONS (+12): 1,771
+ LOST SESSIONS (-12): 291
+ LOST SESSIONS (-84): 102
+ LOST SESSIONS (-96): 51
+ TOTAL BALANCE: +4,296
+
+
+ TEST 3:
+ SPINS: 223,000
+ TOTAL SESSIONS: 6,015
+ SESSIONS WON (+12): 4,804
+ SESSIONS LOST (-12): 804
+ SESSIONS LOST (-84): 265
+ SESSIONS LOST (-96): 142
+ TOTAL BALANCE: + 12,108
+
+
+ TEST 4:
+
+ SPINS: 325,148
+ TOTAL SESSIONS: 8,977
+ SESSIONS WON (+12): 6,967
+ SESSIONS LOST (-12): 1,459
+ SESSIONS LOST (-84): 369
+ SESSIONS LOST (-96): 182
+ TOTAL BALANCE: + 17,628
+
+
+ WHAT IT MEANS?
+
+ It means that there are a total of 21,216 sessions.
+ Lets say you play 4 sessions a day, 5 days a week; that would be 80
+sessions a month, or else 960 sessions a year.

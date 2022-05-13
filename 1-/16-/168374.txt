@@ -1,0 +1,33 @@
+Demo-Depot 2
+------------
+
+Grundlage/Strategie
+----------------------------------------------------------------
+- Basis ca. 1400 US-Titel (only)
+- Filterung nach Titeln deren 900 Tage-Trend steigt
+- hieraus Filterung nach Titeln die in den letzten 200 Tagen
+  mindestens 30% zugelegt haben
+- hieraus Filterung nach Titeln deren RSI die '30'-Linie nach oben
+  durchbrochen hat
+----------------------------------------------------------------
+keine Berechnung von Bankspesen (!!)
+
+Einlage am 18.05.1996          100,000.-US$
+
+Datum     K/V   Titel         Anzahl     Kurs     Wert 
+
+18.05.96  K/-   Henseler      130    73,25  9522,50 
+18.05.96  K/-   Scotsman Ind     400    23,00  9200,00 
+18.05.96  K/-   Oneok            350    27,38  9583,00 
+18.05.96  K/-   Craig            650    14,38  9347,00 
+18.05.96  K/-   Prime Hospit     550    17,00  9350,00 
+18.05.96  K/-   Nat. Educat      550    18,00  9900,00 
+18.05.96  K/-   Gap              300    28,88  8664,00 
+18.05.96  K/-   PUVD     350    27,63  9670,50 
+18.05.96  K/-   EDO             1400     7,13  9982,00 
+18.05.96  K/-   Taufrisch           550    17,38  9559,00 
+
+
+                Depotwert:                    94778,00 
+
+                Kontostand                     5222,00

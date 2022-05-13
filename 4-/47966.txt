@@ -1,0 +1,20 @@
+Nochmal parallel zu den anderen Antworten etwas detailierter, den Deine
+Angaben hier sind nicht ganz korrekt/vollständig:
+
+Es gibt zunächst die beiden "üblichen" stop-Aufträgen für Kauf /
+Verkauf, für die man nur die auslösende Grenze mit angibt, ab der dann
+eine unlimitierte Order erzeugt wird.
+Manche Broker bieten auch noch Stop-Limit-Aufträge für normale Aktien an
+- bei Derivaten und so'm Zeugs ist das 'eh Standart. Für solche Aufträge
+gibt man dann 2 Werte an: auslösende Grenze und ein Limit, das bei der
+erzeugten Order beachtet werden soll. Kann natürlich passieren, das man
+wegen diesem Limit dann nicht zu Zuge kommt, weil die nächste
+Preisstellung zu weit entfernt liegt.
+
+So wie es bei Dir gelaufen ist, hast Du wohl erstere Variante gewählt:
+ab 80 unlimitiert rein.
+
+
+  -Oskar
+
+Heute schon ein Moorhuhn geschossen?

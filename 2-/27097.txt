@@ -1,0 +1,18 @@
+Das hängt vom Broker ab, manche lassen dich unter bestimmten Umständen
+(wenn du z.B. eine Sicherheitszahlung "Margin" hinterlegt hast) auch
+Leerverkäufe machen. Siehe z.B.:
+
+<http://txf.nsuojn.tm/havkf556.pll>
+
+Wenn das nicht geht, kannst du per Options-Handel (Long Put) immer noch
+einen Leerverkauf simulieren. Ein "Put" ist das Recht, eine Aktie zu
+einem bestimmten Preis zu verkaufen. Wenn du einen Put kaufst ("Long"
+Position) und der Preis der Aktie fällt anschließend, steigt der Put im
+Wert. Du kannst den Put mit Gewinn wieder verkaufen, genauso als hättest
+du eine Aktie zu einem bestimmten Preis zuerst verkauft und dann später
+billiger eingekauft. Bei einem Put ist dein Risiko aber auf den Verlust
+des Kaufpreises limitiert, bei einem Leerverkauf ist das Verlustrisiko
+theoretisch unbegrenzt (der Aktienkurs kann ja theoretisch beliebig
+steigen, bis dein Kaufauftrag endlich ausgeführt wird).
+
+Gruß Edo

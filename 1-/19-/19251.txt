@@ -1,0 +1,786 @@
+Verkaufe Roulettesystem ,,The Winning Streak" und ,,Nur noch
+Gewinnen" von der weltweit führenden australischen Systemschmiede
+Lossen aus dem Jahre 1990 incl. Video-DCD-Trainingsanleitung und
+Buch für 45.--
+(gebraucht und gut erhalten, Original-DVD und Original-Buch von
+NKR Publsihing)
+
+Der weltbekannte Kesselgucker und Millionengewinner Claudio
+Wätzold, der aber anders heißen soll, hat mit diesem System als
+Kesselgucker Millionen gewonnen.
+Ich spiele das System schon seit Jahren im Casino mit großem Erfolg.
+
+In der Werbung hieß es damals:
+
+Jetzt ist Roulette kein Glücksspiel mehr!
+Die Mathematiker der Welt stehen Kopf! - Denn mit dem neuen
+Gewinnkonzept "The Winning Streak" kann man jetzt mit einer
+Wahrscheinlichkeit von 60:40 die Chance voraussagen, die von der
+Roulettekugel beim nächsten Kugelwurf (Coup) getroffen wird.
+
+Damit ist die Jahrtausend-Sensation perfekt: Wer künftig die neuen
+Richtlinien aus diesem Gewinnkonzept "The Winning Streak" befolgt, wird
+beim Roulette per Saldo nicht mehr verlieren, sondern sicher und
+dauerhaft gewinnen!
+
+Mit Publizierung der sensationellen neuen Roulette-Gewinnfakten durch
+Roulette-Guru und  von der Casino-Zeitschrift "Strohblume"
+zum "Roulette-König" gekürten Claudio Wätzold, beginnt jetzt in
+den Spielsälen eine neue Roulette-Ära.
+
+download full-version Gambling-System-Software
+
+Satz-Regeln  System "Nur noch gewinnen"
+
+Basis sind die SelMcKenziePSAR (ParabolicStopAndReversal)
+Modifizierungen und Veränderungen. Wie im folgenden deutlich wird, ist
+dieser Ansatz bereits in seiner Grundform als adaptives
+Indicatorconcept anwendbar, da die Berechnung Anpassungen beim
+Fortschreiben von Trendbewegungen (Permanenzverlauf) der
+Basis-Strategiy erfährt. Das entscheidende Element eines adaptiven
+Indicatorenconcepts  besteht ganz einfach darin, dass die Bewegungen
+des Permanenzverlaufes eine fast automatische Anpassung der
+Berechnungsparamter für den nächsten Satz hervorrufen.
+Dem Indicator sollte nicht die Aufgabe der Prognose der nächsten
+Permanenz-Bewegung zukommen. Vielmehr liegt der Ansatz darin, innerhalb
+von Trendphasen einen Level (Satz pari oder contra der zuletzt
+gefallenen Chance) darzustellen, welcher bei Fortschreiten des Trends
+nachgezogen wird. Dem Gambler wird damit ständig ein Beendigungsniveau
+geboten, welches verhindern soll, dass erreichte Gewinne wieder
+verloren werden.   Wird eine pari-Position (Satz line) vom
+SelMcKenziePSAR ausgestopt, so geht der Indicator davon aus, dass
+nunmehr eine contra-Position (Satz cross) eingenommen wird. (Stop and
+Reversal).  Bewegt sich der Trend des Permanenzverlaufs dann
+tatsächlich weiter in die mögliche Fehltreffer-Richtung, so wird die
+Stop-Marke in Form des Parabolic nachgezogen, bis sich schliesslich
+eine Gegenbewegung vollzogen hat und sich wiederum der nachgezogenen
+Stop-Marke nähert. Wieder wird von einem Wechsel der zu setzenden
+Chance,  diesmal in die pari-Position (Satz line) , ausgegangen. Dieser
+Vorgang wiederholt sich somit aufgrund der entsprechenden
+Permanenz-Daten laufend.
+Als Start-Signal (erster realer Satz) des SelMcKenziePSAR bei einem
+Chancenwechsel dient immer der in der vorherigen Phase erreichte
+Extremwert. Beim Wechsel auf pari (Satz line) ist dies also die
+längste Serie in der vorherigen  contra-Phase (cross). Beim Wechsel
+auf contra (cross) ist das Satzsignal analog der längsten Serie
+während der vorherigen  pari-Phase (line).
+
+Die formale Berechnung des zu tätigenden Satzes ist denkbar einfach
+und in secundenschnelle erledigt.
+Formel: sPSAR(t),=3DsPSAR(t-1)+(AF*(EP-sPSAR(t1))
+Beispiel:
+.=2E(Permanenzverlauf...)
+.=2E
+23 black , 0 0 2_(+ 1 =3D line)     +1 (Satz auf  red)
+32
+18 red    ,  0 2 0 _(-1 =3D cross)    -1 (Satz auf black)
+Result: Satz bei 24/rot, 1 Stück Gewinn, usw.
+
+Zunächst einmal sollte innert der laufenden Permanenz überprüft
+werden, ob einer neuer Extrempunkt erreicht wurde. Da bei einem
+Positionswechsel (line oder cross bzw.pari oder contra)  regelmässig
+sich ein neues Satzsignal ergibt, entspricht der SelMcKenziePSAR quasi
+einer modifizierten exponentiellen Glättung. Diese error corrections
+form der exponentiellen Glättung  wird nur in soweit verändert, als
+dass zum einen der Glättungsfactor dem Fortschreiten der Trendbewegung
+des Permanenzverlaufes angepasst wird, was den Indicator zu einem
+adaptiven Concept macht.  Zum anderen wird nicht der aktuelle
+Prognosefehler für die Berechnung des folgenden Satzes (pari oder
+contra) der exponentiellen Glättung herangezogen.
+Im praktischen Gambling zur Berechnung des SelMcKenziePSAR muss zu
+Beginn der Partie ein Satzsignal für den Indicator unterstellt werden.
+Der Nähstübchen benötigt somit quasi eine Anlaufphase (ca. 5-10
+Warte-Coups), in der er sich einpendelt. Nach einigen Positionswechseln
+verläuft er aber unabhängig davon , ob zum Partie-Beginn ein Satz
+pari/line oder contra/cross unterstellt wurde. Es bietet sich jedoch
+an, die anfängliche Position passend zu den Bewegungen der
+voranzustellenden Wartecoups anzusetzen. Das Einpendeln des Parabolic
+kann dadurch weitestgehends übersprungen werden.
+
+Liebe Roulettefreunde!
+Heute ist der Tag, der in die Roulette-Geschichte eingehen wird, denn
+die Suche nach dem sicheren Roulette-Dauergewinnkonzept hat nun ein
+Ende. Dem erfolgreichen Roulette-Systemier und Autor des restlos
+vergriffenen Bestsellers "Schweissfüsse, nein danke" Claudio
+Wätzold,  ist der qualitative Sprung in der Roulette-Forschung
+überzeugend gelungen. Er hat als erster Roulette-Forscher auf der Welt
+das Ziel, den absolut sicheren Roulette-Dauergewinn, erreicht
+
+Claudio Wätzold gilt mit weitem Abstand als der bedeutendste
+Empiriker unter den Roulette-Forschern und als der Erste, dem es seit
+Bestehen des Roulette - immerhin 250 Jahre! - gelungen ist, den Zufall
+fest in den Griff zu bekommen. Er hat den in seinem  erschienenen Buch
+"Schweissfüsse, nein danke" zitierten Ausspruch Hanno "Le calcul
+vaincra le jeu" - "Eines Tages wird die Berechnung das Spiel (den
+Zufall) besiegen!" - auf geniale Art und Weise bestätigt und das
+geschafft, an dem die grossen Geister der Mathematik in der
+Vergangenheit gleich reihenweise gescheitert sind.
+
+Claudio Wätzold hat mit seinem neuen Roulette-Gewinnkonzept "The
+Winning Streak" dem bislang als unberechenbar gegoltenen Zufall "die
+Seelenachse" verbogen und das Roulette-Spiel vom Glücksspiel zum
+Gewinn bringenden Geschicklichkeitsspiel gewandelt. Durch den
+permanenten Gewinnüberschuss von ca. 20 % (im Durchschnitt werden von
+100 Sätzen 60 gewonnen und nur 40 verloren) kann man mit dieser
+Satzstrategie per Saldo nur noch gewinnen und nicht mehr verlieren!
+Würde die Roulette-Wissenschaft nicht allgemein als
+"Pseudo-Wissenschaft" eingestuft, müsste Claudio Wätzold  jetzt
+den "Nobelpreis für Ludographie" (die Lehre vom Spiel) erhalten. - Und
+ein paar Ehrendoktorhüte internationaler Universitäten wären ihm
+auch sicher!
+
+download full-version Gambling-System-Software
+
+Hier das Interview mit dem Gambler und Millionengewinner Claudio
+Wätzold:
+
+TeamROULETTE: Mister Wätzold, wir haben uns viele Jahre lang
+vergeblich bemüht, Ihre neue erfolgreiche Roulette-Gewinnstrategie
+kennen zu lernen. Jetzt  sind Sie plötzlich gesprächsbereit.. Was ist
+der Grund für Ihren plötzlichen Sinneswandel?
+
+Claudio Wätzold: Ich sehe mich  als selbstlosen Menschenfreund.
+Wenn ich grundsätzlich nicht abgeneigt bin, mein Gewinnkonzept zu
+publizieren, dann aus zwei Gründen:
+
+   1.
+
+      In der Vergangenheit wurden zahlreiche Systemspieler durch starre
+Spielweisen in die Irre geleitet und mussten teils beträchtliche
+Verluste hinnehmen. Auch der Systemvorschlag in meinem  erschienenen
+Buch "Schweissfüsse, nein danke" macht hier keine Ausnahme. Ich weiss
+heute, dass vollkommen starre Systeme nach sogenannten festen Regeln
+auf  Dauer keinen Gewinn bringen. Mit meinem neuen, logisch aufgebauten
+Creativ-Spiel können sich die Roulettespieler jetzt alle ihre Verluste
+aus den Casinos zurückholen.
+   2.
+
+      Mit Publizierung meines neuen Roulette-Gewinnkonzepts  " The
+Winning Streak " werde ich in die Roulette-Geschichte eingehen.
+Künftige Spielergenerationen werden nach meinem Konzept spielen und
+gewinnen.
+
+download full-version Gambling-System-Software
+
+TeamROULETTE: Das sind markige Worte, die allein nicht überzeugen.
+Ausgeprägtes Selbstbewusstsein bringt nicht einen einzigen
+Gewinnjeton.
+
+Claudio Wätzold: Über welchen Weg ich mein Gewinnkonzept "The
+Winning Streak" gegebenenfalls publiziere und mir damit persönliche
+Genugtuung verschaffe, ist an sich völlig gleichgültig. Ich kenne
+nämlich einige technische Direktoren und auch Konzessionäre von
+verschiedenen Casinos. Mit einem davon habe ich über mein
+Gewinnkonzept und meine Veröffentlichungsabsicht kurz gesprochen.
+Seine Antwort lautete: "Kommen Sie mit soviel Leuten, wie Sie wollen,
+kommen Sie mit soviel Geld wie Sie wollen, Sie sind alle jederzeit bei
+uns gern gesehene Gäste!" Sie sehen, liebe Gambler, Systemspieler
+werden nicht ernst genommen. Und das soll sich ändern! Ich will Ihnen
+aber einen Vorschlag machen:  Ich spiele Ihnen nach den Richtlinien von
+"The Winning Streak" 6 Monate lang jeden Tag  und überall anhand
+authentischer Roulette-Permanenzen vor. Sie lesen mir die
+Roulette-Permanenzzahlen in der Reihenfolge ihres Erscheinens vor und
+ich sage Ihnen, auf welche Chance ich setzen werde. Also "Rot" oder
+"Schwarz" oder "kein Satz". Sie können mich also direkt kontrollieren,
+indem Sie die Gewinne und Verluste, Kapitalbedarf und Spieldauer exakt
+aufzeichnen. Nach Analyse der Spielresultate aus 6 Monatspermanenzen,
+die Sie aussuchen und die mir völlig unbekannt sind, können Sie dann
+entscheiden, ob mein Roulette-Gewinnkonzept "The Winning Streak"
+tatsächlich dauerhaft gewinnt oder ob ich ein Phantast bin.
+
+TeamROULETTE: Ihr Vorschlag ist akzeptabel. Dennoch möchten wir Sie
+auch direkt am Roulette-Spieltisch mit Ihrem eigenen Geld spielen
+sehen. Geben Sie uns auch zu diesem Praxistest entsprechende
+Gelegenheit?
+
+Claudio Wätzold: Aber ja! -Wir bleiben telefonisch in Kontakt und
+ich sage Ihnen, wo ich mich gerade aufhalte und in welchem Casino ich
+spiele. Wenn Sie wollen, spiele ich Ihnen überall  in jedem Casinos
+mein Gewinnkonzept "The Winning Streak"  vor.
+
+
+TeamROULETTE: Betrachten Sie sich als Berufsspieler?
+
+Claudio Wätzold: Nein, keineswegs. Ich spiele, weil es mir
+riesigen Spass macht, und natürlich, weil ich Erfolg habe.
+
+TeamROULETTE: Mit welchen Jetoneinheiten spielen Sie " The Winning
+Streak"?
+
+Claudio Pumpernickel: Immer wenn ich eine Partie beginne, habe ich 9
+Stücke Tischkapital in gleichen Jetonwerten parat. Für den
+Eventualfall halte ich ein Reservekapital in gleicher Höhe verfügbar.
+Interessant ist mein Gewinnkonzept, wenn man mit 100-er-Jetons beginnt
+und durch Kapitalisierung, also Zuschlag der Gewinne zum
+Anfangskapital, den Jetonwert permanent steigert. Man spielt dann sehr
+bald mit dem Geld der Bank. Ich selbst spiele inzwischen je nach Casino
+mit 1.000-er-Jetons , hier sehe ich auch mein selbstgesetztes
+Einsatzlimit! Meine Devise ist in jeder Hinsicht leben und leben
+lassen. Geld ist nicht alles auf dieser Welt.
+
+TeamROULETTE: Mister Wätzold, seit Sie  in den Medien zum
+Roulette-König gekürt wurden, gelten Sie als einer der
+erfolgreichsten Roulettespieler und durch die Veröffentlichung Ihres
+damaligen Bestsellers "Schweissfüsse, nein danke" sind Sie zur
+unbestrittenen Nummer 1 unter den Roulette-Wissenschaftlern
+aufgestiegen. - Wie sind Sie zum Roulettespiel gekommen?
+
+Claudio Wätzold: Ja, wie bin ich zum Roulettespiel gekommen? Da
+muss ich etwas weiter ausholen. Mein Grossvater väterlicherseits, ein
+obdachloser Tippelbruder, hatte meinem Vater in seiner Jugend das
+Versprechen abgenommen, nie in seinem Leben Schulden zu machen und nie
+ein Casino zu betreten. Mein Vater hatte mir dann später das selbe
+Versprechen abgenommen. Danach  war ich Knöpfe- und
+Schnürsenkel-Verkäufer und musste natürlich beim Verkauf treppauf
+treppab die Wohnsilos abklappern. Für Casinos hatte ich absolut keinen
+Sinn und kein Interesse! Bis mir ein Kunde erzählte, dass er total vom
+Roulette lebte und zwar sehr gut. Zum Zeichen dafür kam er immer nach
+seinem Casinobesuch mit einem der damaligen Autos vorgefahren, einem
+Gogomobil!  Eines Tages bot er mir an, mir sein Super-System zu
+verraten! Weil ich zu der Zeit schon das Klinkenputzen leid hatte , war
+ich natürlich sehr interessiert.  Mein Entschluss, als Knöpfe- und
+Schnürsenkel-Verkäufer auszusteigen, war schon lange gefasst und da
+ich gute Angebote von anderen Firmen  (Verkauf von Hosenträgern oder
+Zeitungsabonnements) hatte, verkaufte ich meinen Bauchladen  und war
+plötzlich ein freier Mann! Ich hatte dann allerdings die
+Wahnsinnsidee, in Zukunft auch vom Roulette leben zu wollen. Nach
+einigen Studien - ich besorgte mir damals die gesamte
+Roulette-Literatur   und dann  ging`s  los! Ich weiss noch, dass ich
+als "Roulette-Anfänger" mit einem selbst ausgedachten Paroli-Spiel auf
+den Einfachen Chancen in den ersten 14 Tagen sehr gut gewann! Der Virus
+hatte mich infiziert! Das Spiel hielt natürlich nicht stand und nach
+einiger Zeit war alles wieder weg. Man kennt ja dieses
+Anfänger-Glück!
+
+TeamROULETTE: Wir möchten Sie nun zu Ihrem Meisterwerk "The Winning
+Streak" befragen, mit der Bitte um präzise, klare Antworten. Welche
+Chancen bespielen Sie?
+
+Claudio Wätzold: Ich spiele, wie von Anfang an, immer nur die
+Einfachen Chancen (Schwarz/ Rot, Pair/ Impair, Manque (1-18)/ Passe
+(19-36). Meine spezielle, jahrelange Erfahrung auf diesem Gebiet, hat
+mir letztendlich zur endgültigen Lösung verholfen. - Es war mir immer
+klar, dass man wahrscheinlich die 50 % Chancen am besten in den Griff
+bekommen kann. Deshalb habe ich auch "stur" daran festgehalten, obwohl
+mich viele angebliche Fachleute oft mitleidig belächelt haben. Mein
+Gewinnkonzept "The Winning Streak" steht auf einem sicheren Fundament
+und wird selbst kritische Mathematiker überzeugen: An der Tatsache,
+dass jeder Satz auf Schwarz/ Rot nach wie vor 50 : 50 ist, ändert sich
+nichts! Auch hat der nächste Coup mit dem letzten Coup nichts zu tun:
+Jeder Coup ist neu! Aber die "Erscheinungsformen" mehrerer Coups
+zusammen wiederholen sich oft periodisch. Dies kann man mit Hilfe der
+Konvergenz-Überprüfung der Permanenzverläufe untereinander mit
+entsprechender Erfahrung, Lernbereitschaft und Geschicklichkeit
+erkennen und auswerten. Entscheidend für eine Konvergenz-Auswertung
+ist die Tatsache, dass durch meine neue Permanenz-Umformung 3
+Spielstränge verschiedene vorgegebene Rhythmen haben (2-er, 3-er, 4-er
+Rhythmus) aber alle aus einer Quelle gespeist werden. Dadurch sind sie
+absolut gleichwertig und haben "Mitspracherecht" bei der Entscheidung:
+Satz auf Rot - Schwarz - oder kein Satz! Das alles geht aber nur bei
+den 50 %-igen Chancen, den Einfachen Chancen beim Roulette. - Unklare
+Sätze werden nicht getätigt! Der Gewinn besteht in erster Linie aus
+eingesparten Verlust-Coups! Das Ganze ist also eine "empirische
+Lösung", die von der Kaste der Mathematiker sträflich vernachlässigt
+wurde. Als "Utopist" und "Traumtänzer" belächelt, habe ich für die
+Richtlinien meiner Gewinnstrategie "The Winning Streak" jahrelange
+"Einfache Chancen-Erfahrung" gebraucht! Im Casino spiele ich nur auf
+Schwarz/ Rot. Man kann mein Gewinnkonzept natürlich auch auf jedem
+anderen Chancenpaar genauso erfolgreich spielen. Dann ist das Spiel
+entsprechend satzreicher und benötigt das 2-fache Tischkapital von je
+9 Stücken.
+
+TeamROULETTE: Warum bringt Ihr neues Roulette-Gewinnkonzept "The
+Winning Streak" so unglaublich hohe Gewinne von durchschnittlich 20 %?
+
+Claudio Wätzold: Wir haben alle bisher nicht nur den Fehler
+begangen, uns von einer einzelnen Tischpermanenz abhängig zu machen,
+sondern wir haben auch viel zu viele Figuren gespielt, die alle
+irgendwann ihre gemeinsame Minus-Phase haben und den verlustigen
+Summier-Ecart produzieren. Das kann jetzt nicht mehr passieren.
+
+   1.
+
+      Es wird nur noch eine einzige Konstellation gespielt und zwar an
+einer markanten Stelle. Sie wird auch nur einmal angespielt.
+   2.
+
+      Es wurde eine Matrix zur Umformung der Tischpermanenz entwickelt,
+die Ballungen produziert, die sich über alle 3 Stränge eines Blocks
+erstrecken. Dies ist am Spieltisch selbst mit allen 3 Einfachen Chancen
+nicht oder nur sehr selten möglich. Oder haben Sie schon einmal
+erlebt, dass über eine Strecke von 30 - 40 Coups auf allen 3 Strängen
+bei SR-PI-PM ausschliesslich nur Zweier oder nur Serien laufen?
+   3.
+
+      Die Hauptgrundlage meines Roulette-Gewinnkonzepts "The Winning
+Streak" ist die Zerlegung der Original-Tischpermanenz in drei Teile:
+"Von Dreien ist einer immer der Beste". Wenn nach der Grundregel 3 x 24
+=3D 72 Coups (Kugelwürfe) gespielt sind und ein Gewinn von mehr als 2
+Stücken (=3DStück ist die allgemeine Bezeichnung für einen Jeton der
+gleichen Werteinheit) erzielt wurde, dann wird der beste "Block" (oder
+auf zwei gleich gute) noch mal angegriffen und ein Stück vom Gewinn
+riskiert. Ab 5 + werden 2 Stücke riskiert, mehr nicht. Es gibt auf
+diese Weise riesige Plus-Läufe von 15, 18 und sogar über 20
+Gewinnstücken, rein masse-=E9gale, also ohne jegliche Satzsteigerung im
+Gleichsatz!
+   4.
+
+      Auch die fundamentalen Erkenntnisse der berühmter Mathematiker
+sind in mein Gewinnkonzept eingebaut, dass nämlich bei einer
+Chancenverteilung von 50 :50 fast immer eine Seite der anderen
+"davonläuft" (Einseitigkeit).
+   5.
+
+      Die Erscheinungsformen und die Erscheinungsweisen auf den
+Strängen der Permanenzumformung liefern das Satzsignal. Bevor jedoch
+gesetzt werden kann, wird abgecheckt, was der Strang, auf dem der echte
+Satz getätigt werden soll, dazu sagt! Ob das jetzt in seine
+Erscheinungsform der letzten ca. 12 - 18 Coups passt? Auch die beiden
+anderen Stränge des Blocks haben ein "Mitspracherecht". Dieser Teil
+von "The Winning Streak" macht mein Gewinnkonzept zu einem kreativen
+Spiel und darin liegt die Überlegenheit. Man kann die
+Angriffsstrategie ein wenig mit Schach vergleichen. Der Anwender wird
+meine Richtlinien durch Beobachtung, durch Erfahrung und durch das
+Sammeln von Erkenntnissen immer besser spielen! Das Roulettespiel wird
+ähnlich dem "Kesselgucken" in gewisser Weise zum
+Geschicklichkeitsspiel und dadurch auf Dauer unverlierbar. Jeder
+Spieler wird - egal wie er die Dinge sieht - öfter die richtige
+Entscheidung treffen! - Von 100 Entscheidungen wird er 60 mal richtig
+liegen, das sind die bisher von keinem einzigen System erreichten 20 %
+Dauer-Gewinnüberschuss! - Ich habe in jahrelanger Roulette-Erfahrung
+und in 2 Jahren Computer-Prüfungen erkannt und eingesehen, dass alle
+Spielmethoden mit komplett starren Regeln absolut auf  Dauer nicht
+funktionieren können!
+
+TeamROULETTE: Sind bei Ihrem Gewinnkonzept lange Beobachtungszeiten
+erforderlich und wie lange ist die effektive Spielzeit pro Partie?
+
+Claudio Wätzold: Der hohe Gewinnüberschuss meines Gewinnkonzepts
+"The Winning Streak" kommt unter anderem dadurch zustande, dass nur die
+Sätze getätigt werden, die eine hohe Trefferwahrscheinlichkeit haben.
+Das erste Satzsignal ergibt sich in der Regel nach einem Vorlauf, der
+Beobachtungsphase des Spiels, die verschieden lang sein kann. Nach ca.
+18 bis 24 Beobachtungscoups werden grundsätzlich 3 x 24 =3D 72 Coups
+effektive Spielzeit veranschlagt, das entspricht am Normaltisch einer
+Spielzeit von ca. 90 Minuten. Beim Spiel an dem von mir bevorzugten
+Quick-Table (Schnelltisch) oder American Roulette reduziert sich die
+effektive Spielpartiedauer auf etwa 60 Minuten. Wenn zu diesem
+Zeitpunkt 1- 2 Stücke Gewinn erreicht wurden, wird die Spielpartie mit
+diesem Stand beendet. Bei einem eventuellen Minus-Saldo wird weiter
+gespielt bis 1 + oder maximal 3 x 64 Coups. Bei 3 - 4 Stücken Gewinn
+wird nur noch 1 Stück riskiert. Bei Verlust dieses Stückes wird die
+Partie mit + 2 oder + 3 beendet. Ab + 5 werden 2 Stücke riskiert,
+nicht mehr. - Hierzu ein beispielhaftes Gleichnis! Mein Gewinnkonzept
+"The Winning Streak" wird wie beim Fussball in 2 Halbzeiten gespielt.
+Die erste dauert immer 72 Coups. Wenn wir mit 1:0 oder 2:0 vorne
+liegen, wird die 2. Halbzeit gar nicht mehr gespielt. Wir haben bereits
+gewonnen! Da würden sich die Fussball-Trainer die Hände reiben, die
+oft bei einem solchen Halbzeitstand das Spiel in der 2. Hälfte noch
+verlieren! Wenn wir aber mit 3:0 oder höher vorne liegen, dann tun wir
+noch was für`s "Torverhältnis", das heisst, in diesem Fall bestehen
+wir auf einer "2. Halbzeit", die aber sofort bei einem "Gegentor"
+endet! Kommen wir aber auf 5:0, dann bestimmen wir, dass noch weiter
+gespielt wird, bis wir 2 x verloren haben. In meinen Spielstatistiken
+gibt es auf diese Weise "Spiele" =3D "Partien" mit + 8 bis + 21!!! - Wenn
+es aber nach der "1. Halbzeit"0:0 oder gar 0:1 oder 0:2 oder noch
+schlechter steht (das ist bei 1/3 der Partien der Fall - mathematisch
+müsste es bei der Hälfte der Fall sein!!), dann muss eine 2. Halbzeit
+bis zum "Golden Goal" zu unseren Gunsten weitergespielt werden ( 1:0 =3D
++ 1). Wenn also nach Erreichen von 0:0 zuerst der Gegner gewinnt (0:1 =3D
+- 1), dann gilt das nicht als "Golden Goal", sondern nur wenn zu
+unseren Gunsten! - Es könnte jetzt natürlich auch passieren, dass wir
+bei einer extrem schlechten Tagesform 0:9 verlieren. Das wäre dann bei
+uns der Verlust eines Tischkapitals von 9 Stücken. Rein statistisch
+ist das in 6 Monaten tatsächlich nur 1 mal vorgekommen. Spätestens
+jetzt werden Sie verstehen, warum ich für meine unverlierbaren
+Richtlinien den Titel "The Winning Streak" gewählt habe, mit dem
+ebenfalls zutreffenden Untertitel: "Das erste und einzige absolut
+gewinnsichere Roulette-Gewinnkonzept für Einfache Chancen!" - Hier die
+statistischen Daten aus mehr als 1.000 effektiv gespielten Partien: -
+Effektive Durchschnitts-Spielzeit in Coups: 60 - Kürzeste Spielpartie
+in Coups: 36 - Längste Spielpartie in Coups: 180 - Pro Partie werden
+durchschnittl. 13 Stücke im reinen Gleichsatz (masse-=E9gale) gesetzt -
+Durchschnittl. Partiegewinn 2 - 3 Stücke - 5 Sätze bringen 1
+Gewinnstück - 10 Sätze bringen 2 Gewinstücke - 100 Sätze bringen 20
+Gewinnstücke =3D 20 % Reingewinn!
+
+TeamROULETTE: Ist Ihr neues Gewinnkonzept buchungsaufwendig?
+
+Claudio Wätzold: Im Laufe der Jahre bin ich mit einer ganzen
+Anzahl Casino-Besuchern ins Gespräch gekommen. Vorwiegend
+Hobby-Spielern, aber auch mit einigen Berufsspielern. Beim
+gelegentlichen Erfahrungsaustausch und effektiven Satz zeigte sich
+immer wieder, dass mein Gewinnkonzept "The Winning Streak"
+buchungstechnisch nur minimalsten Aufwand erfordert. Wenn die
+Hobby-Spieler noch mit hochrotem Kopf buchen, habe ich schon meinen
+Satz platziert. Die reine Buchungszeit mit Satzermittlung liegt bei
+etwa 25 Sekunden. Genügend Zeit zum Gewinnabzug und zur neuen
+Satzplatzierung, wenn man als Richtlinie nimmt, dass nach
+internationaler Norm alle 2 Minuten ein Coup geworfen wird.
+
+TeamROULETTE: Es gibt Spielmethoden, bei denen ein umfangreicher
+Regelkatalog beachtet werden muss, der schliesslich zur Unspielbarkeit
+einer Strategie führen kann. Ist Ihr Gewinnkonzept "The Winning
+Streak" in diesem ganz wichtigen Punkt spielerfreundlich?
+
+Claudio Wätzold: Diese Frage kann ich uneingeschränkt bejahen.
+Auch ich habe Spieler beobachtet, die bis zu 5 Buchungsformulare
+führten. Solche Spielformen beinhalten eine immense Fehlerquote.
+Dagegen ist bei meinem Gewinnkonzept "The Winning Streak" nur ein
+einziger Buchungsvordruck zu verfolgen, auf dem nur eine ganz bestimmte
+Permanenzkonstellation kontrolliert wird, die je nach
+Einsatzrichtlinie, auf Abbruch oder Fortsetzung bespielt wird. Mein
+Gewinnkonzept hat, obwohl es so erfolgreich ist, nur ganz wenige
+Richtlinien, die sich auch ein Casino-Neuling kurzfristig aneignen
+kann.
+
+TeamROULETTE: Wie viel Spielkapital benötigen Sie, um Ihr
+Gewinnkonzept "The Winning Streak" erfolgreich abzuschliessen, und mit
+welchen Jetonwerten empfiehlt sich das Spiel?
+
+Claudio Pumpernickel: Der Roulettekessel ist nicht mit einem
+exorbitant hohen Spielkapital bezwingbar, sondern nur mit einem
+ausgefeilten Gewinnkonzept. Das Tischkapital sollte so limitiert sein,
+dass ein eventueller Tagesverlust den viel häufiger auftretenden
+Gewinnpartien adäquat gegenübersteht. Mein Tischkapital beträgt 9
+Jetons eines beliebigen Wertes. Da ich ein Sicherheitsfanatiker bin,
+habe ich eine Kapitalreserve gebildet, die das 4-fache Tischkapital
+umfasst. Ein Erstspieler kann die Gewinnstrategie "The Winning Streak"
+mit Einsätzen im 100-er-Jetonwert  beginnen. Dieses geringe
+Startkapital lässt sich kurzfristig durch mein neues
+Kapitalisierungsmodell, das Bestandteil von "The Winning Streak" ist,
+enorm steigern, ohne eigene Mittelzuführung. Mit meiner
+Kapitalisierung ist es erstmals möglich, sich in wenigen Wochen bis
+zum Tisch-Maximum hochzuarbeiten. Wie schon erwähnt, besteht das
+Startkapital aufgrund der grossen Überlegenheit, lediglich aus 5 x 9
+Stücken! Es wird aber jeweils nur ein Kapital von 9 Stücken
+eingesetzt, mit dem der "Durchmarsch" bis zum Tisch-Maximum versucht
+wird. Das Ziel ist, nicht nur zu kapitalisieren, sondern auch fleissig
+Geld zu entnehmen! - Immer nach + 3 Gewinnstücken wird beides gemacht.
+
+
+TeamROULETTE: Mister Pumpernickel, Ihnen ist bekannt, dass eine
+Vielzahl von Spielmethoden angeboten werden. Der prophezeite Gewinn ist
+häufig von sehr zweifelhafter Dauer. Folglich muss sich auch Ihr
+Gewinnkonzept mit der provokanten Kernaussage "The Winning Streak"
+vorerst gefallen lassen, dass  dieses Interviews Skepsis hegt. Womit
+können Sie nachhaltig den totalen Dauergewinn Ihres Gewinnkonzepts
+"The Winning Streak" unter Beweis stellen?
+
+Claudio Wätzold: Zunächst bin ich durchaus in Kenntnis, dass
+viele dubiose Systeme angeboten werden. Aber man sollte das Kind nicht
+mit dem Bade ausschütten, es gibt auch Spielmethoden, die Gewinne
+bringen. Ich möchte nur die in Systemspielerkreisen bekannten
+Spielmethoden der französischen Rouletteforscher Dürselen und Holtfoth
+erwähnen. Ich selbst würde diese Methoden heute allerdings nicht mehr
+spielen, weil sie sehr satzarm und äussert buchungsintensiv sind.
+Ausserdem müsste man wegen der enormen Ecarts (=3D Ungleichheit zwischen
+einer Doppelchance) tage- und wochenlang spielen, um aus dem Minus
+herauszukommen. Ganz zu schweigen von dem hohen Kapitalbedarf. Bei
+meinem neuen Gewinnkonzept "The Winning Streak" habe ich Erkenntnisse
+zugrunde gelegt, die zum Teil völlig neu und zum anderen Teil uralt
+sind. Es geht nicht mehr um das Spielen nach Figuren oder Spannungen,
+es geht um die Tatsche periodischer Wiederholungen von bestimmten
+Erscheinungsformen bei einem Chancenverhältnis von 50 : 50. Im Laufe
+des letzten Jahrzehnts habe ich immer wieder versucht, die
+Binominalverteilung der Roulettezahlen und das 2/3-Gesetz auf die
+Einfachen Chancen zu übertragen. Diese beiden Naturgesetze werden zwar
+von allen Mathematikern anerkannt, aber nicht zur Anwendung beim
+"Glücksspiel" Roulette. Direkt kann man sie natürlich auch nicht auf
+die Einfachen Chancen übertragen, aber auf einem Umweg und über eine
+speziell hierfür entwickelte Umformung der Tischpermanenz ist dies
+jetzt möglich geworden. Ich weiss aus langjähriger Beschäftigung mit
+Favoriten-Spielen auf Transversalen, dass diese nur dann funktionieren
+können, wenn man nicht einfach darauf los spielt, sobald sich die
+Favoriten abzeichnen, sondern dass man unbedingt die früheren
+Erscheinungsformen und deren Abstände beachten muss. Und das mache ich
+jetzt bei den Einfachen Chancen - besser gesagt nur bei einer davon.
+Ich habe mich aus vielen praktischen Gründen für Schwarz und Rot
+entschieden. Meine neue Umformungs-Matrix zerlegt die Tischpermanenz in
+drei Teile, so dass wir sozusagen an 3 Tischen spielen. Diese Art der
+Permanenzumformung ist bisher noch nicht angewandt worden und ich
+wundere mich, dass noch kein Roulette-Forscher je daran gedacht hat.
+Und hier fängt schon das wichtigste Neue an, nämlich das "Denken in
+Wahrscheinlichkeiten". Einer dieser "3 Tische" bringt mit grosser
+Wahrscheinlichkeit nämlich die Periodizitäten, die wir beobachten und
+verfolgen.  Jede unserer 3 neuen Permanenzen enthält durch die
+spezielle Matrix noch mal 3 Stränge, die in gewisser Weise wie die
+drei Einfachen Chancen zusammenhängen. Hier gibt es zwangsläufig
+eindeutige Ballungen und Erscheinungsformen bzw. -abstände. In meiner
+von Hand gefertigten Statistik über 2.000 gesetzte Stücke "masse
+=E9gale" war der höchste Ecart "11". Der Nettogewinn betrug über 20 %.
+Das ist für Einfache Chancen sensationell! Kein vernünftiger
+Roulette-Spieler wird jemals noch ein anderes
+Einfache-Chancen-Spielkonzept erwerben! - "The Winning Streak" ist
+unschlagbar!  Die Mathematiker der Welt stehen Kopf! Denn ich habe den
+Beweis erbracht, dass Roulette kein reines Glücksspiel mehr ist! Nach
+meinem Gewinnkonzept kann man lernen - wie beim Schachspiel - den
+nächsten "Zug" des Gegners, in unserem Fall den nächsten Kugelwurf,
+mit einer Wahrscheinlichkeit von 60:40 vorauszusagen! Wer die
+Richtlinien von "The Winning Streak" einhält und genügend Disziplin,
+Geduld und Intelligenz hat, wird per Saldo nicht mehr verlieren. Er
+wird tatsächlich auf Dauer nur noch gewinnen! Die "Spieltheorie" sagt:
+Wenn es eine Möglichkeit gibt, dass der Spieler Einfluss nehmen kann,
+dann ist das betreffende Spiel - wie Skat, Bridge, u. a. - kein
+Glücksspiel mehr. Und mit meinem Gewinnkonzept "The Winning Streak"
+kann der Spieler durch geschickte Auswertung von vorangegangenen
+Informationen und durch das erlernbare "Denken in Wahrscheinlichkeiten"
+beim Roulette vom "Spieler" zum "erfolgreichen Spekulanten" werden. Und
+das mit wesentlich höherer Rendite als an der Börse oder bei einer
+anderen seriösen Geldanlage. Wo gibt es sonst 5 - 10 % pro Tag (nicht
+pro Jahr!). Das fällt Börsianern nicht mal im Traum ein! Durch die
+Publizierung meiner neuen Erkenntnisse beginnt jetzt in den Spielsälen
+eine neue Roulette-Ära! - Schlechte Zeiten für die Casinos! - Gute
+Zeiten für die Roulette-Spieler!
+
+Team Mitnahmelager: Mister Wätzold, wir danken Ihnen für dieses
+Gespräch.
+
+download full-version Gambling-System-Software
+
+Zusammenfassung:
+
+=B7 Das neue Gewinnkonzept
+Claudio Wätzold hat ein Roulette-Gewinnkonzept entwickelt, mit
+dem es erstmals möglich geworden ist, die Einfachen Chancen (z. B. Rot
+oder Schwarz) vorauszusagen, die mit hoher Wahrscheinlichkeit beim
+nächsten Kugelwurf getroffen werden. Die Trefferquote für den
+Erstsatz beträgt 60 % bei 40 % Nichttreffern. Nach 100 Sätzen im
+reinen Gleichsatz (masse-=E9gale) werden demnach durchschnittlich 20
+Stücke (Jetons) gewonnen, was einem prozentualen Gewinnüberschuss von
+sensationellen 20 % entspricht. Claudio Wätzold hat für sein
+neues Gewinnkonzept Erkenntnisse zugrunde gelegt, die alt eingefahrene
+Wege verlassen. Es geht nicht mehr um das Spielen nach Figuren oder
+Spannungen, es geht um die Tatsache periodischer Wiederholungen von
+bestimmten Erscheinungsformen der 50 : 50 Chancen (Schwarz/ Rot, Pair/
+Impair, Passe/ Manque). Gespielt wird, zur Garantie eines geringst
+möglichen Ecarts (=3D unterschiedliche Trefferquote, die eine Chance
+gegenüber der anderen Chance aufweist), nur ein einziges markantes
+Permanenzbild. Die Systemspieler haben bisher nicht nur den Fehler
+begangen, sich von einer einzelnen Tischpermanenz abhängig zu machen,
+sondern es wurden auch viel zu viele Figuren gespielt, die alle
+irgendwann ihre gemeinsame Minus-Phase haben und dann den verlustigen
+Summier-Ecart produzieren. Das kann jetzt nicht mehr passieren!
+
+=B7 Die Spiel- und Satztechnik
+
+Claudio Wätzold ist es durch eine speziell entwickelte Umformung
+der Tischpermanenz gelungen, die Binominalverteilung der Zahlen und das
+2/3-Gesetz auf die Einfachen Chancen zu übertragen. Seine neue
+Umformungsmatrix produziert Permanenz-Konstellationen, die sich am
+normalen Roulette-Tisch nicht oder nur sehr selten bilden. Dieses neu
+entdeckte, Gewinn bringende Permanenzbild wird nur noch an einer
+markanten Stelle angegriffen. Es wird auch nur einmal angespielt und
+produziert somit eine hohe Trefferquote. Zum Satz kommen
+ausschliesslich die Einfachen Chancen. Im Mittel sind ca. 18
+Vorlaufcoups erforderlich, die das Satzsignal  festlegen. Der Anwender
+liest danach fortlaufend vom Buchungsvordruck den nächsten Satz auf
+rot oder Schwarz ab. Generell wird dann 1 Stück (Jeton) in beliebigem
+Wert gesetzt, jegliche Satzsteigerung unterbleibt. Statistisch ist nach
+5 gesetzten Coups 1 Stück Gewinn realisiert. Nach 10 gesetzten Coups
+sind es 2 Stücke Gewinn, nach 100 gesetzten Coups 20 Stücke usw.
+
+=B7 Die Gewinnerwartung
+
+Claudio Wätzold 's Gewinnkonzept "The Winning Streak" erfordert
+eine Spielzeit von 72 Coups pro Partie. Zur Mitnahme von grossen
+Gewinn-Wellen, die über 20 Gewinnstücke rein masse-=E9gale (im
+Gleichsatz) betragen, werden solche Partien bis 192 Coups gespielt. Im
+Rahmen eines Casinobesuches können beliebig viele Partien gespielt
+werden. Im statistischen Mittel werden pro Partie ca. 13 Stücke
+gesetzt. Daraus errechnet sich ein Gewinn von 2 - 3 Stücken je Partie.
+Stück ist der gebräuchliche Ausdruck für einen gewonnenen Jeton. Da
+das Gewinnkonzept "The Winning Streak" im reinen Gleichsatz gespielt
+wird und durch Kapitalisierung der Gewinne Maximum-Sätze mit
+10.000er-Jetons und höher möglich sind, summieren sich selbst wenige
+Gewinnstücke zu hohen Gesamtgewinn-Beträgen.
+
+=B7 Der Kapitalbedarf
+
+Der Kapitalbedarf für das Gleichsatz-Gewinnkonzept "The Winning
+Streak" ist äusserst minimal. Bei jedem Partiebeginn sind genau 9
+Jetons in einem beliebigen Wert verfügbar zu halten. Die Spielpraxis
+hat ergeben, dass dieses Tischkapital voll ausreichend ist. Die
+Relation vom Kapitalbedarf zum Partie-Durchschnittsgewinn ist optimal
+und ermöglicht schon nach ca. 3 Partien eine Kapitalverdoppelung.
+
+=B7 Die Buchungsnotizen
+
+Um Claudio Wätzold 's neues Gewinnkonzept "The Winning Streak" am
+Roulette-Tisch problemlos spielen zu können,ist nur einen sehr
+geringen Schreibaufwand erforderlich. Jede geworfene Zahl wird notiert
+und den 3 Strängen der Permanenzumformung zugeordnet. Für jeden
+Strang entsteht damit ein eigener Permanenzverlauf. Aus dem
+Permanenzbild ist optisch sofort erkennbar, welche Marsch-Richtlinie
+anzuwenden ist. Treffer werden mit Pluszeichen, Fehltreffer mit
+Minuszeichen notiert. Aus der entstehenden Plus-/ Minus-Formation sind
+die zu tätigenden Sätze problemlos ablesbar, sie springen förmlich
+ins Auge.
+
+Anwender-Meinungen:
+
+Benedikt M., Roderath
+Habe mit der Strategie "The Winning Streak" nach anfaenglichen
+Permanenz-Probepartien mein erstes Spiel im Casino absolviert und mit
+Gewinn beendet. Besser konnte es nicht anfangen. Inzwischen habe ich im
+Casino erhebliche Gewinne realisieren können.
+
+Benedikt L., Steingau
+Als ich von diesem System erfuhr, war ich zunaechst wirklich sehr
+skeptisch: Wieder diese tollen Sprueche und dann noch 22% Ueberschuss,
+das konnte ja nur getuerkt sein! Dann fasste ich den Mut, einfach
+Claudio Wätzold anzurufen (da es ihn nur einmal in Australia
+gibt, bekam ich seine Nummer), um fest zu stellen: Gibt es diesen Mann
+ueberhaupt wirklich und was sagt er dazu! Sofort nach dem erfreulichen
+Gespraech habe ich ein Exemplar "The Winning Streak" gratis bekommen
+und schon 30 Trockenpartien gespielt. Es ist fast unglaublich, was
+dieser Mann heraus gefunden hat. Ich bin z.Zt. bei 26% und total
+begeistert.
+
+Armin Luchten., Mundenheim
+Gegen das Geschicklichkeitsspiel Kesselgucken konnten die Casinos ja
+noch etwas unternehmen...und sie haben es mit Erfolg getan. Aber gegen
+das neue Gewinnkonzept "The Winning Streak" gibt es keine
+Moeglichkeiten fuer Gegenmassnahmen!  Die Spielbanken können nur
+hoffen, dass nicht all zu viele Gaeste nach Claudio Wätzold 's
+Gewinnkonzept spielen; den meisten faellt es ohnehin schwer,
+langfristig die notwendige Geduld und Disziplin aufzubringen. Ich
+gratuliere Ihnen, dass Sie Herrn Claudio Wätzold dazu ueberredet
+haben, sein Geheimnis zu lueften.
+
+Benedikt I., Wannberg
+Ein Spiel, das meinen Intellekt und meine Kreativitaet nicht
+herausfordert, macht mir grundsaetzlich keinen Spass. Was da jetzt in
+Form der Roulette-Strategie "The Winning Streak" entwickelt worden ist,
+macht mich sogar euphorisch, und ich habe das Beduerfnis, Ihnen das
+auch zu sagen (ich schreibe sonst grundsaetzlich keine Leserbriefe).
+Ich haette nie gedacht, dass man ein althergebrachtes Gluecksspiel
+tatsaechlich in ein erfolgreiches intellektuelles
+Geschicklichkeitsspiel umwandeln koennte! Eine grossartige Leistung!
+Dieser Claudio Pumpernickel haette wirklich einen Doktorhut verdient:
+Des Geldes wegen, das wir jetzt abholen koennen.
+
+Ulfert S., Schönhorst
+Es ist ein erfreuliches Novum, dass man mit dem Autor der neuen
+Gewinnstrategie "The Winning Streak" tatsaechlich persoenlich sprechen
+kann! Meine Rueckfragen wurden ueberzeugend beantwortet. Ich habe Herrn
+Claudio Wätzold selbstverstaendlich meine Hochachtung zugesagt.
+Ich moechte mich auch noch bei Ihnen bedanken, dass Sie es erreicht
+haben, dass Herr Claudio Wätzold sein von A bis Z logisch
+aufgebautes Gewinnkonzept tatsaechlich preisgegeben hat.
+
+Etienne W., Krummendiek
+Ich bin begeistert und ueberzeugt vom neuen Roulette- Spielkonzept "The
+Winning Streak". Es ist fast unglaublich, aber wahr: Man kann per Saldo
+nicht mehr verlieren!
+
+Domenico I., Kimming
+Habe "The Winning Streak" anhand von Permanenzen 2 volle Monate nur auf
+Schwarz/Rot durchgespielt und exakt 164 Stuecke gewonnen. Bei 780
+gesetzten Stuecken sind das genau 20,1% Dauergewinnueberschuss. Der
+hoechste Kapitalbedarf war nur ein einziges Mal 10 Stuecke. Das habe
+ich bei noch keiner anderen Methode erlebt. Meine Hochachtung!
+
+Volker E., Beatenberg
+Ich spiele "The Winning Streak"  3 bis 4 Mal wöchentlich im Casino und
+habe damit phantastisch viel gewonnen. Es ist mit weitem Abstand die
+beste Roulette-Spielmethode, die ich mir bisher zugelegt habe. Auch
+andere Spieler, die man am Spielformular erkennt, sind voll des Lobes!
+
+Bernard J., Au
+"The Winning Streak" ist das Beste, was ich bisher gesehen habe. Ich
+kann es kaum fassen. Wieso ist bisher niemand auf einen so logischen
+und gewinnsicheren Weg gekommen? Ich bin fast taeglich im Casino und
+gewinne erstmals so richtig viel Geld beim Roulette.
+
+Ulf E., Wohnrod
+Zur Strategie "The Winning Streak" kann man Ihnen nur gratulieren.
+Dieses Meisterwerk hat mir endlich die Erfolge gebracht, die ich mir
+immer erhofft habe.  Wer in eine Spielbank geht, um zu gewinnen,
+braucht nur noch eine einzige gute Spielmethode. "The Winning Streak"
+macht seinem Titel alle Ehre. Es gibt nichts Besseres!
+
+Karsten O., Witzling
+Dem "The Winning Streak"  Verfasser Claudio Wätzold bescheinige
+ich mathematische Genialitaet. Ein grossartiges Spiel! Einfach und
+absolut verlaesslich. Innerhalb von 3 Wochen habe ich mit 100-er Jetons
+spielend 250 Gewinn-Stücke aus den Casinos  geholt. Ich kann Sie zur
+Veroeffentlichung von "The Winning Streak" nur beglueckwuenschen. Als
+Mathematiker weiss ich, wovon ich spreche.
+
+Ruth J., Madlage
+Diese Gewinnsicherheit mit "The Winning Streak" ist einfach grossartig,
+das ist genau das Spielkonzept, das ich bisher vergeblich gesucht habe.
+In 25 Spieltagen ueber laengstens 2 Partien am Tag habe ich
+mittlerweile 1200 Stuecke  gewonnen. Es hat sich mittlerweile herum
+gesprochen, dass Claudio Wätzold ab nächstem Monat in Görmin
+mit grössten Jeton-Stücken spielen wird. Die  Systemspieler werden
+sich diese Gewinn-Demonstration nicht entgehen lassen. Ich werde auch
+kommen, um Claudio Wätzold aus tiefer Dankbarkeit einen grossen
+Strauss Blumen zu ueberreichen.
+
+Presse-Auszug aus "The gambling magazine"
+
+In den 70er Jahren wurde Claudio Wätzold zum berühmtesten
+Profi-Spieler dieser Zeit. Die damals bekannten
+Roulette-Fachzeitschriften ernannte ihn sogar zum "Roulettekönig". Die
+Presse  schrieb 1975 folgendes: "Vom "TAF" bis zur "Principessa" sind
+seitenlange Artikel von und über ihn, immer aktuelle Füller!
+Interviews mit Herrn Claudio Wätzold gehören für jeden
+Journalisten zum guten Ton."
+
+Zitat aus dem  "Gambling ABC" : "Roulette-Guru" wurde  Claudio
+Wätzold in seiner Zeit als Berufsspieler genannt.  Eine von
+Claudio Wätzold gestaltete Collage, die auch zahlreiche Jetons
+von seinen weltweiten Spielbank-Besuchen enthält, kann in einem Casino
+besichtigt werden.
+
+Claudio Wätzold sorgte in den 70er Jahren mit seinem Fachbuch
+"Schweissfüsse, nein danke"  für großes Aufsehen in der Szene.
+Im Unterschied zu anderen System-Creatoren hat er 100%ig an seine
+eigenen Strategien geglaubt und war stets bereit, sein eigenes Kapital
+zu riskieren.
+
+Claudio Wätzold ist von seiner neuen Roulette-Strategie so
+überzeugt, dass er sich der Diskussion stellt, egal ob mit
+System-Anwendern oder sogar mit den eigentlich so unliebsamen
+System-Prüfern.  Er ist bereit, seine  "Spieltheorie"  (wie er die
+Strategie selbst bezeichnet) mit eigenem Geld mit Maximum zu spielen.
+Einiges spricht dafür, dass die Sache diesmal wieder so ausgehen
+könnte, als die Präsentation seiner damaligen Strategie vor Reportern
+der Presse.  Im Rahmen einer großen Reportage wollte Claudio
+Wätzold unter den Augen der Öffentlichkeit den Beweis antreten,
+dass er aus jedem beliebigen Casino an sechs Tagen hintereinander
+jeweils mindestens erhebliche Gewinne herausholen könne.  War es der
+"Vorführ-Effekt" oder die zu waghalsig formulierte Wette, die den
+Erfolg der Beweisführung dann auch brachte?
+
+Fakt ist, dass Roulette die besten Gewinnchancen bietet. Die Frage ist
+eben nur, mit welcher Strategie diese Chancen am besten genutzt werden.
+Nun steht die Behauptung im Raum, dass Claudio Wätzold mit der
+Spieltheorie  "The Winning Streak"  das denkbar beste Konzept für die
+Einfachen Chancen gefunden hat.
+
+Erster Eindruck:  "The Winning Streak" erscheint vom logischen Aufbau
+her als das beste Grundkonzept, das man sich im Bereich der Einfachen
+Chancen vorstellen kann. Tendenzspiel, konvergierende
+Wahrscheinlichkeiten, Erzeugung unterschiedlicher Periodizitäten und
+verschiedener künstlicher Tische.  Die Satztechnik ist sehr defensiv
+ausgerichtet. Anfangsgewinne werden durch eine enge Rücklaufspanne
+abgesichert. Andererseits werden auch längere Gewinnläufe genutzt,
+sofern der nachgezogene Stopp-Wert nicht unterschritten wird.  Jeder
+Einzelbestandteil der Strategie  "The Winning Streak"  ist nicht neu,
+aber die Gesamtmischung in dieser Form ist neuartig.
+
+Anhaltspunkte, die für die Brauchbarkeit der Strategie  "The Winning
+Streak" sprechen:
+
+- ausgewählte Insider spielen die Strategie  seit einigen Monaten mit
+Erfolg
+- das Grundkonzept ist logisch nachvollziehbar aufgebaut
+- Zusammenspiel von mehreren sehr guten Strategien mit optimierter
+Satztechnik
+- der Entwickler der Strategie ist anerkannter Experte mit sehr viel
+Spielpraxis
+
+Jürgen Kobl, THE GAMBLING MAGAZINE

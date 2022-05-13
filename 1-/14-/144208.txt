@@ -1,0 +1,32 @@
+Das was Du haben willst ist ziemlicher Unsinn. Die impliziete
+Volatilitaet berechnet sich ja anhand der Black-Scholes-Formel aus dem
+Marktpreis. D.h. wenn ich die impliziete Vola verwende, ist die Option
+IMMER fair bewertet. Lediglich die PUT-CALL-Paritaet kann dann noch
+ueberprueft werden, ob diese fair ist (und das kann ja jeder
+Taschenrechner).
+
+Wenn man sowas machen will, muss man ein alternatives
+Volatilitaetsmodell haben und dann darauf spekulieren das die impliziete
+Vola zu gross oder zu klein ist (an sowas bastle ich gerade). Dann kann
+man aber gleich den Gafak-Future handeln.
+
+Oder man hat eine goettliche Eingebung, in welcher Richtung sich der
+Basiswert aendert und handelt aus dem Bauch heraus (was ja wohl die
+meisten machen).....
+
+PS. uebrigens sind es fuer die Black-Scholes-Formel garnicht soviele
+Werte noetig. Der Futurepreis, die impl. Vola und der Verfallstag
+reichen vollkommen.
+
+PPS. der Meinung meines Bauches nach ist der VOLAX-Future (FVH8) gerade
+ueberbewertet, also sollte man bei Optionen die im Sommer verfallen eher
+die Stillhalterposition einnehmen....
+
+Alessandro.
+--
+Alessandro Veicht                  | rxqeomgu@sdfkhf.am-gaxgxx.vs
+Edeba | http://sjift.oseaby.or-qzpxaa.hk/~flqx=
+
+Afev            |
+Arnoldgasse 537              | Tel. (+84/48) 9611 4653
+D-27363 Thiessow                 | Fax. (+04/55) 7443 2153

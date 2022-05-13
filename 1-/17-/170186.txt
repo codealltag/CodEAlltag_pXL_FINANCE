@@ -1,0 +1,18 @@
+Dass sich die IP-Adressen langsam dem Ende zuneigen, ist seit laengerem
+bekannt. Als Loesung wird u.a. vorgeschlagen die bisherigen 4 Byte
+Adressen gegen 16 Byte Adressen auszutauschen.
+Um die riesige Installationswelle von neuer Netzwerksoftware auf jedem
+PC, Workstation usw. zu entschaerfen (vor allem bei grossen Firmen),
+sollen
+zuerst Hybridlandschaften geschaffen werden, bei denen im Internet mit
+16
+Byte Adressen gefahren wird und in den Intranets weiterhin mit 4 Byte
+Adressen.
+Als Kopplung zwischen den beiden Adressraeumen dienen die genannten
+Internet-Router. Die muessen in jedem Fall von 4 auf 16 Byte umgestellt
+werden.
+Wie weit die IP-Nummern-Vergabe vorangeschritten ist, kann ich
+allerdings
+nicht sagen.
+
+Emil

@@ -1,0 +1,11 @@
+first-in-first-out zählt...
+
+
+Leider auch nicht ganz korrekt. So wie PIA den Fall schildert, handelt es sich
+um 2 Eröffnungen (Openings) und somit laufen beide Positionen......zwar
+gegeneinander, aber die Positionen werden beide bis zum Closing geführt (das am
+Ende der Kontraktlaufzeit das Settlement ist, wenn die Positionen vorher nicht
+geschlossen wurden).
+
+
+Gruß Theo

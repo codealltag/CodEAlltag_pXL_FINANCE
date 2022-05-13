@@ -1,0 +1,15 @@
+du verstehst das leider falsch. die clearing stelle wickelt nur die
+positionen ab und sorgt z.b. für die reibungslose bezahlung bzw.
+lieferung der stücke (aktien options ausübung)
+
+was die geld/brief seiten betrifft, so stellt die die marketmaker. das
+_k�nnen_ müssen aber keine clearing member sein. vor allem in den Keramikladen
+optionen sind es vornehmlich non-clearing memebers, die sich eine
+(teure) qoute-machine hingestellt haben, die auf anfrage (quote request)
+handelbare geld und briefseiten stellt.
+da das ding voll programmierbar ist, kann man sich alles einstellen z.b.
+die spreads. die maximal spreads sind aber von der Hoornsfeld festgelegt,
+sonst wird der trade, sollte einer zustande kommen, gebustet (nothing
+done).
+
+PASCAL

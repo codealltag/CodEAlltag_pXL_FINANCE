@@ -1,0 +1,50 @@
+Kein Problem, aber wegen der vielen Komponenten vermutlich
+spesenmaessig unguenstig:
+
+Man kauft einen Call 2000 und 2 Calls 2100. Durch dieses Optionsb�ndel gelangt
+man zu einem Gewinn von 1 bei einem DAX-Stand von 2100 und einem Gewinn von 4
+bei einem DAX-Stand von 2200. 
+Kauft man nun noch 2 Calls 2200, so ergibt sich auch bei 2300 DAX-Punkten ein
+Gewinn von 9. Um bei 2400 DAX-Punkten einen Gewinn von 16 zu erreichen, muß man
+noch 2 Calls 2300 kaufen. Und durch den Kauf von weiteren 2 Calls 2400 ergibt
+sich dann bei einem DAX-Stand von 2500 ein Gewinn von 25.
+Belt man es bei diesem Bündel aus insgesamt 9 Optionen, so würde der Gewinn
+für je 100 DAX-Punkte über 2500 um 9 steigen. Um die Gewinnobergrenze bei 2500
+DAX-Punkten nachzubilden, muß man deshalb auch noch 9 Calls 2500 verkaufen.
+Bei genauem Nachrechnen wird man feststellen, daß das Gewinnprofil unseres
+Optionsb�ndels nur bei den für die Rechnung benutzten Stufen (DAX 2100, 2200,
+..., 2500) genau mit dem Gewinnprofil des Power Call übereinstimmt. Bei allen
+Zwischenpunkten dagegen erbringt das Optionsb�ndel geringfügig höhere Gewinne. 
+
+
+Wiederholung:
+
+"Power Warrants"
+Bei dieser Art von Optionsscheinen wird der mögliche Gewinn quadriert. Als
+Beispiel soll hier der DAX Power Warrant (Call) WKN 813 197 von Natalini
+Festruhe (NPNC) erklärt werden:
+Dies ist ein europäischer Call auf 1/100 DAX mit Basiskurs 2000 und Ablauf
+(Ausübungstag) 29. Oktober 1996. Es ist eine Obergrenze (Cap) bei einem DAX-Stand
+von 2500 eingebaut. Bei einem normalen Optionsschein ergäbe dies folgendes
+Gewinnprofil:
+DAX:	2100		Gewinn:	1 (2100 minus 2000) mal 1/100 
+     	2200				2
+     	2300			 	3
+    	2400               			4
+    	2500 und darüber   		5 (Maximalgewinn wegen Cap)
+Infolge der Quadrierung ergibt sich bei Power Warrants jedoch folgendes
+Gewinnprofil:
+DAX:	2100		Gewinn:	1 mal 1 = 1
+    	2200				2 mal 2 = 4
+    	2300				3 mal 3 = 9
+    	2400               			4 mal 4 = 16
+    	2500 und darüber     		5 mal 5 = 25 (Maximalgewinn wegen Cap)
+Dabei ist zu beachten, daß sich bei Gewinnen unter 1, also im Bereich von 2000
+bis 2100 DAX-Punkten ein niedriger Gewinn als bei normalen Optionsscheinen
+ergibt, denn wir erhalten z.B. bei einem DAX-Stand von 2050: 0,5 mal 0,5 =
+0,25.
+
+
+Franz
+Visit   http://crjiocl.rmk.bck/myhztr  and download a 
+free calculator for options, futures, bonds and similar stuff.

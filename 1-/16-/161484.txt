@@ -1,0 +1,34 @@
+Weil ich die Kopierbefehle zu virtuos beherrsche aus der Hilfefunktion des
+MXM Chartsprogrammens
+Uwe
+
+Beschreibung:
+
+Der MACD (Moving Average Convergence Divergence) ist ein trendfolgend
+ausgerichteter Indikator, der durch die Subtraktion von zwei exponentiell
+gewichteten gleitenden Durchschnittslinien berechnet wird. Anschließend
+wird von dieser MACD-Kurve eine weitere exponentiell gewichtete gleitende
+Durchschnittslinie berechnet, die als Signallinie bezeichnet wird.
+
+
+Formel:
+
+Parameter:
+
+Tage 1	
+gibt den Zeitraum für die längere GDL an.
+
+Tage 2	
+gibt den Zeitraum für die kürzere GDL an.
+
+GDL-Tage
+gibt die Tage für die gleitende Durchschnittslinie an.
+
+
+Interpretation:
+
+�	Ein Wendepunkt der MACD-Linie im positiven Bereich deutet auf einen
+Abwärtstrend hin.
+
+�	Ein Wendepunkt der MACD-Linie im negativen Bereich deutet auf einen
+Aufwärtstrend hin.

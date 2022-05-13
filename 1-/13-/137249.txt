@@ -1,0 +1,44 @@
+On Sun, 22. 09. 22 01:36:59 +0100, "Charly C. Zehentbauer"
+
+Das moechte der Hobbymathematiker jetzt etwas genauer wissen
+Nachdem mein Roulette-Background noch etwas duerftiger als mein
+mathematischer ist.
+Wieviele Zahlen(Nullen) hat son Tisch? 37 (eine Null) oder 38 (zwei
+Nullen)
+Wie verhaelt sich das mit "en prison"?
+Version 1: Wenn Null faellt bleibt der Einsatz stehen und bei
+anschliessendem Erfolg hat man den Einsatz gerettet.
+Oder man laesst sich gleich die Haelfte des Einsatzes wieder
+zurueckgeben.
+Version 2: Der Einsatz bleibt stehen und gewinnt danach im Erfolgsfall
+genauso wie ein neuer Einsatz.
+
+Bei Vers 1 kann ich mich der 1/74 anschliessen wenn der Tisch eine
+Null hat. Bei zwei Nullen IMO 37/38. 
+Eine Drei-Nullen-Anpassung kann man ignorieren weil man seine 50%
+Rueckzahlung als neuen Einsatz bringen koennte, der im Erfolgsfall
+wieder dazugewinnt.
+Bei Version 2 koennte man die Null praktisch ignorieren (aber hier
+muesste man Drei-Nullen mit einbeziehen).
+
+
+Hm, 92,4%
+Martingale bedeutet doch solange zu verdoppeln, bis man erfolreich
+war. Man korrigiere mich wenn ich irre.
+Wie definierst du jetzt den Einsatz auf den du 92,4% Gewinn hast?
+Der letzte Einsatz vor dem Treffer, oder der Starteinsatz, oder die
+Summe der Einsaetze bis zum Treffer, oder der Durchschnitt aller
+Einsaetze, oder wie?
+Nein, ich halte es fuer unmoeglich unter den gegebenen
+Vorraussetzungen (Martingale ohne Tischlimit, ohne persoenliche
+Geldprobleme) einen prozentualen Gewinn anzugeben.
+Der Gewinn ist immer so hoch wie der Starteinsatz. Aber der Weg
+dorthin kann ziemlich lang werden. Wie man sowas berechnet weiss ich
+nicht, aber 92,4%?
+
+Und die Nullen sind letzlich fuer das beschriebene System unrelevant,
+weil das Ergebnis immer der Gewinn des Starteinsatzes ist, egal
+wieviele Nullen vorher gefallen sind.
+
+Dito
+Michael

@@ -1,0 +1,38 @@
+Das ist gerade der springende Punkt. Wer mal naeher untersucht, was
+im Softwarebereich alles kaputt (==Buggy) ist, dem kann es durchaus
+schlecht werden. Y2K-Probleme unterscheiden sich von 'normalen' Bugs
+im Wesentlichen durch folgende Eigenschaften:
+
++ Es ist bekannt, welche Probleme auftauchen koennen.
++ Es ist bekannt, wie man ein gegebenes System auf Vorhandensein von
+  Problemen untersuchen kann.
++ Die Oeffentlichkeit ist auf die Problematik sensibilisiert.
+- Die Wahrscheinlichkeit, dass _mehrere voneinander unabhaengige_
+  Systeme gleichzeitig ausfallen koennen, ist hoch.
+
+Eigentlich sollten uns die ganz normalen Alltags-Bugs mindestens ebenso
+interessieren wie Y2K. Es gibt nur 2 Gruende, warum dem nicht so ist:
+- Die Probleme tauchen nicht gehaueft auf sondern sind (sowohl ueber Zeit
+  als auch ueber die Betroffenen) relativ gleichmaessig verteilt
+  (->zB. Win stuerzt 3 mal taeglich ab)
+- Die Oeffentlichkeit ist nicht darauf sensibilisiert.
+
+
+Du glaubst nicht wie oft ich schon SW gesehen habe, bei der ich mich
+gefragt habe, warum _sowas_ bei einer Qualitaetskontrolle nicht
+erkannt wird. Dein oben beschriebenes Beispiel gehoert noch zu der
+harmlosen Sorte.
+
+
+Darauf wuerde ich meinen Kopf aber nicht verwetten. Was ist wenn der
+Steuerungsrechner in der Rakete glaubt festgestellt zu haben, dass er
+seit 100 Jahren keinen Kontakt mehr zur Steuerzentrale hatte? Wenn
+dem jetzt einfaellt, 'sicherheitshalber' die Rakete zu zuenden (weil
+man ja den zerstoeren muss, der die Sicherheitszentrale zerstoert
+hat)... *BUMMM*
+
+Ich halte es fuer eine gute Idee, dieses Silvester sturzbesoffen zu
+feiern, dann kriegt man nicht mehr so viel mit ;)
+
+-- 
+-- Samuel Clemens -- ky@ckskl.cgxf.io -- Julianka, Germany --

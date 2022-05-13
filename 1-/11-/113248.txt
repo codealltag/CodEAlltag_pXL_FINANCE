@@ -1,0 +1,21 @@
+Da gibt es leider zwei etwas verwirrende Anwendungen:
+
+1) Bei Optionen bedeutet "long" dass man die Option gekauft
+und "short" dass man sie geschrieben hat.
+
+2) Bei Aktien und wohl auch OS (die man ja nur kaufen kann)
+bedeutet "long sein" auf steigende Kurse zu setzen und
+"short sein" entsprechend auf sinkende Kurse zu setzen.
+Das deckt sich einerseits mit 1), als der Schreiber von
+Optionen auch immer auf fallende Options-Kurse sinkt.
+Aber andererseits setzt er mit dem Setzen auf fallende
+Put-Kursen ja auf steigende Underlying-Kurse und bei 
+fallenden Call-Preisen auf fallendes Underlying.
+
+Kurz: Du musst immer genau hinhoeren und nachdenken
+um zu wissen, wie es gemeint ist.
+
+
+Ben
+Visit   http://fdgbqdz.pkc.spj/fedswc  and download a 
+free calculator for options, futures, bonds and similar stuff.

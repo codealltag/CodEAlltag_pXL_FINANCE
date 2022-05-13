@@ -1,0 +1,110 @@
+Ich vertrete eine Software- und Beratungsfirma. Unser Bier ist es nunmal
+den Leuten den theoretischen Hintergrund und die genaue Berechnung
+beizubringen. Natuerlich immer wieder begleitet von Andeutungen, dass es 
+in der Praxis manchmal reichlich anders aussieht.
+Wir koennen - auch aus Haftungsgruenden - den Leuten nicht einfach sagen
+"Scheisst auf die Theorie, in der  Praxis sieht es anders aus." Stell dir mal
+einen Fahrlehrer vor, der bei seinen Schuelern so vorgeht. 
+Ausserdem bin ich der Meinung, die theoretischen Grundlagen sollte man
+zum Einstieg auf alle Faelle kennen - manchmal kann man damit naemlich 
+sogar sinnvoll arbeiten. Aber ohne sie kaum. 
+Wir haben etwa 300 verschiedene Programme. Von Freeware bis zum 
+Millionen-Programm. Wenn ein Kunde in Laufe der Zeit so von Programm zu
+Programm aufsteigt, dann kommt er mehrfach an einen Punkt, wo wir ihm 
+ziemlich direkt sagen: "Vergiss den Mist, den wir dir bisher erzaehlt haben, 
+in Wirklichkeit ist alles ganz anders!".
+Das stimmt zwar, aber trotzdem war das vorher gelernte auch nicht falsch. 
+Wer in den vierten Gang will, der muss eben vorher durch die drei anderen.
+
+
+Hier liegt die Ursache unserer Differenz: Ich will nicht traden, und ich 
+will dem Kunden auch nicht Traden beibringen oder auch nur empfehlen.
+Nichts gegen Trader, einige sollen ja sehr gut davon leben koennen 
+(nicht alle und auch die einigen nicht immer dauerhaft - aber, boes
+gesagt: zumindest als nuetzliche Idioten sind sie immer brauchbar).
+Es gibt aber auch noch andere Anlagetechniken (falls man Trading 
+ueberhaupt als "Anlage" bezeichnen will). Z.B. das altmodische
+Investieren, oder wie immer man das nennen will.
+Ich z.B. berate/verwalte mehrere Rentenfonds. Depot-A-Fonds fuer 
+kleinere Banken, sehr fachkundige und zu Recht (ueber)vorsichtige 
+Kunden. 
+Da ist wirklich nichts mit Trading, sondern ein Future ist da 
+nur die die Alternative zum Anleihekauf/verkauf, Festgeld, etc.. 
+Und entsprechend halte ich mich nur an die Kennzahlen: 
+Bringt z.Z. der Future oder die Direktanlage 0,01% mehr? 
+Reine Rechenarbeit, allerdings nach eigenen Formeln, die nichts 
+mit der ueblichen Future-Theorie und auch nichts mit unserer 
+einfacheren Software zu tun hat. Modelle, bei denen ihr Trader 
+sicher den Kopf schuetteln wuerdet, die fuer genau diesen 
+Zweck aber richtig ist. Gute Depot-A-Fonds holen auch aus der 
+aktuell mickrigen Umlaufrendite noch 20-40% raus. Und zwar 
+nahezu risikolos, d.h. unter den 3-Monats-Libor kann die Rendite 
+kaum fallen.
+
+
+Mir ging es um eine rein formale Erklaerung der Zusammensetzung
+und Berechnung der Margin. Dass man sich bewusst sein sollte, dass 
+diese gesamte Margin, egal wie zusammengesetzt und berechnet, das 
+entscheidende Spielkapital ist - da kann ich dir als Trader nicht
+widersprechen. Fuer den Trader ist das sicherlich die einzige und 
+zwingende Denkungsart. 
+Der Bond-Investor kann das aber schon etwas anders sehen, wenn bei
+seinem Bond-Depot gleichzeitig entsprechende Gewinne oder Verluste 
+hat oder haette oder freiwillig oder unfreiwillig in Kauf zu nehmen bereit
+waere - alles Erwaegungen die einen Trader ja nicht bekuemmern, weil 
+er kein wirkliches langfristiges Underlying-Depot zum Gegenrechnen haelt.
+
+
+So sollte es sein. In der Praxis ist es aber so, dass der Privatanleger ueber
+eine Bank gehen muss, und die nimmt ihm das 2-10 fache ab. Natuerlich ist
+das ungerecht. Genauso ungerecht wie dass die Bank maximal 3% Pluszinsen 
+auf Girokonto zahlt aber mindestens 9-11% Dispozinsen kassiert. Aber es 
+ist eben so.
+Warum die Banken vom Privatanleger so hohe Margins verlangen? 
+Ganz einfach, man will den Kunden nicht taeglich wegen moeglicher 
+Nachschuesse angehen muessen. Vielleicht wuerde ihn das verschrecken, 
+vielleicht erreicht man ihn auch nicht so schnell, vielleicht will man
+sich bei 
+der Bank auch einfach nicht soviel Muehe machen?
+Also nimmt man ihm gleich z.B. das 5-fache ab, und hofft, dass das dann
+mindesten fuer 1-2 Wochen reicht. Einige Banken sind allerdings wenigstens 
+so fair, dass sie die gerade nicht wirklich benoetigten Betraege immer 
+automatisch in einem Geldmarktfonds parken. 
+Klar, wenn man dich bei der Bank kennt, und du genuegend Kapital 
+mitbringst, dann kannst fast immer bessere Loesungen durchsetzen.
+
+
+Wieder der Unterschied zwischen dem Trader und dem Anleger.
+(Am Rande: Ihr handelt zuviel und arbitriert zuwenig! Macht wohl
+zuviel Arbeit?)
+Fuer den Anleger, der nunmal um genau diese Zeitpunkt in den DAX
+gehen will - nicht um zu traden, sondern um ein paar Wochen oder 
+Monate drin zu bleiben (sowas soll's noch geben), fuer den lohnt
+es sich schon auszurechnen, ob er im Augenblick den DAX z.B. 
+ueber den Future oder durch DAX-Index-Scheine billiger kriegt. Und 
+die Rechnung kann fuer jeden Anleger anders ausgehen
+
+Beispiel, das Marginproblem des Privatanlegers mal ausgeklammert
+- Faire cost-of-carry-rate des Futures waere 4%,
+
+- Gehandelt wird er im Augenblick mit 8% implizit
+
+- Ein Privatanleger will eigentlich ueber den Kauf von DAX-Scheinen
+in den Markt gehen. Dummerweise muesste er dazu sein Konto 
+ueberziehen und 12% Dispozinsen zahlen. Fuer den Mann ist der 
+Kauf des ueberteuerten Futures zu 8% billiger.
+Fuer einen anderen mit einer anderen Konto- und Zinssituation
+kann die Rechnung ganz anders aufgehen.
+Und, wie schon gesagt, fuer den Bond-Investor ergeben sich sowieso
+ganz andere Kennzahlen als bei dem ueblichen kurzfristigen
+Arbitrage-Modell. Und jetzt sag nicht, der faire Preis waere fuer alle
+gleich. Als langfristig denkender Bond-Investor kann ich in 9 von 10 
+Faellen aus einem fair bewerteten Bond-Future einen Gewinn ueber 
+Marktzins herausholen - und im 10. Fall kann ich fast immer rechtzeitig 
+aussteigen, egal wie die Zinskurve ist. Aber natuerlich werde ich hier 
+nicht verraten, wie das geht.
+
+
+Mehmet
+Visit   http://rswirzs.mgd.ezt/wpfmpw  and download a 
+free calculator for options, futures, bonds and similar stuff.

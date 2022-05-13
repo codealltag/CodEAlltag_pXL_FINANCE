@@ -1,0 +1,19 @@
+Goe-Nachtexpress  Kurs CHF 454.-
+Kurs am:  22.12.1999 17:00 Schluss
+******************************************
+
+Name     Strike     Kurs     Anzahl     Volume      Verfall
+Wert (KursxAnz)       Wert+Strike       Restlaufzeit
+ubsix     330         1.63      100            516000    13.09.2001     163
+493                     631d
+
+Der Kurswert von 454 ist kleiner als Wert+Strike (493).
+Der gerechnete Kurs der Option wäre (454-330)/100 = 1.24
+
+---> Angebot/Nachfrage steht bei 1.63. Ist diese Option nun überbezahlt?
+---> Wie berechnet man so was richtig, damit man einen Kaufentscheid nicht
+rein aus dem hohlen Bauch füllen muss?
+---> Was ist "in the money"?
+
+Gruss an alle,
+Lars

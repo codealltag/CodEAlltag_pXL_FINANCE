@@ -1,0 +1,111 @@
+Ein Beispiel auf aeltere Kurse berechnet:
+
+
+NNL Wandelanleihe von 1997 (WKN 308 727)
+Dieses Wertpapier erscheint zuerst wegen der Zwangswandlung am Ende der
+Laufzeit und den "krummen" Beträgen sehr seltsam, läßt sich aber ebenfalls
+einfach analysieren.
+Details: Es handelt sich um eine Teilschuldverschreibung der N&D
+mit einem Nennwert von DM 130,70 je Stück. Verzinsung 5,75% mit halbjährlicher
+Zinszahlung, d.h. es werden zweimal jährlich DM 3,7576 DM gezahlt.
+Am Laufzeitende 8. März 2002 wird das Kapital nicht in Geld zurückgezahlt,
+sondern in Form von NNL-Aktien ("Zwangswandlung").
+Die Bedingungen sind wie folgt definiert:
+Bereits bis zum 26. Februar 2002 kann jeder Anleihebesitzer seine Anleihen
+jederzeit in Aktien tauschen. Er erhält dann 0,862 Aktien je Anleihe, so daß
+sich ein Preis von DM 151,62 je Aktie (130,70 : 0,862) errechnet. 
+(Achtung: Hier als Einführungs-Beispiel berechnen wir diesen Bezugspreis der
+Aktie anhand des Anleihenennwertes von 130,70. Da diese Option jedoch jederzeit
+ausgeübt werden muß man in der Praxis zur Berechnung des fairen Tageswertes
+jedoch immer den jeweils aktuellen Marktwert dieser Anleihe benutzen, und der
+schwankt bekanntlich in Abhängigkeit von Restlaufzeit und Marktzins.)
+Tauscht der Anleihebesitzer nicht bis zu diesem Datum, so werden am 8. März
+2002 die Anleihen zwangsweise in NNL-Aktien getauscht. Dabei gibt es 2
+Möglichkeiten:
+- Wenn der "Wandlungspreis" (Durchschnittlicher NNL-Aktienkurs der 20
+Börsentage vor dem 31. März 2002) unter 104,56 liegt, so erhalten die
+Anleihebesitzer 1,25 NNL-Aktien je Anleihe, woraus sich ein Preis von
+104,56 je Aktie errechnet (130,70 : 1,25), auch wenn der dann gerade aktuelle
+Aktienkurs am Markt tiefer liegt.
+(Achtung: Bei dieser und der folgenden Berechnung kann man einfach immer mit
+dem Nennwert von 130,70 rechnen, denn diese Berechnung bezieht sich auf das
+Laufzeitende, und da wird der Marktwert der Anleihe gleich ihrem Nennwert
+sein.)
+- Wenn dieser "Wandlungspreis" dagegen über 104,56 liegt, so wird das
+Umtauschverhältnis so berechnet, daß sich dieser "Wandelpreis" als Preis
+ergibt, d.h. der Preis entspräche in diesem Fall dem ungefähren aktuellen
+NNL-Kurs.
+In keinem Fall erhalten die Anleihegläubiger jedoch weniger als 0,862 Aktien je
+Anleihe, d.h. der maximale Umtauschpreis liegt bei DM 151,62 je Aktie, auch
+wenn dann der aktuelle Aktienkurs am Markt wesentlich höher wäre.
+- übrigbleibende "krumme" Aktienst�ckzahlen werden natürlich bar ausgezahlt.
+
+Es handelt sich um eine Kombination aus einer Anleihe und 2 Optionen.
+Berechnung des fairen Wertes für den 4.2.1997: Kurs NNL-Aktie 135,80,
+unterstellter Marktzins für NNL 5-Jahres-Anleihe 5%, unterstellte NNL
+Dividende/Steuergutschrift für die nächsten Jahre je DM 2,50:
+1) Anleihe mit Nennwert 130,70 und 5,75% Jahresverzinsung bei halbjährlichen
+Kupon (d.h. es werden jährlich DM 7,515 Zinsen bezahlt, nämlich 5,75% von
+130,70). Rückzahlung am 8.3.2002. Fairer Marktwert ca. 135,40 .
+2) Zusätzlich erhält jeder Anleihekäufer einen amerikanischen Call zum Kauf von
+0,862 NNL-Aktien je Anleihe zum Bezugskurs von (135,40 : 0,862) = 157,07
+(bei dieser Berechnung immer den jeweils aktuellen Markwert der Anleihe
+benutzen). Laufzeit bis 26. Februar 2002. Fairer Wert ganz grob etwa DM 21,50 (OPN
+20).
+3) Und jeder Anleihekäufer verkauft gleichzeitig an NNL einen europäischen
+Put, wodurch er sich verpflichtet, NNL je Anleihe 1,25 Aktien zum
+Bezugskurs von (130,70 : 1,25) = 104,56 abzukaufen (da diese Option nur am
+Laufzeitende ausgeübt werden kann hier immer stur den Nennwert der Anleihe von
+130,70 benutzen). Laufzeit bis 8. März 2002. Fairer Wert ganz grob etwa DM
+-5,80 (OPN 20).
+4) Der Fall, daß der NNL-Kurs in jenen Tagen zwischen 104,56 und 151,62
+liegt braucht nicht besonders berücksichtigt zu werden. Der Anleihebesitzer
+erhält dann zwar zwangsweise NNL-Aktien, aber er erhält sie zum ungefähren
+Marktpreis, so daß sich daraus kein großer Vor- oder Nachteil ergibt (er könnte
+sie sofort wieder verkaufen).
+Der faire Wert der NNL-Wandelanleihe am 4.2.97 unter den oben genannten
+Bedingungen lag somit ganz grob bei (135,40 + 21,50 - 5,80) = DM 151,10. Ein
+genauer Wert läßt sich z.B. deshalb nicht berechnen, weil beim Umtausch die
+Stückzahlen nie ganz aufgehen und ein Teil in Geld ausgeglichen wird.
+In der Combi-Funktion des Modern Speculator lassen sich leicht Werte für andere
+Zeitpunkte etc. berechnen.
+
+Hochrechnungen zum Jahresende 1997:	
+NNL-Kurs => Wert Wandelanleihe
+160 	            170,80
+100	            128,20
+
+Hochrechnungen zum Ablauf März 2002:	
+NNL-Kurs => Wert Wandelanleihe
+200 (213)       210,20
+160 (173)       175,80
+  80  (93)        142,60
+  30 (43)           79,90
+Anmerkungen: Der derart ermittelte Wert der Wandelanleihe enthält auch die
+gezahlten Zinsen und Zinseszinsen auf die Wandelanleihe. Zum Vergleich sollte
+man beim NNL-Kurs deshalb auch die angesammelten Dividenden und
+Steuergutschriften mit Zinseszins berücksichtigen. Bei unterstellten DM 2,50 je
+Jahr und 5 Jahren wären dies etwa +13 (Klammerwert).
+Bei den dieserart in der Combi-Funktion errechneten Werten handelt es sich um
+die Werte, die ein Investor hätte, der heute in die Wandelanleihe eingestiegen
+ist.
+Es handelt sich aber nicht etwa um den fairen Marktwert zu diesen anderen
+Zeitpunkten. Dieser muß ohne Zins und Zinseszins berechnet werden (wird in der
+Praxis ja halbjährlich ausgezahlt), und außerdem ist zu beachten, daß der
+Bezugskurs des einen Call zwischenzeitlich in Abhängigkeit vom Anleihekurs
+etwas schwanken kann.
+Insgesamt scheint die NNL Wandelanleihe ein günstiges Produkt. Durch den
+Zinsvorsprung schneidet sie fast immer besser als die Aktie ab. In der Praxis
+hängt dies natürlich davon ab, wie teuer man die Wandelanleihe gekauft hat.
+Vergleichsbeispiel:
+Am 4.2.97 die NNL-Aktie zu 135,80 gekauft. Wenn sie im März 2002 auf 10
+gefallen wäre, dann hätte man nur noch diese 10 plus die unterstellten 13 an
+angesammelten Dividenden = DM 23.
+Wer dagegen die Wandelanleihe zu 151,10 gekauft hat und "zwangsgewandelt"
+wurde, der hat dann 1,25 NNL Aktien = 12,50 plus rund 40 aus Zins und
+Zinseszins aus der Wandelanleihe = DM 52,50 !
+
+
+Darius
+Visit   http://btqjeeb.bks.ndy/ihdlnv  and download a 
+free calculator for options, futures, bonds and similar stuff.

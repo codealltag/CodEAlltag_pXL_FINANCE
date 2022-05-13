@@ -1,0 +1,57 @@
+Rinklins Freitags und Montags Depot
+
+Wie errechne ich das Montagsdepot ?
+Nehmen wir als Beispiel Nonoia:
+Edwards hat am Freitag 600 Stück a. 135 DM geordert das macht ein
+Kaufvolumen von genau 81.000,- .
+Ich hole mir nun den Montagskassakurs von Nonoia (152,50) und rechne sein
+kaufvolumen durch den Montaskurs und erhalte so nun die Stückzahl an
+Aktien die jemand am Montag für das Geld bekommen hätte.
+In diesen Fall 81000 / 152,50 = 531,14754 Stück.
+Die runde dann auf/ab und komme dann auf 531 Stück a 152,50 macht
+80.977,50 DM (die zu 81.000 DM fehlende DM schreibe ich der Liqudität
+zu).
+Also hat Braun in meinen Depot 
+nicht   600 Stück a. 135,-
+sondern 531 Stück a. 152,50 DM gekauft.
+
+
+So nun zuerst das Original Neta-Depot:
+
+Name	Stück 	  Kaufk.	  aktuell      
+
+Nonoia        100 	 135,00   123,50   
+Keimling  25  	 408,50   385,00   
+Tiam    	    30   	 172,50   201,50
+TTWG	  600	   72,00     72,00    
+Kannegiesser	    30   	 560,00   560,00
+
+Liquidität:                        5.362,50
+Gesamt                         93.382,50
+
+
+Hier nun das Edwards-Neta-Montags-Depot:
+
+Name       Stück   Kaufk.  Kurs mo      Wert
+----------------------------------------------
+Nonoia            88   152,50   123,50   
+Kannegiesser	      25   587,00	587,00
+Keimling    23   444,00   399,00   
+TTWG      450     84,80     84,80
+Tiam             22   230,00    205,00   
+
+Liquidität:                          5.626,00
+Gesamt    :                         83.016
+
+Verkauf 443 LHSG zu 126,80
+Kauf 450 SCMM zu 84,80
+Kauf 25 MLP zu 587
+
+
+Viele Gruesse 
+Julius
+
+Keine spam/bulk emails. 
+No spam/bulk emails.
+Do not send me any unsolicited mail.
+Danke/Thank you.

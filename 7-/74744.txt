@@ -1,0 +1,23 @@
+Es gibt da verschiedenen Ansaetze bis hin zu Formeln, die angeblich
+Wahrscheinlichkeiten angeben, welcher Kurs bei Ablauf vorliegen 
+wird. Ist sehr kompliziert und nach meiner Erfahrung sehr falsch
+oder jedenfalls fuer die Praxis nutzlos..
+Da kannst du gleich den simplen Ansatz nehmen und den VDax
+als Prozentzahl nehmen. Bei VDAX 20 waeren das also 20%
+Schwankungsbreite auf 1 Jahr bezogen. 
+Aber auch da ergibt sich die Frage, womit man
+als Basis rechnen soll. Der heutige DAX koennte ja schon ein
+Ausreisser am oberen oder unteren Schwankungsbereich sein.
+Und ausserdem gibt es manchmal noch einen Trendkanal, und
+ausserdem ist das alles sehr theoretisch.
+
+Umrechnung von 1 Jahr auf z.B. 1/4 Jahr geht so:
+0,25 Jahr : 1 Jahr = 0,25
+Dann Wurzel aus 0,25 = 0,5
+Und jetzt die Jahresvola damit malnehmen
+Bei 20% Jahresschwankung waeren das also 10% fuer
+ein Vierteljahr.
+Actung: Die meisten Rechner rechnen automatisch immer
+auf 1 Jahr um, und so sind auch die veroeffentlichten Angaben  
+zu verstehen. Also nicht die Zahlen aus 3-Monats-Optionen
+nochmals per Hand auf 1 Jahr umrechnen.

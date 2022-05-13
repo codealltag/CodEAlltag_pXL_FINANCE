@@ -1,0 +1,23 @@
+1. in STU kannst Du OS immer unlimitiert kaufen/verkaufen und
+   bekommst schlechtestenfalls den Brief/Geldkurs des Emittenten.
+   Hier besteht also nur ein Problem, wenn Deine Order nicht schnell
+   genug eintrifft, was aber bei den Direktbanken ein Minutenproblem 
+   ist.
+2. Du kannst jegliche OS (nicht nur liquide) mit S-L versehen, indem
+   Du einen Kauf/Verkaufauftrag in die andere Richtung stellst mit
+   Volumen 1. Beispiel:
+   OS WKN 123456 , Spread 0.05 EUR möchtest Du S-L  bei 1.00 EUR setzen
+   aktueller Briefkurs (siehe www.fctdgeg.wb) sei bei 1.30 EUR. 
+   Du erteilst eine StopLossOrder, Limit 1.05 EUR.
+   Dann erteilst Du eine Kauforder auf WKN 123456 (in STU !!) mit
+   Limit 1.05 und Volumen 1 . Erreicht der Briefkurs die 1.05 kaufst
+   Du einen, Deine S-L Order wird, da SL-Limit erreicht, unlimiert
+   an den Markt gegeben und 
+   Du verkaufst zum aktuellen Geldkurs (nun 1.00). Fertig. Den einen
+   kannst Du verfallen lassen, oder ggf. für eine StopBuy Order in die
+   andere Richtung verwenden. 
+
+
+-- 
+Karsten
+Hambrinker: La Vita e belle.

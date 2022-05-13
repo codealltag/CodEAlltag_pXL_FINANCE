@@ -1,0 +1,16 @@
+Liebe Newsgroupgemeinde,
+dies ist mal eine ungewöhnliche Frage in diesem Bereich, aber ich hoffe Ihr
+könnt mir dabei helfen.
+
+Ich arbeite an einem kleinen Programm zur Bewertung von Optionsscheinen nach
+der Black & Scholes Formel. Dieses Programm soll auch alle möglichen
+dynamischen Kennzahlen zur Bewertung berechnen. Ich habe die wichtigsten
+Kennzahlen schon zusammen, nur bei  THETA , das den Zeitwertverlust angibt
+und RHO, das den Effekt eines sich ändernden Zinssatzes mit, fehlen mir die
+Formeln zur Berechnung.
+Vielleicht besitzt jemand von Euch ein Lehrbuch in dem die Formeln dieser
+Kennzahlen stehen (oder kennt sie auswendig !? :-)   ).
+
+Vielen Dank im voraus
+
+Euer Sascha

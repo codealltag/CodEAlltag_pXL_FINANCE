@@ -1,0 +1,212 @@
+Hallo Fritz,
+
+ich habe mich in den letzten Tagen weiter mit der Thematik beschäftigt 
+und am Wochenende auch die Ruhe gefunden, das Skript durchzulesen sowie 
+der Mittelwertbildung nachzugehen.
+
+Leider habe ich meine letzte Antwort auf zwei Posts aufgesplittet und 
+zusätzlich einige Sachen auf das Wochenende verschoben. Ich werde 
+zusehen, dass ich die Handlungsstränge jetzt wieder vereinige.
+
+Da unsere Unterhaltung eher einem Zwiegespräch gleicht, bin ich mir 
+nicht mehr so sicher, ob wir noch on topic sind? Eventuell ist es 
+besser, wenn wir auf Mail umsteigen? Für den Fall - meine Mailadresse im 
+Header ist gültig.
+
+
+Jetzt habe ich es verstanden, die Modifizierung steckt im Omega.
+
+
+Auch das ist jetzt klar, bei -57 bzw. +57 ist ja jeweils eine Nullstelle.
+
+
+OK. Für die 113 Werte habe ich F_g = 1/28,5 ermittelt.
+
+
+Wir verwenden hier also einen Tiefpaß, der 21 Kurstage "durchläßt" - die 
+letzten zehn, den aktuellen und die nächsten zehn Kurstage. Die 
+Fouriertransformierte davon ist die modifizierte Sinc-Funktion, die im 
+Prinzip bis nach unendlich reicht. Für unsere Zwecke schneiden wir sie 
+an zwei korrespondierenden Nullstellen bei -57 und +57 ab. So kommt man 
+auf 113 Werte. OK?
+
+Aber: warum 21 Kurstage und nicht z.B. 28,5? Im Skript wird in Abbildung 
+2.2 der Frequenzgang eines Tiefpaß gezeigt, der Werte von -Omega bis 
++Omega durchläßt. Das passt jedoch nicht zu Deiner obigen Definition von 
+Omega. Andererseits denke ich, dass es einen Zusammenhang zwischen der 
+Grenzfrequenz und den "durchgelassenen" Kurstagen gibt?
+
+Von dieser Frage abgesehen habe ich die Mittelwertbildung mittels 
+Sinc-Funktion aber inzwischen verstanden. Ich kann sie jetzt auch mit 
+anderen Werten für die Grenzfrequenz berechnen. Man muss dann nur daran 
+denken, dass auch die Nullstellen woanders liegen.
+
+vorherigen >>>> 10, der nachfolgenden 10 und der aktuellen Tagesrendite 
+berechnet. >>>> Da komme ich für den 07.05.2006 auf 23 %.
+
+Es war mein Fehler. Ich hatte für die Berechnungen aus Versehen die 
+Eröffnungs- statt der Schlußkurse verwendet. Bei den Gewerbehof-Werten ist das 
+nur nicht aufgefallen, weil die Kurslisten identische Eröffnungs- und 
+Schlußkurse enthalten.
+
+Zusätzlich hatte ich für DAX und HAC getrennt alle Kurse der Kurslisten 
+verwendet. Du hattest ja die Kurse von den Tagen verworfen, bei denen 
+nur für einen der beiden Werte Kursdaten vorhanden waren.
+
+Jetzt stimmen meine "Rendite %/Jahr" Kurven mit Deinen vollständig überein.
+
+
+Wenn man es so betrachtet, sollte der Privatanleger bevorzugt 
+antizyklisch investieren? Er gehört wohl tendenziell eher zu den 
+Letzten, die einen Trend "identifizieren". Während Andere das Schiff 
+vielleicht schon wieder verlassen - irgendjemand muss ihm ja seine 
+Wertpapiere verkaufen.
+
+Andererseits liegen wahrscheinlich sowohl der sture Trendfolger als auch 
+der ewige Antizykliker öfter mal daneben? Oft ist der Trend eben doch 
+kein/ein Trend. Du meinst, die "fat tails" sorgen dann dafür, dass sich 
+die Zocker wieder verabschieden müssen? Die "fat tails" schlagen im 
+Prinzip ja doppelt zu, einmal beim Basiswert und dann noch einmal mit 
+einer tendenziell höheren impliziten Volatilität.
+
+
+Nachdem ich das Skript jetzt durchgelesen habe, nimmst Du nicht 
+irgendeinen Algorithmus aus der Signalverarbeitung. Der moving average 
+entspricht dem Rechteckfenster und die Sinc-Funktion ist die 
+dazugehörige Fouriertransformierte. Die Modifizierung der Sinc-Funktion 
+bezieht sich allein darauf, einen bestimmten x-Tage-MA abzubilden. Wie 
+Du dabei von x=21 auf die Grenzfrequenz F_g=1/28,5 gekommen bist, ist 
+mir wie oben schon beschrieben noch nicht klar.
+
+
+Ich hatte mich verkehrt ausgedrückt. Wie Du schon schreibst, war 
+eigentlich "relativ starke Abweichungen zwischen Mittelwert (der 
+logarithmierten Tagesrenditen) und (aktueller logarithmierter) 
+Tagesrendite" gemeint.
+
+Mit der Beseitigung der noch bestehenden Unterschiede zwischen unseren 
+Berechnungen (Eröffnungs- statt Schlußkurs und verwerfen einiger 
+Kurswerte) sind die "Überschwinger" übrigens verschwunden.
+
+Auch meine "Varianz %/Jahr" Kurven stimmen mit Deinen nun vollständig 
+überein.
+
+
+Ich habe das sowohl für DAX als auch für HAC einmal ausprobiert. Nach 
+meinen Berechnungen macht das "mit Logarithmieren" eine Menge aus. Die 
+"Varianz %/Jahr" Kurven liegen fast durchweg um etwa Faktor 2 niedriger 
+als bei der ursprünglichen Variante "ohne Logarithmieren". Obwohl das 
+negative Überschwingen damit beseitigt ist, sieht das Ergebnis für mich 
+nicht so überzeugend aus.
+
+
+Das habe ich noch nicht so richtig verstanden.
+
+Ausgangspunkt ist die Berechnung der Sinc-Funktion für halbzahlige 
+Argumente, also für den Bereich von (-56,5 ... +56,5) statt (-56 ... 
++56)? Das wären dann 114 statt 113 Werte.
+
+Statt die Sinc-Funktion für diese halbzahligen Argumente direkt zu 
+berechnen (z.B. sinc(-55,5) = ((2*Pi/28,5)*(-55,5))/(-55,5)) verwendest 
+Du "als Funktionswert die Differenz von zwei benachbarten Argumenten", 
+also: sinc(-55,5) = sinc(-55) - sinc(-56)?
+
+Oder meintest Du mit "als Funktionswert die Differenz von zwei 
+benachbarten Argumenten":
+r_(-55) = r_-54 * sinc(-54,5) - r_-56 * sinc(-55,5)?
+"Multipliziert mit einer geeigneten Konstante" k wäre das:
+r_(-55) = k * (r_-54 * sinc(-54,5) - r_-56 * sinc(-55,5))?
+
+Ein Beispiel für die andere numerische Approximation wäre:
+sinc'(-54)=0,3*((sinc(-52,5)-sinc(-55,5))+0,1(sinc(-53,5)-sinc(-54,5))? 
+Dieses Beispiel spricht wieder dafür, dass Du die halbzahligen Argumente 
+doch direkt berechnest?
+
+Was meinst Du mit "Der Vorteil ist, daß man nicht so viele Randwerte 
+verliert."?
+
+
+Hier gehst Du vereinfachend davon aus, dass der Mittelwert vom 
+Mittelwert ähnlich dem ursprünglichen Mittelwert ist?
+
+
+Auch das habe ich ausprobiert. Im Gegensatz zur Verwendung der "mit 
+Logarithmieren" Methode ist hier der Unterschied nicht allzu groß.
+
+Nachdem ich das untere Diagramm aus Deiner Grafik vollständig 
+nachvollziehen kann und meine Ergebnisse Deinen entsprechen, habe ich 
+mich am oberen Diagramm versucht.
+
+Die prozentuale Entwicklung von DAX und HAC (blaue und schwarze Kurve) 
+sind klar nachzuvollziehen.
+
+Für die obere rote und grüne Linie habe ich jeweils für DAX und HAC ein 
+Portfolio definiert. Die Portfolios haben am 07.05.2006 einen 
+Anfangswert, welcher dem Kurswert von DAX bzw. HAC entspricht. Für jedes 
+Portfolio berechne ich täglich zwei Werte.
+
+"Investitionsgrad" = "gewünschtes Risiko"/"Varianz %/Jahr"
+
+"Portfoliowert heute"= ("Kurs heute"-"Kurs gestern")*"Investitionsgrad" 
++ "Portfoliowert gestern"
+
+
+Dieser Hinweis hat mir einige Rechnereien erspart. Das "gewünschte 
+Risiko" habe ich so angepaßt, das der Portfoliowert des DAX-Portfolios 
+am 25.12.2007 auf 149,2 % gestiegen ist. Mit dem resultierenden 
+"gewünschten Risiko" habe ich dann das Gewerbehof-Portfolio berechnet.
+
+Die sich daraus ergebenden Kurven "DAX adjustiert" und "HAC adjustiert" 
+sehen Deinen wieder einmal gar nicht ähnlich. Sie verlaufen viel enger 
+an den Renditekurven der Basiswerte und sind auch wie diese gezackt. In 
+Deiner Grafik sieht man demgegenüber gar keine Zacken und insbesondere 
+beim DAX-Portfolio eine Kurve, die gegen den DAX stark gekrümmt ist.
+
+Die Investitionsgrade bei meinem Gewerbehof-Portfolio liegen in der Regel über 
+100 %. Wohl auch dadurch erreicht das Gewerbehof-Portfolio bei mir eine 
+Überrendite gegenüber dem Kursverlauf des Gewerbehof. Konkret sind es am 
+25.12.2007 etwa 115 %.
+
+Die "adjustierte Rendite" von DAX und HAC habe ich mit meiner schon 
+beschriebenen Formel berechnet.
+"adjustierte Rendite" = ("Rendite %/Jahr" * "gewünschtes 
+Risiko")/("Varianz %/Jahr")
+
+Die Ergebnisse sind wie schon befürchtet völlig unterschiedlich zu Deinen.
+
+Klingt meine Vorgehensweise überhaupt halbwegs plausibel?
+
+Du wolltest eventuell noch einmal bei Deinen Berechnungen nachsehen. Es 
+wäre schön, wenn wir die Unterschiede noch klären könnten.
+
+
+Es gibt da z.B. die sogenannten RAFI-Indizes, die keine 
+Kapitalgewichtung sondern fundamentale Kriterien für die Gewichtung der 
+Einzelwerte verwenden. Wenn man daran glaubt, dass der Preis eines 
+Wertpapiers etwas mit fundamentalen Daten zu tun hat, müssten die 
+RAFI-Indizes aus Sicht eines effizienten Portfolios etwas besser als die 
+üblichen kapitalgewichteten Indizes sein?
+
+Kann es sein, dass die "recht wenig aufwendigen technischen 
+Analyseinstrumente" nur deshalb den Index risikoadjustiert outperformen, 
+weil eine genügende Anzahl Marktteilnehmer an die technische Analyse 
+glaubt und entsprechend handelt?
+
+Vielleicht noch einmal anders ausgedrückt. Ein Index soll einen gewissen 
+Markt abbilden. Wenn man jetzt mit etwas Fundamental- oder technischer 
+Analyse den Index risikoadjustiert outperformt, dann könnte das doch 
+auch so ausgelegt werden, dass der Index den Markt "nicht richtig" 
+abbildet? Oder meinst Du, ein Index kann aus Prinzip kein optimales 
+Portfolio abbilden? Zum Beispiel, weil er die Gewichtung der Einzelwerte 
+nur alle paar Monate anpasst.
+
+
+Andererseits - wenn ich mein Portfolio selbst diversifiziere, ist dann 
+nicht jedes Asset für sich genommen die Übernahme eines Einzelrisikos? 
+Besteht also der Unterschied nur darin, ob ich mit einem Asset den 
+Anspruch habe, den Markt schlagen zu wollen und dafür ein relativ 
+gesehen höheres Einzelrisiko in Kauf nehme?
+
+
+Gruß,
+Philipp

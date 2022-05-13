@@ -1,0 +1,66 @@
+Hallo,
+
+das habe ich gerade gelesen und finde es zum groessten Teil recht
+brauchbar. Nicht so gut gelungen ist der Teil mit den Kaeufen
+auf Kredit. Beim Vergleich der Stufenstrategie mit der Buy and Hold
+Strategie ist das Startkapital ungleich ($1500 Startkapital Stufen
+gegen $1000 Startkapital Buy and Hold) und die Tabelle mit dem
+maximalen Kreditanteil gibt ein falsches Bild wieder. Der Kreditanteil
+kann bei Kursrueckgang auf 50% - bei ploetzlichen starken 
+Kursbewegungen auch auf mehr - steigen. Das birgt die Gefahr von
+Zwangsverkaeufen durch den Broker, und das muessen nicht unbedingt
+die Aktien sein, die man aufgrund der Strategie verkaufen will.
+
+Die richtige Tabelle fuer den Vergleich zwischen Buy and Hold
+und umgekehrter Stufentechnik (umgekehrt im Vergleich zu Dinos)
+wuerde etwa so aussehen:
+(vergleiche mit http://qwfnmw-xrg.nti/ctkpxpgifx/wwqsegf8.dwgr)
+
+                 Nettowert Portfolio         Stufentechnik brutto
+Preis        Buy&Hold       Stufentechnik     Anteil auf Kredit
+
+20           1500               1000                0
+30           2249               1989               19,7% 
+45           3375               3245               31,3%
+65,5         5062,5             5607               30,8%
+101,25       7593,75            9658               26,6%
+
+usw.
+
+Erst ab einer Verdreifachung des ersten Kaufkurses kommt die
+Hebelwirkung durch den Kredit zum tragen, dafuer setzt man sich
+schon vorher dem Kreditrisiko aus. Zum Zeitpunkt des Ausstiegs
+bei der Stufenstrategie (geschieht durch Stop-Loss) sieht das
+Verhaeltnis noch etwas schlechter aus.
+
+Der Kreditanteil kann ueber 50% gehen:
+
+Angenommen der Preis steigt von 20 auf 67,5, dann betraegt zu diesem
+Zeitpunkt mit der Stufentechnik der Kreditanteil (auf den
+Bruttowert des Portfolios) 30,8%. Faellt der Preis dann zurueck auf
+45,1 (noch kein Verkauf wird ausgeloest), dann ist er jetzt
+bei 52,8%. Das wuerde bei manchen Brokern schon einen Margin-Call
+ausloesen, obwohl man noch nicht verkaufen will. 
+
+Deshalb wuerde man besser den Kreditanteil niedriger ansetzen.
+Bei Kaufraten von $800 statt $1000 bei $1500 Startkapital kaeme man
+auf einen maximalen Kreditanteil von 45%. Das ist immer noch
+hoch genug, um im Extremfall schlecht dazustehen. So sieht die 
+Stufentechnik im Vergleich zu Buy and Hold schlechter
+aus als in der Tabelle. Erst ab einem Kurs von $80 (Vervierfachung)
+haette das Stufendepot einen hoeheren Wert als
+das Buy and Hold Depot. Hauptvorteil der Stufentechnik bleibt
+das geringere Risiko, wenn das Investment von Anfang an schiefgeht.
+
+Fuer meinen Geschmack wuerde ich Buy and Hold bevorzugen. Zur
+Ehrenrettung des Autors muss gesagt werden, dass er das fuer die
+Mehrheit der Investoren ebenfalls so sieht.
+
+Die Ausstiegstechnik der Stufenstrategie laesst sich auch leicht
+auf Buy and Hold anpassen. Jedoch ist eine Stop Loss Marke von 
+zwischen 33% und 55% Minus bei manchen Aktien noch zuwenig um nicht
+vorzeitig zum Ausstieg gebracht zu werden. Auf Anhieb fallen mir
+xhoch4, Itug, Fesi, ZKCU (?) und vielleicht noch ein paar weitere
+ein.
+
+Lukas

@@ -1,0 +1,31 @@
+Hallo,
+
+ich möchte gerne folgende Tabelle erstellen:
+
+Spalte a  |  Spalte b
+ <Datum>  | <Deutscher Aktienindex>
+
+
+Diese Tabelle wird jeden Tag von mir nach unten erweitert.
+
+Wenn ich jetzt daraus einen Chart mache, dann tritt das Problem auf, daß
+immer ein fester Daten-Bereich als Datenquelle für den Chart angegeben
+werden muß. Der DAX verändert sich aber jeden Tag, sodaß ich, um einen
+tagesaktuellen Chart zu haben, jeden Abend den Geltungsbereich des
+Diagramms neu definieren muß. Nehme ich die gesamte Spalte als
+Datenbereich, dann "schrumpft" der DAX in dem Diagramm zu einem Wollknäuel
+an der linken Vertikalachse. 
+
+Gibt es nicht irgendeine Möglichkeit, daß ein Diagramm jeweils automatisch
+von z.B. A/1 bis B/<letzte_benutzte_Zelle> gilt?
+
+
+CU ALLROGGEN.
+
+
+--
+This signature causes *heavy* Internet traffic and has been sent by 
+Engelbert Ungerbieler (www.bmyfd.ga/~gqfa/lrtfp.myqs).
+----------------------------------------------------------------
+Today's pick from the TOP50 of Borg jokes: 
+I am Valerian Dyckers of Borg. Imagine all the people... assimilated.

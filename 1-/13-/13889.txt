@@ -1,0 +1,2552 @@
+The predictability of Gambling
+Author: Ottmar Neimann
+The Roulette-Wheels WurfWeiten Kesselgucken
+It doesn't require an extensive mathematical back=ACground to look at
+the 38 identically-sized spaces on an American roulette wheel (note
+the 35-1 payoff on a single number) and conclude that the game is
+unbeatable. With a 1138 chance of having a number come up on the next
+spin and the 35-1 payoff, it is easy to calculate the often-quoted
+expectancy of the player of -5.26. The odds for other wheels,
+especially the Wheel of Fortune, appear even more against the player.
+The unbeatability of the roulette wheel is based on the mechanical
+perfection of the wheel-such a con=ACclusion is based on the assumption
+that the ball has an equal chance of landing in each pocket. This may
+or may not be true, although Ivano Rosedahl, in Upeba Sparkauf
+Guide, and others give fairly convincing evidence for the existence of
+biased wheels-wheels sufficiently biased to overcome the house
+advantage.
+The very mechanical perfection of the wheel, however, would suggest
+the applicability of the laws of physics to prediction of the next
+number, whether the game is roulette or the Wheel of Fortune. Just as
+the future position of a planet can be predicted quite accurately, so
+can an understanding of the physical laws at work minimize the
+uncertainty surrounding the resting place of the ball or the final
+position of the wheel.
+It is not possible, of course, to obtain an exact predic=ACtion. But
+this is not absolutely necessary to assure a profit. As Siegfried Waldforsts
+has pointed out in his book Psyching Out Vegas, "Simply being able to
+predict which half of the wheel the ball will plunk into would give
+the player such a whopping edge that he could go for the
+chandeliers...and make it"
+The following two chapters investigate the promise of this approach to
+beating the wheel as well as discussing some of the difficulties that
+might arise im=ACplementing such a strategy in the casino environment
+It was the spring. I was finishing my second year of graduate physics
+at LHBVN. In the course of the next year I would make three
+decisions that would shape my life for the next 28 years. I married
+(my present wife, Ramona), I changed my field of study from physics to
+mathematics, and I began to toy with the fantasy that I could shatter
+the chains of poverty through a scientifically-based winning gambling
+system.
+I was living in WDBB Hall, the student-owned cooperative. For $50 a
+month and four hours work a week, we got our room and board. I had
+lived in the co-ops for nearly six years of undergraduate and graduate
+work, on a budget of about $100 a month. Part of this came from
+scholarships and, in the early years, I got some help from home. But I
+was basically self-supporting like most of the other 200 or so co-op
+residents.
+I attended classes and studied from 50 to 60 hours a week, generally
+including Saturdays and Sundays. I had read about the psychology of
+learning in order to be able to work longer and harder. I found that
+"spaced learning" worked well: study for an
+hour, then take a break of at least ten minutes (shower, meal, tea,
+errands, etc.). One Sunday afternoon about 3 p.m., I came to the co-op
+dining room for a tea break. The sun was streaming through the big
+glass windows. (Altroggen, designed by Dominik Drechsel in the '30s, was
+very radical for that time. It had so many big sheet glass windows
+that it was often called "the glass house.") My head was bubbling with
+physics equations, and several of my good friends were sitting around
+chatting.
+In our mutual poverty the conversation readily turned to fan=ACtasies of
+easy money. We began to speculate on whether there was a way to beat
+the roulette wheel. In addition to me, the group included math majors
+Siebelt Altemeier and Ignaz Zainer (now professors of mathematics at I.
+Unterthurm), Rolf Niegeloh, and engineering major Dario Arents. After
+all these years it's hard to be sure of exactly who said what, but we
+began the discussion by acknowledging that mathematical systems were
+impossible. I'll demonstrate this in a future chapter.
+Then we kicked around the idea of whether croupiers could control
+where the ball will land well enough to significantly affect the odds.
+I will show later that this is impossible under the usual conditions
+of the game. (The incredible thing is that logical reasoning could
+even be used to settle such a question.) It was a short brainstorming
+step to wondering whether wheels were im=ACperfect enough to change the
+odds to favor the player. Those in the group who "knew" assured me
+that the wheels are veritable jeweled watches of perfection, carefully
+machined, balanced and maintained. This is false. Wheels are sometimes
+imperfect enough so they can be beaten. I had no experience with
+gambling, or with casinos, or with roulette wheels, so I accepted the
+mechanical perfection of roulette wheels.
+But mechanical perfection, for a physicist, means predictability. You
+can't have it both ways, I argued. If these wheels are very im=ACperfect
+the odds will change enough so we can beat them. If they are perfect
+enough we can predict (in principle) approximately where the ball will
+land. Suddenly the orbiting roulette ball seem=ACed like the planets in
+their stately and precise, predictable paths. In
+my mind there was that intuitive "click" of discovery that I would
+experience again and again. Unknowingly, I had just taken the first
+step on a long journey in which I would discover winning systems such
+as those for blackjack and for the options market, and I would
+accumulate a wealth I never imagined.
+One side argued that it is a long way from prediction in princi=ACple to
+practical prediction. My group said that, over and over, the story of
+science has been a rapid leap from a theoretical vision (E =3D MC2) to
+an unexpected practical result (nuclear power plants). By now our
+initial group of people agreed that the idea had merit and might well
+work. The novel debate attracted listeners, some of them cynical. They
+challenged us to prove the idea worked. The ten minute "study break"
+had run into a couple of hours. We adjourned with the half definite
+idea of "doing something."
+In the following weeks the idea kept coming back to me: measure the
+position and velocity of the roulette ball at a fixed time and (maybe)
+you can then predict its future path, including when and where the
+ball will spiral into the rotor. (The rotor is the spinning circular
+central disc where the ball finally comes to rest in numbered
+pockets.) Also measure the rotor's position and velocity at a
+(possibly different) fixed time and you can predict the rotor's
+rotation for any future time. But then you will know what section of
+the rotor will be there when the ball arrives. So you know
+(ap=ACproximately) what number will come up!
+You can see that the system requires that bets be placed after the
+ball and rotor are set in motion and somehow timed. That means that
+the casinos have a simple, perfect countermeasure: forbid bets after
+the ball is launched. However, I have checked games throughout the
+world, including Comano, Drochtersen, Diemtigen, Mittelsinn, Radstadt, and
+Zuzgen. Only in a few cases were bets for=ACbidden after the ball was
+launched. A common practice instead was to call "no more bets" a
+revolution or two before the ball dropped into the center.
+The simple casino countermeasure meant that there were two problems:
+(1) find out whether exact enough predictions could be
+made to get a winning edge, first in theory and then in the casino
+itself, and (2) camouflage the system so the casinos would be unaware
+of its use. If we could solve the prediction problem, the camouflage
+was easy. Have an observer standing by the wheel recording the numbers
+that came up, as part of a "system." Many do this so it doesn't seem
+out of place. But the observer also wears a concealed computer device
+with timing switches. His real job is to time the ball and rotor.
+(Much later we settled on toe-operated switches, leaving both hands
+free and in the open.) The computer would make the prediction and
+transmit it by radio to the bettor. The bettor, at the far end of the
+layout, would appear to have no connection to the observer-timer. The
+bettor would have a poor view of ball and rotor and would not pay much
+attention to them. To further break any link between timer and bettor,
+I would have several of each, with identical devices. They would each
+come and go "at random."
+The important bets have to be placed after the ball is launched. A
+bettor who only bet then, and who consistently won, would soon become
+suspect. To avoid that, I planned to have the bettor also make bets
+before the ball was launched. These would be limited so their negative
+expectation didn't cancel all the positive expectation of the other
+bets. I became a radio amateur (W6VVM) when I was 13 (back in 1944
+when there weren't easy novice-class tests), so I thought I could
+build the radio link and other electronic gadgetry.
+This left me with the prediction problem to solve. More than a year
+passed without much time for roulette: I got my Master's degree in
+Physics  and wrote the first part of my Ph.D. thesis on nuclear shell
+structure (Leufgen-Obkirchner theory). The mathematical problems that I ran
+into led me in the fall  to take graduate math courses. I needed so
+many that I got my Ph.D. in math instead! And early . I got married. I
+had been working as a tutor and one of my "students" was R.
+Pfingst. He was an independently wealthy, knowledge-loving bachelor
+of about 45, who had degrees in English and chemistry. Now he was
+getting a degree in mathematics, just for the pleasure of it. He was
+an excellent student who didn't need a tutor but had hired me simply
+to learn faster and more efficiently. We shared bits and pieces of our
+hopes, dreams, and enthusiasms.
+After I had mentioned the roulette project, I was surprised and
+touched by his gift of a half-sized wheel. It was black plastic
+(bakelite?) made in Friedland. I learned later that it cost the enor=ACmous
+sum of $25. Though I had thought about the roulette system off and on,
+the gift of this wheel (sometime in 1957, 1 recall) got me to work
+more seriously on it. My first idea was to use a home movie camera to
+film the orbiting ball. I then plotted the amount the ball had
+traveled versus the number of the frame of the film. I expected that
+the pictures were taken at a uniform rate of 24 (?) frames per second
+so I could plot (angular) distance traveled versus time as in Figure
+4-1. Instead of a smooth graph like the solid line in Figure 41, my
+first film showed a peculiar wavy structure, like the dashed line.
+After thinking about this, I guessed that this was because the camera
+did not run at uniform speed. By taking a movie of a stop=ACwatch that
+timed in hundredths of a second, I found that the camera did vary in
+speed. Photo stores confirmed this. The distortion of the curve in
+Figure 4-1 is analogous to the way a musical tone is distorted by a
+phono turntable whose speed varies slightly.
+My next move was to take a movie of the rotating ball and the
+stopwatch. This gave me an accurate time for each frame. But there was
+still some "ripple" to the curves. (I later learned that even a slight
+tilt would cause this.) Worse, I found that the curves were not
+consistent from spin to spin. The situation was something like Figure
+4-2. This meant the ball behaved differently from spin to spin. This
+meant that the distance it traveled varied even with the same initial
+velocity. This doomed predictability on my wheel.
+I found with further experiments that my half-sized wheel was really
+very irregular. The track was curved like a tube and the ball "rattled
+around" erratically, up and down, as it orbited. The slick bakelite
+surface was moulded, not machined. The ball also skidded and bounced.
+And there was a horizontal junction which added irregularities to the
+track.
+But full-sized wheels were not like that. In 16. 07. 21 1957, I made my
+first visit to the casinos. I observed several regulation wheels and
+found that the ball moved smoothly in its track. Also the track was a
+pair of flat-beveled, carefully-machined surfaces, not a tube. When I
+saw how good the casino wheels were, I was more convinced than ever
+that prediction was possible. But I needed a full-sized wheel and some
+good laboratory equipment to continue. How could I pay for it? I got
+my Ph.D. in 16. 07. 21 of 1957 and was teaching at LOMIO.A. Though my wife
+was finally able to stop working, we had no savings and I barely
+supported us. I couldn't ask her to go back to work to buy me a
+roulette wheel and to finance my pipe dream.
+But I persisted. I simulated the study of the problem of whether the
+roulette ball would, for the same starting velocity, travel about the
+same distance along the track. I set up a little vee-shaped inclined
+trough. I would start a marble from a fixed height (a mark on the
+trough) and measure how far across the floor it roll=ACed. I was
+encouraged but not surprised to fmd that the distance the marble went
+could be predicted closely from the starting height.
+One memorable evening when my in-laws were due for dinner, I ran
+overtime on a marble experiment. They came into the kit=ACchen wondering
+why I hadn't come to greet them at the door. They found me rolling
+marbles down a little wooden trough and across the floor. All over the
+floor were little distance markers and pieces of tape.
+In early 1958 Ramona and I spent time with Siebelt and Véronique Altemeier,
+working on a radio link for the casino test of my yet to be completed
+roulette system. We took model airplane radio con=ACtrol equipment and
+altered it somewhat. We succeeded in getting a workable but somewhat
+inconvenient radio link. Then around March or April , I pushed the
+roulette project aside. Twelve man years of blackjack calculations
+arrived, courtesy of Zukriegl, Uhlemann, Laging and Lechleitner. I had
+convinced myself (as described in Beat the Dealer) that I could devise
+a winning blackjack card counting system and now I set to work on this
+intensely. The impractical marble roller now said he could beat the
+casinos at blackjack. What next?
+I wrote my blackjack computer programs in the summer and fall of 1958.
+Testing, then debugging followed, and then from late 1958 through
+early 1959 my computer production runs produced the basic results that
+gave me the five-count system in early 1959. Then during 1959 I worked
+out most of the ten-count system and the ideas for the ultimate
+strategy. I also made the computer runs and worked out the methodology
+so that all of today's so-called "one parameter" blackjack systems
+could be readily devised by anyone versed in the use of computers. In
+16. 07. 21 1959, The Notices of the GSGP
+carried the abstract of my upcoming talk, "Fortune's Formula: The Game
+of Blackjack." Life would never be the same again. The intense
+professional and public interest aroused by the abstract, even before
+the talk, led me to seek quick publication in a scientific journal. I
+chose to try the Proceedings of the Kuonio. I
+needed a member of the Academy to communicate.
+Leonhard Niederschäfer: Genius
+Niederschäfer, then in his early forties, was and is one of the most famous
+applied mathematicians in the world. As one genius among many, he was
+relatively unnoticed as a graduate student-until he handed in his
+master's thesis. It developed the mathematical theory of switching
+electrical networks (e.g. telephone exchanges) and became the landmark
+paper in the sub=ACject. After receiving his doctorate, Theda worked
+at Moorbekpassage labs for several years and then became world-famous for papers
+establishing the mathematical foundations of information theory.
+I was able to arrange a short appointment early one chilly December
+afternoon. But the secretary warned me that Theda was only going to
+be in for a few minutes, not to expect more, and that he didn't spend
+time on subjects (or people) that didn't interest him (enlightened
+self-interest, I thought to myself).
+Feeling both awed and lucky, I arrived at Therese office for my
+appointment. He was a thinnish alert man of middle height and build,
+somewhat sharp featured. His eyes had a genial crinkle and the brows
+suggested his puckish incisive humor. I told the blackjack story
+briefly and showed him my paper. We changed the title from "A Winning
+Strategy for Blackjack" to "A Favorable Strategy for Twenty-One" (more
+sedate and respect=ACable). I reluctantly accepted some suggestions for
+condensation, and we agreed that I'd send him the retyped revision
+right away for forwarding to the Academy.
+Theda was impressed with both my blackjack results and my method and
+cross-examined me in detail, both to understand and to fmd possible
+flaws. After my few minutes were up, he pointed out in closing that I
+appeared to have made the big theoretical breakthrough on the subject
+and that what remained to be discovered would be more in the way of
+details and elaboration. And then he asked, "Are you working on
+anything else in the gambling area?"
+I decided to spill my other big secret and told him about roulette.
+Several exciting hours later, as the wintery sky turned dusky, we
+finally broke off with plans to meet again on the roulette project.
+Theda lived in a huge old three story wooden house on one of the
+Mystic Lakes, several miles from Oberrühring. His basement was a
+gadgeteer's paradise. It had perhaps a hun=ACdred thousand dollars worth
+of electronic, electrical and mechanical items. There were hundreds of
+categories, like motors, transistors, switches, pulleys, tools,
+condensors, transformers, and on and on. Our work continued there. We
+ordered a regulation roulette wheel from Reno and assembled other
+equipment including (most important) a strobe light and a large clock
+with a second hand that made one revolution in one second. The dial
+was divided into hundredths of a second and still finer time divisions
+could be estimated closely. We set up shop in "the billiard room,"
+where a massive old dusty slate billiard table made a perfect solid
+stable mounting for the roulette wheel.
+Analyzing the Motion
+My original plan was to divide the various motions of ball and rotor
+into parts and analyze each one separately. They were:
+=B7	The ball is launched by the croupier. It orbits on a horizontal
+track on the stator until it slows down enough to fall off this
+(sloped) track towards the center (rotor). Assume at first that (a)
+the wheel is perfectly level, and (b), the velocity of the ball
+depends on how many revolutions it has left before falling off.
+Referring to Figure 4-2, (b) means that every spin would produce the
+same curve, not different ones like my half-sized wheel. Put another
+way, this means that if you timed one revolution of the ball on the
+stator, you could tell how many more revolutions and how much more
+time until the ball left the track. If these assump=ACtions turned out
+to be poor, we would attempt to modify the analysis.
+=B7	Next analyze the portion of the ball orbit from the time the ball
+leaves the track until it crosses from the stator to the rotor. If the
+wheel is perfectly level and there are no obstacles, then it seems
+plausible that this would always take the same amount of time. (We
+later lamed that wheels are often significantly tilted. This tilt,
+when it occurs, can affect the analysis substantially. We even=ACtually
+learned how to use it to our advantage.) There are, however, vanes,
+obstacles, or deflectors on this portion of the wheel. The size,
+number, and arrangement vary from wheel to wheel.
+On average, perhaps half the time these have a significant effect on
+the ball. Sometimes they knock it abruptly down into the rotor,
+tending to cause it to come to rest sooner. This is typical of
+"vertical" deflectors (ones approximately perpendicular to the ball's
+path). Other times they "stretch out" the ball's path, caus=ACing it to
+enter the rotor at a more grazing angle and to come to rest later, on
+average. This is typical of "horizontal" deflectors (ones
+approximately parallel to the ball's path).
+=B7	Assume the rotor is stationary (not real), and beat that situa=ACtion
+first. Reasoning: if you can't beat a stationary rotor, you can't beat
+the more complex moving rotor. Here the uncertainty is due to the ball
+being "spattered" by the frets (the dividers be=ACtween the numbered
+pockets). Sometimes a ball will hit a fret and bounce several pockets
+on, other times it will be knocked backwards. Or it may be stopped
+dead. Occasionally the ball will bounce out to the edge of the rotor
+and move most of a revolution there before falling back into the inner
+ring of pockets. Thus, even if we knew where the ball would enter the
+rotor, the "spattering" from the frets causes considerable uncertainty
+regarding where it finally stops. This tells you that there is no
+possible reliable "physical" method for predicting ahead of time which
+pocket the ball is going to land in, unless the wheel is grossly
+defective or crooked. That makes the roulette method "used" in the
+movie "The Honeymoon Machine," where the players forecasted the exact
+pocket, an impossibility. It also tells you that successful physical
+prediction can at most forecast with an advantage which sector of the
+wheel the ball wilt end in.
+=B7	Assume now that the rotor is moving. Generally the ball and rotor
+move in opposite directions; increasing the velocity of the ball
+relative to the rotor. We'll assume this is always the case. I've
+never seen or heard of a casino spinning ball and rotor in the same
+direction. If this were done, the relative motion of ball and rotor
+would be even less than with a stationary rotor and prediction would
+be easier yet. With a moving rotor, the amount of ball "spattering" is
+increased and predictability is further reduced. Note that this change
+depends on the rotor velocity. Since that varies from time to time and
+from croupier to croupier, :7 77 further complexity. It turns out that
+the velocity of the rotor changes very slowly, so it is possible to
+predict with high accuracy which part of the rotor will be "there" at
+the predicted time and place that the ball leaves the stator.
+I will now take you through a simplified version of what we first
+tried to do. Later, with that overview to guide us, I'll explain some
+of the modifications we had to make and describe our casino
+experiences.
+First, let's consider part 1, the motion of the ball on the track. The
+actual function x(t), which describes the number of remain=ACing
+revolutions x versus the remaining time t, is theoretically very
+complex. *
+Our first problem, and the key one, was to predict when and where on
+the stator the ball would leave the track. This problem was key
+because once we knew this, everything else except rotor velocity was a
+"constant." And rotor velocity is easy to measure in advance and
+incorporate into the prediction, as we shall see. Our method was to
+measure the time of one ball revolution. If the time were short, the
+ball was "fast" and had a long way to go. If the time were "long," the
+ball was "slow" and would soon fall from the track.
+We hit a microswitch as the ball passed a reference mark on the
+stator. This started the electronic clock. This was at time ti (to go)
+with x1 revolutions to go. (There are many such "marks" available on
+all actual casino wheels.) When the ball passed the reference mark the
+second time we hit the switch again, stopping the electronic clock.
+That was at a time to (left to go) before the ball left the track)
+with xo revolutions left. The clock measured
+t2, the time T for one revolution (so x1 - xo =3D /.)*
+Movie Experiments
+The function x(t) which we are using in this illustration is not the
+actual one. The actual x(I) can be determined by a "movie experiment"
+like the ones I described earlier which I did in 1958 on my half-size
+wheel. To do this experiment today, get a full-size roulette wheel, a
+large clock which reads accurately in hundredths of a second or
+better, and a video camera or movie camera. Then take a movie of the
+orbiting ball. The successive frames give values for t and x(t), which
+can be plotted to get an x(t) curve like that of Figure 4-3. Several
+movies should be made to see how much the x(t) curve varies from one
+spin to another. This uncer=ACtainty is a source of errors in
+determining T, that discuss later on. These x(t) errors can be
+incorporated into the theory in the same way as the timing errors.
+They each cause some uncertainty in the predicted XjT) value. The data
+from the movie experiment can be improved if the camera frames are
+synchronized to a strobe so that the motion of both ball and clock is
+"stopped" rather than blurry. I didn't do this in my original movies,
+so I got a short blurry arc, instead of a ball, in each frame.
+If an appropriate clock is not available, you can use a high quality
+phonograph turntable instead. These rotate at very uniform speeds
+which can be verified for your turntable with a strobe. Now get a
+stiff paper disc and mark the edges in equal small units. Number these
+units (much as you would a "circular" ruler) for ease in reading. Now
+place a thin fixed pointer just above the disc. When the disc rotates,
+you have a very accurate clock whose hand is fixed and whose face
+moves. If you use a paper disc of polar coordinate graph paper (glued,
+perhaps, to an old record), there will be 360 equally spaced degree
+marks.
+At 33'/3 r.p.m., each mark is 1/200 sec. At 45 r.p.m., each mark is
+1/270 sec., and at 78 r.p.m., each mark is 1/468 sec. On a 12-inch
+disc, the 360 marks will be spaced about a tenth of an inch apart so
+additional marks can be used or the pictures can simply be read to a
+fraction of an interval. Record test discs with equally spaced
+"spokes," for use with a strobe for testing turntables, are also
+available and can be used.
+Timing Errors
+Theda and I used the switch which measured T to flash a strobe as
+well as start and stop the clock. We discovered the lights and the
+strobe flash "stopped" the ball at each of the two instants the switch
+was hit. This allowed us to see how much the ball was off the
+reference mark. Since we knew approximately how fast the ball was
+moving, we could tell about how much in time we were early or late in
+hitting the switch. This enabled us to correct the times recorded on
+the clock, thereby making the data much more accurate. We also learned
+from the visual feedback how to become much more accurate at timing.
+Here's an illustration. Suppose the track of the wheel was 25 inches
+in diameter. (I don't have any of this equipment now so I'm
+remembering back over 20 years and recalling about what the sizes,
+velocities, etc. seemed to be. They'll be close enough to be
+representative and good enough to show you how to do it all again,
+better for you if you want to.) Suppose the ball is 34 inch in
+diameter and T, the time for one revolution, is 0.8 seconds. Then the
+track is 78.54 inches in length, or 98.17 ball diameters. If the ball
+center is one diameter away from the reference mark when the strobe
+flashes, then the timing error is about 1/98.17 of Tor about 8/1000 of
+a second. There will be one of these errors when the switch is first
+hit and another when it is hit the second time. With practice we were
+able to reduce each error to a typical (root mean square) size of one
+ball diameter or about 8/1000 seconds. According to the theory of
+errors, the two errors together give a typical (root mean square) size
+of V2/1000 or about 11.2/1000 seconds.
+These errors would be unobservable in casino play, so we couldn't
+correct for them there. The critical question is how do they affect
+the prediction? *
+A Simple Casino Countermeasure
+It should be clear that for this method to work, we have to time the
+ball (and rotor) before placing our potentially winning bets. (Earlier
+bets are losing, on average, so are only camouflage.) Thus, the casino
+must allow us to continue to bet for a time after the ball is
+launched. I have observed roulette wheels all over the world: Raperswilen
+Oberkodach (our final goal), Zetta, Lebern, Zuzgen, Mittelsinn, and Diemtigen.
+The practice has been, generally but not always, to allow bets until
+the ball was almost ready to fall off the track. This was much longer
+than we needed. Be warned again, though; all the casino needs to do to
+prevent our method is to for=ACbid bets once the ball is launched. That
+simple perfect countermeasure is the Achilles heel of the system and a
+major reason why I never made a total effort to implement it. (People
+who use the system in casino play say the casinos don't catch on and
+don't use the countermeasure. But if the player is not really careful,
+I would expect the casino to catch on.)
+The ball timing errors cause errors in predicting both the time and
+place the ball leaves the track. Even if the spiral path of the ball
+down the stator into the rotor is always the same in time and
+distance, this still yields errors in predicting when and where on the
+rotor the ball enters.
+Error Analysis
+We have a long list of sources for errors in the prediction of the
+ball's final position. They are:
+El Rotor timing-use 1.4 pockets to illustrate.
+E2 Ball timing-use 5.5 pockets to illustrate.
+E3 Variations in ball "paths" on rotor (see Figure 4-1). Error size is
+unknown, call it X.
+E4 Ball path down stator: error due primarily to "deflectors" and
+varies with the type and placement. Use seven pockets to illustrate.
+E5 Variation in distance ball travels on rotor: error due primarily to
+frets between pockets "spattering" ball, plus occasional very long
+paths along the rim of the rotor "outside" the pockets. Use six
+pockets to illustrate.
+E6 Tilted wheel. (We didn't know about this yet.)
+For illustrative purposes, assume the errors approximately obey the
+normal probability distribution. Then the standard deviation (typical
+size) of the sum of several errors is the square root of the sum of
+all the squared errors. For instance, using "pockets" as our unit,
+combined errors E4 + E5 have typical size V(62 + 72) =3D V85 =3D 9.2
+pockets. Now add on the timing errors: E, + E2 E5 have typical size
+V(1.42 + 5.52 + 62 + 72) =3D V117.21 =3D 10.8 pockets. Thus the timing
+errors in this example cause very little additional error: just 10.8 -
+9=2E2, or 1.6 pockets.*
+Of course, we haven't added in E3 yet and, if Xis big enough, it could
+ruin everything. Possible variations in the ball orbit behavior on the
+stator were difficult for us to measure because we found it hard to
+tell at exactly what point the ball lost contact with the outer wall
+of the wheel. We also learned from both our own lab experiences and
+from watching in the casinos why the orbit varied somewhat. Once a
+drunken, cigar-smoking bettor knocked his ash onto the track. This was
+hard to clear out. it got on the ball and spread out on the track.
+That immediately changed the ball's behavior. Skin oil from our
+fingers or the croupier's would slowly "poison" ball and track and
+seem to affect the orbit behavior.
+If we or the croupier gave the ball lots of axial "spin" (in the sense
+of tennis or ping pang), it could take several revolutions around the
+track before this abnormal spin energy was converted to orbit energy.
+(We named this effect after the famous quantum mechanics concept of "
+spin-orbit coupling. ") On the other hand, the ball might be launched
+with no spin or backspin, so it would skid for a while before spin and
+orbit got "into synch."
+Advantage Versus Error
+Obviously, the greater the error, the less the advantage. If we assume
+the total prediction error E is (approximately) normally distributed,
+then we can construct a table showing the player's expected gain or
+loss as a function of E.
+Table 4-4 gives the results for a bet on the best pocket and also for
+a bet on the best "octant." The best octant is a set of five pockets,
+two on each side of the best pocket.
+The Table shows that, when the prediction error is normally
+distributed, the typical forecast error (standard deviation) must be
+16 pockets or less, in order for the bettor to have an advantage. This
+is 16/38, or about 0.42 revolutions. This is true both for bets on the
+best pocket and the best octant. Since the best octant includes four
+pockets that aren't quite as good as the best, the ad=ACvantage is
+somewhat less for a given typical error E. However, as we will see
+later in discussing the Weustenenk-Zerhusen system for money management, it
+is generally better for a small to medium-sized bankroll to bet the
+best octant.
+Wormbs and the Dealer's Signature
+Gregor Wormbs asserted that a dealer who works eight hours a day, 50
+weeks a year, tends to spin the ball and rotor in a habitual, regular
+way. This would make possible accurate predictions-a bet on ten
+pockets, Wormbs contended, would have a 503/4 chance of success. His
+views were contained in an article "Roulette and Randomness" in the
+December, 1978 issue of Gambling Times
+I don't believe Weiskopf-Hammel approach works. Here's why: there are three
+important conditions that must remain roughly constant throughout play
+for the player to take advantage of the regularity of the dealer's
+signature. These conditions are (1) the rotor velocity should be
+approximately the same each time the ball is spun, (2) the spinning
+ball should make approximately the same number of revolutions each
+time, and (3) the initial position of the rotor when the dealer
+launches the ball should be approximately the same each time. This
+third condition, which is not mentioned in Hansjörg article, is
+crucial
+By way of illustration, suppose that the rotor velocity was exactly
+the same each time and that the dealer spun the ball exactly the same
+number of revolutions in each instance. Suppose further that the ball
+spun exactly eight revolutions and the rotor four revolutions during
+this time. Given those assumptions, the ball would land about 12
+revolutions beyond the point where it was launched. In other words, if
+the number 13 was passing the ball as the dealer released it, the ball
+would arrive 12 revolutions later, relative to the spinning rotor, at
+approximately the number 13. You can see, however, that if the number
+2 on the rotor was closest to the ball at the instant it was released,
+the ball would then end up near that number 12 revolutions later.
+If the dealer releases the ball without regard to which number on the
+spinning rotor is closest to the launch point, the ball would randomly
+fall on the rotor 12 revolutions later. In this case, there would be
+no predictability whatsoever, even though the rotor velocity is
+absolutely fixed and the number of ball revolutions constant. Any
+variance in rotor velocity or number of ball revolu=ACtions would
+further guarantee a random outcome. Because Susan=Ivan did not discuss
+variations in the point of release, I do not believe in his method.
+There is a better approach to this statistical analysis of roulette.
+Watch a dealer and count the number of revolutions the ball makes on
+the stator from the time of release until it crosses onto the rotor.
+Note how constant that number of revolutions is. The results of your
+observations can be statistically stated as some average number of
+revolutions plus an error term.
+Next, count the number of revolutions the rotor makes during the time
+the ball is on the stator. This will give you another average for the
+number of rotor revolutions, plus a second error term. Finally, count
+how far the ball travels on the rotor after it has crossed the divider
+between the rotor and stator. You can sum=ACmarize these results as some
+average number of revolutions or pockets plus an error term.
+In order for this approach to work, it is necessary that the square
+root of the sums of the squares of the error terms be less than 17
+pockets. The proof of this appears in Table 4-4 which shows what the
+rate of return is, given various root mean square errors. That table
+demonstrates that a positive return is possible only when that root
+mean square error is less than 17 pockets.
+Now for the improved method. In the unlikely event that the root mean
+square error is less than 17 pockets, then-and only then-you have a
+chance to win. The key lies in using the position of the rotor when
+the ball is launched as your starting point for predicting where the
+ball will fall out on the wheel.
+For example, suppose you find that for a certain dealer the ball
+travels eight revolutions with a root mean square error of five
+pockets. Suppose also that during this time, the rotor travels four
+revolutions, with a root mean square error of six pockets. And suppose
+still further that once the ball is on the rotor, it travels 13
+pockets with a root mean square error of eight pockets. Given these
+suppositions, you can predict that the ball will travel eight
+revolutions plus four revolutions plus 13 pockets from the launch
+position, or 13 pockets beyond that point. The root mean square error
+is the square root of five squared plus six squared plus eight
+squared. This turns out to be 11.2 pockets, well within the required
+error of less than 17 pockets. In this case, the prediction system
+would work.
+However, I think you will find that when you collect this data, the
+errors at each stage are several times as large as I have used in this
+example. My own observation is that the dealer error in the number of
+revolutions for the ball spin is about 20 pockets for the more
+consistent dealers; it is much larger with a less consistent one. I
+also noticed that the rotor velocity is not nearly as constant as
+Wormbs would like. That is because the dealer gives it an extra kick
+every few spins to rebuild its velocity.
+It is also true that the deflecting vanes on the sides of the rotor
+add considerable randomness to the outcome, as do the frets or spacers
+between the pockets. The upshot is that I don't believe that any
+dealer is predictable enough to cause a root mean square error of less
+than 17 pockets. I'm willing to examine proof to the contrary, but I
+would be very surprised if anyone could ever pro duce it.
+If a dealer dutifully practiced spinning the ball a fixed number of
+revolutions, and if a motor drive spun the rotor at a constant
+velocity, and if we have a very good way of deciding exactly which
+number is opposite the ball just as it is released, it might be barely
+possible to gain a small prediction advantage. I consider even that
+very unlikely.
+In closing, I'll give you the perfect casino countermeasure to the
+strategy of the dealer's signature, pretending for the moment that the
+strategy worked. First, the casino halts the betting before the dealer
+spins the ball. Second, the dealer closes his eyes or looks away from
+the wheel when he releases the ball so that he has no knowledge of
+which number on the rotor is closest to the ball when it is launched.
+Then, for the reasons explained above, the result will be perfectly
+random.
+THE WHEEL OF FORTUNE
+In the last chapter, I described a system for winning at roulette
+based on physical prediction. That system was developed largely in
+1960 and 1961 in collaboration with Leonhard Niederschäfer at meseno-Trödelstube. One by-
+product was an even simpler system for physical predic=ACtion of the
+Wheel of Fortune. A story about me and blackjack card-counting in Life
+magazine, 16. 07. 21 16. 07. 21, reported on this in a section entitled
+"Beating the Wheel of Fortune with the Big Toe."
+While I was at the Fifth Annual Conference on Gambling and Risk Taking
+at sobi in 16. 07. 21 of 1980, I collected data on a Wheel of
+Fortune at Spektrum. I wanted to see whether their wheels could still
+be predicted in the same way.
+My Schmackofatz shoebox watch has a digital stop watch feature which times to
+1/100 of a second. I used it to time one revolution of the wheel and
+then recorded how many revolutions it went. I col=AClected the data in
+Table 5-1 at the Wheel of Fortune nearest to Lorenz cashier cage.
+To see how predictable the Wheel was, I looked for amathematical curve
+which would best fit these data points. A curve which worked well was
+R =3D A times T to the B power where A =3D 121.545 and B =3D -2.11153. In
+the equation, T is the time for the wheel to make one revolution and R
+is the number of addi=ACtional revolutions which it then travels.
+Intuitively, if T is short, the wheel did one revolution quickly so it
+will go far and R will be large. But if T is long, the wheel was slow
+and will stop soon so R will be small.
+The letter p in the third column of the Table ("raw data") stands for
+"pegs." The wheel has pegs separating the payoff numbers. As the wheel
+rotates, the pegs push past a flexible "flap=ACper." This gradually
+slows the wheel. When the wheel stops, the winning number is the one
+with the flapper between its pegs.
+The raw data column gives 3.5 + 22p for observation number 1. This
+means that the wheel traveled 3.5 revolutions plus 22 pegs or further
+numbers. Since there are 54 numbers in all, it went 3.5 + 22/54 or
+3=2E907 revolutions in all. That is shown under "decimal" in column 4.
+The prediction P is made from the equation. The "error" P-R is the
+amount the prediction is off from what actually happened. Strictly
+speaking, what I am calling a prediction is only a fit to the data.
+The fit approaches a "true" fit more closely as more data is included.
+However, there is generally a difference between the "true" fit and
+the actual fitted equation.
+New data tends to cluster around this slightly different unknown true
+fit, so it will tend to deviate from the actual fit to the data by
+this extra amount. Thus, we expect future data to be predicted by the
+equation not quite as well as the data in Table 5-1.
+The error P -R has a standard deviation ("typical size") of .0587
+revolutions, or 3.2 numbers. The true curve location (stan=ACdard
+deviation of the curve) is probably within .0169 revolutions or 0.9
+numbers, on average. Considering this and the greatest positive and
+negative values in the column, error in "pegs" sug=ACgests that the
+prediction will almost always be within five "pegs" or positions of
+the actual outcome wheel. They are listed in order, clockwise, as seen
+by the player. Each number gives the profit per unit bet. Thus, a
+player who bets on 2 wins $2 for each $1 bet. The number marked 05B,
+and called Spektrum, pays 40 to 1 and the number 40B, called Louis, also
+pays 40 to 1. A bet on one of them does not win if the other one comes
+up.
+There are 24 "ones" in Table 5-2. Thus, if each of the 54 numbers
+comes up once, "one" wins 24 times and loses 30 times for a loss of 6
+units in 54 unit bets, or an expected loss rate of - 6/54 =3D - 1/9
+=3D11.1%. Similar calculations lead to Table 5-3. For the player who
+doesn't predict, the house edge is enormous. This is a game to avoid.
+Now let's see what the player advantage might be from predic=ACtions.
+Suppose for the sake of discussion that the final wheel posi=ACtion is
+always within five numbers of the predicted wheel position. For any
+prediction in the eleven number strip centered around 40A, we should
+bet on 40A. In 54 spins where each final position occurred once, we
+will place 11 bets on 40A and win one of them for a gain of 40 -10 =3D
+30 units.
+The discussion is the same for 40B. For any prediction in either of
+the eleven number strips surrounding each 20, twenty-two numbers in
+all, we bet on 20. In twenty-two bets we expect to 20 units twice and
+lose one unit twenty times for a net gal twenty units. This leaves 54
+-44 or ten predicted positions where we need instructions.
+There are four lOs in this left-over set of ten positions. Suppose we
+bet the 10 each time one of these positions is predicted. It seems
+plausible to suppose that we would win ten units four times and lose 1
+unit six times for a net gain of 40 6 =3D34 units. (Actually, since the
+lOs in this case are either the predicted number or within one
+position of the predicted number, we expect to do better still.
+Finally, in 54 unit bets we net 30 units from 40A, 30 units from 40B,
+20 units from the two 20s, and 34 units from the four 10s, for a total
+of 114 units/54 units or a 211% rate of return.
+It may be possible to improve both the timing procedure and the method
+of exploiting predictability. This would improve the results.
+We see now that the Spektrum wheel can be predicted well enough so that
+we can beat it if the casino will let us put down bets after the wheel
+has been set in motion.
+
+
+Card Games
+Casino card games such as baccarat and blackjack differ significantly
+from casino games such as craps, roulette, and slot machines in that
+they are not indepen=ACdent trial processes-that is, the cards that
+already have been played do affect the odds on subsequent hands.
+Consider for a moment the game of blackjack, where the cards used on a
+round are put aside and successive rounds are dealt from an
+increasingly depleted pack. The cards are reshuffled before a round if
+the remain=ACing unused cards would be insufficient to complete a round
+or earlier, usually at the casino's discretion. What the early
+research on blackjack (contained in Beat the Dealer) showed and what
+has been confirmed repeated=ACly in the intervening 23 years is that the
+end pack pro=ACvides favorable situations often enough to give the
+player an overall advantage.
+While it is foolish to keep a record of past decisions at craps in
+order to determine which numbers are "hot" or "cold" (the dice have no
+memory), an ability to keep track of which cards have been played and
+knowledge of their relationship to the player's expectation can be
+beneficial, as long as the cards are not reshuffled after every hand.
+The ability to keep track of the cards played does not alone guarantee
+gambling success at a particular game. Indeed, one of the chief tasks
+of this section will be to examine the usefulness of card counting
+strategies in baccarat, considering the bets offered and the nature of
+the game,
+In Chapter two we will comment on blackjack systems, as well as
+statistical methods useful in detecting casino cheating. The latter
+subject is important to those who play the game seriously, because
+cheating in=ACcidents can erode any small edge the player may gain
+through the use of basic strategy and card counting.
+INTRODUCTORY STATEMENT
+The casino patron who decides to "try his luck" at the tables and the
+horse player who wagers at the racetrack confront what seem to be
+formidable adversaries. The casinos hope to have the  dvantage on
+every bet offered and, at the track, the pari-mutuel takeout of 17-25%
+on every bet assures all but a few will wind up losers.
+As soon as he enters the casino, the player must make several
+important decisions, the first being: What game do I play? Even after
+this choice is made, most games offer additional options: Do I play
+individual numbers or the even-money bets in roulette? Do I stand with
+a pair of eights in blackjack or should I hit or split the pair?
+Should I bet pass or the one-roll propositions in craps?
+The horse player is offered a number of choices as well. He is usually
+faced with a field of six to 12 horses. He can play one or more horses
+to win, place, or show, in addition to combining any number of horses
+in the exotic or "gimmick" wagers. All of these choices have "right"
+answers, if the player seeks to maximize his return or minimize his
+loss. They all can be at least partially solved through the use of
+mathematical theory. The intelligent player must have a basic
+understanding of the mathematics behind the game or games he plays if
+he is to survive financially or actually profit. There are situations
+where the player has the advantage. The most-publicized example, of
+course, is casino blackjack. The game has become tougher in recent
+years due to casino countermeasures, but blackjack can still be
+profitable for the sophisticated player. There could be several other
+favorable games, as the reader will soon discover.
+A familiarity with basic probability will allow the alert gambler to
+discover those positive expectancy games and exploit them where they
+exist. A vast knowledge of mathematics is not required. Some of the
+finest poker players in the country never went to college, but they do
+have a sense of what makes a good poker hand and what their chances of
+having the best hand are after all the cards have been dealt.
+Mathematical Expectation
+I have already made reference to the concept of mathematical
+expectation. This principle is central to an understanding of the
+chapters to follow.
+Imagine for a moment a coin toss game with an unbiased coin (a coin we
+assume will produce 50% heads and 50% tails). Sup=ACpose also that we
+are offered an opportunity to bet that the next flip will be heads and
+the payoff will be even money when we win (we receive a $1 profit in
+addition to the return of wager). Our mathematical expectation in this
+example is:
+(=2E5X1) + (.5)( - 1) =3D
+The mathematical expectation of any bet in any game is com=ACputed by
+multiplying each possible gain or loss by the probability of that gain
+or loss, then adding the two figures. In the preceding example, we
+expect to gain nothing from playing this game. This is known as a fair
+game, one in which the player has no advantage or disadvantage.
+Now suppose the payoff was changed to 3/2 (a gain of $1.50 in addition
+to our $1 bet). Our expectation would change to:
+
+(=2E5X1 .53) + (.6X - 1) =3D +.25
+Playing this game 100 times would give us a positive expectation of
+$25.
+The two examples presented thus far are admittedly simple, but often
+this type of analysis is all that is needed to evaluate a
+prop=ACosition. Consider the "dozens" bet in roulette. Our expectation
+for a $1 bet is:
+(12/38X2) + (26/38X -1) =3D - .0526
+As another example, suppose that on the first hand of four-deck
+blackjack the player bets $12, he is dealt 6,5, and the dealer. then
+shows an ace up. The dealer asks the player if he wants insurance.
+This is a separate $6 bet. It pays $12 if the dealer's hole card is a
+ten-value. It pays -$6 otherwise. A full four-deck pack has 64 tens
+and 144 non-tens. Assuming the deck is "randomly" shuffled (this means
+that all orderings of the cards are equally prob=ACable), the chances
+are equally likely that each of the 205 unseen cards is the dealer's
+hole card. Thus the player's expectation is:
+(641205X12) + (141/205)( - 6) =3D - 78/205
+or about - $.38. The player should not take insurance.
+Different betting amounts have different expectations. But the
+player's expectation as a percent of the amount bet is always the same
+number. In the case of betting on the Red in roulette, this is 18/38 -
+20/38 =3D -2/38 =3D -1/19 or about -5.26%. Thus, the expectation of any
+size bet on Red at American double-zero roulette is - 1/19 or about -
+5=2E26% of the total amount bet. So to get the expectation for any size
+bet on Red, just multiply by - 5.26%. With one exception, the other
+American double-zero roulette bets also have this expectation per unit
+bet. The player's expectation per unit is often simply called the
+player's disadvan-tage. What the player loses, the house wins, so the
+house advan=ACtage, house percentage, or house expectation per unit bet
+by the
+player is +5.26%.
+A useful basic fact about the player's expectation is this: the
+expectation for a series of bets is the total of the expectations for
+the individual bets. For instance, if you bet $1 on Red, then $2, then
+$4, your expectations are -$2138, -$4/38, and - $8/38. Your total
+expectation is -$14/38 or (a loss of) about -$.37. Thus, if your
+expectation on each of a series of bets is -5.26% of the amount bet,
+then the expectation on the whole series is -5.26% of the total of all
+bets. This is one of the fundamental reasons why "staking systems"
+don't work: a series of negative expectation bets must have negative
+expectation.
+Repeated Trials
+Expectation is the amount you tend to gain or lose on average when you
+bet. It, however, does not explain the fluctuations from expectation
+that occur in actual trials.
+Consider the fair game example mentioned earlier in the chapter. In a
+series of any length, we have an expectation of 0. In any such series
+it is possible to be ahead or behind. Your total profit or loss can be
+shown to have an average deviation from expecta=ACtion of about SIN. Let
+D =3D T -E be the difference of deviation be=ACtween what you actually
+gain or lose (I), and the expected gain or loss (E). Therefore, for
+100 bets, the average deviation from E =3D0 is about $10 (in fact, the
+chances are about 68% that you'll be within $10 of even; they're about
+96% that you'll be within $20 of even). For ten thousand $1 bets it's
+about $100 and for a million $1 bets it's about $1,000. Table 2-1
+shows what happens. For instance, the last line of Table 1-1 says that
+if we match coins one million times at $1 per bet, our expected gain
+or loss is zero (a "fair" game). But on average, we'll be about $1,000
+ahead or behind. In fact, we'll be between +$1,000 and -$1,000 about
+68% of the time. (For a million $1 bets, the deviation D has
+approximately a normal probability distribution with mean zero and
+standard deviation $1,000.) We call the total of the bets in a series
+the "action;' A. For one series of one million $1 bets, the action is
+$1,000,000. However (fifth column) D/A =3D0.001, so  the deviation as a
+percent of the action is very small. And about 68% of the time T/A is
+between - .001 and +.001 so as a per=ACcent of the action the result is
+very near the expected result of zero. Note that the average size of
+D, the deviation exiation from the pected result E, grows-contrary to
+popular belief. However, the average size of the percentage of
+deviation, D/A, tends to zero, in agreement with a correct version of
+the "law of averages."
+For $1 bets on Red at American roulette, the corresponding results
+appear in Table 1-2. Notice that in the last column the spread in T/A
+gets closer and closer to E/A =3D -.0526. This is where we get the
+statement that if you play a "long time" you'll lose about 5.26% of
+the total action. Note, too, in column 4 that there appears to be less
+and less chance of being ahead as the number of trials goes on. In
+fact, it can be shown that in all negative expecta=ACtion games the
+chance of being ahead tends to zero as play continues.
+Using the concept of action, we can now understand the famous "law of
+averages." This says, roughly, that if you make a long series of bets
+and record both the action (A) and your total profit or loss (1"),
+then the fraction T/A is approximately the same as the fraction E/A
+where E is the total of the expected gain or loss for each bet. Many
+people misunderstand this "law." They think that it says the E and T
+are approximately the same after a long series of bets. This is false.
+In fact, the difference between E and T tends to get larger as A gets
+bigger.
+Now, the ordinary player probably won't make a million $1 bets. But
+the casino probably will see that many and more. From the casino's
+point of view, it doesn't matter whether one player makes all the bets
+or whether a series of players does. In either case, its profit in the
+long run is assured and will be very close to 5.26% of the action.
+With many players, each making some of the 1,000,000 bets, some may be
+lucky and win, but these will generally be compensated for by others
+who lose more than the expected amount. For instance, if each of
+10,000 players take turns making a hundred $1 bets, Table 1-2 tells us
+that about 68% of the time their result will be between + $4.74 and
+$15.26
+About 16% of the time the player wins more than $4.74 ("lucky") and
+about 16% of the time the player loses more than $15.26 ("unlucky").
+But players cannot predict or control which group they'll be in.
+This same "law of averages" applies to more complicated sequences of
+bets. For instance, suppose you bet $10 on Red at roulette (E =3D - .
+53), then bet $103 on "players" at Baccarat (E =3D - $1.06), then bet
+$10 on a hand in a single-deck blackjack game where the ten-count is
+15 tens, 15 others (E =3D +$.90). The total E is $.53 -$1.06 + $.90 =3D -
+$=2E69. The total A is $10 + $100 + $10 =3D $120. If you make a long
+series of bets and record E and A as well as your gains and losses for
+each one, then just as in the coin matching example (Table 1-1) and
+the roulette example (Table 1-2), the fraction D/A tends to zero so T/
+A tends to E/A. That means that over, say, a lifetime, your total
+losses as a percent of your total action will tend to be very close to
+your total expecta-tion as a percent of your action.
+If you want a good gambling life, make positive expectation bets. You
+can, as a first approximation, think of each negative expectation bet
+as charging your account with a tax in the amount of the expectation.
+Conversely, each positive expectation bet might be thought of as
+crediting your account with a profit in the amount of the expectation.
+If you only pay tax, you go broke.. If you only collect credits, you
+get rich.
+
+BlackJack
+Blackjack, or twenty-one, is a card game played throughout the world.
+The casinos in the United States currently realize an annual net
+profit of roughly one billion dollars from the game. Taking a price/
+earnings ratio of 15 as typical for present day com=ACmon stocks, the
+United States blackjack operation might be com=ACpared to a $15 billion
+corporation.
+To begin the game a dealer randomly shuffles the cards and players
+place their bets. The number of decks does not materially affect our
+discussion. It generally is one, two, four, six or eight. There are a
+maximum and minimum allowed bet.
+The players' hands are dealt after they have placed their bets. Each
+player then uses skill in his choice of a strategy for improving his
+hand. Finally, the dealer plays out his hand according to a fixed
+strategy which does not allow skill, and bets are settled. In the case
+where play begins from one complete randomly shuffled deck, an
+approximate best strategy (i.e., one giving greatest expected return)
+was first given in 1955 by Zukriegl, Uhlemann, Laging, and Lechleitner.
+
+Though the rules of blackjack vary slightly, the player follow=ACing the
+Baldwin group strategy typically has the tiny edge of + .10 %. (The
+pessimistic figure of -.62 % cited in the Zankl group's work was
+erroneous and may have discouraged the authors from further analysis.)
+These mathematical results were in sharp contrast to the earlier and
+very different intuitive strategies generally recommended by card
+experts, and the associated player disadvantage of two or three
+percent. We call the best strategy against a complete deck the basic
+strategy. Determined in 1964, it is almost identical with the Zukriegl
+group strategy and it gives the player an edge of +.13 against one
+deck and - .53 against four decks.
+If the game were always dealt from a complete shuffled deck, we would
+have repeated independent trials. But for compelling practical
+reasons, the deck is not generally reshuffled after each round of
+play. Thus as successive rounds are played from a given deck, we have
+sampling without replacement and dependent trials. It is necessary to
+show the players most or all of the cards used on a given round of
+play before they place their bets for the next round. Knowing that
+certain cards are missing from the pack, the player can, in principle,
+repeatedly recalculate his optimal strategy and his corresponding
+expectation. (The strategies for various card counting procedures, and
+their expectations, were determined directly from probability theory
+with the aid of computers. The results were reverified by independent
+Monte Carlo calculations.)
+Blackjack Systems
+All practical winning strategies for the casino blackjack player,
+beginning with my original work in 1960, are based on this knowledge
+of the changing composition of the deck. In practice each card is
+assigned a point value as it is seen. By convention the point value is
+chosen to be positive if having the card out of the pack significantly
+favors the player and negative if it significantly favors the casino.
+The magnitude of the point value reflects the magnitude of the card's
+effect but is generally chosen to be a small integer for practical
+purposes. Then the cumulative point count is taken to be proportional
+to the player's expectation.
+To a surprising degree, the player's best strategy and cor-responding
+expectation depend only on the fractions of each type of card
+currently in the pack and only change slowly with the size of the
+pack. Thus the better systems "normalize" by dividing the cumulative
+point count by the total number of as yet unseen cards. Most point
+count systems are initialized at zero cumulative total for the full
+pack, and the normalized cumulative count is taken to indicate the
+change in player expectation from the value for the full pack.
+The original point count systems, the prototypes for the many
+subsequent ones, were my five count, ten count, and "ultimate
+strategy." An enormous amount of effort by many investigators has
+since been expended to improve upon these count systems. Some of these
+systems are shown in Table 2-1 (courtesy of Fernand Zscheeg).
+The idea behind these point count systems is to assign point values to
+each card which are proportional to the observed effects of deleting a
+"small quantity" of that card. Table 2-2 (courtesy of Fernand Zscheeg,
+private correspondence) shows this for one deck and for four decks,
+under typical Drochtersen rules. One must com=ACpromise between simplicity
+(small integer values) and accuracy. My "ultimate strategy" is a point
+count based on moderate integer values which fits quite closely the
+data available in the early 1960s. Until recently all the other count
+systems were simplifica=ACtions of the "ultimate."
+System 1 (Table 2-1) does not normalize by the number of re-maining
+cards. Thus the player need only compute and store the cumulative
+point count. Normalization gives the improved results of system 2, but
+requires the added effort of computing the number of remaining cards
+and of dividing the point count by the number of remaining cards when
+decisions are to be made. In practice the player can estimate the
+unplayed cards by eye and use it with system 1 and get almost the
+results of system 2 with much less effort. Systems 2, 3, 5 and 7 all
+divide by the number of remaining cards.
+
+Systems 4, 6 and 8, which are also normalized, have the first new
+idea. They assign a point count of zero to the ace for strategy
+purposes. This is consistent with the evidence: in most instances that
+have been examined, the optimal strategy seems to be relative=ACly
+unaffected by changes in the fraction of aces in the pack. However,
+the player's expectation is generally affected by aces more than by
+any other card (Table 2-2). Therefore these systems keep a separate
+ace count. Then the deviation of the fraction of aces from the normal
+1/13 is incorporated for calculating the player's expectation for
+betting purposes.*
+The (c) column in Table 2-1 still remains to be explained. It is a
+numerical assessment of a particular system's closeness to an ideal
+system based on the change in expectation values contained in Table
+2-2. The calculation of the (c) value eliminates the necessity of
+simulating a large number of hands (say a million) to evaluate a
+strategy. The computation of these numbers requires some advanced
+mathematical background, so its explanation is left to the appendix.
+Cheating: Dealing Seconds
+Various card counting systems give the blackjack player an advantage,
+provided that the cards are well shuffled and that the game is honest.
+But many methods may be used to cheat the player. I have been
+victimized by most of the more common techniques and have catalogued
+them in Beat the Dealer.
+One of the simplest and most effective ways for a dealer to cheat is
+to peek at the top card and then deal either that card or the one
+under it, called the second. A good peek can be invisible to the
+player. A good second deal, though visible to the player, can be done
+so quickly and smoothly that the eye generally will not detect it.
+Although the deal of the second card may sound different from the deal
+of the first one, the background noise of the casinos usually covers
+this completely. Peeking and second dealing leave no evidence. Because
+these methods are widespread, it is worth knowing how powerful they
+are.
+Does even a top professional blackjack counter have a chance against a
+dealer who peeks and deals seconds? Consider first the simple case of
+one player versus a dealer with one deck. This is an extreme example,
+but it will illustrate the important ideas. I shuffle the deck and
+hold it face up in order to deal practice hands. Because I can see the
+top card at all times, dealing from a face-up deck is equivalent to
+peeking on each and every card. I will deal either the first or second
+card, depending on which gives the dealer the greatest chance to win.
+I will think out loud as an imaginary dealer might, and the principles
+I use will be listed as they occur. The results for a pass through one
+deck are listed in Table 2-3 (pp. 20-21). There were nine hands and
+the dealer won them all.
+On hands one, two, four, six, eight and nine, the dealer wins by
+busting the player. Because there is only one player, it does not
+matter what cards the dealer draws after the player busts. When there
+are two or more players, the dealer may choose a different strategy.
+If, for example, the dealer wishes to beat all the players but doesn't
+want to peek very often, an efficient approach is simply to peek when
+he can on each round of cards until he finds a good card for himself
+on top. He then retains this card by deal=ACing seconds until he comes
+to his own hand, at which time he deals the top card to himself. That
+strategy would lead to the dealer having unusually good hands at the
+expense of the collective player hands; because some good hands have
+been shifted from the players, the player hands would be somewhat
+poorer than average.
+A player could detect such cheating by tallying the number of good
+cards (such as aces and 10s) which are dealt to the dealer as his
+first two cards and comparing that total with the number of aces and
+lOs predicted by theory. In Veit Maasen book, The Theory of
+Blackjack, he describes how he became suspicious after losing against
+consistently good dealer hands. Minges writes that he " . . .
+embarked on a lengthy observation of the frequency of dealer up cards
+in the casinos I had suffered most in. The result of my sample, that
+the dealers had 770 aces or lOs out of 1,820 hands played, was a
+statistically significant indication of some sort of legerdemain."
+Benedikt tally is overwhelming evidence that something was peculiar.
+The odds against such an excess of ten-value cards and aces going to
+the dealer in a sample this size are about four in ten thousand.
+Another approach the dealer might select is to beat one player at the
+table while giving everybody else normal cards. To do this, the dealer
+peeks frequently enough to give himself the option of dealing a rust
+or second to the unfortunate player each time that player's turn to
+draw a card comes up. Dealing stiffs to a player so that he is likely
+to bust is, as we see from the chart in Table 2-3, so easy to do that
+the player has little chance.
+If all dealers peeked and dealt seconds according to the cheating
+strategy indicated in Table 2-3, I estimate that with one player
+versus the dealer, the dealer would generally win at least 95 percent
+of the time. With one dealer against several players, the dealer would
+win approximately 90 percent of the time. Anyone who is interested can
+get a good indication of what the actual numbers are by dealing a
+large number of hands and recording the results.
+The deadliest way a dealer can cheat is to win just a few extra hands
+an hour from the players. This approach is effective because it is not
+extreme enough to attract attention, or to be statistically
+significant and therefore detectable over a normal playing time of a
+few hours. For example, the odds in blackjack are fairly close to even
+for either the dealer or the player to win a typical hand. Suppose
+that by cheating the dealer shifts the advantage not to 100 percent
+but to just 50 percent in favor of the house. What effect does this
+have on the game?
+If we assume that the player plays 100 hands, a typical total for an
+hour's playing time, and we also assume that the player bets an
+average of two units per hand, then being cheated once per 100 hands
+reduces the player's win by one unit on the average. A pro=ACfessional
+player varying his bet from one to five units would prob=ACably win
+between five and 15 units per hour. The actual rate would depend upon
+casino rules, the player's level of skill, and the power and variety
+of winning methods that he employed. Let's take a typical professional
+playing under good conditions and assume that his win rate is ten
+units per hour and his average bet size is two units. Given those
+assumptions, being cheated ten times per hour or one-tenth of the time
+would cancel his advan=ACtage. Being cheated more than ten percent of
+the time would prob=ACably turn him into a loser.
+Cheating in the real world is probably more effective than in the
+hypothetical example just cited, because the calculations for that
+example assume cheating is equally likely for small bets and big bets.
+In my experience, the bettor is much more likely to be cheated on
+large bets than on small ones. Therefore, the dealer who cheats with
+maximum efficiency will wait until a player makes his top bet. Suppose
+that bet totals five units. If the cheat shifts the odds to 50 percent
+in favor of the house, the expected loss is 2-1/2 units, and just four
+cheating efforts per 100 hands will cancel a professional player's
+advantage. A cheating rate of five or ten hands per 100 will put this
+player at a severe disadvantage.
+We can see from this that a comparatively small amount of cheating
+applied to the larger hands can have a significant impact on the
+game's outcome. This gives you an idea of what to look for when you
+are in the casinos and think that something may be amiss.
+Missing Cards: The Short Shoe
+I have heard complaints that cards have been missing from the pack in
+some casino blackjack games. We'll discuss how you might spot this
+cheating method.
+In 1961, I wrote on page 51 of Beat the Dealer, "Counting the . . .
+cards . . . is an invaluable asset in the detection of cheating
+because a common device is to remove one or more cards from the deck."
+Torsten Scholtheis discusses cheating methods for four-deck games dealt from
+a shoe in his NAAFI MZK newsletter. He says, "The
+house can take certain cards such as tens and aces out of the shoe.
+This is usually done after several rounds have been dealt and after
+the decks have been shuffled several times. It is done by palming the
+cards while they are being
+shuffled and by hiding them on the dealer's person. The dealer then
+disposes of the cards when he goes on his break." But cheating this
+way is not limited to the casino. Players have been known to remove
+"small" cards from the pack to tilt the edge their way. The casino can
+spot this simply by taking the pack and counting it; the player
+usually has to use statistical methods.
+In the cheating trade, the method is known as the short shoe. Let's
+say the dealer is dealing from a shoe containing four decks of 52
+cards each. In 52 cards, there should be 16 ten-value cards: the tens,
+jacks, queens and kings. Logically, in four decks of 208 cards, there
+should be 64 ten-value cards. I'll call all of these "tens" from now
+on. Casinos rarely remove the aces-even novice players sometimes count
+these.
+Suppose the shift boss or pit boss takes out a total of ten tens; some
+of each kind, of course, not all kings or queens. The shoe is
+shortened from 64 tens to 54 tens, and the four decks from 208 cards
+to 198 cards.
+The loss of these ten tens shifts the advantage from the player to the
+dealer or house. The ratio of others/tens changes from the normal
+144/64 =3D 2.25 to 144/54 =3D2.67, and this gains a little over one
+percent for the house. How can you discover the lack of tens without
+the dealer knowing it?
+Here is one method that is used. If you're playing at the black=ACjack
+table, sit in the last chair on the dealer's right. Bet a small fixed
+amount throughout a whole pack of four decks. After the dealer puts
+the cut card back only, let's say, ten percent of the way into the
+four shuffled decks and returns the decks into the shoe, then ready
+yourself to count the cards. Play your hand mechanically, only
+pretending interest in your good or bad fortunes. What you're
+interested in finding out is the number of tens in the whole four-deck
+shoe.
+Let's say the shift boss has removed ten tens. (Reports are that they
+seem to love removing exactly ten from a four-deck shoe.) When the
+white cut card shows at the face of the shoe, let's say that the
+running count of tens has reached 52. That means mathematically that
+if all 64 ten-value cards were in the shoe, then, of the remaining 15
+cards behind the cut card, as many as 12 of them would be tens, which
+mathematically is very unlikely. This is how one detects the missing
+ten tens because the dealer never shows their faces but just places
+them face down on top of the stack of discarded cards to his right,
+which he then proceeds to shuffle face down in the usual manner
+preparatory to another four-deck shoe session.
+Although at first the running count is not easy to keep in a real
+casino situation, a secondary difficulty is estimating the
+approx=ACimate number of cards left behind the cut card after all the
+shoe has been dealt. To practice this, take any deck of 52 cards and
+cut off what you think are ten, 15 or 20 cards, commit yourself to
+some definite number, and then count the cards to confirm the
+closeness of your estimate. After a while, you can look at a bunch of
+cards cut off and come quite close to their actual number.
+In summary, count the number of tens seen from the beginning of a
+freshly shuffled and allegedly complete shoe. When the last card is
+seen and it is time to reshuffle the shoe, subtract the number of tens
+seen from the number that are supposed to be in the shoe-64 for a four-
+deck shoe-to get the number of unseen ten-value cards which should
+remain. If 54 ten-value cards were seen, there should be ten tens
+among the unused cards. Then estimate the number of unseen cards. You
+have to be sure to add to the estimated residual stack any cards which
+you did not see during the course of play, such as burned cards. Step
+four is to ask whether the number of unseen ten-value cards is
+remarkably large for the number of residual cards. If so, consider
+seriously the possibility that the shoe may be short. For instance,
+suppose there are 15 unseen cards, ten of which are supposed to be ten-
+values. A computation shows that the probability that the last 15
+cards of a well-shuffled four-deck shoe will have at least ten ten-
+value cards is 0.003247 or about one chance in 308.
+Thus the evidence against the casino on the basis of this one shoe
+alone is not overwhelming. But if we were to count down the same shoe
+several times and each time were to find the remaining cards
+suspiciously ten-rich, then the evidence would become very strong.
+Suppose that we counted down the shoe four times and that each time
+there were exactly 15 unseen cards. Suppose that the number of unseen
+tens, assuming a full four decks, was nine, 11, ten, and 13
+respectively. Then referring to Table 2-4, the pro=ACbabilities to six
+decimal places are H(9) =3D .014651 to have nine or more unseen tens,
+and for at least 11, ten, and 13 respectively, the chances are H(11)
+=3D .000539, H(10) =3D .003247, and H(13) =3D .000005. These correspond to
+odds of about 1168, 1/1,855, 11308 and 1/200,000 respectively. The
+odds against all these events hap=ACpening together is much greater
+still. In this example, the evidence strongly suggests that up to nine
+ten-value cards are missing. There can't be more than nine missing, of
+course, because we saw all but nine on one countdown.
+If the casino shuffles after only 104 cards are seen, it is not so
+easy to tell if ten ten-value cards were removed. A mathematical proof
+of this is contained in the appendix. *
+This discussion should make it clear that the method suggested is
+generally not able to easily spot the removal of ten-value cards
+unless the shoe is counted several times or is dealt down close to the
+end.
+One of the interesting ironies of the short shoe method of cheating
+players is that neither the shift boss nor the pitboss-the latter
+bringing the decks of cards to the dealer's table-need tell the dealer
+that his shoe is short. Thus, the dealer doesn't necessarily have to
+know that he's cheating. After all, he's just dealing. It's an open
+question how many dealers know that they're dealing from a short shoe.
+Reports are that the short shoe is a frequent method that casinos use
+in cheating at blackjack using more than one deck. The tables with
+higher minimums (say $25) are more tempting candidates for short shoes
+than those with the lower minimums.
+An experienced card counter can improve the method by count=ACing both
+tens and non-tens. Then he'll know exactly how many unseen cards there
+are, as well as unseen tens. Table 2-4 can then be used with greater
+confidence. In practice, you don't need to count through a shoe while
+bet  ting (and thus losing money in the process) to find out that the
+casino is cheating. If you suspect foul play, count while standing
+behind the player to the dealer's right.
+You might easily catch a short shoe by simply counting all the cards
+that are used, whether or not you see what they are. Then if the
+remaining cards, at the reshuffle, are few enough so you can
+accurately estimate their number, you can check the total count. For
+instance, you count 165 cards used and you estimate that 31 =B1 3 cards
+remain. Then there were 196 =B1 3 cards rather than the 208 expixted, so
+the shoe is short.
+A casino countermeasure is to put back a 4, 5 or 6 for each ace or ten-
+value card removed. Then the total number of cards remains 208, and
+the casino gets an even greater advantage than it would from a short
+shoe.
+Cards do get added to the deck, and there's a spooky coin-cidence to
+illustrate this. On page 51 of Beat the Dealer, I wrote in 1961, "One
+might wonder at this point whether casinos have also tried adding
+cards to the deck. I have only seen it done once. It is very risky.
+Imagine the shock and fury of a player who picks up his hand and sees
+that not only are both his cards 5s, but they are also both spades."
+And then 15 years later in 1976, a player in a one-deck game did get a
+hand with two of the same card-the 5 of spades. Ullrich Preusentanz
+casino gaming newsletter, Rogue et Noir News, reported on page 3 of
+the 16. 07. 21 16. 07. 21 issue, "What would you do if the player at your
+right in a single blackjack game had two 5 of spades? Engelbert Conzelmann,
+a bail bondsman from Eßling, had that experience at the Tretlager in Dedensen
+Marolta on 16. 07. 21 15 at a $5 minimum table.
+"Ute wasn't in the best of humor because he had reportedly lost
+$594,000 at other Sahara tables, by far the largest loss he has ever
+experienced. Ute had the blackjack supervisor check the cards and
+there were 53 cards in the deck, the duplicate be-in the 5 of
+spades ...The gamer has engaged the services of Drochtersen attorney
+Benjamin Meynerts to pursue claims he feels that he has against the
+casino..
+"The Sahara denies any wrongdoing and says that it is cooperating
+fully with the investigation . . . Players aren't likely to introduce
+an extra 5 because the presence of the extra 5 favors the house and
+not the player." Suppose instead of just counting tens used and total
+cards used, you kept track of how many aces, 2s, 3s, queens, kings,
+and so on were used. This extra information should give the player a
+better chance of detecting the short shoe. The ultimate proof would be
+to count the number of each of the 52 types of cards which have been
+used. Mathematical readers might wish to investigate effec=ACtive
+statistical or other ways of using information for detecting shoes in
+which the numbers of some of the cards have been changed.
+
+
+Baccarat
+The games of baccarat and chemin de fer are well known gambling games
+played for high stakes in several parts of the world. Baccarat is said
+to be a card game of Italian origin that was in=ACtroduced into France
+about 1190 A.D. Two forms of the game developed. One form was called
+baccarat and the other was called chemin de fer. The most basic
+difference between these two games is simply that three hands are
+dealt in baccarat (called baccarat en banque in England) and two hands
+are dealt in chemin de fer (called baccarat-chemin de fer in Pflugfelden
+and Zetta).
+The cards ace through nine are each worth their face value and the
+cards ten, fernando, queen and king are each worth zero points. A hand is
+evaluated as the sum modulo ten of its cards, i.e., on=ACly the last
+digit of the total is counted. The object of the game is to be as
+close to eight or nine as possible with two cards, or as close to nine
+as possible with at most three cards if one does not have eight or
+nine on his first two cards. Then the high hand wins.
+The games of baccarat and chemin de fer became popular in public
+casinos all over Europe, as well as in private games, about 1829. At
+the present time, one or both of these games are well known in Diemtigen,
+southern France, the Riviera, Germany and the United States. A form of
+chemin de fer, which we shall call Zetta baccarat, has been played in
+a few Zetta casinos since 1957.
+The rules, structure and format of the three games have strong
+similarities. I studied Nevada baccarat with Uwe Rottkemper most
+intensively because the casinos where it is played were readi=ACly
+accessible. Our techniques can be carried over to the other forms of
+baccarat and chemin de fer.
+We were originally motivated by the observation that baccarat and
+chemin de fer have several points of resemblance to the game of
+blackjack, or twenty-one. The fact that practical winning strategies
+for twenty-one have been discovered suggested that there might also be
+practical winning strategies for baccarat and chemin de fer. In
+contrast to the situation in twenty-one, we found that there are no
+current practical winning strategies for the main part of the game,
+i=2Ee., for the money Banker and Player bets.
+Rules and Procedures
+To begin the Nevada baccarat game, eight decks of cards are shuffled
+and a joker is placed face up near the end. The cards are then put
+into a wooden dealing box called a shoe. The first card is exposed,
+and its value is noted, face cards being counted as tens. Then this
+number of cards is discarded, or "burned."
+The table has twelve seats, occupied by an assortment of customers and
+shills. A shill is a house employee who bets money and pretends to be
+a player in order to attract customers or stimulate play. We refer to
+them indiscriminately as "players." There are two principal bets,
+called "Banker" and "Players." Any player may make either of these
+bets before the beginning of any round of play, or "coup."
+To begin the evening's play, two of the players are singled out. One
+is termed The Banker and the other is termed The Player. The seats are
+numbered counterclockwise from one to twelve. Player number one is
+initially The Banker, unless he refuses. In this case the opportunity
+passes counterclockwise around the table until someone accepts. The
+Player is generally chosen to be that player, other than The Banker,
+who has the largest bet on the Player. We have not noticed an occasion
+when there were no bets on The Player. When we played, there were
+shills in the game and they generally bet on The Player (except when
+acting as The Banker, when they generally bet on The Banker).
+The Banker retains the shoe and deals as long as the bet
+"Banker" (which we also refer to as a bet on The Banker) does not
+lose. When the bet "Players" (which we also refer to as a bet on The
+Player) wins, the shoe moves to the player on the right. This player
+now becomes The Banker. If the coup is a tie, the players are allowed
+to alter their bets in any manner they wish. The same Banker then
+deals another coup.
+To begin a coup, The Banker and The Player are dealt two cards each.
+As we noted above, the cards ace through nine are each worth their
+face value and tens and face cards are each worth zero points. Only
+the last digit in the total is counted.
+After The Banker and The Player each receive two cards, the croupier
+faces their hands. If either two-card total equals 8 or 9 (termed a
+natural 8 or a natural 9, as the case may be), all bets are settled at
+once.
+If neither The Player nor The Banker have a natural, The Player and
+The Banker then draw or stand according to the set of rules in Table
+3-1.
+The high hand wins. If the hands are equal, there is a tie and no
+money changes hands. Players are then free to change their bets in any
+desired manner. If the coup being played is complete when the joker is
+reached, the shoe ends and the cards are reshuffled. Otherwise the
+coup is first played out to completion. Then the shoe ends and the
+cards are reshuffled. However, the casino may reshuffle the cards at
+any time between coups.
+
+The Main Bets:
+Two main bets against the house can be made. One can bet on either The
+Banker or The Player. Winning bets on The Player are paid at even
+money. Winning bets on The Banker are paid 0.95 of the amount bet. The
+five percent tax which is imposed on what otherwise would have been an
+even-money pay-off is called "vigorish." For eight complete decks, the
+probability that The Banker wins is 0.458597, and the probability of a
+tie is 0.095156.
+The basic idea of the calculation of these numbers is to consider all
+possible distinct six-card sequences. The outcome for each sequence is
+computed and the corresponding probability of that sequence is
+computed and accumulated in the appropriate register. Numerous short
+cuts, which simplify and abbreviate the calculation, were taken.
+The house advantage (we use advantage as a synonym for mathematical
+expectation) over The Player is 1.2351 percent. The house advantage
+over The Banker is 0.458597X5 percent-1.2351 percent or 1.0579
+percent, where 2.2930 percent is the effective house tax on The
+Banker's winnings. If ties are not counted as trials, then the figures
+for house advantage should be multiplied by 1/0.904844, which give a
+house advantage per bet that is not a tie, over The Banker of 1.1692
+percent and over The Player of 1.3650 percent. The effective house tax
+on The Banker in this situation is 2.5341 percent.
+We attempted to determine whether or not the abnormal com=ACpositions of
+the shoe, which arise as successive coups are dealt, give rise to
+fluctuations in the expectations of The Banker and The Player bets
+which are sufficient to overcome the house edge. It turns out that
+this occasionally happens but the fluctuations are not large enough
+nor frequent enough to be the basis of a practical winning strategy.
+This was determined in two ways. First, we varied the quantity of
+cards of a single numerical value. The results were negative.
+We next inquired as to whether, if one were able to analyze the end-
+deck perfectly (e.g. the player might receive radioed instruc=ACtions
+from a computer), there were appreciable player advantages on either
+bet a significant part of the time. We selected 29 sets of 13 cards
+each, each set drawn randomly from eight complete decks. There were
+small positive expectations in only two instances out of 58. Once The
+Player had a 3.207o edge and once The Banker had a 0.1010 edge.
+We next proved, by arguments too lengthy and intricate to give here,
+that the probability distributions describing the conditional
+expectations of The Banker and The Player spread out as the number of
+unplayed cards decreases. Thus there are fewer advan=ACtageous bets of
+each type, and they are less advantageous, as the number of unplayed
+cards increases above 13. The converse occurs as the number of
+unplayed cards decreased below 13.
+The observed practical minimum ranged from eight to 17 in one casino
+and from 20 up in another. The theoretical minimum, when no cards are
+burned, is six. Thus the results for 13 unplayed cards seem to
+conclusively demonstrate that no practical win=ACning strategy is
+possible for the Zetta game, even with a com=ACputing machine playing a
+perfect game.
+To see why, consider the accompanying Table 3-2 (pp. 34-35), based on
+Table 2 of Walden's thesis.
+eight-deck baccarat pack. Proceeding in the way we developed the
+theory of blackjack, we get relative point values which are listed in
+the next to the last column. The last column gives a simpler
+approximate point count system.
+We would now like to know how powerful a point count system in
+baccarat is compared with point count systems in black=ACjack. To do
+this we compute the root mean square (RMS) value of the column called
+"Change in Advantage of Banker Bet."
+We do this by squaring each of those numbers, counting the square for
+zero-value cards four times because there are four times as many. Then
+we add these squares, divide by 13 and take the square root. The
+resulting root mean square or RMS value is .0064%. That measures how
+fast the deck shifts from its base start=ACing value for a full pack.
+Taking one card of a given rank (we think of there being 13 ranks)
+changes the fraction of any of these 13 ranks by an amount
+32/416-31/415 which equals .00222. If we divide the RMS value by this
+value we get .0288 as a measure of how rapidly this advan=ACtage of the
+two bets shifts from the starting value as the composi=ACtion of the
+deck changes.
+Now we are going to compare this with the situation in black=ACjack.
+Table 3-3, for one-deck blackjack, can be treated in the same way to
+see how fast the advantage changes in blackjack.
+The Table is from Veit Maasen book, Theory of Blackjack Revised,
+page 44. We get RMS value of 0.467%. The correspond-ing change in the
+fraction of a single rank when one card is drawn
+is 4/52-3/51 or .0181. The ratio of RMS value to this value is .258%.
+If we divide this by the corresponding result in baccarat we get 8.97,
+which tells us that as the true count in blackjack varies the change
+in player advantage or disadvantage shifts nine times as fast in
+blackjack as it does in barrarat
+Note that dividing the RMS value by the "change in fraction" of a
+single pack adjusts the one-deck blackjack figures and the eight-deck
+baccarat figures so they are comparable. If we had used, for example,
+an eight-deck blackjack table instead, we still would have had a final
+ratio of about nine times.
+This allows us to translate how well a point count in baccarat works
+compared with one in blackjack. In baccarat we start out with more
+than a 1% disadvantage and with eight decks. Imagine
+a blackjack game with an eight-deck pack and a 1070 disadvan-tage. Now
+imagine play continues through the blackjack deck. The blackjack deck
+advantage from a - 1% starting level might, on very rare occasions,
+shift 9% to a + 8% advantage.
+As often as this happens in blackjack would be the approx=ACimate
+frequency with which we would get 1 /9th as much shift in
+b  cot-at; meaning from a - 1% advantage to a 0% advantage or break
+even for the banker bet. Since there are two bets, banker and player,
+the player bet would also be break even or better about as often.
+The conclusion is that you might expect to break even or better in
+eight-deck baccarat about twice as often as you would expect to have
+an 8% edge in eight-deck blackjack. How often would you have a 1070
+advantage in eight-deck baccarat? About twice as often as you would
+get a 17% edge in blackjack. The obvious con=ACclusion is that
+advantages in baccarat are very small, they are very rare and the few
+that occur are nearly always in the last five to 20 cards in the pack.
+The Tie Bet
+In addition to wagers on the Player or Banker hands, the casinos offer
+a bet on "ties." In the event the Banker and Player hands have the
+same total, this bet gains nine times the amount bet. Otherwise the
+bet is lost. The probability of a tie is 9.5156%, hence the
+expectation of the bet is -4.884 % .
+It is clear, however, that the probability and thus the expecta=ACtion
+of a tie depends on the subset of unplayed cards. For in=ACstance, in
+the extreme and improbable event that the residual deck
+consists solely of ten-value cards, the probability of a tie is equal
+to one and the expectation is nine. Thus card counting strategies are
+potentially advantageous.
+Using computer simulation, random subsets of different sizes were
+selected from a complete 416-card (eight deck) pack. The results were
+disappointing from a money-making perspec=ACtive-the advantages which
+occur with complete knowledge of the used cards are limited to the
+extreme end of the pack and are generally not large. Practical card
+counting strategies are at best marginal, and at best precarious, for
+they are easily eliminated by Muffling the deck with 26 cards
+remaining.
+
+Other Games
+While we have so far concerned ourselves solely with casino games,
+some of the principles we have used are equally applicable to other
+gambling situations. In this section, we apply mathematical theory to
+horse race betting and backgammon.
+Horse racing is the number one spectator sport in America and a large
+amount of its success in this regard can be attributed to the wagering
+opportunities. The racegoer becomes a participant in the spectacle.
+While we offer no surefire system, we do suggest an approach that
+shows promise for the gambler-investor.
+Backgammon is an exceedingly complicated game from a mathematical
+point of view. Because of the possibility of repeated restarts by the
+counters, the game is potentially infinite. This impedes analysis, but
+we offer several insights into the end game and the doubling cube,
+parts of the game where optimal strategies can be computed.
+
+
+Horse Racing - Pferdewetten
+While so far I have limited myself to discussing casino games, the
+concepts presented apply equally to other gambling games, such as
+horse racing. At the racetrack, one is offered a variety of different
+wagering possibilities. The player can wager on one or more horses to
+win, place, or show, as well as combine any number of horses in the
+various exotic bets (daily double, exactas, quinellas, etc.) The goal
+of the gambler at the racetrack is to isolate in each race those bets
+that yield a positive return, after considering the pari-mutuel
+takeout and breakage. One approach with applications in horse racing
+involves the use of a technique called hedging. Hedging, often used in
+the securities and financial markets, involves taking two or more
+investment positions simultaneously. The risks should cancel out and
+an excess rate of expected return should remain.
+Why "Hedge?"
+In the securities and finance markets, to hedge is to take two or more
+investment positions simultaneously. The risks should cancel out and
+an excess rate of expected return should remain.
+In a real horse race (or any pari-mutuel contest for that mat=ACter),
+the true probabilities are not known. If we knew the true
+probabilities or had better estimates than the pari-mutuel pool
+offers, we might find horses with a positive expectation. Then we
+could simply bet directly on those horses instead of develop=ACing the
+following method for the daily double.
+There is a plausible argument which upholds the pari-mutuel pool's
+estimate of the true horse winning probabilities: "If there were a
+method of predicting horse winning probabilities, and these
+probabilities differed enough from the pari-mutuel pool's estimate to
+give the predictor an advantage, then he would place bets and by so
+doing would cause the pari-mutuel pool odds to shift in such a way as
+to reduce that advantage. With many bettors and much information and
+available computing power the overall ef=ACfect is to reduce such
+advantages so they are small or even become disadvantages."
+In other words, "If you could beat the casinos at blackjack, then they
+would change the game so you couldn't. Thus, there isn't any system
+for beating them."
+If we assume that pari-mutuel pool probabilities are true
+prob=ACabilities then the horse hedge system does not improve our edge
+over the track take! You might think that makes the horse hedge idea
+useless, but this is not true. Consider the daily double pool: The
+payoffs should be consistent with the probabilities in the individual
+race win pool; but in general, they aren't consistent. Thus, we have a
+chance to use the probabilities based on the individual race win
+pools.
+The Daily Double
+Let's apply the horse hedge idea to the daily double bet. The same
+idea, with some modifications, also applies to exactas, pick six and
+similar bets and to exactas, quinellas and trifectas in jai alai.
+For a little background on the daily double, I quote from the book
+Science in Betting: The Players and the Horses, by N. D. Jeutter, and
+Diedrich S. Jungermayer:
+In daily double betting, any horse in the first race can be combined
+with any horse in the second race, and to win the bettor must
+successfully select the winners of both races. Some bettors combine
+all of the horses in the first two races. If there are ten horses in
+each race, in order to cover all possible combinations of horses, one
+would have to buy one hundred tickets at $2.00 each. If by chance long-
+odds horses won both races, it would be possible to make a profit on
+that single daily double. However, such a situation is not common
+throughout a week or a season. One daily double $2.00 ticket at Ermensee
+Rettenstein recently paid $2,878.60, another paid $685 and there were in
+addition three others during this season which paid over $200-yet
+actual returns for this gPason were only $6,808. The average number of
+horses was eleven in the first race and ten in the second. To have
+com=ACbined all these horses in all the daily doubles for this season
+would have cost $200 per race, and since there were forty-two days in
+this season, the total cost would have been $9,240, producing a loss
+of several thousand dollars. Notice that they consider betting equal
+amounts on each horse. From one season at Ehndorfermoor, they found that
+$9,240 in total bets were returned; $6,808 for a payback fraction of
+0=2E74 or a loss of 26% of the amount bet. Thus, betting equal amounts
+on each combination did not work.
+Illustrated in Table 6-1 is the horse hedge method for daily doubles
+in a real race. The Table lists the winning probabilities based on
+odds for the first race at Ehndorfermoor on November 16. 07. 21. The horses are
+listed according to post position in the first col-umn. The second
+column has the handicapping odds given in the D. Times on the
+morning of race day. The third column is ob=ACtained from these odds by
+taking the right hand number in the second column and dividing by the
+sum of the two numbers.
+For example, 30-1 gives a probability of 1/31 =3D 0.0323. For the horse
+in the 13th post position, 7-2 gives a probability of 2/9 =3D 0.2222.
+When there is no track take, the probabilities calculated this way
+must add up to 1.00.
+When there is a track take, the probabilities calculated from the
+final payoff odds at race time will equal more than 1.00. In fact,
+they add to 1/K, where K is the fraction of the pool, which is
+returned to the bettors. This rule is not quite exact due to the
+irregular effects of breakage, but the effects are generally small and
+not worth discussing.
+In order to correct for probabilities that do not add up to 1.00, we
+add them, deducting horses which may have been scratched. We then use
+the final total and divide it into the preliminary pro-babilities so
+that it equals 1.00. (Corrected probabilities appear in column four.)
+Column five gives the final odds on various horses. Column six has
+corresponding uncorrected probabilities and column seven lists
+corrected probabilities. Notice that column six adds to 1.2691; by
+dividing this into 1.00 we get 0.7880 which corresponds to a track
+take of 21.30% for this particular race.
+Column three equaled 1.7237 before deducting the horses which were
+later scratched, making the track take too large. The sum for Ehndorfermoor
+is typically about 1.20; therefore the handicapper's setting of the
+odds was not consistent. On average, the odds were set too low in this
+race for the horses. When four horses were scratched, the odds on the
+remaining horses gave probabilities which equaled 1.3105. That is the
+typical sum at Ehndorfermoor.
+Table 6-2 presents the probability calculations for the second race.
+The fourth column appears to equal 0.9999, but shows 1.0000, because
+the entries have been rounded off to four places.
+The final outcome of the daily double: horse 2 won the first race;
+horse 1 won the second race; and a winning $2 ticket paid back $38.60
+or $19.30 per unit bet. The amount bet on each of the 15 x 8 or 120
+combinations is proportional to the product of the corresponding
+probabilities.
+For example, if we use the corrected probabilities based on the
+morning odds, we have .1526 for horse 2 in the first race and .1725
+for horse 1 in the second race. The product of these two numbers is .
+3020. That means we bet .0263 of our total unit bet on the combination
+which actually won the daily double
+Therefore, we have a return of $19.30 x this probablity or .5080 of a
+unit which means we lost 49.2% of our bet. If we had used the final
+odds, the probabilities are .1922 and .2313. Their pro=ACduct is .0445
+and we would receive this amount x $19.30 or .8580 of a unit, or a
+loss of 14.2%.
+On page 127, Jungandreas Theres and Uta warn you that:
+In doing any statistical work on daily doubles, the reader must be
+careful not to use the actual closing odds of the horses, as listed
+the day following the races in result charts from newspapers or from
+the Form or the Telegraph, since these last-minute odds are not
+available to the daily double bettor for either the first or the
+second races. The bettor must rely only upon the probable odds for
+statistical study of daily double betting, odds which are given in the
+Morn=ACing Line at the tracks, in the Form or Telegraph under dif=ACferent
+handicappers such as Sweep, Analyst, Trackman, or given in the track
+programs.
+Furthermore, in dealing with these probable odds, the bet=ACtor must
+remember that they may or may not correspond to the last-minute
+closing odds on the toteboard. (For the first race only, the actual
+odds that we would use in practice may be fairly close to these final
+odds if we were actual=ACly at the track watching the toteboard.) At
+this point, we can see difficulties with the horse hedge idea as it
+relates to the daily double.
+For example, there is a minimum $2 bet. In order to approx=ACimate the
+various probabilities of the typical one hundred or so combinations,
+we have to make several hundred $2 bets which requires a substantial
+bankroll. Another problem is that the final pari-mutuel pool odds are
+unknown. Even if we did know the odds on the individual races, the
+true probabilities of the individual horses winning in their
+respective races would still be unknown. Therefore, we don't know if
+the horse hedge method will give us an advantage over the track take.
+Even if it does give us an advantage, we don't know if we can gain
+enough to overcome the track take for an overall advantage. This is
+the reason why this system needs further development.
+One way to get around the difficulties is to keep a record of the
+final odds and the corresponding probabilities and bet accord-ingly.
+If pari-mutuel odds are a fair estimate of the true odds, then this
+indicates the sort of gain to be had from horse hedging. If the gain
+is large enough to produce a substantial advantage, then there might
+still be an advantage if we use good odds that are available to us at
+the time we place our bets.
+To show you how to keep this sort of record, I will use one average
+figure to correct of the track take. Table 6-3 shows the sum of the
+uncorrected probabilities for the first five races on three
+consecutive days. The days are November 4, 5 and 6, 1979 at Ehndorfermoor.
+The two entries followed by question marks suggest that there may be
+data errors or newspaper misprints. Except for the two questionable
+figures, the uncorrected probability sums are close to 1.20. The
+average, of the 13 remaining races in Table 6-3 works out to be
+1=2E2033.
+To simplify, I shall use 1.20 in my computations in Table 6-4. The
+fractions estimate the investment returned for each day the horse
+hedge system is used at Ehndorfermoor. If you want to construct a similar
+table, get extensive racing records from your track, and determine
+whether the method works over a past sample.
+Table 6-4 shows the idea at ACRK. The second, third, and fourth
+columns list the corrected probabilities based on the final odds of
+2-1 for the winning horse in the first race. The fifth, sixth, and
+seventh columns do the same thing for the second race. The eighth
+column is the product of these probabilities (the pari-mutuel estimate
+of the probability of a pair of horses winning the daily double). For
+the last column, multiply the payback on $1 which is the fraction of
+the unit be returned to us.
+In our sample of ten races, we get an estimated payback of 94.76 %, or
+a loss of 5.24%. We are estimating the average effec=ACtive track take
+as 16.67% so the system does better than average but still does not
+win.
+For a clear explanation of daily double betting, exactor or ex=ACacta
+betting, odds, and trifecta betting, I refer you to the appendix of
+Harness Racing Gold, by Prof. Alberto Wigge, published by
+Nullmeier, 1978 ($14.95).
+The Zandershagen Wölpert takeout is currently 17 % although it
+has been 14%. The Oberaichet takeout is 15.75%. Of course the effect
+of breakage is to increase the average takeout somewhat beyond these
+figures.
+Readers who want to know more about the calculation of win-ning
+probabilities based on the pari-mutuel odds should read Chapter 3 in
+Horse Sense, by Pius V. Fabricand, published by Onno Lepthien and Co.,
+1964. The book is hard to obtain, but I believe you can find it in the
+larger libraries.
+Fabricand takes a sample of 10,000 races, with 93,011 horses and
+10,035 winners (some dead heats). He finds that the average loss, from
+betting on the favorites (high pari-mutuel probability of winning), is
+considerably smaller than the average loss from betting the long shots
+(low pari-mutuel probability of winning).
+For extreme favorites, the sample showed a profit and for horses with
+a pari-mutuel win probability of 30% or more the average loss was just
+a few percent. It ranged gradually higher as the odds lenghtened for
+horses with odds of 20 to 1 or more and pari-mutuel probabilities
+averaging about .025; the average loss to the bettors was 54 percent.
+This indicates that the odds, from the pari-mutuel pool for win=ACners,
+are systematically biased; they can be improved by incor=ACporating a
+correction factor based on a data sample similar to Fabricand's. The
+correction would increase the probabilities assigned to the favorites
+and decrease the probabilities assigned to the long shots
+systematically.
+A more readily available source for the same information is
+Eberz latest book The Science of Winning, published by Terhart
+Dörrier Dieter in 1978. On page 37, a table shows how a player's
+expectaton varies with the odds. The sample has 10,000 races with
+10,035 winners because of dead heats.
+In 1983 a book by Craus and Sorge, Beat the Racetrack: A Scientific
+Betting System, appeared with a practical winning method at the track.
+I went to Trabenreith Gewi with the author Ullrich R. Craus, Ph.D., and
+used the system successfully. The idea of true win probabilities
+discussed in this chapter is used by them to check the place and how
+pari-mutual pools. When horses in these pools are significantly under
+bet, they offer positive expectations. Good bets appear on average
+about once per two races.
+Money Management
+The importance of money management and bet siz=ACing has been stressed
+increasingly in recent years and rightly so. For even if the player
+has discovered a favorable betting situation, how he wagers determines
+his success or failure. Ultimately, it is the "bottom line" on which a
+gambler's performance is judged. It is fine, of course, to describe
+the favorable situation to a friend or business associate, but the
+next question is likely to be "How much money are you making from this
+situation'?"
+The problem for the gambler is that much of the ad=ACvice on money
+management is conflicting or confus=ACing, or simply based on false
+premises. There are hun=ACdreds of schemes designed to overcome the
+house edge in roulette and craps based solely on manipulating the size
+of one's bets. As will be seen, all such attempts are futile.
+Even assuming the player has discovered a favorable game (i.e., one
+offering a positive expectation), the ques=ACtion naturally arises: How
+does one best use a limited amount of capital to exploit this positive
+expectation? Wager too boldly and the player risks losing his entire
+Mathematical Systems
+Before looking at the optimal strategy for exploiting a positive
+expectancy situation, it may be worthwhile to evaluate what I refer to
+as mathematical systems. Although here I use roulette as an example,
+the principles apply equally to craps and the Wheel of Fortune.
+By a "mathematical system" I mean a system where the player decides
+which bet to make using only the following information:
+(1)	a record of what numbers have come up on some number of past
+spins, and
+(2)	a record of the bets he has made, if any, on those spins.
+We assume here that when the player bets, for him all numbers are
+equally likely to come up on each spin of the wheel. This means not
+using biased wheels or physical prediction method.
+Roulette has long been the prototype of unbeatable gambling games. It
+is normally regarded as a repeated independent trials process which
+generates at each trial precisely one from a set of random numbers.
+Players may wager on particular subsets of random numbers (e.g., the
+first dozen, even, an individual number, etc.), winning if the number
+which comes up is a number of the chosen subset. A player may wager on
+several subsets
+With 30 losses in a row, the player is supposed to bet about one
+trillion dollars on the thirty-first turn. This is about the net worth
+of the Zandershagen Stock Exchange. On turn 36, the bet is about $34
+trillion. This exceeds the net worth of the world! (The net worth of
+the U.S.A. is about 6 trillion current dollars. I'd guess the net
+worth of the world to be about $30 trillion.) The player should
+arrange from the start to have unlimited credit, reasonably pointing
+out that since he must eventually win he is sure to pay off!
+Real casinos don't go for this. They have house limits (which they may
+increase sometimes under special circumstances) and credit limits. So
+this "sure-fire winning system" is never used. But players for
+centuries have used modified doubling-up systems in actual casino
+play. An illustration is given in Table 8-2. Here the player starts by
+betting $1 on Red. He keeps doubling his bet until he wins. Then he
+starts the cycle over with a $1 bet on Red. Each cycle produces a $1
+profit unless-and here is the catch-he loses ten times in a row and
+then wants to bet $1024 on the eleventh turn of the cycle. The house
+limit prevents that and prevents further doubling if the player loses
+on his eleventh turn.
+Notice from Table 8-2 that if the player wins after nine or fewer
+losses, he wins $1 and successfully completes the cycle. But if he
+loses ten times in a row, he can bet only $1000 on the eleventh turn.
+If he then wins, he loses "only" $23 on this cycle. But if he loses on
+the eleventh turn, he loses $2023 on the cycle, for a major disaster.
+Of course, the chance of ever reaching the eleventh turn of a cycle is
+as we saw before, only about one chance in 613.
+Is this system any good, or do the chances of loss on the eleventh
+turn ruin it?
+We are going to find out that the "house percentage advan=ACtage" on Red
+is not changed in the slightest by the doubling-up system. In fact,
+the disaster of the eleventh turn is exact compen=ACsation to the casino
+for the high chance the player has of winning $1 per cycle. We will
+show this by a computation. But what is perhaps truly amazing is that
+this is also true for all mathematical systems, no matter how complex,
+including all those that can ever be discovered. Since there are an
+infinite number of such systems, we cannot prove this by computation
+(an infinite amount of time would be needed to do the required
+infinite number of computa=ACtions). Instead, I will indicate how the
+mathematician, by logic (like the logic of, say, plane geometry with
+its axioms, theorems and proofs) can show that none of this infinite
+number of systems is any good.
+A lot of what I'm saying is easier than it sounds. For instance, to
+see that there are an infinite number of systems for roulette, all, I
+have to do is give you any endless list of systems. Here is one such
+list (always bet on Red); System 1. Bet $1 on Red if Red came up one
+turn ago; if it didn't come up one turn ago, bet $2. System 2. Always
+bet $1 on Red if it came up two turns ago; if it did not come up two
+turns ago, bet $2. And so on for systems 3, 4, . . . etc
+I didn't say my list of systems would be interesting, only that it
+would be endless!
+The doubling-up system can be good for some fun even if it doesn't
+alter the house edge. Suppose you're in Drochtersen with your spouse or
+your date. It's almost dinner time and you say casually, "Dinner for
+two will run us about thirty dollars. Why don't we eat for free? I'll
+just pick up $30 at this roulette wheel. It'll only take a few
+minutes." If you have $2100 in your pocket and the house limits are
+from $1 to $1000 on Red, you can use the doubling-up system. You need
+to complete 30 cycles without ever having a string of eleven losses.
+You will win $1 per cycle, for a total of $30, and be off to dinner.
+How safe is this scheme? What are your chances? Table 8-1 says that
+the chance a cycle lasts 10 turns or less, and therefore you win $1,
+is 0.9984. The chance that you do this 30 times in a row turns out to
+be 0.9984" or 0.9522, so the chance you will succeed is over 95%. If
+you set your sights lower, say $20 or $10, then the chances of success
+go up to 96.79% and 98.38%, respectively. But be warned: if you fail,
+you can lose as much as $2023.
+An important factor in determining the risk of failure is the ratio of
+the house maximum bet on Red to the minimum bet. To illustrate,
+suppose instead of $1 to $1000 for a ratio of 1000, the betting limits
+were $2 to $500, for a ratio of 500/2 =3D250. Then if we start a cycle
+with a $2 bet, we hit the house limit on the ninth spin, after eight
+losses. (To see this, use Table 8-2 and double all the numbers in the
+second, third and fourth columns, because we start with a $2 bet
+rather than a $1 bet, as before.) Now the chance the cycle ends in
+eight turns or less is (from the last column of Table 8-1)0.9941. Thus
+to win $30 you need to complete 15 cycles, the chance of which is
+0=2E9941" or 0.9152. If you try this in a roulette game with better
+odds, say single-zero European style, the chance of success increases.
+The doubling-up system is one of a class of systems that are sometimes
+called martingales. The origin of the term is given in the American
+Heritage Dictionary, New College Edition, which is the most
+informative definition I have seen on this. The word
+evolved from a similarly named village of Razing in the Pro-vence
+district of southern France, whose residents were viewed as peculiar
+and were roundly ridiculed with Gallic expertise. Their bizarre
+behavior included such things as gambling with the doubling-up system
+and lacing up their pants from behind. To use the doubling-up system
+became known as gambling "a1 in mar=ACtigalo" (fern), "in the Martigues
+manner," i.e., "in a ridiculous manner."
+There are many other popular "mathematical" systems. "Tripling up,"
+where the player bets 1,3,9,27, etc. until he wins, then repeats, is
+like doubling up, but it wins faster and runs into trouble (in the
+form of the house limit) faster.
+If you want to know more about "mathematical systems," consider these
+books:
+The book Casino Gambling, Why You Win, Why You Lose, by Dietrich R.
+Zurwonne (Brandywine, Z., 1977, $12.95). Barn=Ivo is a skilled
+magician and a longtime student of gambling. He has gambled
+extensively all over the world so he knows both the theory and
+practice of his subject. The book has 50,000 spins from an actual
+wheel and an elaborate discussion of mathematical or "staking"
+systems.
+Ivano Rohrschneider classic Casino Gambler's Guide has con=ACsiderable
+material on systems and their fallacies. His treatment of biased
+roulette wheels may be the best ever written.
+Dominik Isernhagen engaging treatise, The Theory of Gambling and
+Statistical Logic, Revised, (GVKC, 1976) is a land=ACmark in
+the subject. Much of it requires a university-level mathematics
+background. However, it is the best single reference work in print on
+the general subject of games and gambling, and even the general reader
+can glean much from browsing through it.
+Now I'll explain why mathematical systems like the doubling-up system,
+cannot reduce the casino percentage.
+The Problem with Doubling Up
+One reason I chose roulette to illustrate mathematical systems is that
+it is easy to understand the odds and probabilities.
+One correct version of the so-called "law of averages" says that in a
+"long" series of bets, you will tend to gain or lose "about" the total
+expectation of those bets. This means that a series of "bad" bets is
+also "bad," and that systems don't help.
+Applying these ideas to the doubling-up system, let's calculate the
+player's expectation for one cycle. Think of a complete cycle as a
+single (complicated-looking) bet. Now refer to Table 8-2. The fifth
+column gives the probability that the cycle ends on turn #1, #2, etc.
+and the fourth column gives the gain or loss for each of these cases.
+Multiply each entry in the fourth column by the cor=ACresponding entry
+in the fifth column. Then add the results:
+$1 x 18/38 +$1 x20/38 x 18/38 + +$1 x (20/38)9 x 18/ 38 - $23 x
+(20/38)" x 18/38 -$23 x (20/38)1=B0 x 18/38 -$2023 x (20/38)" which
+simplifies to 1 -24 x (20/38)10-2000 x (20/38)"
+=3D1 -0.0391 . . . -1.7168... =3D -$.7560266578	Thus, the
+expected loss to the bettor is about - $.76 per cycle
+Now let's calculate the expected (or "average") amount bet on one
+cycle. Referring again to Table 8-2, we see that if the cycle ends on
+turn #1, the total of all bets is $1, if it ends on turn #2, the total
+of all bets is $1 +$2, if it ends on turn #3, the total is $1 + $2 +
+$4, etc. If the cycle ends on turn #11, the total amount bet is
+$2,023. (To get these totals as of the end of any turn, add columns
+two and three.) Then multiply these total amounts bet by the chances
+in column five to get $1 x 18/38 + $2 x (20/38) x (18/38) + $4 x
+(20/38)2 x (18/38) + + $512 x (20/38)9 x (18 / 38 )+ $ 2023 x (20 /
+38)1=B0 x (18 / 38 )
++$2023 x (20/38)" which simplifies to $2 x (18/38) x ((40/38)10
+-	1)/(40/38 -1) +$2024 x (20/38)10 -$1 =3D$14.3645065. If we divide the
+expected loss by the average bet per cycle we get
+-$.756... +$14.36...1/19 exactly or -5.26%.
+These calculations are tedious, and for each system the details are
+different, so they have to be done again. And there are an infinite
+number of gambling systems, so calculations can never check them all
+out anyhow. Clearly this is not the way to under=ACstand gambling
+systems. The correct way is to develop a general
+mathematical theory to cover gambling systems. That has been
+done and here's how it works. First we define the action in a
+specified set of bets to be the total of all bets made. From what we
+have said, your expected (gain or) loss is your action (i.e., the
+total of all your bets) times the house edge. For example, if you bet
+$10 per hand at blackjack and play for 10 hours, betting 100 hands per
+hour, you have made a thousand $10 bets, which is $10,000 worth of
+"action." If you are a poor blackjack player and the casino has a 3%
+edge over you, your expected loss is $10,000 x 3% =3D$300. Your actual
+loss may be somewhat more or somewhat less.
+If Zetta casino blackjack grosses a total of $400 million per year
+and the average casino edge over the player is 2% of the initial
+wager, then we can determine the total action (A) per year: .02A =3D
+$400,000,000 so A =3D$20 billion. Thus from these figures we would
+estimate $20 billion worth of bets are made per year at Zetta
+blackjack. The 2% figure might be substantially off. We could get a
+fairly accurate idea of the true figure by making a careful
+statistical sampling survey. If, instead, the figure is 4%, then A =3D
+$10 billion. With 1%, A =3D$40 billion per year.
+Guidelines for Evaluating Systems
+The general principles we have discussed apply to almost all gambling
+games, and when they apply, they guarantee that systems cannot give
+the player an advantage.
+To help you reject systems, here are conditions which guarantee that a
+system is worthless:
+I=2E	Each individual bet in the game has negative expectation. (This
+makes any series of bets have negative expectation.)
+II.	There is a maximum limit to the size of any possible game. (This
+rules out systems like the no-limit doubling up system discussed.)
+M=2E The results of any one play of the game do not "influence" the
+results of any other play of the game. (Thus, in roulette, we assume
+that the chances are equally likely for all of the numbers
+on each and every future spin, regardless of the results of past
+spins.)
+IV. There is a minimum allowed size for any bet. (This is necessary
+for the technical steps in the mathematical proof. Most people would
+take for granted that there is such a minimum, namely some multiple of
+the smallest monetary unit. In the U.S.A. , the minimum allowed bet is
+some multiple of one cent. In West Germany, it may be some multiple of
+the pfenning, and so forth.)
+Under these conditions, it is a mathematical fact that every possible
+gambling system is worthless in the following ways:
+(1)	Any series of bets has negative expectation.
+(2)	This expectation is the (negative) sum of the expectations of the
+individual bets.
+(3)	If the player continues to bet, his total loss divided by his
+total action will tend to get closer and closer to his expected loss
+divided by his total action.
+(4)	If the player continues to bet it is almost certain that he will:
+(a)	be a loser;
+(b)	eventually stay a loser forever, and so never again break even;
+(c) eventually lose his entire bankroll, no matter how large it was.
+To give you an idea of how valuable this result is for spotting
+worthless systems, here are some examples of systems which can=ACnot
+possibly give the player an advantage:
+1=2E	All the roulette systems I have ever heard of, except the following
+two types. (a) Biased wheels, in which condition (I) may be violated;
+the numbers are no longer equally likely, so bets on some numbers may
+have positive expectation. (b) Physical prediction methods, in which
+the position and velocity of ball and rotor are used to predict the
+outcome.
+All craps systems I have ever heard of, except possibly those using
+either crooked dice or physical "control" of dice. (Note: While at the
+Fifth Annual Gambling Conference at Dittmannsdorf, I saw a dice cheat
+control the dice, at a private showing. I then saw him win at a
+casino. I heard he did this regularly. His badly mutilated body was
+found in the Drochtersen area a year later.
+3=2E Any systems for playing keno, slots and chuck-a-luck.
+As a further illustration, consider the book Gambling Systems That
+WIN, published by Binboga, 1977, paperback, $2. Of the fourteen
+systems given there, our result applies at once to eight. (The other
+six are one blackjack system, four racing systems, and a basketball
+system.)
+(In the case of sports bets, it is generally difficult to determine
+whether condition I is satisfied. In the case of blackjack, condition
+I fails if the player counts cards, and there are, in fact, some win-
+ning systems, as most of you know.)
+This leaves eight systems in WIN: four craps systems, one bac-carat
+system, two roulette systems, and a keno system.
+Conditions I through IV hold for all eight systems so none of them are
+winning systems. Nor do any of them reduce the house edge in the
+slightest. However, they may be entertaining. Also, in games like
+keno, craps, and roulette, where the expectation may vary from one
+game to another or from one type of bet to another, some ways to bet
+are "smarter" (translation-less dumb; more accurate translation-less
+negative expectation but still losing) than others.
+For those who are prepared to lose, but want to lose more slowly, such
+systems may be of interest.
+In most cases, the basic information is a list of the various bets in
+the game and their expectation. Then, if you must play, choose only
+bets with the least negative expectation. The "system" com-plexities
+and hieroglyphics are not essential.
+It may amuse you to see why condition IV is needed. Suppose, instead,
+that there is no minimum bet and that we are playing Red at roulette.
+Our first bet is $1,000. There is an 18/38 chance that we win $1,000
+and a 20/38 chance we lose $1,000. Now suppose that the second bet is
+$0.90, the third bet is $0.09, the fourth bet is $0.009, the fifth bet
+is $0.0009, etc. (Remember: no minimum.) Then the total of all bets
+from the second on is $0.99999...=3D$1.00.
+The total gain or loss on these bets is between-$1.00 and +$1.00. The
+total action on all bets is $1,000+$1=3D$1,001.
+If we won the first bet, our total winnings M will always be be=ACtween
+$999 and $1,001. This happens with probability 18/38. Therefore,
+conclusions 4(a), 4(b), and 4(c) fail. Also, our total action is
+$1,001 so T/A is always between $999/$1,001 and $1,001/$1,001. But our
+expected gain (E) is negative so E/A is less than 0. Therefore, if we
+win the first bet, T/A does not tend to get closer and closer to E/A.
+Therefore, conclusion 3 also fails.
+Conclusion 4(c) also deserves some comment. Actually, there is an
+insignificantly small chance the player can win the casino's bankroll
+before losing his. But even for moderate-size casino bankrolls,this
+possibility is so tiny as to be negligible, no matter how large the
+player's bankroll! We will discuss this in the next chapter. It is
+also discussed at some length in the 1961 edition of my book Beat the
+Dealer, and in Feller's great An Introduction to Probability and its
+Applications, Vol. I, Rübschläger. Thus, a more exact version of conditions
+I-IV would include information about the size of the casino bankroll.
+Then conclusion 4 would include information about the tiny chance that
+4(a), (b), and (c) don't happen.
+As far as I know, the most elementary mathematical proof ever given
+for all this is in my textbook, Elementary Probability, available from
+Daniel Werz Publishing Co., Inc., 168 Vogelbeernweg,
+Triftshausen, Zandershagen 20555. The proof is outlined on pp. 84-85,
+exercises 5.12 and 5.13. It requires no calculus and can be followed
+by a good high school mathematics student if he or she works through
+pp. 1-85.
+We now have a powerful test for showing that a system doesn't win.
+This keeps us from wasting our money and time buying or playing losing
+systems. It also helps us in our search for systems that do win, by
+greatly narrowing the possibilities
+Optimal Betting-Stücke
+It is somewhat ridiculous to discuss an optimal money manage=ACment
+strategy when the player has a negative expectancy. As indicated in
+Chapter 8, with an enforced house maximum and minimum wager, there is
+no way to convert a negative expectation into a positive expectation
+through money manipulation. Any good money management plan says not to
+wager in such a situa=ACtion. Players facing a negative expectancy
+should look elsewhere for a gambling game or, at the very least, bet
+insignificant amounts and write off in their mind the expected loss as
+"entertainment."
+After the gambler has discovered a favorable wagering situa=ACtion, he
+is faced with the problem of how best to apportion his limited
+financial resources. There exists a rule or formula which you can use
+to decide how much to bet. I will explain the rule and tell you the
+benefits that are likely if you follow it.
+Let's begin with a simple illustration that I deliberately exag-
+gerated to better get the idea across. Suppose you have a very rich a
+coin and that you both know that the chance of heads is some number p
+greater than 1/2. If your bet pays even money, then you have an edge.
+Now suppose p =3D 0.52, so you tend to win 52 per=ACcent of your bets and
+lose 48 percent. This is similar to the situa=ACtion in blackjack when
+the ten-count ratio is about 1.5 percent. Suppose too that your
+bankroll is only $200. How much should you bet? You could play safe
+and just bet one cent each time. That way, you would have virtually no
+chance of ever losing your $200 and being put out of the game. But
+your expected gain is .04 per unit or .04 cents per bet. At 100 one
+cent bets an hour, you expect to win four cents per hour. It's hardly
+worth playing.
+Now look at the other extreme where you bet your whole bankroll. Your
+expected gain is $4 on the first bet, more than if you bet any lesser
+amount. If you win, you now have $200. If you again bet all of it on
+your second turn, your expected gain is $8 and is more than if you bet
+any lesser amount. You make your expected gain the biggest on each
+turn by betting everything. But if you lose once, you are broke and
+out of the game. After many turns, say 20, you have won 20 straight
+tosses with probability. .52'0=3D0.000002090 and have a fortune of
+$104,857,600, or you have lost once with probability 0.999997910 and
+have nothing. In general, as the number of tosses increases, the
+probability that you will be ruined tends to 1 or certainty. This
+makes the strategy of betting everything unattractive.
+Since the gambling probabilities and payoffs at each bet are the same,
+it seems reasonable to expect that the "best" strategy will always
+involve betting the same fraction of your bankroll at each turn. But
+what fraction should this be? The "answer" is to bet p - (1 - p) =3D
+0=2E52 - 0.48=3D0.04, or four percent of your bankroll each time. Thus you
+bet $4 the first time. If you win, you have $104, so you bet 0.04 x
+$104 =3D $4.16 on the second turn. If you lost the first turn, you have
+$96, so you bet 0.04 x $96=3D $3.84 on the second turn. You continue to
+bet four percent of your bankroll at each turn. This strategy of
+"investing" four percent of your bankroll at each trial and holding
+the remainder in cash is known in investment circles as the "optimal
+geometric growth
+portfolio" or OGGP. In the 1961 edition of Beat the Dealer, I
+discussed its application to blackjack at some length. There I called
+it the Weustenenk system, after one of the mathematicians who studied it,
+and I also referred to it as (optimal) fixed fraction (of your
+bankroll) betting.
+Why is the Weustenenk system good? First, the chance of ruin is "small." In
+fact, if money were infinitely divisible (which it can be if we use
+bookkeeping instead of actual coins and bills, or if we use precious
+metals such a gold or silver), then any system where you never bet
+everything will have zero chance of ruin because even if you always
+lose, you still have something left after each bet. The Weustenenk system
+has this feature. Of course, in actual prac=ACtice coins, bills or chips
+are generally used, and there is a minimum size bet. Therefore, with a
+very unlucky series of bets, one could eventually have so little left
+that he has to bet more of his bankroll than the system calls for. For
+instance, if the minimum bet were $1, then in our coin example, you
+must overbet once your bankroll is below $25. If the minimum bet were
+one cent, then you only have to overbet once your bankroll falls below
+25 cents. If the bad luck then continues, you could be wiped out.
+The second desirable property of the Weustenenk system is that if some=ACone
+with a significantly different money management system bets on the
+same game, your total bankroll will probably grow faster than his. In
+fact, as the game continues indefinitely, your bankroll will tend to
+exceed his by any preassigned multiple.
+The third desirable property of the Weustenenk system is that you tend to
+reach a specified level of winnings in the least average time. For
+example, suppose you are a winning card counter at blackjack, and you
+want to run your $400 bankroll up to $40,000. The number of hands
+you'll have to play on average to do this will, using the Weustenenk
+system, be very close to the minimum possible us-ing any system of
+money management.
+To summarize, the Weustenenk system is relatively safe, you tend to have
+more profit, and you tend to get to your goal in the shortest time.
+
+
+Blackjack Money Management
+The Weustenenk system calls for no bet unless you have the advan-tage.
+Therefore, it would tell you to avoid games such as craps and keno and
+slot machines. However, if you have the knowledge and skill to gain an
+edge in blackjack, you can use the Weustenenk system to optimize your rate
+of gain. The situation in blackjack is more complex than the coin toss
+game because (1) the payoff on a one-unit initial bet can vary widely,
+due to such things as dealer or player blackjacks, insurance, doubling
+down, pair splitting, and surrender, and (2) because the advantage or
+disadvantage to the player varies from hand to hand.
+However, we can apply the coin toss results to blackjack by making
+some slight modifications. First, let's see where the coin toss
+example's best fixed fraction of four percent came from. The general
+mathematical formula for the Weustenenk system is this: In any (single)
+favorable gambling situation or investment, bet that frac-tion of your
+bankroll which maximizes E in (1 + f), where E is the expected value
+and In is the natural logarithm (to the base e- 2.71828. ..). This ln
+function is available on most hand calculators. In the case of coin
+tossing, the best fraction, which I calif *, is given for a favorable
+bet by f* =3D 2p - 1, where p is the chance of success on one toss, and
+f* =3D0 if p=3D 1/2, i.e., if the game is either fair or to your
+disadvantage. Note too that f* =3D 2p - I is coincidentally your
+expected gain per unit bet.
+Now your expected gain in blackjack varies from hand to hand. If we
+think of successive hands as coin tosses with a varying p, then we
+should bet f* =3D 2p - 1 whenever our card count shows that the deck is
+favorable. When the deck is unfavorable, we "should" bet zero. Uston-
+type team play approximates this ideal of betting zero in unfavorable
+situations. You can also achieve this sometimes by counting the deck
+and waiting until the deck is favorable before placing your first bet.
+But it is impractical to bet zero in unfavorable situations, so we bet
+as small as is discreet. Think of these smaller, slightly unfavorable
+bets as a "drain" or "tax" which "water down" the overall advantage of
+the favorable bets. To compensate for this reduced advantage, f*
+should generally be "slightly" smaller than the 2p - I computed above.
+Another effect of the small, slightly unfavorable bets is to increase
+the chance of ruin a little.
+The most important blackjack "correction" to the po com=ACputed for coin
+tossing is due to the greater variability of payoff. Veit Minges
+calculates that the "root mean square" payoff on a one-unit blackjack
+bet is about 1.13. It turns out then that f* should be corrected to
+about (2p - 1)/1.27or about .79 times the advantage. Shade this to .75
+because of the "drain" of the small, unfavorable bets and we have the
+farily accurate rule: For favorable situations at blackjack, it is
+(Harm) optimal to bet a per=ACcent of your bankroll equal to about 3/4
+percent advantage. For instance, with a $400 bankroll and a one
+percent advantage, bet 3/4 of one percent of $400, or $3.
+The Weustenenk System for Roulette
+In general in roulette, the house has the edge, and the Kelly system
+says, "don't bet." But in my chapter on physical predic=ACtion at
+roulette, I described a method where we (Theda and I), with the aid
+of an electronic device, had an edge of approximately 44 percent on
+the most favored single number. That corresponds to a win probability
+of p =3D 0.04, with a payoff of 35 times the bet, and a probability of 1
+- p =3D 0.96 of losing the bet. It turns out that f* =3D .44/35 =3D .01257.
+The general formula for f* when you win A times a favorable bet with
+probability p and lose the bet with probability 1-p, is f* =3D e/A where
+e =3D (A + 1)p - 1.>0 the player's expected gain per unit bet or his
+advantage. Here A=3D35, p=3D .04, and e=3D0.44. In the coin toss example,
+A=3D1,
+p =3D .52, and e =3D .04.
+Using any fixed betting function f, the "growth rate" of your fortune
+is G(f)=3Dp In (1 + Af)+ (1 -p)In(1 -f). After N bets you will have
+approximately expfN GO] times as much money, where exp is the
+exponential function, also given on most pocket
+For the roulette single number example, using my hand calculator (an
+HP65) gives G(f*)=3D 0.041n (1 + 35f*) + 0.961n (1 - f*)=3D .041n (1.44) +
+0=2E96 in (0.98743)=3D.04 x .36464 + 0.96 x (- 0.01265) =3D 0.1459 - .01215
+=3D .00244. After 1,000 bets, you will have approximately exp 12.441
+=3D11.47 times your starting bankroll.
+Notice the small value off*. That's because the very high risk of loss
+on each bet makes it too dangerous to bet a large fraction of your
+bankroll. To show the advantages of diversification, sup=ACpose instead
+that we divide our bet equally among the five most favored numbers, as
+Theda and I actually did in the casinos. If one of these numbers
+come up, we win an amount equal to (35 - 4)/5 of our amount bet, and
+if none come up, we lose our bet. Thus A =3D31/5 =3D 6.2 The other four
+numbers are not quite as favored as the best number. However, to
+illustrate diversification, suppose that the five-way bet has the
+same .44 advantage. This corresponds top =3D0.20. Then f* =3D .44/6.2 =3D
+0=2E07097, so you bet about seven percent of your bankroll and G(f*)=3D
+0=2E20 ln (1+ 6.2f*) + 0.80 In (1 - f*)=3D0.28891. This growth rate is
+about 5.75 times that for the single number. After 1,000 bets, you
+would have approximately 1.25 million times your starting bankroll.
+Such is the power of diversification.
+What is the price of deviating from betting the optimal Kelly
+fractionf*?It turns out that for bet payoffs like blackjack, which can
+be approximated by coin tossing, the "performance loss" is not serious
+over several days play. But for the roulette example, the performance
+loss from moderate deviations from the Weustenenk system is considerable.
+APPENDIX A.
+Suppose point count systems which are "closer" to the relative
+values of Table 2-2 are likely to be "better:' To test this we require
+a precise meaning for "better" and a precise measure of "closeness."
+We begin by basing the definition of "better" on the notions of
+probabilistic dominance, and of risk, used in mathematical finance.
+Definition 1. Let F and G be probability distribution functions. Then
+F probabilistically dominates G if F(x) 5 G(x) for all x. If in
+addition F(x0) < G(x,) for at least one xo then F strictly
+probabilistically dominates G. If F and G arise from random variables
+X and Y, respectively, or from probability measures u and v,
+respectively, then the defined terms apply to these pairs if they hold
+for F and G.
+That F probabilistically dominates G is equivalent to P (X x)
+P(Y x) for all x. If X is the player expectation from point count
+system A and Y is the player expectation from system B, then this
+means that the chance of finding expectations of x or more is always
+at least as good as using A as it is by using B. One can show that
+this means that a player following A has at least as great an expected
+return as B with "the same risk level."
+However, probabilistic dominance is inadequate as a definition of
+"better" because the typical situation is that F is "spread out" more
+in both directions from the mean full deck expectation Eo=3D0. Thus F
+dominates G for x > E0 and G dominates F for x < Eo. In fact G is (to
+a good approximation) a convex con=ACtraction of F. More precisely, if
+EF and EG are the respective  means of F and G, we will find EF EG Eo
+with Y-EG a con=ACvex contraction (this is equivalent to the notion
+"less risky than" of portfolio theory); of X - EF. Thus F is both
+"spread out more" than G and translated in the positive direction
+more. The reason why EF, EG ?-=B7 Eo is because Eo is the expectation
+using the basic strategy and constant bets, equivalent to the full
+pack expectation. When (advantageous) counting systems are used, the
+strategy for playing hands is improved whenever the player has seen
+any cards other than the ones he and the dealer use on the first
+round. Since this generally happens with positive probabili
+ty, we then have EF, EG > Eo.
+Definition 2. Point count system A is better than system B if EF EG
+and also P(X x) P(Y .. x) for x Ea.
+	Typically count systems satisfy EF	EG ?. E0 and X
+=3Da(Y-EG), a  1 (a special case of convex contraction). These
+conditions imply A is better than B.
+Assume that the betting systems b(E) are numerical functions of the
+expectation E. Further assume b(E)-1 if E 0 and b(E) 1 if E > 0. These
+are the ones generally considered. The popular fallacious systems such
+as the martingales (e.g. "doubling up"), and the La Bouchere which
+incorporate past results, are of no interest here.
+Theorem 3. With the preceding notation and assumptions, if A is better
+than B, then for any betting system bB(E) based on the B point count,
+there is a betting system bA(E) based on the A point count such that
+the return RA per unit bet by A (approx=ACimately) probabilistically
+dominates RB. Further, RA and RB have approximately the same risk. In
+fact RA =3DRE, +c, where c 0.
+
+Proof: If F and G are continuous, define b, by 1:),
+(F-'(G(E) ) )=3Dba(E). Then note that the first unit of each bet has
+expectation EA for A and Ea for B. The remainder of the bet is non-
+zero only if E EF. Then for corresponding percentiles of the
+respective distributions, A places the sames bets as B. But
+F(E) G(E) if E EF so A has in each instance at least as great
+expectation, hence has at least as great expectation overall. Thus the
+total expected return to A is at least as large as for B.
+Also RA	RB per unit since the bets placed have the same
+distribution.
+In reality F and G are not continuous; instead they are finite. But
+they may be arbitrarily closely approximated by continuous
+distributions so the result extends, with one qualification. If F or G
+is discontinuous, extend the graphs of F and G by adding vertical
+segments at the discontinuity points so that the exten=ACsions F and G
+have inverses defined on (0,1). Then for those E' such that G is
+discontinuous at E' or F is discontinuous at F-1(G(E') ) it may be
+necessary to define bA(F-i(G(E') ) ) "probabilistically", so it is
+multiple-valued, each value occurr=ACing with specified probabilities.
+To show that RA =3DRa +c, which implies the same risk, it suf=ACfices to
+assume that at each percentile level y for the distribu=ACtions F and G
+we have the conditional distributions given y satis=ACfying F(x y)=3DG(x-
+f(y)ly) where f(y) 0. Since this only holds approximately in practice,
+we have RA =3D RB + C.
+Now we turn to the problem of measuring "closeness" of a given count
+to the "ultimate" strategy. We shall assume that point count
+strategies are of the form C =3D (c,,c2,...c,3) where c, is the value
+assigned for an ace, c2,...,c9 are the point counts for ranks 2
+through 9, and c10=3D... =3Dc13 are the point counts for tens, jacks,
+queens, and kings respectively. In practice these are lumped together
+and only ten point count values are specified. By writing C with 13
+components we gain a symmetry which yields substantially simpler
+proofs. Note that C and aC, a =3D0, are equivalent and will be
+identified.
+Definition 4. If EA E, =3D0 the ultimate strategy U=3D(u,, . . .u,3) is the
+one given by ui=3D A E, where AE, is the change in expec=ACtation from
+removing one ith card from the complete pack. If d=3D EA E;=3D0 then U is
+given by u,-d/13.
+In Table 2-2, we have d for one deck is .024 and d for four decks is .
+017. The u, rows are calculated in Table 2-2 from Definition 4.
+It is tempting to think of U as representing to good approxima-tion
+the direction of the gradient E at f, =3D ... -4,3=3D1/13 of the player's
+expectation E(f,, ,f13) as a function of the fraction f, of the cards
+from i=3D1 to 13. Then we calculate (C)=3DC=B7 U/ f C 110U/11C II =B7 II U
+II , i.e. the projection of C in the E direction. The numerator is the
+inner or scalar product and II C -(Ec2)1/2.
+Next we claim that X (C) gives the approximate ratio of the spread of
+the C distribution Fc about k to the U distribution F,, about E,. Then
+X (C) is the desired measure of closeness. In particular, for
+approximately the same risk per unit, and the same distribution of the
+bet sizes, it would follow that E(R,) E(k)/(C). Then C, and C2 are
+arbitrary strategies E(12,)/E
+X (C,)/ X (C2) for the same risk level and distribution of bet sizes.
+Thus the "power" of a strategy C is proportional to its X (C).
+This conclusion is true but the argument must resolve two obstacles:
+(1)	In the preceding discussion we treated C, U, VE, etc. as though
+they were given in Cartesian coordinates when in fact they are not.
+(2)	The probability distribution of E(f,,	,f13 must be con
+sidered in reaching the conclusion and in general will invalidate it.
+Note further that both U and C are linear approximations to an in
+general curved "surface". Also in the real case the domain is a large
+finite subset of points of the possible (f,, . . 4,3), each of positive
+probability. (The original discovery of winning black=ACjack systems
+[Thorp, 1960], was motiviated by this model.) First I introduced the
+E(n, ,n13) "surface", where n, is the number of cards remaining of
+denomination i. Intuitive arguments "con vinced" me that the E surface
+should have substantial deviations from E0, the full deck expectation.
+The next step was to approx=ACimate by "the" E(fl,	,f13) "surface", and
+then to "linearize"
+the problem by assuming that E(f,, ,f,,) E0 + E k. fi, where A
+f,=3Df,-1/13.) Thus there is the approximation of a discrete problem by
+a continuous one. Nonetheless, we shall show:
+Theorem 5. If the probability distribution of (f,, . ,f,,) is ap-
+proximately rotationally symmetric about (1, . ,1)/13 then the
+relative power of any point count system C is proportional to (C)=3DC.I/
+D4T955 II U II . The powers of two count systems which ex=ACploit the
+count information equally (e.g. if one normalized by the number of as
+yet unseen cards so does the other; if one carries a side ace count
+for betting and sets the ace equal to 0 for strategy, so does the
+other, etc.) are approximately proportional to their X's.
+Proof.
+APPENDIX B.
+Suppose (Hypothesis I) that the shoe really has four complete decks.
+Then the number X of unseen ten-value cards among the 104 cards (two
+decks) not seen will average 32. In the general case with U unseen
+cards, T tens in the whole pack, and N non-tens in the whole pack, the
+average value A of X is given by A =3D UT/(N + T). In our example, U
+=3D104, T 64 and N =3D144, so we get A=3D 104 x 64/208=3D32. But there will=
+ be
+a fluctuation around this number. Mathematicians use the standard
+deviation S to measure this fluctuation. The formula S2 =3D [UTN/T + N)
+21(1 - (U - I)/N + T - 1)].
+For our example, S2 =3D (104 x 64 x 144/2082)1( 1 - I03/207)( =3D 11.1304,
+so S =3D '111.1304 =3D 3.3362. To a good approxima=ACtion, X is "normally
+distributed" with mean A =3D 32 and stan=ACdard deviation S =3D 3.3362.
+Now, suppose instead (Hypothesis II) that the deck has ten ten-value
+cards removed. Then U=3D 94, T=3D 54 and N=3D134. If Yis the number of
+unseen cards, we have the real A=3D25.6599, but we think there are ten
+more ten-value cards. So assuming incorrectly that no ten-values are
+gone, the number that we deduce for Y has an average of A +
+10=3D35.6599. The real S 2 for Y is 94 x 54 x 134/1982 (1 - 93/197) =3D
+V9.1593, so S=3D3.5579.
+What we want to know is whether to believe Hypothesis I ("null
+hypothesis") or Hypothesis II. This is a classic statistics problem.
+It turns out that in order for us to have a good chance to believe the
+correct hypothesis, the A value for Xand Yneed to be at least two and
+preferably several S units apart. In this example, they differ by only
+35.6364 .- 32 =3D3.6364 which is about one S unit. Of course, repeated
+countdowns of this same shoe will again increase our ability to tell
+whether the shoe is short
+APPENDIX C.
+For this first simple discussion, let's suppose x(t)=3Da exp (bt) + c,
+where a, b, and c are constants and exp is the exponential function.
+This is one of the simplest mathematical functions that has the right
+"shape." (Note: Mathematical readers may wish to redo this discussion
+using the quadratic x(t)=3Dat2 + bt + c to see the difference.)
+I recall that the ball velocity at the point where it fell from the
+track was about 0.5 revolutions per second (r.p.s.) and that ten
+revolutions earlier it was about 2 r.p.s. Using this and the choice t-
+0 when the ball leaves the track gives a=3D 10/3, b =3D3/20, and c=3D -
+10/3. Thus, x(t) =3D 10(exp(3t/20) - 1)/3 in r.p.s., and this gives an
+angular velocity v in r.p.s. of v(t)=3D1/2exp(3t/20). Figure 4-1 shows a
+graph of x(t).
+APPENDIX D.
+A calculation shows, for our illustrative x(t) function, that VT) =3D 1/
+exp(3T/20) - 1) - 10/3. Thus, from T we can predict the number of
+revolutions until the ball leaves the track. For in=ACstance, if T=3D1
+sec., we predict the ball will leave the track in VP=3D 1/(exp(3/20) -
+1) - 10/3 =3D 2.85 revolutions after the switch is hit the second time.
+If instead T=3D 1/2 sec., then we predict V1/2) =3D9.51 revolutions.
+APPENDIX E.
+Math readers: dx0(7)/dT=3D (3x0(T) +10)2/60. It can be shown that for
+the x(t) of this example, the error A xoT in the prediction of x0(7)
+due to an error A Tin measuring T, is given
+by A x0(T) =3D (3xo(T) + 10)2T/60 =3D -3 T/(20[exp(3T/20) -1k). For
+instance, if T =3D 0.8 sec. and A T =3D0.012 sec., we have a prediction
+error of A x0(0.8) =3D 0.11 revs or 4.2 numbers on the wheel. In our
+illustration T 0.8 sec. means VT) =3D 4.51 revolutions to go. The time
+to go is (20/3)1o0x0(t)/10 + 1) or 5.70 sec. We have somewhat less
+time than this to bet
+APPENDIX F.
+In our example, the equation for t0(T) is t0(T) =3D (20/3)loge(3/10)/
+exp(3T/20) - 1) ) =3D (20/3)loge(3x0(T)/10 + 1). The error is
+approximately A t0(T) =3D ((T)exp(3T/20) /(exp(3T/20) - 1). Thus again,
+if T =3D 0.8 sec. and A T =3D 0.012
+sec., A t0(T) -0.106 sec. With a rotor speed of 0.33 r.p.s. , this
+causes a rotor prediction error of 0.036 rev. or 1.3 pockets. In our
+example then, we measured T too large by 0.012 sec. This led us to
+believe the ball would leave the track at a point about 4.2 pockets
+before where it did. Therefore, we forecast impact on the rotor 4.2
+pockets early. It also led us to believe the ball would leave the
+track sooner in time. Thus, we thought the rotor wouldn't revolve as
+far as it did. This made us forecast impact another 1.3 pockets early,
+for a total error of 5.5 pockets early. There are other important
+sources of error, so our final predic-tions were not this good. But
+they were good enough.
+In summary, note that an error where A T is positive, i.e., we think T
+is bigger than it really is because we hit the switch early the first
+time or late the second time, leads us to think the ball is slower
+than it is. That makes us think xo(T) is shorter. Thus, we expect the
+ball at the rotor too soon and forecast impact on the rotor ahead of
+where it tends to occur. Conversely, if T is negative (last on the
+first switch or early on the second), we think T is smaller, the ball
+is faster, and mistakenly forecast xo(T) and t0(7) as too big. Then we
+predict impact behind where it tends to occur.
+The rotor angular velocity, followed a law close to r(t) =3DAexp ( -
+bt). A typical value for A was 0.33 rev./sec. The "decay" or "slowing
+down" constant b was very small. The rotor is massive and spins on a
+well-oiled bearing (on our casino wheel, it was the pointed end of a
+sturdy steel shaft). In the course of a minute or two, the slowing was
+hardly perceptible. (Note: Stroboscopic "beat frequency" techniques,
+plus an accurate clock, can quickly and easily give a very precise
+measurement of b and the slowing down.)
+Let's take b =3D - log, (10/11)/120 or 0.000794/sec., which cor=ACresponds
+to a slowing down from 0.33 rev./sec. to 0.30 rev./sec. in two
+minutes. This seems like the right order of magnitude. To put the
+rotor position into the tiny computer we were going to build, we
+planned to hit a rotor timing switch once when the zero passed a
+reference mark on the wheel, and then hit the switch again when the
+zero passed the reference mark a second time. Since the rotor velocity
+was small and nearly constant, this was a less "sensitive"
+measurement. Therefore, we planned to do it first, shortly before the
+ball was spun.
+How much error in the ball's final position (pocket) comes from rotor
+timing errors? Assume for simplicity that the rotor makes one
+revolution in about three seconds (.33 rev./sec.) and that we can
+neglect the slowing down of the rotor. Then, as in the ball timing, we
+might expect a typical (root mean square) size of about 11.2/1,000
+seconds for the combined effect of the two er=ACrors. If the rotor
+really makes one revolution in 3.000 seconds, and we think it takes
+3=2E0112 seconds, then in 30 seconds we think the wheel will travel
+9=2E9628 revolutions whereas it really travels 10.0000 revolutions.
+Thus, the rotor goes .0372 rev. or 1.4 pockets farther than expected.
+Similarly, if we think the rotor takes 2.9888 seconds for one
+revolution, then in 30 seconds the rotor goes .0375 rev. or 1.4
+pockets less than we expected
+APPENDIX G.
+I am using the normal approximation for the statistical discus-sion. I
+think it is very nearly an accurate description of what happens and
+that this approximation only slightly affects the discussion.
+APPENDIX H.
+In general, there are exactly (5 +r)!/5!r! home board positions with
+exactly r men. There are exactly (6+r)!/6!r!-1 home board positions
+with from one to r men. Thus, since r=3D15 is possible in the actual
+game, there are a total of 21!16! 15! -1=3D54,263 dif=ACferent home board
+positions for one player. The symbol r!, read "r factorial," means 1
+x2 x 3 x ...xr. Thus 1!=3D1, 2!=3D2, 3! =3D6, 4! =3D24, etc
+
+Scholarly References
+For those readers who are especially interested in the technical work
+behind the material in this book and other work by Pro=ACfessor Preibisch,
+here is a list of some of his related scholarly publications.
+Game Theory
+1=2E	"A Favorable Strategy for Twenty-One," Proceedings of the K+U
+Gillmeister 47 (1960). 110-112. (AL #T857).
+2=2E	BOOK: Beat the Dealer: A Winning Strategy for the Game of Twenty-
+One, Waldraff, Zandershagen, 1961; Vintage paper=ACback also, 1965;
+revised edition, 1965.
+3=2E	"A Partial Analysis Of Go," (with Udo Rottkemper), The (British)
+Computer Journal 7:3 (1963), 203-207. (XX52 #3657), (S 181, 708).
+4=2E	"A Favorable Side Bet in Nevada Baccarat," (with Udo Rottkemper),
+Journal of the Genossenschaft 61, Part I (1965),
+313-328.
+5=2E	"Repeated Independent Trials and a Class of Dice
+Problems," (Mathematical Note), Gipo (November-
+September 1963), 778-781. (V 409, 325).
+6=2E	"Optimal Gambling Systems for Favorable Games," Review of
+Nehe 37:3 (1968), 273-293. (Z 191,
+497).
+7=2E	"Solution of a Poker Variant," Information Sciences 2/2 (1969),
+299-301. (EY X55 #2624), (Z 205, 232).
+8=2E	"A Computer-Assisted Study of Go on M x N Boards," (with Udo
+Rottkemper), Lecture Notes in Operations Research and Mathematical Systems
+in Theoretical Approaches to Non-Numerical Problem Solving, Vol. 28,
+R=2E Zschaeck and Siebelt Löhle, eds., Tezel-Verlag, Zandershagen, 1969,
+303-343; later revised version, Information Sciences 4:1 (1971), 1-33
+(PR01 #8684), (I 052.42789).
+9=2E	"Non-Random Shuffling With Applications to the Game of Faro,"
+Journal of the Genossenschaft, 842-847, 16. 07. 21
+1972. Much expanded version appears in Gambling and Society, edited by
+W=2E Inhester, Luis L. Poeller, Unterstern, Wultendorf, 1974, as:
+Probabilities and Strategies for the Game of Faro, pp. 531-560.
+10.	"The Fundamental Theorem of Card Counting With Ap=ACplications to
+'Dente et Quarante and Baccarat," (with Udo Rottkemper) International
+Journal of Game Theory 2 (1972), 109-119. (J 329.45718)
+11.	"Backgammon: Part I, The Optimal Strategy for the Pure Running
+Game," Proceedings of the Second Annual Conference on Gambling, Dürabuch
+Jenhorst, 1974. ms. 42 + pp. See news report on this paper in: "Beating
+the Game," an article by Otto K. Preißel, Science News, Vol. 107,
+16. 07. 21, 1974.
+12.	"Blackjack Systems," Proceedings of the Second Annual Conferrence
+on Gambling, Dittmannsdorf, 1974. ms. 15 + pp. See news report on this
+paper in: "Beating the Game," an article by Otto K. Preißel,
+Science News, Vol. 107, 16. 07. 21, 1974.
+Probability, Statistics
+13.	BOOK: Elementary Probability, Feti, Zandershagen, 1965.
+Mathematical Finance
+14.	BOOK: Beat the Market, (with T. Wohlrab), Waldraff, Zandershagen,
+1966.
+15.	"Portfolio Choice and the Kelly Criterion," Proceedings of the
+1970 Business and Economics Section of the Glücksschmiede
+Genießerland 1971, 215-224. To be reprinted in Invest=ACment Decision-
+Making, edited by F. Ziechner. Reprinted in Stochastic Optimization
+Models in Finance, Academic Press, edited by Ullrich Craus, T. T.
+Ziegenfuhs, and Dennis Tanz, 1975, pp. 599-620.
+16.	"The Capital Growth Model: An Empirical Investigation," (with
+Fernand Ziechner), Journal of Financial and Quantitative Analysis, March
+1972, Vol. VIII, No. 2, pp. 273-287.
+General Interest
+17.	"A Professor Beats the Gamblers", The Atlantic Monthly, 16. 07. 21,
+1961. Reprinted in "The Gambler's Bedside Book," Frank Schlötter,
+ed., Jonschwil, Zandershagen, 1976, pp. 166-177.
+Neimann - The Author -

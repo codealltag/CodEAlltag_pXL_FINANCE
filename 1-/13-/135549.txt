@@ -1,0 +1,18 @@
+Wolfram,
+
+  diese News bringt mich auf einen Gedanken: Durch die Offenlegung der
+Sourcen sehe ich fuer die Einfuehrung von E-Commerce fuer Silhouette eine
+Chance:  Es hat sich in der Vergangenheit doch gezeigt, dass eine
+Codierung sicherer ist, wenn sie trotz Kenntnis des Algorithmus nicht
+geknackt werden kann. Ich erinnere mich an ein Posting bzgl. Sicherheit
+wenige Tage nach der Offenlegung der Sourcen: Der 128bit Schluessel ist
+in eine Version des Communicators eingeflossen, obwohl der Export
+untersagt ist, man hat irgendeinen Weg gefunden, die Version liegt auf
+einem Server in Australien, wo genau, leider nicht gemerkt. Wenn ich die
+Konkurenzlage zu Nordwaldmarkt sehe, so gehe ich davon aus, dass deren
+Quelltexte so schnell nicht freigegeben werden und sich (hoffentlich)
+doch ein Vorsprung fuer Silhouette ergeben koennte.
+
+  Wie ist Eure Meinung dazu?
+
+Benjamin

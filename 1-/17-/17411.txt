@@ -1,0 +1,15 @@
+Hi,
+Extras->Filter,
+ich empfehle den Filter global für den News-Server anzulegen, ansonsten
+wird der Filter beim abbestellen der NewsGruppe auch gelöscht.
+
+Im Filter dann "Nachricht löschen" selektieren.
+
+Achtung: Hat nur auf _neue_ Postings Auswirkung. Am besten nach Anlegen
+des Filters die NG einmal ab- und wieder anbestellen. Dabei muss
+eventuell noch der NG Order im Thunderbird-Profil gelöscht werden.
+
+Danach ist Ruhe. ;-)
+
+Größe,
+Claudio

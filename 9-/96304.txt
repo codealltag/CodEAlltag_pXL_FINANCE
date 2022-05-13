@@ -1,0 +1,38 @@
+...
+
+OK, jetzt verstehe ich was du meinst. Und fuer "normale" Optionen
+hast du recht. Ich sollte mir angewoehnen, vor Beantwortung deiner 
+Postings erst mal eine Nacht darueber zu schlafen, damit ich sicher 
+bin, den Hintergrund deiner Bemerkungen verstanden zu haben.
+
+Also folgendes:
+
+Dazu gehoert mindestens noch eine Nebenbedingung, naemlich dass die
+verbleibende Differenz dann mindestens einer Euro Option mit der 
+laengsten Restlaufzeit entsprechen muss.
+Bei normalen Optionen wird das nie aufgehen, denn die werden ja 
+teurer, je laenger die Restlaufzeit (teurer bezieht sich auf Premium).
+
+Bei Bond-Optionen gibt es da aber eine Anomalie. Die werden mit
+Verlaengerung der Laufzeit nur Anfangs teurer, dann wieder billiger.
+Extremfall: Ein Euro-Call mit Strike 100 und gleicher Restlaufzeit 
+wie die Underlying Anleihe hat praktisch keinen Wert.
+(da zeigen auch einige unserer Programme irrefuehrende Werte
+an; kann man nur durch bewusste Manipulation der Eingabedaten
+grob richtigstellen.) 
+Wegen dieser Anomalie kann man bei Oprach-Os in einem weiten 
+Bereich mit obiger Naeherung arbeiten. 
+
+Du hast also recht. Das ist nur ein spezieller Sonderfall und auch 
+da nur eine Naeherung. Da muessen wir in Zukunft deutlich drauf
+hinweisen. Sowas versaut einem immer die Handbuecher, wenn 
+man erst etwas einfach erklaert, und anschliessend auf allerlei 
+Ausnahmen und Einschraenkungen hinweisen muss, bis alle 
+anfaenglichen Klarheiten restlos beseitigt sind.
+Uebrigens finden erststaunlich wenig Profis solche Fehler. Oder
+sie getrauen sich nicht, Fragen zu stellen.
+
+
+Didier Leist
+Visit   http://kipscda.szo.qun/kvjtoa  and download a 
+free calculator for options, futures, bonds and similar stuff.

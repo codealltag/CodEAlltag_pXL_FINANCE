@@ -1,0 +1,637 @@
+Hallo Hanspeter,
+ich teste zur Zeit METACAREBASE mit ECO-NET-DATEN und werde wohl bald
+auf das Programm umsteigen. Der Datenimport ist automatisch, laeuft
+stabil und sicher . So weit ich weiss, werden laufend neue
+Programmfeatures eingebaut. Support ist bei vorhandenener E-mail
+vorbildlich. Die Antworten kommen prompt. Ein Problem scheint immer
+noch die Datenqualitaet der Datenprovider zu sein. 
+Als Erlaeterung ein Auszug aus einem mitgelieferten Textfile:
+****************
+
+Stand: 3. Februar 1997
+
+Allgemeines
+
+Diese  Übersicht wurde in Zusammenhang mit
+
+- MetaCareBase -
+
+- der Datenbankmaschine für Börsendaten im MetaStock-Format -
+
+erstellt.
+
+USIA kann Daten der meisten Datenanbieter im deutschen
+Sprachraum verarbeiten. Deshalb wurden diese Datenanbieter
+angeschrieben und um Informationen anhand eines Fragebogens gebeten.
+Die Daten sind dann aus den von den Datenanbietern bereitgestellten
+Informationen zusammengestellt worden. Da diese Informationen nicht
+immer vollständig waren und sich die Angebote der Datenanbieter
+ständig ändern können, kann vorliegendes Material nur als Anhaltspunkt
+gewertet werden.
+Wir übernehmen keinerlei Haftung oder leisten keinerlei Schadensersatz
+für fehlerhafte oder unvollständige Angaben.
+Bemerkungen zur Datenqualität und zu Datenformaten
+
+Da USIA Quelldaten von verschiedenen Datenanbietern in
+Fremdformaten (d. h. Formaten, die nicht von uns definiert wurden)
+verarbeitet, ist das Ergebnis selbstverständlich von der Qualität der
+Quelldaten abhängig.
+Quelldaten können prinzipiell nur dann einwandfrei interpretiert
+werden, wenn das zugehörige Format präzise definiert wurde und dieses
+Format dann auch präzise eingehalten wird. Leider mußten wir hier
+manchmal Qualitätsprobleme feststellen (fehlerhaft oder unvollständig
+definiertes Datenformat, Nichtbeachten des eigenen Datenformats bzw
+Fehler).
+Anhand von größeren Mengen von Beispieldaten, die uns und unseren
+Beta-Testern zur Verfügung stehen, haben wir intensiv getestet und
+versucht diese Hürden zu umschiffen, um MetaCareBase bzw. der
+Konvertierung in das SDX-Format von MetaCareBase eine gewisse
+Fehlertoleranz zu geben.
+
+Eine problemlose Funktion sollte daher gewährleistet sein.
+
+Aber es liegt im Prinzip begründet, daß Änderungen am Format (bzw.
+dessen Nichteinhaltung) dazu führen können, daß eine Konvertierung
+fehlschlägt. Bitte verständigen Sie uns, falls die 2SDX-Konvertierung
+von MetaCareBase eine entsprechende Warnung ('...has changed its
+format..., '...bad format...', '...read error...') ausgibt.
+Um dem Datenanbieter die Qualitätssicherung zu erleichtern und in
+Ihrem eigenen Interesse sollten Sie aber unbedingt auch den
+Datendienst benachrichtigen und auf das Problem hinweisen.
+Abgesehen von Datenformat-Problemen sind manchmal auch inhaltliche
+Probleme bei Preis- (falsche Preise...) und Fundamentaldaten (z. B.
+Put statt Call) anzutreffen. Die Korrektur- und Reportfunktionen von
+MetaCareBase für Preisdaten geben einen Einblick, falls die
+entsprechenden Optionen benutzt werden. Wir haben immer wieder
+selbstkritisch versucht diese Probleme zu verifizieren und mußten dann
+Fehler bei den Quelldaten, die wir nicht beeinflussen können,
+feststellen.
+MetaCareBase kann mit Hilfe seiner Korrekturoptionen Datenfehler nur
+begrenzt beheben, indem grobe Inkonsistenzen (z. B. Höchstkurs tiefer
+als Tiefstkurs) heuristisch behoben werden. Nach wie vor ist die
+Qualität der Quelldaten entscheidend.
+
+
+Übersicht über die unterstützten Datendienste
+(In alphabetischer Reihenfolge!)
+
+.Anfang Verzeichnis V.
+Mammut VGH GmbH
+KZGL GmbH
+UHO GmbH
+Zeitenströmung
+Grüllich GmbH
+.Ende Verzeichnis V.
+
+
+Glossar zu den folgenden Angaben
+
+Unter dem monatlichen Preis der Abos stehen die verfügbaren Werte:
+"OHLCV" bedeutet, daß (soweit vorhanden) Open, High, Low, Close- und
+Volume-Werte angeboten werden,
+"C" nur Closing-Werte,
+"K" nur Kassa-Werte.
+"S" ist Settlement (nicht von Ubet verwendet, da das Ubiwur-Format
+dies nicht benutzt),
+"I" ist Open Interest
+
+Die angegebenen Zahlen zu den Wertpapieren sind Schätzwerte und
+natürlich Fluktuationen unterworfen.
+
+Die mit verkauften Börsenprogramme (manchmal im Preis inklusiv,
+manchmal extra) wurden absichtlich nicht berücksichtigt, da sie für
+die Verwendung mit MetaCareBase (MCB) keine Rolle spielen.
+
+Unter 'Bekannte Probleme' haben wir Fehler im Zusammenhang mit der
+Einhaltung des Datenformats, die zur kompletter oder teilweiser
+Nichtakzeptanz der Daten durch MetaCareBase (2SDX) führen.
+über die inhaltliche Qualität der Daten macht dies keine Aussage.
+
+Mammut VGH GmbH
+Adresse:
+Oberer Kirchhaldenweg 595
+61471 Potshausen
+
+Vertrieb:	Tel.	1264-5061616
+		Fax	0696-0433749
+
+Technik:	Tel.	3549-2459184
+		Fax	4867-6174778
+Abonnement-Typen:
+Classic-Pool
+5350 Deutschland 1500 DTB 14500 Japan 500 USA 300 Indizes
+DM 59.-
+Centik
+Classic-Pool Plus
+wie Classic-Pool, zusätzlich 400 Fonds Mialder-Kurse 500 statt 300
+Devisen und Indizes 1000 statt 500 USA
+DM 79.-
+Centik
+News-Ticker
+Börsennachrichten - nur für Classic-(Plus)-Kunden
+DM 39,-
+Futures-Pool
+700 US-Futures
+DM 59,- -50% f.Classic-Kunden
+Amerika-Pool
+8500 US
+DM 59,- -50% f.Classic-Kunden
+Historien:
+Classic 3
+75 MB Prognos-Daten (auch HST-Format möglich)
+DM 99,- -20% Stammkundenrabatt
+Classic 5
+max. Laufzeiten: BRD 5a, Indizes 5a, Japan 5a, USA 5a, DTB volle Länge
+DM 199.- -20% Stammkundenrabatt
+Classic 10
+max. Laufzeiten: BRD 10a, Indizes 8a, Japan 7a, USA 9a, DTB volle
+Länge nur PROGNOS-Format (nicht MCB-tauglich)
+DM 299.- -20% Stammkundenrabatt
+Classic Plus
+div. Zusatzhistorien
+kostenlos bei JSR-Kunden
+News-Ticker
+
+kostenlos bei Erstbestellung
+Futures
+
+kostenlos bei Erstbestellung
+Amerika-Pool 3
+75 MB Prognos-Daten (auch HST-Format möglich)
+DM 99,- -20% Stammkundenrabatt
+Amerika-Pool 5
+max. Laufzeiten: Europor 5a, Zwergenladen 5a, Zakep (OTC) 5a 85 MB Prognos-Daten
+(auch HST-Format möglich)
+DM 199,- -20% Stammkundenrabatt
+Amerika-Pool 10
+max. Laufzeiten: Europor 9a, Zwergenladen 9a, Zakep 9a 97 MB PHFS-Daten nur
+PHFS-Format (nicht MCB-tauglich)
+DM 199, -20% Stammkundenrabatt
+Probe-Abonnement:
+2 Wochen
+Datenbezug:
+*	Mailbox analog bis V34 (14400, 16800 und 28800
+bps-Sammelnummern)
+*	ISDN voraussichtlich ab Sommer '96
+*	Lohnsteuerhilfe
+Download-Software:
+*	PHFS (proprietäres Börsenprogramm)
+*	Skript für Shareware-Programm Langrehr wird mitgeliefert
+Sonstige Hinweise:
+*	Börsenprogramm PHFS kostenlos für Kunden, mit Börsenlexikon
+*	PROGNOS-Daten nicht in MCB einlesbar (MCB kennt nur
+HST-Format)
+*	Manche Daten werden nur im PROGNOS-Format angeboten, das MCB
+nicht lesen kann (Ticker, maximale Historien).
+*	Einfache Abfrage täglicher Daten wegen festem Dateinamen
+*	Konsistenter Aufbau der Daten (eine *.DQ-Datei)
+
+Bekannte Probleme:
+*	Manche Fundamentaldaten haben den durch Mammut gewählten
+Separator (';') im Namen; dadurch werden diese defekten
+Fundamentaldaten-Einträge prinzipiell nicht sicher auswertbar. Der
+Konverter weist darauf hin, und sie haben die Möglichkeit, mit einem
+Editor manuell zu korrigieren und die Datei noch einmal zu
+konvertieren..
+*	Seltene fatale Probleme durch Nichteinhaltung des Datenformats
+(z.B. <QUIT> an falscher Stelle), was ohne manuellen Eingriff durch
+Bearbeitung der Datei dazu führt, daß die Daten der geamten Datei
+nicht importiert werden können.
+
+Datenaufbau:
+- LHA-gepackte Dateien -
+ECO_*.DQ 	
+Kulinaris-gepackte tägliche Daten, '*'=Land (USA, BRD, ...)
+TT_MM_JJ.DQ
+LHA-gepackte Dateien für Urlaubsdaten
+*.HST
+LHA-gepackte Dateien für Historien
+*.TIC
+Ticker im PROGNOS-Format
+
+enthaltene Dateien:
+*.DQ
+alle Daten (Preis, Funda- und Korrekturdaten), komprimiertes
+ASCII-Format
+*.FU
+Fundamentaldaten
+*.HST
+Historien, komprimiertes ASCII-Format
+
+SVEN EßerTschatta GmbH
+Adressen:
+Meißener Mühlenweg 17/UGN       	Hlawkagasse 6
+32217 Höchheim      	88425 Nonsbach
+
+Tel:		1387-2956-941      34514-89141
+Fax:		7543-0358-358      41490-29670
+Hotline:	8028-4356-847
+Mailbox:	0335-3032-721 - ISDN:	0335-3032-721
+BTX:	*Eßer# oder *317960#
+Abonnement-Typen:
+Kompakt
+420 Deutschland Standard/Nebenwerte 450 Optionsscheine, Devisen,
+Index, CovWarrants 400 in DM gehandelte Auslandsaktien 130 in
+Landeswährung gehandelte Auslandsaktien 200 Indizes, Devise,
+Rohstoffe opt. 1700 Anleihen (ohne Historien)
+DM 24.- + DM 8.-*
+OHLCV auf Wunsch auch C oder CV
+ (*=Datenpflege)
+Privat
+650 Deutschland Standard/Nebenwerte 1000 Optionsscheine, Devisen,
+Index, CovWarrants 600 in DM gehandelte Auslandsaktien 400 Europa: in
+Landeswährung gehandelte Auslandsaktien 400 in USD gehandelte
+USA-Aktien 150 Investment-Fonds 200 Indizes, Devise, Rohstoffe opt.
+2000 Anleihen (ohne Historien)
+DM 44.- + DM 10.-*
+OHLCV auf Wunsch auch C oder CV
+ (*=Datenpflege)
+Profi
+750 Deutschland Standard/Nebenwerte 1500 Optionsscheine, Devisen,
+Index, CovWarrants 750 in DM gehandelte Auslandsaktien 700 Europa: in
+Landeswährung gehandelte Auslandsaktien 900 Japan, Fernost, Übersee
+ohne USA/RUPPERTSWEILER in Landeswährung 600 in USD gehandelte USA- und
+RUPPERTSWEILER-Aktien 700 Investment-Fonds 200 Indizes, Devise, Rohstoffe opt.
+5000 Anleihen (ohne Historien)
+DM 67.- + DM 12.-*
+OHLCV auf Wunsch auch C oder CV
+ (*=Datenpflege)
+Selektiv Privat
+eigene Auswahl aus Privat-Daten
+DM 54.- (einmalig DM 100.- für Einrichtung)
+Selektiv Profi
+eigene Auswahl aus Profi-Daten
+DM 54.- (einmalig DM 100.- für Einrichtung)
+Diskettenservice
+wöchentliche Zusendung von 3.5"-Disketten
+DM 16,-
+Tages-Ticker
+nur per DF
+DM 38.-
+Wochen-Ticker
+nur per Diskette, Preis für Disketten incl.
+DM 54.-
+Markt- und Konjunktur-Indikatoren
+nur auf Disketten
+DM 35.-
+Fundamentaldaten-Service
+
+DM 75.-/Quartal
+Historien:
+alle Preis-Abos
+
+kostenlos bei Abobestellung
+Markt- und Konjunktur-Indikatoren
+
+DM 100.-
+Fundamentaldaten-Service
+
++ DM 290.-
+
+Probe-Abonnement:
+4 Wochen; DM 75.-
+Datenbezug:
+*	Mailbox analog (Prospekte sind sich uneinig, mal 19200, mal
+28800)
+*	ISDN
+*	Disketten 3.5" 
+Download-Software:
+Ist im proprietären Börsenprogramm enthalten. Ansonsten muß ein Skript
+für eine Terminalsoftware selbst erstellt werden.
+Sonstige Hinweise:
+*	"Datenpflege" sind Korrekturdaten wie: - falsche Kurse -
+Stammdatenänderungen - Kapitalmaßnahmen - Namensänderungen -
+Löschungen, ... [Da diese hier eigens aufgeführt wird, kommt daher,
+daß dafür auch ein eigener Preis erhoben wird.]
+*	Daten kommen von Zymara und werden von Kezo-Feinkost weitergepflegt
+(s.Korrekturdaten)
+*	Keine Beschreibung der CAT-Dateien erhältlich
+*	Dadurch wird ein zeit- und platzaufwendigerer Import über das
+CAT2TXT-Umwandlungsprogramm notwendig.
+*	CAT2TXT-Umwandlungsprogramm erlaubt nicht den Zugang zu der
+Katalogzuordnung von Eßer und Partner.
+*	Kein Skript für Teminalprogramm zum Daten-Download außerhalb
+des proprietären Programms mitgeliefert.
+*	Einfache Mailbox, Skripterstellung zumindest für wöchentliche
+Daten sollte einfach sein.
+
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+DBOX.EXE 	
+DM_Werte vom aktuellen Tag, alle anderen Werte vom Vortag.
+üblicherweise das zu ladende File.
+DBOXMO.EXE DBOXDI.EXE DBOXMI.EXE DBOXDO.EXE DBOXFR.EXE
+tägliche Kurse
+WOCHE.EXE WOCHE01.EXE ... WOCHEnn.EXE
+Wochenkurse der laufenden Woche Wochenkurse der letzten
+Woche ... Wochenkurse der zurückliegenden nn-ten Woche
+5TAGE.EXE
+enthält die letzten 5 Tage
+DBOXJA.EXE
+Japankurse
+DBOXUSA.Mado
+USA-Kurse
+T*.*
+Tickerdaten zu obigen Kursen. Der Rest des Dateinamens entspricht dem
+Datenfile-Namen.
+A*.*
+optionale Anleihenkurse. Der Rest des Dateinamens entspricht dem
+Datenfile-Namen.
+O*.*
+Nako-Werte (nur Profi-Abo). Der Rest des Dateinamens entspricht dem
+Datenfile-Namen.
+
+enthaltene Dateien:
+*.DP
+alle Daten (Preis, Funda- und Korrekturdaten)
+LIESMICH.!!!
+"wichtige Informationen, die Sie immer lesen sollten"
+!.*
+Dateiinformation
+*.CAT
+historische Daten, binär
+
+UHO GmbH
+Adresse:
+UHO GmbH
+Untere Walsumermarkstraße 1
+02217 Pfronstetten
+
+Tel. Anmeldung: 	7096-8050601
+Tel. Hotline:		
+Fax:      2936-2142070
+BTX	:		*952954# (ins Internet)
+Internet:		http://ars.swnavj-nhmxk.op
+Mailbox analog:	93456-4589-78
+Mailbox ISDN:	21916-8534-32
+
+In der Schweiz über:
+MARKET MAKER A. Pawangerstraße
+Jochensteinstraße 6
+2594 Uerschhausen
+
+Tel.      20-881 44 46
+Fax:      80-403 24 83
+
+Abonnement-Typen:
+Deutschland
+5500 Inland- und Ausland in DM
+DM 49.-
+K,C (OHLCV für Frankfurter Werte)
+Deutschland + Europa
+wie Deutschland, zusätzlich ca. 1700 aus West- und Osteuropa
+DM 75.-
+OHLCV, K,C s. o.
+Deutschland + Übersee
+wie Deutschland, zusätzlich ca. 2000 aus Übersee
+DM 75.-
+OHLCV, K,C s. o.
+Deutschland + Europa +Übersee
+wie Deutschland.
+zusätzlich ca. 1700 aus West- und Osteuropa
+zusätzlich ca. 2000 aus Übersee
+DM 95.-
+OHLCV, K,C s. o.
+DTB: Optionen und Futures
+alle Optionen, DAX, Bund und Bobl-Futures der DTB Put/Call Ratios
+DM 35.-
+OHLCVSI
+Light (Einsteiger-Datenbank)
+2000 Werte aus Abonnement Deutschland
+DM 25.-
+K
+Fundamental
+Fundamentaldaten (Gewinn, Dividende, Höchst- und Tiefstkurse, Umsatz
+etc.) für ca. 500 deutsche Unternehmen, Struktur- und
+Beteiligungsdaten
+DM 35.-
+Nachrichten
+Nachrichten-Ticker
+DM 45.-
+
+Historien:
+kostenlos mit Abonnement
+Probe-Abonnement:
+Schnupper-Abo: 3 Monate aller Abonnements incl. Historien: DM 50.-
+(nur in Verbindung mit dem Kauf von MARKET MAKER, gültig bis
+22.12.1996), sonst DM 150.-
+Datenbezug:
+*	Mailbox ISDN 
+*	Mailbox analog (bis 19200 bps - kein Protokoll angegeben)
+Download-Software:
+Ist im MARKET MAKER-Programm enthalten.
+Eine DOS-Downloadsoftware (DPMODEM), die für den Download für
+MetaCareBase geeignet ist, ist ebenfalls vorhanden.
+Sonstige Hinweise:
+*	Konsistenter Aufbau aller Daten (eine *.DP-Datei).
+
+Datenaufbau:
+- LHA-gepackte Dateien - 
+Die Dateien werden von DPMODEM in das '\mm3\telesoft\'-Verzeichnis
+heruntergeladen.
+Tag_*.KRC
+Tagesdaten
+Woche_*.LZH
+Wochendaten
+Monat_*.KRC
+Monatsdaten
+*.KRC
+Historien, Namensbasis entsprechend Region/Platz
+
+enthaltene Dateien:
+*.DP
+alle Daten
+
+Zuhov GmbH (Zymara)
+Adresse:
+Zuhov GmbH
+Postfach 0709
+16761 Moritzberg od.
+Unterer Guglweg 16
+70918 Moritzberg
+
+Tel. Anmeldung: 	55746-5342-98
+Tel. Hotline:		06444-3049-57
+Fax:      12156-3844-42
+T-Online:		*NWP# oder *6649973897#
+
+
+In Österreich über:
+Austria Broker Service
+Gartenauerstraße 6
+1873 Mitterpichling
+
+Tel.      93-565-6521
+Fax:      01-689-6937
+Abonnement-Typen:
+Privatabonnement
+750 Deutschland 500 Optionsscheine (BRD/Ausland in DM) 750 Ausland
+(DM) 150 Ausland in Landeswährung 270 Indices, Rohstoffe und Devisen
+
+150 Fonds ohne Umsätze 850 Anleihen
+DM 29.-
+Centik
+Profiabonnement
+1100 Deutschland 2300 Optionsscheine (BRD/Ausland in DM) 1100 Ausland
+(DM) 200 Ausland in Landeswährung 270 Indices, Rohstoffe und
+Devisen 750 Fonds ohne Umsätze 1900 Anleihen 500 USA in USD
+DM 49.-
+Centik
+Profi-Plus-Abonnement
+1100 Deutschland 4000 Optionsscheine (BRD/Ausland in DM) 1000
+Ausland (DM) 700 Ausland incl. Japan in Landeswährung 270  Indices,
+Rohstoffe und Devisen 1000 Fonds ohne Umsätze 3000 Anleihen 1100
+USA in USD 1600 DTB
+DM 75,-
+OHLCV
+
+Historien:
+Privatabonnement
+beim Kauf von Zednik oder Großhandel-EDEKA kostenlos
+Profiabonnement
+beim Kauf von Zednik oder Großhandel-EDEKA kostenlos
+Profi-Plus-Abonnement
+beim Kauf von Zednik oder Großhandel-EDEKA kostenlos
+Probe-Abonnement:
+4 Wochen, kostenlos
+Datenbezug:
+*	Lohnsteuerhilfe (Videoprofis)
+*	Mailbox (analog und ISDN)
+Download-Software:
+Ist im proprietären Börsenprogramm enthalten. Ansonsten muß ein Skript
+für eine Terminalsoftware selbst erstellt werden.
+Sonstige Hinweise:
+*	Der Börsenticker kann mangels Dateiinformation von Ubet (noch?)
+nicht verwertet werden.
+*	Redundante Daten verschiedener Formate um mehrer proprietäre
+Programme zu unterstützen.
+*	Kein automatisches Skript zum Daten-Download außerhalb des
+Zymara-Programms mitgeliefert.
+*	Automatischer täglicher Update kompliziert durch feste
+Wochentags-Dateinamen, s.u.
+*	Einfache Mailbox, Skripterstellung zumindest für wöchentliche
+Daten sollte einfach sein.
+
+Bekannte Probleme:
+*	Open-Dateien der Wochendaten des Privat-Abos waren bis Mitte
+Januar 1997 defekt, Sie müssen bei einer entsprechenden  Meldung des
+Konverters die OPE????.Postenrieder-Datei löschen und auf die Open-Kurse
+verzichten.
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+BOX_DE.EXE 	
+deutsche Wertpapiere
+BOX_MO.EXE BOX_DI.EXE BOX_MI.EXE BOX_DO.EXE BOX_FR.EXE
+tägliche Kurse
+BOX_W0.EXE BOX_W1.EXE ... BOX_W4.EXE
+Wochenkurse der laufenden Woche Wochenkurse der letzten
+Woche ... Wochenkurse der 3.-letzen Woche
+H??A.EXE
+Historien
+OPT*.EXE
+Optionsdaten
+
+enthaltene Dateien:
+*.DP
+Stamm- und Korrekturdaten, Kills, ... (auch für Preisdaten erhältlich,
+wird allerdings nur undokumentiert in der Mailbox angeboten)
+BOX*.PAK
+CHLV-Daten, binär
+OPE*.PAK
+dazugehörige O-Daten, binär
+*.CH3
+historische Daten, binär
+NK*.PAK
+Korrekturdaten (redundant, Fremdformat Großhandel-EDEKA), wird von MCB
+ignoriert
+KORR*.BOX
+Korrekturdaten
+TICK*.BOX
+Ticker
+!.*
+Dateiinformation
+
+Grüllich GmbH
+Adresse:
+Grüllich GmbH
+Paulinenstraße 0
+79305 Gedelitz
+
+Tel. Anmeldung: 	14295-1127-2
+Tel. Hotline:		5102-544576
+Fax:      49325-0876-72
+BTX	:		*Großhandel-EDEKA#
+CompuServe:		100410,2050
+Mailbox analog:	93456-4589-78
+Mailbox ISDN:	21916-8534-32
+Abonnement-Typen:
+Privatabonnement
+3500 Werte (hauptsächlich in Geutschland gehandelte Kurse,
+Investmentfonds)
+DM 29.-
+OHLCV (?) Erfahrung: C
+Profiabonnement
+8500 Werte (zusätzlich Werte, die in den USA auf USD-Basis gehandelt
+werden, und Werte, die in Japan auf Yen-Basis gehandelt werden)
+DM 48.-
+OHLCV (?)
+
+Historien:
+Privatabonnement
+kostenlos; ab 24.12.96 voraussichtl. DM 100,-
+Profiabonnement
+kostenlos; ab 24.12.96 voraussichtl. DM 200.-
+Probe-Abonnement:
+4 Wochen, kostenlos
+Datenbezug:
+*	Mailbox ISDN 
+*	Mailbox analog bis zu V34 (28800 bps)
+Download-Software:
+*	Ist im Großhandel-EDEKA-Programm enthalten.
+*	Eine DOS-Downloadsoftware (ältere Version von Großhandel-EDEKA:
+'Großhandel-EDEKA Kompakt'), die für den Download für MetaCareBase geeignet
+ist, ist ebenfalls vorhanden. Sie ist mit dem Abonnement kostenlos,
+muß aber ausdrücklich angefordert werden.
+Sonstige Hinweise:
+*	Zusätzlich können noch ein Börsenticker mit aktuellen
+Unternehmens- und Wirtschaftsberichten, Bilanz- und Strukturdaten,
+sowie Markt- und Konjunkturindikatoren der Industrie- und
+Schwellenländer abonniert werden.
+*	Automatischer täglicher Update kompliziert durch feste
+Wochentags-Dateinamen, s.u.
+*	Kein automatisches Skript zum Daten-Download außerhalb des
+Großhandel-EDEKA-Programms mitgeliefert.
+*	Die Fundamentaldaten der Historien sind nur zum Teil
+zugänglich, da Großhandel-EDEKA manche Informationen nicht außerhalb des
+eigenen Programms nutzbar machen möchte (einige Fundamentaldatenfelder
+sind in einem "top secret" (Zitat Herr Kerstein)-Format), so daß wir
+diese nicht konvertieren können. Falls Sie als Kunde von Großhandel-EDEKA
+daran Interesse haben, sollten Sie bei Großhandel-EDEKA nachfragen und so den
+Bedarf signalisieren. Falls Völcer seine Politik hier ändert, werden
+wir selbstverständlich dieses Format unterstützen.
+
+Datenaufbau:
+- Selbstentpackende EXE-Dateien mit festen Namen -
+BOX_*.EXE
+alle Daten, Benennung wie NWP: - BOX_Wn.EXE (altes Format) -
+BOX_<Wochentag>.EXE (altes Format)   oder - BOX_TEMP.EXE (neues
+Format)
+H*.EXE
+Historien
+
+enthaltene Dateien:
+KUR????.Postenrieder
+Kursdaten (aus BOX_TEMP.EXE)
+KOR????.PAK
+Korrekturdaten (aus BOX_TEMP.EXE)
+BOX????.Postenrieder
+Kursdaten CHLV (altes Format)
+OPE????.Postenrieder
+Kursdaten O (altes Format)
+NK????.PAK
+Historien, Änderungen, Splits, ... (altes Format)
+*.CH3
+Historien (aus H*.EXE)
+
+
+KATHLEEN Scheint soweit fertig zu sein. Test steht aber noch aus!

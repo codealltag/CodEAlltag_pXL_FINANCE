@@ -1,0 +1,14 @@
+Bei vielen Karten ist ein spezielles Tool dabei, das den Monitor und so
+u.a. die Bildwiederholrate fuer DOS anpassen kann. Dieses Tool
+schreibt in der Regel nach dem Einstellvorgang eine Zeile
+in die autoexec.bat, um diese Einstellungen bei jedem Start
+zu laden. Eventuell koennte man auch mal mit dem SciTech
+DisplayDoctor experimentieren.
+
+MfG
+Charles
+--
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate
+mit KURSEXTRAKT V.2.3.8.
+http://ocd.mketfu.uk/htgj/oos/

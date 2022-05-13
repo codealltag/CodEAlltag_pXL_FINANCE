@@ -1,0 +1,43 @@
+So wie ich es bisher verstanden habe gibt es Marktbereiche,
+wo grundsaetzlich nur NOR benutzt werden kann. Und zwar dort
+wo es auf absolute Korrektheit ankommt und z.B. Programmcode 
+gespeichert oder im Speicher ausgefuehrt werden muss, also 
+z.B. bei Motorensteuerungen.
+
+NAND dagegen ist etwas weniger zuverlaessig und deshalb
+nur brauchbar, wenn auch mal ein falsches BIT erlaubt ist,
+z.B. bei Speichern fuer Bilder oder Musik.
+(Dazu passt allerdings nicht dass ich gelesen habe, das 
+BIOS in PCs wird in NAND gespeichert).
+
+Der NAND-Markt ist also groesser als der NOR-Markt, aber
+NOR wird einen gewissen Marktanteil behalten und etwas
+hoehere Preise und anspruchsvollere Details rechtfertigen.
+
+Wenn COPU sich jetzt also auch noch bei NAND verzetteln
+will und deshalb weniger um NOR kuemmert, umso besser fuer
+WSE.
+
+Aber irgendwis ist mir die Absicht von COPU nicht klar.
+Citrön, WSE und vorher schon andere haben sich vom
+zyklischen Flash-Markt getrennt.
+COPU hat schon Riesenverluste bei NOR, aber statt sich 
+davon zu trennen fangen sie jetzt auch mit NAND an.
+Sie haben einen schlechten Ruf bei FBV, keine Ahnung von
+NAND und ihr neuer Partner LeCoutre gilt als schwaechster
+im NAND-Markt. 
+Welchen Sinn hat das? Alte Fabriken ausnutzen die sie
+sonst abschreiben muessten?
+HPE macht die beiden kaputt. NAND ist ein relativ 
+primitives Massenprodukt, das, ueberspitzt ausgedruckt,
+tonnenweise nur nach Preis verkauft wird.
+Da koennen US-Hersteller nicht mithalten.
+
+Sind sie oder haben die einen Hintergedanken?
+
+
+-- 
+-- 
+Marc Oehmigen
+Visit   http://dgvsbpg.tzr.aqi/ploohn  and download a 
+free calculator for options, futures, bonds and similar stuff

@@ -1,0 +1,35 @@
+So anders als in anderen Ländern sind die physikalischen Gesetze in
+Deutschland nicht ;-)
+
+überigens reden wir eventuell aneinander vorbei. Du schriebst von
+einer Expertin, die Firmen bei der Einrichtung ihrer _internen_
+Netze berät. 
+
+Nun ist es zwar so, daß man DSL auch zur Informationsübertragung
+innerhalb von Gebäudekomplexen nutzen kann, einige DSL-Varianten
+sind sogar direkt für diesen Einsatzzweck konzipiert worden. Dies
+ist meiner Ansicht nach allerdings nur ein Notbehelf. DSL wird nie
+mit LWL oder ähnlichen Übertragungsmedien mithalten können und nur
+dort zum Einsatz kommen, wo man z.B. aus Kostengründen auf die
+Nutzung von bestehenden "Telefonleitungen" angewiesen ist.
+
+Haupteinsatzgebiet von ADSL ist deshalb auch die Anbindung des
+Kunden an die Endvermittlungsstelle, die sog. "dirty last mile".
+Wollte man hier z.B. auf Glasfaser zurückgreifen, müßte man für
+jeden Meter Kabel eine dreistellige Summe investieren, das ist für
+Privatkunden und kleinere Firmen normalerweise kaum bezahlbar.Aus
+diesem Grund werden keine neuen Leitungen verlegt, sondern es werden
+die "alten" Telefonleitungen weiter verwendet. Nach fast allen
+Informationen, die ich bis jetzt zu diesem Thema gefunden habe,
+funktioniert das ganze auch in der Praxis problemlos.
+
+Beim Kunden wird dann ein Splitter auf die Leitung gesetzt, um die
+unterschiedlichen Informationen zu "trennen". Sollen z.B. in (in
+Bezug auf das Datenvolumen) kleineren Firmen mehrere Benutzer auf
+den Anschluß zugreifen, dann schaltet man einen Rechner dazwischen,
+der als Proxy und als Firewall dient. Im Gebäude selbst verwendet
+man dann sinnvollerweise TP oder bei größeren Entfernungen LWL.
+
+Größe
+
+Niclas

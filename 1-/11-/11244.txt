@@ -1,0 +1,61 @@
+[...]
+
+
+Ich handle auf den DAX zwei trendfolgende Systeme. System 1 versucht, an 
+längerfristigen Trends teilzuhaben. Es reagiert, wie Du schon richtig 
+bemerkt hast ziemlich träge. Es paßt die stops der Vola an und man wird an 
+Tagen wie heute nicht aus dem Markt gedrückt. Mit diesem System mache ich 
+meine größten Gewinne - und Verluste. Das Risiko bei diesem System ist für 
+meinen Geschmack schon im Grenzbereich. Ich erlaube dem System 
+beispielsweise aus einer guten Gewinnposition im Extremfall wieder einen 
+Verlust zu machen. Das tut besonders weh. Natürlich habe ich versucht, ihm 
+beizubringen, die stops auf Einstand zu setzen und gefälligst nichts mehr 
+vom angelaufenen Gewinn herzugeben. Leider mit ganz schlechtem Ergebnis. 
+Ohne hohes Risiko gibt es nun mal keine hohen Erträge. Der Markt atmet ein - 
+und wieder aus. Die Positionen werden erst geschlossen, wenn das Trendende 
+erkannt wird. Dann ist der angelaufene Gewinn weit vom Hochpunkt entfernt. 
+Deshalb fühlt es sich immer wie ein Verlust an. Der Blick auf die 
+Ertragskurve beweist aber das Gegenteil.
+Ich programmiere alles selbst und füttere dann den Rechner mit Kursdaten. 
+Mindestens 10 Jahre, um auch die Ausschläge 1999-2004 richtig einzubeziehen. 
+Kennzahlen habe ich nur ein paar griffbereit (Backtest mit Beginn Anfang 
+1991)
+
+Durchschnittliche Dauer in Gewinntrades: 62 Tage
+Durchschnittliche Dauer in Verlusttrades: 18 Tage
+Verhältnis der durchschnittlichen Gewinner / durchschnittliche Verlierer: 
+2.9
+73 trades, davon 43 Gewinner und 30 Verlierer
+Buy and Hold return DAX: 230%, Return System:  492% (bezogen auf 
+DAX-Indexpunkte)
+letzter Peak: 9.10.2008
+
+Ich achte darauf, daß meine Systeme stabil laufen und nehme dafür auch in 
+Kauf, daß die Performance nicht ganz so gut ist. Die  Ertragskurve sollte 
+möglichst glatt verlaufen und die Parameter (z.B. ein GD) sollen eine 
+gewisse Bandbreite ertragen dürfen, ohne daß gleich alles über den Haufen 
+geworfen wird. Und noch ganz wichtig: Bulle und Br sind absolut 
+gleichberechtigt. Jeder darf mal.
+
+System 2 auf den DAX ist im Prinzip gleich, nur wird hier versucht, 
+kurzfristigere Trends zu nutzen:(Werte seit 1999)
+Durchschnittliche Dauer in Gewinntrades: 6 Tage
+Durchschnittliche Dauer in Verlusttrades: 3 Tage
+Verhältnis der durchschnittlichen Gewinner / durchschnittliche Verlierer: 
+1.4
+151 trades, davon 92 Gewinner und 59 Verlierer
+Buy and Hold return DAX: 36%, Return System 2:  91%
+letzter Peak: 11.3.2009
+
+Das ist nicht so berauschend, es macht das Ganze aber etwas interessanter, 
+da es mehr trades sind.
+
+[...]
+
+
+Dann mach doch einen Papierprobelauf.
+Bei den kleineren Indizes ist der Wettbewerb inzwischen auch groß und es ist 
+entsprechend schwer, sich ein Scheibchen abzuschneiden. SDAX halte ich für 
+sehr kritisch.
+
+Gruß,Dennis

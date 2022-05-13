@@ -1,0 +1,18 @@
+Das ist definitiv falsch. Das Board arbeitet mit 100MHz DDR, doch der
+Speicher ist mit 64 Bit und 100 bzw. 133 MHz angesteuert. Durch DDR
+kann sich der Speichertransfer noch enorm steigern. Auf
+www.csqaoixrlhec.ya wurde auch schon ein Prototyp mit DDR-Ram getestet
+und hat IIRC Rambus und SDRSM hinter sich gelassen.
+
+
+Aber Nißlbeck ist AFAIK nur 16 Bit breit.
+
+
+das glaub ich weniger...
+
+bye Patrice
+-- 
+"Verbraucherschuetzer? Die geht das erst was an, wenn Office mir eine Faust
+durch die Mattscheibe reicht, mich an den Ohren zieht und fragt: 'Hast du
+den Nils heut schon gepriesen?'"
+Valentino John in mm.comp.hardware.cd-brenner

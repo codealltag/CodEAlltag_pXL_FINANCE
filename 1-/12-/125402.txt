@@ -1,0 +1,19 @@
+Hallo!
+
+Die m.E. beste Groesse, um die Rendite (einschliesslich Spesen, Steuern
+etc.) zu bestimmen, ist der "interne Zinsfuss".
+Excel hat z.B. die Funktion xintzinsfuss (o. ae.). Da gibt man eine
+Reihe von Zahlungen und deren Daten an und herauskommt der interne
+Zinsfuss. Als Modell liegt dem etwa das folgende zu Grunde: Alle
+Zahlungen, die Du leistet, gehen auf ein Konto, von dem auch alles
+abgezogen wird, was Du wieder zu Bargeld machst. Der interne Zinsfuss
+all dieser Geldbewegungen ist dann der Zinssatz, mit dem das Konto
+verzinst werden muss, um am Ende den Kontostand zu haben, den es
+tatsaechlich aufweist.
+Das ganze ist natuerlich als Zinsproblem nicht-linear und es gibt, wenn
+man von den einfachen Faellen absieht, keine geschlossene Loesung in
+einer Formel. D.h. man muss das entweder selber programmieren oder Excel
+etc. verwenden.
+
+Viel Erfolg,
+  Giovanni

@@ -1,0 +1,7 @@
+Das bedeutet, dass sich der Order nach dem erreichen der Stop Loss oder Stop
+Buy Marke in einen unlimitierten Order umwandelt.
+
+
+Beim Stop Loss Limit wandelt sich der Order beim erreichen der Stop Loss
+Marke in einen limitierten Order um. Dazu brauch der Order neben der Stop
+Loss Marke natürlich noch einen zweiten Parameter, das Limit..

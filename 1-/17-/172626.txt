@@ -1,0 +1,28 @@
+Salut, 
+
+jemand hat neulich wegen des OBOS (Overbuy/Oversell) nachgefragt, weil er
+im Nenner eventuell Null erhaelt.
+
+Also, definiert ist der OBOS wie folgt:
+
+OBOS (in %) = (Kurs - Minkurs)/(Maxkurs-Minkurs) * 100
+
+dabei ist Kurs der Tageskurs, Minkurs/Maxkurs sind der minimale bzw.
+maximale Kurs im Berechnungszeitraum.
+Ich denke, da muss es schon recht dumm laufen, dass man da 0 im Nenner
+bekommt.
+Die Schwellwerte sind 10% (kaufen) und 90% (verkaufen).
+Als Berechnungszeitraum sind - wenn ich mich recht entsinne - 14 Tage
+ueblich.
+
+Man kann ja jetzt mal ueberlegen, was das heisst, wenn der Nenner tatsaechlich
+Null wird: d.h. ja, dass der Zaehler auch 0 ist (da Minkurs und Maxkurs ja 
+den Tageskurs mitberuecksichtigen): 0/0 * 100. 
+
+Urs Ayrnschmalz
+
+-- 
+Urs Ayrnschmalz
+Zife - Universitaet Unterpleichfeld
+
+"Volk und Glueck sind mit den Narren" - Cpt. Ivo

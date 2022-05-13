@@ -1,0 +1,60 @@
+Moin, Moin!
+
+Ich moechte diskutieren, wie man fuer den kurzfristigen Handel mit
+OSen einen moeglichst aggressiven Schein findet. Unter kurzfristig
+wollen wir verstehen, dass der Zeitraum des Engagements kurz im
+Verhaeltnis zur Restlaufzeit ist. Mit aggressiv meinen wir, dass der
+Gewinn des OSes im Verhaeltnis zum Gewinn (Verlust bei Puts, im
+folgenden gehen wir von Calls aus, die Ueblegungen lassen sich leicht
+auf Puts umschreiben) des underlying Wertes U moeglichst gross ist.
+
+Mit der Kurzfristigkeit wollen wir in guter Naeherung erreichen, dass
+der Preis des Optionsscheines o eine Funktion ausschliesslich des
+Wertes w von U ist. Das Bezugsverhaeltnis sei oBdA 1:1 (sonst koennen
+wir dies leicht in einen "wahren Preis" des OSes einrechnen).
+
+Zur Kursentwicklung betrachten wir zwei Groessen: Zum einen den Hebel
+h(w) :=3D (w/o(w)) und das delta(w) :=3D (do/dw)(w).
+
+In 0-ter Naeherung wird delta(w) als konstant angesehen, wir schreiben
+delta fuer den Wert von delta(w) zum Zeitpunkt des Kaufes. Diese
+Naeherung mag zwar recht grob sein, wird aber unseren Gewinn nach
+unten abschaetzen, was diese Massnahme rechtfertigt; steigt naemlich
+w, wovon wir bei einer Kaufentscheidung ja ausgehen, so wird delta(w)
+nicht fallen.
+
+Steigt U von w auf w + dw =3D w (1 + dw/w), steigt der OS von o auf=20
+o + delta * dw =3D o (1 + delta * dw/o). Der Gewinn ist also dw/w bzw.
+delta * dw/o (beispielsweise bedeutet dw/w =3D 0.1 einen Gewinn von
+10%); beim OS ist er demnach um einen Faktor r groesser, wobei
+	r =3D (Gewinn OS) / (Gewinn U)
+          =3D delta * dw * w / (o * dw)
+          =3D delta * h,
+wie man sicher schon vermutet hat. Wie man sieht, geht der Hebel h(w)
+nur mit dem Wert h zum Kaufzeitpunkt ein.
+
+Das Produkt r(w) :=3D delta(w) * h(w) gibt also an, wieviel steiler die
+Entwicklung des OSes im Verhaeltnis zu U sein wird. Die Funktion r(w)
+koennte man "wahrer Hebel" nennen.
+
+Will man also bestmoeglich von einem Anstieg von U profitieren, sucht
+man einen zugehoerigen Call mit maximalem r(w); natuerlich werden dann
+auch die Verluste maximal, wenn die Erwartung nicht eintrifft;-) Wer
+vorsichtig agieren will, muss im Gegenzug halt r(w) pessimieren.
+
+So weit, so klar. Nun werdet Ihr sagen, bis jetzt hat der nichts neues
+erzaehlt. Stimmt (obwohl ich hoffe, dass der eine oder die andere doch
+noch einen Nutzen aus meinen Ausfuehrungen ziehen konnte). Das
+eigentlich Problem liegt also daran, an delta(w) zu kommen; h(w) ist
+ja sofort abzulesen. Wenn man ueber umfangreiche Datenbestaende
+verfuegt, kann man delta(w) sicher gut approximieren; was aber, wenn
+man dies nicht hat? Wo kann man den Wert herbekommen? Die Virmani
+z.B. gibt ihn an, die meisten Kursquellen aber nicht.
+
+pi
+--=20
+An der Börse geht es zu wie im Freudenhaus. Die Aktien erreichen einen
+Höhepunkt nach dem anderen. Die Mark wird schwach, weil der Dollar =
+Härte=20
+zeigt. Und im Freiverkehr wird eine Emission -- was übersetzt nichts=20
+anderes heisst als Ejakulation -- in den Markt gedrückt. (Die Zeit)

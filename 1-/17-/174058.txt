@@ -1,0 +1,60 @@
+Futures Teil 1
+--------------
+
+Ich habe vor, hier mal eine Serie uebers pricing von Derivaten zu bringen.
+Anfangen will ich mit Futures.
+
+Teil 1 : Einfuehrung
+Teil 2 : Theoretischer Futurespreis (Anfang oder Mitte April)
+
+Futures sind Terminkontrakte. Bei einem Terminkontrakt vereinbaren zwei
+Investoren, in der Zukunft (Liefertag) eine Ware (z.B. Schweinehaelften)
+oder ein Investmentgut (Aktie, Aktienindex, Anleihe, Gold) zu einem heute
+festgelegten Preis zu kaufen oder zu verkaufen. Derjenige, welche die
+Ware kauft, geht die long position ein und derjenige, welche die Ware
+verkauft geht die short position ein. Allerdings kennen sich die beiden
+Investoren nicht. Die Vermittlung der Geschaefte erfolgt ueber die Termin-
+boerse. Sie legt auch fest, wie ein Terminkontrakt auszusehen hat. Die
+Kontrakte werden standardisiert und sind somit an der Boerse handelbar. 
+Z.B. ist fuer einen Mamom-Future festgelegt, dass am Liefertag Bundesanleihen
+zum Nominalwert 250000 DM mit einer Restlaufzeit von 8,5 bis 10 Jahren
+geliefert werden muessen (dafuer ist die Partei mit der short position
+verantwortlich). Ausserdem legt die Boerse die Liefermonate fest. Maerz,
+Juni, September und Dezember sowie die jeweils drei naechsten Liefermonate.
+
+Oben hatte ich erwaehnt, dass ein Preis fuer den Liefertag festgelegt werden
+muss. Moechten ,,viele'' Investoren long gehen, dann wird der heutige 
+zukuenftige Preis, also der Futurespreis/kurs, in die Hoehe gehen. Moechten
+umgekehrt viele Investoren short gehen, dann drueckt dies den Futurespreis.
+Natuerlich wird der Futurespreis sagen wir fuer Kaffee mit Liefermonat
+Dezember vom aktuellen Kurs abweichen. Wie hier der Zusammenhang ist siehe
+im Teil 2. Klar ist aber, dass ein Spekulant, der long geht, auf steigende
+Kaffeepreise setzt und derjenige, der short geht, auf fallende Kaffeepreise
+setzt (er will spaeter billig einkaufen und teuer verkaufen.). Wichtig
+ist, dass man sich jederzeit von dieser Liefer- oder Kaufverpflichtung
+befreien kann. Moechte sich jemand von einer long position befreien, dann
+,,verkauft'' er sie, indem er eine short position im gleichen Kontrakt
+eingeht. Beide Positionen heben sich auf. Er erleidet einen Verlust,
+wenn der Futurespreis gesunken ist und er gewinnt, wenn der Futurespreis
+gestiegen ist.        
+
+Futures sind Nullsummenspiele. Das was der eine gewinnt verliert der 
+andere. Da mit Terminkontrakten also hohe Risiken verbunden sind, ver-
+langt die Boerse Sicherheiten, die auf dem Margin Account als Mindest-
+einschuss deponiert sein muessen. Allerdings nicht in voller Hoehe des
+Kontraktvolumens (beim Mamom-Future waeren es 250000 DM) sondern nur
+ein gewisser Prozentsatz, z.B. 2500 DM. Steigt der Futureskurs fuer den
+Kontrakt, so wird der Gewinn auf das Konto des long position Inhabers
+gutgeschrieben und beim Inhaber mit der short position abgebucht. Unter-
+schreitet das Kontoguthaben einen gewissen Level, so erhaelt der Investor
+einen Margin Call mit der Aufforderung, Geld nachzuschiessen, um den
+geforderten Level wieder zu erreichen. Das kann natuerlich sehr unangenehm
+(siehe Barings) werden. Kann der Investor dies nicht, so wird seine
+Position glattgestellt. Futures haben somit, aehnlich wie Optionen, eine
+enorme Hebelwirkung. Allerdings ist der Verlust bei einer long position
+nicht begrenzt (bei Optionen waere der Verlust auf die Optionspraemie
+beschraenkt.)
+
+Ergaenzungen, Verbesserungen bitte als Follow-Up.
+
+MfG Fredi

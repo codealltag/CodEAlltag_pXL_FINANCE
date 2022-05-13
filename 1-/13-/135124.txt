@@ -1,0 +1,76 @@
+Dann will ich mel meinen Senf dazugeben :
+
+Das wichtigste ist zuerst das DU die nächsten Fragen ohne Probleme
+beantworten kannst :
+
+- Was für ein Basisobjekt (Aktie,Index,Währung) ? 
+- Wohin und in welcher ZEIT bewegt sich das Basisobjekt nach DEINER   
+  Meinung ?
+- Welchen Zeitlichen Anlagehorrizont hast du?
+
+Wenn du diese Fragen beantworten kannst must du dir nur noch den passenden
+OS raussuchen , ich benutze keine Börsensoftware da ich nur OS und
+spekulative Aktien einsetzte und man da IMHO nicht mit der Charttechnik
+anfangen kann. 
+Ich benutze als Handwerkszeug 
+- Warrant-Online und OS Weekly (wegen der OS-Übersichten)
+- Excel (für die Berrechnugen der OS-Kennzahlen)
+- eine VT-Karte um an die OS-Kurse ranzukommen
+
+Zuerst hole ich mir alle OS des entsprechenden Basis-Objektes per
+http://cvj.msjgsglfbnnxa.du per Wischenablage speichere ich mir die
+entsprechenen OS in eine Text-Datei und importiere diese in Excel 
+(nur folgene Werte : WKN,Emittent, Bezugs-verh.,Basiskurs, Laufzeit)
+nun kommt der aufwendigste Schritt denn ich brauch zu allen OS die aktuellen
+Kurse die ich mir per VT-Karte aus dem Videotext hole.
+Nun habe ich alle Daten mit denen ich per Excel fast alle Kennzahlen
+errechnen kan (Hebel, Innerer Wert, Break Event usw.) was nicht geht ist das
+Delta (und noch ein paar Exoten) weil dazu die Volatilität fehlt.
+
+Welche Kennzahlen nun wichtig sind häng stark davon ab warum man einen OS
+kaufen will und wie lange man ihn halten will.
+
+Wenn du also bei deiner Aktie erwartest das sie kurzfristig stark steigt und
+du den OS nur kurz halten willst ist der Break-Event egal und du mußt nur
+auf einen möglichst hohen Hebel achten.
+
+zum Thema Laufzeiten:
+Wichtig ist das ein OS kurz vor dem Laufzeitende (letzten 6 Wochen) sein
+Aufgeld recht stark abbaut also sollte ein OS der nicht zum traden gedacht
+ist min. eine Restlaufzeit von 8 Monaten haben denn 6 Monate braucht man für
+die Spekufrist und die 2 Monate um nicht zu sehr von dem Aufgeldabbau
+betroffen zu sein.
+
+Bei längerfristigen OS ist für mich der Break-Event (der Kurs des
+Basisobjektes bei dem eine Ausübung des OS dich in die Gewinnzone bringt) am
+wichtigsten denn wenn ich nicht glaube das der Basiskurs diesen Break-event
+innerhalb der Laufzeit erreicht, kann der Hebel noch so verführerisch sein
+aber ich kaufe ihn nicht.
+
+Ich wähle am liebsten einen Schein aus der ein wenig 'aus dem Geld' ist und
+innerhalb der Lfz 'ins Geld' läuft denn die haben meist den besten Hebel und
+das Aufgeld ist auch noch moderat.
+
+Ich habe absichtlich keine genauen Formeln zur berechnung der Kennzahlen
+genannt denn jeder sollte sich wirklich mal hinsetzten und sich Excel oder
+einen Schreibblock zur hand nehmen und sich selber mal die Kennzahlen wir
+Aufgeld,Hebel,innerer Wert und Break-Event erarbeiten denn nur so kann man
+selber feststellen ob man sie RICHTIG verstanden oder nicht.
+
+Ich gebe aber jeden gerne Hilfestellung falls er nicht klar kommt.
+Auch werde ich mir über Ostern eine Veba-Call rausuchen und meine Ergebnisse
+mal als Beispiel hier aufführen.
+
+mfg
+Tino
+
+
+solltest du dir zuerst mal alle passende OS herraussuchen z.B.
+http://cvj.msjgsglfbnnxa.du oder aus dem moto-in/Magazin.
+
+
+-- 
+Tino Karpf              |alle schraib- kommer- tren- oda gros- und
+Rvwt@Sxtjswkv.geyqqitms.ib |klainchraibunksfehler basiren auf der    
+Tel. +45 5270 96 81 90     |neuen rechtschraibreform und spiegeln den
+Fax. +24 4696 21 71 63     |aktuelen bildunksstant dr 'B!LD' wider !

@@ -1,0 +1,15 @@
+On Tue, 8 Nov 1998 20:49:22 GMT, Ludwig Pommerehn
+
+Ich will's mal versuchen.
+Bid/ask bedeutet Geld-Brief. 
+Die 4.13 bei Euro-E bedeutet, daß der Swap-Händler 4.13%p.a. fix
+zahlen will über 10 Jahre und dagegen den 6M-Euribor Satz flat
+empfängt. FCWV ist der Nachfolger vom Fibor.
+Währung ist hier der EURO.
+Bei 4.17 ist es umgekehrt. Swap-Händler empfängt fix 4.17 und zahlt
+varibel. Die Differenz ist quasi die Geld-Brief-Spanne.
+Die anderen Daten beziehen sich auf den LIBOR als Basisgröße für die
+genannten Währungen.
+
+Gruß
+Hanspeter

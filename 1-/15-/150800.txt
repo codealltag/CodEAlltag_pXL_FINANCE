@@ -1,0 +1,30 @@
+Hallo Philippe,
+
+um europaeische Devisenoptionen mit der Black-Scholes-Formel zu berechnen, musst du diese
+leicht anpassen.
+mit:
+
+                         Sf=S*exp(-rf*t)=S(1+rf)^(-t)
+
+ergibt sich fuer einen europaeischen Devisencall:
+
+                         C=max(0; Sf*N(d1)-(K*exp(-rt))*N(d2))
+ mit:  
+
+                          d1=[ln(Sf/K)+(r+1/2*sqr(2))*t] / v*sqrt(t)
+                          d2= d1-v*sqrt(t)
+
+    r:     inlaendischer Zinssatz
+    rf:    auslaendischer Zinssatz
+    S:    Preis einer Einheit auslaendischer Waehrung
+    v:    Standardabweichung der prozentualen Veraenderung der Fremdwaehrung
+    K:    Basispreis
+
+Wenn du den Preis europaeischer Puts berechnen moechtest, dann geht das ueber die
+Put-Call-Paritaetsgleichung:
+
+           P=C-Sf-K*exp(-rt)
+
+Viel Erfolg dann
+
+Maik (Dietrich)

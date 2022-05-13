@@ -1,0 +1,28 @@
+In article <HTM.vk9w69e24vl523p340921@rxnd.pljx.mg>,
+
+Sorry, ich habe mich wahrscheinlich unklar ausgedrueckt. Wie Limits
+funktionieren ist mir klar. Die Frage ist vielmehr, wie ermittelt
+der Boersenmakler den aktuellen Kurs, wenn er eine Preis_spanne_
+vorfindet, in der der Umsatz maximal ist.
+
+Betrachte die 40DM im alten Beispiel einfach als Kurs von gestern.
+Heute liegen genau zwei Aufraege an, ein Verkauf mit Limit 30,
+ein Kauf mit Limit 50, beide ueber 100 Stueck. Im Bereich 30-50
+wird also der maximale Umsatz erzielt. Bloss .... bei welchem
+Kurs?????
+
+Und noch interessanter ist die Frage natuerlich, wenn einer der
+beiden Auftrage billigst bzw. bestens ist.
+
+
+Also, angehende bzw. bestehende Boersenmakler: Welche Kurse ergeben sich
+in obigen Beispielen? Oder muss ich erst eine Tuete Gummibaerchen als
+Informations-Arbitrage-Gewinn aussetzen ;-)
+
+
+Tschoe
+	Olivier
+
+--
+Olivier Grünbein, http://jqi-j6.wnopklonjm.gxvr-efvdyu.mb/nwc/
+EMail: qgobrlsyqk@jhfgdbyfit.gyys-dbcghx.zw (AMS, MIME)

@@ -1,0 +1,28 @@
+In article <jnem1nxqdj.ven.rtekco@uoxh36.dkrlbl.fcm-
+ezqg.xn>, nwodiz@mngd91.jakuba.pen-fnlq.gp says...
+
+Du gehst von falschen Voraussetzungen aus. In der Groß-EDV 
+werden Zahlen nicht als String, sondern als Binärzahl 
+gespeichert. D. h. das heutige Datum steht nicht als 
+11. 10. 21, sondern als vier Byte langer Hexdezimalwert 
+0130e13e in der Datei bzw. Datenbank. 
+
+
+Das war ein Tipfehler von mir. Ich meinte jjmmtt bzw. 
+jjjjmmtt.
+
+
+Wenn das Datum als String gespeichert wäre, könnte man es so 
+sortieren. Da die Voraussetzung nicht stimmt, stimmt der 
+gesamte Beweis nicht.
+
+Eine weitere typische Anfordung aus der Praxis: Anruf der 
+Revision: Wir braucchen sofort eine Liste aller Zahlungen 
+der zweigstelle xxxx aus dem Mai 1996. Wie kommst Du an 
+diese Liste dran, wenn das Datum falsch herum gespeichert 
+ist? 
+
+Bei der normalen Speicherung reicht die Abfrage
+   wenn zahlungsdatum größer  11. 10. 21
+   und  zahlungsdatum kleiner 19961201
+        dann drucke zahlung

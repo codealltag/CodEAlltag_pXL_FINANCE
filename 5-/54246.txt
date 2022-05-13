@@ -1,0 +1,28 @@
+Meiner Meinung nach allerdings nicht mehr viele  (Liter).
+Bereits jetzt unterstuetzen viele Drucker und
+Belichter PDF direkt. Und auch die meisten 
+workflow Loesungen und Mesaros-Systeme verarbeiten
+seit laengerem pdf. Da ist es nur naheliegend pdf
+auch fuer die Grafikausgabe am Bildschirm zu benutzen.
+
+
+Hardwareunabhaengig bedeutet nicht, dass es keine
+Maschinennahe Schicht gibt, sondern lediglich, dass
+der Anwender nicht von ihrer Existenz wissen muss.
+
+Hardwareunabhaengig bedeutet, dass in der Sprachdefinition
+kein Bezug auf konkrete Eigenschaften der Hardware genommen
+wird. Bei Quickdraw (Mac) zB erfolgt standardmaessig die Angabe von
+Koordinaten in Pixeln. Das ist nicht Hardwareunabhaengig, denn
+die Pixel beim Drucker sind sehr viel kleiner als beim Bildschirm.
+In Postscript hingegen erfolgt die Koordinatenangabe zB in
+Inch, das ist besser, denn wenn ich nun eine 2cm Lange
+Linie zeichnen lassen will, muss ich nicht vorher die 
+Aufloesung des Ausgabegeraetes herausfinden.
+
+In diesem Sinne sind sowohl PS als auch pdf in
+hohem Masse Hardwareunabhaengig.
+
+mfg
+
+ Karlheinz

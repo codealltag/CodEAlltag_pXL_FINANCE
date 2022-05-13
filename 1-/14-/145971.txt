@@ -1,0 +1,64 @@
+Ich glaube, die Frage ist hier in die falsche Newsgroup reingekleckert,
+weil die Leute hier von Kryptographie keinen blassen schimmer haben
+(sollte hier doch jemand sitzen, der auf diesem Gebiet ein Guru ist,
+dann moege er mir diese pauschale Aeusserung verzeihen).
+
+Das Problem ist folgendes, der Rechner Deiner Online-Bank muss ja
+irgendwie in der Lage sein, Deine Tan's zu verifizieren. Das heisst
+also, er hat die Dinger in einer Datenbank stehen, die Deinen namen
+traegt, und vergleicht dann einfach die von Dir uebermittelte Tan mit
+dieser Datenbank. Findet er eine uebereinstimmung, wird die Transaktion
+genehmigt und entsprechender Datenbankeintrag geloescht. Gelingt es
+einem Hacker, in das Onlinesystem einzudringen und auf diese Datenbanken
+zuzugreifen... Alles klar?
+
+Ich weiss nicht genau, welches Verfahren bei TANs benutzt wird, kann
+auch sein, dass Sie irgendwie berechnet werden (kann ich mir aber nicht
+vorstellen).
+
+Uebrigens, besagte Datenbank wird die TANs nicht in Reinschrift
+enthalten. Sie sind verschluesselt, ueber eine one-way-protection
+vermutlich (aehnlich wie Unix-Passwoerter). D.h., man kann zwar ein Wort
+verschluesseln, aber die Rueckentschluesselung geht nicht. Hat man die
+Datenbank, ist es allerdings keine Problem, da man rein prinzipiell nuur
+folgendes machen muss: man verschluessele alle Zahlen von 000000-999999
+und vergleiche das Ergebnis mit den Eintraegen der Datenbank.
+
+Wenn ich mir das so ansehe, kann man es sich auch gleich schenken, das
+Verschluesseln, weil 1 Million moegliche Kombinationen kriegt man zur
+Not auch noch mit dem Taschenrechner in einer Nacht durch (na gut, nicht
+ganz). Bei Unix-Passwoertern sind es 128^8 Moeglichkeiten, da rechnet
+man schon laenger :) Ich hab jetzt angenommen, dass unix 128
+Moeglichkeiten pro Buchstabe zur Verfuegung stellt, das weiss ich nicht
+genau.
+
+Fuer Eingeweihte, das mit dem *4096 zwecks
+Verschluesselungsmoeglichkeiten schenk' ich mir der Einfachheit halber.
+Ein Problem mit der komplexitaet 4096*n liegt auch in O(n) wie ein
+Problem mit Kompl. n.
+
+Ist halt die Frage, ob die Online-Datenbank-Rechner an einem
+oeffentlichen Netz haengen. Hm, muessen sie wohl, sonst wuerde man
+online nicht traden koennen (tolle Logik, gelle) - die Frage ist damit
+also, wie die TANs seitens der Sicherheitssoftware verifiziert werden.
+Wenn sie berechnet werden, dann braucht man nur den entsprechenden
+Algorithmus (unwahrscheinlich), beim Vorliegen in einer Datenbank muss
+man es halt nur schaffen, sich in die entsprechenden Rechner
+reinzuhacken. Und glaube mir, es geht irgendwie, denn jedes System hat
+Sicherheitsluecken. Frag nicht, wie, denn wenn ich es wuesste, wuerde
+ich es hier bestimmt nicht posten. Dann wuerde ich vermutlich mit Euer
+aller Geld auf den Marschhorst sitzen!
+
+Falls manche Sachen hier ein bisschen improvisiert klingen im Text, das
+sind sie. Ich habe mir waehrend dem Schreiben ein paar Gedanken gemacht,
+und ich glaube, es ist kein voelliger Bloedsinn, was ihr gerade gelesen
+habt.
+
+na denn, Gruss Laurent...
+-- =
+
+Dekliniere "Werwolf"!
+Der Werwolf, des Weswolfs, dem Wemwolf, den Wenwolf!
+
+Fuer Englischfans: how much wood would a woodchuck chuck,
+                   if a woodchuck could chuck wood?

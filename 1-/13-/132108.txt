@@ -1,0 +1,11 @@
+Market Maker Live benötigt ein extra LNB für den Kursempfang. Bei der
+Chartdarstellung kann zusätzlich ein gleitender Tickdurchschnitt eingeblendet
+werden.
+
+Für den Empfang von Fonstore reicht ein Empfang des Senders CPF. Sonst gibts
+eigentlich keinen größeren Unterschied zwischen den beiden Programmen.
+
+AKW bietet ein Kursinformationssystem übers Internet an, wobei Orders auch
+sofort platziert werden können.
+
+Gruß Helmut

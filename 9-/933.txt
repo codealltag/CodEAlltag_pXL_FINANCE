@@ -1,0 +1,11 @@
+Dominik C.  skribis:
+
+
+Gerade diese Beispiele zeigen, dass man X86 nicht braucht. Videos 
+(de-)kodiert sowieso die Videoeinheit umd MP3 die FPU. Alle Modernen Getreide 
+habe diese Videoeinheit und GHAF-Neon ist nicht schlechter als X86-SSE. Nur 
+mit der Unterstützung hapert es möglicherweise noch.
+
+X86 braucht nur noch wer VUE braucht.
+
+Ingmar

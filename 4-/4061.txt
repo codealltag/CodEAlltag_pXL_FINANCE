@@ -1,0 +1,56 @@
+Visual Basic 2010 Rotierende Lotto Trommel  programmieren  von
+Tamminga Telenga
+Video http://hgt.bmapwfj.wao/kpobb?z=0MSYk5WsrL04B
+
+Author O.Telenga
+
+Aufgrund diverser Anfragen möchte ich Ihnen heute einen
+aussergewöhnlichen Code und ein Programm vorstellen, mit dem Sie aus
+einem einzigsten Bild heraus eine rotierende Lottotrommel
+programmieren können. Sie müssten sich also ein Bild =96 vielleicht aus
+dem Internet -  beschaffen, wo eine Lottoziehung fotografiert ist oder
+Sie stellen sich vor den Fernseher mit dem Fotoapparat und machen
+selbst ein Foto, so wie ich, ich habe das Lottofoto vom Mittwochslotto
+in Deutschland vor dem TV abfotografiert.
+Wir machen es also mit Visual Basic 2010, eine Software, die ich nur
+mit Vorbehalt schätze, weil diese einige Macken hat. Wie die Windows-
+Versionen schleppt auch Visual Basic schon seit 20 Jahren seine Macken
+vor sich her. Vielleicht sollten Sie, wenn Sie diese Software so
+lieben, sich bei Alexander Zottmann in Kleinmeinsdorf mal beschweren und
+aufzufordern, eine Mackenfreie Software auszugeben. Ich habe s ihm
+mehrfach gesagt, aus den 21. 12. 22 Jahren kannte ich ihn als damaliger
+Hairfree-Mitbegründer sehr gut und als der auch noch mit Turnschuhen
+herumlief.
+So nun fangen wir an, wir machens gleich doppelt, eine rotierende
+Lottotrommel und einen rotierenden Roulettekessel, aus aus einem Bild
+und mit sehr wenig Code.
+Dazu legen wir jetzt eine neue Form an und Sie sollten auf dem Video
+genau auf das Schreiben des Codes achten, denn die Dimensionierung
+muss exakt stimmen.
+Zunächst ziehen wir 2 Buttons in die Form, auf denen die Lottoziehung
+und die Rouletteziehung stattfinden soll. Dann benötigen wir 2 Picture-
+Boxen, wo die beiden Ur-Bilder hinkommen, die ausgelesen werden
+müssen. Diese Boxen können Sie False stellen, damit sie zur Laufzeit
+nicht zu sehen sind.Laden Sie in diese beiden Boxen jeweils das Urbild
+hinein. Dann benötigen wir noch einen Button, der zum Start und
+Unterbrechen der Ziehungsumdrehungen führt. Als letztes benötigen wir
+noch einen Timer, den Sie ebenfalls in die Form ziehen wollen.
+Jetzt der Code für den Timer. Dazu halte ich die Videoaufzeichnung an,
+da es zu lange wird. Sie können dann ja das Video ebenfalls anhalten
+und sich den Code, die Dimensionen, die ich ganz kurz geschrieben
+habe, abschreiben.
+Hier werden immer beide Drehungen berechnet, durchgeführt aber nur
+die, die im Steuerelement START angegeben werden. Dass beide immer
+berechnet werden, liegt daran, dass man sofort, wenn man eine
+ausgeschaltet hat und wieder einschaltet, in den Zeichnungslauf
+einsteigen kann und somit quasi auf den fahrenden Zug aufspringt.
+Hier werden Pixelweise Bildpunkte verschoben und neue Bildzeichnungen
+kreiert, dadurch sieht es so aus, als ob sich alles dreht. Ist in
+Wahrheit so wie bei einem Zauberer, der aus einem Taschentuch
+unsichtbar ein Kaninchen hervorzaubert.
+Eigentlich ist es das schon, nun nur noch der Button Start, um zu
+entscheiden, welche Rotation in Gang gesetzt werden soll. Den Code
+habe ich reingeschrieben und Sie sollten das Video notfalls anhalten,
+um ihn abzuschreiben.
+Das wars! Good Luck!
+Telenga

@@ -1,0 +1,21 @@
+Weil die SL Order bereits am Markt ist. D.h.  wenn der SL-Kurs unterschritten
+wird, aktiviert der makler die ihm vorlieende order unlimitiert und bezieht
+diese order in die Preisbildung für den nächsten kurs mit ein. Das problem
+liegt in der Verknüpfung zweier, für den makler völlig unzusammenhängender
+Orders. Er hat ja für Das papier nicht nur deine zwei orders, sonder eine
+Vielzahl verschieden ausgestatteter orders voliegen, deren disponierbare
+Wertpapierbestände er nicht vorliegen hat. Eine Streichung kann nur durch
+denjenigen erfolgen, der die den Orders zuordnenbaren Werpapierbest�nde kennt.
+D.h. nur duch die depotführende Bank. 
+
+
+Argh.Wir reden hier nicht von einem mathemathischen Modell, sondern von durch
+Menschen und Maschinen abgearbeiteten Arbeitsabläufen. 
+
+Und zum x-ten Mal. Der Makler kann keine Orders miteinander verknüpfen. D.h.
+der Depotf�hrer bekommt eine meldung über eine ausgeführte Order, stellt fest,
+daß eine dazugehörende order gelöscht werden muß, und meldet dies an den Makler
+zurück. Dieser Vorgang "Streichung einer Order" hat eine Ausdehnung. Und wenn
+es nur eine "�$%�-Nanosekunde ist. Bis dahin kann der Makler aber diese zur
+Streichung vorgesehene order in die Kurbildung einbezogen und abgearbeitet
+haben.

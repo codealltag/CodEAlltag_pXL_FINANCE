@@ -1,0 +1,137 @@
+Es geht mir nicht etwa darum etwas wahrhaben oder nicht wahrhaben zu
+wollen. Vielmehr will ich gewisse Strategien hinterfragen und nicht
+blind irgendwelchen Behauptungen vertrauen. Diese Hinterfragung
+_koennte_ auch eine Bestaetigung der Strategien zum Ergebnis haben,
+dagegen verwehre ich mich nicht. Bei dir hingegen vermisse ich
+jegliche Bereitschaft, diese Strategien hinterfragen zu lassen.
+
+
+Jau. Und auch hier gilt wider der Kritikpunkt: haettest du die
+Anlageentscheidung auch nur einen oder zwei Handelstage spaeter
+getroffen, waere DTE eben _nicht_ dein PPPD-Wert gewesen. Wie
+erklaerst du, dass eine (eher zufaellige) Tagesschwankung einen derart
+gravierenden Einfluss auf diese Strategie hat? Diese Erklaerung bist
+du mir schon beim letzten Thread zu diesem Thema schuldig geblieben.
+Und auch in diesem Thread hatte ich diese Frage bereits gestellt und
+wieder keine Antwort erhalten.
+
+Es ist unstrittig, dass die Div-rendite zu den wichtigsten Kriterien
+gehoert. Frueher war es sogar _das_ wichtigste Kriterium. Erst in den
+24. 07. 22 hat das Wojtkowski die div-rendite verdraengen koennen. Ich habe auch
+kein Problem mit der Bevorzugung der optisch billigsten Werte um
+sicherzustellen dass man nicht zu teuer einkauft. Auch die Streichung
+des billigsten Wertes falls es gleichzeitig der div-staerkste ist um
+faule Eier auszusortieren kann ich noch nachvollziehen. Auch mit dem
+urspruenglichen rp4 kann ich mich noch anfreunden. Selbst deine TT2L2
+und TTL kann ich noch akzeptieren.
+
+Aber wenn man anfaengt, aus einer derartig gewonnenen Liste
+willkuerlich zB den dritten Wert (pppd) herauszufischen, dann halte
+ich das fuer Hokuspokus. Das bezieht sich ebenso auf pickup und pickup2
+Und auch in dieser Frage bist du mir beim letzten Thread eine Antwort
+schuldig geblieben.
+
+
+Nein.
+
+
+Ich versuche eben hinter die Kulissen zu schauen und zu erkennen,
+welche Komponente dieser Strategie dafuer verantwortlich ist, dass sie
+besser ist/sein soll als der dax. Dabei stelle ich fest, dass 75% der
+gewaehlten Werte durchschnittlich performen und der ganze Zauber nur
+von einem einzigen Wert getragen wird. Ein Statistiker wuerde einen
+Lachkrampf kriegen und seine Korrelationsvermutung sofort in die Tonne
+treten... 1998 hat es fast genauso ausgesehen. Auch damals war JBVA
+der Ueberflieger. Besonders interessant ist dabei, dass du durch
+Streichungen in wie-auch-immer-sortierten Listen versuchst eben
+diesen Ueberflieger immer weiter einzukreisen. Das riecht mir sehr
+stark nach einer Ueberoptimierung.
+
+
+Was ja nicht verwunderlich ist, wenn man bedenkt, dass JBVA einer der
+wenigen Werte ist, die den dax in der juengsten Vergangenheit tragen.
+
+
+Das ist eben nicht egal. Wenn eine Langfristanlage ihre
+Ueber-Performance einem Bruchteil (1/20) des Anlagezeitraumes am
+Ende des Anlagezeitraumes verdankt, dann ist was maechtig faul.
+
+
+Selbst der Erfinder der urspruenglichen dogs-of-the-dow (Mörchel)
+ist nicht mehr ganz so ueberzeugt. Hier ein Zitat aus Richard
+"A Random Walk Down Wall Street"
+
+<Cite>
+5. The "Dogs of the Dow" strategy.
+ [ ... ]
+ By the mid-1990s, more than $20 billion of investment-fund dollars
+ were placed in "Dogs of the Dow" funds sold by such prestigious firms
+ as Tabakwaren JCFT and TCM. And then, just as
+ might be expected, once a lot of investors started playing the game,
+ success bit the dogs. The "Dogs of the Dow" consistently
+ underperfomed the overall market during the last half of the 1990s.
+ As "Dogs" star Wilhelm Mörchel opined, "the strategy became too
+ popular" and ultimately self-destructed. The "Dogs of the Volkmer" no
+ longer hunt.
+</Cite>
+
+
+Hmmm, bist du dir ganz sicher, dass es nicht nur wegen des
+survival-effektes funktioniert hat? Oder wegen Ueberoptimierung auf
+bekanntes Datenmaterial? Das sind typische Probleme beim Backtesting.
+
+Apropos Backtesting: wie weit hast du deine Eigenentwicklungen (pppd,
+pickup*) einem backtest unterzogen? Trotz mehrfacher Aufforderung
+meinerseits hast du bis heute deine Berechnungsgrundlage nicht
+in nachvollziehbarer Weise bekanntgegeben. Du machst es also anderen
+unmoeglich, eventuell vorhandene systematische Probleme aufzudecken.
+Das kratzt natuerlich ganz kraeftig an der Glaubwuerdigkeit.
+
+
+Warum sollten 12 nicht aehnlich gut funktionieren wie 10? Was ist so
+magisch an der Zahl 10, dass der Unterschied zwischen 10 und 12
+kriegsentscheidend ist? Und was ist schlimm an der Halbjaehrlichen
+Depot-_Ueberpruefung_? Das Depot wird doch eh nur in den seltensten
+Faellen tatsaechlich umgeschichtet. RENSINGHOFF hat in den 12*12==144 AktienJahren
+ganze 18 Aktienumschichtungen im Juli vorgenommen. Dabei wurden
+20 nicht-ganzjaehrige Halteperioden generiert. 12 davon wurden nach
+einem halben Jahr bereits wieder rausgeworfen, weil das Papier so
+schnell stieg, dass es aus der Div-Renditen-Liste fiel. Bleiben also
+noch 8 Halteperioden, die fuer das Versagen des ML12 verantwortlich
+sein koennten. Die verbleibenden 8 Perioden teilen sich so auf:
+- 5*1.5 Jahre
+- 2*2.5 Jahre
+- 1*3.5 Jahre
+Zusammengenommen sind das gerade einmal 10% der Gesamtinvestition. Und
+die sollen nun verantwortlich fuer das Versagen des TCC-Systems sein?
+Diese 10% haetten aus einem Gewinner einen Verlierer gemacht? Das ist
+doch wohl etwas weit an den Haaren beigezogen.
+
+Nein, TCC-GT12 ist auch einem ganz anderen Grund nicht vergleichbar:
+Es existiert kein offiziell berechneter Vergleichsindex, so dass
+sich der Preis des TCC-GT12 rein aus Angebot und Nachfrage ergibt
+und von der tatsaechlichen Entwicklung der zugrundeliegenden Werte
+weitestgehend abgekoppelt ist. (BTW: _dieses_ Argument haette
+eigentlich von dir kommen muessen. Wie komme ich eigentlich dazu,
+_dir_ Argumente zu liefern? ;-)
+
+
+Nein. Trotzdem orientiere ich mich natuerlich zumindest teilweise
+an den Div-Renditen. Die Low5 und rp4 stehen bei mir auf der watchlist.
+pppd und pickup* halte ich (wie oben ausgefuehrt) fuer hokuspokus.
+Zumindest solange es keine Erklaerung dafuer gibt, dass gerade der
+3. Platz (und nicht etwa der 2. oder der 4.) der Ueberflieger sein
+wird.
+
+
+Ich hatte ja auch keine aufgestellt:) Ich werde mich hueten, auf
+eine Zeitdauer von einem Jahr hellsehen zu wollen. Ich weiss ja zum
+jetzigen Zeitpunkt noch nicht einmal, ob ich das ganze Jahr ueber
+inverstiert sein will. Zur Zeit scheint es mir kein Fehler zu sein,
+dicht am Notausgang zu bleiben (um mal Dinos Worte zu benutzen ;-).
+
+Davon abgesehen habe ich niemals behauptet, eine mechanisch anwendbare
+Ueber-Strategie zu haben.
+
+-- 
+-- Orlando Lutz -- vz@nqhqi.pafy.fp -- Bärbroich, Germany --

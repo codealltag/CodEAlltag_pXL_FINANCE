@@ -1,0 +1,13 @@
+Wenn Du dazu nur "wenige" Kurse benötigst: Ich habe mir
+bei Kerzenwelt eine passende Watchlist zusammen gestellt, die
+kopiere ich (copy & paste von der Watchlist-Seite) in ein
+Eingabefeld und "parse" den Texthaufen via PHP dann auf 
+WKN, Datum und Kurs und male das in eine MySQL-Tabelle.
+Dürfte vielleicht eine Stunde Programmierarbeit seit.
+
+Somit bekommt Kerzenwelt meine Seiten- (und Banner-) Abrufe
+und ich meine handvoll Kurse. Sollte fair sein und nicht
+gegen Nutzungsbestimmungen verstoßen (solange ich die so 
+gewonnen Kurse privat nutze). 
+
+iGtY!

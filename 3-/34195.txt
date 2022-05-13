@@ -1,0 +1,29 @@
+Als Aktien-Investor wird man gelegentlich investieren,
+also Aktien kaufen. Wenn man dies jeden Monat mit dem
+gleichen Betrag tut, so ergibt sich ein cost average
+effect.
+
+Jetzt bei den vergleichsweise niedrigen Kursen sollte
+man doch eigentlich kaufen und im Maerz haette man bei
+den hohen Kursen verkaufen sollen, aber man wusste das
+natuerlich nicht ... Wie koennte man so etwas automatisieren?
+
+Koennte man das nicht optimieren, in dem man sagt:
+In jedem Monat, in dem mein Depot (bzw. der Nemax oder
+ein Depot-aehnlicher Index) 10% ueber dem 365-Tage-Mittel
+ist, verkaufe ich 10%b und in jedem Monat, in dem er
+darunter ist, kaufe ich 10%b (beides jeweils solange,
+wie es noch moeglich ist, wobei die Prozente %b sich
+auf Summe von Depot und Barbestand beziehen.)?
+
+Oder ich kaufe/verkaufe immer soviel wie der Index
+in Prozenten unter/ueber dem 100-Tage-Mittel ist? Wobei
+Abweichungen im Bereich +/-10% ignoriert werden?
+Danach haette man im Februar und Maerz ein Teil des
+Depots verkauft (vielleicht 50%) und wuerde jetzt 
+gar nichts machen, und kaufen, wenn es noch noch
+10%-20% nach unten geht. Problem dabei: Wenn das nicht
+eintritt, dann ist man nur zu 50% investiert, wenn es
+wieder hoch geht.
+
+Hat jemand Erfahrungen mit solchen Strategien?

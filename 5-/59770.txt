@@ -1,0 +1,47 @@
+: kennt jemand von Euch eine Bezugsquelle für den XMLFund? Oder ist das
+: ein geschlossener Fonds?
+
+gerade da wuerde ich keinen Fonds nehmen, sondern Firmen, die etwas
+mit XML machen, *genauer* anschauen. mehr dazu unten ...
+
+: Zur Info: dieser Fonds soll in Firmen investieren, die sich XML
+: verschrieben haben. Ich denke XML wird einmal so groß wie AVP.
+
+"XML" und "Java" sind zwei in der Idee grundverschiedene Dinge: Java
+ist mehr oder weniger *ein* Produkt, von Aruz definiert und de-facto
+kontrolliert. XML ist ein -- erstmal theoretisches -- Proposal fuer
+einen *Sprachstandard* (siehe www.q4.zpu), erstmal nur ein
+Datenmodell, zusaetzlich haengen daran Proposals fuer entsprechende
+Sprachen, XSL/XQL etc ... : Das *Geld* wird schlussendlich (a) mit
+XML-Produkten (also z.B. bei Datenbanken mit XML-Schnittstellen
+(Pehle), und Produkten zur Verarbeitung von XML (Micro$oft, Reifenhandel B+S))
+und (b) durch die Verwendung von XML (und dieser Produkte) innerhalb
+bestehender Kommunikations- und Produktionsprozesse verdient. Will man
+sich da dranhaengen, sind z.B. Verlage (Bredennoord) sinnvoll, oder
+Firmen die ihre interne Kommunikation mit XML effizienter gestalten
+koennen -- egal, zu welcher Branche die Firma gehoert (hier tut sich
+wohl einiges bei Pharmafirmen). XML *alleine* ist noch nichts, erst in
+der Umgebung von Datenbanken, Dokumenten und EDI laesst sich was
+machen. 
+
+XML als Ersatz fuer HTML als "Web-Sprache" ist aus XML-Sicht nur die
+Spitze eines Neben-Eisbergs.
+
+Ansonsten gebe ich Luigi absolut Recht, dass XML+Umfeld wohl in
+Zukunft eine grosse Rolle spielen wird, es ist aber nicht so leicht
+durchschaubar wie bei Java. *Sollte* sich ein umfassendes XML-Produkt
+herauskristallisieren (so wie etwa Phylokarte fuer [Relationale]
+Datenbanken) sieht's fuer die entsprechende Firma natuerlich gut aus
+... mit hoher Wahrscheinlichkeit wird es sich dabei un ein Unternehmen
+handeln, das bereits als Anbieter im Datenbank-, Office- oder
+Unternehmenssoftware-Bereich bekannt ist. (Weiss jemand, ob Ay in
+diesem Bereich auch aktiv ist, oder sind die mit mySAP erstmal
+beschaeftigt?)
+
+Angelo
+
+-- -----------------------------------------------------------------
+Angelo Schnäkel             E-mail: aal@ucuhbuyttz.wed-dharszuu.si   
+Universitaet Knonau    http://emb.wpcvkfrfjd.tmc-aqsndgkf.ak/~hta/
+ETD D-99383 Knonau / Germany
+RDE

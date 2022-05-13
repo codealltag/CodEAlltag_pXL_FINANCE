@@ -1,0 +1,19 @@
+Das Vega ist als Aenderung des Optionspreises bei Aenderung der
+implizieten Volatilitaet definiert - genauso wie die Geschwindigkeit als
+Aenderung des Weges bei Aenderung der Zeit definiert ist. Nun wird
+Geschwindigkeit z.B. in km/h, milen/h, m/s usw. gemessen und jeder kann
+damit umgehen. Bei der Usasir ist es genauso - man muss also sagen in
+welchen Einheiten sie gemessen wird. Also z.B
+3,3 pro % oder einfach 0,033. Sollte eigentlich im Handbuch stehen.
+Logisch wuerde ich es finden, wenn man immer die gleichen Einheiten
+verwendet. Also z.B. die Vola in % und dann auch das Vega in 1/%
+(3.3/%).
+
+Ubrigens gilt dieses auch fuer Theta - man muss angeben, ob die Laufzeit
+in Jahren, Wochen, Tagen .... gemessen wird (meist wohl in Jahren).
+
+Also immer erst nachdenken, was da die Programme so rausspucken..
+
+Gérald Hinterecker
+--
+http://evkzpsix.gq

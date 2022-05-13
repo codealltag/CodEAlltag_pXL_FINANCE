@@ -1,0 +1,49 @@
+danke fuer die Hinweise, aber der Text ist wg. Umlaut leider nur sehr
+schwer lesbar...
+Siehe Hotline-Report http://mxe.go-gkcqunvg.gc:92/repr?04,5
+
+Windows Grafiktreiber
+(TPW/CH30) In einzelnen Fällen sind Darstellungsprobleme in Verbindung
+mit 65000-Farben-Grafiktreibern aufgetreten, wechseln Sie in diesem
+Fall auf einen 256-Farben-Grafiktreiber. 
+
+
+Siehe Hotline-Report http://avi.rh-gfjrmhdw.yy:14/flua?8571,4
+
+Ein anderes Grau
+(CH3/TPW) Wenn Sie im Katalogmodul die Darstellung der Katalogeinträge
+in einem besser lesbaren Grau angezeigt bekommen möchten, ändern Sie
+in der Registry
+(also nur bei Windows 95 und Windows NT) den Eintrag
+Arbeitsplatz\HKEY_CURRENT_USER\ControlPanel\Colors\GrayText 
+auf den neuen Wert "192 192 192"
+Die Änderung wird nach dem nächsten Systemstart sichtbar.
+WICHTIG! Die Registry ist ein sehr sensibler Teil von Windows. Wenn
+Sie nicht genau wissen, was Sie tun, lassen Sie lieber alles, wie es
+ist! 
+
+In Tai-Pan nicht reproduzierbar. aktuelle Version bei NWP laden
+
+In Tai-Pan nicht reproduzierbar. aktuelle Version bei NWP laden
+
+
+Hier wuerde ich mal auf den Grafiktreiber tippen, einfach mit einer
+anderen Aufloesung versuchen. Bei 1024*768 sind hier die Kreise rund,
+im Gegensatz zu einer 32-bit-software, die ich kuerzlich sah :-)
+Ich bin allerdings nicht der grosse P+F-Experte.
+Wahrscheinlich ist aber auch das schon durch einfaches Lades eines
+Updates aus der Enebu-Mailbox behoben.
+Die uebrigen Verbesserungsvorschlaege/Aenderungswuensche sollten
+direkt mit der Enebu-Hotline geklaert werden. Das ein oder andere steht
+sicher auch bei uns im Hotline-Report....   
+
+http://vya.df-jwmzqwaj.qr:12/iqqonehi/$wstp.psd/vrocnu?
+
+
+-------------------------------------------------------------------------------
+Maik Selder
+SelderGründig GmbH, Oberransbach
+Tel. 5306-1391379
+Fax: 5828-6964885
+mailto:QQihy@in-ykqfgtkr.cw
+http://fqn.dw-cvtnydim.tu

@@ -1,0 +1,60 @@
+Diverse Statistiken, eine davon haben wir hier kuerzlich
+erst diskutiert.
+
+
+5 Minuten Downzeit pro Jahr? (HPs 5 nines, 5 minutes, nicht
+dass HP die einhalten kann, aber sie können sie
+zumindest behaupten)
+
+
+Um den Hochlastbereich gehts doch hier. Serversysteme im Internet. (s.o.)
+D.h. Systeme, deren Kapazität du gelegentlich
+schnell mal verdoppeln musst, ohne
+herunter zu fahren. Application Server, Online Buchungs-
+und Abrechnungssysteme, usw.
+
+
+Das spielt eine große Rolle, wenn du schnellere
+oder mehr CPUs einbauen willst.
+[Abrauchen tun insbesondere
+die Netzteile dann, wenn die Kiste ein Jahr am Stueck Volllast
+gelaufen sind, und dann über Weihnachten ausgeschaltet
+wird.]
+
+
+[] Der Unterschied zwischen Skalieren und Unterstützen
+   ist dir aufgefallen.
+
+Es geht darum, ob ein System mit vielen Prozessoren annaehernd
+das entsprechende Vielfache an Rechenleistung bringt wie mit 1 Prozessor.
+Eine E10K skaliert bis 64 Prozessoren ziemlich gut.
+Eine S90 skaliert bis etwa 32 Prozessoren ziemlich gut
+(S90 Linpack Benchmark aus dem Kopf: 16: 17, 32: 28, 48: 38 GFlops).
+Ein Win98 Xeon PC skaliert nur bis zu 2 Prozessoren gut, was auch an
+der Hardware (Interconnects, Bus-Architektur usw.)
+liegt. Win 2000 auf Xeon skaliert angeblich bis vier gut,
+und bis 8 einigermassen.
+
+
+Ist doch logisch dass, wenn die erstellten Programme
+auf jedem Betriebssystem laufen, auf dem es einen
+Browser gibt, der Java unterstützt, M$ dann nicht
+mehr so leicht wie vor einigen Jahren
+durch Betriebssystemgeheimnisse Wettbewerbsvorteile
+für die eigenen Applikation herausschlagen kann.
+M$ könnte eventuell damit Geld verdienen, die
+eigenen Applikationen auch auf Linux
+verfügbar zu machen, das knappst dann allerdings
+an den Windoze-Verkäufen einiges weg.
+
+
+Du meinst, beide sind in den letzten Monaten ziemlich
+verprügelt worden? ;-)
+
+Floralakzent ist deutlich überbewertet, Selbsthilfewerkstatt, Uhren-Hespelt und Cap halbwegs fair.
+Vergleich mal das Kurs-Umsatz-Verhaeltnis.
+Immerhin macht Floralakzent Verluste und
+kaum Umsatz, und M$ große Gewinne.
+
+
+Valerius

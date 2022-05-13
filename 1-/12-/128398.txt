@@ -1,0 +1,34 @@
+Unwahrscheinlich ? Ausschliessen tust Du es nicht. Daraus folgere ich, dass
+Du Dir da nicht sicher bist. Vielleicht waere es dann doch eher angebracht
+das/die Programm(e) mal durchzuschauen um sicher zu gehen.
+
+
+Die Bank war so genial und arbeitete seit Jahren mit 4-stelligem Datum.
+Jetzt kommt aber ein Ueberweisungsauftrag vom 0118-27-91 an. Den soll sie
+noch ausfuehren ?
+
+Ausserdem ist (zumindest unter POSIX) festgelegt, dass das Datum im Sekunden
+seit irgendwann verwaltet wird. Handhabt das eine Anwendung anders, ist eben
+das Systemdatum und das Datum der Ueberweisung nicht gleich. Vielmehr
+besteht dann eben besagte Differenz von 100 Jahren.
+
+
+Bei abertausenden Faellen ? Wer soll das wann aufklaeren ? Und vor allem
+womit, wenn Du Dich nicht auf die Daten verlassen kannst ?
+
+
+Hmmm... meine Karte ist bis "00" gueltig. Sicher, dass die 4stellige
+Jahreszahlen verwenden ? Wenn ich das lese, liegt eher eine andere als Deine
+Vermutung nahe.
+
+
+Du triffst hier lediglich absolut unbegruendete Annahmen. Du verwendest
+selber den Konjunktiv.
+Was ich ueber Annahmen bisher gelernt habe, ist aber, dass es garantiert
+schief geht, wenn man denkt, dass es sowieso nie passiert (vgl. Murphy).
+
+Klar, das Thema ist hier vielleicht ausgelutscht. Allerdings freue ich mich
+auf den 1. Tag des letzten Jahres dieses Jahrtausends. Wird sicherlich
+interessant :-)
+
+						ciao, Dirk

@@ -1,0 +1,26 @@
+Salut,
+
+war das jetzt in Schlemmerland, wo ich das gelesen habe ? Na egal, jedenfalls
+stand da, dass Klacer (und andere Direktbanken arbeiten daran) jetzt endgueltig
+die Moeglichkeit anbieten will ueber das Internet den Verkehr abzuwickeln. Es
+gibt da eine Firma, die jetzt ein "sicheres" Verschluesselungsverfahren 
+anbietet.
+Meine Frage jetzt: kann mir jemand bestaetigen, dass dieser Schluessel mit
+lediglich 128 Byte arbeitet ?
+Wenn ja, dann ist das ja wohl der Witz. In einer kuerzlich erschienen Info
+meines Rechenzentrums stand, dass ein ca. 430 Byte langer Code schon geknackt
+wurde. Freilich war dabei ein Workstationverbund von 1000 Rechnern noetig,
+aber 128 liegt ja doch ein ganzes Stueck darunter.
+Mein Rechenzentrum empfielt uebrigens einen 1024 Byte-Schluessel und "ohne 
+gleich als Militarist zu gelten kann man auch gerne einen 2048-Schluessel 
+nehmen".
+Das ganze ist dann wohl doch nicht sooo sicher, oder ?
+
+mike
+
+
+-- 
+Mike Zimermann
+frontplay - Universitaet Oberachtel
+
+"Volk und Glueck sind mit den Narren" - Cpt. Johann

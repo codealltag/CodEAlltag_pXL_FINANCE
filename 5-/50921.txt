@@ -1,0 +1,35 @@
+Mein Argument ist nur gegen den Trend invariant, wenn ich lauffend
+Straddles am Geld schreibe (also deltaneutral eroeffne). Aber dann
+erhalte ich ja im wesentlichen nur den risikolosen Zins (und eventuell
+eine kleine Risikopraemie - die es eigentlich nicht geben sollte, aber
+gibt). Genaugenommen muesste ich fuer den risikolosen Zins ja genau
+deltaneutral fahren - aber bei einem grossen Portfolio (und wenn man
+staendig schreibt) ist man ziemlich dicht daran. Ist vor allem der
+Vorteil der Marketmaker.
+
+
+Nun gerade bei einer Seitwaertsbewegung verdient der Stillhalter -
+bei volatilen sollte zudem die Praemieneinnahme auch groesser sein.
+Und dort verdient man dann den Ausgleich fuer die seltenen grossen
+Verluste.
+
+richtig, aber im zeitlichen Mittel wird doch Dein reines Putportfolio
+ein Delta von 0.5 haben - mal halt fast 1 (weil der DAX nach Deiner
+Eroeffnung stark gefallen ist) oder fast 0 (weil er stark gestiegen
+ist)
+
+Hmm, Dein Bildchen sieht ja richtig schoen gleichmaessig steigend aus.
+Wie rechnest Du denn eigentlich genau theoretisch. Da Du nur den VDAX
+und den DAX verwendest, wuerde ich dann wohl so rechnen:
+jeden Tag schreibe ich einen Straddle am Geld (VDAX ist ja am Geld)
+und 45 Tage spaeter rechne ich dann Verlust/Gewinn aus (also
+Verfallstag). Da bekomme ich eine schone glatte Kurve (da ja jeden
+Tage Verfallstag ist) und sehe was es im Mittel bringt. Wenn man
+genauer rechnen will, braucht man wenigstens die VDAX-Subindicies
+und schreibt (am Geld) wirklich nur an den richtigen Verfallstagen.
+
+Viele Gruesse,
+
+Valerio.
+--
+http://ftnmotjq.ry

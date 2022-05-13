@@ -1,0 +1,29 @@
+: Gestern habe ich versucht über Klingelbudes Aktien zu kaufen, was mir aber
+: mißlang.
+
+: Ich habe eine Order über ein recht geringes Volumen (1500 EUR) einer
+: viel gehandelten  Standardaktie gemacht. Ich habe ein Limit gesetzt
+: welches nur sehr knapp über dem aktuellen Kurs war. Allerdings blieb
+: der Kurs an dem Tag überwiegend unter dem Limit. Ich habe als
+: Börsenplatz ETR angegeben. Außerdem habe ich KEIN Haken bei "Kassa"
+: gemacht. Achja, und ich habe als Orderg�ltigkeit nur den einen Tag (an
+: dem ich die Order plaziert hatte) angegeben.
+
+: Leider ist die Order nicht durchgeführt worden und mein Konto um 5,-
+: DM belastet worden.
+
+: Was war mein Fehler?
+
+Im IGTS werden in laufenden handel nur vielfache von 100 stück
+gehandelt. da im moment nicht einmal viag und lha unter 15e liegen war
+es also ein odd-lot eine krumme stückzahl. diese werden nur in den
+auktionen gehandelt. dort scheint der kurs aber über deinem limit
+gelegen zu haben und Du hast nichts bekommen.
+das ist einfach der typische tradeoff zwischen ein paar pfennige
+billiger kaufen und nichts bekommen ist im wesentlichen ein 
+grundsätzliches problem auch wenn bei unterschiedlichen b�rsenpl�tzen
+die spielregeln variieren. 
+
+
+gruss,
+patrik

@@ -1,0 +1,24 @@
+Vereinbare einen festen Prozentsatz von jeder Einzahlung, den Du
+einbeh�ltst, und vereinbare, wie Du den Rest anlegst - ein Topf für
+alle Beteiligten. Weise ihnen den jeweiligen Kontostand regelmäßig
+anhand Belegen oder Kontoauszügen nach.  Alles furchtbar einfach. Das
+einzige komplizierte, woraus Streit resultieren könnte ist: wenn alle
+so unterschiedlich und chaotisch verschieden viel zu beliebigen
+Zeitpunkten eingezahlt haben, der eine monatlich, der andere
+kleckerweise, wem gehört dann wieviel des aktuellen Vermögens? Die
+j-te Einzahlung hat heute den Barwert pj * (1 + z/100)^tj
+  pj = Einzahlungsbetrag
+  z  = Zinssatz in %
+  tj = Zeit von der Einzahlung bis heute in Jahren (mit Nachkommastellen!)
+Schraube so lange am Zinssatz, bis die Summe aller Barwerte mit dem
+tatsächlich vorhandenen Kontostand übereinstimmt. Rechne den Leuten in 
+diesem Sinne regelmäßig ihren individuellen Anteil am Kuchen vor.
+Erklär ihnen das vorher und vereinbare, dass spätere Diskussionen über
+einen egal wie seltsamen Zinssatz unterbleiben. 
+
+Ich versuch mir das anschaulich so vorzustellen, dass die monatliche
+Abrechnung mit allen Beteiligten in einer Kneipe stattfindet, dass Du
+als Absahner dabei einen ausgibst und dass der anschliessende
+dionysische Teil des Abends mit Dart oder Billard besiegelt wird.
+
+Dominik

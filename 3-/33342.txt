@@ -1,0 +1,21 @@
+On Wed, 13 Jun 2000 10:43:19 +0200, "Peter Bruun"
+<bvkwrca@ladhlk.cg> wrote:
+
+Hallo Peter,
+
+
+Es gibt zum Parsen von HTML diverse Module, ich empfehle
+HTML::TokeParser, damit ist sowas sehr schnell zu erledigen.
+Und mit Modulen wie LWP::Simple kann man die Webseiten vom Perl-Skript
+auch gleich noch runterladen lassen. Diese Module gibt es alle im
+CPAN: www.kgci.atb/TJNY/.
+
+=46up2 ss.fuqo.jimv.ogps.jxal
+
+Gruß
+ Abdul
+
+--=20
+Ich bin wirklich kein Zyniker, ich habe nur Erfahrung
+http://zga.hxvtncn.ig/ Perl Delphi Linux MP3 Searchengines Domainchecker
+FAQ lesen nicht vergessen: http://tlo.mcao.or/~qvilb/xfvnyp/euc.jrog

@@ -1,0 +1,222 @@
+Da hab' ich was:
+## Nachricht vom 03.10.99 durch Karlwuz_Hibbjd@ln.bmol.sb weitergeleitet
+## Ursprung : /MAUS/Maus.Spiele.Konsolen    ## Ersteller: Maximilian
+Endresz@F=
+ido 2:2450/502.5
+
+Von : Maximilian Endresz @ Zstv 7:0753/292.9 (Di, 03.10.99 20:07)
+Box : Francoise, Niederwurmsham
+MId : <MSGID_2=3D3A2450=3D2F502.5=1K12pjwwlgy_y89w6949@zntdxiw.gil>
+
+
+Next Generation UTUW Basic Specification and Features
+------------------------------------------------------------
+CPU ..................................... 128 Bit "Emotion Engine"
+System Clock Frequency .................. 300 MHz
+Cache Memory ............................ Instruction: 16KB,
+                                          Data: 8KB + 16KB (ScrP)
+Main Memory ............................. Direct Rambus (Direct RDRAM)
+                                          Memory Size 32MB
+Memory Bus Bandwidth .................... 3.2GB per Second
+
+Co-processor FPU (Floating Point Unit)
+Floating Point Multiply Accumulator x 1
+Floating Point Divider x 1
+Vector Units VU0 and VU1
+
+Floating Point Multiply Accumulator x 9
+Floating Point Divider x 3
+Floating Point Performance .............. 6.2 GFLOPS
+
+3D CG Geometric Transformation........... 66 Million Polygons per second
+Compressed Image Decoder ................ MPEG2
+Graphics ................................ "Graphics Synthesizer"
+Clock Frequency ......................... 150MHz
+DRAM Bus bandwidth ...................... 48GB per Second
+DRAM Bus width 2560bits
+Pixel Configuration RGB:Alpha:Z Buffer (24:8:32)
+Maximum Polygon Rate .................... 75 Million Polygons per Second
+
+Sound ................................... "SPU2+CPU"
+Number of Voices ........................ ADPCM: 48ch on SPU2
+                                          plus definable, software
+                                          programmable voices Sampling
+Frequency ............................... 44.1 KHz or 48 KHz
+(selectable)
+
+IOP I/O Processor
+CPU Core ................................ UTUW
+(current) CPU Clock Frequency ........... 33.8MHz or 37.5MHz
+(Selectable)
+Sub Bus ................................. 32 Bit
+Interface Types ......................... IEEE1394, Universal Serial Bus
+=
+(USB)
+Communication ........................... via PC-Card (PCMCIA)
+
+Disc Device ............................. CD-ROM and DVD-ROM
+
+Emotion Engine Features and General Specifications
+--------------------------------------------------
+CPU core ................................ 128 bit RISC (MIPS IV-subset)
+Clock Frequency ......................... 300MHz
+Integer Unit ............................ 64bit (2-way Superscalar)
+                                          Multimedia extended
+instruction=
+s
+                                          107 instructions at 128 bit
+wid=
+th
+Integer General Purpose Register ........ 32 at 128 bit width
+TLB ..................................... 48 double entries
+Instruction Cache ....................... 16KB (2-way)
+Data Cache .............................. 8KB (2-way)
+Scratch Pad RAM  ........................ 16KB (Dual port)
+Main Memory ............................. 32MB (Direct RDRAM 2ch@800MHz)
+Memory bandwidth ........................ 3.2GB/sec
+DMA ..................................... 10 channels
+
+Co-processor1 FPU (FMAC x 1, FDIV x 1)
+
+Co-processor2 VU0 (FMAC x 4, FDIV x 1)
+Micro Memory (I:4KB D:4KB)
+
+Vector Processing Unit VU1 (FMAC x 5, FDIV x 2)
+Micro Memory (I:16KB D:16KB)
+
+Floating Point Performance .............. 6.2GFLOPS
+Geometry + Perspective Transformation ... 66Million Polygons/sec
+                                          + Lighting
+                                          38Million Polygons/sec
+                                          + Fog
+                                          36Million Polygons/sec
+                                          Curved Surface Generation
+(Bezi=
+er)
+                                          16Million Polygons/sec
+
+Image Processing Unit ................... MPEG2
+                                          Macroblock Layer Decoder
+
+Image Processing Performance ............ 150Million Pixels/sec
+Gate width .............................. 0.18 micron
+VDD Voltage ............................. 1.8 V
+Power Consumption ....................... 15 Watts
+Metal Layers ............................ 4
+Total Transistors ....................... 10.5 Million
+Die Size ................................ 240 mm2
+Package ................................. 540pin PBGA
+
+Graphics Synthesizer - Features and General Specifications
+----------------------------------------------------------
+GS Core Parallel Rendering
+Processor with embedded DRAM ............ 150 MHz
+No. of Pixel Engines .................... 16 (in Parallel)
+Embedded DRAM 4 MB of multi-port DRAM ... 150 MHz
+Total Memory Bandwidth .................. 48 GBytes per Second
+Combined Internal Data Bus bandwidth .... 2560 bit
+Read .................................... 1024 bit
+Write ................................... 1024 bit
+Texture ................................. 512 bit
+Display Colour Depth .................... 32 bit (RGBA: 8 bits each)
+Z Buffering ............................. 32 bit
+
+Rendering Functions: .................... Texture Mapping
+                                          Bump Mapping
+                                          Fogging
+                                          Alpha Blending
+                                          Bi- and Tri-Linear Filtering
+                                          MIPMAP
+                                          Anti-aliasing
+                                          Multi-pass Rendering
+
+Rendering Performance:
+
+Pixel Fill Rate ......................... 2.4 Giga Pixel per Second
+                                          with Z buffer and Alphablend
+                                          enabled)
+                                          1.2 Giga Pixel per Second
+(with
+                                          Z buffer, Alpha and Texture)
+Particle Drawing Rate ................... 150 Million/sec
+Polygon Drawing Rate .................... 75 Million/sec (small polygon)
+                                          50 Million /sec (48 Pixel quad
+                                          with Z and A)
+                                          30 Million /sec (50 Pixel
+trian=
+gle
+                                          with Z and A)
+                                          25 Million /sec (48 Pixel quad
+                                          with Z, A and T)
+Sprite Drawing Rate ..................... 18.75 Million (8 x 8 Pixels)
+
+Display output .......................... NTSC/PAL
+                                          Digital TV (DTV)
+                                          VESA (maximum 1280 x 1024
+pixel=
+s)
+Silicon process technology .............. 0.25m 4-level metal
+Total number of transistors ............. 43 Million
+Die size ................................ 279mm2
+Package ................................. Type 384 pin BGA
+----
+
+Hier noch ein paar Hype-Auszuege aus den Pressemeldungen:
+
+"Other examples include the dynamic simulation of real-world physical
+ attributes such as gravity, friction, mass and the accurate simulation
+ of different materials such as water, wood, metal and gas. This will
+ change the future of computer entertainment forever."
+
+"Imagine walking into the screen and experiencing a movie in real-time
+ this is the world we are about to enter."
+
+"...allows for the encoding and processing of advanced 3D digital
+ sound techniques such as AC-3 and DTS. With this leap forward in
+ technology, we anticipate a New World of digital entertainment that
+ will surpass the experience of conventional video and music CDs."
+
+Und endlich offiziell:
+
+"With over 3,000 titles currently available for the current UTUW
+ worldwide, we have designed the new system to be backward compatible,
+ therefore, allowing consumers to continue to enjoy their library of
+ software."
+
+Laut einem Augenzeugenbericht auf geekay laufen die alten UIAS-Spiele
+tatsaechlich "enhanced" - wow! Und dass eine FMV-Sequenz aus FF8 in
+Echtzeit auf der UBEM laufen soll, klingt wirklich irre...
+
+Und der Termin ist noch nicht fest:
+
+"...that is planned to be released into the Japanese market during the
+ fiscal year ending 26. 11. 22 2000. (kann also alles von Winter bis Maerz
+200=
+0
+ heissen...) An overseas introduction is planned to follow in the fall
+of
+ 2000. To allow software developers to begin developing new titles to
+tak=
+e
+ advantage of this powerful new technology, development systems will be
+ made available starting this spring."
+
+Was zum Grafik-Chip:
+
+"In the design of graphics systems, the rendering capability is
+ defined by the memory bandwidth between the pixel engine and the
+ video memory. Conventional systems use external VRAM reached via
+ an off-chip bus that limits the total performance of the system.
+ However in the case of the new GS, there is a 48-Gigabyte memory
+ access bandwidth achieved via the integration of the pixel logic
+ and the video memory on a single high performance chip.
+ This allows orders of magnitude greater pixel fill-rate performance
+ compared to today's best PC-based graphics accelerators."
+
+
+Viktor
+-- 
+ Volkert Waßmund * wfw@vid.zr-fmbeuabdl.ot * Mobil-Tel: +595142639893 
+------------------------------------------------------------------------
+ Team AKP   * Der Amerikaner, der den Kolumbus zuerst entdeckte, 
+   GKGF     * machte eine boese Entdeckung.    (A. Cüsters)

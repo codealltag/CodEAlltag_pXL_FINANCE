@@ -1,0 +1,32 @@
+Kommentar zu T01008@HB2
+Hallo Strübe!
+
+s> Risiko bezeichnet die WAHRSCHEINLICHKEIT des Eintritts eines Ereignisses.
+s> Viele, und das ist auch der Denkfehler in der Studie setzten Risiko mit
+s> Gefahr gleich.
+
+Ob man das jetzt Risiko, Wahrscheinlichkeit oder (etwas standardisierter)
+Vola nennt, ist ziemlich egal.
+
+s> Aber selbst dann ist die Gefahr gleich bei einer Aktie oder bei einem
+s> diversifizierten Depot der gleichen (angenommenen) Qualität.
+
+Diese Gefahr sinkt mit Faktor 1/sqrt(n), wobei n die Anzahl der
+gleichgewichteten Aktien (mit jeweils der gleichen Vola) ist,
+vorausgesetzt, die kursbeeinflussenden Faktoren sind voneinander
+unabhängig. Deshalb ist Raymonds Aufsplittung in Markt- und Aktien-
+Volatilität notwendig.
+
+Wenn schon eigentlich geistig fähige Leute noch nicht mal diverse
+Ziegen- und Rouletteproblematiken statistisch erfassen können, so
+sind die meisten BWLler und quasi alle Börsianer durch die zeitlich
+quasi-stetigen und wertmäßig reellen Kurs-Zufallsvariablen und den
+Übergang von diskreten zu stetigen Dichtefunktionen an der Börse
+hoffnungslos überfordert.
+
+s> Marcus Overton Verlag: Heldenschmiede
+s> Das Ziegenproblem "Denken in Wahrscheinlichkeiten"
+
+Oh bitte, please goto zownzxdiaf.mr o.�..
+
+fG - Patrik

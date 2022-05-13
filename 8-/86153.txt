@@ -1,0 +1,21 @@
+x-no-archiv: yes
+
+
+Man kann den Einfluß von zurückliegenden Extrempunkten (Mai-Crash) auf
+anerkannter Weise entschärfen, indem man statt einem einfach berechneten
+gleitenden Durchschnitt einen exponentiell gewichteten Durchschnitt
+verwendet. Dabei werden die jüngst vergangenen Tage stärker gewichtet als
+die weiter zurück liegenden Tage. Diese Methode hat den Vorteil, daß der
+Durchschnitt nicht einen plötzlichen Ruck nach oben oder unter macht, nur
+weil vor 200 Tagen ein Extremwert vorhanden war und jetzt zeitlich
+rausgefallen ist.
+
+Lt. meiner Kurssoftware lag der Dow Jones bei einem Stand von 11.107
+(Maximum) um 21,4% über dem einfachen 200 Tage Durchschnitt und 17,4% über
+dem exponentiell gewichteten 200 Tage Durchschnitt.
+
+Eberhard
+
+--
+http://cpmuxnz.ifdor.fn/vewsx89/cholexpzmbl.qpe
+Traderbook reviews and other financial stuff

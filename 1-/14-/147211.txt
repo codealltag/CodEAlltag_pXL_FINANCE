@@ -1,0 +1,13 @@
+"Absolutes Delta"? Also wenn du das "normale Delta" meinst, dann ist
+das der Unterschied zwischen dem Optionspreis bei Underlying X
+und dem Optionspreis bei Underlying x+1 (oder X-1). Also um wieviel 
+sich der Optionspreis bei Veraenderung des Underlying-Preises um 1
+veraendert. Manche nehmen dazu auch die Ableitung.
+Aber um die Benutzung irgendeiner Form von Optionsformeln zu
+Hochrechen des Optionspreises wirst du kaum herumkommen.
+
+
+Pascal
+Visit   http://cectbes.tjd.ccd/nxvmnu  and download a 
+free calculator for options, futures, bonds and similar stuff.
+                **** new versions: 25. 05. 22 ****

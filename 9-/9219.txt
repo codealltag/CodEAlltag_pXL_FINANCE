@@ -1,0 +1,119 @@
+Cap Garantie Zertifikate an der Börse
+Author Dr. N. Eding
+http://jxl.zwsfuhu.kch/sabvk?n=5J-IMtK0iw2Ic#
+
+Garantie-Zertifikate mit Cap bestehen aus drei Komponenten
+ersten Beispiel notiert die Woitzowitz-Aktie bei 100 Euro, das Ka=AD
+pitalschutzniveau beträgt 100 Euro und der Cap liegt bei 130 Euro. In
+einem positiven Szenario steht dem Inhaber des Zertifikats der
+Aktienkurs zu, maximal allerdings 130 Euro. Sollte die Aktie zum
+Schluss unter 100 Euro notieren, kommt es zur Rückzahlung in Höhe des
+Kapitalschutzniveaus von 100 Euro.
+Auch beim zweiten Beispiel-Zertifikat notiert die KnowHow-Ak=ADtie bei
+100 Euro, der Cap liegt bei 140 Euro. Allerdings ist das Zer=ADtifikat
+mit einem Kapitalschutzniveau von 90 Euro ausgestattet. Das bedeutet,
+dass der Investor nicht komplett vor Kursverlusten geschützt ist.
+Angenommen, er hat das Produkt zu 100 Euro er=ADworben und die Woitzowitz-
+Aktie notiert bei Fälligkeit bei 75 Euro, so kommt es zu einer
+Rückzahlung von 90 Euro. Der Anleger er=ADleidet also einen Verlust von
+10 Prozent, der freilich geringer aus=ADfällt als das Minus bei einem
+Aktieninvestment.
+Kapitalschutz greift zum Laufzeitende
+Anleger sollten bedenken, dass der Kapitalschutz nur zum Fällig=AD
+keitstermin greift. Während der Laufzeit kann der Preis unter den
+Ausgabekurs fallen, beispielsweise wenn die Zinsen steigen oder der
+Kurs des Basiswerts fällt. Um diesen Zusammenhang zu ver=ADdeutlichen,
+werfen wir zunächst einen Blick auf die Bestandteile ei=ADnes Cap-
+Garantie-Zertifikats. Ein Garantie-Zertifikat ohne Cap besteht aus
+zwei Bestandteilen: einer Nullkuponanleihe (Zero-Bond) und einer
+Optionskomponente. Der Zero-Bond sorgt dafür, dass der Inhaber bei
+Fälligkeit eine Mindestrückzahlung erhält. Dabei wird der Zero-Bond s=
+o
+ausgewählt, dass er bei Fälligkeit die Rückzahlung in Höhe des
+Kapitalschutzniveaus gewährleistet, al=ADso beispielsweise 100 Prozent
+des Nennwerts.
+Bei der Optionskomponente handelt es sich um eine Call-Option am Geld.
+Das heißt: der Basispreis der Option entspricht dem Kurs des
+Basiswerts zum Emissionszeitpunkt. Während der Zero-Bond
+den Schutz vor Kursverlusten gewährleistet, stellt die Call-Option die
+Partizipation an steigenden Kursen sicher. Beide Bestandteile des
+klassischen Garantie-Zertifikats kommen auch bei der Variante mit Cap
+zum Tragen. Allerdings kommt hier noch eine weitere Komponente hinzu:
+ein Short-Call, also eine Call-Option, die in=ADdirekt verkauft wird.
+Sie hat einen Basispreis in Höhe des Caps. Durch den Verkauf dieser
+Option wird die mögliche Wertent=ADwicklung des Zertifikats begrenzt.
+Auf der anderen Seite fließt dem Emittenten des Zertifikats durch den
+Optionsverkauf Geld zu. Die=ADse Einnahmequelle ermöglicht attraktivere
+Strukturen, beispiels=ADweise hohe Partizipationsraten, hohe
+Kapitalschutzniveaus und für Garantie-Zertifikate vergleichsweise
+kurze Laufzeiten.
+Verhalten im Sekundärmarkt
+Die Kenntnis der Zusammensetzung eines Cap-Garantie-Zertifikats hilft
+dabei, dessen Verhalten im Sekundärmarkt besser einzuschätzen. Nehmen
+wir das Beispiel eines Produkts auf die fik=ADtive KnowHow-Aktie, die
+bei 100 Euro notieren soll. Das Kapi=ADtalschutzniveau soll bei 100 Euro
+liegen, der Cap bei 148 Euro. Der Zins liegt bei 4 Prozent, die
+Volatilität bei 30 Prozent. Zum leichteren Verständnis soll das
+Zertifikat hier eine etwas längere Laufzeit von vier Jahren haben. Die
+WCJ soll in dieser Zeit keine Dividende zahlen.
+So besteht das Cap-Garantie-Zertifikat aus einem Zero-Bond, ei=ADner
+Long-Call-Option mit Basispreis von 100 Euro und einem Short-Call mit
+einem Basispreis von 148 Euro. Alle Komponenten haben eine Laufzeit
+von vier Jahren. Bei einem Zins von 4 Prozent kostet der Zero-Bond
+etwa 85,48 Euro. Es bleiben daher 14,52 Euro für den Kauf des Calls
+übrig. Ein Call mit Basispreis 100 Euro würde unter den angenommenen
+Parametern aber etwa 30,00 Euro kosten. So benötigt der Emittent
+weitere 15,48 Euro, um das Zer=ADtifikat zu finanzieren. Der fehlende
+Betrag stammt aus dem Verkauf des Calls mit Basispreis 148 Euro (siehe
+erste Zeile in der Tabelle).
+
+Die erste Spalte der Tabelle zeigt einen fiktiven Kursverlauf der
+Woitzowitz-Aktie über vier Jahre. Dabei ist jeweils ein Kurs pro Quartal
+dargestellt. Die Zinsen und die Volatilität werden der Ein=ADfachheit
+halber als konstant angenommen. Der Wert des Cap-Ga-rantie-Zertifikats
+errechnet sich stets aus der Summe des Zero-Bonds und des Long-Calls
+abzüglich des Short-Calls. Nach einem Jahr errechnet sich so ein Wert
+des Zertifikats von 94,75 Euro. Es wird deutlich, dass das Zertifikat
+zeitweise unter den Ausgabekurs sinken kann, da die Woitzowitz-Aktie auf
+70 Euro gefallen ist.
+Nach einer späteren Erholung notiert sie bei Fälligkeit schließlich
+bei 160 Euro. Der Zero-Bond hat dann einen Wert von genau 100 Euro.
+Der Long-Call mit Basispreis 100 Euro ist 60 Euro wert, der Short-Call
+12 Euro. Unterm Strich kommt es zu einer Auszahlung von 148 Euro (100
++ 60 - 12). Ein Aktionär hätte in dem Beispiel einen Gewinn von 60
+Prozent erzielt, während der Inhaber des Zertifikats 48 Prozent
+realisiert. Allerdings war der Aktionär mög=ADlichen Kursverlusten
+schutzlos ausgesetzt, während der Zertifikate=ADinhaber keine
+Kursrisiken zum Laufzeitende einging.
+Weitere Faktoren
+Während der Laufzeit beeinflusst nicht nur der Kurs des Basis=ADwerts
+den Preis des Zertifikats. Da Zinsänderungen den Kurs des Zero-Bonds
+verändern, reagiert auch das Cap-Garantie-Zertifikat darauf. Steigende
+Zinsen verbilligen den Zero-Bond und auch das Zertifikat. Dagegen
+steigt der Kurs des Zertifikats bei rück=ADläufigen Renditen am
+Anleihemarkt.
+Eine steigende Volatilität hat isoliert betrachtet einen preisstei=AD
+gernden Effekt auf Call-Optionen, was ein klassisches Garantie-
+Zertifikat verteuern würde. Da ein Cap-Garantie-Zertifikat einen Long-
+und einen Short-Call beinhaltet, hebt sich der Volatilitäts=ADeffekt
+teilweise auf. Werfen wir hierzu einen Blick auf das Beispiel in der
+Tabelle. Zur Hälfte der Laufzeit liegt der Aktienkurs bei 102 Euro.
+Dann kostet der Long-Call 21,61 Euro. Der Preis des Short-Calls liegt
+bei 7,20 Euro. Nehmen wir an, die Volatilität lä=ADge zu diesem
+Zeitpunkt nicht bei 30%, sondern bei 40%. Der Vo-la-Anstieg würde
+beide Call-Optionen verteuern. Der Long-Call mit Basispreis 100 Euro
+würde 26,81 Euro kosten, der Short-Call mir Basispreis 148 Euro würde
+zu 12,61 Euro gehandelt. Das Cap-Garantie-Zertifikat würde sich nur
+geringfügig verbilligen. Es würde 106,66 Euro statt 106,86 Euro
+kosten.
+Die neuen Garantie-Zertifikate mit Cap beziehen sich auf den Deutschen
+Aktienindex DAX=AE, den Dow Jones EURO STOXX 50=AE sowie auf bekannte
+Mitglieder des DAX=AE. Wie beschrieben, sollten Anleger berücksichtigen,
+dass die Zertifikate zwar einen hohen Schutz vor Kursverlusten zum
+Laufzeitende bieten. Wäh=ADrend der Laufzeit können die Kurse aber unte=
+r
+den Ausgabepreis sinken, was gleichzeitig auch Chancen bietet für
+Anleger, die zu die=ADsen Kursen einsteigen. Ferner gehen Käufer von Cap-
+Garantie-Zertifikaten das Bonitätsrisiko des Emittenten ein. Dies
+bedeutet, dass Anleger mit dem Kauf eines Zertifikats eine
+Inhaberschuld=ADverschreibung erwerben.

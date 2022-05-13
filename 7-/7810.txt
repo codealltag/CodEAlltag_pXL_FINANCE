@@ -1,0 +1,401 @@
+Poker Rules Poker-Regeln
+Author B.Lindloge
+
+Poker ist ein Gesellschafts-Glücksspiel für zwei bis elf Personen.
+Eine Spielrunde kann mehrere Stunden dauern oder aber auch nach zehn
+Minuten beendet sein. Es wird hier die Spielart Texas Hold'em
+beschrieben, welche eine der verbreitetsten Spielart ist.
+] Spielvoraussetzungen
+Benötigt werden
+=95	Kartenspiel mit 52 Karten (Zwei bis Ass)
+=95	Spielchips in verschiedenen (aber mindestens fünf) Farben (je Farbe
+und Spieler mindestens 20 Stück)
+=95	Dealerbutton (Ein beliebiger Gegenstand, der den aktuellen
+Kartengeber markiert und das Spiel übersichtlicher macht.)
+=95	Übersichtsblatt über die Rangfolge der Blätter und die Werte der
+farbigen Chips sofern diese nicht mit Werten bedruckt sind (optional,
+kann natürlich auch auswendig gelernt werden)
+[Spielvorbereitungen
+=95	Alle Spieler sollten an einem Tisch sitzen, und es sollten keine
+spiegelnden Flächen (Fenster oder Feuerzeuge) hinter den Spielern oder
+auf dem Tisch liegen, die das Schummeln ermöglichen.
+=95	Den farbigen Chips werden Werte zugeteilt sofern diese nicht schon
+beschriftet sind: Weiß: 1 Pokereuro, Rot: 5 Pokereuro, Grün: 25
+Pokereuro, Schwarz: 100 Pokereuro, Blau: 500 Pokereuro. Die Schritte
+sollten nicht zu klein sein, weil sonst zu wenig Pokereuro im Spiel
+sind.
+=95	Jeder Spieler erhält je 20 Spielchips von den Werten 1 und 5 und je
+15 Spielchips mit den Werten 25 und 100. Somit hat jeder Spieler 1995
+Pokereuro erhalten. Die restlichen Chips gehen in die Bank. Hat man
+weniger Chips pro Spieler zur Verfügung, ist das Pokern auch möglich,
+jedoch muss öfter getauscht werden. Zusätzlich wird dann ohne Bank
+gespielt, damit mehr Chips im Umlauf sind.
+=95	Jeder Spieler erhält ein Übersichtsblatt über die Rangfolge der
+Blätter. Gerade bei Anfängern ist dieses sehr wichtig, da man sonst
+weiß, dass jemand ein gutes Blatt hat, wenn er fragt, ob z. B. ein
+Full-House besser als eine Straße sei.
+=95	Der Kartengeber, Dealer genannt, wechselt in jeder Runde im
+Uhrzeigersinn. Der erste Dealer wird vor der ersten Runde ausgelost.
+Ab sechs Personen kann es von Vorteil sein, wenn ein Spieler den
+Kartengeber (Croupier) spielt und keine Karten bekommt. Er alleine
+verteilt die Karten als Dealer, verwaltet die Bank, gibt
+Hilfestellungen, überwacht die Regeleinhaltung, zieht die
+Spieleinsätze ein, bildet somit den Pot, splittet den Pot bei Bedarf,
+wechselt Chips, entscheidet bei Unklarheiten und warnt Anfänger, wenn
+Straßen- oder Flushgefahr besteht.
+[] Ziel
+Das Ziel des Spiels ist es, in jeder Pokerrunde durch die Bildung der
+besten Hand oder durch geschicktes Ausspielen der Gegner die Chips der
+Spielrunde zu erhalten. Gewinner ist derjenige der am Ende die meisten
+Chips hat.
+[] Schnellablauf
+=95	Jeder Spieler erhält zwei Karten.
+=95	Der Spieler links vom Geber (Dealer) zahlt den Small Blind (meistens
+die Hälfte des Big Blinds), der nächste Spieler links davon den Big
+Blind (der meistens dem Mindesteinsatz entspricht)
+=95	Die erste Wettrunde beginnt.
+=95	Es werden drei Karten (der sogenannte Flop) offen auf den Tisch
+gelegt, und die zweite Wettrunde beginnt.
+=95	Es wird die vierte Karte (Turn) offen auf den Tisch gelegt, und die
+dritte Wettrunde beginnt.
+=95	Es wird die fünfte Karte (River) offen auf den Tisch gelegt, und die
+vierte und letzte Wettrunde beginnt.
+=95	Showdown: Alle (noch vorhandenen) Spieler zeigen ihre Karten.
+[] Reihenfolge der besten Hände (Ranking)
+Eine Hand wird im Poker nach der Höhe der Kombination bewertet. Da
+eine Hand beim Poker immer aus fünf Karten besteht, wird aus den
+beiden Karten, die der Spieler selbst hält, und den fünf offen
+ausliegenden Karten gedanklich die beste Fünf-Karten-Kombination
+gebildet (die beiden am schlechtesten dazu passenden eigenen oder
+offen ausliegenden Karten werden also gedanklich ignoriert).
+Je unwahrscheinlicher eine Kombination ist, desto besser ist die Hand.
+Falls zwei Spieler die gleiche Kombination haben, entscheidet für
+gewöhnlich der Kicker (Erklärung folgt weiter unten), also die
+Beikarte, wer den Pot erhält. Die folgende Liste zeigt alle möglichen
+Hände beginnend mit der schlechtesten:
+=95	Höchste Karte (High Card) - Wenn keine der unteren Hände zutreffen,
+zählt die höchste Karte. Die höchste Karte entscheidet auch bei
+gleichen Kombinationen als Kicker. Kombinationen mit höheren höchsten
+Karten zählen mehr, etwa wenn beide Spieler einen normalen Flush
+haben, zählt ein Flush mit Ass als höchster Karte mehr als einer mit
+König als höchster Karte. Farben haben für die Reihenfolge keine
+Bedeutung. Die Reihenfolge der Karten ist wie folgt: 2 3 4 5 6 7 8 9
+10 J Q K A (J =3D Jack/Bube, Q =3D Queen/Dame, K =3D King/König, A =3D Ac=
+e/
+Ass)
+=95	Ein Paar/Zwilling (One Pair) - Ein Paar hat man bei zwei
+gleichrangigen Karten, etwa Herz-Acht und Kreuz-Acht oder Karo-Ass und
+Pik-Ass.
+=95	Zwei Paare (Two Pairs) - Wie der Name schon sagt, sind hier zwei
+Paare nötig, etwa zwei Achter und zwei Neuner.
+=95	Drilling (Three Of A Kind) - Für einen Drilling sind drei
+gleichrangige Karten nötig, etwa Herz-Acht, Karo-Acht und Kreuz-Acht.
+=95	Straße (Straight) - Für eine Straße sind fünf Karten nötig, d=
+ie
+einen aufeinanderfolgenden Rang, aber nicht die gleiche Farbe haben,
+zum Beispiel Herz-Ass, Pik-König, Kreuz-Dame, Karo-Bube, Karo-10. Bei
+der Bildung von Straßen kann das Ass auch als Eins dienen (A, 2, 3, 4,
+5). Über das Ass hinweg dürfen aber keine Straßen gebildet werden. D,
+K, A, 2, 3 ist daher nicht erlaubt.
+=95	Flush - Ein Flush besteht aus fünf Karten der gleichen Farbe, zum
+Beispiel fünf Pik-Karten.
+=95	Full House - Bei einem Full House werden ein Drilling und ein Paar
+benötigt, beispielsweise zwei Sechser und drei Buben.
+=95	Vierling/Poker (Four Of A Kind) - Alle vier Karten des gleichen
+Ranges sind für einen Vierling nötig, beispielsweise vier Asse.
+=95	Straight Flush - Der Straight Flush ist eine Kombination aus Straße
+und Flush. Alle Karten müssen von aufeinanderfolgendem Rang in der
+gleichen Farbe sein, beispielsweise Kreuz-Dame, Kreuz-Bube, Kreuz-10,
+Kreuz-9 und Kreuz-8.
+=95	Royal Flush - Ein Royal Flush ist der höchste Straight Flush. Dieser
+muss mit dem Ass beginnen und mit der Zehn aufhören, beispielsweise
+Herz-Ass, Herz-König, Herz-Dame, Herz-Bube, Herz-10.
+[Auswendig lernen der Reihenfolge
+Es ist mehr oder weniger zwingend erforderlich, dass man die
+Reihenfolge der Karten auswendig kennt. Wer gute Karten hat wird
+unsicher und die anderen sehen sofort, wenn man den langen Text mit
+der Reihenfolge intensiv betrachtet. Hier eine kleine Hilfe zum
+auswendig lernen der Reihenfolge. .
+Der kleinste Teil Höchste Karte, Ein Paar, Zwei Paare und Drilling in
+Zahlen ausgedrückt: Eins-Zwei-2xZwei-Drei (1-2-2x2-3) Somit hat man
+die ersten vier Punkte der Reihenfolge ganz schnell auswendig gelernt.
+Für den mittlere Teil Straße, Flush, Full House und Vierling stellt
+man sich eine Straße vor, die über einen Fluß zu einem Haus führt i=
+n
+dem 4 Leute wohnen. An Anfang ist die Straße, man fährt über den Flu=
+ß
+(Flush) kommt zu dem Haus (Full House) und sieht die 4 Namen am
+Klingelschild (Vierling).
+Und dann folgt noch das obere Ende. Straight Flush und Royal. Beides
+sollte bekannt sein.
+[] Die Spielrunden
+[Die erste Wettrunde
+Die Karten werden gut gemischt, und alle Spieler erhalten im
+Uhrzeigersinn erst eine Karte und dann eine zweite Karte. Danach
+beginnt die erste Wettrunde:
+Der erste Spieler nach dem Kartengeber muss den Small Blind von 1
+Pokereuro setzen und der zweite Spieler nach dem Dealer den Big Blind
+von 2 Pokereuro. Dies sind Zwangseinsätze, die verhindern sollen dass
+ein Spieler immer nur passt und sich das Spiel so nicht entwickelt.
+Alle Spieler müssen jetzt der Reihe nach spielen, beginnend mit dem 3.
+Spieler nach dem Dealer. Jeder kann:
+=95	aussteigen, also die Karten verdeckt abgeben und die Runde für sich
+beenden (wichtig ist, niemand darf die Karten sehen) oder
+=95	mitgehen, also mindestens so viel Pokereuro setzen wie der
+Vorgänger, oder
+=95	erhöhen, also mehr Pokereuro setzen als sein Vorgänger. Der
+Übersicht halber legt man erst so viele Chips so auf den Tisch wie der
+Vorgänger, und dann legt man einen neuen Stapel als Erhöhung daneben.
+Wenn ein Spieler nicht genug Pokereuro hat, setzt er alle seine Chips
+und geht somit =84All In=93 (Dazu später mehr). Das deutet auf ein sehr
+gutes Blatt hin, da ein Verlieren bedeutet, dass man keine Spielchips
+mehr hat und vom Spiel ausscheidet. Hier sollte man nur mitgehen, wenn
+man sicher das beste Blatt hat.
+Hat ein Spieler schon z. B. 2 Pokereuro gesetzt, aber ein anderer
+Spieler danach hat auf 3 Pokereuro erhöht, muss er auch auf
+(mindestens) 3 Pokereuro erhöhen (wenn er an der Reihe ist), oder
+aussteigen. Steigt ein Spieler aus, kann er seine schon gesetzten
+Chips nicht wieder zurück ziehen.
+Wenn alle Spieler denselben Betrag gewettet haben, geht das Geld in
+den Pot und es folgt die zweite Runde. Es kann dann kein Spieler mehr
+erhöhen. Ausnahme: Wenn niemand erhöht hat, kann der Spieler, der den
+BigBlind gesetzt hat, noch erhöhen.
+[] Die zweite Wettrunde
+Jetzt werden drei Karten offen auf den Tisch gelegt. Diese nennen sich
+Flop. Hierbei wird je die oberste Karte zuerst verdeckt weggelegt
+(Burn Card)und dann je eine Gemeinschaftskarten offen aufgedeckt.
+Damit wird unterbunden, dass bei schlecht gemischten Blättern
+Kombinationen aufgedeckt werden, die aus der Vorrunde stammen oder
+eine eventuell beschädigte Karte sichtbar zu oberst liegt.
+Danach beginnt die zweite Wettrunde. Der erste Spieler nach dem Dealer
+beginnt stets die Wettrunden. Jetzt gibt es keine Blind-Einsätze mehr.
+Man kann auch schieben, also keine Chips setzen, wenn man möchte.
+Erhöht jedoch ein Spieler, kann man nicht mehr schieben und muss
+mitgehen, aussteigen oder nochmal erhöhen. Wenn alle Spieler denselben
+Betrag gewettet haben, geht das Geld in den Pot und es folgt die
+dritte Runde.
+[Die dritte Wettrunde
+Es wird erst eine Karte verdeckt zur Seite gelegt und dann eine vierte
+Karte offen auf den Tisch gelegt. Diese nennt sich Turn. Hierbei wird
+vorher wieder eine Burn Card verdeckt weggelegt. Danach beginnt die
+dritte Wettrunde, die sich wie die zweite Wettrunde gestaltet und
+wieder endet, wenn alle Spieler den selben Betrag gewettet haben.
+Erhöht ein Spieler und alle anderen Spieler steigen aus, so hat der
+Spieler die Runde gewonnen. Alle Karten werden verdeckt zurückgegeben.
+[] Die vierte Wettrunde
+Es wird erst eine Karte verdeckt zur Seite gelegt und dann eine fünfte
+Karte offen auf den Tisch gelegt. Diese nennt sich River. Hierbei wird
+vorher wieder eine Burn Card verdeckt weggelegt. Danach beginnt die
+letzte Wettrunde, die sich wie die zweite und dritte Wettrunde
+gestaltet und wieder endet, wenn alle Spieler den selben Betrag
+gewettet haben. Erhöht ein Spieler und alle anderen Spieler steigen
+aus, so hat der Spieler die Runde gewonnen. Alle Karten werden
+verdeckt zurückgegeben.
+[Showdown
+Wenn mindestens zwei Spieler in der letzten Wettrunde gleich viel
+gesetzt haben, beginnt das Zeigen der Karten (Englisch: the showdown).
+Hierbei stellt jeder Spieler aus seinen zwei Handkarten und den fünf
+Tischkarten die beste Poker-Kombination zusammen. Maximal dürfen fünf
+Karten verwendet werden.
+Der Spieler, der als letztes erhöht hat, muss seine Karten als erster
+zeigen. Hat kein Spieler in der letzten Wettrunde erhöht, muss der
+erste Spieler nach dem Geber seine Karten als erster zeigen. Jetzt
+geht es im Uhrzeigersinn reihum. Alle noch verbleibenden Spieler
+müssen ihre Karten zeigen oder aussteigen und die Karten verdeckt
+zurückgeben. Der Spieler mit dem besten Blatt (oder: der einzige
+verbliebene Spieler) gewinnt den Pot.
+Hier ist zu beachten, dass bei Paaren oder Drillingen die weiteren
+Karten (Kickerkarten) auch gelten. Beispiel: Der erste Spieler hat
+BBA23, der zweite Spieler hat BBA34, so sind beide Buben gleich hoch.
+Die erste Kickerkarte ist das Ass, und die zweite die 4. Somit hat der
+zweite Spieler bessere Karten.
+Haben mehrere Spieler gleich gute Karten, wird der Pot geteilt. Beide
+Spieler gewinnen gleich viel. (Split Pot) Bleiben Chips über, die
+nicht mehr geteilt werden können, bleibt das Geld für die nächste
+Runde im Pot.
+[] Rundenende
+Nachdem ein Spieler die Chips aus dem Pot gewonnen hat, endet die
+Runde. Der Dealerbutton wird eine Person weiter gegeben und
+kennzeichnet den Spieler, der als nächstes der Geber ist.
+[] Sidepot
+Der Side Pot (nicht zu verwechseln mit Split Pot) ist eine mögliche
+Option in einem Pokerspiel. Wenn ein Pokerspieler alle seine Chips
+setzen will, er also All In geht, jedoch mindestens zwei gegnerische
+Spieler über diesen Betrag setzen wollen, wird parallel zum Main Pot
+ein sogenannter Side Pot eingerichtet.
+=95	Beispiel: Spieler A setzt 100 Pokereuro, Spieler B hat nur noch 75
+Pokereuro, möchte mitgehen und geht somit All In. Somit wird ein Main-
+Pot von 75 Pokereuro gebildet und ein Side-Pot von 25 Pokereuro. Der
+Grund dafür ist, dass Spieler B kein Anrecht auf den Side-Pot hat.
+Auch wenn er die höchsten Karten hat, kann er diesen Pot nicht
+gewinnen, weil er dafür nicht bezahlen konnte.
+Alle anderen Spieler können ganz normal weiter spielen und auch
+erhöhen. Je 75 Pokereuro gehen in den Main-Pot und der Rest in den
+Side-Pot. Hat am Ende Spieler B die besten Karten, gewinnt er nur den
+Main-Pot. Hat Spieler A die zweitbesten Karten, gewinnt er den Side-
+Pot.
+[] Ausscheiden
+Hat ein Spieler keine Chips mehr, weil er All In gegangen ist, aber
+die Runde verloren hat, scheidet er aus dem Spiel aus und kann nur
+noch zuschauen. Mit einigen Zusatzregeln weiter unten kann dafür
+gesorgt werden, daß dieser Spieler nicht all zu lange nur Zuschauer
+ist.
+[] Taktiken
+Poker ist nicht schwer zu verstehen, um es richtig zu beherrschen,
+dazu brauchten selbst heutige Profis oft mehrere Jahre. Das liegt
+hauptsächlich daran, dass Poker eben kein pures Glücksspiel ist. Um es
+hier weit zu bringen, braucht man vor allen Dingen Geduld, gut
+dosierte Risikobereitschaft und die Fähigkeit, sowohl selbst andere zu
+täuschen als auch sich nicht von anderen täuschen zu lassen.
+Drei Dinge gibt es besonders zu beachten:
+=95	Übertreibe es niemals! =96 Bei all jenen netten Suggestiv-Spielereien
+ist es wichtig, auf die Dosis zu achten. Schauspielerst du zu viel,
+wirst du durchschaut und bist generell besser einzuschätzen.
+=95	Verlege dich nicht auf eine =84Taktik=93! =96 Wenn du jede Runde einen
+anderen Stil einschlägst, nicht zu oft bluffst, die Gegner bei
+=84offensichtlichen=93 Bluffs mit guten Karten beim Aufdecken überraschen
+kannst, dann werden sie auch das machen, was du willst. Spiel mal
+naiv, mal gewagt hoch und mal sehr vorsichtig.
+=95	Bedenke, dass du genauso getäuscht werden kannst! =96 Glaube nie, das=
+s
+du deine Gegner zu 100 % durchschaust. Im Zweifelsfall ist es oft
+ratsamer, den einen oder anderen Pot ziehen zu lassen, lass dabei aber
+nicht zuviel =84durchgehen=93. Riskiere etwas, um den Gegner zu
+offenbaren, auch hier ist die Balance gefragt.
+[] Bluffen
+Im Prinzip ist es (wie eben vieles bei Poker) ganz einfach: Spiel
+unberechenbar und vielseitig, dann kann man dich nicht durchschauen,
+und du kannst selbst aus schlechteren Händen das Maximum herausholen.
+Nehmen wir an, es wird der Flop aufgedeckt und darin liegen: König, 8,
+5. Alle Spieler setzen geringe Einsätze. Nun kommt der Turn und damit
+ein weiterer König. Hat man mühsam trotz schlechter Hand gecallt, ist
+es eine Überlegung wert (vor allem wenn man mit mehreren Anfängern
+spielt), vorzutäuschen, man besäße einen weiteren König. Man setzt
+also hoch und wird höchstwahrscheinlich einige damit aus der Runde
+vertreiben, im River folgt dann ein sehr hoher Einsatz, und spätestens
+dann steigen viele unerfahrene Spieler aus, da sie den Einsatz nicht
+riskieren und erst einmal =84vorsichtig=93 in das Spiel einsteigen wollen.
+Hier empfiehlt es sich, die ersten paar Runden weniger zu spielen und
+die Mitspieler zu beobachten und zu versuchen, ihre Spielweise und
+auch Bluffs zu erkennen.
+Auf der anderen Seite gilt es, eine gute Hand immer zu verbergen und
+im besten Fall einen Bluff vorzutäuschen. Auch ein gespielt
+halbherziger Einsatz oder ein leicht gequälter Blick bei Wetteinsätzen
+des Mitspielers; wenn sie nicht zu offensichtlich sind, können diese
+Details dem Gegner ein schlechtes Blatt auf deiner Hand suggerieren.
+Versuche also, eine Balance aus Bluffen und Wegwerfen, aus redselig
+und schweigsam genau so wie vorsichtigem und aggressivem Spiel zu
+schaffen. Du musst dem Gegner immer einen Schritt voraus sein, dann
+wirst du auch gewinnen.
+Im Folgenden sind ein paar Dinge oder Verhaltensweisen aufgeführt, die
+helfen können, dein Pokerface zu verbessern.
+Zum Antäuschen guter Karten:
+=95	calle/raise schnell und entschlossen (nicht übertrieben!), wenn du
+lange überlegst, um dann hoch zu wetten, offenbarst du deinen Bluff
+gewissermaßen.
+=95	demonstriere Gelassenheit und Zufriedenheit auf subtile Art und
+Weise (z.B. irgendein Gesprächsthema beginnen).
+Zum Antäuschen schlechter Karten:
+=95	Überlege lange =84ob es sich lohnt, hier zu callen=93, lass dich
+=84mitziehen=93.
+=95	Versuche einen Bluff vorzutäuschen, indem du halbherzig bzw.
+gespielt schlecht (Vorsicht, nicht zu viel!) recht hohe Beträge setzt
+(falls das nicht funktioniert und die Mitspieler aussteigen, weißt du
+in Zukunft Bescheid und kannst so aggressiver spielen, ohne überhaupt
+irgendwie Bluffen zu müssen).
+=95	Pass auf, dass du beim Anblick zweier guter Handkarten nicht rot
+wirst, deine Augen hüpfen oder deine Schlagader pocht, wer beim
+Austeilen der Handkarten die anderen geschickt beobachtet, kann durch
+diese sogenannten =84tells=93 das gegnerische Blatt selbst schon am Anfang
+der Runde abschätzen.
+=95	Wenn du merkst, dass dein Gegner ein gutes Blatt hat, du aber der
+Meinung bist, dass du ein besseres hast, kann ein gut gespielter
+schlechter Bluff im River in Form des All-Ins den Gegner oft
+herausfordern, ihn zu callen.
+[] Flushgefahr, Straßengefahr
+Oft übersieht man einen Flush oder eine Straße, weil man ganz intensiv
+auf eine bestimmte Karte oder Farbe hofft. Man sollte also stets
+darauf achten, ob andere einen Flush oder eine Straße haben könnten.
+[] Spielvarianten
+Wenn das Spiel einige Runden gelaufen ist und alle Spieler das Spiel
+komplett beherrschen, kann man das Spiel verändern, um es
+interessanter oder abwechlungsreicher zu machen. Die meisten dieser
+Regelungen dienen der Regelung der Spieldauer, so dass ausgeschiedene
+Mitspieler nicht mehr lange zusehen müssen oder der gemeinsame
+Pokerabend eine planbares Ende findet.
+[Blinderhöhung
+Sowohl der Small Blind als auch der Big Blind werden nach einer festen
+Anzahl von Runden oder nach einer festen Zeit erhöht. Die höheren
+Einsätze machen das Spiel interessanter und gerade, wenn sich nur noch
+wenige aktiv am Spiel beteiligen können schneller. So muss ein
+ausgeschiedener Spieler nicht allzu lange warten. Optimalerweise
+verdoppelt man die Zahlen, wobei 25/50 angenehmer als 20/40 ist, da es
+25er Chips gibt. Die Blinds können jederzeit erhöht oder verkleinert
+werden, je nachdem, wie lange eine Pokerrunde dauern soll.
+[] Dauerspiel
+Möchte man die Blinds nicht erhöhen, kann ein ausgeschiedener Spieler
+auch 1000 neue Pokereuro von der Bank bekommen. Es gewinnt dann der
+Spieler, der nach einer bestimmten Zeit die meisten Pokereuros hat.
+Hierfür kann es von Nöten sein, den Chip zu einem Pokereuro nach
+Konfiszierung durch die Bank in 1000 Pokereuros zu verwandeln. So sind
+genügend Pokereuro vorhanden. Das Spiel kann jedoch an Spannung
+verlieren, wenn ein Spieler zu viele Chips hat, damit sehr
+risikofreudig wird und letztendlich das Spiel lange dominiert.
+[Time collection
+Die Bank hebt von jedem Spieler jede Viertelstunde einen bestimmten
+Betrag ab. Optimalerweise 10 % der Startchips, und/oder 25 % nur von
+den besten drei Spielern oder das doppelte des Big Blinds von allen.
+Hiermit verringern die Spielchips im Umlauf und die Spielzeit verkürzt
+sich. Außerdem wird bei einem Dauerspiel unterbunden, dass ein Spieler
+zu viele Chips bekommt und somit das Spiel dominiert.
+[] Limits
+Es können verschiedene Limits für die Wettrunde gesetzt werden. Hat
+man z. B. zu viele risikofreudige Spieler, kann man die maximal
+erlaubte Erhöhung in der ersten und zweiten Wettrunde auf die Höhe des
+Big Blinds setzen und in der dritten und vierten Wettrunde auf den
+doppelten Big Blind. Zusätzlich beschränkt man eine Wettrunde auf
+maximal vier Erhöhungen, oder es darf nicht mehr erhöht werden, wenn
+man schon gesetzt hat.
+[] Fairplay
+[] Verbot von Checkraise
+Unter einem Checkraise versteht man, dass ein Spieler zunächst nur
+schiebt, um anschließend, falls ein anderer Spieler setzt, zu erhöhen.
+Diese Spielweise wird manchmal verboten, da sie von einigen Spielern
+als unehrliches Spiel aufgefasst wird. Der Spieler, der geschoben hat,
+darf in diesem Fall nur noch mitgehen.
+[] Disziplin
+Beim Poker ist Disziplin sehr wichtig. Jeder Spieler sollte warten,
+bis er an der Reihe ist. Setzt man vorher, gibt man anderen Spielern
+die Möglichkeit auszusetzen und gewinnt somit eventuell weniger.
+Natürlich darf der Spaß niemals leiden, aber ständiger Platzwechsel
+oder starke Abgelenktheit ist beim Poker von Nachteil.
+Auch sollten aussteigende Spieler niemals ihre Karten zeigen. Auch
+wenn sie damit zeigen wollen, wie schlecht ihre Karten sind. Dadurch
+daß somit Karten bekannt sind, erhöht sich die Berechenbarkeit für di=
+e
+anderen. Beispiel: Ich habe eine Dame auf der Hand und auf dem Tisch
+liegt keine Dame. Jemand der aussteigt wirft offen eine Dame auf den
+Tisch. Jetzt weiß ich, daß meine Dame mehr Wert ist, weil ja eine Dame
+weniger im Spiel ist. Wird jetzt eine Dame als 4. Karte aufgedeckt,
+sind meine Karten besser geworden was ungerecht ist.
+Es ist beim Pokern jederzeit erlaubt, das Spiel durch weitere Regeln
+zu erweitern. Auch nur kurzfristig. So kann man z. B. in einer Runde
+um den =84Laufburschen=93 spielen. Der schlechteste bei einem Showdown
+muss in den Keller und neue Getränke holen. Oder der nächste, der eine
+Straße hat, muss einmal um den Tisch laufen.
+[] Gefahren
+Wie jedes Spiel, das grob in die Kategorie der Glücksspiele
+einzuordnen ist, birgt auch Poker gewisse Suchtrisiken. Die weite
+Verbreitung und die einfachen Regeln geben Anfängern den Eindruck,
+dass es nicht schwer sei, Gewinn zu machen. Dieser Eindruck wird durch
+die scheinbar geringen Einsätze in Online-Casinos unterstützt. In
+Wahrheit können solche geringen Blinds aber schon zu großen Verlusten
+führen, und die Tatsache, dass der (Online-)Anbieter eine gewisse Höhe
+des Pots abzweigt, zeigt, dass der durchschnittliche Spieler nicht
+Geld gewinnt, sondern verliert.
+Auch sollte niemals um echtes Geld sondern nur um Jetons gespielt
+werden. Denn neben der Tatsache, dass Glücksspiel in Deutschland
+illegal ist, schwindet der Spaß sehr schnell, sobald einer verliert.
+Nicht umsonst gibt es das Sprichwort =84Bei Geld endet die
+Freundschaft=93.
+B.Lindloge =96 Author =96

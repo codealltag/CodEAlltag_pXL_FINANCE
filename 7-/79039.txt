@@ -1,0 +1,23 @@
+Es wird nur deshalb "unter den Tisch fallen gelassen", weil der
+Optionsschein eine entsprechende Auszahlungsstruktur hat. Bei einem Call
+ist der mögliche Gewinn (bei Kurssteigerungen) unbegrenzt, der mögliche
+Verlust (bei Kursverfall) jedoch begrenzt, nämlich mit dem Preis der
+Option, da du diese ja nicht ausüben _musst_. Wegen dieser Asymmetrie
+sind Optionen auf Wertgegenstände, von denen der Markt starke
+Preisschwankungen erwartet, teurer.
+
+Optionenbewertung ist eine sehr komplexe Sache. Problematisch ist die
+Teilnahme an Derivativ-Märkten immer dann wenn (a) der Marktteilnehmer
+keine Ahnung von der Bewertungstheorie hat (ist bei den meisten
+Kleinspekulanten der Fall), weil der Markt insbesondere bei den
+aufgesplitteten Optionsscheinen meist so klein ist, dass man nicht davon
+ausgehen kann durch die Aktivitäten von Arbitrageuren zu einem fairen
+Preis bedient zu werden. (b) vertrauen manche blind den Formeln
+(Black/Scholes usw.) ohne das dahinterstehende ökonomische Modell zu
+verstehen. Um es überspitzt zu sagen: die Annahme, man könne aus
+historischen Volatilit�tsdaten auf zukünftige Volatilität schließen, ist
+genauso naiv wie die Annahme: Weil eine Aktie im letzten Jahr
+outperformt hat, wird dies auch heuer wieder geschehen.
+
+Gruss
+Vito

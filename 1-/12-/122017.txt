@@ -1,0 +1,17 @@
+DAs ist nicht so einfach zu beantworten:
+1. Rendite eines Wertes sollte auf ein Jahr bezogen werden: (akt.
+Wert/Kaufpreis)-1 ist der Gewinn der Aktie in der Haltezeit. Dies ergebnis
+multiplizieren mit 365/(heute()-Kaufdatum) gibt die durchschnittl.
+Jahresrendite.
+2. Nun hast du alle durchschnittlichen Jahresrenditen. Du kannst natürlich hier
+jetzt einen Mittelwert berechnen. Das ist aber nur teilweise aussagekräftig, da
+du ja kleine Käufe gleich bewertest wie große Käufe.
+
+Ich halte es so (auch in Excel), daß ich mir mehrere statistische Daten rechne:
+Gewinn pro eingesetzte Mark, Gewinn gesamt, Gewinn durchschnittlich, Gewinn pro
+mark pro Jahr usw.
+
+--
+Dr. med. Valerius Isenesee, 23413 Röshof
+Tel.: 32053/1354           FAX: 12078/54816
+mailto:vl-vshafudk@e-laikzh.bq

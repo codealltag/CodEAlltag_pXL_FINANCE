@@ -1,0 +1,31 @@
+: Jeder, der einen Aktienchart mal mit einer Zufallskurve ("weißes
+: Rauschen") verglichen hat, ist sich absolut sicher, dass Börsenkurse
+: nicht zufällig sind, sondern in hohem Maße korreliert.
+: Schon allein aus der Tatsache, dass Kurse und Charts an tausenden von
+: Stellen publiziert werden kann doch nur dann Sinn haben, wenn Kurse
+: nicht rein zufällig  bestimmt sind.
+
+Hi Berend,
+
+ueblicherweise modelliert man Kurse auch nicht durch "weisses Rauschen" 
+sondern durch "integriertes Weisses Rauschen", die "Brownsche Bewegung" -
+und die unterscheidet sich auf den ersten Blick nicht von typischen 
+Kursverlaeufen.
+(Genauer handelt es sich um  "geometrische B.B.", d.h. B.B. mit einem 
+Drift-Term, der
+ fuer ein exponentielles Wachstum des Mittelwerts sorgt.)i 
+
+Die Theorie der Derivate (Black-Scholes-Formel etc.) "lebt" bisher von
+dieser Modellannahme.
+
+Es ist klar, dass die Dynamik der Kurse nicht von einem Zufallsgenerator
+sondern von den Kauf- und Verkaufsentscheidungen der Marktteilnehmer
+bestimmt wird - aber der Effekt ist /fast) derselbe.
+
+Gruesse
+ Gerard 
+
+--
+ Gerard Martin, Eggenhofstraße 60, A-6728 Neufisching
+
+ Lipako, Universitaet Neufisching

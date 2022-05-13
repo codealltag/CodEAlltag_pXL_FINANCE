@@ -1,0 +1,27 @@
+Hallo
+
+
+*kicher*
+
+Ich staune, wieviel ich mit meiner schlichten Eingangsfrage ausgelöst habe.
+
+Aber ich habe vielleicht falsche Vorstellungen von Arbitrage. Selbst habe 
+ich nämlich noch keine gemacht.
+
+Was mir vorschweben würde - wenn es denn funktionieren täte - ist z.B. 
+Folgendes:
+
+Strategie: verkaufte Box
+
+Transaktionen:
+- Kauf Call, Strike B, Verfall C
+- Schreiben Call, Strike A, Verfall C
+- Kauf Put, Strike A, Verfall C
+- Schreiben Put, Strike B, Verfall C
+
+wobei Strike A < Strike B
+
+Der Aufbau einer solchen Position ergibt unter dem Strich erstmal ein 
+Guthaben. (Oder irre ich mich?)
+
+Gerold

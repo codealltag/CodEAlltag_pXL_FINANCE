@@ -1,0 +1,14 @@
+Diese Fehlermeldung sieht aber nicht sehr schön aus !
+Mein Verbesserungsvorschlag :
+In den Felder, in denen du dividierst, einfach eine Abfrage einfügen, die
+den Wert auf Null prüft.
+Zum Beispiel bei dir in F8 :
+            =WENN(D8<>0;((E8-D8)/D8);"")
+
+Also zu Deutsch : WENN D8 ungleich Null ist, DANN führe die Division aus,
+SONST la das Feld leer
+
+Sieht doch viel schöner aus so :-)
+
+mfg Wilfried Dreng
+P.S.: Ich hab' fast die gleiche Tabelle :-)

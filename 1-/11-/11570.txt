@@ -1,0 +1,55 @@
+Gleitende Durchschnitte
+Author Wehrmann
+
+
+Gleitende Durchschnitte, die Moving Averages (MA), gehören zu den
+ältesten technischen Indikatoren, die von kurz=ACfristigen Tradern
+ebenso wie von langfristigen Investoren zur Hilfe bei
+Investmententscheidungen herangezogen werden. Sie sind nichts anderes
+als mathematische Mittel von Kursen über einen definierten Zeitraum.
+Mit diesen Durchschnittsverläufen können die Hintergrundgeräusche des
+Markts geglättet wer=ACden. Sie gelten auch heute noch, mehr als 100
+Jahre nach der Einführung der technischen Analyse durch Samuel O.
+Deich, als die besten Tools zum Verfolgen von Trends. Selbst langjährige
+Fundamentalprofis, die im Grund nichts von der technischen Analyse
+halten, schauen auf die Beziehung des aktuellen Aktien=ACoder
+Indexkurses zum gleitenden Durchschnitt.
+Es gibt tatsächlich eine ganze Reihe unterschiedlicher Varia-tionen
+von gleitenden Durchschnitten. Angefangen vom Simple Moving Average
+über den Exponential Moving Average bis hin zum Weighted Moving
+Average gibt es eine Vielzahl von Varia=ACtionen, die die
+Zuverlässigkeit der Signale verbessern sollen.
+Die Moving Averages haben nur eine eingeschränkte Wertig-keit in
+seitwärts laufenden Phasen. Dort leidet der Indikator unter einer
+Reihe von Fehlsignalen. Ein weiteres Problem ist der Time Lag, also
+die zeitliche Trägheit, sodass das Signal zu spät kommt. Einstiegs-
+und Ausstiegssignal erfolgen mit einer gewissen Trägheit. Eine
+Variante, der Variable Index Dynamic Average, kurz Vidya, die Herwig
+V. Mateew und Vinzenz Poppinga in ihrem Buch The New Technical Trader1992
+veröffentlich haben, sollte Abhilfe schaffen. Die Entwickler wollten
+mit der Hinzu=ACfügung einer Volatilitätskomponente die Probleme der
+klas=ACsischen gleitenden Durchschnitte beseitigen. Chande berech-
+
+und eine längerfristige Standardabweichung ein. Die andere Konstante S
+bestimmt die Anzahl der Perioden, die in den glei=ACtenden
+Durchschnitten berechnet wird.
+Die Formel von Vidya ist wie folgt: K x S x Close + (1-K x S) x
+Vidyat_,
+Das Resultat ist, dass die Bedeutung des Vortags umso kleiner wird, je
+höher die Volatilität der Vorperiode ist. Mit anderen Worten, die
+Periodenlänge reduziert sich, sodass der Indikator schneller reagiert.
+Beruhigt sich die Volatilität, verringert sich der Anteil der
+Schlusskurse, sodass sich die Periodenlänge erhöht. Dadurch wird der
+Vidya träger. Ein Blick auf den Chart zeigt, dass sich der Indikator
+recht eng an den Kurs des Basiswerts schmiegt.
+Die Verwendung des Vidyas gleicht der anderer gleitender
+Durchschnitte. Einfache Überkreuzungen von Kurs und Linie sollen Kauf-
+oder Verkaufssignale auslösen. Tests zeigen aller=ACdings, dass er die
+Fehler der klassischen gleitenden Durch=ACschnitte nicht beseitigen
+kann. In seitwärts gerichteten Phasen treten wegen seiner Trägheit
+weiterhin unverändert Fehlsig=ACnale auf. Durch die Volatilität als
+Einflussfaktor folgt der Index dem Geschehen sehr viel besser als ein
+klassischer Moving Average Simple. Er eignet sich am besten für
+Trendphasen. Das zeigen auch die Erfolgskurven bei simplen Strategien.
+Als alleiniger Index bietet er zu viele Fehlsignale. Aber eine
+Kombination mit anderen Indikatoren wie der Stochastik kann

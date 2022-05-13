@@ -1,0 +1,60 @@
+Ok, hier ist mein Senf  ... und ich bilde mir ein, (im vierten Anlauf)
+die richtige Lösung mit den mathematisch korrekten
+Wahrscheinlichkeiten gefunden zu haben:
+
+1. 
+Die 50:50 - Fraktion läßt unberücksichtigt, daß es sich um ein Spiel
+mit zwei _zusammenh�ngenden_ Zügen handelt. Der zweite und letzte Zug
+hat - für sich betrachtet - in der Tat eine Wahrscheinlichkeit von
+jeweils 0,5, entweder eine Ziege oder das Auto zu erwischen. Eine
+Ziege ist aus dem Rennen, es bleibt also die Wahl zwischen einem Auto
+und der verbleibenden Ziege. Für jedes Ereignis ist die
+Wahrscheinlichkeit 0,5 - völlig klar. 
+Leider war genau das _nicht_ gefragt. 
+
+2. 
+Gefragt war dagegen, ob sich ein Wechsel lohnt. In dieser
+Fragestellung liegt die Begründung (und m.E. auch die zwingende
+Notwendigkeit), den 1. Zug mit in die Berechnung einzubeziehen. Ein
+Wechsel setzt eine erste Entscheidung voraus. Wie hoffentlich gleich
+klar wird, liegt die günstige Wirkung eines Wechsels bereits im ersten
+Zug begründet. 
+
+3. 
+Wahrscheinlichkeitsbaum:
+
+	1. Zug		2. Zug (Wechsel: J/N)
+
+		----->	Wechsel = A (1/2)	Gesamt 2/6
+  -->	Z (2/3)  
+		----->	k. Wechsel = Z (1/2)	Gesamt 2/6
+
+
+		----->	Wechsel = Z (1/2)	Gesamt 1/6
+  -->	A (1/3) 
+		----->	k. Wechsel = A (1/2)	Gesamt 1/6
+
+
+(Da bei einem solchen Spielaufbau die Einzelwahrscheinlichkeiten der
+beiden Züge multipliziert werden, um die Wahrscheinlichkeit für das
+jeweilige Endergebnis zu bekommen, setze ich als bekannt voraus...)
+
+Es wird deutlich, daß man bei der Entscheidung, die Tür zu wechseln,
+mit einer Wahrscheinlichkeit von 2/6 das Auto erwischt, während man
+mit einer Wahrscheinlichkeit von 1/6 die Ziege bekommt. Die Chance,
+das Auto zu bekommen, verdoppelt sich also durch den Wechsel. 
+(Und umgekehrt: Wer bei seiner ersten Entscheidung bleibt und nicht
+wechselt, erhält mit der Wahrscheinlichkeit von 2/6 eine Ziege und mit
+1/6 das Auto.)
+
+4.
+Die "logische" Begründung für den Wechsel liegt, wie schon gesagt,
+bereits im ersten Zug. Dort erhalte ich mit größerer
+Wahrscheinlichkeit (66,6%) eine Ziege. Da ich demnach also vor dem
+zweiten Zug wahrscheinlich "auf einer Ziege sitze", ist es günstig, zu
+wechseln!
+
+
+Müh!
+
+Engelbert

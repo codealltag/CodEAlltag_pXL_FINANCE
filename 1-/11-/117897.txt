@@ -1,0 +1,25 @@
+Das ist relativ einfach:
+es gibt verschiedene Splitfaktoren, z.B. a) bei echten Splits 1:10
+oder 1:2, 1:3, 1:4 usw.
+es gibt aber auch immer wieder b) Splitfaktoren bei Bezugsrechten, wo
+dann mal 0.9987 oder aehnlich herauskommt. (KR-Autoservice-Anwender: siehe
+Datei SPLIT.LOG im Verzeichnis PROT).
+Bei solchen Minifaktoren (-die bei anderen Datenanbietern z.T. ganz
+unter den Tisch fallen) ist es nicht gewuenscht, Gewinn und Dividende
+mit dem Minifaktor anzupassen.
+Das Datenformat sieht im Block FAKTOR nur vor, die Kursdaten
+anzupassen, denn es das Programm "weiss" nicht, ob Splitvariante a)
+oder b) vorliegt, es bekommt nur eine Zahl.
+Fuer die Stammdaten gibt es also bei Gewinnanpassungen immer einen
+separaten Stammdaten;Aendern-Block.
+Wir bedauern ja auch, dass einige KR-Autoservice-Anwender ohne unser
+KR-Autoservice-Abo dann etwas benachteiligt sind, aber das kann ja jeder mit
+einem kleinen Anruf und einer Datenbestellung bei uns aendern...
+
+-------------------------------------------------------------------------------
+Bruno Opwis
+OpwisWingen GmbH, Werbellin
+Tel. 4373-3704997
+Fax: 8491-1332894
+mailto:ZMsmv@fw-tgzkepek.jm
+http://lqn.gt-mbhrditz.xr

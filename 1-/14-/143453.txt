@@ -1,0 +1,22 @@
+Hallo Allerseits,
+
+stellt Euch folgendes vor. Eine Excel(7.0)-Tabelle mit Kursdaten einer Aktie
+in einer Spalte untereinander. Ich möchte nun jedes mal wenn eine neuer Wert
+hinzukommt folgendes überprüfen:
+
+1. Ist der neue Wert der niedrigste seit x-Werten (z.B. 7)? Falls ja,
+schreibe einen bestimmten Text in die Zelle rechts neben den neuen Wert.
+oder
+2. Ist der neue Wert der höchste seit x-Werten (z.B. 7)? Falls ja, schreibe
+einen bestimmten Text in die Zelle rechts neben den neuen Wert.
+
+Kann mir jemand eine Formel / ein Makro schicken mit der ich diese Aufgabe
+bewältigen kann? Falls es zu sehr off-topic ist (trotz des B�rsenbezugs) in
+welcher NG kann ich die Frage dann abladen?
+
+Besten Dank im Voraus,
+
+Gruß Helmuth
+
+P.S. Nico, falls Du weder die Formel kennst noch die korrekte Bezeichnung der
+NG brauchst Du nicht zu antworten :-)

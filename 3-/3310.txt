@@ -1,0 +1,131 @@
+Trading Tradingsystem True Range SelMcKenzie Zänkner
+Video http://npj.cgwjvij.jaq/cxtry?o=8Wh1Dt3ntjm6o
+
+Author M.Zänkner
+Schwankende Marktbewegungen können den Handel stark beeinflussen.
+Trader sollten ihre Strategie an die jeweilige Situation anpassen. Die
+Average True Range hilft dabei.
+
+
+Das Ausmaß der Marktbewegungen, auch Volatilität ge-nannt, ändert sic=
+h
+ständig. Manchmal schwanken Aktien-kurse kaum, manchmal besonders
+stark. Das beeinflusst den Handel erheblich.Trader können
+dieseTatsache berück-sichtigen, indem sie Schwankungen anhand der
+Average True Range bei der Bestimmung der Positionsgröße ein-beziehen.
+Damit passen sie sich automatisch dem Markt-umfeld an.
+Die wahre Schwankung
+Average True Range heißt auf Deutsch =84durchschnittliche wahre Spanne':
+Sie gilt als Gradmesser für die Volatilität, also die
+Schwankungsbreite eines Marktes. Als Range wird die Spanne zwischen
+Hoch und Tief an einem Handelstag
+bezeichnet. Eröffnet der DAX bei=ACspielsweise bei 5500 Punkten, steigt
+dann im Hoch auf 5570 und fällt schließlich auf 5430, um dann wieder
+zu steigen und bei 5535 zu schließen, so beträgt die Spanne 140 Punkte
+=97 die Differenz zwischen Hoch und Tief (5570 - 5430). Eröffnungs- und
+Schlusskurs spielen bei der Range keine Rolle.
+Um die Average True Range (ATR) zu erhalten, ist es entscheidend, dass
+die Meinungsbildung an den Märk=ACten nicht ausschließlich während de=
+r
+offiziellen Handelszeiten geschieht. Im Gegenteil: Dieser Prozess
+findet Bi )ATR beim DAX gerade in den Zeiten statt, in denen die
+Börsen geschlossen haben. Dies findet dann im Eröffnungskurs
+Aus=ACdruck, was oft in Kurslücken (soge-nannten =84Gaps") resultiert.
+Wenn der DAX zum Beispiel gestern bei 5500 Punkten schloss und heute
+bei 5535 er-öffnet, tendiert die Börse offensichtlich über Nacht
+posi=ACtiv. Die Marktteilnehmer sind kollektiv bereit, für den Index
+mehr zu zahlen als am Vortagesschluss.
+Wird diese Übernacht-Kursveränderung einbezogen, ergibt sich die
+sogenannte ,;True Range'! In einem zweiten Schritt kann die
+AverageTrue Range, also die durchschnitt=ACliche True Range etwa der
+vergangenen 14 Tage, in der Standardeinstellung als Durchschnittswert
+der True Range über einen Zeitraum von 14Tagen berechnet werden.
+Berechnungsregeln
+Konkret berechnet sich die True Range als jeweils größter aus
+folgenden drei Werten: Die Distanz vom heutigen Hoch zum heutigen
+Tief, die Distanz vom gestrigen Schluss zum heutigen Hoch und die
+Distanz vom gestrigen Schluss zum heutigen Tief.
+Diese drei Werte sind in der ersten Grafik sichtbar. Dabei beschreibt
+Buchstabe D jeweils die größte der drei Span=ACnen. Bei D1 reicht die
+Tagesspanne in die Spanne des Vor=ACtages und ist in diesem Fall größer
+als die beiden anderen Werte der ATR-Berechnung. Daher entspricht
+dieTrue Range bei D1 derTagesspanne. Bei D2 und D3 sind Lücken
+entstan=ACden, die bei der Berechnung der True Range berücksichtigt
+werden. Bei D2 ist der Abstand zwischen dem Schlusskurs des Vortages
+und dem Hoch des aktuellen Tages der größte der drei Werte, bei D3 die
+Distanz zwischen dem Schlusskurs des Vortages und dem Tief des
+aktuellen Tages.
+Während der Standard-Glättungsperiode von 14Tagen entsteht mit der
+Zeit ein Verlauf der ATR. In Bild 1 ist ein solcher ATR-
+Indikatorverlauf für den Chart des DAX dar-gestellt. Die Skala auf der
+rechten Seite im unteren Chart-abschnitt zeigt die Werte der ATR in
+Punkten. Es ist deut=AClich zu erkennen, wie stark derWert der ATR
+variieren kann. Vor allem bei starken Kurseinbrüchen erhöht sich die
+ATR, während sie bei längeren Aufwärtsbewegungen typischer-weise
+fällt. Das liegt daran, dass vor allem die großen Ab=ACwärtsbewegunge=
+n
+meist viel schneller verlaufen als ver=ACgleichbare Aufwärtsbewegungen.
+Zum Beispiel lag die ATR beim DAX im April 2010, als es zu dem
+verheerende Erdbeben und der Atomkatastro-phe in Japan kam, in der
+Spitze bei über 150 Punkten. In der anschließenden Erholung fiel die
+ATR im April auf rund 80 Punkte zurück. Das zeigt, wie stark sich die
+Schwan=ACkungsbreite der Märkte in vergleichsweise kurzen Zeiträu=ACmen
+ändern kann. Daher ist es für Trader besonders wich=ACtig, den Faktor
+Volatilität in das Trading einzubeziehen und die Positionsgröße sowie
+den Abstand des Stopps daran auszurichten.
+Sinnvolle Stopps
+Viele Trader bestimmen ihre Positionsgröße anhand des Stopp-Levels, an
+dem der Trade im Verlustfall glattgestellt wird. Aber auch die ATR
+könnte sich anbieten, um die Posi=ACtionsgröße zu bestimmen.
+Das lässt sich anhand eines Beispiels verdeutlichen: Ein Trader, der
+200 Euro je Trade riskieren möchte, kann etwa 200 Stück eines
+Hebelprodukts kaufen, wenn sein Stopp-Kurs beim Hebelprodukt einen
+Euro vom Einstieg entfernt liegt. Wählt der Trader einen anderen Stopp-
+Kurs, verän=ACdert sich die Anzahl an Hebelprodukten, die für das
+gleiche Risiko von 200 Euro gekauft werden können. Ist der Markt zum
+Beispiel gerade ruhig und das Risiko damit gering, könnte ein Stopp
+von 0,50 Euro ausreichen. Das ergibt 400 Stück als Positionsgröße. Be=
+i
+hoher Volatilität und damit hohem Risiko wäre zum Beispiel ein Stopp
+von zwei Euro
+
+Punkte
+angemessen, was eine Positionsgröße 7500	von 100 Stück ergibt.
+Das entscheidende Kriterium
+7400
+für die Positionsgröße ist damit das
+7300	Stopp-Niveau. Allerdings ist grund
+7200	sätzlich zu beachten, dass der Stopp
+nicht zu nahe am aktuellen Kurs liegt,
+7100	da Trader sonst zufällig ausgestoppt
+7000	werden können. Zugleich sollte der
+Stopp aber auch nicht zu weit ent
+ATR	fernt sein, da sonst das Potenzial
+50	des Trades nicht attraktiv ist. Die ATR
+bietet ein Hilfsmittel für Trader, um Stopps möglichst sinnvoll anhand
+der gerade vorherrschenden Volatili=ACtät zu platzieren. Grundsätzlich
+wird derjenige ATR-Wert verwendet, der sich auf der Zeitebene des
+tatsäch=AClichen Trades ergibt. Wenn ein Trader zum Beispiel nach
+Signalen auf dem 1-Stunden-Chart han=ACdelt, ist die ATR der Kursbalken
+über 14 Stunden die Refe=ACrenz zur Stoppsetzung.
+Bestimmung der Positionsgröße
+Bild 2 verdeutlicht, wieTrader anhand der ATR Stopps set=ACzen und
+darauf basierend ihre Positionsgröße bestim=ACmen können. Um das
+Beispiel möglichst einfach zu hal=ACten, sind ein Long Trade bei
+Ausbruch des DAX über sein Vortageshoch sowie ein
+ShortTrade bei Ausbruch des DAX unter sein Vortagestief dargestellt.
+Der Stopp sollte min=ACdestens um den ATR-Wert vom aktuellen Kurs des
+Basis=ACwertes entfernt liegen.
+Als Beispiel: Ein Trader handelt mit einem Konto von
+10000 Euro und möchte pro Trade zwei Prozent seines
+Kapitals riskieren, was ohne Beachtung von Transaktions
+kosten 200 Euro entspricht. Für den
+Long Trade am 26. Juli 2010 wählt
+er einen fiktiven WAVE Call mit Ba
+sispreis 7000 Punkte. Kurz nach der
+Eröffnung bricht der DAX über das
+Vortageshoch von 7320 Punkten
+aus und der WAVE Call notiert bei
+3,40 Euro. Der Trader möchte nun
+zu 3,40 Euro kaufen. Um die opti
+male Anzahl an WAVEs für seinen

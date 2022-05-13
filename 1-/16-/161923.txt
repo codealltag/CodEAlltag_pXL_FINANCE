@@ -1,0 +1,44 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Mario
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12) *
+Momentum                             (13) *
+Coppock                              (14) *
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11) *
+Trendkorrelations-Analyse            (10) *
+Volatilitaet                         (9) *
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+MarketMaker Boersensoftware
+
+
+Der coppock-Indikator gibt mittel- bis langfristige Signale. Es vergleicht  
+die Schluskurse eines bestimmten Intervalls (z.B. 30 Tage) ueber die  
+gewaehlte Anzahl von Intervallen (z.B. 10). Der Indikator schwankt um eine  
+Nullinie, wobei nicht der Durchbruch, sondern eines Drehung des Indikators  
+unterhalb der Linie als Signal (Trendwechsel) gewertet wird. Dieses gilt  
+natuerlich auch oberhalb der Nullinie, was dann als Warnsignal betrachtet  
+werden kann.

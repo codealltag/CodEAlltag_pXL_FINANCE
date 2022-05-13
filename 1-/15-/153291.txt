@@ -1,0 +1,182 @@
+unter
+http://kzryfzo.wyt.vpc/bxxrjw
+findest man ein Windows-Gratisprogramm (Modern
+Speculator Junior) fuer Optionen/OS, Anleihen und
+Futures mit Handbuch, wo das alles erklaert wird.
+
+Hieraus nun ein Auszug aus der Futurebeschreibung, mit freundlicher
+Genehmigung des Betreibers der genannten Homepage.
+
+
+Futures:
+
+Futures sind die Urform aller Terminkontrakte: Heute
+wird ein fester Vertrag ueber eine spaetere Leistung geschlossen,
+wobei Preis, Liefertermin und sonstige Konditionen schon heute
+verbindlich festgelegt werden. Futures sind ein sehr wichtiges
+Boerseninstrument und werden z.B. an der DTB in standardisierter
+Form und in grosser Stueckzahl gehandelt (nicht standardisierte
+Futures werden uebrigens oft als "Forwards" bezeichnet). Einige
+Beispiele in den folgenden Kapiteln.
+
+
+4.1 Index Futures Es ist Januar und der DAX steht bei 1500 . An
+der DTB werden Vertraege (Futures-Kontrakte) ueber Lieferung des
+DAX im Juni zu einem Preis von 1550 gehandelt.  Auf den ersten
+Blick mag dieses Geschaeft etwas an eine einfache DAX-Option
+erinnern, aber der grosse Unterschied ist, dass es sich bei
+Futures um feste Vertraege handelt. Der Inhaber einer Option kann
+seine Option ausueben, er muss es aber nicht. Im schlimmsten Fall
+hat er den Kaufpreis der Option verloren.
+
+Futures dagegen sind bindend. Der Verkaeufer muss im Juni den DAX
+zu 1550 liefern, auch wenn der DAX dann bei 3000 steht. Und der
+Kaeufer muss im Juni den DAX zu 1550 abnehmen, auch wenn der DAX
+dann auf 500 gefallen sein sollte.  Das Risiko bei Futures ist
+also auf den ersten Blick wesentlich hoeher als bei Optionen.
+Tatsaechlich gibt es aber auch bei Futures eine einfache und
+sichere "Notbremse":
+
+Jedes Geschaeft kann jederzeit durch das entsprechende
+Gegengeschaeft glattgestellt werden. Wer 1 Kontrakt zur Lieferung
+eines DAX im Juni verkauft hat, der braucht spaeter nur einen
+ebensolchen Kontrakt zu kaufen, und er hat seine Position
+neutralisiert. Und wer solche Kontrakte gekauft hat, der kann
+durch einen entsprechenden Verkauf jederzeit wieder aussteigen.
+Die weitaus meisten Kontrakte werden vor Faelligkeit des
+Kontrakts durch ein derartiges Gegengeschaeft glattgestellt.
+Natuerlich werden alle Kaeufe oder Verkaeufe von Futures-Kontrakten
+immer zum dann gerade gueltigen Futures-Boersenkurs abgerechnet,
+und dieser schwankt erheblich. Dadurch ergeben sich
+entsprechende Gewinne oder Verluste.
+
+Der eigentliche Reiz der Spekulation mit Futures liegt darin,
+dass beim Eingehen eines Futures-Kontraktes immer nur eine
+relativ geringe Anzahlung ("Einschuss" oder "Margin") zu leisten
+ist. Bezogen auf diesen effektiven Kapitaleinsatz koennen sich
+enorme Gewinne ergeben, oder natuerlich auch Verluste. Beispiel:
+
+Im Januar steht der DAX bei 1500 und wir kaufen fuer 1550 1
+Future-Kontrakt zur Lieferung von 1 DAX im Juni. Anzahlen muessen
+wir aber nur 150 . Im April steht der DAX bei 1750 und der Wert
+des Kontrakts liegt bei 1780. Wenn wir den Kontrakt jetzt wieder
+verkaufen haben wir 230 verdient (1780 - 1550). Bezogen auf
+unseren Kapitaleinsatz (Anzahlung) von 150 ist das ein Gewinn
+von ca 153% (die Anzahlung bekommen wir beim Verkauf natuerlich
+wieder zurueck).
+
+Da wir nun einen Kursrueckschlag erwarten, verkaufen wir jetzt
+gleich noch einen Future-Kontrakt Juni fuer 1780 . Tatsaechlich
+faellt der DAX, und im März liegt der Wert des Kontrakts bei 1610
+. Nun stellen wir unsere Position durch den Kauf (d.h. Rueckkauf) eines Juni-Kontrakts zu 1610 glatt, und wir haben weitere 170 verdient (1780-1610).
+
+(Der angenehmeren Optik wegen haben wir hier Beispiele mit
+Gewinnen gewaehlt. Sie sollten aber nie aus den Augen verlieren,
+dass man auch ebenso einfach verlieren kann. Sie brauchen sich
+bloss einmal in die Rolle des "Gegners" bei diesen Beispielen zu
+versetzen.)
+
+Einige weitere Unterschiede zwischen Optionen und Futures:
+
+- Bei Optionen muss nur der Stillhalter eine Margin
+(Sicherheits-leistung) hinterlegen; der Kaeufer der Option
+dagegen nicht. Bei Futures muessen grundsaetzlich beide Seiten,
+d.h. Kaeufer und Verkaeufer eines Kontrakts einen Einschuss
+(Anzahlung) hinterlegen. Entwickelt sich eine Future-Position
+gar unguenstig, so muss der betroffene Anleger sogar einen
+"Nachschuss" leisten, d.h. er muss den Einschuss aufstocken, oder
+seine Position wird sofort zwangsweise glattgestellt.  Die Angst
+vor solchen Nachforderungen mag der Grund dafuer sein, dass
+Privatanleger im allgemeinen den Kauf von Optionen vorziehen.
+Futures werden ueberwiegend von professionellen Anlegern
+eingesetzt.
+
+- Bei Optionen gibt es vier Grundmoeglichkeiten: Kauf Call,
+Verkauf Call, Kauf Put, Verkauf Put. Und das Ganze dann jeweils
+noch mit vielen verschiedenen Basiskursen (Bezugskursen) und
+Ablaufterminen. Futures sind dagegen wesentlich einfacher: Es
+gibt nur eine Kontraktart, die man kaufen oder verkaufen kann.
+Bezugskurse sind nicht noetig, da sich der Kontrakt ja direkt auf
+den orginal DAX-Stand bezieht. Es gibt lediglich verschiedene
+Ablauftermine (Liefertermine).
+
+- Auch die Berechnung fairer Kurse fuer DAX-Futures-Kontrakte ist
+verblueffend einfach: Ausgangspunkt ist jeweils der aktuelle
+DAX-Stand. Hinzu kommt als Zuschlag der Zinsvorteil, den der
+Kauf des DAX-Futures gegenueber dem direkten Kauf des DAX bietet.
+Beispiel:
+
+Der DAX steht bei 1500, und Faelligkeitstermin des Futures ist
+genau in 6 Monaten. Der Marktzins fuer eine 6-Monatsanlage
+betraegt 8%. Als Einschuss fuer den Future sind 200 zu leisten.
+Gegenueber dem sofortigen Kauf des DAX zu 1500 ist das eine
+Ersparnis von 1300, und dieser Betrag kann fuer 1/2 Jahr zu 8%
+angelegt werden. Das bringt 52 .
+
+Diese 52 werden zum aktuellen DAX-Stand von 1500 addiert, und es
+ergibt sich ein fairer Preis fuer den Future von 1552 . Und wenn
+als Einschuss verzinsliche Anlagen wie z.B. Rentenwerte
+hinterlegt werden koennen, was meistens der Fall ist, dann
+braucht nicht einmal der Einschuss abgezogen zu werden, sondern
+der Zinsvorteil kann auf den gesamten DAX-Stand berechnet
+werden. Im Beispiel waeren das 60, so dass der faire Preis des
+Futures bei 1560 laege.
+
+Die Preisdifferenz zwischen aktuellen DAX-Stand und Future wird
+meistens als "Basis" bezeichnet. Rein theoretisch koennte diese
+Basis auch durch spekulative Erwartungen ueber die zukuenftige
+Kursentwicklung vergroessert oder verkleinert werden, aber in der
+Praxis sorgen Arbitragegeschaefte dafuer, dass der tatsaechliche
+Preis des Futures fast immer recht nahe am theoretisch fairen
+Preis liegt.
+
+(Bei einer zu breiten Basis koennten Arbitrageure den echten DAX
+zum heutigen Tageskurs wirklich kaufen, z.B. in Form von
+DAX-Scheinen, eines entsprechenden Aktienpaketes, oder
+synthetisch (vgl. das im Handbuch), diesen DAX dann als Future
+wieder verkaufen, und dabei eine sichere Rendite ueber dem
+Marktzins verdienen. Deshalb werden solange Arbitragegeschaefte
+stattfinden, bis die Basis wieder ziemlich genau dem Zinsvorteil
+entspricht.)
+
+Und sollte die Preisdifferenz tatsaechlich einmal deutlich
+niedriger liegen als aufgrund des Zinsvorteils eigentlich
+angebracht, so kann der Kauf dieses DAX-Futures auch fuer
+Privatanleger sinnvoll sein, wenn diese sowieso gerade auf den
+DAX spekulieren wollen, sich aber noch nicht im Klaren darueber
+sind, welches Instrument (DAX-Scheine, Optionen, Futures, etc.)
+dazu zur Zeit am guenstigsten ist.
+
+Wie Optionen so koennen auch Futures entweder einfach zur reinen
+Spekulation oder aber begleitend zu einem groesseren
+Wertpapierdepot eingesetzt werden. Zur Absicherung eines
+Aktiendepots werden z.B. DAX-Futures verkauft. Fallen die Kurse
+dann, so gleichen die Gewinne aus den Futures die Verluste aus
+dem Aktienbestand aus. Das ist einfacher und billiger, als
+wirklich Aktien zu verkaufen, denn z.B. die Bank- und
+Boersenspesen liegen bei Futuregeschaeften weit guenstiger.
+
+Konkrete Details der DTB-DAX-Futures: Ein Kontrakt bezieht sich
+auf DM 100 je DAX-Punkt, d.h. auf 100 mal den DAX, also z.B. DM
+150.000 bei einem DAX-Stand von 1500 . Bei Faelligkeit wird die
+Differenz bar ausgeglichen; eine echte "DAX-Lieferung" ist weder
+erwuenscht noch notwendig. Es gibt Future-Kontrakte mit
+Ablaufdatum Maerz, April, Juli, Oktober, und zwar jeweils am
+3.Freitag. An der DTB werden immer 3 verschiedene Ablaufdaten
+gleichzeitig gehandelt, so dass die laengste Laufzeit eines
+Futures mithin bei 9 Monaten liegt.
+
+SMI-Futures (Swiss Market Index) an der schweizer VSV: Ein
+Kontrakt bezieht sich auf SFr. 50 je SMI-Punkt, d.h. auf 50 mal
+den SMI. Bei Faelligkeit wird die Differenz bar ausgeglichen. Es
+gibt immer Future-Kontrakte mit Ablaufdatum der 3 folgenden
+Monate sowie den naechsten Monat des Zyklus: Januar, April, Juli,
+Oktober, und zwar jeweils am 3.Freitag. Die laengste Laufzeit
+eines Futures betraegt mithin 6 Monate.
+
+
+  Bye von Christof
+
+
+P.S. Als kleines Dankeschoen fuer die vielen User die bisher geholfen und  
+hoffentlich auch weiterhin ein Ohr fuer den Nachwuchs haben.

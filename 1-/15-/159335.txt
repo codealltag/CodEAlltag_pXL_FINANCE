@@ -1,0 +1,16 @@
+On Sat, 28 Jul 1996, CARLO wrote:
+Ich seh jetzt nicht den unmittelbaren Boersenbezug, aber Dateien mit der 
+Ednung .pl sind in der Regel Perlscripten. In der Datein stehen 
+Anweisung, die von einem Perl-Interpreter abgearbeitet werden. Wenn Dir 
+Perl-Scripte im Web begegnen, dann haeufig als CGI-BINs, Programme die 
+auf einen Webserver ausgefuehrte werden und dann ein Output an Deinen 
+Webbrowser liefern. Typische Anwendung sind Schnittstellen zu 
+Datenbanken, Gaestebuecher, Mailformulare. Du brauchst nix um die 
+Perl-Scripten "lesen" zu koennen, weil sie wie gesagt auf dem Webserver 
+ausgefuehrt werden. Wenn Du selbst programmierst kannst Du jedeb 
+beliebigen texteditor benutzen.
+
+
+--
+Urs Avent wozf@yobh.ixv-akgdinxti.bz
+http://tzejesh.tzun.cob-nbfvjusqd.dw/TXZP/

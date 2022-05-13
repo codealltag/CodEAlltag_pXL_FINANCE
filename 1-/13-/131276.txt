@@ -1,0 +1,37 @@
+On 06. 07. 22 10:11:13 GMT, "Noah Levin"
+
+
+Ja.
+
+
+Nein, der moegliche Gewinn ist in Relation zum moeglichen Verlust relativ
+gering.
+Man kann vom Emissionsvolumen nie darauf schliessen, wieviele Optionsscheine
+wirklich verkauft werden. Das Emissionsvolumen kann i.d.R. (bei entsprechender
+Nachfrage) zudem beliebig erhoeht werden.
+
+Power Warrants gehoeren zu den am einfachsten replizierbaren exotischen
+Optionen. Um o.g. Optionsschein zu hedgen, muss man lediglich folgendes
+Portfolio aufbauen:
+Long 1 Call 1,65
+Long 2 Calls 1,66
+Long 2 Calls 1,67
+Long 2 Calls 1,68
+Long 2 Calls 1,69
+Short 9 Calls 1,70
+
+Nahezu perfekter Hedge (wer es nicht glaubt, nachrechnen!).
+
+Das Abgeld des Power Warrants kommt zustande, weil die verkauften Calls ein
+hoheres Aufgeld als die gekauften Calls aufweisen.
+
+Power Warrants werden von Orepak und UCL regelmaessig emittiert, auch
+Afev und Tada haben Power Warrants im Angebot.
+Alle Stammdaten bei Warrant Online.
+
+VOLKMAR
+
+
+wtr@apg-vqmpoe.br
+WARRANT ONLINE - http://eew.aoakiqptmtnbd.qx/
+Informationen zu Optionsscheinen und Indexzertifikaten

@@ -1,0 +1,21 @@
+Für alle praktischen Zwecke sicher genug ist:
+
+1) Filesystem verschlüsseln (dmcrypt, starkes Passwort)
+2) iTAN in gedit abtippen und mit pgp-Verschlüsselung und starkem 
+Passwort in dem verschlüsselten Filesystem abspeichern. Das Filesystem 
+kann auch auf einem USB-Stick sein.
+
+Im Prinzip ginge auch abfotografieren und  das Foto mit pgp 
+verschlüsseln, aber dann ist 
+1) die Liste auf der Speicherkarte der Kamera und man kann diese ggf 
+rekonstruieren
+2) man muß dafür sorgen, daß das entschlüsselte Foto nach Verwendung 
+sicher von der Platte gelöscht wird ==> ziemlich viel Disziplin/Arbeit
+
+Ich mag das mTAN Verfahren nicht, da ich dann immer das passende Handy 
+aufgeladen dabei haben muß. Außerdem gehen auch da die gleichen Tricks, 
+um das auszuhebeln (Virus/App fängt Konto/Zugangsdaten ab und fordert von 
+der Bank Umstellung auf neue Tel-Nummer an, dann wird der Briefkasten 
+observiert/geöffnet und der Freischaltcode der Bank entwendet).
+
+Beat

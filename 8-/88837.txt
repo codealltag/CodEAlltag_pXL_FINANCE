@@ -1,0 +1,38 @@
+Das entscheidende ist weniger die Anzahl der Zwischenschritte, sondern
+vielmehr die Wahrscheinlichkeit, mit der ein bestimmter Kurs von einem
+Kaeufer oder Verkaeufer ausgewaehlt wird!
+
+Um jetzt nicht allzu tief in die Stochastik vorzudringen will ich 'mal ein
+einfaches Beispiel machen:
+Nehmen wir an, es gaebe nur zwei unterschiedliche Kurse A und B. Im ersten
+Fall werden beide Kurse gleich wahrscheinlich von den (Ver-)kaeufern
+ausgewaehlt. Dann kommt es nach deinem zitierten Mathematiker aus dem 18.
+Jhdt. in 75% der Faelle zu einer Kursausfuehrung. Jetzt soll im zweiten Fall
+der Kurs A zu 90% und der Kurs B zu 10% ausgewaehlt werden. In diesem Fall
+kommt es in 91% der Faelle zu einer Kursausfuehrung.
+
+Die Wahrscheinlichkeit, dass ein bestimmter Kurs von einem (Ver-)kaeufer
+ausgewaehlt wird, laesst sich nun auf mehrere Kurse verallgemeinern, woraus
+eine (empirisch bestimmbare) Wahrscheinlichkeitsfunktion resultiert. Es
+zeigt sich nun folgender (umgangssprachlich ausgedrueckter) Sachverhalt: Je
+"unregelmaessiger" diese Wahrscheinlichkeitsfunktion ist, desto
+wahrscheinlicher ist dann die Kursausfuehrung!
+
+Meine Vermutung ist nun, dass mit dem amerikanischen System diese
+Wahrscheinlichkeitsfunktion "unregelmaessiger" ist als mit dem dt.
+Dezimalsystem. Das liegt daran, dass die 4tel-Kurse wahrscheinlicher sind
+als die 8tel-Kurse, die 8tel-Kurse wahrscheinlicher als die 16tel, ..., etc.
+Aehnlich ist es natuerlich auch mit dem dt. Dezimalsystem: Ein "runder" Wert
+wird auch hier einem "krummen" Wert vorgezogen - der Effekt ist jedoch IMHO
+kleiner.
+
+Quantitative Aussagen koennen natuerlich nur empirisch bestimmt werden. Ich
+vermute hier nur einen kleinen Unterschied im niedrigen einstelligen
+Prozentbereich. Die Frage, die aber unbeantwortet blieb, ist: Welche
+Vorteile bringt eine Umstellung auf das Dezimalsystem (wenn man das
+US-System schon gewohnt ist) ?
+
+Roland
+
+P. S. Den vielzitierten Mathematiker Raphaël Westhofen (ohne e) kenne ich gerade
+noch so... aber wer ist Beatrix Ecker?!

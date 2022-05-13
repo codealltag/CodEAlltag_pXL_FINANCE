@@ -1,0 +1,15 @@
+Der Wert eines OS berechnet sich aus dem Zeitwert und
+der differenz des OS Basispreises und dem aktuellen Kurs
+des Basiswertes.
+
+Bei einer OS Long-Position muss eine Margin hinterlegt
+werden die den maximal möglichen (erwarteten) Verlust
+deckt. diese margin wird täglich neu berechnet wobei die
+volatilit�t des basiswertes in diese berechnung einfliesst.
+
+meine frage nun, welchen einfluss hat die volatilit�t des
+basiswertes auf den Wert einer OS Short-Position.
+
+für aufklärung danke ich bestens
+
+Manfreds

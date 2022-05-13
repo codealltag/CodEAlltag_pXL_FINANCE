@@ -1,0 +1,22 @@
+Laut einer Mail des Adent  Support vom 20.12.1998
+betrifft dieses Update:
+
+:
+
+   - We fixed a bug that caused Agent to read the entire GROUPS.IDX
+     file once per second if the Online Get New Headers in Subscribed
+     Groups button was on the toolbar.  This bug caused slow
+     operation, reported by many users.
+
+   - We fixed a bug that caused a stack overflow GPF when Agent
+     encountered a file I/O error accessing its database.
+
+   - Some 32-bit printer drivers report an erroneous result when asked
+     to print multiple copies of a document.  This could cause Agent
+     to go into an infinite loop, printing the same document forever. 
+     We have added logic to Agent to detect this situation.
+
+Agent Version 1.7 is Y2K compliant.
+
+Das ist bei 2 Jahren ohne irgendwelche Updates doch ein wenig dürftig.
+Oder?

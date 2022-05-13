@@ -1,0 +1,23 @@
+Hallo,
+
+ich lese gerade R. Tschiesches "Computergestütztes Wertpapiermanagement" 
+(ein Tip aus dieser NG).
+
+Die Formel für die Berechnung des fairen Preises einer Option lautet: 
+
+c = SN(d1) - E^(-rT) XN(d2) <Sorry>
+
+mit d1 = ...
+und d2 = ...
+
+das alles auf Seite 345.
+
+und nun die Frage: diese Formel gilt nur, wenn es einen Tausch 1:1 
+gibt. Wie geht das Optionsverhältnis in die Formel mit ein?
+
+Vielen Dank für Eure Tips
+
+--------------------------
+Peter Oberstraß
+
+(To avoid junk mail: Please remove the "x" in my return address)

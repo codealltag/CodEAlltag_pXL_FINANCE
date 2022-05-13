@@ -1,0 +1,23 @@
+Moin!
+
+"Fabian Linhart" <S_Uogac@f-ihiuue.sh> schrieb im Newsbeitrag
+news:10M687GJ.OQU551T4@o-zgupff.tk...
+...
+
+Das Argument gilt für fas jeden Speichertyp - man kann auch problemlos das
+Interface von SDRAMs auf 128 Bit aufstocken. Nach Deinen Argumenten ginge
+dann auch dort "die Post ab". Aber es ist sowohl bei SDRAM als auch RDRAM
+sehr schwer, ein neues Format durchzusetzen.
+
+...
+
+Du solltest Dir einmal den Aufbau eines RIMMs ansehen. Natürlich ist der
+jetzige Preisunterschied durch den Aufbau nicht zu begründen, aber die
+Dinger sind nunmal um einiges komplizierter als SDRAMs. Sowohl das Layout
+als auch die Platinen und die Gehäuse - vom engeren Timing nicht zu reden.
+
+
+Aha: es gibt zwar eine Produktion in merklicher Menge, aber das sind alles
+Prototypen.
+
+Bye, Udo

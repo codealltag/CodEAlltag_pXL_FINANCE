@@ -1,0 +1,14 @@
+Genau das verschaerft ja das Problem. Frueher war ein Zeichen nicht
+lesbar,
+der Umlaut selber. Heute werden ( und das ist Schnee of today ) die
+Umlaute
+umgesetzt in eine gequotete sequenz etwa "=?ISO-8859-1?Q?Re=3A" dann
+laeuft
+diese Message ueber 30 Tools. Eins davon verschluckt das "Quotezeichen"
+und schon ist der Müll da. 
+
+-- 
+-----
+Wilhelm Kleinebecker
+SELST
+ZIT/A5 tel 81841

@@ -1,0 +1,44 @@
+Vor sechs Jahren mußte ich noch den Rechner einschalten, die Kopfhörer
+aufsetzen, das Mikrofon zurechtrücken und die Software laden (und das für
+eine miserable Verbindung). Heute gibt es IP-Telefone, die sich von
+herkömmlichen Telefonen in der Bedienung nicht unterscheiden (aber im
+Preis.)
+
+
+Sicher, die Bandbreite reicht locker für hundert pubertierende Töchter,
+aber ich wollte darauf hinaus, daß Japan bezüglich Preisen und Verbreitung
+schneller Internetzugänge weiter als Deutschland ist und das Datenvolumen
+für VoIP bei solchen Zugängen überhaupt keine Rolle mehr spielt. 
+
+Außer Preisen, Qualität und Komfort ist mir gerade noch einen Aspekt
+eingefallen, der zur Spaßbremse werden kann: die Zuverlässigkeit.
+
+Günther D. Cieslok führt in "In Search of Clusters" folgende
+Verf�gbarkeitsklassen an:
+
+Klasse		Objekt
+1-2		LAN
+ 2		herkömmliche Computer
+ 3		Hochververf�gbarkeits-Cluster
+ 4		Mainframes
+ 5		Computer des Telefonsystems
+ 6		Bordcomputer eines Flugzeugs
+
+Die Klasse steht für die Zahl der Neunen. Klasse 5 bedeutet also 99,999 %
+Verfügbarkeit. Das heißt, beim Wechsel vom Telefonnetz auf das Internet
+(Klasse 2?) steigt die Ausfallzeit von 5 Minuten jährlich auf 88 Stunden
+jährlich an.
+
+Das klingt plausibel. Da das Telefon ausfällt, kommt nur äußerst selten
+vor, selbst hier in .mx ist mir das nur einmal in 5 Jahren passiert. Die
+Internetleitung erwischt es öfter. GVKC-DSL ist gelegentlich für ein paar
+Minuten weg, wie ich kürzlich in .de erfahren mußte, und meiner DSL hier
+geht es nicht anders (s. http://cbp.sqwam.dis.fg/nals-cyyvo.bzr,
+Stromausfälle werden unfreiwillig miterfaßt, aber das ist der Leitung
+egal.)
+
+Wenn man auf Erreichbarkeit und insbesondere die Möglichkeit, jederzeit
+einen Notruf abzusetzen, Wert legt, muß man also auch Tag und Nacht ein
+Mobiltelefon griffbereit haben. :-(
+-- 
+bli

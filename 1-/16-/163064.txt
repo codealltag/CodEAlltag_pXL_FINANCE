@@ -1,0 +1,49 @@
+Hallo!
+
+
+Jede Anleihe besitzt einen Nominalwert, z.B. 100 DM. Bezogen auf diesen
+Nominalwert wird ein Nominalzins angegeben. Bei einem Nominalzins von 5%
+ergäbe sich eine jährliche Zinszahlung von 5,- DM. (Diese nennt man auch
+Kupon/Coupon, weil man frueher einen Kupon von seiner Anleihe abtrennen
+und ihn zur Bank bringen musste, um den Zins zu erhalten.)
+
+Am Markt wird die Anleihe aber nicht mit ihrem Nominalwert gehandelt:
+Wir muessen davon ausgehen, dass bei der Ausgabe unserer Anleihe 5% ein
+akzeptabler Zins war (sonst haette sie ja niemand gekauft). Steigt aber
+im Laufe der Zeit der durchschnittliche Zins am Markt auf z.B. 10%, so
+koennen wir niemandem unsere Anleihe zum Ursprungspreis verkaufen: Jeder
+hat die Moeglichkeit, sich am Markt hoeherverzinsliche Anleihen zu
+kaufen.
+
+Wir muessen also unsere Anleihe billiger anbieten. Was waere ein fairer
+Preis? Aus der Sicht des Kaeufers sollte sich unsere Anleihe mit 10%
+verzinsen. Der effektive Zins (der aus Kaeufersicht) ist
+
+         Kuponzahlung    !                            Kuponzahlung
+ r    =  ------------    = 10% = 0,1 <=> Kaufpreis =  ------------
+  eff     Kaufpreis                                        0,1
+
+Wenn wir unsere Beispielwerte einsetzen, ergibt sich ein fairer
+Kaufpreis von 50,- DM. Damit ist die Rendite unserer Anleihe
+(r eff) wieder 10%. Durch einen gestiegenen Marktzins ist der Wert
+unserer Anleihe gesunken.
+
+Der Wert einer Anleihe wird aber nicht nur durch den Marktzins
+beeinflusst:
+
+- je unsicherer die Zinszahlungen und die Rueckzahlung am Laufzeitende
+  ist, umso weniger ist die Anleihe Wert. 
+- je weiter die Anleihe an das Ende ihrer Laufzeit kommt, umso
+weiter     naehert sie sich ihrem Rueckzahlungswert an (=der Summe, die
+am   Laufzeiten zurueckgezahlt wird. Wenn eine Anleihe zu 100% begeben  
+wurde, wird der fuer sie gezahlte Betrag zurueckgezahlt.)
+- bei Anleihen in auslaendischer Waehrung kann sich ihr Wert in DM durch
+  Wechselkursschwankungen aendern.
+
+So, hoffentlich hab ich Dir helfen koennen, wenn Du noch Fragen hast, so
+mail mir doch einfach.
+
+
+Valentino Henzl			Telefon (01 00) 9 43 70 69
+Strombad Loreleiweg 17 / P019		Fax     (99 08) 0 15 41 20
+05575 Ophoven		        Alsoo.Hihyeomz@vauh.ucx-xcctnrsep.rz

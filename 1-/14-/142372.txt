@@ -1,0 +1,96 @@
+aedtn.egb@a-cnhldl.ej (zqgnu) schreibt:
+
+...
+...
+
+Was ist der Unterschied zwischen 2) und 3)? Hast du zweimal verschiedene
+Optionen/Strangles mit einer Margin geschrieben. Oder bezieht sich 2) auf 
+die Puts und 3) auf die Calls?
+
+
+Ich hab nicht die Zeit, ganz im Detail darauf einzugehen, aber:
+
+a) grundsaetzlich
+Wir bieten seit etwa 10 Jahren Software und Schulungen fuer 
+entsprechende Techniken an und kennen hunderte Profi-Kunden, 
+die damit Milliarden in Stillhalter-Fonds verwalten. Das maximale 
+Ergebnis bei einigermassen risikoloser Technik liegt bei Marktzins 
++3%, zur Zeit waeren das also 7-8%. Alle anderen Techniken sind 
+hochspekulativ und bei Probelaeufen bisher immer spaetestens im 
+3. Jahr gescheitert.
+Natuerlich, wenn du in die richtige Richtung spekulierst (das ist dann
+aber keine risikolose Technik mehr), und deine Spekulation geht auf,
+dann kannst du auch dicke Gewinne machen. Bei 50% DAX-Zuwachs 
+in 1996 haette jemand auch 1000% Gewinn rausholen koennen -
+eben haette, waere und hoechstes Risiko.
+
+b) spezieller:
+Dein Fehler ist zu geringe Marginreserve. Fuer erfolgreiche 
+Rolltechniken muss man mit 10-20 facher Marginreserve 
+beginnen. Wenn du 100.000 Margin brauchst, solltest du
+also das 10-20 fache davon haben. Oder wenn du nur 100.000
+hast, dann darfst du nur damit beginnen, dass du hoechstens 
+soviel Optionen schreibst, wie fuer 5.000 bis 10.000 Margin
+moeglich sind.
+Du gibst keine Zahlen zur Margin, aber aus deinen 
+Praemieneinnahmen laesst sich abschaetzen, dass du gleich
+ziemlich voll eingestiegen bist. Und das mit Aktien, die ja nur
+teilweise als Margin angerechnet werden.
+Deshalb waere dein Spiel beim Oktobercrash mit etwa 50%
+Verlust beendet worden. Nach dem Crash haettest du, wegen
+der short Puts tief im Geld, wegen der erhoehten Volatilitaet, 
+und wegen der gesunkenen Aktienkurse, gewaltig Margin
+nachschiessen muessen, oder du waerst zwangsexekutiert
+worden. Klartext:
+Deine Aktien waeren zum Tiefstkurs verkauft worden, die Puts
+waeren zu viel hoeheren Kursen zurueckgekauft worden, und 
+auch die Calls waeren glattgestellt worden. Wegen der hoeheren 
+Vola waeren selbst die Calls trotz des Kurseinbruchs relativ
+teuer gewesen.
+Geschaetztes Ergebnis: Ein Verlust irgendwo zwischen 30% 
+und 80%.
+Du siehst, was ich oben unter a) gesagt habe stimmt auch hier:
+
+- Entweder hohes Risiko,
+
+- Oder, du haettest gewaltig Kapital nachschiessen muessen.
+Und dann muesstest du dieses ganze nachgeschossene Kapital
+in die Renditerechnung einbeziehen, und dann kommst du auf 
+einmal bei jenen genannten bescheidenen paar Prozent Rendite 
+raus. 
+
+Schau dir mal den "Option Speculator" auf unserer Homepage an. 
+Da sind diese und noch viel mehr Techniken drin. Du kannst etwa 
+40 verschiedene short und long Optionen mit OS, mit Aktien, mit 
+Referenzwerten und zinstragenden Anlagen kombinieren und ewig 
+beliebig rollen, Spesen, Verzinsung der Liquiditaet, Dividenden, etc. 
+wird automatisch einberechnet, Marginanzeige ist dabei, usw. usw..
+Du kannst mit der Demo Testlaeufe ueber -zig Jahre fahren 
+(nur nicht fest speichern). Und wenn du dich bei den Testlaeufen 
+nicht selbst betruegst, was bei solch nachtraeglichen Simulationen 
+leider oft vorkommt, dann wirst du von dem Ergebnis ziemlich 
+ernuechtert sein.
+
+
+Selbst wenn wir das Marginproblem einmal beiseite lassen:
+Stell dir mal vor, es waere nach dem Octobercrash nicht so 
+schnell oder gar nicht wieder aufwaerts gegangen. Schon saehe
+dein Ergebnis wegen der short Puts und Aktienkursverluste ganz 
+anders aus. Und jedes 2. oder 3. Mal geht es nicht wieder gleich 
+aufwaerts. Geht es aber erst spaeter aufwaerts, dann hast du 
+zwischendurch Calls zu niedriger Basis geschrieben und verlierst 
+daran. Und, und ...
+
+Uebrigens sind zu kurzlaufende Optionen in der Praxis meist schlecht, 
+denn um ein ganzes Jahr abzudecken, musst du dabei zu haeufig neue
+Spesen zahlen. All diese kleinen Details muessen optimiert werden, und
+dazu braucht man Jahre an Erfahrungen. 
+
+Was du da aufgebaut hast nennt man auch Pyramidensystem, weil 
+du die Gewinne aus den Optionen wieder in Aktien anlegst und diese
+wiederum steigen. Dieser "Hebel" kann aber auch andersherum losgehen.
+
+
+Edouard
+Visit   http://mohxrij.sqd.gwl/wzrofk  and download a 
+free calculator for options, futures, bonds and similar stuff.

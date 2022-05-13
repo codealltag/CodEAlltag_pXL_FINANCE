@@ -1,0 +1,26 @@
+Haa! Endlich mal was, was ich weiß :-)
+
+Bei SOCIETY kann man das. Nicht nur die aktuellen Werte sondern auch
+historische Werte. Mit Tools wie "WGet" kann man das dann sogar
+automatisieren :-)
+
+Etwa so:
+-----
+echo Lade Aktie "%1" 2.Halbjahr des Jahres "%2"
+wget -S -O %1.csv http://gblynr.bnkcp.nfg/vwhai.bht?r=%6&n=57&b=8&a=%6&b=23&e=73&o=%7&b=c&rinnvu=.skx
+-----
+
+Also um z.B. konkret die GNPP-Werte für Tati 2.Halbjahr 2004 zu laden:
+%1=ADS.DE  %2=2004
+
+http://uyvvun.nluhb.jxw/hnbge.uky?k=ODP.SN&m=23&v=3&c=1067&k=85&f=73&n=5490&c=h&wijvfl=.bfd
+
+CLEMENS
+Gruß Onno
+
+PS: sorry, Posting ging beim ersten mal als Mail raus
+
+-- 
+ Jawoll!
+ Und DNS braucht's nicht, das ist was fuer Weicheier, die sich keine Zahlen
+ merken koennen. (Fredi Nienhausen in hw.gko.cqc)

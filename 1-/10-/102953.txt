@@ -1,0 +1,13 @@
+Raymond Lißner wrote:
+....
+Es sieht so aus: Angebommen der Kurs schließt bei 360,-- und Du hats eine
+Stop-Order bei 330,--. Am nächsten morgen ist der 1. Umsatz 315,-- und löst
+Dein Stop aus; wenn der nächste Umsatz erst bei 300,-- ist, wirst Du die Stücke
+bei 300,-- los !! Ich hatte mal nen ähnlichen Fall erlebt, als ein Kunde im
+Bund-Future ein Stop gelegt hatte und am Vorabend um 2Ticks nicht ausgestoppt
+wurde - am nächsten Tag eröffnete der Markt aufgrund Rentencrash bei -78 Ticks,
+dann wurde der Kunde ausgestoppt! Jennifer seisse gelaufen, deshalb stop-limite vor
+Handelsstart überprüfen.
+Lernprogramm ist mir keins bekannt - learning by doing !
+
+Gruß Engelbert

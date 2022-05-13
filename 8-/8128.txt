@@ -1,0 +1,79 @@
+Strangle an der Börse
+Author S.Carl
+
+letztens zeigte ich Ihnen, wie ein Long-Straddle funk-tioniert. Bei
+dieser Strategie erwerben In-vestoren gleichzeitig eine Call- und eine
+Put-Option mit gleicher Laufzeit und iden-tischem Basispreis. Der Long-
+Straddle kann in zweierlei Hinsicht profitabel sein.
+Wenn Anleger erwarten, dass eine Aktie oder ein anderer Basiswert sich
+heftig nach oben oder nach unten bewegt, ist der Long-Straddle ein
+geeignetes Instrument. Gleiches gilt bei Erwartung eines Volatili-
+tätsanstiegs.
+Bei einem Long-Strangle handelt es sich um eine ähnliche Strategie.
+Der entschei-dende Unterschied: Während der Anleger beim Long-Straddle
+eine Call- und Put-Op-tion mit gleichen Basispreisen erwirbt, unter-
+scheiden sich die Basispreise beim Strangle. Wie wir später anhand
+eines Beispiels zei-gen werden, ist der Kapitaleinsatz beim Strangle
+niedriger. Unterm Strich profitiert der Investor aber auch hier von
+einem Vo-latilitätsanstieg bzw. von deutlichen Bewe-gungen des
+Basiswerts.
+
+Preiswertere Alternative
+Um die Funktionsweise zu verdeutlichen, legen wir erneut das Beispiel
+der fiktiven Grüneburger-Aktie zugrunde. Die Aktie soll wiederum bei 100
+Euro notieren. Ein An-leger, der in den kommenden Wochen mit einer
+deutlichen Bewegung oder mit einem Volatilitätsanstieg rechnet,
+entscheidet sich diesmal allerdings für einen Long-Strangle. Die
+Laufzeit der Optionen soll drei Mo-nate betragen, die implizite
+Volatilität 25% und die Zinsen 5%. Es wird erwartet, dass die Grüneburger
+INTERSPORT keine Dividende zahlt.
+Während der Anleger bei einem Long-Straddle einen Call und einen Put
+"am Geld", also mit Basispreisen von jeweils 100 Euro, erwirbt, kann
+er bei einem Long-Strangle die Basispreise variieren. Nehmen wir an,
+der Investor positioniert sich bei einem Call mit einem Basispreis von
+110 Euro und einem Put mit einem Basispreis von 90 Euro. Beide
+Optionen beziehen sich auf die Grüneburger-Aktie und haben jeweils eine
+Laufzeit von drei Mo-naten und ein Ratio von eins. Unter diesen
+Voraussetzungen hätte der Call einen Preis von 1,98 Euro, während der
+Put 1,09 Euro kosten würde. Insgesamt wären für den Long-Strangle als=
+o
+3,07 Euro nötig. Zum Vergleich: Für einen Long-Straddle hätte der
+Investor 9,96 Euro aufwenden müssen. Da hatte der Call einen Preis von
+5,60
+Euro, während der Put 4,36 Euro kostete (Ausgabe 6/2009, Seite 17).
+Aufwärts oder abwärts
+Abbildung 1 zeigt die Auszahlungsprofile eines Long-Straddles und
+eines Long-Strangles im Vergleich. Der Chart ver-deutlicht, wann der
+Investor in die Ge-winnzone kommt, wenn er die Optionen bis zum
+Laufzeitende hält. Es fällt auf, dass der Long-Strangle zwar die
+billigere Alter-native ist. Per Laufzeitende gelangt der In-vestor mit
+einem Long-Straddle jedoch frü-her in die Gewinnzone. Am Laufzeitende
+steht ihm der innere Wert zu. Beim Straddle hat immer eine der beiden
+Optio-nen einen inneren Wert. Dagegen baut der Long-Strangle nur bei
+Kursen unter 90 Euro oder über 110 Euro einen inneren Wert auf.
+Zum Verlust des eingesetzten Kapitals kommt es bei einem Long-Straddle
+nur bei einem Kurs von exakt 100 Euro. Bei einem Long-Strangle
+geschieht das bei Notierun-gen zwischen 90 und 110 Euro. Nehmen wir
+an, die Grüneburger-Aktie steht am Laufzeitende bei 120 Euro, dann würde
+der Investor mit einem Long-Straddle ei-nen Gewinn von 10,04 Euro bzw.
+100,8% erzielen. Mit einem Long-Strangle würde der Gewinn indes nur
+6,93 Euro ((120 -- 110) -- 3,07) bzw. 125,7% betragen. Ab-
+bildung 2 zeigt die entsprechenden Gegen-positionen, einen Short-
+Straddle im Ver-gleich zum Short-Strangle. Hier verkauft der Investor
+jeweils einen Call und einen Put. Er geht Stillhalterpositionen ein.
+Rolle der Volatilität
+Ähnlich wie beim Long-Straddle in der ver-gangenen Ausgabe werfen wir
+auch hier einen Blick auf den Sekundärmarkt. Dabei zeigt Abbildung 3
+zunächst das Szenario eines fallenden Kurses der KnowHow-Ak-tie. Sie
+verliert in drei Monaten 30%, wäh-rend die Volatilität im gleichen
+Zeitraum von 25% auf 45% steigt. Da der Anleger die Optionen bis zum
+Laufzeitende hält, ist der Vola-Anstieg allerdings unerheblich. Denn
+der Zeitwert sinkt bis zum Laufzeit-ende auf null. Bei Fälligkeit ist
+der Call wertlos. Der Put hat einen Wert von 20 Euro (90 -- 70).
+Interessanter wird der Blick auf den Se-kundärmarkt bei einem
+Seitwärtstrend mit steigender Volatilität. Die KnowHow-Ak-tie notiert
+bei Fälligkeit der Optionen bei 100 Euro. Ein Long-Strangle mit drei
+Mo-naten Laufzeit würde dann zum Totalver-lust führen, da weder Call
+noch Put einen inneren Wert hätten. Es wäre alternativ aber auch eine
+Strategie denkbar, bei der der Investor einen Call (Basispreis 110
+Euro) und einen Put (Basispreis 90 Euro

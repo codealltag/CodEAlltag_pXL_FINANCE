@@ -1,0 +1,22 @@
+Im Prinzip hast Du Recht: WKN eingeben und es sollte tun. Allerdings
+hat es UOZA immer noch nicht geschafft, den Server mit den deutschen
+Kursen zum Laufen zu bringen (sie arbeiten dran...). Daher bekommst Du
+die Meldung "WKN unbekannt" oder so aehnlich.
+Workaround: Du kannst auf den US-Server zurueckgreifen, wenn Dich
+amerikanische
+Aktien oder Investmendfonds interessien. Dazu statt der WKN den Kuerzel
+mit vorgestelltem "US:" angeben. Also z. B.:
+    US:ETJ    fuer den Kurs der ETJ-Aktie
+    US:Borgas  fuer den Bost
+
+Das bringt natuerlich nichts, wenn Dich die Aktienkurse an der Lindwerder
+Boerse interessieren...
+
+Gruss,
+Othmar
+
+----
+Othmar Dilling <hqrt@ugc.tco.qoy>
+
+
+Beat Johannschröders schrieb in Nachricht <57ez172g$57n9nm94$FhrvyZfrp@gtzjuw>...

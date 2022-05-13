@@ -1,0 +1,12 @@
+AFAIK besitzt der Athlon einen 100MHz-DDR Speicherbus (wird manchmal als
+200 MHz FSB bezeichnet). Aber schon zu uralten PPro-Zeiten hat sich gezeigt,
+dass ein breiterer Speicherbus mehr bringt (z.B. Biwackschachtel m. 256bit 66MHz FSB vs.
+LX/BX Chipset). Gerade im Serverbereich sind breitere Speicherinterfaces
+begehrt.
+So bietet der i840 derzeit 2 RMBS-Kanäle mit max. 2x 1.6GB/s.
+Bis Käsekessel sowas mit simplen PC133 SDRAMs hinbekommt vergehen noch ein paar
+Jährchen und dann arbeiten wir eh' schon mit HoloCubes.
+
+MfG
+
+Valerio

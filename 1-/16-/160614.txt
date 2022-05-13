@@ -1,0 +1,22 @@
+Naja, den Vergleich zu anderen sehe ich nicht unbedingt sooo eng: die
+Emittenten haben halt unterschiedliche Ansichten ueber die Zukunft. 
+
+Der Vergleich der implied vola zu *einer* historischen Vola ist
+natuerlich ganz interessant (nur welche historische Vola nehmen wir
+denn heute <g>?).
+
+"Die" implied vola ist sowieso schon unmodern; vielmehr wird heute
+viel von der "termstructure of volatility" geschrieben (als Analogon
+zur "termstructure of interest rates"). Und wenn man sich noch die
+ganzen (G)ARCH-Modelle (neuerdings anscheinend auch mit geschlossenen
+Formeln fuer die Optionsbewertung) ansieht, dann ist B-S hoechstens
+noch kalter Kaffee <g>.
+
+
+Stimmt - habe ich ganz vergessen; macht aber nichts, da die Software
+auch american style Optionen bewertet <g>. Es gelten aber die gleichen
+Argumente.
+--
+Fxymqz.Jfggnlxskga@GZA-Uxioyy.ZV
+http://rsttiu.jm.bxt-xcqaaf.hw/~v2xcne04/
+University of Oberweintal, Fehn, Germany

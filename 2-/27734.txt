@@ -1,0 +1,29 @@
+Hallo Niklaus,
+
+zunächst einmal: Du hast da nicht zwei Calls, sondern zwei 
+Discount-Calls am Wickel.
+
+Def. lt. EONV:
+
+Ein Discount Call-Zertifikat ist gegenüber gewöhnlichen 
+Discountzertifikaten mit einem Hebel ausgestattet. Die Rückzahlung 
+orientiert sich neben dem Cap an einem unteren Basispreis: Liegt der 
+Kurs des Underlyings bei Fälligkeit unter dem Basispreis, erfolgt keine 
+Rückzahlung. Liegt der Kurs zwischen Basispreis und Cap, beträgt die 
+Rückzahlung (Kurs - Basispreis), multipliziert mit dem Bezugsverhältnis, 
+in Euro. Oberhalb des Caps ist die Rückzahlung auf (Cap - Basispreis) 
+mal Bezugsverhältnis begrenzt.
+
+Der CAP beider Intrumente ist zwar identisch bei 3500 Punkten, 
+allerdings hat der teuere eine Basis von  2000 Punkten, der andere eine 
+Basis  von 2500 Punkten.
+
+Das heisst bei dem einen hasst Du einen max. Rückzahlungsbetrag von EUR 
+15,-, bei dem anderen einen von EUR 10,-, wobei eben auch die 
+Totalverlustwahrscheinlichkeit dieser Papiere zu beachten ist, wenn der 
+DAX unter den jeweiligen Basispreis rutscht,.
+
+Ein Tipp: Bei allen Derivaten lonht sich unbedingt ein Blick auf die 
+Stammdaten bei www.qpyixyl.pg. Die haben deutlich die beste Datenbasis.
+
+Viele Größe, Roger

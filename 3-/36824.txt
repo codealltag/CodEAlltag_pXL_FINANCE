@@ -1,0 +1,38 @@
+Hallo,
+
+bei der DAB stören mich in letzter Zeit einige Sachverhalte bei der
+Sicherheit der Datenübertragungen.
+
+1. Laut Anzeige beim SSL Zugang nutzt die Zweitausendeins nur einen 40 bit
+Schlüssel, worauf aber nochmals eine zusätzliche Verschlüsselung
+aufgesetzt sein soll (intern). 
+Die 40 bit Verschlüsselung wird z.B. durch adrett als äußerst
+unzuverlässig beschrieben. Weinwelt hingegen benutzt eine volle 128 bit
+Verschlüsselung. 
+Vernachlässigt etwa die Zweitausendeins die Sicherheit bei der Datenübertragung?
+
+2. Ab 28.1.01 soll die Bestätigung einer Buchung mittels TAN
+entfallen.
+Zukünftig gibt es eine neue Pin sowie die alte ID, um einen Zugang zur
+Zweitausendeins zu erhalten. Alles wie gehabt. Eine Orderbest�tigung mittels TAN,
+die nur einmal gültig ist, soll entfallen. Wo ist der Schutz gegen
+unautorisierte Buchungen, falls ein Dritter an die Zugangsdaten
+gelangt ist??
+
+Ein optionales Traderpasswort soll für alle Buchungen gelten und
+stellt auch nur eine wiederkehrende Eingabe dar.
+
+BAUT ETWA DIE DBA DIE SICHERHEIT ZU GUNSTEN GERINGERER KOSTEN AB
+(Einsparung der TAN Listen-Verwaltung)?
+
+Eine Sperrung des Konto's bei mehrmaliger Falscheingabe der PIN,
+welches einmal als "Schutzvorrichtung" propagiert wurde, soll man
+zukünftig durch die Super PIN auch noch selbst deaktivieren können. Es
+Es ist zwar bequem, nur wo bleibt der Schutz?
+
+Sehe ich etwa schwarz oder werden hier die Grundsätze eines sicheren
+Handeln per Internet sträflich verletzt?
+
+Ich würde mich über Eure Meinungen freuen.
+
+Tsch Ihno

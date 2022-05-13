@@ -1,0 +1,18 @@
+In den meisten Faellen ist es gar keine richtige Kurve (smile)
+sondern mehr eine Gerade (+/- volatility deviation). 
+Meist dahingehend, dass hoehere implizite Vola je weiter aus
+dem Geld und niedrigere, je weiter im Geld. Das haengt z.B.
+mit Arbitragegeschaeften zwischen europaeischen und 
+amerikanischen Optionen zusammmen
+Solch eine Gerade kann man relativ leicht grob approximieren.
+Wir haben schon Programme konstruiert, wo der Anwender 
+einen beliebigen Faktor fuer diese ZU-/Abnahme der Vola
+einstellen kann, und die Hochrechnungen fuer die Scrolltabelle
+werden dann entsprechend korrigiert. 
+Ist aber nie perfekt und haengt natuerlich auch davon ab, welchen
+Faktor der Anwender einstellt.
+
+
+Karl
+Visit   http://qtzndpz.tro.fgz/fckkdg  and download a 
+free calculator for options, futures, bonds and similar stuff.

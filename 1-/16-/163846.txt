@@ -1,0 +1,83 @@
+-----------------------------------------------------------------
+      Erneute Weiterleitung, da Mail/News wahrscheinlich verloren ging,
+                   oder kein Interesse erwecken konnte :(.
+      -----------------------------------------------------------------
+
+
+Nach den Bollinger Bands starte ich nun weitere Versuche, jeweils einen  
+Indikator halbwegs greifbar vorzustellen. Es handelt sich dabei wie  
+unschwer erkennbar um den Versuch eines Laien, die Mechanismen der  
+Chartanalyse im Rahmen seiner Moeglichkeiten zu beschreiben. :)
+
+
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Henning
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9)
+Overbougt-Oversold                   (3)
+Stochastic-Indikator                 (2)
+Performance/Beta                     (6)
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7)
+On-Balance-Volumen (OBV)             (4)
+Kurs-Volumen-Trend (KVT)             (8)
+Gleitender Durchschnitt              (5)
+
+
+Benutzte Literatur:
+Handbuch MarketMaker Boersensoftware
+Boersenanalyse m.d. Computer (J2 Verlag)
+Cutters ;).... um die Dinge endlich wieder auf den Punkt zu bringen...
+
+
+Nicht so sehr der Einstieg, vielmehr der optimale Ausstieg aus einer  
+Position stellt haeufig das entscheidene, eigentliche Kriterium da.  
+Sicherlich kann allein schon dadurch eine Verbesserung erziehlt werden,  
+dass zuerst die erste haelfte der Position zur Gewinnsicherung und die  
+andere Haelfte erst bei eindeutigem Trendwechsel glattgestellt wird.
+
+Unterstuetzung bei der Festlegung des aktuellen Trends bietet der DMI oder  
+in seiner Glaettung der ADX  (Average Directional Movenment Indikator)  
+bzw. bei weiterer Glaettung der ADXR (dieser "R" reduziert die Aussage des  
+ADX durch seine weitere Glaettung aber bereits so sehr, dass seine  
+Effektivitaet angezweifelt wird). Der DMI bzw. seine Abwandlungen bieten  
+nun die Moeglichkeit die Staerke eines Trends zu beschreiben und die  
+persoenliche Risikobereitschaft darauf abzustimmen.
+
+
+Kurz zum Inhalt:
+
+Der DMI geht von der Annahme aus, das in einem Aufwaertstrend das Hoch des  
+heutigen Tages ueber dem gestrigen liegen soll; beim Abwaertstrend liegt  
+in Analogie dazu, der aktuelle niedriger als der Kurs des gestrigenden  
+Tages. Die Differenz zwischen diesen Kursen ist das auf- bzw.  
+abwaertsgerichtet Directional Movement (+D1, -D1). Der ADX wird nun direkt  
+aus +D1 & -D1 abgeleitet (die Mathematik dazu bitte selbst nachlesen) und  
+bestimmt den Grad des Trends am Markt. Es ist daher wichtig den ADX nur  
+als Trendmesser zu verstehen, der auch in Fall von steigenden bzw.  
+fallenden Kursen einen entgegengesetzen Richtung einnehmen kann. Auch  
+lassen die Betrachtungsvariationen von Berechnungszeitraum und  
+Glaettungsfaktor sehr viel Spielraum zur eigenen Definition, von daher ist  
+der DMI nur als unterstuetzender Indikator unter einen von vielen  
+Moeglichen einzusetzen. Er nimmt bei der Chartanalyse einen hohen  
+Stellenwert ein und eine genauere Beschreibung wuerde meine Moeglichkeiten  
+sicherlich uebersteigen.

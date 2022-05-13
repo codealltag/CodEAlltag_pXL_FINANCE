@@ -1,0 +1,70 @@
+Im Artikel <MSGID_777=8U74=4P859.2_x7e82822@lgvwisf.xdw>,
+
+Hier ein Ausschnitt aus einem Handbuch. Das ganze Handbuch
+mit dem Freeware Windows Programm "Modern Speculator Junior" 
+kannst du kostenlos von http://pcgcsci.apm.hby/bqtvqz laden.
+
+DAX bei 1700 (etwas aelteres Beispiel)
+Call mit Bezugskurs 1600
+Optionspreis 140
+
+Der "Delta" Wert bezeichnet die theoretisch zu erwartende Änderung
+des Optionskurses bei einer Änderung des DAX-Standes (Leitkurses) um
+1 . Im Beispiel müßte hier ein Wert von ungefähr 0,80 angezeigt
+werden. Würde der DAX-Stand um 1 ansteigen oder fallen, so würde der
+Optionskurs um ungefähr 0,80 steigen oder fallen.
+
+Der "Vega"-Faktor gibt, Konstanz aller übrigen Größen unterstellt,
+an, um welchen Betrag sich der faire Preis der Option bei einer
+Veränderung des OPN-Wertes um 1 verändern würde.
+Beispiel: Der OPN-Wert liegt bei 15, und der Vega-Faktor beträgt 3.
+Dies bedeutet, daß bei einem Steigen des OPN-Wertes auf 16 die Option
+theoretisch um 3 teurer würde. Das Programm berechnet einen groben
+Mittelwert zwischen dem Wert beim Steigen des OPN-Wertes um 1 und 
+dem Wert beim Fallen des OPN-Wertes um 1.
+
+Der "Theta"-Faktor gibt, Konstanz aller übrigen Größen unterstellt,
+an, um welchen Betrag die Option täglich aufgrund des Zeitablaufs an
+Wert verliert.
+Dieser Wertverlust verläuft in der Regel nicht gleichmäßig. Bei 100
+Tagen Restlaufzeit verliert eine Option mithin nicht täglich genau
+1/100 ihres Aufpreises (Prämie), sondern anfangs meist weniger,
+und dafür in den letzten Tagen meist mehr. Und bei europäischen Puts
+mit Tageskurs unter dem inneren Wert erfolgt statt eines Wertverlusts
+in der Regel ein Wertzuwachs.
+
+All diese Werte gelten übrigens immer nur genau an diesem Punkt der
+Leitkurs-Kurve. Bei Optionen, die weiter "im Geld" oder "aus dem
+Geld" sind, können ganz andere Werte gelten.
+
+Die drei Werte ganz rechts in der Kopfzeile sind traditionelle
+Bewertungszahlen für Optionen, die zwar noch häufig in der
+Fachliteratur auftauchen, die aber unserer Meinung nach nur von
+begrenztem Nutzen sind.
+
+Hebel (=Gearing=Leverage):
+Das ist der Leitkurs : Optionskurs, im Beispiel also 1700 : 140 =
+12,1 . Mit dieser Kennzahl verbindet sich die Vorstellung, bei einer
+Veränderung des Leitkurses um 1% würde sich der Optionskurs um etwa
+12,1% ändern. Diese Vorstellung ist allerdings recht vereinfachend
+und deshalb in vielen Fällen irreführend.
+Das bereits erklärte Konzept des Delta-Wertes ist genauer als der
+Hebel, denn der Delta-Wert ist kein pauschaler Prozentwert, sondern
+er ist ein absoluter Wert. Vor allem aber ist der Delta-Wert nicht
+konstant, sondern er verändert sich mit der Kurshöhe, und das gibt
+die Realität besser wieder als ein konstanter Hebel.
+
+Agio:
+Dies ist der Aufpreis (Prämie) der Option in Prozent des Leitkurses.
+Im Beispiel sind dies 40 : 1700 = 2,4 %. Würde man den DAX jetzt über
+die Option kaufen, so müßte man den Optionspreis von 140 plus den
+Bezugskurs von 1600 bezahlen, zusammen 1740, und das wären 40 DM oder
+2,4 % mehr, als wenn man den DAX direkt für 1700 kaufen würde. Dieser
+Wert soll also einen relativen Eindruck über den Aufpreis der Option
+geben. Der Aufpreis allein ist allerdings wenig aussagekräftig,
+solange man nicht auch die anderen Details der Option kennt.
+
+
+Raphael
+Visit   http://pcgcsci.apm.hby/bqtvqz  and download a 
+free calculator for options, futures, bonds and similar stuff.

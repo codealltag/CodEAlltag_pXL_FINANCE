@@ -1,0 +1,21 @@
+Das sind die Charts, die in etwa so aussehen
+
+   x
+ x x
+ xox
+oxox
+oxox
+oxo
+ox
+ox
+o
+
+usw.
+
+Dabei bedeuten die Kreuzchen steigende Kurse, die Kringel fallende.
+Die x-Achse ist in diesem Fall *keine* Zeitachse.
+Ein neuer Turm aus x oder o wird dann begonnen, wenn bestimmte
+Kriterien zutreffen, also *nicht* jedesmal, wenn der Kurs mal einen
+Haken nach oben oder unten macht. 
+
+Vinzenz

@@ -1,0 +1,31 @@
+Dodi wrote:
+[deleted]
+
+Das erscheint (mir als Theoretiker) vollkommen unlogisch. Wenn eine
+Aktie einen "KLAREN" Aufwertstrend hat, so wuerde ich das als
+Optionskaeufer mal mit risikolosem Aufwertstrend uebersetzen - also den
+risikolosen Zinssatz erhoehen, nicht aber die Volatilitaet. Also wird
+der Call teurer und der Put billiger. Nun wuerde Arbitrage sicherlich
+den Call wieder nach unten und den Put nach oben treiben. 
+
+Das Problem ist glaube ich eher, dass man fuer die Bewertung eigenlich
+die zukuenftige Volatilitaet braeuchte und die historische halt eine
+schlecht Schaetzung ist. Z.B. steigt die zukuenftige wie auch die
+implizite Volatilitaet meist nach starken Kursausschlaegen (vor allem
+nach unten) des Basiswertes an. Kann man schoen sehen, wenn man z.B. den
+DAX und VDAX zusammen plottet. Moderne Modelle (z.B. KZI)
+beruecksichtigen ja solche Zusammenhaenge und schaetzen die Volatilitaet
+aus den historischen Daten "besser" ab.
+
+[deleted]
+Hmm... Vielleicht koennte man nach einer schlechten Nachricht einen
+CALL/PUT schreiben und sich durch Kaufen eines CALL's/PUT's auf ein
+anderes Basisobjekt absichern.
+
+Aber welcher Privatanleger kann sowas schon ;)...
+
+Viele Gruesse,
+
+Leon.
+--
+http://ouadj.sahfdr.qp-dzfdzb.tk/~mcpk/fbhmpyt

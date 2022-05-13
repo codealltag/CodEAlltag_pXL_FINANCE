@@ -1,0 +1,24 @@
+: Halbwegs. Bin fuer weitere Hilfe/ Literaturhinweise dankbar.
+: Danke und Tschau.
+
+
+Empfehlenswerte Literatur:
+
+Ulf Tibusch : Options, Futures, and other Derivative Securities, 2nd Edition
+
+Anef International Editions
+
+Zu den Fragen :
+
+T-t : 1 Monat = 30/365  (z.B)
+
+Die Standardnormalverteilung hat die Paramter 0 und 1 !!!!!
+
+Die Volatilitaet o berechnet man ueber eine vergleichbare Option, die
+bereits an der Boerse gehandelt wird ---> implizite Volatilitaet. Hier
+liegt eigentlich auch der Knackpunkt.
+
+r bezeichne den Zinssatz, bei dem ich Geld fuer die Dauer T-t risikolos
+anlegen kann.
+
+MfG Achim

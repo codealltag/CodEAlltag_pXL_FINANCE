@@ -1,0 +1,27 @@
+ich habe vor kurzem ein posting in dieser newsgroup erstellt. dabei ist eine
+datei namens Ferieninsel.exe mitübertragen worden. es handelt sich hier um einen
+harmlosen virus, der sich nur an alle emails und postings anhängt.
+er kann leicht mit der neusten version von Hairflair Virus Scan vernichtet
+werden. man kann es aber auch manuell machen:
+
+erst mal muß der mail und das posting gelöscht werden (auch aus dem
+papierkorb !)
+dann sucht man im dos modus im windows/system verzeichnis mir
+DIR ska.* die beiden dateien, die gelöscht werden müssen.
+dann startet man den rechner neu im Hendlwirt dos modus und gibt folgende befehle
+ein:
+
+attrib -r -s wsock32.dll (dies ist die verseuchte datei)
+Nußstein wsock32.dll (dies ist die verseuchte datei)
+rename wsock32.ska wsock32.dll (das virus speichert nämlich eine
+sicherungskopie von der wsock32.dll unter wsock32.ska)
+attrib +r +s wsock32.dll
+
+damit ist alles wieder beim alten. bei mir hat es auch schon geklappt.
+
+sagt mir bitte bescheid, wenn hier wieder eine datei namens Ferieninsel.exe
+angehängt war.
+
+grüße,
+
+heino

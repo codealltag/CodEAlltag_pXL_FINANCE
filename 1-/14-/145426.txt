@@ -1,0 +1,9 @@
+Hallo,
+
+also mir kam es in den letzten Tagen so vor, als ob ein Handel mit der
+SCTP nur ca. alle 15 Minuten zustande kam. Aktuelles Beispiel: Gestern
+gab ich zwei Orders für einen DAX-Put auf, wobei der Verkaufspreis der
+SCTP bei 0,63 DM lag. Meine Limits waren bei 0,65 und 0,61 DM. Ein
+Handel kam dann aber erst ca. 10 Minuten später zu 0,61 DM zustande.
+
+Größe, Rupert

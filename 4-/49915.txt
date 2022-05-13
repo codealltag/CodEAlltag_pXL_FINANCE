@@ -1,0 +1,19 @@
+Hallo,
+
+ich wollte mir mal die Korrelation zwischen dem Busa-Index-Zertifikat
+der Azebid (WKN: 370015) und dem Busa (Ticker-Symbol: Tctbs.ind) selber 
+anschauen. Nach Buchstudium hatte ich die Erwartung, dass die Korrelation 
+sehr gross (sprich nahe 1) sein müsse.
+Also habe ich die beiden Werte in den ChartInvestor der DIRABA eingetippt 
+und die Benchmark-Funktion gewählt, die einen solchen Vergleich zulässt.
+Doch - oh Wunder - musste ich feststellen, dass entweder ich die 
+Funktionsweise des Indexpapiers nicht kapiere, oder der ChartInvestor 
+spinnt. Ich bekomme nämlich eine betragsmässig kleine, negative Korrelation 
+heraus, was IMHO aussagt, dass die Entwicklung dieser Werte wenig 
+Ähnlichkeit aufweist (Betrag Korrelation klein) und der Zusammenhang eher 
+invers ist (Wert Korrelation negativ) ....
+
+Kann mir jemand auf die Sprünge helfen?
+
+Vielen Dank,
+  Heinz

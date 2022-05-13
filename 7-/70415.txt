@@ -1,0 +1,12 @@
+Hallo Kaspar,
+
+ich habe die gesuchte Formel meiner Dokumentation von Market Maker
+entnommen:
+
+SAR = SAR    + (AF * (EP     - SAR   ))
+         n-1            last      n-1
+
+EP = Extremkurs
+AF = Beschleunigungsfaktor
+
+Gruss, Robert

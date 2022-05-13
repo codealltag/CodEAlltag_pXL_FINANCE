@@ -1,0 +1,24 @@
+N, gibt noch ein paar mehr, Fonds auf jeden Fall noch.
+
+
+Eigentlich jede Anwendung, die irgendwie mit Tabellen-
+kalkulationen oder Datenbanken umgehen kann. CSV ist 
+eine einfache Textdatei, die einfachen Regeln folgt:
+
+Jeder Datensatz (Tabellenzeile) entspricht einer Zeile
+in der Datei, die einzelnen Felder sind duch Trennzeichen
+getrennt, oft ein Semikolon oder ein Tabulator. Mehr als
+die nackten Daten läßt sich allerdings nicht abbilden,
+also z.B. keine Formatierungen. 
+
+Zum Beispiel she eine Minitabelle mit ein paar 
+DAX-Schlußkursen so aus: 
+
+"Datum";"DAX"
+23.08.2003;4018,5
+26.08.2003;4035,9
+27.08.2003;4035,44
+28.08.2003;4004,4
+29.08.2003;4045,43
+
+cHzE!

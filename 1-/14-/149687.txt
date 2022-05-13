@@ -1,0 +1,11 @@
+Ich habe mir den Spass gemacht, ein Script zu klopfen, welches
+wiederholt versucht den server anzubaggern. Natuerlich wurde der
+naechste request erst gestartet, wenn vom Vorgehenden ein Timeout
+kam (sonst waere ja der server ueberlastet ;-). Dieses habe ich dann
+mal die Nacht durchlaufen lassen. Ergebnis: von ca. 1000 Versuchen
+kein einziger erfolgreich!
+
+
+Wahrscheinlich hat der nur die Startseite geladen ;-)
+-- 
+-- Domenico Alessandro -- fy@oeecu.eilb.mg -- Saaß, Germany --

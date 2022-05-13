@@ -1,0 +1,37 @@
+Hi,
+
+ja, es ist wahr: Man kann die meisten Internetdienste per eMail ansprechen.
+Wies geht steht in der Newsgroup alt.answers im Artikel Accessing the
+Internet by E-Mail. Das Dokument sollte sich jeder Interessierte genau
+ansehen.
+Ich moechte die FAQ nicht hier posten, sie soll da stehen, wo sie
+hingehoert.
+Sonst geht das wie bei den Karnickeln...
+
+Fuer diejenigen, die alt.answers aber nicht lesen koennen, hier zumindest
+der Hinweis, wie ihr an die Hilfe des WWW-Gateways bei der Pludra kommt:
+
+Schickt ein eMail an q1dacl@lkc.wz mit dem Subject HELP
+
+Danke nochmal an denjenigen, der diese Info hier gepostet hat. Sie war sehr
+nuetzlich, wenn damit bezueglich Kursdaten auch noch nicht alle Probleme
+geloest sind :-)
+
+Wie soll man die Textdatei dann weiterverarbeiten.
+   Ich denke, ein Prograemmchen muss man da schon schreiben.
+
+Wie kann man den taeglichen Kursdatenabruf automatisieren.
+   Auf UNIX kann man CRON benutzen, damit lassen sich zeitgesteuert
+Programme
+   ausfuehren. Fuer den GHE gibt es davon eine Portierung, fuer WinDoof
+   muesste es da auch was geben.
+
+Schreibt doch in Euren Postings die Computerei betreffen mal, welche
+Plattform Ihr benutzt. Dann ist es leichter, Tips zu geben.
+
+Viele Gruesse an die Leute, die mich dieser Frage wegen direkt anmailten.
+Lasst uns Fragen lieber hier diskutieren. Ham wa alle was davon :-)
+
+Gruss
+
+    Klaas

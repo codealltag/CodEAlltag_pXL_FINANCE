@@ -1,0 +1,101 @@
+Ich hab die Sache nur grob ueberflogen. Scheint mir aber, als haettest
+du Stueckzinsen uebersehen?
+Beispiel: Anleihe mit 6% Jahreszinsen. Du kaufst 6 Monate vor 
+Zinszahlung und musst neben dem Anleihekurs 3% Stueckzinsen
+zahlen (fuer die 6 Monate Zinsen, die gerade an der Anleihe haengen).
+
+
+Hier ein Kapitel zu den Tuecken von Anleihen mit Kuendigungsrecht:
+
+5.13  Anleihen mit Kündigungsrecht
+Die normale Berechnungsmethode für Anleihen bezieht sich nur auf Anleihen ohne
+vorzeitige Kündigungsmöglichkeit. Es gibt aber auch Anleihen, die zu bestimmten
+Bedingungen vorzeitig gekündigt werden können. Diese Bestimmungen können
+manchmal sehr kompliziert sein. Ein extremes Beispiel:
+Eine Anleihe mit zehnjähriger Laufzeit kann nach fünf Jahren an einem Stichtag
+vom Gläubiger zu 98 gekündigt werden. Der Schuldner dagegen kann die Anleihe
+vom 5. bis einschließlich 7. Jahr jederzeit zu 103 kündigen, und im 8. und 9.
+Jahr zu 101,50.
+In der Praxis bedeutet das, daß die jeweilige Seite ihr Kündigungsrecht dann
+wahrnehmen wird, wenn sich aufgrund der Zinsentwicklung der "normale" Kurs der
+Anleihe für sie ungünstig entwickeln wird. Der Gläubiger wird sein vorzeitiges
+Kündigungsrecht dann wahrnehmen, wenn die Marktzinsen steigen und der Kurs
+deshalb unter 98 fallen wird. Der Schuldner dagegen wird kündigen, wenn der
+Kurs wegen fallender Marktzinsen über 103 steigen wird. 
+In der Regel kommt noch ein kleiner Spielraum hinzu, denn eine vorzeitige
+Kündigung ist meist mit zusätzlichen Kosten verbunden, etwa weil der Gläubiger
+sich eine neue Anlagemöglichkeit für sein Kapital suchen muß, und weil der
+Schuldner zwecks Umschuldung einen neuen Kredit aufnehmen oder eine neue
+Anleihe ausgeben muß. 
+Das Problem beim Finden eines fairen Kurses für solche Anleihen liegt darin,
+daß das Wissen um die Möglichkeit einer vorzeitigen Kündigung natürlich die
+Kursentwicklung beeinflußt. Was, wenn sich aufgrund des Marktzinses eigentlich
+ein fairer Kurs von 110 errechnet, aber jedermann weiß, daß der Schuldner die
+Anleihe in einem halben Jahr zu 103 kündigen kann?
+In der Praxis behilft man sich damit, daß man einen normalen Kurs für die
+Anleihe berechnet und das Recht der vorzeitigen Kündigung als Option(en)
+berechnet und zum Anleihekurs hinzuzählt bzw. davon abzieht. Konkrete
+Rechendetails:
+
+Eine Anleihe mit Kündigungsrecht des Gläubigers ("Putable Bond") kann man so
+erklären, daß sich der Anleihekäufer zusätzlich zur Anleihe eine Verkaufsoption
+für diese Anleihe gekauft hat. Für den Inhaber der Anleihe errechnet sich der
+Gesamtwert seiner Position deshalb nach dem Schema:	
+		Normaler Anleihekurs plus Verkaufsoption.
+
+Eine Anleihe mit Kündigungsrecht des Schuldners ("Callable Bond") kann man so
+erklären, daß sich der Verkäufer (Schuldner) der Anleihe vom Käufer (Gläubiger)
+eine Kaufoption gekauft hat, so daß er das Recht hat, die Anleihe später
+zurückzukaufen. Für den Inhaber der Anleihe ermäßigt sich der Preis der Anleihe
+somit um den für den Verkauf der Kaufoption erhaltenen Preis. Der Wert der
+Position berechnet sich folglich nach dem Schema:	
+		Normaler Anleihekurs minus Kaufoption.
+
+Optionen, die nur innerhalb bestimmter Zeiträume gelten, wie z.B. eine Option
+die vom 6. bis 10. Jahr gilt, berechnet man nach dem Schema:
+		10-Jahres-Option minus 5-Jahres-Option.
+
+Bei beidseitigen Kündigungsrecht muß mindestens eine Verkaufsoption
+hinzugezählt und eine Kaufoption abgezogen werden. In komplizierten Fällen wie
+etwa bei jährlich unterschiedlichen Kündigungsbedingungen kann es in
+Extremfällen notwendig sein, die Anleihe mit zehn oder sogar noch mehr Optionen
+zu verknüpfen.
+
+Wie Sie es anstellen müssen, um faire Werte für die einzelnen Anleihe-Optionen
+mit Hilfe der "was-wäre-wenn"-Box berechnen zu können, ist im vorhergehenden
+Kapitel ausführlich beschrieben. 
+
+Beachten Sie aber in jedem Fall genau das Kleingedruckte, denn gerade auf dem
+Gebiet der Kündigungsrechte gibt es enorm trickreiche Konstruktionen. Ein
+Beispiel hierfür ist der öffentliche Pfandbrief 20. 12. 22 Serie 121 der
+Gant. Dieses Papier wurde im März 1996 zu einem Kurs von
+101,80 ausgegeben. Der Kupon für die ersten beiden Jahre beträgt 5.75% und
+danach acht Jahre lang 8%. Die Schuldnerin kann diese Anleihe nach zwei Jahren
+zu einem Kurs von 100% kündigen.
+Auf den ersten Blick mag diese Konstruktion wie eine der bereits beschriebenen
+Zinsphasenanleihen erscheinen, aber eben mit Kündigungsrecht. Tatsächlich ist
+es aber nur eine normale 2-Jahres-Anleihe. Ob diese nach zwei Jahren ausläuft
+oder ob dann noch eine achtjährige höherverzinsliche Phase angehängt wird,
+entscheidet alleine die Schuldnerin. 
+Der Anleihekäufer erwirbt also nur eine 2-Jahres-Anleihe und verkauft der
+Schuldnerin eine Verkaufsoption, die vorsieht, daß diese ihm nach genau zwei
+Jahren eine 8%-Anleihe mit dann acht Jahren Restlaufzeit zu 100% verkaufen kann
+(aber eben nicht muß!). Und das wird die Schuldnerin natürlich nur dann tun,
+wenn dann der entsprechende Marktzins über 8% liegt, und diese 8%-Anleihe
+deshalb dann unter 100% wert ist. Der faire Preis im März 1996 muß deshalb
+berechnet werden als fairer Preis der puren 2-Jahres-Anleihe mit 5,75% Kupon
+minus dem fairen Preis der Verkaufsoption.  
+Für die 2-Jahres-Anleihe errechnet sich ein Wert von ungefähr 101 (bei einem
+Marktzins von etwa 5,21%) und für die Verkaufsoption errechnet sich ein fairer
+Wert von gut 2 (bei einem 10-Jahres-Marktzins von 7,2% und Kurs-OPN von 4,5),
+so daß der faire Wert der Gesamtanleihe bei knapp 99 liegt. Wer tatsächlich den
+Ausgabepreis von 101,80 bezahlt hat, der hat damit einen ungerechtfertigten
+Aufpreis in Höhe eines Halbjahreszinses bezahlt.
+Derartige für den Anleger äußerst ungünstige Anleihekonstruktionen wurden
+besonders um 20. 12. 22 von vielen Emittenten in vielen Variationen mit
+verharmlosenden Bezeichnungen wie "Step-up Callable Bond" angeboten.  
+
+
+Othmar
+Visit   http://jwkfzje.aer.vhh/hwhkup  and download a 
+free calculator for options, futures, bonds and similar stuff.

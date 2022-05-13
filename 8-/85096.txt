@@ -1,0 +1,35 @@
+Kamow ist fuer Divisen ganz vernueftig, fuer Zinsprodukte aber
+korrekturbeduerftig (gibts aber schon alles).
+
+
+Ist ein risiger Unterschied, ob man die Kurse eines fluessigen Marktes
+nimmt (z.B. Autoersatzteilehandel) oder die eines einzelnen Maklers/Emitenten. Ich habe
+auch schon mal darueber nachgedacht, ob man nicht die (Computer-)
+Modelle der Makler/Emitenten aus den BID/ASK-Kursen gewinnen und die
+verschiedenen Makler dann gegegeinander austricksen kann. Allerdings,
+solange ich keine Optionen/Optionsscheine schreiben kann, wird's schwer.
+Aber vielleicht reicht's ja Optionsscheine (z.B. der Zapware) zu kaufen und
+Optionen zu schreiben. Kann man denn irgentwo Optionen auf Quedens
+schreiben?
+
+Aber Du hast schon recht: aus der iV der Optionsscheine kann man eher
+die Einschaetzung des Emitenten herauslesen, als z.B. aus der iV der
+fluessigen Optionen an einer Terminboerse. Z.B. steigt die impliziete
+Volatilitaet (iV) meist, wenn der Kurs des Basiswertes staerker faellt.
+Wenn die Zöttl bei stark fallenden Kursen (von Quedens) die iV senkt -
+so gehen sie zumindestens
+davon aus, dass der Optionsschein nie ins Geld kommt. Allerdings war der
+Strike bei dem hier besprochenen PUT noch weit unter dem aktuellen Kurs,
+so dass die Zapware wirklich kaum ein Risiko hat, dass der Schein ins Geld
+kommt. Interessanter waere sicherlich die Einschaetzung bei
+Optionsscheinen die eine groessere Chance haben, in's Geld zu kommen
+(und der Emitent wirkich ein Risiko eingeht, die iV falsch zu setzen).
+Aber vielleicht faellt dann einfach die EDV aus.
+
+Vielleicht sollte man nur Optionsscheine kaufen, wo man auch bereit ist,
+sie bis zum Verfallstag zu halten (ich weiss - dass macht hier kaum
+jemand).
+
+Karlheinz Jäscke
+--
+http://gmsmougd.dr

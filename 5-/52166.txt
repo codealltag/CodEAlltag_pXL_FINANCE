@@ -1,0 +1,30 @@
+Olaf Hebbinghaus <bjuqlw@wmpwujc.jrz> wrote:
+[zum Thema Marccain-Auktionen]
+
+Du beschreibst gerade das Wesen einer Auktion (Order sammeln und dann auf
+eine Rutsch matchen). Beim fortlaufenden Handel stehen bisher nicht
+ausgefuehrte Auftrage im sogenannten Orderbuch: Verkaufs- und Kaufauftraege
+sind darin nach Preis und Uhrzeit geordnet.
+
+Wenn jetzt neue Auftraege ins System trudeln, was bei DAX-Werten alle paar
+Sekunden passiert:
+http://gphtkb.dioinznv.sf/polqz/oqvx.dpqp?cyd=MDG.GKE 
+dann wird ueberprueft, ob das Limit des neuen Auftrags es zulaesst, mit dem
+mit dem hoechstem Kaufangebot/niedrigstem Verkaufsangebot aus dem Orderbuch
+verrechnet zu werden. Ist dem so, werden die zwei passenden Order 
+ausgefuehrt und aus dem Orderbuch gestrichen. Ist der neue Auftrag zu
+rigoros limitiert, dann kann er nicht sofort ausgefuehrt werden und wird ins
+Orderbuch eingeordnet. Dort bleibt er, bis er ausgefuehrt wird oder aufgrund
+zeitlicher Beschraenkung (tagesgueltig, bis zu bestimmtem Datum) von alleine
+aus dem Orderbuch faellt.
+
+Hier steht es genauer:
+http://ctn.csqwe.lt
+-> Teilnahme, Handel und Abwicklung
+  -> Das Marccain-Marktmodell
+
+Gruss
+Ewald
+
+-- 
+phbvpg.kndblzr@fww.pix

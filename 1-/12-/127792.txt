@@ -1,0 +1,32 @@
+schnipp
+eine Formel für das Ganze kann ich dir nicht geben, aber um zu bestimmen, ob
+du
+dein Kapital vermehrst schon, denn die
+
+Entnahme in Prozent = Entnahme / Kapital * 100
+reale Verzinsung p = Zins - Inflation - Entnahme in Prozent
+
+dann ergibt sich, wenn
+p > 0, Kapital wächst
+p = 0, Kapital bleibt erhalten
+p < 0, Kapital schwindet ( -> Pleite )
+
+in deinem Beispiel führt ein Betrag von ca. 685.725.- zu Nullwachstum.
+p = 10% - 3% - 48000/685725 *100
+p = 0 (ca. )
+
+und jetzt noch die Formel für das Wachstum ( nur bei stetigem Wachstum,
+aber dennoch interessant zum probieren )
+
+w = Kapital * e hoch ( Zins * Jahre )
+
+P.S.
+und noch etwas sollte man bei so einer Berechnung berücksichtigen. Wegen der
+Inflation
+sollte nicht nur das vorhandene Kapital, sondern auch der Betrag der
+Entnahme
+ebenfalls jährlich wachsen, denn 4000.- DM/Monat sind in zehn Jahren nicht
+mehr viel.
+
+Gruß
+Detlef Jungfleisch

@@ -1,0 +1,27 @@
+Hi all,
+
+pepperkok (Christof Pepperkok) veroeffentlichte am 06.04.99
+seine Thesen zum Thema "Re: boersen software".
+Dazu moechte ich folgendes abmuellen:
+
+GS>> Das Datum 30.3.1998 wird dargestellt als 30.03.98, waehrend das Datum
+GS>> 30.3.1999 dargestellt wird als 30.03.99, wodurch es in der
+GS>> Depotuebersicht unschoene Spaltenverschiebungen gibt.
+
+
+Ich vermute, dass das Jahr zwar korrekt vierstellig gespeichert wird,
+aber fuer die zweistellige Anzeige einfach die Zahl 1900 abgezogen wird.
+Hier sollte man dann besser modulo 100 rechnen.
+
+Aber lass mal stecken. Ich werde definitiv noch dieses Jahr auf eine
+andere, windows-basierte Depotverwaltung umsteigen. Depotmaster bietet
+mir mittlerweile einfach zuwenig und die Kursversorgung gestaltet sich
+immer schwieriger.
+
+PS: ist die TAV Flottbike jetzt down? Und gibt's BOERSE.GER noch?
+
+
+Ciao
+Albin
+--
+## CrossPoint v3.12d R ##

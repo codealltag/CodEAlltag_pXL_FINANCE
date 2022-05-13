@@ -1,0 +1,74 @@
+Ich glaube, ich habe jetzt alle Daten zur Berechnung beisammen (Dank an
+alle, die Daten beigesteuert haben). Der Nennwert scheint tatsaechlich DM
+130,70 je Anleihe zu sein. Trotzdem folgendes ohne Garantie. Ich habe den
+Prospekt selbst nicht gelesen und weiss deshalb nicht, ob da nicht noch
+irgendwelche Gemeinheiten im Kleingedruckten versteckt sind.
+
+Es handelt sich um eine Kombination aus einer Anleihe und 2 Optionen:
+
+Berechnung des fairen Wertes fuer den 1.12.1996. Kurs Granowski-Aktie
+135,80, unterstellter Marktzins fuer Granowski 5-Jahres-Anleihe 5%,
+unterstellte Granowski Dividende/Steuergutschrift fuer die naechsten Jahre
+je DM 2,50:
+
+1) Anleihe mit Nennwert 130,70 und 5,75% Jahesverzinsung bei
+halbjaehrlichen Coupon (d.h. es werden jaehrlich DM 7,515 ZInsen bezahlt,
+naemlich 5,75% von 130,70). Rückzahlung am 2.1.2002. Fairer Marktwert
+etwa 135,40 .
+
+2) Zusaetzlich erhaelt jeder Anleihekaeufer einen amerikanischen Call zum
+Kauf von 0,862 Granowski-Aktien je Anleihe zum Bezugskurs von 151,62 .
+Fairer Wert ganz grob etwa DM 27,00 .
+
+3) Und jeder Anleihekaeufer verkauft gleichzeitig an Granowski einen
+europaeischen Put, wodurch er sich verpflichtet, Granowski je Anleihe 1,25
+Aktien zum Bezugskurs von 104,56 abzukaufen. Fairer Wert ganz grob etwa DM
+-7,00 .
+
+Der faire Wert der Granowski-Wandelanleihe am 1.12.96 unter den oben
+genannten Bedingungen lag somit ganz grob bei (135,40 + 27 - 7 ) = DM
+155,40.
+Ein genauer Wert laesst sich z.B. deshalb nicht berechnen, weil beim
+Umtausch die Stueckzahlen nie ganz aufgehen und ein Teil in Geld
+ausgeglichen wird. Rein theoretisch koennte ein pfiffiger Anleger den
+Zwangsumtausch ganz oder teilweise verhindern, indem er die Wandelanleihen
+einzeln oder in ausgesucht "krummen" Stueckzahlen vorlegt, so dass er
+ueberwiegend Bargeld erhaelt (in der Praxis wohl zu spesenaufwendig).
+
+Hochrechnungen zum Jahresende 1996:
+Granowski-Kurs => Fairer Wert Wandelanleihe
+160                  175,80
+100                  129,70
+
+Hochrechnungen zum Ablauf Januar 2002:
+Granowski-Kurs => Fairer Wert Wandelanleihe
+200 (213)          215,20
+160 (173)          180,80
+80  (93)             142,80
+30 (43)               80,20
+
+Anmerkung: Der faire Wert der Wandelanleihe enthaelt auch die gezahlten
+Zinsen und Zinseszinsen auf die Wandelanleihe. Zum Vergleich sollte man
+beim Granowski-Kurs deshalb auch die angesammelten Dividenden und
+Steuergutschriften mit Zinseszins beruecksichtigen. Bei unterstellten DM
+2,50 je Jahr bis 2001 waeren dies etwa +13 (Klammerwert). Alle
+Berechnungen mit unseren "Modern Speculator".
+
+Insgesamt scheint die Wandelanleihe kein unfaires Produkt. Durch den
+Zinsvorsprung schneidet sie fast immer besser als die Aktie ab. In der
+Praxis haengt das natuerlich davon ab, wie teuer man die Wandelanleihe
+gekauft hat.
+
+Vergleichsbeispiele:
+Am 1.12.96 die Granowski-Aktie zu 135,80 gekauft. Wenn sie im Januar 2002 auf
+10 gefallen waere, dann haette man nur noch diese 10 plus die
+unterstellten 13 an angesammelten Dividenden = DM 23.
+
+Wer dagegen die Wandelanleihe zu 155,40 gekauft hat und "zwangesgewandelt"
+wurde, der hat dann 1,25 Granowski Aktien = 12,50 plus knapp 40 aus Zins und
+Zinseszins aus der Wandelanleihe = DM 52,50 !!!
+
+
+Fredi
+Visit   http://xkseexq.khq.bvl/rfyubw  and download a 
+free calculator for options, futures, bonds and similar stuff.

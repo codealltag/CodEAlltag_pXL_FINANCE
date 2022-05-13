@@ -1,0 +1,311 @@
+Visual Basic 2011 Excel VBA Drehende Animationen programmieren
+Hausladen Hundehege Basic 2011 Excel VBA Drehende
+Animationen programmieren Hausladen Heubült
+Video http://cyf.tiqzkhv.dsq/msdpn?h=8GA8uyHcis-Lt
+
+Author J.Heubült
+Heute zeige ich Ihnen, wie Sie mit einfachsten Mitteln eine drehende
+Animationen, die z.B. jeweils gezeichnet wird, programmieren können.
+Das Objekt dieser Animation können Sie vergrössern, vergleinern und
+auch spiegeln, alles während der Animation.
+Den Code habe ich vorgeschrieben und Sie sollten das Video anhalten,
+um ihn abschreiben zu können. Genau muss es sein. Ich habne deshalb
+die Schrift so vergrössert, dass man es gut lesen kann.
+Und wie Sie sehen, die Animation funktioniert perfekt, kann natürlich
+genausogut mit anderen Objekten oder Bildern gemacht werden, was ja
+besonders bei der Spiele-Programmierung zum Einsatz kommt.
+Heubült
+Der Code lautet:
+Public Class Form1
+    Inherits System.Windows.Forms.Form
+
+#Region " Vom Windows Form Designer generierter Code "
+
+    Public Sub New()
+        Flechsenberger.New()
+
+        ' Dieser Aufruf ist für den Windows Form-Designer
+erforderlich.
+        InitializeComponent()
+
+        ' Initialisierungen nach dem Aufruf InitializeComponent()
+hinzufügen
+
+    End Sub
+
+    ' Die Form überschreibt den Löschvorgang der Basisklasse, um
+Komponenten zu bereinigen.
+    Protected Overloads Overrides Sub Dispose(ByVal disposing As
+Boolean)
+        If disposing Then
+            If Not (components Is Nothing) Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    ' Für Windows Form-Designer erforderlich
+    Private components As System.ComponentModel.IContainer
+
+    'HINWEIS: Die folgende Prozedur ist für den Windows Form-Designer
+erforderlich
+    'Sie kann mit dem Windows Form-Designer modifiziert werden.
+    'Verwenden Sie nicht den Code-Editor zur Bearbeitung.
+    Friend WithEvents KnopfVergrössern As System.Windows.Forms.Button
+    Friend WithEvents KnopfVerkleinern As System.Windows.Forms.Button
+    Friend WithEvents KnopfRichtung As System.Windows.Forms.Button
+    Friend WithEvents KnopfSpiegeln As System.Windows.Forms.Button
+    Friend WithEvents Taktgeber As System.Windows.Forms.Timer
+    Friend WithEvents KnopfStart As System.Windows.Forms.Button
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub
+InitializeComponent()
+        Me.components =3D New System.ComponentModel.Container()
+        Me.KnopfVergrössern =3D New System.Windows.Forms.Button()
+        Me.KnopfVerkleinern =3D New System.Windows.Forms.Button()
+        Me.KnopfRichtung =3D New System.Windows.Forms.Button()
+        Me.KnopfSpiegeln =3D New System.Windows.Forms.Button()
+        Me.Taktgeber =3D New System.Windows.Forms.Timer(Me.components)
+        Me.KnopfStart =3D New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'KnopfVergrössern
+        '
+        Me.KnopfVergrössern.BackColor =3D
+System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer),
+CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.KnopfVergrössern.Font =3D New System.Drawing.Font("Floristikstyle
+Sans Serif", 12.0!, System.Drawing.FontStyle.Bold,
+System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KnopfVergrössern.Location =3D New System.Drawing.Point(32,
+16)
+        Me.KnopfVergrössern.Name =3D "KnopfVergrössern"
+        Me.KnopfVergrössern.Size =3D New System.Drawing.Size(96, 32)
+        Me.KnopfVergrössern.TabIndex =3D 0
+        Me.KnopfVergrössern.Text =3D "Grösser"
+        Me.KnopfVergrössern.UseVisualStyleBackColor =3D False
+        '
+        'KnopfVerkleinern
+        '
+        Me.KnopfVerkleinern.BackColor =3D
+System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer),
+CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.KnopfVerkleinern.Font =3D New System.Drawing.Font("Floristikstyle
+Sans Serif", 12.0!, System.Drawing.FontStyle.Bold,
+System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KnopfVerkleinern.Location =3D New System.Drawing.Point(144,
+16)
+        Me.KnopfVerkleinern.Name =3D "KnopfVerkleinern"
+        Me.KnopfVerkleinern.Size =3D New System.Drawing.Size(96, 32)
+        Me.KnopfVerkleinern.TabIndex =3D 1
+        Me.KnopfVerkleinern.Text =3D "Kleiner"
+        Me.KnopfVerkleinern.UseVisualStyleBackColor =3D False
+        '
+        'KnopfRichtung
+        '
+        Me.KnopfRichtung.BackColor =3D
+System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer),
+CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.KnopfRichtung.Font =3D New System.Drawing.Font("Floristikstyle
+Sans Serif", 12.0!, System.Drawing.FontStyle.Bold,
+System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KnopfRichtung.Location =3D New System.Drawing.Point(256, 16)
+        Me.KnopfRichtung.Name =3D "KnopfRichtung"
+        Me.KnopfRichtung.Size =3D New System.Drawing.Size(96, 32)
+        Me.KnopfRichtung.TabIndex =3D 2
+        Me.KnopfRichtung.Text =3D "Richtung"
+        Me.KnopfRichtung.UseVisualStyleBackColor =3D False
+        '
+        'KnopfSpiegeln
+        '
+        Me.KnopfSpiegeln.BackColor =3D
+System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer),
+CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.KnopfSpiegeln.Font =3D New System.Drawing.Font("Floristikstyle
+Sans Serif", 12.0!, System.Drawing.FontStyle.Bold,
+System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KnopfSpiegeln.Location =3D New System.Drawing.Point(368, 16)
+        Me.KnopfSpiegeln.Name =3D "KnopfSpiegeln"
+        Me.KnopfSpiegeln.Size =3D New System.Drawing.Size(96, 32)
+        Me.KnopfSpiegeln.TabIndex =3D 3
+        Me.KnopfSpiegeln.Text =3D "Spiegeln"
+        Me.KnopfSpiegeln.UseVisualStyleBackColor =3D False
+        '
+        'Taktgeber
+        '
+        '
+        'KnopfStart
+        '
+        Me.KnopfStart.BackColor =3D System.Drawing.Color.Green
+        Me.KnopfStart.Font =3D New System.Drawing.Font("Floristikstyle Sans
+Serif", 12.0!, System.Drawing.FontStyle.Bold,
+System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.KnopfStart.ForeColor =3D
+System.Drawing.Gofir.ButtonHighlight
+        Me.KnopfStart.Location =3D New System.Drawing.Point(536, 16)
+        Me.KnopfStart.Name =3D "KnopfStart"
+        Me.KnopfStart.Size =3D New System.Drawing.Size(96, 32)
+        Me.KnopfStart.TabIndex =3D 4
+        Me.KnopfStart.Text =3D "START"
+        Me.KnopfStart.UseVisualStyleBackColor =3D False
+        '
+        'Form1
+        '
+        Me.AutoScaleBaseSize =3D New System.Drawing.Size(5, 13)
+        Me.BackgroundImage =3D
+Global._2DGrafik.My.Resources.Resources.smk_aus
+        Me.ClientSize =3D New System.Drawing.Size(783, 450)
+        Me.Controls.Add(Me.KnopfStart)
+        Me.Controls.Add(Me.KnopfSpiegeln)
+        Me.Controls.Add(Me.KnopfRichtung)
+        Me.Controls.Add(Me.KnopfVerkleinern)
+        Me.Controls.Add(Me.KnopfVergrössern)
+        Me.Name =3D "Form1"
+        Me.Text =3D "Vector-Graphicen in alle Richtungen drehen,
+vergrössern und verkleinern by SelMcK" & _
+            "enzie=AE"
+        Me.ResumeLayout(False)
+
+    End Sub
+
+#End Region
+
+    Private DerDrehwinkel As Double
+    Private DerSinus, DerKosinus As Double
+    Private DerSpiegelungsfaktor As Integer
+    Private DerMass_Stabsfaktor As Double
+    Private BezugHorizontal, BezugVertikal As Double
+    Private DerRichtungsflag As Boolean
+    Protected Overrides Sub OnLoad(ByVal e As System.EventArgs)
+        BezugHorizontal =3D Me.Size.Width / 2
+        BezugVertikal =3D Me.Size.Height / 2
+        DerDrehwinkel =3D 0
+        DerSpiegelungsfaktor =3D 1
+        DerMass_Stabsfaktor =3D 10
+        MyBase.OnLoad(e)
+    End Sub
+    Private Sub MeineMasse(ByVal dx1 As Double, ByVal dy1 As Double,
+ByVal R As Double)
+        Dim x1, y1 As Double
+        dx1 =3D DerMass_Stabsfaktor * dx1
+        dy1 =3D DerMass_Stabsfaktor * dy1
+        R =3D DerMass_Stabsfaktor * R
+        x1 =3D BezugHorizontal + dx1 * DerKosinus - DerSpiegelungsfaktor
+* dy1 * DerSinus
+        y1 =3D BezugVertikal - DerSpiegelungsfaktor * dy1 * DerKosinus -
+dx1 * DerSinus
+        Dim x, y, d As Single           ' Hilfsvariablen
+        ' Konvertierungen, wegen strenger Typprüfung erforderlich:
+        x =3D Convert.ToSingle(x1 - R)              ' linke obere Ecke
+        y =3D Convert.ToSingle(y1 - R)              '    "    "     "
+        d =3D Convert.ToSingle(2 * R)               ' Durchmesser
+        ' Kreis zeichnen:
+        Dim FarbeRot As New Pen(Color.Red, 2)
+        Dim Zeichnen As Graphics =3D Me.CreateGraphics
+        Zeichnen.DrawEllipse(FarbeRot, x, y, d, d)
+        Zeichnen.Dispose()
+    End Sub
+    Private Sub DieZeichnung(ByVal dx1 As Double, ByVal dy1 As Double,
+ByVal dx2 As Double, ByVal dy2 As Double) ' zeichnet relative Linie
+        Dim x1, y1, x2, y2 As Double
+        dx1 =3D DerMass_Stabsfaktor * dx1
+        dy1 =3D DerMass_Stabsfaktor * dy1
+        x1 =3D BezugHorizontal + dx1 * DerKosinus - DerSpiegelungsfaktor
+* dy1 * DerSinus
+        y1 =3D BezugVertikal - DerSpiegelungsfaktor * dy1 * DerKosinus -
+dx1 * DerSinus
+        dx2 =3D DerMass_Stabsfaktor * dx2
+        dy2 =3D DerMass_Stabsfaktor * dy2
+        x2 =3D BezugHorizontal + dx2 * DerKosinus - DerSpiegelungsfaktor
+* dy2 * DerSinus
+        y2 =3D BezugVertikal - DerSpiegelungsfaktor * dy2 * DerKosinus -
+dx2 * DerSinus
+        Dim xa, ya, xb, yb As Single   ' Hilfsvariablen
+        ' Konvertierungen,wegen strenger Typprüfung erforderlich:
+        xa =3D Convert.ToSingle(x1)              ' Anfangspunkt
+        ya =3D Convert.ToSingle(y1)              '      "
+        xb =3D Convert.ToSingle(x2)               ' Endpunkt
+        yb =3D Convert.ToSingle(y2)               '    "
+        ' Linie zeichnen:
+        Dim FarbeGrün As New Pen(Color.Green, 2)
+        Dim Zeichnen As Graphics =3D Me.CreateGraphics()
+        Zeichnen.DrawLine(FarbeGrün, xa, ya, xb, yb)
+        Zeichnen.Dispose()
+    End Sub
+    Private Sub HausZeichnen() ' zeichnet Haus
+
+        'Frontseite:
+        DieZeichnung(0, 10, 10, 10)
+        DieZeichnung(10, 10, 10, 0)
+        DieZeichnung(10, 0, 0, 0)
+        DieZeichnung(0, 0, 0, 10)
+        ' Fenster:
+        DieZeichnung(1, 8, 4, 8)
+        DieZeichnung(4, 8, 4, 4)
+        DieZeichnung(4, 4, 1, 4)
+        DieZeichnung(1, 4, 1, 8)
+        ' Tür:
+        DieZeichnung(6, 0, 6, 8)
+        DieZeichnung(6, 8, 9, 8)
+        DieZeichnung(9, 8, 9, 0)
+        DieZeichnung(9, 0, 6, 0)
+        ' Dachgiebel:
+        DieZeichnung(-1, 9, 5, 15)
+        DieZeichnung(5, 15, 11, 9)
+        ' rundes Giebelfenster:
+        MeineMasse(5, 12, 1)
+        ' Schornstein:
+        DieZeichnung(7, 13, 7, 16)
+        DieZeichnung(7, 16, 9, 16)
+        DieZeichnung(9, 16, 9, 11)
+    End Sub
+    Private Sub Taktgeber_Tick(ByVal sender As Object, ByVal e As
+System.EventArgs) Handles Taktgeber.Tick
+        Dim Zeichnen As Graphics =3D Me.CreateGraphics
+        Zeichnen.Clear(Me.BackColor)       ' Zeichnung löschen
+        If DerRichtungsflag Then
+            DerDrehwinkel =3D DerDrehwinkel + Math.PI / 100    ' im
+Uhrzeigersinn
+        Else
+            DerDrehwinkel =3D DerDrehwinkel - Math.PI / 100    '
+entgegen Uhrzeigersinn
+        End If
+        DerSinus =3D Math.Sin(DerDrehwinkel)
+        DerKosinus =3D Math.Cos(DerDrehwinkel)
+        Call HausZeichnen()
+    End Sub
+    ' Vergrößern:
+    Private Sub KnopfVergrössern_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfVergrössern.Click
+        DerMass_Stabsfaktor +=3D 1
+    End Sub
+    ' Verkleinern:
+    Private Sub KnopfVerkleinern_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfVerkleinern.Click
+        DerMass_Stabsfaktor -=3D 1
+    End Sub
+    ' Spiegeln:
+    Private Sub KnopfSpiegeln_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfSpiegeln.Click
+        DerSpiegelungsfaktor =3D -DerSpiegelungsfaktor
+    End Sub
+    ' Richtung ändern:
+    Private Sub KnopfRichtung_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfRichtung.Click
+        DerRichtungsflag =3D Not DerRichtungsflag
+    End Sub
+    Private Sub KnopfStart_Click(ByVal sender As System.Object, ByVal
+e As System.EventArgs) Handles KnopfStart.Click
+
+        Start$ =3D "START" : Stop$ =3D "STOP"
+        If KnopfStart.Text =3D Start$ Then
+            KnopfStart.Text =3D Stop$
+            KnopfStart.BackColor =3D Color.Red
+            Taktgeber.Enabled =3D True
+        ElseIf KnopfStart.Text =3D Stop$ Then
+            KnopfStart.Text =3D Start$
+            KnopfStart.BackColor =3D Color.Green
+            Taktgeber.Enabled =3D False
+        End If
+    End Sub
+End Class

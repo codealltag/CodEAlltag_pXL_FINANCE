@@ -1,0 +1,145 @@
+Roulettesystem Billabong Roulette SelMcKenzie Erfkamp
+Author T.Erfkamp
+Billabongs sind Waqsserlöcher in den australian Outbacks und anhand
+dieser Gegebenheit ist auch das System konstruiert.
+PAROLI AUF DEN ZWEIERCOUP
+
+Beim Spiel auf eine beliebige Einfache Chance wird man im Durchschnitt
+einen Doppeltreffer in 8 Coups erzielen, was genau der Bildung der
+vier Zweierfiguren nach dem Figurengesetz entspricht.
+
+N  N  R  R
+N  R  R  N
+
+Diese beiden Gewinncoups ermöglichen ein einfaches Parolispiel ohne
+großes Risiko. Paroli heißt, dass Einsatz und Gewinn nach einem
+Treffer einmal stehen gelassen werden, wobei der Gewinn dann bei einem
+nachfolgenden Treffer 3 Stücke beträgt.
+
+In einer sich über 120 Coups erstreckenden Partie werden wir 60
+Zweiergruppen begegnen und es werden uns 120:8=3D15 Parolisätze
+gelingen, die uns 15x3=3D45 Stücke Gewinn einbringen. Aber es verbleiben
+60-15=3D45 entgegengesetzte Gruppen, die uns je 1 Stück, also insgesamt
+45 Stücke kosten, wodurch der Gewinn exakt wieder aufgezehrt wird.
+Dies zeigt, dass uns ein Spiel im Gleichsatz auf Dauer nichts
+einbringen kann, sondern dass wir mit Sicherheit auch noch die
+Zerosteuer bezahlen müssen.
+
+Da wir also mit masse =E9gale nicht gewinnen können, verwenden wir
+Überlagerungen und Progressionen, um die ungünstigen Passagen und die
+Zerosteuer zu überwinden. Eine der bekanntesten Progressionen ist die
+Progression d'Alembert, bei der nach jedem Verlust der Einsatz um 1
+Stück gesteigert und nach jedem Gewinn der Einsatz um 1 Stück gesenkt
+wird. Solange sich der Spielverlauf halbwegs im Gleichgewicht bewegt
+und wieder annähernd zur Nulllinie zurück kehrt, bringt sie pro
+gesetztem Coup 1/2 Stück Gewinn. Bei längeren Durststrecken aber
+klettern die Einsätze mehr und mehr in die Höhe, und die d=92Alembert
+tilgt nicht einmal mehr die Zeroverluste.
+
+Es gibt unzählige Varianten der d=92Alembert Progression wie
+beispielsweise ihre Umkehrung zur Gewinnprogression oder
+verlustbremsende Verzögerungstaktiken. Wir verwenden jedoch für unser
+Parolispiel auf den Zweiercoup die Original d=92Alembert.
+Durch dieses Parolispiel auf einen Doppeltreffer in Verbindung mit
+einer Überlagerung der Einsätze, also sozusagen in Form einer
+gemischten Progression, können wir die Minusecarts mit den hohen
+Erträgen aus den Parolis zumeist sehr schnell wieder neutralisieren
+und hintereinander zahlreiche Gewinnpartien realisieren.
+
+Wir verfahren wie folgt: Wir spielen das Paroli, das uns den
+dreifachen Einsatz als Gewinn bringt, zunächst dreimal mit 1 Stück,
+bei Verlust nacheinander dreimal mit 2 Stücken, dreimal mit 3 Stücken,
+dreimal mit 4 Stücken, dreimal mit 5 Stücken usw. Erst wenn wir die
+drei Einsätze mit 1 Stück verloren haben, gehen wir auf dreimal 2
+Stücke über, nach deren Verlust auf dreimal 3 Stücke usw. Nach jedem
+Treffer bleiben Einsatz und Gewinn noch einmal auf dem Tableau.
+
+Nach einem gelungenen Paroli gehen wir wieder in den Einsätzen um 1
+Stück zurück, entsprechend dem Grundgedanken der Progression
+d=92Alembert. Um den Überblick nicht zu verlieren, nummerieren wir die
+Reihenfolge der Einsätze. Das anschließende Vorspiel anhand einer
+authentischen Permanenz , das mit einem Gewinn von 24 Stücken
+abschließt, verdeutlicht sicherlich in ausreichender Form den
+Gesamtverlauf der Partie.
+Zu erwähnen wäre noch, dass sich die demonstrierte Paroliprogression
+nach d=92Alembert nicht nur für diesen Marsch, sondern auch für viele
+andere Systemspiele einsetzten lässt.
+
+Zwecks leichter Erfassung des Vorspieles haben wir als Marsch die
+Sortante gewählt, d.h. wir spielen stets die erschienene Farbe nach.
+Wer die Satzcoups nach einem bestimmten Schlüssel ermitteln möchte,
+kann natürlich auch mit Abwarten und mit Unterbrechung der Parolis
+spielen.
+
+Eine Marschempfehlung wäre vielleicht noch eine
+Permanenzvervielfältigung, deren Stränge nach dem Marigny-Prinzip
+abzuklären wären, und wo nach einem Überhang der Einer auf Serie und
+nach einem Überhang der Serien auf Einer gespielt werden könnte.
+PERM.	FOLGE	EINSATZ NOIR	EINSATZ ROUGE	SALDO
+10
+22	 	1.	+1	 	+1
+31	 	 	+2	 	+3
+ 	14	1.	-1	 	+2
+ 	30	2.	 	+1	+3
+ 	21	 	 	+2	+5
+33	 	1.	 	-1	+4
+ 	7	2.	-1	 	+3
+ 	32	3.	 	+1	+4
+ 	23	 	 	+2	+6
+ 	5	1.	 	+1	+7
+ 	36	 	 	+2	+9
+6	 	1.	 	-1	+8
+ 	21	2.	-1	 	+7
+35	 	3.	 	-1	+6
+6	 	1.	+2	 	+8
+10	 	 	+4	 	+12
+6	 	1.	+1	 	+13
+15	 	 	+2	 	+15
+ 	25	1.	-1	 	+14
+0	0	2.	 	+1
+ 	32	3.	 	-2	+15
+20	 	 	 	 	+13
+10	 	1.	+2	 	+15
+ 	21	 	-4	 	+11
+ 	12	2.	 	+2	+13
+29	 	 	 	-4	+9
+ 	27	3.	-2	 	+7
+8	 	1.	 	-3	+4
+24	 	2.	+3	 	+7
+ 	27	 	-6	 	-4
+24	 	3.	 	-3	-2
+ 	32	1.	-4	 	-6
+ 	7	2.	 	+4	-2
+ 	21	 	 	+8	+6
+ 	27	1.	 	+3	+9
+4	 	 	 	-6	+3
+20	 	2.	+3	 	+6
+24	 	 	+6	 	+12
+ 	18	1.	-2	 	+10
+15	 	2.	 	-2	+8
+ 	25	3.	-2	 	+6
+ 	9	1.	 	+3	+9
+20	 	 	 	-6	+3
+ 	25	2.	-3	 	0
+22	 	3.	 	-3	-3
+ 	23	1.	-4	 	-7
+ 	7	2.	 	+4	-3
+ 	32	 	 	+8	+5
+ 	3	1.	 	+3	+8
+ 	12	 	 	+6	+14
+ 	21	1.	 	+2	+16
+ 	36	 	 	+4	+20
+ 	19	1.	 	+1	+21
+20	 	 	 	-2	+19
+13	 	2.	+1	 	+20
+ 	32	 	-2	 	+18
+33	 	3.	 	-1	+17
+ 	5	1.	-2	 	+15
+ 	21	2.	 	+2	+17
+ 	1	 	 	+4	+21
+ 	18	1.	 	+1	+22
+ 	32	 	 	+2	+24
+Der Kapitalbedarf hält sich in vernünftigen Grenzen. Für die
+Durchführung in der hier gezeigten Form dürften 60 Stücke ausreichen,
+insbesondere dann, wenn man im Verlust limitiert und mit einer neuen
+Partie beginn

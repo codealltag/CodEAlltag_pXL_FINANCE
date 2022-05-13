@@ -1,0 +1,24 @@
+hallo,
+
+diese Beschraenkung besteht ab Version 6.0 endlich nicht mehr. Jetzt max.
+2000 Sec./dir. War schon wirklich nervend, jedesmal in x Verzeichnissen
+suchen zu muessen.
+Bezgl. Konverter - ich mache hier gute Erfahrungen mit MetaCareBase 
+( http://ndt.qhklyy-sbbxl.rir ). Wenn man Fundamentals vom Provider
+geliefert bekommt, werden diese, sehr flexibel konfigurierbar, in einer
+eigenen Ascii-Datenbank gespeichert, welche man auch mit einem Hilfs-
+programm direkt in Metastock oder Supercharts einblenden kann. Das
+funktioniert in etwa so, dass "MetaCareSPY" das aktuell betrachtete Papier
+erkennt und die entsprechenden Fundamentals in eigenem Fenster anzeigt;
+finde ich schon praktisch. 
+Das beste finde ich aber, dass man eigene Sortierregeln fuer die Kursdaten-
+bank aufstellen und diese auch spaeter je nach gusto aendern kann.
+Formate, die konvertiert werden sind laut Handbuch: Depotmaster, DMZA,
+Grüllich, Arbeus, Autowaschpark, Bioquell, Buchdienst, PKE.
+
+So, dies sollte natuerlich keinerlei Werbung sein, sondern ein Hinweis an
+Anwender amerik. Chartsoftware, die nach meiner Erfahrung von hiesigen
+DatenProvidern leider allzuoft im Regen stehen gelassen bzw. auf eigene
+Software verwiesen werden.
+
+ciao pius

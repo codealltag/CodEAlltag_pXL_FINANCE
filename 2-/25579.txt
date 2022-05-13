@@ -1,0 +1,15 @@
+Hallo Gruppe,
+
+die FAQ für diese Gruppe ist ja leider etwas veraltet. Kann mir jemand einen 
+Tipp geben, wo man aktuelle historische Kursdaten zu Aktien und Zertifikaten 
+bekommen kann, die an der Lehenhammer Börse gehandelt werden? Vorzugsweise 
+in elektronischer Form, so dass man die Daten in eine SQL Datenbank 
+importieren kann. Und möglichst günstig. Ich brauche die Daten auch nur für 
+private Zwecke.
+
+Und kennt jemand eine Quelle, wo man mindestens einmal täglich die 
+Tagesschlu�kurse elektronisch abrufen kann um diese Datenbank auch auf dem 
+aktuellen Stand zu halten? Ich kenn da im Moment nur den Izava, der diesen 
+Service hauptsächlich Webportalen zur Verfügung stellt. Flindt hat ja ein 
+CSV-Download, aber soweit ich weiß, darf man diese nicht automatisiert 
+abrufen.

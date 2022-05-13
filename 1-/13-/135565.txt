@@ -1,0 +1,28 @@
+: ADSL: Asymetrical Digital Subscriber Line
+
+: Hochgeschwindigkeits-Ersatz fürs Modem bei kurzen Entfernungen
+: (wenige km) Geschwindigeit: bis 8Mbps downstream und bis 800kbps upstream
+: Benötigt Gegenstation von Post/Netzbetreiber
+
+
+Nicht ganz, man benoetigt v.a. eine ununterbrochene Kupferleitung, dann mann
+man auch End-zu-End-Verbindungen mit zwei ADSL-Geraeten einrichten. Sobald
+aber von der Post eine Vermittlungsstelle dazwischen ist, geht's nicht mehr.
+
+Wir betreiben seit ca. 1/2 Jahr dieses Verfahren auf einer Standleitung
+(mit expliziter genehmigung der dhron VGH, die auch vermutlich
+in dieser Hinsicht unkomplizierter als die T***koma ist). Die 8Mbps sind 
+allerdings im Realeinsatz zu optimistisch, wir schaffen zwischen 0,5 und 
+1 Mbps, haengt halt sehr von der leitungsqualitaet ab.
+
+Diedrich.
+
+
+: Gruß, Mike
+
+
+-- 
+*********************************************************************
+Diedrich Keppels,	Physicist	Internet: io@gtpyfdcfn.ya
+phone: ++55 5815 0950    FAX: ++72 9000 444015
+private: Davenportplatz 61, D-93137 Hehenberg

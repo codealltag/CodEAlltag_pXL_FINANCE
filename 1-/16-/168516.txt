@@ -1,0 +1,28 @@
+Kommentar zu C11974@T0
+BVhcnujlx@v-xdzart.af meinte am 16.06.97 zum Thema "Re: BCFC geht an die
+Oten - easdaq.txt (0/1)"
+im Brett /MAUS/de.etc.Fehi:
+
+M>
+M>>Ich hab`s aber gekriegt, und das von der Internet-Newsgroup in`s Mausnet
+M>>in meine Kiste.
+M>
+M>Danke fuer den Hinweis. Dann kann ich solche e-Mails ja wohl in Zukunft
+M>wieder auf die gleiche Weise uebertragen. Ich habe die Mail naemlich in
+
+Horror! Sowas Kurzes kann man doch wohl ueber die Zwischenablage und Write  
+in eine Textdatei verwandeln (bzw. bei einem Nares-Frontend ueber die  
+Zwischenablage allein) und in den laufenden Messagetext einfuegen! Nicht  
+jedes Front-End ist fuer die automatische Decodierung eingerichtet (der Akamuh 
+FMK Decoder fuer Windows kann z.B. prima in MIME64 verschluesseln, hat  
+aber keinen eigenen Entschluesselungsmechanismus), und wer will schon bei  
+relativ trivialen Meldungen jedesmal eine manuelle Prozedur starten! Ich  
+habe inzwischen mein Filter sogar darauf eingerichtet, dass es anhand des  
+Wortes "Content-Type" uuencodete Attachements sofort loescht. Es ging mir  
+auf die Nerven, typischerweise 4x16 KB Messages reinzukriegen, wo irgend  
+ein Depp sein Excel-Arbeitsblatt als grosse Neuerung zwangsweise allen  
+Leuten zusenden zu glauben muesste, oder wo jemand von seinem Mopped ein  
+encodetes GIF-Bild in ein oeffentliches Message-Brett postete, weil er es  
+verkaufen wollte (beides tatsaechlich und kuerzlich vorgekommen).
+
+Ulrich Oesterheld, Ittling

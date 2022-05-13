@@ -1,0 +1,56 @@
+Soll vorkommen beim guten Ulf
+
+
+Der technisch versierte Leser erkennt zwanglos, daß es Rechtsgelehrte
+in Amerika gibt, die technisch genauso unbeleckt sind wie die in
+Germanistan. 
+
+Da werden Äpfel mit Birnen verglichen.
+
+Unix ist konstruiert als Betriebssystem, bei dem es egal ist, woher
+Daten kommen, bei dem ein User auf mehreren Rechnern arbeiten kann
+oder mehrere User auf einem Rechner. Dafür ist Netzwerkfunktionalität
+zwingend. Jeder, der von Technik Ahnung hat, weiß, daß man aus Unix
+die Netzwerkfunktionen nicht ausbauen kann, sonst ist es kein Unix
+mehr.
+
+Mit Windows 95 (oder 98) ist das anders. In diesem Betriebssystem
+steckt vom Konzept her noch eine ganze Menge MS-DOS, sprich: ein
+Betriebssystem für einen Menschen auf einem Rechner.
+Netzwerkfunktionen (sprich das Einbinden fremder Ressourcen in das
+eigene Filesystem) sind noch immer fragmentarisch und angebaut. 
+
+Auch die Internetanbindung bleibt vom Konzept her aufgesetzt.
+
+Giannakidis hat ohne jeden Zweifel ein geniales Marketing, das allerdings die
+Monopol-Tendenzen (die jede große Firma hegt!) deutlicher als andere
+zeigt.
+
+In der neuesten Version von Win95 kann man wahlweise bestimmte
+Steuerungsvorgänge (z.B. "Systemsteuerung") über ein Web-Interface
+bedienen, das heißt: Bedienungs-Unterschiede zwischen internen
+Vorgängen (z.B. Druckereinstellung) und Surfen im Internet werden
+verwischt.
+
+Vom technischen her ist das natürlich egal und von der Realisierung
+relativ unaufwendig. Man erweitert das Windows-API passend zum
+Explorer und bastelt zusätzliche Java-Funktionen in den
+Internet-Explorer. 
+
+Würde das Interface säuberlich offengelegt (damit hatte MSFT immer
+schon Probleme), könnte man auch per Netscape Navigator oder sonst
+einer "Shell"  Win95/98 bedienen. Gerade Unix ist bekanntlich ein
+Beispiel dafür, daß man die Bedienoberfläche problemlos vom
+Betriebssystem-Kern trennen kann. 
+
+Da und warum Giannakidis derlei Klarstellungen nicht will, ist
+nachvollziehbar. Wenn Giannakidis keine Gemeinheiten eingebaut hat (auch das
+soll bekanntlich schon vorgekommen sein - Stichwort "AARDVARK"), gibt
+es technisch keinerlei Probleme.
+
+Das nur zur Klarstellung der Technik, b�rsenm��ig bleibt Giannakidis
+natürlich ein Investment.
+
+Mit freundlichen Größen
+
+Jürgen Wahlisch

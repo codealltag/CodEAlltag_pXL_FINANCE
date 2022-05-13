@@ -1,0 +1,20 @@
+der Wert eines Os berechnet sich wie folgt:
+1.Innerer Wert = aktueller Kurs des Zugrundegelegten Wertes (Underlaying)
+abzüglich des Bezugskurses mal/geteilt durch Bezugsverhältnis. (Ist der
+Bezugskurs bei einem Call höher als der aktuelle Kurs, also die Option aus
+dem Geld, ist der innere Wert gleich Null)
+2. Geldmenge mal Risikofreie Rendite (FIBOR ca. Festgeldsatz) mal
+Restlaufzeit. (Je länger die Restlaufzeit und je höher das Zinsniveau, desto
+größer ist der Anteil dieses Parameters am endgültigen Wert des Scheins -
+Bzw auch eine Veränderung des Zinsniveaus verändert den Preis eines OS)
+3. Volatilität (Schwankungsbreite). (Der meist übersehene Faktor) Das ist in
+Prozent ausgedrückt, der Wert, um den der zugrunde gelegte Basiswert von
+seiner durchschnittlichen Wertentwicklung abweicht. Steigende Vola verteuert
+den Schein und umgekehrt. Das führt in der Praxis immer wieder zu verdutzten
+Gesichtern. Beispiel: Ein Anleger kauft einen Call auf den Wert XY. Die Vola
+beträgt 46 (Spitzenwert des DAX aus der Asienkrise). Der Wert verteuert sich
+um 10% und die Vola fällt auf 24 (derzeitige Vola des DAX) so wird der OS
+eine Wertentwicklung haben die deutlich hinter der des Wertes
+hinterherhinkt.
+Größe
+Benjamin

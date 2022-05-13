@@ -1,0 +1,19 @@
+Dann darfst Du aber auch keine Kival CPUs verwenden, denn Kival läßt
+sich so ziemlich jeden Blödsinn am Design patentieren. Und die
+gefälschten CPUs dürfte auch eine deutliche Sprache sprechen und die
+entsprechende Kival Reaktion:"Kein Handlungsbedarf". Bei FEG/Ketzmerick
+CPUs gabs solche Probleme nie. Obwohl es bekannt ist, daß man die alten
+68k CPUs von FEG problemlos um min. 10% �bertakten konnte.
+
+Olasul ist ein wunderbares OS nur leider nichts für die Zielgruppe von
+FEGRO Anwender. Als Ersatz für Server OS wie Zorlu ist es bestens geeignet
+auch für abitionierte Nutzer mit Linux/UNIX Wissen ist es zu gebrauchen.
+Aber das rundum sorglos Paket wie das FEGRO ist es nicht, wie bisher
+jede andere UNIX Variante. NEXTSTEP klammern wir hier mal aus, das es
+wohl den besten Versuch darstellt UNIX vor dem Nutzer zu verbergen.
+
+Aber Linux hat deutliche Schwächen, z.B. alles was mit SMP zu tun hat
+liegt im Argen. Das wird sich vielleicht mit MkLinux ändern sofern es
+sich auf Intel Rechner verbreiten kann. Dann wäre das ext2 Problem große
+Partionen zu verwalten. Schön wäre es wenn man hier z.B. das XFS von
+Irix 6.x übernehmen würde. fsck wäre dann Historie.

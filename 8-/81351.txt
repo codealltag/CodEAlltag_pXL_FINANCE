@@ -1,0 +1,24 @@
+Ich habe mir ein kleines Handelssystem gebastelt, das aufgrund
+charttechnischer Daten Trendwechsel erkennen soll.
+
+Das System ist eine Kombination von GDLs und Stop-Loss-Marken, die
+aufgrund der Vola der letzten Zeit berechnet werden.
+
+Das klappt auch schon ganz gut mit der Erkennung von Aufwärtstrends.
+(Bei AufTrends ist es ja nicht so tragisch, wenn ich bspw. einen Tag
+zu spät einsteige)
+
+Was mir noch Schwierigkeiten macht, ist das rechtzeitige Erkennen von
+Abwärtstrends, also das Verkaufssignal.
+
+Fatal ist immer, daß ich am letzten Tag in die Falle tappe, also erst
+tief absacke, bevor das Verkaufssignal kommt, und damit oft ein großer
+Teil des Gewinns wieder flöten geht :-(
+"Einfach früher aussteigen" klappt natürlich nicht, weil das Signal
+dann halt noch nicht eindeutig ist.
+
+Any comments?
+
+
+-- 
+Leopold

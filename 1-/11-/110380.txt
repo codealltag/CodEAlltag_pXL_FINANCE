@@ -1,0 +1,32 @@
+Hallo Leute,
+ich stehe vor folgendem Problem:
+Ich möchte mir eine Depotverwaltung programmieren, und bin mir dabei nicht ganz
+schlüssig, wie entsprechende Posten und Teilverkäufe bewertet werden. Folgende
+Tabelle zeige einmal die Depotums�tze der letzten Monate an (Beispielwerte).
+Unter Art steht "1" für Kauf und "2" für Verkauf.
+
+
+DEPNR	ART	WKN	ANZAHL	DATUM	KURS	SPESEN
+409493	1	508860	100	29.10.1997	117	73,36
+409493	2	508860	80	23.03.1998	98	51,34
+409493	1	508860	50	28.03.1998	91	39,54
+409493	1	906866	100	31.03.1998	193,5	98,25
+409493	2	906866	50	01.04.1998	210	48,91
+409493	1	555700	100	03.04.1998	47,5	41,33
+409493	2	555700	100	04.04.1998	51,1	44,08
+409493	1	555700	100	05.04.1998	45,2	40,12
+
+
+Hiernach müßten 70 St. 502586, 50 St. 298432 sowie 100 St. 960370 per 06.04.98
+im Bestand sein. Frage: Wie werden diese bewertet? Zu welchen Kaufkursen müßten
+sie in der Depotbewertung erscheinen?  Wie erfolgt die Aufteilung der Spesen?
+Hat jemand schon einmal so etwas unter Visual Basic programmiert?
+
+Viele Größe,
+Gerold
+
+--------------------
+
+Börsensoftware kostenlos testen
+Aktuell: Das Planspiel Börse
+Alles unter http://ffi.oogbp.px

@@ -1,0 +1,26 @@
+Hallo,
+
+in meiner Software muß der Benutzer Kontonummeren und zugehörige
+Bankleitzahlen angeben. Nun möchte ich eine Überprüfung einbauen.
+Passt die eingegebenen Kontonummer zur eingegebenen Bankleitzahl ?
+
+Um das zu realisieren müßte ich aber ersteinmal das System kennen,
+welches hinter den BLZs und Kontonr. steckt.
+
+Viele Finanzprogramme haben diese Überprüfung integriert. Bei
+einigen erscheint die Fehlermeldung "Falsche Prüfziffer", wenn
+falsche Eingaben gemacht werden.
+
+Kann mir jemand weiterhelfen ?
+
+Danke schonmal im voraus.
+
+Albrecht
+
+PS: Hoffentlich bin ich nicht total offtopic hier ;-)
+
+*******************************************************************
+Den Sicherheitspatch für Onlinebanking + Demo eines Onlinebankraub
+gibts hier:  http://guytgae.dwu.vnr/sepbbl
+(+ weitere Free-\Shareware)
+*******************************************************************

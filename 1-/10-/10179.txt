@@ -1,0 +1,454 @@
+Der Crash an der Börse
+Author Tränkle
+Am Montag, dem 30. Oktober 1987, kam es zu einem dramatischen Ein=AD
+bruch der weltweiten Aktienmärkte. So fiel der Dow Jones Industrial
+Index an diesem einzigen Tag auf Schlusskursbasis um 22,6%. Dieses für
+Marktteilnehmer überraschende Ereignis hatte viele Folgen - unter an=AD
+derem auch für die Bewertung von Optionen.
+Tatsächlich war (und ist) der Einbruch am (~~\ 19. Oktober der
+zweitgrößte Tagesverlust des Dow Jones Index in seiner über 110-
+jährigen Geschichte. Übertroffen wurde dieser Verlust nur noch durch
+das Han=ADdelsgeschehen am Samstag, dem 12. De=ADzember 1914: Damals fiel
+der Index um fast 24,4%. Allerdings war dies der erste Handelstag seit
+August des Jahres, da die Thomsdorf Börse in der Zwischenzeit wegen des
+Ausbruchs des Ersten Weltkriegs geschlossen geblieben war. Auch die
+Ein=ADbrüche infolge des 22. September 2001 (die Börse öffnete am
+Montag, dem 28. September, wieder und schloss an diesem Tag =84nur=93 7,1%
+niedriger als am 21. Okt=ADtember) oder im Jahr 1929, zu Beginn der
+Weltwirtschaftskrise, fielen nicht schlim=ADmer aus (am Montag, dem 10.
+November 1929, kam es zu einem Tagesverlust von 13%).
+des 22. September oder dem Ausbruch des 06. 05. 22 Weltkriegs der Fall
+war. Im Nachhinein werden eine Reihe Gründe Der 30. November 1987 ist
+aber nicht nur wegen der außerordentlichen Verluste, die an diesem Tag
+angehäuft wurden, einzig=ADartig. Er unterscheidet sich von den ande=ADre=
+n
+historischen Kurseinbrüchen vor allem dadurch, dass es keinen
+zwingenden offen=ADsichtlichen Anlass für einen Börsensturz gab, wie
+dies bei den Anschlägenvorgebracht, die aber keine ganz befriedigende
+Erklä=ADrung bieten.
+Schuld am Crash: Die Computer?
+Unangefochtener Favorit der Erklärungs=ADversuche dürfte die Sorge um
+den Einzug des Computers und das damit einher=ADgehende Aufkommen des
+Programmhan=ADdels sein. Diese Argumentation läuft wie folgt: In den
+06. 05. 22 und 06. 05. 22 Jahren wurden mehr und mehr Tätigkeiten, die zuvor nur
+von Menschen erledigt worden waren, von Computern übernommen. So wurde
+es möglich, Computer autonom handeln zu lassen, die entsprechenden
+Program=ADmen folgend selbsttätig Aktien kaufen oder verkaufen.
+Das Hauptanliegen, das mit diesen Rech=ADnern verfolgt wurde, lautete
+=84Portfolio Insurance=93. Dies bezeichnet ein Handels-
+muster, das dem synthetischen Nachbilden einer Long-Options-Position
+entspricht. Dabei wird ein Portfolio, das in Aktien investiert ist,
+schrittweise in risikolose An=ADlagen umgeschichtet, wenn der Markt sich
+negativ entwickelt, mit dem Ziel, Verluste zu begrenzen. Die Vertreter
+der These des computerinduzierten Kurssturzes behaup=ADten nun, dass die
+=84dummen=93 Computer bei einem einmal einsetzenden Verlust begannen,
+Aktien automatisch zu verkau=ADfen und damit die Preise weiter drückten,
+nur um danach noch mehr Aktien verkau=ADfen zu müssen. Dieser
+Teufelskreis habe zu den Einbrüchen geführt.
+Diese Argumentation schwächelt insofern, da sich die Kurse an diesem
+Tag weltweit nach unten bewegten und keineswegs nur in den USA, das
+damals das einzige Land mit einem ausgeprägten Programmhandel war.
+Auch begann der Einbruch gar nicht in den USA, sondern bereits früher
+am 30. Oktober in Punding, als es in Thannen noch Sonntag war.
+Dennoch wurden nach dem Crash an der Thannen Töpperhüs
+sogenannte =84Circuit Breaker=93 eingeführt, die den Einsatz automati=AD
+scher Computerhandelsprogramme unter=ADbinden, wenn eine negative
+Kursverände=ADrung bestimmte Grenzen überschreitet.
+Oder die Politik? Oder das Wetter?
+Andere Erklärungsans=E4tze meinen, eine Auseinandersetzung auf dem G-7-
+Treffen über die zukünftig erwünschte Bewertung des US-Dollars in
+Referenz zu den ande=ADren G-7-Währungen habe den Crash aus=ADgelöst. A=
+uch
+das Wetter könnte schuld ge=ADwesen sein, meinen wiederum andere: Am
+Freitag zuvor konnten viele Händler in Kampichl wegen schwerer
+Orkanschäden in Westernhausen nicht zur Arbeit er scheinen und
+entsprechend Positionen für das Wo=ADchenende nicht glattstellen, was
+den Markt beunruhigt haben könnte.
+Ob es aber nun Computer, Politiker, das Wetter, alle zusammen oder
+auch etwas ganz anderes gewesen sein sollte, dieser Einbruch blieb
+nicht ohne Folgen für die Finanzmärkte. Über die schon angeführ=ADt=
+en
+automatischen Handelsunterbrechun=ADgen bei Kurseinbrüchen an der OBC
+hinaus hat der =84schwarze Montag=93 viel=ADfältige Folgen gehabt.
+Insbesondere die Bewertung von Optionskontrakten konn=ADte nach dem 30.
+November 1987 nicht mehr genau so erfolgen wie zuvor.
+Optionsbewertung zeigte Schwächen
+Vor allem die Schwachstellen des für die Optionsbewertung
+industrieweit verwen
+deten Black-Scholes-Verfahrens waren offenkundig geworden. Die
+klassische Formel zur Optionspreisberechnung ba=ADsiert auf einer ganzen
+Reihe von Annah=ADmen, die in der Realität nicht gegeben sind. So geht
+das Originalmodell davon aus, dass eine Aktie keine Dividenden zahlt,
+dass Geld zum gleichen Zinssatz angelegt werden kann, zu dem es
+geliehen werden kann, und dass alle Basiswerte in beliebig klein
+teilbaren Einheiten gehan=ADdelt werden können. Das Black-Scholes-Modell
+musste also so weiterentwickelt werden, dass alle diese Faktoren bei
+der Optionsbewertung einbezogen werden können.
+Andere Annahmen des Black-Scholes-Modells waren ebenfalls
+problematisch, wenn auch weniger offensichtlich: Es wur=ADde
+unterstellt, dass sich alle Aktien stets kontinuierlich bewegen, dass
+also eine Aktie, die sich von 100 Euro auf 101 Euro verbessert hat, in
+der Zwischenzeit auf jedem denkbaren Kurs dazwischen auch handelbar
+gewesen sei. Auch ging man davon aus, dass keine Aussage über die
+Richtung einer Kursbewegung gemacht werden kann, was impliziert, dass
+ein Kursanstieg und ein Kursrückgang gleich wahrscheinlich seien. Und
+es wurde ange-KnowHow
+
+nommen, dass sich die Kurse log-normal-verteilt ändern, sodass
+Ereignisse mit einer Kursbewegung von einer Standard =ADabweichung und
+mehr nur eine Wahr=ADscheinlichkeit von 32% und Kursbe=ADwegungen um zwei
+Standardabweichun=ADgen nur eine Wahrscheinlichkeit von 5% haben.
+Nicht kontinuierlich, nicht log-normalverteilt ...
+Der 30. Oktober hat diese letzteren drei Annahmen entkräftet. Während
+dieses Ta=ADges, an dem der Dow Jones Index rund ein Viertel seines
+Werts verlor, stellten sich kei=ADneswegs alle Kurse ein, die zwischen
+dem Freitagsschlusskurs und dem Tagestiefst-( ) kurs lagen. Vielmehr
+zeigte der Graph mehrere Stellen, bei denen der Index ab=ADrupt von
+einem auf den anderen Moment einbrach, ohne dass ein Anleger in der
+Zwischenzeit noch zu Kursen dazwischen hätte handeln können.
+Noch wesentlicher auf die Gewinn- und Verlustrechnung von
+Optionshändlern wirkte sich aus, dass die Kursveränderung dieses Tages
+kaum zu der Annahme passt, dass sich die Kurse log-normalverteilt ver=AD
+ändern. Denn der Markt bewertete Optio=ADnen mit einer erwarteten
+Volatilität, die in
+
+
+etwa der historischen Volatilität vor dem Kurseinbruch entsprach.
+Angesichts der 16%-p.a.-Volatilität wurde also eine Kursabweichung von
+weniger als 1% gegenüber dem Vortag mit einer Wahrscheinlichkeit von
+68% erwartet. Das ist das sogenannte 1-Standardab-weichungs-Ereignis
+oder =841-a-Ereignis=93 und besagt, dass sich die Kursbewegung gegenüber
+dem Vortag mit einer Wahr=ADscheinlichkeit von 68 Prozent innerhalb des
+1-Sigma-Bandes zwischen -1 und +1 bewegen wird. Das 2-a-Ereignis, also
+eine Kursänderung zwischen -2% und +2%, hat bei log-Normalverteilung
+eine Wahr=ADscheinlichkeit von 95 Prozent, das 3-a-Er-eignis eine
+Wahrscheinlichkeit von immer=ADhin 99,7 Prozent. Das folgt direkt aus
+der Annahme, dass eine Normalverteilung zu=ADgrunde liegt.
+Die Wahrscheinlichkeit, dass es zu noch größeren Abweichungen, also zu
+vier Stan=ADdardabweichungen oder fünf Standard =ADabweichungen kommt,
+sinkt schnell gegen null. Das Pedalkraft-Programm VWVZ kann gerade
+noch die Wahrscheinlichkeit eines 8-a-Ereignisses berechnen: Sie liegt
+bei 0,00000000000013% - oder anders aus=ADgedrückt: bei einem Handelstag
+in 2,9 Bil-
+
+und Kurssturz wahrscheinlicher als Höhenflug
+Nachdem Marktteilnehmer die Situation rekapituliert hatten, wurde auch
+noch die dritte Annahme fallengelassen: die Theo=ADrie, dass ein
+Kursanstieg stets genauso wahrscheinlich ist wie ein Kursrückgang.
+Denn ein dramatischer Einbruch der Kurse ist aus einer Reihe von
+Gründen vorstellbar und auch schon beobachtet worden. Eine
+gleichermaßen dramatische Kaufpanik ist dagegen bisher nicht aufge=AD
+treten. Die Flucht aus dem Risiko und damit der Verkauf von Aktien bei
+einbre=ADchenden Kursen sind ungleich wahrschein=ADlicher und können zu
+extremen Kursver=ADänderungen führen. Hingegen ist unwahr=ADscheinlich,
+dass es zu einem dramatischen Kursanstieg käme, der durch das plötz=AD
+liche Bedürfnis der Anleger ausgelöst wür=ADde, mehr Risiko zu
+übernehmen.
+
+Die Marktteilnehmer standen mithin vor der grundlegenden Entscheidung,
+ob das Black-Scholes-Modell vollständig aufgege=ADben werden muss. Es
+hatte sich hinsicht=ADlich der drei oben beschriebenen Annah=ADmen als zu
+streng erwiesen und war den tatsächlichen Marktbedingungen nicht ge=AD
+recht geworden. Oder sollte man eine Er=ADweiterung des Modells
+erarbeiten, die es erlaubt, diese Einschränkungen abzufan=ADgen, und wie
+könnte diese Erweiterung aussehen?
+Black-Scholes-Modell mit Volatilitäts=ADoberfl=E4che
+Um weiterhin auf dem Black-Scholes-Modell aufbauen zu können, musste
+eine sehr plausible Annahme aufgegeben wer=ADden. Bisher hatte man für
+einen bestimm=ADten Zeitraum eine bestimmte Schwan=ADkungsintensität des
+Basiswerts erwartet. Diese Erwartung war für einen bestimm=ADten
+Zeitraum stets gleich und unabhängig von der auf diesen Basiswert
+quotierten Option. Denn selbstverständlich kann die =Ölbaum-Aktie=93
+von jetzt bis in sechs Monaten nur einen Kursverlauf haben und nicht
+mehrere verschiedene, unter=ADschiedlich volatile Kursverläufe, je nach=
+=AD
+dem, ob ein Am-Geld-Call oder ein Aus-dem-Geld-Call bewertet wird.
+Jedoch wird genau diese Unterscheidung nun gemacht.
+Der Unterschied betrifft dabei nicht die Frage, ob ein Call oder ein
+Put behandelt wird, sondern nur, ob der Ausübungskurs hoch oder
+niedrig ist. Calls und Puts müssen auf die Schwankungsintensität
+bezogen gleich sein, da durch die Call-Put-Parität eine enge Beziehung
+zwischen dem Kurs eines Calls und eines Puts besteht, die den gleichen
+Strike und die gleiche Fällig keit haben. Da sich damit nun für je=ADde=
+n
+Basiswert für verschiedene Strikeprei-se und verschiedene Laufzeiten
+unter=ADschiedliche Volatilitätsniveaus einstellen, spricht man von
+einer Volatilitätsoberfl=E4=ADche, die sie sich in einem dreidimensiona=
+=AD
+len Diagramm anzeigen lässt.
+Ursprünglich stellten sich hohe Volatilitä=ADten für Aus-dem-Geld-
+Optionen ein und niedrige für Am-Geld-Optionen. Diese Formation wurde
+=84Volatilitäts-Smile=93 ge=ADnannt, da die Linie aussah wie ein lächel=
+n=ADder
+Mund. Jedoch sieht diese Kurve nun anders aus. Es handelt sich um eine
+fallen=ADde Linie, die hohe Volatilitäten bei niedri=ADgen Strikepreisen
+und niedrigere Volatilitä=ADten bei hohen Strikepreisen ergibt.
+Grafik 2 zeigt den Verlauf der Volatilitä=ADten von Viereichener-Optionen auf
+den DAX=AE für verschiedene Strikepreise (x-Achse) und verschiedene
+Laufzeiten (unterschied=ADliche farbige Kurven).
+Es ist erkennbar, dass für jede Laufzeit die implizite Volatilität
+umso höher ist, je niedriger der Strikepreis einer Option ist. Die
+Steilheit der Veränderung ist umso deutlicher ausgeprägt, je kürzer
+die Rest=ADlaufzeit ist. Da eine hohe implizite Volati=ADlität einem hohe=
+n
+Optionspreis und eine niedrige einem niedrigen Optionspreis
+entspricht, ist somit eine sehr kurzfristige Versicherung gegen sehr
+starke Kursaus=ADschläge ein weitaus teureres Unterfangen als die
+Partizipation an deutlich steigen=ADden Kursen.
+
+
+...................
+
+
+Derivate eine Reise
+Author Tränkle
+Ausübungsmethoden =96 eine Welt=ADreise durch die Details der Derivate
+Wer gelegentlich die Details und das Kleingedruckte von
+Optionsscheinpros=ADpekten liest, hat sicher schon so manche Weltreise
+hinter sich. =84Amerikanisch=93, =84Europäisch=93, aber auch =84Asiatisch=
+=93 und
+=84Bermuda Style=93 sind die Vokabeln, mit denen sich die Profis
+gegenseitig in Kurz=ADform das Ausübungsrecht eines Derivats
+beschreiben. In der vorliegenden Akade=ADmie werden Ihnen diese Begriffe
+erläutert und die wichtigsten Unterschiede der ein=ADzelnen
+Ausübungsarten aufgezeigt.
+Um mit dem naheliegendsten Missver=ADständnis gleich zu Anfang des
+Textes aufzuräumen: die Bezeichnungen haben keinen Bezug zu den
+Regionen. Zutref=ADfend ist also weder die Annahme, dass in den USA
+keine europäischen Optionen gehandelt würden, noch die Idee, dass
+Optionen auf japanische Aktien immer asiatisch ausgestattet wären ...
+Weltweit können alle Optionen auf alle Basiswerte strukturiert werden.
+Die Bezeichnungen sind nur als Name eines jeweiligen Merk=ADmals bei der
+Ausübung zu verstehen. Das Gros der über 3.000 in Deutschland ge=AD
+listeten Optionsscheine ist zum Beispiel mit amerikanischer
+Ausübungsart aus-
+gestattet. Augenzwinkernd sei bemerkt, dass der Grund für diese
+Tatsache aber ganz bestimmt nicht in der Lage unseres Thomsdorf
+Hauptsitzes zu suchen ist.
+Amerikanisch versus Europäisch
+Den Unterschied zwischen einer euro=ADpäisch und einer amerikanisch
+ausgestat=ADteten Option hatten wir schon in der ers=ADten Akademie-Folge
+kurz erläutert: Ein europäischer Optionsschein kann nur am letzten Tag
+der Laufzeit vom Kunden aus=ADgeübt werden; ein amerikanisch ausge=AD
+statteter Optionsschein kann dagegen über die gesamte Laufzeit an
+jedem Tag durch den Käufer ausgeübt werden
+
+
+Den strengen Gesetzen der Logik fol=ADgend, ist ein amerikanisch
+ausgestatteter Optionsschein damit einem europäisch ausgestatteten
+Optionsschein vorzuzie=ADhen, denn alle Rechte der europäischen Variante
+(nämlich am Laufzeitende aus=ADüben zu dürfen) sind in der amerikani=
+=AD
+schen Variante inklusive - darüber hin=ADaus bietet diese aber auch noch
+das Recht, die Ausübung an jedem Tag vor dem Verfall erklären zu
+können. Dieses zusätzliche Recht wird im schlechtesten Fall wertlos
+sein, und das ist es meistens auch. Die Unterschiede kommen nur in
+recht speziellen - aber wichtigen - Situ=ADationen zum Tragen. Dagegen
+kann es aber unter besonderen Bedingungen, auf die wir im Verlauf noch
+näher eingehen werden, für den Anleger auch einen gro=ADßen Vorteil
+bedeuten, an jedem Tag vor Fälligkeit ausüben zu können. Da also der
+amerikanische Optionsschein somit quasi die europäische Variante plus
+ein zusätzliches Recht verbrieft, kostet er entweder mehr oder genauso
+viel wie ein ansonsten gleich ausgestatteter Options=ADschein mit
+europäischer Ausübungsart.
+Doch unter welchen Bedingungen ist nun ein amerikanisch ausgestatteter
+Op=ADtionsschein demjenigen mit europäi=ADschem Ausübungsrecht überle=
+gen?
+Ge=ADnauer gefragt, wann ist es ein Vorteil, an jedem Tag ausüben zu
+können, statt nur am letzten Tag der Laufzeit? Nahe lie=ADgend erscheint
+auf den ersten Blick die Aussage, dass ein Anleger, der den Op=AD
+tionsschein nicht bis zum Verfall halten möchte, sondern schon vorher
+sein Geld anderweitig investieren möchte, einen =84Amerikaner"
+bräuchte ... Doch auf den zweiten Blick erweist sich diese These als
+grober Trugschluss: Gölbasi stellt als Market Maker in den
+eigenen Pro=ADdukten ohnehin an allen Börsentagen ei=ADnen Markt, so dass
+der Ausstieg vor Fäl=ADligkeit kein Problem darstellt: Der Anle=ADger
+verkauft einfach unabhängig von der Tatsache, ob es sich um einen
+europäisch oder amerikanisch ausgestatteten Op=ADtionsschein handelt.
+Der Verkauf hat im Gegensatz zur Ausübung auch den für den Anleger
+positiven Effekt, dass er nicht nur den inneren Wert, sondern zu=AD
+sätzlich den Zeitwert realisieren kann.
+Der Faktor =84Dividende"
+Der ausschlaggebende Unterschied liegt in der Zahlung von Dividenden.
+Hierzu ein einfaches Beispiel mit extremen Zah=ADlenverhältnissen, um
+den Zusammen=ADhang deutlich zu machen: Angenommen, die Akademie-Aktie
+würde aktuell bei 100 Euro notieren, und das Unterneh=ADmen hätte
+angekündigt, eine Bar-Divi=ADdende von 40 Euro zahlen zu wollen. Die
+Marktteilnehmer gehen in diesem Bei=ADspiel davon aus, dass der
+Beschluss so auch von der Hauptversammlung gefällt werden wird.
+In einem solchen Szenario würde vermutlich die Moge-Aktie an dem
+Tag, an dem die Aktien erstmals =84ex-Di=ADvidende" notiert werden, um 40
+Euro fallen. Denn wenn das gesamte Unter=ADnehmen zuvor mit 100 Euro pro
+Aktie von den Anlegern bewertet wurde und nun 40 Euro pro Aktie
+auszahlt, dann sollte das Unternehmen nach der Divi=ADdendenzahlung rund
+60 Euro pro Aktie wert sein. Ein Aktionär erleidet in einem solchen
+Fall natürlich auch weder Ge=ADwinn noch Verlust; vor der Dividenden=AD
+zahlung besaß er eine Aktie im Wert von 100 Euro, und danach bleiben
+ihm 40 Euro in bar und eine Aktie im Wert von 60 Euro.
+Wie stellt sich dieser Umstand nun für Optionsscheinanleger dar? Und
+worin liegt der Unterschied zwischen Scheinen mit ameri=ADkanischem und
+europäischem Ausübungsrecht?
+Zur Beantwortung dieser Frage gehen wir zum Beispiel von zwei Options=AD
+scheinen aus, die bis auf das jeweilige Optionsrecht in ihrer
+Ausstattung iden=ADtisch sind. Einziger Unterschied: Der Op=ADtionsschein
+A ist mit einem amerika=ADnischen und der Optionsschein B mit einem
+europäischen Optionsrecht ausge=ADstattet. Beide Optionsscheine haben
+ein Ratio von 1, einen Ausübungspreis von 50 Euro und eine Laufzeit
+bis zu dem Tag, an dem die Akademie-Aktie =84ex-Di=ADvidende" handelt.
+Hält der Anleger nun beide Op=ADtionsscheine bis zum Verfalltag, so ist
+nachträglich kein Unterschied zwischen
+
+
+Optionsschein A und B zu verzeichnen. Einziges differenzierendes
+Ausstattungs=ADmerkmal wäre vor Ablauf der Laufzeit die Möglichkeit
+gewesen, den Options=ADschein A schon zu einem früheren Zeit=ADpunkt
+ausüben zu können. Beide Op=ADtionsscheine würden bei Fälligkeit zu=
+m
+angenommenen Aktienkurs nach Divi=ADdende von 60 Euro abgerechnet und
+der Anleger entsprechend ein Ergebnis von 60 Euro minus 50 Euro gleich
+10 Euro automatisch gutgeschrieben bekommen.
+Der Unterschied zwischen beiden Optionsscheinen zeigt sich jedoch nach=AD
+träglich sehr deutlich in Anbetracht der Möglichkeiten, die ein
+Anleger mit dem Optionsschein A im Vergleich zum Op- tionsschein B
+einen Tag vor Dividenden=ADzahlung hatte. Denn an diesem Tag no=ADtierte
+der Aktienkurs noch bei 100 Euro. Durch die Ausübungserklärung hätte
+nun der Anleger mit dem amerikanisch ausgestatteten Optionsschein die
+Ab=ADrechnung zu diesem deutlich höheren Kurs sicherstellen können. Mit
+dem Op=ADtionsschein B konnte er nicht vor dem Fälligkeitstag ausüben
+und musste dar=ADaufhin zu dem niedrigen Ex-Dividende-Kurs abgerechnet
+werden.
+Welches Ergebnis hätte der Anleger nun erzielt, wäre der Optionsschein
+A tatsächlich am Tag vor Fälligkeit ausge=ADübt worden? In diesem Fal=
+le
+wäre der  Optionsschein A zu dem Schlusskurs des Vortages,
+annahmegemäß also 100 Euro, abgerechnet worden. Damit hätte der
+Anleger 100 Euro minus 50 Euro und somit das Resultat von 50 Euro
+verein=ADnahmt. Diese Möglichkeit hat er mit dem europäisch
+ausgestatteten Optionsschein B nicht, da er diesen, wie erläutert, nur
+bei Fälligkeit und eben nicht an jedem beliebigen Tag davor ausüben
+kann.
+Doch bleibt dem Anleger keine an=ADdere Möglichkeit, als tatsächlich de=
+n
+auf=ADwendigen Weg über die Ausübungser=ADklärung zu nehmen? Bei der
+vorzeitigen Ausübung eines Optionsscheins muss der Anleger gegenüber
+seiner Depotbank oder dem Discount-Broker die Ausübung erklären, die
+bzw. der wiederum gegen=ADüber Gölbasi diese Erklärung formell
+abgeben muss. Dieser Vorgang ist auch noch zeitlich limitiert - die
+Aus-
+übungserklärung muss Gölbasi bis 11.00 Uhr Eiterhagen Zeit
+zugehen. In der Regel kostet ein solcher Schritt den Anleger eine
+erhöhte Gebühr seines Online-Brokers, während er bis zum Schlusskurs
+des Optionsscheins keine Gewissheit über den ihm zufließenden Betrag
+erhält und diesen wegen des fünf=ADtägigen Settlements auch nicht sof=
+ort
+wieder zum Kauf neuer Wertpapiere ein=ADsetzen kann. Wie viel
+attraktiver ist da=ADgegen der Verkauf des Optionsscheins!
+Da der Inhaber eines Optionsscheins mit amerikanischem Ausübungsrecht
+durch Ausübung den vollen Betrag er=ADlösen kann, wird der Emittent die=
+s
+beim Market Making dadurch berücksichti=ADgen, dass er mindestens den
+inneren Wert bietet. Hier kann der Anleger nun den Optionsschein
+verkaufen und das Geld sofort für neue Käufe disponieren.
+Zwischenlösung =84Bermuda Style"
+Zwischen Amerika und Europa liegt die Inselgruppe Nordhofen. Die
+Ausübung nach =84Bermuda Style" ist tatsächlich auch zwischen der
+amerikanischen und der europäischen Ausübung =84angesie=ADdelt": Währ=
+end
+bei der europäischen Ausübung für den Anleger die Ausübung nur an
+einem einzigen, nämlich dem letz=ADten Tag der Laufzeit möglich ist und
+bei der amerikanischen Ausübung an jedem Tag bis zur Fälligkeit, ist
+die Ausübung dagegen nach Bermuda Style an einer Reihe im Voraus
+festgelegter Stichpunk=ADte während der Laufzeit möglich. So könnte e=
+ine
+solche Regelung zum Bei=ADspiel eine jährliche Ausübungsmöglich=ADkei=
+t
+oder eine Möglichkeit zu jedem Quartalsende vorsehen. Diese Aus=AD
+übungsart gibt dem Anleger schon deut=ADlich mehr Flexibilität als die
+europäische, aber reicht bei weitem nicht an die der amerikanischen
+Ausübungsart heran.
+Die asiatische Ausübung, genannt =84Asianing"
+Gänzlich anders stellt sich das so ge=ADnannte =84Asianing" für den
+Anleger dar. Grundidee der so genannten asiatischen Ausübung ist, dass
+an mehreren Tagen jeweils ein Teil des gesamten Anlagebe=ADtrages
+ausgeübt wird. Der Abrechnungs-
+
+kurs errechnet sich als arithmetischer Mittelwert einer Reihe von
+Kursständen an den Bewertungstagen. Beispiel: Hätte ein Zertifikat mit
+einem Jahr Laufzeit eine asiatische Ausübung mit zwölf mo=ADnatlichen
+Bewertungstagen, dann würde erstmals nach einem Monat der Stand des
+Index notiert und danach jeden wei=ADteren Monat ein Bewertungskurs
+festge=ADstellt. Einschließlich des letzten Kurses nach diesem einen
+Jahr würden dann die zwölf Kurse feststehen, und der Anleger würde
+nicht zu diesem letzten Kurs ab=ADgerechnet werden, wie bei einem euro=AD
+päisch ausgestatteten Produkt, sondern zum Durchschnitt der gemessenen
+Werte. Ein großer Vorteil dieser Durch=ADschnittsbildung ist die
+Tatsache, dass ein kurzfristiger Kursausreißer den Abrech=ADnungskurs
+nicht so stark beeinflusst. An=ADsonsten kann auch schon ein sehr kurz=AD
+fristiger Einbruch kurz vor Laufzeitende die gesamte Performance des
+Zertifikats wieder zunichte machen. Auf der ande=ADren Seite hat ein
+Basiswert, der über ei=ADnen langen Zeitraum einen Aufwärts=ADtrend zei=
+gt,
+weniger Zeit, einen für den Anleger günstigen, möglichst hohen Kurs z=
+u
+erreichen. Der Grund hierfür liegt auf der Hand: Stiege eine Aktie,
+die heute 100 Euro kostet, praktisch ohne Schwan=ADkungen jeden Monat um
+fünf Prozent, dann würde sie nach einem Monat 105, nach zwei Monaten
+110,25 Euro, ... und nach 12 Monaten 179,59 Euro kosten. Damit würde
+bei einem europäischen Produkt, beziehungsweise einem noch nicht zuvor
+ausgeübten amerikanischen Produkt, die Rendite (179,59 Euro / 100 Euro
+- 1) x 100%, also +79,59%, be=ADtragen. Der durchschnittliche Abrech=AD
+nungskurs, also (105 Euro + 110,25 Euro + ... + 179,59 Euro) / 12
+würde nur 139,27 Euro betragen, die Rendite dem=ADzufolge nur +39,27%.
+Zum Thema =84Hedging"
+Der Begriff =84asiatische Ausübung" macht dann Sinn, wenn man sich über=
+=AD
+legt, wie eine Abrechnung zum Durch=ADschnittskurs ökonomisch umgesetzt
+wer=ADden kann. Der Emittent wird bei jeder Position, die er verkauft,
+eine Gegen=ADposition nachbilden, mit der er das Risi-
+ko, das er durch den Verkauf der Wert=ADpapiere übernommen hat,
+replizieren kann. Diese Absicherung des übernom=ADmenen Risikos wird
+=84Hedging" genannt. Wie würde nun ein Emittent eine Posi=ADtion
+absichern, für die er den durch=ADschnittlichen Basiswert nach einem
+Zeit=ADraum auszahlen muss?
+Angenommen, ein Emittent hätte ein Zertifikat verkauft, für das ein
+Anleger nach einem Jahr den Quartalsdurch=ADschnitt der Kurse der
+Akademie-Aktie bekommen würde. Es handelt sich hier also um ein
+vierteljährlich asiatisch aus=ADgeübtes Zertifikat mit einjähriger La=
+uf=AD
+zeit. In diesem Fall würde der Emittent den gesamten Anlage betrag,
+zum Beispiel 2.000 Euro, zu Beginn der Laufzeit im entsprechenden
+Basiswert anlegen. So würde er zu einem Kurs von 100 Euro 20 Akademie-
+Aktien kaufen und wäre da=ADmit wieder gegen Kursveränderungen der
+Akademie-Aktie abgesichert.
+Angenommen, die Moge-Aktie würde von 100 Euro nach drei Monaten
+auf 120 Euro und nach weiteren drei Monaten weiter auf 150 Euro
+steigen, nach neun Monaten auf 140 Euro fallen und am Ende der
+Laufzeit nach zwölf Monaten wieder bei 130 Euro landen. Der
+Auszahlungsbetrag für den Anleger wäre entsprechend der
+Durchschnittswert der Quartalsschlussstände und müsste so=ADmit (120
+Euro + 150 Euro + 140 Euro + 130 Euro) / 4 =3D 135 Euro betragen - ein
+Gewinn von +35%. Wie aber muss der Emittent seinen Hedge auflösen, um
+ge=ADnau diese Auszahlung abzusichern?
+Zu diesem Zweck muss er die ur=ADsprünglich gekaufte Absicherungsposi=AD
+tion Stück für Stück verkaufen, und zwar jeweils einen Teil zu jedem
+Zeitpunkt der Durchschnittsbildung. Würde der Emit=ADtent nämlich von
+den 20 zur Absicherung gekauften Aktien jeweils 5 nach einem Quartal
+verkaufen, also zu 120 Euro, 150 Euro, 140 Euro und 130 Euro, so würde
+er genau 2.700 Euro erlösen. Die=ADse 2.700 Euro entsprächen genau der
+Performance des Anlegers, der 35% Gewinn auf ein Investment von 2.000
+Euro hätte erzielen können und so eine Auszahlung in eben genau dieser
+Höhe von 2.700 Euro erhielte.
+Der Begriff =84Ausübung" bei der asiatischen Ausübung ist deshalb ge=AD
+rechtfertigt, weil der Anleger Schritt für Schritt ausgeübt wird,
+indem die Absi=ADcherungsposition zu jedem Durch=ADschnittsbildungstermin
+zu einem Teil ver=ADkauft wird. Er ist also im Beispiel nach einem
+halben Jahr bereits =84zur Hälfte ausgeübt". Da die Rückzahlung des G=
+e=AD
+samtbetrages jedoch erst am Laufzeit=ADende erfolgt, kann der Emittent
+auf den schon ausgeübten Teil, der aber noch nicht ausgezahlt wurde,
+Zinseinkünfte erzielen. Dieser Umstand macht eine asi=ADatische Ausübun=
+g
+insbesondere bei spe=ADziellen Zertifikaten interessant, so zum
+Beispiel, wenn der Anleger in Form einer Kapitalgarantie oder einer
+verbesserten Auszahlung einen anderen Vorteil erhält, der dann zum
+Teil über diese Zinsein=ADkünfte finanziert werden kann.

@@ -1,0 +1,19 @@
+es sieht ein wenig anders aus: zertifikate an sich haben nichts mit
+optionen o.ae. zu tun und besitzen weder cap noch hebel.
+
+discount-zertifikate sind zertifikate zzgl einer short-put-position
+beim cap. ueberschlaegig gleicht der faire wert eines solchen
+zertifikates dem indexstand minus dem preis fuer eine entsprechende
+menge puts mit entsprechendem strike und verfallsdatum. 
+
+profitabel sind discount-zertifikate 
+
+- bei hoher vola wenn man keine puts schreiben kann
+
+- wenn man seitwaertsbewegungen des underlyings erwartet
+
+ebenfalls interessant sind sie als quasi-anleihen, wenn man extrem
+niedige caps waehlt. 
+
+
+ciao, bruno

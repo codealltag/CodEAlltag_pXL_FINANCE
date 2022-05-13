@@ -1,0 +1,14 @@
+z.B.
+Abstand vom aktuellen Basiskurs 5%,der Basiswertkurs geht um 1% zurück,es 
+ergibt sich
+beim RollT ein Verlust von 20%,nach Börsenschluss wird der Abstand wieder 
+auf 5% angeglichen,
+am nächsten Tag geht der Basiswertkurs wieder um 1% nach oben,also 20%plus 
+beim RollT,allerdings bezogen
+auf den Restwert von 80% vom Vortag,es ergeben sich 96% vom Ausgangskurs der 
+RollT,obwohl der Basiswert
+wieder seinen Ausgangspunkt erreicht hat.
+Selbst wenn der Kurs des Basiswerts im Gesamtresultat steigt,wird der Wert 
+der RollT sehr schnell weniger werden.
+D.h. sind RollT im allgemeinen nur für einen  sehr kurzen Zeitraum 
+geeignet,(intraday bis vielleicht maximal 1 Woche).

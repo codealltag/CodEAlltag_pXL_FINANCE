@@ -1,0 +1,23 @@
+Die Berechnung der Vola hat mich lange beschaeftigt.
+
+Es gibt eine eher in den USA gelaeufige Formel (=Teil der meisten
+Chartprogramme) und eine eher in Europa.
+
+Du beschreibst die "USA-Formel", wenn Du mir diesen abwegigen Terminus
+verzeihst. Sie ist nett, um Stops zu setzen. Stops sollen den "Noise"
+umhuellen. Steigt der Kurs in einer geraden Linie, so darf ich den
+Stop extrem knapp setzen und Vola Null ist ein brauchbarer Wert FUER
+DEN STOP.
+
+Doch die Formel sagt "Vola Null" bei glatten Kursverlauefen, was
+natuerlich Nonsens ist. 
+
+Probiere dort dies, die "europaeische Formel":
+
+(Highest High (einer Periode) - Lowest Low (einer Periode)) 
+/ Lowest Low (einer Periode))
+
+
+Annett,
+die auch Systeme und Codes nach Auftrag entwickelt,
+http://XgvafBypvgrlXfzq.nnx

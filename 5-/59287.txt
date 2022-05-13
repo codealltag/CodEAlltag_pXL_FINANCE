@@ -1,0 +1,21 @@
+Na ja, Bid --> Gebot, Ask --> Frage
+
+Also, der Bid-Kurs, sollte der sein, der maximal für eine Aktie
+geboten wird, der Ask-Kurs sollte der sein, für den jemand seine
+Papiere verkaufen möchte.
+
+Also Ask > Bid, da sonst ==> Umsatz
+
+Der Ask Kurs kann also als Orientierungshilfe für Dein Limit dienen,
+wenn Du eine Aktie unbedingt erwerben willst.
+
+Wie die Kurse allerdings zustandekommen ist mir schleierhaft, da
+zumindest bei den GTF Realtimekursen manchmal Ask Kurse dastehen,
+für die niemand tatsächlich verkaufen will. 
+
+Beispiel: Letzte Woche, Zdzpvasfx.gde 
+
+Ask: 0,40 Euro 
+Trotz höherem Limit keine Aktien bekommen
+Am Ende den ganzen Tag kein Umsatz 
+Schlusskurs: 0,40 Euro Taxkurs

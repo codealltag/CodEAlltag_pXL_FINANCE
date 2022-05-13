@@ -1,0 +1,41 @@
+Hallo allerseits,
+
+benutzt jemand von Euch Wiso Börse 2005? Ich habe es seit ein paar Wochen
+und kämpfe seitdem mit dem Benutzerinterface.
+Ich habe mich noch nicht entschieden, ob das Gui einfach nur unverständlich
+ist oder ich einfach nur zu blöd bin...
+
+Einfache Frage: Ich möchte über alle im Programm vorhandenen Aktien alle
+herausfiltern, deren KGV kleiner X ist.
+
+Nun gibt es da einen Formelfilter "KGV<X". Ich finde raus, daß dieser Filter
+nur über alle Papiere filtert, die unter "Eingabe" stehen. Also muß ich alle
+Aktien unter Eingabe auflisten. Also bemühe ich den Aktienfinder, suche alle
+Aktien. Die einzige Art, aus der Aktienfinder-Ergebnistabelle Aktien in den
+Eingabe-Ordner des Formelfilters zu bekommen, scheint über Drag-and-Drop zu
+sein. Also alle Aktien markieren und rüberziehen, was, da CTRL+A nicht wie
+erwartet alles markiert, mühsam ist.
+
+Wenn ich jetzt den Formelfilter auswerte, sieht das solala aus. Es enthält
+jetzt nicht nur alle Aktien mit KGV<X, sondern auch alle Firmen, bei denen
+der KGV nicht angegeben ist.
+
+Auch kann ich mit der Ergebnistabelle alles mögliche machen - Sortieren,
+Filtern etc - nur nicht eine Spalte einblenden, die das KGV beinhaltet.
+
+Frustriert will ich den Eingabeordner des Formelfilters wieder leeren - nach
+der drag und drop Aktion tummeln sich hier tausende Aktien - und merke, daß
+ich hier keine MEhrfachselektion machen kann, also ich gezwungen bin, jede
+der tausend Aktien einzeln zu selektieren und zu löschen...
+
+Das kanns ja wohl nicht sein? Was mache ich falsch?
+
+Mir kommt das Userinterface zu kompliziert und verkünstelt vor - zu viel
+generische Gimmicks, die kein Mensch braucht, dafür fehlen Standardfeatures
+wie zb "CTRL+A = alles markieren".. Würde mich aber ehrlich freuen, wenn
+mich jemand vom Gegenteil überzeugt, immerhin hab ich 50EUR für das Programm
+bezahlt.
+
+Vielen Dank im voraus für Hilfe!
+
+Gruß, Bernhard

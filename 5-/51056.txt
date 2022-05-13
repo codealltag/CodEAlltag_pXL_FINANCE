@@ -1,0 +1,29 @@
+Hallo Wolfgang,
+hier kann ich mich Deiner Argumentation mal nicht anschliessen
+
+Wolfgang Grootaarts schrieb:
+...
+...
+
+Zum einen wuerde ich mal instinktiv sagen, dass dies die notwendige
+Richtung ignoriert (oder ist Dein Argument nicht invariant gegen
+den Trend?).
+
+Zum anderen erklaert es mir nicht so recht, wieso ich bei einer
+volatilen Seitwaertsbewegung deutlich besser fahre.
+
+Delta ist die Ableitung nach dem Index. Summiert wird aber ueber
+die Betraege der Praemien. Delta kennt die Aenderung im kleinen,
+aber nicht im Mittel ueber die Zeit. Der Extremfall ist 1 Tag vor
+Verfall.
+
+Zum angesprochenen Straddle (der ja zunaechst auch deltaneutral ist)
+noch ein Bildchen (obwohl mich Excel97 gewaltig nervt, haette doch
+bei der alten Version bleiben sollen):
+http://xfhbhney.evymevxxno.ghi/qfprfdwwa/fuxigmkc/dpkb_knb/TnhaZdnbZxrcfnwp.vah
+
+Gruss
+Anton
+
+PS: Margin und sonstige Kosten sind da nicht drin, nur die Preise
+der Optionen. Und hier nur die theoretischen.

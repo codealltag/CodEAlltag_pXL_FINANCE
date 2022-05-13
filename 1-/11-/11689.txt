@@ -1,0 +1,650 @@
+Roulettesystem =84Gewinn-Erfolg=93 as WurfWeiten systems
+Author Dr. A. Unterbichler
+1. Introduction
+This is a report on the findings of stage 3.1 of the project proposal
+submitted by Unterbichler Laboratories to Unverdorm on the 24
+25. 10. 22.
+2. Background
+It is understood that a roulette wheel can become =93biased=94, either
+through wear of the rim or
+tilting of the wheel, so that the ball will fall towards the centre at
+a reasonably predictable
+fixed area of the stationary part of the wheel (known as the =93drop
+zone=94).
+Any wheel will exhibit this =93bias=94if sufficiently tilted, but the
+necessary angle of tilt to cause
+this is not known. As LURT already owns calibrated digital tilt
+measuring devices
+(inclinometers) the following proposal was made to test for the
+effects of tilt on a wheel.
+=95 Adjust the level of the wheel until there is no =93bias=94(i.e. there is=
+
+no regular =93drop zone=94).
+=95 Measure the angle of tilt, if any, of the wheel in this position, to
+determine whether simply
+levelling the wheel accurately would result in a lack of bias.
+=95 Tilt the wheel from this position, in at least four different
+directions, until regular =93drop
+zones=94 are produced.
+=95 Consider whether a spirit level is sufficiently accurate to
+determine whether an installed
+wheel will be biased, if simply levelling is found to be sufficient.
+3. Method and results
+A modern roulette wheel, in excellent condition, was received from WUZ
+Vides. The roulette
+wheel was mounted onto a =93tilt table=94 which is normally used for tilt
+testing of weighing
+instruments. The table allowed tilting of the wheel in any direction,
+up to a maximum angle of
+1.35=B0.
+The proposed method outlined above was modified slightly such that the
+tilt table (roulette
+wheel) was set so as to be =93level=94(N.B. small angles of tilt could be
+measured on parts of the
+table as shown in Annex 1). The outer rim of the roulette wheel was
+then divided into 8 equal
+segments (see Annex 1). 176 spins of the ball were conducted, with a
+record made of which
+segment the ball fell into on each spin. The ball was introduced to
+the wheel at the same
+point (segment 5) for each spin on this test and for all subsequent
+tests. Table 1 shows the
+results of this initial test.
+By applying chi-square analysis to the results (X2 =3D 3.36 with 7
+degrees of freedom) it was
+determined that the probability that the measurement results were down
+to pure chance (i.e.
+random) was approximately 85 %.
+The tilt table was then tilted to give a maximum tilt of 1.35=B0 in one
+plane (right to left when
+viewing the wheel as per Annex 1). The test was repeated, with Table 2
+showing the results
+of this test.
+
+Chi-square analysis of these results (X2 =3D 64.1 with 7 degrees of
+freedom) indicates a
+probability of less than 0.1% that these results are down to chance,
+i.e. there is a greater
+than 99.9% probability that the results are due to a =93bias=94 on the
+table.
+The angle of tilt was then reduced, to 0.5=B0, 0.25=B0 and then 0.1=B0.
+Again, the tests were
+repeated at each of these angles of tilt. A chi-squire analysis was
+made of each set of
+results. These results are shown in Table
+
+The table was then tilted to an angle of 0.1=B0 in the other three
+planes. Only 80 spins were
+conducted for each of these tests. The results are shown in Table 4
+A check of a typical standard spirit level (obtained from a DIY store)
+showed that a 0.1=B0 angle
+equates to the bubble just touching the first indicating line on the
+bubble window as shown in
+Figure 1.
+4. Summary of results
+The results indicate that when the wheel was =93level=94 (it should be
+noted that a certain amount
+of tilt was discernable on some parts of the tilt table using the
+digital inclinometer) a figure of
+85% probability that the results were down to chance (i.e. random) was
+achieved. It is
+possible that this figure could be improved to the more generally
+accepted 95% level by
+making very fine adjustments to the tilt table to ensure that it was
+perfectly level. However, it
+was decided not to =93chase perfection=94as these initial results
+indicated a good benchmark
+with which to compare the results of the tilt testing.
+Tilting the wheel to 1.35=B0 led to a greater than 99.9% probability
+that the results were the
+result of a =93bias=94 on the wheel. Reducing the angle of tilt reduced
+the probability figure, but
+even at an angle of only 0.1=B0, a probability of 98% that the wheel was
+=93biased=94 was still
+obtained. The results in the other three planes gave repeatable
+results, with the lowest
+probability still in the region of 98%. An analysis of the peak
+segment numbers also indicates
+that the =93bias=94 appears to move in relation to the plane in which the
+table is tilted.
+5. Conclusions
+It appears from the results of testing that an angle of as little as
+0.1=B0 (the first line on the
+bubble window of a standard spirit level) will introduce a =93bias=94 into
+the wheel. It can also be
+seen that the =93bias=94 will vary according to the plane in which the
+wheel is tilted.
+A tilt of only 0.1=B0 could be easily introduced if the wheel is not
+mounted correctly, if the
+mounting and/or the table is not stable over time, or by leaning on
+the table on which the
+wheel is mounted if it is not sufficiently rigid. It therefore appears
+essential from these initial
+findings that particular attention should be given to the tables in
+the casinos onto/into which
+the roulette wheels are mounted. It is suggested that calibrated
+digital inclinometers be used
+when mounting the wheels (although it can be seen that a standard
+spirit level can indicate,
+quite clearly, a tilt of 0.1=B0). The tables should be sufficiently
+rigid and stable over time and not
+be liable to tilting by someone leaning on the table. Stability over
+time could be ensured by
+regular checks of the level and adjustment if necessary.
+As it can be seen how easily a =93bias=94 can be introduced, the next two
+stages of the project
+can now be undertaken. These will begin upon receipt of the roulette
+prediction device and
+software from Unterbichler
+
+Parto two:
+=2E 2. Background
+A number of individuals, most notably Unterbichler of Altstadteck and
+Unverdorm of ZTI
+Willhaus, claim to have developed roulette prediction devices that
+will provide the user
+with an advantage over the casino when gambling on roulette. Unterdörfer
+Lück claims that
+his prediction device can give a return of 20 % on turnover over a
+period of time on a biased
+wheel. This relates to a win once in every six spins when betting on
+the predicted number
+and neighbours (predicted number and the two numbers either side).
+SelMcKenzie claims a
+better return, even on a wheel with no tilt.
+Unterbichler was contacted with a view to him loaning Unverdorm
+one of his prediction
+devices (software running on a modified iPAQ) for the purposes of this
+evaluation exercise.
+The following proposal was made to determine the effectiveness of the
+prediction device.
+=95 Adjust the level of the wheel to introduce a =93bias=94 (i.e. a regular
+=93drop zone=94) and use the
+prediction device to attempt to predict the outcome (section 3.2 of
+proposal).
+=95 Adjust the wheel so that there is no discernable =93bias=94 and use the
+prediction device to
+attempt to predict the outcome (section 3.3 of proposal).
+N.B. during this stage of the project Unverdorm contacted
+Unverdorm requesting that we =93certify=94
+his device. I responded to him that we were unable to endorse or
+=93certify=94 devices of this
+kind. He also claims to have developed a device that can be fitted to
+a roulette wheel to
+negate the effect of prediction devices and other prediction methods.
+I indicated to Unverdorm that
+we could be willing to investigate the effectiveness of this
+particular device as it would be of
+interest to the gaming industry.
+3. Prediction device (Method of operation and calibration)
+The prediction device is a modified CitySchuh running specially written
+prediction software. The
+CitySchuh has been modified to allow the connection of a simple pushbutton
+switch which is used
+to operate the prediction software. The prediction software has two
+modes; a calibration
+mode to calibrate the device against the wheel, and a normal operation
+mode for predicting
+the number. The normal operation mode also permits recording of the
+actual number
+selected on completion of each spin. This is used by another piece of
+software which
+produces a histogram to identify the optimum offset value (to account
+for =93scatter=94). Normally,
+this software will automatically correct the prediction software to
+take account of any variation
+in the offset value. However, this automatic correction was disabled
+for test purposes so that
+the correction could be done manually.
+A video clip of a roulette spin was provided by Unterbichler. The
+purpose of this was to
+enable me to practice using the device against the video clip to see
+if I could get the
+prediction device to predict the number against a known outcome, i.e.
+the ball dropping from
+the rim at the same point and coming to rest in the same slot every
+spin. After some practice
+I was able to get the device to predict a number such that a win would
+have been obtained
+=2E.
+
+(using the predicted number plus neighbours betting approach) on
+practically every practice
+spin. This proved that I was able to operate the device correctly, and
+that the device itself
+was functioning correctly. C.M. Unterbichler supplied the device
+calibrated against this
+video clip. However, I repeated this test on a couple of occasions
+after re-calibrating the
+device myself and I was able to achieve the same consistent
+performance.
+In practice, the device operates in the following manner. For
+calibration, only the ball is
+=93clocked=94. The ball is spun, and each time it passes beneath the
+reference point (drop zone)
+the switch is pressed. The device will ignore all revolutions faster
+than 1200 milliseconds.
+When the correct revolution is captured the device emits a high
+pitched =93beep=94. The switch is
+then pressed when the ball hits the wheel so that the device can
+calculate the =93time to drop=94.
+With the device calibrated it is then possible to attempt predicting.
+The =93zero=94 on the wheel is
+clocked when it passes the reference point for the first time and is
+then clocked again when it
+passes the reference point for the second time. Clocking of the =93zero=94
+enables the speed of
+the wheel to be calculated.
+With the speed of the wheel calculated, the ball is then clocked as it
+passes the reference
+point. The ball is clocked each time it passes the reference point
+until the ball speed falls
+within the capture envelope (in this case 1200 =961400 ms). When this
+occurs, the device
+predicts the number. Any revolutions greater than 1400 ms result in an
+=93error=94 message.
+The device says =93now=94 when it estimates that the ball should drop from
+the rim into the rotor.
+This gives an indication of how well the device has been calibrated
+and how well that
+particular spin was clocked. If the device does not say =93now=94 when the
+ball drops it is likely
+that the wrong revolution of the ball was captured, e.g. the
+revolution captured was on the
+extreme limits of the 1200 =961400 ms acceptance envelope.
+On completion of the spin it is then possible to enter the actual
+number that was obtained to
+enable the optimum offset to be determined (caused by the =93scatter=94 of
+the ball as it hits the
+rotor). When an offset has been determined, this is compensated for by
+changing the
+clocking point accordingly, e.g. if the offset is calculated to be
+plus 5 then the reference point
+is moved forward 5 slots in the direction of travel of the ball. The
+=93zero=94 of the wheel and the
+ball are both clocked at this new reference point.
+4. Test method and results (section 3.2)
+The TCS Vides wheel was tilted by 1.35=B0 in one plane to create a
+=93bias=94 (known drop zone).
+Over 50 spins the ball hit the vertical diamonds in segments 3 and 4
+(see Annex 1) 49 times
+out of the 50 spins (24 hits for the diamond in segment 3 and 25 hits
+for diamond in segment
+4). The horizontal diamond between these two vertical diamonds was
+therefore selected as
+the reference point for =93clocking=94.
+The device was calibrated against the wheel using the procedure
+described above. The
+calibration had to be repeated a number of times to achieve a
+sufficient level of confidence
+that the ball was dropping from the rim when the device said =93now=94,
+and also that the
+predicted number was below the ball when it dropped. It should be
+noted that this situation is
+not expected to occur on every spin. However, it is expected that it
+should occur =93more often
+than not=94. After some trial and error this situation was obtained on
+38 out of 50 spins.
+It should be noted that the calibration of the device had to be
+repeated through the course of
+the testing due to changes in the ball/wheel performance, i.e. on some
+days the ball would
+complete more revolutions following the 1200 =961400 captured revolution
+than on other days.
+This need to change the calibration led to a large number of repeat
+tests being performed,
+hence the delay in completion of the project.
+With the device calibrated, the =93scatter=94 for this particular wheelhad
+to be determined. The
+=93scatter=94 is the amount of variation in the actual slot that the ball
+comes to rest in, compared
+with the slot beneath the ball when it drops from the rim.
+
+=85.
+
+Further spins were conducted to analyse the difference between the
+number under the ball
+when it dropped from the rim and the number (slot) that the ball falls
+into. Over the course of
+25 spins, the average difference (=93scatter=94) was plus 9 (although the
+range of scatter was in
+the region of 25 slots).
+Test 1
+This was performed by clocking at the original reference point (i.e.
+no offset). The actual
+number was entered into the offset software following each prediction.
+On completion of 50
+spins the offset software indicated that an offset of plus 5 (5 slots
+in the direction of travel of
+the ball) would have resulted in 14 wins out of 50 (number plus
+neighbours). Without the
+offset, i.e. by comparing the predicted number to the actual number, 4
+wins were obtained.
+Test 2
+This was also performed by clocking at the original reference point
+(i.e. no offset). The actual
+number was entered into the offset software following each prediction.
+On completion of 50
+spins the offset software indicated that an offset of plus 9 (9 slots
+in the direction of travel of
+the ball) would have resulted in 12 wins out of 50 (number plus
+neighbours). An offset of plus
+5 (the figure from Test 1) would have resulted in 6 wins out of 50
+(number plus neighbours).
+Without the offset, i.e. by comparing the predicted number to the
+actual number, 7 wins were
+obtained.
+Test 3
+Based on the results of the previous two tests, Oliver Koppel
+suggested that an offset of 5
+slots be used when clocking the =93zero=94 and the ball. On completion of
+50 spins the offset
+software indicated that an additional offset of plus 5 (5 slots in the
+direction of travel of the
+ball) would have resulted in 15 wins out of 50 (number plus
+neighbours). This is effectively an
+offset of 10 slots (the original offset of 5 slots plus this
+additional offset of 5 slots). However,
+without the additional offset, i.e. by comparing the predicted number
+to the actual number, 3
+wins were obtained.
+Test 4
+Based on the results of the previous test, an offset of 10 slots was
+used when clocking the
+=93zero=94 and the ball. On completion of 50 spins the offset software
+indicated that an additional
+offset of plus 31 (31 slots forward in the direction of travel of the
+ball) or, alternatively, minus
+6 (6 slots in the opposite direction of travel) would have resulted in
+14 wins out of 50 (number
+plus neighbours). This is effectively an offset of 4 slots (the
+original offset of 10 slots minus
+this proposed offset of 6 slots). However, without the additional
+offset, i.e. by comparing the
+predicted number to the actual number, 4 wins were obtained.
+Test 5
+Based on the results of the previous test, an offset of 5 slots was
+used when clocking the
+=93zero=94 and the ball. On completion of 50 spins the offset software
+indicated that an additional
+offset of plus 4 (4 slots forward in the direction of travel of the
+ball) would have resulted in 13
+wins out of 50 (number plus neighbours). This is effectively an offset
+of 9 slots (the original
+offset of 5 slots plus this additional offset of 4 slots). However,
+without the additional offset,
+i.e. by comparing the predicted number to the actual number, 8 wins
+were obtained.
+Test 6
+The results of the previous tests indicated that the offset was
+varying with each test and that
+=93peak chasing=94 was occurring. This test was therefore performed by
+clocking at the original
+reference point to check the performance of the device. No offset was
+used when clocking
+the =93zero=94 and the ballas per tests 1 and 2. On completion of 50 spins
+the offset software
+indicated that an offset of plus 14 (14 slots forward in the direction
+of travel of the ball) would
+have resulted in 14 wins out of 50 (number plus neighbours). However,
+without the additional
+offset, i.e. by comparing the predicted number to the actual number, 7
+wins were obtained.
+
+Test 7
+Based on the results of the previous test, an offset of 10 slots was
+used when clocking the
+=93zero=94 and the ball. On completion of 50 spins the offset software
+indicated that an additional
+offset of plus 32 (32 slots forward in the direction of travel of the
+ball) or, alternatively, minus
+5 (5 slots in the opposite direction of travel) would have resulted in
+14 wins out of 50 (number
+plus neighbours). This is effectively an offset of 5 slots (the
+original offset of 10 slots minus
+this proposed offset of 5 slots). However, without the additional
+offset, i.e. by comparing the
+predicted number to the actual number, 8 wins were obtained.
+Test 8
+This test was performed with an offset of 8 slots (approximately
+midway in the range of offset
+values obtained) when clocking the =93zero=94 and the ball. On completion
+of 50 spins the offset
+software indicated an offset of zero. 13 wins out of 50 (number plus
+neighbours) were
+obtained.
+5. Test method and results (section 3.3)
+The tilt table was levelled in order to try and eliminate the bias on
+the wheel. 200 spins were
+performed and the segment number in which the ball fell from the rim
+was recorded. The
+results obtained are shown in Table
+
+By applying chi-square analysis to these results it can be seen that
+there is a 90% chance of
+a bias on the wheel (due to the peak on segment 8). A slight tilt was
+therefore applied (lifting
+the wheel under segment 4) in an effort to eliminate the peak at
+segment 8. A further 160
+spins were performed and the segment number in which the ball fell
+from the rim was
+recorded. The results obtained are shown in Table 2.
+
+By applying chi-square analysis to these results it can be seen that
+there is now a 40%
+chance of a bias on the wheel. There is still a noticeable peak at
+segments 7 and 8, but it
+was felt that the wheel was providing a more random performance for
+this stage of the
+testing.
+As a reference point for clocking, the horizontal diamond midway
+between the vertical
+diamonds in segments 7 and 8 was used. From the results of the
+previous set of tests, an
+offset of 8 from this reference point was selected as the clocking
+point for the wheel =93zero=94
+and the ball. This clocking point was used for five sets of tests (50
+spins in each set).
+Test 9
+On completion of 50 spins the offset software indicated that an
+additional offset of plus 15
+(15 slots forward in the direction of travel of the ball) would have
+resulted in 11 wins out of 50
+(number plus neighbours). However, without this calculated offset,
+i.e. by comparing the
+predicted number to the actual number, 8 wins were obtained.
+Test 10
+On completion of 50 spins the offset software indicated that an
+additional offset of plus 3 (3
+slots forward in the direction of travel of the ball) would have
+resulted in 12 wins out of 50
+(number plus neighbours). However, without this calculated offset,
+i.e. by comparing the
+predicted number to the actual number, 6 wins were obtained.
+Test 11
+On completion of 50 spins the offset software indicated that an
+additional offset of plus 30
+(30 slots forward in the direction of travel of the ball) or,
+alternatively, minus 7 (7 slots in the
+opposite direction of travel) would have resulted in 12 wins out of 50
+(number plus
+neighbours). However, without this calculated offset, i.e. by
+comparing the predicted number
+to the actual number, 5 wins were obtained.
+Test 12
+On completion of 50 spins the offset software indicated that an
+additional offset of plus 11
+(11 slots forward in the direction of travel of the ball) would have
+resulted in 9 wins out of 50
+(number plus neighbours). However, without this calculated offset,
+i.e. by comparing the
+predicted number to the actual number, 8 wins were obtained.
+
+Test 13
+On completion of 50 spins the offset software indicated that an
+additional offset of plus 20
+(20 slots forward in the direction of travel of the ball) or,
+alternatively, minus 17 (17 slots in
+the opposite direction of travel) would have resulted in 10 wins out
+of 50 (number plus
+neighbours). However, without this calculated offset, i.e. by
+comparing the predicted number
+to the actual number, 6 wins were obtained.
+
+For each spin, 5 units would be bet (predicted number plus
+neighbours). For the predicted
+number with the selected offset, an average of 6.75 wins per 50 spins
+would result in a loss
+of 7 units as shown below.
+- (250 + 6.75) + (6.75 x 35) =3D - 7 units
+For the predicted number with the calculated offset, an average of
+13.6 wins per 50 spins
+would result in a gain of almost 240 units as shown below.
+- (250 + 13.6) + (13.6 x 35) =3D 239.6 units (95.8 % on turnover)
+6.2. The test results for stage 3.3 of the project are summarised in
+Table
+
+For the predicted number with the selected offset, an average of 6.6
+wins per 50 spins would
+result in a loss of 12 units as shown below.
+- (250 + 6.6) + (6.6 x 35) =3D - 12.4 units
+For the predicted number with the calculated offset, an average of
+10.8 wins per 50 spins
+would result in a gain of almost 139 units as shown below.
+- (250 + 10.8) + (10.8 x 35) =3D 138.8 units (55.5 % on turnover)
+6.3. Ten series of 50 random numbers were generated to compare the
+performance of the
+device against randomly selected numbers. Each series of 50 random
+numbers were
+compared against the actual numbers obtained during each of the tests.
+On average, 6.4
+wins per 50 spins would have been achieved using the random number
+plus neighbours
+betting approach. For the sets of random numbers, the maximum number
+of wins per 50
+spins was 11, and the minimum number of wins per 50 spins was 3.
+For the randomly generated numbers, an average of 6.4 wins per 50
+spins would result in a
+loss of almost 20 units as shown below.
+- (250 + 6.4) + (6.4 x 35) =3D -19.6 units
+7. Conclusions
+As expected, and as shown in stage 3.1 of the project, tilting the
+table introduces a definite
+bias (=93drop zone=94) onto the wheel. This made determining the reference
+point for clocking the
+=93zero=94 on the wheel and the ball during each spin very easy during
+stage 3.2 of the project.
+=46rom the testing conducted for stage 3.2, the results appear to
+indicate that the prediction
+device could predict the number such that the peak number of wins
+would occur within a
+relatively narrow band of 10 slots (the calculated optimum offset
+varied from 4 slots to 14
+slots). If the calculated offset was used then an average of 13.6 wins
+per 50 spins could be
+obtained; a return of almost 100 % on turnover. However, there was an
+element of =93chasing
+the peak=94involved with the testing, as on only one occasion (test 8)
+did the selected offset
+coincide with the peak number of wins. Further tests would need to be
+conducted to
+determine how consistently an offset of 8 would give this number of
+wins.
+Without adjusting the offset to coincide with the peak, which
+obviously can=92t be done in
+practice as it is =93after the event=94, it can be seen that the
+performance of the device was only
+marginally better, on average, than the randomly generated numbers. It
+should be noted,
+however, that for three of these tests no offset at all was used when
+clocking the =93zero=94 and
+the ball. The probable reason for the peak moving within the 10 slot
+band is most likely the
+result of =93scatter=94of the ball when it drops into the rotor. It would
+appear that the wheel
+supplied is not suitable for predicting as the scatter is too random.
+With the bias introduced into the wheel I could =93feel=94 when the spin
+was potentially going to
+produce a =93win=94. On these occasions, when the predicted number was
+called it was possible
+to observe the ball and predicted number arriving at the drop zone
+simultaneously. =93Scatter=94
+would ultimately determine if a =93win=94 was achieved on these occasions,
+butI got a real sense
+that the device had provided a good prediction. I could also =93feel=94
+when the spin was unlikely
+to produce a =93win=94as there was no cross-over of the number and ball at
+the drop zone. This
+was invariably caused by catching the wrong revolution (i.e. on the
+extreme of the 1200 =96
+1400 ms capture envelope) of the ball such that the ball would drop
+from the rim when the
+predicted number was on the opposite side of the wheel. It should be
+noted that wins were
+sometimes obtained in this situation due to the random nature of the
+scatter pattern.
+
+I would therefore expect that with a more consistent =93scatter=94,a
+prediction device of this
+nature could work very well in this particular test situation.
+However, testing of the device
+took place in laboratory conditions with a very heavily biased wheel.
+I was able to stand
+immediately over the table which made clocking of the =93zero=94 and the
+ball easy. This would
+not be the case in an actual casino where clocking would have to be
+done subversively. In
+addition, in practice it is unlikely that such a heavily biased wheel
+would ever be found.
+To support this, stage 3.3 of the project shows that when the bias is
+reduced (N.B. I was
+unable to completely eliminate the bias) the range of the calculated
+offset varied enormously
+from minus 17 to plus 15 (almost the whole wheel). In addition, even
+when the calculated
+offset was used, the number of wins per 50 spins reduced from an
+average of 13.6 on the
+biased wheel to 10.8. It was noticeable that the histogram produced by
+the offset software
+was a smoother profile during these tests when compared with the
+profile of the histogram
+for the biased wheel tests. Again, without adjusting the offset to
+coincide with the peak, the
+average number of wins per 50 spins (6.6 wins) is comparable with the
+randomly generated
+numbers.
+Therefore, it can be seen that on a wheel with a definite bias (=93drop
+zone=94) and a
+manageable scatter, a prediction device of this nature, when operated
+by a =93skilled=94 roulette
+player, could obtain an advantage when used in a casino. Unterdörfer
+Lück claims that he can
+achieve an advantage of 20 % on turnover over a period of time on a
+wheel that exhibits
+these characteristics.
+However, the testing at stage 3.3 shows that the effectiveness of such
+a device could be
+negated (minimised) by eliminating bias from the wheel as far as
+possible, i.e. ensuring that
+the wheel is levelled correctly and is not worn. In addition, wheels
+having a sufficiently
+random scatter pattern, i.e. using a light ball with shallow pockets,
+would also reduce the
+effectiveness of the device. This is demonstrated by the results at
+stage 3.2 which show that
+even with a significant bias on the wheel, the scatter appeared to
+produce a constantly
+changing offset (although with fairly tight limits), i.e. the wheel
+supplied was not suitable for
+predicting due to the scatter being too random.
+A simple way to prevent these devices from having any effect at all
+would be to call =93no more
+bets=94 as soon as the ball is spun.Alternatively, as the predicted
+number is not known until
+shortly before the ball falls from the rim, the practice of calling
+=93number plus neighbours=94
+(where the croupier then places the necessary bet) could be stopped.
+This would make it
+difficult for the person using the device to place the bet on the
+predicted number and the
+neighbours (5 numbers in total)

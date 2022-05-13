@@ -1,0 +1,21 @@
+Aufgeld : OS-Kurs x Bezugsverhältnis
+                + Basispreis
+                - Kurs des Basiswertes
+                = Aufgeld (absolut)
+
+Spread: Differenz zwischen Geld und Brief Kurs
+                (Gibt die Def. auch bei Konstuktionen von call und puts
+etc.
+                    das ist hier aber nicht gemeint!)
+
+Die Sauerei bei einem hohem Spread ist recht einfach
+Wenn ich den Wert kaufen will muß ich u.U. den Briefkurs ausgeben um
+sicher den
+Wert zu bekommen.
+wenn ich den Wert loswerden will den Geldkurs - die Differenz
+geht mir flöten!!
+Weitere Infos kannst Du erstmal diversen Broschüren von Banken
+entnehmen, sollte für den Anfang reichen.
+
+PS.. die ursprüngliche Frage der BFT OS haben wir leider immer
+noch nicht beantwortet

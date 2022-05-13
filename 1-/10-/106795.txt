@@ -1,0 +1,28 @@
+Leider kenne ich mich weniger praktisch als theoretisch aus. Die Black
+Scholes Optionstheorie unterstellt normalverteilte (logartihmische)
+Preisaenderungen. Fuer diese ist die Kurtositaet Null (die Kurtositaet
+ist in gewissem Sinne ein Mass fuer die Abweichung von der
+Normalverteilung).
+Korrigiert man die Annahme etwas, beruecksichtigt als endliche
+Kurtositaeten, erhaelt man Korrekturen zur Black Scholes Theorie. Obige
+Formel ist fuer kleine Abweichungen von der Normalverteilung eine
+Korrektur
+zur eigentlich konstanten impl. Volatilitaet der BS Theorie. Praktisch
+funktioniert das sehr gut fuer liquide Maerkte, z.B. fast perfekt fuer
+Optionen auf den Bund-Future.
+Der Scheitel der Parabel liegt natuerlich meistens am Geld. Fuer Strikes
+weit aus Geld gild natuerlich die Parabel nicht mehr, da Sie ja eine
+Approximation darstellt. In der wissenschaftlichen Literatur wird dann
+meistens eine Monte-Carlo ( Zufalls-) Simmulation. durchgefuehrt und die
+Optionspreise (und damit auch der Smile) aus der Simulation gewonnen.
+Dafuer gibt es teilweise fertige Programmbibliotheken, aber ist wohl
+alles eher Forschungsgebiet als praktische Anwendung. Meistens stimmen
+die Marktpreise aber ganz gut.....
+
+
+--
+Ulf Cloßen                  | unorxbox@zsgwjn.kd-nmlwqh.uw
+Fesslermühle | http://gyljw.ynpgvh.ir-smcnfm.fm/~ovlm
+Modelleisenbahn-Shop            |
+Lautenbachstraße 190              | Tel. (+39/92) 2372 0103
+D-30757 Essendorf                 | Fax. (+44/20) 4962 5679

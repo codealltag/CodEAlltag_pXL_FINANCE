@@ -1,0 +1,390 @@
+Daytrading Varianten
+
+von Herrn Paulusen
+
+Author Paulusen
+
+Die größte Herausforderung des Daytradings liegt in der durch
+Kurzfristigkeit sowie Schnelligkeit geprägten Entscheidungsfindung.
+Viel Zeit bleibt den Akteuren nicht, um festzulegen, was man kaufen
+oder verkaufen bzw. wann und vor allem wie dies geschehen soll. Die
+meisten Einsteiger agieren oftmals ohne große Kenntnisse aus dem Bauch
+heraus. Sie kaufen, wenn sie eine Nachricht lesen, eine Meldung
+mitbekommen oder irgendwoher einen todsicherenTipp erhalten und dabei
+ein gutes Gefühl habe
+
+Dabei basiert Börsenerfolg grundsätzlich auf Methodik. Selbst die
+abgebrühtesten Daytrader, bei deren Anblick man fälschlicherweise
+annehmen könnte, sie handeln rein intuitiv, haben eine bestimmte
+Handelsstrategie, nach der sie vorgehen. Damit Sie Anregungen zur
+Entwicklung Ih=ADrer Strategien bekommen, stellen wir Ihnen im Rahmen
+dieser Serie die diversen Strategien der Daytrader vor.
+Intraday-Position-Trader
+Nachdem wir in der letzten Ausgabe die unterschied=ADlichen Handelstypen
+erläutert und insbesondere auf die One-Trade-a-day-Vertreter der
+Position-Trader einge=ADgangen sind, werden wir uns dieses Mal auf die
+Intra=ADday-Position-Trader konzentrieren. Dieser Daytrader handelt
+mehrmals am Tag. Er kauft und verkauft mit
+einem Zeithorizont von wenigen Minuten bis zu meh=ADreren Stunden, wobei
+er Positionen manchmal auch Overnight hält, wenn sie bis zum
+Schlusskurs deutlich im Gewinn liegen. Man unterscheidet drei Formen
+der Intraday-Position Trader: Swinger, Contrarians und Trendfollowers.
+1)Trendfollowers
+Diese Form des Daytradings eignet sich besonders für Einsteiger, da
+das Risikoprofil deutlich geringer ist als bei den anderen Varianten.
+Der Trendfollower investiert immer nur in Richtung eines vorliegenden
+Trends. Dieses Vorgehen hat zum einen den Vorteil, dass eine Position
+bei einem anhaltenden Trend schnell in die Gewinnzone laufen kann. Zum
+anderen weist eine solche Position Dank des Trendmomentums in der
+Regel auch ein geringeres Rückschlags- bzw. Verlustpotenzial auf als
+Positionen, die gegen den Trend eingegangen werden. Der Trendfolger
+ist der Langfristinvestor unter den Intraday-Position-Tradern.
+Er kauft und verkauft mit einem Zeithorizont von mehreren Minuten (bei
+Verwendung eines kurzfristigen 1-Min-Charts) bis zu einigen Stunden
+(zum Teil mit Overnight-Positionen). Seine Hauptinstrumente sind so
+genannte Crossover bzw. SAR-Ansätze (Stopp-and-Reverse) und Breakout-
+Strategien.
+Crossover und SAR
+Das Grundprinzip dieser beiden herkömmlichen Trend=ADfolge-Ansätze ist
+in Bild 1 erläutert. Bei den Gleitenden Durchschnitten wird ein
+Kaufsignal generiert (blaue Pfeile), sobald ein kurzfristiger GD
+(magenta, 10er) den längerfristigen GD (blau, 20er) von unten nach
+oben schneidet (=3DCrossover, siehe graue Markierungen). Analog liefert
+ein Schnitt des kürzeren GD mit dem längerfristigen von oben nach
+unten ein Verkaufssignal (rote Pfeile). Der MACD (Mitte Bild 1)
+signalisiert einen Aufwärtstrend, wenn er seine Signallinie von unten
+nach oben schneidet und ansteigt (umgekehrt beim Abwärtstrend).
+Anstelledes MACDs lassensichnatürlich auch modernere Indikatoren wie
+der RMI oder der Trendscore einsetzen (Bild 1 unten). Im optimalen
+Fall schafft es ein Trendfolger, schon zu Beginn eines Trends
+investiert zu sein und die Gewinne im Verlauf des Trends mithilfe von
+Trailing-Stopps abzusichern. Legt er diese Stopps zu nah an das
+Marktgeschehen, kann seine
+Position ausgestoppt werden und der Trend ohne ihn weiterlaufen.
+Stopp-and-Reverse bedeutet, dass eine Position geschlossen (=3D Stopp-
+and-) wird, sobald das Crossover der Indikatoren ein Signal gegen die
+bisherige Trend=ADrichtung generiert und gleichzeitig eine Position in
+Rich=ADtung des neuen Signals eingegangen wird. Man dreht also die
+Position (=3D -Reverse), wobei das Einstiegssignal des Indikators
+gleichzeitig auch als Ausstiegssignal der vorherigen Position
+verwendet wird. Problematisch ist dieser Ansatz in volatilen Range
+Trading-Phasen. Da die Signale der meisten Trendfolger-Ansätze eher
+verzögert kommen (Bild 1, rechts), kann es in einem sich sehr schnell
+drehenden Marktumfeld passieren, dass das Kaufsignal erst kommt, wenn
+der Markt sein Top bereits erreicht hat und umdreht. Der SAR-Ansatz
+kann sich in diesen Phasen fatal auswirken, weil er den Trendfolger
+unentwegt in eine verlustreiche Position bringt und den Übergang von
+einer Trend- in eine volatile Rangephase unberücksichtigt lässt.
+
+Leider kommen die meisten Einsteiger über dieses Stadium der Indikator-
+Anwendung nicht hinaus, da fast alle Standardwerke und sonstige
+Quellen der Technischen Analyse lediglich die SAR-&Crosso-ver-
+Vorgehensweise erläutern. Und so lautet dann das
+emeinsame Erfahrungsmotto: ,,Wie gewonnen (Trend=ADphasen), so zerronnen
+(Seitwärts-Phasen)."
+Weiterentwicklungen
+Um dieses Manko zu umgehen, wurden Trendfolge-Strategien erarbeitet,
+die SAR- und Crossover-Ansätze lediglich als Indikation verwenden. Im
+Mittelpunkt stehen bestimmte Marktereignisse, die zu Beginn oder im
+Verlauf eines Trends auftreten und als Signalbasis dienen.
+Interessanterweise werden bei diesen Handels=ADvarianten Einstiegs-,
+Ausstiegs- und Verlustbegren-zungs-Signale separat voneinander
+definiert.
+Und hier zeichnet sich der revolutionärste Schritt eines Daytraders
+ab. Sobald er begreift, dass man sich nicht auf Prognosen anderer
+verlassen kann und man eine Handelsidee detailliert definiert (Long-
+Entry, Long-
+Exit, Short-Entry, Short-Exit, Stopp-Loss, Trailing Stopp, Profit-
+Ziel, Time-Exit, Reentry-Regel), schriftlich notiert und getestet
+haben muss, bevor man an den Börsen aktiv wird, dürfte eine deutliche
+Performance-Besserung eintreten.
+Breakouts, Fakeouts und Kursformationen Da Range-Breakouts bereits im
+letzten Heft erläutert wurden, möchten wir jetzt die Fakeouts
+vorstellen. Bild 2 zeigt, wie dieser frühzeitige Trendfolge-Ansatz
+funktioniert. Sobald die Kurse zum Beispiel aus einer Trading-Range
+nach oben ausbrechen (graue Markie=ADrungen, Bild 2), legt der
+Trendfolger einen Verkauf-Stopp unterhalb des Tiefstkurses des Bars/
+Candles, der den Ausbruch eingeleitet hat (siehe Seil 1). Sobald
+dieser Stopp getriggered wird, platziert er einen Verlustbegren=AD
+zungsstopp oberhalb der Höchstkurse der Ausbruchs=ADbewegung (umgekehrt
+für Long-Positionen). Und wenn seine Position in die Gewinnzone läuft,
+zieht der Trend-folger den Stopp schnell auf das Einstiegsniveau und
+dann weiter nach. Dieser Ansatz ist entsprechend den jeweiligen
+Marktverhältnissen und Zeiteinheiten anzu=ADpassen. So besteht
+beispielsweise bei kurzfristig einge=ADstellten Charts (zum Beispiel 5-
+Min) die Gefahr, dass kurzfristige PwiAer-Bewegungen der Market Maker
+(=3D Noise) das vorgesehene Einstiegsniveau des im 5-min-Chart relativ
+kleinen Ausbruchs-Bars kurz testen, dann aber wieder die ursprüngliche
+Richtung einschlagen. Als alternatives Einstiegsniveau kann hier zum
+Beispiel die Mitte der Range (+/- 1 bis 3 Ticks) Verwendung finden
+(siehe Seil 2).
+Als Beispiel für Formationen, die Trendfolger ein=ADsetzen, um in
+Richtung des Trends zu investieren, soll an dieser Stelle der 1-2-3-4-
+Ansatz von Arno Claaß gezeigt werden. Ähnliche Vorgehensweisen finden
+Sie aber auch bei den Ross-Hooks und den Frcictal-Breakaway Trades von
+Jonathan Ipskamp. Der 1-2-3-4-Ansatz ver=ADsucht kleinere Korrekturen in
+starken Trendphasen zu identifizieren, die in die Trendrichtung
+gehandelt werden. Dazu bedient sich der Trendfolger eines 14er-ADX,
+der über 30 liegen muss (ADX > 30 =3D starker Trend) und des 14er DMI-
+Indikators, der vorgibt, ob ein Kaufsignal (DMI+ > DMI-) oder ein
+Verkauf=ADsignal (DMI- > DMI+) ansteht. Sobald die Indika=ADtoren ein
+Kaufsignal andeuten, wartet der Trendfolger, bis die Kurse an drei
+aufeinander folgenden Bars vom
+
+dieser Handelsart auf viele Daytrader auch ist - schließ=ADlich gibt es
+fast nichts Schöneres als am High verkauft oder am Low gekauft zu
+haben (besonders am Stamm=ADtisch) -, so gefährlich kann sie sein, wenn
+Stopp-Loss nicht konsequent eingehalten oder Nachkäufe/N ach ver=ADkaufe
+getätigt werden. Pivots, Divergenzen undTurtle Soups Andererseits
+bieten die Contrarian-Ansätze dem enga-
+
+ierten Daytrader viel versprechende Instrumente, um in den Märkten
+Geld zu verdienen. Neben dem Range Trading zählen Pivot-Marken,
+Overbought/Oversold-Interpretationen und Divergenzen von Indikatoren
+zu
+den klassischen Instrumenten der Contrarians. False Breakout-Ansätze
+(zum Beispiel Turtle Soups) gelten dagegen als modernere Varianten der
+Contrarians. Da wir Pivots im nächsten Teil behandeln und die anderen
+Strategien hinlänglich bekannt sein dürften (Contrarians gehören zu
+den meist beschriebenen Themen in Fach=ADbüchern), wollen wir den
+verbleibenden Platz für die Swing-Trader verwenden.
+3) Swingers
+Das Swing Trading gilt als Königsklasse der Position-Trader, da hier
+sowohl Trendfolge als auch Contrarian-Techniken miteinander verknüpft
+werden. Das Haupt=ADzielist, von größeren Kursbewegungen (auch Swings
+genannt) und möglichst auch längeren Trendphasen, die im Verlauf eines
+Tages auftreten, zu profitieren. Um dieses Ziel zu verwirklichen und
+den einen oder anderen Trend sogar vorwegnehmen zu können, bedienen
+sich die Swinger bei ihren Einstiegen oftmals auch der Methoden der
+Contrarians.
+Sobald eine auf Basis von Contrarian-Strategien eingegangene Position
+jedoch für sie läuft, tendieren sie sowohl beim Nachlegen (=3D
+sukzessive Vergrößerung der Position =3D Scaling-in) als auch bei der
+Gewinnmitnahme wieder zu Trendfolgetechniken (beispielsweise Trailing
+Stopps für Ausstiegssignale). Overnight-Positionen sind keine
+Seltenheit. Die Entscheidungsfindung eines Swingers basiert in der
+Regel auf charttechnischen Einschätzungen. Er sucht nach
+Einstiegschancen, die sich aus Trendlinienbrüchen, Range-Breakouts,
+Erreichen von Extremzonen (zum Beispiel Pivot-Marken) und Indikator-
+Konstellationen ergeben. Handelshäufigkeit und Haltedauer sind
+vielfältig und richten sich nach der jeweiligen Strategie.
+Risiko
+Da der Swinger größere Marktbewegungen mitnehmen will, hält er oftmals
+auch größere Kursentwk.; ungen ge=ADgen sich aus. Er lässt den Markt =
+ein
+wenig atmen. Diese Atemübungen des Marktes können durchaus auch
+größere Verluste verursachen. So gibt es bekennende DAXTrader, die bei
+Intraday-Positionen 2 Prozent-Bewegungen (gemessen am Index) gegen
+sich zulassen, um ähnliche Gewinnperspektiven zu erreichen. Für
+Einsteiger ist das Swing-Trading daher nur geeignet, wenn sie Swing-
+Strategien mit geringeren Verlustgrößen
+haben und sich konsequent an die entsprechenden Stopp-Losses halten.
+Wenn Sie in ihrem Trading-Gemüt häufiger Hoffnungsschimmer verspüren
+und glauben, dass Ihre Position doch noch in die Gewinnzone laufen
+kann, sollten Sie diese Variante des Daytradings nicht verwenden.
+Zu den bekanntesten Strategien der Swing Trader zählen die Fibonacci
+Retracements, das Pullback zu vorher gebrochenen Trendlinien und das
+Pingpong der Kurse zwischen zwei Gleitenden Durchschnitten.
+Die Klassiker des SwingTradings
+Beim Fibonacci Retracement werden in der Regel die 38,2 Prozent, 50
+Prozent oder 61,8 Prozent-Korrekturen vorheriger Trendbewegungen in
+Richtung des Trends gehandelt. Bild 5 zeigt das Grundprinzip. Sie
+messen die Länge eines Trends vom Ausgangspunkt A bis zu einem
+Höchstpunkt B. Sobald die Kurse beispielsweise 38 Prozent dieser
+Bewegung korrigieren, kaufen Sie in der Hoffnung, dass die Kurse bei
+einem weiteren Swing nach oben neue Höchstkurse erreichen.
+Das Pullback zu einer vorher gebrochenen Trend=ADlinie finden Sie in
+Bild 6 erläutert. Wenn beispielsweise ein Aufwärtstrend gebrochen
+wurde (siehe aufwärts gerichtete Trendlinien), platziert der Swinger
+eine Verkaufsorder in der Nähe der weiterlaufenden Trendlinie (siehe
+Markierung). Nachdem ein Aufwärtstrend gebrochen wurde und die Kurse
+gefallen sind, starten sie oftmals einen Pullback, bei dem zwar das
+Niveau des vorherigen Trendlinienbruches überwunden werden kann, nicht
+aber die weitergelaufene Trendlinie selbst, da diese plötzlich als
+Widerstandsmarke fungiert (um=ADgekehrt bei abwärts gerichteten
+Trendlinien).
+Der Swinger riskiert hier maximal ein Drittel seines Gewinnziels. Das
+durchschnittliche Gewinnpotenzial
+
+rgibt sich je nach Markt und Charteinstellung und kann Veränderungen
+unterliegen. In Bild 7 zeigt sich das Pingpong der Kurse zwischen zwei
+Gleitenden Durchschnitten. In diesem Beispiel wurden zwei Glei=ADtende
+Durchschnitte mit einer 20er und 200er-Parame-ter-Einstellung
+verwendet. Sobald die Kurse nach einem
+
+Aufwärtstrend den kurzfristigen 20er-GD nach unten durchbrochen und
+dann den 200er-GD erfolgreich getestet haben, platziert der Swinger
+einen Verkaufs=ADauftrag auf dem Niveau des aktuellen 20er CDs (Seil-
+Markierung). Er hofft, dass die Kurse beim ersten Test des 200er-GDs
+abprallen und bis zum wichtigen 20er-GD zurücklaufen, um dort Kraft
+für einen zweiten Anlauf zu sammeln, bei dem die 200er-Marke nach
+unten gebrochen wird. Hierbei riskiert der Swinger selten mehr als ein
+Drittel seines Gewinnziels (vertikale Linien
+
+Schon Hinderk war sich sicher, däss man nicht zweimal in den gleichen
+Fluss steigen kann. Kaum hat man den Fluss betreten, da hat er sich
+auch schon geändert. In die Sprache der diskretionären Trader
+übersetzt könnte man in Analogie sagen: ,,Man kann nicht zweimal den
+gleichen Dax handeln." Aus diesem Grunde bestehen dis-kretionäre
+Trader auf einem flexiblen Handelsansatz im Gegensatz zu einem starren
+Regelwerk. Da sich Marktbe=ADdingungen und Marktmechanik ständig ändern,
+suchen sie einen Ansatz, welcher der jeweiligen Situation gerecht
+wird. Der diskretionäre Trader adaptiert somit sein Vor=ADgehen ständig,
+um das jeweilige Optimum aus einer gegebenen Situation herauszuholen.
+Der System-Trader hingegen schreckt vor den vielfältigen
+Schwierigkeiten zurück, die ein diskretionärer Ansatz mit sich bringt:
+Ab=ADhängigkeit von der Tagesform, psychologische Aspekte, schwierige
+Reproduzierbarkeit der Resultate, ständige Beobachtung des Marktes -
+um nur einige zu nennen. Und so tauscht er die außerordentlichen
+Chancen des diskretionären Tradings gegen ein Regelwerk, das ihn
+hoffentlich sicher durch den Markt führt. Ein solches Regelwerk
+entspricht klassischerweise einem Handels=ADsystem, das auf einem
+gegebenen Zeitraum getestet und für gut befunden wurde. Diese Regeln
+werden anschlie=ADßend im realen Trading umgesetzt. Idealerweise erzielt
+das System dann eine ähnlich gute Performance wie auf den getesteten
+Daten. Früher oder später wird sich allerdings mit hoher
+Wahrscheinlichkeit die Weisheit de
+Hinderk bewahrheiten und das Handelssystem wird ver=ADsagen - einfach
+weil sich die Marktbedingungen zu stark geändert haben. Das besondere
+Problem dabei ist aller=ADdings, dass es extrem schwierig ist, diesen
+Zeitpunkt des Versagens eines Systems festzustellen. Im schlimmsten
+Fall gibt das System einen beträchtlichen Teil seiner erwirtschafteten
+Gewinne wieder ab, bevor es aus dem Markt genommen wird.
+Adaptive Handelsstrategien
+Ideal wären demnach Handelsstrategien, die die Vorzüge des
+diskretionären sowie des regelbasierten Vorgehens miteinander
+vereinen, also adaptive Handelsstrategien. Rekapitulieren wir zunächst
+noch einmal die Elemente einer statischen Handelsstrategie, wie sie im
+ersten Artikel dieser Serie erläutert wurden. Eine Handelsstrategie
+setzt sich neben der Festlegung des zu handelnden Marktes und des zu
+handelnden Zeithorizonts zusammen aus:
+1=2E    Regelwerk zum Aufbau einer Position.
+2=2E    Regelwerk zum Abbau einer Position.
+3=2E    Regelwerk zum Bestimmen der Positionsgröße.
+Die Regelwerke sind jeweils parametrisiert, wobei jedem Parameter ein
+gewisser Spielraum zugewiesen wird. Wir sprechen hier auch von einem
+Modell, das die Handelsidee repräsentiert. Um eine statische Handels=AD
+strategie zu entwickeln, würde das Modell zunächst unter Verwendung
+geeigneter technischer Hilfsmittel wie
+Sensitivitätsanalyse, Restriktionen, Kontrollzeitraum usw. optimiert
+und dann gehandelt werden. Schematisch ist dies in Bild 1 dargestellt.
+Das adaptive Element er=ADreicht man nun dadurch, dass ein Modell
+periodisch neu optimiert wird. Dadurch kann es sich auf Marktverände=AD
+rungen frühzeitig einstellen und die Signalgebung entspre=ADchend
+anpassen. Dieser Prozess ist in Bild 2 dargestellt.
+Entscheidungsgrößen einer adaptiven Handelsstrategie Zu einer
+adaptiven Handelsstrategie gehören weitere Entscheidungsgrößen, die
+die einer statischen Handels=ADstrategie ergänzen:
+1=2E    Regelwerk für die Umsetzung des aktuellen Signals.
+2=2E    Anzahl der Perioden, nach der das System neu opti=ADmiert wird.
+3 Festlegung, ob der Optimierungszeitraum verscho=ADben oder erweitert
+werden soll.
+Diese drei Punkte sind bei genauerer Betrachtung eng miteinander
+verwoben. Punkt 1 muss zwar auch bei statischen Strategien bedacht
+werden, ist aber insbeson=ADdere bei adaptiven Handelsstrategien von
+Bedeutung. Nehmen wir eine frisch optimierte Strategie, die nun real
+gehandelt werden soll. Das letzte Signal der Stra=ADtegie, also das
+Signal, das für die Umsetzung in einen Trade relevant ist, sei ein
+Long-Signal. Dieses aktuelle Signal liege allerdings bereits vier
+Perioden zurück. Es stellt sich nun die Frage, ob dieses Signal noch
+gehandelt oder wegen seines Alters verworfen werden soll. Im letzteren
+Fall würde man warten, bis die Strategie ein neues Signal erzeugt, um
+dann den gesamten Trade mitzumachen. Bei statischen Strategien tritt
+diese Frage=ADstellung genau einmal auf, bei adaptiven Strategien nach
+jeder Adaption. Um diesen Punkt noch ein=ADmal ganz deutlich zu machen:
+Jede Adaption des Sys=ADtems führt potenziell zu einer anderen
+Signalfolge auf dem Optimierungszeitraum und damit auch zu einem
+geänderten aktuellen Signal, das für das reale Trading relevant ist.
+Somit stellt sich die Frage des Nachvollziehens dieses Signals
+regelmäßig aufs Neue. Dabei kann es natürlich auch passieren, dass die
+gegenwärtige Position einer Strategie long ist und nach einer Adaption
+das aktuelle Signal auf Short wechselt. Sehr häufig ist dies für den
+klassischen Systemtrader schwer zu akzeptieren, da das System
+widersprüchlich zu sein scheint. Tatsächlich
+besteht darin aber gerade die Stärke des Ansatzes, näm=ADlich die
+Fähigkeit, sich auf geänderte Marktbedingungen einzustellen und somit
+auch die Markteinschätzung im Sinne des aktuellen Signals zu
+revidieren. Dies ent=ADspricht dem Vorgehen eines abgebrühten
+diskretionären Traders, der nicht versucht, dem Markt seine Meinung
+aufzudrängen, sondern der sich flexibel mit dem Markt bewegt. Somit
+wird auch deutlich, warum Punkt 2, die Festlegung, wie oft ein System
+adaptiert werden soll, mit Punkt 1 zusammenhängt. Nach jeder Adaption
+muss das Regelwerk für die Umsetzung des aktuellen Signals angewendet
+werden. Punkt 3 schließlich, die Festlegung, ob der
+Optimierungszeitraum verschoben oder erweitert werden soll, ist eher
+subtil. Nehmen wir an, die adaptive Strategie soll jeweils am Freitag
+nach Börsenschluss neu optimiert werden. Bei einem
+Optimierungszeitraum von beispielsweise zwei Jahren stellt sich also
+die Frage, ob der Beginn des Optimierungszeitraums ebenfalls um eine
+Woche vorgeschoben oder konstant gehalten werden soll. Hierbei ist zu
+berücksichtigen, dass viele Indika=ADtoren aufgrund ihrer Konstruktion
+eine Art Gedächtnis haben. Dies trifft beispielsweise auf alle
+Indikatoren zu, die eine exponentielle Glättung verwenden, wie zum
+Schon Hinderk war sich sicher, dass man nicht zweimal in den gleichen
+Fluss steigen kann.
+Beispiel der Kibelka. Diese Art der Glättung berück=ADsichtigt quasi immer
+die gesamte Kurshistorie, wobei die Kurse der Vergangenheit zwar nur
+schwach gewichtet sind, aber dennoch das Ergebnis beeinflussen.
+Schneidet man nun einen Teil der Kurshistorie weg, können sich die
+Indikatoren so stark ändern, dass sie andere Signale produzieren und
+zwar selbst dann, wenn ihre Paramet-risierung unverändert bleibt.
+Dieser Wirkung muss man sich bewusst sein und sie entsprechend
+berücksichtigen.
+Walk-Forward Simulation
+Wir sehen also, dass die Komponenten, die eine statische Strategie zu
+einer adaptiven Strategie wandeln, großen Einfluss auf das
+Handelsresultat haben werden. Der diskretionäre Trader vollzieht
+diesen adaptiven Prozess permanent und versucht, durch eine
+retrospektive Analyse des Handelsergebnisses diesen Prozess stetig zu
+verbessern. Hingegen hat der System-Trader beim Einsatz moderner
+Software für die Erstellung adaptiver Handels=ADstrategien ein Werkzeug
+an der Hand, mit dem er sowohl die zugrunde liegenden Komponenten des
+statischen Teils der Strategie optimieren, als auch den gesamten
+Prozess der Vorwärtsbewegung mit Adaption der Strategie simulieren
+kann. Diese Technik nennt man Walk-Forward Simulation.
+
+Bei der Walk-Forward Simulation wird auf Basis ei=ADner verfügbaren
+Zeitreihe der gesamte Handelsprozess inklusive der Adaption der
+Strategie simuliert. Dazu wird das Zeitfenster für die Optimierung
+zunächst wei
+n die Vergangenheit gelegt. Die Schritte der Simulation sehen dann im
+Einzelnen wie folgt aus:
+1=2E    Optimiere das Modell der Handelsstrategie auf dem gegebenen
+Zeitfenster.
+2=2E    Passe die aktuelle Handelsposition gemäß dem Regelwerk für die
+Umsetzung des aktuellen Signals an.
+3=2E    Handle die Signale der Handelsstrategie mit den bei der letzten
+Optimierung ermittelten Einstellungen und führe Buch über die
+Handelsergebnisse.
+4=2E    Ziehe nach Ablauf der vorgegebenen Anzahl an Handelsperioden das
+Zeitfenster der Optimierung vor, bzw. erweitere es.
+5=2E    Beginne wieder bei 1.
+Im Ergebnis wird die Software eine Sequenz von Trades ermitteln, die
+mit den gleichen Kennzahlen untersucht werden kann, wie eine
+klassische statische Handelsstrategie. Zwei Punkte sollten besonders
+beachtet werden: Zunächst kann beim Prozess der Optimierung eines
+gegebenen Zeitfensters das gesamte Instrumenta=ADrium fortschrittlicher
+Handelssystem-Software einge=ADsetzt werden. Des Weiteren agiert das
+System bei seiner Vorwärtsbewegung stets auf Blinddaten, das heißt auf
+Daten, die während der Optimierung unbekannt wa=ADren. Wir haben es also
+mit einem echten Stresstest zu tun, der dem Trader einen sehr guten
+Einblick in das Systemverhalten auch bei wechselnden Marktbe=ADdingungen
+ermöglicht.
+Der Systementwickler kann nun verschiedene Politiken für die Adaption
+testen und erhält auf Knopf=ADdruck das jeweilige Resultat in Form von
+Grafiken und Kennzahlen. Die Walk-Forward Simulation ermöglicht es
+somit, eine Adaptions-Einstellung festzulegen, die dem Markt, der
+Handelsidee und den Erwartungen des Traders am besten entsprechen.
+
+Adaptive Handelsstrategien versuchen das Beste aus zwei Welten zu
+kombinieren: Die Flexibilität des diskretio-nären Tradings, bei der
+sich rasch und flexibel auf neue Marktsituationen eingestellt wird,
+mit der Konsequenz und Nachvollziehbarkeit von Regelwerken. Ein
+unerlässliches Hilfsmittel für den Test Adaptiver Handels=ADstrategien
+istdie Walk-Forward Analyse, mit deren Hüfediekontrollierte
+Flexibilität einer Strategieauf Blinddaten getestet werden kann.
+Entwicklung und Tests adaptiver Handelsstrategien wurden erst in
+jüngerer Zeit durch die Rechenleistung moderner Computer und
+entsprechende Software ermöglicht und stehen heutzutage nicht nur
+institutionellen Marktteilnehmern zur Verfügung, sondern auch
+Privatpersonen

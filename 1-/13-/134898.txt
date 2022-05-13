@@ -1,0 +1,58 @@
+Nach Ami-Statistiken sind mehr als 90% der am Optionshandel
+Teilnehmenden unterm Strich Verlierer.
+
+Drei Dinge, die am meisten falsch gemacht werden und die den Gewinn am
+meisten "schmälern", sind: 
+Die Abschaetzung der Entwicklung des BasisWertes, 
+die Abschaetzung der Entwicklung des BasisWertes und 
+die Abschaetzung der Entwicklung des BasisWertes. 
+
+Und wenn man einen dieser Fehler macht (, was praktisch immer im
+gewissen Umfang der Fall ist), dann kann man sich jegliche andere
+'Rumrechnerei mit Hebeln, Aufgeld, etc schenken. Entsprechend ist die
+ganze "OptionsRechnerei" m.E. (fuer OttoNormalVerbraucher, der "nur"
+Calls oder Puts _kauft_,)  praktisch von recht untergeordneter
+Bedeutung.
+
+Zur Reduzierung der obigen drei HauptFehler koennen div. Massnahmen
+beitragen:
+
+z.B. Einen BasisWert waehlen, der sich _relativ_  leicht abschaetzen
+laesst. Das sind z.B. integrale Werte, wie der DAX.
+(Frage: 
+Welche anderen Werte kommen noch in Frage? - ich wuerde gern meine
+Aktivitaeten vom DAX ausgehend verbreitern, weil ja beim DAX nicht
+immer der Baer / Stier los ist.)
+
+z.B. Da der Basiswert nicht nur ueber den Preis, sondern z.B. auch
+ueber seine Vola maßgeblich zum Optionspreis beitraegt, muesste man
+eigentlich auch diese abschaetzen. Weil das aber zusaetzliche
+Unsicherheiten bringt, laesst sich evtl wesentlich besser direkt ein
+geeignet "genormter" OptionsPreis abschaetzen, der ja u.a. die Effekte
+aus BasiswertPreis _und_ Vola enthaelt. 
+
+z.B. Da die Abschaetzung der zeitlichen Entwicklung wichtig ist,
+empfiehlt es sich, Abschaetzungen z.B. fuer 1/2/5/10/20/40 Tage
+vorzunehmen. Natuerlich sind die "laengerfristigen" Abschaetzungen
+zunehmend fehlerbehaftet, und sie muessen entsprechend gehandhabt
+werden.
+
+z.B. Kann man die OptionspreisPrognosen (fuer Calls _und_ Puts, damit
+man ein wenig Redundanz hat) als "Indikatoren" auffassen, die in
+entsprechenden "HanelsRegeln" benutzt werden. Mit Hilfe von Prognosen
+"in der Vergangenheit"  kann man diese Regeln anhand  tatsaechlicher
+OptionsPreise "optimieren", wodurch ein weiteres Schrittchen in
+Richtung zutreffender Prognosen gewonnen wird, indem man
+_systematisch_  "aus den Fehlern lernt".
+
+
+"Frueher" wuren Optionen primaer zur Absicherung von Wertpapieren und
+Handelsguetern benutzt. Heutzutage wird m.E.  ein Grossteil z.B. der
+DAX-Optionen ausschliesslich zum Zwecke der Spekulation gehandelt, was
+sich ja auch kraeftig bei der Preisbildung bemerkbar macht.
+(Frage:
+WelcheOptionen bzw. welche  integralen, leicht handelbaren Werte haben
+einen wesentlich _geringeren_  SpekulationsAnteil? Das wuerde
+natuerlich die Abschaetzung der  BasisWerte weiter erleichtern ...)
+
+mfg silvio aulmann

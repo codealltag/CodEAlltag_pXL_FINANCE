@@ -1,0 +1,13 @@
+Vor kurze gab`s hier eine diskussion zum Thema Teilausführung.
+Mir ist das jetzt nach einem Jahr Iwid erstmalig passiert und
+siehe da:
+
+31/15. 09. 21 13:29:14 13:37:51 Buy 100 SAVLY 11 Bought       $-1109.99
+31/15. 09. 21 13:29:14 13:36:57 Buy 200 SAVLY 11 Bought *     $-2200.00
+
+* Indicates that this order is a partial fill from a larger order.
+You will be charged only one commission for the entire order.
+
+So kann`s auch gehen.
+
+Otto

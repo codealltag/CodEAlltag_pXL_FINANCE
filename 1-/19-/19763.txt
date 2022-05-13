@@ -1,0 +1,794 @@
+Roulettesystem * Tendency * by SelMcKenzie=AE
+
+live on stage Casino Sienhachenbach,Spain 30.11.2006 live
+
+
+Zielfleisch=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE
+Erscheinung der einzelnen PleinNumbers:
+00 x Plein-00  zero  Grosse Serie  Sector:  35-3-26-0-32-15-19-
+02 x Plein-01  one  Orphelins  Sector:  24-16-33-1-20-14-31-
+01 x Plein-02  two  Grosse Serie  Sector:  19-4-21-2-25-17-34-
+01 x Plein-03  three  Grosse Serie  Sector:  28-12-35-3-26-0-32-
+02 x Plein-04  four  Grosse Serie  Sector:  32-15-19-4-21-2-25-
+03 x Plein-05  five  Kleine Serie  Sector:  8-23-10-5-24-16-33-
+00 x Plein-06  six  Orphelins  Sector:  25-17-34-6-27-13-36-
+02 x Plein-07  seven  Grosse Serie  Sector:  22-18-29-7-28-12-35-
+01 x Plein-08  eight  Kleine Serie  Sector:  36-11-30-8-23-10-5-
+00 x Plein-09  nine  Orphelins  Sector:  20-14-31-9-22-18-29-
+01 x Plein-10  ten  Kleine Serie  Sector:  30-8-23-10-5-24-16-
+03 x Plein-11  eleven  Kleine Serie  Sector:  27-13-36-11-30-8-23-
+02 x Plein-12  twelve   Grosse Serie  Sector:  29-7-28-12-35-3-26-
+04 x Plein-13  thirteen  Kleine Serie  Sector:  34-6-27-13-36-11-30-
+04 x Plein-14  fourteen  Orphelins  Sector:  33-1-20-14-31-9-22-
+02 x Plein-15   fifteen   Grosse Serie  Sector:  26-0-32-15-19-4-21-
+05 x Plein-16  sixteen   Kleine Serie  Sector:  10-5-24-16-33-1-20-
+00 x Plein-17  seventeen  Orphelins  Sector:  21-2-25-17-34-6-27-
+02 x Plein-18  eighteen  Grosse Serie  Sector:  31-9-22-18-29-7-28-
+00 x Plein-19  nineteen  Grosse Serie  Sector:  0-32-15-19-4-21-2-
+02 x Plein-20   twenty   Orphelins  Sector:  16-33-1-20-14-31-9-
+00 x Plein-21  twentyone   Grosse Serie  Sector:  15-19-4-21-2-25-17-
+01 x Plein-22  twentytwo   Grosse Serie  Sector:  14-31-9-22-18-29-7-
+03 x Plein-23  twentythree  Kleine Serie  Sector:  11-30-8-23-10-5-24-
+02 x Plein-24  twentyfour  Kleine Serie  Sector:  23-10-5-24-16-33-1-
+02 x Plein-25  twentyfive   Grosse Serie  Sector:  4-21-2-25-17-34-6-
+02 x Plein-26  twentysix   Grosse Serie  Sector:  12-35-3-26-0-32-15-
+02 x Plein-27  twentyseven   Kleine Serie  Sector:
+17-34-6-27-13-36-11-
+00 x Plein-28  twentyeight   Grosse Serie  Sector:  18-29-7-28-12-35-3-
+04 x Plein-29  twentynine   Grosse Serie  Sector:  9-22-18-29-7-28-12-
+01 x Plein-30  thirty  Kleine Serie  Sector:  13-36-11-30-8-23-10-
+02 x Plein-31  thirtyone   Orphelins  Sector:  1-20-14-31-9-22-18-
+02 x Plein-32  thirtytwo   Grosse Serie  Sector:  3-26-0-32-15-19-4-
+02 x Plein-33  thirtythree  Kleine Serie  Sector:  5-24-16-33-1-20-14-
+01 x Plein-34  thirtyfour   Orphelins  Sector:  2-25-17-34-6-27-13-
+02 x Plein-35  thirtyfive  Grosse Serie  Sector:  7-28-12-35-3-26-0-
+02 x Plein-36  thirtysix  Kleine Serie  Sector:  6-27-13-36-11-30-8-
+
+Erscheinung der einzelnen PleinNumbers in Prozent:
+0,0002  %  für Plein  zero  Grosse Serie  Sector:  35-3-26-0-32-15-19-
+3,0771  %  für Plein  one  Orphelins  Sector:  24-16-33-1-20-14-31-
+1,5386  %  für Plein  two  Grosse Serie  Sector:  19-4-21-2-25-17-34-
+1,5386  %  für Plein  three  Grosse Serie  Sector:
+28-12-35-3-26-0-32-
+3,0771  %  für Plein  four  Grosse Serie  Sector:  32-15-19-4-21-2-25-
+4,6155  %  für Plein  five  Kleine Serie  Sector:  8-23-10-5-24-16-33-
+0,0002  %  für Plein  six  Orphelins  Sector:  25-17-34-6-27-13-36-
+3,0771  %  für Plein  seven  Grosse Serie  Sector:
+22-18-29-7-28-12-35-
+1,5386  %  für Plein  eight  Kleine Serie  Sector:
+36-11-30-8-23-10-5-
+0,0002  %  für Plein  nine  Orphelins  Sector:  20-14-31-9-22-18-29-
+1,5386  %  für Plein  ten  Kleine Serie  Sector:  30-8-23-10-5-24-16-
+4,6155  %  für Plein  eleven  Kleine Serie  Sector:
+27-13-36-11-30-8-23-
+3,0771  %  für Plein  twelve   Grosse Serie  Sector:
+29-7-28-12-35-3-26-
+6,1540  %  für Plein  thirteen  Kleine Serie  Sector:
+34-6-27-13-36-11-30-
+6,1540  %  für Plein  fourteen  Orphelins  Sector:
+33-1-20-14-31-9-22-
+3,0771  %  für Plein   fifteen   Grosse Serie  Sector:
+26-0-32-15-19-4-21-
+7,6924  %  für Plein  sixteen   Kleine Serie  Sector:
+10-5-24-16-33-1-20-
+0,0002  %  für Plein  seventeen  Orphelins  Sector:
+21-2-25-17-34-6-27-
+3,0771  %  für Plein  eighteen  Grosse Serie  Sector:
+31-9-22-18-29-7-28-
+0,0002  %  für Plein  nineteen  Grosse Serie  Sector:
+0-32-15-19-4-21-2-
+3,0771  %  für Plein   twenty   Orphelins  Sector:
+16-33-1-20-14-31-9-
+0,0002  %  für Plein  twentyone   Grosse Serie  Sector:
+15-19-4-21-2-25-17-
+1,5386  %  für Plein  twentytwo   Grosse Serie  Sector:
+14-31-9-22-18-29-7-
+4,6155  %  für Plein  twentythree  Kleine Serie  Sector:
+11-30-8-23-10-5-24-
+3,0771  %  für Plein  twentyfour  Kleine Serie  Sector:
+23-10-5-24-16-33-1-
+3,0771  %  für Plein  twentyfive   Grosse Serie  Sector:
+4-21-2-25-17-34-6-
+3,0771  %  für Plein  twentysix   Grosse Serie  Sector:
+12-35-3-26-0-32-15-
+3,0771  %  für Plein  twentyseven   Kleine Serie  Sector:
+17-34-6-27-13-36-11-
+0,0002  %  für Plein  twentyeight   Grosse Serie  Sector:
+18-29-7-28-12-35-3-
+6,1540  %  für Plein  twentynine   Grosse Serie  Sector:
+9-22-18-29-7-28-12-
+1,5386  %  für Plein  thirty  Kleine Serie  Sector:
+13-36-11-30-8-23-10-
+3,0771  %  für Plein  thirtyone   Orphelins  Sector:
+1-20-14-31-9-22-18-
+3,0771  %  für Plein  thirtytwo   Grosse Serie  Sector:
+3-26-0-32-15-19-4-
+3,0771  %  für Plein  thirtythree  Kleine Serie  Sector:
+5-24-16-33-1-20-14-
+1,5386  %  für Plein  thirtyfour   Orphelins  Sector:
+2-25-17-34-6-27-13-
+3,0771  %  für Plein  thirtyfive  Grosse Serie  Sector:
+7-28-12-35-3-26-0-
+3,0771  %  für Plein  thirtysix  Kleine Serie  Sector:
+6-27-13-36-11-30-8-
+
+Satz mit Gewinn erfolgte in den Coups:
+16, 33, 34,
+
+Satz mit Verlust erfolgte in den Coups:
+18, 19, 21, 22, 23, 24, 37, 39, 40,
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE
+Der Satz-Stücke-Verlauf:
+49, 48, 48, 47, 46, 45, 44, 43, 42, 42, 41, 39, 37, 35, 33, 31, 30, 29,
+28, 28, 27, 26, 25, 24, 24, 24, 23, 22, 20, 18, 16, 15, 13, 11, 10, 9,
+8, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0,
+
+Der Gewinn-Stücke-Verlauf:
+72, 70, 70, 70, 68, 66, 64, 64, 62, 62, 62, 60, 58, 54, 50, 48, 46, 46,
+44, 44, 44, 42, 40, 38, 38, 38, 38, 36, 34, 30, 26, 24, 22, 18, 16, 14,
+12, 12, 12, 10, 10, 8, 6, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0,
+
+Der Saldo-Stücke-Verlauf:
+23, 22, 22, 23, 22, 21, 20, 21, 20, 20, 21, 21, 21, 19, 17, 17, 16, 17,
+16, 16, 17, 16, 15, 14, 14, 14, 15, 14, 14, 12, 10, 9, 9, 7, 6, 5, 4,
+4, 5, 4, 5, 4, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0,
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Zieglmaier-Rönnfeldt=AE
+Satz mit Treffer erfolgte bei Erscheinen des * Pleins * in den Coups:
+36 for 50.Coup, 11 for 33.Coup, 15 for 32.Coup,
+Satz mit Fehltreffer erfolgte bei Erscheiner des * Pleins * in den
+Coups:
+29 for 48.Coup, 13 for 47.Coup, 22 for 45.Coup, 24 for 44.Coup, 33 for
+43.Coup, 11 for 42.Coup, 14 for 29.Coup, 2 for 27.Coup, 10 for 26.Coup,
+
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Zieglmaier-Rönnfeldt=AE
+Satz mit Treffer erfolgte bei Erscheinen der * WurfWeite * in den
+Coups:
+31 for 50.Coup, 12 for 33.Coup, 4 for 32.Coup,
+Satz mit Fehltreffer erfolgte bei Erscheiner der * WurfWeite * in den
+Coups:
+18 for 48.Coup, 11 for 47.Coup, 8 for 45.Coup, 35 for 44.Coup, 8 for
+43.Coup, 30 for 42.Coup, 32 for 29.Coup, 25 for 27.Coup, 36 for
+26.Coup,
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE
+65.Coup:  29.__.  .__.29  29.__.    set  0/1/0/  won  0/2/0  Saldo  23
+Satz:  the last series Black-Red
+2er/2er/2er/4er/6er/2er/1er/4er/1er/1er/  ,the last series Pair-Impair
+1er/4er/1er/3er/1er/0er/3er/0er/3er/0er/  Impair,the last series
+Passe-Manqe  1er/4er/2er/1er/1er/1er/3er/1er/1er/1er/
+64.Coup:  .__.23  .__.23  23.__.    set  0/1/0/  won  0/0/0  Saldo  22
+Satz:  the last series Black-Red
+2er/2er/4er/6er/2er/1er/4er/1er/1er/1er/  ,the last series Pair-Impair
+1er/4er/1er/3er/1er/1er/3er/0er/3er/0er/  Impair,the last series
+Passe-Manqe  1er/4er/2er/1er/1er/1er/3er/1er/1er/1er/
+63.Coup:  .__.18  18.__.  .__.18    set  0/0/0/  won  0/0/0  Saldo  22
+Satz:  the last series Black-Red
+2er/2er/4er/6er/2er/1er/4er/1er/1er/1er/  ,the last series Pair-Impair
+4er/1er/3er/1er/1er/3er/0er/3er/0er/2er/  ,the last series Passe-Manqe
+4er/2er/1er/1er/1er/3er/1er/1er/1er/1er/
+62.Coup:  31.__.  .__.31  31.__.    set  0/1/0/  won  0/2/0  Saldo  23
+Satz:  the last series Black-Red
+2er/4er/6er/2er/1er/4er/1er/1er/1er/3er/  ,the last series Pair-Impair
+1er/3er/1er/1er/3er/0er/3er/0er/2er/5er/  Impair,the last series
+Passe-Manqe  2er/1er/1er/1er/3er/1er/1er/1er/1er/4er/
+61.Coup:  35.__.  .__.35  35.__.    set  0/1/0/  won  0/2/0  Saldo  22
+Satz:  the last series Black-Red
+2er/4er/6er/2er/1er/4er/1er/1er/1er/3er/  ,the last series Pair-Impair
+1er/3er/1er/1er/3er/0er/3er/0er/2er/5er/  Impair,the last series
+Passe-Manqe  2er/1er/1er/1er/3er/1er/1er/1er/1er/4er/
+60.Coup:  .__.27  .__.27  27.__.    set  0/1/0/  won  0/2/0  Saldo  21
+Satz:  the last series Black-Red
+4er/6er/2er/1er/4er/1er/1er/1er/3er/2er/  ,the last series Pair-Impair
+1er/3er/1er/1er/3er/0er/3er/0er/2er/5er/  Impair,the last series
+Passe-Manqe  2er/1er/1er/1er/3er/1er/1er/1er/1er/4er/
+59.Coup:  .__.25  .__.25  25.__.    set  0/1/0/  won  0/0/0  Saldo  20
+Satz:  the last series Black-Red
+4er/6er/2er/1er/4er/1er/1er/1er/3er/2er/  ,the last series Pair-Impair
+1er/3er/1er/1er/3er/3er/3er/0er/2er/5er/  Impair,the last series
+Passe-Manqe  2er/1er/1er/1er/3er/1er/1er/1er/1er/4er/
+58.Coup:  08.__.  08.__.  .__.08    set  0/0/1/  won  0/0/2  Saldo  21
+Satz:  the last series Black-Red
+6er/2er/1er/4er/1er/1er/1er/3er/2er/2er/  ,the last series Pair-Impair
+3er/1er/1er/3er/3er/3er/0er/2er/5er/0er/  ,the last series Passe-Manqe
+1er/1er/1er/3er/1er/1er/1er/1er/4er/2er/  Manqe
+57.Coup:  15.__.  .__.15  .__.15    set  0/0/1/  won  0/0/0  Saldo  20
+Satz:  the last series Black-Red
+6er/2er/1er/4er/1er/1er/1er/3er/2er/2er/  ,the last series Pair-Impair
+1er/1er/3er/3er/3er/0er/2er/5er/0er/0er/  ,the last series Passe-Manqe
+1er/1er/1er/3er/1er/1er/1er/1er/4er/2er/  Manqe
+56.Coup:  29.__.  .__.29  29.__.    set  0/0/0/  won  0/0/0  Saldo  20
+Satz:  the last series Black-Red
+6er/2er/1er/4er/1er/1er/1er/3er/2er/2er/  ,the last series Pair-Impair
+1er/1er/3er/3er/3er/0er/2er/5er/0er/0er/  ,the last series Passe-Manqe
+1er/1er/3er/1er/1er/1er/1er/4er/2er/3er/
+55.Coup:  13.__.  .__.13  .__.13    set  0/0/1/  won  0/2/0  Saldo  21
+Satz:  the last series Black-Red
+6er/2er/1er/4er/1er/1er/1er/3er/2er/2er/  ,the last series Pair-Impair
+1er/1er/3er/3er/3er/2er/2er/5er/0er/0er/  ,the last series Passe-Manqe
+1er/3er/1er/1er/1er/1er/4er/2er/3er/7er/  Manqe
+54.Coup:  .__.32  32.__.  32.__.    set  1/1/0/  won  2/0/0  Saldo  21
+Satz:  the last series Black-Red
+2er/1er/4er/1er/1er/1er/3er/2er/2er/1er/  Red,the last series
+Pair-Impair  1er/3er/3er/3er/2er/2er/5er/0er/0er/0er/  Impair,the last
+series Passe-Manqe  3er/1er/1er/1er/1er/4er/2er/3er/7er/1er/
+53.Coup:  .__.07  .__.07  .__.07    set  1/0/1/  won  2/0/2  Saldo  21
+Satz:  the last series Black-Red
+2er/1er/4er/1er/1er/1er/3er/2er/2er/1er/  Red,the last series
+Pair-Impair  3er/3er/3er/2er/2er/5er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/1er/1er/4er/2er/3er/7er/1er/1er/  Manqe
+52.Coup:  .__.14  14.__.  .__.14    set  1/0/1/  won  2/0/2  Saldo  19
+Satz:  the last series Black-Red
+2er/1er/4er/1er/1er/1er/3er/2er/2er/1er/  Red,the last series
+Pair-Impair  3er/3er/2er/2er/5er/0er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/1er/1er/4er/2er/3er/7er/1er/1er/  Manqe
+51.Coup:  .__.12  2.__.  .__.12    set  1/0/1/  won  2/0/0  Saldo  17
+Satz:  the last series Black-Red
+2er/1er/4er/1er/1er/1er/3er/2er/2er/1er/  Red,the last series
+Pair-Impair  3er/3er/2er/2er/5er/0er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/1er/1er/4er/2er/3er/7er/1er/1er/  Manqe
+50.Coup:  .__.36  36.__.  36.__.    set  1/0/1/  won  2/0/0  Saldo  17
+Satz:  the last series Black-Red
+2er/1er/4er/1er/1er/1er/3er/2er/2er/1er/  Red,the last series
+Pair-Impair  3er/3er/2er/2er/5er/1er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/1er/4er/2er/3er/7er/1er/1er/1er/  Passe
+49.Coup:  .__.05  .__.05  .__.05    set  1/0/0/  won  0/0/0  Saldo  16
+Satz:  the last series Black-Red
+2er/1er/4er/1er/1er/1er/3er/2er/2er/1er/  Red,the last series
+Pair-Impair  3er/2er/2er/5er/1er/0er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/4er/2er/3er/7er/1er/1er/1er/4er/
+48.Coup:  29.__.  .__.29  29.__.    set  1/0/0/  won  2/0/0  Saldo  17
+Satz:  the last series Black-Red
+1er/4er/1er/1er/1er/3er/2er/2er/1er/1er/  Black,the last series
+Pair-Impair  3er/2er/2er/5er/1er/0er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/4er/2er/3er/7er/1er/1er/1er/4er/4er/
+47.Coup:  13.__.  .__.13  .__.13    set  1/0/0/  won  0/0/0  Saldo  16
+Satz:  the last series Black-Red
+1er/4er/1er/1er/1er/3er/2er/2er/1er/1er/  Black,the last series
+Pair-Impair  3er/2er/2er/5er/1er/4er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  4er/2er/3er/7er/1er/1er/1er/4er/4er/1er/
+46.Coup:  .__.32  32.__.  32.__.    set  0/0/0/  won  0/0/0  Saldo  16
+Satz:  the last series Black-Red
+4er/1er/1er/1er/3er/2er/2er/1er/1er/1er/  ,the last series Pair-Impair
+2er/2er/5er/1er/4er/0er/0er/0er/0er/1er/  ,the last series Passe-Manqe
+2er/3er/7er/1er/1er/1er/4er/4er/1er/1er/
+45.Coup:  22.__.  22.__.  22.__.    set  1/0/0/  won  2/0/0  Saldo  17
+Satz:  the last series Black-Red
+1er/1er/1er/3er/2er/2er/1er/1er/1er/3er/  Black,the last series
+Pair-Impair  2er/2er/5er/1er/4er/0er/0er/0er/0er/1er/  ,the last series
+Passe-Manqe  2er/3er/7er/1er/1er/1er/4er/4er/1er/1er/
+44.Coup:  24.__.  24.__.  24.__.    set  1/0/0/  won  2/0/0  Saldo  16
+Satz:  the last series Black-Red
+1er/1er/1er/3er/2er/2er/1er/1er/1er/3er/  Black,the last series
+Pair-Impair  2er/2er/5er/1er/4er/1er/0er/0er/0er/1er/  ,the last series
+Passe-Manqe  2er/3er/7er/1er/1er/1er/4er/4er/1er/1er/
+43.Coup:  33.__.  .__.33  33.__.    set  1/0/0/  won  2/0/0  Saldo  15
+Satz:  the last series Black-Red
+1er/1er/1er/3er/2er/2er/1er/1er/1er/3er/  Black,the last series
+Pair-Impair  2er/5er/1er/4er/1er/0er/0er/0er/1er/0er/  ,the last series
+Passe-Manqe  2er/3er/7er/1er/1er/1er/4er/4er/1er/1er/
+42.Coup:  11.__.  .__.11  .__.11    set  1/0/0/  won  0/0/0  Saldo  14
+Satz:  the last series Black-Red
+1er/1er/1er/3er/2er/2er/1er/1er/1er/3er/  Black,the last series
+Pair-Impair  2er/5er/1er/4er/1er/1er/0er/0er/1er/0er/  ,the last series
+Passe-Manqe  3er/7er/1er/1er/1er/4er/4er/1er/1er/7er/
+41.Coup:  .__.16  16.__.  .__.16    set  0/0/0/  won  0/0/0  Saldo  14
+Satz:  the last series Black-Red
+1er/1er/3er/2er/2er/1er/1er/1er/3er/6er/  ,the last series Pair-Impair
+5er/1er/4er/1er/1er/0er/0er/1er/0er/3er/  ,the last series Passe-Manqe
+3er/7er/1er/1er/1er/4er/4er/1er/1er/7er/
+40.Coup:  20.__.  20.__.  20.__.    set  0/0/0/  won  0/0/0  Saldo  14
+Satz:  the last series Black-Red
+1er/3er/2er/2er/1er/1er/1er/3er/6er/1er/  ,the last series Pair-Impair
+5er/1er/4er/1er/1er/2er/0er/1er/0er/3er/  ,the last series Passe-Manqe
+7er/1er/1er/1er/4er/4er/1er/1er/7er/2er/
+39.Coup:  .__.25  .__.25  25.__.    set  0/1/0/  won  0/2/0  Saldo  15
+Satz:  the last series Black-Red
+3er/2er/2er/1er/1er/1er/3er/6er/1er/3er/  ,the last series Pair-Impair
+1er/4er/1er/1er/2er/0er/1er/0er/3er/2er/  Impair,the last series
+Passe-Manqe  7er/1er/1er/1er/4er/4er/1er/1er/7er/2er/
+38.Coup:  31.__.  .__.31  31.__.    set  0/1/0/  won  0/2/0  Saldo  14
+Satz:  the last series Black-Red
+2er/2er/1er/1er/1er/3er/6er/1er/3er/1er/  ,the last series Pair-Impair
+1er/4er/1er/1er/2er/0er/1er/0er/3er/2er/  Impair,the last series
+Passe-Manqe  7er/1er/1er/1er/4er/4er/1er/1er/7er/2er/
+37.Coup:  13.__.  .__.13  .__.13    set  0/1/1/  won  0/2/2  Saldo  14
+Satz:  the last series Black-Red
+2er/2er/1er/1er/1er/3er/6er/1er/3er/1er/  ,the last series Pair-Impair
+1er/4er/1er/1er/2er/0er/1er/0er/3er/2er/  Impair,the last series
+Passe-Manqe  1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+36.Coup:  13.__.  .__.13  .__.13    set  0/1/1/  won  0/2/2  Saldo  12
+Satz:  the last series Black-Red
+2er/2er/1er/1er/1er/3er/6er/1er/3er/1er/  ,the last series Pair-Impair
+1er/4er/1er/1er/2er/0er/1er/0er/3er/2er/  Impair,the last series
+Passe-Manqe  1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+35.Coup:  .__.05  .__.05  .__.05    set  0/1/1/  won  0/0/2  Saldo  10
+Satz:  the last series Black-Red
+2er/1er/1er/1er/3er/6er/1er/3er/1er/4er/  ,the last series Pair-Impair
+1er/4er/1er/1er/2er/1er/1er/0er/3er/2er/  Impair,the last series
+Passe-Manqe  1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+34.Coup:  .__.16  16.__.  .__.16    set  0/0/1/  won  0/0/2  Saldo  9
+Satz:  the last series Black-Red
+2er/1er/1er/1er/3er/6er/1er/3er/1er/4er/  ,the last series Pair-Impair
+4er/1er/1er/2er/1er/1er/0er/3er/2er/0er/  ,the last series Passe-Manqe
+1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+33.Coup:  11.__.  .__.11  .__.11    set  1/0/1/  won  2/0/2  Saldo  9
+Satz:  the last series Black-Red
+1er/1er/1er/3er/6er/1er/3er/1er/4er/2er/  Black,the last series
+Pair-Impair  1er/1er/2er/1er/1er/0er/3er/2er/0er/2er/  ,the last series
+Passe-Manqe  1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+32.Coup:  15.__.  .__.15  .__.15    set  1/0/1/  won  0/0/2  Saldo  7
+Satz:  the last series Black-Red
+1er/1er/1er/3er/6er/1er/3er/1er/4er/2er/  Black,the last series
+Pair-Impair  1er/1er/2er/1er/1er/0er/3er/2er/0er/2er/  ,the last series
+Passe-Manqe  1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+31.Coup:  .__.03  .__.03  .__.03    set  0/0/1/  won  2/0/0  Saldo  6
+Satz:  the last series Black-Red
+1er/1er/3er/6er/1er/3er/1er/4er/2er/2er/  ,the last series Pair-Impair
+1er/1er/2er/1er/1er/0er/3er/2er/0er/2er/  ,the last series Passe-Manqe
+1er/1er/1er/4er/4er/1er/1er/7er/2er/2er/  Manqe
+30.Coup:  35.__.  .__.35  35.__.    set  1/0/0/  won  0/0/2  Saldo  5
+Satz:  the last series Black-Red
+1er/3er/6er/1er/3er/1er/4er/2er/2er/3er/  Red,the last series
+Pair-Impair  1er/1er/2er/1er/1er/1er/3er/2er/0er/2er/  ,the last series
+Passe-Manqe  1er/1er/4er/4er/1er/1er/7er/2er/2er/4er/
+29.Coup:  .__.14  14.__.  .__.14    set  0/0/1/  won  0/0/0  Saldo  4
+Satz:  the last series Black-Red
+3er/6er/1er/3er/1er/4er/2er/2er/3er/1er/  ,the last series Pair-Impair
+1er/2er/1er/1er/1er/3er/2er/0er/2er/5er/  ,the last series Passe-Manqe
+1er/4er/4er/1er/1er/7er/2er/2er/4er/0er/  Passe
+28.Coup:  29.__.  .__.29  29.__.    set  0/0/0/  won  0/0/0  Saldo  4
+Satz:  the last series Black-Red
+6er/1er/3er/1er/4er/2er/2er/3er/1er/1er/  ,the last series Pair-Impair
+2er/1er/1er/1er/3er/2er/0er/2er/5er/1er/  ,the last series Passe-Manqe
+4er/4er/1er/1er/7er/2er/2er/4er/0er/0er/
+27.Coup:  02.__.  02.__.  .__.02    set  0/1/0/  won  0/2/0  Saldo  5
+Satz:  the last series Black-Red
+6er/1er/3er/1er/4er/2er/2er/3er/1er/1er/  ,the last series Pair-Impair
+1er/1er/1er/3er/2er/0er/2er/5er/1er/0er/  Pair,the last series
+Passe-Manqe  4er/1er/1er/7er/2er/2er/4er/0er/0er/0er/
+26.Coup:  10.__.  10.__.  .__.10    set  0/1/0/  won  0/0/0  Saldo  4
+Satz:  the last series Black-Red
+6er/1er/3er/1er/4er/2er/2er/3er/1er/1er/  ,the last series Pair-Impair
+1er/1er/1er/3er/2er/3er/2er/5er/1er/0er/  Pair,the last series
+Passe-Manqe  4er/1er/1er/7er/2er/2er/4er/0er/0er/0er/
+25.Coup:  .__.05  .__.05  .__.05    set  1/0/0/  won  2/0/0  Saldo  5
+Satz:  the last series Black-Red
+1er/3er/1er/4er/2er/2er/3er/1er/1er/0er/  Red,the last series
+Pair-Impair  1er/1er/3er/2er/3er/2er/5er/1er/0er/0er/  ,the last series
+Passe-Manqe  4er/1er/1er/7er/2er/2er/4er/0er/0er/0er/
+24.Coup:  .__.16  16.__.  .__.16    set  1/0/0/  won  2/0/0  Saldo  4
+Satz:  the last series Black-Red
+1er/3er/1er/4er/2er/2er/3er/1er/1er/0er/  Red,the last series
+Pair-Impair  1er/3er/2er/3er/2er/5er/1er/0er/0er/0er/  ,the last series
+Passe-Manqe  4er/1er/1er/7er/2er/2er/4er/0er/0er/0er/
+23.Coup:  .__.27  .__.27  27.__.    set  1/0/0/  won  2/0/0  Saldo  3
+Satz:  the last series Black-Red
+1er/3er/1er/4er/2er/2er/3er/1er/1er/0er/  Red,the last series
+Pair-Impair  3er/2er/3er/2er/5er/1er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/7er/2er/2er/4er/0er/0er/0er/0er/
+22.Coup:  .__.36  36.__.  36.__.    set  1/0/0/  won  2/0/0  Saldo  2
+Satz:  the last series Black-Red
+1er/3er/1er/4er/2er/2er/3er/1er/1er/0er/  Red,the last series
+Pair-Impair  2er/3er/2er/5er/1er/0er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/7er/2er/2er/4er/0er/0er/0er/0er/
+21.Coup:  .__.34  34.__.  34.__.    set  1/0/0/  won  2/0/0  Saldo  1
+Satz:  the last series Black-Red
+1er/3er/1er/4er/2er/2er/3er/1er/1er/0er/  Red,the last series
+Pair-Impair  2er/3er/2er/5er/1er/0er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/7er/2er/2er/4er/0er/0er/0er/0er/
+20.Coup:  .__.30  30.__.  30.__.    set  1/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/3er/1er/4er/2er/2er/3er/1er/1er/0er/  Red,the last series
+Pair-Impair  2er/3er/2er/5er/1er/2er/0er/0er/0er/0er/  ,the last series
+Passe-Manqe  1er/1er/7er/2er/2er/4er/0er/0er/0er/0er/
+19.Coup:  11.__.  .__.11  .__.11    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+3er/1er/4er/2er/2er/3er/1er/1er/0er/0er/  ,the last series Pair-Impair
+3er/2er/5er/1er/2er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+1er/7er/2er/2er/4er/0er/0er/0er/0er/0er/
+18.Coup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/4er/2er/2er/3er/1er/1er/0er/0er/0er/  ,the last series Pair-Impair
+3er/2er/5er/1er/2er/2er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+7er/2er/2er/4er/0er/0er/0er/0er/0er/0er/
+17.Coup:  .__.16  16.__.  .__.16    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/4er/2er/2er/3er/1er/1er/0er/0er/0er/  ,the last series Pair-Impair
+2er/5er/1er/2er/2er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+16.Coup:  .__.14  14.__.  .__.14    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/4er/2er/2er/3er/1er/1er/0er/0er/0er/  ,the last series Pair-Impair
+2er/5er/1er/2er/2er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+15.Coup:  24.__.  04.__.  .__.04    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+4er/2er/2er/3er/1er/1er/0er/0er/0er/0er/  ,the last series Pair-Impair
+2er/5er/1er/2er/2er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+14.Coup:  .__.01  .__.01  .__.01    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+2er/2er/3er/1er/1er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+5er/1er/2er/2er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+13.Coup:  .__.01  .__.01  .__.01    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+2er/2er/3er/1er/1er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+5er/1er/2er/2er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+12.Coup:  .__.12  12.__.  .__.12    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+2er/2er/3er/1er/1er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+1er/2er/2er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+11.Coup:  .__.18  18.__.  .__.18    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Lemoni
+2er/2er/3er/1er/1er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+1er/2er/2er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/2er/4er/0er/0er/0er/0er/0er/0er/0er/
+10.Coup:  24.__.  24.__.  24.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Lemoni
+2er/3er/1er/1er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+1er/2er/2er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/4er/0er/0er/0er/0er/0er/0er/0er/0er/
+9=2ECoup:  26.__.  26.__.  26.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Lemoni
+2er/3er/1er/1er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+1er/2er/2er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+2er/4er/0er/0er/0er/0er/0er/0er/0er/0er/
+8=2ECoup:  .__.16  16.__.  .__.16    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+3er/1er/1er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+1er/2er/2er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+4er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+7=2ECoup:  .__.07  .__.07  .__.07    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+3er/1er/1er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+2er/2er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+4er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+6=2ECoup:  20.__.  20.__.  20.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/1er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+2er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+5=2ECoup:  26.__.  26.__.  26.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/1er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+2er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+4=2ECoup:  33.__.  .__.33  33.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/1er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+3=2ECoup:  .__.23  .__.23  23.__.    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+1er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+2=2ECoup:  04.__.  04.__.  .__.04    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+1=2ECoup:  .__.14  14.__.  .__.14    set  0/0/0/  won  0/0/0  Saldo  0
+Satz:  the last series Black-Red
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Pair-Impair
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/  ,the last series Passe-Manqe
+0er/0er/0er/0er/0er/0er/0er/0er/0er/0er/
+
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE
+Roulettesystem * Tendency * by SelMcKenzie=AE
+SelMcKenzie=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE
+free Software-Download:
+http://umb.Onpukc-ZjOeqtem.zj
+http://bbs.LsunhlUxqonruoaqi.zb
+http://ziw.IeumapbgYluob.qh
+http://lrj.OmaggOibd.pn
+
+Das System richtet sich nach der Tendenz der geschlossenen
+Serien-Bildung und ist individuell einstellbar.
+In laufender Permanenz wird ausgewertet, welche Serien
+sich auf den jeweiligen einzelnen Chancen bilsang gebildet
+haben und in welcher Formation dieser Serien jeweils
+erschienen, um hieraus eine Tendenz der Serien-Bildung zu
+erkennen. Serien-Bildungen sind Serien auf den jeweiligen Chancen
+als 1-er, 2-er, 3-er, 4-er, 5-er, 6-er, 7-er, 8-er, 9-er Serie.
+Aufgrund der Tendenz erfolgt dann der Satz entweder auf
+Serien-Fortbildung oder Serien-Abbruch.
+Voreingestellt sind die folgenden grundsätzlichen Rules,
+wobei die Einstellung auch individuell nach eigenen
+Erfahrungen und Bedürfnissen erfolgen kann.
+
+Rules 1: Letzte Serien: 2-er, 1-er, 3-er, 1-er, 3-er
+Ein häufig zu beobachtendes Tendenzbild:
+Eine Chance erscheint in Serien. Dazwischen kommt die
+Gegenchance nur als Einer-Serie. Die Länge der Serien ist
+beliebig, sollte aber idealerweise im Bereich 3-er bis 6-er liegen.
+In der Praxis wartet man einen längeren Vorlauf ab, als im
+Beispiel dargestellt. Oft gelingt der Einstieg wie im
+Beispiel:  2 Treffer, dann 1 Fehltreffer oder es entsteht die
+Plus/Minus-Folge  + - + - +  in der persönlichen Permanenz.
+In beiden Fällen bringt der Teilangriff 1 Stück Überschuss.
+Es wird so lange auf der Favoritenseite (Seite der 3-er Serien)
+weitergesetzt,  bis sich das Tendenzbild ändert. Das könnte der Fall
+sein, wenn  nach Spielbeginn nur noch 2-er-Serien und
+Einercoups auftreten.
+Sofortiger  Abbruch, wenn sich auf der 1-er-Serien-Seite
+Serien bilden.
+
+Rules 2: Letzte Serien: 1-er, 2-er, 1-er, 1-er, 2-er, 1-er, 1-er, 1-er
+Dieses Tendenzbild kann sehr langanhaltend  auftreten.
+Einzelcoups und 2-er-Serien sind die häufigsten
+Erscheinungsformen und treten somit logischerweise auch
+häufiger im Verbund auf. Solange zwischen den 1-er Serien bzw.
+Intermittenzcoups nur 2er-Serien auftreten, gilt das
+Tendenzbild als intakt. In dieser Phase wird auf Wechsel der
+Chance gesetzt. Solange das Tendenzbild nicht durch eine 3-er-oder
+längere Serie unterbrochen wird, bleibt der Verlauf der
+eigenen  Plus/Minus-Folge im ungünstigsten Fall
+bei  - + - + - + usw., im  günstigeren Fall sieht die
+Ergebnisfolge eher etwa so aus: + - + + -  + + - usw.
+Die legendären australian Aborigini und Millionengewinner,
+die sich Jörg Junkernheinrich und Frédéric Ohrem nennen,
+bespielen ausschliesslich diese Tendenz und gewannen mit deren
+Progession so spektakulär und langanhaltend, dass so
+manche Casinos in Europe vor dem Ruin standen.
+
+Rules 3: Letzte Serien 3-er, 3-er, 3-er
+Einige Tendenzspieler bevorzugen dieses Tendenzmuster,
+bei dem nur Serien erscheinen. Nach drei bis vier Serien der
+Länge 3 oder grösser (wobei auch 2er-Serien dazwischen
+auftreten  können) setzt man jeweils auf die zuvor erschienene
+Chance. Es wird  nicht eine bestimmte Chance favorisiert,
+sondern man passt sich der Tendenz  an, dass fast
+ausschliesslich Serien-bzw. Folgecoups auftreten. In der
+Praxis bespielt man dieses Tendenzbild nur selten, da man fast
+immer Tische  mit Tendenzbildern nach Phase 1 oder 2 vorfinder.
+Nur wenn die Saaltendenz das Serienwechsel-Tendenzbild
+deutlich bestätigt, beginnt man ein effektives Spiel
+nach Phase 3. Unbehagen macht dabei das permanente
+Spiel gegen  den isolierten Einer, der in den anderen Phasen
+bewusst einkalkuliert wird, hier jedoch zum Angriffsabbruch führt.
+Casinobesuche im vergangenen Jahr
+brachten den Eindruck, dass die Serien-Wechsel scheinbar
+eher instabil wurden, als die Tendenzen 1 und 2.
+
+Rules 4: Letzte Serien 2er,1,er,2,er,4-er,1-er,1-er,3-er,2er
+oder 3-er,1-er,1-er,1-er,2-er,3-er,1-er,1-er,3-er
+Wenn keine der oben genannten Phasen in reiner Form
+auftreten, entstehen instabile Tendenzen, an die
+man sich nicht vernünftig anpassen kann. Fast jeder
+Tendenzgambler wird in solchen mixed Phasen Verluste machen,
+da die oben demonstrierten Grundtendenzen über ein
+kurzes Anfangsstadium nicht hinaus kommen. Wer den Fehler
+macht, nach zu kurzem Vorlauf einer vermeintlichen
+Tendenz zu folgen, wird in dieser Chaos-Phase eine Serie
+von Fehlstarts erleben. In der persönlichen Permanenz
+des Gamblers werden dann lange Minus-Serien mit vereinzelten
+Plus-1-er-Serien auftreten. Ein Merkmal dieser Phase der
+Instabilität ist das Auftreten von Serien grösser 3 auf
+beiden Chancenseiten mit dazwischen gestreuten isolierten
+1-er-Serien. Es ist kein klarer Favorit, aber auch kein
+berechenbares Tendenzsamle zu erkennen. Wenn die Tendenz
+eines Casinos derart instabil ist, beginnt man das
+effektive Gambling zu einem späteren Zeitpunkt.
+Erst wenn die Phasen 1 bis 3 mehrfach deutlich
+erkennbar sind, wird die stabilste Tendenz bespielt.
+Wer sich bereits an kleinsten Figuren und Mustern orientiert
+(z.B. an den  Alyett'schen Figuren) und nach
+nur 4 bis 6 Coups Vorlauf angreift, ohne die
+übergeordnete Tendenz zu beachten, wird sicher öfters
+in verlustreiche Chaos-Phasen geraten, als der
+konsequente Tendenzgambler.
+
+Tendenzgambling als bestes Grund-Konzept:
+Die Erkenntnis resultiert aus der Erfahrung
+nach mehreren hundert Casinobesuchen, sowie der
+Analyse der meisten Roulette-Systeme, die seit 40 Jahren auf
+dem Markt erschienen sind, sowie der ebenfalls  bis jetzt
+getesteten profitablen SelMcKenzie-Systemen.
+Eines kristallisierte sich immer
+wieder  heraus:  Egal, ob man die Permanenzfolge zwischen
+Black und Red  (oder auch Pair/Impair, Passe/Manque oder
+Transversale-Kombinationen) als  Ausgangsbasis verwendet oder die
+Plus/Minus-Folge aus einem hochkomplizierten Marsch
+mit 30 Sonderregeln; In allen Fällen werden die
+vier zuvor beschriebenen Tendenzphasen in gleichartiger Form auftreten.
+Wenn selbst die aufwendigsten Märsche es nicht schaffen,
+die  verlustbringenden Chaos-Phasen bzw.
+Tendenzwechsel-Phasen zu umgehen, muss  ernsthaft über
+den Sinn oder Unsinn von extrem aufwendigen
+Satzfindungsverfahren nachgedacht werden. Die zuvor
+dargestellte Chaos-Phase ist natürlich nur ein
+Beispiel für einen verlustbringenden Gamblingabschnitt beim
+Roulette Tendenzgamblöing.  Jedes starre System hat irgend
+eine sogenannte verlustbringende Figur, die aus einem andersartigen
+Permanenzmuster bestehen kann.  Wenn diese Konstellation
+in geballter Form auftritt, also mehrfach direkt
+hintereinander, gerät der Gamblerin eine oft nicht
+mehr korrigierbare Verlustphase.
+Die Logik des Tendenzgambling beruht deshalb
+auch darauf, nur stabile Tendenzphasen zu gambled und
+undefinierbare Mischphasen zu meiden. Sobald während
+eines Tendenzangriffes ein Doppelverlust auftritt, ist
+das Gambling automatisch gesperrt, da das Tendenzbild
+instabil geworden ist.
+Im Rahmen einer längeren Gamblingphase, wenn bereits
+erste Zwischengewinne  vorhanden sind, kann das
+Abbruchkriterium etwas gelockert werden. In diesen
+Fällen können auch leicht instabile Tendenzen weiter
+bespielt werden  (z.B. ein 1-er-Serien-Verlauf, bei
+dem gelegentlich eine Zweier-Serie auf  der 1-Serien-Seite auftritt).
+Dieser ansonsten etwas schwammige Begriff
+kann (muss aber nicht) ist nicht im Sinne von Intuition
+gemeint, sondern ist stellvertretend für einige
+Sonderbedingungen des Tendenzgamblings beim Roulette.
+Dazu zählt auch die praktisch
+erlernbare Fähigkeit, sich bei mehrfacher
+Angriffsmöglichkeit auf die qualitativ bestmögliche
+Tendenz zu  konzentrieren.
+Beispiel: Man beobachtet zwei verschiedene
+Roulette-Tables. An beiden Tables läuft eine Chance in Serie
+und die Gegenchance nur als 1-er-Serie (innerhalb
+eines 15-Coup-Abschnittes). Um die vermeintlich qualitativ
+bessere Tendenz festzustellen, analysiert man nun
+(wenn möglich) auch noch den Permanenzverlauf vor dem
+letzten 15-Coup-Abschnitt. Beim Vergleich  stellt man nun
+vielleicht fest, dass am ersten Table zuvor eine sehr lange
+Serie auf der späteren 1-Serien-Seite erschienen war.
+Am zweiten Tisch  zerfielen die Serien auf der aktuellen
+1-er-Serien-Seite in immer kürzere  Erscheinungen
+(z.B. erst 4-er-Serie, dann 3-er, 2-er und nur noch 1-er
+Diesr Vorlauf am zweiten Tisch erscheint nach
+bisherigen Erfahrungen besser für einen anschliessend
+bespielbaren Tendenzverlauf, als  der Vorlauf am
+ersten Tisch, wo die lange Serie auf der gegnerischen
+Chancenseite  noch ihren Schatten ins Tendenzbild wirft.
+Diese Nebenbetrachtung gilt nur für das
+Serien/1-er-Serie-Tendenzbild und  es ist nur eines von vielen
+Nebenkriterien, die ein erfahrener Tendenzspieler beachtet.
+Eine weitere Form der Verfeinerung ist das abgesicherte
+Tendenzspiel, wobei  man die stärksten Zahlen aus der
+feindlichen  Chance mit  einem Transversalen-oder
+Carr=E9-Satz absichert, sofern sich mehrere  dieser
+Zahlen innerhalb einer hohen Tableau-Chance befinden.
+Macht man dies auf den Chancenpaaren Pair/Impair oder
+Black/Red, ergeben sich  als Nebeneffekt gelegentliche
+Doppeltreffer, die den Saldo in einer  günstigen Phase sehr sprunghaft
+nach oben befördern können.
+Umgekehrt kann die Versicherung aber auch unnötig
+Geld kosten, wenn es mal schlecht läuft.
+Ob und wann sich das Versicherungsspiel anbietet,
+liegt im Ermessen des praktisch  erfahrenen Tendenzspielers.
+In der Regel bietet sich diese Spielform nicht so oft an.
+Wenn man die Grundarten des Roulette-Tendenzgamblings
+in seiner einfachsten Form am Computer simuliert, endet
+das  Ergebnis nach mehreren Prüfjahren irgendwo im
+Bereich Null minus  Zeroverlust.  Dennoch schaffen es der
+erfahrene Tendenzgambler, in der Praxis  besser
+abzuschneiden. Wie ist das zu erklären?
+Ein entscheidender Grund ist das Gespür für einen
+beginnenden  Tendenzwechsel. So kann man schon
+vorher auf ein anderes Chancenpaar wechseln,
+bevor der unvermeidliche Doppelverlust eintritt.
+Beispiel: Es wird nach dem Vorlauf BB R B R B RR B R B R BB R
+weiter auf Wechsel zwischen Black (S) und Red (R) gespielt.
+Die Permanenz könnte sich im günstigen Fall etwa so fortsetzen:
+  B R B RR B R  usw.
+Bis dahin läuft das Gambling mit der  1 - 2 - Überlagerung
+noch  optimal. Dann geht es jedoch so weiter:  BB R BB RR.
+Der Anteil an 2-er-Serien hat zugenommen und man trifft
+in immer kürzerer Abfolge nur noch mit dem jeweils zweiten
+Satz der 1-2-Überlagerung. Ein zuvor intaktes Tendenzbild
+zerfällt oft nicht schlagartig, sondern deutet das Ende
+häufig in Form von Rhythmus-Störungen an. Wer seine
+persönliche Plus/Minus-Ergebnisfolge aufmerksam beobachtet, kann
+entsprechend darauf reagieren und den Angriff vorzeitig beenden.
+Das Beispiel soll nur andeuten, dass ein
+perfektioniertes Tendenzspiel von  weiteren
+Nebenbedingungen abhängen kann, die sich nicht in ein
+völlig  starres Regelwerk formen lassen. Das hat
+allerdings nur teilweise etwas  mit Intuition zu tun,
+weil die Sätze logisch nachvollziehbar bleiben.
+Wenn der Gambler z.B. nach einiger Zeit seine Taktik
+insofern ändert, dass er neue Tendenzmuster zeitweise schon
+nach 12 statt zuvor 15 Coups Vorlauf angreift,
+hat dieser vermeintlich intuitiv beeinflusste
+Regelverstoss  eher etwas mit der Wahrnehmung der
+übergeordneten Tendenz zu tun. Das Unterbewusstsein
+hat die  aufmerksam durchanalysierte Permanenz noch im
+eigenen neuronalen Speicher und signalisiert,
+dass die Tendenzphasen seit einiger Zeit in
+kürzeren Zyklen ablaufen.
+Man erwischt nicht immer einen guten Beginn.
+Mitunter gibt es auch mal zwei oder drei Fehlbeginns.
+Dann sind vier bis sechs Stücke verloren.
+In der Praxis senkt man den Einsatz dann von
+grösseren Jetons-Values auf kleine Jeton-Values,
+um eventuellen weiteren Verluste zu begrenzen.
+Der weitere Verlauf entscheidet,
+wenn der Einsatz wieder erhöht wird. Im schlimmsten Fall
+geht auch noch der nächste und vielleicht sogar der
+übernächste Tendenz-Angriff daneben. Solche absoluten
+Chaos-Tage sind allerdings sehr selten. Wenn man falsch
+reagiert, kann man an diesen wenigen Tagen viel zuvor
+gewonnenes Geld wieder verspielen  oder mit viel Pech
+gleich in die Verlustzone abrutschen.
+Deshalb sollte man beim Tendenzspiel auf seine
+persönliche Permanenz achten. Auch innerhalb dieser
+eigenen Schicksalskurve entstehen Tendenzbilder
+in der zuvor beschriebenen Form. Wenn man z.B. einen
+schlechten Tag  erwischt hat, könnte die Plus/Minus-Kurve
+der eigenen Ergebnisse folgenden
+Verlauf haben:  - - - + - - + - - + -   usw.
+Das ist  ein klares Serien/-1-er-Serien-Tendenzbild,
+das in diesem Fall signalisiert: Hier geht
+im Moment nichts. Konsequenz: Die Einsatzhöhe
+radikal nach unten senken.
+Theoretisch könnte man diese Phase auch durch
+Fiktivspiel oder Negativsätze überstehen. In der
+Praxis hat sich allerdings gezeigt, dass man dann
+eher aus dem Takt gerät und auch nach der
+Konsolidierungs-Phase häufig nicht mehr so gut der
+Tendenz folgen  kann. Besser ist es, die Minus-Phase
+mit kleinen Stücken auszuspielen und bei verbessertem
+Tendenzbild in der persönlichen Permanenz die
+Einsätze wieder zu erhöhen. Der Zufall ist unerbittlich,
+wenn es darum geht, Plus-und Minusergebnisse auf lange
+Sicht relativ  auszugleichen.
+Offensichtlich lässt sich der Zufall
+(wenn überhaupt) nur über die unterschiedliche
+Einsatzhöhe austricksen. Und dabei darf man eben
+nicht so starr vorgehen, wie bei der Satzfindung,
+sondern entsprechend der Tendenz der persönlichen
+Permanenz auch mal mit einem kleinen Schuss Intuition.
+Damit ist allerdings nur das Unterbewusstsein und nicht
+die klassische  Intuition im Sinne von wahllosem
+Hin- und Her-Gambling gemeint.
+Trotz aller Anpassungen wird es vereinzelte Tage
+geben, da geht einfach nichts. Im vergangenen Jahr
+haben sogar die Millionengambler Jörg Junkernheinrich
+und Frédéric Ohrem zwei solcher besonders
+chaotischen Tage erlebt,
+da lief es stundenlang konträr, egal wie variabel
+man die Anpassungen gestaltete.
+Aufgrund der etwas kürzeren
+Permanenzanzeigetafeln im Casino war die Groberkennung der
+besten Tendenzbilder ohnehin erschwert.
+Die Tendenzfolgen wechselten sich in derart
+kurzer Folge  untereinander ab, dass es unmöglich war,
+in einen Gewinnlauf zu kommen.
+Durch Einsatzreduzierung konnte der Schaden
+zunächst begrenzt  werden, aber zum Problem
+wurden mit der Zeit die vielen Fehlsätze mit
+überlagerter Stück-Value. Das passierte jeweils
+nach  einigen Anfangsgewinnen mit kleinen
+Stücken, wenn im Moment der Steigerung die Tendenz zusammenbrach.
+Solche Tage sind eher selten
+und man sollte dann besser einen erträglichen
+Verlust akzeptieren, als ausgerechnet in dieser
+Situation weiter Einsätze zu produzieren.
+Wenn der richtige Einstieg gelingt, kann
+es sehr langanhaltende Gewinnphasen geben.
+Im Vorjahr starteten Pumpernickel und Reiberdatschi
+bei ihrer Casinotour mit 41 Gewinntagen direkt hintereinander,
+wobeidurchschnittlich 5 bis 6 Stücke gewonnen wurden.
+Anschliessend gab es ein Verlustphase, in der
+sich Verlust-und Gewinntage abwechselten
+und dann gab es bei der darauf folgenden Tour
+wieder eine langanhaltende Gewinnwelle.
+Auch diese Phase wurde später teilweise
+korrigiert, aber insgesamt endete das Jahr im Plus.
+Weitere Infos in dem Buch
+*Roulettesystem *Tendency*,
+ erschienen im Verlag Dalladas
+Zielfleisch=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE
+free Software-Download:
+http://umb.Onpukc-ZjOeqtem.zj
+http://bbs.LsunhlUxqonruoaqi.zb
+http://ziw.IeumapbgYluob.qh
+http://lrj.OmaggOibd.pn
+Zielfleisch=AE   SelWave=AE   WaveTrader=AE   Zurlage=AE

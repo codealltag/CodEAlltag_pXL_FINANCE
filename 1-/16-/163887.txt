@@ -1,0 +1,30 @@
+Das kenne ich unter dem Begriff strangle: z.B. DAX-Put 2900 und DAX-Call 3100.
+Wenn man beides kauft, ist es ein Long-Strangle - man setzt hier auf starke
+Kursausschlaege, weiss aber nicht in welche Richtung. Schreibt man beides, 
+ist es ein Short-Strangle. Dabei setzt man auf nur geringe Kursaenderungen.
+
+Beim straddle wuerde man z.B. ein DAX-Call 3000 und einen DAX-Put 3000 nehmen.
+
+price spread und time spread
+
+price spread:
+z.B. Kauf DAX-Call 3000 und Verkauf (Short-gehen) DAX-Call 3100.
+Im obigen Beispiel setzt man auf leicht steigende Kurse (ueber 3000, aber 
+nicht ueber 3100), deshalb wird das auch Bull Call Spread genannt.
+
+time spread:
+z.B. Short-Verkauf DAX-Call 3100 Maerz, Kauf DAX-Call 3100 Mai
+Hier setzt man auf nur langsam steigende Kurse bzw. hofft darauf, das
+bei einer Seitwaertsbewegung der kuerzer laufende Call schneller Aufgeld
+verliert als der laenger laufende.
+
+Natuerlich sind noch eine Menge anderer Kombinationen moeglich.
+
+
+Differenz zw. An- und Verkaufskurs. Davon leben z.B. Optionsschein-Emittenten.
+
+Gruss,
+Franz Schiechel
+
+e-mail: mmfrcs@rgq.ly.woj-uhmynzwur.eb
+www:    http://pqp53.je.lkj-bnskhrvep.kn/~edpmna

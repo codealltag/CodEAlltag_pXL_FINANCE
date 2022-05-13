@@ -1,0 +1,39 @@
+Ich bin mir nicht sicher, ob ich den letzten Satz verstanden habe. Ich 
+vermute, Du meinst folgendes:
+- man nimmt sich einen Teil des Datenmaterials und erstellt auf dieser 
+Basis die Modellschätzung
+- dann nimmt man sich einen *anderen* Teil des Datenmaterials (die 
+sogenannte Validierungsmenge) und überprüft damit die Modellschätzung
+
+Richtig verstanden?
+
+Luft das Verlustportfolio praktischerweise am Besten auf eine Negation 
+des Gewinnportfolios hinaus?
+
+Also mal als vereinfachtes Beispiel:
+- Gewinnportfolio: kaufe am Montag das Wertpapier mit der höchsten 
+Wochenrendite in der Vorwoche
+
+Prüft man dann am Besten ein dazu negiertes
+- Verlustportfolio: kaufe am Montag das Wertpapier mit der niedrigsten 
+Wochenrendite in der Vorwoche
+
+
+Hast Du für das Themengebiet "signaltheoretischen Filtersch�tzmethoden 
+der Nachrichtentechnik" vielleicht auch eine Literaturempfehlung?
+
+Für ex-post Betrachtungen ist mir die Einsatzmöglichkeit inzwischen 
+klar. Jegliche Prognosetauglichkeit scheitert doch aber schon an den 
+fehlenden Zukunftswerten? Es reicht doch mit Sicherheit nicht aus, 
+einfach nur die Hälfte der Sinc-Funktion auf Basis der 
+Vergangenheitswerte zu verwenden.
+
+
+Naja. Zwischen uns liegen noch Welten ;-) Zumindest kommt mir das so 
+vor... Aber es geht mit kleinen Schritten voran, inzwischen bin ich bei 
+Kapitel 6. Und habe zum Beispiel gelernt, dass meine bevorzugten 
+breitgestreuten ETFs auch nicht hexen können...
+
+
+Gruß,
+Karlheinz

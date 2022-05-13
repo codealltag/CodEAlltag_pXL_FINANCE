@@ -1,0 +1,22 @@
+Die Idee mit den aufsummierten Deltas ist ganz gut, bloß:
+
+a) Du sagtest, daß Deine Deltas die 1. Ableitung des Kurses sind (was ich
+mir erst mal überlegen muß). 
+b) Wenn Du aber nun alle Deltas aufsummierst (=integrierst), dann bekommst
+Du - rate mal- was? Genau: den KURS. Außer Spesen nichts gewesen.
+
+
+Ich mache das auch schon die ganze Zeit. Irgendwie dumm, daß das RiZ-Magazin
+solche Dinge anspricht und dann nicht weiter ausführt. Wenn ich sie
+berechen könnte, dann wäre es doch auch sicher möglich, die ganze Sache in
+die Black-Scholes-Formel einzusetzen; es ist ja irrelevant, ob Du alle
+restlichen Daten zur Verfügung hast, ceteris paribus vorausgesetzt bleibt
+ja soundso alles andere konstant. OK, die Vola vielleicht nicht. Aber die
+vernachlässigen wir hier mal...
+
+CU CÖRSTGES.
+
+--
+[1] This message has been sent by Theodor Aretz (http://dwi.vvgb.cvat.lr.skg).
+[2] For futher information you can download my *complete* footer at:
+[3] http://ftx.agdme.ie/~xajk/apswag/fcdxfpf.izi

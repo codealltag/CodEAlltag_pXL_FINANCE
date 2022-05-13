@@ -1,0 +1,44 @@
+Kann sein, aber die Entscheidung und damit Risiko/Chance liegt
+allein bei dir. Die einen meinen, die Zinsen seien schon historisch
+niedrig und es gaebe nicht mehr viel Spielraum nach unten, 
+die anderen weisen darauf hin, dass sie in Japan noch viel tiefer
+gefallen sind und warum sollte das nicht auch bei uns moeglich sein? 
+Beides moeglich. Wer die richtige Seite erwischt kann gut verdienen.
+Ich setze bislang auf sinkende Zinsen, bin aber sehr unsicher und
+bereit jederzeit die Meinung zu aendern.
+Wenn sich die Zinssenkungstendenz zu den kurzen Zinsen 
+verlagert, dann waere vorerst bei den langen Zinsen (Anleihen)
+nicht mehr viel drinnen.  
+
+
+Haettest du rechtzeitig einsteigen muessen. Ob jetzt noch lohnt
+ist schwer zu sagen. Mit Bund-Futures waeren sogar weit ueber 100%
+moeglich gewesen (bei mehr Risiko)..
+
+
+Dafuer kann es gute Gruende geben. Da muss man entsprechende 
+Kenntnisse haben und die Details der jeweiligen OS kennen.
+Beispiel: Ein Euro-Call mit 2 Jahren Restlaufzeit auf eine echte 
+Anleihe mit 8 Jahren Restlaufzeit und Anleihekurs z.B. 126.70 
+(Coupon 7.5 bei Marktzins 3.6%.
+Wenn der Call in 2 Jahren auslaeuft haette die Anleihe bei
+gleichbleibendem Marktzins einen Kurs von nur noch 120,70
+(da Restlaufzeit ja dann nur noch 6 Jahre). 
+Der Marktzins muesste schon auf etwa 2.65% fallen, damit
+der Anleihekurs in 2 Jahren konstant bei immer noch bei 126.70 waere.
+
+Im Klartext: Anleihen koennen in bestimmten Situationen einen
+"eingebauten Kursrueckgang" haben, und das muss bei der 
+Bewertung von Calls natuerlich beruecksichtig werden. Insbesondere
+bei europaeischen OS, die ja nur bei Ablauf ausgeuebt werden 
+koennen.
+Fuer solche Faelle brauchst du Spezialsoftware und beste
+Kenntnisse. Selbst Profis machen bei Zins-Derivate oft schwere
+Fehler - bis hin zum Kauf von Puts auf Zerobonds,
+oder du solltest bei OS auf theoretische Anleihen mit konstanter
+Restlaufzeit bleiben (z.B. Bund-Future).
+
+
+Oliver
+Visit   http://kfledui.ran.ouq/vrsjid  and download a 
+free calculator for options, futures, bonds and similar stuff.

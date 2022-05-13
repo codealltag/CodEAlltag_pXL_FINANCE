@@ -1,0 +1,45 @@
+Ist richtig gedacht. Ich muss hinzufuegen, dass der Trend 
+gewissermassen als "Absolutwert" dabei ist. Ein Aufwaertstrend
+erhoeht nicht nur den Preis fuer Calls, sondern ueber die
+"Call-Put-Paritaet" gleichzeitig auch den Preis fuer Puts.
+
+Hintergrund:
+Es gibt Gründe, warum Call- und Putkurse meistens zumindest 
+grob in einem bestimmten Preisverhältnis zueinander stehen. 
+Man spricht hier von der "Put-Call-Parität". Beispiel: 
+Der Marktzins liegt bei 8% und der DAX steht bei 1000. Sie kaufen 
+nun 1 DAX-Schein für 1000, kaufen dazu 1 DAX-Put 1000 mit einem 
+Jahr Restlaufzeit für 30, und nun schreiben (d.h. verkaufen) Sie noch 
+1 DAX-Call 1000 mit ebenfalls einem Jahr Restlaufzeit für 120. 
+Sie müssen dafür 1000 + 30 ausgeben und Sie erhalten 120; 
+insgesamt kostet Sie diese Kombination mithin 910 (Spesen bleiben hier
+unberücksichtigt). 
+Damit haben Sie eine synthetische Anlageposition aufgebaut, 
+die in einem Jahr genau einen Wert von 1000 haben wird, egal, 
+wo der DAX dann steht. Fällt nämlich der DAX unter 1000, dann 
+üben Sie den Put aus und erhalten soviel, daß Sie zusammen 
+mit dem DAX-Schein genau 1000 haben. Wenn der DAX bei 
+genau 1000 steht, dann hat Ihr DAX-Schein einen Wert von 1000 . 
+Steigt der DAX über 1000, dann haben Sie zwar einen Verlust als 
+Stillhalter des Calls, aber dieser Verlust wird durch die
+Wertsteigerung des DAX-Scheines genau ausgeglichen. 
+Mit dieser absolut risikolosen Kombination hätten Sie aus einem 
+Einsatz von 910 also 1000 gemacht - eine Jahresrendite von 
+ziemlich genau 9,9%. Da das deutlich mehr als der Marktzins 
+von 8% ist, würden in diesem Fall sofort Arbitragegeschäfte 
+einsetzen und den Vorteil ausnutzen. Resultat wäre, daß sich 
+die Optionskurse soweit verändern würden, bis kein solcher 
+risikoloser Vorteil mehr vorhanden ist. Und zwar würden 
+entweder die Calls billiger werden und/oder die Puts würden teurer.
+
+Es gibt noch viele solche Beispiele, die zeigen, daß die Kurse 
+von Calls und Puts nicht völlig unabhängig voneinander sind.
+Wenn also z.B. alle Welt einen starken Aufwaertstrend erwartet
+und deshalb die Calllpreise steigen, dann steigen die Putpreise
+automatisch mit. Auf den ersten Blick unlogisch, aber im
+Grunde zwingend.
+
+
+Tim Woerlein
+Visit   http://benakse.nls.srf/qzxedr  and download a 
+free calculator for options, futures, bonds and similar stuff.

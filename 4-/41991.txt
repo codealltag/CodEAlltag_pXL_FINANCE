@@ -1,0 +1,11 @@
+Inzwischen habe ich einen ersten Versuch abgeschlossen: In
+Abhaengigkeit von ua den B&S-Parametern _und deren Aenderungen(!)_
+habe ich die PreisAenderungen(!) fuer DAX-Optionen (am Geld; 20 Tage
+RestLaufzeit) auf der Basis von Daten aus ca 5 Jahren modelliert. Fuer
+Vorhersage-Horizonte von 1 bis 10 Tagen ergeben sich
+(Rang-)Korrelationen von 60 bis 80% zwischen Modell ("Voraussage") und
+realen Preisen ueber ein ZeitFenster von 3 Monaten. ME also eine sehr
+vielversprechende Vorgehensweise zur _Modellierunbg der
+"marktimmanenten" Dynamik von OptionsPreisen_  jenseits von B&S.
+
+mfg torsten oßenkamp

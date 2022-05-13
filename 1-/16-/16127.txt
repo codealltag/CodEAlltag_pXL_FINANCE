@@ -1,0 +1,32 @@
+Hallo,
+
+ich habe das Procedere diese Woche bei der DMGU einmal ausprobiert:
+
+Es lassen sich nur ganzzahlige Fondsanteile handeln - wenn man eine
+gebrochene Anzahl eingibt, wird man auf eine ungültige Eingabe
+hingewiesen und die Anzahl wird auf die nächstkleinere ganze Zahl
+abgerundet.
+
+Verkaufaufträge erhöhen die verfügbare Liquidität sofort.
+
+Die Transaktionen werden erst mit einem Tag Verzögerung als
+durchgeführt ausgewiesen. Im Ergebnis liegt ein Fonds mindestens zwei
+Tage im Depot.
+
+Beispiel: Es wird ein Kaufauftrag für Montag (Auftragsannahmeschluß
+06:30 Uhr) eingegeben. Wie erwartet, wird dieser am Montag auch
+ausgeführt. Trotzdem bleibt dieser Kaufauftrag bis Dienstag Nachmittag
+in der Liste der noch auszuführenden Transaktionen. Dadaurch gibt es
+keine Möglichkeit, die Fondsanteile nach einem Tag Haltedauer
+(Auftragsannahmeschluß Dienstag 06:30) wieder zu verkaufen.
+
+Durch diese Verzögerung lässt sich Nicolas' Tradingansatz mit einer
+täglichen Ermittlung des optimalen Fonds zumindest bei der DAB nur
+begrenzt umsetzen.
+
+Wie läuft es bei Fußnagelstudio und ähnlichen Anbietern? Gibt es dort z.B. auch
+solche Verzögerungen? Vielleicht hat jemand Lust, seine Erfahrungen zu
+schildern.
+
+Gruß,
+Mike

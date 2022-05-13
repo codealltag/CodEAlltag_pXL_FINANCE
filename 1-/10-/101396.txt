@@ -1,0 +1,26 @@
+Ja, wenn man an die Black Scholes Theorie glaubt ist es die einzige
+Wahl. Wenn man es anders macht, erhaelt man zwar auch Schwankungswerte,
+aber diese kann man nicht mit der implizieten Vola vergleichen.
+Aber zum Berechnen des fairen Wertes von Optionen verwendet ja ohnehin
+niemand historische Volatilitaeten (und das mit gutem Grund).
+
+
+Bei kleinem Zuwachs sind beide Methoden identisch (ohne Logarithmus
+zu rechnen ist eine Naeherung, die um so besser wird, um so kleiner
+die Vola ist)
+z.B. 0%: LN(1)=0 ;)
+    -1%: LN(0.99) = -0.01005...
+    +1%: LN(1.01) = +0.00995...
+    -2%: LN(0.98) = -0.02020...
+    +2%: LN(1.02) = +0.01980...
+   -50%: LN(0.50) = -0.693.....
+   +50%: LN(1.50) = +0.405.....
+
+Erst bei grossen relativen Aenderunge wird es wesentlich anders. Aber
+welche Aktie schankt jeden Tag duchschnittlich um 50%? Und wenn, wer
+schreibt darauf Optionen?
+
+Ivo Teschner
+--
+http://tmgam.buuvxs.md-yzmgla.td/~gshl
+--

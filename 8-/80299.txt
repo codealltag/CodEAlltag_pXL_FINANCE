@@ -1,0 +1,15 @@
+Es ging um den Einfluß der Vola auf den Optionspreis...
+
+Mal ein Gedankenansatz dazu: Ahip-Aktienoptionen können jederzeit
+ausgeübt werden. Wenn also die Aktie während der Laufzeit eines Calls
+steigt, könnte der Call ausgeübt werden. Daher ist das Risiko für den
+Verkäufer einer Option bei großer Vola höher, als bei relativ
+schwankungsarmen Werten.  Der Verkäufer eines Calls verlangt eine
+höhere Prämie, wenn die Vola groß ist. Für Puts gilt das gesagte
+entsprechend.
+
+Da die Optionen praktisch jedoch erst am Ende der Laufzeit ausgeübt
+werden, liegt am (meist) noch vorhanden Zeitwert. 
+
+Gruß
+Ulrich

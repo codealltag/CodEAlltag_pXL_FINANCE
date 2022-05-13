@@ -1,0 +1,15 @@
+Neben Puts gibt es auch die Moeglichkeit mit DAX-Futures. Beispiel:
+Du verkaufst den DAX-Future fuer 5300. Dafuer musst du nur eine
+Art Anzahlung ("Margin") von z.B. 1000 hinterlegen.
+Wenn der DAX-Future auf 4300 faellt, dann kannst du deinen Future 
+fuer 4300 zurueckkaufen. Gewinn: Verkaufspreis von 5300 minus
+dem Rueckkaufpreis von 4300 = 1000.
+Bezogen auf deinen Einsatz von 1000, den du dann natuerlich 
+zurueckbekommst, ist das ein Gewinn von 100%.
+Wenn der DAX-Future allerdings auf 6300 steigt bist du deine
+1000 Einsatz endgueltig los.
+
+
+Benedikt
+Visit   http://qvcipnc.bws.vfn/cugwig  and download a 
+free calculator for options, futures, bonds and similar stuff.

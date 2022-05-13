@@ -1,0 +1,34 @@
+Visual Basic 2010 Bild Scanner programmieren Vonderlin Voigtsberger
+Matteis
+Author G.Venjakob
+Video http://ktn.vzggbnr.eqz/sqinl?k=9BvA1kFuQQ74p
+
+Heute zeige ich Ihnen, wie man aus einem Bild Abschnitte scannen und
+in eine Software bringen kann, um z.B. bei der Spieleprogrammierung im
+Hintergrund alternierende Abbildungen bzw. Landschaften zu haben. Sie
+kennen das z.B. bei Computerspielen mit Rennwagen auf einer
+Rennstrecke, da müssen die Seiten mit Landschaft ausgefüllt werden und
+das sind eigentlich nur Ausschnitte, die nacheinander schnell
+eingeblendet werden. Wie das funktioniert zeige ich hier mit einem
+Schieberegler.
+Wir brauchen nur ein Foto in einer PictureBox, woraus die Abschnitte
+dann später eingelesen werden.
+Ich mache das Stückweise hier mit einem Schieberegler, deshalb
+brauchen wir auch noch auf der Form einen Schieberegler.
+In den Schieberegler schreiben wir folgenden Code rein:
+        Dim Bildausschnitte(10, 10, 10)
+        Bildausschnitte(1, 1, 1) =3D Bildausschnitte(1, 250, 250)
+        Dim Bildzeilen(100) As Object
+        Bildzeilen(1) =3D "PictureBox.Image"
+        Bildzeilen(Val(Schieber.Value)) =3D Schieber.Value
+
+Und das wars auch schon.
+So, nun versuchen wir, die Sache zum Laufen zu bringen, und Sie sehen,
+es funktioniert wunderbar. Natürlich können Sie die Bildausschnitte
+vergrösseren oder verkleinern, wenn Sie z.B, selbst ein Spiel
+programmieren wollen, auch der Takt darf nbatürlich nicht an einem
+Schieberegler, der von Hand bedient wird, nicht liegen sondern Sie
+müssen dann einen Taktgeber initalisieren.
+Sie sehen, die Sache läuft bestens, so wird das bei der
+Spieleprogrammierung gemacht, mehr ist dafür nicht erforderlich.
+Venjakob

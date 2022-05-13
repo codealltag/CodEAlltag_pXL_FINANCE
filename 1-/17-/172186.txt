@@ -1,0 +1,11 @@
+Hi!
+Mit Excel 5 geht das ganz einfach:
+Grafik der Kurse erstellen
+Kurslinie mit der _rechten_ Maustaste anklicken
+Trendlinie auswaehlen
+gleitender Durchschnitt auswaehlen.
+Das einzige "Problem" ist die Anzahl der Perioden. Ueblicherweise 
+hat man pro 7 Tage nur 5 Kurse. Um also auf 90 Tage zu kommen 
+waehle ich als Periode 90*5/7 (= 64).
+Viel Spass!
+Pascal

@@ -1,0 +1,71 @@
+Ich hab ja nie gesagt, dass das allein mein Kapital ist ....
+
+
+Ich verkaufe ja auch stufenweise. Wenn ich z.B. bis zum Tiefstpunkt
+von 6 in immer groesseren Stueckzahlen gekauft habe, und es geht
+wieder rauf, dann verkaufe ich z.B. alle bei 6 1/4, 6 1/2. usw. Teile. 
+Laueft es gut nach oben, dann strecke ich Abstaende und Stueckzahlen.
+(geht es wieder mal runter, dann kauf ich wieder). Spaetestens wenn 
+ich den Einsatz wieder raus habe kann ich mir die Stufen dann auch
+spekulativer einteilen. Aber angenommen, es geht von 6 bis 100 hoch,
+dann hab ich vermutlich bei 10 schon 75% und bei 20 schon 90%
+der Stuecke verkauft und profitiere vom weiteren Anstieg immer weniger. 
+Trotzdem laeuft es so am besten, denn schon bei 8-10 werde ich meinen
+Einsatz wieder raus haben. Und selbt eine Pleiteaktie baeumt sich ein 
+paarmal so auf, bevor sie runtergeht.
+Wer beim Wiederaufstieg zu langsam verkauft, weil er sich rechrechnet
+("Wenn sie bis 50 steigen, dann haette ich ...."), der verliert meist.
+Wenn eine AKtie voll runterkracht, und du kaufst als fast einziger in
+immer groesseren Stueckzahlen nach, dann ist das ein so riskantes 
+Spiel, dass man gar nicht schnell genug wieder Kapital rausziehen 
+kann. Bei jedem kleinen Zwischenaufschwung musst man softort 
+Teile rauswerfen - vielleicht ist es ja das letzte Zucken.
+
+
+Das ist klar. Aber Steuern setzt es ja nur, wenn man Gewinn macht.
+
+Mir hat jetzt jemand noch mal die alten Anleitung fuer eine
+Tabellekalkulation zugemailed. Hier:
+
+Prinzip: Bei "Minimize Risk" wird bei fallenden Kursen weniger
+bzw. in breiteren Stufen gekauft (also vorsichtiger), und bei
+steigenden Kursen dann schneller verkauft. Also um moeglichst
+schnell den Einsatz wiederzuhaben.
+Bei Profitmaximieren wird etwas staerker gekauft und der Verkauf
+bei steigenden Kursen mehr verzoegert.
+Und noch eine Reihe anderer Kleinigkeiten.
+
+Vereinfacht kann sich sowas jeder mit einem
+Tabellenkalkulationsprogramm zusammenstellen.
+
+1. Spalte: Kurs aufsteigend oder absteigend oder beliebig
+wechselnd. Selbst eingeben oder z.B. um je 1 oder 10%
+erhoehen oder senken.
+Wirklich durchgefuehrte Transaktionen sollte in der Zeile
+gespeichert werden. Alle Zeilen darunter dienen nur zum
+Berechnen der zukuenftigen Transaktionen.
+
+2. Spalte: Stueckzahl: Selbst eingeben oder auch berechnen lassen.
+
+3. Betrag der letzten Transaktion (Stueck * Kurs)
+
+4. Gesamtzahl der gerade gehaltenen Aktien
+
+5. Durchschnittskurs aus allen Transaktionen (ist nicht
+so wichtig, wie viele denken)
+
+6. Einsatz, also wieviel Kapital man gerade in allen Aktien
+gebunden hat (am besten mit - Vorzeichen)
+
+7. Aktienwert: Anzahl der gerade gehaltenen Aktien * aktueller
+Kurs (Kurs der Zeile).
+
+8. Gewinn bisher (Aktienwert - Einsatz)
+
+usw. oder so aehnlich. Nimmt man noch Optionen dazu wird
+es komplizierter.
+
+
+Eckhard Avermeyer
+Visit   http://mqvicej.bip.jyx/uldxvj  and download a 
+free calculator for options, futures, bonds and similar stuff.

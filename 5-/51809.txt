@@ -1,0 +1,15 @@
+Ich kenn zur Berechnung von festverzinslichen Wertpapieren folgende Formel:
+
+                         c(oupons)      1-c/i
+V(alue) = N(ennwert) * (------------ + -------)
+		        i(Marktzins)   (1+i)^T
+
+Der Marktzins i ist die Rendite fuer Anleihen mit Laufzeit T.
+Jetzt nur noch nach i aufloesen, und dann waere es geschaft (das ueberlasse
+ich dann Dir).
+
+Gruss
+Valerio 
+
+-- 
+mfvqud.fjxfjxd@kxm.dxl

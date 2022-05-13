@@ -1,0 +1,59 @@
+Auf Deine Antwort zu meinen Beitrag gibt es natuerlich noch mehr zu
+sagen, am ernstesten nehme ich jedoch  die Behauptung, dass mein
+Programm den Black-Scholes-Wert falsch berechnet.
+
+Du gibst den von Dir angeblich korrekt berechneten Wert des
+Optionsscheines einen Tag vor der Ausübung auf 15(!!!) Dezimalen hinter
+dem Komma an. Stattdessen solltest Du Dir lieber mal darüber Gedanken
+machen, welche Näherungen bei der Anwendung der BS-Formel benutzt
+werden, die dann ein solchermaßen "exaktes" Ergebnis einigermaßen absurd
+erscheinen lassen:
+Bekanntlich berechnet man die Jahresvolatilit�t aufgrund von
+Wochendenden und Feiertagen auf der Basis von 250 Handelstagen. 
+Das bei einer Restlaufzeit von 1 Tag mein Ergebnis von Deinem um 20%
+abweicht liegt wohl in der unterschiedlichen Auffassung darüber, welcher
+Bruchteil eines Jahres dieser eine Handelstag ist.
+Ich habe mir mal den Spass erlaubt, diesen Bruchteil auf 1/360 oder auch
+mal 1/365 abzuändern und mein Programm neu kompiliert, und ich erhalte
+nicht mehr 0,26DM sondern 0,215DM! Ist dieses Resultat aber EXAKT??
+
+Mein Programm berechnet bei der Datumseingabe exakt die Anzahl der
+Werktage bis zum Ausübungszeitpunkt, was Du z.B. daran merkst, daß sich
+in der Tabelle der Wert des Scheines an Tagen, die auf dem Wochenende
+liegen nicht ändert. Konsequenterweise wird dann ein Tag mit 1/260 Jahr
+(52 Wochen a 5 Tage)angesetzt, wodurch der Preis bei einem Tag
+Restlaufzeit dann eben höher ausfällt.
+Natürlich ist auch das nur eine Näherung, die Feiertage zu
+berücksichtigen dürfte aber schwierig sein, da sie in den verschieden
+Ländern unterschiedlich liegen...
+In Hinblick auf die Berechnung der Jahresvolatilit�t halte ich meine
+Vorgehensweise jedoch wesentlich realistischer als ein stetiger
+Zeitparameter, der die Wochenenden unberücksichtigt laesst, insbesonders
+bei Restlaufzeiten im Bereich von Tagen. In diesem Sinne sind die 20%
+Abweichung voll berechtigt, die 15 Stellen hinter dem Komma kannst Du
+dir schenken.
+
+Mehr beunruhigt haben mich die 1% Abweichung bei 3 Monaten Restlaufzeit
+(2,69DM anstatt 2,66DM), da der oben erwähnte Effekt nur bei extrem
+kurzen Restlaufzeiten auftritt. Hier hat sich in meinem B-S-Modell
+tatsächlich ein kleiner Fehler eingeschlichen, da ich an einer Stelle
+vergessen hatte, den risikolosen Zinssatz z durch den Zinssatz der
+stetigen Verzinsung ln(1+z) zu ersetzen. In der Version 2.02 ist dieser
+Fehler behoben.
+
+
+Danke! Dann finde ich mich aber in guter Gesellschaft. Schau Dir doch
+einmal den Optionsscheinrechner der professionellen Börsensoftware
+It'z für Windows an! Bist Du schon mal auf die Idee gekommen, daß ein
+Optionsscheinrechner auch handhabbar sein muß und dass Parameter, die
+mit Sicherheit  u n w e s e n t l i c h sind, den Benutzer mehr
+verwirren als eine sinnvolle Ergänzung darstellen?
+Ach so, Du hast ja zufällig den Optionsscheinrechner (TheOpt!)
+programmiert, den man sich von
+http://qqygeh.bo.lbi-gvaasn.bf/~d9aahq03/okzmgl/
+downloaden kann. Ich würde Dir dringend empfehlen, Ihn noch einmal auf
+seine Handhabbarkeit für den nicht mit der englischen Fachterminologie
+vertrauten Durchschnittsanwender zu überprüfen.
+
+mailto:wqodnqqs@ndk1.ktq.hj-fhbyzimke.zl
+http://sfhs.z-kfokok.dc/wggz/jjcejwof/

@@ -1,0 +1,36 @@
+Die Formel in dieser Forn nuetzt auch kaum; fuer Puts und Calls sind
+sie schon etwas unterschiedlich. Ich hatte vor ein paar Tagen ein 
+nachvollziehbareres Listung gepostet.
+
+Devisen-OS: Der haeufigste Fehler ist, dass vergessen wird, die
+Eingaben in der richtigen Waehrung zu machen. $ und DM
+durcheinander rein = Durcheinander raus .
+Ausserdem besser mit 10- oder 100-fachem rechnen, da sonst
+bei den kleinen Werten interne Rundungsverluste.
+
+Faustregeln:
+Zuerst muß man sich darüber klar werden, in welcher Währung der Kurs des
+Optionsscheines einzustellen ist. In dieser Währung sind dann später auch
+alle angezeigten Ergebnisse zu verstehen. Regel: Es muß mit der Währung
+gearbeitet werden, in der der mögliche Gewinn aus der Option als Differenz
+zwischen dem Bezugskurs und dem Leitkurs definiert ist.   
+Beispiel: "Jeder Optionsschein berechtigt den Inhaber die Zahlung eines
+Differenzbetrages zu verlangen, der das Hundertfache der in DM
+ausgedrückten Differenz ist, um die der am Ausübungstag an der Unterweißenbach
+Wertpapierbörse amtlich notierte US$/DM-Mittelkurs den Basispreis von 1,40
+DM je US-Dollar überschreitet."
+Dieser Optionsschein ist mithin in DM definiert, und deshalb muß auch der
+Kurs des Optionsscheines in DM eingestellt werden. Es gibt aber durchaus
+auch kompliziertere Fälle wie etwa in Deutschland in DM notierte
+US$/Yen-Optionsscheine, bei denen der Kurs des Optionsscheins vor
+Einstellung von DM in Yen oder US-Dollar umgerechnet werden muß. Selbst
+Profis übersehen dies oft.
+Als Dividende muß der mögliche jährliche Zinsertrag einer Anlage in der
+anderen Währung eingestellt werden, aber ausgedrückt in der Währung, in der
+der Optionsschein definiert ist.
+Und als Marktzins der Marktzins der Definitionswaehrung
+
+
+Jean
+Visit   http://flzmjtv.ktr.nhb/rwtzma  and download a 
+free calculator for options, futures, bonds and similar stuff.

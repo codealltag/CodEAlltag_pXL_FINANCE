@@ -1,0 +1,19 @@
+Am Mon, 4 Okt 1999 15:41:39 +0100 meinte "Guy Raithel"
+<FrugqwfKe2@iuy.vg>:
+
+
+normalerweise sind die jüngsten orders an erster stelle. dummerweise
+ist halt "00" kleiner als "99", daher wohl älter und so ganz unten
+eingeordnet. ganz eindeutig unsauber programmiert und daher ein y2k
+bug. y2k bug deshalb, weil Gründal seinerzeit, als sie die
+orderstellung umsortiert hatten (aktuelleste order zu erst) dies auch
+ganz stolz als neue herausragende leistung deklariert hatten.
+ärgerlich das ganze, wenn man mehr als 50 orders aus 1999 hat.. dann
+muss man immer erst "alle aktualisieren" anklicken, um auch die 2000er
+orders zu bekommen.
+
+--=20
+JoPo, JoPo's Börsendienst http://pin.cboi.mf
+
+börsent=E4glich aktuelle Meldungen, Musterdepot, Zockerarea,
+Direktbankenvergleich und vieles mehr

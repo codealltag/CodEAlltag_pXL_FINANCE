@@ -1,0 +1,22 @@
+Ich wette  jeder 7.Klaessler haette keine Probleme mit dieser Aufgabe,
+daher glaube ich auch nicht das sich naturwissenschaftliche Institute
+mit sowas beschaeftigen.. 
+Einfach einen Wahrscheinlichkeitsbaum aufzeichnen und man hat die
+Loesung in ca 1Minute.
+Strategie 1: Wenn man nicht wechselt Gewinnchance =1/3
+Strategie 2:Wenn man immer wechselt:
+Hat man im 1.Versuch den Sportwagen verliert man auf jeden Fall also:
+1/3*0=0
+Hat man im 1 Versuch eine Ziege gewaehlt gewinnt man in jedem Fall:
+2/3*1=2/3
+Addiert gibt das 0+ 2/3= 2/3, d.h man verdoppelt die Gewinnchance bei
+Strategie 2.
+
+Bei der Gelegenhei faellt mir eine anderes nettes Raetsel ein:
+Du sitzt im Gefaengniss und hast die Wahl zwischen 2 Tueren. Die eine
+fuehrt in die Freiheit die andere ist verschlossen(natuerlich hat man
+nur einen Versuch). Es sind 2 Waerter anwesend. Einem der Beiden darf
+man eine Frage stellen. Der eine Waerter luegt immer. Der andere sagt
+immer die Wahrheit, man weiss jedoch nicht mit welchem der Beiden man
+es zu tun hat.
+Welche Frage muss man stellen um die richtige Tuer zu finden???

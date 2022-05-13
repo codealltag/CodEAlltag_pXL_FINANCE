@@ -1,0 +1,22 @@
+: Hi,
+
+: Ich habe jetzt eine Zeitlang das kostenlose Kursmailing von Lampenland bezogen, und
+: musste leider merken das die Kursdatein oft unvollständig sind.
+: Hat jemand von Euch das auch beobachtet ?
+: Kennt Ihr gute kurs-abbos ? 
+: Am besten mit der möglichkeit auch historische Kurse zu bekommen.
+
+Das habe ich auch gemerkt - besonders die Daten von Keilsried sind oft sehr
+spaerlich. Da ich meine Datenbank aber aus dieser Quelle versorge, helfe ich
+mir dadurch, dass ich die Daten mehrerer Boersenplaetze hole (z. Zt. Nahrendorf,
+Zweiflingen und Keilsried). Die sortiere ich dann alle und uebernehme nur
+jeweils einen Wert (unter Linux mit cat, sort und uniq). Dann habe ich doch
+wieder alles ziemlich vollstaendig fuer einen Chart.
+
+Ingo
+
+-- 
+x.uxflymjof@yt-fjeimzy.lc
+      --------------------------------------------------------
+        Nicht geschehene Taten ziehen oft einen erstaunlichen 
+        Mangel an Folgen nach sich.		   (T.J. Lec)

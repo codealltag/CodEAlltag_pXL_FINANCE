@@ -1,0 +1,32 @@
+Nun ja, ich hab ja nicht gesagt, wie man die Bond-Optionen berechnen 
+soll, sondern nur, dass man die eine von der anderen Abziehen muss.
+Dass Bond-Optionendas sehr komplex sind hab ich schon mehrfach 
+gesagt. Und da wir da ein gewisses Monopol haben werd ich auch nichts 
+allzu konkretes dazu sagen. 
+Hoeherwertige Software im Bereich Bonds, Zinsderivate, Swap-Arbitrage 
+ist eins der wenigen Gebiete, wo man noch fast jeden Preis verlangen 
+kann (und bekommt).
+Selbst die Anleiherenditen und z.B. der Bund-Future werden im Grunde
+genommen falsch berechnet und der Kundige kann staendig etwas dabei
+rausarbitrieren.  
+Nur kurz einige Andeutungen zu Anleihe-Optionen:
+
+- Man muss mit der Volatilitaet des Zinssatzes rechnen, denn nur die
+ist ein konstanter Masstab. Die normale Volatilitaet dagegen bezieht
+sich ja auf Kursschwankungen, und die sind bei Anleihen je eben nicht
+relativ gleich, sondern haengen z.B. von der Restlaufzeit ab.
+(es gibt aber noch bessere Möglichkeiten als die Zinsvola)
+
+- Nicht unbedingt den heutigen Kurs des Underlying-Bonds benutzen,
+sondern da gibt es besseres.
+
+- Es gibt andere Formeln als BS, Binominal und all dem Zeugs, das in
+Fachbuechern steht. Z.B. Software, die mit Handicap-Faktoren rechnet.
+Kostet aber ab 8-stellig $ und dafuer verzichten die Erfinder gerne auf 
+Veroeffentlichung und die Handvoll Dollars, die ein Nobelpreis bringen
+koennte.
+
+
+Sebastian Reifegerst
+Visit   http://ajswwiz.lht.fjl/drynvg  and download a 
+free calculator for options, futures, bonds and similar stuff.

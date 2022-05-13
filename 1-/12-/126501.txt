@@ -1,0 +1,15 @@
+Mir ist keiner bekannt, aber im Prinzip kann man sich sowas mit
+DTB-Optionen selbst basteln. Hier ein etwas aelteres DAX-Beispiel, 
+aus der Zeit, als der DAX noch knapp ueber 2000 lag.
+
+Sie schreiben an der DTB einen DAX-Call 2300 und einen 
+DAX-Put 2000, und schon haben Sie, je nach Höhe der vereinnahmten
+Optionsprämien, einen Gewinnbereich etwa zwischen 1950 und 2350. 
+Wollen Sie nun Ihre Verluste beim Verlassen des Gewinnbereichs 
+begrenzen, dann kaufen Sie zwecks Absicherung einfach noch einen 
+Call 2400 und einen Put 1900 dazu.
+
+
+Daniel
+Visit   http://yuzvjcl.jbu.aka/uzybae  and download a 
+free calculator for options, futures, bonds and similar stuff.

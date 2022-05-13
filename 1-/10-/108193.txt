@@ -1,0 +1,43 @@
+Hi Vinzenz,
+
+verdammt, gerade von Dir hatte ich mir eine Antwort erwartet, die mich
+weiterbringt. Aber anscheinend ist gar nicht rübergekommen, was ich
+sagen wollte. Also versuch ichs nochmal :
+
+Ich sagte nicht, das der Käufer des Calls ohne Verstand spielt, oder
+keine Ahnung von Arbiterage hat.
+Gerade, weil er die Arbiterage im Auge behält sprechen hohe Zinsen für
+ihn gegen den Kauf eines Calls und bringen ihn dazu den Preis
+herunterzusetzen, den er bereit ist für den Call zu zahlen.
+
+Situation aus der Sicht des Käufers eines Calls :
+   C = Preis des Calls
+   E = Bezugskurs
+   S = Kurs der Aktie zum Bezugs-Datum
+   Z = Entgangene Zinsen, die er nicht erhalten hat, weil er sein Geld
+für den Call ausgegeben hat und dies erst (wenn überhaupt) zum
+Bezugskurs zurückbekommen hat.
+
+Gewinn = S-E-C-Z
+
+Wie man sieht stehen die Zinsen auf der Verlustseite des Käufers.
+->Hohe Zinsen rechtfertigen einen niedrigeren Preis für den Call.
+
+Aus der Sicht des Stillhalters lässt sich das ganze so darstellen
+(unter der Annahme, das er die Aktien NICHT hält, sondern erst zum
+Bezugsdatum erwirbt, oder das ein Barausgleich stattfindet)
+
+Gewinn = Z+C+E-S
+
+Denn er konnte ja das Geld des Käufers in der Zeit anlegen und die
+Zinsen kassieren.
+
+Hoffentlich habe ich diesmal das ganze so rübergebracht, das es jemand
+versteht :-)
+
+Viele Größe,
+Meta.
+
+
+-
+visit my homepage : http://zgb.zfiibu.cde/~ibga

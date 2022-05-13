@@ -1,0 +1,26 @@
+Im Artikel <23JV6W12.43U6@puhu.vrd-olkamtudt.ho>,
+
+Das ganze ist mehr ein Buchungstechnisches Problem. Meine Situation war
+wie folgt:
+
+23.10.97 Guthaben Geldkonto 15,00 DM
+23.10.97 Depotkonto 25.000 OS
+
+23.10.97 13.00 Uhr Order: Verkauf der 25.000 XY-OS zu 2 DM = 50.000 DM
+23.10.97 13.02 Uhr Order: Kauf 15.000 XY-OS zu 3 DM = 45.000 DM
+
+Die außerbörsliche Verkaufsorder wurde ausgeführt. Der Gegenwert wurde
+meinem Geldkonto gutgeschrieben. Theoretisch hätte ich um 13.02 Uhr auf
+meinem Geldkonto über 50.015 DM verfügen können. Da der Rechner von
+ZHIB aber erst am Abend gegen 20.00 Uhr den Abrechnungslauf macht,
+erfolgte um 13.02 Uhr keine Freigabe für die Kauforder. Bei einem
+eingeräumten Kreditrahmen wäre die Kauforder ausgeführt worden. 
+
+ZHIB will jetzt prüfen, ob die o.g. Orderfreigabe manuell durch den
+Teletrader erfolgen kann. Bis jetzt wird dies vom System noch verweigert.
+
+Nach Aussage der Ziehpferdchen wäre bei denen die Order um 13.02 Uhr ausgeführt
+worden, ohne daß dafür ein Kreditrahmen eingeräumt werden muß.
+
+Gruß, Hugo
+(Zwnhh8@oos.cmv)

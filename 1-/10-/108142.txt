@@ -1,0 +1,72 @@
+Woher nimmst Du dann die Gewissheit, das der Fehler bei mir und nicht
+bei Black/Scholes liegt ?
+
+Um das Ganze auf den Punkt zu bringen habe ich meinen Gedanken jetzt
+mal soweit abgespeckt, das er in zwei Zeilen darstellbar ist.
+Dabei handelt es sich um einen Call, der am 3.3.1998 verauft wird und
+der am 3.3.1999 verfällt.  X ist der Preis des Calls und Y der Innere
+Wert des Calls bei Fälligkeit. Es gilt natürlich x>0 und y>=0 :
+
+3.3.1998 : x wandert vom Käufer zum Stillhalter.
+3.3.1999 : y wandert vom Stillhalter zum Käufer.
+
+Jetzt soll mir doch mal jemand eintrichtern, wieso der Käufer sich
+über hohe Zinsen freuen soll !
+Er verzichtet doch darauf x für ein Jahr zu verzinsen.
+Der Stillhalter dagegen kann die Zinsen für x im Jahre 98 Kassieren.
+
+
+Das ist genau der kasus knacktus bei der Geschichte : Warum sollte ich
+?
+
+Wenn ich es tue ist alles wie bei BS.
+Aber es gibt nun mal keinen sofortigen Aktienkauf.
+Also warum soll ich darüber nachdenken ?
+
+
+Wie gesagt, es ist mir völlig klar, das wenn ich den Call als
+Alternative zu so einem Konstrukt sehe, ich bereit sein muss, bei
+höheren Zinsen mehr für den Call hinzulegen.
+
+Es kann aber nach meinem Verständniss nicht sein, das der faire Preis
+eines Calls sich ändert, je nachdem aus welcher Perspektive ich ihn
+betrachte.
+
+
+Ist klar.
+
+
+Genau, und was mir fehlt ist das Rohr, welches dafür sorgt das auch
+der Käufer eines Calls, welcher keinen Gedanken an den sofortigen Kauf
+der Aktie verschwendet, bereit ist bei höheren Zinsen mehr für den
+Call zu bezahlen.
+
+
+Ich wundere mich oft, das die Kurse von Optionsscheinen fast immer
+über ihren fairen Werten liegen und das manchmal ziemlich stark.
+Dadurch wird die Put-Call-Parität aber nicht verletzt, oder ?
+
+
+Völlig klar, und deckt sich genau mit meiner Preisberechnung für
+Optionen.
+Der Witz ist hier, das der Put so tief im Geld steht, das die
+Warscheinlichkeit die untergrenze von Null zu erreichen sehr klein
+ist.
+Dies ist aber genau das, was bei Optionen auf den Inneren Wert
+aufgeschlagen wird : Der Verlust ist nach unten begrenzt, der Gewinn
+aber nach oben nicht.
+In diesem Fall, gibt es nur eine sehr kleine Chance die 0-Grenze zu
+erreichen, daher ist das Potential in beide Richtungen nahezu gleich :
+Der Put müsste ungefähr zu seinem Inneren Wert verkauft werden. 
+Da aber der Put-Käufer sein Geld wärend der Laufzeit nicht verzinsen
+kann entgehen ihm diese Zinsen und er ist nicht bereit den vollen
+Inneren Wert zu bezahlen.
+
+Wo um alles in der Welt ist der Unterschied, der einen Call bei hohen
+Zinsen teurer machen soll ?
+
+Viele Größe,
+Meta.
+
+-
+visit my homepage : http://how.dxhfii.vsx/~bwaa

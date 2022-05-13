@@ -1,0 +1,131 @@
+Capped Bonus Zertifikate
+
+Author Buescher
+
+
+Ein Capped Bonus Zertifikat gleicht in seiner Konstruktion einer
+Mischung aus Bonus- und Discount=ADzertifikat. Dies gilt insbesondere
+für die Spezialform Discount Plus, bei der das Bonusniveau identisch
+mit dem Cap ist. Nachfolgend werden wir ein Capped Bonus Zertifikat
+mit den unten genannten Ausstat=ADtungsmerkmalen untersuchen, das in
+ähnlicher Art auch real auf dem Sekundärmarkt existiert.
+Underlying
+
+Dow Jones EURO STOXX 50=AE
+
+
+Fälligkeit
+
+17.12.2008
+
+
+0,01
+
+
+Barriere
+
+3=2E180 Punkte (70 %)
+
+
+Bonusniveau
+
+5=2E224 Punkte (115%)
+
+
+Holger
+
+5=2E451 Punkte (120%)
+
+
+Ausgangsniveau Inde
+
+4=2E543 Punkte (Stand 6.10.2006)
+
+
+Kaufpreis
+
+45,55 EUR (Stand 6.10.2006)
+Charakteristisch für das Aktienkursrisiko von Bonus=ADzertifikaten ist
+der steile Anstieg des Deltas für Basis=ADwertkurse knapp oberhalb der
+Barriere, dessen Aus=ADschlag mit Abnahme der Restlaufzeit größer wird.
+Die gehebelte Performance findet in der sich abzeich=ADnenden Wölbung
+der schwarzen Gewinn-und-Verlust-Kurve Ausdruck, die mit fortlaufender
+Haltezeit mehr und mehr an das typische Auszahlungsprofil eines Capped
+Bonus Zertifikats erinnert (siehe auch Abbil=ADdungen 3 und 4). Das
+Maximum der Aktienkurssen-sitivität wird laut obiger Abbildung bei
+knapp über 3.180 Indexpunkten erreicht. Jenseits dieses Stands fällt
+das Delta zu beiden Seiten ab.
+ Ein weiterer Kursrückgang hätte den Knock-out des Down-and-Out Put
+und den irreversiblen Rückgang des Deltas auf knapp unter eins im
+Bereich links der angesprochenen Stelle zur Folge. Die Struktur
+bestünde in diesem Fall lediglich aus dem Zero Strike Call und dem
+verkauften Call mit Basispreis 5.451 Punkte; Letzterer läge allerdings
+für Kurse unterhalb der Barriere weit aus dem Geld und hätte keinerlei
+Einfluss auf die Gesamtstruktur. Dass der Kurs des Zertifikats hier,
+abhängig von der Restlauf=ADzeit, unter dem des Basiswerts notiert,
+hängt mit den über die Laufzeit erwarteten diskontierten Divi=ADdenden
+zusammen, die den Wert des Zero Strike Call reduzieren; das heißt, je
+höher die Dividenden=ADrendite eines Titels ist, desto niedriger notiert
+das Capped Bonus Zertifikat, sobald die Barriere getrig-gert wurde.
+2=2E  Kurssteigerungen des Basiswerts verringern die Chance eines Knock-
+out der Put-Option, was dazu führt, dass die Preissensitivität
+gegenüber Aktien=ADkursschwankungen auch zur rechten Seite hin abnimmt -
+wenngleich nicht so rapide. Oberhalb des Bonuslevels läuft der Down-
+and-Out Put aus dem Geld und dessen Delta in Richtung null. Die
+hiermit ursprünglich erzeugte Hebelwirkung ver=ADschwindet, in jenem
+Bereich zeichnet ausschließlich der Delta 1 Long Call für die
+Aufwärtsentwicklung des Zertifikats verantwortlich. Dem entgegen wirkt
+der Short Call, der für Indexstände nah am und oberhalb des Cap nun
+stark an Wert zulegt. Je weiter sich der Short Call im Geld befindet,
+desto eher nähert sich das Gesamtdelta der Struktur null
+Ein ähnliches Bild zeichnet sich ab, wenn während der Laufzeit die
+Barriere gerissen wird. Eine der=ADartige Struktur entspräche dann einem
+Discount=ADzertifikat, dessen Delta oberhalb des Cap gegen null strebt.
+Beiden Szenarien gemeinsam ist, dass die Partizipa=ADtion am Aktienmarkt
+verloren geht, wenn der Basis=ADwert am Cap liegt oder über die
+Obergrenze hinaus steigt. Dann tritt allerdings der Risikofaktor Zins
+in Er=ADscheinung, der sich in zunehmendem Maß negativ auf den Wert
+eines Capped Bonus Zertifikats auswirkt.
+Vega, die Preissensitivität des Zertifikats auf Verände=ADrungen der
+impliziten Volatilität im Basiswert, folgt ebenfalls einem
+uneinheitlichen Verlauf.
+Bis zur Barriere beträgt die Volatilitätssensitivit=E4t stets null. Dies
+erscheint logisch, ziehen wir in Betracht, dass in diesem Kursbereich
+die Struktur lediglich aus dem Zero Strike Call besteht. Danach fällt
+Vega aufgrund des Hinzukommens des Down-and-Out Put in den negativen
+Bereich, mit anderen Worten, jeder Anstieg der impliziten Volatilität
+hat ein Absinken des Zerti=ADfikatspreises zur Folge. Steigt der Index
+weiter, nimmt auch die Volatilitätssensitivit=E4t des Short Call zu, die
+der des Long Put entgegenwirkt. Hierbei gilt: Je kürzer die
+Restlaufzeit, desto geringer der Ausschlag nach unten und desto
+schneller ,,erholt" sich das Vega. Denn: Ist die Restlaufzeit gering,
+so ist dessen Empfind=ADlichkeit auf Kursschwankungen des Basiswerts
+größer. Während ein Jahr vor Fälligkeit das Vega erst bei etwa 6.100
+Indexpunkten den Nullpunkt überschreitet, reagiert der Zertifikatskurs
+bei zwei Monaten Restlauf=ADzeit schon unterhalb des Ausgangsniveaus,
+bei etwa 4.400 Punkten, positiv auf einen Anstieg der implizi=ADten
+Volatilität. Danach nähern sich beide Kurven null
+Ebenso interessant ist der Vergleich zwischen Stich=ADtagsbetrachtungen
+des GuV-Verlaufs von einem Jahr beziehungsweise zwei Monaten vor
+Fälligkeit und dem Auszahlungsprofil des Zertifikats zur Fälligkeit
+sowie der Performance des entsprechenden Benchmark-Index. Dieser wird
+in den Abbildungen 3 und 4 vorge=ADnommen.
+=A6-:- Dabei fällt zunächst auf, dass bei einer längeren Restlaufzeit
+der Indexkurs und der Zertifikatspreis stärker divergieren als kurz
+vor Fälligkeit. Diese Beobachtung geht erneut auf die zum Index erwar=AD
+teten abgezinsten Dividenden zurück, die anfangs den Wert des
+Zertifikats stärker mindern. Dies gilt natürlich nicht für den Bereich
+zwischen Barriere und Bonusniveau, denn mit zunehmender Laufzeit nimmt
+die Wölbung der schwarzen GuV-Kurve die Gestalt der orangen Kurve an.
+=A6 Vergleichen wir nun die schwarze GuV-Kurve des Zertifikats mit dem
+grünen Auszahlungsprofil bei Fälligkeit, so stellen wir fest, dass
+schon zwölf Monate vor Laufzeitende etwa in Höhe des Bonus=ADniveaus
+(blauer Balken) die erzielbare Rendite mit dem Capped Bonus Zertifikat
+über dem Rückzah=ADlungsbetrag liegt, den der Anleger beim selbem
+Indexstand zur Fälligkeit erhält. Betrachten wir Abbildung 4, wird das
+noch deutlicher. Zu diesem Zeitpunkt ist der Anleger in einem Bereich
+beidsei-tig des Bonusniveaus bessergestellt, als wenn er bis zur
+Auszahlung warten würde. Diese Beobachtung hat weitreichende Folgen.
+Ein Zertifikat muss nicht stets bis zur Endfälligkeit gehalten werden,
+denn in beiden Fällen wäre ein vorzeitiger Verkauf weitaus profitabler
+gewesen.

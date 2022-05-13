@@ -1,0 +1,13 @@
+Hi!
+
+Na dann..
+Die Standardabweichung von n Werten x(1)..x(n) berechnet sich so:
+a) bestimme den Mittelwert xm := 1/n * [ x(1) + ... + x(n) ]
+b) bestimme die Summe der quadrierten Abweichungen der x(i) von diesem  
+Mittelwert: s := [ (x(1)-xm)^2 + ... + (x(n)-xm)^2 ]
+c) definiere die Standardabweichung sigma := Wurzel(s/(n-1))
+d) und frage mich ja keiner, warum in c) durch n-1 statt durch n dividiert  
+wird... :)
+
+Setze n0 bzw. 250 und rechne fuer diese n letzten Notierungen obige  
+Formel durch: Wenn's stimmt, sind wir alle zufrieden..

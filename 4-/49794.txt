@@ -1,0 +1,24 @@
+Solange ein Wert steigt, besteht Powerstation kein Anlaß ihn zu verkaufen. Also
+laufen lassen. 
+Wenn er einen best. %-Satz nach unten kommt, dann abstoßen. Den %-Satz
+definiere ich anhand der Volatilität des Wertes. 10 % bei WJS sind zB zu
+eng - daß verlieren die auch mal an einem Tag. Bei IUOJ fände ich 10 %
+ganz okay - nur würde ich die noch nicht kaufen.
+
+Also:
+
+S/L-Marke = max[Einstiegskurs - x%; akt. Kurs - x%; akt. S/L]
+
+Tägliche Definition der S/L-Marke; falls akt. Kurs < S/L -> Verkauf.
+
+TAL
+
+
+ist eher etwas mathematisches ;)
+
+-- 
+----------------------------------------------------------------------
+Albrecht R. Nigg; etomwkrtxyo@oodfes.kj
+And Zarathustra said: 'This is my way; but now, show me your way.'
+A-6684 Unterweg, Untere Schmiedgasse 467; Wohini - Austria - Europe
+----------------------------------------------------------------------

@@ -1,0 +1,38 @@
+Aufbauend auf Erfahrungen im Bereich "Modellierung dynamischer
+Systeme" und unter Verwendung einiger Infos auch aus dieser NewsGroup
+habe ich soetwas wie ein "Dynamisches OptionsPreisModell" gebastelt,
+welches im Gegensatz zu zB Black & Scholes auch nenenswerte
+vorausschauende Faehigkeiten zB fuer Dax Optionen aufweist.
+Interessierte Leser finden im Attachment einige Hinweise dazu (in Form
+eines kurzen "Abstracts" eines Papers, welches ich gerade ueber die
+Sache vorbereite).
+
+Da ich an fachlich kompetenten Kommentaren und Stellungnahmen zu dem
+Thema interessiert bin (, eine DetailDiskussieion hier aber mE nicht
+viel Sinn macht), bitte ich am Thema Interessierte um eine
+entsprechenden Hinweis per Mail. Ich wuerde dann denjenigen eine
+detaillierte Beschreibung (die Rohfassung meines Papers als *pdf-File
+halt) zukommen lassen, wobei ich dann unbedingt eine fachliche
+Stellungnahme als Rueckmeldung erwarte.
+
+Wer an dieser Geschichte interessiert ist und meine diesbezueglichen
+Arbeiten durch kritische Stellungnahmen foerdern moechte, moerge sich
+bitte an mich wenden.
+
+mfg josef elfers
+PS: Leider nimmt mein NewsServer keine Attachments an. Deshalb hier
+das Abstract:
+Title: 
+Modeling Complex Dynamic Real-Life Systems:
+Example-based Forecast of Market Trends for DAX Options 
+ABSTRACT: 
+As an example of modeling complex dynamic real-life systems, like
+those represented by the widespread "marketplace pattern", dynamic
+market trends (DMT) for DAX options are forecasted. 
+While option prices often are said to be "random" and most existing
+option pricing models do not show significant predictive capabilities,
+analysis of option price time series, according to nonlinear dynamic
+system theory, gives ground to suppose a considerable amount of
+determinism in option markets, if understood as auto-adaptive
+non-stationary dynamic systems, exposed to several "external
+disturbances", e.g. from economy, politics, etc.

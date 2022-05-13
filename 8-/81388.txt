@@ -1,0 +1,14 @@
+Hallo,
+
+
+Eigentlich wird das Limit der Order bei einem Dividendenabschlag (exDiv)
+um die Bruttodividende gekürzt (bei Deutschen Aktien) Orders; in
+ausländischen Werten erlöschen die Orders am Tag vor dem B�srenabschlag.
+
+Bei Notierung des Kurses ex Bezugsrecht (exBr) erlöschen alle Orders mit
+Ablauf des letzten Börsentages vor Beginn des Bezugsrechthandels.
+
+Dein Ex-Tag klingt nach einem Bezugsrechtsabschlag (-> daher Löschung
+des Auftrages).
+
+Louis I.

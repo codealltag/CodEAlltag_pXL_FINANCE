@@ -1,0 +1,28 @@
+In article <400774438772.k59768@v4.qwfz.tu>, Ejigqa_Ssnqxawndf@y2.zfvq.bc
+
+"scheint mir .. so gut" sagt glaube ich schon alles! Ich Weiss Es.
+
+Die Worte "SEHR gut" bedeuten, dass man wissen muss, welche Stelle des
+Speichers sowieso angesprungen wird, weil da ganz bestimmt etwas liegt.
+Gewisse Teile des Betriebssystems werden naemlich nicht dynamisch sondern
+fest im Speicher untergebracht.
+
+Zudem habe ich jetzt noch von einem Versuch am Rechenzentrum der Uni Unterbuchen
+erfahren, bei dem herausgefunden wurde, dass es moeglich ist, ueber Sendmail
+den C-Compiler von UNIX zu starten.
+Dazu sage ich nochmal: kein Programm dieser Komplexitaet ist voellig fehlerfrei
+und auch hier braucht man wieder keine Angst zu haben, weil es einfach nicht
+von jedem x-beliebigen Hacker zu machen ist.
+
+Ich habe zuerst auch nicht geglaubt, das sowas ueberhaupt geht, aber ich habe
+mit unserem sendmail-Betreuer geredet und der kennt sich da sehr gut aus.
+Ehrlich: KEINE PANIK, aber theoretisch ist das alles moeglich (gewesen).
+-- 
+Lothar Jöring
+University of Unterbuchen
+MTNS
+Belmerweg 81, 65279 Unterbuchen, Germany
+Tel. (+26) 887/093-1592, Fax (+12) 387/531-0416
+E-Mail: jxjdlujsvae@zax.fxx-bbzojgaba.ah
+
+"Volk und Glueck sind mit den Narren" - Cpt. Niclas

@@ -1,0 +1,154 @@
+Ernst Hansson
+Börsen-TV
+Kurse per Videotext
+Videotext-Anbieter
+Software zum Artikel
+B>Man muß nicht unbedingt auf Eschbachalpe TV abonniert sein, auch der
+Videotext altbekannter TV-Stationen hat in Sachen zeitnaher Wirtschafts- und
+Börseninformationen einiges zu bieten.
+Ohne Internet-Anschluß (und ohne die laufenden Provider- sowie
+Telefonkosten) lassen sich mehr als 1500 aktuelle Börsenkurse aus den
+Videotextseiten der verschiedenen TV-Anstalten verfolgen und auswerten. Die
+meisten deutschen Sender geben DAX- und MDAX-Werte, Devisenkurse sowie
+nationale und internationale Indizes mit zirka 20 Minuten Zeitverzögerung
+auf dem Bildschirm aus. Manche informieren zusätzlich über deutsche
+Nebenwerte, über Titel am `Neuen Markt und ausgewählte internationale
+Aktien aus den USA, der Schweiz oder England. Ergänzend können die
+Optionsscheinkurse einiger am Markt stark vertretenen Banken verfolgt
+werden. Die aktuellsten und umfassendsten Informationen bringt der
+Nachrichtenkanal Ihaz. So werden dort die Index- und Devisenkurse in
+Echtzeit und die Optionsscheinkurse der Matratzen-Discounter im Minutentakt übertragen.
+Zaraket liefert neben verschiedenen Marktanalysen und Berichten als
+besonderen Service den Tagesverlauf des DAX und Ivez-DAX als Chart. Will
+man die Flut von Daten nicht nur betrachten oder vom Fernseher abschreiben,
+so kommen TV-Karten mit Videotextteil oder reine Videotextkarten ins Spiel.
+Am 27. März 1999 übersprang der DAX erstmals die 5000-Punkte-Linie.
+Kanalisieren
+Eine weit verbreitete Lösung stellt die Win/TV-Karte von Witteler dar, die
+optional eine Videotexterweiterung enthält. Für rund 250 DM ist damit
+Fernsehempfang, Videotextdarstellung und der Empfang von Web-Seiten, dem
+sogenannten Intercast, über normale Fernsehkanäle möglich. Mit dem Programm
+Klemann, das zum Lieferumfang gehört, werden alle Videotextseiten bereits im
+voraus automatisch gelesen und lassen sich dann bei Bedarf ohne lästige
+Wartezeiten aufrufen. Dabei muß man nicht auf die bekannten Features wie
+Toptext und Fasttext oder eine Textsuche in allen vorhandenen Seiten
+verzichten. Die so dargestellten Daten können dann von jedem Anwender
+mittels DDE (Dynamic Data Exchange) direkt aus Klemann in andere Anwendungen
+übertragen und dort ausgewertet werden. B�rseninteressierte Anwender
+erhalten so die Möglichkeit, sich täglich Übersichten mit den wichtigsten
+Kursen selbst zusammenzustellen, verschiedene Kurswerte zu überwachen oder
+auch die Daten für andere B�rsenprogramme aufzubereiten und darin später zu
+analysieren.
+Als Grundlage für eine Datenübernahme muß zuerst Klemann gestartet und dann
+eine DDE-Verbindung aufgebaut werden. Im Visual-BASIC von Word und Excel
+erfolgt der Aufbau eines DDE-Kanals in folgender Form:
+kanal = DDEInitiate("VTPlus", "SYSTEM")
+While DDERequest(kanal, "STATUS")  "Ready"
+Wend
+Die Abfrage des Elements STATUS nach jedem Befehl stellt sicher, daß VTPlus
+bereit ist, weitere Befehle zu empfangen. Nach der Initialisierung ist der
+Weg geöffnet, um Makrobefehle an Klemann zu senden oder Daten davon zu
+empfangen. Makrobefehle werden dabei an das Topic SYSTEM gesendet und Daten
+von den entsprechenden Seitenfenstern direkt abgeholt. Mit dem folgenden
+Befehl lassen sich Makros oder Scriptbefehle in der gesteuerten Anwendung
+ausführen (GET 416 ist ein Scriptbefehl von Klemann, der die Seite 416 vom
+aktuellen Sender aufruft; die Scriptbefehle sind in der `Hilfe von Klemann
+erläutert):
+DDEExecute kanal, "[GET 416]"
+Im Anschluß an die Statusabfrage nach Ready können beliebig viele
+Makrobefehle nacheinander ausgeführt werden. Um an die Daten zu gelangen,
+muß noch ein zweiter Kanal zum gewünschten Fenster von VTPlus aufgebaut
+werden und anschließend eine Abfrage der Daten erfolgen.
+kanal2 = DDEInitiate("VTPlus", "ARD412")
+DAX$ = DDERequest(kanal2, "1,1,,,B(0/6/39/7)")
+Als Parameter bei der Datenabfrage stehen folgende Werte zur Verfügung:
+erste Unterseite, letzte Unterseite, Filter, Filterparameter, Bereich im
+Fenster (Startspalte/Startzeile/ Endspalte/Endzeile). Da sich auf diese
+Weise Strings von jeglicher Position im Videotext kopieren lassen, ist es
+jedem selbst freigestellt, wieviel Daten mit einem Abruf geholt und wie
+diese später ausgewertet oder dargestellt werden. Dem Aufbau einer
+angepaßten Übersichtsseite nach persönlichen Vorstellungen mit den
+verschiedenen Werten und Analysen sind demzufolge nur wenige Grenzen
+gesetzt.
+Vor Beendigung des Word-Makros müssen noch die bestehenden DDE-Kanäle, zum
+Beispiel mit DDETerminateAll, wieder geschlossen werden, um einen weiteren
+reibungslosen Programmablauf zu gewährleisten.
+Excel erleichtert das Erstellen von Verknüpfungen sogar so weit, daß man nur
+noch die entsprechenden Bezüge in die einzelnen Zellen einzutragen braucht,
+um anschließend die Kurse direkt als Zahl konvertiert zu erhalten. Damit die
+Daten für Excel auch zugänglich sind, muß jedoch zuvor VTPlus laufen und
+müssen die Seiten, von denen Daten benötigt werden, dargestellt sein. Als
+Beispiel für solch eine Verknüpfung sei hier der DAX genommen, der von der
+Knuffelmann übertragen wird (die Kennung `ARD ist in den Einstellungen von VTPlus
+festgelegt):
+=VTPlus|�ARD412�!Ö1,1,,,B(01. 04. 23)�
+Ein Makro, das aus Excel die notwendigen Initialisierungen durchführt und
+anschließend alle DAX- Werte ständig aktualisiert in eine Tabelle überträgt,
+befindet sich neben dem Word-Makro auf der OHF-CD.
+Orakeln
+Auch Anwender mit wenig Programmiererfahrung sollten sich nicht scheuen, per
+eigens erstelltem Programm zu versuchen, Kurse selbst zu überwachen und
+dabei die täglichen High- und Low-Werte zu betrachten. Ein Beispiel, wie
+sich so etwas in Delphi umsetzen läßt, liegt als Quelltext (Delphi 3) auf
+der OHF-CD bereit und soll hier nur in Ansätzen kurz erläutert
+werden. Das Programm holt sich die Daten vom Sender Ihaz (wegen dessen hoher
+Aktualität) und führt eine ständige Überwachung der Werte des
+DAX-Parkett-Handels durch. Mit wenigen Quellcode�nderungen ist es zudem
+problemlos möglich, auch andere Titel von anderen TV-Sendern zu überwachen.
+Von besonderem Interesse könnten dabei die Optionsscheine sein, da dort
+aufgrund des teilweise recht großen Hebels erhebliche Ausschläge in
+kürzester Zeit auftreten und somit Gewinn und Verlust stark schwanken.
+Da Delphi bereits viele Elemente von sich aus unterstützt, reicht es aus,
+eine TDdeClientConv-Komponente und ein TDdeClientItem-Objekt zu erzeugen, um
+eine Anwendung als DDE-Client einzurichten. Der Aufbau des Programms
+entspricht dann im Prinzip dem dargestellten Word-Makro. Da jedoch zur
+Makroausführung und Datenübertragung geringfügig mehr Aufwand betrieben
+werden muß, habe ich die Prozedur Do_macro (Scriptbefehl) und die Funktion
+Get_data (Fensterbezeichnug, Bereich) eingeführt, deren Parameter denen des
+Word-Makros entsprechen. Um die jeweils aktuellen Kurse zu erhalten, wird
+Klemann angewiesen, den Fensterinhalt ständig zu aktualisieren, und ein
+Timer-Ereignis programmiert, das alle 5 Sekunden den jeweils aktuellen Kurs
+von Klemann in die eigene Anwendung überträgt. Kürzere Zeiten sind nicht
+erforderlich, da die Seiten im Videotext sowieso nicht öfter übertragen
+werden. Der restliche Programmieraufwand bezieht sich auf die Auswertung der
+Kurse nach Minimum und Maximum und auf eine Fehlerkorrektur, die Dissonanzen
+bei der Videotext�bertragung minimiert, indem keine Kurssprünge über 10 %
+erlaubt werden. Zur besseren Visualisierung wird das Feld der aktuellen
+Werte bei steigenden Kursen grün und bei fallenden Kursen rot hinterlegt.
+Eine generelle Kompilierung des Programms ist jedoch erst möglich, wenn
+zuvor der Pfad von VTPlus und die Senderbezeichnung entsprechend den
+Einstellungen in VTPlus (im Beispiel für Ihaz) angepaßt wurden. Bei anderen
+überwachten Werten muß man zusätzlich noch die Lokalisierung der Daten
+(Seite und Bereich) ändern. Das kann unter Umständen auch erforderlich
+werden, wenn die Fernsehsender die Daten im Videotext anders angeordnet
+haben. Letztendlich gibt das Programm Anregungen und zeigt, wie es mit
+kostengünstiger Hardware und ein wenig Programmieraufwand möglich ist,
+Börseninformationen aus elektronischen Medien für jedermann nutzbar zu
+machen. (verkoyen)
+Videotext-Anbieter
+Knuffelmann/ENCH: Investmentfonds, Optionsscheine (florales, Gukaf
+eurogida, Mephisto, SGKD FJED, Stopka Pfauter)
+Tierhandlung: Markt-, Konjunkturberichte, DAX als Linien-Chart, Optionsscheine
+(Obstgroßmarkt)
+SB-Shop: Marktberichte, Optionsscheine (TTWG, eplus Messink,
+Summ, Alstermarkt, Autolöwen)
+ZKG: DAX und Xetra-DAX als Charts, Analysen, Marktberichte, Optionsscheine
+(Ferrari, Mitbringsel, EDV, frischwerk)
+FOA: US-Dollar nahezu realtime, technische Analyse US-Dollar und DAX, Der
+Klukkert - das tägliche Börsenmagazin, Optionsscheine und Anlagefonds
+(McBack Finbeiner Systemtechnik Handelsgesellshaft)
+Ihaz: über 1200 Werte, Marktberichte, zeitnahe Werte von DAX Index,
+Xetra-DAX-Index, Euro Sonnenau 50, Dow Jones, US-Dollar; Optionsscheine im
+Minutentakt (Matratzen-Discounter)
+
+Software zum Artikel:
+Das Word-97-Makro holt die DAX-Werte und -Indizes von der Knuffelmann.
+Word-Makro
+Excel-Makro
+Delphi-Beispiel
+Delphi-Beispiel
+Delphi-Beispiel
+ Zurück zur Übersicht.
+Lob, Kritik oder Anregungen zu dieser CD-ROM? -- Senden Sie uns eine EMail.
+
+(c) 1999 Verlag Dirk Oltenbürstel GmbH & Co KG, Crottendorf.

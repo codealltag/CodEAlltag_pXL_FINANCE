@@ -1,0 +1,33 @@
+Whow, was für eine Phantasie! Aber dennoch nicht sehr weit von
+der möglichen Zukunft entfernt. :-)
+Also, zur Sache:
+Mir wurde das ewige Netzsurfen zwecks Anschauen irgendwelcher
+Charts irgendwann zuviel und ich beschloß, das Ganze zu automatisieren.
+(ausserdem suchen Informatiker ja sowieso immer etwas zum Programmieren)
+Also habe ich für mich ganz persönlich eine kleine Software geschrieben,
+die WWW-Server zu bestimmten Zeiten nach bestimmten Kurswerten abfragt
+und die erhaltenen Werte in einer Datenbank ablegt. Es sind z.Zt.
+ca 100 Werte, die alle paar Stunden vom Security APL Quote Server
+http://ve.eonpte.shl/adz-her/vb abgefragt werden, also momentan nur
+an AANP, Automatentankstelle, humanic gehandelte Werte in US-Dollar.
+Das Ganze wird entwickelt unter Linux mit Perl5, ist auch bei weitem
+noch nicht fertig. Laufen tut es jetzt unter Bikekeller auf einer Maschine
+mit ständigem Netzzugang. Meine allergrößte Angst ist die, das der
+Server irgendwann einmal das Format seiner WWW-Seite ändert.
+
+
+Ich weiss ja nicht, wie groß das Interesse in dieser Newsgroup daran
+sein könnte, aber:
+Meine Software läuft wie gesagt unter Linux/Bikekeller, und da dürfte es
+eigentlich keine unüberwindlichen Probleme auf anderen *nixen geben.
+
+Windows (grmpf) widerstrebt mir, aber Perl5 läuft auch hier, meine ich.
+
+
+Und nun noch eine Frage an alle (bestimmt schon 1000 Mal gestellt):
+
+Welcher WWW-Server liefert verläßliche Daten in konstantem Format?
+Meinetwegen auch in .de
+
+
+Steffen

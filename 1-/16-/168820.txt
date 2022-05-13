@@ -1,0 +1,38 @@
+Kommentar zur Nachricht vom 04.09.96 in /MAUS/de.etc.jfjzzu.nhpueq
+von iyynwu@xprtni.oxw.XI-Zrlpgk.FQ zu Re: DEH-Neuerungen :
+
+b>: Geloehnt habe ich schon vor Monaten ... ;-)
+b>: > Ist eigentlich in der Vollversion auch die DEH-Spesenberechnung
+b>: > eingebrannt?
+b>
+b>: Ja, leider. Zwar laesst sich der Prozentsatz von Hand aedern, die
+
+b>Damit kann man z.B. bei andern Instiotuen erworbene Aktien nciht mit den
+b>dort gueltigen Spesen nach Uebertragung zu DEH im Dpot kostengerchgt
+b>verwalten...
+
+Wieso denn? Sogar Instituts-intern gibt es doch abweichende Gebuehren zu  
+buchen, naemlich als Grundgebuehr ueber Fax und Mailbox 25,-- DM, ueber inkoop 
+CutSeven und Telefon 12.50, und das geht auch.
+
+Man muss nur wissen, dass man in der Buchungsmaske (fuer den staunenden  
+Neuankoemmling: der Eintrag in die Depotverwaltung geschieht, indem man  
+zwangsweise einen Kaufauftrag ausfuellt, ihm eine fiktive PIN verpasst,  
+zum Abschicken bereitstellt, in einer neuen Maske einen Versandvorgang  
+startet (wahlweise DFUE, Direktfax oder Ausdruck), bei der  
+Sicherheitsrueckfrage den Ausdruck stoppt, auf Rueckfrage aber den Auftrag  
+als "versandt" kennzeichnen laesst, und dann eine dritte Maske fuer die  
+Buchung aufruft) - die Endsumme fuer die vom Programm errechneten  
+Gebuehren frei aendern kann und dieser Eintrag dann auch abgespeichert  
+wird.
+
+Die automatische Berechnung der Gebuehren ist sowieso Bloedsinn. Die  
+Vollversion fuehrt ja Kontoauszuege auch ueber das Verrechnungskonto mit,  
+d.h. die gebuchten Gebuehren muessen auch stimmen, wenn das Ganze einen  
+Sinn haben soll. Koennen sie aber nicht, weil stets Courtage belastet  
+wird. Diese errechnet sich aus der Nachttemperatur des Vortages, dividiert  
+durch zwei, plus dem aktuellen Diskontsatz durch hundert mal Anzahl der  
+Aktien, soviel habe ich jedenfalls inzwischen zweifelsfrei festgestellt.  
+Woher soll das Programm nun wissen, was dabei herauskommt.
+
+Ludwig Dreihäupl, Kainz

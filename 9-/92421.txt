@@ -1,0 +1,46 @@
+Ist ein Software von uns, die zu den recht teuren gehoert und 
+deshalb nicht allgemein verkauft wird.
+
+
+Prinzip: Bei "Minimize Risk" wird bei fallenden Kursen weniger
+bzw. in breiteren Stufen gekauft (also vorsichtiger), und bei
+steigenden Kursen dann schneller verkauft. Also um moeglichst
+schnell den Einsatz wiederzuhaben.
+Bei Profitmaximieren wird etwas staerker gekauft und der Verkauf
+bei steigenden Kursen mehr verzoegert.
+Und noch eine Reihe anderer Kleinigkeiten.
+
+Vereinfacht kann sich sowas jeder mit einem 
+Tabellenkalkulationsprogramm zusammenstellen.
+
+1. Spalte: Kurs aufsteigend oder absteigend oder beliebig
+wechselnd. Selbst eingeben oder z.B. um je 1 oder 10%
+erhoehen oder senken.
+Wirklich durchgefuehrte Transaktionen sollte in der Zeile
+gespeichert werden. Alle Zeilen darunter dienen nur zum
+Berechnen der zukuenftigen Transaktionen. 
+
+2. Spalte: Stueckzahl: Selbst eingeben oder auch berechnen lassen.
+
+3. Betrag der letzten Transaktion (Stueck * Kurs)
+
+4. Gesamtzahl der gerade gehaltenen Aktien
+
+5. Durchschnittskurs aus allen Transaktionen (ist nicht
+so wichtig, wie viele denken)
+
+6. Einsatz, also wieviel Kapital man gerade in allen Aktien
+gebunden hat (am besten mit - Vorzeichen)
+
+7. Aktienwert: Anzahl der gerade gehaltenen Aktien * aktueller
+Kurs (Kurs der Zeile).
+
+8. Gewinn bisher (Aktienwert - Einsatz)
+
+usw. oder so aehnlich. Nimmt man noch Optionen dazu wird 
+es komplizierter.
+
+
+Ferdinand Tiedgen
+Visit   http://jfyiuzr.yxx.yhw/ipztoi  and download a 
+free calculator for options, futures, bonds and similar stuff.

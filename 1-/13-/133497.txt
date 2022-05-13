@@ -1,0 +1,25 @@
+RAM-Bausteine haben die Eigenart, daß in seltenen Fällen ein Bit umkippt und
+damit die enthaltene Information zerstört wird (Einbitfehler). Das kann fatale
+Folgen haben, der Rechner stürzt einfach ab oder (manchmal schlimmer noch)
+rechnet mit falschen Werten weiter.
+
+Früher hatten RAM-Bausteine ein Parity-Bit, das testet, ob die enthaltene
+Information eines Bytes inkorrekt ist. In einem solchen Fall wurde ein
+Ausnahmefehler generiert und der Rechner abgeschossen - hart aber eindeutig.
+In (sicherheitsrelevanten) Redundanzsystemen mit hot standby übernimmt dann
+sofort der zweite Rechner.
+
+Das Paritybit hat man sich aber geschenkt. Außerdem war es auch keine
+wirkliche Lösung, man möchte ja nach Möglichkeit nicht nur wissen, ob eine
+Information verändert wurde, sondern auch, wie die ursprüngliche Information
+lautete. Dazu bedarf es zusätzlichen Korrekturinformationen - einfach mehr
+Speicher. Durch bestimmte Algorithmen läßt sich nun nicht nur herausfinden, ob
+ein Bit umgekippt ist, sondern auch welches. Bei solchen Einbitfehlern kann
+die ursprüngliche Information automatisch widerhergestellt werden, der
+Benutzer merkt davon nichts. Zweibitfehler können dabei nicht erkannt werden.
+
+Der höhere Preis kommt durch das mehr an notwendigem Speicherplatz und der
+Logik zustande. In normalen (nicht sicherheitsrelevanten) PCs ist dieser
+Speicher aber so notwendig wie ein Fuchsschwanz im Auto.
+
+Urs

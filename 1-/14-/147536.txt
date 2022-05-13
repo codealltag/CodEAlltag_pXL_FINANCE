@@ -1,0 +1,15 @@
+On Mon, 04. 08. 21 15:44:51 +0100, Silvio Meintzer
+
+Hallo Silvio,
+
+am Besten ein Beispiel:
+
+1. Der Kurs eines Wertpapiers schliesst am Dienstag 18h mit 100,--
+(Ende der Handelszeit).
+2. Mittwoch ist um 9 Uhr Handelsbeginn
+3. In den dazwischen liegenden Stunden gehen Orders ein: 1000
+Verkaufsauftraege mit Limit 90,-- und 1000 Kaufauftraege mit Limit
+100,--
+4. Folglich: Eröffnungskurs: 95,-- 
+
+Gruss, Patrik.

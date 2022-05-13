@@ -1,0 +1,15 @@
+Hallo Rplufg!
+
+d> Prinzip: Der Aktienkurs ist heute 100 und in eine paar Tagen oder Wochen
+d> werden 10 an Dividende abgezogen. Zum Optionspricing rechnet man
+d> heute schon mit einem Aktienkurs von vielleicht 95.
+
+Da die Dividende aber für das ganze Jahr ausgeschüttet wird und dieser
+Abschlag wohl nur in den letzten Monaten vor der Ausschüttung
+berücksichtigt wird, müßte der Optionspreis (von Calls) vor Ausschüttung
+relativ teuer und danach relativ billig sein.
+Dagegen spricht, daß der Dividendenabschlag meist schnell wieder aufgeholt
+wird (wohl aus psychologieschen  Gründen). Das gleicht sich dann letztlich
+oft aus).
+
+fG - Darius

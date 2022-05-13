@@ -1,0 +1,22 @@
+Es sind grundverschiedene Begriffe aus dem Bereich des
+Festverzinslichen Wertpapiere. 
+
+Rendite sollte klar sein.
+
+Duration ist -vereinfacht gesagt- die gewichtete Laufzeit einer
+Anleihe. Sie gibt die durchschnittliche Kapitalbindungsdauer an und
+berücksichtigt die Kuponzahlungen während der Laufzeit. 
+Je höher der Kupon, desto geringer die Duration (bei konstanter
+Laufzeit), da Du über die Kupons einen Teil des eingesetzten Kapitals
+früher zur�ckerh�lst.
+Ein Zerobond hat eine Duration, die gleich lang ist, wie die Laufzeit.
+Ein Bond mit einem extrem hohen Kupon hat eine deutlich kürzere
+Duration. 
+Wichtig ist die Duration bei der Bemessung des Zinsänderungsrisikos.
+Wenn sich das Renditeniveau ändert, verändert sich der (gerechnete)
+Preis der Anleihe bei langer Duration stärker als bei kurzer Duration.
+
+Falls gewünscht, krame ich gerne mal die genaue Formel raus.
+
+Gruß
+Ingolf

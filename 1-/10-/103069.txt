@@ -1,0 +1,28 @@
+^^^^^^^^
+Bitte genau lesen! 'oberhalb' entspricht '>' und _nicht_ '>='
+
+
+100 natuerlich. Das widerspricht aber noch lange nicht meinem obigen
+Satz. Waere noch eine Kauforder mit Limit 101 im Buch, dann ist _die_
+auszufuehren und _nicht_ die mit Limit 100!
+
+Die Regeln zur Kursfindung sind recht einfach:
+1. Alle Kauforder mit Limit oberhalb und Verkauforder mit Limit unterhalb
+   muessen ausgefuehrt werden.
+2. Keine Kauforder mit Limit unterhalb bzw Verkauforder mit Limit oberhalb
+   darf ausgefuehrt werden.
+3. Order mit Limit==Kurs muessen zumindest teilweise ausgefuehrt werden.
+4. Maximaler Umsatz (Vermutlich Kapital, da bei Stuecke nicht eindeutig?)
+
+Aus (1.) folgt der von mir oben geschriebene Satz, dass alle Kauforder
+mit Limit oberhalb Kurs auszufuehren sind. Es besteht aber immer noch
+das Problem bei (3.) wer zum Zuge kommt. 
+
+
+Jein. Das lag daran, dass _wegen_ der geringen Ordergroesse Deine Order
+nicht im Oderbuch zum variablen Handel sondern in dem zur Kasse stand.
+Darauf haette Dich aber Dein Broker hinweisen sollen (sofern Du per
+Telefon orderst)
+
+-- 
+-- Lars Niko -- ut@fjuov.koxd.oy -- Kohlbruck, Germany --

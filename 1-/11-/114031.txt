@@ -1,0 +1,19 @@
+Ich habe eine Frage bezüglich der Benutzung von Realtimesystemen.
+Anhand von BID und ASK kann ich sehen, wer zu welchen Preis kaufen oder
+verkaufen möchte. Sollte ein Handel zustande kommen, erscheint dies im
+Prices. Wenn nun lediglich
+Prices dort erscheint, ist es möglich zum Kurs des Prices dort zu kaufen
+oder muß man warten bis wieder BID bzw. ASK erscheint.
+
+Bsp.
+                                    Prices        Bid        Ask
+9      Uhr                                         65,-         67,-
+9,15 Uhr                        66,- DM
+
+Nun ist es aber schon angenommen um 12 Uhr. Kann ich noch zum Kurs v. 66,-
+DM kaufen oder ist der Handel bereits abgeschlossen und es liegen keinerlei
+neue Aufträge vor?
+
+Danke für die Beantwortung.
+
+Marthaler

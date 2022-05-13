@@ -1,0 +1,128 @@
+Im Prinzip ist es den Emittenten freigestellt, ob und wie sie
+sich absichern (ist schliesslich ihr Risiko, es sei denn sie
+haetten im Prospekt irgendwas Konkretes versprochen).
+Moeglichkeiten:
+
+- Sie sichern sich wirklich komplett durch dauerhaftes Halten des 
+Underlyings ab,
+
+- Dito durch langfristige Optionen/Futures oder aehnliche Derivate.
+Sie koennen z.B. sogenannte OTC-Optionen ueber grosse
+Stueckzahlen kaufen und sie Form teurerer, kleinerer Optionen
+weiterverkaufen.
+
+- Dynamisches Hedgen=Absichern, d.h. sie veraendern die 
+Absicherung laufend ganz nach Bedarf. Wenn sie z.B. 1 Million
+Optionen mit einem aktuellen Delta von 0.2 verkauft haben, dann
+muessen sie zur Zeit 200.000 Deltas absichern. Dazu koennen 
+sie z.B. 200.000 Underlying-Aktien oder 1/2 Million OS mit Delta 
+0.4 kaufen. Diese Zahlen muessen dann haeufig neu angepasst 
+werden. Dafuer gibt es spezielle Software.
+(Delta 0.5 bedeutet, dass ein OS beim Steigen/Sinken der
+Underlying-Aktie um 1 um 0.5 steigt/faellt. Das Underlying selbst
+hat naturgemaess immer ein Delta von genau 1). 
+
+- Manche sichern auch nur z.B. zu 75% ab, oder erst ab Erreichen
+eines bestimmten Verlustes.
+
+- Der Absicherungsbedarf kann natuerlich verringet werden, wenn
+sie gleichzeitig Puts schreiben.
+
+- Roll-over- und/oder Pyramiden-Techniken: Wenn z.B. ein Call-OS 
+fuer den Emittenten mit Verlust endet, dann schreibt er anschliessend 
+einfach einen neuen (oder doppelt soviele neue). Hintergedanke ist,
+dass der Kurs nicht immer in die gleiche Richtung laufen kann und 
+man irgendwann auf einen Schlag alle Verluste wieder reinholt.
+Sind ganz gefaehrliche Techniken und hatten in den letzten Monaten 
+nach dem starken DAX-Anstieg einige Emittenten schwer in Probleme
+gebracht. (Aehnlich lief es auch bei Barings, aber ueberwiegend mit 
+Futures).
+
+- Hier ein Ausschnitt aus einem Buchkapitel ueber die diversen 
+Motivationen zum Ausgeben von OS und komplexeren Derivaten:
+
+Es ist auch sinnvoll, sich einmal die möglichen Motivationen und 
+Vorgehensweisen der Emittenten solcher Derivate vor Augen zu 
+halten. Dies können beispielsweise sein:
+
+- Der Emittent will, wie bereits oben beschrieben, die komplette 
+Kombination mit einem Aufpreis gegenüber den eigenen 
+Beschaffungspreisen für die einzelnen Bestandteile verkaufen. 
+Dies ist vermutlich die häufigste und unmittelbarste Motivation. 
+Durch Aufklärung der Anleger, Konkurrenz zwischen den Anbietern 
+und der Existenz von Alternativanlagen wie ähnliche, ältere 
+Kombinationen, die heute zu einem tieferen und faireren 
+Börsenpreis gehandelt werden, sollten sich die erzielbaren 
+Aufpreise jedoch in engen Grenzen halten. Lediglich mit 
+überraschenden neuen Kombinationen, die die breite Masse 
+der Markteilnehmer nicht so schnell analysieren und bewerten 
+kann, sind noch hohe Aufpreise erzielbar. 
+
+- Gewinne aus späterem Handel. Manche Emittenten sorgen 
+später auch für einen liquiden Markt in ihrem Wertpapier, indem 
+sie selbst ständig Angebots- und Nachfragepreise stellen. Das 
+ist durchaus löblich verglichen mit anderen Emittenten, die sich 
+nach der Erstausgabe kaum noch um ihr Wertpapier kümmern, 
+so daß mancher Käufer dann endgültig auf seiner "Anlage" sitzen 
+bleibt, weil er keinen Käufer findet.
+Allerdings lassen sich diese Marktmacher ihre Bemühungen
+meistens auch gut bezahlen; manchmal beträgt die Spanne 
+zwischen An- und Verkauf an die 10%. Hinzu kommt noch, 
+daß diese Emittenten oft mit großen Eigenbeständen handeln. 
+Wenn etwa bei der Erstausgabe von einem neuen Wertpapier 
+"bis zu 1.000.000 Stück" angeboten werden, dann kann es 
+durchaus vorkommen, daß davon nur 10% sofort verkauft werden. 
+Auf den restlichen 90% bleibt der Emittent vorerst sitzen. Steigt 
+der Kurs später, dann werden nach und nach weitere Stücke 
+zum hohen Börsenkurs auf den Markt geschleust. Sinkt der
+Kurs dagegen, dann werden allmählich Bestände billiger 
+zurückgekauft. Bei geschickter Steuerung kann dieser stetige 
+Handel recht einträglich sein.
+
+- Verdeckte Kreditaufnahme. Manchmal bedeutet die Ausgabe 
+von Derivaten auch nichts anderes als eine "getarnte" 
+Kreditaufnahme. Statt Zinsen wie bei einer normalen Anleihe 
+erhält der Käufer (=Gläubiger) eine Gewinnchance. Solche 
+Derivate sind an einem relativ hohen Preis und konservativer 
+Gestaltung erkennbar; sie funktionieren etwa nach dem Schema:
+ "Zahlen Sie 100, und Sie können bis zu 140 zurückbekommen. 
+In drei Jahren erhalten Sie aber mindestens Ihren Einsatz von 
+100 zurück!".
+Die Gewinn- und Verlustmöglichkeiten für den Anleger sind mithin 
+begrenzt, während der Emittent in jedem Fall einen relativ großen 
+Betrag für längere Zeit zur Verfügung erhält. Oft nutzt der Emittent 
+zwischenzeitlich auch schwächere Börsenkurse, um das Derivat billig
+zurückzukaufen. Im Idealfall hat er dann nicht nur einen zinslosen 
+Kredit erhalten, sondern er hat den Kreditbetrag sogar zu einem 
+Preis von unter 100% zurückgekauft.
+Es gibt auch spezielle Anleihekonstruktionen, die von vornherein 
+so ausgelegt sind, daß der Anleger keine realistische Chance hat, 
+je einen marktgerechten Gesamtertrag (Verzinsung) zu erzielen. 
+Wir haben selbst schon mehrere Spezialanleihen kreiert, durch 
+deren Ausgabe unsere Kunden sich praktisch zinslos Kapital 
+beschaffen konnten, ohne daß die Käufer dieser Anleihen, übrigens 
+alles "Profis" wie Banken, Versicherungen und Investmentfonds, 
+dies überhaupt bemerkt hätten.
+
+- Die Konstruktion eines Derivates kann auch der "Resteverwertung" 
+dienen. Der Emittent hat möglicherweise Optionspositionen aus 
+Altbeständen oder Arbitragegeschäften, die zur Zeit kaum noch 
+regulär verkäuflich sind, weil beispielsweise mit völlig unattraktiven 
+Bezugskursen. Oder er besitzt ein größeres Aktienpaket, das er zur 
+Zeit zwar nicht verkaufen will oder kann, aus dem er aber durch die 
+Ausgabe von Optionsscheinen einen Zusatzgewinn herausholen will. 
+Oder er hat eine eine gefährliche offene Optionsposition, die er durch
+ein Gegengeschäft neutralisieren möchte, oder, oder ...
+Solche normalerweise fast unverkäuflichen Restpositionen lassen 
+sich durch den Einbau in ein interessant erscheinendes Derivat 
+manchmal doch noch zu guten Preisen absetzen. Das kann sich 
+für den Emittenten sogar dann noch lohnen, wenn er das Derivat 
+unter seinem eigentlich fairen Preis abgibt. Bei bestimmten komplexen
+Arbitragegeschäften beispielsweise bleiben immer Reste übrig, die 
+dann zu fast jedem Preis verschleudert werden müssen, damit das 
+Gesamtgeschäft "aufgeht".
+
+
+Hans
+Visit   http://xzoxsaa.ton.dpz/sudvnw  and download a 
+free calculator for options, futures, bonds and similar stuff.

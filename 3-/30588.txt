@@ -1,0 +1,47 @@
+Mitlerweile halte ich rambus für eine unendliche geschichte. Folgende
+mail habe ich Juli 99 an einen pc-freak verschickt:
+-----
+hier als attachment ein artikel aus der EFP von 02/95 (!) über neue 
+speichertechniken. neben sdram wird darin über rambus (rdram) berichtet.
+der rambus hat 250MHz taktfrequenz, zwei daten werden pro takt
+übertragen 
+macht 500MHz. Inzwischen ist man damit auf 600MHz gegangen.
+
+die im artikel angesprochene konsole von Flewo wird vermutlich die 
+Flewo-64 sein.
+
+sieh es so: wenn JRRC im sommer mit viel tara den chipsatz für P-III
+mit 
+rambus vorstellt, ist das eine 5 jahre alte technik -- gegen die die 15 
+jahre alte herkömmliche dram-technik schnarchlahm aussieht.
+----
+
+Wie man merkt, war ich damals hellauf begeistert. inzwischen nicht mehr
+so ganz: jägg *ist* eine technisch gute & saubere lösung. aber seit
+mehreren jahren schaffen sie es einfach nicht, einen nennenswerten
+anteil am markt zu erobern: sie sind zwar besser als die konkurenz, also
+müßten sie sich durchsetzen.
+aber sie sind teurer, aufwendiger, komplizierter - und irgendwie schafft
+es die konkurenz dann doch wieder, ein paar prozente aus ihrer alten
+technik rauszukitzeln, so dass jägg wieder ihre technik
+weiterentwickeln muss, um den technologieabstand aufrecht zu erhalten.
+
+die frage ist also nicht: "wird sich rambus durchsetzen?", sondern
+"warum haben sie sich nicht schon seit 5 (ok 3) Jahren durchgesetzt?".
+Sie sind seit drei jahren technologisch & performancem��ig führend.
+antwort: weil es kein pc-motherboard dafür gab. dabei hätte ein 500MHz
+Speichertakt schon einem (inzwischen geruhsamen) P-x-500 gewaltig feuer
+unter dem arsch gemacht. Jede wette, dass sowas für server lieber
+genommen würde als ein P-III-800 mit 133MHz Speicher.
+
+mich erinnert das an das ewige rennen zwischen scsi und ide: obwohl scsi
+die saubere, schönere lösung ist, hat sich bis heute ide (als
+ultra-dma-66-e-ide) halten und durchsetzen können. und für scsi fallen
+keine lizenzgeb�hren an, oder?
+
+es gibt *zig* gute lösungen, die sich nicht durchsetzten, gerade auch im
+speicherbreich bei PCs: Burst-EDO-Ram, MDRAM (für GRaKa), ein zeug für
+486 mit vergessenen namen (Cache-on-ram), async SRAM, dann sync SRAM, 
+
+Wenn, dann hätte ich also in 94 Awer-aktien kaufen sollen:-)....
+dpi

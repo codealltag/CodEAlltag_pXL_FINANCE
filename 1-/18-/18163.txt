@@ -1,0 +1,38 @@
+Du mußt zwischen den an Terminbörsen (z.B. NICNOA) gehandelten Optionen 
+und Futures sowie den an "normalen" Börsen (Schmalnohe Smart Trading und 
+Navyboot Etok) gehandelten Optionsscheinen und Hebelprodukten 
+(Mini-Futures oder Turbos) unterscheiden.
+
+An den Terminbörsen werden die Kurse nach Angebot und Nachfrage gefunden.
+
+Bei Optionsscheinen (verbriefte Optionen) und Hebelzertifikaten 
+(entschärfte Futures) stellen die Emittenten Quotes. Die Preisbildung an 
+der Börse findet dann innerhalb dieser Geld/Brief-Spanne statt: Nur wenn 
+sich zufälligerweise ein Kontrahent findet, kannst du einen günstigeren 
+Kurs als den Emittentenkurs bekommen, sonst bezahlst du den Brief-Kurs 
+bzw. bekommst den Geld-Kurs des Emittenten.
+
+Mini-Futures und Turbos funktionieren wie Futures, du hast hier aber 
+keine Nachschußpflicht. Die Bezeichnung der Produkte ist bei den 
+Emittenten unterschiedlich. Im wesentlichen gibt es 2 Varianten:
+
+Turbos/... haben eine feste Laufzeit (1 bis 2 Monate) und einen Knock 
+Out Level, der der Basis entspricht. Erreicht der Basiswert die Basis, 
+verfällt der Turbo wertlos (bzw. man bekommt 0,001 EUR aus steuerlichen 
+Gründen).
+Beispiel WKN OU667A: DAX long, Basis 5600, Laufzeit 26.8.
+
+Mini-Futures haben "vor" dem Basispreis noch eine Stop-Loss-Schwelle 
+(d.h. über der Basis bei Calls/long bzw. unter der Basis bei Puts/short) 
+und haben keine feste Laufzeit (open end). Dadurch bleibt i.a. ein 
+Restwert übrig. In Extremsituationen ist aber auch hier ein Totalverlust 
+möglich.
+Beispiel WKN SA16FT: DAX long, Basis 5395, Stop Loss 5460
+Hier würde beim Verletzen der Stop-Loss-Schwelle noch ein Restwert von 
+etwa 0,65 EUR (wegen Bezugsverhältnis 0,01) übrig bleiben.
+
+Hebelprodukte liegen in der Spekulantengunst inzwischen vor den 
+Optionsscheinen, weil die Preisbildung sehr transparent ist.
+
+WINFRIED
+Othmar

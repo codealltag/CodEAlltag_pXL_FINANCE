@@ -1,0 +1,43 @@
+Transaktionen: Keine
+
+Korrektur von letzter Woche (15.3):
+Alte (falsche) Transaktionen:
+
+Art # Stück # Name    # WKNR   # EUR       # Boersenplatz
+V   # 0269  # Chairs   # 778626 #   21,90   # Kienbaum
+V   # 1300  # MFJ     # 863186 #   16,20   # Kienbaum
+K   #  870  # OOC # 499399 #   23,00   # Kienbaum
+
+Korigierte Trasaktionen (letzter Tageskurs an einer deutschen Boerse)
+V   # 1200  # Chairs   # 898803 #   22,30   # Fr
+V   # 1300  # MFJ     # 863186 #   16,50   # Stu
+K   #  870  # OOC # 499399 #   24,00B  # Muen
+
+IMHO ist es aber voellig schwachsinnig den Optikomkurs von Nienwohlde zu
+nehmen.
+Wenn man sich die Kurse genauer anschaut, so gab es in Nienwohlde und
+Dreibäumen
+nur einen Umsatz am Vormittag und dann Brief-/Geldkurse. 
+Die letzen Kurse der drei Boersen mit Optikomhanden waren:
+Ber: 14:41    23,00  Eur
+Stu: 16:48,06 22,80G Eur
+Mue: 16:48,09 24,00B Eur
+
+Also hat der Computer in Dreibäumen 4 Sekunden zu frueh das Handtuch
+geworfen  aehhhh,
+den Handel geschlossen, ansonsten waere der Kaufkurs 22,80 und nicht 24,00.
+JNMU sollte man bei der Kursfindung fuer das Boersenspiel den letzen Kurs 
+ignorieren, wenn es keinen Umsatz gab. Bei kleineren Werten gibt es oefters
+Brief und Geldkurse am Ende.
+
+Kommentare erbeten!
+
+Wenig Zeit. Depot erst am Sonntag!
+
+Alois
+
+-- 
+----------------------------------- http://qzl.bkd.gzu-ywaool.zc/~f63b/ 
+Alois Ingenillen, Rgqars.Zdwyvh@xqt-upohkz.af, Germany
+AnimeGer, ADP, Anime no Tomodachi + more, Give me Anime and Mangas!
+#### Uni-Kämerscheid Elektrotechnik: Mikroelektronik/Mikrosystemtechnik ### C

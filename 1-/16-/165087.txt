@@ -1,0 +1,6 @@
+Es handelt sich um den gleitenden Durchschnitt der letzten N Tage.
+Z.B. G90 = 1/90 * [K(i) + K(i-1) + K(i-2) + ... + K(i-n)]
+Schneidet die Kurslinie den 200er Durchschnitt von unten nach oben wird 
+dies zum Beispiel als Kaufsignal angesehen. Umgekehrt als Verkaufssignal.
+
+HEIDRUN

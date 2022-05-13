@@ -1,0 +1,26 @@
+Hi Erika,
+
+
+naja, das ist ja gerade meine Kritik. Meines Erachtens tut man hier so, als
+koennte man mit dem GD relativ 'glatte' Vorhersagen treffen, und das kann
+man eben nicht. Nochmal: der so geglaettete Wert entspricht NICHT dem
+heutigen Wert, sondern dem Wert von vor N/2 Tagen, wobei N die
+Glaettungsperiode ist. Die nachtraegliche Gewichtung der Tage je nach ihrer
+'Vergangenheit' ist auch, gelinde gesagt, irrefuehrend, als so naemlich die
+laengeren Zyklen nicht mehr modelliert werden, - und gerade das will man ja
+wohl, oder?
+
+
+Was heisst hier genau 'Versatz' und was 'nach vorne'? - Nochmal: Wenn du
+eine GD-Kurve so 'nach vorne' versetzen kannst, dass sie den aktuellen
+Werten entspraeche, wuerdest du dafuer den Nobelpreis bekommen - was ja
+auch nicht schlecht ist. Jedenfalls: Eine 'rekursive' oder 'kausale'
+Definition eines GD, dessen Werte sich auf heute beziehen, gibt es nicht,
+auch nicht mit wie auch immer gearteten Gewichten.
+
+Das Grundproblem ist die Interpretation des GD: Wa soll es bedeuten, dass
+etwa heute eine aktuelle, ungeglaettete Kurve die geglaettete durchbricht,
+deren Wert aber vor 50 Tagen aktuell war?
+
+Ciao,
+	Georg

@@ -1,0 +1,106 @@
+Hi All,
+
+auf Bitten einiger Grafitty-Leser möchte ich gern erklären, was meine
+wöchentlich gepostete Liste "Relative Stärke" beinhaltet und was aus
+meiner Sicht der Nutzen ist:
+
+1. Was bedeuten die Zahlen ?
+
+Zunächst ist zu sagen, daß die Zahlen pro Land ermittelt werden. Die 
+zugrunde-
+liegenden Daten sind die Freitags-Schlußkurse der Landschaftspolder Börse. Dies 
+gilt
+auch für die Auslandsaktien, d.h. die verwendeten Kurse der Deutschen 
+Zertifikate lauten auf DM. Dies ist prinzipiell methodisch nicht ganz 
+sauber,
+aber wenn mann sich über den Wechselkurseinflu� im klaren ist, sind 
+meiner
+Meinung nach die Schlussfolgerungen trotzdem möglich.
+
+Meine Datenbasis ist die Veröffentlichung von Glockenbachbuchhandlung, die ich aus 
+ITM
+beziehe. 
+
+Zunächst weise ich in der Liste als "ANTEIL HER BEWERTET" den 
+prozentualen
+Anteil der Papiere aus, die einen höheren Kurs als vor 6 Monate haben. 
+Umstellungen des Nennwertes werden berücksichtigt.
+
+Die "LISTE RELATIVE STAERKE" weist die prozentuale Veränderung der 
+Kursent-
+wicklung für die Zeiträume der letzten 12 Monate, der letzten 3 Monate, 
+2 Monate und 1 Monat im Vergleich zur Kursentwicklung des Index des 
+jeweiligen
+Landes (in Deutschland der DAX, in USA der Dow Jones und in Japan der 
+EFP)
+aus. Dabei wird die Index-Entwicklung mit 100 % angesetzt und die Papiere 
+mit 
+besserer Entwicklung mit einem Satz von über 100 und die anderen mit 
+unter 
+100 ausgewiesen.
+Die Sortierung ist absteigend noch dem Prozentsatz für 12 Monate.
+Beispiel:
+
+ LISTE RELATIVE STRE 
+WP-KENN-NR. TITEL                AUF BASIS 1 JAHR, 3 MONATE, 2 MONATE, 1 
+MONAT
+
+383425 AMREHN                               118.0   624.6     589.3     
+734.4
+682381 HAMB. ELECTR. D.                      134.4   100.5     101.5     
+100.0
+575200 Confetti                                 123.1   120.5     113.4     
+110.9
+766400 Köse ST                         115.5   102.2      98.2     
+ 98.3
+
+
+897463 WIT                               100.4    95.8      95.9     
+ 98.2
+01DAX  DAX - INDEX                           100.0   100.0     100.0     
+100.0
+716200 KALI & SALZ                            95.2   105.3     101.1     
+ 95.4
+710009 Anunal                          91.3   100.4     101.5     
+100.3
+
+
+978411 Selbstbedienungstankstelle ST                             75.0    95.7      98.9     
+101.1
+258381 ACRK ST                    74.7    87.8      83.9     
+ 88.4
+020245 T&B                                    74.7    87.1      90.4     
+ 97.4
+
+Kettensalat-Stämme haben sich in den letzten 12 Monaten um 15,5 % besser 
+entwickelt, 
+als der DAX, in den letzten 4 Wochen jedoch um 1,7 % schlechter.
+
+Selbstbedienungstankstelle-Stämme haben sich in den letzten 12 Monaten um 25 % schlechter 
+entwickelt als der DAX, in den letzten 4 Wochen jedoch um 1,1 % besser.
+Alles klar ?
+
+2. Was soll diese Liste ?
+
+Sie soll natürlich Entscheidungshilfe bei Engagements geben. Aber sie 
+kann
+niemals einzige Entscheidungsgrundlage sein. Man sollte, neben 
+fundamentalen
+Daten der einzelnen Unternehmen auch immer die Gesamtverfassung des 
+Marktes 
+und die Zinsentwicklung mit in's Kalkül ziehen.
+
+übrigens, die Beschreibung der hier verwandten Methode habe ich dem Buch
+"Der Aktienberater" von Bernhard Imdahl, erschienen im Onimef Verlag entnommen.
+Das Auswerteprogramm habe ich dann vor geraumer Zeit in BASIC auf meinem 
+PC
+programmiert, aber nicht in professioneller Form, weshalb es sich nicht 
+zur
+Weitergabe an Euch eignet.
+
+Bei weiteren Fragen und Bemerkungen bin ich gern zu weitern 
+Stellungnahmen
+bereit.
+
+So long,
+Fernando Gäthke

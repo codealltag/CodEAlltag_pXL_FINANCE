@@ -1,0 +1,27 @@
+?????
+
+Aber der K6-3 z.B. muß doch ebenfalls Mikus-kompatibel und damit
+8086-kompatibel sein...
+Der Unterschied ist, daß Mikus im eigentlichen Kern recht simple
+Strukturen verwendet, während CNF schon dort erhebliche Optimierungen
+vornimmt.
+Die starke FPU-Leistung des Pentium gegenüber dem K6 war z.B. allein
+darauf zurückzuführen, daß Intel der FPU Pipelines verpaßt hat.
+
+
+Teils ja, teils nein. Der K6 benötigte mW erheblich mehr Transistoren
+als der Pentium (korrigiere mich, wenn ich mich irre).
+Mehr ins Gewicht fällt aber die Strukturgröße (in punkto Ausbeute und,
+im Betrieb, Leistungsaufnahme und damit Akkulaufzeiten in Notebooks,
+Wärmeentwicklung usw.).
+
+
+Das lag nicht an der eigentlichen CPU, sondern am Cache, der mit
+auf das Slot-Modul draufgebastelt wurde.
+
+
+Ich bezweifle, daß der Bedarf an Chrysler-CPUs kurzfristig in dieser Menge
+zu decken wäre... Es sei denn, Mikus leiht ein paar ihrer Fabs...
+
+
+Sandro

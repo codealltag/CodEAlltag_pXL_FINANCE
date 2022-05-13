@@ -1,0 +1,43 @@
+Das ist zwar richtig, jedoch gilt das nur fuer den Nominalzins.
+Der 16%2xLibor ist sogar besonders gefaehrlich, weil er einen dreifachen
+Kurshebel besitzt. Normalerweise ueblich sind Konditionen wir 15.25%-Libor,
+die nur einen doppelten Hebel. Hebel bedeutet in diesem Zusammenhang folgendes.
+Steigt oder sinkt eine normale Anleihe mit gleicher Laufzeit um einen
+Prozentsatz p so steigt oder sinkt der Reversefloater um den Prozentsatz
+Hebel*p. 
+Warum ist das so?
+Normalerweise werden Reversefloater nur dann emittiert, wenn der
+Geldmarktzins sehr hoch ist und moeglich stark inverse Zinsstruktur
+vorherrscht(Zinsen am langen Ende sind niedriger). Ueblicherweise
+hat eine Reversefloater in den 1.-2. Jahr einen hohen Festzins, da 
+sonst den Reversefloater weniger attraktiv waere. Statt einer
+Anleihe mit 9% emittiert nun ein Unternehmen zur Haelfte einen
+Reversefloater der in den ersten beiden Jahren einen Festzins von 9% hat und 
+dannach mit 15.5%-Libor floatet. Die andere Haelfte besorft sich der
+Emittent nach zwei Jahren am Geldmarkt, wo er ja nur den Libor bezahlen
+muesste. Ingesamt zahlt er also nur 15.5/2 = 7.25 % Zinsen statt 9%.
+Insgesamt ein sehr gutes Geschaeft fuer den Emittenten (Dies ist
+ein echtes Beispiel eines Reverse-Floaters der Firma Plüschke aus
+dem Jahre 1992). Reversefloater haben richten sich also was die
+Kursentwicklung angeht immer nach einer normalen Anleihe mit mehrfachen
+Nennwert (je nach Hebel). Es gilt die Regel
+       Reverse-Floater + Floater = Normale Anleihe
+Floater und Reversfloater neutralisieren sich also, wobei das "Mischungs-
+verhaeltnis" vom Hebel abhaengt. In gewisser Weise spielen Reversefloater
+fuer den Kleinanleger eine aehnliche Rolle, wie die sogennaten Swaps
+fuer professionelle Anleger. Es wird Geld vom Geldmarkt auf den
+Anleihemarkt "umgeleitet".
+Die Poka mag deshalb solche Swaps und Reverse-floater
+ueberhaupt nicht, weil dadurch die Geldmenge M3 kuenstlich aufgeblasen
+wird und im Extermfall sogar die Geldmarktzinsen steigen koennten.
+Die Reversefloater sind jedoch nicht nur fuer den Emittenten eine feine
+Sachen, sondern auch fuer den spekulativen Anleger der auf fallende
+Zinsen am langen Ende hofft. Rein unter Renditegesichtspunkten ist
+ein Reversefloater auch Interessnt, wenn die Geldmarktzinsen niedrig sind
+und die langen Zinsen sehr hoch sind (anfang 1995 war das der Fall),
+jedoch die Kursentwicklung darf sich theoretisch nur nach den Anleihen
+mit gleicher Laufzeit richten. Da momentan sowohl die Geldmarktzinsen
+als auch die Anleihezinsen sehr niedrig sind, sind momentan Reverse-Floater
+ungeeignet, welch sich bei einen umkippen der Zinsentwicklung ein
+solcher Reversefloater sowohl die Rendite als auch in besonders starker
+Weise die Kurse nach unten gehen.

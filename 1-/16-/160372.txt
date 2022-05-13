@@ -1,0 +1,26 @@
+Bleiben wir mal bei diesem Beispiel, um den Einfluß des Zinssatzes auf
+den Optionspreis zu diskutieren, sagen wir 5% pro Jahr. Der Verkäufer
+des Calls muss dann die zur Absicherung erworbene 1/2 Aktie zum Preis
+von 50DM während der Laufzeit von einem Jahr finanzieren und zahlt dafür
+2,50DM an Zinsen. Also wird er als Preis des Calls im Prinzip jetzt
+10DM+2,50DM=12,50DM verlangen, davon allerdings nur den Barwert, d.h.
+12,50DM/1.05=11.90DM, da der Verkäufer diese 11,90DM ja ebenfalls zum
+Zinssatz von 5% anlegen kann.
+
+Was ist aber mit dem Käufer? Ich meine nicht, dass ein Zinssatz>0 einen
+randomwalk mit Drift impliziert, und die Wahrscheinlichkeit für den
+Aktienkurs 120DM nach einem Jahr wahrscheinlicher wird als 80DM. Für den
+Käufer ist der mittlere Gewinn deshalb immer noch 10DM (0DM Gewinn beim
+Aktienkurs 80DM und 20DM Gewinn beim Aktienkurs 120DM). Dies ist dann
+auch der Betrag, den der Verkäufer im Mittel auszuzahlen hat. Ein fairer
+Preis wäre dann 10DM/1.05=9,52DM , die sich dann innerhalb des einen
+Jahres auf genau 10DM aufzinsen. Der Käufer wird bei einem Preis von
+11,90DM im Mittel immer draufzahlen, der Verkäufer verdient im Mittel
+2,50DM, falls er auf eine Absicherung verzichtet.
+
+Die 11,90DM währen dann der faire Preis im Black-Scholes-Modell (hier
+angenähert durch ein einphasiges Binomialmodell), die 9,52DM der Preis 
+im "Erwartungwertmodell". Hier sinkt also der Preis bei steigendem
+Zinssatz. Ich finde letzteres fairer. Aber ich lasse mich gerne vom 
+Gegenteil ueberzeugen, wenn jemand darlegt, wie man beim Kauf des Calls
+fuer nur 9,52DM  durch Arbitrage einen sicheren Gewinn machen kann.

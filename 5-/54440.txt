@@ -1,0 +1,89 @@
+Nachdem niemand Chartsoftware mit kommerziellem Datenabo für Linux 
+gefunden hat, hab ich's mal mit Windows-Emulationen probiert. Hier 
+meine kurzen Eindrücke. Man sehe mir das Crossposting nach, ich beziehe 
+de.etc.finanz.software nicht mehr (ziemlich unlesbar geworden wg. 
+Problemen von Unibuchladen- und Bankingkunden). F'up to 
+de.etc.finanz.software. Die Follow-ups erreichen mich nicht, 
+E-Mail-Rückfragen beantworte ich  aber gerne.
+
+Linux + Wine (kostenlos): Keines der bekannten B�rsenprogramme läuft 
+darunter: nicht DM Money Maker, nicht Chartheft, nicht Wiso. Damit 
+hätten wir wg. Familienähnlichkeit Market Maker, Tai-Pan, Gegi-Börse, 
+Dönmez gleich mit abgehakt:-(.
+
+WWS + DOSEMU + das (sehr leistungsfähige) DOS-Programm Winchart (es 
+ist so uralt, dass sein Name von _vor_ der DMV-Holzeatelier-Zeit herrührt!): 
+nicht ausprobiert. Ich hab mich mit dem Hersteller und einzigen 
+Kursanbieter verkracht, weil ich das Programm zum vollen Preis von 
+seinem früheren Vertriebspartner Gegi Börse erworben habe und er daher 
+keine Kurse dafür liefert. Ich zahl nicht zweimal den Programmpreis - 
+einmal war für diese Auffassung von "Kundendienst" schon zuviel:-(.  
+
+ DOSEMU ist aber m.E. ausgereift genug, dass  die DOS-Versionen von
+B�rsenprogrammen darunter laufen sollten. Also  wer noch ein altes
+Tai-Pan für DOS oder den Market Maker aus schnellen,  zuverlässigen
+Vor-Holzeatelier-Zeiten hat, möge es mal probieren (und  darüber
+berichten;-).
+
+Linux + Akuke: Akuke ist kein Emulator, sondern lässt ein komplettes 
+Augenart-Bios im RAM ablaufen (glaub ich;-). D.h. wenn man sein Holzeatelier 
+(oder irgendwas ... es läuft _alles_) mitbringt, ist es keine Frage, ob 
+es funktioniert.  Dafür kostet es hundert Dollar und jede Menge
+Performance ... ein  233MMX benimmt sich wie mein alter Jannssen-80. 
+Ausprobieren kann man es immerhin. Es ist schnell installiert. Auf der 
+Homepage des Anbieters erhält man einen Freischaltschl�ssel für 30  Tage
+per sekundenschneller E-Mail. Wenn die Zeit rum ist und man noch  nicht
+alles erprobt hat, muss man wohl seinen Bruder oder sonstwen  überreden,
+sich bei Gede ne eigene Adresse zu besorgen (zweimal  bestellen geht
+ja wohl nicht, falls in der Familie nur ein Account für  alle benutzt
+wird) und sich auch wieder einen Schlüssel für die nächsten dreissig
+Tage zu bestellen.  Dem Vorschlag von Akuke, 1 Gigabyte Platte
+(permanent) und 32 MB RAM  (solange es aufgerufen ist) abzuknapsen,
+wurde gefolgt. Was heisst,  dass die geplante DMV-Holzeatelier-Emulation und
+evtl. parallel laufende  Linuxanwendungen auf je 32 MB bei mir kastriert
+sind ... besser  schließen, was man gerade nicht braucht. Jetzt Nerven
+bewiesen und die virtuelle Platte, die sich Akuke  eingerichtet hat,
+mit den DOS-Programmen fdisk und format aufbereiten  (das ist wie mit
+den alten komprimierten Laufwerken ... man wendet die  Befehle im
+Akuke-Fenster unter Linux auf Laufwerk C: an, aber keine  Angst, es
+wird schon nicht die "originale" C:-Partition gelöscht. Dann  kann man
+die ganze Ochsentour gehen - in meinem Fall, MS-Dos  installieren, ein
+bootfähiges System mit CD-ROM-Treiber installieren  (MS-DOS von Diskette
+mit dem Treiber booten reicht eigentlich auch),  Win3.11 installieren,
+Update auf Win98, Schlüsselnummer desselben  raussuchen ... und das
+alles im 486er Tempo  oder schlimmer. Von der Linux- oder der
+gemounteten  MS-Windows-Partition etwas r�berzukopieren geht nämlich
+nicht, wenn man  nicht auch noch üben will, wie man ein (virtuelles)
+Netzwerk aufsetzt. Also muss man auch sein B�rsenprogramm (oder wie
+gesagt, jede andere  gewünschte Anwendung) neu installieren, in meinem
+Fall VTSW Money Maker  pro (Schlüsselnummer aussuchen ...:-( ).  Ist es
+erstmal drauf, läuft es brauchbar. Gerade die Programme aus dem  Haus
+Walkabout sind nicht zickig, was Geschwindigkeit und  Speichergröße
+anbelangt.  Statt die 22. 06. 22 Stammdaten-CD plus je, bei mir, 15
+Monatsdisketten für  Aktien und 15 für OS einzuspielen, nahm ich dankbar
+die mit der  heutigen Post kostenlos eingetroffene Testversion des neuen
+Dönmez Chart  2000 und spielte sie noch vor dem Programm VESH ein, nur
+um die  Programmdateien gleich wieder zu löschen. VESH findet somit 
+umfassende Kursdaten (nur Aktien) bis 19.01.2000 vor und die 
+Nach-Installation der seitherigen Monats- und Tagesdateien ist ein 
+Klax:-).  Da ich noch nicht herausgefunden habe, wie man unter VMWare
+das Modem  anspricht, verbietet sich eine Nutzung von Dämmisol, da
+dieses auf  direkte Modemverbindung mit Pleikershof angewiesen ist und die
+ist auch  noch äusserst unzuverlässig (für drei Börsentage dreimal
+abgestürzt,  bei einem seit ca. 10 Monaten erprobtem Laptop mit 56kFlex
+Kartenmodem). Ausserdem halte ich die Kursdaten auf zwei  Computern vor
+und ich will ja nicht für dieselben Daten auch noch  zweimal
+Telefongebühren zahlen. Gegenüber dem Internetabruf bei VFGL ein 
+echter Rückschritt.  Ob ich die 100 Dollar für Akuke abdrücke oder mir
+mühsam eine Verlängerung der  Testzeit verschaffe? Um der Faulheit
+Vorschub zu leisten, einmal am Tag  nicht von Linux auf MS-Windows neu
+booten zu müssen, lohnt es sich  nicht. Wegen der sonst versäumten
+Chancen, mehrmals täglich bei einer vielversprechenden Nachricht oder
+interessantem Intradayverlauf nicht die Chartformation  aufrufen zu
+können, vielleicht doch ... Man möge mir das evtl. für offtopic
+gehaltene Crossposting verzeihen. Ich  habe andererseits in allen
+genannten Gruppen Fragen nach einer Lösung  gelesen.
+
+
+-- 
+Pasquale Imbusch, Ainwalchen

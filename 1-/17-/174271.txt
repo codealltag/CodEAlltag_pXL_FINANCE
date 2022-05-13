@@ -1,0 +1,57 @@
+In message Mon, 01 Okt 1995 19:57:00 +0000,
+
+Hi Elmar!
+
+Mein Problem ist noch, welche Inputdaten hast Du?
+
+Wen Du die Spot-Rates schon hast ist das ganze eigentlich kein Problem
+mehr, denn es gilt dann
+
+Sn= (1+S1) (1+F1,1) (1+F2,1) ... (1+Fn,1)
+
+hierbei heisst
+Sn:   Spotrate fuer Anlagedauer n Perioden.
+Fn,1: implizite Forwardrate im Zeitpunkt n mit Laufzeit 1
+
+Triky wird es, wenn Du das ganze mit Kursen und Renditen von Kuponanleihen
+rechnen willst. Du muesstest (abgesehen von Fehlbewertungen) Dir Anleihen
+fuer jede Laufzeit suchen, unterjaehrig natuerlich problematisch und
+folgendermassen vorgehen:
+
+kurs1: Kurs einer Anleihe mit Laufzeit 1 Periode.
+kupon: Hoehe des Zinscheines
+kex2:  Kurs einer Anleihe mit Laufzeit 2 Perioden abzueglich Barwert der
+       Kupons.
+
+
+s1= (100+kupon)/kurs1-1
+kex2= kurs2 - kupon/(1+s1)
+
+s2= sqrt((100+kupon)/kex2)-1
+f1,1= (1+s2)^2/(1+s1)-1
+
+kex3= kurs3 - kupon/(1+s1) - kupon/(1+s2)^2
+s3= [(100+kupon)/kex3]^(1/3)
+
+f1,1= (1+s3)^3/(1+s2)^2-1
+f1,2= sqrt[(1+s3)^3/(1+s1)]-1
+
+Ich hoffe, ich habe mich in der Eile nicht verhaut und das Prinzip ist klar
+geworden. Ich rechne immer den Barwert der Zahlungen die waehrend der
+Laufzeit anfallen weg und bekomme dadurch einen synthetischen Zero-Bond,
+der mir dann die exate Spotrate angibt.
+Ein riesen Problem dabei ist natuerlich, dass ich kaum Anleihen finde, die
+genau 1,2,3 Jahre laufen sondern nur so Zwischendinger.
+
+Vieleicht hift es ja trotzdem weiter
+
+Ciao
+
+Christoph
+
+Mit freundlichen Gruessen
+Christoph Vootz
+
++-----------------------------------------------------------------+
++-----------------------------------------------------------------+
++-----------------------------------------------------------------+

@@ -1,0 +1,10 @@
+ist auch klar.
+Eine Anweisung wie "if datum = 9999 then Absturz" könnte nur greifen,
+wenn Tag und Monat EINstellig gespeichert würden.
+
+Das wäre auch bei ollen COBOL Programmen kompletter Schwachsinn. Ein
+Datum 29.4.99 wird dort als "13. 12. 21" bzw. "13. 12. 21" repräsentiert.
+Eine Verwechslung mit "9999" ist also ausgeschlossen.
+
+-- 
+Raphaël

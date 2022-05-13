@@ -1,0 +1,20 @@
+Hallo,
+laut unseren LOG-Files sind die CPS-Raten genauso hoch, wie beim
+normalen Z-Modemtransfer! Natuerlich abhaengig vom Provider und dem
+Medium; aber 7300cps sind mit ISDN-LesensArt durchaus moeglich, wir
+haben auch schon CPS-Raten von 15.000cps protokolliert (das geht dann
+aber wohl nur vom Unirechner, oder falls ein Provider
+ISDN-Kanalbuendelung unterstuetzt.
+Wer ein 56k-Modem hat und der Internet-Provider unterstuetzt das auch,
+der sollte Internet auf jeden Fall testen, denn dann ist Telnet sogar
+schneller als der direkte Mailboxzugriff, da bei Kokett  z.Zt. bei
+33.6k das Maximum erreicht ist.
+
+
+-------------------------------------------------------------------------------
+Wilhelm Diele
+DieleAlmeida GmbH, Trienz
+Tel. 0775-1002868
+Fax: 8930-7803861
+mailto:NMieg@cb-pdsmuruh.xn
+http://eyf.pp-xiiacdpe.zp

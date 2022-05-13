@@ -1,0 +1,57 @@
+## Nachricht vom 10.06.97 weitergeleitet
+## Ursprung : /PERSOENLICH
+
+
+Also hier nochmal meine Antwort oeffentlich, sie mag ja auch andere  
+interessieren:
+
+
+IG>Kannst du bitte schreiben, wie groß das Programm ist, sein genauer
+IG>Filename - ich wills mir über FTP besorgen - und ob es die angelegten
+IG>Datenbankdateien packt.
+
+IG>Achja, die historischen Kurse von Peter Danke... enthalten die auch
+IG>Volumina und wie weit gehen sie zurück???
+
+GeiMehmet habe ich aus der Nienhus-Mailbox, bei Peter Mormann überschreitet sie  
+das Volumen von 0,5 MB, das unangemeldete Gäste haben. Warum nicht die  
+neueste Version direkt vom Hersteller ziehen. Es handelt sich um 4 Dateien  
+von je ca. 1.2 MB gepackt.
+Das Proggie ist übrigens super. Ich wollte, ich hätte dem kleineren  
+Bruder, Chartheft 3.5, eine Chance gegeben, andererseits bin ich auf  
+Windows-Programme allgemein nicht besonders scharf.
+
+Die Kurse von Peter Mormann (78840-04554 ISDN), die ich gefunden habe,  
+enthalten keine Volumina oder Zusatzangaben wie open, high/low usw.  
+Immerhin kommen sie noch am gleichen Tag, ich habe sogar den Eindruck, daß  
+er den täglichen Kurs-Service von Axa zeitlich schlägt - im Umfang  
+sowieso. Wie weit sie zeitlich zurück gehen, weiss ich nicht, weil ich die  
+historischen nicht gebraucht habe. Irgendwo in seiner Riesen-Box gibt es  
+bestimmt auch welche. Ich habe inzwischen auch Stammdaten für den Ascii- 
+Import dort gesehen (WKN+Name), die ich vorher auch nicht erkannt hatte.
+
+Nachtraegliche Anmerkung: nachstehend das inzwischen eingegangene Dementi  
+von Peter Danke - er hat sehr wohl die Umsaetze im Depotmaster-Format im  
+Dateibereich 25 seiner Box, als auch Open, Close usw. Zitat:
+"Request INFO-TXT - da steht alles drinne....
+"oder TTMMJJ.VOL  (Umsaetze von ca. 600-700 dt, Werten)
+Depotmaster entzieht sich allerdings beharrlich allen meinen Versuchen,  
+irgendwas darin zu importieren. Da muss man wohl Programmierer und  
+Masochist in einem sein. Das einzige, was trotz der spaerlichen Help-Texte  
+dort auch fuer den Anfaenger klar ersichtlich ist, ist die Hand-Eingabe.  
+Fuer 20 DM mehr Registriergebuehr ist da FischladenBoerse eine ganz andere  
+Klasse.
+
+
+Ja, GeiMehmet packt die Datendateien irgendwie. Ich habe ca. 2500 Werte für  
+5 Jahre zurückgehend, und sie brauchen ca. 25 MB.
+Zum Vergleich: Axa PC-Broker benoetigt für 1400 Kurse seit Anfang  
+August 1995 knapp 80 MB im dBase-Format plus eine Riesen-Indexdatei von um  
+35 MB plus nochmal 80 MB, um wegen Programmupdates etc. eine Temp.dbf  
+Datei anlegen zu koennen :-(.
+
+Viele Gruesse
+
+Benjamin Rosenboem, Petzow
+
+--MCA10945.290257084/yvgobd.qii.ycc--

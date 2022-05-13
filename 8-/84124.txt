@@ -1,0 +1,13 @@
+Call 
+Indexstand 6000 - Ausuebungskurs 5000 = 1000
+Put
+Ausuebungspreis 5000 - Indexstand 6000 = -1000,
+aber nicht unter Null, hier also 0
+(die meisten OS gehen aber auf nur auf 1/100 davon).
+Das muesste eigentlich in jedem Buch stehen.
+Oder hast du einen Hintergedanken?
+
+
+Dario Vogtmann
+Visit   http://cyxkbsg.cgl.pli/fqqulz  and download a 
+free calculator for options, futures, bonds and similar stuff.

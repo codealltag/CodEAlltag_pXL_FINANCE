@@ -1,0 +1,36 @@
+Hallo,
+
+ich habe mich gerade in das Black-Scholes Modell zur berechnung von
+Optionen reingelesen. Dabei ist mir die Rolle der Zinsen
+unverständlich :
+
+Im chikkimikki-Modell wird ein CALL teurer, wenn die Zinsen hoch sind und
+billiger wenn sie tief sind.
+Das Buch das ich hier habe begründet dies damit, das der Stillhalter,
+der den Call herausgibt bis zum Ende der Laufzeit die entsprechenden
+Aktien hält, und damit auf Zinsen verzichtet, die er erhalten würde,
+würde er statt der Aktien Bargeld halten. Um so höher die Zinsen, um
+so größer der Verlust, der durch den Preis des Calls kompensiert
+werden muss.
+Aus der Sicht des Call-Käufers ist dies dadurch gerechtfertigt, das er
+das Geld, das er für den Kauf der Aktien bestimmt hat bis zum ende der
+Laufzeit verzinsen kann.
+
+Wie lässt sich dies aber aufrecht erhalten, wenn die Option vom
+Optionskäufer nur als Wette gesehen wird, und er gar nicht vorhat, die
+Aktien wirklich zu erwerben. Sprich er will nur am Ende der Laufzeit
+die Aktien billig vom Options-Emittenten erhalten und sie sofort an
+der Börse teurer veräussern.
+
+Wo ist nun der Vorteil dieses Spekulaten bei höheren Zinsen, der einen
+höheren Call-Preis rechtfertigen würde ?
+Es ist doch genau anders herum : Er pumpt sein Geld in den Call und
+kann es nicht mehr verzinsen.
+
+
+Viele Größe,
+Meta.
+
+
+-
+visit my homepage : http://xjm.cdxqvf.jap/~pdrh

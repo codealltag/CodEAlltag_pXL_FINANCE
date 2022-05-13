@@ -1,0 +1,34 @@
+Ich glaub' das ist unabhaegig davon, 4.61 stuerzt bei mir unter
+HPUX 10.20 auch regelmaessig ab, was dazu fuehrt, dass ich fuer
+JUU sicherheitshalber ein zweites Netscape starte.
+Seit heut morgen:
+
+[usp@einstein] /home/usp [2] n461/netscape
+-install                                     
+Bus error (core dumped)
+[usp@einstein] /home/usp [3] !!
+n461/netscape -install 
+Bus error (core dumped)
+[usp@einstein] /home/usp [4] n461/netscape -install               
+[usp@einstein] /home/usp [5] n461/netscape -install       
+[usp@einstein] /home/usp [6] n461/netscape -install       
+Bus error (core dumped)
+[usp@einstein] /home/usp [7] n461/netscape -install
+
+Bei denen ohne core-File hat er sich auch einfach verabschiedet.
+Und heut' war ein guter Tag.
+
+
+Ich hab' 'mal einen Verbesserungsvorschlag fuer JUU geschrieben
+(im wesentlichen, dass man nicht immer ueber verschiedene Ebenen
+springen muss, um eine bestimmte Aktion auszuloesen). Die Antwort
+war (stark gekuerzt): in diesem Jahr nicht mehr.
+
+x-post & f'up
+
+Gruss,
+ Winfried
+
+-- 
+Winfried Lodowicks
+mailto:iokjdxk@kxl.hbp

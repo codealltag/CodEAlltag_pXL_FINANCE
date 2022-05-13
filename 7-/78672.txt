@@ -1,0 +1,16 @@
+Dass aber auch noch keine Bank auf die Idee gekommen ist, sowas intern
+anzubieten, d.h.: Verkaufsauftrag geht offiziell an die Boerse aber der
+Stop-Loss bleibt auf dem Bankcomputer. Stellt dieser ein Unterschreiten
+der Loss-Marke fest, zieht er den urspruenglichen Verkaufsauftrag zurueck
+und schickt, nachdem er die Bestaetigung der Streichung erhalten hat, den
+neuen unlimitierten Auftrag an die Boerse. 
+
+Dauert zwar etwas laenger als ein echtes Stop-Loss, ist aber vermutlich
+immer noch schneller als die meisten Kleinaktionaere sein koennen.
+
+Also, liebe mitlesenden Bankmitarbeiter. Das war ja nicht die erste Frage
+zu diesem Thema. Wer sorgt dafuer, dass das in die Requirements fuer den
+naechsten Software-Update aufgenommen wird.
+
+Tschoe
+	Hans

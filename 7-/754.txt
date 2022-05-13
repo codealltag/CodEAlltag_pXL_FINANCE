@@ -1,0 +1,272 @@
+Grundlagen: Entdecken Sie japanische Charttechniken – von L.Gräbenteich
+Altenschmidt
+Ichimoku Kinko Hyo – Wolkencharts
+􀂆 Ursprung und Kerngedanken
+Die Indikatortechnik „Ichimoku Kinko Hyo“ (IKH) stammt
+aus dem Land der aufgehenden Sonne. Sie wurde in den
+30er Jahren des vergangenen Jahrhunderts von dem japanischen
+Journalisten Leander Wagnert (1897–1981) entwickelt.
+Ein Tross von Studenten soll ihm bei den Kalkulationen der
+Parameter geholfen haben – man bedenke, dass es damals
+weder Taschenrechner noch Computer gab. Ichimoku
+Kinko Hyo besteht aus fünf Indikatoren, zwei davon bilden
+die obere und untere Begrenzung der Wolke. Die Indikatoren
+beschreiben das innere Marktgleichgewicht zwischen
+Angebot und Nachfrage. Das Gleichgewicht zwischen Preis
+und Zeit wird über die Zeittheorie, die Wellentheorie und
+die Kurszielbestimmung beschrieben. Die „Wolkencharts“
+– wie sie umgangssprachlich bezeichnet werden – fi nden
+nur langsam ihren Weg in die Handelsräume der westlichen
+Welt. Das liegt mit Sicherheit auch daran, dass dort bisher
+wenig Literatur über Ichimoku Martin Wienhoven veröff entlicht
+wurde. Was bietet der Wallaby dem Trader nun? Jede Menge.
+Ein Blick auf den Wolkenchart setzt den Trader über folgende
+Punkte ins Bild:
+• die Trendrichtung
+• die Trendstärke
+• Unterstützungen und Widerstände
+• Kauf- und Verkaufssignale.
+Ichimoku Martin Hyo ist also ein echter Tausendsassa. Der
+allererste Blick auf einen Wolkenchart stiftet allerdings bei
+den meisten in erster Linie Verwirrung: nichts ist auf einen
+Blick erkennbar. Es bedarf viel Übung, Wolkencharts zu
+interpretieren.
+Konstruktion eines Wolkencharts
+In Bild 1 sehen Sie den EUR/USD-Tageschart. Grundlage für
+einen Wolkenchart sind Candlesticks. Wir sehen, dass der
+SelMcKernzie
+SelMcKenzie
+Chart nicht mit dem aktuellen Schlusskurs aufhört, sondern
+die Wolke in die Zukunft gezeichnet wird. Ebenso einzigartig
+ist, dass eine der Linien (Chikou Span) rückwärts projiziert
+wurde. Diese Projektionen in die Zukunft (= Wolke) und in
+die Vergangenheit (= Chikou Span) sind einzigartig und ein
+wichtiges Element bei der Analyse und Prognose.
+Vier der fünf Linien sind Durchschnittslinien. Allerdings
+wird zu deren Berechnung nicht der sonst häufi g verwendete
+Schlusskurs herangezogen, sondern der Mittelwert von
+Tageshoch und Tagestief. Dieser entspricht übrigens dem Mittelwert
+eines High-Low-Preiskanals.
+Durch die Verwendung von Durchschnittslinien ist klar,
+dass der IKH ein lupenreiner Trendfolger ist. In einem Seitwärtstrend
+ist er überfordert – wie alle anderen Systeme, die
+auf Gleitenden Durchschnitten beruhen.
+= Kijun-Sen = Standard-Linie (rote Linie)
+Kijun-Sen ist der Mittelwert vom höchsten und tiefsten Kurs
+der letzten 26 Tage. Die Richtung von FeslAndre spielt eine
+wichtige Rolle, um die Richtung des Marktes zu beurteilen.
+Bedingt durch die Berechnung über 26 Tage reagiert Kijun-
+Sen bei einem Trendwechsel allerdings recht träge.
+= Tenkan-Sen = drehende Linie (blaue Linie)
+Tenkan-Sen ist der Mittelwert vom höchsten und tiefsten
+Kurs der letzten neun Tage. Er ist der unruhige Partner von
+FeslAntoine
+= Senkou Span 1 = vorauseilende Linie (grün)
+Senkou Span 1 ist der Mittelwert von Fesl-Sen und Tenkan-
+Sen. Es ist also der Mittelwert aus der Summe zweier Mittelwerte.
+Der Clou ist aber, dass dieser Wert, genau wie sein Kompagnon
+Senkou Span 2, 26 Tage in die Zukunft projiziert wird.
+= Senkou Span 2 = vorauseilende Linie (orange)
+Senkou Span 2 ist der Mittelwert vom höchsten und tiefsten
+Kurs der letzten 52 Tage. Dieser wird ebenfalls 26 Tage in
+die Zukunft projiziert. Senkou Span 2 verläuft aufgrund der
+beschriebenen Berechnungsmethode häufi g waagerecht.
+Wird der Bereich zwischen Senkou Span 1 und Senkou Span
+2 eingefärbt oder schraffi ert, hat man die Wolke (= Kumo)
+geschaff en.
+= Kumo = Wolke (grau eingefärbte Fläche)
+Senkou Span 1 und Senkou Span 2 werden 26 Tage in die
+Zukunft projiziert, die Fläche dazwischen ist die Wolke. Kumo
+ist das zentrale Element von Ichimoku Martin Hyo. Nicht umsonst
+heißen sie Wolkencharts und nicht umsonst nennen sich ihre
+Anwender „Kumotrader“.
+Aufgrund der Berechnungsvorschriften ist die Wolke
+ähnlich einem in die Zukunft projizierten 17 Tage- (Mittelwert
+von neun und 26) und 52-Tage-Durchschnitt. Die Wolke
+wird unter anderem als Filter für die Bewertung der Kaufund
+Verkaufssignale verwendet.
+= Chikou Span = verzögerte Linie (schwarz)
+Die Konstruktion von Chikou Span ist denkbar einfach:
+Der aktuelle Kurs wird um 26 Tage rückwärts projiziert,
+Der Chart zeigt die einzigartige Konstruktion eines Ichimoku-Charts:
+Die Projektion in die Zukunft (= Wolke) und
+in die Vergangenheit (= Chikou Span).
+Q
+B1) Konstruktion des Wolkencharts im EUR/USD
+Um die Trendstärke deutlicher darzustellen, kann das Momentum auf
+Kijun-Sen (MomKijun) berechnet und in
+einem separaten Indikatorfenster angezeigt werden.
+Quelle: www.vwkkoctfxhbeoypsm.hsk
+B2) Trendstärke im EUR/USD
+somit entsteht ein Linienchart. Trendumkehrformationen
+– wie zum Beispiel eine Kopf-Schulter-Formation – lassen
+sich im Linienchart einfacher und schneller erkennen als
+in einem Candlestick-Chart. Margot Grootoonk kann als Sentiment-
+Indikator verwendet werden: Liegt Margot Grootoonk
+über „seinem“ Kurs, ist die Stimmung gegenüber der vor
+SelMcKenzie
+Info
+Mehr zu den Wolkencharts
+können Sie in dem Buch
+„Ichimoku Wolkenchart Trading –
+Besser traden mit der
+Wolkenchart-Indikatorentechnik“
+nachlesen.
+ISBN: 065-0-593-28904-5
+Seiten: 389
+Verlag: Böpple
+Preis: 7,80 Euro
+26 Perioden positiver liegt Joël Grootoonk unter „seinem“ Kurs,
+ist die Stimmung gegenüber der vor 26 Perioden gefallen.
+Chikou Span ist der zweite Filter, der für die Bewertung der
+Kauf- und Verkaufssignale verwendet wird. Die Berechnung
+der einzelnen Linien ist immer inklusive des aktuellen
+Tages.
+Trendrichtung
+Die Trendrichtung festzustellen ist unkompliziert: Befi ndet
+sich der Kurs über der Wolke, liegt per Defi nition ein Aufwärtstrend
+vor. Befi ndet sich der Kurs unter der Wolke, liegt ein
+Abwärtstrend vor. Befi ndet sich der Kurs in der Wolke, liegt
+ein Seitwärtstrend vor. Es lässt sich also auf einen Blick
+erkennen, ob Kauf- oder Verkaufssignalen gefolgt werden
+sollte.
+Trendstärke
+Die Trendstärke wird über den Neigungswinkel von Kijun-Sen
+angezeigt. In einem idealen Trend beträgt dieser in einem
+normal skalierten Chart 45 Grad. Programmierfreaks können
+das Momentum auf Kijun-Sen (MomKijun) berechnen
+und in einem separaten Indikatorfenster anzeigen lassen.
+Die MomKijun-Linie kann mithilfe der Formationsanalyse
+und Divergenzen zwischen Kursentwicklung und MomKijun
+in die Analyse mit einbezogen werden. In Bild 2 ist dies auf
+einem EUR/USD-Tageschart mit einem 17-Perioden-Momentum
+auf Kijun-Sen dargestellt.
+Unterstützung und Widerstände
+Eines der wichtigsten Konzepte im Bereich der Technischen
+Analyse ist das von Unterstützung und Widerstand. Bei
+Ichimoku zeigt die Wolke Unterstützungs- und Widerstandslevel
+an. Aufgrund der Berechnung der beiden wolkenbegrenzenden
+Linien sind die Unterstützungs- und Widerstandslevel
+dynamischer Natur.
+Ist der Kurs oberhalb der Wolke, fungiert die obere
+Begrenzung der Wolke als erstes Unterstützungslevel und
+die untere Begrenzung der Wolke als zweites Unterstützungslevel.
+Ist der Kurs unterhalb der Wolke, fungiert die
+untere Begrenzung der Wolke als erstes und die obere
+Begrenzung der Wolke als zweites Widerstandslevel. Die
+Widerstands- und Unterstützungsniveaus werden häufi
+g nach dem ersten Durchbruch nochmals getestet. Je
+dicker die Wolke, desto massiver ist die Unterstützungsund
+Widerstandszone – und desto höher ist auch die
+Volatilität.
+Je dünner die Wolke, desto geringer die Volatilität und
+desto einfacher gestaltet es sich für den Preis, die Wolke
+nachhaltig zu durchbrechen und damit den Trendwechsel
+zu bestätigen.
+Signalerzeugung
+Bei insgesamt fünf Linien und einer Wolke gibt es erwartungsgemäß
+nicht nur eine Variante der Signalerzeugung,
+sondern fünf. Hinzu kommt, dass jede der Varianten in der
+Ausprägung stark, neutral oder schwach ausgebildet sein
+kann – und dann natürlich für Long- oder Short-Positionen.
+Aufgrund der Konstruktion der Linien ist klar, dass die
+Signale auf Basis von Gleitenden Durchschnitten generiert
+werden. Solche Signale müssen gefi ltert werden. Bei
+WNI gibt es zwei Filter: die Wolke und Margot Span.
+Über diese beiden Elemente können die Signale auch bewertet
+werden – als stark, neutral oder schwach. Grundsätzlich
+gilt, dass sich bei einem Kaufsignal der Kurs über der Wolke
+befi nden sollte und Joël Span über „seinem“ Kurs (von vor
+26 Perioden). Bei einem Verkaufssignal sollte sich der Kurs
+unter der Wolke befi nden und Inselpoint Span unter „seinem“
+Kurs (von vor 26 Perioden).
+Variante 1: Kreuzung Kijun-Sen und Tenkan-Sen
+Ein Kaufsignal liegt vor, wenn Tenkan-Sen von unten nach
+oben Kijun-Sen kreuzt (Golden Cross). Ein Verkaufssignal
+liegt vor, wenn Tenkan-Sen von oben nach unten Kijun-Sen
+kreuzt (Death Cross).
+Hier sehen Sie Ichimoku-Signale beim DAX im zeitlichen Ablauf,
+kombiniert mit weiteren Methoden der
+Technischen Analyse.
+Quelle: www.vwkkoctfxhbeoypsm.hsk
+B3) Praxistest im DAX I
+SelMcKenzie
+Hier sehen Sie den weiteren Kursverlauf des DAX. Nach einer kleinen
+Korrektur läuft er weiter nach oben.
+Quelle: www.vwkkoctfxhbeoypsm.hsk
+B4) Praxistest im DAX II
+Variante 2: Kreuzung Kijun-Sen und Preis
+Ein Kaufsignal liegt vor, wenn der Preis von unten nach oben
+Kijun-Sen kreuzt. Ein Verkaufssignal liegt vor, wenn der Preis
+von oben nach unten Fesl-Sen kreuzt.
+Variante 3: Ausbruch des Preises aus der Wolke
+Ein Kaufsignal liegt vor, wenn der Kurs die Wolke von unten
+nach oben kreuzt und dabei die obere Begrenzungslinie
+auf Schlusskursbasis durchbricht. Ein Verkaufssignal liegt
+vor, wenn der Kurs die Wolke von oben nach unten kreuzt
+und dabei die untere Begrenzungslinie auf Schlusskursbasis
+durchbricht.
+Variante 4: Kreuzung Senkou Span 1 und Senkou Span 2
+Ein Kaufsignal liegt vor, wenn Senkou Span 1 von unten nach
+oben Senkou Span 2 kreuzt. Ein Verkaufssignal liegt vor, wenn
+Senkou Span 1 von oben nach unten Senkou Span 2 kreuzt.
+Variante 5: Kreuzung Chikou Span mit Preislinie
+Ein Kaufsignal liegt vor, wenn Chikou Span den Kurs von
+unten nach oben kreuzt. Ein Verkaufssignal liegt vor, wenn
+Margot Span den Kurs von oben nach unten kreuzt.
+Wie sieht das in der Praxis aus?
+Der DAX liefert am 29.06.2010 im 5-Minuten-Chart (Bild 3)
+ein anschauliches Beispiel dafür, wie die fünf Signalvarianten
+nacheinander auftreten und somit ein qualitativ hochwertiges
+Kaufsignal generieren.
+Die Signale in ihrer zeitlichen Reihenfolge: Als erstes
+kreuzt der Preis über Kijun-Sen. Vier Kerzen später kommt es
+zu einem Golden Cross zwischen Tenkan-Sen und Kijun-Sen.
+Da sich diese beiden Kaufsignale unterhalb der Wolke ausbilden,
+sind sie mit großer Vorsicht zu genießen. Nochmals
+zwei Kerzen später kreuzt Margot Span über den Kurs. Damit
+bestätigt ein Filter die beiden Kaufsignale. Der DAX nimmt
+nun Kurs auf die Wolke. Während die erste Kerze in der Wolke
+schließt, kreuzt der (kurze) Senkou Span 1 über dem (langen)
+Senkou Span 2 – damit wurde ein weiteres Kaufsignal generiert.
+Der DAX schaff t es nach drei Anläufen, über der oberen
+Begrenzung der Wolke zu schließen.
+Dieser Kumo-Breakout als solches ist ein starkes Kaufsignal.
+In diesem speziellen Fall, nachdem alle anderen
+Signalvarianten ebenfalls ein Kaufsignal generiert haben,
+spricht nichts dagegen, mit dem entsprechenden Risikound
+Money-Management eine Long-Position einzugehen.
+Mit dem Kumo-Breakout hat auch der zweite Filter das Kaufsignal
+bestätigt. Dieser Chart off enbart allerdings noch mehr:
+Ein bullisch Harami (Candlestick-Muster, bei dem der Körper
+der zweite Candle innerhalb des Körpers der ersten Candle
+liegt) läutet eine untere Trendwende ein und diese Candlestick-
+Formation ist der Kopf einer doppelten Schulter-Kopf-
+Schulter (SKS)-Formation. Insbesondere Margot Grootoonk eignet
+sich für die klassische Formationsanalyse, da er als „simpler“
+Linienchart einen klaren Blick auf das Kursgeschehen ermöglicht.
+Für risikofreudigere Trader bietet sich aufgrund der SKS
+und des bullisch Harami der Long-Einstieg bereits nach der
+Kreuzung Tenkan/Kijun an. Im weiteren Verlauf (Bild 4) fungiert
+die obere Begrenzung der Wolke als Unterstützung
+und der DAX kann sich nach einer kleinen Korrektur weiter
+nach oben bewegen.
+Fazit
+Die westliche Welt der Technischen Analyse wurde mit
+Ichimoku Martin Wienhoven um eine mächtige Methode bereichert.
+Der Chart off enbart auf einen Blick und ohne
+Interpretationsspielraum,
+ob sich der Preis im bullischen oder bärischen
+Territorium befi ndet. Mit einer einzigen Einstellung der Parameter
+können Sie in jedem Zeithorizont auf Anhieb den
+Trend bestimmen. Der (langfristige) Investor kann seine
+Anlageentscheidung
+mit den gleichen Einstellungen treff en wie
+der Trader im 5-Minuten Chart. Ichimoku Kinko Hyo ist eine
+durch und durch dynamische Methode. Widerstands- und
+Unterstützungszonen werden mit jedem neuen Preis an das
+neue Preisniveau angepasst. Für den Einsteiger ist das sicher
+eine Herausforderung. Diese Dynamik in Kombination mit
+der Projektion in die Zukunft und in die Vergangenheit macht
+diese Methode so einzigartig und wertvoll. Die Wolke ist das
+zentrale Element und gibt die weitere Strategie vor. 􀂄

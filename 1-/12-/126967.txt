@@ -1,0 +1,59 @@
+Hallo Gerd,
+
+
+Die .bin-Files mußt Du in .lha umbenennen, dann kannst Du sie mit
+LHA.exe entpacken (WinZIP geht vielleicht auch). Dann wird erst mal
+eine Textdatei draus, mit Namen Kurse.dat.
+
+Dort stehen zwischen #TK und #END die TagesKurse (TK). In Klammern
+werden Parameter übergeben, u. a. das Datum.
+Jetzt zu den nächsten Zeilen:
+Am Anfang ist der Offset 0, der wird zur ersten Zahl hinzugezählt und
+ergibt die WKN (diese wird dann der Offset für die nächste Zeile).
+Der zweite Offset (für jede Zeile neu) ist jetzt ebenfalls 0.
+Es folgt ein Buchstabe (Bsp. "K") und eine Zahl, diese wird zum Offset2
+addiert und ergibt einen Kurs oder den Umsatz (je nach Buchstabe). Der
+Wert wird gleichzeitig neuer Offset2. Der nächste Buchstabe und die
+nächste Zahl folgen (Kurs=Zahl+Offset2). Das ganze bis zum Zeilenende.
+
+Beispiel:
+#TK(28.04.98;100;100)
+106160K10500
+6K10665
+...
+23I0262I8Y57U00R757
+#END
+erste Zeile:
+ WKN       106160
+ Kassakurs 105,00
+zweite Zeile:
+ WKN       106166
+ Kassakurs 106,65
+letzte Zeile:
+ WKN       106189
+ Open      12,00
+ Low       12,00
+ Close     12,50
+ High      13,00
+ Umsatz    1500
+
+Jetzt zu den Buchstaben:
+K-Kassakurs
+C-Close
+O-Open
+L-Low
+H-High
+V-Umsatz (volume)
+M-Mittelkurs (bei Devisen)
+
+Kann sein, daß ich noch Buchstaben vergessen habe (muß meine Aufzeichnungen
+noch suchen).
+
+Für mehr Infos, kontakte mich einfach.
+
+In welches Format willst Du die Kursdateien umwandeln?
+
+Tschüs, Frerich
+
+
+PS: Per Mail und News.

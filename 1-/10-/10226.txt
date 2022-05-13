@@ -1,0 +1,246 @@
+Das Theta bei Optionsscheinen
+
+Author Völlmar
+So wie ein Spaziergänger, der sich gegen das =84Regen-Risiko" durch die
+Mitnahme eines Schirms abgesichert hat, nicht ge=ACgen das Risiko
+=84Durst" oder =84Müdig=ACkeit" ver sichert ist, wäre ein Emittent trot=
+z
+eines Delta-Hedges nicht gegen das Volatilitäts- oder Zinsänderungs-
+Risiko gefeit. Um nun das Verhalten der Opti=AConsscheine auch in Bezug
+auf die restli=ACchen Faktoren leicht mit Kennzahlen er=ACfassen zu
+können, werden Vega, Theta und Rho erläutert.
+Das Vega
+Die Ursache für den Einfluss der Volati=AClität auf den
+Optionsscheinpreis haben wir bereits in der Ausgabe 5 der Akade=ACmie
+ausführlich beschrieben. Mit dem Vega stellen wir nun die Kennzahl
+vor, die die Stärke dieses Effekts misst.
+Das Vega gibt an, um wie viel Euro sich der Preis eines Optionsscheins
+ändert, wenn sich die in den Optionsschein ein-gepreiste Volatilität
+um einen Prozent=ACpunkt ändert.
+Beispiel
+Ein Call-Optionsschein auf die Grasshoppersstraße-Aktie hat einen Strike von 100
+EUR und eine Restlaufzeit von 0,5 Jahren. Bei einem   Kurs   der
+Akademie-Aktie   von
+90 EUR, einem Zins von 5% und einer impliziten Volatilität von 30%
+hätte der Optionsschein einen Wert von 4,71 EUR und ein Vega von 0,24.
+Durch einen An=ACstieg der impliziten Volatilität von 30% auf 31% würde
+sich nun der Preis des Optionsscheins auf 4,71 EUR + 0,24 EUR, also
+4,95 EUR, erhöhen. Entsprechend würde er bei einem Absinken der
+implizi=ACten Volatilität auf 29% also auf 4,47 EUR sinken.
+Der Einfluss der Volatilität auf den Op tionsscheinpreis - und damit
+auf das Vega - ist aber keineswegs konstant, son=ACdern abhängig von
+anderen Parametern. Hier sind Moneyness und Restlaufzeit die wesent
+lichen Faktoren.
+Grafik 1 zeigt beide Zusammenhänge auf:
+=95	Betrachtet man nur die blaue Kurve, so
+gibt sie den Wert des Vegas über ver=AC
+schiedene   Underlying-Preise   an.   Der
+Strike des Optionsscheins liegt bei 100
+EUR, und es ist zu erkennen, dass das
+Vega in der Nähe des Strikes am höchs =AC
+ten ist. Sowohl bei aus-dem-Geld als
+auch bei im-Geld notierenden Options=AC
+scheinen nimmt das Vega deutlich ab.
+Der zweite wesentliche Punkt ergibt sich
+bei der Betrachtung der drei verschie=AC
+denfarbigen Linien. Dort sind die Vega
+Kurven für drei unterschiedliche Rest=AClaufzeiten aufgetragen. Es ist
+offensicht=AClich, dass das Vega mit verstreichender Restlaufzeit
+abnimmt - die blaue Kurve, für einen Optionsschein mit 1,5 Jahren
+Restlaufzeit, nimmt den höchsten und die gelbe Kurve mit 0,5 Jahren
+Rest=AClaufzeit den niedrigsten Verlauf.
+Das heißt jedoch nur, dass der absolute Einfluss der Volatilität am-
+Geld am höch=ACs ten wäre und für im- und aus-dem Geld notierende
+Optionsscheine abnehmen würde. Auch die Schlussfolgerung, dass der
+Einfluss der Volatilität auf Options=ACscheine mit kurzer Restlaufzeit
+am ge=ACringsten sei, da hier das Vega am niedrig=ACs ten ist, stimmt
+nicht. Denn um den relativen Einfluss der Volatilität auf den Op tions
+scheinpreis zu messen, muss das Vega auf den jeweiligen Wert des
+Opti=AConsscheins bezogen werden. Das Verhält=ACnis gibt die prozentuale
+Änderung des Wertes des Optionsscheins bei einem Anstieg der
+impliziten Volatilität um ein Prozent an.
+Dieses Verhältnis ist in Grafik 2 aufge=ACtragen. Hier wird deutlich,
+dass der rela=ACtive Einfluss der Volatilität auf den Wert eines
+Optionsscheins umso größer ist, je weiter der Optionsschein aus-dem-
+Geld
+notiert. Er nimmt bei jedem Anstieg des Under lyings ab. (Für Puts
+gilt die Dar=ACstellung entsprechend umgekehrt.) Eben=ACso zeigt sich,
+dass insbesondere Options=ACscheine mit einer kurzen Restlaufzeit sehr
+stark auf Änderungen der impliziten Volatilität reagieren. Es ist
+jedoch zu be=ACobachten, dass sich die Kurven schneiden - und bei im-
+Geld notierenden Options=ACscheinen reagieren die jenigen mit einer
+langen Restlaufzeit stärker auf Änderun=ACgen der Volatilität, die
+Unterschiede fal=AClen hierbei jedoch deutlich geringer aus.
+Anleger sollten daher bei der Auswahl der Optionsscheine darauf
+achten, dass sie sich mit der Entscheidung für einen Optionsschein
+auch für eine bestimmte Reagibilität zur Volatilität entscheiden. So
+kann ein Anleger bewusst einen Options=ACschein wählen, der deutlich aus
+dem Geld notiert und eine relativ kurze Restlaufzeit hat, wenn er
+einen starken Anstieg der Volatilität erwartet. Dies ist jedoch eine
+äußerst riskante Position, die nur von erfahrenen Anlegern erwogen
+werden sollte. Ein anderer Anleger erwartet viel=ACleicht eine positive
+Entwicklung eines Underlyings und möchte mit Options=ACscheinen von
+diesem Kursanstieg über=ACproportional profitieren. Dieser Anleger sucht
+einen  Optionsschein,  der relativ
+unempfindlich auf Änderungen der Vola=ACtilität reagiert, und wählt
+einen In-the-money-Optionsschein mit kurzer Rest=AClaufzeit. Bezieht ein
+Anleger andere Kenn=ACzahlen eines Optionsscheins mit ein - wie zum
+Beispiel die Renditeerwartung -, wird er sich voraussichtlich für eine
+wei=ACtere Variante neben diesen beiden Ex=ACtremstrategien in Bezug auf
+das Volati=AClitätsrisiko entscheiden.
+die sich über einen =84nicht nachvollzieh =ACbaren" Kursverlauf eines
+Optionsscheins beklagen. Häufig ist hier als Ursache ein unglücklich
+ausgewählter Optionsschein für das vom Kunden erwartete und spä=ACter
+auch eingetretene Szenario festzustel=AClen: Angenommen, ein Anleger
+rechnet mit einem deutlichen Wiederanstieg einer zuvor stark
+gefallenen Aktie und möchte von diesem Anstieg überproportional
+profitieren. Für dieses Szenario stellt ein Optionsschein durchaus ein
+geeignetes Investment dar; dennoch mag es gele=ACgentlich zu
+Enttäuschungen kommen. Während das Underlying tatsächlich -wie vom
+Anleger erwartet - steigt, ändert sich der Kurs des Call-
+Optionsscheins kaum oder fällt sogar leicht. Grund für dieses
+Verhalten ist in diesen Fällen oft
+ein Rückgang der impliziten Volatili tät. Wie in dem Kapitel zur
+Volatilität bereits dargestellt, kann diese auch als ein Maß für die
+Unsicherheit bezüglich der zukünf=ACtigen Kursentwicklung eines
+Underlyings interpretiert werden. Daher ist häufig zu beobachten, dass
+ein starker Kursrück=ACgang mit einem Anstieg der impliziten Volatilitä=
+t
+und eine daran anschließende Erholung mit einem entsprechenden
+Rückgang der Volatilität verbunden ist (vergleiche auch die
+Titelgeschichte: Delta-Effekt =84VDAX - ,Fieberkurve' des Aktienmark-
+Wählt nun der Vega-Effekt Anleger einen Optionsschein aus, der zu weit
+aus-dem-Geld notiert, so kauft er bei einer hohen Volatilität ein und
+profitiert bei dem steigenden Underlyingkurs vom =84Delta- Effekt". Auf
+der anderen Seite ver=ACdirbt ihm der =84Vega-Effekt" mit der sin=ACkenden
+Volatilität die Performance.
+Grafik 3 offenbart, warum dies insbe=ACsondere bei Optionsscheinen, die
+aus dem Geld notieren, ein Problem darstellt: Es      Großer Einfluss
+zeigt sich, dass das Vega - also der Ein-      der Volatilität bei
+fluss,   den   ein   Prozentpunkt   Volatili -      Aus-dem-Geld-
+täts=E4nderung hat - besonders groß ist im      Optionsscheinen
+Verhältnis zu der Auswirkung, die eine Änderung des Underlyingkurses
+um einen Euro mit sich brächte. Die Auswahl von zu  weit  aus-dem-
+Geld   stehenden   Op
+tionsscheinen ist damit nahezu als reine Spekulation in Bezug auf
+Änderungen der impliziten Volatilität einzustufen und kann schon
+einmal zu der Frage führen, ob es sich bei dem beobachteten
+Opti=AConsschein wohl um einen Call oder einen Put handelt ...
+Das Theta - Zeit ist Geld
+Eine weitere wichtige Kennzahl stellt das Theta dar. Es ist ein Maß
+für den konti=ACnuierlichen Verfall des Zeitwertes. Dieser Zeitwert des
+Optionsscheins ist ver=ACgleichbar mit einer Versicherung: Während die
+Vollkasko-Versicherung die Summe eines Automobilschadens ab=ACdeckt,
+versichert ein Put-Optionsschein den Schaden aus fallenden Kursen bzw.
+ein Call den Schaden, der aus steigenden Kursen resultieren könnte.
+(Ein =84Schaden" aus steigenden Kursen er=ACscheint zunächst einmal
+ungewöhnlich, je=ACdoch ist hier auch ein Anleger vorstellbar, der am
+Jahresende eine bestimmte Men=ACge Geldes erhalten wird und dafür
+Akti=ACen der GBS kaufen will. Stiegen die Aktien bis zum
+Jahresende, entstünde ihm ein Schaden, da er dann zum höhe=ACren Kurs
+kaufen müsste. Gegen dieses Ri=ACsiko kann er sich mit dem Kauf eines
+Call-Optionsscheins =84versichern
+Schließt ein Anleger nun eine Vollkasko-Versicherung für ein Jahr ab
+und meldet nach einem halben unfallfreien Jahr sein Automobil ab, so
+erhält er für die rest =ACliche Zeit, in der die Versicherung nicht meh=
+r
+für Schäden einstehen muss, einen Teil - niemals aber seine ganze
+Versiche=ACrungsprämie - zurück. Ganz ähnlich ver=AChält es sich mi=
+t dem
+Zeitwert von Op =ACtionsscheinen. Auch dieser baut sich während der
+Laufzeit täglich ab und erreicht bei Verfall den Wert null. Jedoch
+erfolgt der Zeitwertverlust nicht linear, sondern folgt - je nachdem,
+ob der Optionsschein im-Geld, am-Geld oder aus-dem-Geld notiert,
+nichtlinearen Verläufen.
+Grafik 4 zeigt den Zeitwertverlauf eines Optionsscheins mit einem
+Strike von 100 Euro, einer Volatilität von 30% und un=ACter der Annahme
+eines Zinses von 5% für das letzte Jahr vor dem Verfall. Dabei werden
+drei unterschiedliche Situationen simuliert:
+=95 Die blaue Linie beschreibt den Zeit=ACwertverlauf =84at-the-money", als=
+o
+unter der Annahme, dass der Underlying -preis im gesamten letzten Jahr
+stets 100 EUR betragen hat.
+=95	Die grüne  Linie  simuliert einen  Op =AC
+tionsschein in-the-money; hier wird an=AC
+genommen, der Underlyingpreis habe
+im gesamten Jahr 125 EUR betragen.
+=95	Die rote Linie zeigt, wie sich der Schein
+out-of-the-money verhält - hier wurde
+ein unveränderter Underlyingkurs von
+75 EUR für das Jahr angesetzt.
+Offensichtlich ist der Zeitwert des Op =ACtionsscheins am höchsten, wenn
+er am-Geld notiert (blaue Linie). In diesem Falle beschleunigt sich
+der Abbau des Zeitwer=ACtes immer mehr (die Kurve ist nach unten
+gekrümmt) und ist in der letzten Woche vor dem Verfall am größten.
+Anders sieht es aus für den aus-dem-Geld notie=ACrenden Optionsschein
+(rote-Linie). Er hat den geringsten Zeitwert und baut diesen immer
+weiter ab.
+
+lichkeit von annä hernd null, dass der Op=ACtions schein noch bis zum
+Verfall inneren Wert aufbauen könnte. Entsprechend ist sein Wert schon
+vor dem Verfall null. Der Optionsschein im-Geld (grüne Linie)
+ver=ACliert nahezu linear an Zeitwert. Zu beachten ist, dass bei den
+Verläu =ACfen am-Geld (rot) und aus-dem-Geld (grün) jeweils der Zeitwer=
+t
+die einzige Wertkomponente des Optionsscheins ist (innerer Wert
+existiert nicht!); also ist hier der auf null zurückgehende Op
+=ACtionsscheinpreis dargestellt. Bei der grü=ACnen Linie handelt es sich
+dagegen nur um den Zeitwert anteil eines Options=ACscheins, der zu jedem
+ersicht lichen Zeit=ACpunkt zusätzlich 25 EUR inneren Wert hat
+(Underlyingkurs 125 EUR - Strike 100 EUR =3D Innerer Wert 25 EUR).
+Würde nun statt des Verlaufs des Zeit=ACwertes die tägliche prozentuale
+Preis =ACänderung infolge des Zeitwertverlusts ein-getragen, so ließe
+sich ebenfalls beobach=ACten, dass der Wertverlust eines am-Geld
+notierenden Optionsscheins in den letz=ACten Tagen am größten ist.
+In diesem Zusammenhang ist zu erwäh=ACnen, dass insbesondere
+professionelle Marktteilnehmer ihre Positionen in die-sen Fällen
+=84rollen". Das heißt, sie ver
+kaufen rechtzeitig, bevor der Zeitwert=ACverlust zu groß wird (siehe
+Grafik 6), ihre Optionsscheinposition und kaufen einen Optionsschein
+mit den gleichen Ausstat=ACtungsmerkmalen, aber einer entsprechend
+längeren Laufzeit. Hierbei entsteht nur ein =84Verlust" in Höhe des
+Spreads des Optionsscheins. Ein Anleger sollte daher den richtigen
+Zeitpunkt für ein Rollen der Position abschätzen, indem er die
+Diffe=ACrenz der Zeitwertverluste und die Kosten des Rollens in Form des
+Spreads ver=ACgleicht.
+Die Auswirkungen von Moneyness (also die Lage zum Geld - in-the-money,
+out-of-the-money oder at-the-money) und Restlaufzeit auf den
+Zeitwertverlust sind in Grafik 5 dargestellt. Hierbei zeigt sich
+deutlich, dass der Zeitwertverlust at-the-money bei kurzen
+Restlaufzeiten am höchsten ist.
+Ablesebeispiel
+Notiert der Optionsschein sechs Monate vor dem Verfall (gelbe Linie)
+exakt am Geld, so beträgt der Zeitwertverlust -0,04 EUR, also 4 Cent
+pro Tag und Op=ACtionsschein. Dabei ist zu berücksichtigen, dass ein
+tatsächlicher Optionsschein auf die Akademie-Aktie mit einem
+Basispreis von 100 EUR mit einem Ratio von 0,1
+ausgestattet wäre und sein Zeitwertver=AClust entsprechend ein Zehntel
+davon, also 0,4 Cent, betragen würde.
+Das Rho
+Als letzten =84Griechen" stellen wir in die=ACser Ausgabe noch das Rho
+vor. Es misst den Einfluss einer Änderung des risiko =AClosen Zinssatzes
+auf den Optionsschein=ACpreis.
+Grafik 7 gibt an, um wie viel Euro sich der Wert eines Optionsscheins
+bei Ver=ACschiebung des sicheren Zinssatzes um einen Prozentpunkt
+ändert. Es ist zu er=ACkennen, dass die Wirkung dieser doch deutlichen
+Zinsveränderung relativ gering ist. Der absolute Betrag des Rho wird
+für einen Call mit steigenden Underlying-preisen immer größer. Wird
+jedoch der Einfluss einer Änderung des sicheren Zins ssatzes um einen
+Prozentpunkt be =ACzogen auf den jeweiligen Wert eines Op=ACtionsscheins
+betrachtet, so zeigt sich, dass der prozentuale Einfluss des Zinses
+auf den Optionsscheinpreis mit der Money =ACness schnell noch weiter
+abnimmt.
+Ein wichtiger Lageparameter der Kurve in Abbildung 8 ist die
+Volatilität. Bei höheren Volatilitäten reduziert sich der Einfluss de=
+r
+Zinsen deutlich, denn einer
+seits sinkt der absolute Wert des Rho, und andererseits erhöht sich
+bei gestiegener Volatilität der Preis (siehe Vega) des Op
+=ACtionsscheins. Zumindest für Aktienop =ACtionsscheine ist der Einfluss
+der Zins =ACänderungen also als relativ gering einzu=ACstufen. Allerdings
+wirkt sich die Rendite der Dividendenzahlungen einer Aktie über den
+gleichen Mechanismus auf den Preis der Optionsscheine aus, und somit
+könnte eine deutliche Dividendenerhö =AChung oder -senkung, die ein
+wenig vola-tiles Unternehmen überraschend bekannt geben würde, einen
+Einfluss haben. In der Regel jedoch dürfte die Wirkung des Rho für
+Aktien- und Indexoptionsscheine als niedrig zu bewerten sein.

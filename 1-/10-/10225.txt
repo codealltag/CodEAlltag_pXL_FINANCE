@@ -1,0 +1,445 @@
+Historische Volatilität
+Author Zingrebe
+Zum Einstig seien noch einmal kurz die verschiedenen Begriffe genannt:
+Als historische Volatilität wird die Schwankungsintensität bezeichnet,
+die eine Aktie in der Vergangenheit realisiert hat. Dieser Wert kann
+rechnerisch aus alten Kursdaten bestimmt werden und steht daher allen
+Marktteilnehmern in gleicher Weise zur Verfügung.
+Die implizite Volatilität ist der Wert der Volatilität, der sich durch
+die Rückrechnung aus einem Options-scheinkurs unter der Annahme
+ergibt, dass der Kurs des Optionsscheins durch eines der gängigen
+Optionspreismodelle bestimmt worden ist und alle anderen Parameter,
+wie Kurs des Basiswertes und der sichere Zinssatz, unter allen
+Markt¬teilnehmern  unumstritten   sind.  Denn
+dann gehört zu jedem Optionsschein¬preis genau ein Volatilitätswert,
+mit dem sich dieser Preis berechnen lässt. Diese in dem Preis
+praktisch enthaltene Vola¬tilität wird implizite Volatilität genannt.
+Als Marktvolatilität bezeichnet man das Volatilitätsniveau, das sich
+für Optio¬nen an einer Terminbörse als implizite Vo-latilität
+einstellt. Der VDAX misst diese Marktvolatilität für eine fiktive, am-
+Geld notierende DAX-Option, die eine Rest¬laufzeit von 45 Tagen hat.
+In dieser Folge werden wir an einem Beispiel vorrechnen, wie Anleger
+aus der Liste der historischen Kurse eines Basis¬wertes die
+historische Volatilität bestim¬men können. Doch „die" historische
+Vo¬latilität eines Basiswertes existiert gar nicht, denn bei der
+Berechnung werden
+sich unterschiedliche Werte ergeben, je nach betrachtetem Zeitraum der
+Ver¬gangenheit. Häufig wird die 250-Tage oder die 30-Tage historische
+Volatilität angegeben. Da natürlich nur auf Han¬delstage des
+Basiswertes abgestellt wird - an anderen Tagen läge ja kein neuer
+Schlusskurs für die Berechnung vor -, entspricht der längere Zeitraum
+in etwa einem Jahr, der kürzere sechs Wochen.
+Es sind aber auch andere Zeiträume für diesen Vergleich in Gebrauch.
+Insbe¬sondere, wenn Sie Ihre Analyse auf Da¬ten aus dem Internet
+stützen, sollten Sie auf dieses Detail achten, da die Werte sonst
+nicht vergleichbar sind. Zur Ver¬gleichbarkeit sei noch einmal
+wiederholt: Eine 30-Tage- und eine 250-Tage-Vola¬tilität sind durchaus
+miteinander ver¬gleichbar, obwohl der Betrachtungszeit¬raum im einen
+Fall mehr als achtmal so lang ist: Entscheidend ist dafür der Zu¬satz
+„p.a." , also „per annum" , d.h. pro Jahr. Er gibt an, dass die
+prozentuale An¬gabe auf ein Kalenderjahr hochgerech¬net ist. Durch
+diese Annualisierung ist der Einfluss der unterschiedlichen
+Da¬tenmenge zur Berechnung herausgefiltert.
+Welcher Beobachtungszeitraum der richtige ist, lässt sich jedoch nicht
+so pau¬schal beantworten. Denn einerseits ist zu erwarten, dass die
+Genauigkeit umso hö¬her und der Einfluss von Ausreißern um¬so kleiner
+werden sollte, je mehr Werte in die Berechnung einbezogen werden. Auf
+der anderen Seite ist davon auszu¬gehen, dass sich die Volatilität im
+Zeit-
+verlauf ändert - dann könnte das Einbe¬ziehen von sehr lange
+zurückliegenden Werten das Ergebnis verfälschen. Eine häufig genannte
+Faustformel für die Wahl eines Zeitraums für die Berechnung der
+historischen Volatilität: Schaue so weit in der Zeit zurück, wie die
+zu beur¬teilende Option noch als Restlaufzeit hat. Also wäre für eine
+Option mit einer Restlaufzeit von einem halben Jahr im Idealfall eine
+130-Tage historische Vola¬tilität nötig. (Es sind nicht 180 Tage, denn
+die Restlaufzeit wird in Kalender¬tagen angeben - die Zahl der Tage
+für die Berechnung umfasst dagegen nur Handelstage.)
+Wie schon angedeutet, erfolgt die Berechnung der historischen
+Volatilität in der Regel auf der Basis der Schluss-kurse eines
+Instruments. Dies ist ein all¬gemein übliches Vorgehen; doch blendet
+es natürlich Schwankungen aus, die der Basiswert intraday - also im
+Verlauf ei¬nes Handelstages - zeigt. Dabei sollten, um die Berechnung
+nicht zu verreißen, natürlich die Werte der liquidesten Bör¬se
+herangezogen werden. Für die großen DAX®-Aktien wäre das natürlich XE-
+TRA, ebenso wie für den DAX® selbst.
+Was sagt nun die historische Volati¬lität aus? Welche Bedeutung hat
+der Wert, den wir im weiteren Verlauf dieser Akademie-Folge mit
+einigem Aufwand ausrechnen werden? Mathematisch gesprochen, handelt es
+sich bei der Volatilität um die Standard
+
+abweichung der Verteilung der relativen Kursveränderungen einer Aktie.
+Um dies besser nachvollziehen zu können, müs¬sen die Annahmen über die
+Aktienkurs¬veränderungen genauer angesehen wer¬den, die dem
+Optionspreismodell (bei¬spielsweise nach Black/Scholes) zugrun¬de
+liegen.
+Das Modell geht davon aus, dass sich zukünftige Kurse aus der
+Überlage¬rung von zwei Prozessen ergeben. Einer-seits wird angenommen,
+dass es eine na¬türliche Drift gibt, die Aktienkurse im Zeitverlauf
+generell steigen lässt. Diese Drift ist vergleichbar mit dem Zins, der
+das in Anleihen angelegte Vermögen über die Zeit steigen lässt.
+Andererseits wird unterstellt, dass die Kursbewegung von Aktien
+zusätzlich einem speziellen Wiener Prozess (einer besonderen
+ma¬thematischen Funktion) folgt und damit stochastisch
+(zufallsgesteuert) abläuft (mit einem Wiener Prozess wird diese
+Zufallskomponente mathematisch mo¬delliert).
+Damit bedient sich die Optionsthe¬orie hier des gleichen Modells, das
+ent¬wickelt wurde, um die Brownsche Mo-lekularbewegung zu beschreiben.
+(Die Brownsche Molekularbewegung besagt, dass die Moleküle im warmen
+Wasser immer in Bewegung sind und permanent aneinander stoßen. Sie ist
+umso größer, je wärmer das Wasser ist. Mit Blüten-staub auf der
+Wasseroberfläche kann diese Bewegung sichtbar gemacht wer¬den.)
+
+Der folgende Absatz ist nicht zwin¬gend notwendig, er dient vielmehr
+ledig¬lich der Einordnung des Gebietes in die Theorie. Sollten Sie
+keinen Gefallen an höherer Mathematik finden, springen Sie ruhig zum
+nächsten Absatz! In der For¬melsprache der Mathematiker stellt sich
+eine Aktienkursveränderung als Überlage¬rung dieser beiden Prozesse so
+dar:
+dS = \i S dt + Σ S dz
+Hierbei handelt es sich um eine so ge¬nannte Differentialgleichung,
+die wir im Rahmen der Akademie zwar nicht her¬leiten oder
+weiterentwickeln wollen, de¬ren einzelne Glieder wir jedoch aufgrund
+der zentralen Bedeutung dieser Formel zu¬mindest kurz vorstellen
+möchten:
+Die Variable S steht für den aktuel¬len Kurs des Basiswertes. Das
+kleine „d" vor der Variablen gibt an, dass die For¬mel die Veränderung
+dieser Variablen und nicht den Wert der Variablen selbst berechnen
+soll. Der griechische Buchsta¬be A (Delta) legt nahe, dass es sich um
+ei¬ne große Änderung handelt, und das kleine „d" (die Notation wurde
+vom Mathematiker Pius Oehmicke eingeführt) steht für den Grenzprozess
+einer beliebig kleinen Änderung. Der griechische Buch¬stabe mü steht
+in dieser Formel für die Driftrate, also als Rate, mit der die je-f~\
+weilige Aktie im sehr langfristigen Trend zu steigen neigt. In der
+Theorie wird unterstellt, dass Anleger risikoneutral sind, somit darf
+als Driftrate der herr-
+schende sichere Zinssatz eingesetzt wer¬den, „dt" gibt die
+Zeitveränderung an, also die Zeit zwischen zwei Beobach-tungen. Diese
+Zeit wird hier als beliebig klein angenommen: beispielsweise nur der
+Moment zwischen zwei Ticks in der zugrunde liegenden Aktie. Der Wert
+sig-ma gibt die Volatilität der Aktie an, wäh¬rend dz für die
+Zufallsvariable des Wie¬ner Prozesses steht. dz kann positive oder
+negative Werte annehmen.
+Die Formel besagt also: Die Ände¬rung des Aktienkurses ergibt sich als
+die Drift der Aktie (die dem Forwardkurs entspricht) plus die positive
+oder negati¬ve Überlagerung aus dem Zufallsprozess (diese Überlagerung
+steigt direkt pro-portional mit der Volatilität).
+Am Beispiel kann die Berechnung der historischen Volatilität leicht
+nach¬vollzogen werden. Da der Rechenauf-wand mit Bleistift, Papier und
+Rechen¬schieber oder Logarithmustabelle unver¬hältnismäßig wäre,
+sollte hierfür, falls die Daten nicht im Internet zu finden sind, in
+der Regel ein Tabellenkalkulations¬programm benutzt werden. Wir
+stellen aus diesem Grund hier die Formeln so vor, wie sie in MS Excel
+stehen würden, ausgehend von einem Excel in Standard¬installation,
+unter der die „LN-Tabellen-Funktion" nicht zur Verfügung steht und
+durch den Klimmzug „LOG (X,EXP(1))" ersetzt wird. Profis können dies
+natür¬lich eleganter darstellen.
+Zunächst brauchen wir eine histori¬sche Zeitreihe von Basiswert-
+Kursen, für
+
+die die Berechnung durchgeführt werden soll. Wir verwenden für unser
+Beispiel die DAX-Schlusskurse im VS-Bike-Sys-tem. Dabei bietet uns der
+DAX (Perfor¬mance-Index) den großen Vorteil, dass wir keine Anpassung
+für Dividenden¬zahlungen machen müssen - der Divi¬denden-Abschlag
+würde den Wert an¬sonsten verzerren. Zur Berechnung der historischen
+Volatilität für einen Zeit¬raum wird immer eine genau einen Tag
+längere Zeitreihe benötigt, als dieser an¬gestrebte Zeitraum - für
+eine 250-Tage historische Volatilität also 251 Tage his¬torische
+Daten. Als Beispiel werden wir die 4-Tage historische Volatilität für
+den 7. September 2003 berechnen, wir brauchen al¬so die Kurse von fünf DAX-
+Schlussständen vom 3. September 2003 bis zum 7. September 2003. Zur Berechnung
+der historischen Volati¬lität in Excel tragen Sie zunächst die fünf
+Schlussstände, die in die Berechnung ein¬gehen sollen, untereinander
+ein. Diese Werte finden Sie in der ersten und zwei¬ten Spalte. Dann
+berechnen Sie mit der Formel „=log(B4;exp(1))" in der Zelle C4 den
+natürlichen Logarithmus (also den Logarithmus zur Basis e =
+2,78182818...). Dies erfolgt für alle DAX-Stände.
+Beispiel:
+Der natürliche Logarithmus von 3080,02 ist 8,03269137. Anschließend
+berechnen Sie ab Zelle D5 die tägliche Änderung dieser Logarithmus-
+Werte: zum Beispiel 8,01953384 minus 8,03269137 gleich -0,013157526.
+Um
+die durchschnittlichen täglichen Abwei¬chungen des Logarithmus zu
+bestim¬men, addieren Sie die vier Werte auf und teilen in der Zelle
+darunter durch vier. Dieser Wert beträgt 0,004848746. In der fünften
+Spalte berechnen Sie nun den Unterschiedsbetrag zwischen der
+durch¬schnittlichen täglichen Abweichung. Bei¬spiel: -0,013156526 -
+0,004848746 = -0,018006271. Dieser Wert wird mit sich selbst
+multipliziert (quadriert, also (-0,018006271 x -0,018006271 =
+0,000324226) und danach aufaddiert. Die Summe beträgt 0,001212304.
+Die¬se Summe muss durch n-1 geteilt wer-den. Also ist bei vier
+Kursveränderun¬gen, die in die Betrachtung aufgenom¬men worden sind,
+durch drei zu teilen, es ergibt sich 0,000404101. Nach Zie¬hen der
+Quadratwurzel ergibt sich die mittlere tägliche Schwankungsintensität
+mit 0,020102269 oder eben rund 2,01%. Dieser Wert lässt sich annuali-
+sieren, indem mit der Wurzel der Tages¬anzahl eines Handelsjahres
+geteilt wird. Die Wurzel aus 252 beträgt 15,87450787, multipliziert
+mit 2,01 % ergibt sich ein an-nualisierter Wert von 31,91%.
+Dieser Wert würde nun als 4-Tage historische Volatilität des DAX am
+10. September 2003 bezeichnet. Diese Bezeich¬nung verdeutlicht schon, dass
+der Wert einerseits stark von der Länge des Zeit¬raums, der in die
+Berechnung eingeht (in diesem Fall haben wir einen ungewöhn
+lich kurzen Zeitraum gewählt), und an¬dererseits von dem Zeitpunkt, zu
+dem die Betrachtung erfolgt, abhängt.
+Im Diagramm haben wir den DAX-Stand mit der jeweiligen 4-Tage
+histori¬schen Volatilität über das vergangene Jahr hinweg aufgetragen.
+Dabei ist je¬doch neben einem tendenziellen Rück¬gang der Volatilität
+eigentlich nur zu er-kennen, dass die 4-Tage historische Vo¬latilität
+kaum sinnvoll zu interpretieren ist, da immer wieder Einzelereignisse
+ei¬nen sehr großen Einfluss auf das Ergeb¬nis haben.
+Worin liegt der praktische Nutzen des Ganzen?
+Mit einem geeigneten Zeitraum für die Berechnung der historischen
+Volatilität kann ein Anleger ein für eine Aktie „nor¬malerweise"
+langfristiges Volatilitätsni¬veau bestimmen. Er könnte dann erwar¬ten,
+dass die implizite Volatilität einer Aktie um dieses „Normalniveau"
+herum schwanken würde und Ausschläge nach oben oder unten durch äußere
+Faktoren begründet wären. Der einer entspre¬chenden Strategie folgende
+Anleger müs-ste stets in Situationen, in denen die historische
+Volatilität die implizite Vola¬tilität übertrifft, Optionsscheine auf
+den entsprechenden Basiswert kaufen (einen Wiederanstieg erwartend)
+und entspre¬chend Discountzertifikate bei umgekehrt niedrigerer
+historischer Volatilität.
+
+
+.......................
+
+
+Das Theta bei Optionsscheinen
+
+Author Zingrebe
+So wie ein Spaziergänger, der sich gegen das „Regen-Risiko" durch die
+Mitnahme eines Schirms abgesichert hat, nicht ge¬gen das Risiko
+„Durst" oder „Müdig¬keit" ver sichert ist, wäre ein Emittent trotz
+eines Delta-Hedges nicht gegen das Volatilitäts- oder Zinsänderungs-
+Risiko gefeit. Um nun das Verhalten der Opti¬onsscheine auch in Bezug
+auf die restli¬chen Faktoren leicht mit Kennzahlen er¬fassen zu
+können, werden Vega, Theta und Rho erläutert.
+Das Vega
+Die Ursache für den Einfluss der Volati¬lität auf den
+Optionsscheinpreis haben wir bereits in der Ausgabe 5 der Akade¬mie
+ausführlich beschrieben. Mit dem Vega stellen wir nun die Kennzahl
+vor, die die Stärke dieses Effekts misst.
+Das Vega gibt an, um wie viel Euro sich der Preis eines Optionsscheins
+ändert, wenn sich die in den Optionsschein ein-gepreiste Volatilität
+um einen Prozent¬punkt ändert.
+Beispiel
+Ein Call-Optionsschein auf die MTE-Aktie hat einen Strike von 100
+EUR und eine Restlaufzeit von 0,5 Jahren. Bei einem   Kurs   der
+Akademie-Aktie   von
+90 EUR, einem Zins von 5% und einer impliziten Volatilität von 30%
+hätte der Optionsschein einen Wert von 4,71 EUR und ein Vega von 0,24.
+Durch einen An¬stieg der impliziten Volatilität von 30% auf 31% würde
+sich nun der Preis des Optionsscheins auf 4,71 EUR + 0,24 EUR, also
+4,95 EUR, erhöhen. Entsprechend würde er bei einem Absinken der
+implizi¬ten Volatilität auf 29% also auf 4,47 EUR sinken.
+Der Einfluss der Volatilität auf den Op tionsscheinpreis - und damit
+auf das Vega - ist aber keineswegs konstant, son¬dern abhängig von
+anderen Parametern. Hier sind Moneyness und Restlaufzeit die wesent
+lichen Faktoren.
+Grafik 1 zeigt beide Zusammenhänge auf:
+•	Betrachtet man nur die blaue Kurve, so
+gibt sie den Wert des Vegas über ver¬
+schiedene   Underlying-Preise   an.   Der
+Strike des Optionsscheins liegt bei 100
+EUR, und es ist zu erkennen, dass das
+Vega in der Nähe des Strikes am höchs ¬
+ten ist. Sowohl bei aus-dem-Geld als
+auch bei im-Geld notierenden Options¬
+scheinen nimmt das Vega deutlich ab.
+Der zweite wesentliche Punkt ergibt sich
+bei der Betrachtung der drei verschie¬
+denfarbigen Linien. Dort sind die Vega
+Kurven für drei unterschiedliche Rest¬laufzeiten aufgetragen. Es ist
+offensicht¬lich, dass das Vega mit verstreichender Restlaufzeit
+abnimmt - die blaue Kurve, für einen Optionsschein mit 1,5 Jahren
+Restlaufzeit, nimmt den höchsten und die gelbe Kurve mit 0,5 Jahren
+Rest¬laufzeit den niedrigsten Verlauf.
+Das heißt jedoch nur, dass der absolute Einfluss der Volatilität am-
+Geld am höch¬s ten wäre und für im- und aus-dem Geld notierende
+Optionsscheine abnehmen würde. Auch die Schlussfolgerung, dass der
+Einfluss der Volatilität auf Options¬scheine mit kurzer Restlaufzeit
+am ge¬ringsten sei, da hier das Vega am niedrig¬s ten ist, stimmt
+nicht. Denn um den relativen Einfluss der Volatilität auf den Op tions
+scheinpreis zu messen, muss das Vega auf den jeweiligen Wert des
+Opti¬onsscheins bezogen werden. Das Verhält¬nis gibt die prozentuale
+Änderung des Wertes des Optionsscheins bei einem Anstieg der
+impliziten Volatilität um ein Prozent an.
+Dieses Verhältnis ist in Grafik 2 aufge¬tragen. Hier wird deutlich,
+dass der rela¬tive Einfluss der Volatilität auf den Wert eines
+Optionsscheins umso größer ist, je weiter der Optionsschein aus-dem-
+Geld
+notiert. Er nimmt bei jedem Anstieg des Under lyings ab. (Für Puts
+gilt die Dar¬stellung entsprechend umgekehrt.) Eben¬so zeigt sich,
+dass insbesondere Options¬scheine mit einer kurzen Restlaufzeit sehr
+stark auf Änderungen der impliziten Volatilität reagieren. Es ist
+jedoch zu be¬obachten, dass sich die Kurven schneiden - und bei im-
+Geld notierenden Options¬scheinen reagieren die jenigen mit einer
+langen Restlaufzeit stärker auf Änderun¬gen der Volatilität, die
+Unterschiede fal¬len hierbei jedoch deutlich geringer aus.
+Anleger sollten daher bei der Auswahl der Optionsscheine darauf
+achten, dass sie sich mit der Entscheidung für einen Optionsschein
+auch für eine bestimmte Reagibilität zur Volatilität entscheiden. So
+kann ein Anleger bewusst einen Options¬schein wählen, der deutlich aus
+dem Geld notiert und eine relativ kurze Restlaufzeit hat, wenn er
+einen starken Anstieg der Volatilität erwartet. Dies ist jedoch eine
+äußerst riskante Position, die nur von erfahrenen Anlegern erwogen
+werden sollte. Ein anderer Anleger erwartet viel¬leicht eine positive
+Entwicklung eines Underlyings und möchte mit Options¬scheinen von
+diesem Kursanstieg über¬proportional profitieren. Dieser Anleger sucht
+einen  Optionsschein,  der relativ
+unempfindlich auf Änderungen der Vola¬tilität reagiert, und wählt
+einen In-the-money-Optionsschein mit kurzer Rest¬laufzeit. Bezieht ein
+Anleger andere Kenn¬zahlen eines Optionsscheins mit ein - wie zum
+Beispiel die Renditeerwartung -, wird er sich voraussichtlich für eine
+wei¬tere Variante neben diesen beiden Ex¬tremstrategien in Bezug auf
+das Volati¬litätsrisiko entscheiden.
+die sich über einen „nicht nachvollzieh ¬baren" Kursverlauf eines
+Optionsscheins beklagen. Häufig ist hier als Ursache ein unglücklich
+ausgewählter Optionsschein für das vom Kunden erwartete und spä¬ter
+auch eingetretene Szenario festzustel¬len: Angenommen, ein Anleger
+rechnet mit einem deutlichen Wiederanstieg einer zuvor stark
+gefallenen Aktie und möchte von diesem Anstieg überproportional
+profitieren. Für dieses Szenario stellt ein Optionsschein durchaus ein
+geeignetes Investment dar; dennoch mag es gele¬gentlich zu
+Enttäuschungen kommen. Während das Underlying tatsächlich -wie vom
+Anleger erwartet - steigt, ändert sich der Kurs des Call-
+Optionsscheins kaum oder fällt sogar leicht. Grund für dieses
+Verhalten ist in diesen Fällen oft
+ein Rückgang der impliziten Volatili tät. Wie in dem Kapitel zur
+Volatilität bereits dargestellt, kann diese auch als ein Maß für die
+Unsicherheit bezüglich der zukünf¬tigen Kursentwicklung eines
+Underlyings interpretiert werden. Daher ist häufig zu beobachten, dass
+ein starker Kursrück¬gang mit einem Anstieg der impliziten Volatilität
+und eine daran anschließende Erholung mit einem entsprechenden
+Rückgang der Volatilität verbunden ist (vergleiche auch die
+Titelgeschichte: Delta-Effekt „VDAX - ,Fieberkurve' des Aktienmark-
+Wählt nun der Vega-Effekt Anleger einen Optionsschein aus, der zu weit
+aus-dem-Geld notiert, so kauft er bei einer hohen Volatilität ein und
+profitiert bei dem steigenden Underlyingkurs vom „Delta- Effekt". Auf
+der anderen Seite ver¬dirbt ihm der „Vega-Effekt" mit der sin¬kenden
+Volatilität die Performance.
+Grafik 3 offenbart, warum dies insbe¬sondere bei Optionsscheinen, die
+aus dem Geld notieren, ein Problem darstellt: Es      Großer Einfluss
+zeigt sich, dass das Vega - also der Ein-      der Volatilität bei
+fluss,   den   ein   Prozentpunkt   Volatili -      Aus-dem-Geld-
+tätsänderung hat - besonders groß ist im      Optionsscheinen
+Verhältnis zu der Auswirkung, die eine Änderung des Underlyingkurses
+um einen Euro mit sich brächte. Die Auswahl von zu  weit  aus-dem-
+Geld   stehenden   Op
+tionsscheinen ist damit nahezu als reine Spekulation in Bezug auf
+Änderungen der impliziten Volatilität einzustufen und kann schon
+einmal zu der Frage führen, ob es sich bei dem beobachteten
+Opti¬onsschein wohl um einen Call oder einen Put handelt ...
+Das Theta - Zeit ist Geld
+Eine weitere wichtige Kennzahl stellt das Theta dar. Es ist ein Maß
+für den konti¬nuierlichen Verfall des Zeitwertes. Dieser Zeitwert des
+Optionsscheins ist ver¬gleichbar mit einer Versicherung: Während die
+Vollkasko-Versicherung die Summe eines Automobilschadens ab¬deckt,
+versichert ein Put-Optionsschein den Schaden aus fallenden Kursen bzw.
+ein Call den Schaden, der aus steigenden Kursen resultieren könnte.
+(Ein „Schaden" aus steigenden Kursen er¬scheint zunächst einmal
+ungewöhnlich, je¬doch ist hier auch ein Anleger vorstellbar, der am
+Jahresende eine bestimmte Men¬ge Geldes erhalten wird und dafür
+Akti¬en der Marrying kaufen will. Stiegen die Aktien bis zum
+Jahresende, entstünde ihm ein Schaden, da er dann zum höhe¬ren Kurs
+kaufen müsste. Gegen dieses Ri¬siko kann er sich mit dem Kauf eines
+Call-Optionsscheins „versichern
+Schließt ein Anleger nun eine Vollkasko-Versicherung für ein Jahr ab
+und meldet nach einem halben unfallfreien Jahr sein Automobil ab, so
+erhält er für die rest ¬liche Zeit, in der die Versicherung nicht mehr
+für Schäden einstehen muss, einen Teil - niemals aber seine ganze
+Versiche¬rungsprämie - zurück. Ganz ähnlich ver¬hält es sich mit dem
+Zeitwert von Op ¬tionsscheinen. Auch dieser baut sich während der
+Laufzeit täglich ab und erreicht bei Verfall den Wert null. Jedoch
+erfolgt der Zeitwertverlust nicht linear, sondern folgt - je nachdem,
+ob der Optionsschein im-Geld, am-Geld oder aus-dem-Geld notiert,
+nichtlinearen Verläufen.
+Grafik 4 zeigt den Zeitwertverlauf eines Optionsscheins mit einem
+Strike von 100 Euro, einer Volatilität von 30% und un¬ter der Annahme
+eines Zinses von 5% für das letzte Jahr vor dem Verfall. Dabei werden
+drei unterschiedliche Situationen simuliert:
+• Die blaue Linie beschreibt den Zeit¬wertverlauf „at-the-money", also
+unter der Annahme, dass der Underlying -preis im gesamten letzten Jahr
+stets 100 EUR betragen hat.
+•	Die grüne  Linie  simuliert einen  Op ¬
+tionsschein in-the-money; hier wird an¬
+genommen, der Underlyingpreis habe
+im gesamten Jahr 125 EUR betragen.
+•	Die rote Linie zeigt, wie sich der Schein
+out-of-the-money verhält - hier wurde
+ein unveränderter Underlyingkurs von
+75 EUR für das Jahr angesetzt.
+Offensichtlich ist der Zeitwert des Op ¬tionsscheins am höchsten, wenn
+er am-Geld notiert (blaue Linie). In diesem Falle beschleunigt sich
+der Abbau des Zeitwer¬tes immer mehr (die Kurve ist nach unten
+gekrümmt) und ist in der letzten Woche vor dem Verfall am größten.
+Anders sieht es aus für den aus-dem-Geld notie¬renden Optionsschein
+(rote-Linie). Er hat den geringsten Zeitwert und baut diesen immer
+weiter ab.
+
+lichkeit von annä hernd null, dass der Op¬tions schein noch bis zum
+Verfall inneren Wert aufbauen könnte. Entsprechend ist sein Wert schon
+vor dem Verfall null. Der Optionsschein im-Geld (grüne Linie)
+ver¬liert nahezu linear an Zeitwert. Zu beachten ist, dass bei den
+Verläu ¬fen am-Geld (rot) und aus-dem-Geld (grün) jeweils der Zeitwert
+die einzige Wertkomponente des Optionsscheins ist (innerer Wert
+existiert nicht!); also ist hier der auf null zurückgehende Op
+¬tionsscheinpreis dargestellt. Bei der grü¬nen Linie handelt es sich
+dagegen nur um den Zeitwert anteil eines Options¬scheins, der zu jedem
+ersicht lichen Zeit¬punkt zusätzlich 25 EUR inneren Wert hat
+(Underlyingkurs 125 EUR - Strike 100 EUR = Innerer Wert 25 EUR).
+Würde nun statt des Verlaufs des Zeit¬wertes die tägliche prozentuale
+Preis ¬änderung infolge des Zeitwertverlusts ein-getragen, so ließe
+sich ebenfalls beobach¬ten, dass der Wertverlust eines am-Geld
+notierenden Optionsscheins in den letz¬ten Tagen am größten ist.
+In diesem Zusammenhang ist zu erwäh¬nen, dass insbesondere
+professionelle Marktteilnehmer ihre Positionen in die-sen Fällen
+„rollen". Das heißt, sie ver
+kaufen rechtzeitig, bevor der Zeitwert¬verlust zu groß wird (siehe
+Grafik 6), ihre Optionsscheinposition und kaufen einen Optionsschein
+mit den gleichen Ausstat¬tungsmerkmalen, aber einer entsprechend
+längeren Laufzeit. Hierbei entsteht nur ein „Verlust" in Höhe des
+Spreads des Optionsscheins. Ein Anleger sollte daher den richtigen
+Zeitpunkt für ein Rollen der Position abschätzen, indem er die
+Diffe¬renz der Zeitwertverluste und die Kosten des Rollens in Form des
+Spreads ver¬gleicht.
+Die Auswirkungen von Moneyness (also die Lage zum Geld - in-the-money,
+out-of-the-money oder at-the-money) und Restlaufzeit auf den
+Zeitwertverlust sind in Grafik 5 dargestellt. Hierbei zeigt sich
+deutlich, dass der Zeitwertverlust at-the-money bei kurzen
+Restlaufzeiten am höchsten ist.
+Ablesebeispiel
+Notiert der Optionsschein sechs Monate vor dem Verfall (gelbe Linie)
+exakt am Geld, so beträgt der Zeitwertverlust -0,04 EUR, also 4 Cent
+pro Tag und Op¬tionsschein. Dabei ist zu berücksichtigen, dass ein
+tatsächlicher Optionsschein auf die Akademie-Aktie mit einem
+Basispreis von 100 EUR mit einem Ratio von 0,1
+ausgestattet wäre und sein Zeitwertver¬lust entsprechend ein Zehntel
+davon, also 0,4 Cent, betragen würde.
+Das Rho
+Als letzten „Griechen" stellen wir in die¬ser Ausgabe noch das Rho
+vor. Es misst den Einfluss einer Änderung des risiko ¬losen Zinssatzes
+auf den Optionsschein¬preis.
+Grafik 7 gibt an, um wie viel Euro sich der Wert eines Optionsscheins
+bei Ver¬schiebung des sicheren Zinssatzes um einen Prozentpunkt
+ändert. Es ist zu er¬kennen, dass die Wirkung dieser doch deutlichen
+Zinsveränderung relativ gering ist. Der absolute Betrag des Rho wird
+für einen Call mit steigenden Underlying-preisen immer größer. Wird
+jedoch der Einfluss einer Änderung des sicheren Zins ssatzes um einen
+Prozentpunkt be ¬zogen auf den jeweiligen Wert eines Op¬tionsscheins
+betrachtet, so zeigt sich, dass der prozentuale Einfluss des Zinses
+auf den Optionsscheinpreis mit der Money ¬ness schnell noch weiter
+abnimmt.
+Ein wichtiger Lageparameter der Kurve in Abbildung 8 ist die
+Volatilität. Bei höheren Volatilitäten reduziert sich der Einfluss der
+Zinsen deutlich, denn einer
+seits sinkt der absolute Wert des Rho, und andererseits erhöht sich
+bei gestiegener Volatilität der Preis (siehe Vega) des Op
+¬tionsscheins. Zumindest für Aktienop ¬tionsscheine ist der Einfluss
+der Zins ¬änderungen also als relativ gering einzu¬stufen. Allerdings
+wirkt sich die Rendite der Dividendenzahlungen einer Aktie über den
+gleichen Mechanismus auf den Preis der Optionsscheine aus, und somit
+könnte eine deutliche Dividendenerhö ¬hung oder -senkung, die ein
+wenig vola-tiles Unternehmen überraschend bekannt geben würde, einen
+Einfluss haben. In der Regel jedoch dürfte die Wirkung des Rho für
+Aktien- und Indexoptionsscheine als niedrig zu bewerten sein.

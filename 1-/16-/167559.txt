@@ -1,0 +1,14 @@
+Thorsten,
+rechne mal:
+
+Für jeden Wert (Aktie usw) brauchst du für einen Datenzeitraum von 5
+Jahren (ca 200 Tage/Jahr)
+5 Zahlen (high, low, usw) * 4 byte * 200 (Tage) * 5 (Jahre) = 20.000
+byte = 20 kB (mindestens).
+
+Wenn du 5000 Kurse überwachen willst hast du 100.000 kB = 100 MB
+beieinander. Das kriegst du mit Excel nie und nimmer auf die Reihe. Und
+ich kann mir denken, daß so manchem eigenständigen B�rsenprogramm da
+auch die Luft ausgeht.
+
+Gruss, Burkhard

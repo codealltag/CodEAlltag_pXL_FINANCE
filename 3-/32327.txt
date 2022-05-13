@@ -1,0 +1,71 @@
+Hi,
+
+da ich gedenke die Optipus (ja, Adultshop,
+bitte dennoch weiterlesen ;-) ) auszuüben bzw. noch weitere BZR zu
+kaufen, frage ich mich welcher Preis der an der neuen Aktie hängenden
+Option zuzubilligen ist. Deduktiverweise komme ich mit der Gleichung
+BZRPreis-InnerenWert=Optionspreis auf ein recht unbefriedigendes, da
+breitspanniges Ergebnis. Dazu nahm ich die Kurse der letzten 5 Tage an
+der OEBF (alles in AUD).
+Bezugskurs d. Aktie 1AUD; InnW entsprechend Kurs-Bezugskurs
+
+BZR      InnW.     OSPreis
+0,05       -0,25      0,30
+0,05       -0,15      0,20
+0,06       -0,10      0,16
+0,025     -0,05      0,075
+0,03       -0,01      0,04
+
+Wobei ich meine die Kurse der letzten zwei Tage sind ob höheren
+Umsatzes marktgerechter.
+Jaja, eigenwillige Methode; Das war probieren.
+
+Also nahm ich ein Buch zur Hand (soll vorkommen) und probte mich in
+Black&Scholes-Anwendung:
+Aktienkurs 0,99
+Basispreis 1,75
+Laufzeit 3,625 (22. 12. 2108.11)
+risikoloser Zins 5,90% (frage hierzu unten)
+die implizite Vola variabel
+und kam zu diesem Ergebnis:
+Erw.Vola  OS-Preis
+0,05  0,0000 AUD
+0,1    0,0027 AUD
+0,15  0,0171 AUD
+0,2    0,0420 AUD
+0,25  0,0730 AUD
+0,3    0,1074 AUD
+0,35  0,1436 AUD
+0,4    0,1808 AUD
+0,45  0,2184 AUD
+0,5    0,2559 AUD
+0,55  0,2931 AUD
+0,6    0,3298 AUD
+0,65  0,3658 AUD
+0,7    0,4009 AUD
+0,75  0,4352 AUD
+0,8    0,4684 AUD
+
+Wenn ich jetzt den OS-Preis (s.o.) zw. 4 und 7,5 AUDcent anlege komme
+ich zu einer impl. Vola von 20-25%. Ich meine diese dürfte höher
+liegen; Also ein Kauf?
+
+Fragen:
+- da ich nicht weiß, wo ich den risikolosen Zins (?) für Austr. finde
+nahm ich den, den mir der OS-Rechner von HVDA als aktuell angibt;
+Ist das halbwegs korrekt?
+- Interessanter wäre selbstverständlich (hope so!) die hist. Vola mit
+der Impliziten zu vergleichen; Wo finde ich die bzw. wo oder von wem
+bekomme ich eine Zeitreihe der Schlußkurse (6 Monate)?
+- Ist die Vorgehensweise insgesammt richtig, oder besser: Was ist
+sonst noch alles falsch?
+- Mächte (LOL) das Mal jemand nachrechnen?
+
+Merci&CYA
+
+Björn
+
+--
+...jetzt kommt wieder meine alte Taktik zum Zuge, Titel aussuchen ,
+Wunschlimit bestimmen...z.B Supercut zu 20e
+(FW 15.03.00)

@@ -1,0 +1,24 @@
+Hallo,
+
+vielleicht hat jemand schon selbige Beobachtung gemacht.
+Wenn ich eine Verkaufsorder durch Clicken auf den Sell Button aufgebe,
+springt das Applet ja dierekt auf die Verkaufsordermaske, die schon
+teilweise ausgefüllt ist.
+Fälle ich den Rest aus (also Limit und Laufzeit) und schicke diese ab,
+so steht automatisch der Flag KASSAKURS!
+Diesen Flag habe ich aber in der Maske vorher deutlich deaktiviert
+gehabt!
+tragisch wird dieses, wenn man eine Order nach Mittag abgibt und diese
+nur Tagesg�ltig reinsetzt. Sprich die Order kommt nicht zur Ausführung.
+
+Gibt man allerdings die Order durch eigenhändiges Ausfällen der
+Verkaufsmaske auf und lässt das Kästchen KASSAKURS deaktiviert, wie
+zuvor auch, so kommt es nicht zu dem Zusatz KASSAKURS.
+Meiner Meinung nach liegt hier ein Fehler im Applet vor, wie könnte
+sonst bei beidemaligem deaktiven Kassa - Kästchen einmal der Zusatz
+gesetzt werden und einmal nicht. Dieser Fehler ist mir schon mehrmals
+aufgefallen. Sprich das ganze ist rekontruierbar.
+
+Was denkt ihr darüber / ist das schon jemanden aufgefallen / Meinungen?
+
+Carsten

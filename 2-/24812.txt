@@ -1,0 +1,15 @@
+Scheint auch relativ fundiert zu sein. Das wichtigste Zitat lautet jedoch: 
+"Cell zielt auf den Markt für Unterhaltungselektronik"
+
+
+Ich habe mir noch nicht die Mühe gemacht, die bisher bekannt gewordenen
+Details zu bewerten. Die wichtigste Frage dürfte sein, ob der Cell
+überhaupt für normale Anwendungen geeignet ist, oder "nur" ein
+Superschneller Grafikchip mit angehängter CPU ist. Bis Cell der x64 (auf
+64Bit erweiterte x86) Plattform konkurrenz machen /könnte/ vergehen noch
+mindestens 3 Jahre. Bis dahin setze ich mehr auf stromsparende x86 CPUs wie
+dem Dragonfly, die Präsentladen gerüchteweise nächsten Monat vorstellen wird
+(1,3GHz, 4W, 4PCIe Lanes, SSE2 und Speicherinterface on Chip, aber
+schätzungsweise ohne x87 FPU).
+
+Karl

@@ -1,0 +1,43 @@
+Zunächst einmal natürlich nur historische Werte für � und sigma. Karsten 
+vertritt die Auffassung, dass man mit bestimmten Methoden auch 
+Schätzungen für *zukünftige* Werte berechnen kann. Ich halte diese 
+Auffassung bei kurzen Prognosezeiträumen für durchaus plausibel.
+
+
+Ich habe Kais Handelsansatz mit den KüchenTreff-Tradingfonds einmal rechnerisch 
+nachvollzogen. Das Ergebnis spricht meines Erachtens für sich. Zumindest 
+im Demonstrationszeitraum hat er alle Tradingfonds risikoadjustiert 
+outperformed.
+
+
+Ich hatte das mal für die Tradingfonds probiert, aber nichts erhellendes 
+herausgefunden. Die Nutzung von (intraday?)-Kursen bzw. Umsätzen klingt 
+nach einer guten Idee. Gibt es inzwischen schon erste Erfahrungen?
+
+
+Die Psychologie ist meiner Erfahrung nach ein wichtiger Punkt. Meine 
+Motivation, mich mit solchen Rechnereien zu beschäftigen, rührt zum 
+großen Teil auch daher, meine empirisch schlechten Bauchentscheidungen 
+zu umgehen.
+
+Bezüglich der Timingfrage wird im Portfoliomanagement-Buch *theoretisch* 
+nachgewiesen, dass es sich eher lohnt, seine Kraft in die Auswahl der 
+Assets zu stecken. Ob das auch für die Praxis gilt?
+
+Meine Timingf�higkeiten ärgern mich manchmal so sehr, dass ich schon 
+darüber nachgedacht habe, wie man sich selbst als Kontraindikator 
+behandeln könnte. Das klappt nur irgendwie nicht - das Gehirn ist für 
+solche Dinge anscheinend nicht vorbereitet.
+
+
+Rührt daher Deine Skepsis vor komplizierten Modellen? Das im Prinzip 
+alles Bekannte bereits implementiert ist? Und man sich statt eigener 
+Bemühungen lieber einen Quant-Fonds mit ins Depot legen soll - falls man 
+grundsätzlich an solche Modelle glaubt?
+
+
+Ist das denn einfacher ;-)
+
+
+Gruß,
+Alberto

@@ -1,0 +1,27 @@
+Das haengt wohl sehr davon ab, ob man irgendwelche Programme zu festen
+Zeiten starten kann. Unter Unix ist das trivial, unter DOS/Windows eher
+nicht.
+se farben ist lediglich ein ASCII-Terminal basierender Web-Browser, der fuer
+Unix, VMS und DOS verfuegbar ist. Man kann se farben geeignet aufrufen, so
+dass er die URL liest und ablegt (lynx -dump (?)). Wo sonst noch
+Vorteile
+sind, weiss ich nicht, da ich se farben hier zwar verfuegbar habe, aber nicht
+nutze.
+
+Andere Loesungen (wenn Du dich auf einer Unix-Kiste befindest) sind:
+- netscape -remote ...
+  Startet Netscape und gibt ihm Kommandos mit. Hier ist auch ein
+  Abspeichern moeglich.
+- python
+  Spezialsprache unter Unix, die Funktionen wie urlretrieve o.ae.
+  bereitstellt
+- ... (tausend andere Moeglichkeiten unter Unix, abe keine einzige
+  unter DOS/Windows)
+
+se farben (und DOSLynx, was immer das sein mag ;-) gibt es unter
+    ftp://ftp2.cc.ukans.edu/
+
+
+Gehoert ja (s.o.), Erfahrungen nein.
+
+--

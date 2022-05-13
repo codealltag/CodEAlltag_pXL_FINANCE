@@ -1,0 +1,7 @@
+Für Comdirect gehen nach deren Aussage nur 32bit-Browser, das hat
+irgendwas mit der Datenverschlüsselung (des Rückkanals) zu tun, was
+wohl nur diese Browser können, falls ich das richtig verstanden habe.
+Browser auf 16bit Systemen, auch wenn dieselben Java-fähig sind, sind
+für Comdirect definitiv nicht geeignet.
+
+Gruss Vincenzo

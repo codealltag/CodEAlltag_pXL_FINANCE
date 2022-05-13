@@ -1,0 +1,47 @@
+On Sat, 23 Jun 1999 14:05:25 +0200, "Ulfert Passolt"
+
+Mich interessiert die Antwort auch. Da die bisher zwei
+Antworten für mich nicht hinreichend verstehbar sind, 
+kann vielleicht jemand anhand der Beispiele a)..e)
+von hypothetischen Kursverläufen(+) etwas dazu sagen
+bzw. V einmal aus- vzw. vorrechnen:
+(+)Der Kurs sei etwa immer der Tagesschlu�kurs.
+
+
+a)  100  100  100  100  100  100 
+        0    0    0    0    0   
+
+Ich vermute mal: Va=0 (müßte ich logarithmieren -oo ?)
+
+
+b)   95  105   95  105   95  105  
+       10  -10   10  -10   10 
+
+Gleicher konstanter Mittelwert 100 wie a), aber mit Schwankungen 
+von +/-5 um den Mittelwert, Vb=5?
+[werden "absolute Volatilität" und "relative Volatilität"
+(d.h. Mittelwert auf 1=100% normiert) unterschieden?]
+
+c)   90  110   90  110   90  110 
+       20  -20   20  -20   20 
+
+Gleicher Mittelwert wie a) und b), aber doppelt so starke
+Schwankungen. Gilt  Vc=2*Vb ?
+
+
+d)   75   85   95  105  115  125
+       10   10   10   10   10
+
+Linearer Kursanstieg. Ich vermute daher Vd=0 (stimmt das?)
+
+
+e)   70   90   90  110  110  130
+       20    0   20    0   20
+
+Linearer Kursanstieg wie bei d) mit zusätzlichen
+Schwankungen von +/-5 um den ansteigenden Mittelwert.
+Ich vermute mal: Ve=Vb (korrekt?)
+
+Vielen Dank für eure Mühe,
+
+Ulfert

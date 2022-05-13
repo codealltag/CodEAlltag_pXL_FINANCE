@@ -1,0 +1,420 @@
+Volatilität beim Trading
+Author G.Gerken
+Bei den Anlegern und in den Fachmedien
+gehört die Volatilität zu den intensiv
+diskutierten Themen. Diese Kennzahl
+beschreibt die Schwankungsfreudigkeit im
+Kurs einer Anlage, z.B. einer Aktie. Häufig
+wird diese Diskussion jedoch unpräzise
+geführt, da es leider nicht nur eine Art von
+Volatilität gibt. Eine genaue Differenzierung
+ist daher bei diesem recht komplexen
+Thema unerlässlich. Der folgende Beitrag
+soll helfen, die typischen Missverständnisse
+in diesem Kontext zu vermeiden.
+Betrachtet man den Direktkauf einer
+Aktie, spielt die Volatilität keine direkte
+Rolle, da z.B. eine steigende Volatilität sowohl
+die Chancen auf hohe Kursgewinne
+als auch die Risiken von hohen Kursverlusten
+erhöht und somit keine Richtung angibt.
+Unser Fokus liegt jedoch eindeutig
+auf der Bedeutung der Volatilität bei der
+Bewertung von Derivaten. Bei unbedingten
+Termingeschäften wie Futures hat die
+Schwankungsintensität des Basiswertes
+keinen unmittelbaren Einfluss auf den
+Wert des Kontraktes. Hier ist das Risiko
+perfekt symmetrisch verteilt: Ein Euro-Gewinn
+des Käufers ist ein Euro-Verlust des
+Verkäufers und umgekehrt.
+Wenn man jeden Anleger
+nach dem Erwartungswert
+einer Aktie fragen würde,
+dürfte die Antwort jedes Mal
+anders lauten.
+Ganz anders ist das Risiko jedoch bei
+bedingten Termingeschäften wie bei Optionsscheinen
+verteilt. Die Chancen eines
+Call-Käufers sind theoretisch unbegrenzt,
+da es für Aktienkurse keine natürliche
+Obergrenze gibt. Sein Risiko ist dagegen
+auf seinen Einsatz beschränkt, da er bei
+Fälligkeit des Calls nur bei Aktienkursen
+oberhalb des Basiskurses von seinem
+Recht, die Aktie zum Basiskurs zu kaufen,
+Gebrauch machen wird. Sollte die Aktie
+aber bei Fälligkeit auf oder unter dem
+Basiskurs notieren, kann er sein Recht einfach
+verfallen lassen. Der Verkäufer (Stillhalter)
+des Calls sieht sich allerdings bei
+steigenden Aktienkursen mit theoretisch
+unendlichem Risiko konfrontiert. Dieses
+ungleiche Risikoprofil gilt für Puts analog
+mit dem Unterschied, dass die Chance
+des Käufers bzw. das Risiko des Stillhalters
+den Basiskurs nicht übersteigen kann,
+da die Aktie aufgrund der Beschränkung
+des Verlustrisikos auf ihren Wert nicht
+unter Null sinken kann.
+Ein einfaches Beispiel soll die Konsequenzen
+dieser Risikoasymmetrie für Optionsscheine
+veranschaulichen:Wir betrachten
+zwei fiktive Aktien: die Ecity AG und
+die HighVola AG. Beide Aktien notieren aktuell
+annahmegemäß bei 100 Euro. Am
+Markt wird jeweils
+ein Call auf beide Aktien
+angeboten. Beide Calls sind (natürlich
+bis auf den Basiswert) identisch
+ausgestattet; beide haben einen Basiskurs
+von 100 Euro und sind genau in einemJahr
+fällig. Nun sollen für beide Aktien jeweils
+fünf gleich wahrscheinliche (also je 20%
+Eintrittswahrscheinlichkeit) Fälligkeitsszenarien
+unterstellt werden. Dabei schwankt
+der Kurs der raumkonzept stärker als der
+Kurs der Eleka. Zu dem jeweiligen
+Aktienkurs bei Fälligkeit wird auch derWert
+des Calls eingetragen, der dann dem innerenWert
+entspricht (sieheTabelle 1).
+Der Erwartungswert für den Aktienkurs
+bei Fälligkeit ergibt sich bei beiden
+Aktien als der durchschnittliche Kurs zu
+100 Euro. Anders sieht es jedoch bei den
+Calls aus: Während der Call auf die
+LowVola AG auf einen Erwartungswert
+von 3 Euro (=3D0,2 x (0+0+0+5+10)) kommt,
+beträgt dieser für den Call auf die HighVola
+AG 6 Euro (=3D0,2 x (0+0+0+10+20)). An
+diesen Zahlen kann man erkennen, dass
+ein sonst identisch ausgestatteter Call auf
+die Aktie mit der größeren Streuung wertvoller
+bzw. teurer sein muss.
+Unser Zahlenbeispiel bezog sich auf die
+Fälligkeit und ist natürlich insofern zu stark
+vereinfacht, als nur fünfmögliche Kurse bei
+Fälligkeit unterstellt wurden. Zumeinen interessiert
+nun in der Realität der Optionsscheinwert
+auch während der Laufzeit;
+zum anderen kann eine Aktie bei Fälligkeit
+jeden denkbaren Kurs annehmen.
+Da naturgemäß der Kurs der Aktie bei
+Fälligkeit nicht im Voraus bekannt ist,
+drängt sich die Frage auf, wie sich dieses
+unbekannte Ereignis in der Zukunft im
+heutigen Preis des Optionsscheines widerspiegeln
+muss. Obwohl unser Zahlenbeispiel
+der Komplexität der realen Welt
+symnicht
+gerecht
+wird, hat es uns
+gezeigt, dass für die Optionsscheinbewertung
+zwei Aspekte entscheidend sind:
+Welche Aktienkurse kommen bei Fälligkeit
+in Frage und wie stark ist die Streuung dieser
+möglichen Kurse? In der Statistik zieht
+man für solche Fragestellungen gerne
+Wahrscheinlichkeitsverteilungen, insbesondere
+die sog. Normalverteilung heran,
+die durch den Erwartungswert m (griech.
+[mü]) und die Standardabweichung s
+(griech. [sigma]) beschrieben wird (
+Der Forward-Kurs einer
+Aktie gilt aus Arbitragegründen
+für alle Anleger
+am Markt.
+Wenn man jeden Anleger nach dem Erwartungswert
+einer Aktie fragen würde,
+dürfte die Antwort jedes Mal anders lauten.
+Hier wendet die Optionsbewertungstheorie
+einen kleinen Trick an und modifiziert
+die Fragestellung: =84Zu welchem Kurs
+wären Sie bereit, die HighVola-Aktie (aktuell
+100 Euro) in einem Jahr zu kaufen bzw.
+zu verkaufen?=93 Zunächst wird jeder Anleger
+seinen Break-Even-Punkt suchen, d.h.
+denjenigen Kurs bestimmen, der weder
+Gewinn noch Verlust bringt.Wenn der relevante
+Refinanzierungszinssatz z.B. 5%
+p.a. beträgt und die zugrunde liegende
+Aktie eine
+Dividende in Höhe von 3 Euro zahlt,
+wird sich der Terminverkäufer heute mit
+einer Aktie eindecken und hierfür einen
+Kredit in Höhe von 100 Euro aufnehmen
+müssen. Dies wird ihn 5 Euro an Zinsen
+kosten, aber er wird als Halter der Aktie in
+den Genuss der Dividende kommen, so
+dass er diese 3 Euro als Ertrag von den Kosten
+abziehen muss. Damit kommt er auf
+den sog. Forward-Kurs von 102 Euro (von
+einer Diskontierung der Dividende sehen
+wir zur Vereinfachung ab). Den Aufschlag
+von 2% auf den aktuellen Aktienkurs bezeichnet
+man als die natürliche Drift der
+Aktie (Forward-Rendite).
+Dieser Forward-Kurs der Aktie gilt
+aus Arbitragegründen für alle Anleger
+am Markt. Sollte der Forward-Kurs
+höher notieren, werden Anleger
+die Position eines Terminverkäufers
+einnehmen, indem sie die
+Aktie auf Termin verkaufen und
+sich heute mit der Aktie eindecken.
+Bei einem unter 102
+Euro notierenden Forward-
+Kurs werden die umgekehrten
+Transaktionen ebenfalls
+für das Marktgleichgewicht
+sorgen.
+Wenn wir nun die absoluten
+Kurse bei
+Fälligkeit als =84um den Forward-
+Kurs normalverteilt=93
+annehmen, ergibt
+sich ein praktisches Problem.
+Da die Normalverteilung
+perfekt symnicht
+metrisch ist,
+müsste z.B. ein Kursaufschlag
+von 110 Euro auf den Forward-Kurs
+gleich wahrscheinlich sein wie ein Kursabschlag
+von 110 Euro, der zu einem negativen
+Aktienkurs führen würde. Daher
+tragen wir in der Grafik auf der horizontalen
+Achse nicht die absoluten Kurse, sondern
+die prozentuale Performance ein. Da
+unsere Drift 2% beträgt, soll dieser Wert
+für den Erwartungswert m in Abb. 1 stehen.
+Nun kommt die Antwort auf die entscheidende
+Frage in der Praxis:
+=84Was bedeutet eigentlich eine
+Volatilität von z.B. 20% pro
+Jahr?=93 Die Antwort: Sie
+bedeutet, dass die Aktienperformance
+bei
+Fälligkeit mit einer
+Wa h r s c h e i n -
+lichkeit von ca.
+68,26% in der
+Spanne von
+20% unter
+der Drift bis
+20% über
+dd . h .
+zwischen
+=9618% und
++22% liegen wird.
+Die Volatilität ist also nur
+ein Synonym für die Standardabweichung
+s.Wenn man unterstellt, dass sich der Aktienkurs
+de facto jede Sekunde ändert, ist
+nicht die einfache, sondern die logarithmierte
+Performance normalverteilt und
+man spricht von der Lognormal-Verteilung
+der Aktienkurse.
+Bei aller Eleganz der Normalverteilung
+muss beachtet werden, dass es sich hierbei
+um stark vereinfachte und idealisierte
+Annahmen handelt. Außerdem hat unser
+Zahlenbeispiel oben gezeigt, dass die Aussagekraft
+der Volatilität zu relativieren ist.
+Zum einen ist es eine breite Spanne zwischen
+=9618% und +22% und zum anderen
+verbleibt immer noch etwa 1/3 der Wahrscheinlichkeitsmasse
+für eine Performance
+außerhalb dieses Korridors. Anleger sollten
+jedoch niemals =84unwahrscheinlich
+
+mit =84unmöglich=93
+verwechseln.
+Bereits die 3-Sigma(_)-
+Spanne umfasst ca. 99,73% aller
+möglichen Ereignisse. Die Inhaber des
+Hedgefonds Erop beschrieben damals
+dieWahrscheinlichkeit eines Bankrotts als
+ein 10-Sigma-Ereignis. Dennoch brach der
+Hedge Fonds zusammen. Diese Unterschätzung
+von Extremereignissen (das
+sog. =84fat tails=93 =96 Problem) ist die Hauptkritik
+der Praktiker an der Normalverteilung.
+Für die Bewertung eines Optionsscheines
+sind lediglich fünf Größen nötig:
+Der aktuelle Aktienkurs, der Basiskurs, die
+Laufzeit, der Zinssatz (ggf. Dividendenerwartung)
+und die Volatilität. Der Basiskurs
+und die Laufzeit kann man den Optionsscheinbedingungen
+entnehmen; der aktuelle
+Aktienkurs, der Zinssatz (und ggf. die
+Dividendenerwartungen) lassen sich in der
+Regel ohne großen Aufwand dem aktuellen
+Marktgeschehen entnehmen. Übrig
+bleibt nur die Volatilität, die man nicht direkt
+ablesen oder beobachten kann. Eine
+Begriffsklärung im Zusammenhang mit
+derVolatilität ist deshalb für die Anleger extrem
+wichtig. Unsere Überlegungen bisher
+bezogen sich auf die erwartete Volatilität.
+In unserem Zahlenbeispiel haben wir
+diese einfach auf 20% p.a. geschätzt. Ob
+ein Emittent dieseMeinung teilt, lässt sich
+ermitteln, indem man für einen Optionsschein
+die implizite Volatilität errechnet.
+DieserWert entspricht der erwarteten Volatilität,
+die der Emittent in die Bewertungsformel
+einsetzt, um den aktuellen
+Marktpreis zu bestimmen.
+Hier können Anleger beruhigt
+sein: Die implizite Volatilität zu
+einem Optionsschein ist in der Regel auf
+bekannten Finanzportalen im Internet zu
+finden.
+Ein Anleger, dessen individuelle erwartete
+Volatilität über der am Markt beobachtbaren
+impliziten Volatilität liegt und
+der deshalb von einer tendenziell steigenden
+impliziten Volatilität ausgeht, hat
+diverse Möglichkeiten, von seiner ggf. zutreffenden
+Meinung zu profitieren. Hierzu
+müsste ja theoretisch der Kauf eines Calls
+oder Puts genügen, da beide unter sonst
+gleichen Umständen (d.h. außer der impliziten
+Volatilität bleibt alles gleich) von einer
+steigenden impliziten Volatilität profitieren
+sollten. Bei Calls ist jedoch Vorsicht geboten:
+Implizite (und erwartete) Volatilitäten
+sind in der Regel mit der Aktienperformance
+negativ korreliert, d.h. steigende
+Aktienkurse führen tendenziell zu einem
+Rückgang der impliziten Volatilität und umgekehrt,
+da mit steigenden Aktienkursen
+die Ungewissheit bezüglich der Firmenzukunft
+zurückgeht. Dies kann jedoch bei
+einem Call dazu führen, dass die steigende
+implizite Volatilität den Aktienkursrückgang
+nicht wettmachen kann. Der Halter
+eines Puts ist hier klar im Vorteil.
+Sowohl Kursrückgänge als auch eine steigende
+implizite Volatilität wirken wertsteigernd
+auf Puts. Es können sich jedoch
+auch Situationen ergeben, in denen der
+Anleger zwar starke Kursausschläge erwartet,
+aber die Richtung nicht kennt. Ein
+erwartetes Gerichtsurteil oder die Entscheidung
+über die Zulassung eines gewinnträchtigen
+Medikamentes seien exemplarisch
+genannt. Hier kann der Anleger
+mit Optionsscheinen eine sog. Straddle-
+Position aufbauen, indem er einen Call auf
+diesen Wert und gleichzeitig einen sonst
+identisch
+ausgestatteten
+Put erwirbt.
+Wenn bei Fälligkeit der Aktienkurs
+den Basiskurs der beiden Optionsscheine
+um die Summe der gezahlten Prämien
+über- oder unterschreitet, ist der
+Anleger in der Gewinnzone.
+Sollte der Anleger jedoch die aktuelle
+implizite Volatilität für überschätzt halten,
+kann er natürlich an der Kanalkiosk als Verkäufer
+(=3D Stillhalter/Schreiber) von Optionen
+tätig werden. Eine andereMöglichkeit
+mit wesentlich weniger Kapitaleinsatz ist
+der Kauf eines Discountzertifikates, da er
+hier implizit eine Option verkauft. Die erhaltene
+Prämie ist gleichzeitig sein Discount
+auf den Kurs der Aktie. Je höher dieser
+Rabatt, desto attraktiver ist das
+Discountzertifikat. Wenn der Anleger mit
+einer schnellen Anpassung (hier: einem
+Rückgang) der implizitenVolatilität rechnet,
+kann er hiervon durch den anschließenden
+Verkauf des Zertifikates profitieren. Dies
+gilt jedoch nur unter sonst gleichen Bedingungen.
+Bei Anlegern kann manchmal der Eindruck
+entstehen, als würde der Emittent
+n a c h
+Gusto die implizite
+Volatilität in seinen Optionsscheinkursen
+anpassen. Der Spielraum des
+Emittenten ist jedoch allein aus Arbitragegründen
+viel kleiner, als man denkt. In der
+Regel wird sich der Emittent an den impliziten
+Volatilitäten an der Referenzterminbörse
+(für deutscheWerte die Kanalkiosk) orientieren.
+Dies tut er auch aus gutem
+Grund: Sollte er z.B. seinen Optionsschein
+billiger anbieten als aktuell an der Kanalkiosk,
+werden institutionelle Anleger die entsprechende
+Option an der Kanalkiosk verkaufen
+und sich mit den billigeren Optionsscheinen
+des Emittenten eindecken. Die
+Differenz ist ein risikoloser Arbitragegewinn.
+Umgekehrt wird der Emittent vergleichsweise
+teure Optionsscheine zu
+teuer zurückkaufen müssen. Dennoch sind
+Kursunterschiede bei identisch ausgestatteten
+Optionsscheinen zwischen verschiedenen
+Emittenten zu beobachten. Diese
+Differenzen werden jedoch in der Regel so
+gering sein, dass allein die Transaktionskosten
+einen Arbitrageversuch nicht rechtfertigen.
+Die zeitliche Differenzierung spielt bei
+der Volatilität ebenfalls eine Rolle. So ist
+häufig auf Finanzportalen die sog. historischeVolatilität
+zu einer Aktie zu finden. Hierbei
+sollte beachtet werden, dass diese ein
+eindeutigerWert ist und keine Schätzungen
+oder Ähnliches braucht. Es besteht keinerlei
+Ungewissheit über irgendwelche Parameter.
+Hierzu können bspw. für eine Aktie
+die täglichen prozentualen Änderungen
+über das vergangene Jahr notiert werden
+Die
+durchschnittliche
+prozentuale
+Performance ersetzt nun
+unseren Erwartungswert. Dann
+kann man die Standardabweichung auf
+täglicher Basis eindeutig berechnen. Diese
+lässt sich annualisieren, indem sie mit der
+Wurzel der Handelstage innerhalb eines
+Jahres multipliziert wird. Als Faustregel
+geht man von 256 Handelstagen aus, so
+dass die Standardabweichung mit 16 multipliziert
+werden kann. Wenn man die historische
+Volatilität für die individuelle
+Schätzung der zukünftigen Volatilität heranziehen
+möchte, stellt sich die Frage, wie
+weit man in die Vergangenheit blicken
+mEin
+weiterer Begriff
+ist die sog.
+zukünftige Volatilität.
+Diese beschreibt die heute
+unbekannte, aber in der Zukunft
+tatsächlich eintretende Schwankungsfreudigkeit
+der Aktie.Weder die historische
+noch die implizitemussmit der zukünftigen
+Volatilität übereinstimmen, entscheidend ist
+die eigeneMeinung, also die erwarteteVolatilität.
+Wenn Ihnen die Volatilität nun immer
+noch komplex erscheint, gibt es alternative
+Hebelprodukte, deren Kursstellung unabhängig
+von der Volatilität erfolgt. So bleibt
+sie beispielweise auf Turbo-Options
+scheine weitestgehend
+wirkungslos.
+Nur in unmittelbarer Nähe der Schwelle
+kann eine sinkende oder steigende Volatilität
+einen Einfluss gewinnen, da die
+Knock-out-Wahrscheinlichkeit ab- oder zunimmt.
+Mini Future Zertifikate bleiben hingegen
+definitiv von der Volatilität und ihren
+Veränderungen unberührt. Bei diesen Produkten
+muss jedoch das Knock-out-
+Ereignis beachtet werden, das entweder
+zumTotalverlust oder zur Auszahlung eines
+Restwertes führen kann.

@@ -1,0 +1,22 @@
+Der Wert ein Anleihe bestimmt sich wie folgt:
+
+          c(oupon)      c                 c        c + N(ominalwert)
+V(alue) = -------- + ------- + ... + ----------- + -----------------
+ t=0	  (1+i)^1    (1+i)^2         (1+i)^(T-1)   (1+i)^T(Laufzeit)
+
+i:= Marktzins (bei flacher Zinsstruktur)
+
+Er ist die Summe der abgezinsten Zahlungen. Wenn i steigt, dann waechst der
+Nenner aller Brueche und die Summe wird kleiner, der Wert der Anleihe sinkt.
+Bei langer Restlaufzeit (T gross) ist der grosse Tilgungsbatzen c+N sehr
+reagibel, weil durch den hohen Exponenten im Nenner sich dieser bei
+Marktzinsschwankungen stark aendert. Mit kleiner Restlaufzeit (T->0)
+schwankt der letzte Bruch kaum noch, der Wert der Anleihe stebt gegen N
+(der c-Anteil der letzten Zahlung, zaehlt nicht, man hat ja noch die
+Stueckzinsen).
+
+Gruss
+Domenico 
+
+-- 
+pyvaoq.jjubcrp@vma.vsh

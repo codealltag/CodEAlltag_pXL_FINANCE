@@ -1,0 +1,5 @@
+Benutze den Text-Browser lynx. lynx stellt WWW-Seiten als ASCII-Text dar (ohne
+Bilder natuerlich) Mit der Option -dump kannst Du den Seiteninhalt (z.B. von comdirect.de)
+in eine Textdatei schreiben und dann die Kurse mit einer Textsuche rausfiltern.
+
+Gruß, Bernard

@@ -1,0 +1,21 @@
+Wenn du für den Order neben dem SL keinen weiteren Limit angegeben hast
+(weil es dir dein Broker wie die EWGT z.B. nicht ermöglicht), dann wird bei
+Unterschreiten des SL der Order als "Market Order", also bestens ins System
+gesetzt.
+
+Der Verkauf würde also bestens bei 80 � erfolgen - evtl. sogar noch
+schlechter, denn 80 � war nur der letzte Trade und du bedienst
+möglicherweise gleich darauf einen Gegenorder, der sogar noch tiefer liegen
+kann.
+
+SL Orders mit Limit lassen sich prinzipiell in XETRA auch einstellen, wird
+aber nicht von jedem Broker angeboten - weil sie eigentlich auch recht
+riskant sind. In deinem obigen Beispiel hätte es dir nichts genützt, wenn
+dein SL Order auch noch ein Limit von 82 � hätte - er würde dann zwar
+aktiviert, käme aber aufgrund des Limits von 82 � nicht mehr zur Ausführung.
+Und bevor du es merkst, ist der Kurs vielleicht schon bei 70 �.
+
+Falls du gut in Englisch bist, empfehle ich dir übrigens mal das hier zum
+XETRA Handelssystem durchzulesen:
+
+http://fnoakbb.czk/1c5v4

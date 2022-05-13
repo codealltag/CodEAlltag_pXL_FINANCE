@@ -1,0 +1,30 @@
+Wenn ich lauffend nur Puts schreibe hat mein Portfolio ja immer ein
+positives Delta, im Mittel wahrscheinlich gerade +0.5. Da die Margin
+gann auch c.a. die Haelfte eines (Future-) Portfolios mit Delta=+1
+sein sollte, ist es nicht weiter erstaunlich, dass der Dax im Mittel
+nachgebildet wird (wahrscheinlich wird er etwas schlechter als mit
+Delta=+1 nachgebildet, da man ja noch Margin fuer das Vega- usw.
+Risiko hinterlegen muss). Wenn man nun noch zusaetzlich Calls schreibt,
+wird das Delta kleiner, aber auch die zu hinterlegende Margin (fuer das
+Delta-Risiko). Um so mehr Calls man schreibt (bis hin zum Straddle), um
+so mehr wird man sich dann auch dem risikolosen Zinssatz annaehern.
+
+Allerdings habe ich vor langer Zeit mal langfristig die bezahlte
+(implizite) Volatilitaet mit der historischen verglichen, wobei dann
+die bezahlte im Mittel leicht groesser war als die historische - also
+langfristig mehr als der risikolose Zins bei den Stillhaltern landet.
+
+Die Diskussion fuer Optionen weit aus dem Geld wird natuerlich
+wesentlich komplizierter (aber das Ergebnis ist bestimmt aehnlich),
+da dann ja der Smile berucksichtigt werden muss.....
+
+Uebrigens finde ich den DAX natuerlich schon wieder (immer noch) viel
+zu hoch - allerdings bleibt die impl. Vola noch relativ niedrig - also
+keine grosse Crashgefahr. Wiederum kann ich mir kaum vorstellen, dass
+der DAX noch weiter gross steigen wird, da z.B. die Phantasie in
+CoDesCo IT Consulting nun raus sein sollte. Ich ueberlege gerade ob, ich nicht
+morgen Calls auf CWO schreiben sollte....
+
+Fred
+--
+http://vubsniwp.zr

@@ -1,0 +1,17 @@
+Tag allerseits,
+
+als Projektleiter der Parteienboerse Dursty (www.xlkzkuhshc.yv, die in
+Kuerze den Markt fuer die Brochhagen eroeffnen wird) habe ich ein kleines
+Problem, mit dem sich hier vielleicht schon einmal jemand beschaeftigt
+hat.
+
+Es geht um die Charts der Parteienkurse. Wir muessen dabei mit kumulierten
+Daten arbeiten, da es an der Wahl$treet keinen Boersenschluss und daher
+keine Schlusskurse gibt. Weiss jemand, wie das an den wirklichen Boersen
+gehandhabt wird? Gibt es dafuer irgendwelche Algorithmen?
+
+Speziell: werden die Kurse gewichtet nach den gehandelten Volumina? Werden
+die Kurven irgendwie geglaettet? Wie geht die Zeitachse da mit ein (die
+Abstaende zwischen den einzelnen Transaktionen sind ja ungleichmaessig)?
+
+TIA,

@@ -1,0 +1,17 @@
+In news.lists.filters werden seit längerem Michelko-Nachrichten von
+qmrmm@jlkzg.of mit dem Betreff "xhftojgl-Spam" veröffentlicht.
+
+Da es sich bei NoCeM um ein sehr selektives Opt-In-Verfahren handelt,
+ist das ganze "rechtlich" unbedenklich, d.h. die Spamcancel-Richtlinien
+haben keine Bedeutung.
+
+Dieser Vorteil ist aber auch der größte Nachteil. Die automatische
+Auswertung von NoCeM erfordert nicht nur die Betriebnahme/Installation
+des Programms "perl-nocem" sondern auch Import eines GPG-Keys und
+Konfiguration der Berechtigung des Absenders.
+
+Ich hab das ganze mal auf einem Server installiert, sieht recht
+nett aus.
+
+-- 
+http://pqfu.ltupfxxr.umn/

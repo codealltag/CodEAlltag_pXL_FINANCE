@@ -1,0 +1,42 @@
+Hallo Othmar
+
+
+Dein Auftrag geht nur, wenn zu dem Limit das ganze Volumen auf einmal geht
+Beispiel:
+Bid 150.-- 100 Stk.  ASK 160.-- 250 Stk.
+- Du willst zu 160 300 Stk. Kaufen, FOK, Dein Auftrag wird *nicht*
+abgerechnet.
+- Du willst zu 150 50 Stk (oder 100) kaufen, FOK, Dein Auftrag wird
+abgerechnet.
+
+
+Dein Auftrag geht nur, wenn zum Zeitpunkt des Auftragseingangs an der Boerse
+Dein Auftrag mit Deiner Limite gehandelt werden kann.
+Beispiel:
+10:00 Bid 98 ask 105
+10:05 Bid 100 ask 103
+10:10 Bid 101 ask 106
+
+- Du gibst den Auftrag zum Verkauf bei 99, er trifft um 10:00 bei der Boerse
+(Broker, Haendler, elektr. Boerse oder was auch immer) ein. Dein Auftrag
+geht nicht, da Bid nur 98 offeriert ist, als Dein Auftrag ankommt, auch wenn
+spaeter 100 oder 101 ginge, wird Dein Auftrag vernichtet.
+
+- Du gibst den Auftrag zum Kauf bei GLM ein, er trifft um 10:05 ein, der
+Auftrag geht (5 Min. vorher waere er nicht gegangen und geloescht worden)
+
+
+Der Auftrag bleibt waerend der ganzen Dauer (ein Tag, bis ende Monat, 3
+Monate, was auch immer), gueltig, und wird Abgerechnet, wenn die Limite in
+dieser Frist erreicht wird.
+
+MÄX oder GTTV Auftraege machen nur in seltenen Faellen Sinn. Z.B. Du musst
+eine groessere Menge eines Titels verkaufen an einem engen Markt und willst
+nicht, das bei Deiner Limite vielleicht nur 10 % davon gehen, Dein Auftrag
+wird also nur gehandelt wenn alles mit einem Rutsch geht.
+
+Uebrigens Achtung: Nicht alle Auftragsarten gehen bei allen Boersen!
+
+Gruss
+
+Nikolaus

@@ -1,0 +1,77 @@
+Hallo Forum,
+
+was haltet ihr von der folgenden Idee:
+Ziele: Bestehenden Aktienbestand (vornehmlich DAX und NM Werte, langfristig
+orientiert, nur wenig Zockerei) vollständig erhalten und zukünftig durch
+Nachkäufe weiter aufstocken. Absicherung der hübschen bisher erzielten
+Gewinne über PUT-OS auf DAX. Falls die Depot-Kurse weiter steigen ist der
+Verlust durch den PUT als Risikoprämie zu sehen.
+
+Nun die Qual der Wahl: Welcher PUT erfüllt diesen Zweck am besten?
+Hier eine umfangreiche Tabelle (Quelle: Laschke) mit PUTs sortiert nach
+Hebel und Basispreisen von 4300-5000 (Stand 19.12.1999):
+
+Emittent WKN Basispreis Währung Fälligkeit Bez.-Verh. Geld-Kurs Brief-Kurs
+Zeit Datum Hebel Aufgeld ImpliziteVolatilit�t (Mittelkurs)
+Cremetopf 362871 4300.000 EUR 09.09.2000 0.0100 0.74 0.76 17:47
+19.12.1999 -83.98 33.82 37.53
+icut 050781 4350.000 EUR 01.11.2000 0.0100 0.90 0.92 18:07
+19.12.1999 -70.48 33.59 35.79
+Cremetopf 865465 4500.000 EUR 09.09.2000 0.0100 0.94 0.96 17:47
+19.12.1999 -65.80 31.01 36.75
+LAG 934426 4400.000 EUR 17.12.2000 0.0100 1.08 1.10 17:53
+19.12.1999 -58.84 33.09 34.92
+Lieblingsstücke 538561 4800.000 EUR 11.09.2000 0.0100 1.17 1.19 17:58
+19.12.1999 -54.09 26.64 33.77
+Cremetopf 734526 4700.000 EUR 09.09.2000 0.0100 1.18 1.20 17:47
+19.12.1999 -52.75 28.25 35.86
+icut 829120 4650.000 EUR 01.11.2000 0.0100 1.24 1.26 18:07
+19.12.1999 -51.31 29.44 34.48
+Robstar 439567 4500.000 EUR 26.12.2000 0.0100 1.26 1.27 17:19
+19.12.1999 -50.45 31.47 34.38
+LAG 768629 4800.000 EUR 23.09.2000 0.0100 1.29 1.31 17:19
+19.12.1999 -49.09 26.83 34.20
+Cremetopf 581599 4900.000 EUR 09.09.2000 0.0100 1.37 1.39 17:47
+19.12.1999 -45.59 25.42 34.18
+Lieblingsstücke 932833 5000.000 EUR 11.09.2000 0.0100 1.45 1.47 17:58
+19.12.1999 -43.71 23.95 32.86
+IFNE caratgas 630094 5000.000 EUR 13.09.2000 0.0100 1.45 1.47 17:47
+19.12.1999 -43.42 23.96 32.84
+LAG 874715 4700.000 EUR 17.12.2000 0.0100 1.49 1.51 17:53
+19.12.1999 -42.55 28.71 33.65
+LAG 849654 5000.000 EUR 23.09.2000 0.0100 1.55 1.57 17:19
+19.12.1999 -40.91 24.10 33.02
+icut 082828 4950.000 EUR 01.11.2000 0.0100 1.50 1.60 18:07
+19.12.1999 -40.34 25.30 32.52
+c•neeon 846765 5000.000 EUR 13.09.2000 0.0100 1.77 1.79 17:59
+19.12.1999 -35.86 24.45 35.29
+Chrysler 197112 5000.000 EUR 04.09.2000 0.0100 1.83 1.86 21:58
+23.11.1999 -34.59 24.55 36.34
+DEVK 889511 5000.000 EUR 12.12.2000 0.0100 1.89 1.91 17:59
+19.12.1999 -33.59 24.64 31.89
+LAG 576790 5000.000 EUR 17.12.2000 0.0100 1.93 1.95 17:53
+19.12.1999 -32.90 24.70 32.18
+Robstar 020671 5000.000 EUR 26.12.2000 0.0100 1.99 2.00 17:19
+19.12.1999 -31.99 24.78 32.20
+Chrysler 327128 4600.000 EUR 04.09.2000 0.0100 2.25 2.40 16:17
+15.12.1999 -27.45 31.57 47.84
+c•neeon 846623 5000.000 EUR 13.12.2000 0.0100 2.38 2.40 17:59
+19.12.1999 -26.70 25.40 35.21
+Chrysler 621644 4800.000 EUR 04.09.2000 0.0100 3.30 3.40 20:11
+08.12.1999 -19.05 30.04 51.36
+DruckerBuffet VSWJ 473778 4400.000 EUR 20.12.2000 0.0051 2.59 2.64
+17:24 21.03.1999 -12.54 39.37 63.85
+Heuse 574394 4500.000 EUR 18.10.2000 0.0100 N.A. N.A. N.A. N.A. N.A. N.A.
+0.00
+Heuse 254056 5000.000 EUR 18.10.2000 0.0100 N.A. N.A. N.A. N.A. N.A. N.A.
+0.00
+
+Nehme ich einen PUT mit niedrigem Basispreis (=>hoher Hebel), um mit
+möglichst geringem Einsatz die bisherigen Gewinne abzusichern? Alternativ
+könnte man das Geld anstelle es in den PUT zu investieren ja auch in einem
+Geldmarktfond parken, ggf. Kursverluste abwarten und so auf bessere
+Einkaufszeiten hoffen...Oder gibt es da andere/bessere Ideen und/oder
+Möglichkeiten??
+
+Viele Grösse ... und frohes Fest!
+:-)

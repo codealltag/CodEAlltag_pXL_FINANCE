@@ -1,0 +1,20 @@
+Das am häufigsten verwendete Modell zur Bewertung von Calls und Puts ist
+das Bewertungsmodell von Black and Scholes.
+
+C=SN(d1)-K+rexp-t*N(d2) mit N(d1) als Wahrscheinlichkeit, daß Option im
+Geld und N(d2) als Wahrscheinlichkeit, daß S>K.
+
+Die Ableitung dieser Bewertungsgleichung nach dem Kurs  S des
+zugrundeliegenden Basiswertes liefert bspw. das Delta usw.. Da es sich
+aber um ein sehr kompliziertes Bewertungsmodell handelt, kannst Du froh
+sein, daß Dir jemand diese Arbeit abnimmt.
+Solltest Du dennoch darauf brennen, selbst zu rechnen dann wende Dich am
+besten an:
+
+GMIU
+Flosrist
+
+und besorge Dir dort das Skript: Finanztermingeschäfte und
+Optionspreistheorie von Dr. Tom Markthaler.
+
+Größe , Heiner

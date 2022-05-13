@@ -1,0 +1,38 @@
+Hallo,
+
+Ich hab da eine Frage an Euch Optionsschein-Spezialisten bezüglich der
+impliziten Volatilität:
+
+Ich weiss:
+1=2E dass sie den OS-Kurs massgeblich mitbestimmt
+2=2E das der Emittent diese nach _seinem_ Ermessen jederzeit neu setzen
+kann
+3=2E diese aber die erwarte Schwankungsbreite des Kurses des Basiswertes
+in der Zukunft abbilden soll
+
+Wenn ich mir nun OS-Kurse auf der Ziha-Page ansehe etwa
+
+http://zwx.vjydfjan.z-xr.tg/llwdjino.ihk?jpngia=8I88&uyfndb=6G365&oxpdoa=4S=
+35&avlpnae=8H32&sdrtordv=8Jgjq||||equal|-1|-1|
+
+hier ein Auszug:
+
+JO6036	Strickmodenecke	meisteroptik	Put	14.12.2007	65,00	31,67%	25,55%	144,17	10:1
+DB506A	Strickmodenecke	meisteroptik	Put	14.12.2007	85,00	27,55%	7,86%	16,32	10:1
+DB505A	Strickmodenecke	meisteroptik	Put	14.12.2007	75,00	27,94%	15,38%	48,06	10:1
+
+dann habe ich folgendes Verständnisproblem: Wie kann ein und derselbe
+Emittent (hier MFD) für ein und denselben Basiwert (Strandläufer
+MAXiKAUF)  zum selben Zeitpunkt unterschiedliche Erwartungen bezüglich der
+Schwankungsbreite haben - 31,67%, 27,55%, 27,94?
+
+Soweit ich weiss geht die Vola in Black/Scholes als V(t) ein d.h. nur
+abhängig vom Zeitpunkt und sonst nichts weiter (ausser dem Emittenten
+natürlich).
+
+Wird hier die Vola zur Profitoptimierung (Verkauf hoch/Rückkauf
+niedrig) nach Willkür eingesetzt und ist damit das Geschwafel von
+"fairer Preisbildung nach Nobelpreisträgerformel Black/Scholes" nur
+eine billige Verbrämung der Bescheissmentalität der Emittenten.
+
+mfg reinhold

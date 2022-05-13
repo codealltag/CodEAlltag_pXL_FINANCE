@@ -1,0 +1,98 @@
+Das wuerde im Umkehrschluss bedeuten, dass du bei Buy+Hold _keine_
+Stop-Stretegie anwenden wuerdest? In diesem Fall waere dein maximaler
+Verlust aber $1500. Die Stop-Marke von 33% ist ja in keinster Weise
+auf die Stufentechnik gemuenzt. Die passt ebenso auch auf buy+hold.
+
+
+Und welcher Mechanismus soll dann dafuer sorgen, dass du den
+Gesamtmarkt outperformst?
+
+
+Die Stops sorgen aber dafuer, dass die Fehleinschaetzungen (die du
+ebensowenig ausschliessen kannst wie auch ich) keine fatalen Folgen
+haben.
+
+
+Sicher. Man kann fuer jede Situation eine optimale Strategie
+konstruieren. Leider weiss man meist erst hinterher, welche Strategie
+die optimale gewesen waere. Uns bleibt nicht viel mehr uebrig, als
+fuer gewisse Szenarien gewisse Wahrscheinligkeiten anzunehmen.
+
+    ^^^^^^                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Aehm, genau diesen Fall hatte ich ja erwaehnt ;-))
+
+
+Da stimme ich dir zu. Und das ist einer der vielen Gruende, warum ich
+hier (in der NG) schon mehrfach kritisiert habe, dass Strategien ohne
+nachvollziehbare Backtests veroeffentlicht werden. Zwar sind viele
+schoene Tabellen enthalten, aber dass der Kreditanteil deutlich ueber
+die angegebenen Marken steigen kann merkt man erst wenn man
+verschiedene Szenarien(!) selbst nachrechnet...
+
+Ahja: _nachvollziehbar_ ist ein Backtest genau dann, wenn ich Zugriff
+auf die Datenbasis _und_ auf die Quelltexte der Backtest-Routinen
+habe. (soviel zu den von René angegebenen Links)
+
+
+Natuerlich ist jedem freigestellt, sich seine faulen Aepfel und Birnen
+fuer den Vergleich selbst kaputtzumachen. Du hast mit Sicherheit auch
+gute Gruende fuer dein Vergleichskriterium. Mein Vergleichskriterium
+ist der "Einsatz". Das ist der Betrag, den ich bei dem "Spiel" im
+worst-case verlieren werde. Wenn bei gleichem "Einsatz" (oben also
+$333) der Gewinn bei Strategie A wahrscheinlicher und auch noch
+hoeher ist als bei Strategie B, dann waehle ich selbstverstaendlich
+Strategie A. Um die beiden Strategien objektiv vergleichen zu koennen,
+muss ich eben 1000-buy+hold mit 1500-stufen vergleichen. Alles andere
+ist Augenwischerei.
+
+
+Puuuh, da bin ich aber beruhigt! Ehrlich gesagt, hatte ich (durch
+dein Posting) selbst erhebliche Zweifel daran, ob meine Rechnereien
+richtig sein koennen =:)
+
+
+IMHO einen tick _zu_ einfach.
+
+
+Was ist der Vorteil daran, dass bei _identischem Kursverlauf_ der SL
+von Herrn X bei 33% greift waehrend der von Herrn Y erst bei 55%
+greift? Wenn mir 33% zu wenig sind, dann kann ich den SL eben auf 45%
+oder wegen mir auch auf 55% legen. Aber das bitte _bewusst_, weil ich
+mir gewisse Gedanken ueber den Titel gemacht habe! Bei der
+5-Minuten-Terine hingegen haengt es vom _Zufall_ ab, ob mein SL bei
+33% oder bei 55% liegt.
+
+
+Mag sein, aber ist es gut, diese Entscheidung dem _Zufall_ zu
+ueberlassen?
+
+
+Natuerlich steht jedem frei, seinen Muell zu verkaufen. Auf der
+anderen Seite betont die 5-min-terine mehrfach (mit einer gewissen
+Berechtigung), dass man keinesfalls verkaufen soll, solange der SL
+nicht erreicht ist. Von einem solchen Handelssystem erwarte ich aber,
+dass es einen Automatismus fuer solche Faelle eingebaut hat. Das ist
+hier nicht der Fall.
+
+
+Kannst du mir da auch die relevante Stelle des Papiers zitieren?
+
+
+ROTFL... Hatte ich oben nicht den Begriff "schwammig" verwendet?
+
+
+Man kann in 5 Minuten aber noch viel mehr herausfinden. Zum Beispiel,
+ob es gerade Sommer ist (im Sommer wuerde ich zumindest Neueinstiege
+vertagen ;-).
+
+PS: Wer laenger als 5 Munuten benoetigt, um herauszufinden, ob gerade
+Sommer ist, der sollte dringendst einen Reality-Check in Betracht
+ziehen (SCNR!)
+
+PPS: Alles in Allem sind die Gedanken (IMHO) durchaus brauchbar. Aber
+blind befolgen sollte man sie dennoch nicht.
+
+-- 
+-- Gregor Knut -- zk@uebxv.jrdh.zf --

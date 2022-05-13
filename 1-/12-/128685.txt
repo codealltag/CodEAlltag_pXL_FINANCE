@@ -1,0 +1,57 @@
+weil "00" nun mal "00" ist und nicht "2000" ;-)
+Dies gilt aber erst seit "relativ kurzer" Zeit, ich behaupte mal so 
+ab 1989. Alle Programmierer, die vorher Programme geschrieben haben,
+haben das Problem i.d.R. ignoriert. Die meisten Programmierer konnten sich
+einfach nicht vorstellen, daß ihre Programme so lange laufen würden ...
+
+
+Die Argumentation ist berechtigt, das Beispiel nur etwas benutzerfreundlicher
+aufbereitet. Viele Speicherungen erfolgen in der Form "ttmmjj", manche 
+lassen auch das Jahr ganz weg ("ttmm") oder geben nur die hintere
+Jahreszahl an ("ttmmj"). Diese Programme müssen dann so alle 10 Jahre
+bereits einmal angepaßt werden :-)
+BTW: ich kenne sogar ein Programm, welches das Datum in einem Byte
+abspeichert, das reicht dann gerade für 16 Monate :-)
+Speicherplatz wurde früher deswegen eingespart, weil Plattenplatz (oder
+auch Magnetbänder) extrem teuer waren. Durch diesen Hintergrund sind
+teilweise extreme Platzsparl�sungen entstanden, die die heutigen 
+Programmierer vor riesige (Wartungs-) Probleme stellen.
+
+
+Das Problem war nicht die Performance, sondern der Speicherplatz auf
+sehr teuren Platten und Magnetbändern! (und natürlich auch Hauptspeicher;
+"Großrechner" mit 64 kB (!) waren "damals" keine Seltenheit).
+
+
+ROTFL !!!!!!!!!!!!
+Wer intensiv Programme schreibt und wartet, weiß spätestens nach 6 Monaten
+nicht mehr, was in einem "alten" Progamm genau gemacht wird.
+Bei meinem Arbeitgeber haben wir ca. 5000 Programme, von denen manche 
+1964 geschrieben worden sind und von ca. 40 Programmierern mit etwa 
+200 (zum Teil erheblichen) Änderungen bedacht worden sind. Da kennt kein
+Mensch ein Programm richtig und kann sagen, ob es datumskritisch ist!
+
+
+Ein EKG-Monitor, der am 19.06.99 um 23:59:59 aufhört zu arbeiten und den 
+Herzstillstand um 0:03 nicht mehr anzeigt .....
+Die Zugweiche, welche sich zur besagten Stunde frisch initialisiert, eine
+falsche Defaultrichtung einstellt und sich anschließend wegen Datumsfehler
+abschaltet ....
+Das heißt Presse und Fachpublikationen ;-)
+Leider scheinen aber eine Menge Manager und sonstige Verantwortliche diese
+Probleme nicht zu erkennen, denn viele Firmen haben sich damit noch
+gar nicht beschäftigt und kennen die Gefahren immer noch nicht.
+
+Wer in einer EDV-(nahen)-Branche arbeitet, für den gibts nur eines:
+Am besagten Wochenende Urlaub nehmen, in einer technikfreien Hätte am 
+einsamen Strand übernachten (Handy ausschalten!) und nach der ersten 
+Januarwoche mal wieder die Nase in die Zivilisation stecken.
+Was dann kaputt ist, war sowieso nicht mehr zu retten, der Rest läuft
+entweder problemlos oder kann noch repariert werden.
+
+Gruß
+David
+-- 
+David Foswinkel  !  Großschirma, Germany  !  ijcw.fhjmogaamk@pjqdws.rtmn.xr
+http://sdk.qdmQfkwtq.xvg/UqurvdkMcnjsd/5378
+Treffen sich zwei Elche im Wald: "Komm', la uns einen kippen gehen ..."

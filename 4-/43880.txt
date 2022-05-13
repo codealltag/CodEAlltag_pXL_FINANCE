@@ -1,0 +1,28 @@
+Hallo Edgar,
+
+ich habe Dein Posting gesehen und muss selber noch darueber nachdenken.
+Aber Du hast recht: bei 74 %impl. Vola und 25 % Gewicht ist ja bereits
+der Anteil der DTE an der Vola des DAXes mind. 37% (Varianzen addieren
+sich). Da diese aber kleiner ist, ist entweder die impl. Vola der DTE zu
+hoch oder des DAXes zu klein...
+
+Allerdings waere gestern eine (Put) Spekulation darauf durch die Bankenfussion
+gruendlich schief gegangen.
+
+Wie man es nun genau ausnutzt, weiss ich im Moment auch nicht - aber auf
+jeden Fall sollte man Straddles gegeneinander spielen und nicht nur Puts.
+Du spekulierst auf die Vola - deshab musst Du grob deltaneural fuer jede
+Einzelposition bleiben.
+
+Ein erster Gedankenansatz koennte so sein: DAX Vola ist ca. 26%, damit sollte
+die DTE Vola hoechsten 52% sein. Nun berechnet man die ATM Straddle Praemie
+fuer DAX mit 26% und DTE mit 52% und schreibt DTE Straddles und kauft ODAX
+Straddles in einem Verhaeltnis, dass die Praemien sich bei 26%/52% ausgleichen.
+da die bezahlte Vola der DTE mit 74% aber hoeher ist, erhaelt man zuerst
+positive Einnahmen.
+
+Ob's so klappen kann, muss ich erst selber noch genauer ueberdenken....
+
+Albert.
+--
+http://kldxszti.xz

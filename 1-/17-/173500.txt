@@ -1,0 +1,19 @@
+Hallo Roberto
+
+das ist ganz einfach! Durch das Loeschen von Daten wird in der
+Datenbankstruktur Platz geschaffen, der von den neuen Kursen dann
+wieder gefuellt wird. Dein Bekannter wird merken, dass die Datenbank
+momentan nicht groesser wird, ausser es kommen neue Papiere dazu.
+
+Um die Datenbank auch auf der Platte kleiner zu machen, soll er
+folgenden Befehl eingeben:
+
+MM4 BRECOVER * <Return>
+
+Die Datenbanken werden so neu strukturiert und auch verkleinert.
+Danach sollte er auch die Festplatte optimieren, damit auch alles
+zusammensteht, was zusammengehoert.
+
+Viele Gruesse
+
+Bernhard Karlheinz von MARKET MAKER

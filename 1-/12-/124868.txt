@@ -1,0 +1,85 @@
+Danke für den Hinweis, aber es läuft leider nicht "prima" unter NT4.
+
+Beispielsweise kann man die Einstellungen von Point&Figure-Charts
+(Boxsize etc.) nicht mehr ändern, weil danach alle Farben weg sind und
+diese auch nicht mehr zurückkommen, denn in der Farbauswahl werden nur
+wenige Grüntöne, Weiß, Schwarz und Grau angeboten. Nix mehr mit =
+Rot,
+Blau und ähnlich lästigem. Dazu habe ich in den Hotline-Reports =
+nichts
+gefunden. (Das Problem ist übrigens nicht nur in P&F-Charts
+vorhanden sondern generell: Was anderes als "Grün" kennt das Chart-Pgm
+nicht mehr, sobald man diesbzgl. etwas einstellen möchte.)
+
+Ähnliches gilt für den Background von Listboxen im Katalog-Modul, der
+nun so schön dungelgrau ist, daß der Kontrast zur schwarzen Schrift
+wirklich ganz hervorragend ist <g>.
+
+Als nächstes verabschiedet sich das Chart-Modul sang- und klanglos, =
+wenn
+man eine relative Überlagerung durchführen möchte.
+
+Als übernächstes hängt das Filter-Modul sporadisch fast die ganze =
+Kiste
+auf (trotz NT), wenn man als Katalog eine Gruppe auswählt.
+
+Und warum bei jedem dritten WP der P&F-Chart nicht korrekt automatsich
+aktualisiert wird (d.h., das Modul zeigt neue Spalten nicht automatisch
+an, sondern erst nach Doppelklick auf die Zoom-Area) - und das obwohl
+einige dieser nicht korrekt aktualisierten Charts zuvor eben nicht
+gezoomt sind - ist mir auch nicht ganz klar.
+
+Zudem scheint das Chart-Modul nicht für Hi-Res gedacht zu sein. Wenn es
+ein Pgm bei einer Auflösung von 1152x864 nicht fertigbringt "runde"
+Kreise zu zeichnen (bei einem Zoom-Faktor, der wirklich genügend Pixel
+pro Kreis zur Verfügung stellt), dann kommt mir das doch sehr =
+eigenartig
+vor.=20
+
+Hinzu kommen dann noch die Handlings-Umständlichkeiten und sonstigen
+Macken, die schon unter Win95 vorhanden waren und wohl auch unter einem
+16-Bit Windows vorhanden sind:
+
+- Konfigurationen werden bei "Speichern" immer unter dem Namen
+"[Standard]" gespeichert, selbst dann, wenn sie zuvor unter einem
+anderen Namen gespiechert wurden. (Vielleicht wird anstatt "Standard"
+auch der Namen des Standard-Layouts genommen, das heißt aber bei mir
+"Standard").
+
+- Um den Namen von Konfigurationen beim Speichern nach einer Änderung
+beizubehalten, muß man "Speichern unter" wählen. Als Namensvorschlag
+erhält man aber nicht den bisherigen Namen der Konfiguration, sondern
+den Namen des zuletzt geladenen Layouts. Den darf man dann gefälligst
+mit dem Namen übertippen, den die Konfiguration zuvor schon hatte. Nach
+OK kommt natürlich die zu erwartende Sicherheitsabfrage, ob man die
+bestehende Konfiguration dieses Namens auch wirklich überschreiben
+möchte. Das OK darauf war es aber noch nicht. Man darf zum zweiten Mal
+OK in der Speichern-Unter-Dialogbox betätigen, bevor sich das Modul
+endlich mal bequemt, die Konfiguration unter dem Namen
+zurückzuspeichern, den diese zuvor schon hatte. Hier scheint das
+Standardverfahren von Windows in solchen Situationen am Designer dieser
+Routine seit Jahren vollkommen vorbei zu gehen.
+
+- Das Chart-Modul rechnet bei P&F-Charts, die man auf Basis einer
+prozentualen Abhängigkeit vom letzten Kurs erstellen läßt, intern =
+mit
+erheblich mehr Kommastellen, als es dem Benutzer gegenüber behauptet.
+Das hat den schönen Effekt, daß bei passenden Datenreihen zwar =
+behauptet
+wird, die Boxsize von beispielsweise 2% vom letzten Kurs sei
+9,irgendwas, wenn man diesen Wert dann aber als feste Boxsize =
+übernimmt,
+ergibt das plötzlich einen ganz anderen Chart als zuvor. (Ganz
+unabhängig davon würde die % vom Kurswert-Funktion sowieso nur Sinn
+machen, wenn der Prozentsatz auf jeden Kurs angewendet würde. Die
+Boxsize für den kompletten P&F-Chart tagtäglich auf Basis des letzten
+Kurses zu ändern läuft dagegen dem Sinn dieser Charts komplett =
+zuwider.)
+
+
+Alles in allem bietet es unter NT endgültig einen "alten" und
+"ungepflegten" denn einen "prima" Eindruck. Obwohl ich in einem wirklich
+überrascht war: Daß es unter NT überhaupt zum Laufen kam.
+
+Gruß
+Ulrich Bierfreund

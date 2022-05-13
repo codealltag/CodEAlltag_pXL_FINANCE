@@ -1,0 +1,23 @@
+Ein Future ist die feste Vereinbarung zweier Partner, das Underlaying (z.B.
+Dax) zu einem bestiommten Zeitpunkt zu kaufen bzw. zu verkaufen. Im
+gegensatz zu Optionen ist diese Verpflichtung für beide bindend, weshalb es
+bei Futures keine Prämie gibt, zumindest nicht nach dem Muster der
+Optionsprämie. Es findet in der Regel nur eine Prämie in der Höhe der Zinsen
+bis zum Verfallstag statt, da der Käufer einen Zinsnachtel und der Verkäufer
+einen Zinsvorteil hat.
+Es können auch synthetische Instrumente als Underlaying dienen, z.B. Dax, in
+diesem Falle findet keine Lieferung sondern Barausgleich statt. Der
+Barausgleich bei Futures wird täglich gemessen am Settlement vorgenommen
+(Variation bzw. maintanance Margin). Außerdem muß ein Risk-Based Margin für
+den Fall des höchstmöglichen Verlustes bis zum nächsten Börsentag. Beim Dax
+sind dies 290 Punkte also 29000 DM.
+
+Ich hoffe dir damit weitergeholfen zu haben.
+
+CG
+
+--
+---------------------------------------------------------
+Visit http://wiav.ik/iuk and say what you think about it.
+See Ya!
+---------------------------------------------------------

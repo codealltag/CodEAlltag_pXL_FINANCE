@@ -1,0 +1,131 @@
+Wenn du die WKN 214492 meinst, dann ist das jeweils
+der 25. September des Jahres. Erster Kupon 1995, letzter 1999.
+Die Stueckelung ist DM 1.000 
+
+Unsere Beschreibung war
+DUSF "DUM" Aktienindex-Anleihe (WKN 128 544)
+Dies ist eine Anleihe mit Laufzeit bis 25. September 1999, bei der die Verzinsung
+als Hälfte des prozentualen DAX-Anstiegs zwischen den Kuponterminen definiert
+ist. Steigt der DAX also in einem Jahr um 20% (maßgeblicher Stichtag ist
+jeweils der 17. September bzw. bei Feiertagen der folgende Börsentag), so werden für
+dieses Jahr 10% Zinsen gezahlt. Fällt er, so werden keine Zinsen gezahlt. Die
+Berechnungsbasis für das folgende Jahr wird dann aber auf den neuen, tieferen
+DAX-Stand zurückgesetzt, so daß der Anleiheinhaber von einem späteren
+Wiederaufholen des DAX profitiert. Es gibt keine Stückzinsen, sondern die
+Zinszahlung wird immer am jeweiligen Zahlungstermin (24. September) vom Kurs
+abgezogen.
+Im Prinzip handelt es sich bei dieser Anleihe um einen Zerobond mit einem
+Bündel von 5 einjährigen DAX-Optionsscheinen auf je 0,233 mal den DAX. Also ein
+Optionsschein für jedes Jahr bis zum Ablauf, und der Faktor 0,233 ergibt sich
+durch die Notwendigkeit, die halben prozentualen Steigerungen des "krummen" DAX
+in "glatte" Prozentkupons der Anleihe mit einem Nominalwert von 1.000 DM
+umzurechnen.
+Den heutigen Wert der Optionsscheine kann man aber nicht so einfach berechnen,
+denn der Bezugskurs für z.B. den Optionsschein für das 3.Jahr ist der DAX-Stand
+bei Ablauf des 2.Jahres, und den kennen wir ja heute noch nicht. Für eine
+Näherungslösung könnte man z.B. alle 5 Optionsscheine erst einmal mit dem Wert
+des ersten Optionsscheines ansetzen, der sich ja berechnen läßt. Diesen müßten
+wir dann für die folgenden 4 Optionsscheine komplizierten Wertkorrekturen
+unterziehen und ihn schließlich dann noch auf das heutige Datum abzinsen.
+Es gibt aber auch noch andere Möglichkeiten für eine Bewertung:
+Zuerst sucht man die Marktrendite für vergleichbare normale Anleihen. Nehmen
+wir hier einmal 6,5% an. Dann berechnet man die Rendite der DUM-Anleihe als
+Zerobond. Bei einem Kurs von genau 100% ergäbe sich eine Rendite von 0%, bei
+einem Kurs von unter 100% wäre die Rendite positiv, und bei einem Kurs von über
+100% negativ.
+Hinweis: Der Modern Speculator ist nicht zur Berechnung negativer Renditen
+eingerichtet, denn normalerweise gibt es ja keine Anleihen mit negativen
+Zinsen. Bei derartigen Eingaben wird deshalb immer eine Mindestrendite von
+ungefähr 0,1% angezeigt. Man kann sich aber mit Schützen behelfen. Wenn etwa
+ein Kurs von 95 eine Rendite von +1% und ein Kurs von 100% eine Rendite von 0%
+(Anzeige ungefähr 0,1%) ergibt, dann kann man grob schützen, daß ein Kurs von
+105 einer Rendite von ungefähr -1% entspricht!
+Nun wird die Differenz zwischen der Marktrendite (im Beispiel 6,5%) und der
+sich aus dem Kurs ergebenden Rendite der DUM-Anleihe berechnet. Unterstellen
+wir einmal einen Kurs von genau 100% (=0% Rendite), dann beträgt diese
+Differenz 6,5%.
+Diese Renditedifferenz müßte durch ein Ansteigen des DAX ausgeglichen werden,
+damit sich die DUM-Anleihe wie eine entsprechende normale Anleihe rentiert.
+Da nur die Hälfte des jährlichen DAX-Anstiegs als Zins gezahlt werden, müßte
+der DAX jährlich um 13% steigen, damit sich die DUM-Anleihe mit 6,5%
+rentiert.
+Bei fünf Jahren Laufzeit und gleichmäßigem Kursanstieg müßte der DAX übrigens
+nicht nur um 5 mal 13% = 65% steigen, sondern um deutlich mehr. Denn die 13%
+müssen jedes Jahr auf den Endstand des vorhergehenden Jahres aufgeschlagen
+werden. Musterrechnung:
+Ausgangspunkt für das erste Jahr ist ein DAX-Stand von 2143 am 16.9.1994. Nach
+einem Jahr müßte der DAX auf mindestens 2421 gestiegen sein, nach zwei Jahren
+auf mindestens 2736, ..., und nach fünf Jahren schließlich müßten mindestens
+3948 erreicht sein. Bei gleichmäßigem DAX-Anstieg rentiert die DUM-Anleihe
+also nur dann besser als normale Anleihen, wenn der DAX in den nächsten fünf
+Jahren um über 84% auf mindestens 3948 steigen wird. 
+Bei nicht so ganz gleichmäßigem, aber doch noch einigermaßen stetigen Anstieg
+gilt folgendes: Steigt der DAX gleich am Anfang stärker und später schwächer,
+so führt dies zu einem Zinseszinsvorteil, denn es werden zuerst höhere und
+später niedrigere Zinsen gezahlt.
+Steigt der DAX dagegen erst später stark, und/oder fällt er gar anfangs oder
+zwischendurch etwas zurück, so führt dies zu einem Nachteil bei den
+Zinseszinsen, denn es werden anfangs nur geringe oder gar keine Zinsen gezahlt.
+Beim späteren Aufholen muß dann auch dieser Zinseszinsverlust mit aufgeholt
+werden.
+Besonders interessant ist diese Anleihe bei extremen Schwankungen des DAX:
+Würde sich der DAX etwa aufgrund irgendeiner Krise z.B. in einem Jahr halbieren
+und im folgenden Jahr wieder auf sein altes Niveau zurückkehren (=verdoppeln),
+so ergäbe dies einen Zinsausfall, gefolgt von einer Zinszahlung von 50%. Und
+das, ohne daß der DAX insgesamt überhaupt gestiegen wäre!
+Wie sie sehen, ist diese Anleihe nur dann vorteilhaft, wenn Sie auf eine
+extreme Entwicklung des DAX setzen: der DAX müßte entweder wirklich sehr stark
+steigen oder zumindest extrem schwanken. Hinzu kommt als weitere Unsicherheit,
+daß diese extreme DAX-Entwicklung genau an den Stichtagen zur Berechnung der
+Zinskupons vorliegen muß. Erreicht der DAX zwar tatsächlich Extremwerte, liegt
+aber gerade an den Stichtagen im "Normalbereich", so bringt Ihnen das keinerlei
+Vorteil. Das Typische bei Extremwerten ist aber gerade, daß sie nicht die
+Regel, sondern nur vorübergehende Ausnahmen sind.
+Aus diesen Gründen erscheint uns die DUM-Anleihe bei Kursen von 100 oder
+darüber kaum als günstiges Angebot. Bei einem Kurs von deutlich unter 100
+und/oder bei einem drastischen DAX-Einbruch könnte die Bewertung dagegen
+natürlich ganz anders ausfallen.
+Allerdings kann sich auch bei diesem Derivat der erfahrene Anwender jederzeit
+selbst "ganz nach Maß" eine entsprechende Anlageposition  zusammenstellen:
+Statt für 100% seines Kapitals DUM-Anleihen zu kaufen, kauft er sich normale
+Anleihen und einen kleinen Bestand an DAX-Optionsscheinen. 
+Um die DUM-Anleihen möglichst exakt nachzubilden, muß er dabei folgendermaßen
+vorgehen: Er investiert beispielsweise 95% des Startkapitals in Anleihen und 5%
+in einjährige Optionsscheine. Anschließend kauft er jedes Jahr bei Ablauf der
+Optionsscheine für einen Teil der Zinseinnahmen aus den Anleihen neue
+einjährige Optionsscheine mit einem dann aktuellen Bezugskurs. Diese Lösung
+bietet eine sichere Mindestverzinsung, und man kann sich die möglichen
+Zusatzgewinne durch DAX-Optionen selbst ganz nach Wunsch zusammenstellen,
+jederzeit ändern, aussteigen, oder durch einen Tausch in Puts sogar auf einen
+Fall des DAX spekulieren.
+
+
+Oder meinst du Corex ?
+Floater mit Bindung an langfristige Marktzinses (z.B. "COREX" Anleihen):
+Dies ist eine relativ neue Anleiheform. Es handelt sich um Floater mit meist
+jährlicher Neufestsetzung der Verzinsung. Die Besonderheit liegt darin, daß
+sich die Verzinsung nicht an einem kurzfristigen Marktzins wie Libor
+orientiert, sondern an einem langfristigen Marktzins (meist mit einem
+Abschlag). Beispiel: 
+DIC 2004 Anleihe der DUSF (WKN 159 680). Laufzeit bis 26.5.2004. Die
+Verzinsung wird jährlich angepaßt an den Marktzins für 10-jährige Anleihen
+minus 0,79%. Dieser Referenzzins wird aus dem ONNB-Index errechnet. 
+Der Kurs solcher Anleihen schwankt in der Regel wesentlich weniger stark als
+der Kurs normaler langfristiger Anleihen. Die Berechnung erfolgt im Prinzip wie
+bei herkömmlichen Floatern, aber als variabler Zinssatz wird der entsprechende
+(korrigierte) langfristige Marktzins eingesetzt. 
+Bei solchen Floatern sind allerdings Kurse über 100 erlaubt, denn hier gibt es
+ja keine kursstabile kurzfristige Geldanlage als Alternative. Es ist sogar
+wahrscheinlich, daß der Kurs solcher Floater in den letzten Jahren vor Ablauf
+über 100 liegen wird. Denn bei normaler Zinsstrukturkurve kann ein solcher
+Floater z.B. im letzten Laufzeitjahr eine Verzinsung erbringen, die über dem
+normalen Zinssatz für 1-Jahres Anlagen liegt. 
+Inzwischen sind eine ganze Reihe ähnlicher Anleihen auf den Markt gekommen, die
+aber erstaunlicherweise oft zu sehr verschiedenen Kursen bzw. Renditen
+gehandelt werden. Der Markt ist sich mithin auch hier über die richtige
+Bewertung noch sehr unschlüssig.
+
+
+Cédric
+Visit   http://rtcgnmh.baw.ipz/drzigt  and download a 
+free calculator for options, futures, bonds and similar stuff.

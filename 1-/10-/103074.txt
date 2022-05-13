@@ -1,0 +1,33 @@
+Hallo HENRY!
+
+DS> wie wurde eigentlich rechnerich der DAX auf EURO umgestellt ohne dass er
+DS> sich halbiert ??
+
+Auch der DAX wurde natürlich auf Euro umgestellt, auch wenn einige Börsen-
+Profis anderes behaupten.
+Weshalb hat er sich dann aber nicht halbiert?
+Nun, ganz einfach, weil er eben wie alle anderen ernstzunehmenden Indizes
+nicht in irgendeiner Währung, sondern in Punkten notiert. Und ein Dax-
+Punkt bleibt eben in Euro umgerechnet genau ein Dax-Punkt.
+
+Mathematisch bedeutet dies foldendes:
+Bis 1999 wurde der DAX noch basierend auf den DM-Kursen berechnet:
+Dax=k1*DAXKURS1/DM+k2*DAXKURS2/DM+ ... +k30*DAXKURS30/DM
+
+D.h., die in den DAXKURSen enthaltenen DM wurden herausgekürzt. übrig
+blieben größenlose Punkte.
+Nun wird der DAX umgestellt auf Euro, heraus kommt folgende Formel:
+
+Dax=k1*DAXKURS1/(EUR/1,95583)+ ... +k30*DAXKURS30/(EUR/1,95583)
+
+   =k1*1,95583*DAXKURS1/EUR+   ... +k30*1,95583*DAXKURS30/EUR
+
+und damit ergibt sich bei wertmäßig gleichbleibenden Kursen zahlenmäßig
+derselbe DAX-Wert, da ein Kurs in DM zahlenmäßig genausogroß ist wie
+1,95583* wertmäßig derselbe Kurs in Euro.
+
+Ach Scheiße, ich glaube, allen mathemathisch vorgebildeten Lesern war
+vorher sowieso alles klar, und die anderen haben das jetzt auch nicht
+verstanden. :-(
+
+fG - Udo

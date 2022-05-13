@@ -1,0 +1,14 @@
+Hi Kollege :-)
+
+
+ich hab mir für sowas mal ein Script geschrieben, das die entsprechenden
+Seiten von Äweleshof absaugt, die relevanten Informationen extrahiert, alles
+schön mit Name, Wert und Veränderung in eine Mail verpackt und den Spaß
+per Mail an Topmail verschickt. Von dort gehts weiter per SMS an Handy.
+Das Script läuft nun per cronjob auf einem Server irgendwo da draußen
+ein paar mal am Tag. Bislang tut's (wenn man von den Verzögerungen bei
+Topmail mal absieht).
+
+
+Ciao,
+Charles

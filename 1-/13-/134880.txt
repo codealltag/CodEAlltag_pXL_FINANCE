@@ -1,0 +1,19 @@
+Hi
+Ich habe eine Frage zur Suche und Ausgabe von Maximalwerten bei größeren
+Listen in Excel.
+Ich hab unter Excel folgende Spalten angelegt und einige werden über eine
+TV-Karte vom Videotext ausgelesen.
+Firma:  Kurs: Differenz: Prozent: Zeit:
+Ich möchte aus dieser Liste die z.B. 3 höchsten Prozentwerte auflisten.
+Dieses habe ich mit folgenden Funktionen realisiert:
+=grösste(D3:D72;1)
+=grösste(D3:D72;2)
+=grösste(D3:D72;3)
+Nun mein Problem:
+In den drei Zellen, die angezeigt werden, habe ich zwar die drei höchsten
+Prozentwerte aus der Spalte "Prozent" aber es stehen nicht die Firmennamen
+mit dabei und ich müßte mir jede Zeile angucken damit ich den Namen finde.
+Wie kann ich es machen das mir die z.B. 3 höchsten Prozentwerte angezeigt
+werden mit den Namen der Firmen???
+über eine Antwort würde ich mich sehr freuen
+Gruß Hansjörg

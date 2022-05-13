@@ -1,0 +1,20 @@
+jljv@jsfnsbcwhe.rd meinte am 08.04.99
+zum Thema "Re: MAN + HAMMÄCHER + OBERMARK":
+
+
+Das hast du nicht richtig verstanden.
+Du definierst einen Zeitraum zur Optimierung der Indikatoren(Backtest).
+z.B. bis 18.April.
+Dann testet das Programm(Forwardtest) wie gut diese optimierten  
+Indikatoren bis z.B.jetzt dem 6.April waren.
+Wenn ich jetzt wieder am 20.eine Optimierung(Backtest)mache werden
+die Indikatoren wieder bis zum 20.Optimiert.
+Die Ergebnisse des letzten Backtests decken sich meistens nicht,
+mit dem Forwardtest,wo das Programm 20Tage lang mit den letzten  
+optimierten Indikatoren handeln musste.
+
+gell:-)
+
+
+So long
+-Norman

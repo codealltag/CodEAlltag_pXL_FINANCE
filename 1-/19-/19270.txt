@@ -1,0 +1,62 @@
+Hi!
+
+Ich sitze gerade an einer Seminararbeit und komme da an einer Stelle
+nicht weiter. Ich hoffe, dass es hier vielleicht einige gibt, die mir
+da weiter helfen können.
+
+Nun zur Frage: Kann man klar abgrenzen, wann Futures und wann Optionen
+gekauft werden (sollen)?
+Soweit ich mich bisher in die Materie eingearbeitet habe sieht es ja
+wie folgt (vereinfacht) aus:
+
+Futures:
+Durch den Kauf fixiere ich den Preis für das Underlying auf einem für
+mich akzeptablen Niveau. Negative Entwicklungen kann ich durch die
+Future-Erlöse ausgleichen, für mich positive Entwicklungen kann ich
+aber auch nicht mitnehmen (Gewinn des Futures gleicht den Verlust am
+Spotmarkt aus und eben umgekehrt).
+Gewinne und Verluste sind (theoretisch?) unbegrenzt.
+
+Optionen:
+Optionen stellen eine Art Versichunger dar. Gegen Zahlung einer Prämie
+erhalte ich das Recht (aber eben nicht die Pflicht), das Underlying zu
+den entsprechenden Konditionen zu beziehen. Ist die Option im Geld, so
+übe ich sie aus, ansonsten lasse ich sie wertlos verfallen.
+Mein Verlust ist hier auf meine gezahlte Prämie begrenzt, die Gewinne
+sind (theoretisch?) unlimitiert.
+
+Mein Problem für mich ist nun, dass ich spontan sagen würde, dass die
+Option immer "besser" ist, als der Kauf eines Futures, da ich ja hier
+(für mich positive) Marktentwicklungen durch das nicht ausüben der
+Option mitnehmen kann, während ich durch ein Future immer auf einen
+Preis fixiert werde (außer ich stelle meine Position glatt). Darüber
+hinaus habe ich bei Optionen zwar auch theoretisch unbegrenzte
+Gewinnchance, kann aber "nur" die gezahlte Prämie verlieren.
+Damit ist in meinen Augen die Optionen flexibler und "sicherer" (da
+meine Verluste eben begrenzt sind).
+So einfach kann es jedoch nicht sein, sonst würde ja niemand einen
+Future kaufen, was aber ganz offensichtlich nicht der Fall ist. Also
+muss es hier (unterschiedliche) Gründe geben, entweder das eine, oder
+das andere Derivat zu kaufen und eben diese Gründe fallen mir nicht
+ein! :(
+
+In einigen Literaturquellen, die ich hier habe, wird (leider nur
+nebenbei) erwähnt, dass Future-Strategien eher für Märkte mit einer
+konstanten Volatilität sind, während sich die verschiedenen
+Optionsstrategien (Straddle, Spreads, Long-Call, Long-Put etc. pp.)
+eher für Märkte mit steigender/fallender Volatilität eigenen.
+Eine Erklärung, warum das so sein soll, wird aber leider nicht gegeben
+und so stellen sich für mich auch weiterhin die Fragen:
+Kann man sagen wann ein Future gekauft werden soll und wann eher eine
+Option?
+Wenn ja, was sind die jeweiligen Gründe?
+Ist das eine eher etwas für Spekulanten (Optionen), und das andere
+eher etwas für Hedger (Futures)?
+Oder lassen sich da überhaupt keine pauschalen Aussagen treffen?
+
+Für Antworten, die etwas Licht in das Dunkel bringen, wäre ich
+dankbar!
+
+LG,
+
+Kai

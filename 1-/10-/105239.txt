@@ -1,0 +1,26 @@
+Claudio Vetten schrieb in Nachricht <01ng5837$815lqc84$437r3qj7@ttdp-iz>...
+
+
+Bei der Berechnung des Momentums wird der aktuelle Kurs durch
+den Kurs vor einer bestimmten Anzahl von Tagen dividiert und mit
+dem Faktor 100 multipliziert. Um extreme Schwankungen herauszu-
+nehmen, koennen die beiden Ausgangskurse auch vor der Division
+geglaettet werden, indem man mit den jeweils davor liegenden
+Tagen einen Mittelwert bildet.
+
+Mit dem Momentum kann man die Staerke oder die Schwaeche
+deutlich machen, die einem Markt innewohnt, wobei die o.g.
+Anzahl der Tage angibt, ob es sich um eine kurzfristige
+(z.B. 10 Tage), mittelfristige (z.B. 38 Tage) oder langfristige
+(z.B. 100 Tage) Aussage handelt.
+
+Das Momentum ist einer der gebraeuchlichsten Indikatoren
+und in jedem Chartprogramm enthalten.
+
+MfG
+Arne-Ingolf
+
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate
+mit KURSEXTRAKT V.2.3.5.
+http://qnp.zbohpy.el/blsg/kcd/

@@ -1,0 +1,324 @@
+Kennzahlen bei Optionen
+Author Robbert
+Es gibt eine auf den ersten Blick unüber=ADschaubare Vielzahl von
+Optionsscheinen, die in Deutschland zum Handel zugelassen sind.  Um
+aus  diesen  30.000  Options=ADscheinen  den  =84richtigen=93  auszuwähle=
+n,
+muss der Anleger die Optionsscheine nach verschiedenen Kriterien
+vergleichen. Dabei Einfache      kann zwischen den so genannten
+einfachen Optionsschein-      Optionsscheinkennzahlen einerseits unter=AD
+kennzahlen      schieden werden, die sich leicht mit der Hil=ADfe des
+Taschenrechners bestimmen lassen, und den weiterführenden Kennzahlen
+auf Griechen:      der anderen Seite, den Griechen, so ge-
+Delta,Theta,      nannt,  weil  sie  überwiegend  mit  grie-Omega
+chischen Buchstaben bezeichnet werden. Die Bestimmung der =84Griechen=93
+ist mathe=ADmatisch bei weitem aufwendiger, kann aber zuverlässigen
+Optionsschein-Webseiten überlassen werden. Auf sie wird in späteren
+Teilen der Serie noch einzugehen sein.
+Die am häufigsten betrachteten einfachen Optionsscheinkennzahlen, die
+im Einzelnen vorgestellt werden, gliedern sich in:
+Absoluter Spread, homogenisierter Spread und Spread in Prozent des
+Briefkurses,
+Innerer Wert, Zeitwert und Moneyness,
+Aufgeld und annualisiertes Aufgeld,
+Break-Even, Ertragsgleichheit und annua-lisierte Ertragsgleichheit.
+Spreadkennzahlen
+Die einfachste =84Kennzahl=93, die zu einem Ve rgleich mehrerer
+Optionsscheine heran=ADgezogen werden kann, ist die Geld-Brief=ADSpanne,
+der so genannte Spread. Je enger dieser Spread, umso attraktiver ist
+ein Op=ADtionsschein. Denn ein Investor, der in einen Optionsschein
+investiert, zahlt immer den höheren Briefkurs. Ein Optionsschein muss
+somit zunächst um den Spread steigen, damit der Kunde ohne einen
+Verlust den Optionsschein zum Geldkurs wieder ver=ADkaufen kann.
+Absoluter Spread
+Der einfache Unterschiedsbetrag zwischen Geld- und Briefkurs, der so
+genannte ab=ADsolute Spread, berechnet sich durch Sub=ADtraktion des
+Geldkurses vom Briefkurs (siehe Kasten =84Formeln: Spread=93). Ein Ver=AD
+gleich der absoluten Spreads ist jedoch nur sinnvoll, wenn das
+Bezugsverhältnis aller zu vergleichenden Optionsscheine identisch ist.
+Homogenisierter Spread
+Ein Vergleich des Spread ist auch bei Op=ADtionsscheinen möglich, die
+unterschiedliche Ratios haben. Diese Tatsache muss jedoch in einem
+zusätzlichen Rechenschritt be=ADrücksichtigt werden. Dies geschieht,
+indem der Spread eines Optionsscheins immer auf
+
+eine volle Einheit des Basiswertes, also zum Beispiel auf eine Nähservice-
+Aktie, bezogen wird. Diesen um das Ratio bereinigten Spread nennt man
+den homogenisierten Spread eines Optionsscheins. Die Berech=ADnung
+basiert auf den unten aufgeführten Spread-Formeln.
+Spread in der Aktie
+Neben dem Vergleich der Spreads von Op=ADtionsscheinen mit
+unterschiedlichen Ratios erlaubt der homogenisierte Spread auch die
+Beurteilung des Spreads relativ zu dem Spread in einer Aktie. Im
+Orderbuch einer Aktie treffen Angebot und Nachfrage auf=ADeinander.
+Dabei wird der Abstand zwischen dem Höchstpreis, zu dem ein Marktteil=AD
+nehmer eine Aktie zu kaufen bereit ist, und dem niedrigsten Preis, zu
+dem ein Markt=ADteilnehmer eine Aktie verkaufen möchte, Spread in der
+Aktie genannt. Je liquider eine Aktie ist und je mehr Orders zu einer
+Zeit im Orderbuch sind, desto enger ist ten=ADdenziell der Spread in der
+Aktie. Führt nun ein Optionsscheinemittent nach dem Ver=ADkauf von Call-
+Optionsscheinen als Absiche=ADrungsgeschäft einen so genannten Delta-
+Delta-Hedge Hedge* durch, muss er eine Anzahl Sie=ADmens-Aktien an der
+Börse kaufen. Dafür zahlt er den jeweiligen Briefkurs des Or=AD
+derbuches. Verkauft der Kunde die Op-
+
+tionsscheine wenig später wieder an den Emittenten zurück, so muss
+dieser seine eben eingegangene Hedge-Positition auf=ADlösen und die
+Aktien wieder an der Börse verkaufen; jedoch erhält er nun nur den
+niedrigeren Geldkurs. Daher hat ein grö=ADßerer homogenisierter Spread
+in weniger liquiden Aktien auch einen weiteren Spread in
+entsprechenden Optionsscheinen auf dieses Underlying zur Folge.
+Spread in Prozent des Briefkurses
+Insbesondere Daytrader, die zum Teil mehr=ADfach am Tag den gleichen
+Optionsschein kaufen und verkaufen, achten auf den Spread eines
+Optionsscheins weniger im Ver=ADgleich zum Spread in der Aktie, sondern
+beziehen den Spread in Prozent auf den gegenwärtigen Briefkurs des
+Optionsscheins. Dieses Verhältnis gibt an, um wie viel Prozent (dann
+gerechnet auf den Briefkurs) ein Optionsschein steigen muss, damit der
+Händler den Geld-/Brief-Spread wieder =84ver-dient=93 hat, also ohne
+Verlust verkaufen kann (siehe Kasten Formeln: Spread).
+Auch hierbei gilt natürlich, dass ein mög=ADlichst kleiner Spread
+wünschenswert ist. Zu
+beachten ist, dass ein Emittent bei Options=ADscheinen mit Briefkursen
+über 0,10 Euro nur zweistellig quoten kann. Damit ergibt sich
+automatisch ein Spread von min=ADdestens einem Cent.
+Die zwei Komponenten des Optionsscheinpreises
+Der Preis eines Optionsscheins setzt sich immer aus zwei Komponenten
+zusammen: Innerer Wert einerseits dem Inneren Wert, den ein Op=AD
+tionsscheininhaber =96 bei einem Options=ADschein mit amerikanischer
+Ausübungsart =96 realisieren könnte, indem er ihn sofort aus=ADübt, u=
+nd
+andererseits dem Zeitwert, der die Chance auf weitere Kurssteigerungen
+ver=ADkörpert.
+Der Innere Wert eines Optionsscheins be=ADstimmt sich je nachdem, ob es
+sich um einen Call oder Put handelt, unterschiedlich (siehe Kasten
+=84Formeln: Innerer Wert=93).
+Rein theoretisch kann der Innere Wert eines Call-Optionsscheins
+unendlich hoch wer=ADden, genau dann nämlich, wenn der Un-derlyingkurs
+ins Unermessliche steigen sollte. Hingegen ist bei einem Put der
+innere We rt dadurch nach oben begrenzt, dass der Underlying-Kurs
+nicht unter Null fallen kann.
+Zeitwert
+Da der Optionsscheinpreis sich aus Zeit=ADwert und Innerem Wert
+zusammensetzt, kann der Zeitwert eines Optionsscheins bestimmt werden,
+indem der Innere Wert vom Kurs des Optionsscheins abge=ADzogen wird
+(siehe Kasten =84Formeln: Inner=ADer Wert=93).
+Die Höhe des Zeitwertes ist von einer Reihe preisbestimmender Faktoren
+ab=ADhängig und wird vom Optionsschein-Market-Maker mittels so genannter
+Op=ADtionspreismodelle bestimmt. In die Zeit=ADwertberechnung fließen
+unter anderem die Restlaufzeit, des Optionsscheins, die er=ADwartete
+Volatilität der Aktie oder auch die Zinsen ein.
+Restlaufzeit
+Wie oben bereits erwähnt wurde, verkörpert der Zeitwert eines
+Optionsscheins die Chance auf weitere Kurssteigerungen. Da=ADher ist der
+Zeitwert eines Optionsscheins umso höher, je länger seine Restlaufzeit
+ist. Denn je länger der Basiswert Zeit hat, sich in die =84richtige=93
+Richtung zu bewegen, desto höher ist auch sein Potenzial, weiteren in=AD
+neren Wert aufzubauen. Im Zeitverlauf baut sich der Zeitwert immer
+weiter ab. Am Ende der Laufzeit beträgt er genau null.
+
+Vo latilität
+Der Begriff Volatilität beschreibt die Schwankungsintensität eines
+Underlyings. Angegeben wird sie meist in % p. a. (Pro=ADzent per annum =3D
+Prozent pro Jahr). Hier=ADbei gehört ein niedriger Zahlenwert zu einem
+Underlying, von dem =96 richtungsun=ADabhängig =96 keine großen
+Kursveränderun=ADgen erwartet werden. Ein typischer Wert für einen
+Optionsschein auf die Aktie eines konservativen Energieversorgers wäre
+zum Beispiel 25% p.a. Dagegen haben Options=ADscheine auf zum Beispiel
+sehr stark schwan=ADkende Technologieaktien Volatilitäten von 75% oder
+gar noch mehr. Denn je stärker ein Underlying schwankt, desto größer
+ist seine Chance, in der verbleibenden Rest=ADlaufzeit zusätzlichen
+inneren Wert aufzu=ADbauen. Je höher die Volatilität, desto höher ist
+auch der Zeitwert eines Optionsscheins.
+Interpretationsbeispiel: Eine Jahresvolatili=ADtät von 25% würde
+bedeuten, dass erwartet würde, dass das entsprechende Underlying in
+einem Jahr an 81 Tagen eine Kursverän=ADderung (Anstieg oder Rückgang)
+von mehr
+als 1,57% und an 13 Tagen eine Verän=ADderung von 3,15% zeigen würde. A=
+n
+den übrigen 158 Handelstagen würde eine Än=ADderung von weniger als
+1,57% erwartet.
+Die Höhe des Zeitwertes eines Options=ADscheins hängt aber insbesondere
+auch davon ab, ob der Optionsschein =84im-Geld=93, =84am-Geld=93 oder =84au=
+s-dem-
+Geld=93 notiert, also von dem etwaigen inneren Wert des Optionsscheins.
+Dabei ist der Zeitwert dann am höchsten, wenn der Op=ADtionsschein =84am-
+Geld=93 notiert, also der Un-derlying-Kurs exakt dem Strikepreis
+entspricht. Bewegt sich der Optionsschein dann weiter ins Geld, so
+entsteht innerer We rt in einem stärkeren Maße, als Zeitwert abgebaut
+wird. Bewegt sich der Options=ADschein aus dem Geld, sinkt der Options=AD
+scheinpreis aufgrund des sinkenden Zeitwertes. Diesen Zusammenhang
+können Sie sehr gut mit unserem Optionsschein=ADrechner
+
+Moneyness
+Um die =84Lage=93 eines Optionsscheins zum Geld in einer Kennzahl
+auszudrücken, gibt es die Kennzahl =84Moneyness=93. Sie drückt aus, ob =
+und
+wie weit ein Optionsschein =84im-Geld=93, =84am-Geld=93 oder =84aus-dem-Gel=
+d=93
+notiert, indem sie bei Calls den gegenwärtigen Underlying-Kurs durch
+den Strikepreis teilt bzw. bei Puts umgekehrt den Strikepreis durch
+den Underlying-Kurs dividiert (siehe Kasten =84Formeln: Money-ness=93).
+Somit haben Optionsscheine, die am Geld stehen, eine Moneyness von 1.
+Werte größer 1 weisen auf Optionsscheine hin, die im Geld notieren,
+Werte kleiner 1 auf solche, die aus dem Geld notieren.
+Aufgeld
+Wird ein Call-Optionsschein gekauft und sofort ausgeübt, so gestaltet
+sich das Ganze, als wäre er direkt an der Börse gekauft wor=ADden. Wird
+ein Put-Optionsschein gekauft und dieser sofort ausgeübt, so ist
+praktisch eine Einheit des Basiswertes direkt an der Börse verkauft
+worden. Dabei wird jedoch regelmäßig eine schlechtere Performance
+erzielt, da durch das Ausüben der gesamte Zeitwert verloren geht,
+nämlich der Prozentsatz, um den der Bezug einer Einheit
+
+des Basiswertes über einen Call-Options-schein teurer ist als der
+direkte Bezug über die Börse. Bei Puts gibt das Aufgeld den
+Prozentsatz an, um den ein Verkauf des Ba=ADsiswertes über den
+Optionsschein ungüns=ADtiger ist als der direkte Verkauf über die Bör=
+se.
+Anders interpretiert, gibt das Aufgeld an, um welchen Prozentsatz sich
+der Basiswert in die gewünschte Richtung bewegen (Calls =96 steigen,
+Puts =96 fallen) muss, damit das Optionsscheininvestment die
+Gewinnschwelle erreicht.
+Aufgeld, p.a.
+Um das Aufgeld in der zweiten Interpreta=ADtion aussagekräftiger zu
+machen, bezieht sich das jährliche Aufgeld (Aufgeld p.a.) immer auf
+den Zeitraum eines Jahres. So ist es möglich, das Aufgeld für
+Optionsscheine mit verschiedenen Restlaufzeiten zu ver=ADgleichen, indem
+das Aufgeld durch die Rest=ADlaufzeit des Optionsscheins in Jahren divi=AD
+diert wird. Ein Optionsschein mit drei Monaten Restlaufzeit hat so
+eine Rest=ADlaufzeit von 3 Monaten/12 Monaten/Jahr, also von 0,25
+Jahren.
+Break-Even
+Eine ähnliche Betrachtungsweise er=ADmöglicht die Berechnung des Break-
+Even. Hier  wird  der  Kurs  bestimmt,  bis  zu
+welchem der Basiswert bis Ende der Rest=ADlaufzeit steigen (Call) bzw.
+fallen (Put) muss, damit das Optionsscheininvestment sich gerade noch
+lohnt. Die dabei zugrunde gelegten Formeln zeigt der Kasten =84Formeln:
+Break-Even=93.
+Hebel
+Der Hebel ist eine Maßzahl zur Beurteilung des Kapitaleinsatzes
+bezüglich eines Op=ADtionsscheins im Vergleich zum direkten Investment
+in den Basiswert. Nicht zutref=ADfend ist jedoch die Annahme vieler
+Anleger, der Hebel impliziere eine Aussage über die Entwicklung des
+Optionsscheins im Ver=ADgleich zum dazugehörigen Basiswert.
+Die entsprechende Maßzahl für den An=ADOmega, Leverage,      stieg nenn=
+t
+sich Omega, auch Leverage Delta-Hebel,      oder Delta-Hebel. In sehr
+alten Büchern Lambda      wird   sie   auch   Lambda  genannt.   Das
+Omega ist das Ergebnis der Multiplikation des Hebels mit dem Delta
+
+Omega
+Ein Omega von 4,5 würde bedeuten, dass ein Call-Optionsschein =96 bei
+einer Er=ADhöhung des Basiswerts um 1% =96 um 4,5% steigen würde. Dies
+gilt jedoch nur, falls an=ADsonsten alle Parameter konstant bleiben =96 in
+der Regel ändern sich jedoch mit der Zeit ebenfalls Zins, Volatilität
+und weitere Bedingungen. Zum Vergleich der Hebel=ADwirkung mehrer
+Optionsscheine eignet sich das Omega =96 nicht jedoch der Hebel
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::=
+::::::::::::::::::::::::::
+
+
+Grundlagen Optionen
+Author Robbert
+Was ist ein Optionsschein?
+Ein Optionsschein ist ein an mindestens einer Börse gelistetes
+Wertpapier, das ein Recht für den Inhaber verbrieft. Durch diese
+Verbriefung können Optionsscheine genauso wie Aktien unter der Angabe
+von Wertpapier-Kennnummer (WKN) und Stückzahl entweder börslich oder
+außerbörslich gekauft und verkauft wer=ADden. Fast alle Optionsscheine
+werden von einer Investmentbank (der Emittentin) her=ADausgegeben und
+garantiert. Diese sorgt an=ADschließend für eine liquide Handelbarkeit
+dieses Optionsscheins.
+Das von einem Optionsschein verbriefte Recht bezieht sich auf die
+Möglichkeit, ein Underlying, zum Beispiel eine Aktie, kau=ADfen oder
+verkaufen zu können (aber nicht zu müssen).
+=95 Beim Kaufoptionsschein, von Profis meist kurz Call genannt, erwirbt
+der Käufer das Recht, das Underlying zu einem vorherbestimmten Preis,
+dem Strike, zu kaufen. Während der Laufzeit des Optionsscheins ändert
+sich der Strike nicht, wohl aber der Kurs der Aktie, auf die sich der
+Optionsschein bezieht. Der Anleger kann jederzeit mit seinem Op=AD
+tionsschein eine Aktie zum Strikepreis
+kaufen. Nach einem Anstieg der zu=ADgrunde liegenden Aktie gewinnt
+dieses Recht natürlich an Wert, weshalb der We rt des Optionsscheins
+steigt.
+=95 Umgekehrt  verhält es  sich  beim Ver-	aufsoptionsschein, dem Put.
+Hier er-	schein (Put)
+wirbt der Käufer das Recht, die Aktie zu	Steigt bei
+einem vorherbestimmten Preis verkaufen	fallendem Under-
+zu  können.  Dieses  Recht  wird  umso	lyingpreis
+wertvoller, je niedriger der Kurs der zu=AD
+grunde liegenden Aktie ist.
+Wie funktioniert ein Optionsschein?
+Liegt für einen Call der Preis des Under-lyings über dem Strikepreis,
+könnte ein Investor das Recht sofort ausüben, das Underlying zum
+Strike-Preis vom Emit=ADtenten kaufen und sofort zu dem höheren Preis an
+der Börse weiterverkaufen. Der positive Unterschiedsbetrag =96 ohne
+Berück=ADsichtigung von Transaktionskosten =96 der Innerer Wert Call mit
+einer solchen Transaktion realisiert werden kann, heißt Innerer Wert.
+Notiert das Underlying zu einem niedrige=ADren Kurs als dem Strikepreis,
+so würde es keinen Sinn machen, den Optionsschein sofort auszuüben, da
+das Underlying billi=ADger über die Börse direkt bezogen werden könnt=
+e.
+Der Innere Wert des Optionsscheins
+
+ist dann Null. Das Gleiche gilt, wenn das Underlying genau am Strike
+notiert. Auch dann ist der innere Wert exakt Null.
+Da Put-Optionsscheine das Recht ver=ADbriefen, den Basiswert zum Strike
+zu verkaufen, ist es hier genau umgekehrt: Innerer Wert Put Notiert
+das Underlying unter dem Strike, könnte ein Anleger den Basiswert an
+der Börse kaufen und zu dem höheren Strike-Preis an den Emittenten
+verkaufen. Der hiermit erzielbare Betrag wird auch beim Put Innerer
+Wert genannt. Er ist ent=ADsprechend Null, wenn das Underlying über oder
+genau am Strike notiert.
+Ein Optionsschein mit Innerem Wert wird im-Geld oder in-the-money
+genannt. No=ADtiert ein Underlying genau am Strike eines Optionsscheins,
+so wird dieser als am-Geld oder at-the-money bezeichnet. Eine Option
+ist aus-dem-Geld oder out-of-the-money, wenn beim Call der Strike über
+bzw. beim Put unter dem Basiswert liegt, eine so=ADfortige Ausübung der
+Option also ein Ver=ADlustgeschäft darstellen würde. Aus diesem Grunde
+ist es für den Anleger wichtig, dass er das Recht hat, die Option
+auszuüben =96 nicht aber die Pflicht. So wird er eine Aus=ADübung des
+Optionsscheins nur vornehmen, wenn der Schein im Geld notiert.
+
+
+Welche Chancen und Risiken birgt ein Optionsscheininvestment?
+Hat ein Optionsschein keinen Inneren We rt, heißt das jedoch nicht,
+dass er wert=ADlos ist. Denn solange der Verfalltag nicht erreicht
+worden ist, besteht immer noch die Chance, dass sich der Kurs des
+Under-lyings in die vom Anleger erwartete Rich=ADtung bewegt. Das heißt
+also, dass das Underlying steigt (für den Call) oder fällt (für den
+Put), um einen Inneren Wert zu erreichen. Dieser Wert eines Optionss=AD
+cheins, der nicht Innerer Wert ist, wird Zeitwert genannt. Je länger
+der Zeitraum bis zum Verfall des Optionsscheins ist, desto höher die
+Chance, dass das Underly-ing noch eine Kursbewegung zeigt, um ins Geld
+zu kommen. Entsprechend steigt mit der Chance, noch ins Geld zu
+kommen, auch der Zeitwert. Dieser bildet sich dem Rückgang der
+Restlaufzeit gemäß zurück und beträgt bei Verfall Null. Der Wert ei=
+nes
+Optionsscheins setzt sich immer aus beiden Komponenten Zeitwert und
+Inner=ADer Wert zusammen, dabei ist der Zeitwert vor Verfall stets
+größer als Null und er=ADreicht bei Verfall =84Null=93. Der Innere Wert
+eines Optionsscheins ist mit dem Kurs des Underlyings Schwankungen
+unterworfen und entweder positiv (wenn der Options=ADschein im-Geld
+notiert) oder Null (wenn er
+
+am-Geld oder aus-dem-Geld notiert). Notiert ein Optionsschein bei
+Verfall aus-dem-Geld, so hat er keinen Inneren Wert und keinen
+Zeitwert. Er verfällt somit wertlos, und der Anleger verliert sein ur=AD
+sprüngliches Investment vollständig.
+Notiert ein Optionsschein bei Verfall im Geld, so ist der Zeitwert
+auch in diesem Fall Null. Jedoch hat der Optionsschein einen positiven
+Inneren Wert, der dem An=ADleger gutgeschrieben wird. Hat der An=ADleger
+den Optionsschein zu einem niedrigeren Wert als dem Inneren Wert bei
+Ve rfall gekauft, so kann er einen Gewinn erzielen. Da der Anleger für
+sein initiales Investment nicht den vollständigen Ak=ADtienpreis
+bezahlen musste (sondern nur den niedrigeren Optionsscheinkurs, der
+sich aus Innerem Wert und Zeitwert zusammensetzt) kann er eine
+überpropor=ADtionale Kursänderung des Optionsscheins erfahren. Dieser s=
+o
+genannte Hebeleffekt wird am Beispiel eines Call-Options-scheins
+deutlich, bei dem in der unten stehenden Tabelle drei Entwicklungen
+simuliert werden.

@@ -1,0 +1,354 @@
+Visual Basic 2010 Fussballspiel programmieren Schindelbeck Spinnert
+Cronauge
+Author M.Schoppers
+Video http://nub.pilkvan.cwl/unvtt?y=1TIzM7AhOddi6
+
+Heute zeige ich Ihnen, wie man ein bewegliches Fussballspiel
+programmieren kann. Sie kennen das ja von den sogenannten Ping Pong
+Spielen, wo am Seitenrand ein Spieler läuft und den Ball antippt und
+schon bleibt der Ball im Spielfeld.
+Hier habe ich das auch so gemacht mit lediglich 2 Spielern, aber das
+können Sie ja entsprechend erweitern.
+Los geht=92s mit Taste Leertaste, dann mit der A oder B Taste hoch
+runter für  Spieler 1 und der Pfeiltaste für hoch runter Spieler 2.
+Den Code habe ich bereirs geschrieben, aber so gross, dass der auf dem
+Video lesbar ist. Sie müssten notfalls das Video anhalten um den Code
+in Ruhe abschreiben zu können.
+Das Spiel funktioniert bestens, ich habe auch drei Geschwindigkeiten
+einprogrammiert sowie Musik.
+Good Luck.
+Schoppers
+
+Der Code lautet:
+Public Class Form1
+    Declare Function GetAsyncKeyState Lib "user32" (ByVal vKey As
+Integer) As Short
+    Const VK_A =3D &H41
+    Const VK_Z =3D &H5A
+    Const VK_LSHIFT =3D &HA0
+    Const VK_RSHIFT =3D &HA1
+    Const VK_LCONTROL =3D &HA2
+    Const VK_RCONTROL =3D &HA3
+    Const VK_LMENU =3D &HA4
+    Const VK_RMENU =3D &HA5
+    Const VK_DOWN =3D &H28
+    Const VK_UP =3D &H26
+    Const VK_LEFT =3D &H25
+    Const VK_RIGHT =3D &H27
+    Const VK_SPACE =3D &H20
+    Dim xChange, yChange As Integer
+    Dim keypressed As String
+    Dim x, y, direction, ballSpeed As Double
+    Dim keyesc, keyA, KeyZ As Boolean
+    Dim isLoaded, isPaused As Boolean
+    Private Sub Form1_KeyPress(ByVal sender As Object, ByVal e As
+System.Windows.Forms.KeyPressEventArgs) Handles Me.KeyPress
+        keypressed =3D e.KeyChar
+    End Sub
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles MyBase.Load
+        Timer2.Enabled =3D False
+        NewDirection()
+        ballSpeed =3D 0.05
+    End Sub
+    Sub NewGame()
+        boing()
+        PictureBox3.Left =3D 230
+        PictureBox3.Top =3D 150
+        NewDirection()
+        Timer1.Enabled =3D True
+        Timer2.Enabled =3D True
+    End Sub
+    Sub NewDirection()
+        Dim r As Integer
+        x =3D pictureBox3.Left
+        y =3D pictureBox3.Top
+        Randomize()
+        r =3D Int(Rnd() * 14) + 1
+        If r =3D 1 Then direction =3D 0
+        If r =3D 2 Then direction =3D 23
+        If r =3D 3 Then direction =3D 45
+        If r =3D 4 Then direction =3D 68
+        If r =3D 5 Then direction =3D 113
+        If r =3D 6 Then direction =3D 135
+        If r =3D 7 Then direction =3D 158
+        If r =3D 8 Then direction =3D 180
+        If r =3D 9 Then direction =3D 203
+        If r =3D 10 Then direction =3D 225
+        If r =3D 11 Then direction =3D 248
+        If r =3D 12 Then direction =3D 293
+        If r =3D 13 Then direction =3D 315
+        If r =3D 14 Then direction =3D 338
+    End Sub
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Timer1.Tick
+        If GetAsyncKeyState(VK_SPACE) Then
+            NewGame()
+        End If
+        If GetAsyncKeyState(VK_A) Then
+            If pictureBox1.Top <=3D 25 Then
+                pictureBox1.Top =3D 25
+                Exit Sub
+            End If
+            pictureBox1.Top =3D pictureBox1.Top - 10
+        End If
+        If GetAsyncKeyState(VK_Z) Then
+            If pictureBox1.Top >=3D 273 Then
+                pictureBox1.Top =3D 273
+                Exit Sub
+            End If
+            pictureBox1.Top =3D pictureBox1.Top + 10
+        End If
+        If GetAsyncKeyState(VK_UP) Then
+            If pictureBox2.Top <=3D 25 Then
+                pictureBox2.Top =3D 25
+                Exit Sub
+            End If
+            pictureBox2.Top =3D pictureBox2.Top - 10
+        End If
+        If GetAsyncKeyState(VK_DOWN) Then
+            If pictureBox2.Top >=3D 273 Then
+                pictureBox2.Top =3D 273
+                Exit Sub
+            End If
+            pictureBox2.Top =3D pictureBox2.Top + 10
+        End If
+    End Sub
+    Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Timer2.Tick
+        If direction =3D 338 Then
+            xChange =3D 92
+            yChange =3D 38
+        End If
+        If direction =3D 315 Then
+            xChange =3D 71
+            yChange =3D 71
+        End If
+        If direction =3D 293 Then
+            xChange =3D 38
+            yChange =3D 92
+        End If
+        If direction =3D 270 Then
+            xChange =3D 0
+            yChange =3D 100
+        End If
+        If direction =3D 248 Then
+            xChange =3D -38
+            yChange =3D 92
+        End If
+        If direction =3D 225 Then
+            xChange =3D -71
+            yChange =3D 71
+        End If
+        If direction =3D 203 Then
+            xChange =3D -92
+            yChange =3D 38
+        End If
+        If direction =3D 180 Then
+            xChange =3D -100
+            yChange =3D 0
+        End If
+        If direction =3D 158 Then
+            xChange =3D -92
+            yChange =3D -38
+        End If
+        If direction =3D 135 Then
+            xChange =3D -71
+            yChange =3D -71
+        End If
+        If direction =3D 113 Then
+            xChange =3D -38
+            yChange =3D -92
+        End If
+        If direction =3D 90 Then
+            xChange =3D 0
+            yChange =3D -100
+        End If
+        If direction =3D 68 Then
+            xChange =3D 38
+            yChange =3D -92
+        End If
+        If direction =3D 45 Then
+            xChange =3D 71
+            yChange =3D -71
+        End If
+        If direction =3D 23 Then
+            xChange =3D 92
+            yChange =3D -38
+        End If
+        If direction =3D 0 Then
+            xChange =3D 100
+            yChange =3D 0
+        End If
+        If y < 26 Then
+            boing()
+            If direction =3D 158 Then direction =3D 203
+            If direction =3D 135 Then direction =3D 225
+            If direction =3D 113 Then direction =3D 248
+            If direction =3D 68 Then direction =3D 293
+            If direction =3D 45 Then direction =3D 315
+            If direction =3D 23 Then direction =3D 338
+            y =3D 26
+        End If
+        If y > 300 Then
+            boing()
+            If direction =3D 203 Then direction =3D 158
+            If direction =3D 225 Then direction =3D 135
+            If direction =3D 248 Then direction =3D 113
+            If direction =3D 293 Then direction =3D 68
+            If direction =3D 315 Then direction =3D 45
+            If direction =3D 338 Then direction =3D 23
+            y =3D 300
+        End If
+        x =3D x + ballSpeed * xChange
+        y =3D y + ballSpeed * yChange
+        pictureBox3.Left =3D x
+        pictureBox3.Top =3D y
+        If pictureBox3.Left > pictureBox2.Left - 14 _
+            And pictureBox3.Left < pictureBox2.Left + 10 Then
+            If pictureBox3.Top >=3D pictureBox2.Top - 10 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 2 Then
+                direction =3D 113
+            End If
+            If pictureBox3.Top >=3D pictureBox2.Top + 1 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 8 Then
+                direction =3D 135
+            End If
+            If pictureBox3.Top >=3D pictureBox2.Top + 9 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 15 Then
+                direction =3D 158
+            End If
+            If pictureBox3.Top >=3D pictureBox2.Top + 16 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 22 Then
+                direction =3D 180
+            End If
+            If pictureBox3.Top >=3D pictureBox2.Top + 23 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 29 Then
+                direction =3D 203
+            End If
+            If pictureBox3.Top >=3D pictureBox2.Top + 30 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 36 Then
+                direction =3D 225
+            End If
+            If pictureBox3.Top >=3D pictureBox2.Top + 37 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 42 Then
+                direction =3D 248
+            End If
+        End If
+        If pictureBox3.Left >=3D pictureBox1.Left - 14 _
+            And pictureBox3.Left <=3D pictureBox1.Left + 10 Then
+            If pictureBox3.Top >=3D pictureBox1.Top - 10 _
+                And pictureBox3.Top <=3D pictureBox1.Top + 2 Then
+                direction =3D 68
+            End If
+            If pictureBox3.Top >=3D pictureBox1.Top + 1 _
+                And pictureBox3.Top <=3D pictureBox1.Top + 8 Then
+                direction =3D 45
+            End If
+            If pictureBox3.Top >=3D pictureBox1.Top + 9 _
+                And pictureBox3.Top <=3D pictureBox1.Top + 15 Then
+                direction =3D 23
+            End If
+            If pictureBox3.Top >=3D pictureBox1.Top + 16 _
+                And pictureBox3.Top <=3D pictureBox1.Top + 22 Then
+                direction =3D 0
+            End If
+            If pictureBox3.Top >=3D pictureBox1.Top + 23 _
+                And pictureBox3.Top <=3D pictureBox1.Top + 29 Then
+                direction =3D 338
+            End If
+            If pictureBox3.Top >=3D pictureBox1.Top + 30 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 36 Then
+                direction =3D 315
+            End If
+            If pictureBox3.Top >=3D pictureBox1.Top + 37 _
+                And pictureBox3.Top <=3D pictureBox2.Top + 42 Then
+                direction =3D 293
+            End If
+        End If
+        Static player2Score As Integer
+        If (pictureBox3.Left > 476) Then
+            Timer2.Enabled =3D False
+            player2Score =3D player2Score + 1
+            Dim p2score As String
+            p2score =3D player2Score.ToString()
+            label5.Text =3D p2score
+        End If
+        Static player1Score As Integer
+        If (pictureBox3.Left < -20) Then
+            Timer2.Enabled =3D False
+            player1Score =3D player1Score + 1
+            Dim p1score As String
+            p1score =3D player1Score.ToString()
+            label3.Text =3D p1score
+        End If
+    End Sub
+    Sub boing()
+        Dim mystring =3D "MeinLied.wav"
+        axWindowsMediaPlayer1.URL =3D mystring
+    End Sub
+
+    Private Sub Song1ToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+Song1ToolStripMenuItem.Click
+        Dim mystring =3D "Lied1.mid"
+        axWindowsMediaPlayer2.URL =3D mystring
+    End Sub
+
+    Private Sub Song2ToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+Song2ToolStripMenuItem.Click
+        Dim mystring =3D "Lied2.mid"
+        axWindowsMediaPlayer2.URL =3D mystring
+    End Sub
+
+    Private Sub Song3ToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+Song3ToolStripMenuItem.Click
+        Dim mystring =3D "Lied3.mid"
+        axWindowsMediaPlayer2.URL =3D mystring
+    End Sub
+
+    Private Sub HelpToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+HelpToolStripMenuItem.Click
+        MsgBox("Leertaste/Space für neues Spiel oder Beginn," _
+               & vbCrLf & "Taste A und Taste B für rauf/runter Spieler
+1 " _
+               & vbCrLf & "Pfeiltasten rauf/runter für Spieler 2" &
+vbCrLf _
+               & "SelMcKenzie Fussballspiel", , "SelMcKenzie")
+    End Sub
+
+    Private Sub NoMusicToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+NoMusicToolStripMenuItem.Click
+        Dim mystring =3D ""
+        axWindowsMediaPlayer1.URL =3D mystring
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+ExitToolStripMenuItem.Click
+        End
+    End Sub
+
+    Private Sub SlowToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+SlowToolStripMenuItem.Click
+        ballSpeed =3D 0.05
+    End Sub
+
+    Private Sub MediumToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+MediumToolStripMenuItem.Click
+        ballSpeed =3D 0.1
+    End Sub
+
+    Private Sub FastToolStripMenuItem_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+FastToolStripMenuItem.Click
+        ballSpeed =3D 0.15
+    End Sub
+End Class

@@ -1,0 +1,24 @@
+Kommentar zu K87028@D
+Hallo Christian,
+
+HK> VTX-Decoder, der ein Video-Signal als Eingang braucht, und an die
+HK> Serielle den Ascii-Text schickt. So wie das alte SKRB, nur eben
+HK> nicht zum Löten, sondern fertig.
+
+habe ich zusammengelötet, aber das Mistding tut nicht. :-(
+Nun läuft hier eine Hauppauge Win/TV PCI. Zunächst habe ich mal ein paar
+Scripts und Filter geschrieben, um die Rohdaten in Texten abzulegen. Jetzt
+würde noch eine fehlertolerante Zuordnung zu den WPKN fehlen.
+
+DOREEN> nur der Decoder ist etwas unkonventionell.
+
+Direktabnahme aus dem Fernseher?
+
+JEAN-LUC>> fuer jeden wert einzeln. Also du siehst schon jede Menge arbeit. Dann
+
+HK> Ich habe das alles komplett in C programmiert, mit Import, Chartprogramm,
+HK> usw.
+
+Würde mich interessieren, das Programm.
+
+fG - Leander

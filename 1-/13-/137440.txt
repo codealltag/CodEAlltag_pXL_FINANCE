@@ -1,0 +1,36 @@
+Handbuchauszug (Freeware Programm auf unserer Homepage s.u.):
+
+"Delta" bezeichnet die theoretisch zu erwartende Änderung des Optionskurses bei
+einer Änderung des DAX-Standes (Leitkurses) um 1. In unserem Beispiel müßte
+hier ein Wert von ungefähr 0,66 angezeigt werden. Würde der DAX-Stand um 1
+ansteigen oder fallen, so würde der Optionskurs um ungefähr 0,66 steigen oder
+fallen.
+Anmerkung: Das Delta ist nicht konstant, sondern aendert sich staendig z.B. je
+nach Restlaufzeit und DAX-Stand.
+
+Profitechniken: Das Delta wird bei großen Portfolios aus verschiedenen Optionen
+und zugrundeliegenden Aktien oft zur Darstellung des Gesamtrisikos benutzt.
+Dazu werden die Deltas aller Einzelpositionen aufaddiert, wobei bei
+Stillhalterpositionen ein Vorzeichen- wechsel erfolgt und bei Aktien bzw.
+Index-Scheinen immer ein Delta von genau 1 angesetzt wird (bei 1/10-Scheinen
+natürlich nur 0,1 Delta). Ein Gesamtdelta von 300 bedeutet dann, daß das
+Gewinn-/Verlustpotential des Gesamtportfolios einem Portfolio von 300 Aktien
+des zugrundeliegenden Wertes entspricht. Durch Zukauf oder Verkauf von Aktien
+und/oder Optionen kann dieses Gesamtrisiko dann jederzeit genau gesteuert
+werden. Dies können Sie später in der Combi-Funktion mancher Programmversionen
+nachvollziehen.
+
+Bei "delta-neutralen" Anlagetechniken wird ein Portfolio so ausgerichtet, daß
+es nicht mehr auf Änderungen des zugrundeliegenden Wertes reagiert. Werden also
+beispielsweise 100 Aktien (Gesamtdelta 100) gehalten und dazu Puts mit einem
+Gesamtdelta von -100 gekauft, so ergibt sich für dieses Portfolio ein Delta von
+0 ("delta-neutral"). Insbesondere in amerikanischer Literatur werden solche
+Techniken geradezu als Wundermittel beschrieben. Sie sind auch zweckmäßig, um
+ein Portfolio vorübergehend abzusichern. Ein Portfolio dauernd Delta-neutral zu
+halten ist jedoch unsinnig, denn dadurch gäbe man ja auch alle Gewinnchancen
+auf.  
+
+
+Ignaz
+Visit   http://opqqsli.kex.hmz/aymjzo  and download a 
+free calculator for options, futures, bonds and similar stuff.

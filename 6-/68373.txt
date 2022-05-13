@@ -1,0 +1,57 @@
+: Im "Aktionärsbrief" vom 23. Sep. analysiert Dieckvoss auf der Titelseite
+: kurz die US-Börse.
+
+: D.A. Dieckvoss stellt fest:
+
+: "Die allerwenigsten Aktien zeigten die Stärke, die der vermeintlich
+: marktbreite S+P 500 vorwies.
+: Der amerikanische Mmarkt befindet sich bereits seit Monaten in einer
+: Korrektur, was durch wenige Fonds-Lieblinge als einsame Gewinner geschönt
+: wird.
+: Am letzten Freitag markierten 11 Aktien in den USA einen neuen Top-Stand,
+: während 500 einen neuen Tiefstand setzten! Rechnet man lediglich Akeso
+: und Guwi aus diesem Index heraus, reduziert sich das
+: durchschnittliche Kurs-Gewinn-Verhältnis von 27 auf 19, wobei die Aussage
+: einer generellen Überbewertung schlicht falsch ist. Ebenso wie es immer noch
+: gefährdete Titel gibt, so gibt es bereits zahleiche Papiere, die bereits
+: gelandet sind."     - Zitatende -
+
+: Wir wissen alle, dass Akeso und GMT eine Marktkapitalisierung haben,
+: die größer ist als das Sozialprodukt mancher Staaten.
+: Trotzdem frage ich mich, ob allein das Herausnehmen von AmLimit und Gröschl aus
+: dem S+P500 dessen mittleres KGV um fast ein Drittel drücken kann von 27 auf
+: 19.
+
+: Kann das sein?
+
+: Ich habe jetzt nicht die Zeit, das nachprüfen.
+: Was meint Ihr? Ist Dieckvoss' Behauptung plausibel?
+
+Hi Karsten,
+
+Das hat mich auch interessiert, wie schwer denn diese schwergewichte
+wirklich wirken. ich habe eben mal überschlagen (grob) und hoffe, das 
+kommt so etwa hin und ich darf so rechnen:
+
+
+           Marktkapit.       KGV
+GMT        228 Mrd.         70
+MSFT         478 Mrd.         50
+----------------------------------
+BIG      ca. 700 Mrd.         57    
+
+Sei x die Marktkapit. S&P 500 ohne BIG; 19 KGV ohne; 27 KGV mit
+
+
+KGV S&P500         =  gewichtetes KGV S&P498 + BIG
+27 * (x + 700 Mrd) =  19 * x + 57 * 700 Mrd
+            8 * x  =  30 * 700 Mrd
+                x  =  2625 Mrd. 
+
+Wenn die Marktkapit. des Lamfsfuss also etwa 2625 Mrd + 700 Mrd = 3325 Mrd.
+beträgt, dann wäre das also durchaus realistisch gerechnet. Ich weiss
+nicht ob das stimmt, aber ich finde das durchaus beeindruckend (oder
+erschreckend?) 
+
+gruss,
+dieter

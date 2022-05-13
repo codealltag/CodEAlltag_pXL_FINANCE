@@ -1,0 +1,15 @@
+Die Beträge gibt es ganz automatisch per Quadrat.
+
+Das Quadrat einer Zahl ist (per Vereinbarung) immer positiv.
+Damit ist auch die Varianz als Summe solcher Quadrate
+einer Differenz einer Wertemenge von ihrem Erwartungswert
+ebenfalls niemals negtiv (Null müßte aber gehen).
+
+Dein 1% im Beispiel kann ja plus oder minus sein.
+In die Berechnung geht aber immer das Quadrat dieser
+relativen Änderungen ein. Die Summe von allen diesen
+sog. quadratischen Abweichengen ist eben die
+Varianz und dessen 2te Wurzel die Standardabweichung.
+
+
+.......

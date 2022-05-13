@@ -1,0 +1,9 @@
+Ich hab das irgendwie anders verstanden , ich hab mir gedacht beim stop
+buy wird erst gkauft wenn der Kurs unter den von mir angegebenen stop
+fällt um nicht zu teuer Einzukaufen.
+
+z.B
+
+Kurs 56 Euro Stop bei 57
+wenn der Kurs auf 57 Euro geht dann wird nicht gekauft
+wenn der Kurs unter 57 Euro bleibt wird gekauft oder ?

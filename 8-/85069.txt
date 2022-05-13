@@ -1,0 +1,168 @@
+JA, die Dinger sind sehr unterschiedlich und werden auch ganz
+unterschiedlich genannt. Immer haeufiger werden sie bei den 
+Index-Scheinen oder OS mitgelistet, was aber nicht ganz richtig ist.
+Kannst du dir aber auch selbst basteln.
+
+Hier noch 2 Beispiele:
+
+JZSL "DAX JMPD" (WKN 373 660)
+Dieses unverzinsliche Wertpapier wird am 26. Oktober 2000 zu einem Hundertstel des
+DAX-Standes von diesem Tag zurückgezahlt. Dieses Index-Derivat wurde im November
+1995 bei einem DAX-Stand von 2070 zu 20,70 DM ausgegeben. ähnliche Wertpapiere
+wurden von der JZSL auf den Nikkei 225 und den S&P 500 ausgegeben.
+Auf den ersten Blick handelt es sich hierbei um einen gewöhnlichen DAX-Schein.
+In Wirklichkeit weist dieses Papier aber 2 Nachteile gegenüber einem reinen
+Index-Zertifikat auf:
+Es sieht einen H�chstr�ckzahlungsbetrag von DM 65 vor. Ein DAX-Stand von über
+6500 bringt dem Anleger also keinen weiteren Gewinn.
+Es gibt keine vorzeitige Rückgabemöglichkeit zum aktuellen DAX-Stand wie etwa
+bei den Nollenberger DAX-Zertifikaten. Deshalb gibt es keine Garantie dafür,
+daß die JMPD tatsächlich immer zu genau einem Hundertstel des DAX-Standes
+gehandelt werden. Ihr Kurs könnte durchaus für längere Zeit unter den
+entsprechenden DAX-Stand fallen.
+Wegen dieser beiden Nachteile muß der faire Wert dieser JMPD immer etwas
+tiefer als der entsprechende DAX-Stand angesetzt werden. Der Nachteil mag oft
+gering sein, aber es ist eben objektiv ein kleiner Nachteil gegenüber einem
+echten Index-Schein vorhanden. Man kann den fairen Wert auch genauer berechnen:
+Der zum aktuellen DAX-Stand gehörende Rückzahlungsbetrag wird als Zerobond
+abgezinst. Bei einem DAX von 2070 müßte also der faire Wert eines Zerobonds
+berechnet werden, der am 26.10.2000 zu 20,70 DM getilgt wird. Bei einem Marktzins
+von 6,25% und genau fünf Jahren Restlaufzeit wären dies ungefähr 15,29 DM.
+Hinzu kommt der Wert eines Euro-Call, der einen entsprechenden Zusatzgewinn
+einbringt, falls der DAX am Ablauftag über 2070 liegt. Bei einem OPN-Wert von
+15, Restlaufzeit fünf Jahre, Bezugskurs 2070 auf 0.01 DAX ergibt sich hierfür
+ein fairer Wert von etwa 6,20 DM.
+Dies ergibt zusammen einen Wert von 21,49 DM für ein Wertpapier, das am
+Ablauftermin mindestens 20,70 DM oder, je nach DAX-Stand einen entsprechend
+höheren Betrag einbringt.
+Allerdings sehen die JMPD bei einem niedrigeren DAX auch nur eine
+entsprechend niedrigere Rückzahlung vor. Das kann man durch Abzug (=Schreiben)
+eines Put berücksichtigen. Ein entsprechender Put mit Bezugskurs 2070 und
+OPN-Wert 15 hat einen Wert von ungefähr 0,60 DM. Dies ziehen wir von 21,49 DM
+ab, und es verbleibt ein Wert von 20,89 für jeden Jütemeier.
+Auch der maximale Höchstgewinn von 65 muß durch Abzug (=Schreiben) eines Call
+mit Bezugskurs 6500 berücksichtigt werden. Da dieser Call sehr weit aus dem
+Geld liegt sollte er mit einem höheren OPN-Wert berechnet werden. Bei einem OPN
+von etwa 24-29 ergibt sich ein fairer Preis von ungefähr 0,50 bis 1,00 DM. Dies
+von 20,89 abgezogen verbleibt nur noch ein Wert von etwa DM 20,00 für jeden
+Jütemeier - also weniger als die 20,70 DM, die ein echtes Index-Zertifikat
+kosten müßte.
+Würde man auch den Call 6500 mit einem OPN von nur 15 berechnen, so ergäbe sich
+ein Wert von etwa 0,10 DM, und damit käme man tatsächlich nahe an jene 20,70 DM
+eines echten Index-Zertifikates heran. Es muß aber betont werden, daß sich
+solche "Extremoptionen" kaum noch realistisch berechnen lassen. Die
+tatsächlichen Marktpreise für Optionen, die extrem weit im oder aus dem Geld
+liegen, sind oft reine Glücksache, falls man überhaupt einen Handelspartner
+dafür findet.
+Wenn Sie das ganze Beispiel mit verschiedenen OPN-Werten und  verschiedenen
+DAX-Ständen nachrechnen, so werden Sie bemerken, daß der faire Preis der
+Jütemeier-Derivate mit steigendem OPN-Wert (=höhere Schwankungserwartung)
+und/oder steigendem DAX immer weiter hinter dem Preis echter Index-Zertifikate
+zurückbleibt. Dies hängt damit zusammen, daß die Gewinnobergrenze von 6500 dann
+einen immer realistischeren Nachteil darstellt.
+Die JMPD haben aber auch einen Vorteil: Sie wurden von der JZSL
+nämlich als "unverzinsliche Schuldverschreibungen" (also Anleihen) definiert,
+und die Gebühren beim Kauf oder Verkauf von Anleihen sind in der Regel
+niedriger als bei Aktien, Optionsscheinen oder Index-Scheinen.   
+
+
+JoJo "JIZE" Aktienindex-Anleihe (WKN 313 741)
+Dies ist eine Anleihe mit Laufzeit bis 19. November 2000, bei der die Verzinsung
+als Hälfte des prozentualen DAX-Anstiegs zwischen den Kuponterminen definiert
+ist. Steigt der DAX also in einem Jahr um 20% (maßgeblicher Stichtag ist
+jeweils der 11. November bzw. bei Feiertagen der folgende Börsentag), so werden für
+dieses Jahr 10% Zinsen gezahlt. Fällt er, so werden keine Zinsen gezahlt. Die
+Berechnungsbasis für das folgende Jahr wird dann aber auf den neuen, tieferen
+DAX-Stand zurückgesetzt, so daß der Anleiheinhaber von einem späteren
+Wiederaufholen des DAX profitiert. Es gibt keine Stückzinsen, sondern die
+Zinszahlung wird immer am jeweiligen Zahlungstermin (19. November) vom Kurs
+abgezogen.
+Im Prinzip handelt es sich bei dieser Anleihe um einen Zerobond mit einem
+Bündel von 5 einjährigen DAX-Optionsscheinen auf je 0,233 mal den DAX. Also ein
+Optionsschein für jedes Jahr bis zum Ablauf, und der Faktor 0,233 ergibt sich
+durch die Notwendigkeit, die halben prozentualen Steigerungen des "krummen" DAX
+in "glatte" Prozentkupons der Anleihe mit einem Nominalwert von 1.000 DM
+umzurechnen.
+Den heutigen Wert der Optionsscheine kann man aber nicht so einfach berechnen,
+denn der Bezugskurs für z.B. den Optionsschein für das 3.Jahr ist der DAX-Stand
+bei Ablauf des 2.Jahres, und den kennen wir ja heute noch nicht. Für eine
+Näherungslösung könnte man z.B. alle 5 Optionsscheine erst einmal mit dem Wert
+des ersten Optionsscheines ansetzen, der sich ja berechnen läßt. Diesen müßten
+wir dann für die folgenden 4 Optionsscheine komplizierten Wertkorrekturen
+unterziehen und ihn schließlich dann noch auf das heutige Datum abzinsen.
+Es gibt aber auch noch andere Möglichkeiten für eine Bewertung:
+Zuerst sucht man die Marktrendite für vergleichbare normale Anleihen. Nehmen
+wir hier einmal 6,5% an. Dann berechnet man die Rendite der JIZE-Anleihe als
+Zerobond. Bei einem Kurs von genau 100% ergäbe sich eine Rendite von 0%, bei
+einem Kurs von unter 100% wäre die Rendite positiv, und bei einem Kurs von über
+100% negativ.
+Hinweis: Der Modern Speculator ist nicht zur Berechnung negativer Renditen
+eingerichtet, denn normalerweise gibt es ja keine Anleihen mit negativen
+Zinsen. Bei derartigen Eingaben wird deshalb immer eine Mindestrendite von
+ungefähr 0,1% angezeigt. Man kann sich aber mit Schützen behelfen. Wenn etwa
+ein Kurs von 95 eine Rendite von +1% und ein Kurs von 100% eine Rendite von 0%
+(Anzeige ungefähr 0,1%) ergibt, dann kann man grob schützen, daß ein Kurs von
+105 einer Rendite von ungefähr -1% entspricht!
+Nun wird die Differenz zwischen der Marktrendite (im Beispiel 6,5%) und der
+sich aus dem Kurs ergebenden Rendite der JIZE-Anleihe berechnet. Unterstellen
+wir einmal einen Kurs von genau 100% (=0% Rendite), dann beträgt diese
+Differenz 6,5%.
+Diese Renditedifferenz müßte durch ein Ansteigen des DAX ausgeglichen werden,
+damit sich die JIZE-Anleihe wie eine entsprechende normale Anleihe rentiert.
+Da nur die Hälfte des jährlichen DAX-Anstiegs als Zins gezahlt werden, müßte
+der DAX jährlich um 13% steigen, damit sich die JIZE-Anleihe mit 6,5%
+rentiert.
+Bei fünf Jahren Laufzeit und gleichmäßigem Kursanstieg müßte der DAX übrigens
+nicht nur um 5 mal 13% = 65% steigen, sondern um deutlich mehr. Denn die 13%
+müssen jedes Jahr auf den Endstand des vorhergehenden Jahres aufgeschlagen
+werden. Musterrechnung:
+Ausgangspunkt für das erste Jahr ist ein DAX-Stand von 2143 am 11.11.1995. Nach
+einem Jahr müßte der DAX auf mindestens 2421 gestiegen sein, nach zwei Jahren
+auf mindestens 2736, ..., und nach fünf Jahren schließlich müßten mindestens
+3948 erreicht sein. Bei gleichmäßigem DAX-Anstieg rentiert die JIZE-Anleihe
+also nur dann besser als normale Anleihen, wenn der DAX in den nächsten fünf
+Jahren um über 84% auf mindestens 3948 steigen wird. 
+Bei nicht so ganz gleichmäßigem, aber doch noch einigermaßen stetigen Anstieg
+gilt folgendes: Steigt der DAX gleich am Anfang stärker und später schwächer,
+so führt dies zu einem Zinseszinsvorteil, denn es werden zuerst höhere und
+später niedrigere Zinsen gezahlt.
+Steigt der DAX dagegen erst später stark, und/oder fällt er gar anfangs oder
+zwischendurch etwas zurück, so führt dies zu einem Nachteil bei den
+Zinseszinsen, denn es werden anfangs nur geringe oder gar keine Zinsen gezahlt.
+Beim späteren Aufholen muß dann auch dieser Zinseszinsverlust mit aufgeholt
+werden.
+Besonders interessant ist diese Anleihe bei extremen Schwankungen des DAX:
+Würde sich der DAX etwa aufgrund irgendeiner Krise z.B. in einem Jahr halbieren
+und im folgenden Jahr wieder auf sein altes Niveau zurückkehren (=verdoppeln),
+so ergäbe dies einen Zinsausfall, gefolgt von einer Zinszahlung von 50%. Und
+das, ohne daß der DAX insgesamt überhaupt gestiegen wäre!
+Wie sie sehen, ist diese Anleihe nur dann vorteilhaft, wenn Sie auf eine
+extreme Entwicklung des DAX setzen: der DAX müßte entweder wirklich sehr stark
+steigen oder zumindest extrem schwanken. Hinzu kommt als weitere Unsicherheit,
+daß diese extreme DAX-Entwicklung genau an den Stichtagen zur Berechnung der
+Zinskupons vorliegen muß. Erreicht der DAX zwar tatsächlich Extremwerte, liegt
+aber gerade an den Stichtagen im "Normalbereich", so bringt Ihnen das keinerlei
+Vorteil. Das Typische bei Extremwerten ist aber gerade, daß sie nicht die
+Regel, sondern nur vorübergehende Ausnahmen sind.
+Aus diesen Gründen erscheint uns die JIZE-Anleihe bei Kursen von 100 oder
+darüber kaum als günstiges Angebot. Bei einem Kurs von deutlich unter 100
+und/oder bei einem drastischen DAX-Einbruch könnte die Bewertung dagegen
+natürlich ganz anders ausfallen.
+Allerdings kann sich auch bei diesem Derivat der erfahrene Anwender jederzeit
+selbst "ganz nach Maß" eine entsprechende Anlageposition  zusammenstellen:
+Statt für 100% seines Kapitals JIZE-Anleihen zu kaufen, kauft er sich normale
+Anleihen und einen kleinen Bestand an DAX-Optionsscheinen. 
+Um die JIZE-Anleihen möglichst exakt nachzubilden, muß er dabei folgendermaßen
+vorgehen: Er investiert beispielsweise 95% des Startkapitals in Anleihen und 5%
+in einjährige Optionsscheine. Anschließend kauft er jedes Jahr bei Ablauf der
+Optionsscheine für einen Teil der Zinseinnahmen aus den Anleihen neue
+einjährige Optionsscheine mit einem dann aktuellen Bezugskurs. Diese Lösung
+bietet eine sichere Mindestverzinsung, und man kann sich die möglichen
+Zusatzgewinne durch DAX-Optionen selbst ganz nach Wunsch zusammenstellen,
+jederzeit ändern, aussteigen, oder durch einen Tausch in Puts sogar auf einen
+Fall des DAX spekulieren.
+
+
+Niclas Heisterklaus
+Visit   http://piamzgi.upc.lwp/blmmzn  and download a 
+free calculator for options, futures, bonds and similar stuff.

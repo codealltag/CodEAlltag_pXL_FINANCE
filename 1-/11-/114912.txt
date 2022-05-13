@@ -1,0 +1,40 @@
+Wegen des grossen Interesses und der vielen Fragen, möchte ich hier noch
+einmal genauer beschreiben worum es sich bei meinem Programm handelt.
+Mit meinem Programm lassen sich Trenddurchbr�che in ASCII-Kursdateien
+ausfinding machen.
+ASCII Kursdateien sind Textdateien in denen die Kurse zeilenweise
+enthalten sind. Die Kurse sind durch Komma/Semikolon voneinander
+getrennt. Diese Kurse gibt es z.B. unter :
+http://puv.jncicaallhxkt.va/tkpcydqgbyqh (auch als kostenloses e-mail
+Abo !)
+Dabei werden alle in einem Verzeichnis vorhandenen Kursdateien
+betrachtet. Nach Beendigung des Programmdurchlaufes entsteht eine
+Zieldatei folgenden Formats :
+
+Name der Aktie ,Datum des Trendbruchs,Art des    Signals(Buy/Sell),Kurs
+bei Trendbruch, akt./letzter Kurs, Widerstandslinie Punkt
+1,Widerstandslinie Punkt 2, Unterstützungslinie Punkt 1,
+Unterstützungslinie Punkt 2
+Name der Aktie....usw.
+
+Dabei wird pro Aktie immer nur das zuletzt enstandene Signal angezeigt.
+Ist noch kein Signal entstanden, wird die prozentuale Entfernung zur den
+Trendlinien angezeigt.
+Das Programm ist nicht dazu geeignet, Anlageentscheidungen zu treffen
+die ausschliesslich auf die Programmergebnisse zurückzuführen sind. Es
+soll eher dazu dienen, sich einen Chart einer Aktie genauer anzusehen
+bei der ein Signal entstanden ist.
+Gerade in Zeiten hoher Volatilität, wie derzeit, treten häufiger
+Fehlsignale auf. Ansonsten werden jedoch Ausbrüche aus
+Konsolidierungsformationen (Dreicke, Rechtecke, Boden-Topbildung)
+herausgefunden, was sich als sehr nützlich und zuverlässig herausstellt.
+Zur richtigen Zeit die richtige Aktie zu kaufen/verkaufen ist somit
+ziemlich leicht. Der Durchlauf des Programms dauert bei mir ca. 1 min
+auf einem P133/64MB Win 95
+bei 2500 Chartdateien (3 Jahreszeitraum).
+Geplant ist, auch andere Chart-Formate zu unterstützen, wie z.B. :
+-Metastock, Quicken
+
+Das Programm wird ab Oktober auf Diskette erhältlich sein.
+Bei Interesse oder weiteren Fragen :
+e-mail an : mfqrw@pkhci.om

@@ -1,0 +1,34 @@
+waehrend
+DAX
+
+Auch Puts kosten Geld, und damit ist bei der 
+Absicherung mit Puts ein Anfangsverlust da!
+
+Bei deiner Put-Methode beziehst du dich vermutlich 
+auf die Absicherung mit Puts tief im Geld und 
+deshalb nahezu ohne Aufpreis (bei Euro-Puts 
+eventuell sogar mit Abpreis). Jedoch:
+- Solche Puts werden recht selten gehandelt, 
+insbesondere kaum jetzt (hohe implizite Vola)
+- Sind fuer den Privatanleger zu teuer (abolut gesehen)
+- Kann bei Euro-Puts trotzdem zu einem kleinen Verlust 
+fuehren, weil sich der Abpreis erhoehen kann.
+
+Vom Prinzip her, wenn im Einzelfall realisierbar, waere 
+diese Methode allerdings tatsaechlich die guenstigste.
+Beispiel:
+Dax bei 4400
+Kauf Put Basis 5000 fuer etwa 600
+Steigt der DAX ueber 5000, ergibt sich ein Gewinn, 
+bleibt er drunter entsteht theoretisch kein Verlust.
+Praktisch allerdings Zinsverlust auf das unnuetz 
+(weil ja kaum Gewinnchance) gebundene Kapital.
+Genau wegen dieses Zinsverlusts sind diese Puts
+ja so billig (scheinbar kein Aufpreis).
+Eine vollkommene Gratissabsicherung mit Puts gibt
+es nicht - steckt alles in der Optionsformel.
+
+
+Thierry
+Visit   http://psgnggt.dwh.yvn/knslut  and download a 
+free calculator for options, futures, bonds and similar stuff.

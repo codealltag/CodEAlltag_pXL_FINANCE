@@ -1,0 +1,157 @@
+Roulettesystem Sechserstrategie
+Author E.Mölleken
+
+Das Spiel auf die Sechsertransversale (transversale simple) wird von
+vielen deshalb bevorzugt, weil sich bei 6 von 37 Zahlen
+Wahrscheinlichkeit und Chancengröße annähernd die Waage halten.
+Außerdem lässt sich der Verlauf der Sechsertransversalen gut
+überblicken und registrieren. Die Wahrscheinlichkeit für das
+Erscheinen einer Sechsertransversale beträgt 6/37, demnach 0,162. Mit
+den Sechsertransversalen beginnen die Chancen, die im Gegensatz zu den
+Einfachen Chancen und den Dutzenden und Kolonnen eine präzisere
+Erfassung der Wahrscheinlichkeit und Häufigkeiten gestatten. So ist
+nach der exakten mathematischen Wahrscheinlichkeit z.B. vorgegeben,
+dass die letzte offene (noch nicht erschienene) Sechsertransversale
+mit dem 15. Coup =84fällig=93 ist. Des weiteren gibt es die
+Häufigkeitsverteilung für die Sechsertransversalen, die ihre
+Erscheinungsweise samt der fälligen Wiederholungen anzeigt.
+
+Die Häufigkeitsverteilung gibt an, wann sich eine beliebige
+Transversale wiederholt und wie oft. Das Schema stellt sich wie folgt
+dar, wobei nur der Teil bis zum ersten Vierer einer
+Sechsertransversale abgebildet ist.
+
+Tabelle der Häufigkeitsverteilung der Sechsertransversalen
+
+COUP 	1 Mal 	2 Mal 	3 Mal 	4 Mal
+1	1
+2	2
+3
+4	3
+5	 	1
+6	4
+7	 	2
+8
+9	 	 	1
+10	5	3
+11
+12
+13	 	4	2
+14	 	 	 	1
+15	6
+Aus dieser Tabelle geht nicht nur hervor, dass beim 15. Coup alle
+Sechsertransversalen erschienen sein sollten, sondern auch der
+Zeitpunkt der ersten (Zweier), zweiten (Dreier) und dritten (Vierer)
+Wiederholung einer Transversale. Diese Binominal- bzw.
+Häufigkeitsverteilung gibt die theoretischen Werte vor, die in der
+Praxis selbstverständlich mehr oder minder starke Abweichungen in
+beide Richtungen erfahren können. Sie bildet die Grundlage für den
+nachstehenden Spielvorschlag =84DIE SECHERSTRATEGIE=93.
+
+Bei der Erscheinungsweise der Sechsertransversalen, wobei man sich in
+jedem Fall nur auf die ersten Coups der Häufigkeitsverteilung
+beschränken sollte (also z.B. bis zum 15. Coup), ist die Entwicklung
+noch übersichtlich. Es können drei Möglichkeiten auftreten:
+
+1. Die Sechsertransversalen bzw. ihre Wiederholungen erscheinen
+überwiegend wie in der theoretischen Verteilung vorgegeben.
+2. Die Sechsertransversalen bzw. ihre Wiederholungen erscheinen
+überwiegend früher als in der Tabelle vorgegeben.
+3. Die Sechsertransversalen bzw. ihre Wiederholungen erscheinen
+überwiegend später als in der theoretischen Tabelle vorgegeben.
+
+Für das praktische Spiel werden nur die Möglichkeiten 1) und 2)
+herangezogen. Die dritte Möglichkeit wird ausser acht gelassen, weil
+hier bisweilen größere Ecarts durch sogenannte Transversalenstaus
+entstehen können, bei denen die Transversalen fast alle gleich oft
+erscheinen und sich keine Favoriten herausbilden.
+
+Der Angriffspunkt der SECHSERSTRATEGIE ergibt sich immer dann, wenn
+der zweite Dreier (eine Transversale ist dreimal erschienen) früher
+als von der Tabelle vorgegeben oder genau an dem angegebenen Punkt
+erschienen ist: In diesem Fall wird sofort darauf gesetzt, dass ein
+Vierer erscheint (viermaliges Erscheinen einer Transversale).
+
+Die SECHSERSTRATEGIE hat nur eine Regel: Wenn zwei Dreier vor dem oder
+bis zu dem 13. Coup erschienen sind, werden die beiden betreffenden
+Transversalen bis zu einem Treffer (dem gewünschten Vierer), jedoch
+maximal nur dreimal gesetzt. Sind drei Dreier vorhanden, so werden
+diese maximal zweimal gesetzt. Mehr als drei Transversalen werden in
+keinem Fall gesetzt. Wenn zwischenzeitlich ein Fünfer gekommen ist,
+kann nicht mehr gesetzt werden und es muss neu ermittelt werden.
+Anhand des folgenden Beispiels wird die Vorgehensweise deutlich.
+
+Obernwöhren, 20. Januar 2000
+
+COUP 	PERM 	TRANS
+1	15	3
+2	22	4
+3	34	6
+4	20	4	 1. Zweier 19-24
+5	7	2
+6	28	5
+7	11	2	 Zweier 7-12
+8	29	5	 Zweier 25-30
+9	17	3	 Zweier 13-18
+10	35	6	 Zweier 31-36
+11	35	6	 Dreier 31-36
+12	25	5	 Dreier 25-30
+Der zweite Dreier ist einen Coup früher gekommen, als =84es ihm
+zustand=93. Es wird sofort auf Bildung des ersten Vierers gespielt,
+wobei die dreimal erschienenen Transversalen 25-30 und 31-36 gesetzt
+werden.
+
+13 	35	6	 1. Vierer
+Der Angriff wird mit einem Plus von 4 Stücken beendet.
+
+Obernwöhren, 21. Januar 2000
+
+COUP 	PERM 	TRANS
+1	5	1
+2	3	1	Zweier 1-6
+3	27	5
+4	13	3
+5	23	4
+6	30	5	 Zweier 25-30
+7	22	4	 Zweier 19-24
+8	2	1	 Dreier 1-6
+9	1	1	 Vierer 1-6
+10	6	1	 Fünfer 1-6
+Diese Konstellation bietet keine Angriffsmöglichkeit, weil bereits ein
+Fünfer erschienen ist, bevor die beiden erhofften frühen Dreier
+gekommen sind. Es ist neu zu ermitteln.
+
+Obernwöhren, 22. Januar 2000
+
+COUP 	PERM 	TRANS
+1	15	3
+2	29	5
+3	16	3	 Zweier 13-18
+4	31	6
+5	1	1
+6	10	2
+7	12	2	 Zweier 7-12
+8	1	1	 Zweier 1-6
+9	23	4
+10	12	2	 Dreier 7-12
+11	20	4	 Zweier 19-24
+12	24	4	 Dreier 19-24
+Der zweite Dreier ist einen Coup früher als erwartet gekommen. Es
+werden sofort die Transversalen 7-12 und 19-24 gesetzt.
+13 20 4 1. Vierer 19-24
+
+Der Angriff endet mit einem Plus von 4 Stücken. Es ist neu zu
+ermitteln.
+Wenn man sich eine Buchungsvorlage anfertigt, die jeweils 15 Coups
+umfasst, kann man die Coups markieren, bei denen die Dreier und der
+erste Vierer zu erwarten sind. Dann sieht man bei fortlaufender
+Buchung und Eintragung der Wiederholungen, ob ein Angriff in diesem
+Abschnitt möglich ist oder nicht.
+
+Die SECHSERSTRATEGIE kann im Gleichsatz, jedoch auch mit einer flachen
+Überlagerung gespielt werden. Im Gleichsatz sind 25 Stück Tischkapital
+mit entsprechender Reserve zu veranschlagen. Neben einer flachen
+Überlagerung kann auch eine Gewinnprogression in dem Sinne verwendet
+werden, dass nach einem Gewinn die Einsätze für den nächsten Angriff
+erhöht werden, weil es oft vorkommt, dass man mehrere Angriffe
+hintereinander erfolgreich beenden kann.

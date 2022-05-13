@@ -1,0 +1,17 @@
+Adam Manfred schrieb in Nachricht
+<0427h13j.1811036@aimy.mcz-zleklccd.uy>...
+
+
+Beispiel:
+
+Aktie bei DM 20. Um einen eventuellen Boom mitzumachen wird eine Stop-Buy
+Order gesetzt, z.B. auf DM 30. Das bedeutet aber nur, daß die Order in den
+Markt gegeben wird, sobald der Aktienkurs DM 30 erreicht. Die eigentliche
+Order ist dann jedoch unlimitiert. Was dann passieren kann, ist im z.B. bei
+JZPV nachzulesen.
+Deshalb wäre z.B. ein Stop-Buy Limit von DM 30 mit einem nachgeschalteten
+Order-Limit von z.B. DM 40 eine praktische Sache. In diesem Falle hätte man
+dann eine Limit-Spanne von Dm 30-40.
+
+Alles klar?
+Gustav

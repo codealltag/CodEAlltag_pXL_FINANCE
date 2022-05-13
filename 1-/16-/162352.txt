@@ -1,0 +1,11 @@
+Georges Adolphs (Rcgvslw@o-besdad.tq) ergo/3 sich wie folgt:
+
+
+Die Proxyjongliererei hat bei mir auch nichts gebracht.
+Inzwischen habe ich gelernt, dass mein TCP/IP Socket an
+den ganzen Problemen schuld war. Wir hatten hier ein aeltere Version
+aus PC-NFS vorliegen. Mit einem original Bigiro TCP/IP Socket
+funktioniert die ganze Chose dann.
+
+Vielleicht hilft das dem einen oder anderen,
+                                             NOËL

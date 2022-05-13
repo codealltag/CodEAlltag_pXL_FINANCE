@@ -1,0 +1,35 @@
+On 6-Jul-97 Adolf Franse wrote in a Mail about
+"Re: Vermeidung der Spekulationssteuer":
+
+Hallo!
+
+
+Das Ausstellen/Schreiben (oder wie auch immer) eines OS
+versetzt Dich in die Lage des Stillhalters. Du musst also bei
+Ausuebung des Scheins das Underlying zum Basispreis liefern
+(CALL) oder abnehmen (PUT).
+Das geht
+a) "covered" - wobei Du eine entsprechende Position des
+Underlyings besitzt (beim PUT eine Shortposition)
+oder
+b) "naked" - ohne entsprechende Position und damit mit dem
+Risiko theoretisch unbegrenzten Verlustes.
+
+Bei beiden Varianten kassierst Du das Agio.
+Das Ausstellen eines CALLs/PUTs ist also nur profitabel
+fuer a) bei stagnierenden,
+fuer b) bei stagnierenden oder fallenden/steigenden Kursen.
+
+Bei Variante b) verlangt Deine Bank eine Sicherheit in Form
+einer Marge (Konditionen differieren).
+
+
+CU, Emanuel
+
+
+PS: Mmh, nimm's mir bitte nicht uebel, aber eigentlich hatte
+ich damit gerechnet, dass meinem Originalposting konstruktive
+Antworten folgen und keine Fragen zum Grundwissen.
+Schade, scheint sich wohl keiner dafuer zu interessieren.
+Die FAQ dieser newsgroup findet man unter
+http://jhw.mdgzh.cmz.ld/xrtp/wmtqds/bnv.tktt

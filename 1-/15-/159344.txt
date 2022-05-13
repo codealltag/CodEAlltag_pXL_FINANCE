@@ -1,0 +1,111 @@
+Eine sehr unschuldige Frage, vor allem mit Hinblick auf das "richtig"
+<g>...
+
+Lass mich vorweg schicken, dass es "DIE" Volatiliaet ueberhaupt nicht
+gibt. Es gibt auch keinen Konsens ueber die beste Methode der Messung,
+so man denn glaubt, dass es zumindest "eine" Vola gibt.
+
+
+Frage zwei Experten und sie geben Dir vier verschiedene Antworten.
+
+Eine Moeglichkeit ist sicherlich, die Schlusskurse zu nehmen, andere
+nehmen anscheinend die Differenz High-Low als Stellvertreter fuer die
+lokale Volatilitaet (jeweils versehen mit Durchschnittsbildung welcher
+Art auch immer - Simulation eines ARIMA-Prozesses). Auch IRGENDEIN
+Wert zu immer einem bestimmten Zeitpunkt mag z.B. bei europaeischen
+Optionen sinnvoll sein.
+
+
+Nun, der Markt sagt: ca. 10-20% (s. z.B. Optionsschein-Magazin). Aber
+der Markt benutzt auch nicht Black-Scholes zur Bewertung (nur zum
+Stellen der Kurse)
+
+
+Hast Du statistisch saubere und valide Daten? Die *kostenlosen* Daten,
+die ich bisher gesehen habe, sind - gelinde gesagt - von katastrophal
+schlechter Qualitaet. Z.B. Beruecksichtigung der Aenderung der
+Zusammensetzung des DAX?
+
+Ausserdem kommt es darauf an, wie Du die Vola misst.
+
+Zwei grundsaetzliche Moeglichkeiten:
+- Standardabweichung aller vorliegenden Werte unter der Annahme, 
+  dass der Zeitabstand konstant ist (klammert z.B. den Wochenend-
+  Effekt aus)
+- Standardabweichung unter Beruecksichtigung des Wochenende, entweder
+  durch zwei zusaetzliche Werte (Null oder gleich) oder durch korrekte
+  Skalierung des Zeitabstandes zwischen Freitag (Schluss) und Montag
+  (Schluss) (letzteres wohl besser)
+
+Hat man sich eine dieser Moeglichkeiten ausgesucht, legt man sich die
+Werte zurecht:
+
+Vola ist NICHT gleich Standardabweichung(die Schlusskurse) - denn da
+ist u.a. noch ein TREND drin. Zudem sind nur RENDITEN zu untersuchen:
+Ausgangspunkt fuer B-S ist ja schliesslich der stochastische Prozess
+dS = mu*S + Vola*S*dB. Um einen *vernuenftigen* Schaetzer zu bekommen
+sollte man in entsprechende Einstiegsliteratur schauen; vermutlich hat
+Vanderlind(22. 11. 22): Option, Futures, and Other Derivatives; 3. Aufl.
+irgendwo was. Dort erfaehrt man m.W. einfuehrend auch, worauf bei der
+Vola noch zu achten ist - denn man darf bei Optionsmodellen (fast)
+alles falsch schaetzen, bloss nicht die vola (nebenbei gesagt: eine
+deterministische, flache Zinssstrukturkurve wuerde ich auch mal gerne
+sehen <g>).
+
+Tja, und mit Deinen Werten hast Du eigentlich auch schon das Problem
+bei Black-Scholes (und fast allen uebrigen geschlossenen
+Bewertungsformeln) erkannt: Volatilitaet ist nicht konstant sondern
+(frei nach Schnauze und auch kombinierbar):
+
+- zeitlich abhaengig (Wochenende)
+- mean reverting (abhaengig von der Aenderung der Basis)
+- stochastisch
+
+Baut man das so in ein numerisches Modell ein, KANN man eventuell
+realistische Ergebnisse fuer den stochastischen Prozess des Underlying
+(Stichwort: "fat tails" / "stable distribution") und damit natuerlich
+auch fuer den Wert der Option bekommen (der Unterschied ist uebrigens
+fuer Plain Vanilla (also B-S) Optionen anscheinend nicht soooo gross).
+
+
+Grundsaetzlich ist Black-Scholes skalierbar. Du kannst also alles
+reinstecken was Du willst, einzige Bedingung ist, dass es
+zusammenpasst.
+
+
+?????
+
+Beispiel: Du kannst problemlos Deine 21-Tage Vola reinstecken, wenn Du
+Deine Zeit in 21-Tage-Intervallen misst (und natuerlich auch den
+entsprechenden Zinssatz verwendest). Diese Eigenschaft der
+(geometrischen) Zeitschel Bewegung erlaube ich z.B. in meiner
+Software (http://isddls.gx.wpn-xdnibd.sv/~w7hpjn31/ofpmks/),
+befuerchte aber, daß diese Freiheit von den meisten Nutzern nicht
+verstanden (und folglich nicht genutzt) wird.
+
+Grundsaetzlich kann man auch Volatilitaet skalieren; so kann z.B. die
+beruehmt-beruechtigte 250-Tage Vola (ein Jahr hat ca. 250 Handelstage,
+damit 250 Stuetzpunkte) in eine, sagen wir, 365-Tage Vola ueberfuehrt
+werden durch:
+
+   Vola[365] = Vola[250] * sqrt(365/250)
+   (zeitkontinuierlich!)
+
+
+Alles in allem ist die "Messung" der "korrekten" historischen
+Volatilitaet wohl DIE Herausforderung fuer jeden, der professionell
+mit Optionsscheinen umgeht. Natuerlich kann man auch die implizierte
+Volatilitaet als "korrekte" Masszahl, die aus der Zukunft kommt und
+die aktuelle Marktsicht widerspiegelt, hernehmen - dies *scheint*
+momentan der am meisten in der Literatur verfolgte Ansatz zu sein.
+Allerdings hilft in diesem Fall Black-Scholes ueberhaupt nicht mehr
+weiter und es muss auf numerische Loesungen zurueckgegriffen werden
+(die ich derzeit implementiere).
+
+Hoffentlich helfen die obigen Ausfuehrungen wenigstens ein klein wenig
+(Nachfragen bitte per email - aber bitte erwarte keinen par force-Ritt
+durch derivative asset pricing und Oekonometrie).
+--
+Gtvceo.Xheqxsaxtqn@WSK-Uebgwt.GQ
+http://ovlwen.oh.miy-qssfxb.ya/~p5fvdc83/
+University of Christenberg, Mittelhammer, Germany

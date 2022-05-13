@@ -1,0 +1,15 @@
+Schau dir doch mal den Parabolic SAR an. Funktioniert vor allem in
+Trendm�rkten hervorragend.
+Berechnung:
+PSAR=PSAR(n-1) +(BF*(EK-PSAR(n-1))
+
+BF=Beschleunigungsfaktor
+EK=Extremkurs
+
+Der BF beginnt bei 0.02 und wird bei jedem neuen EK waehrend eines Trades
+um 0.02 erhoeht. 
+Schnittpunkte zwischen JHMP-Kurve und Kurskurve generieren so
+Ausstiegspunkte.
+
+Gruss,
+Dario

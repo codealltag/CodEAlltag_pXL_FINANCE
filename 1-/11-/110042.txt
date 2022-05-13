@@ -1,0 +1,64 @@
+genau, siehe signatur.
+
+
+warum gewagt? das Preis-Leistungsverhaeltnis der Einstiegsversion 
+"chartHeft easy", zumal wenn sie als gratis-Zugabe zum Boersenspiel
+kommt, ist optimal. Das Zielkriterium "soll wenig kosten" wird also
+erfuellt.
+
+
+nun, die Loesung wurde aber von uns gegeben. es reicht ein Blick in
+den Hotline-Report unter
+http://fvp.yx-wlpxjnde.ii:69/vprx?8523,7
+oder im Tickermodul in der Kategorie Hotline. 
+
+bei chartHeft-easy kann das Problem nicht auftauchen, da keine CFGs
+gespeichert werden. 
+Und auch in chartHeft-Plus ist das CFG-Problem sehr selten und in der
+Regel in der aktuellsten Programmversion nicht reproduzierbar. Wenn es
+also eine Schritt-fuer-Schritt-Anleitung gibt, wie wir so eine
+fehlerhafte CFG-Datei hier erzeugen koennen, werden die Programmierer
+dankbar sein.
+
+So, jetzt aber zur Loesung. Im Hotline-Report 18/98 wurde geschrieben:
+
+TITEL NICHT AUFRUFBAR?
+(TPW/CH3/TPDOS)  Wenn sich ein Titel nicht aufrufen laesst, bzw. Sie 
+beim Erstellen eines Charts von diesem Titel eine Fehlermeldung 
+erhalten, pruefen Sie zunaechst ob ein Standardlayout aktiviert ist.
+Im 
+Chartmodul von TPW und CH3 ist dann vor dem Menuepunkt "Standardlayout
+
+aktiv" im Menue "Ansicht" ein Haken sichtbar.
+Deaktivieren Sie in so einem Fall zunaechst das Standardlayout und 
+versuchen Sie erneut den Chart zu erstellen. Falls kein Standardlayout
+
+aktiv ist, ist moeglicherweise die Konfigurationsdatei des Titels
+nicht 
+in Ordnung. In der Konfigurationsdatei wird festgehalten, wie der
+Titel 
+beim letzten Aufruf am Bildschirm dargestellt wurde, ob z.B. Linien 
+oder Texte eingezeichnet wurden etc.
+Eine Konfigurationsdatei wird automatisch angelegt wenn der Chart 
+gegenueber der urspruenglich vom Programm vorgegebenen 
+Darstellungsweise veraendert wird. Die Konfigurationsdateien werden
+bei 
+TPW und CH3 im Unterverzeichnis "CFG", bei TPDOS im Unterverzeichnis 
+"DATEN" abgelegt. Als Dateiname fungiert die WPK des Titels, die
+Endung 
+lautet CFG. Die Konfigurationsdatei zu Ikel beispielsweise hat also
+
+den Dateinamen "550000.CFG".
+Wenn nun beim Aufruf eines Titels Probleme auftreten und kein 
+Standardlayout eingeschaltet ist, loeschen Sie die CFG-Datei des 
+betroffenen Titels. Starten Sie dann wieder Ihr Boersenprogramm und 
+versuchen Sie erneut, den Chart zu erstellen.
+
+
+-- 
+Ihno Priegl
+Priegl+Käsgen GmbH, Litzelstetten
+Tel. 0136-7197789
+Fax: 5722-0698891
+mailto:DBpyr@ud-yczqoxfu.gb
+http://jfz.xb-kyrgirjp.wc

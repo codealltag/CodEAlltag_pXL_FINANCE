@@ -1,0 +1,21 @@
+On Wed, 28 Jun 1999 21:52:47 MET, xpt28@wjnujct.rbm (Bernd Ulen)
+wrote:
+
+
+Wr ja schön, wenns so wäre. Einfach alte Programme auf einen
+grösseren Rechner und alles ist ok? Leider geht das so nicht. Die
+Grösse der Variablen wird nach wie vor zur Übersetzungszeit
+festgelegt.
+
+Aus genau demselben Grund haben wir doch heute das Y2K Problem, weil
+sich vor ein paar Jahren keiner vorstellen konnte, dass sein Prog
+länger als 10 Jahre in Betrieb sein wird. Die Sache wird sich im Jahr
+2038 wiederholen, da bin ich mir sicher.
+
+Die time-Struktur hätte schon längst umgestellt gehört, und zwar so,
+dass sie wenigstens 20 Milliarden Jahre abdeckt, also den
+vollständigen Zeitbereich seit Beginn des Weltalls bis in weite
+Zukunft. Das tt vielleicht 0,000005 Pfennige pro Rechner kosten und
+diese deligen Probleme wären endgültig erledigt.
+
+Gruss Clemens

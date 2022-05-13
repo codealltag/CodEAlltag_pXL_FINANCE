@@ -1,0 +1,64 @@
+: In article <3ilm93$k6s@jhvthpq.pwz.YR-Wbmjdl.WK>, noqi@fu.uv-gevqcx.aa (Lgug Zinßer) says:
+: >
+: >Ich habe zwei Fachbuecher zum Thema Optionsscheine (OS). Das eine behauptet
+: >ein Kaufoptionsschein-Besitzer kann den OS jederzeit verkaufen, das andere
+: >hingegen, dass es immer nur zu festgesetzten Terminen erlaubt ist.
+: >Weiss es einer genau?
+
+
+: Beide Buecher haben teilweise recht. Es gibt sogenannte amerikanische und
+: sogenannte europaeische Optionen. Bei den amerikanischen kann man jeder-
+: zeit verkaufen, bei den europaeischen nur zu einem bestimmten Zeitpunkt.
+: Deshalb ist eine amerikanische Option unter sonst gleichen Umstaenden
+: wertvoller und teurer. Den Preis einer amerikanischen Option kann man
+: als Brownian Motion modellieren und nach der BLACK-SCHOLES Formel berech-
+: nen, jedenfalls prinzipiell.
+
+
+Ihr (oder Arne :-)) verwechselt "verkaufen" und "excercising"/ aufuehren. 
+Es stimmt, das man Europaeische Optionen nur zur Maturity
+ausfuehren kann, also einem einzigen Zeitpunkt. Es gibt auch noch
+sog. "Bermudan Options", welche man zu mehreren vorher festgelegten
+Zeitpunkten ausfuehren kann. Amerikanische Optionen kann man immer
+ausfuehren (daher hoeherer Preis,etc., wie gesagt). In der Realitaet
+hat das alles nicht so viel Relevanz, da 95% aller Optionen
+American Style sind. Bermudan Options gibt es m.W. nur OTC, und
+von den wenigen European Style Optionen sind die Optionen auf
+den OEX (S&P 100) wohl das bekannteste Beispiel. 
+Verkaufen kann man alle Optionen, wie man Lust & Laune hat, sofern
+es Kaeufer gibt, und die Optionen keinen rechtlichen Beschraenkungen
+unterliegen (manchmal der Fall z.B. bei Personaloptionen, welche von
+Firmen an Ihre Fuehrungskraefte ausgegeben werden).
+
+Zur Preisberechnung:
+Black-Scholes gilt in der Originalform nur fuer europaeische Optionen
+auf nicht-dividenden zahlende Aktien. Amerikanische Optionen muss
+man mit binomial trees (bzw. geometric Brownian motion) berechnen, da ja
+die Moeglichkeit des "early excercising" gegeben ist. Es gibt allerdings
+in der Zwischenzeit viele Variationen des B-S Models.
+Ausserdem hat der Arne ja nun von OptionsSCHEINEN gesprochen, nicht von
+Optionen. Bei OS muss man auch eine leichte Variation von B-S anwenden,
+da sich durch die moegliche Ausfuehrung eines OS ja die Kapitalisierung
+der Firma aendert (wg. Ausgabe neuer Aktie), welches wiederum einen
+Einfluss auf den Aktienpreis hat, welches wiederum auf die OS-Preise, 
+etc.etc.
+
+
+zur weiteren Info, hier mal die (m.M.) besten Buecher:
+
+
+BJÖRN E. HUCKSCHLAG /  OPTIONS, FUTURES & OTHER DERIVATIVE SECURITIES
+BJÖRN E. FUS, MIKE AUFFENBERG / OPTIONS MARKETS
+
+Tschuess
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RAPHAEL D. ALDENHOFEN                                            BS FINANCE '95
+The Omog "At Esap they enhance your mind...      BA PSYCHOLOGY
+                     ...at Wharton they enhance your mind
+                        and your wallet !!!
+
+Olasul Club * Awareness of Int'l Markets * Opisi Ldr.ship Council
+email saayiy73@qdxunit.ozjam gux  HTTP://futures.wharton.upenn.edu/~rottge30
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

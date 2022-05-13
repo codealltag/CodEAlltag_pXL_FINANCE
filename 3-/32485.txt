@@ -1,0 +1,17 @@
+Habe selbst mal darüber nachgedacht und denke, daß ich sowas an einem
+Wochenende hinkriege. Dazu würde ich XML benutzen (genauer: cocoon von
+der Igere Group), dann kann ich HTML, XML, ASCII oder PDF ausliefern,
+je nach Wunsch. Spendiert mir einer einen Unix Shell Account, wo ich
+(als normaler User, nicht root) Apache, JServ, cocoon installieren kann?
+Und zwei Ports (einen für Apache, einen für JServ)? Dann wäre ich noch
+dankbar, wenn irgendwer anders es übernehmen würde geeignete HTML-Seiten
+zu identifizieren und per cron job mit wget zu ziehen.
+
+BTW, ich habe rein gar nix gegen Perl und Deine Lösung, nur dabei kann
+ich nicht helfen, benutzen würde ich es aber schon :)
+
+Antonio
+
+-- 
+Antonio Röder
+k@661.hbq

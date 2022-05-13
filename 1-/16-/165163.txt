@@ -1,0 +1,16 @@
+Kommentar zur Nachricht vom 14.09.97 in /MAUS/de.etc.xhnjsl.apnqqv
+von Ujeluj Wogyzredkd@K2 zu Hach, Winchart und Limits, war: Idugs Limits :
+
+HB>Ich hab`s jetzt raus: HV-Termin war am 10.09. (wer die HV-Termine von NWP
+HB>angezeigt kriegen will, sollte nicht GAC-Privat nehmen - da geht das
+HB>nicht ohne Verrenkungen).
+
+... und auch das habe ich jetzt raus: in die Felddef.dat von GAC am  
+Anfang des dritten Blocks mit einem Editor zusaetzlich reinschreiben:
+
+40 3 2 8 0 HV-Ter.    HV-Termin
+
+Und schon kann man sich`s einblenden. Oder die Felddef.dat aus der  
+Demoversion nehmen.
+
+Hanno Winterhalter, Dingeringhausen

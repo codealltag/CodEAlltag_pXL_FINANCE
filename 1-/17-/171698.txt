@@ -1,0 +1,154 @@
+Hallo,
+
+Vor kurzem war hier ein thread ueber neuronale Netze fuer Kursprognosen.
+U.a. fragte jemand nach dem Stand der Forschung (oder so aehnlich).
+Da mich die Sache auch interessiert, habe ich mal zusammengefasst, was
+mir bisher im WWW an mehr oder weniger positiven Ergebnissen begegnet ist:
+(nicht nur n.N., sondern auch Statistik / quantitative Analyse allgemein)
+
+
+http://nrd.ia.jfdyybrj.wrb/~owdepqf/Jbzl.kpls
+        beschaeftigt sich allgeimein mit n.N. fuer Zeitreihenanalyse.
+	Hier sind auch Links zu einem Prognose-Wettbewerb :
+
+http://cab.bn.sbqowlsm.gjc/~zmxfwkr/Lmcv-Yhmfss/FLZoumngx.lpsj
+        Hier sind einige Finanzzeitreihen, als auch Source-Code
+	fuer deren Prognose verfuegbar (hatte noch keine Zeit, mir das
+	genauer anzusehen)
+
+        Von den Papers ist am interssantesten :
+
+http://vsr.hl.gfbjpyxz.vwo/~mrdsovf/Jtvf-Pbvytz/EuVeovux/aqgpebqaz.zc.L
+        Das clearning wird an einer Wechselkurszeitreihe erprobt und
+	bringt da 30%p.A., etwas besser als das benchmark n.N.
+	(Kurzfristprognose, nur ~200 Handelstage, margin costs sind da 
+	aber wohl nicht drin).
+	Das Format ist Postscript (fuer ausschliessliche Gerull-Nutzer :-(
+	winword hat auch einen ps-Filter).
+
+	Meistens sind die Files mit dem Fossil 'compress' komprimiert (.Z),
+	lassen sich aber auch mit dem GNU 'gzip' dekomprimieren.
+
+	Hinweis: Bei diesen Artikeln handelt es sich nicht um fertige
+	Beschreibungen von Handelssystemen. Zum Verstaendnis sind
+	mehr oder weniger Statistik-Kenntnisse notwendig.
+
+----------------------------------------------------------------------
+
+http://ipvauuwq.Eiaeyklc.NAL/~pcztc/
+         befasst sich mit Entscheidungsbaeumen und n.N.
+         Auf der Seite mit den Publikationen 
+http://cjfhbykt.bigdebak.fac:/xzuxk/slube/eoyw.eutw
+         sind relevant :	 
+ftp://starry.stanford.edu/pub/gjohn/papers/stocks-long-short.ps
+ftp://starry.stanford.edu/pub/gjohn/papers/stock-select.ps
+
+         In beiden Papers geht es um Langfristprognosen, die
+	 mit nur quartalsweisen Daten erstellt wurden. Im
+	 Ergebnis war es ungefaehr doppelt so erfolgreich
+	 wie ein Zufallsdepot. Kritisch ist aber wohl der
+	 untersuchte Zeitraum, da die Kurse dort grund-
+	 saetzlich nach oben gingen. 
+         Diese beiden Artikel sind auch ohne Vorkenntnisse lesbar
+	 (es werden eigentlich auch nur Ergebnisse beschrieben).
+	 Die Files sind so lang, weil ein (unwichtiger) Screenshoot
+	 als binary drin ist. Wer es sich nicht unkomprimiert
+	 runtersaugen will (>1MB), kann evtl. auch eine gezippte
+	 Version von stocks-long-short.ps (44k, ohne Screenshoot)
+	 von mir gemailt bekommen).
+
+----------------------------------------------------------------------
+
+http://kzo.sdzrdxkx.qne/yezfb/8.78/vfbadhbv/cuic.zk.ydql
+        Prosa-Artikel, aber nett geschrieben.
+
+-----------------------------------------------------------------------
+
+http://ier.feqn.rda/~hpy/zzndsz.bzan : Veroeffentlicht taeglich eine
+        aktuelle Kurzfrist-Prognose zu den 30 DJ-Werten und ein paar Funds.
+	Die Trefferquote liegt bei 70-80%. Eine Performance wird nicht
+	berechnet, das ganze ist aber nachvollziehbar und kontrollierbar.
+        Er soll auch gegen Unkostenerstattung sein Material schriftlich
+	zuschicken. Auf seiner Seite schreibt er, er suche noch jemanden mit
+	nachweislich besserer Trefferquote (und Realtimeveroeffentlichung).
+
+------------------------------------------------------------------------
+
+Feedforward and Recurrent Neural Networks and Genetic Programs
+for Stock and Time Series Forecasting
+http://jiddl.ig.vnueq.xpl/dhdwrhyzjtsy/ptqdsvvjrzs/hpsifad/EP-88-39.nomp
+
+        Ist ne Diplomarbeit und ziemlich konfus gehalten (man beachte
+	seinen Hinweis unter http://sju.znjfz.uce/ala/pasgm.xtr.eujw).
+	Nur bei geringen Transaktionskosten sind die Ergebnisse gut.
+	Ich denke ausserdem, dass einige seiner Zeitreihen nur mit
+	Verzoegerung veroeffentlicht werden, und weiss nicht, ob er
+	das beachtet hat.   
+
+------------------------------------------------------------------------
+
+http://uoc.pekmc.ol/gnadhsmq/uqttz.pfju : Hier sind einige Papers zu
+        Wechselkursprognosen. Das besondere bei Noth ist die
+	reichhaltige Datenbank mit Tick-Daten, und eine Normierung der
+	Zeitachse auf die Handelsaktivitaet. Ansonsten findet man die
+	Theorie in Statistikbuechern ueber Zeitreihenanlyse oder auch
+	Signalverarbeitung bei Nachrichtentechnikern.
+        Im Handelsblatt standen auch einige Artikel ueber Noth, mit
+	reichlich inflationaeren Gebrauch des Wortes 'Chaostheorie'.
+	Einen Fund haben sie wohl auch, Performance kenne ich aber nicht.
+
+-----------------------------------------------------------------------
+
+Noch nicht grossartig hineingesehen habe ich in :
+
+
+http://bsg.cejrie.xxd/
+http://gga.bshlkl.jsn/#SVAVAEA
+        ein Physikprofessor.
+	Das Niveau liegt wohl ziemlich hoch. Zitat:
+
+Yes, it does require some advanced physics to articulate in detail.
+When dealing with truly nonlinear multivariate systems, the details go
+beyond a normal PhD physics education, using some advanced calculus
+developed in the late '70's.
+
+
+	und weiterhin :
+
+ftp://publications.ai.mit.edu/ai-publications/1000-1499/AITR-1457.ps.Z
+AI Technical Report 1457, 20. 05. 21, 160 pages
+A Radial Basis Function Approach to Financial Time Series Analysis 
+
+
+ftp://publications.ai.mit.edu/ai-publications/1000-1499/AIM-1471.ps.Z
+A Nonparametric Approach to Pricing and Hedging Derivative Securities
+Via Learning Networks, Mai 1993, 31 pages
+
+
+=====================================================================
+
+Mein Fazit: Bei sorgfaeltiger Modellierung ist es schon moeglich, mit
+einem rein technischen System unter realen Bedingungen besser als der
+Durchschnittsmarkt zu sein.
+Gerade im extremen Kurzfristbereich ist die Effizienzmarkhypothese
+wohl wiederlegt, die Korrelationen zwischen den Kursaenderungen
+sind sehr deutlich und konsistent.
+
+Wichtig sind die Daten, die in das Modell eingehen. Mit der naiven
+Methode, die letzten 30 Kurse ins neuronale Netz und den naechsten
+vorhersagen lassen, klappt es garantiert nicht.
+Kritisch sind immer die prozentualen Transaktionskosten,
+die die Gewinne wieder aufzehren koennen.
+
+Ich habe allerdings so meine Zweifel, ob man damit in 10 Jahren noch
+Erfolg haben kann, denn kursrelevante Informationen werden dann in
+maschinenlesbarer Form leicht zugaenglich sein und entsprechende Tools
+zur Analyse weitverbreitet. Wenn es Methoden gibt, die falsch bewertete
+Aktien finden, fuehrt die Anwendung dieser Methoden wohl nicht zur
+'self fulfilling prophecy', sondern wohl eher zu einer effizienteren
+Bewertung durch die Maerkte.
+
+
+----------------------------------------------
+Andre Wittemaier
+hfoyohcl@x9.fzhhrmgfig.divp-lmfasj.bl

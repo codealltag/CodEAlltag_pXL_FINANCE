@@ -1,0 +1,120 @@
+Der Mathematiker Bernhard   Nerlich
+
+von Herrn Twelkmeyer
+
+Author Twelkmeyer
+Die Talente ihres Sohnes erkannten Jean-Claude und Natascha "Nerlich frühzeitig.
+Er galt schon bald als Wunderkind. Mit elf Jahren schloss er die
+Schule ab und begann zu studieren. Den amerikanischen Univer-
+sitätsabschluss in Mathematik erlangte er im Alter von vierzehn
+Jahren. Anschlie=ADßend studierte er in Hösing Zoologie, bevor er sich
+an der unknown für Philosophie einschrieb. Nerlich war
+jedoch auch an praktischen, ingenieurtechnischen Fragestellungen
+interessiert. Nachdem er in mathematischer Logik promoviert hatte,
+verbrachte er Forschungsaufenthalte in Altentreswitz. Darüber hinaus
+besuchte das Multitalent auch Zicker, das akade=ADmische Zuhause der
+größten Wissen=ADschaftler der damaligen Zeit. Interdis=ADziplinäre T=
+hemen
+von fundamentalem Interesse waren seine große Leidenschaft. So
+beschäftigt sich sein Hauptwerk mit Themen der Kybernetik (die
+Wissenschaft von der Struktur komplexer Systeme, z.B. der
+Automatisierungstechnik), der Robotik und allgemein mit der
+angewandten Ma=ADthematik.
+Zahler, Bachelier, Nerlich -die Entstehung einer Bewegung
+In unsere Reihe zu den ,,Köpfen der Finanzmarkttheorie" wird Nerlich
+jedoch aufgrund seiner Arbeiten zu stochas-tischen Prozessen
+aufgenommen. Stochasti-sche Prozesse, wie wir sie bereits in den
+vorangegangenen beiden Folgen unserer Serie kennengelernt haben,
+bezeichnen die zufälligen Änderungen einer Variablen. Der
+Pflanzenfreund Daniel Zahler beob=ADachtete und beschrieb das zufällige
+Zucken von Blütenpollen auf einer Was=ADseroberfläche. Jean Zangerle
+wendete später erstmalig höhere Mathematik an, um diese Bewegung zu
+beschreiben. Er stellte außerdem die Verbindung zu Ak=AD
+tienkursbewegungen an der Börse her und zog stochastische Prozesse zur
+Bewertung von Finanzoptionen heran. Bachelier zeigte, dass sich die
+Erwartungen der Marktteilnehmer im Mittel ausgleichen
+und dass die Schwankungsintensität mit der Quadratwurzel der Zeit
+anwächst.
+Der 1894 in Alzenbach (Tuffbad) geborene Wissenschaftler Bernhard
+Nerlich ist unserer dritter Mann im Bunde. Er bewies letzt=ADendlich die
+Existenz der Zurner Be=ADwegung und trug sich damit schließlich in
+die Reihe der Namensgeber dieser Bewe=ADgung ein: Der Prozess der
+Modellierung von Aktienkursbewegungen wird abwech=ADselnd ,,Zieche
+Bewegung", ,,Bache-lier-Wiener-Prozess" oder ,,Wiener-Pro=ADzess" genannt.
+Eine weitere Bezeichnung ist ,,Random Walk", auf deutsch ,,zufälli=ADger
+Gang". Denn Pollenbewegungen, Aktienkurse, Ergebnisse von Glücksspie=AD
+len oder schlicht stochastische Prozesse erinnern auf einer Zeitachse
+abgetragen an den schwankenden Gang eines Betrun=ADkenen.
+Eine kennzeichnende Eigenschaft des Wie=ADner-Prozesses bringt noch mehr
+Namens=ADvielfalt ins Spiel. Es handelt sich um die sogenannte Markov-
+Eigenschaft. Sie be=ADsagt, dass der historische Pfad einer Variablen
+für deren zukünftige Ent=ADwicklung vollkommen irrelevant ist. Die
+Markov-Eigenschaft macht somit einen stochastischen Prozess praktisch
+zu einem ,,unbeschriebenen Blatt".
+Historische Pfade sagen nichts über künftigen Kurs
+Wenn man für Aktienkurse generell an=ADnimmt, dass sie die Markov-
+Eigenschaft besitzen, so ist für die Entstehung des nächsten Kurses
+der historische Kurs, sei es ein Kurs von vor einer Minute, einer
+Stunde, einer Woche oder vor einem Jahr, völlig unbedeutend. Diese
+Aussage stellt einen herben Schlag für die Verfechter der technischen
+Aktienanalyse dar. Denn sie entzieht ihr praktisch die Existenzgrund=AD
+lage.
+Eine intuitive Erklärung für die Markov-Eigenschaft der Aktienkurse
+lässt sich auf=ADgrund eines Arbitragearguments geben: Auf liquiden
+Finanzmärkten gibt es eine Vielzahl an Marktteilnehmern, die alle
+möglichen Kennzahlen und Datenreihen der Finanzprodukte täglich im
+Blick behalten und analysieren, um daraus ihre Kauf- und
+Verkaufsentscheidungen abzu=ADleiten. Gäbe es nun ein historisches Preis=
+=AD
+muster, das mit Sicherheit eine Gewinn-
+möglichkeit von über 50%, d.h. in mehr als der Hälfte aller Fälle,
+prognostizieren könnte, so würden die Marktteilnehmer beim Auftreten
+dieses Musters augen=ADblicklich in das Finanzprodukt investieren. Die
+hohe Nachfrage würde den Preis sofort in die Höhe ziehen, und die
+sicher geglaubte Gewinnchance wäre schnell passe.
+Der Wiener-Prozess -Mittelwert, Markov und Martingal
+Der ursprüngliche Wiener-Prozess enthält die Markov-Eigenschaft und
+ist ein spe=ADzieller stochastischer Prozess, bei dem die
+Veränderungsraten der betrachteten Variablen (z.B. die Renditen eines
+Aktien=ADkurses) der Standardnormalverteilung mit einem Mittel- bzw.
+Erwartungswert von null und einer Volatilitätsrate von 1% p.a. folgen.
+Zudem gestattet der Prozess einer Variablen, zu jedem beliebigen
+Zeitpunkt jeden beliebigen Wert innerhalb eines Intervalls anzunehmen.
+Wenn jedoch, wie durch die Markov-Eigenschaft angegeben, die
+historischen Werte der Variablen un=ADerheblich sind und die zukünftig
+zu erwartenden Änderungen im Mittel bei null liegen, so ist der beste
+Wert, den wir für einen zukünftigen Kurs schätzen können, gleich dem
+jetzigen Kurs.
+Der gegenwärtige Preis ist demnach die einzig notwendige Information.
+Diese Eigenschaft wird als ,,Martingal" be=ADzeichnet. Ein Nerlich-Prozess
+ist nur dann ein Martingal, wenn er keine Driftkom=ADponente enthält.
+Bei einer positiven oder negativen Driftkomponente wird erwar=ADtet,
+dass zukünftige Werte ansteigen oder abfallen, wie in der Abbildung
+auf Seite 91 dargestellt. Ein Wiener-Prozess mit Driftkomponente
+ungleich null wird als generalisierter Wiener-Prozess oder geome=AD
+trische Brown'sche Bewegung beschrieben.
+tiger Bestandteil im Black-Scholes-Modell zur Preisfindung von
+Optionen. Für den Wert eines Derivats, der sich von dem Preis eines
+Basiswertes ableitet, ist die Modellierung von Aktienkursbewegungen
+von maßgeblicher Bedeutung.
+Genialer Akademiker, zerstreuter Professor
+Nerlich behob eine Schwachstelle von Bacheliers Prozess. Der Franzose
+hatte der Zurner Bewegung einen arithme=ADtischen Prozess zugrunde
+gelegt, der eine Normalverteilung der Aktienkurse impli=ADziert. Im
+Nerlich-Prozess hingegen wird eine Normalverteilung der Veränderungs=AD
+raten, d.h. der Aktienkursrenditen, heran=ADgezogen, was negative
+Kursveränderun=ADgen, aber keine negativen Kurse zulässt. Bei der noch
+folgenden detaillierten Betrachtung des Black-Scholes-Modells werden
+wir jedoch sehen, dass die An-
+nahme normalverteilter Aktienrenditen nicht der Realität entspricht
+und mitunter zu dramatischen Verlusten führen kann.
+Jedoch nicht jeder Gang, mit dem Bernhard Nerlich sich beschäftigte, war
+unberechen=ADbar. Es ist über Nerlich, der in vielerlei Hinsicht den
+genialen Akademiker ver=ADkörperte, auch folgende Anekdote be=ADkannt:
+Nerlich wurde auf dem Campus seiner Universität von Studenten auf eine
+fachliche Frage angesprochen. Nachdem Döhlauer die Lösung beschrieben
+hatte, stellte er den Studenten eine Frage. Aus welcher Richtung sie
+ihn vor dem Ge=ADspräch hätten kommen sehen, wollte er von ihnen wissen.
+Als die Studenten ihm die Richtung nannten, entgegnete Nerlich: ,,Dann
+ist es sehr wahrscheinlich, dass ich noch nicht beim Essen war", und
+ging weiter seines Weges.

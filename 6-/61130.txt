@@ -1,0 +1,34 @@
+..aber gleichzeitig nicht bei jedem kleinen "dip" rausschmeißen.
+
+
+so würde ich das nicht sagen. Ich meine nur, daß man eine gehaltene
+Position dann nicht abwerfen muß. Mit anderen Worten: daß der
+Kursrückgang dann nicht signifikant ist.
+Keiner garantiert Dir, daß nicht am nächsten Tag ein weiterer Einbruch
+mit höherem Volumen folgt. DAS wäre dann ein Verkaufssignal.
+Prüfe es am besten selbst mal nach.
+
+Ich wollte noch auf folgendes zurückkommen:
+
+Also: trage in ein Spreadsheet eine Kursreihe ein (Datum, Close,
+Volume)
+Jetzt rechne in der 4. Spalte (ich nenne sie mal "AdjustedClose": 
+"wenn heutigesVolume > gestrigesVolume, dann nimm heutigenClose, sonst
+nimm gestrigenAdjustedClose)
+In Excel-Syntax (Beispiel Zeile 3):
+	=WENN(C3 > C2; B3; D2)
+
+Dann schau Dir die Grafik an (bestehend aus Spalte1 und Spalte4),
+vielleicht noch Vergleich mit Spalte2.
+
+Dies läßt sich natürlich noch weiter verfeinern, z.B. mit Glättungen,
+oder indem Du den Close mit dem prozentualen Volumenanstieg
+verknüpfst. Außerdem läßt sich diese Reihe mit Indikatoren wie MACD
+untersuchen..
+Sehr sinnvoll ist auf jeden Fall die Glättung der Volumen-Daten.
+
+Auf jeden Fall zeigt diese Kurve einen Trendwechsel früher und
+sicherer an, als die reine Close-Kurve.
+
+-- 
+Ferdinand

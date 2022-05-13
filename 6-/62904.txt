@@ -1,0 +1,33 @@
+In article <6385519Y.8XMXFO23@g.mrubq.mx>,
+
+Mache ich doch glatt :-)
+Danke fuer Eure Hinweise! Da nur fuenf Titel erlaubt sind,
+nehme ich erstmal nur Redhat mit rein und hoffe, dass
+niemand etwas dagegen hat?
+
+Korrigierte Fassung Freitag 3.10.99:
+
+Transaktionen:
+Art # Stck # Name                   # WKNR   # EUR   # Boersenplatz
+V   #  300 # Vergissmeinnicht        # 710000 #  66,80 # Etr.
+K   #  300 # Orange plc             # 899697 #  31,50 # Dechtow
+K   #  300 # Pixelpark              # 514350 #  66,30 # Etr.
+K   #  100 # RedHat                 # 923989 # 212,00 # Dechtow
+
+Depot:
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+Adv.Micro Devices # 863186 #  1200  #   16,10   #   29,00  # 34800,00
+FWC             # 878841 #   350  #   58,50   #   96,00  # 33600,00
+JUJU        # 899697 #   500  #   20,00   #   31,50  # 15750,00
+JUJU        # 899697 #   300  #   31,50   #   31,50  #  9450,00
+TVET         # 514350 #   300  #   66,30   #   66,30  # 19890,00
+Zeitungen_Paketshop            # 923989 #   100  #  212,00   #  212,00  # 21200,00
+
+
+Cash     :   3675.00
+Depotwert: 134690,00
+Gesamt   : 138365,00
+
+
+Gruss,
+Edouard

@@ -1,0 +1,11 @@
+Hallo!
+
+Ich suche die mathematische Grundlage des Risk Based Margening
+Verfahrens der Meisterreinigung zum Nachprogrammieren, Implementieren in ein
+Intraday Risk System, das die Kundenposition mit Bewertungskursen
+übergibt, den vdax und den zins (wo ist denn der von der Meisterreinigung zum
+Rechnen benutze Zins zu finden - auf Kaffeebude?) und als Ergebnis die
+Initial Margin zurückliefert. Wenn jemand sowas schon fertig hat, wäre
+C++ o.�. klasse. Ein Beispiel auf Excel wäre nat. auch nicht verachten.
+
+PASCAL

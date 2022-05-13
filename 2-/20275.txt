@@ -1,0 +1,21 @@
+Wie bei allen Hebelprodukten steigt Risiko zusammen mit der Renditeaussicht
+zusammen mit dem Hebel (oder auch Delta) des Wertpapiers. Bei
+Optionsscheinen kommt hinzu, dass selbst bei unverändertem Kurs des
+Basiswerts ständig der Zeitwert abnimmt - zuerst langsam und gegen Ende der
+Laufzeit immer schneller. Dieser Zeitwert arbeitet grundsätzlich immer gegen
+dich und ist neben dem Spread auf Ausgabe- und Rückkaufpreis das, womit der
+Emittent am Ende Gewinn gemacht hat. Es ist sozusagen der "Preis", den du
+für den Hebeleffekt zahlst.
+
+Außerdem kommt noch der vom Emittenten frei wählbare Volatilit�tsfaktor
+hinzu, den er während der Laufzeit zur Bestimmung des Rückkaufpreises frei
+wählen kann (und das einzige ist, wodurch zwei Optionsscheine des gleichen
+Basiswerts mit gleicher Laufzeit und gleichem Strike zweier verschiedener
+Emittenten sich unterscheiden können). Änderungen bei der Volatilität können
+allerdings sowohl zu deinem Nachteil als auch Vorteil geschehen.
+
+Risikoarme Optionsscheine sind solche, die schon "im Geld" sind, also schon
+einen inneren Wert haben und nur noch einen geringen Anteil an Zeitwert -
+aber dafür ist eben auch der Hebel deutlich geringer. Wenig Risiko & hoher
+Hebel sind zwei polare Gegensätze, die sich nicht miteinander vereinbaren
+lassen.

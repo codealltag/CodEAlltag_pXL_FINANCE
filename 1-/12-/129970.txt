@@ -1,0 +1,41 @@
+das
+Put
+
+
+Großes Problem - wieviel kostet der Put ?
+
+Mit 4% Aufgeld liegst Du ziemlich daneben - in Deinem Fall dürfte es sich
+eher um ca. 10-12% Agio handeln - warum ? :
+
+Nun: Die Kosten für eine Devisenkursabsicherung entsprechen immer den
+aktuellen Zinsdifferenzen für den gleichen Zeitraum.
+Zum Beispiel Devisentermingeschäft (1 Jahr):
+Kreditaufnahme zu 6% (Du zahlst 6% DM)
+Anlage in SAR zu 15% (Du empfängst 15% SAR)
+Du hast 100 DM und tauscht in 289 SAR (Kurs 0,346) und wieder zurück in X
+DM.
+Der Devisenhändler verlangt ca. 10% Kursabschlag (= Zinsdifferenz
+Deutschland zu Südafrika) auf den SAR (der Terminkurs ist also 10% tiefer
+als der heutige Devisenkurs). Das heißt für Deine 289 Rand bekommst Du
+zwar15 % Zinsen = 332,35 Rand aber die hast Du ja heute schon in die DM
+verkauft - zu einem um 10% verminderten Kurs nämlich 0,31. Deine 332,35 Rand
+sind somit nur noch 103 DM wert. Der Zinsvorteil wurde durch die
+Kursabsicherung ausgeglichen.
+Warum ist das so ? Nun der Devisenhändler macht genau das Gegenteil von dem
+was Du machst und will sich dabei nicht schlechter stellen als Dich.
+
+Devisenoptionen funktionieren ähnlich. Der Optionspreis (mit dem darin
+enthaltenen Aufgeld) berücksichtigt natürlich die Zinsdifferenz (s.o.) und
+zusätzlich den Basiswert, den Strikepreis, die Laufzeit und die Volatilität
+des Underlyings (hier SAR). Letzteres ist wichtig denn: je größer die Vola
+um so teurer die Option.
+
+Solltest Du die Geschäfte fristenkongruent (heißt: gleiche Fälligkeit)
+durchführen, machst Du schon im Falle des Devisentermingeschäftes keine müde
+Mark Gewinn und im Falle der Option zahlst Du drauf. Zumal Dein Kreditzins
+viel höher ist als der Kapitalmarktzins. Das wäre ja auch zu schön um wahr
+zu sein - risikolose Gewinne gibt es nicht, sonst gäbe es die Börse nicht.
+
+Sorry - aber es war einen Versuch wert.
+Viele Größe
+Sébastien Mangers

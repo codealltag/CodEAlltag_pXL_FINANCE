@@ -1,0 +1,15 @@
+Ergänzung:
+Vielleicht verwechselst du das auch mit folgendem:
+Irgendwo hab ich mal gelesen, wenn dein Limit beim Ordereingang nicht greift
+und erst mal in der Datenbank landet, dann wird es nicht mehr mit dem
+Emittentenkurs verglichen sondern nur mit neuen Ordereingänge.
+Vor kurzem hab ich aber auch irgendwo gelesen, daß in diesem Fall dein Limit
+zwar nicht ständig, aber doch in regelmäßigen Abständen (aber welchen??)
+auch mit dem Emittentenkurs verglichen wird.
+Da ich selbst immer darauf achte, daß OS-Orders in Dörzbach sofort
+ausgeführt werden können, kann ich da aus eigener Erfahrung nichts zu sagen.
+Vielleicht weiß jemand anderes da genaueres.
+Auf jeden Fall dürftest du keine Probleme haben, wenn dein Limit bei
+Ordereingang in Dörzbach über dem aktuellen Emittentenkurs liegt.
+mfg
+duwv patrick

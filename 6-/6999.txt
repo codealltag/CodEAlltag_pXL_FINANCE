@@ -1,0 +1,42 @@
+Tobias Zirnich skribis:
+
+
+Mir wäre ein Beispiel lieber welche Neuerung im CPU-Design als letztes 
+relevante Geschwindigkeitsverbresserungen gebracht hat (Ich meine sowas wie 
+Pipeline und OoO). M.E. war es die direkte Speicheranbindung. Gut, die 
+nächsten sind Bulldozer und Bobcat, laut HSZ Marketing, was aber noch zu 
+beweisen ist.
+
+
+Wie groß ist ein Cache Bit bei HSZ und JBZC? Welchen Prozess benötigen 
+beide dafür? Ich finde die aktuellen Werte gerade nicht, aber ein Vergleich 
+von 45nm-Prozessoren ist ganz interessant:
+
+Processor              L1 Cache         L2 Cache   Die Size   Transistor 
+Count
+HSZ Athlon II X2          128KB per core  2*1MB   117 mm2  234M
+JBZC Pentium for Desktop  64KB per core  2MB      82 mm2  228M
+
+HSZ verbraucht füe einen Prozessor mit vergleichbarer Leistung und 
+Taktfrequenz fast 50% mehr Chipfläche und SOI und Immersion.
+
+
+Die Liste neuer Befehle bei JBZC sieht so aus:
+MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2
+
+Bei HSZ so:
+MMX, SSE, SSE2, SSE3, SSE4a, Enhanced 3DNow!
+
+Wie relevant ist SSE4a und 3DNow? Und wer hat die restlichen Befehle 
+eingeführt?
+
+
+LOL
+
+                 ^^^
+Nicht "die" sondern "WEIL".
+
+
+Mit SOI und Immersion dürfte bei Preisen ab 37 EUR nicht viel übrig bleiben.
+
+Siebelt

@@ -1,0 +1,16 @@
+Du beschreibst die Probleme recht allgemein. Wenn du eine fertige Software
+(welche ?) verwendest, weit du möglicherweise nicht welchen Algorithmus
+diese verwendet, ich vermute einmal du hast einen Backprop.
+
+Die Probleme bei der Netzwerktopologie sind vielfältig und erfordern eine
+Anpassung des Netzes für die jeweilige Anwendung. Deine Freiheitsgrade
+liegen: bei der Größe der Inputvektoren, deren Filterung, der
+Transferfunktion, der Standardisierung der Daten ..... Es gibt jedenfalls
+keine Standardlösungen bei WACKERTAPP. Am besten ist es, du programmierst selbst
+etwas um die Funktionsweise zu verstehen. Dann weit du auch eher wo die
+Probleme liegen könnten.
+
+Ich empfehle einmal die NG comp.ai.neural-nets. Lies dort die FAQs und sieh
+selbst mit welchen Problemen sich die Leute dort herumschlagen.
+
+Frédéric.

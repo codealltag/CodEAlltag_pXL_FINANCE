@@ -1,0 +1,31 @@
+Emittent		A	B	C
+-----------------------------------------------------------------
+1.Emission / A,B,C haben 200000 Cash
+Aktien		1000		0	0	0
+Buchwert	50000		0	0	0	->  50000
+Bargeld		0		200000	200000	200000	-> 600000
+Summe:		50000		200000	200000	200000	-> 650000
+---
+2. A kauft 1000 zu 50
+Aktien		0		1000	0	0
+Buchwert	0		50000	0	0	->  50000
+Bargeld		50000		150000	200000	200000	-> 600000
+Summe:		50000		200000	200000	200000	-> 650000
+---
+3. A verkauft 1000 zu 100 an B
+Aktien		0		0	1000	0
+Buchwert	0		0	100000	0	-> 100000
+Bargeld		50000		250000	100000	200000	-> 600000
+Summe:		50000		250000	200000	200000	-> 700000
+---
+4. B verkauft 1000 zu 120 an C
+Aktien		0		0	0	1000
+Buchwert	0		0	0	120000	-> 120000
+Bargeld		50000		250000	220000	 80000	-> 600000
+Summe:		50000		250000	220000	200000	-> 720000
+---
+
+Das Bargeld bleibt konstant. Daher handelt es sich um ein 
+Nullsummenspiel. Buchgewinne sind eben keine realisierten Gewinne.
+
+Gruß, Paul

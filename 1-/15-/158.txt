@@ -1,0 +1,23 @@
+Visual Basic 2012 Excel 2013 Einen Bildausschnitt separatieren programmiere=
+n von Volckmer Vermaeten
+Video: http://ncqyx.op/NPCEdulBCde
+
+Author S.Volckmer
+Heute zeige ich Ihnen,wie Sie aus einem Bild einen Ausschnitt aus diesem Bi=
+ld separieren und als neues Bild verwenden können.=20
+Der Source-Code ist anschliessend und nur sehr klein.
+
+
+    =82Private Sub Button1_Click(sender As Object, e As EventArgs) Handles =
+=82Button1.Click
+        =82Zeichnen =3D Me.CreateGraphics()
+        =82Dim NeuBild As New Bitmap(Bild.Image, 600, 600)
+        'virtuelles Neubild unbedingt gross machen, verbessert die Auflös=
+ung
+        =82Dim MeinBildinhalt As TextureBrush =3D New TextureBrush(Bild.Ima=
+ge)
+        =82Dim NeuerRahmen As Rectangle =3D New Rectangle(40, 45, 160, 130)
+        =82Zeichnen.FillPie(MeinBildinhalt, NeuerRahmen, 300, 90)
+        =82Zeichnen.DrawImage(NeuBild, 300, 50, 300, 300)
+        =82Button1.Image =3D MeinBildinhalt.Image
+    =82End Sub

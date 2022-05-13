@@ -1,0 +1,31 @@
+In article <1ixsb1$cnx@fynw56.rcd.utge.ro>, Pqyndzv.Kcsd@p-aqmygr.jy (Ggedty)
+writes:
+
+Salut,
+
+also die Wege, die ich kenne sind etwas umstaendlich, aber sie tun:
+- besorge Dir irgendwo die Kurse die Du haben moechtest, sie sollten moeglichst
+  wohlgeordnet im File vorliegen, d.h. saubere Spalten bzw Trennzeichen
+- Du kannst Sie z.B. in Excel laden, unnoetige Spalten entfernen, eine Spalte 
+  mit Datum hinzufuegen, jedenfalls laesst sich da auch einiges automatisieren.
+- Das Problem ist jetzt, dass Quicken gerne ein Format in der Art
+  "Kennung", "Datum", "Wert" haette, wobei die Anfuehrungszeichen benoetigt 
+  werden und natuerlich auch die Kommas.
+- Ich habe das so gemacht (Echt umstaendlich, dauert aber nicht so lange wie
+  man denkt :) ):
+  Ich lade das Excel-File, (oh ja, als Ascii abspeichern, die Spalten durch
+  Kommas trennen) in Word. Dort wird mit einem Makro vor jede Zeile ein "
+  gesetzt, jedes , wird durch ein "," ersetzt und dann wird hinter jede Zeile
+  noch ein " gesetzt.
+- Das tut !!
+
+Hat jemand eine schnellere Moeglichkeit. Der Haken ist naemlich, das Quicken
+so wahnsinnig unflexibel bei der Eingabe seiner Daten ist.
+
+konrad
+
+-- 
+Konrad Conze
+TSSV - Universitaet Angersbach
+
+"Volk und Glueck sind mit den Narren" - Cpt. Werner

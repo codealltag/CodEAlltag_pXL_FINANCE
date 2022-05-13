@@ -1,0 +1,18 @@
+Moin!
+
+
+Vielleicht dadrin, daß die allerallermeisten PCs kein ECC-SDRAM haben? Und
+daß ein 128-MB-Modul SDRAM ohne ECC nur so 300 DM kostet? Rechne mal
+überschlägig, wieviel mehr Speicher in Workstation- und Stand.Alone-PCs
+eingebaut wird und wieviel in Server. Ein Verhältniss 100:1 könnte gut
+hinkommen. ECC-SDRAM ist besonders deshalb teuer, weil es a) in geringen
+Mengen hergestellt und b) in Server-Systemen eingesetzt wird. Gerade der
+letzte Punkt ist wichtig, sobald es um Server geht, nehmen die Hersteller,
+was sie wollen. Siehe schon Unterschied IDE/SCSI: selbe Hardware bis auf die
+Platine, aber das SCSI-Modell ist gut und gerne 50-80% teurer.
+
+ECC-SDRAM mit RDRAM zu vergleichen mag für Serversysteme zulässig sein. Für
+die Masse an PCs ist das Augenwischerei. Frag mal Geuss, wie viele PCs die
+mit ECC-SDRAM verkaufen.
+
+Bye, Karlheinz

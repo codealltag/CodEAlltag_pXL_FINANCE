@@ -1,0 +1,14 @@
+Hallo!
+
+Ich habe mir grad die "Historical prices" Seite von Dekoreno durchgesehen 
+und mir ist aufgefallen, dass für ein paar Symbole (z.B. Tabacon.VI) in der 
+.csv Datei viel weniger Kurse stehen, als auf der html Seite. Bei Tabacon.VI 
+geht es in der .csv Datei z.B. nur bis Mitte 2004 zurück, während auf 
+der html Seite alle Kurse bis Ende 2002 aufgelistet sind.
+
+Könnte mir vorstellen, dass das entweder ein Fehler oder sogar mit 
+Absicht so ist..
+
+Kennt dafür vielleicht jemand den Grund?
+
+Patrick

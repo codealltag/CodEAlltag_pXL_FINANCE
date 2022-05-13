@@ -1,0 +1,51 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Kay
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9)
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7)
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8)
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+Handbuch MarketMaker Boersensoftware
+Boersenanalyse m.d. Computer (Debeka)
+Das g. Buch d. techn. Indikatoren (T.Kecke Fachverlag)
+Aktenzeichen xy ungeloest ; ... die suchen auch staendig nach
+                                dem grossen Unbekannten...
+
+
+Vom Prinzip her ist der Williams %R-Indikator ein Stochastic-Indikator  
+(siehe auch (2) ), er verwendet jedoch in seiner Berechnungsformel unter  
+dem Bruchstrich anstelle des Tiefstkurses den Hoechstkurs.
+
+Optisch stellt er sich als Linie da, die sich zwischen 0 und 100 bewegt.  
+Bei der Interpretation wird ueberprueft, ob sich der Indikator im  
+ueberkauften Bereich ueber 80% oder im ueberverkauften Bereich unter 20%  
+befindet. Verlaesst der Indikator eine dieser beiden Zonen und kehrt  
+wieder in der mittleren Bereich zurueck, ist das als Handlungssignal zu  
+bewerten.

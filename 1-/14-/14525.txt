@@ -1,0 +1,464 @@
+Bollinger Bands Trading
+Author Csermak
+      Bollinger Bands, entwickelt von Niels Amort , sind Trading
+Bands, die im Abstand vom gleitenden Durchschnitt als Funktion der
+Marktvolatilität variieren. Amort verwendete übliche mathematische
+Formeln der Statistik, um die Standardabweichung von Datenreihen zu
+bestimmen und passte sie an, um die Breite von Trading Bands
+festzulegen.
+
+Bollinger Bands werden normalerweise in einem Abstand von 2
+Standardabweichungen über und unter dem gleitenden Durchschnitt des
+betrachteten Marktes eingezeichnet. Amort schlägt für die meisten
+Anwendungen eine Periode von 20-21 als optimal für den Durchschnitt
+vor, aber man kann Perioden bis zu einer Höhe von 50 verwenden. Ein
+einfacher gleitender Durchschnitt wird am häufigsten verwendet, aber
+wenn man die Empfindlichkeit erhöhen möchte, kann man einen
+exponentiellen, wenn man sie verringern möchte dagegen einen
+geglätteten Durchschnitt wählen
+
+Die ursprüngliche Theorie zielte primär auf Aktien. Idealerweise
+sollten die Bands sehr eng beieinander liegen und das Chart ein
+seitwärts gerichtetes Muster aufweisen. Wenn der Preis ausserhalb
+eines Bollinger Bands schliesst, wird eine Position in Richtung des
+Ausschlages angenommen. Dies kann sowohl für Ausschläge nach oben als
+auch nach unten verwendet werden. Man sollte beachten, dass bei
+Futures wesentlich mehr falsche Ausschläge vorkommen, besonders in
+Bezug auf  Intraday Trading, deshalb sollten Sie in diesem Fall
+parallel eine andere Analysemethode verwenden, um die Ausschläge zu
+testen und zu bestätigen.
+
+Die Formel zur Berechnung der Bollinger Bands :
+
+Formel:
+MA =3D (P1+ ... + Pn)/n
+Pn =3D Preis am nten Intervall
+n =3D Anzahl der Intervalle
+
+Den gleitenden Durchschnitt (MA) von jedem Punkt (p) abziehen, der zur
+Berechnung des gleitenden Durchschnitts verwendet  wurde. Dies ergibt
+eine Liste von Abweichungen (d) vom Durchschnitt: Abschliessend
+berechnen drei Bollinger Bands unter Verwendung der folgenden Formeln:
+Oberes Band =3D MA + 2s
+Mittleres Band =3D MA
+Unteres Band =3D MA -2s
+
+Die Bänder müssen sich jeweils in der dem Tend entgegengesetzten
+Richtung bewegen. In einem Abwärtstrend wird der erste Teilausstieg
+angezeigt, wenn das obere Band sich nach unten richtet. Dies geschieht
+normalerweise sobald der Trend schwächer wird und eine
+Seitwärtsbewegung des Preises beginnt. Der zweite Ausstieg tritt ein,
+wenn sich das untere Band aufwärts wendet. Sie können nicht immer
+vorhersehen, welcher der Ausstiege die besten Erträge erwirtschaftet.
+Falls es sich um einen kurzfristigen Trend oder einen falschen
+Ausschlag handelt, könnte der erste Ausstieg noch einen Profit
+abwerfen. Falls der Trend sich aber als vertikal erweist, werden beide
+Bänder weiterhin expandieren und so anzeigen, dass Sie in der Bewegung
+bleiben sollten. Wenn der Trend sich als stark aber nicht explosiv
+erweist, wird der zweite Ausstieg am besten funktionieren. Sobald der
+erste Ausstieg aktiviert ist, wird Ihr Stop wieder zur ursprünglichen
+Ausgangsposition zurückgesetzt.
+
+Bollinger Bands geben keine absoluten Kauf- oder Verkaufsignale, aber
+viele Händler verwenden die folgenden Regeln:
+
+    *
+      Treten Sie in den Markt ein, wenn eines der Bänder durchkreuzt
+wird, da dies möglicherweise einen beginnenden Trend anzeigt.
+    *
+      Steigen Sie aus dem Markt aus und drehen Sie Ihre Position um,
+wenn das gegenüberliegende Band durchkreuzt wird.
+
+Vier grundlegende Strategies zum Traden mit den BollingerBands:
+Strategy I:  Traden entlang der Bänder
+
+    *
+      Die Mehrzahl der Trader glaubt fälschlicherweise,dass man beim
+Erreichen der unteren Bollinger-Bänder long gehen sollte und beim
+Erreichen der oberen short.Diese Strategie Nr.3 kann nur unter ganz
+bestimmten Voraussetzungen angewendet werden.In den meisten Fällen
+jedoch ist die Berührung eines Bandes ein Zeichen für die Stärke des
+Trends,der weitergehen wird.
+    *
+      Dies ist vor allem dann meist der Fall,wenn beide Amort-
+Bänder auch in die Richtung des Trends gehen.In solchen Fällen wendet
+man die hier dargestellte Strategie Nr.1 an,man tradet also entlang
+des Bandes.
+    *
+      Natürlich,irgendwann werden die Kurse,die z.B. an einem oberen
+Band langsam nach oben kriechen,eine Wendeformation ausbilden,aber das
+muss man eben abwarten.An sich sind sie selbst keine Umkehrsignale.
+    *
+      Die Fortsetzung des Trends sollte von unabhängigen Indikatoren
+bestätigt werden.Amort selbst verwendet Volumen-Indikatoren und
+zwar die offene Form,besonders die Intraday-Intensity und die
+Accumulation/Distribution-Linie.
+    *
+      Mit offener Form ist gemeint,dass die Indikatoren nicht in einen
+Oszillator umgewandelt werden,sondern akkumuliert,sie also Werte von
+vielen Tausend annehmen können und nicht z.B.zwischen 0 und 100
+schwanken.In diesen Indikatoren ergeben sich dann sehr schöne Trends
+und solange der Trend in Ordnung ist und die Bollinger-Bänder die
+jeweilige Trendlinie berühren und an ihr entlang kriechen,bleibt man
+in Trendrichtung.Ein Beispiel ist die Intraday-Intensity,die zu sehr
+schönen Trendlinien neigt.Man kann allerdings auch Momentum-
+Indikatoren benutzen oder moderne Indikatoren,in jedem Fall müssen sie
+unabhängig sein von den Informationen,die in die Bänder
+eingehen.Natürlich sind auch Trendindikatoren geeignet,wie der ADX.Die
+Momentum-Indikatoren müssen dann natürlich einen sehr langen
+Zeitrahmen haben,entsprechend der erwarteten Länge der Bewegung.Die
+Indikator-Werte müssen beim Berühren des Bandes stark sein.Dies
+bedeutet,dass sie gerade den Extrembereich erreicht haben sollten und
+dort noch nicht sehr lange gewesen sein dürfen und natürlich noch
+nicht nach unten gedreht haben sollen.
+    *
+      Die Frage ist natürlich,wie und wann man in den Trade einsteigt.
+Bei einem starken Trend ist es nämlich meist so,dass ein Rückschlag
+auf das andere Bollinger-Band eher schon ein Zeichen von Schwäche ist
+und wenn man solange warten würde,käme man zu spät.Häufiger kommt
+schon ein Rückschlag auf die Mittellinie vor,man wendet dann andere
+Indikatoren an kurzfristiger Art für den konkreten Einstieg.
+    *
+      Kann man es sich leisten mit grösseren Stop-Losses zu
+arbeiten,ist natürlich auch ein Einstieg während des Kriechens
+möglich.Eine dritte Möglichkeit ist es, auf einen kleineren Rückschlag
+zu warten,wie er häufiger vorkommt und dann in den Markt zu gehen,wenn
+das jeweilige Hoch herausgenommen wird in Trendrichtung,also nach
+oben,oder das Tief in Trendrichtung nach unten.
+    *
+      Dieses Trading-Verfahren gilt nur dann,wenn beide Bollinger-
+Bänder ebenfalls in Trendrichtung gehen.Bei dem häufigen
+Auseinanderlaufen der Amort-Bänder,wo das eine z.B. nach oben,das
+andere nach unten geht, handelt es sich zwar meist um noch keine
+Wende,immer aber um den Beginn einer etwas ausgeprägteren
+Korrektur.Geht dann der Trend weiter,so erhält man gute
+Einstiegsmöglichkeiten,da hier in der Regel die Kurse ein-oder zweimal
+das andere Bollinger-Band erreichen.
+    *
+      Für den Erfolg dieser Strategie ist es wichtig,dass der gewählte
+Zeitrahmen der Bollinger-Bänder gut abgestimmt ist auf den jeweiligen
+Markt bzw. die jeweilige Aktie.Nur wenn das gegeben ist,bildet der
+mittlere GD (Gleitender Durchschnitt) häufig bei Korrekturen eine
+wichtige Unterstützungslinie.Tut das der GD,so ist dies eine
+Möglichkeit,günstig in den Trend einzusteigen mit einem sehr engen
+Stop,da man schnell weiss,wann man falsch liegt.
+    *
+      Man kann die Strategie variieren,indem man erst einen Rückschlag
+auf das andere Bollinger-Band abwartet,um dann einzusteigen.Ob dies
+sinnvoll ist, hängt vom Markt ab bzw. von der Natur der Aktie,die man
+handeln will.Denn gerade in starken Trends entwickelt sich häufig kein
+Rückschlag oder schon relativ spät im Trend.Immerhin hat diese Methode
+den Vorteil,dass man viel seltener ausgestoppt wird,die Zahl der
+Gewinntrades erhöht sich also stark. Besonders bei Aktien lässt sich
+auch noch eine fundamentale Selektion hiermit verbinden,man kauft nur
+Aktien,die fundamental und hinsichtlich ihrer Relativen Stärke gute
+Werte haben und shortet nur jene Aktien,die hier ausgesprochen schwach
+sind.
+
+
+Strategy II: Ausbrüche aus Engpässen
+
+    *
+      Je niedriger die Volatilität ist,desto enger werden die
+Bänder.Dies führt sehr bald schon zu einem starken Trend,da die
+Volatilität prognostizierbar ist und sich zyklisch verhält.Jeder Markt
+und jede Aktie zeigt dabei aber andere typische Merkmale.Diese sollte
+man anhand historischer Kurse genau studieren.
+    *
+      Für manche Märkte ist es typisch,dass so häufig zuerst ein
+falscher Ausbruch kommt,sehr kurz bevor der eigentliche Trend
+einsetzt,dass es sich lohnt,diesen erst abzuwarten.
+    *
+      Um festzustellen,ob ein Ausbruch korrekt ist,muss man
+verschiedene Indikatoren betrachten.Nicht nur die üblichen mit denen
+man arbeitet,sondern auch Faktoren,wie die Lage der Eröffnungs-und
+Schlusskurse,ob die Bars an Trendtagen grösser werden,usw.Dies gilt
+analog auch für kürzere Zeiträume, wie 5-Minuten-Bars.Sehr wichtig
+sind hier die Neuigkeiten,da diese meist den Katalysator für den
+Ausbruch aus einem engen Bollinger-Kanal darstellen.
+
+    *
+      Das Gegenteil der Verengung der Bänder ist die Erweiterung.Diese
+ist einerseits ein Signal,Gewinne mitzunehmen,andererseits ein
+Signal,Optionen zu schreiben.
+    *
+      Das Geschäft ist umso aussichtsreicher,je enger die Bollinger-
+Bänder sind. Allerdings muss man die Veränderung relativ bestimmen zur
+vorhergehenden Breite.Dies ermöglicht auch ein besseres Gewinn/
+Verlustverhältnis,da man die Stop Losses normalerweise auf das andere
+Band legt,also wenn man kauft, würde man bei einer Berührung des
+unteren Bandes den Markt verlassen, wenn man verkauft,bei einer
+Berührung des oberen Bandes.
+    *
+      Besonders bei Daytradern ist es beliebt,die Parameter für die
+Bollinger-Bänder zu verändern,so dass sie näher beieinander
+liegen(z.B. auf 15 Perioden und 1,5 Standardabweichungen),dies erhöht
+allerdings die Fehlsignale.Es hat dann aber den Vorteil,dass man
+früher in den Trend kommt.Vorsichtige Menschen können allerdings auch
+anders Verfahren, sie versuchen nicht sofort den Ausbruch zu
+traden,sondern warten ihn ab und wenn er durch die Erweiterung
+bestätigt wurde,steigt man bei der ersten Korrektur ein oder wenn ein
+neues Hoch oder Tief in Trendrichtung gemacht wird.
+    *
+      Bollinger empfiehlt,Volumen-Indikatoren zu beachten für die
+Ausbruchsrichtung,besonders die Intraday-Intensity, Akkumulation/
+Distribution,sowie den Money-Flow-Index.
+    *
+      Die Ausbruchsrichtung lässt sich häufig prognostizieren über die
+Relative Stärke. Die Volatilitäts-Breakouts sind besonders auch für
+den Aktienhandel geeignet.Denn hier findet man täglich ein paar
+vielversprechende Kandidaten.
+
+Strategy III: Swing-Traden innerhalb der Bänder
+
+    * Die meisten Trader kennen gar keine andere Verwendung der
+Bollinger-Bänder als die,gegen den Trend zu gehen.Grundsätzlich ist
+diese Strategy für sich genommen jedoch ein Fehler.Erfolgreich ist das
+Swing-Traden,also die Einnahme von Positionen gegen den Trend,nur wenn
+die Bollinger-Bänder waagerecht laufen.
+    * Sie müssen ausserdem parallel laufen,d.h. die Breite des Kanals
+darf nicht grösser werden,weil das eben das erste Anzeichen ist für
+einen beginnenden Trend.
+    * Sind diese Voraussetzungen gegeben,dann ist das Swing-Traden
+äusserst erfolgreich,da es sowohl eine hohe Trefferquote hat als auch
+ein sehr gutes Gewinn/Verlustverhältnis,denn man kann mit relativ
+hohen Stops arbeiten.
+    * Die Bänder sollten allerdings nicht zu eng sein,dann sollte man
+lieber auf die Strategy 1 vertrauen und den Ausbruch aus einem Engpass
+traden.Ausserdem muss man bei jeder Berührung der Bollinger-Bänder auf
+die Signale der Indikatoren achten,d.h. wird das obere Band
+berührt,sollten die Indikatoren Verkaufssignale geben,wird das untere
+berührt,sollten sie Kaufsignale geben. Dies bedeutet,dass sie bereits
+beginnen,die jeweilige Extremzone zu verlassen. Auch grosse Abstände
+zwischen der Indikatorlinie und der Signallinie(Trigger- Linie)sind
+bei vielen Indikatoren ein gutes Zeichen.
+    * Man kann die meisten Indikatoren verwenden,da sie sich mit den
+Bollinger-Bändern nicht überschneiden,denn die Bollinger-Bänder sind
+in erster Linie ein Mass für die Volatilität..
+    * Wichtig ist,dass keine grossen News in absehbarer Zeit
+hereinkommen,also z.B. Veröffentlichungen der Notenbanken, weil diese
+meist als Katalysatoren für Breaks dienen.Wichtig ist auch,dass man
+die richtige Mentalität entwickelt, die Gewinne,die hier erzielt
+werden können,sind zwar relativ klein,aber sie addieren sich und haben
+ein überragendes Verlust/Gewinnverhältnis
+
+Strategy IV: Traden von Mustern mit Bollinger-Bändern
+
+    * Eine ganze Reihe von Formationen lassen sich anhand der
+Amort-Bänder besser erkennen,besonders die Doppelformationen und
+die Dreifachformationen.In jedem Fall wird aber das Traden
+erleichtert.
+    * Die Bollinger-Bänder bringen nämlich ein relatives Kriterium
+hinein und meist ist es so,dass der erste Teil der Formation
+ausserhalb der Bänder sich bildet, während die folgenden Teile
+innerhalb der Bänder geschehen.Dies ist ein zusätzliches
+Bestätigungsmerkmal.
+    * Ein weiteres Merkmal auf das zu achten ist,ist die starke
+Erweiterung der Bänder.Sie tritt allerdings häufig erst zu spät auf
+und bestätigt dann den sich neu bildenden Trend.Allgemein braucht man
+für das Mustertraden eine sehr gute Kenntnis des Verhaltens der
+Bollinger-Bänder
+    * Von zentraler Bedeutung sind die Divergenzen.Sie sollten sich in
+jedem Fall bei den benutzten Indikatoren bilden gegenüber dem Kurs.Bei
+einer Topformation also eine bearishe Divergenz,bei einer
+Bodenformation eine bullishe.Geeignet sind Momentum-
+Indikatoren,Trendfolger,Volumen- Indikatoren.
+    * Günstig ist es auch,die Breite der Bänder als Indikator
+darzustellen(%B).Es ist sehr günstig,wenn man erst einsteigt,wenn die
+Breite sich schon etwas erhöht hat.Natürlich kann man auch
+Wendesignale der modernen Indikatoren gut verwenden zusammen mit
+Bollinger und Mustererkennung.
+    * Der konkrete Markteintritt sollte dann auf der ersten Periode
+geschehen (also Tag bzw. beim Daytraden Bar),der eine deutliche Stärke
+in die neue Richtung zeigt,also eine grosse Kursspanne,nach
+Möglichkeit auch ein überdurchschnittliches Volumen.
+    * Im wesentlichen werden also dieselben Strategies angewendet,wie
+beim Swing-Traden,nur dass hier aufgrund der Mustererkennung es
+möglich ist,so auch zu traden,ohne dass die Bänder waagerecht gehen
+müssen.
+
+BollingerBands und Zyklische Analyse
+                                                 Die Verbindung von
+Bändern und Oszillatoren
+
+    *
+      Grundsätzlich sollte man die Bollinger-Bänder zusammen mit
+Oszillatoren betrachten,da diese einerseits eine logische Ergänzung
+bringen,besonders in Situationen,wo die Kurse die Bollinger-Bänder
+erreicht haben.Andererseits aber auch die Bollinger-Bänder selbst
+Hinweise geben können auf die Situation in den Oszillatoren.
+    *
+      Ungewöhnlich grosse Abstände z.B. zwischen dem Oszillator und
+seiner Trigger-Linie deuten auf bevorstehende Korrekturen hin.Dies
+lässt auch bei einer steigenden Bollinger-Linie einen Rückschlag bzw.
+bei einer sinkenden,einen Wiederanstieg der Kurse wahrscheinlich
+erscheinen.Umgekehrt,gehen z.B. die Bollinger-Bänder seitwärts
+waagerecht,wird ebenfalls ein Rückschlag sehr wahrscheinlich,man kann
+dann Signale im Oszillator besser beurteilen,auch wenn sie sich in der
+neutralen Zone abspielen.Die Bollinger-Bänder und die Oszillatoren
+gehen also eine günstige Verbindung miteinander ein.Überdies geben vor
+allem Trendlinienbrüche bei den Oszillatoren gute Timing-Signale.
+    *
+      Auf diese Weise werden Signale handelbar,die auch im neutralen
+Bereich der Oszillatoren sich abspielen.Überdies filtern die Bollinger-
+Bänder Trading-Signale der Oszillatoren,so dass die meisten falschen
+Signale entfallen.Geeignet sind alle Oszillatoren,besonders das Ultra
+Smooth Momentum und der CCI.
+
+Die Addition der Wahrscheinlichkeiten
+
+Grundsätzlich gehen sowohl die Bänder als auch die Oszillatoren von
+den Preisbewegungen aus,daher sind die Wahrscheinlichkeiten nicht
+unabhängig voneinander,sie addieren sich also nicht.Allerdings messen
+Oszillatoren und Bänder zumindest teilweise etwas
+Unterschiedliches,man kann also durchaus von einer teilweisen Addition
+der Wahrscheinlichkeiten ausgehen.Nun besitzen manche Bollinger-
+Signale eine extrem hohe Wahrscheinlichkeit,gehen die Bollinger-Bänder
+z=2EB. waagerecht seitwärts,dann ist die Wahrscheinlichkeit,dass die
+Kurse wenden,wenn sie ein Bollinger-Band erreichen,schon über
+90%.Befindet sich nun noch zusätzlich der Oszillator entweder in einem
+Extrembereich oder ist er sehr weit entfernt von seiner Trigger-
+Linie,z.B. einem GD von ihm,so erhöht sich durchauch noch die
+Wahrscheinlichkeit bis nahe 100.Anders sieht es natürlich aus,wenn die
+Bollinger-Bänder steil ansteigen oder steil fallen und die Kurse an
+den äusseren Linien entlang rutschen,während der Oszillator im
+Extrembereich verbleibt.Man darf das Ganze als nicht schematisch
+betreiben,sondern muss immer die Gesamtsituation betrachten.Besonders
+durch das Filtern der Oszillator-Signale mit Hilfe der Bollinger-
+Bänder erreicht man eine deutliche Erhöhung der
+Trefferwahrscheinlichkeit
+Anwendungen bei Futures und Optionen
+
+    *
+      Das System ist besonders gut geeignet für das Schreiben von
+Optionen.In manchen Situationen,wenn die Volatilität sehr niedrig
+ist,auch für den Kauf.Es gibt nämlich sehr sichere Signale, was die
+Richtung angeht, man erzielt also eine hohe Trefferquote qualitativ
+gesehen,andererseits ist das Timing nicht exakt. Dies spielt bei
+Optionen weniger eine Rolle,denn auch,wenn die Kurse noch nicht gleich
+sinken oder steigen,der Zeitwertverlust der geschriebenen Option uns
+bald in den Gewinnbereich bringen wird.
+    *
+      Will man das System anwenden beim Future-Traden oder im
+Devisenbereich,sollte man zusätzlich Verfahren einsetzen für das
+exaktere Timing.Neben Trendlinienbrüchen ist hier vor allem an die
+Muster zu denken,aber auch an Verfahren,wie die Zeitanalysen von Gann
+oder ,Fibonacci . Weiterhin sind natürlich die Candlesticks und ihre
+Muster sowie die Quasi-Divergenzen ein wichtiges Hilfsmittel.
+
+Ergänzung durch Quasi-Divergenzen
+Darunter versteht man,dass sich die Kurse und der Indikator zwar in
+die gleiche Richtung bewegen,aber in der Regel der Indikator
+wesentlich stärker ist,also eine steilere Trendlinie aufweist.An und
+für sich hat dies nicht viel zu sagen,es kann sich durchaus um ein
+Artefakt handeln.Befinden sich aber z.B. in beiden Fällen die Kurse an
+derselben Linie eines Bollinger-Bandes,ist eine solche Quasi-Divergenz
+ein Zeichen dafür,dass der Trend weitergehen wird.
+Beispiel: der Dow ist auf 10654 gestiegen und hätte dort etwas
+ausserhalb der Bollinger-Bänder einen Gipfel gemacht.Dann sei er
+abgesunken auf 1200 und danach wieder auf 10590 gestiegen.Hier
+erreicht er wieder das obere Bollinger-Band.Verbindet man die beiden
+Gipfel,so bildet sich nur eine schwach abwärts führende
+Trendlinie.Dagegen hätte das Ultra Smooth Momentum beim ersten Mal
+einen Wert von fast 100 erreicht,beim zweiten Mal nur einen Wert von
+knapp 50.Hier bildet sich also eine stark abfallende Trendlinie. In
+Zusammenhang mit der Tatsache,dass die Kurse jeweils am Bollinger-Band
+sind,ist dies ein starker Hinweis darauf,dass die Kurse wieder
+zurückfallen werden,also ein Bärensignal.
+Verbindung mit der Zyklischen Analyse:
+
+    * Ein zusätzlich starker Hinweis,dass die Kurse wenden
+werden,erhält man dadurch,dass man die vorhandenen Zyklen prüft.Ein
+einfaches und schnell durchzuführendes Verfahren ist hierbei die
+vereinfachte Hurst-Analyse,die man leicht mit dem Computer durchführen
+kann.
+    * Das Verfahren stammt von Csermak und benutzt statt der
+schwierig anzuwendenen Kanäle Hüllkurven gleicher Tiefe,Hüllkurven,die
+mit prozentual verschobenen Gleitenden Durchschnitten(GDs)
+arbeiten,was leicht am Computer durchzuführen ist.
+    * Jedesmal,wenn die inneren Bänder,die auf den kürzeren Zyklus
+berechnet sind,sich treffen mit den äusseren Bändern,die auf den
+längeren Zyklus berechnet worden sind,besteht eine extrem hohe
+Wahrscheinlichkeit einer Wende.Geben zur gleichen Zeit die Bollinger-
+Bänder und ein Oszillator ein Signal in die gleiche Richtung,erhält
+man einen Trade von weit über 90%tiger Erfolgs- wahrscheinlichkeit.
+
+Handelssystem mit BollingerBands:
+
+Dieses Handelssystems auf  Basis der Bollinger Bands soll die
+charakteristischen Eigenschaften dieses Systemtyps darstellen.
+Grundlage der Bollinger Bands ist ein einfacher gleitender
+Durchschnitt (SMA=3DSimple Moving Average). Als Periodenlänge im Bereich
+der mittelfristig orientierten Systeme hat sich für diesen SMA eine
+Einstellung von 20 Bars bewährt. Zu diesem SMA wird nun ein Element
+aus der Statistik hinzugefügt: die Standardabweichung. Die
+Standardabweichung ist ein Streuungsmass, welches die
+Schwankungsintensität von Preisdaten darstellt. Unter Einbeziehung der
+Zeit wird aus der Standardabweichung die Volatilität von Aktien oder
+Futures errechnet.
+
+Beträgt für eine Aktie der Wert einer Standardabweichung z.B. 2%, dann
+bedeutet dies, dass 68% der untersuchten Werte in einem Intervall von
+=B12% um den Mittelwert für diesen betrachteten Zeitraum lagen. Beträgt
+der Wert der doppelten Standardabweichung 2%, dann lagen immerhin
+schon 95% im gleichen Intervall.
+
+Die Bollinger Bands werden meistens mit eben dieser doppelten
+Standardabweichung berechnet. Dazu wird der Wert der doppelten
+Standardabweichung einmal zu dem eingangs erwähnten SMA addiert und
+einmal davon abgezogen. Daraus ergibt sich eine Hüllkurve, die für 95%
+aller Kurswerte die obere und untere Begrenzung darstellen. Ob zur
+Berechnung der Bollinger Bands die Preisdaten oder die Daten eines
+Indikators herangezogen werden, spielt keine Rolle. Niels Amort
+selbst arbeitet mit Bollinger Bands auf den RSI und das OBV (On
+Balance Volume). In folgender Graphic  ist der Kurs des Japanischen
+YEN mit Bollinger Bands sowohl auf die Preiskurve als auch auf das OBV
+dargestellt
+
+
+Interpretation der Bollinger Bands:
+
+Der Vorteil der Bollinger Bands liegt nun darin, dass durch die
+Hüllkurve die relative Lage der Kurse bezüglich des Niveaus der
+Volatilität angezeigt wird. Liegen die Bänder eng beieinander, dann
+ist die Volatilität sehr gering, gehen die Bänder auseinander, dann
+steigt auch die Volatilität. Sehr schön ist dieser Effekt beim YEN im
+März 98 zu sehen: mit dem Ausbruch des YEN wird auch der Abstand
+zwischen oberem und unterem Band explosionsartig grösser. Zu beachten
+ist dabei, dass sich das untere Band nicht in Trendrichtung, sondern
+gegen die Trendrichtung ausweitet. Weiterhin ist deutlich zu erkennen,
+dass die meisten Kurse innerhalb des oberen und unteren Bandes liegen.
+Dies war durch die Wahl der doppelten Standardabweichung auch so
+gewollt. Wird als Berechnungsgrundlage lediglich die einfache
+Standardabweichung gewählt, so werden lediglich etwa 68% der
+Preisdaten innerhalb der Bollinger Bands liegen , wie aus folgender
+Graphic ersichtlich.
+
+
+Die Charakteristik der Bollinger Bands führt nun zu zwei
+unterschiedliche Interpretationen und damit auch Systemansätzen. Dies
+ist zum einen der Trendfolgeansatz und zum anderen der
+Countertrendansatz. Der Trendfolgeansatz geht davon aus, dass nach
+einer Phase geringer Volatilität und somit geringer Preisbewegung ein
+neuer Trend durch einen Ausbruch aus dieser lethargischen Phase
+eingeleitet wird. Da sich dieser Ausbruch plötzlich und ohne
+Vorankündigung vollzieht, durchstossen die Preisdaten aufgrund der
+Trägheit der Bollinger Bands - diese können erst nach erfolgtem
+Ausbruch auf dieses Ereignis reagieren - entweder das untere oder das
+obere Band (in erster Graphic durch die roten und blauen Pfeile
+gekennzeichnet). Dieser Ausbruch wird trendfolgend gehandelt, d.h., es
+werden Positionen in Richtung des Ausbruchs aufgebaut, da eine
+Fortsetzung dieses neuen Trends angenommen wird. Der Nachteil dieses
+Ansatzes liegt darin, dass die Märkte erfahrungsgemäss in 70% der Zeit
+keinen eindeutigen Trend aufweisen. Somit ist die Gefahr eines
+Fehlsignals auch sehr hoch, so dass mit einer Trefferquote von unter
+50% gerechnet werden muss. Die richtigen Signale sollten dann
+allerdings die grossen Trends einfangen und entsprechend Profit
+erwirtschaften. Der Nachteil des Trendfolgeansatzes ist die Grundidee
+des Countertrendansatzes: da die Märkte die meiste Zeit kein
+eindeutiges Trendverhalten aufweisen und die Berechnung der Bollinger
+Bands darauf ausgelegt ist, dass 95% aller Kurse innerhalb der Bänder
+liegen, wird eine Shortposition beim Durchstossen des oberen Bandes
+und eine Longposition beim Durchstossen des unteren Bandes initiiert.
+Dieser Ansatz funktioniert hervorragend in Seitwärtsphasen. In aller
+Regel werden aber in starken Trends hohe Verluste produziert.

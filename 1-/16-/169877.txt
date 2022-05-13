@@ -1,0 +1,13 @@
+Es sind sogar nur 128 bit.
+Doch. Sicher genug, da die (wenn die nicht ganz bloed sind ...) den
+Schluessel fuer jede Transaktion neu setzen (wie bei SSL) und der
+nicht konstant ist. Das heisst, wenn Du den Schluessel knackst, kannst
+Du genau eine Transaktion lesen, aber nicht die naechste. Und
+manipulieren kannst Du auch nichts, da die Transaktion ja schon lange
+vorueber ist, wenn der Code geknackt ist.
+
+Also ich wuerde es machen. 
+
+Ciao 
+
+Axel

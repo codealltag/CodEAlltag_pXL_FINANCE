@@ -1,0 +1,66 @@
+Hier ein Excel-Code für Call und Put. Für alle. Viel Vergnügen:
+ Basis_akt_Kurs: Kurs eingeben
+ OS_Strike: Kurs eingeben
+ OS_Restlaufzeit: in Jahren
+ Marktzins: 1% = 0,01
+ Basis_hist_Volatilit�t: 40% = 0,4
+ Optional Basis_Dividende_Prozent: ignoriere ich, da mich nur Index
+interessiert
+
+Mit Bezugsverhältnis ggf. multiplizieren.
+Die "Griechen" haben für mich eher akademischen Wert, 
+ist mir nicht mehr so wichtig als Kleinanleger.
+MfG
+Berend
+
+Option Explicit
+
+Function BlackScholesCall _
+(Basis_akt_Kurs As Double, _
+ OS_Strike As Double, _
+ OS_Restlaufzeit As Double, _
+ Marktzins As Double, _
+ Basis_hist_Volatilit�t As Double, _
+ Optional Basis_Dividende_Prozent As Variant) As Double
+
+Dim D1 As Double
+Dim D2 As Double
+
+D1 = Log(Basis_akt_Kurs / OS_Strike) + _
+  OS_Restlaufzeit * (Marktzins + 0.5 * Basis_hist_Volatilit�t ^ 2)
+D1 = D1 / (Basis_hist_Volatilit�t * Sqr(OS_Restlaufzeit))
+
+D2 = D1 - Basis_hist_Volatilit�t * Sqr(OS_Restlaufzeit)
+
+BlackScholesCall = Basis_akt_Kurs * Application.NormSDist(D1) - _
+  OS_Strike * Exp(-Marktzins * OS_Restlaufzeit) *
+Application.NormSDist(D2)
+End Function
+
+Function BlackScholesPut _
+(Basis_akt_Kurs As Double, _
+ OS_Strike As Double, _
+ OS_Restlaufzeit As Double, _
+ Marktzins As Double, _
+ Basis_hist_Volatilit�t As Double, _
+ Optional Basis_Dividende_Prozent As Variant) As Double
+
+Dim D1 As Double
+Dim D2 As Double
+D1 = 0
+D2 = 0
+
+D1 = Log(Basis_akt_Kurs / OS_Strike) + _
+  OS_Restlaufzeit * (Marktzins + 0.5 * Basis_hist_Volatilit�t ^ 2)
+D1 = D1 / (Basis_hist_Volatilit�t * Sqr(OS_Restlaufzeit))
+
+D2 = D1 - Basis_hist_Volatilit�t * Sqr(OS_Restlaufzeit)
+
+BlackScholesPut = Basis_akt_Kurs * (-1 + Application.NormSDist(D1)) - _
+  OS_Strike * Exp(-Marktzins * OS_Restlaufzeit) * (-1 +
+Application.NormSDist(D2))
+End Function
+
+
+-- 
+Remove the xyz at the beginning of my email address to reply.

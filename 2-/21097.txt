@@ -1,0 +1,12 @@
+Der wesentliche Unterschied ist, dass NOR wie DRAM Wortweise
+gelesen/geschrieben werden kann, währen NAND wie Festplatten nur Blockweise
+gelesen/geschrieben werden können. NAND benötigt ein Defektmanagment, d.h.
+der Hersteller speichert in einigen Zellen schon Informationen welche
+Blöcke nicht benutzt werden können. Wenn ein Speicher falsche Bits zurück
+liefert ist er defekt. Egal ob NOR oder NAND.
+
+
+Wenn klassische Wachstumsfirmen an Wachstumsgrenzen stoßen müssen sie sich
+neue Betätigungsfelder suchen...
+
+Veit

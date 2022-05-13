@@ -1,0 +1,19 @@
+Na die Formel kam auch etwas aus dem Bauch. Nach der Black Scholes
+Theorie
+sollte zumindestens am Ende der Laufzeit der Kurs des Basiswertes (also
+hier die Aktie) mit 66%-tiger Wahrscheinlichkeut innerhalb der
+Bandbreite von
+Jetziger Preis * Exp( Zins*Laufzeit +-Vola*Sqrt(Laufzeit)). Bei "+"
+ergibt sich die obere Grenze und bei "-" die untere. Nun gilt diese
+Aussage natuerlich erst zum Ende der Laufzeit - aber es kann vielleicht
+eine Orientierung sein. Vielleicht sollte man einfach den Zins Null
+setzen und mit Laufzeiten von ein paar Wochen arbeiten. Aber eigentlich
+muesste man seine Stopmarken ohnehin taeglich nachziehen
+( z.B. mit einem Parabolic SAR, siehe auch
+http://i7.gzfcgzuh.drz/zdyuif.tk?ES=248639834&KWNDBSC=070334030.9087068255
+)
+
+
+Manfred Effer
+--
+http://ejlqjxjy.qg

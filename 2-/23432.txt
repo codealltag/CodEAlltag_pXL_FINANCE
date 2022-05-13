@@ -1,0 +1,38 @@
+On Thu, 15. 03. 23 17:30:43 +0200, "Leo Weihsgerber"
+
+klar, das Posting von Stehly ist wirklich entbehrlich.
+
+
+Der will sie nicht nur haben, sondern mit einem bestimmtem Zusatz.
+z.B. 
+market => der Preis, der eben verlangt wird
+limit 300 => er will keinen Cent mehr als 300 bezahlen
+stop 200 => wenn der Kurs von 200 erreicht wird, will er sofort
+kaufen, egal zu welchem Preis. Also 200 oder schlechter, Hauptsache
+ein Fill.
+
+(bewusst gehe ich hier nicht auf die short-Selling Problematik ein,
+fuehrte zu weit)
+
+
+Siehe oben.
+Wenn zwei passende Order sich finden, gibt das einen Match=Abschluss.
+Ansonsten kommt abends "no fill", d.h. zu Deinen Wuenschen hat sich
+kein Partner finden lassen.
+
+
+Ein MarketMaker ist jemand, der darauf achtet, dass Kurse nicht ins
+Bodenlose stuerzen (Imageverlust fuer die Firma).
+Wirft jemand Papiere auf den Markt, so kauft der MarketMaker lieber,
+als dass er risikiert, dass sich kein Kaeufer faende und der
+Verkaufswillige es immer billiger gibt.
+
+
+etwas vereinfacht, doch ja
+
+Besuch' doch auch das Käseladen Wissen Archiv!
+Siehe Signatur.
+
+
+Lilly,
+http://WsbwjUorsxanKzdx.wux

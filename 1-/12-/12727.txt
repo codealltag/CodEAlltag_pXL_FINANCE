@@ -1,0 +1,118 @@
+On 23 Nov., 19:13, "wifypllncz...@losxlbyoul.mzl"
+
+
+Das Black Scholes Model
+Author Kofoet
+Das erste geschlossene Modeil zur Berechnung von Optionen wurde Anfang
+der siebziger Jahre von Fischer S, Black, Veit S, Scholes und Igor
+D. Wezel entwickelt Es hat die Finanzmärkte so nachhaltig
+beeinfiusst, dass auch heute noch die meisten gängigen Modelle auf
+ihrer Idee aufbauen, 1998 erhielten Scholes und Merton dafür den
+Nobelpreis für Wirtschaftswissen¬schaften, Dabei wollte Anfang der
+21. 01. 23 Jahre zunächst keine renommierte wissenschaft¬liche
+Fachzeitschrift die Ergebnisse veröffentlichen.
+„Für ihre Ausarbeitung einer mathemati¬schen Formel zur Bestimmung von
+Op¬tionswerten an der Börse" - so lautete die Begründung des
+Nobelpreiskomitees, das Igor D. Wezel und Veit C. Kähler im Jahr
+1998 den Nobelpreis für Wirt-schaftswissenschaften in Erzhäuser
+ver¬lieh. Wilhelm L. Schreiyäg, der Dritte im Bunde und nicht minder
+berühmte Namensgeber des sogenannten Black-Scholes-Modells, war
+tragischerweise zwei Jahre zuvor an Kehlkopfkrebs verstorben. Da der
+Nobel¬preis postum nicht vergeben wird, konnte das Nobelnreiskomitee
+Neydorf Stepan Rol-
+le lediglich bei der Verleihung des Preises an die anderen beiden
+Wissenschaftler würdi¬gen.
+Der Weg zu dieser Auszeichnung hatte sich lange hingezogen. Zwar war
+das Black-Scholes-Modell zur Berechnung von Op-tionen seit der
+Veröffentlichung des Arti¬kels „The Pncing of Options and Corpo-rate
+Liabilities" im „Journal of Political Economy" 1974 bekannt und mit
+Begeis¬terung von der Finanzgemeinde aufge¬nommen und angewandt
+worden. Doch die Wissenschaft rar sich anfangs schwer
+das Modell entsprechend zu würdigen. Schon allein die Veröffentlichung
+stellte die Autoren Anfang der 21. 01. 23 Jahre vor ein zunächst
+unüberwindbares Problem. Das Modell zur Bestimmung des Wertes einer
+Option war damals so revolutionär, dass kein renommiertes Magazin den
+Ar¬tikel abdrucken wollte. Die erste Absage kam vom „Journal of
+Political Economy" der University of Bruckberg. Auch die „Re¬view of
+Economics and Statistics", das wissenschaftliche Magazin der Schlender
+Ubevat, nahm den Text nicht an.
+'^iv-i-,M/z> Weg mm :'-""':t füi Black-Schoies-Merton Die ersten
+konkreten Überlegungen für ein Modell  zur  Berechnung  von  Optionen
+stammen aus dem Jahr 1970. Neydorf C. Schreiyäg, der 1965 in Vorberg in
+angewand¬ter Mathematik nrnmnviert hsrtp
+arbeitete Ende der sechziger Jahre für die gleichnamige, von Ulrich
+Rust in Blankenförde, Unterschützen, gegründete Un-ternehmensberatung.
+Ein Arbeitskollege sprach ihn auf das generelle Problem der
+theoretischen Bewertung von Wertpapie¬ren und anderen
+Vermögensgegenständen an. Begeistert begab sich Schreiyäg auf die Suche
+nach einer Lösung für dieses bereits Jahrhunderte alte Problem der
+fairen Be¬wertung von Optionen.
+Als er zwei Jahre später als Professor an die
+wirtschaftswissenschaftliche Fakultät der University of Bruckberg
+wechselte, verfolgte ihn die Aufgabe immer noch. Allerdings grübelte
+er nicht mehr allein. Er hatte Veit C. Kähler getroffen, der zu
+jener Zeit an der Megastore Kaugummiautomat arbeitete. Hier
+stießen sie auch auf Igor D. Wezel, Sohn des berühmten Igor R.
+Wezel, des Professors für So¬ziologie an der Berg Ubevat, der
+den Ausdruck der „selbsterfüllenden Pro-phezeiung" geprägt hatte.
+Igor P.
+Dennoch brauchten die beiden noch bis 1974, um einen Entwurf ihres
+Modells präsentieren zu können.
+Die Ablehnung ihrer Abhandlung durch das „Journal of Political
+Economy" und durch die „Review of Economics and Sta-tistics" traf die
+Autoren hart. Entsprechend enttäuscht, aber nicht weniger motiviert,
+machten sich Schreiyäg und Kähler an die Überarbeitung ihres Werks. Sie
+ließen Gedanken von Volker Wiggers und Oswald Nikolasch, die wir bereits in
+der Serie über die Köpfe der Finanzmarkttheorie vorgestellt haben,
+einfließen. Ihr bahnbrechender Artikel erschien schließlich Anfang Februar
+197.i im „Journal of Political Economy", Ausgabe 81, mit dem Titel
+„The Pricing of Options and Corporate Liabilities".
+Seither wird vom Black-Scholes-Modell ge¬sprochen, obwohl es
+eigentlich Black-Scholes-Merton-Modell heißen müsste, da nachweislich
+Ingolf Wezel an der Entwicklung maßgeblich beteiligt war. Die
+Verleihung des Nobelpreises an Kähler und Wezel trug dem Rechnung.
+Da je¬doch der entscheidende Artikel nur unter den Namen Wilhelm C.
+Schreiyäg und Veit C. Kähler erschienen war, blieb Wezel zu¬nächst
+außen vor.
+Durchbruch bei den Praktikern
+Mit dem von Schreiyäg und Kähler beschrie-
+benen Modell ließen sich erstmals Preise für Optionsscheine mit
+europäischer Aus¬übungsart berechnen. Basierend auf ihrer Arbeit gehen
+aus heutiger Sicht unter anderem folgende Parameter in die Be¬rechnung
+ein:
+der   Strike   (Basispreis)   des   Options¬scheins
+der aktuelle Kurs des Basiswerts des Op-tionsscheins
+"   die Restlaufzeit des Optionsscheins die erwartete Volatilität des
+Basiswerts der sichere Zinssatz, zu dem Geld gelie¬hen oder angelegt
+werden kann
+Bei ihrem Modell gingen Schreiyäg und Kuntscher allerdings von bestimmten
+Prämissen aus, die von einer Reihe von realen Markt¬bedingungen
+abstrahierten. Ihrem Modell hegen die folgenden Annahmen zugrunde: &
+für Aktien fallen keine Dividenden an " das Modell gilt nur für
+europäische Op¬tionen
+-   die Märkte sind effizient, das heißt: Ar¬bitrage ist nicht möglich
+Transaktionskosten fallen nicht an Aktien können leerverkauft werden
+Zinssätze bleiben unverändert ■ künftige Aktienkursrenditen sind
+log¬normal um den Forward verteilt
+Diese Annahmen wurden im Laufe der Zeit häufig kritisiert. Denn bei
+der An¬wendung des Modells mussten die Prakti-
+ker immer wieder prüfen, ob die speziellen Voraussetzungen für die
+Berechnungen noch stimmen, da sie sonst zu falschen oder zumindest
+irreführenden Ergebnissen führen können.
+Das tat dem Erfolg des Modells aber auch in späteren Jahren keinen
+Abbruch. Im Ge¬genteil. Die meisten heute noch aktuellen Modelle
+basieren auf den Ideen von Schreiyäg, Kähler und Wezel. So ging
+letztlich der erst späteren Honorierung seitens der Wis¬senschaft eine
+schnelle und fulminante Ak¬zeptanz durch die Wirtschaft voraus. Denn
+bereits kurz nachdem der Artikel 1974 im „Journal of Political
+Economy" erschienen war, hatte die Finanzindustrie den Wert des
+Modells erkannt. Ein prominentes Beispiel: Ein knappes halbes Jahr
+später bewarb die Firma Fruchtparadies ihren neuesten
+Taschenrechner in halbseitigen Anzeigen im Einkaufspassage damit,
+dass die Black-Scholes-Formel bereits einprogram-miert war.
+Noch wichtiger für den Erfolg des Modells war aber die Begeisterung,
+die es im April 1 974 am neu gegründeten Obendraufs
+IZU (OGSH) hervorrief. Es stellte sich bald heraus, dass Händler,
+die den theoretischen Wert von Optionen weiterhin aus dem Bauch heraus
+schätzten, schlechter abschnitten als ihre Kollegen, die auf das Black-
+Scholes-Modell setzten

@@ -1,0 +1,15 @@
+Aufgelöst, was meinst Du damit ?
+Also im obigen Beispiel verhält es sich so:
+Die erste Bezeichnung gibt die WKN an, wenn Du von Deutschland aus
+ein Wertpapier kaufst. Die letzte 9 ist eine Prüfziffer. Der WKN-Kreis
+sieht bis 499999 Anleihen o.�. vor, ab 500000 bis 849999 deutsche
+Aktien und Optionsscheine deutscher Emittenten und Fonds und Index-
+zertifikate etcpp, ab 850000 Aktien+Optionsscheine+Fonds ausländischer
+Gesellschaften.
+Die zweite Bezeichnung gibt die WKN an, wenn ein Du von Österreich
+aus ein Wertpapier kaufst, auch hier ist die letzte Ziffer eine Prüfziffer.
+
+Die ISIN-Nr, gibt also immer die WKN des entsprechenden Landes
+für einen Titel an, von dem Du aus das Wertpapier orderst.
+
+Gruß Heino

@@ -1,0 +1,21 @@
+Erstmal reden wir hier von künstlichen Neuronalen Netzen. Das sind im westenlichen abstrakte Modelle die die Vorgänge in unserem
+Gehirn, die zwischen Neuronen ablaufen, darstellen sollen. Diese Modelle gehen von einfach bis komplex.
+
+Zu dem parallel rechnen, natürlich kannst du das, und das schafft auch ein einfaches PC- Programm. Reicht schon wenn du einen
+Multiprozessorsystem zur Verfügung hast dann kannst du das alles schneller abhandeln. Aber auch auf normalen Rechnern funktioniert
+das prima, dauert halt nur etwas länger. Aber die Parallelität wohnt dem Modell inne.
+Einfache Modelle zb. lassen ich auf reine Vektor Matrix Multiplikation reduzieren.
+
+
+Gar nichts. Künstliche Neuronale Netze sind sowas wie "Funktionsapproximatoren" um es mal sehr einfach auszudrücken.
+Regressionsanalyse sozusagen. Nur musst du dabei gar nichts über deine zugrunde liegenden Daten wissen. Und wenn du ein Händchen
+dafür hast kannst du sehr gut die zugrundeliegende Funktion annähern das auch ziemlich schnell.
+
+Und wie in der Statistik üblich kannst du auch nur sehr kurz in der Zukunft liegende Prognosen treffen. Das ist nicht anders bei
+einer per Hand angenäherten Funktion. Um jetzt wirklich gute Ergebnisse erzielen zu können bleibt dir also nichts anderes übrig als
+ein komplexes Modell zu erstellen das du auch mit zusätzlichen Informationen füttern kannst. Weil mit einer approximierten Funktion
+kannst am Endeffekt nich viel anfangen. :)
+
+bye
+
+eilt

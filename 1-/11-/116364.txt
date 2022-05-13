@@ -1,0 +1,22 @@
+Hallo Ulf,
+
+vielleicht reicht Dir die Antwort in Kurformat, sonst frag noch
+mal nach:
+
+r = repartiert  (zugeteilt)
+G = Geld  (Kaufaufträge)
+B = Brief  (Verkaufaufträge)
+
+rG bedeutet, daß nicht alle vorhandenen Kaufaufträge erfüllt werden
+konnten, weil weniger Verkaufaufträge vorhanden waren. Also mußten die
+vorhandenen Aktien zugeteilt werden. Das ist auch der
+Grund, warum manchmal eine eigene Order nur zum Teil aus-
+geführt wird.
+Bei rB ist es genau umgekehrt.
+
+T = Taxe    Der Kurs wurde vom Händler festgelegt (taxiert), weil
+                   kein Angebot und keine Nachfrage an dem Tag nach
+                   diesem Papier vorhanden war / oder nur Aufträge
+                   ohne Limit.
+
+Renée

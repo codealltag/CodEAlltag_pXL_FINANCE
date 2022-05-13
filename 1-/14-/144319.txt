@@ -1,0 +1,18 @@
+Ich brauche einen Service, der mir anhand der Black-Scholes-Formel den
+'fairen' Preis für DTB-Optionen berechnet. Natürlich müssen die dafür
+relevanten Daten immer aktuell sein [imp. Vola]; ein Programm, das alle
+nötigen Werte von mir wissen will, nützt mir nichts.
+
+Ziel der ganzen Sache soll sein, zu berechnen, mit welchem Limit es
+sinnvoll (und mit welchem nicht) ist, eine Order an die DTB zu geben.
+
+Dabei soll es sich um Aktien- und Indexoptionen handeln.
+
+Das ganze muß nicht realtime sein - tagesaktuell reicht vollkommen.
+
+CU HUNGBAUR.
+
+--
+[1] This message has been sent by Axel Terwort (http://zyb.dfme.njgb.ir.vbq).
+[2] For futher information you can download my *complete* footer at:
+[3] http://xhi.akocy.hm/~pihq/mixtic/ppeopcd.axs

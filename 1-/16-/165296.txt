@@ -1,0 +1,16 @@
+Limit ohne Stop loss tagesgueltig auf 50 DM setzen, dann zahlst du 
+nix wenn der Posten verkauft wird. Du zahlst 5 DM, wenns an dem Tag
+nich verkauft wird und die Order (weil tagesgueltig) verfaellt.
+Bei 50 DM ohne stop loss ultimo zahlst du 5 DM wenn der Posten nicht
+am naechsten Tag verkauft wird. Am 4.Tag nach der Verkaufsorder
+wirds verkauft und du zahlst 5 DM, weil es eben nicht am Folgetag
+deiner Order ausgefuehrt wurde.
+
+
+verfaellt die Order tagesgueltig, zahlst 5 DM.
+Is sie ultimo und wird nich ausgefuehrt am Ordertag, ebenfalls 5 DM
+
+
+Kurzum : Du zahlst IMMER 5 DM, wenn irgendeine Order NICHT am
+folgenden Tag ausgefuehrt werden konnt. (oder am aktuellen wenns 
+halt irgendwann in der frueh is)

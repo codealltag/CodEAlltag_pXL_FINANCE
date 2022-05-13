@@ -1,0 +1,26 @@
+Egal wie er heißt - verkaufe die privat und lass sie von Deinem auf das 
+Depot des Käufers übertragen. Beim Typ B läßt sich ein fairer Preis 
+leicht ausrechnen, beim Typ A ist es schwierig. Auf jeden Fall aber 
+lohnt es sich für beide von Euch.
+
+-----------------------------------------------------------------------
+
+      7  6.00 100.00  5.20  94.85  5.20
+    Jahr Zins  Kurs   TypB  Wert  Rend.
+      1  2.75 102.75  5.62 100.54  2.75
+      2  3.50 106.35  6.05 106.58  3.12
+      3  4.50 111.13  6.44 112.97  3.58
+      4  5.50 117.24  6.75 119.75  4.06
+      5  6.25 124.57  7.00 126.93  4.49
+      6  7.00 133.29  7.00 134.55  4.91
+      7  7.00 142.62 FEHLER142.62  5.20
+
+-----------------------------------------------------------------------
+
+Spalte 2: Kurs bei Verkauf an Erxlebe
+       3: Rendite bei Kauf zu diesem Kurs mit dieser Restlaufzeit.
+       4: dito Verkauf
+       5: Kaufpreis bei einer Rendite für den Käufer von 6%
+
+Nach einem Jahr wie bei Dir hätte ein Käufer beim Kauf zum Crosscut 
+eine Rendite von 5.62 % im Vergleich zu 5.2 % über die Gesamtlaufzeit.

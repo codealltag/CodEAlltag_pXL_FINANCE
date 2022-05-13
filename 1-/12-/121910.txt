@@ -1,0 +1,32 @@
+Kaum. Die ECL-Technik hat leider den Nachteil, das sie extrem viel Strom
+verbraucht - und bei Prozessoren mit ein paar Millionen Transistoren
+duerfte dann die Ableitung der entstehenden Waerme unmoeglich sein.
+Eine typische Anwendung fuer ECL ist z.B. ein Vorteiler fuer Frequenz-
+zaehler = eine Handvoll Transistoren und Frequenzen im Bereich etlicher
+GHz (und so ein Teil braucht schon ordentlich Strom).
+Wenn ECL fuer Prozessoren, dann hoechstens fuer Supercomputer mit entsprechend
+extremen Kuehlaufwand und sicherlich Verteilung des Prozessors auf mehrere
+Chips, also definitiv nichts fuer den Massenmarkt.
+
+
+Scheint so.
+In ganz ferner Zukunft gibt es dann vielleicht die Quantenelektronik.
+Dabei versucht man dann ein Bit mit einem Atom zu speichern und auch damit
+zu rechnen (genauer kann ich das jetzt nicht erklaeren, ich habe mit diesen
+Forschungen nichts zu tun). Funktioniert zur Zeit hauptsaechlich auf dem 
+Papier und im Labor nur fuer eine armselige Handvoll Bits - und die Be-
+rechnungen sind zur Zeit ueberhaupt nicht zuverlaessig. 2+2 ist meistens 4, 
+aber manchmal eben auch 3 oder 5.
+
+Momentan im Aufbau oder vielleicht schon im Betrieb sind bei diversen 
+Herstellern Produktionsanlagen fuer unter 0,25 Mikrometer, z.B. 0,17 oder 
+0,18um.
+Technisch gibt es da eine Grenze durch die Wellenlaenge des Lichts fuer
+die Belichtung durch die einzelnen Masken - Ausweg: Elektronenstrahlbe-
+lichtung oder aehnliches.
+
+Gruss,
+Jean-Claude Große-Wortmann
+
+e-mail: Ja.Nciiix@tlwkyfd.woa
+www:    http://wmf73.jm.wwk-houryjzbe.ro/~tfqamr

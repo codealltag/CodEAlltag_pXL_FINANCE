@@ -1,0 +1,292 @@
+Hier folgend ein Kapitel mit Details zu Bund-Futures (bitte wegen der 
+Laenge nicht pruegeln). Zum Verstaendnis solten allerdings 
+Grundkenntnisse ueber Futures und Anleihen an sich vorhanden sein.
+
+
+6.3  Einführung in Futures auf Anleihen
+An der DTB wird auch ein Future-Kontrakt auf eine Bundesanleihe gehandelt.
+Bei dieser einfach "Bund" genannten Anleihe handelt es sich um eine
+theoretische, idealtypische Bundesanleihe mit 6% Nominalverzinsung und
+einer Restlaufzeit von zehn Jahren. Diese Anleihe muß es gar nicht in
+Wirklichkeit geben, aber man kann ihren Kurvenverlauf in Abhängigkeit vom
+Marktzins genau berechnen. Aus dem Kapitel über Anleihen wissen Sie
+bereits, wie das funktioniert
+
+Auf diese theoretische Anleihe werden Futures gehandelt, die im Prinzip
+den eben ausführlich beschriebenen DAX-Futures entsprechen. Damit kann auf
+Änderungen des Marktzinses spekuliert werden, denn der Kurs von Anleihen
+sinkt bekanntlich bei steigendem Marktzins und steigt bei fallendem
+Marktzins. Man spricht deshalb oft auch einfach von "Zinsfutures". 
+In der Praxis kann man Futures auf diese theoretische Anleihe auch
+problemlos mit jeder anderen, echten Anleihe kombinieren: Man muß dazu nur
+die Volatilität der theoretischen "Bund-Anleihe" berechnen und mit der
+Volatilität der tatsächlich vorhandenen Anleihe in Beziehung setzen.
+Doppelte Volatilität bedeutet bekanntlich doppelt starke Kursänderung bei
+einer Änderung des Marktzinses. Folglich reagiert eine solche Anleihe auf
+Zinsänderungen etwa so stark wie zwei der anderen Anleihen zusammen
+(betragsmäßige Wirkung). So kann man das Zinsänderungsrisiko jeder
+beliebige Anleihe auf "Bund-Futures" umrechnen. Allerdings muß man sich
+darüber klar sein, daß das Verhältnis der Volatilitäten nicht unbedingt für
+immer konstant bleiben muß, denn die Marktzinsen für z.B. Anleihen mit 6
+und Anleihen mit 9 Jahren Restlaufzeit können sich unabhängig voneinander
+ändern, und die Restlaufzeit ändert sich ja sowieso mit dem Zeitablauf. Es
+kann deshalb sinnvoll sein, solche Berechnungen regelmäßig neu anzupassen. 
+Kursschwankungen bei Anleihen sind meistens deutlich geringer und erfolgen
+langsamer als beispielsweise Schwankungen des DAX. Deshalb wird bei
+Bund-Futures in der Regel ein weit niedrigerer Einschuß als bei DAX-Futures
+verlangt. Prozentual zum Einschuß können sich deshalb auch schon bei
+geringen Kursschwankungen beachtliche Gewinne oder Verluste ergeben. 
+Zur genauen Berechnung von fairen Preisen für Anleihe-Futures müssen
+folgende Details beachtet werden:
+ähnlich wie bei den bereits beschriebenen DAX-Futures müssen auch hier der
+Zinsvorteil bzw. die hypothetischen Finanzierungskosten zum
+zugrundeliegenden Wert hinzugezählt werden, in diesem Fall also zum
+aktuellen Anleihepreis. Allerdings muß man berücksichtigen, daß beim Kauf
+der Anleihe nicht nur der reine Anleihepreis, sondern auch die seit der
+letzten Zinszahlung angesammelten Stückzinsen bezahlt werden müssen. Die
+Verzinsung muß deshalb auf den sogenannten "dirty price" der Anleihe, also
+auf Anleihepreis plus Stückzinsen berechnet werden. Beispiel:
+Anleihepreis 100 (also aktuelle Anleiherendite von 6%), Stückzinsen 3,
+Laufzeit des Futures sechs Monate, 6-Monats-Zinssatz 4% pro Jahr. Der
+Futurepreis berechnet sich also als Anleihepreis von 100 plus den Zinsen
+für ein halbes Jahr auf 103. Im Beispiel ergeben sich 102,06.
+Diese Berechnung ist aber noch nicht vollständig, denn es muß noch
+berücksichtigt werden, daß der Inhaber der Anleihe während der Laufzeit des
+Future ja eine feste laufende Verzinsung erhält. Diese Zinsen müssen von
+dem oben festgestellten Futurepreis abgezogen werden. Nehmen wir für diese
+sechs Monate einmal Anleihezinsen von 3 an, so müssen wir diese 3 von
+102,06 abziehen, so daß sich ein endgültiger Futurepreis von 99,06 ergibt.
+Das Beispiel zeigt, daß bei normaler Zinskurve (langfristige Zinsen höher
+als kurzfristige Zinsen) der faire Futurepreis unter dem Kurs der Anleihe
+liegt. Bei inverser Zinskurve (kurzfristige Zinsen höher als langfristige
+Zinsen) ergäbe sich dagegen ein fairer Futurepreis über dem Anleihekurs. 
+Je dichter also kurz- und langfristige Zinssätze beieinander liegen, desto
+dichter liegen auch Anleihe- und Futurekurs beieinander. Sind diese
+Zinssätze gar identisch, so braucht man keinen speziellen Futurekurs zu
+berechnen; man kann sich in diesem Fall direkt am Anleihekurs orientieren.  
+Für die private Kleinspekulation ist eine genaue Berechnung des fairen
+Futurekurses oft auch gar nicht nötig. Wie eben gezeigt, folgt der
+Futurepreis immer dem Anleihepreis. Je nach aktueller Zinskurve liegt er
+lediglich etwas höher oder niedriger. Von Anleihen wissen wir ja, daß ihr
+Kurs bei sinkendem Marktzins steigt und bei steigendem Marktzins sinkt. Und
+genauso verhält es sich bei dem entsprechenden Future.
+Zur Spekulation auf sinkenden Marktzins müssen wir deshalb den Future
+kaufen, und zur Spekulation auf steigenden Marktzins muß der Future
+verkauft werden. Es gelten also im Prinzip dieselben Regeln wie bei der
+direkten Spekulation mit Anleihen - aber eben mit 2 Erweiterungen:
+Der Privatanleger kann in der Praxis mit Anleihen allein nicht immer auf
+steigende Zinssätze spekulieren. Denn bei solch einer Spekulation müßte er
+ja Anleihen verkaufen, und das kann er nur, wenn er Anleihen besitzt.
+Futures dagegen kann er auch dann verkaufen, wenn er keine Anleihen hält.    
+Der zweite Unterschied liegt darin, daß die Gewinn- und
+Verlustmöglichkeiten bei Futures wesentlich größer sind. Für 100 DM kann
+man nur 1 Anleihe kaufen, und kurzfristig ist damit in der Regel nur ein
+sehr kleiner Kursgewinn möglich, vielleicht 2 bis 5 DM. Bei Futures ist
+dagegen nur eine relativ geringe Margin zu zahlen, und deshalb können mit
+einem Einsatz von 100 DM Futures auf 10, 20 oder gar mehr Anleihen
+gehandelt werden. Dadurch ergibt sich dann natürlich ein entsprechend
+aggressiveres Gewinn- und Verlustprofil.
+Eine genaue Berechnung von Bund-Futures ist in der Praxis nur für Profis
+von Nutzen, wenn diese Arbitrage zwischen dem Future und echten Anleihen
+treiben. Für alle anderen Anleger reicht in der Regel eine grobe Schätzung
+völlig aus, denn der Bund-Future ist heute leider ein wildes
+Spekulationsinstrument geworden. Bei einem fairen Futurepreis von z.B.
+93,50 kann der Future ohne weiteres innerhalb weniger Stunden zwischen
+93,00 und 94,00 schwanken. Die Kenntnis des genauen theoretisch fairen
+Preises allein bringt da nur noch wenig Nutzen. 
+Da sich die Spekulation in erster Linie beim Bund-Future austobt, ist es
+in der Praxis inzwischen oft sogar so, daß nicht der Bund-Future den echten
+Anleihekursen folgt, sondern dieser die Richtung vorgibt und die Anleihen
+dann aufgrund von Arbitragegeschäften dem so vorgegebenen Trend des
+Bund-Future folgen.
+Außer zur reinen Spekulation kann der Bund-Future natürlich auch zur
+Steuerung und Absicherung ("Hedging") von großen Portfolios aus Anleihen
+und sonstigen verzinslichen Anlagen benutzt werden. Für die folgenden
+Beispiele gehen wir jetzt einmal von einer normalen Zinskurve mit
+langfristigen Zinsen in Höhe von 8% und kurzfristigen Zinsen von 5% aus.
+Der Anleihekurs sei 100, und der entsprechende Future liege bei 99.
+
+Beim ersten Beispiel besteht das Portfolio überwiegend aus Anleihen und
+rentiert sich entsprechend zu 8%. Wir befürchten einen Zinsanstieg und
+damit sinkende Anleihekurse. Als Schutz dagegen verkaufen wir nun den
+Future zu 99. Dies hat zwei Folgen:
+Da der Future billiger als die Anleihe ist, führt dies einerseits zu einem
+gewissen Verlust, denn wir haben ja eine Anleihe im Wert von 100 über den
+Future zu nur 99 verkauft. Bei einigermaßen fair bewertetem Futurepreis
+wird dieser Verlust zu einem Absinken der Rendite von 8% auf etwa 5% führen. 
+Andererseits wird dadurch das Verlustrisiko aus den Anleihekursen genau
+neutralisiert. Denn bei steigenden Zinsen sinkt zwar der Wert der Anleihen,
+aber gleichzeitig fällt ein entsprechender Gewinn aus dem Verkauf des
+Future an. Denn der Futurepreis fällt in diesem Fall ja auch, so daß wir
+den für 99 verkauften Future später für vielleicht 97 zurückkaufen
+(glattstellen) können.
+Bei fallenden Zinsen dagegen würde zwar der Wert unserer Anleihen steigen,
+aber dieser Gewinn würde leider durch einen entsprechenden Verlust aus dem
+Future aufgehoben, denn wir müßten den für 99 verkauften Future später zu
+einem höheren Preis zurückkaufen. Durch den Verkauf des Future haben wir
+also nicht nur unser Verlustrisiko, sondern gleichzeitig auch unsere
+Gewinnchance neutralisiert.
+Das erstaunliche Gesamtergebnis ist mithin, daß sich die Situation des
+Portfolios plötzlich so darstellt, als wenn das Kapital kurzfristig zu 5%
+angelegt wäre: Die Rendite ist vom langfristigen Satz von 8% auf den
+kurzfristigen Satz von 5% gefallen, und gleichzeitig ist das mögliche
+Risiko aus Kursänderungen der Anleihen entfallen. 
+Durch den Verkauf von Futures kann man die Position des Portfolios also so
+ändern, als hätte man das Kapital kurzfristig und kursstabil angelegt
+("Geldmarktposition"). Und durch Rückkauf derselben Futures ist die
+Situation wieder so wie vorher. Man kann also jederzeit von einer Position
+in die andere wechseln, ganz wie man es gerade für zweckmäßig hält und
+welche Zinsentwicklung man für die nächste Zeit erwartet. Und zwar - und
+darin liegt ist der besondere Vorteil - ohne jedesmal den kompletten
+Anleihebestand zu verkaufen und später wieder zurückkaufen zu müssen. Der
+Einsatz von Futures spart deshalb erhebliche Spesen und Umstände.
+
+Nun stellen wir uns einmal umgekehrt vor, wir hätten einen gewissen
+Kapitalbetrag kurzfristig zu 5% und ohne Kursrisiko angelegt. In dieser
+Situation können wir durch den Kauf von Futures unsere Position so ändern,
+als hätten wir das Kapital in Anleihen mit 8% Rendite angelegt. Allerdings
+kaufen wir damit gleichzeitig auch das Kursrisiko ("Zinsänderungsrisiko").   
+
+Diese Darstellung war natürlich in vielen Punkten vereinfacht. Aber es
+sollte klargeworden sein, welch wirksames Instrumentarium Anleihe-Futures
+zur der Steuerung großer verzinslicher Anlagen sind. Allerdings darf man
+nicht übersehen, daß der Erfolg einer Steuerung mittels Futures immer davon
+abhängt, ob der Anleger in die richtige Richtung steuert. In anderen
+Worten: Nach wie vor bleibt entscheidend, daß der Anleger die
+Zinsentwicklung richtig voraussieht. Bei falscher Spekulationsrichtung
+nützt das perfekteste Spekulationsinstrument nichts.
+Hinweis für fortgeschrittene Profis: Die hier vorgestellte
+Berechnungsmethode entspricht dem üblichen kurzfristigen Arbitragemodell
+und ist im allgemeinen maßgebliche Grundlage bei der Bildung der
+Marktpreise für Anleihe-Futures. Für längerfristige Anlagezwecke wie z.B.
+dem Hedging von Anleihe-Portfolios ist diese Methode jedoch "eigentlich
+falsch", was auch der Grund dafür ist, daß die eben beschriebenen
+Anwendungsmöglichkeiten in der Praxis meistens nur ungefähr statt wirklich
+genau funktionieren. Die Bewertung von Anleihe-Future-Preisen für
+längerfristige Anlagezwecke ist etwas komplexer und wird z.B. von unserem
+Programm <Bond-Manager> beherrscht.
+
+Konkrete Details der DTB-Bund-Futures: Ein Kontrakt bezieht sich auf
+nominal 250.000 DM der eingangs beschriebenen idealtypischen Anleihe. Die
+Kursnotiz erfolgt jedoch in Prozent; z.B. ein Kurs von 92.35 %. Dieser Wert
+muß dann mal 2500 DM genommen werden, um den echten Wert eines Kontrakts zu
+bestimmen. Der minimale Preissprung ("Tick") beim Futurekurs ist mit 0,01
+definiert. Bezogen auf einen Kontrakt bedeutet jeder Tick mithin eine
+Wertänderung von 25 DM. 
+Wird der Kontrakt nicht vor Fälligkeit glattgestellt, so müssen bei
+Fälligkeit tatsächlich Bundesanleihen geliefert werden. Da die definierte
+idealtypische Bundesanleihe in der Regel aber gar nicht existiert, werden
+am Liefertag ähnliche Bundesanleihen mit Restlaufzeiten zwischen 8,5 und 10
+Jahren geliefert, und es erfolgt ein Ausgleich der Wertdifferenz durch
+Umrechnungsfaktoren ("Preisfaktor" bzw. "Konversationsfaktor"). 
+Es gibt Bund-Future-Kontrakte mit Lieferdatum (Ablaufdatum) Januar, April,
+Juli und Oktober. An der DTB werden immer 3 verschiedene Ablaufdaten
+gleichzeitig gehandelt, so daß die längste Laufzeit eines Future mithin bei
+9 Monaten liegt. Liefertag ist jeweils der 10. des betreffenden Monats,
+letzter Handelstag des Future ist zwei Börsentage vorher.
+Nahezu der gleiche Kontrakt wird als "Bunds" auch an der Terminbörse in
+Pfaffeggetten gehandelt. 1993 wurden in Pfaffeggetten übrigens 12,3 Millionen und an der
+DTB in Willerswalde 5,3 Millionen derartige Bund-Futures gehandelt. Für 1996
+werden etwa verdoppelte Zahlen erwartet. Natürlich sind dabei jede Menge
+Doppelzählungen enthalten, da die meisten Kontrakte in ihrer nur einige
+Monate währenden Existenz mehrfach ge- und verkauft werden. Die
+Marktliquidität ist aber in jedem Fall sehr groß. 
+Daneben werden an der DTB auch Futures auf eine idealtypische
+6%-Bundesobligation mit einer Restlaufzeit von nur fünf Jahren gehandelt
+(sogenannter "Bobl-Future"). Die Umsätze in diesem Produkt sind aber
+meistens deutlich geringer. 
+Seit neuestem gibt es nun auch einen Future auf den Fibor-Zinssatz. Dieser
+Future bezieht sich auf 1 Million DM und berechnet sich nach der Formel:
+100 minus 3-Monats-Fibor. Bei einem Fibor-Satz von z.B. 4,75 % wären das
+also 95,25. 
+
+An der Schweizer Jokers wird ein sogenannter CONF-Future auf eine
+idealtypische langfristige eidgen�ssenschaftliche Obligation mit einem
+Kupon von 6% gehandelt. Der Nominalwert je Future-Kontrakt beträgt 100.000
+sFr.. Wird der Kontrakt nicht vor Fälligkeit glattgestellt, so müssen bei
+Fälligkeit tatsächlich Schweizer Staatsanleihen mit Restlaufzeiten zwischen
+8 und 13 Jahren geliefert werden, und es erfolgt ein Ausgleich durch einen
+Konversationsfaktor. Die maximale Kontraktlaufzeit beträgt ein Jahr, die
+Ablaufmonate sind Januar, April, Juli und Oktober. Liefertag ist jeweils
+der dritte Mittwoch des betreffenden Monats, letzter Handelstag des Futures
+ist zwei Tage vorher.
+
+An der Top in Buchsberg wird ein Future auf eine idealtypische österreichische
+Bundesanleihe mit zehn Jahren Restlaufzeit und einem Kupon von 7%
+gehandelt. Der Nominalwert je Future-Kontrakt beträgt 1.000.000 S. Wird
+der Kontrakt nicht vor Fälligkeit glattgestellt, so müssen bei Fälligkeit
+tatsächlich Bundesanleihen mit Restlaufzeiten zwischen 8 und 10 Jahren
+geliefert werden, und auch hier erfolgt ein Ausgleich durch einen
+Konversationsfaktor. Es werden jeweils Kontrakte mit Ablauf in den nächsten
+drei der vier möglichen Ablaufmonate Januar, April, Juli und Oktober
+gehandelt. Liefertag ist jeweils der 15. des betreffenden Monats, letzter
+Handelstag des Futures ist fünf Tage vorher.
+
+ähnliche Futures werden an der Pyrath Liffe und am Donaustauf Matif
+gehandelt. In Pfaffeggetten gibt es Futures auf britische, japanische, spanische,
+deutsche und amerikanische Staatsanleihen, und in Daberkow werden Futures auf
+französische Staatsanleihen und auf eine theoretische 10jährige
+10%-Ecu-Anleihe gehandelt. 
+
+
+6.4  Professionelle Berechnung von Anleihe-Futures
+Wie bereits beschrieben, bezieht sich der DTB-Bund-Future auf eine
+theoretische 6%-Bundesanleihe mit zehn Jahren Restlaufzeit. Wird der Future
+nicht vor Ablauf durch ein Gegengeschäft glattgestellt, dann müssen nach
+Ablauf echte Bundesanleihen mit Restlaufzeiten zwischen 8,5 und 10 Jahren
+geliefert werden. Da diese in der Regel unterschiedliche Kurse haben
+werden, erfolgt ein Ausgleich durch Umrechnungsfaktoren ("Preisfaktor" bzw.
+"Konversationsfaktor"). 
+Zur Lieferung sind immer nur einige bestimmte Anleihen zugelassen, und es
+müssen eine Reihe weiterer Regeln beachtet werden. Als Nicht-Profi sollte
+man es deshalb möglichst nie soweit kommen lassen, sondern den Future
+rechtzeitig durch ein Gegengeschäft glattstellen. Dies ist in der Regel
+auch spesenm��ig wesentlich günstiger.
+Trotzdem wollen wir nun einige Details dieser Lieferung erklären, denn
+diese Details haben in der Praxis einen erheblichen Einfluß auf die
+Preisbildung des Future.
+Der Preisfaktor wird für jede zur Lieferung zugelassene Anleihe
+individuell mittels einer Formel berechnet und bleibt während der Laufzeit
+des Future unverändert. Beispiele:
+
+Anleihe A: Kurs 100,0; Preisfaktor 1,10; Kurs/Preisfaktor = 90,91
+Anleihe B: Kurs 100,5; Preisfaktor 1,11; Kurs/Preisfaktor = 90,54
+
+Anleihe B ist nach Korrektur mit dem Preisfaktor billiger als Anleihe A
+(90,54 zu 90,91). Da der Lieferpflichtige die freie Wahl hat, welche der
+zur Lieferung zugelassenen Anleihen er liefern will, wird er die billigere
+Anleihe B liefern. Alle Profis kennen diese Spielregel und wissen, daß in
+der gegenwärtigen Situation Anleihe B geliefert werden würde. Anleihe B
+wird deshalb auch CTD-Anleihe ("Cheapest To Deliver") genannt. In der
+Praxis führt dies nun dazu, daß der Bund-Future gar nicht mehr auf die
+theoretische Zehnjahresanleihe berechnet wird, sondern er wird direkt auf
+die mit dem Preisfaktor korrigierte AHKT-Anleihe berechnet.
+Allerdings bleibt nicht immer die gleiche Anleihe während der gesamten
+Laufzeit des Future AHKT-Anleihe. Zwar bleiben die Preisfaktoren konstant,
+aber natürlich können sich die Marktzinsen und damit die Anleihekurse
+ändern. Dies kann dazu führen, daß nächste Woche Anleihe A CTD wird, dann
+Anleihe C, und einige Wochen später vielleicht wieder Anleihe B.
+Jeder derartige CTD-Wechsel bedeutet eine andere Berechnungsgrundlage für
+den Future, und das kann dann jedesmal kleinere Sprünge bei der
+Preisentwicklung des Future zur Folge haben. Für den normalen Anleger, der
+einfach nur auf eine Zinssteigerung oder Zinssenkung spekuliert, sind diese
+Feinheiten relativ unwichtig. Wer allerdings professionelle Arbitrage
+betreiben will, der muß immer genau verfolgen, welche Anleihe gerade AHKT
+ist und welche eventuell demnächst AHKT werden könnte. Und auf dieser Basis
+muß er den Future berechnen. 
+Die Preisfaktoren kann man mit einer recht komplizierten Formel selbst
+berechnen oder auch vom Modern Speculator grob berechnen lassen
+("Suche"-Button rechts vom Preisfaktorfeld; vorher müssen aber alle anderen
+Daten vollständig eingestellt sein!). Für den Privatanleger lohnt sich das
+allerdings nicht. Denn wenn er den Bund-Future so genau berechnen will,
+dann muß er sich ja sowieso etwa vierteljährlich bei seiner Bank oder
+Terminbörse eine Liste der für den betreffenden Future zur Lieferung
+zugelassenen Anleihen und ihrer Daten besorgen (oft hilft auch die Homepage
+der Terminbörse weiter), und auf diesen Listen stehen dann natürlich auch
+schon die zugehörigen Preisfaktoren. In der Regel liegen die Preisfaktoren
+übrigens im Bereich von 0,800 bis 1,200. 
+
+
+Jens
+Visit   http://taxwwse.qih.jfp/mifngk  and download a 
+free calculator for options, futures, bonds and similar stuff.

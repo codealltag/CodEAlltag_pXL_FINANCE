@@ -1,0 +1,22 @@
+Nicht nur unfaehig, eine eMail-Adresse anzugeben, und das
+Reply-To-Feld nicht verstanden, auch noch:
+
+
+---cut---
+500 Server Error
+
+The server encountered an internal error or misconfiguration and was
+unable to complete your request.
+
+Please contact the server administrator, hakrlvn@jhkj.wt and inform
+them of the time the error occurred , and anything you might have done
+that may have caused
+the error.
+
+Error: HTTPd/CGI: could not fork new process, errno is 35 
+---cut---
+
+pi
+-- 
+Money may make the world go 'round ...
+... but computer networks make money go around the world.

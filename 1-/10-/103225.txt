@@ -1,0 +1,10 @@
+Wenn ich also DEM in EUR umrechne, muss ich machen:
+
+   Euro = DEM / 1.95583;
+
+Woher weiss ich aber, was der compiler einer software draus macht ? 
+Vielleicht multipliziert der genau mit dem inversen ?
+Insofern ist diese verordnung unsinn.
+
+Gruss
+Claus

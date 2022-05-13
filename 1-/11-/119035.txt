@@ -1,0 +1,12 @@
+Hallo Erhard,
+habe zwar die diversen Formeln in diversen Büchern, doch geht es auch
+einfacher !
+Statt mit einzelnen Formeln direkt zu berechnen (analytisches
+Verfahren), nimm doch einfach das jeweilige Optionsmodell, verändere die
+gesuchte Einflu�gr��e ein kleines bischen und berechne das Ganze
+nocheinmal. Die Differenz beider Optionswerte ist dann Dein gesuchter
+Wert. Dieses numerische Verfahren erspart die Kenntnis der partiellen
+Ableitungen nach Kurs, Zeit, Volatilität und Zins.
+Für die Formeln der zweiten Ableitung geht es aber nicht ohne diese.
+
+Philipp

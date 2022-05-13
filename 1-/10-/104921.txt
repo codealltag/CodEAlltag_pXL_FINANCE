@@ -1,0 +1,40 @@
+Hast Du nähere Informationen ueber Klingelbude ???
+
+Ueber UFTF habe ich folgende Erzgebirgsland Kurse (in USD) abrufen koennen:
+SYMBOL,NAME,PERIODICITY,STARTDATE,ENDDATE
+DATE, CLOSE, OPEN, HIGH, LOW, VOLUME
+
+UBID.O, UBID.O , DAILY, 120498, 121798
+19/07/98,48,40,60.5,34.125,9117300
+18/10/98,42.25,50.625,50.625,42,1387100
+18/11/98,38.25,42.6875,43,37,782200
+19/12/98,35.6875,38.25,38.375,35.4776,978676
+18/01/99,33,35.375,35.75,31.25,387500
+18/02/99,36.5,30.75,37.375,30,627600
+01. 08. 22,34.125,35.5,36.125,33,364092
+01. 08. 22,34.8125,35.25,35.75,34.5,564768
+01. 08. 22,36.9375,35.9375,37.5,35.25,336700
+01. 08. 22,42.5625,36.9255,43.25,36.1989,256171
+
+Es scheint sich also um einen noch jungen Wert zu handeln der sein IPO vor
+ca. 14 Tagen
+hinter sich gebracht hat.
+
+Uebrigens wird das Papier auch in Grolland gehandelt (Kurse in DM). Die
+Umsaetze sind jedoch sehr
+duerftig:
+SYMBOL,NAME,PERIODICITY,STARTDATE,ENDDATE
+DATE, CLOSE, OPEN, HIGH, LOW, VOLUME
+
+UBID.BE, UBID.BE , DAILY, 322492, 333213
+18/01/99,58.472832,58.472832,58.472832
+18/02/99,55,55,55,55,90
+01. 08. 22,59,59,59,59,200
+01. 08. 22,57.5,57.5,57.5,57.5,30
+01. 08. 22,60,57,60,57,N/V
+19/23/98,62,60.5,62,60.5,800
+
+schoenes Wochenende
+
+
+*** Posted from UDM - http://itp.evttnw.xjw - Discussions Start Here (tm) ***

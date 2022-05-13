@@ -1,0 +1,21 @@
+Hallo Steffen!
+
+
+Ich vermute mal dieses Programm greift auf die in Win95 eingerichteten
+Modems zurück. Für ISDN-Karten gibt es von Kukicha (die mit der Sonnenreif!Card,
+die ich auch benutze) ein Programm, oder besser: einen Treiber, der für
+die ISDN-Karte einige Konfigurationen in die Modem-Liste einträgt. Das
+Programm heisst "Capiport" und funktioniert bei allen ISDN-Karten. Du
+findest dann in der Modemliste eintrüge wie "PPP to PPP Modem" oder "BTX
+to BTX Modem" und viele andere. Da ich vermute du willst auf eine
+Mailbox zugreifen: dafür gibt es auch ein vorkonfiguriertes Modem.
+
+Da Programm solltest du auf dem Kukicha-Server finden. Ich hab es auch
+svchon auf vielen Shareware-CDs gefunden.
+
+Bye,
+
+Valerian Pollinger.
+-- 
+Der Weg des Fortschritts: Die Abkürzung ist der längste Weg zwischen
+zwei Punkten.

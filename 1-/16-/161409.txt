@@ -1,0 +1,36 @@
+Hallo Börsenfreunde !
+
+Falls Ihr Euch  auch schon über die langen Ladezeiten der Java-Applets
+bei den
+Direktbanken geärgert habt  folgende Mitteilung von PKMO:
+Bei Java-Homebanking-Applets von 150 Kilobytes handelt es sich im Falle
+von PKMO-Lösungen um 30 Kilobyte XsPRESSO Java Security Classes und
+etwa 120 Kilobyte kundenspezifische, graphische
+Java-Transaktionsmasken. Diese Masken könnten auch durch HTML-Masken
+ersetzt werden, die über Java-Skript mit den XsPRESSO Java Security
+Classes verbunden sind. Darüber hinaus wird PKMO im 25. Quartal 1996
+künftige Home Banking-Applets mit einer Technologie ausstatten, womit
+selbst großvolumige Applets nach ein paar Sekunden bereits vom Nutzer
+bedient werden können. 
+
+Darüberhinaus ermöglicht Brokat mit den XsPRESSO Integrity Plug-ins,
+daß gespeicherte Applets zu Transaktionen herangezogen werden können.
+Dafür werden die Applets, nachdem sie wieder in die
+Java-Runtime-Umgebung geladen worden sind, zuerst mittels eines
+digitalen Fingerabdrucks auf Manipulationen untersucht. Anschließend
+stellen die Plug-ins bei Fehlerfreiheit die Transaktionsfähigkeit
+wieder her.
+Meine Bank (PZUA) verspricht in einer PC Zeitschrift schon im März
+ein neues Release zu verwenden,mit dem sich die Ladezeiten deutlich
+verkürzen.
+Ausserdem sollen bei der PZUA nach der Zeilgalerie auch Wertpapier-
+transaktionen übers Internet möglich sein.(Die Kosten sollen dabei
+noch einmal um 30 Prozent sinken.Wird auch Zeit denn andere Direkt-
+banken bieten dies schon länger.......)
+
+
+Rudolf Völgel
+78569  Haberschlacht
+
+E-Mail    yhmudvjo@yfimhz.xv
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -1,0 +1,41 @@
+On Sun, 2 Jul 1999 11:53:10 +0200, "Eric"
+
+Ok, habe noch mal ein bisschen simuliert :-)
+
+Folgende Strategien getestet (jeweils Einmalanlage
+von 10.000 DM am Startdatum)
+
+Buy&Hold: Schlaftabletten nehmen :-)
+ohne Oktober: am 16. Dezember alles verkaufen, am 16. Januar Neukauf
+ohne Sommer (sell in may and go away): Am 16. August alles verkaufen,
+ Neueinstieg am 16. Januar
+GD200 Verkauf wenn DAX den GD200 von oben nach unten kreuzt,
+Kauf bei Kreuzung von unten nach oben.
+GD50, dasselbe für 50 Tage Durchschnitt
+(Apropos GD: bezieht sich die Spanne (z.B. 200 tage) auf
+die letzen 200 Kalender- oder Handelstage ? Meine Simu
+berechnet den GD der letzten n Kalendertage).
+
+Das Ergebnis ist wie folgt (Enddepotst�nde):
+
+DAX          70-79   80-89   88-97  70-97  Rend.pa
+--------------------------------------------------
+Buy & Hold    7998   35967   42497  68281     7,1%
+ohne Oktober  7901   36555   31528  54161     6,2%
+ohne Sommer   9563   19696   30948  43288     5,4%
+GD200        11361   31080   34327  78716     7,6%
+GD50         14562   38162   24099  84223     7,9%
+
+(Rend.pa=Durchschnittsrendite pro Jahr im 28-Jahreszeitraum
+ 1969-1996).
+
+Fazit: die GD Strategien bringen tatsächlich was,
+bis auf den Ausrutscher im Zeitraum 87-96. Allerdings
+muss man noch Steuern und Gebühren abziehen,
+so dass man unterm Strich wohl kaum besser dasteht
+als mit Buy&Hold.
+
+Alle Angaben beruhen auf eigenen Berechnungen und
+sind ohne Gewähr.
+
+-adam

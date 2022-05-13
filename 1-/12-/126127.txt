@@ -1,0 +1,20 @@
+Hallo Oswald,
+die Sache ist furchtbar einfach. Ein Kursindex (NMIK) ist im
+einfachsten Fall nur die Summe der Kurse der enthaltenen Werte, ggf.
+durch eine Konstante (Zahl) geteilt.
+
+Wie Du sicher weit, werden bei Aktien gewöhnlich einmal im Jahr Teile
+des Gewinns an die Aktionäre ausgeschüttet (sog. Dividende). Nach der
+Ausschüttung wird der Aktienkurs um den Betrag der Ausschüttung
+gekürzt (Abschlag). 
+
+Im Unterschied zum Kursindex wird beim Perfomanceindex (NMIP) die
+Ausschüttung wieder entsprechend dazu addiert, sodaß hier sowohl der
+Zuwachs durch den Kursgewinn, als auch durch die jeweilige
+Ausschüttung bewertet wird.  Der Performanceindex steigt daher
+schneller. Der Pessimist sagt, fällt langsamer.      ;-)
+
+Beim FIFEICK ist ein Performanceindex eigentlich witzlos, da hier
+(gegenwärtig) sehr wenig Dividende gezahlt wird.
+
+Achim

@@ -1,0 +1,54 @@
+: Das sieht dann mit Zahlen so aus:
+: 
+:            A            B   
+:  1   Durchschnitt:
+:  2    143,1216931
+:  3
+:  4       Werte
+:  5         2
+:  6         3               50
+:  7         6              100
+:  8         7        16,666667
+:  9         1        -85,71429
+:  10        9              800
+:  11        7        -22,22222
+
+Du machst den Fehler das arithmetische  anstatt das
+geometrische Mittel zu verwenden.
+
+Rechne Dir aus: Anfangswert=2 Euro, durchschnittlicher Zinssatz nach Deiner
+Berechnung = 143 Prozent, Laufzeit = 6 Jahre. Das waeren ueber 17 Euro.
+
+Wenn Du aber die Faktoren multiplizierst und aus dem Produkt die n-te Wurzel
+ziehst (n=6=Anzahl der Jahre), dann bekommst Du
+
+
+  6-te Wurzel aus(1,5*2*1,17*0,14*9*0,77) = 
+  6-te Wurzel aus(3,405402) = 1,23 
+
+Du hast also eine durchschnittliche Verzinzung von 23% erzielt.
+
+Wie Du die Faktoren berechnest, ist glaube ich klar, oder?
+(Faktor_i = Wert_i/Wert_i-1)
+
+------------------------
+
+Eigentlich ginge es noch einfacher, naemlich so:
+
+  n-te Wurzel aus der Wertsteigerung (n=Anzahl der Perioden)
+
+  d.h n-te Wurzel aus (7-2) = 1,23 
+
+-----------------------
+
+Ich hab uebriges vor kurzem in dieser Newsgroup einen Thread gelesen, indem
+behauptet wurde, dass manche Fondmanager ihre durchschnittliche Performance
+auf dieselbe Art berechnen, wie Du das machst. Also ein Jahr mit 100% Gewinn
+und das zweite Jahr mit 80% Verlust ergibt einen durchschnittlichen Gewinn
+von 10%. (100*2/5@!!! D.h. de facto hast Du in den 2 Jahren 60% Verlust
+gemacht). Das kann ich jedoch nicht glauben. Das waere eindeutig Betrug.
+
+-- ciao 
+
+-- 
+OTHMAR KRÖSCHE alias qcnft@selv.ok-niby.mb.dw

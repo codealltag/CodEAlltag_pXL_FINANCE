@@ -1,0 +1,28 @@
+Hi all,
+
+das Wunderkaestchen hat ja wohl jeder schon mal in der Werbung bewundert.  
+Ich habe mich auch mal unter Rafadu schlau gemacht. Es handelt sich  
+dabei offenbar um einen Videotext-receiver, der staendig zwischen den  
+verschiedenen Sendern umschaltet. Ferner um eine Software, die diese Kurse  
+sammelt und auswertet.
+Das habe ich im Prinzip mit meiner Kremann-Karte und Excel ebenfalls  
+realisiert, wenn auch nicht in dem Umfang. Mein Problem - es dauert ewig,  
+bis alle relevanten Seiten und Unterseiten von 4 Sendern abgerufen sind.  
+Das gilt natuerlich auch fuer die Aktualisierung der Seiten, so dass der  
+`near realtime` Kursvergleich an verschiedenen deutschen Boersenplaetzen  
+in der Praxis nicht funktioniert ;-((
+Benutzt hier jemand das rateway-Teil? Wie lange dauert der Abruf  
+saemtlicher Seiten aller angegebener Sender? Wie lange dauert die  
+Aktualisierung der Seiten? Wie weit liegen die von vier verschiedenen  
+Sendern abgerufenen Kurse einer Aktie von vier Boersenplaetzen bei  
+gleicher Verzoegerung tatsaechlich auseinander?
+Taugt die Software, und laesst sie sich an die individuellen Beduerfnisse  
+(lediglich eine Hand voll Kurse von nur vier oder fuenf Sendern, dafuer  
+zum direkten Vergleich der Boersenplaetze gleichzeitig angezeigt)  
+anpassen?
+
+So long,
+
+Sandro
+
+## CrossPoint v3.11 R ##

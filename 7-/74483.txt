@@ -1,0 +1,26 @@
+Ich habe 2 Hebel
+Mein Stopp/Loss für eine Aktienposition ist mit 2 Hebeln festgelegt:
+1. Der verlust einer Position darf nie mehr als 2% des Gesamtpotfolios
+incl liquider Positionen betragen. 
+2. Der verlust einer Einzelposition darf nie mehr als 30% betragen.
+
+Beispiel:  Portfoliowert 100000
+Position 1: 20000 mit 100 Stücken; S/L = 180 je Stück ( wg. Regel 1)
+Position 2: 5000 mit 100 Stücken;  S/L = 35 je Stück ( wg. Regel 2 )
+
+Es müssen immer beide Hebel greifen
+
+Dazu kommt noch, dass ich höchstens 20% und mindestens 5% meines
+Anlagekapitals in eine Position investiere. d.h. natürlich nicht dass
+ich eine 20% Position sofort verkaufe wenn die steigt :-). Ich ziehe nur
+den Stopp(Loss höher.
+Beispiel: 
+Gesamtportfolio steigt auf 110000
+Position 1 auf 26000 Mein S/L zieht dann auf 238 je Stück an. ( 26000 -
+2%Gesamtwert / 100 Stücke )
+Position 2 bleibt auf 35 ( wegen Regel 2)
+
+Ich passe die S/L / sofern keine exorbitanten Ausschläge einer Position
+stattfinden etwa wöchentlich an.
+
+joseph

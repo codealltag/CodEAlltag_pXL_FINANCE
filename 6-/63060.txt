@@ -1,0 +1,18 @@
+Sicher basieren NN-System auf "multivariante nichtlinieare Regression".
+Aber genau das hat man ja in der Statistik (bei vielen Variablen) früher
+nicht hinbekommen.
+
+Man ja könnte auch sagen "der Mensch besteht nur aus Kohlenstoff, Sauerstoff
+und Wasserstoff" -> naja das WIE machts eben.
+
+NNs haben im Kern 3 Vorteile:
+-Lernt automatisch
+-Lernt objektiv         (ohne psychologische Verzerrung)
+-Lernt komplexer     (mehr Variablen in nichtlinearer, interaktiver
+Kombination)
+
+
+--
+Bernhard Paessens
+www.itmkqm.lufjtgc.eo
+....neuroprognosen & more

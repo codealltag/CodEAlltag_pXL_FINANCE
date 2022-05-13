@@ -1,0 +1,15 @@
+(Uwe Kunov)  19.11.96 in /de/owr/finanz/boerse:
+
+
+Es IST gerade der WITZ, die Itention von DLLs (Dynamic Link Libraries) 
+das diese "mitbenutzbar" sind. Nicht das man den zehnten File-open
+Dialog programmiert sondern sich einfach der Common-Dlg bedient.
+
+Wie ein PIN-Dialog zustande kommt, kann man durch einhaken der
+eigenen Routinen entsprechnede Systemhooks sehr schön mitbekommen.
+Der Software hersteller ist rel. machtlos, denn er MUSS sich auf
+das Kinderkamers verlassen, soll seine Software protabel sein.
+
+Auch muss eine DLL nicht DLL heissen...
+
+Willibald

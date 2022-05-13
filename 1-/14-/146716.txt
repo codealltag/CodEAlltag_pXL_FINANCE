@@ -1,0 +1,18 @@
+Hallo!
+
+Es gibt von Floretto im Internet einen tollen Service... - man
+kann täglich kostenlos die gesamten Wertpapierkurse der einzelnen
+deutschen Börsen als Dateipaket im ASCII-Format downloaden - bei
+Bedarf gibts die Kurse auch per email.  
+
+Es handelt sich dabei um folgendes Format:
+
+<TICKER>;<DTYYMMDD>;<OPEN>;<HIGH>;<LOW>;<CLOSE>;<VOL>;<OPENINT>
+
+Ich möchte diese Daten mit dem Programm Pevap verarbeiten, doch
+dieses erkennt ein Semikolon leider nicht als Trennzeichen... - es
+arbeitet lieber mit festen Spaltenbreiten.
+
+Welche Möglichkeiten habe ich, um dieses Problem zu beheben?
+
+Grösse... Beat

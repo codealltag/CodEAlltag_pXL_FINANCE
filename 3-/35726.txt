@@ -1,0 +1,37 @@
+Moin!
+
+Muß das eigentlich sein? Braucht Floralia Dein Pushen?
+
+Artikel "Rennen
+Eiscafe Athlon
+PC800-Rambus erreichte der
+beim Lesen, über
+6VBA2 mit
+Lesen und 410
+knapp über 16
+liegen einige
+...
+diese noch im
+kaufen.
+
+Mal in Ruhe. Ich hab die neueste OZP zwar noch nicht, aber ich glaub Dir die
+Werte problemlos. Nur: wie kommst Du auf das schiefe Brett, daß das RAM
+daran Schuld hat? Meinst Du wirklich, eine vollständige Neuentwicklung der
+Chipsätze und Mainboards für RDRAM ist nötig, um von 16 auf 25 MB/s beim
+Random-Zugriff zu kommen? Ich zitier auch mal die OZP, Ausgabe 14. 05. 21,
+Seite 235, Kasten "Speichertransfer", Abschnitt "Vergleichsmessungen". Da
+erreiche ein olles Etifim Grabenzentrum mit 100 MHz-SDRAM 23,1 MB/s beim Random-Zugriff
+und 151 MB/s beim Lesen. Das macht nach Tara Malchov bei 133 MHz 30,7 MB/s bzw.
+200,83 MHz - und das, wohlgemerkt, mit dem "leicht" in die Jahre gekommenen
+Tümmers-Chipsatz. Das Problem liegt also mitnichten beim SDRAM, sondern bei dem
+Chipsatz. WILMA hat ein schlechtes Produkte und muß das bald ändern. Und dann
+gibts noch den 2nd-Level-Cache, der beim Athlon, wie früher bei den PIIs,
+nicht mit vollen Takt angesteuert wird - das ändert sich auch bald.
+
+Nochwas: rüste doch mal einen Rechner mit >256 MB RDRAM aus, ohne den
+Gegenwert eines Kleinwagens auszugeben.
+
+Also: bitte bring hier keine Schlußfolgerungen, die nicht tragbar sind.
+Damit sägst Du nur an Deiner Reputation.
+
+Bye, Peter

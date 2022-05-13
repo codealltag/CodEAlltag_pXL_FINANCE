@@ -1,0 +1,31 @@
+Das Standardmodell zur Bewertung von Optionsscheinen ist wohl das
+Black-Scholes-Modell. Bei der Anwendung fällt allerdings auf, daß der
+berechnete faire Wert sehr stark vom risikolosen Zinssatz abhängt. Wer
+kann anschaulich erklären, warum der faire Wert von Calls mit wachsendem
+Zinssatz steigt, der von Puts jedoch sinkt?
+Gerade bei der Bewertung von Puts liefert das Black-Scholes-Modell bei
+den üblichen Zinssätzen viel zu niedrige Werte verglichen mit den
+tatsächlichen Marktpreisen, so daß man am besten mit dem Zinssatz 0%
+arbeitet.
+
+Ich habe alternativ folgendes Modell für europäische Optionsscheine
+entwickelt, das ich Erwartungwertmodell getauft habe:
+Bei der Ausübung des Scheins am Ende der Laufzeit steht der Gewinn ja
+eindeutig fest. Unter der Annahme einer statistischen Zufallsbewegung
+der Kurse (random walk) mit vorgegebener Volatilität läßt sich deshalb
+der wahrscheinlichkeitstheoretische Erwartungwert des bei der Ausübung
+erzielten Gewinnes berechnen.
+Der Barwert dieses Gewinnes ist dann der faire Preis des Scheines.
+Im Mittel macht man dann beim Kauf oder Verkauf eines so bewerteten
+Scheines keinen Gewinn oder Verlust. Beim Zinssatz von 0% liefert
+Black-Scholes und Erwartungswertmodell praktisch die gleichen Werte.
+
+Mich würde interessieren, inwieweit dieses Modell in der Literatur schon
+bekannt ist, und was ihr davon haltet.
+Ich habe ein Windows-Programm geschrieben, das sowohl das Black-Scholes
+als auch das Erwartungwertmodell implementiert. Es lässt sich unter
+http://alvm.f-fbeqkh.yd/iyiw/oarrjfmw/ oder auch aus dem Software-Archiv
+http://prm.aho.wcp/ssk/rvcp/wznlttwxr/cm/pfzdtva/fqzl/jzgplhk/dsama.qpjt
+downloaden.
+
+B.Faist

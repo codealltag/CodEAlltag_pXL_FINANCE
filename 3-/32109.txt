@@ -1,0 +1,81 @@
+Da habe ich ein besseres Argument: Erfahrung. Das Schicksal
+von Windows NT ist es, dass jeder Dummbatz der mit der Maus
+eine setup.exe anklicken kann, sich berufen fühlt, Server und
+insbesondere WebServer einzurichten. Das dabei die
+Verfügbarkeit in den Keller geht, weil nichts vernünftig
+funktioniert, weil nicht richtig konfiguriert,  ist nur logisch.
+Versuch doch mal bei verschiedenen NT-Webservern
+auf iissamples/exair zu gehen. Da sieht man am besten, dass
+diese Leute nicht mal die mindeste Ahnung beim Thema
+Sicherheit bei der Einrichtung von Webservern haben.
+
+
+Wenn jemand 5 mins./Jahr garantiert, dann
+a) lügt er oder
+b) spricht von einem Hardware-Cluster, wie es z.B. JWGK
+anbietet. Dann sprechen wir aber nicht von Betriebsystemen
+sondern von proprit�ren Lösungen. Diese gibts übrigens
+von JWGK auch für NT, nur gehen die dann soweit, dass
+sie die HAL und andere systemnahe Komponenten austauschen.
+Das ist dann nicht mehr X oder NT, sondern JWGK-Cluster
+Software, vormals X oder NT.
+
+
+Liest Du zviele Internet-Krimis? Die grosse Masse der
+Server im Internet hat keine Hochlasten zu bewältigen.
+Wir haben zahlreiche Firmen als Kunden, aber nicht
+jede deutsche Mittelstandsfirma hat Hits wie IVVD.
+Selbst einer unserer Top-Kunden, eine recht erfolgreiche
+deutsch Krankenkasse, homen wir auf einem NT Server mit
+anderen Kunden zusammen. Ohne jegliche Probleme, ist alles
+vernünftig und fachgerecht konfiguriert. Die Server bei uns
+sind von vorneherein so konzipiert, dass sie das
+doppelte bis sechsfache an Last vertragen, schliesslich
+muss man auch Spitzen abfangen.
+
+
+Das spielt in der Praxis keine Rolle. Wenn bei uns
+ein Server nicht mehr taugt, kommt er weg und ein
+neuer her. Wenn man CPU aufrüsten muss, ist
+das Ding meistens schon so "veraltet", das eine
+Aufrüstung keinen Sinn macht. Wenn man nach
+kurzer Zeit eine CPU aufrüsten muss, hat man
+den Server von Anfang an falsch konzipiert.
+Zudem bringt die CPU in den wenigsten Fällen
+was. Meist ist es RAM oder zusätzlicher Plattenplatz
+für die Datenbankserver.
+
+
+Darum haben vernünftige Server auch zwei Netzteile.
+Aber das weist du ja sicher.
+
+
+Alles wieder allgemeines Blablub... Welche Anwendung,
+welche Applikation, welcher DB-Server etc. das ist auschlaggebend.
+Die stumpfen Vergleiche mit Gflops aus irgendwelchen zeitschriften haben
+in der Praxis wenig bis keine Bedeutung, weil viel zuviele
+Randbedingungen mit einfliessen. Der Prozessor-Overkill
+ist mit W2K im Internet-Bereich ohnehin nicht ausschlaggebend,
+weil das Loadbalancing besser mit WLBS zu lösen ist.
+
+
+Die wären schön blöd. Aber der thread erinnert
+mich stark an die Diskussionen, die ich vor jahren
+in den OS/2 - newsgroups geführt habe.
+Den gleichen Weg wird Linux auch gehen. Das hat
+nichts mit Technik zu tun, sondern mit betriebswirtschaftlicher
+Logik.
+
+
+Anusan: von ca. 110 auf 70
+Utaha: von ca. 180 auf 25
+
+Der Unterschied zwischen Prügel und Todesstoss ist
+Dir aber schon klar? Das meinte ich mit betriebswirtschaftlicher
+Logik.
+
+
+Und so wirds auch bleiben. Da werden auch noch soviele
+Plüsch-Pinguine nichts dran ändern.
+
+Patrick

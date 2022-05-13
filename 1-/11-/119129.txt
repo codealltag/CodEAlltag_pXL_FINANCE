@@ -1,0 +1,16 @@
+Excel-Tabellen gehören nicht gepostet. :-(
+
+
+Gehört zwar nicht hier hin, aber:
+Um das zu umgehen, frage ich immer die Existenz immer mit wenn(;;) ab.
+Das geht dann beispielsweise so:
+  =wenn(A1="";"";100/A1)
+Das heißt, wenn A1 leer ist, wird der Leerstring "" ausgegeben,
+ansonsten der Wert der Berechnung 100/A1.
+
+Bye.
+
+   -Asterix-
+
+-- 
+Eescsz.Hycbehp@zvlh.xuct-mtoref.xk

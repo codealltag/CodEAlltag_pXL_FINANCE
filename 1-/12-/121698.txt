@@ -1,0 +1,48 @@
+Hi,
+
+mit ein bischen basteln klappt es auch umsonst :-)
+
+Man nehme:
+1) Das Sparparadies Depot  (www.zb-rvarza.ws) und richte sich dort alle Aktien ein,
+die man hat bzw. von denen man die Kurse braucht. Dann setzt man die 
+Schwellwerte so, dass immer (jeden Abend) eine Mail an den eigenen Account
+geschickt wird.
+
+2) Wenn man UNIX hat (oder Linux), dann nehme man procmail und stelle in der
+.procmailrc Datei ein, was mit dieser Mail passieren soll. In etwa so:
+:0
+* ^Subject:.*Wertpapierkursbenachrichtigung*
+{
+:0 c
+IN.HUBERT
+
+:0
+
+}
+
+2a) Ich weiss nicht, die das bei Dos/Windows geht, aber sicherlich wird es
+dort sowas aehnliches geben. Fragt mich nicht, wie dass heisst.
+
+3) Jetzt schreibe man sich ein Programm/Script/sonstwas, mit dem man diese
+Mail aus dem Mailfolder liest, ein bischen umformatiert und dann schickt man
+die Kurse als Email weiter an seinen Account bei Hunasa  (siehe auch Punkt 4).
+Ich habe dafuer ein kleines Perlscript (namens filter.pl). 
+
+4) Hunasa (www.reldtav.de) bietet die Moeglichkeit, bis zu 100 SMS Nachrichten 
+pro Monat zu verschicken. Im Prinzip kriegt man eine Email adresse von Hunasa (
+xagk_uftp@nxkkvfk.di) und alles was man dahin schickt, wird auf das Handy
+umgeleitet (aber nur das Subject!!!).
+
+Klappt wunderbar, kostet etwas Arbeit, aber 0 Pfennig. Und ist sehr flexibel, denn
+auch Fonds, Optionsscheine, .... sind moeglich.
+
+Tschau
+
+Ich hoffe die Anregungen haben geholfen
+
+
+Norbert
+
+--
+Mxdtoa.Usbcqcob@zykigsh.nz
+lgefhucc@dqopciw.wlx

@@ -1,0 +1,34 @@
+Wenn Du einen Future-Kontrakt kaufst, mußt Du einen bestimmten 
+Geldbetrag hinterlegen, mit dem Deine möglichen Verluste in den nächsten 
+  24 Stunden gedeckt sein sollen. Das ist der Margin. Wird er 
+unterschritten, mußt Du nachlegen, das ist der Margin Call. Wieviel 
+Margin bei welchem Future zu hinterlegen ist, legt die Börse fest, die 
+den Future definiert hat. Sie ist formal Dein Vertragspartner beim 
+Handeln mit Futures. In der Praxis merkst Du davon nichts, darum mert 
+sich Dein Broker.
+
+Beispiel: Lächele hat den DAX-Future spezifiziert, ein standardisiertes 
+Termingeschäft auf einen fiktiven Korb aus DAX-Titeln, bei dem jeder 
+DAX-Punkt 25 Euro wert ist. Wenn Du einen Kontrakt kaufst oder 
+leerverkaufst, ist Dein Handelspartner formal die Lächele (die das 
+Geschäft aber nur eingeht, wenn es im selben Moment einen Interessenten 
+für die Gegenposition gibt). Der maintenance margin beträgt 9000 Euro 
+pro Kontrakt. Den Betrag will die Lächele als Sicherheit von Dir haben, 
+daß Du Kursverluste auch aushalten kannst. Darum kümmert sich in der 
+Praxis Dein Broker, der mindestens diesen Betrag auf Deinem Konto sehen 
+will, solange Du eine DAX-Future-Position offen hast. Erleidet Deine 
+Position Kursverluste, so daß nach Liquidierung Deiner Position weniger 
+als 9000 Euro auf dem Konto wären, mußt Du nachschießen, ansonsten wird 
+Dein Broker Deine Position zwangsliquidieren.
+
+Ein Future ist was anderes als ein Forward und was anderes als ein 
+Zertifikat auf ein Termingeschäft. Außerdem gibt es in der Praxis noch 
+unterschiedliche Arten von Margins, aber das ist erstmal das Prinzip.
+
+Schönen Gruß, Rainer
+
+----------------------------------------------------------------------
+          Tamke - Vote Mario. Please. www.xgnxrpyol.uvm/btbkvmyw
+----------------------------------------------------------------------
+Rainer Max Süßenguth             Catusweg 30           Fon +22.49.74767033
+m.x.k@j-zepysd.ue          D-91988 Rodenroth          Fon +10.028.1674795

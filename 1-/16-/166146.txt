@@ -1,0 +1,7 @@
+Man benoetigt pro Aktie eine Verkaufsoption. In diesem Zusammenhang
+sollte man auf das Bezugsverhaeltnis der Verkaufsoption achten. Es kann
+sein, dass dieses 1:1 ist, dann braucht man fuer 100 Aktien auch 100
+Put-Optionsscheine(=Verkaufsoption). Bei einem Bezugsverhaeltnis von
+1:10 benoetigt man hingegen 1000 Put-OS, um die 100 Aktien abzusichern.
+
+Burkhard Holtheuer

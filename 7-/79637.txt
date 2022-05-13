@@ -1,0 +1,190 @@
+Ja, sollte reichen. Der Zinssatz ist relativ geringbedeutend. 
+Wir haben in unserem "Option Speculator" einige verschiedene
+Formeln drin. Hier die verbalen Beschreibungen aus dem 
+Handbuchkapitel:
+
+Im Unterschied zu Optionen auf konkrete Einzelaktien gibt es bei
+Optionen auf einen Index kein direkt "Gedecktes Schreiben von Calls"
+denn es gibt ja keine echten "Index-Aktien", durch deren
+Hinterlegung als Sicherheit man Calls direkt decken könnte (Index-
+Scheine werden im allgemeinen nur als indirekte Deckung akzeptiert,
+was allerdings Vorteile haben kann.)
+Alle Index-Optionen gelten deshalb als "ungedeckte Optionen"
+(indirekt gedeckte Optionen), und die Berechnung der dafür jeweils zu
+stellenden Sicherheiten (Margins) ist recht kompliziert.
+
+Das Programm kann wahlweise mit folgenden Margin-Formeln rechnen:
+
+
+Risk-Based-Margin-Formel:
+Diese Formel wird in verschiedenen Varianten an vielen Optionsbörsen
+benutzt, z.B. auch bei DAX-Optionen an der Sens (SKS
+in Leta).
+Ausgangspunkt ist jeweils der gesamte Tageskurs (Preis) aller
+Stillhalterpositionen, also der Betrag, der aufzuwenden wäre, um alle
+Positionen (d.h. alle Risiken) durch Rückkauf glattzustellen. Dazu
+wird dann ein "Zuschlag" für die denkbar ungünstigste Veränderung am
+nächsten Tag geschlagen.
+Diese denkbar ungünstigste Veränderung wird täglich von der
+betreffenden Terminbörse festgelegt. Dazu wird dort z.B.
+prognostiziert, daß der Index am nächsten Tag maximal um 12%
+steigen oder fallen wird. Aufgrund dieser Prognose ("Margin-
+Intervall") wird für den nächsten Tag der vermutlich maximale Kurs
+jeder Option mittels einer der nblichen Optionspreisformeln
+berechnet, und um diesen maximalen Kursanstieg wird die Margin
+erhöht.
+
+Man kann das auch kürzer ausdrücken: Margin ist jeweils der höchste
+für den nächsten Tag für möglich gehaltene Optionskurs.
+Wichtig und günstig ist, daß bei der Berechnung der gesamten von
+einem Stillhalter zu stellenden Margin alle Positionen dieses
+Stillhalters zusammengefaßt werden, so daß sich ein Ausgleich
+ergeben kann:
+Hat der Stillhalter z.B. 50 Calls und 50 Puts geschrieben, so steigt
+bei einem steilen Index-Anstieg zwar die Margin auf die Calls, aber
+gleichzeitig sinkt die Margin auf die Puts. Oder andersherum. Da aber
+der Index aber nicht gleichzeitig stark steigen und stark fallen
+kann, können beide Seiten nie gleichzeitig stark steigen! (Allerdings
+können bei einem starken Anstieg der OPN-Werte gleichzeitig die
+Optionspreise für Calls und Puts steigen.)
+
+Außerdem kann es ja sein, daß der Stillhalter nicht nur Stillhalter
+ist, sondern selbst auch Bestände an gekauften Optionen hat. Auch der
+Wert dieser Optionen geht in das Margin-Soll ein. Dadurch kann das
+Margin-Soll kompensiert oder sogar überkompensiert werden. Das
+Margin-Soll ist dann negativ, d.h. es muß praktisch keine Margin
+gestellt werden, da das Guthaben in Optionen größer ist als die
+Verpflichtungen aus Optionen.
+
+Wahlweise können bei der "Risk-Based-Marginformel" auch die gerade im
+Depot gehaltenen Leitwert-Aktien (oder Index-Scheine wenn der Index
+Leitwert ist) in die Berechnung einbezogen werden. Diese Aktien
+werden dann mit allen Optionen auf den Leitwert, egal ob selbst
+geschriebene oder gekaufte Optionen, zusammengefaßt, und es wird
+berechnet, wie sich der Wert dieser Gesamtposition bei einem Fall
+oder Anstieg des Leitkurses um das "Margin-Intervall" verändern
+würde.
+Auch bei dieser Berechnung kann sich ein negatives Margin-Soll
+ergeben. Das bedeutet, daß keine Margin zu stellen ist, da das
+Guthaben höher als das mögliche Risko ist.
+Natürlich werden die in diese Rechnung einbezogenen Aktien dann nicht
+mehr beim Margin-Ist berücksichtigt.
+
+An vielen anderen Optionsbörsen wird mit sehr ähnlichen Formeln
+gerechnet. Bei der "London Span" Methode werden z.B. für mehrere
+verschiedene "Szenarien" die Gewinne und Verluste berechnet, und das
+Gesamtrisiko aus dem jeweils ungünstigsten "Szenario" muß als Margin
+gestellt werden.
+Grundlage dieser Berechnungen ist eine von der Börse vorgegebene
+höchste erwartete tägliche Schwankung des jeweiligen Leitkurses, oft
+als "scanning range" bezeichnet. Oft wird auch noch die Möglichkeit
+einer Veränderung der OPN-Werte oder anderer Details eingerechnet.
+Die "scanning range" wird meist in absoluten Werten angegeben. Eine
+"scanning range" von 100 Punkten bei einem Leitkurs von 2001 kann
+leicht in ein "Margin-Intervall" von 5% umgerechnet werden. Um noch
+einen Sicherheitsspielraum für eine ungünstige Entwicklung der OPN-
+Werte oder andere Details bei fremden Formeln zu haben, sollte man
+vorsichtshalber im Programm aber besser einen etwas höheren Wert als
+"Margin-Intervall" einstellen. Im Beispiel also etwa 6-10%.
+
+
+Universelle Margin-Formel:
+Anstatt der eben beschriebenen Formel kann im Programm auch eine
+andere sehr häufig benutzte Formel gewählt werden, bei der sich die
+Margin-Forderung für eine Option hierbei aus einem Prozentsatz des
+aktuellen Leitkurs-Standes plus dem aktuellen Optionspreis berechnet.
+Beispiel:
+
+Der Index liegt bei 2000, als Prozentsatz sind 10% eingestellt, und
+der Optionspreis beträgt 80.
+Als Margin-Forderung wird 280 errechnet = (10% von 2000) + 80 .
+(Wenn sich die Option auf z.B. 10 mal den Index bezieht, dann muß
+diese Margin natürlich auch mal 10 genommen werden, ebenso wie ja
+auch der tatsächliche Preis der bei 10 mal dem in den Zeitungen
+notierten Preis liegt.)
+
+Als Verfeinerung können unterschiedliche Prozentsätze für Optionen
+einerseits im oder am Geld und andererseits Optionen aus dem Geld
+eingestellt werden. (Achtung: Alle Prozentsätze können von der
+Terminbörse durchaus von Zeit zu Zeit geändert werden. ) Beispiel:
+ 	Optionen im oder am Geld: 20%
+	Optionen aus dem Geld   : 10%
+	(Der Index liegt bei 2000)
+
+Die Margin-Forderung für einen Call zur Basis 1901 mit Optionspreis
+150 beträgt also (20% von 2000 (da Call im Geld) ) + 150 = 550 .
+
+Die Margin-Forderung für einen Call zur Basis 2101 mit Optionspreis
+50 beträgt also (10% von 2000 (da Call aus dem Geld) ) + 50 = 250 .
+
+Weiterhin gibt es an zahlreichen Optionsbörsen Margin-Erleichterungen
+für geschriebene Kombinationen. Aber auch diese Formeln sind derart
+kompliziert und unterschiedlich, daß das Programm wiederum mit einer
+"Universalformel" arbeiten muß. Und zwar muß die Margin-Belastung der
+jeweils kleineren Seite eingestellt werden. Beispiel:
+
+Es wurden zahlreiche Calls und Puts geschrieben. Die Margin-Forderung
+für alle geschriebenen Calls beträgt aufsummiert 100.000, und bei
+Puts ergibt sich eine Margin-Forderung von 50.000. Die Puts sind
+mithin die "kleinere Seite".
+
+Wird eine Margin-Belastung von 100% für die kleinere Seite
+eingestellt, dann ist keine Entlastung gegeben. Die gesamte Margin-
+Forderung setzt sich aus der normalen vollen Margin-Forderung für
+beide Seiten (Calls und Puts) zusammen.
+
+Wird eine Margin-Belastung von 40% für die kleinere Seite
+eingestellt, dann wird die Putseite um 60% entlastet, d.h. die
+gesamte Margin-Forderung setzt sich aus der normalen vollen Margin-
+Forderung für alle Calls plus 40% der normalen Margin-Forderung für
+alle Puts zusammen.
+
+Wird eine Margin-Belastung von 0% für die kleinere Seite eingestellt,
+dann entspricht die gesamte Margin-Forderung der Margin-Forderung für
+alle Calls. Die Putsseite wird völlig entlastet, d.h. bleibt
+unberücksichtigt.
+
+Universelle Margin-Formel bei einer Aktie als Leitwert:
+In diesem Fall können selbst geschriebene Calls wahlweise auch direkt
+durch im Depot vorhandene Aktien gedeckt werden.
+Wird diese Möglichkeit gewählt, so prüft das Programm zuerst immer,
+ob Aktien (Leitwert) im Bestand gehalten werden. Werden solche Aktien
+gefunden, so wird für geschriebene Calls keine Margin (indirekte
+Deckung) berechnet, sondern diese Calls gelten als durch den
+Aktienbestand direkt gedeckt.
+
+Reichen die vorhandenen Aktien nicht zur Deckung aller geschriebenen
+Calls, so wird für die verbleibenden, ungedeckten Calls (und für alle
+Puts sowieso) wieder normale Margin berechnet.
+Für die direkte Deckung durch Aktien werden in diesem Fall
+automatisch immer die teuersten Calls ausgesucht, also diejenigen,
+für die die höchste Margin fällig wäre. So ergibt sich immer die
+maximal mögliche Entlastung der "Restmargin". Und natürlich werden
+die durch die direkte Deckung "verbrauchten" Aktien nicht mehr zur
+Abdeckung der indirekten Rest-Margin-Verpflichtungen benutzt. 
+
+Wird dagegen gewählt, daß das Programm grundsätzlich nur mit
+indirekter Deckung rechnen soll, so werden alle vorhandenen
+Aktienbestände grundsätzlich nur gemäß der eingestellten
+Anrechnungssätze zur indirekten Deckung verwendet.
+
+Insbesondere in den USA wird manchmal "margin interest" verlangt.
+Dabei handelt es sich nicht um eine besondere Form von Margin oder
+Gebühren, sondern in diesem Fall werden geschriebene Calls direkt
+durch einen Bestand an Aktien gedeckt, und diese Aktien wurden
+teilweise auf Kredit gekauft. Dafür sind Zinsen ("margin interest")
+zu zahlen. Eingestellt werden muß in diesem Fall bei Margin "Zuerst
+direkte Deckung", und auf dem Kredit-Konto muß eine entsprechende
+Kreditaufnahme mit passendem Soll-Zinssatz eingestellt werden.
+
+Bitte besorgen sich sich die für Ihren Fall gültige Marginformel und
+berechnen Sie "per Hand" eine Reihe unterschiedlicher Beispiele.
+Durch Vergleich mit den soeben beschriebenen "Formeln" können Sie
+dann ermitteln, welche Formel am besten paßt, und welche Prozentwerte
+Sie im Programm einstellen müssen, um auch bei Nutzung der
+"Universalformel" möglichst gute Näherungswerte zu erreichen!
+
+
+Tom Ungelenke
+Visit   http://yxzfofj.brd.xfo/prpvts  and download a 
+free calculator for options, futures, bonds and similar stuff.

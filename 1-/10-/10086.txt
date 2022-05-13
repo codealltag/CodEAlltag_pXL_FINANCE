@@ -1,0 +1,31 @@
+Hallo,
+
+
+Es geht um genau das, was Ottmar unten geschrieben hat: die Indexformel
+so anzupassen, dass sich der Wert des Indexes durch eine Änderung der
+Gewichte oder den Austausch von Aktien nicht ändert.
+
+I = Wert des Index
+c = Korrekturfaktor
+w_i = Gewicht der Aktie i
+k_i = Kurswert der Aktie i
+
+Indexwert = Korrekturfaktor mal gewichteter Summe der Kurse
+
+Wenn jetzt die Gewichte w_i verändert werden, ändert sich auch die
+gewichtete Summe. Damit der Indexwert gleich bleibt, muss der Korrek-
+turfaktor angepaßt werden.
+
+[...]
+
+Der Einfluß, den die Kinderausstatter-Aktie auf den Index hat, soll auf ein angemesses
+Maß zurechtgestutzt werden.
+
+CU
+Erich
+
+-- 
+Erich Gerwick
+xliiqrxb.hefnwfl@plq.xa is a valid address. All mail send to this
+address will be ignored, though. If you want to contact me by mail
+please replace "devnull" with "fuehring".

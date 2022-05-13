@@ -1,0 +1,45 @@
+Hallo Charttechniker,
+ich versuche mich z.Z. in diese Materie einzuarbeiten. In DM Money Maker
+habe ich mir eine Vorlage gebastelt, die mir für jede aufgerufene Aktie
+das Momentum und den RSI angibt. Ich habe jedoch keine Erfahrungswerte,
+wie ich die Parameter einstellen sollte und was das für die praktische
+Analyse bedeutet.
+Leider sind die Erläuterungen im Hilfetext auch nicht besonders
+erhellend.
+
+Deshalb die Fragen:
+1) Wie habt Ihr das Momentum eingestellt? In Money Maker kann man
+folgendes einstellen (aus dem Hilfetext):
+
+Vor
+gibt die Anzahl der Börsentage an, mit denen ein gleitender
+Durchschnitt, ausgehend vom aktuellen Datum (t), gebildet wird.
+
+Nach
+gibt die Anzahl der Börsentage an, mit denen ein gleitender
+Durchschnitt, ausgehend vom zurückliegenden Datum (t-n), gebildet wird.
+
+Zeitdifferenz
+gibt die Anzahl der Tage zwischen dem aktuellen Kurs t und dem
+zurückliegenden Kurs t-n. In der Formel 2 entspricht Zeitdifferenz der
+Variablen n.
+
+Ich habe es wirklich mehrmals probiert, aber ich verstehe einfach nicht
+worin der Unterschied besteht. Ich habe jetzt alle Werte auf 14
+gestellt, weil ich irgendwo gelesen habe, daß das die übliche Größe ist.
+Wie interpretiert Ihr die Werte dann in der Praxis?
+
+2) ähnliches gilt für den RSI (Wilder). Auch hier habe ich 14 Tage
+eingestellt. Welche Erfahrungen habt Ihr mit dieser Einstellung. Wie
+nutzt Ihr die Interpretationen in der Praxis?
+
+Zu guter letzt noch eine Literaturfrage: Ich wollte mir eigentlich das
+Buch von Philippe "Professionelle Aktienanalyse" kaufen. Doch leider ist es
+vergriffen und die Neuauflage läßt noch auf sich warten. Die rund 100,-
+Bücher hab ich mir angesehen und festgestellt, daß die mir für den
+ersten Angang zu tiefgehend sind. Kennt jemand allgemeinverständliche
+Alternativen?
+
+Danke für informative Erläuterungen im voraus!
+Gruß aus Creußen
+Garrelt

@@ -1,0 +1,7 @@
+Nein, in Feho geht das nicht. Market-Orders (ohne limit) werden nur 
+innerhalb eines bestimmten preiskorridors gehandelt.
+Also z.b. nur bis -10% vom letzten referenzpreis. Der letzte 
+referenzpreis ist der aus eine auktion oder aus einem limitgesch�ft.
+
+Gruss
+Francesco

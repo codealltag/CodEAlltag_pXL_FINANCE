@@ -1,0 +1,61 @@
+Das Vega beim Börse Trading SelMcKenzie Isfort
+Author B.Isfort
+Video:
+http://nty.njddjli.tvl/ckdtj?a=6K044mdy8f2gt
+
+
+Das Vega zeigt an, um wie viel Euro sich der Wert eines Optionsscheins
+ändert, wenn die implizite Volatilität um einen Prozentpunkt steigt
+oder fällt. Doch bevor konkrete Zahlenbeispiele folgen, kann man sich
+rein intuitiv dem Einfluss von Volatilität auf Optionsscheine nähern.
+Man unterscheidet zwei Varianten von Volatilität, die implizite und
+historische Volatilität. Das Vega misst den Einfluss
+der impliziten Volatilität auf den Options=AC
+Options=ACschein, das bedeutet den Einfluss der Volatilität, mit der der
+Optionsschein tatsächlich gepreist wird.
+Das es sich ja letztlich bei der Volatilität um die Intensität von
+Kursschwankungen handelt, kann man auch intuitiv von ei=ACnem positiven
+Einfluss auf den Wert von sowohl Call- als auch Put-Optionsscheinen
+ausgehen. Die Erklärung hierfür ist, dass die Wahrscheinlichkeit, dass
+die Produkte weit =BBins Geld=AB laufen, bei einer höheren Volatilität
+ebenfalls steigt.
+Auch rein technisch ist das Vega, also die partielle Ableitung des
+Optionsscheinprei=ACses nach der impliziten Volatilität, sowohl für
+Plain Vanilla Calls als auch für Puts
+mit einer Restlaufzeit immer größer als null (siehe Kasten). Doch um
+eine bessere Vorstellung zu erhalten, wie das Vega
+eines Optionsscheins zu interpretieren ist, wird nachfolgend ein
+konkretes Zahlen=ACbeispiel
+Zahlen=ACbeispiel betrachtet.
+Der Pere-Call mit einem Basispreis bei EUR 90 und einer Laufzeit
+bis zum 22. Mai 2011 hatte am 24. Februar 2011 bei einem Kurs der
+Pere-Aktie bei ebenfalls EUR 90 einen theoretischen Wert von EUR
+2,48. Dies entspricht bei einer impli=ACziten Volatilität von 23,5
+Prozent einem Vega von 0,16. In diesem Fall kann ange=ACnommen werden,
+dass der Wert des Opti=AConsscheins um 16 Eurocent auf EUR 2,64
+ansteigt, falls die implizite Volatilität auf 24,5 Prozent steigt.
+Ebenso ist mit einem Wertverlust des Calls auf EUR 2,32 zu rechnen,
+falls die Volatilität auf 22,5 Pro=ACzent fällt. Diese Modellrechnung
+verdeut=AClicht, dass neben der Bewegung der Aktie oder des Index
+selbst, auf den sich der Optionsschein bezieht, auch die alleinige
+Bewegung der Volatilität einen nicht zu vernachlässigenden Einfluss
+auf den Wert haben kann.
+An dieser Stelle müssen natürlich wieder, wie auch bei den bereits
+bekannten Kenn=ACzahlen Delta und Gamma, einige Ein=ACschränkungen gemach=
+t
+werden. Auch das Vega ist als eine Momentaufnahme des Markts
+anzusehen, das bedeutet, dass alle anderen Marktgrößen als konstant
+ange=ACnommen werden. Dies ist, wie jeder Anle
+
+ger aus eigener Erfahrung weiß, in aller Regel nicht tatsächlich der
+Fall.
+Die untenstehende Abbildung verdeutlicht für das konkrete Beispiel
+außerdem, dass das Vega eines Optionsscheins in der Nähe des
+Basispreises den höchsten Wert annimmt und geringer wird, je kürzer
+die Restlaufzeit des Optionsscheins ist. Den=ACnoch darf man sich von
+einem geringen Vega gerade bei weit aus dem Geld ste=AChenden
+Optionsscheinen nicht täuschen
+lassen, da das Vega absolute Beträge, also einen Wert in Euro, angibt.
+Es zeigt sich, dass häufig gerade auf weit aus dem Geld stehende
+Scheine die Volatilität relativ gesehen einen größeren Einfluss hat
+als der Kurs des Basiswerts selbst.

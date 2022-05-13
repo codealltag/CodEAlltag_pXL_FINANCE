@@ -1,0 +1,12 @@
+Bsp.
+Verkauf 300 Stück mit Limit 100
+
+Kauf
+350 Stück mit Limit 100
+250 Stück mit Limit 100 (in dieser Reihefolge erteilt)
+
+Der Kurs wird bei 100 notieren.
+Entscheidend dafür, welche Kauforder ausgeführt wird, ist, welche
+zuerst im Orderbuch stand. (gilt für Ridu)
+An der Parkettbörse wird der Kurs 100 bG. (beide Orders werden
+teilweise ausgeführt)

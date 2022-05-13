@@ -1,0 +1,104 @@
+Roulettesystem Straddle
+Author A.Pflamminger
+
+Ich möchte Ihnen hier eine Roulettestrategie vorstellen, mit der auf
+Dauer immer gewonnen wird. Es handelt sich um eine Roulettestrategie,
+die auf Dutzend und Kolonne gespielt werden kann.
+Die Systemgrundlagen sind eigentlich ganz einfach.
+Es wird eine Matrix angefertigt (hier für Dutzend) und bei Beginn des
+Spiels wird für das erste, zweite und dritte Dutzend jeweils eine Null
+eingeschrieben. Fällt nun ein entsprechendes Dutzend, wird auf der
+Matrix 1 Punkt abgezogen, bis die Daten wieder auf Null stehen, jedoch
+werden bei den anderen beiden Dutzenden eine 1 dazugezählt.
+Diese anderen beiden Dutzenden werden immer gespielt, d.h. also, es
+wird immer darauf gespielt, dass ein anderes Dutzend erscheint.
+Natürlich kommen auch Serien auf einem einzigen Dutzend vor, aber die
+werden dann wieder getilgt, wenn ein anderes Dutzend fällt.
+Ich spiele hier mal die ersten Coups der Original-Permanenz des
+Casinos Förch vom 20.November 2009 durch.
+Die Matrix für die drei Dutzenden lautet:
+0-0-0, also kein Satz ist möglich.
+Nun fällt  im ersten Coup die 7, also erstes Dutzend.
+Die Matrix sieht nun so aus:
+0-1-1
+Also das erste Dutzend bleibt bei Null, da ja die 1 nicht von der
+vorherigen Null abgezogen wird, und die beiden anderen Dutzende
+bekommen jeweils eine 1 und werden für den Folgecoup gesetzt.
+Es fällt die 28, also Gewinn von einem Stück.
+Nun sieht die Matrix so aus, beim dritten Dutzend minus 1, beim
+zweiten Dutzend plus 1 und beim ersten Dutzend plus 1., also so
+1-2-0
+Das heisst, für  den nächsten Coup muss  1 Stück auf das erste
+Dutzend, und 2 Stücke auf das zweite Dutzend gesetzt werden.
+Es fällt die Nr. 20, genau dort, wo wir 2 Stücke setzen mussten, was
+natürlich glücklicher Zufall ist. Wir haben gewonnen und bekommen 6
+Stücke ausgehändigt, bei einem Einsatz von 3 Stücken.
+Der Saldo beläuft sich jetzt nach 2 Coups bereits auf 4 Gewinn-
+Stücke.
+Nun schreiben wir die Matrix wie folgt:
+2 auf erste Dutzend, 1 auf 2 Dutzend (zwei weniger eins)  und 1 auf
+dritte Dutzend, also
+2-1-1
+Zu setzen ist für den Folgecoup das erste und das Dritte Dutzend,
+insgesamt also 3 Stücke.
+Es fällt die 14, also zweite Dutzend und die drei Einsatzstücke sind
+verloren. Unser Gesamtgewinn-Saldo beträgt wieder plus 1 Stück.
+Die Matrix sieht jetzt so aus, 3 auf erstes Dutzend, 0 auf zweites
+Dutzend, und 2 auf 3.Dutzend.
+Wir setzen also insgesamt  5 Stücke, 3 Stücke auf 1.Dutzend und 2
+Stücke auf drittes Dutzend.
+Es fällt die 32, also drittes Dutzend, wo wir 2 Stücke gesetzt hatten.
+Wir bekommen 6 Stücke Gewinn für den Gesamteinsatz in diesem Coups von
+5 Stücke, also 1 Stück gewinn, sodass der Gesamtsaldo jetzt bei plus 2
+Stücken liegt.
+Die Matrix wird jetzt wie folgt beschrieben:
+4 auf 1.Dutzend, 1 auf 2.Dutzend und 1 auf Dritte Dutzend. Also
+4-1-1-
+Der Satz erfolgt nunmehr 4 Stücke auf 1.Dutzend und 1 Stück auf
+2.Dutzend.
+Es  fällt die 19, also zweites Dutzend, wir haben mit dem 1 Stück auf
+2.Dutzend gewonnen, bekommen 3 Gewinnstücke bei einem Einsatz von 5
+Stücke, also 2 Stücke Verlust in diesem Coup und der Gesamtsaldo
+beläuft sich jetzt auf plus-minus 0.
+Dies ist eine schwierige Permanenz, mit Absicht, denn man sollte immer
+auf schwere Spiele eingestellt sein.
+Nun sieht die Matrix so aus,
+5 auf 1.Dutzend, 0 auf 2.Dutzend, und 2 auf 3.Dutzend.
+Also 5-0-2 und wir setzen 7 Stücke.
+Es fällt die 29, also drittes Dutzend, bei einem Einsatz von 7 Stücke
+bekommen wir 6 Gewinnstücke, also 1 Stück Verlust und im Gesamtsaldo
+liegen wir mit 1 Stück im Verlust.
+Nun schreiben wir die Matrix: 6 Stücke auf 1.Dutzend, 1 Stück auf 2
+Dutzend und 1 Stück auf 3.Dutzend.
+Wir setzen also 7 Stücke, 5 auf erstes Dutzend und 1 auf 2.Dutzend.
+Es fällt die 3, erstes Dutzend, und wir bekommen 15 Stücke Gewinn für
+7 Stücke Einsatz, und der Saldo liegt bei plus  7 Stücke.
+Man sollte jetzt beenden, oder besser gesagt, man sollte eine Partei
+sofort im Gewinn bei etwa 3-4 Stücken beenden, der liebe Gott lässt
+die Bäume auch nicht in den Himmel wachsen.
+Bei kontinuierlichem Spiel wird mit dieser Systematic  dauerhaft
+gewonnen. Natürlich bleibt ein Dutzend oft genug 10-15 mal aus, was
+den Einsatz hochschnellt, aber da sollte man vielleicht eine Grenze
+setzen, maximal-Höhe der Matrix bei Dutzenden 5 Stücke. Dann dauert es
+zwar länger, um das zu tilgen, wenn man wirklich mal an ein Dutzend
+gerät, was zu lange ausbleibt, aber es wird getilgt.
+Wir haben mit unserer Software mehrere Millionen Permanenzen
+australischer, deutscher und österreichischer Casinos ausgewertet mit
+der Grenze bei 5 Einsatzstücken bei längerem Ausbleiben eines
+Dutzendes. Selbst bei den schwierigen Permanenzen hat es zwar mehrere
+Stunden, also ca. 200 Coups, gedauert, um das zu tilgen und ohne
+Verlust nach Hause zu gehen, aber es wurde getilgt. Auf solche
+schwierigen Permanenzstrecken  müssen Sie sich jederzeit einstellen.
+Man kann das eigentlich auf eine ganz einfache Formel bringen, und so
+werden Sie das auch erleben:
+Von 30 Tagen im Monat hat man bei 25 Tagen einen Saldogewinn von ca.
+3-5 Stücken innerhalb von einer Stunde eingefahren, bei 2 Tagen dauert
+es mehrere Stunden wegen längerem Ausbleibens  und bei weiteren 3
+Tagen dauert es etwa 10 Stunden, um die Sache wieder in plus-minus
+Null zu bringen. Man weiss eben nicht,  wann kommen diese WorstCase-
+Tage, die können sofort, oder auch erst nach 25 Tagen kommen. Aber
+eines ist sicher, wenn Sie diese schlechten Tage durch Durchspielen
+der gesamten tagespermanenz gemeistert haben und wenigstens ohne
+Verlust nach Hause gehen, haben Sie sich an den anderen Tagen des
+Monats ein hübsches Einkommen verdient.
+Pflamminger

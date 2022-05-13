@@ -1,0 +1,21 @@
+Steigende Zinsen bedeutet fallende Bondkurse.
+Darauf kann man z.B. spekulieren durch:
+
+- Kauf von Puts auf Anleihen. Problem: Du musst das richtige 
+Timing haben. "Absehbare Zeit" ist zu vage; du musst dich 
+schon ziemlich exakt auf einen Zeitpunkt festlegen, sonst
+verfaellt der Put wertlos.
+
+- Verkauf von Bund-Futures. Steigt der Zins tatsaechlich, dann
+kannst du den Future spaeter billiger zurueckkaufen und die
+Differenz ist dein Gewinn. Problem wie oben, und ausserdem 
+musst du bei Futures eine Sicherheit (Margin) hinterlegen.
+Es gibt auch Optionen auf Futures (keine Margin noetig).
+
+Brauchbare Berechnungen sind recht kompliziert; selbst die 
+meisten "Profis" machen dabei erbaermliche Fehler.
+
+
+Severin
+Visit   http://ojuvvuk.big.nmt/orxkwg  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,20 @@
+Es ist nicht vorausberechenbar. Irgendwie könnte man sich zu der Ansicht 
+verleiten lassen,
+daß dieser move in irgendeiner Form schon seit Tagen im Kurs drin war und 
+deshalb
+von einem Handelsystem aufgrund von backtests mit einer gewissen
+Wahrscheinlichkeit vorhergesagt werden kann. Immerhin war die Kursbewegung
+unabhängig von Zahlen, Nachrichten und Kommentaren.
+Letztendlich aber alles Zufall.
+Mein Handelssystem kann diese 'Schlenker' (falls es einer ist) gar nicht 
+verwerten.
+Der exit erfolgt über einen trailing ATR und durch die höhere true range 
+wird der stop
+entsprechend tiefer ( bei mir höher, da short) gesetzt und der 'Schlenker' 
+rausgefiltert.
+Nur nachhaltige Bewegungen fließen in das System ein.
+
+
+nein, hast Du einen link?
+
+Gruß,Vincenzo

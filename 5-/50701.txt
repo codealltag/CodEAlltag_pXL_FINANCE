@@ -1,0 +1,37 @@
+Hi, meine kleinen Terminb�rsler,
+
+ich sitze gerade an einer kleinen Denkaufgabe:
+
+	Bei einer bestehenden long call Position soll ein
+	Rollover (Strike a in Strike b, wobei a < b) gemacht
+	werden. Frage: Zu welchem Zeitpunkt (Kurs des Underlyings)?
+
+Ich habe mir überlegt, daß (bei a = in-the-money und b = out-of-the-money) die einzig relevante
+Größe die prozentuale Veränderung des Derivats auf eine infinitissimale Veränderung des Underlyings
+sein müßte.
+
+Wir sprechen hier also vom Gamma der Optionen, oder?
+
+Das Gamma verhält sich ja ähnlich einer Gaußschen Glocke (optisch), d.h. deep-out-of-the-money und
+deep-in-the-money ist es sehr gering und at-the-money sehr groß.
+
+Das Optimalitätskriterium lautet also: Gamma(Kurs_Underl, Strike b) >= Gamma(Kurs_Underl, Strike a)
+Es wird der Zeitpunkt herausgesucht, wo das Gamma der out-of-the-money Option das Gamma der
+in-the-money-Option übersteigt.
+
+Da Gamma jedoch indirekt vom Kurs des Underlying abhängt, kommen wir um Black-Scholes nicht herum.
+Praktisch realisiert werden könnte das Problem durch eine Annäherungsrechnung.
+
+
+So, das waren meine Gedanken zu dem Thema. Wäre ganz nett, wenn sich einige Experten (Dino?) dazu
+auslassen, bzw. meine Ideen untermauern könnten.
+
+
+Thanx, CU CD.
+
+
+-- 
+This signature causes *heavy* Internet traffic and has been sent by 
+Veit Spach.
+----------------------------------------------------------------
+Das Wichtigste ist, nie aufzuhören, Fragen zu stellen. - Focko Castner

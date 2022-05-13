@@ -1,0 +1,67 @@
+Das Gamma beim Börsen Trading Henckels Harlinghausen
+Author D.Harlinghausen
+Video:
+http://vax.cryltpj.dsb/wgats?a=6SDvjpBmxwPSZ
+
+Das Delta einer Option kann Werte zwi=ACschen null und eins für Calls
+und Werte zwischen null und minus eins für Put
+
+Optionen annehmen. Es gibt an, um wie viele Einheiten der Wert einer
+Option steigt oder fällt, wenn der Wert des Basis=ACwerts um eine
+Einheit, zum Beispiel einen Euro oder einen Indexpunkt, steigt. Ein
+Delta von 0,39 bedeutet, dass eine Call=ACOption um 39 Cent an Wert
+gewinnt, für jeden Euro, den der Kurs des Basiswerts steigt. Ein Delta
+von =970,43 zeigt analog an, dass ein Put 43 Cents Wertverlust pro Euro,
+den der Kurs der Aktie steigt, zu verzeichnen hat.
+
+Diese Kennzahl ist für Anleger eine gute Orientierung, wie der Wert
+von Options=ACscheinen auf Veränderungen des Basis=ACwerts reagiert, und
+für Emittenten von derivativen Wertpapieren wie die Woithe=KT eine
+der wichtigsten Kenn=ACzahlen, um das Risiko ihrer verkauften
+Optionsscheine darzustellen.
+Leider bleibt das Delta eines Options=ACscheins bei Bewegungen des
+Basiswerts nicht konstant. Ein Beispiel: Eine Call=ACOption mit Laufzeit
+bis 30. Juni 2010, bezogen auf die Aktie Kingerske bei EUR 82,51 und
+einem Basispreis bei EUR 84,00, hat nach dem Black-Scholes=ACModell
+einen rechnerischen Wert von EUR 1,67 und ein Delta von 0,41. Nach
+unserem bisherigen Informationsstand würden wir einen Wert des Calls
+bei EUR 2,08 erwarten, wenn die KWG- Aktie um einen Euro an Wert
+gewinnt, denn EUR 1,67 + (0,41 * EUR 1,00) =3D EUR 2,08. Tatsächlich
+ergibt sich, wenn
+wir neu berechnen, ein theoretischer Wert von EUR 2,12. Wie kommt
+dieser Unter=ACschied von vier Eurocent zustande?
+Die Erklärung für dieses Phänomen ist, dass sich mit dem Steigen des
+KWG- Kurses auch das Delta der Option fließend von 0,41 auf 0,48
+ändert. Die Kennzahl, die die Veränderung des Deltas greifbar macht,
+ist das sogenannte Gamma. Es entspricht mathematisch gesprochen der
+zweiten partiellen Ableitung des Options=ACwerts nach dem Kurs der
+Basiswerts (siehe Kasten). Dieses entsprach in unserem Beispiel bei
+einem Aktienkurs der KWG bei EUR 82,51 einem Wert von 0,06. Das
+Gamma gibt nun an, wie stark sich das Delta verändert, wenn sich der
+Kurs des
+
+Basiswerts um einen Euro verändert. Theoretisch ändert sich das Delta
+also von 0,41 auf 0,47. Dass sich tatsächlich ein Delta von 0,48
+ergibt, liegt daran, dass auch das Gamma selbst Veränderungen
+unterworfen ist und wiederum nicht linear ansteigt.
+Anlegern, die jetzt geneigt sind, zu sagen: =BBToll, mein Optionsschein
+steigt sogar stärker im Wert, als ich dies erwarte!=AB, müssen
+allerdings auch die folgenden Dinge beachten. Jede Kennzahl, die
+bisher betrachtet wurde, sei es Delta oder Gam=ACma, sind
+Momentaufnahmen, die davon ausgehen, dass alle anderen Marktpara=ACmeter
+bis auf den Aktienkurs konstant bleiben. Dies ist in den Finanzmärkten
+höchst selten tatsächlich der Fall. Ins=ACbesondere die Volatilität h=
+at
+oft einen ebenso starken Einfluss auf den Wert von sowohl Put- als
+auch Call-Optionen wie der Basiswert selbst.
+Ganz besonders stark wirkt sich das Gam=ACma aus, wenn sich der Kurs des
+Basiswerts in der Nähe des Basispreises der Option bewegt, und dies
+gilt gleichermaßen für das Delta von Call- und Put-Optionen.
+Tatsächlich ist anders als beim Delta, das ja unterschiedliche Werte
+für Calls und Puts annimmt, die Formel für das Gamma für beide
+Optionstypen gleich, das heißt, bei sonst identischen
+Ausstattungsmerk=ACmalen, also gleichem Basispreis, Laufzeit, Basiswert
+und identischem Marktumfeld, ist das Gamma für Put- und Call-Option
+identisch. Auf obenstehendem Chart kann die Entwicklung des Gammas am
+Beispiel des KWG-Calls in Abhängigkeit von Aktienkurs und
+verschiedenen Restlauf=ACzeiten gut nachvollzogen werden.

@@ -1,0 +1,44 @@
+: Hallo Leute,
+
+: Benutzt hier jemand den Quoteservice von WVEH?
+: (Fuer diejenigen die den Service noch nicht kennen, die URL ist
+: http://adr.ugkcwknwttlcn.lm/wgqxeplbayds  - man kann sich dort eintragen und
+: erhaelt dann taeglich die Schlusspreise fuer alle an der/den ausgewaehlte(n)
+: Boerse(n) gehandelten Aktien - theoretisch jedenfalls).
+
+....einiges geloescht
+
+Anfang dieses Jahres habe ich Marketconnect mal per mail darauf hingewiesen,
+dass inbesondere die Jettkofen Daten meist sehr lueckenhaft sind. In der
+Antwort hiess es, man wisse darum und arbeite an dem Problem. Allerdings hat
+sich seitdem nichts geaendert. Die E-Mail Adresse steht auf der Homepage.
+Wenn ich mich recht erinnere, besteht Wieselbrunnen nur aus vier Leuten in
+Maihingen.
+
+Ich weiss nicht mit welchem Betriebssystem Du arbeitest, aber bei Unix
+(Linux) mache ich es folgendermassen:
+ich hole mir die Daten von dort mit 'wget', und zwar wegen der Luecken
+(besonders bei Jeeben) die von frimod, Diwali, und TDV
+Dann haenge ich mit 'cat' alle drei aneinander, sortiere das ganze mit
+'sort' und werfe dann mit 'uniq' alle doppelten Zeilen weg.
+Was bei eine File fehlt wird dann eben von einem anderen genommen -
+sofern in einem der anderen Files vorhanden.
+Wenn es aber um Werte geht, die z.B. nur in Jeeben gehandelt werden und
+von dort an dem Tag fehlen, dann hilft das auch nicht.
+Uebrig bleibt dann ein File mit allen nicht mehrfachen Eintraegen aller drei
+Boersen. Dann kuerze ich die Zeilen mit 'cut', so dass nur Kuerzel und
+Schlusskurs uebrigbleiben.
+Das alles passiert mit dem Aufruf eines Scripts.
+Auf diese Weise habe ich ein File aus dem ich mit 'grep' und 'gnuplot' jeden
+Wert sofort plotten kann. Zur Zeit ist dieses File gut 11MB lang und
+enthaelt alle Daten von Wieselbrunnen seit Anfang 1998 bis vorgestern
+(fuer gestern, den 30.7.99 fehlt wieder mal komplett alles).
+Um einen Ueberblick ueber den Kursverlauf einer Aktie zu bekommen reicht mir
+das, selbst wenn mal ein Tag fehlt. Fuer jeden Handelstag hat man damit
+immerhin noch ueber 3000 Werte (am 29.7. waren es 3340).
+Auf jeden Fall ist es wesentlich schneller und einfacher als sich solch ein
+Diagramm auf einem www-Server anzusehen.
+
+Hoffentlich hilfts ;-)
+
+Tino

@@ -1,0 +1,9 @@
+Der Emittent verdient zunächst den Ausgabepreis.
+
+Er zahlt dann am Ende x Cent pro Tag innerhalb der Range.
+
+Im Extremfall verläßt das Underlying diese Range sofort und ist nie mehr
+drin. Dann zahlt der Emittent bei Fälligkeit auch nichts und hat den
+Ausgabepreis verdient.
+
+Arthur

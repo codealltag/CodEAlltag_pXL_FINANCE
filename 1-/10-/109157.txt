@@ -1,0 +1,21 @@
+Optimiert werden die Indikatoren OVB, ROC und RSI. Hierbei werden aufgrund
+der historischen Kurse Kauf/Verkauf-Transaktionen durchgeführt (das können
+pro Wertpapier schon einige 1000 Käufe/Verkäufe sein), die immer davon
+ausgehen, den Kurs vom nächsten Tag noch nicht zu kennen. Die Optimierung
+ist dann vollzogen, wenn alle drei Indikatoren mit ihrem jeweils besten
+Ergebnis zu einem eindeutigen Kauf bzw. Verkaufsignal kommen.
+Der Pfiff an der Geschichte ist, daß für die laufende Signalgebung alle drei
+Indikatoren gemeinsam ein eindeutiges Kauf oder Verkaufsignal liefern
+müssen. Damit werden Fehlsignale weitgehndst ausgeschlossen.
+In den letzten  Jahren hat mir dieses Signalsystem sehr gute Ergebnisse
+geliefert. Die DAX-Rendite schlägt mein Optimierungstool sehr deutlich.
+
+Sie können sich gerne in meine Mailingliste aufnehmen lassen. Dann gibt es
+regelmäßig und kostenlos einen Börsenbrief mit aktuellen
+Kauf/Verkaufsignalen und einem Musterdepot. yyoj@twvpbogltt.dg
+
+Natürlich kann sich jeder Leser dieser NewsGroup in die Mailingliste für
+meinen Börsenbrief eintragen lassen. Eine kurze E-Mail an mich reicht aus.
+
+Mit besetn Wünschen
+F. Overzier

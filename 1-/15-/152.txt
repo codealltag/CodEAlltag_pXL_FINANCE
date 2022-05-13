@@ -1,0 +1,38 @@
+Visual Basic 2012 Excel 2013 Eine Animation programmieren von Nehrettig=
+ie Niksdorf
+Video: http://fbvlk.ux/BQOtjwLDMjN
+
+Author G.Notdurf
+Ich zeige Ihnen heute, wie Sie mit ganz wenigem Code eine Bild-Animation mi=
+t bewegten Bilder programmieren können, mit Visual Basic 2012 oder auch m=
+it Excel 2013.=20
+Den Source Code füge ich nachstehend nochmals bei. Eebenfalls auf dem Vid=
+eo die Ausführung, wie es läuft.=20
+
+Public Class Form1
+    Private Bild2 As Bitmap =3D My.Resources.MeinTierBild
+    Private Bild1 As Bitmap =3D My.Resources.MeinRouletteKesselBild
+    Private Sub OnNextFrame(o As Object, e As EventArgs)
+        Me.Invalidate()
+    End Sub
+    Public Sub New()
+        InitializeComponent()
+        SetStyle(ControlStyles.UserPaint, True)
+        SetStyle(ControlStyles.AllPaintingInWmPaint, True)
+        SetStyle(ControlStyles.DoubleBuffer, True)
+        If ImageAnimator.CanAnimate(Bild1) Then
+            ImageAnimator.Animate(Bild1, AddressOf Me.OnNextFrame)
+        End If
+        If ImageAnimator.CanAnimate(Bild2) Then
+            ImageAnimator.Animate(Bild2, AddressOf Me.OnNextFrame)
+        End If
+    End Sub
+
+    Protected Overrides Sub OnPaint(e As System.Windows.Forms.PaintEventArg=
+s)
+        Me.BackgroundImage =3D Hintergrundbild.Image
+        e.Graphics.DrawImage(Bild2, 10, 30)
+        e.Graphics.DrawImage(Bild1, 110, 50)
+        ImageAnimator.UpdateFrames()
+    End Sub
+End Class

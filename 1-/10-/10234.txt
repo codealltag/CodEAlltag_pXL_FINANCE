@@ -1,0 +1,101 @@
+Grundlagen Optionen
+Author Heynke
+Was ist ein Optionsschein?
+Ein Optionsschein ist ein an mindestens einer Börse gelistetes
+Wertpapier, das ein Recht für den Inhaber verbrieft. Durch diese
+Verbriefung können Optionsscheine genauso wie Aktien unter der Angabe
+von Wertpapier-Kennnummer (WKN) und Stückzahl entweder börslich oder
+außerbörslich gekauft und verkauft wer=ADden. Fast alle Optionsscheine
+werden von einer Investmentbank (der Emittentin) her=ADausgegeben und
+garantiert. Diese sorgt an=ADschließend für eine liquide Handelbarkeit
+dieses Optionsscheins.
+Das von einem Optionsschein verbriefte Recht bezieht sich auf die
+Möglichkeit, ein Underlying, zum Beispiel eine Aktie, kau=ADfen oder
+verkaufen zu können (aber nicht zu müssen).
+=95 Beim Kaufoptionsschein, von Profis meist kurz Call genannt, erwirbt
+der Käufer das Recht, das Underlying zu einem vorherbestimmten Preis,
+dem Strike, zu kaufen. Während der Laufzeit des Optionsscheins ändert
+sich der Strike nicht, wohl aber der Kurs der Aktie, auf die sich der
+Optionsschein bezieht. Der Anleger kann jederzeit mit seinem Op=AD
+tionsschein eine Aktie zum Strikepreis
+kaufen. Nach einem Anstieg der zu=ADgrunde liegenden Aktie gewinnt
+dieses Recht natürlich an Wert, weshalb der We rt des Optionsscheins
+steigt.
+=95 Umgekehrt  verhält es  sich  beim Ver-	aufsoptionsschein, dem Put.
+Hier er-	schein (Put)
+wirbt der Käufer das Recht, die Aktie zu	Steigt bei
+einem vorherbestimmten Preis verkaufen	fallendem Under-
+zu  können.  Dieses  Recht  wird  umso	lyingpreis
+wertvoller, je niedriger der Kurs der zu=AD
+grunde liegenden Aktie ist.
+Wie funktioniert ein Optionsschein?
+Liegt für einen Call der Preis des Under-lyings über dem Strikepreis,
+könnte ein Investor das Recht sofort ausüben, das Underlying zum
+Strike-Preis vom Emit=ADtenten kaufen und sofort zu dem höheren Preis an
+der Börse weiterverkaufen. Der positive Unterschiedsbetrag =96 ohne
+Berück=ADsichtigung von Transaktionskosten =96 der Innerer Wert Call mit
+einer solchen Transaktion realisiert werden kann, heißt Innerer Wert.
+Notiert das Underlying zu einem niedrige=ADren Kurs als dem Strikepreis,
+so würde es keinen Sinn machen, den Optionsschein sofort auszuüben, da
+das Underlying billi=ADger über die Börse direkt bezogen werden könnt=
+e.
+Der Innere Wert des Optionsscheins
+
+ist dann Null. Das Gleiche gilt, wenn das Underlying genau am Strike
+notiert. Auch dann ist der innere Wert exakt Null.
+Da Put-Optionsscheine das Recht ver=ADbriefen, den Basiswert zum Strike
+zu verkaufen, ist es hier genau umgekehrt: Innerer Wert Put Notiert
+das Underlying unter dem Strike, könnte ein Anleger den Basiswert an
+der Börse kaufen und zu dem höheren Strike-Preis an den Emittenten
+verkaufen. Der hiermit erzielbare Betrag wird auch beim Put Innerer
+Wert genannt. Er ist ent=ADsprechend Null, wenn das Underlying über oder
+genau am Strike notiert.
+Ein Optionsschein mit Innerem Wert wird im-Geld oder in-the-money
+genannt. No=ADtiert ein Underlying genau am Strike eines Optionsscheins,
+so wird dieser als am-Geld oder at-the-money bezeichnet. Eine Option
+ist aus-dem-Geld oder out-of-the-money, wenn beim Call der Strike über
+bzw. beim Put unter dem Basiswert liegt, eine so=ADfortige Ausübung der
+Option also ein Ver=ADlustgeschäft darstellen würde. Aus diesem Grunde
+ist es für den Anleger wichtig, dass er das Recht hat, die Option
+auszuüben =96 nicht aber die Pflicht. So wird er eine Aus=ADübung des
+Optionsscheins nur vornehmen, wenn der Schein im Geld notiert.
+
+
+Welche Chancen und Risiken birgt ein Optionsscheininvestment?
+Hat ein Optionsschein keinen Inneren We rt, heißt das jedoch nicht,
+dass er wert=ADlos ist. Denn solange der Verfalltag nicht erreicht
+worden ist, besteht immer noch die Chance, dass sich der Kurs des
+Under-lyings in die vom Anleger erwartete Rich=ADtung bewegt. Das heißt
+also, dass das Underlying steigt (für den Call) oder fällt (für den
+Put), um einen Inneren Wert zu erreichen. Dieser Wert eines Optionss=AD
+cheins, der nicht Innerer Wert ist, wird Zeitwert genannt. Je länger
+der Zeitraum bis zum Verfall des Optionsscheins ist, desto höher die
+Chance, dass das Underly-ing noch eine Kursbewegung zeigt, um ins Geld
+zu kommen. Entsprechend steigt mit der Chance, noch ins Geld zu
+kommen, auch der Zeitwert. Dieser bildet sich dem Rückgang der
+Restlaufzeit gemäß zurück und beträgt bei Verfall Null. Der Wert ei=
+nes
+Optionsscheins setzt sich immer aus beiden Komponenten Zeitwert und
+Inner=ADer Wert zusammen, dabei ist der Zeitwert vor Verfall stets
+größer als Null und er=ADreicht bei Verfall =84Null=93. Der Innere Wert
+eines Optionsscheins ist mit dem Kurs des Underlyings Schwankungen
+unterworfen und entweder positiv (wenn der Options=ADschein im-Geld
+notiert) oder Null (wenn er
+
+am-Geld oder aus-dem-Geld notiert). Notiert ein Optionsschein bei
+Verfall aus-dem-Geld, so hat er keinen Inneren Wert und keinen
+Zeitwert. Er verfällt somit wertlos, und der Anleger verliert sein ur=AD
+sprüngliches Investment vollständig.
+Notiert ein Optionsschein bei Verfall im Geld, so ist der Zeitwert
+auch in diesem Fall Null. Jedoch hat der Optionsschein einen positiven
+Inneren Wert, der dem An=ADleger gutgeschrieben wird. Hat der An=ADleger
+den Optionsschein zu einem niedrigeren Wert als dem Inneren Wert bei
+Ve rfall gekauft, so kann er einen Gewinn erzielen. Da der Anleger für
+sein initiales Investment nicht den vollständigen Ak=ADtienpreis
+bezahlen musste (sondern nur den niedrigeren Optionsscheinkurs, der
+sich aus Innerem Wert und Zeitwert zusammensetzt) kann er eine
+überpropor=ADtionale Kursänderung des Optionsscheins erfahren. Dieser s=
+o
+genannte Hebeleffekt wird am Beispiel eines Call-Options-scheins
+deutlich, bei dem in der unten stehenden Tabelle drei Entwicklungen
+simuliert werden.

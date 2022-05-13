@@ -1,0 +1,77 @@
+--------------T3QYM4333F17V36H589N3CO0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+Hallo Kai
+
+gruendsaetzlich machst Du nichst falsch.
+Der Wert eines Puts laesst sich jedoch ganz leicht errechnen, wenn Du den
+Wert der Calls hast.
+Die Beziehung ist als Put-Call-Paritaet bekannt und beruht auf dem Prinzip
+der arbitragefreien Bespreisung von Optionen.
+
+V (put) = C (call) + X / e (hoch) r * T - V (stock)
+
+V = value
+E = exercise price
+
+Der Wert eines Puts entspricht dem Wert eines Calls + abdiskontierter
+Basispreis (exercise prise) - Wert der Aktie (underlying)
+
+Durch Verwedung von   e   wird die Put-Call-Paritaet aus dem
+Binomialmodell nur in das Black-Scholes-Modell übergefuhrt.
+
+V (put) = C (call) + X / ( 1 + r ) (hoch) T - V (stock)
+
+Ich hoffe Dir damit geholfen zu haben.
+
+IB: Kares
+Dipl.-Kfm. Reiner Denis Tendahl
+
+--------------T3QYM4333F17V36H589N3CO0
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<HTML>
+Kai Endresz wrote:
+<BLOCKQUOTE TYPE=CITE>Hallo Bruno
+
+<P>WJF>Black-Scholes Formel
+<BR>WJF>
+<BR>WJF>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C=max(0; Sa*N(d1)-(E*exp(-r*t))*N(d2))
+
+<P>Nur leider bekomme ich da bei Puts und Devisen-OS oft ziemlich Humbug
+<BR>heraus. Werden die evtl. nach dem binomialen OS-Modell berechnet, oder
+<BR>mach ich was falsch?
+
+<P>-Kai</BLOCKQUOTE>
+&nbsp;
+<BR>Hallo Kai
+
+<P>gruendsaetzlich machst Du nichst falsch.
+<BR>Der Wert eines Puts laesst sich jedoch ganz leicht errechnen, wenn
+Du den Wert der Calls hast.
+<BR>Die Beziehung ist als Put-Call-Paritaet bekannt und beruht auf dem
+Prinzip der arbitragefreien Bespreisung von Optionen.
+
+<P>V (put) = C (call) + X / e <FONT SIZE=-2>(hoch) r * T </FONT>- V (stock)
+
+<P>V = value
+<BR>E = exercise price
+
+<P>Der Wert eines Puts entspricht dem Wert eines Calls + abdiskontierter
+Basispreis (exercise prise) - Wert der Aktie (underlying)
+
+<P>Durch Verwedung von&nbsp;&nbsp; e&nbsp;&nbsp; wird die Put-Call-Paritaet
+aus dem Binomialmodell nur in das Black-Scholes-Modell &uuml;bergefuehrt.
+
+<P>V (put) = C (call) + X / ( 1 + r ) <FONT SIZE=-2>(hoch) T </FONT>- V
+(stock)
+
+<P>Ich hoffe Dir damit geholfen zu haben.
+
+<P>Kirschblüte: Kares
+<BR>Dipl.-Kfm. Reiner Denis Tendahl</HTML>
+
+--------------T3QYM4333F17V36H589N3CO0--

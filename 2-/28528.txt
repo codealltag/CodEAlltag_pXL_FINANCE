@@ -1,0 +1,90 @@
+Hallo Mauro,
+Aktienkurse per TV-Karte am Bildschirm das lohnt wirklich nicht!
+Ich habe vor etwa zwei Jahren meinen Rechner mit einer TV-Karte (Haupauge)
+ausgeruestet. Das mitgelieferte Programm (Atefuv) verfügt über eine
+DDE-Schnittstelle. Fuer die Kommunikation mit anderen Programmen ist die
+DDE-Faehigkeit des Treibers von entscheidender Bedeutung.
+Ist der Treiber der VT-Applikation DDE-faehig, kann eine Kommunikation zu
+allen DDE-faehigen Programmen erfolgen.
+Ich habe damals eine DDE-Verbindung ueber Excel via VB-Script
+hergestellt.Das ist macht Sinn, da alle Daten aus VT-Plus lediglich als
+Texte vorliegen und somit in Zahlen übersetzt werden müssen, wenn eine
+Auswertung der Daten erfolgen soll.
+Durch die Vielzahl der Emissionen laesst sich eine sinnvolle Auswertung
+durch die staendige Positionsveraenderung der einzelnen Titel nicht
+vornehmen (ist muehselig und macht wenig Spass).
+Solltest Du jedoch Interesse entwickeln die Aufgabe anzufassen, bin ich
+gerne bereit Dir meine Rahmenprogramme zu uebermitteln,
+
+Gruss Stephan
+
+Hier ein Auszug
+
+
+Public Sub DDE_VTplus(Link_Topic, Link_Item, _
+                    ZielTabelle, Spalte As String, Zeile As Integer)
+
+Dim Zeichenkette As String
+
+    'On Error Resume Next
+    kanalNummer = Application.DDEInitiate("VTPLUS", Link_Topic) 'Link_Topic
+    r�ckgabeListe = Application.DDERequest(kanalNummer, Link_Item)
+    Adresse_Spalte = Asc(Spalte)
+    For I = LBound(r�ckgabeListe) To UBound(r�ckgabeListe)
+         'On Error Resume Next
+         Zeichenkette = r�ckgabeListe(I, 1)
+         Worksheets(ZielTabelle).Range(Chr(Adresse_Spalte + 0) & (I +
+Zeile - 1)) = Mid(Zeichenkette, 1, 12)
+         Worksheets(ZielTabelle).Range(Chr(Adresse_Spalte + 1) & (I +
+Zeile - 1)) = Val(Mid(Zeichenkette, 14, 9))
+         Worksheets(ZielTabelle).Range(Chr(Adresse_Spalte + 2) & (I +
+Zeile - 1)) = Val(Mid(Zeichenkette, 23, 9))
+         Worksheets(ZielTabelle).Range(Chr(Adresse_Spalte + 3) & (I +
+Zeile - 1)) = Val(Mid(Zeichenkette, 32, 9))
+    Next I
+    Application.DDETerminate kanalNummer
+End Sub
+
+
+Public Sub dde_NM_daten()
+Windows("VT_NM.xls").Activate
+    Worksheets("NM").Select
+    Cells.Select
+    Selection.ClearContents
+
+    Call Tabelle1.DDE_VTplus("S01_739", "1,1,,,B(1/4/39/22)", "NM", "A", 2)
+    Call Tabelle1.DDE_VTplus("S01_739", "2,2,,,B(1/4/39/22)", "NM", "A", 21)
+    Call Tabelle1.DDE_VTplus("S01_739", "3,3,,,B(1/4/39/22)", "NM", "A", 41)
+    Call Tabelle1.DDE_VTplus("S01_739", "4,4,,,B(1/4/39/22)", "NM", "A", 61)
+    Call Tabelle1.DDE_VTplus("S01_739", "5,5,,,B(1/4/39/22)", "NM", "A", 81)
+    Call Tabelle1.DDE_VTplus("S01_739", "6,6,,,B(1/4/39/22)", "NM", "A",
+101)
+    Call Tabelle1.DDE_VTplus("S01_739", "7,7,,,B(1/4/39/22)", "NM", "A",
+121)
+    Call Tabelle1.DDE_VTplus("S01_739", "8,8,,,B(1/4/39/22)", "NM", "A",
+141)
+
+    Call Tabelle1.DDE_VTplus("S01_740", "1,1,,,B(1/4/39/22)", "NM", "A",
+161)
+    Call Tabelle1.DDE_VTplus("P21_761", "2,2,,,B(1/4/39/22)", "NM", "A",
+181)
+    Call Tabelle1.DDE_VTplus("S01_740", "3,3,,,B(1/4/39/22)", "NM", "A",
+201)
+    Call Tabelle1.DDE_VTplus("S01_740", "4,4,,,B(1/4/39/22)", "NM", "A",
+221)
+    Call Tabelle1.DDE_VTplus("S01_740", "5,5,,,B(1/4/39/22)", "NM", "A",
+241)
+    Call Tabelle1.DDE_VTplus("S01_740", "6,6,,,B(1/4/39/22)", "NM", "A",
+261)
+    Call Tabelle1.DDE_VTplus("S01_740", "7,7,,,B(1/4/39/22)", "NM", "A",
+281)
+    Call Tabelle1.DDE_VTplus("S01_740", "8,8,,,B(1/4/39/22)", "NM", "A",
+301)
+
+    Range("A1").Select
+
+End Sub
+
+
+Mauro <nxqgfuq-p@gfk.oq> schrieb in Nachricht
+0vbiyy$yrq$1@arwv.dqfnmnn.bs...///

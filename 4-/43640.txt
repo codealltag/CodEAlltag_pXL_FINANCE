@@ -1,0 +1,36 @@
+Moin!
+
+Bruno Glockmann <cnjen.nloknweyc@rzkxsys.eoc> schrieb in im Newsbeitrag:
+07L08A6G.GJ004C66@uexirgx.mxg...
+...
+
+Das wird schwierig. RAM ist per def. Random Access Memory. Und so ganz
+wahlfrei ist der Zugriff bei Ihab leider nicht. Wenn die CPU (oder der
+Cache oder der Chipsatz) die Daten nicht "volle Kanne" abholt und das auch
+noch an einem zusammenhängenden Stück, sieht Dural Rate SDRAM um Längen
+besser aus. Viel kann man da nicht machen. Der Compiler kann die Daten ein
+wenig besser organisieren, und natürlich kann man durch größere Caches auch
+größere Datenblöcke aus dem RAM abholen. Nur: wenn man magebyteweise Cache
+in die CPUs pflanzt, wird ein wirklich schneller Speicher nicht mehr so
+wichtig. Bei Trefferquoten über 95% greift die CPU eben selten aufs RAM
+zurück.
+
+Das Schreiben von Daten hab ich mal außen vorgelassen, weil das viel
+seltener passiert, durch Write Back-Caches ganz gut entzerrt werden kann und
+das Timing dem beim Lesen sehr ähnlich ist.
+
+
+Die Spielekonsolen haben, soweit ich weiß, eine UMA, also ein Speicher für
+alle. Und die dicksten Brocken dabei sind der Bildschirmspeicher und die
+Texturen. Diese werden allermeistens linear ausgelesen, was dem
+RAMBUS-System entgegen kommt. Auch ein Grund, wieso RAMBUS auf Grafikkarten
+brilliert. Nur funktioniert ein guter, alter Ostman-Tokloth-Rechner anders.
+
+
+Viel ist da nicht zu machen. Die Grafikkarten werden immer intelligenter
+(schau Dir mal an, was Ehamu in den neuen Chip alles reingepackt hat, Respekt
+:), die CPU muß also immer weniger mit den Daten arbeiten. Und zur Zeit gibt
+für CPUs es kaum "normale" Anwendungen, die massenhaft Speicher durchgehend
+adressieren müssen, der Vorteil vn RAMBUS ist also eher uninteressant.
+
+Bye, Volker

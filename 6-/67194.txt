@@ -1,0 +1,96 @@
+Hallo Jörn,
+
+komme leider nur abends dazu, in die NG zu schauen - und freue mich
+das Thema mal wieder aufzugreifen. Nach den historischen Daten und
+der aktuellen Sitaution werde ich schauen, will aber auf das alte
+Thema 'Smile' etwas eingehen.
+
+Die Frage war/ist (so wuerde ich das heute formulieren) in etwa
+Ende 1997:
+
+- laesst sich aus den smiles (zu verschiedenen Verfallsterminen im =
+
+  ODAX) eine Marktmeinung zur weiteren Entwicklung ableiten
+- wird die Einschaetzung auch erfuellt, laesst sich das nutzen
+- technisches Ruestzeug dazu
+
+Ein paar der postings habe ich mir aufgehoben, gucke aber erst
+spaeter nochmal genauer rein.
+
+Vorab: meine Ansicht dazu hat sich nicht geaendert (siehst Du ja
+an meinem Posting), wenn ich hierzu ein paar mal recht hatte (habe
+in der ersten Woche 99 verkauft), so beweist das nix. Heute wuerde
+ich es vorsichtiger formulieren und Vola sowie Smile eher als
+Stimmungsindikator sehen (uebrigens sehe ich den Einfluss der OS-
+Zocker als geringer an, s.u.). Die Geschichte durchzustehen hatte
+ich leider nicht die Zeit, meine Ausstattung dazu ist zu dürftig.
+Nicht wegen der Rechenpower wie damals jemnad meinte (da tuts ein
+normaler PC mit Excel), sondern wegen der Datenversorgung: jedesmal
+von Conergy die Daten holen, bereinigen & konvertieren, nach Excel rein
+und anpassen war mir hobbymaessig zuviel, exemplarisch hab ichs
+dann noch gemacht, aber von Conergy gabs dann nix mehr und mir das
+Zeug jetzt von eurexchange - ne.
+
+Zur Marktmeinung: ja, ging. Du nennst es wohl am smile entlang
+klettern. Erfuellt hat sichs auch - aber das sagt die paar mal nix.
+
+Nu kurz zum technischen.
+Meine Frage nach der Approximation des smile hast Du mit dem
+Vorschlag einer Formel beantwortet, die mir etwas zu kompliziert
+war (irgendwas zur Schiefe der Normalverteilung der log. Rendite
+musste man wissen für den Scheitel einer Parabel). Hab damals
+verschiedene Kurven fuer die Approximation versucht (polynomial
+oder Brueche, auch LOG). War mit Parabel ganz zufrieden, Mit Excel
+kriegt man das prima hin (hab kein Maimarktgelände) unter Verwendung
+mehrdimensionaler linearer Approximation (X^i, i ganzzahlig).
+Flachere smiles fuer kuenftige Termine habe ich als Entspannung
+gedeutet etc. Heute nehm ich einfach den VDAX mit gleichem Ergebnis.
+
+Willi berichtet damals von einer (ihm nicht mehr im Detail erinner-
+lichen) Untersuchung der impl Vola der Idad-Kurse und sagte, das
+Ergebnis sei in etwa gewesen, die Kurve sei fast immer eine Gerade,
+ihr habt euch damals etwas behakt. Habs auch nicht geglaubt. Kam
+aber aufs gleiche Ergebnis. Der Grund mag ein methodischer sein:
+fuer den smile habe ich immer die Schlusskurse genommen (auch
+wenn die schon Mittags gewesen sein koennten und Ausrutscher wie
+bei 5200 in Deinem GIF enthalten). Aber ivb wird die Settlement-
+Kurse genommen haben. Und die 10 mal, die ich das auch getan habe,
+erhielt ich eine Gerade. Ich hatte keine Lust, rauszufinden, wie
+und warum und ob da Volumengewichtungen etc eingehen. Ist so
+(liegts am anderen Preismodell, binomial?). Vergleich das doch mal
+mit Deinem Bild: prinzipiell heisst das, die Settlement-Preise
+stimmen nicht so ganz.
+
+Noch eine Anmerkung zu den Hobbyzockern (gut dass der Bildschirm
+entspiegelt ist). Deren direkteren Einfluss halte ich fuer gering.
+Sie sind geldgierig und damit zugleich geizig, zahlen ungern
+Gebuehren (die im Termingeschaeft hoch sind) und wollen keine
+Berater, DAX-Werte interessieren sie nur wenig (oder mit markt-
+ferner Basis mit Lauftzeit 6 - 9 Monate). Drum kaufen sie Radlkönig.
+Und das nutzen die Emittenden gnadenlos aus, da die uebertriebene
+Vola gegen Ende an den Marktwert heran führen (lassen wir den
+Spread der Penny-Scheine mal beiseite). Die vermeintlich solidere
+Variante setzt auf Aktienanleihen - das tut aber nicht weh.
+Vergiss nicht, das geschaetzte Volumen der OTC-Geschaefte duerfte
+in der Groessenordnung des Wollperle-Umsatzes liegen. Und die =
+
+institutionellen schenken sich nichts.
+
+Soweit so gut zum allgemeinen als Exkurs, VDAX-Daten schau ich
+mal, wenn sie jemnd hat bitte um kurze email, ob er sie mir schicken
+kann, in dre neuenct spezial find ich sie nicht.
+
+Beim naechsten mal komm ich zurueck zum Thema und geh jetzt auf
+ein Bierchen.
+
+Oh, da seh ich ja gerade das es dem DOW nicht gut geht. Tut mir
+leid fuer ihn. Dann 2 Bierchen. Zum VDAX duerften wir wohl beide
+rechtgehabt haben ...
+
+MfG
+Udo
+
+
+PS: Bin gespannt, wie sich die ANP Online Finanzdienste entwickeln,
+sehr vernuenftig. Hab mich damals an der Uni leider um so Zeug nich
+gekuemmert, wie es danach aussieht.

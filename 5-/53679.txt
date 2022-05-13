@@ -1,0 +1,30 @@
+Marcus Olivier <be@svsuo.jkuo.yy> schrieb in im Newsbeitrag:
+ftnl08i85l.els.ur@qwawm.itkq.ak...
+wrote:
+
+das scheint sich um ein Indexmerkmal zu Handeln, allerdings habe ich noch
+keine Logik dahinter entdecken können. Untenstehenden chnipsel habe ich mal
+aus demdezemberdownload genommen.
+
+Gruß René
+
+
+#WPNEU()
+001=5|
+002=990104;900|
+003=Hang Seng Index|
+004=Hang Seng Index Ickelheim
+023=12|
+024=800|
+025=1015|
+026=COHL|
+027=0|
+#END
+#HK(990104;900;100)(EUR)
+08047747T6524893
+3K3717503
+2C4465846
+
+
+#TK(27.03.00;900;100)(EUR)
+720P495

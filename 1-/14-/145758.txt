@@ -1,0 +1,31 @@
+Auch sinnvoll, um die Laufzeit zu verlaengern.
+
+
+Haengt von der Anlagetechnik ab. Wenn du mit gesteuerten
+Gewinnzonen arbeitest, dann ergibt sich das aus der gewuenschten
+Gewinnzonenposition.
+
+Als ganz grobe Faustregel fuer einfache Anlagetechniken faellt
+mir gerade folgendes ein (hab nicht viel nachgedacht, ist also 
+vielleicht unausgegoren):
+
+Beispiel Call. Wenn nach Verkauf des alten Calls und Kauf der 
+neuen ein Gewinn bei dir bleibt, und du trotzdem mit allen neuen
+Calls nach oben hin (also bei steigendem Underlying) gleich oder
+mehr Deltas als vorher hast und/oder nach unten hin (bei fallendem
+Underlying) weniger Deltas. Kann man nur grob hochrechnen.
+Oder einfacher: Wenn die neue Position billiger als die alte ist und
+du mit ihr mehr gewinnen und/oder weniger verlieren kannst.
+
+Ausserdem muesste man die Restzeit und Spesenaufwand in 
+den Vergleich einbauen.
+Da es jedoch nicht fuer jeden Basiskurs und Laufzeit OS gibt,
+kann man in der Praxis kaum nahtlos ueberrollen, sondern muss
+mit Spruengen arbeiten, was auf Gefuehlsentscheidungen rauslaeuft.
+Bei sehr grossen Stueckzahlen koennte man natuerlich 
+gleichmaessig in kleinen Paeckchen vorgehen.
+
+
+Marko
+Visit   http://hsanclr.pab.guz/ddzkud  and download a 
+free calculator for options, futures, bonds and similar stuff.

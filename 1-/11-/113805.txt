@@ -1,0 +1,33 @@
+Friedhelm Höckehrer <dubfthh.rhlki@jklrt.bu> schrieb im Beitrag
+<09744914.4485714@ndln.diqzr.lq>...
+----------------------------------------------------------------------------
+---
+
+Hallo Friedhelm,
+
+bei einer hohen Volatilität wird nicht der exakte Kurs gewertet, sondern
+eine gewisse Spannbreite. Angenommen, der DAX steht auf 4600, dann z.B.
+wird (rein physiologisch) eine Spannbreite von 4500 bis 4700 angenommen.
+Der DAX kann morgen bereits wieder bei 4500 oder aber auch bei 4700 stehen.
+"Kursveränderungen von 100 sind nichts". Ein DAX-Call mit Basis 4600, der
+eigentlich nur am Geld ist, ist (bei DAX 4700) bereits 100 Punkte im Geld.
+Ein DAX-Put mit Basis 4600, ist (bei DAX 4500) ebenfalls 100 Punkte im
+Geld.
+
+Hieraus folgt ein erhöhtes Aufgeld, das bei "normaler" Volatilität nicht
+gültig wäre (dann würde der DAX nur mit seinen 4600 Punkten bewertet). Geht
+jetzt die Volatilität zurück, geht auch die Spannbreite zurück. Z.B. von
+4550 bis 4650. Der Call und der Put sind jetzt nur noch mit 50 Punkte im
+Geld (lt. Spannbreite). Das Aufgeld baut sich ab und wenn der DAX um 10
+Punkte steigt, kann der Call dennoch an Wert verlieren bzw. wenn der DAX um
+10 Punkte fällt, kann der Put an Wert verlieren. "Obwohl das
+Basisinstrument in die gewünschte Richtung gegangen ist".
+
+Der Abbau des Aufgeldes vermindert den eigentlichen Gewinn bzw. kehrt ihn
+um.
+
+Alles klar?
+
+Viele Größe
+
+Ingo

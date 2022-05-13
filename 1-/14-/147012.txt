@@ -1,0 +1,21 @@
+Sorry fuer die etwas knappe Beschreibung.
+ Falls du bereits eine gute Boersensowtware besitzt sollte dieser Indikator
+bereits programmiert sein ansonsten kann man die Formel natürlich auch in
+Excel o.�. programmieren.
+Nun zur Formelberechnung:
+Wenn du long(rechnest also mit steigenden Kursen) bist suchst du dir den
+letzten Tiefpunkt deines Wertes. Dieser Tiefpunkt wird vom Hoechstkurs
+deines Kauftages abgezogen und mit dem Beschleunigungsfaktor multipliziert
+und dann zum Tiefpunkt addiert. Dieser Wert ist dein erster PSAR-Wert. Die
+folgenden erechnen sich dann jeweils aus den sich bildenden Hoechstkursen.
+also: PSAR=PSAR(n-1)+(BF*(EK(letzter)-SAR(n-1)).
+
+Der BF startet bei 0.02 und erhoet sich bei jedem neuen EK um 0.02 bis
+maximal 0.2.
+Ein neuer EK bildet sich immer dann wenn der Hoechstkurs des Tages den
+alten EK ueberbietet. 
+Das ganze hoert sich komplizierter an als es ist und funktioniert gerade
+bei kurz-mittelfristig ausgelegten Trades hervorragend.
+
+Gruss,
+Denis

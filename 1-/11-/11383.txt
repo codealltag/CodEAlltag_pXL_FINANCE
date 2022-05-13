@@ -1,0 +1,152 @@
+Hedging Hedge Trading
+Author Rheinheimer
+Nachfolgend drei Praxisbeispicle aus verschiedenen Bereichen: Trader A
+hat ein 50 000 Euro Wertpapier=ACdepot mit DAX-Titeln und möchte sich
+gegen fallende Kurse absichern. Welches Instrument eignet sich für
+diesen Fall? Optionsscheine, Futures oder CFDs
+Ausgangssituation:
+=95	Der DAX fällt von aktuell 7000 auf 6000 Punkte
+=95	Das  Portfolio  entwickelt  sich  proportional zum
+DAX (Korrelation von Eins)
+Absicherungszeitraum: Drei Monate
+1. Absicherungsalternative: Optionsscheine Auswahl eines Put-
+Optionsscheins mit Basis 7000 und drei Monaten Rcstlaufzeit. Das
+Bezugsverhältnis 0,01 gibt an, dass 100 Optionsscheine benötigt
+werden, um einen =84DAX Kontrakt" abzusichern. Um ein 50 000
+
+Euro Portfolio abzusichern wären somit 50 000 / 7000 =3D 7,14 DAX
+Kontrakte * 100 =3D 714 Optionsscheine zur Absicherung notwendig. Bei
+einem Preis von drei Euro pro Optionsschein lägen die
+Versicherungskosten somit insgesamt bei 2142 Euro
+2. Absicherungsalternative: Futures Die kleinste Absicherungseinheit
+bei Futures ist ein Kontrakt. Der aktuelle Kontraktwert beträgt 175
+000 Euro. Diese Absichcrungsmöglichkeit eignet sich daher erst für
+größere Portfoliovolumen. Bei einem perfekten Sichcrungsgeschäfl wär=
+e
+das Marktrisiko ausgeschaltet. In diesem Falle übersteigt die
+Absiche=ACrung mit 175 000 Euro den Depotwert (50 000 Euro) um ein
+Vielfaches.
+In den nachfolgenden Tabellen sind die Auswirk=ACungen ersichtlich.
+
+
+Definition Hedging
+Hedging ist ein englischer Begriff und wird in diesem Zusammenhang am
+treffendsten mit absichern übersetzt. Er lässt sich als Maßnahme zur
+Risikokompensation in Gestalt eines Gegen-geschäftes am Terminmarkt
+beschreiben. Dabei wird bei einem Port folio das Preisrisiko
+vermindert oder vollständig ausgeschaltet.
+3. Absicherungsalternative: CFDs Aufgrund der kleineren Stückelung ist
+es für den Anle=ACger einfach, eine passende Hedgegröße mit CFDs
+dar=ACzustellen. Ein CFD Kontrakt entspricht dem Gegenwert des DAX.
+Somit wären zur Absicherung des Depots 50 000 / 7000 =3D 7,14 Kontrakte
+notwendig. Mit sieben Kontrakten wären somit 49 000 Euro (7 * 7000)
+des Depots abgesichert.
+I.	Entwicklung   des   Depots   mit   Absicherung   bei
+fallendem DAX (Tabelle 1).
+Das ungesicherte Depot entwickelt sich entspre=ACchend der
+Marktentwicklung. In unserem Beispiel der Absicherung mit
+Optionsscheinen wird eine Prämie in Höhe von 2142 Euro fällig, welche
+im Voraus bezahlt wird. Darüber hinausgehende Kursverluste werden
+durch Gewinne der Scheine wieder ausgeglichen.
+Bedingt durch die gehebelte Futures-Position wird der Verlust aus dem
+Depot durch die Gewinne aus dem Hedge deutlich überkompensiert. Im
+Gegensatz zum Optionsschein ist der Anleger auch bei steigenden Kursen
+verpflichtet, für die gehebelten Verluste aufzu=ACkommen (der
+Optionsschein verfällt wertlos).
+CFDs: Durch den maßgeschneiderten Hedge wer=ACden die Depotverluste fast
+eins zu eins durch Gewinne wieder ausgeglichen. Das mit sieben CFDs
+abgesicher=ACte Depot verhält sich fast marktneutral.
+II.	Werfen wir nun noch einen Blick auf die Entwick=AC
+lung des Depots mit Absicherung bei steigendem DAX
+(Tabelle 2).
+Bei der Options-Variante verfällt die Prämie und schmälert somit den
+Gewinn. Durch die Übersicherung
+
+bei der Futures-Variante sinkt der Depotwert aufgrund der hohen
+Verluste aus dem Absicherungsgeschäft. Das mit CFDs abgesicherte Depot
+weist fast eine kons=ACtante Entwicklung auf.
+Absicherung am Ölmarkt
+Firma B gibt im Jahr eine Million Euro für Heizöl aus und möchte sich
+gegen die steigenden Kosten absichern. Die Preisentwicklung hat eine
+Korrelation von 0,95 zum WTI Öl. Werte um Null deuten auf keine
+Korrelation hin, Werte nahe Eins auf eine sehr hohe. Somit eignet sich
+Öl recht gut als Hedge gegen stei=ACgende Heizölpreise.
+Wie viele CFD-Kontrakte Öl sind nun zu kaufen, um sich optimal
+abzusichern? Ein Barrel 01(159 Liter) kostet gegenwärtig rund 120
+Dollar. Bei einem Kauf=ACbedarf, der dem Mark wert von einer Million
+Euro ent=ACspricht, sind dies 12 916 Barrel (1 000 000 /(120 * 1.55)).
+Da Öl in Dollar notiert, ist dies bei der Berechnung zu
+berücksichtigen. Wenn nun der Preis des Heizöls um
+Kosten des Hedges
+Spreads
+Ein günstiger Spread ist eine wichtige Kompo=ACnente für einen guten
+Hedge. Durch die fairen Spreads von marketindex ist die Absicherung
+von Positionen sehr kosteneffizient. Finanzierungskosten
+Beim Hebeln der Position muss beachtet werden, dass für den partiell
+fremdfinanzierten Kauf des Basiswertes Fremdkapitalzinsen anfallen.
+Diese werden dem Halter der Long Position angelastet und dem Halter
+der Short Position abz üglich einer Marge des Anbieters
+gutgeschrieben. Die Zinsen werden sekündlich berechnet. Die
+Finanzierungs-sätze hängen vom Basiswert ab und berück=ACsichtigen unt=
+er
+anderem Zinssätze, eventuelle Dividenden, Lagerkosten sowie
+Qpportunitäts-kosten. Die aktuellen Finanzierungskonditionen sind
+jederzeit auf der Handelsplattform ersicht=AClich. Darüber hinaus fallen
+keine weiteren Provi=ACsionen oder Gebühren an.
+
+
+Vorteile beim Hedging mit CFDs
+=95	Absicherung  von   Positionen  bei  geringer
+Kapitalbindung (durch Hebel).
+=95	Kein   Rollen  erforderlich,   da   CFDs   keine
+Fälligkeit oder Laufzeitbegrenzung aufweisen.
+=95	Geringe    Kosten:    Niedrige   Spreads   und
+günstige Finanzierungskonditionen. Darüber
+hinaus fallen keine weiteren Gebühren an.
+=95	Gegebenenfalls keine Nachschussverpflichtung.
+=95	Perfect Hedge Size durch kleine Kontrakt=AC
+größen möglich.
+=95	Hohe Transparenz, da Faktoren wie implizi=AC
+te Volatilität, Restlaufzeit und Zeitwert nicht
+in die Kursbildung einfließen.
+zehn Prozent steigt, bedeutet dies 100 000 Euro Mehr-kosten. Wenn der
+Ölprcis im selben Maße steigt (auf 132 Dollar), werden die Verluste
+durch den Hedge wieder ausgeglichen. 12 916 * 12 =3D 154 992 Dollar =3D
+zirka 100 000 Euro, die der Hedge an Wert gewinnt. Zu berücksichtigen
+sind hier die Finanzierungskosten, die bei Öl aktuell 5,91 Prozent
+betragen. Diese schlagen vor allem bei langen Laufzeiten zu Buche und
+können sich je nach Marktsituation ändern.
+Ein Blick auf die Devisen
+Firma C hat 500 000 Dollar Forderungen und möchte sich gegen die
+Abwertung des Dollars gegenüber dem Euro absichern. Durch die
+Wechselkursschwankungen sind die Erträge von ungesicherten
+Auslandsgeschäf=ACten im Voraus nicht zu bestimmen. In den letzten
+Jah=ACren wurde bedinat durch die Dollarabwertuna häufia
+
+Was ist bei einem Hedge zu beachten?
+Wie hoch ist das abzusichernde Risiko?
+=95	Wie viel Prozent der offenen Position sollen ab=AC
+gesichert werden und über welchen Zeitraum?
+=95	Wie viele Kontrakte müssen gekauft oder ver=AC
+kauft werden?
+Wie groß ist die Absicherungseinheit?
+=95	Wie hoch sind die Kosten?
+=95	Was sind die Konsequenzen, wenn sich der
+Kurs anders entwickelt als erwartet?
+aus einem lukrativen Geschäft ein Verlustbringer. Um diesem Risiko
+vorzubeugen und eine Kalkulationsbasis zu haben, ist eine
+Währungsabsicherung empfehlenswert.
+Diese ist ebenso sinnvoll, um Vermögensgegen-ständc in Dollar wie
+Aktien. Anleihen, etc. gegen das Währungsrisiko abzusichern. Durch den
+Kauf einer Euro-Dollar (Long) Position sind Sie gegen einen fal=AClenden
+Dollar abgesichert. Bei einem aktuellen Euro-Dollar-Stand von 1.55 ist
+der Kauf von 500 000 /1.55 =3D 322 581 Euro erforderlich, um die 500 000
+Dollar Forderungen optimal abzusichern.
+Wenn Euro-Dollar auf 1,60 steigt (Dollar fällt), entspricht dies einem
+Forderungsverlust von 10 080 Euro. (500 000 / 1.55 =3D 322 580 Euro; 500
+000 / 1,60 =3D 312 500 Euro; Differenz: 10 080 Euro).
+Dieser wird durch den Gewinn aus dem Hedge wie=ACder ausgeglichen. 1,6 *
+322 581 =3D 516 129 Dollar.
+Der Gewinn hierraus beträgt somit 16 129 Dollar oder 16 129 Dollar /
+1,6 =3D 10 080 Euro exakt der Betrag, der benötigt wird, um die
+Währungsverluste auszubleichen.

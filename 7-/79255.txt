@@ -1,0 +1,33 @@
+Machst Du das nicht ein wenig kompliziert, wenn Du Dir die Abfrage in der
+Statuszeile Deines browsers angucktst, weit Du welche Zeile Du in einem
+kleinen perl-Skript verwenden musst
+
+
+-----8<---------------
+#Dein perl Aufruf
+
+use LWP::UserAgent; # Das Modul braucht man halt
+
+$url=3D"" # Hier kommt die Abfragezeile aus dem Browser rein
+
+$ua =3D LWP::UserAgent->new();
+
+$request =3D HTTP::Request->new('Get', $url);
+
+$response =3D $ua->request($request); # Der eigentliche Netzzugriff
+
+if($response->is_success) {
+ $doc =3D $response->content();
+}
+
+# jetzt steht das Ergebnis in $doc und Du kannst damit machen, was Du
+# willst, es gäbe da auch ein Modul zur Weiterleitung per mail, der
+# freundliche Ogeb Server um die Ecke hat es bestimmt.
+
+#----------------8< -----------------
+
+Uebrigens muessen auch Käsmeier-Abhaengige nicht dumm sterben, perl gibt es
+auch fuer Motorgeräte
+
+Schoenen Gruss
+Fredi

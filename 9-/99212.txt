@@ -1,0 +1,28 @@
+[...]
+
+So langsam komme ich mir vor, wie im Tal der Ahnungslosen.
+
+Bitte diskutiert in einer Java/HTML-Gruppe weiter, wenn es
+euch wirklich interessiert.
+
+Es wird nicht einfach irgendein Applet auf dem lokalen
+Rechner hinterlegt, sondern zwei Dateien, die Java-Klassen
+enthalten (eine für GUI und eine für Verschlüsselung 
+� la Brokat mit 1024bit) als SignedApplet mit freundlicher
+Nachfrage beim Anwender, ob er das auch wirklich will,
+im entsprechenden Agrarmarkt-Pool installiert
+(Netscape\Communicator\Program\Java\download).
+
+Bei *jeder* Benutzung werden sämtliche Klassen auf ihre
+Richtigkeit (Version, Prüfsumme) überprüft und erst dann
+verwendet.
+
+Es hat niemand behauptet, daß die komplette Applikation
+auf eurem Rechner hinterlegt wird, und so auch von
+euch lokal gestartet werden könnte.
+Der Start der Applikation erfolgt immer über die entsprechende
+HTML-Seite bei Frischback, sodaß eine Serververbindung vorhanden ist.
+
+Noch spannender ist das Problem mit dem Drucken gelöst ...
+
+ml

@@ -1,0 +1,60 @@
+Moeglichst gleichzeitig. Wenn man nicht aufpasst koennte
+es passieren, dass die Margins voruebergehend zu hoch werden.
+
+
+Weiterer Auszug aus dem Handbuch:
+Wenn Sie "Fairer Wert" anklicken, dann muß anschließend in der Box unmittelbar
+darunter der Marktzins eingestellt werden, und es wird der theoretisch faire
+Kurs des Futures berechnet.
+Unter Marktzins sind hier der bereits erklärte Zinsvorteil bzw. die
+alternativen Finanzierungskosten zu verstehen. Im einfachsten Fall ist das der
+zur Restlaufzeit des Future passende Marktzins. Durch Wahl von "Rechenzins"
+können Sie auch den gerade im Futurekurs enthaltenen (impliziten) Zinssatz vom
+Modern Speculator berechnen lassen.
+Allerdings ist es durchaus nicht immer sinnvoll, einen bestimmten Zinssatz nur
+deshalb zu verwenden, weil die Mehrheit der Marktteilnehmer damit arbeitet.
+Genau genommen kann nämlich für jeden Marktteilnehmer ein individuell anderer
+Zinssatz zutreffen. Wenn Ihre einzige persönliche Wahl zur Zeit darin besteht,
+DAX-Scheine zu kaufen und dies mit einem Dispokredit zu 12% zu finanzieren,
+dann ist Ihr maßgeblicher Zinssatz eben 12%, auch wenn der Markt den Future
+derzeit mit 5% berechnet. In diesem Fall wäre der Future für Sie übrigens
+günstig, denn er wäre 7% billiger, als wenn Sie direkt DAX-Scheine kaufen
+würden. (Hinweis: Der effektive Zinssatz des Dispokredits liegt vermutlich
+sogar über 12%, da solche Zinsen meistens vierteljährlich fällig sind.)
+Eventuell kann es auch zweckmäßig sein, einen Zinsverlust durch die Margin in
+die Rechnung einzubeziehen.
+Bei DAX-Futures wird oft mit einem Zinssatz etwas unter dem Marktzins
+gerechnet. Dies läßt sich unter anderem damit erklären, daß vom Marktzins eine
+kleine "Eigenrendite" des DAX abgezogen wird, denn der DAX ist ja ein
+"Performance-Index" (vgl. Kapitel über Index-Scheine). Und kurz vor den
+Dividendenterminen der großen im DAX enthaltenen Aktien, meist werden diese im
+zweiten Quartal des Jahres gezahlt, liegt dieser Zinssatz oft besonders
+niedrig. Dies hängt mit Arbitragegeschäften zwischen großen Aktienpaketen und
+DAX-Futures zusammen, bei denen der Umstand ausgenutzt wird, daß der
+Aktienbesitzer mit der Dividende eine Steuergutschrift erhält, die nicht in den
+DAX eingeht. 
+Bei Futures mit deutlich unterschiedlicher Restlaufzeit kann es sinnvoll sein,
+unterschiedliche Zinssätze einzusetzen, ähnlich wie ja auch die Marktzinssätze
+für z.B. ein, drei oder sechs Monate Anlagedauer unterschiedlich liegen können.
+
+Bei Devisen-Futures kann die Einstellung eines negativen Zinssatzes nötig sein,
+nämlich dann, wenn sich die Zinssätze beider Währungen deutlich unterscheiden.
+Liegt der Marktzins für Anlagen in Dollar bei 12%, der Zinssatz für
+vergleichbare DM-Anlagen dagegen bei 8%, so müssen für Dollar-Futures -4 %
+eingestellt werden, denn dem Anleger, der sein Kapital vorerst noch im DM
+beläßt, statt es schon jetzt in Dollar zu tauschen, dem entgeht ja ein
+Zinsertrag von 4%. In solchen Fällen liegt der Futurekurs dann unter dem
+aktuellen Tageskurs des zugrundeliegenden Wertes.
+Bei Futures auf Anleihen muß meistens ein relativ niedriger Zinssatz nahe Null
+eingestellt werden, denn Zinserträge und entgangene Zinsen gleichen sich hier
+etwa aus. Meistens wird es aber zweckmäßig sein, Futures auf Anleihen etwas
+spezieller zu bewerten. Dies wird in den folgenden Kapiteln beschrieben werden.
+Faustregel zur Berechnung dieses Rechenzinses: Marktzins der Anlagealternative
+(in der Regel ist das eine Festgeldanlage mit dem Future entsprechender
+Laufzeit)  minus  Eigenrendite des Underlyings (also die Rendite des dem Future
+zugrundeliegenden Wertes). 
+
+
+Gilbert Deußen
+Visit   http://hfdjogg.vxb.lbd/fcsllc  and download a 
+free calculator for options, futures, bonds and similar stuff.

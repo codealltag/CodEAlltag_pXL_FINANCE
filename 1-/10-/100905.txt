@@ -1,0 +1,14 @@
+Cédric (xnv@otniwsjp.xg) ergo/3 sich wie folgt:
+
+
+Das klingt weniger nach einem CopyShop, als einem http-Problem.
+Irgendwie kommen in Deinem Web-Browser die angeforderten Daten der
+HTML Seite nicht an. Das wird wahrscheinlich an der Verbindung liegen,
+die überlastet ist (oder vielleicht der Server von
+CNF). Irgendwann gibt Tramp dann die Hoffnung auf und
+präsentiert diese Fehlermeldung.
+Wenn andere Sites funktionieren, liegt's vielleicht am Routing Deines
+Providers. Auf jeden Fall wann anders nochmal probieren, vielleicht
+wirst Du dann anders geroutet.
+
+FRANCESCO

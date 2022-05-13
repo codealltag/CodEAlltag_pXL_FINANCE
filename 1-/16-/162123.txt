@@ -1,0 +1,46 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Theodor
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12) *
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11) *
+Trendkorrelations-Analyse            (10) *
+Volatilitaet                         (9) *
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+Handbuch MarketMaker Boersensoftware
+Strafzettel....;)... die Gruenphase war etwas kurz...
+
+
+Bei der Phasenanalyse wird der gleitende Durchschnitt um einen bestimmten  
+Prozentsatz verschoben, damit weniger Signale als bei einem normalen GD  
+erzeugt werden. Bei jedem Durchbruch des Kurses durch diesen verschobenen  
+GD aendert sich die Phase, also von Kauf- in Verkaufsphase und umgekehrt.
+
+
+.......... sorry, vier Zeilen sind einbissel duenn - aber mehr habe ich  
+nicht entdeckt..

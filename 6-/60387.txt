@@ -1,0 +1,21 @@
+Fidixqljh # r-vupguf.wi@7:7606/362.22 meinte am 25.11.00
+zum Thema "Re: Y2K":
+
+
+H> ??? Kann mir mal jemand erklaeren wie Hardware y2k Probleme verursachen
+H> kann. Bislang dachte ich immer, die waere ohne Software echt bloed und
+H> wuesste nix von vom neuen Jahrhundert.
+
+Im CMOS des rechners gibt es zwei jahresbytes eins fuer die ersten beiden  
+zahlen und eins fuer die letzten beiden zahlen.
+Beim jahreswechsel wechselt das erste byte von 19 auf 20 und das zweite  
+von 99 auf 00.
+Es kann software geben die nur mit dem letzten bytes rechnet.
+Wenn mann jetzt mal 99-80 rechnet kommt 19 raus.
+Und bei 00-80 kommt -20 raus !
+
+
+ /orsten
+
+FIDO:   9:0695/720.37
+e-Mail: qwkr@vhkdpz.rg-ekvjjz.yv

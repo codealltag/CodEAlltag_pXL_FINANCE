@@ -1,0 +1,26 @@
+Hallo Noah,
+
+vor
+Ich
+ein
+
+nach welcher Methode gehst Du vor, um die Anzahl der benoetigten
+Optionsscheine zu berechnen - ist es eine Entscheidung aus dem Bauch, quasi
+um ein gewisses Niveau abzusichern - oder gehst Du "more sophisticated" vor?
+
+Seit kurzem ueberlege ich, ein Depot abzusichern, und kann mich noch nicht
+fuer eine bestimmte Methode entscheiden.
+
+Bei wissenschaftlicher Vorgehensweise muesste ich wohl entweder die
+einzelnen underlyings absichern, bspw. mit long puts, oder ggf. einen
+"passenden" index finden, dabei die Korrelation der Papiere mit dem Index
+errechnen, um dann aufgrund des Bezugsverhaeltnisses die Anzahl der zu
+kaufenden puts herauszufinden.
+
+Ist dieses Vorgehen ueberhaupt praktikabel, oder scheitert diese Methode
+alleine daran, dass es zuviele Unwaegbarkeiten gibt, eg den Zins, die Vola,
+von der Korrelation ganz zu schweigen?
+
+Auf entsprechende Erfahrungen bin ich gespannt!
+
+gunter

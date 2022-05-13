@@ -1,0 +1,24 @@
+Hallo
+Die enttäuschende, lahme Flaig schmeiße ich raus. Dafür fälle ich
+mein Depot mit Äweleshof und Applix. Bei GOPR muß ich noch den genaueren
+Boersenplatz und den dazugehörigen Kurs finden. Jedoch sollte man jetzt sehr
+vorsichtig mit Internetwerten sein!
+
+Transaktionen:
+Art # Stck # Name             # WKNR   # EUR   # Boersenplatz
+V   # 051  # Äweleshof            # 839712  # 158E  # XETRA
+V   # 300  #DaimlerChrysler# 710000  # 68.2E # XETRA
+K   # 1300 # Applix            # 894647  # 15E   # -
+V   # 50    # Auryn             # 898138  # 80.5E # Flaesheim
+
+Mein Depot vom 31.5.99,
+Name             # WKNR   # Stck # Kauf-Kurs # Akt.Kurs # Summe
+Auryn              # 898138 # 250 # 76E         # 80.5E     # 20.125EUR
+Ebyrpnpme.efj  # 304850 # 500 # 40.5E      # 44E        # 22.000EUR
+GHCI     # 468303 # 300 # 61.5E      # 63E       # 18.900EUR
+Äweleshof             # 839712  # 150 # 158E       # 158E     # 23.700EUR
+Applix              # 894547 #1300 # 15E        # 15E       # 19.500EUR
+
+Cash 960 EUR
+Depotwert 104.225 EUR
+Gesamtwert 105.185 EUR

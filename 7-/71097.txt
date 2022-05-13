@@ -1,0 +1,26 @@
+Hi all,
+
+Ibolig (Imul) veroeffentlichte am 20.04.99
+seine Thesen zum Thema "Re: Umrechnung Volatilitaet".
+Dazu moechte ich folgendes abmuellen:
+
+
+Ist also die (implizite) Vola eines OS wirklich abhaengig von der Restlaufzeit?
+
+Zwei Optionsscheine mit bis auf die RLZ gleichen Bedingungen werden also
+zu unterschiedlichen impliziten Volatilitaeten gehandelt?
+
+z.B. Underlying = DAX, Strike = 5200
+
+OS_A, RLZ =  28 Tage, IV = X
+OS_B, RLZ = 728 Tage, IV = 30% = 0,3
+
+X = 0,3 * SQRT(28/728) = 0,06 = 6%
+
+Sorry, ich kann's nicht glauben...
+
+
+Ciao
+Patrick
+--
+## CrossPoint v3.11 R ##

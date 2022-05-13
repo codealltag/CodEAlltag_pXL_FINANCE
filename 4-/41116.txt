@@ -1,0 +1,39 @@
+Naja, es hängt auch noch mit privaten Erfahrungen zusammen, eine Bekannte
+hatte mal bei denen im Support gearbeitet. Ihre Vorkenntnisse waren recht
+bescheiden (Sie wusste, was Wind*** ist, wie man mehr oder minder damit
+arbeitet und das man besser die Finger von der Registry lässt, wenn man
+keine
+Ahnung davon hat). In der ersten Woche hatte Sie eine Arbeitsplatzschulung,
+nach der Sie immerhin wusste, was der Unterschied zwischen einem analogen
+Modem und einer ISDN-Karte ist. Weitere Schulungen erfolgten in Ihrer Zeit
+(2 Jahre) bei dem Laden keine (Wozu auch?: Techn. Support heißt dort nach-
+schauen in einer Stichwortdatenbank und ansonsten gibts ja noch ein paar
+Leute, die mehr von der Materie verstehen und hoffnungslos überlastet sind).
+
+Allein schon das Vergnügen, eine NT-Installation zu recovern, weil die SW
+von
+Nink in der damaligen Version unter keinen Umständen unter NT installiert
+werden durfte (Auskunft eines Technikers von Nink, an den ich nach immerhin
+einer
+Viertelstunde weiterverbunden wurde vor einer Installation, weil nirgendwo
+in
+der Doku und den Readme-Files ein Hinweis bezüglich NT zu finden war), ist
+nahezu grenzenlos! Zumindestens ein Hinweis in der Doku könnte schon mal
+Zeit, Nerven (Erklären, daß man sich nicht mit Standardantworten
+zufriedengibt)
+und Telefonkosten sparen.
+
+Mein Verständnis von einem vernünftigen Provider sieht so aus:
+- vernünftige Connectraten analog ( > 44 Kbit )
+- vernünftige Downloadraten (Analog > 4,5 KByte/sec | ISDN > 5,5 KByte/sec)
+- keine Downtimes bzw. entsprechende Redundanz (2. Knoten)
+- sehr gute Erreichbarkeit (ca. 1x Besetzt bei >100 Einwahlen pro Monat)
+- Schneller und kompetenter Support (Reaktionszeit auf Mail < 2 h in
+Bürozeit)
+- volle Einwahlmöglichkeit auch unter Linux
+
+Vorschlag: EOT
+
+Gruß
+
+Wilfried

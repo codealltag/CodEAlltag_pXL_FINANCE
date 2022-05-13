@@ -1,0 +1,27 @@
+Weiß jemand, warum die Daten des quoteservice bei ijysqqrzuplmc.ii nicht
+vollständig sind?
+So beginnen die alphabetisch geordneten Kursdaten (Solms) am 11.2.99
+mit
+
+<DTYYMMDD>;<OPEN>;<HIGH>;<LOW>;<CLOSE>;<VOLUME>;<OPENINT>
+GAZ.FSE;369424;6,5;6,53;6,5;6,53;1800;0
+GBF.FSE;369424;20,11;21,4;19,9;21,4;6850;0
+...
+und gehen bis
+...
+YYS.FSE;990930;16;16,1;15,9;16;5017;0
+ZPF.FSE;990930;33;33;33;33;900;0
+
+Am 12.2.99 gehen sie dagegen von
+
+<DTYYMMDD>;<OPEN>;<HIGH>;<LOW>;<CLOSE>;<VOLUME>;<OPENINT>
+BAS.FSE;334972;40,65;41,15;40,2;40,53;1547717;0
+U.FSE;334972;37,8;37,85;36,85;37,46;1296691;0
+...
+bis
+...
+OPC.FSE;991001;23;23;23;23;120;0
+OT5.FSE;991001;5,75;5,9;5,7;5,84;13690;0
+
+Jeden Tag völlig anders.
+Warum? Was habe ich übersehen?

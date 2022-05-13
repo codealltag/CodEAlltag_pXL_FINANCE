@@ -1,0 +1,9 @@
+Analog zu #TK. Nur sind WKN und Datum vertauscht. Ausserdem wird bei
+der Addition des ersten Feldes (also des Datums) der _negative_ Wert
+addiert. (der aelteste Wert steht also am Ende des Blocks). Unklar
+ist mir bei beiden Bloecken noch das mittlere Feld der #[TH]K-_Zeilen_.
+Also der '900' in zB '#TK(06.07.99;900;100)'. Koennte das der
+Boersenplatz sein? Wenn ja: wie ist der kodiert?
+
+-- 
+-- Benno Veit -- gd@uijmg.icyo.na --

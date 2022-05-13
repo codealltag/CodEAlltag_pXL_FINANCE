@@ -1,0 +1,16 @@
+Das sind VDAX-Subindices, die sich jeweils auf einen Optionsverfalltermin
+beziehen.
+VXF8 gibt also an, wie hoch die impl. Vola von Fön-X-Optionen mit Laufzeit 2/98
+ist. Die "Laufzeit" dieses Subindex endet also im Februar 1998.
+Um einen Index zu erhalten, der nie auslaeuft, wurde der VDAX konstruiert, der
+sich auf die impl. Vola von ATM-Optionen mit eienr Laufzeit von 45 Tagen
+bezieht. Zur Berechnung werden die beiden Subindices, die die Laufzeit von 45
+Tagen einschliessen, interpoliert.
+Das erwaehnte Dokument von der Kälble gibt Aufschluss darueber.
+
+FRERICH
+
+
+fpq@nih-acxhml.jr
+WARRANT ONLINE - http://ylw.umwetbxvqgqhj.oc/
+Stammdaten zu Optionsscheinen und Indexzertifikaten

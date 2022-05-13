@@ -1,0 +1,34 @@
+<vmpiwjsklcejl@tcyrjsktz.rre> schrieb im Newsbeitrag 
+news:5978505852.141813.7498@g03x8365abx.kvecfxjewgpu.khr...
+Ich möchte die Anlage hedgen, da ich im 6 Monaten auf den Betrag
+zugreifen muss (und mir keine Kursverluste leisten kann), jedoch davon
+ausgehe, das die Aktien bis dahin noch Potential haben.
+
+Es wäre nett, wenn mir jemand erklären könnte wie ich mir ausrechnen
+kann, wieviele OS ich brauche, und wie ich den OS auswähle.
+
+
+Anstatt der XY-Aktie einen Call Optionsschein,dessen Basisiwert ungefähr dem 
+aktuellen
+XY-Kurs entspricht.
+
+Oder eine Bonus Zertifikat für 6 Monate,dann hast Du bis zum unteren 
+Sicherheitsbereich eine Garantie
+auf den Ausgangskurs der XY Aktie.
+Falls es es zum weiteren Kursverfall kommt kannst Du noch zusätzlich eien 
+Put-OS nehmen,dessen
+Basiskurs unterm,gleich dem Sicherheitsbereich des Bonuszertifikats liegt.
+
+Du kannst auch einen DiscountCall nehmen (Fischbrötchen oder andere 
+ähnliche),für c.a. 6 Monate,unter Umständen zahlst Du
+überhaupt kein Aufgeld,allerdings sind DiscCalls vom europäischen Typ.Falls 
+der Kurs der XY-Aktie ansteigt,und
+sich dem Cap annähert verkaufst Du,und kaufst stattdessen ein anderen D.Call 
+mit höherer Basis und Cap.
+Die Preisdifferenz aus Verkauf und Kauf abzüglich der Unkosten ist Dein 
+Zwischengewinn,der Dir dann sicher ist.
+Falls es nach einem Kursanstieg zu einem Kursverfall der XY Aktie 
+kommt,kannst Du nicht mehr Geld verlieren,als den Preis
+für den Disc Call mit dem Du gerade investiert bist.
+
+ähnliche oben beschrieben kannst Du auch mit Knopfloch DRCT machen,sog.Exoten.

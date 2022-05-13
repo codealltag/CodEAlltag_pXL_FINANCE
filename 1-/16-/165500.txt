@@ -1,0 +1,41 @@
+[...]
+
+
+Delta, Gamma, Vega sind die "Greeks" des Optionshandels, beschreiben die 
+Sensitivitaet des Optionspreises hinsichtlich von Faktoren wie Vola, Zinsen 
+etc..
+
+Beta und Alpha druecken Relationen z.B. zwischen einer Aktie und dem 
+Gesamtmarkt, dargestellt etwa durch einen Index, aus.
+
+Du kannst die Rendite eines Wertpapiers in eine wertpapierbezogene Komponente 
+und eine marktbezogen Komponente aufteilen. Man spricht auch von 
+unsystematischer und systematischer Rendite.
+
+Das Alpha entspricht der von der Marktrendite unabhaenigigen Renditekomponente 
+der Aktie, also der unsystematischen Rendite.
+
+Das Beta beschreibt die Höhe des Einflusses der Marktrendite (etwa des 
+Indexes) auf eine Aktie, also der systematischen Rendite.
+
+Daraus ergibt sich:
+Aktienrendite=Alpha der Aktie+Beta der Aktie x Marktrendite.
+
+Errechnen kann man die beiden Werte mittels einer einfachen linearen 
+Regression. Man traegt dazu die Wertepaare der Aktienrendite und der 
+Gesamtmarktrendite in ein Koordinatensystem ein. Auf der Abzisse traegt man 
+die Rendite des Gesamtmarktes ab, auf der Ordinate die Aktienrendite. Dann 
+laegt man die Regressiongerade durch die dabei entstandene Punktewolke. Die 
+Steigung der Geraden entspricht dem Beta, der Abstand des Schnittpunkts der 
+Geraden mit der Odinate zum Ursprung des Koordinatensystems entspricht dem 
+Alpha. Sinn macht solch eine Berechnung nur dann, wenn die Aktie selbst 
+Bestandteil des Gesamtmarktes, etwa des Indexes ist. Also kein Alpha und Beta 
+von SG Carbon in Relation zum DAX berechnen, sondern zum DAX100. (SG Carbon 
+ist doch im DAX100, oder?) ;-)
+
+--Joachim
+
+
+--
+Joachim Wörnhör zqid@ibez.prc-dfuaekcnu.bm
+http://tiqyhhl.hlua.zzv-qfhettexw.yp/ZLKW/

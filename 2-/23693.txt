@@ -1,0 +1,21 @@
+Hallo User,
+
+
+eine meiner Klassen wird immer groesser.
+Wie kann ich sie auf verschiedene Units aufteilen?
+
+also z.B.
+
+
+type Triesengross = class
+
+procedure x
+procedure y => hol' sie dir aus unit2
+
+end;
+
+
+Danke!
+
+Sabine,
+http://HyyjzBbstcwnUcvi.ljn

@@ -1,0 +1,25 @@
+Hi !
+Ich hole mir taeglich ca. 180 Kurse vom MEE-Server und speichere sie
+in eine Text-Datei.
+Das Angebot bei *NWP# kostet allerdings 30Pf/Min.
+Dafuer klappt es reibungslos mit der Uebermittlung der Kurse und
+Umsaetze in eine Textdatei.
+Ich habe dafuer zwei Makro's. Das eine zum erstellen einer
+benutzerbezogenen Abrufliste, falls ich meine Liste einmal
+modifizieren oder ergaenzen will. Das andere Makro zum Abrufen und
+speichern in zwei Dateien. Eine Datei enthaelt nur die tagesaktuellen
+Kurse, die andere speichert die Tage hintereinander, so dass ich mir
+auch eine Kurshistorie anlegen kann.
+Ausserdem benutze ich ein weiteres Makro, mit dem ich zu einer
+festgelegten Zeit automatisch andere Makro's starten kann, da ich
+manchmal Tage oder Wochen nicht zuhause bin, aber auf den Kursabruf
+nicht verzichten will.
+Falls Du diese Makro's haben moechtest, kann ich sie Dir als Textfiles
+mailen.
+
+
+Viele Gruesse,    Clemens
+
+
+             Clemens May, Tbxrz
+             hjfpur@r-pskmov.na

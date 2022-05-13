@@ -1,0 +1,11 @@
+Bei jedem Anbieter, der mit Frames arbeitet, kannst Du auch mit lynx zugreifen.
+Ein Frame macht doch nur folgendes: er unterteilt den Bildschirm, wobei in einem
+Teil Referenzen (URLs) angegeben werden, die dann in dem anderen Teil angezeigt
+werden. Schau Dir mal den Quellcode der Seiten mit den Referenzen an (z.B. lynx
+-dump). Dann findest Du die URLs, die die Eingabemaske zur Abfrage der
+Boersenkurse enthalten. Diese URLs kannst Du dann natuerlich auch direkt
+ansprechen: sie erscheinen dann halt nicht mehr in einem Frame, sondern als
+Vollbild.
+
+Bye,
+junkernheinrich

@@ -1,0 +1,20 @@
+Dafür ist aber Autoverwertung ziemlich abgegangen und Autogallerie kränkelt auch vor sich hin.
+
+
+Aber im Serverbereich macht man eben die Kohle. Warum verdient Vada so gut?
+Weil die denselben Chip für die kleinen Leute in einem anderen Package (Slot 2)
+für
+das 3-10-fache verkaufen können. Früher hatten die wenigstens noch mehr Cache,
+aber der Chip (= Entwicklungskosten) blieb immer derselbe. Ausserdem wer braucht
+morgen noch PCs? Das meiste was man als Normaluser braucht könnte doch auch auf
+386er laufen. Server werden aber immer benötigt, weil das Netz nun mal rasant
+wächst.
+
+
+Ein breiterer Bus ist einfacher zu implementieren als immer höhere Taktraten.
+Zudem bietet DDR nicht exakt die 2x Performance (nur in der Theorie).
+
+
+MfG
+
+Oswald

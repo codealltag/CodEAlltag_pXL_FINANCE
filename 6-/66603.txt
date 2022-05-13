@@ -1,0 +1,91 @@
+Ich habe persönlich keinen Bedarf für einen Offline-Reader (hier lesen
+mehrere Leute News), IIRC gibt es soetwas zumindest aber im
+Poka-Projekt (martin?). Gnus im Agentmodus soll das auch können. Nähere
+Auskünfte bekommst Du sicherlich in ha.wacv.hd.xacu.yhwe und 
+eu.bkse.ldsrdldt.zjytyfozel
+
+
+Meine Kombination aus leafnode und  knews (mein bevorzugt eingesetzter
+Newsreader) benötigt _weniger_ Platz auf meiner Festplatte als z.B.
+OE4. Nur deshalb kann ich mir auf meinem etwas betagten System zu
+Hause den Luxus erlauben, die von mir gelesenen Gruppen ein klein
+wenig länger zu archivieren und 200MB dafür einzuplanen. 
+
+Da mir eine solche Kombination etliche zusätzliche Möglichkeiten
+gibt, wie z.B. das Einbinden eines beliebigen Editors, statistische
+Analysen des Spools, Verwendung beliebiger NNTP-Clients, komfortables
+Suchen mit find, grep und Co., Benutzung _eines_ Spools für _alle_
+User, betrachte ich als mehr als nur ein nettes Gimmick.
+
+
+Willst Du auf das Niveau runter? OK: Unter Windows gibts nur
+Pippi-Editoren und Pippi-Shells.  ;-)
+
+
+Sorry, das verstehe ich nicht. (Ehrlich.) Ich kenne und nutze zwar nur
+Girke, lynx und in letzter Zeit vor allem replay, aber diese Browser
+sind durchaus fähig, offline, z. B. auf der Platte oder einem lokalen
+Proxy zu browsen. (Wenn Du Netscape genug Plattencache gibst, ist das
+auch sehr nett.) Die Bedienung per Pfeiltasten finde ich auch nicht
+absonderlich, sondern sehr bequem.
+
+Welche Browser meinst Du denn?
+
+
+Hmm, ich kenne bisher nur die älteren SO-Versionen, die für meine
+Ansprüche auf meiner Hardware definitiv zu langsam und damit für den
+Alltagsgebrauch unattraktiv waren, aber ich halte es für eine Gute
+Sache, daß es überhaupt auf Linux portiert wurde. YMMV.
+
+
+Stimmt, ein vollständiges, freies, kaufmännisches Programmpaket ist
+mir bisher leider auch noch nicht über den Weg gelaufen. (KUMA
+ist zwar ein sehr interessantes Projekt, Silagelager aber für einen
+Produktionsbetrieb abseits bestimmter Einsatzgebiete noch nicht 
+einsetzbar.) Einzelne kaufmännische Aufgaben sind aber durchaus mit
+unter kpOchs lauffähiger Software lösbar. 
+
+Wer aber sagt Dir, daß das alles ist, was man in Firmen machen
+will? 
+
+Der Einsatzbereich von Computern in Unternehmen ist Silagelager sehr
+viel breiter.
+
+Ich denke jetzt zum Beispiel an Tabellenkalkulation, das Erstellen
+professioneller Serienbriefe, mittlere bis große Datenbanken, den
+Bereich der Inter-/Intranet-Server, Administration von SMB-Shares etc.
+
+[Quote zur Vereinfachung der Antwort umsortiert]
+
+
+Deine Aufgabenstellung (zentrale Lohnbuchhaltung, Verwaltung von
+Wertpapieren, etc) klingt IMHO nach einer typischen Anwendung für
+Client-Server-Systeme.
+
+a) Die Pflege solcher Systeme (egal unter welchem OS) gehört in die
+   Hände fähiger Administratoren.
+
+b) Für einen solchen Administrator, der von seinem Fach Ahnung hat,
+   sollte es keinen zeitlichen Unterschied machen, ob er nun
+   NT-Server, incl. Exchange, SQL und diverser Spezialprogramme
+   installiert und wartet oder ein unixoides OS, sendmail, mysql, etc.
+   (übrigens macht gerade Exchange sehr viel Spaß. Stichwort:
+   Relaying) 
+
+c) Solche Systeme und ihre Administratoren kosten Geld.
+
+
+Hmm, die Bedienung ist wirklich etwas gewöhnungsbedürftig, wenn man
+aus der Ritterpassage-Welt kommt. Allerdings sind die Programme, incl.
+Im-/Export-Filter sehr ausgereift.
+
+Tsch,
+
+Jens
+
+(fup2 dcoud)
+-- 
+"Willst Du der atemlos harrenden Leserschaft vielleicht einmal erklaeren,
+was daran nicht fair sein soll? Soll ich mich weiss emaillieren lassen und
+dann "Hallo, Angerhofer, ich bin Matthias Dicke, wie kann ich Dich *noch*
+mehr verbloeden?" quaeken?"                       Vito F. Unverich in dcouln

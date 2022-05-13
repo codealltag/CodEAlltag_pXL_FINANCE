@@ -1,0 +1,122 @@
+Wir nehmen zur Vereinfachung an, dass der Anleger A
+in jedem Jahr den gleichen Betrag WEJ ("Wert der Einzahlung
+pro Jahr") einzahlen kann.
+
+Der Anleger moechte waehrend seiner Lebenszeit moeglichst
+viel von der Anlageform X haben. Er ist also daran
+interessiert die Gesamtauszahlung WAG ("Wert der Auszahlung
+im Gesamten") waehrend seiner Lebenszeit
+zu maximieren. Wir nehmen an, dass er keinen Kredit erhaelt
+und sich maximal sein Guthaben auszahlen lassen kann.
+
+Wir nehmen zur Vereinfachung eine Anlageform X mit einer
+konstanten Verzinsung an, naemlich mit AZJ ("Anteil der
+Zinsen pro Jahr"). Ein Aktienanlage kann man dann naeherungsweise
+mit vielleicht AZJ = 0,1 (10% pro Jahr) approximieren.
+Da man ja die tatsaechliche Wertentwicklung der Zukunft nicht
+kennt, muss man irgendeine solche Annahme machen.
+
+Nun weiß der Anleger A nicht, wann er sterben wird. Daher
+kann er nicht erst kurz vor seinem Tod alles abheben. Daher
+eruebrigt es sich auch hier darueber nachzudenken, dass er
+dann ja auch nicht viel davon haette. Der Anleger moechte also
+den _Erwartungswert_ von WAG maximieren.
+
+Was ist Erwartungswert? Nehmen wir einmal an, ich erhalte
+mit 75 Jahren DEM 10.000,-- und die Wahrscheinlichkeit, dass
+ich das erleben sei 40%. Dann ist der Erwartungswert DEM 4.000,--.
+Dieser Wert koennte beispielsweise eine Basis darstellen,
+wenn ich das Recht verkaufen will. Ich verspreche jemanden
+die DEM 10.000,-- im Erlebensfall, wenn er mir jetzt Geld gibt,
+dann sind ca. DEM 4.000,- dafuer ein fairer Preis.
+
+Wenn ich jetzt Geld einzahle
+um später mehr abzuheben spekuliere ich eben auch darauf,
+dass ich es erlebe.
+Wenn ich mit 30 Jahren DEM 10000 abhebe, dann habe ich
+DEM 10000. Mit 40 kann ich vielleicht DEM 20000 abheben,
+aber offensichtlich mit einer geringeren Wahrscheinlichkeit,
+da ich u.U. dann schon tot bin. Daher entspricht den
+DEM 20000 ein kleinerer Erwartungswert.
+
+Der Wert einer Anlage X am Ende des Jahres J ist WXE(J).
+Er errechnet sich aus dem Wert WXA(J) der
+Anlage am Jahresanfang des Jahres J unter der
+inneren zeitlichen Propagatorfunktion FXJ(J) der Anlageform X
+FXJ(J)(WXA(J)):=WXA(J)*(1+AZJ)
+und der Einzahlungen WEJ, also
+WXA(J+1) = FXJ(J)(WXA(J)) + WEJ
+=WXA(J)*(1+AZJ) + WEJ.
+WXA(J) = Wert der Anlage am Anfang des Jahres J
+FXJ(J) = zeitlicher Propagator der Anlageform X im Jahr J
+
+Wir wollen nun eine Funktion WAJ(t) ermitteln,
+welche die Abhebungen so bestimmt, daß der Erwartungswert
+von WAG maximal wird. Der Anfang der Zeitzaehlung
+ist dabei einfacherweise die Geburt des Anlegers.
+WAG = Wert der Auszahlung waehrend des Lebens insgesamt
+WAJ(J) = Wert der Auszahlung im Jahr J
+
+Wir kommen nun zur einer Art von Funktionalgleichung zur
+Bestimmung von WAJ.
+
+Wir wollen jetzt den Erwartungswert von WAG notieren.
+WAG = SUMME( j = 0, j = unendlich, PEL( j ) * WAJ( j )),
+mit PEL = Propabilitaet (=Wahrscheinlichkeit)
+des Erlebens des Jahres j. PEL sollte man eigentlich
+aus einer Sterbetafel übernehmen. Anleger können
+wahrscheinlich recht günstig eine Versicherung abschliessen,
+die ihnen eine ausreichende Rente ab dem 128ten
+Lebensjahr zahlt. Daher koennen wir rechnen mit
+WAG = SUMME( j = 0, 127, PEL(j ) * WAJ( j )).
+(Ein kleiner Programmierertrick: Jetzt kann j mit nur
+7 Bit abgespeichert werden :-)
+
+Die Funktionalgeleichung fuer WAJ sollte nun vielleicht
+mit Variationsrechnung geloest werden. Leider ist es
+schon so lange her, dass wir das in der Schule hatten.
+Daher werde ich mal eine Excel-Tabelle anlegen
+und einige Funktionen ausprobieren (konstante Abhebungen
+pro Jahr, Exponentialfunktion, Logarithmus, linear-affin u.s.w.).
+
+Hier ein erstes Ergebnis meiner Experimente mit Excel:
+Wenn ich jedes Jahr DEM 100,- (oder einen anderen konstanten
+Betrag) einzahle und 10% Zinsen
+pro Jahr erhalte (Optimist!) und jedes Jahr einen konstanten
+Teil meiner Einzahlungen abheben will, dann optimiere
+ich den Erwartungswert der Gesamtauszahlungen waehrend meiner
+Lebenszeit, indem ich in jedem Jahr 1,92 Prozent von meiner
+Anlage abhebe. Ich muß aber noch mit nicht-konstanten
+Abhebefunktionen expermentieren, mit denen man den
+Erwartungswert vielleicht noch weiter optimieren kann.
+
+Nach 10 Jahren übersteigen die Auszahlungen erstmals die
+Einzahlungen. Bei nur 5% Zinsen hebt man optimal in
+jedem Jahr 3% ab. In diesem Falle übersteigen die Auszahlungen
+nach 14 Jahren erstmals die Einzahlungen. Bei 3% Zinsen,
+hebt man 5,25% pro Jahr ab und muss 16 Jahre warten bis
+die Auszahlungen groesser als 100 sind. Ab ca. weniger als
+2,5% Zinsen ist es besser alles Geld gleich auszugeben
+als es anzulegen. Hierbei ist noch nicht einmal beruecksichtig,
+dass man von einem frueher gekauften Auto/Urlaub/Computer
+usw. auch mehr Nutzen hat. Auch die Inflation ist noch
+nicht beruecksichtigt. Man kann daher schaetzen, dass sich
+Geldanlage erst ab ca. 5% pro Jahr lohnt und es sonst
+besser ist das Geld direkt auszugeben. Ausserdem sollte man
+jedes Jahr einen Teil seiner Gewinne ausgeben, da man sonst
+im Todesfall immer nur in sein Depot gezahlt hat ohne etwas
+davon gehabt zu haben. Dann haette man sein Geld ja auch
+direkt wegwerfen koennen.  OK - an den
+Versicherungsaspekt hinsichtlich Erwerbsunfaehigkeit (z.B.
+wegen Alter) habe ich jetzt nicht gedacht. Aber wer erst
+mit 70 Jahren beginnen will abzuheben, hat ein ziemlich
+hohes Risiko alles zu verlieren, da er ja vorher versterben kann.
+Gut, wer Kinder hat denkt da vielleicht auch wieder anders.
+
+Viele Gruesse
+
+Niko Volgge
+
+
+Sent via Känguruh http://gkr.gytr.ufw/
+Before you buy.

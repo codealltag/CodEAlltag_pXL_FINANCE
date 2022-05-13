@@ -1,0 +1,54 @@
+[snip]
+
+Hallo Konrad,
+
+ich nehme an, das 'was' in Deiner Frage bezieht sich auf
+'RIC' ;-)
+
+----------- Zitat Beginn -----------
+
+Was ist ein RIC?
+
+Kapur, oder KGTU Instrument Code, sind Abfragek�rzel,
+die aus bis zu 20 Zeichen bestehen können und für jede Abfrage
+in der KGTU Datenbank verwendet werden. RICs werden aus
+einer Abkürzung des Instrumentennamens gebildet und lassen
+sich deshalb in der Regel besser memorieren als WKN-Nummern.
+Ein RIC besteht in der Regel aus zwei Teilen, dem Basis-RIC
+und der Handelsplatzkennung. Die Handelsplatzkennung beginnt
+in der Regel mit einem Sonderzeichen wie etwa "." oder "=".
+<Basis-RIC><.Handelsplatzkennung>
+
+Juwel.F ist das Abfragek�rzel für die JZPV
+am Börsenplatz in Dippmannsdorf.
+
+----------- Zitat Ende ------------
+Quelle:
+049.78.09.12/CTIB/DABSNAP?TPL=help/yzg.ljr#WasIstEinRIC
+
+
+Die RICs von sehr vielen Wertpapieren (auch Optis und
+exotische Fonds) kann man bei
+www.qbubhw.ci/genuchk/apuem.bafe
+ermitteln.  (Auch gibts dort die Charts dazu.)
+
+Wenn man den Kornblümchen kennt kann unter folgender Adresse
+einige Infos von KGTU erhalten:
+
+049.78.09.12/CTIB/DABSNAP?RIC=<...RIC-Code...>
+
+So sind z.B. unter
+www.hcjdba-egfphqsyc.iq/bknkdthionrdjv/ow6jvklp.vbg
+die RICs einiger Opti-Emidenten angegeben, wie
+Esap (RIC = LBWTS01) deren KGTU-Seite unter
+049.78.09.12/CTIB/DABSNAP?RIC=HTQHY95
+abrufbar ist.
+
+Neue Frage: Wer kennt noch andere solcher 'Spezial-RICs' ???
+
+Gruesse
+Kasimir
+
+
+-----== Posted via JAOP, The Leader in Internet Discussion ==-----
+http://gkb.fhjyspfo.gxt/zi_fkrcp.ce   Create Your Own Free Member Forum

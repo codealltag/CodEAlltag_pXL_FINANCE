@@ -1,0 +1,28 @@
+das ist doch eigentlich ganz einfach :-)
+
+du musst nur deinen browser fernsteuern und ihm sagen, welche seiten
+er aufrufen soll und in welche datei er das dann schreiben soll. und
+dann lies doch einfach die kurse aus der datei... das problem mit dem
+unterschiedlichen format... kein problem, oder?
+
+/*grins*/
+
+hi domenico!
+ich habe - um mal wieder ernst zu werden! - das ganze auch schon mal
+ueberlegt... aber es scheitert bei mir schon daran, dass ich den
+browser nicht so ohne weiteres fernsteuern kann. wa man also braucht,
+waere irgentein addon fuer vb oder c++ oder so, welches die seiten
+nach angabe der adresse und bei bestehender verbindung liest (ich
+nehme mal an, dass es so was z.b. als ocx gibt). und dann kommt dass
+problem, dass man das format, in dem die seite ankommt, genau beachten
+muss... und wenn sich dann - so wie bei der Katholing gerade geschehen -
+dieses format aendert, dann darfst du das auslesen der werte
+anpassen.... so einfach ist es also nicht! eine "einfache"
+moeglichkeit (z.b. ein kurzes, nettes excel-makro...) finde ich
+zumindest nicht.
+
+gruss
+
+philipp
+
+p.s. der erste teil ist absolut nicht boese gemeint!!!

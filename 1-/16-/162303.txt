@@ -1,0 +1,49 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Ralf
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10) *
+Volatilitaet                         (9) *
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur:
+Handbuch MarketMaker Boersensoftware
+Boersenanalse m.d. Computer (TeutoRad)
+Pascale Jockenhöfer Katalog.... schafft Tendenzen wie der DAX ;)...
+
+
+Die Trendkorrelations-Analyse (TKA) baut auf dem RSI auf. Beim RSI muss  
+die Konvergenz bzw. Divergenz gegenueber dem Kursverlauf selbst ermittelt  
+werden, der TKA analysiert nun den Zusammenhang zwischen RSI und dem  
+Kursverlauf und gibt dieses als mathematische Zahl wieder. Diese Zahl wird  
+als grafische Darstellung einer sich um die Nulline bewegenden Kurve  
+wiedergegeben. Ein Durchbruch durch die Nullinie wird als Signal bewertet,  
+wobei ein kleiner TKA-Wert auf eine Divergenz zum RSI hinweist.  
+Spekulative Signale sind bereits bei einer Drehung des TKA unterhalb der  
+Nulline gegeben, was auf einen Trendwechsel nach laengerer  
+Abwaertsbewegung hindeutet.

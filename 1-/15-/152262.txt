@@ -1,0 +1,25 @@
+Da gibt es jede Menge Formeln, - nur die fuer alle Situationen perfekte 
+gibt es nicht. Die allereinfachste geht so:
+
+Wenn Bezugskurs+OS-Kurs zusammen unter dem Kurs des 
+zugrundeliegenden Wertes liegen, dann ist der OS zu billig und 
+kaufen und ausueben bringt einen softortigen Arbitragegewinn. 
+Deshalb wird dies in der Regel nie der Fall sein. 
+(Unterstellt der OS ist ein Call, er bezieht sich auf genau 1 Stueck 
+und es ist keine exotische Konstruktion - es gibt da leider inzwischen
+so viele Ausnahmen und Sonderfaelle).
+
+Wenn Bezugskurs+OS-Kurs zusammen dagegen ueber dem Kurs des 
+zugrundeliegenden Wertes liegen, dann kommt es darauf an, d.h. dann 
+wird es komplizierter.
+
+Die bekannteste der gehobenen OS-Formeln ist die Black/Scholes
+Formel. Zu kompliziert zum Kopfrechnen und ausserdem muss man dazu 
+erst Grundbegriffe wie z.B. Volatilitaet kennenlernen.
+Auf unserer Homepage (siehe unten) findest du ein einfaches Freeware-
+Programm (Windows) mit Anleitung dazu.
+
+
+Ulf
+Visit   http://buowgjg.pmc.djf/biroqc  and download a 
+free calculator for options, futures, bonds and similar stuff.

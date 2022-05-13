@@ -1,0 +1,18 @@
+: Ich hatte eigentlich immer gedacht, daß zu Bid bzw. Ask tatsächlich Angebot
+: bzw. Nachfrage besteht?
+
+: Habe heute aber auch zu 68 kaufen wollen, Bid war 64, Ask war 68 (Realtime),
+: trotzdem war der nächste, festgestellte Kurs 69 und meine Order nicht
+: ausgeführt :-(
+
+ist da dann evtl. eine dicke kauforder zu 69 "gleichzeitig" oder
+bruchteile früher eingegangen und der kurs wurde dann zu 69 festgelegt
+damit diese order ausgeführt und der maximale umsatz gemacht wird.
+Oder wenn es ein makler ist, kann es gut sein, dass er sich (wie schreibt
+ihr das so schön) wegen einer kleinstorder nicht herunterb�ckt um einen
+kurs zu stellen, sondern erst dann wenn die große order zu 69 kommt.
+Der kurs kann also auch ausserhalb liegen, selbst wenn zu diesen
+werten echt angebot/nachfrage bestehen.
+
+gruss,
+arian

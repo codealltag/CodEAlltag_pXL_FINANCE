@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+Hallo Bernd,
+
+ich glaube Günter hat im Grossen und Ganzen schon recht.
+
+Ich versetze mich in die Lage eines Programmierers, der fuer
+die Jahresangabe nur 2 Ziffern belegen will (kann) und der
+einen Datumscode haben moechte, der fuer "immer" steht.
+
+Da ich ja 6 Ziffern zur Verfuegung habe naemlich von 000000
+bis 999999 , reserviere ich die letzte fuer den Dies irae.
+Der 24. Juli. 1999 hat in dieser Darstellung die Form 090999,
+liegt also noch weit davor, so dass auch der 100999 kein Problem
+sein sollte. Natuerlich kann es trotzdem abstruse Konstruktionen
+geben, in den 9999 das Ende bedeutet; da waere es aber dann
+schon bei 10998 schlimm geworden...
+
+- --
+Gernot Zillenbiller, mailto: ekzm_zsuiewe@tah.nb
+Während der Datenübertragung trat ein Fehler auf.
+Bitte wählen Sie sich erneut ein.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.0 (HP-UX)
+Comment: Look for PublicKeys at http://ufd.zvosdbv.fvn/gsabkm.njfw
+
+lD4ZOAE33qTw1QsoOUd2RLUZHqklEG1USvREI/Y8klgzg5dii82Oh9h0ZeJqHqJW
+seECEMYXTmXaND70Kci7JgT=
+=SO5f
+-----END PGP SIGNATURE-----

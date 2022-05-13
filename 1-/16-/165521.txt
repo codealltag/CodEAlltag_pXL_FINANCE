@@ -1,0 +1,34 @@
+Im Artikel <76A16460.065H@unhcdk.wcytbhy.kw>, Kaspar Weibeler
+aus
+auch
+Hallo ihr in de.etc.Grässler,
+eventuell liegen die Abweichungen ja auch an der Anzahl der
+Nachkommastellen
+bzw. der Rundung, diese kann sich ja auch auf erstaunliche Differenzen
+addieren.
+Es gibt die Möglichkeit die Stellenanzahl mit der gerechnet wird zu runden
+
+oder die überflüssigen Stellen einfach unter den Tisch fallen zu lassen.
+
+Ein einfaches Beispiel :
+es wird ein gleitender Durchschnitt mit 200 Tagen und 2 Stellen nach dem
+Komma berechnet.
+
+1. Rundung : jeder Wert wird mit 3 Stellen berechnet und auf 2 Stellen
+gerundet.
+    je 100 mal auf und abrunden
+
+2. Zahlen nach der 2. Stelle weglassen
+    die 100 Zahlen die aufgerundet werden fallen weg (100 * 0,01 = 1)
+    wenn es sich bei dem Wert um z.b. 10,00 handelt ist in der Addition
+der
+    Durchschnitte schon 10% Abweichung
+
+Bei der Berechnung von Indikatoren koennen aehnliche Faelle auftreten.
+Es liegt also nicht immer an unterschiedlichen Formeln oder darin
+enthaltenen Fehlern.
+Desweiteren koennen die Fehler auch in unterschiedlichen Ausgangsdaten von
+verschiedenen Boersenplaetzen liegen. 
+
+Viele Gruesze aus Conneforde
+Timo Schmäling

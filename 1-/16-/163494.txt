@@ -1,0 +1,54 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Florian
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9)
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6)
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7)
+On-Balance-Volumen (OBV)             (4)
+Kurs-Volumen-Trend (KVT)             (8)
+Gleitender Durchschnitt              (5)
+
+
+Literatur:
+Handbuch MarketMaker Boersensoftware
+RPC ;)... fuer den Fall, dass es mal fuer mehr, als zum         
+                      Apfelsinenkistenstiel reichen wird....
+
+
+Der Ueberkauft/Ueberverkauft Indikator ist als kurzfristiger Indikator zu  
+betrachten und stellt eine Momentaufnahme des Marktes da.
+
+In seiner Darstellung pendelt die Kurslinie zwischen 0% und 100%, wobei  
+der Bereich zwischen 30% und 70% keine Bewertung zulaesst. Bei  
+Durchbruechen wird davon ausgegangen, dass ein ueberverkaufter Wert-Index  
+< 30% kurzfristig im Kurs steigt, waehrend ein ueberkaufter Wert-Index >  
+70% kurzfristig keine weitere Kurssteigerung erwarten laesst.
+
+Bisher konnte ich nicht ermitteln, ob sich die Heftigkeit (Steigungswinkel  
+des Indikators) des Durchbruchs als Gratmesser fuer die Staerke der zu  
+erwartende Gegenreaktion verwenden laesst, auch findet dieser Oszillator  
+allenfalls in der Beimischung zu anderen Indikatoren seine Anwendung.  
+Ebenfalls unklar blieb, ob der Indikator auch bei Aktien oder  
+hauptsaechlich auf Indices eingesetzt werden sollte.

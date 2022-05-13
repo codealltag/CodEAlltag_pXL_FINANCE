@@ -1,0 +1,27 @@
+Dr. Beat Väterlein schrieb in Nachricht ...
+Fax
+Hallo!
+
+Nicht-technische Erklaerung:
+
+TAN-Listen werden mit einem Zufalsgenerator erzeugt.
+
+Ein "guter" Zufallsgenerator erzeugt Zahlenkollonen bei
+der aus einer Reihe vorliegender Zahlen (etwa einige
+erspähte TANs) nicht die zukuenftig folgenden berechnet
+werden koennen.
+
+In der Vergangenheit haben sich jedoch oft Implementierungen
+(also die programmtechnische Umsetzung) von Zufallsgeneratoren
+als fehlerhaft erwiesen (etwa der zur Verschluesselung benutzte
+Zufallsgenerator in einer alten Kluckhuhn-Version). In einem solchen
+Fall kann es durchaus moeglich sein die zukuenftigen Ergebnisse bzw.
+TANs zu berechnen. Das Verfahren waere damit kompromitiert.
+
+In der Vergangenheit gab es tatsaechlich mal Geruechte dass es
+findigen Menschen gelungen sei, die vom Bank-Verlag generierten
+TANs zu berechnen. Aber nix genaues weis man nicht.
+
+
+Mit freundlichen Gruessen,
+Cornelius Naeser

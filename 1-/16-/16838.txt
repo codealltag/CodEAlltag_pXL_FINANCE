@@ -1,0 +1,20 @@
+Ich hab mir dies noch mal durch den Kopf gehen lassen.
+Aus der Bestimmung der impliziten, also der rückgerechneten
+Volatilität, ausgehend von fairen Preisen (d.h. Marktpreisen, z.B.
+Optionen) kennt man dieses Phänomen des Volatilitäts-Smile. D.h. es
+gibt in der Praxis im Gegensatz zur Volatilitätkonstanten in der
+Modellannahme eine Abhängigkeit der Volatilität vom inneren Wert:
+
+V =3D V(I)
+
+Wenn diese Abhängigkeit formelmäszig fassbar ist, könnte man diese
+auch bei den Berechnungen der angenommenen Volatilitäten durch die
+OS-Emittenten heranziehen und es ergäben sich die von mir monierten
+unterschiedlichen Volatilitäten. In diesem Lichte erscheinen die
+Volatitlitätsfestsetzungen schon nicht mehr ganz so willkürlich. Aber
+ist dies so? Und wie lautet dann die Formel V =3D V(I) damits der Käufer
+nachvollziehen kann?
+Vielleicht ist ja meine Grundannahme falsch, die Emittenten könnten
+die Vola völlig frei nach ihrem eigenen Ermessen festlegen?
+
+mfg pierre

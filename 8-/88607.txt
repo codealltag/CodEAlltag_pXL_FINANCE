@@ -1,0 +1,60 @@
+Am Tue, 28. 03. 23 10:13:14 +0200, pinseltest Du:
+
+
+Ist DAS hier nicht OFFTOPIC?
+
+Aber vielleich hilft es ja....
+
+Es gibt wahrscheinlich elegantere Formeln, aber ich wuerde es so
+machen:
+
+                  A                         B
+ 1   Durchschnitt:
+ 2   =SUMME(B:B)/ANZAHL(B:B)
+ 3
+ 4              Werte
+ 5                2
+ 6                3                  =(A6-A5)/A5*100
+ 7                6                  =(A7-A6)/A6*100
+ 8                7                  =(A8-A7)/A7*100
+ 9                1                  =(A9-A8)/A8*100
+ 10               9                  =(A10-A9)/A9*100
+ 11               7                  =(A11-A10)/A10*100
+
+hier dann einfach mit autoausfuellen ziehen ^^^^^^^^
+
+Das sieht dann mit Zahlen so aus:
+
+           A            B   
+ 1   Durchschnitt:
+ 2    143,1216931
+ 3
+ 4       Werte
+ 5         2
+ 6         3               50
+ 7         6              100
+ 8         7        16,666667
+ 9         1        -85,71429
+ 10        9              800
+ 11        7        -22,22222
+                    ^^^^^^^^^^ 
+Die Spalte B koennte man ja auf 2 Kommastellen einstellen...
+
+und jetzt die Gegenprobe :
+
+           A            B
+ 1   Durchschnitt:
+ 2        100
+ 3
+ 4       Werte
+ 5         1
+ 6         2              100
+ 7         4              100
+ 8         8              100
+ 9        16              100
+ 10       32              100
+ 11       64              100
+
+...scheint zu funktionieren!  :)
+
+Gruss, Vito

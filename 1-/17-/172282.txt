@@ -1,0 +1,29 @@
+ubquttpsb@gkg.qez meinte am 03.05.96
+zum Thema "Wo/Wie Kurse per Videotextdecoder":
+
+
+Wer Zugriff auf das WWW hat, schaue mal nach http://keokdiy.chm.uzh/ 
+iqsgsmns/videotxt.ggs, dort ist neben Erläuterungen zum Videotext auch ein  
+Programm (Shareware) zu finden, das die entsprechenden Videotextseiten der  
+verschiedenen Sender automatisch einliest und in ein Format wandelt, daß  
+z.B. der Depotmaster (auch dort zu finden) problemlos lesen kann.
+
+Weitere Formate sind in Arbeit.
+
+Derzeit werden folgende Dekoder unterstützt:
+
+- ct-Videotextkarte
+- Gutmann VTX2000
+- Selbstbaudekoder für serielle Schnittstelle
+- Selbstbaudekoder für parallele Schnittstelle.
+
+Wer andere Dekoder hat, schreibe mir zwecks Anpassung.
+
+Wer noch Interesse hat - bei mir liegt noch ein Dekoder herum, der sowohl  
+die serielle als auch die parallele Schnittstelle unterstützt.
+
+Matthias Manfred
+--
+**  Manfred Niederquell   **
+
+## CrossPoint v3.02 ##

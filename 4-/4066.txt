@@ -1,0 +1,92 @@
+Visual Basic 2010 Roulette Permanenz Tafel programmieren Aichmeier
+Altfatter
+Video http://atj.nxlebwd.hgt/dvxfz?p=2HIip1dhmr_2D
+
+Author B.Altfatter
+Heute zeige ich Ihnen, wie man eine aktive Permanenztafel
+programmiert. Eine Permanenztafel kennen Sie, wenn Sie schon mal im
+Casino waren. Über dem Roulettekessel hängt immer eine Tafel, auf der
+die letzten gefallenen Pleinzahlen eingetragen werden, links die roten
+und rechts die schwarzen Zahlen. Nach jedem Coup wird diese
+Permanenztafel refresht. Und so etwas zeige ich Ihnen hier jetzt auch,
+wie man so etwas ganz einfach programmiert.
+Wir brauchen nur ein Bild über einen Roulettekessel, wo die roten und
+schwarzen Zahlen sichtbar sind. Ich mache es hier dann mit
+Zufallszahlen, die jeweils eingegeben werden und die dann
+ordnungsgemäss auf der Permanenztafel sortiert ausgegeben werden,
+sortiert nach rot und schwarz.
+Natürlich kann man auch x-beliebig weitersortieren, nach Dutzenden
+oder Serien, egal was man will.
+Was wir brauchen ist also lediglich ein Bild und einen Code.
+Nun lade ich mal ein Bild mit einem Roulettekessel auf die Form und
+setze darauf einen Button Zahlen, mit dem wir immer wieder neue Zahlen
+nach der Zufallsmethode eingeben können. Das sieht dann auf der Form
+so aus.
+Nun der Code. Mann kann hier nichtr im 2-er Schritt arbeiten, da z.B.
+die Zahlen 10 und 11 schwarz, sowie 28 und 29 schwarz und 18 und 19
+sind rot usw. sind, ausserdem 0 ist grün.
+Der Code lautet also:
+       Zeichnen =3D Me.CreateGraphics
+
+        Dim Fünf_Zufallszahlen(5) As String
+        Dim Farben(4) As String
+        Farben(1) =3D "Color.Green" 'für 0 Zero
+        Farben(2) =3D "Color.Red"   'für die ROTEN Zahlen
+        Farben(3) =3D "Color.Black" 'für die SCHWARZEN Zahlen
+        Dim UnserBild(2) As Object
+        Dim DasUnserBild(2, 2) As String
+
+        Fünf_Zufallszahlen(5) _
+            =3D InputBox("ZufallsZahlen", _
+                       "Zufallszahlen", Int(Rnd() * 36))
+
+        For RoteSchwarzeZahlenAuslesen =3D 0 To 36
+            For Fünferblock =3D 1 To 5
+                If Fünf_Zufallszahlen(RoteSchwarzeZahlenAuslesen) _
+                    =3D Farben(2) Then
+                    Fünf_Zufallszahlen(Fünferblock) =3D Farben(2)
+                ElseIf Fünf_Zufallszahlen(RoteSchwarzeZahlenAuslesen)
+_
+                     =3D Farben(3) Then
+                    Fünf_Zufallszahlen(Fünferblock) _
+                        =3D Farben(3)
+                Else : Fünf_Zufallszahlen(Fünferblock) _
+                    =3D Farben(1)
+                End If
+                UnserBild(1) =3D Farben(Fünferblock)
+                If UnserBild(1) =3D Farben(2) Then _
+                   DasUnserBild(1, Farben(2)) _
+                   =3D DasUnserBild(1, Farben(2))
+                If UnserBild(1) =3D Farben(2) Then _
+                    DasUnserBild(2, Farben(2)) _
+                    =3D DasUnserBild(2, 255)
+                If UnserBild(1) =3D Farben(3) Then _
+                    DasUnserBild(1, Farben(3)) _
+                    =3D DasUnserBild(1, Farben(3))
+                If UnserBild(1) =3D Farben(3) Then _
+                    DasUnserBild(2, Farben(3)) _
+                    =3D DasUnserBild(2, 510)
+            Next Fünferblock
+        Next RoteSchwarzeZahlenAuslesen
+
+        Zeichnen.DrawString(Fünf_Zufallszahlen, _
+                 Farben(UnserBild(1)), _
+                 DasUnserBild(UnserBild(1), _
+                 DasUnserBild(UnserBild(1), 2)))
+        Zeichnen.DrawImage(Fünf_Zufallszahlen, _
+                 Farben(UnserBild(1)), _
+                 DasUnserBild(UnserBild(1), _
+                 DasUnserBild(UnserBild(1), 2)))
+
+Wegen der Zeit und weil das Video sonst zulange würde, schalte ich die
+Aufzeichnung jetzt aus und schreibe den Code und lasse die
+Aufzeichnung weiterlaufen, langsam, sodass Sie den Code ganz einfach
+abschreiben können. Ggf. halten Sie das Video an, die Schrift ist
+gross genug.
+
+Das wars eigentlich schon. Jetzt starten wir mal und es müssten die
+Zahlen geordnet nach Farben, daneben ein kleines Bildchen, in der
+Permanenztafel erscheinen.
+
+Das wars dann.
+Altfatter

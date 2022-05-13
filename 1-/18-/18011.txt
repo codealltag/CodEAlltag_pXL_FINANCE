@@ -1,0 +1,5 @@
+Bescheiden würde ich die nicht nennen:
+bli@bli:~$ echo "1.1^10"|bc -l
+2.5937424601
+-- 
+bli

@@ -1,0 +1,185 @@
+Roulette =96 The Millionencoup=A9
+Author D.Isermann
+
+
+Die Satzweisen
+P lei n
+Ein Jeton wird auf eine beliebige einzelne Zahl von 0 bis 36 gesetzt.
+Plazieren Sie den Jeton direkt auf der gewünschten Zahl. Im Falle
+eines Treffers erhalten Sie 35 Mal Ihren Einsatz als Gewinn, plus
+Ihren Einsatz, also das 36fache.
+Cheval
+Ein Jeton wird auf zwei benachbarte Zahlen gesetzt. Plazieren Sie den
+Jeton auf der Linie zwischen den beiden Zahlen. Ein Jeton kann auch
+auf der Linie zwischen 0 und 1, 2 und 0 oder 0 und 3 platziert werden.
+Im Falle eines Treffers erhalten Sie 17 Mal Ihren Einsatz als Gewinn,
+plus Ihren Einsatz, also das 18fache.
+Transversale Plein
+Bei dieser Chance setzen Sie auf drei Zahlen gleichzeitig. Platzieren
+Sie
+den Jeton auf der rechten Begrenzungslinie des Tisches neben der
+gewünschten Dreier-Zahlenreihe. Es gibt auch Einsatzmöglichkeiten für
+
+die Transversale Plein: 0, 1, 2 und 0, 2, 3. Im Falle eines Treffers
+erhalten Sie 11 Mal Ihren Einsatz als Gewinn, plus Ihren Einsatz, also
+das 12fache.
+
+Carr=E9
+Bei dieser Chance setzen Sie auf vier Zahlen gleichzeitig. Platzieren
+Sie den Jeton auf dem Kreuz, an dem sich die vier Zahlen berühren. Sie
+können auch auf 0, 1, 2, 3 setzen, indem Sie den Jeton auf der oberen
+rechten Begrenzungslinie des Roulettetisches zwischen 0 und 3
+platzieren. Im Falle eines Treffers erhalten Sie 8 Mal Ihren Einsatz
+als Gewinn, plus Ihren Einsatz, also das 9fache.
+Transversale Simple
+Transversale Simple setzt sich aus zwei Transversale Plein zusammen
+(d. h. aus sechs verschiedenen Zahlen in zwei Dreierreihen). Beispiel:
+4,5,6 + 7,8,9). Der Jeton wird auf der nächsten Begrenzungslinie des
+Roulettetisches an der Stelle platziert, an der die Begrenzungslinie
+die Trennlinie zwischen den beiden Zahlenreihen kreuzt. Im Falle eines
+Treffers erhalten Sie 5 Mal Ihren Einsatz als Gewinn, plus Ihren
+Einsatz, also das 6fache.
+
+
+Am unteren Ende des Tisches befinden sich drei Felder. Wenn Sie einen
+Jeton in einem dieser Felder platzieren, setzen Sie auf die zwölf
+Zahlen über dem betreffenden Feld (ohne Zero). Im Falle eines Treffers
+erhalten Sie 2 Mal Ihren Einsatz als Gewinn, plus Ihren Einsatz, also
+das 3fache.
+
+Dutzend
+Beim Amerikanischen Roulette gibt es Felder mit der Aufschrift 1st,
+2nd und 3rd. Die entsprechenden Felder auf dem Französischen
+Roulettetisch befinden sich in zwei Bereichen und haben die Aufschrift
+12P (1. Dutzend), 12M (2. Dutzend) und 12D (3. Dutzend). Im Falle
+eines Treffers erhalten Sie 2 Mal Ihren Einsatz als Gewinn, plus Ihren
+Einsatz, also das 3fache.
+Einfache Chancen (Rot/Schwarz, Gerade/Ungerade, Manque/Passe)
+Die Einsatzfelder an der rechten oder linken Längsseite des Tisches
+bezeichnet man als Einfache Chancen und die decken jeweils die Hälfte
+der Zahlen ab (ohne Zero). Sie setzen also in jedem der Felder auf 18
+Zahlen. Im Falle eines Treffers erhalten Sie 1 Mal Ihren Einsatz als
+Gewinn, plus Ihren Einsatz, also das 2fache.
+Gesetzt werden Jetons zu verschiedenen Werten, diese nennt man auch
+Stücke. Die Stücke haben einen Wert von 1,-, 5,-, 10,-, 25,-, 100,-,
+oder 500,-=80. Wenn ich also von Gewinnen in Stücken spreche, entspricht
+das in echt den Wert, den Sie setzen. Also, wenn Sie ein Stück zu
+einem Wert von einem Euro setzen und gewinnen zwei Stücke dazu, dann
+haben Sie 2,-=80 dazu gewonnen. Wenn der Wert des Stückes,
+
+dass Sie setzen 25,-=80 hat und Sie zwei Stücke gewinnen, haben Sie 50,-
+=80 gewonnen.
+Mathematik
+Kommen wir nun zu dem eigentlichen System. Es basiert auf Mathematik.
+Aus der Rouletteforschung ist bekannt, dass die Kugel kein Gedächtnis
+hat, sie weiß also nicht, welche Zahl gerade gefallen ist und welche
+als nächstes kommen sollte, oder nicht kommen sollte. Es gibt aber
+auch beim Roulette das Gesetzt der Wahrscheinlichkeit, das so genannte
+Zweidrittelgesetzt.
+Hierzu erst kurz eine Erklärung: Ein Durchgang ist so lang, wie es
+nötig ist, dass jede Zahl mindestens einmal die Gelegenheit hatte,
+geworfen zu werden. Im französischen Roulette gibt es 36 Zahlen, plus
+die Null. Wir haben also 37 Zahlen und es bedarf 37 Würfe, Coups
+genannte, bis jede der 37 Zahlen die Gelegenheit hatte einmal zu
+kommen.
+Das Zweidrittelgesetz sagt nun aus, dass während eines Durchganges (37
+Coups) Zweidrittel aller Zahlen erscheinen. Dies entspricht 24 Zahlen,
+plusminus 2. Innerhalb des nächsten Durchganges (weitere 37 Runden)
+erscheinen nun Zweidrittel der noch nicht gekommenen Zahlen. Also von
+den im ersten Durchgang verbliebenen ca. 13 Zahlen kommen jetzt ca. 8
+dazu, usw.
+Jetzt hat man immer noch das Problem, dass man natürlich nicht weiß,
+welche Zahlen da kommen werden und welche doppelt kommen. Es hilft uns
+also bei einem Spiel auf einzelne Zahlen nicht viel weiter. Deshalb
+bespielen wir auch nicht einzelne Zahlen, sondern Zahlengruppen. Hier
+findet das Zweidrittelgesetz auch Anwendung. Wenn wir statt auf eine
+Zahl, gleichzeitig auf drei setzen (Transversale Plein), so dauert ein
+Durchgang nur 12 Coups, bis jeweils eine Zahl aus den 12 Dreiergruppen
+die Gelegenheit hatte geworfen zu werden und dementsprechend wieder
+Zweidrittel der Transversale Pleins kamen. Also, 8 der 12
+Zahlengruppen zu je drei Zahlen kamen und vier wurden zweimal erdreht.
+Und jetzt legen wir noch eins drauf. Bei der Transversale Simple
+werden auf Zahlengruppen zu je sechs Zahlen gesetzt. Es bedarf nur
+sechs Runden, bis das Zweidrittelgesetz greift. Also, nach sechs
+Runden hatte jede Transversale Simple die Gelegenheit, dass eine ihrer
+Zahlen geworfen wurde. Tatsächlich kamen vier TS und zwei doppelt.
+
+Der Millionencoup
+Jetzt spielen wir und benutzen dafür ein altes Roulettesystem, das
+=84System der alten Mrs. Zschau=93. Diese alte Dame ging nach dem Tode
+ihres Mannes in ein Casino und erspielte sich in einer einzigen Nacht
+ein Vermögen. Sie sagte voraus, dass nach einer Tischeröffnung der
+erste Wurf entscheidend ist, bzw. die erste Transversale Simple. Diese
+verholt sich nämlich innerhalb der darauf folgenden sechs Coups
+(Runden, Drehungen). Und sie setzte. Das gleiche machte ich im Casino.
+Hierzu ein Beispiel:
+Es kommt die Zahl 16 beim ersten Coup!
+10	11	12
+13	14	15
+16	17	18
+19	20	21
+22	23	24
+
+Jetzt setze ich ein Stück jeweils auf die Linie zwischen der 15 und
+der 18, sowie zwischen der 18 und der 21 (siehe dazu das Satzschema
+der Transversale Simple oben). Ich bespiele also nun die Zahlen 13 bis
+21 (zwei Transversale Simple). Sollte in den nächsten Coups dann eine
+der Zahlen zwischen 13 und 15, sowie 19 und 21 kommen, gewinne ich.
+Kommt eine der Zahlen zwischen 16 und 19 gewinne ich sogar doppelt, da
+ich ja beide Transversalen Simple bespiele. Ich wende nun folgende
+Satzweise für die nächsten Coups an (alles noch mal von vorn):
+1.	Coup setzen auf rot und schwarz, je ein Stück. Falls die Null
+kommt, bin ich ein Stück los.
+2.	Coup wieder rot und schwarz, wie oben. Das ist der erste
+Abwartecoup, falls nun doch schon die Transversale Simple mit
+
+der 16 kommt, Tisch verlassen und einen anderen nehmen und das gleiche
+noch mal von vorn.
+3.	Coup wieder rot und schwarz, wie oben. Das ist der zweite
+Abwartecoup, falls nun doch schon die Transversale Simple mit der 16
+kommt, Tisch verlassen und einen anderen nehmen und das gleiche noch
+mal von vorn.
+4.	Coup wieder rot und schwarz, wie oben. Das ist der dritte
+Abwartecoup, falls nun doch schon die Transversale Simple mit der 16
+kommt, Tisch verlassen und einen anderen nehmen und das gleiche noch
+mal von vorn.
+5.	Coup, ich setzte auf die Transversale Simple über und unter der 16
+je ein Stück. Wenn ich nun schon gewinne, verlasse ich den Tisch, gehe
+zu  einen neuen und starte wieder mit Punkt 1.
+6.	Coup, ich setzte auf die Transversale Simple über und unter der 16
+je ein Stück. Wenn ich nun gewinne, verlasse  ich den Tisch, gehe an
+einen anderen  einen neuen und starte wieder mit Punkt 1.
+7.	Coup, ich setzte auf die Transversale Simple über und unter der 16
+je zwei Stücke. Wenn ich nun gewinne, verlasse ich den Tisch, gehe
+einen neuen und starte wieder mit Punkt 1.
+8.	Coup, ich setzte auf die Transversale Simple über und unter der 16
+je drei Stücke. Wenn ich nun gewinne, schließe ich den Tisch, eröffne
+einen neuen und starte wieder mit Punkt 1.
+9.	Coup, ich setzte auf die Transversale Simple über und unter der 16
+je drei Stücke. Wenn ich nun gewinne, verlasse ich den Tisch, Gang zu
+einen neuen und starte wieder mit Punkt 1. Wenn ich verliere, gebe ich
+mich geschlagen und verliere insgesamt 20 Stücke.
+10.	Verlust-/Gewinnrechnung:
+Coup	gesetzte Stücke	Verlustfall	Gewinnfall	Doppelgewi nnfall
+3	2 (2 mal 1 St.)	- 2	+ 5	+ 12
+4	2 (2 mal 1 St.)	- 4	+ 3	+ 10
+5	4 (2 mal 2 St.)	- 8	+ 5	+ 20
+6	6 (2 mal 3 St.)	- 14	+ 7	+ 26
+7	6 (2 mal 3 St.)	- 20	+ 1	+ 22
+
+Es muss immer das richtige Signal nach dem ersten Coup erscheinen, das
+mir sagt, jetzt kannst Du spielen, bzw. nicht spielen und einen
+anderen Tisch nehmen. Ich spiele nicht, wenn,
+=95	der erste Coup die Null, 1, 2, 3, sowie 34, 35 und 36 als Resultat
+bringt. Man kann mit diesen Zahlen keinen Doppelgewinn erzielen, da
+hier kein Satz auf zwei Transversalen Simple möglich ist.
+=95	der 9. Coup keinen Gewinn brachte. Es ist dann ein schlechter Tag
+zum spielen und ich lasse es ganz.
+So sollten Sie beginnen
+Als Anfangskapital sollten 100,-=80 reichen, spielen Sie so lange mit
+Stückgrößen zu einem Euro, bis Sie rund 300,-=80 erspielt haben, dann
+können Sie ihren Einsatz verdoppeln, sprich Stücke zu einem Euro, aber
+doppelt so viele Stücke setzen. Hier werden Sie sehen, wie schnell Ihr
+Gewinn schon anwächst. Ab 1 .000,-=80 Gewinn, nehmen Sie Stücke zu 5,-
+=80, ab 5.000,-=80 Stücke zu 10,-=80, ab 12.000,- Stücke zu je 25,-=80.
+Roulette The Millioncoup Roulettesystem SelMcKenzie Isermann

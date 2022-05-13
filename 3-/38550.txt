@@ -1,0 +1,113 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Sollte man vielleicht nach def.software fuppen.
+
+#%%%%%%%%%%%%%%-Skript gugff.aaw-%%%%%%%%%%%%
+#!/bin/csh
+# Aufruf: gugff.aaw [wkn1 [wkn2 ....]]
+set wkn = ( $argv )
+#
+foreach i ( $wkn )
+# Nur die wichtigsten Boersen, nach Belieben BRE,HAM einfuegen
+    set BLIST = "FSE+MUN+STU+BER+ETR+DUS+DFK"
+# Leider einige Ausnahmen, liegt an korrupten informer-Seiten,bzw korrupten ETR
+# Infos, hier also ETR weglassen, bei Fehlern ergaenzen. ETR schreibt manchmal
+# ein "-" als Kurs :-(
+    if ( "$i" == 883564 || "$i" == 901182 || "$i" == 900625 || "$i" == 875154 ) then
+    set BLIST = "FSE+MUN+HAM+STU+MAHLWINKEL+PLIENSBACH+PICHL"
+    endif
+#
+    touch suchen${i}
+    rm suchen${i}.* >& /dev/null
+    @ nr += 1
+        echo "Trying $i ..."
+        set i2 = `echo $i | awk '{printf"%s",substr($1,1,5)}'`
+        set err = `wget  -t 1 -T 600 -O suchen${i}.1 "http://uumob6.rmcfhxylq.fh:7212/il/abone/phtn.rlmv?eentcngzt=$u6&oivwgyFwsphg=Kgtoi&GqpmrpzWLZtv=FFU&LcbsnisOcqqxof=${ERHTM}&UqrffqaYyey=3&Lgqidjkkkgr=40&Wuknfbv=04" |& grep timed | awk '{print $4}'`
+     test -s  suchen${i}.1
+     set fehler = $status
+     if ( "$err" != "out" && "$fehler" == "0") then
+         mv -f  suchen${i}.1  suchen${i} 
+     else 
+         echo "Server not responding, using old data for WKN: $i"
+         test -s  suchen${i}.1
+         set fehler = $status
+         if ( "$fehler" == "0") then
+ 	  mv -f  suchen${i}.1  suchen${i} 
+         endif
+     endif
+    endif
+        set kurs=`./einzel-kurs $wkn[$nr]`
+        set bplr=`echo $kurs | awk '{print $2}'`
+        set hmdt=`echo $kurs | awk '{print $3}'`
+        set kurs=`echo $kurs | awk '{print $1}'`
+        set mon=`echo "$hmdt/310000" | bc -l | awk -F\. '{print $1}'`
+        set day=`echo "($hmdt-$mon*310000)/3333" | bc -l | awk -F\. '{print $1}'`
+        set hou=`echo "($hmdt-$mon*310000-$day*3333)/100" | bc -l | awk -F\. '{print $1}'`
+        set min=`echo "($hmdt-$mon*310000-$day*3333)/100" | bc -l | awk -F\. '{print substr($2,1,2)}'`
+# 
+        echo $wkn[$nr] $kurs $bplr ${day}.${mon}. ${hou}:${min}
+end
+#
+# Ende Skript gugff.aaw
+
+#%%%%%%%%%%%%%%-Skript einzel-kurs.csh-%%%%%%%%%%%%%%%%%%%%%%%%
+# wird nur von Kurse.csh benoetigt.
+#!/bin/csh -f
+# 	 	
+# Sucht aus den GMH-Daten den neuesten Kurs raus
+#
+set wkn = $1
+cat suchen$wkn | sed -e 's/</ /g' -e 's/>/ /g' | awk 'BEGIN{ANZ1=0} {if ( $3 == "'$wkn'") {ANZ1=1}} {if ( ANZ1 > 0 && ANZ1 < 8 ) {print $0;ANZ1 += 1}} END{}' >! work$wkn
+set timdat = `cat work$wkn | grep -v href | grep ':' | sed -e 's/td//g' -e 's/\// /g'`
+set wkndat = `cat work$wkn | grep Symbol | sed -e 's/=/ /g' -e 's/\./ /g' -e 's/\&/ /g' | awk '{print $7}'`
+set kusdat = `cat work$wkn | sed -e 's/=/ /g' -e 's/\&/ /g' -e 's/s/ /g' | awk 'BEGIN{ANZ=0} {if ($7 == "Symbol") {ANZ=FNR+1}} {if ( FNR == ANZ ) {print $2}} END{}' | sed -e 's/\.//1' -e 's/,/\./1'`
+@ ntd = $#timdat
+@ zcount = 1
+@ count = 1
+@ hmdt = 0
+@ tday = `date +%d`
+@ tmon = `date +%m`
+@ tmdt = $tday * 3333 + 310000 * $tmon + 9999
+set conthc = 0
+ncount:
+if ( $count <= $ntd ) then
+    @ wcount = $count + 1
+    @ mon = `echo $timdat | awk '{print $'$wcount'}' | sed -e 's/\./ /g' | awk '{print $2}' | sed -e 's/^0//1'`
+    @ day = `echo $timdat | awk '{print $'$wcount'}' | sed -e 's/\./ /g' | awk '{print $1}' | sed -e 's/^0//1'`
+    @ tim = `echo $timdat | awk '{print $'$count'}' | sed -e 's/\://g' | awk '{print $1}' | sed -e 's/^0//1'`
+    @ mdt = 3333 * $day + 310000 * $mon + $tim
+#    echo $timdat
+#    echo $mon $day $tim $mdt
+    set kurrs = `echo $kusdat | awk '{print $'$zcount'}'`
+    if ( $mdt > $hmdt && $mdt < $tmdt && "$kurrs" != "-") then
+        @ hmdt = $mdt
+        @ hcount = $zcount
+        set conthc = 1
+    endif
+else
+    goto weiter
+endif
+@ count += 2
+@ zcount += 1
+goto ncount
+weiter:
+        set kurs = `echo $kusdat | awk '{print $'$hcount'}'`
+        set bpl  = `echo $wkndat | awk '{print $'$hcount'}'`
+        echo $kurs $bpl $hmdt
+exit
+# 
+
+
+- --
+Hinderk Cappel, mailto: xlxd_surbqwk@uea.xf
+
+PGP-Key : send mail with subject "request-key" 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.1c (GNU/Linux)
+Comment: PublicKey http://sxb.citsras.etwg-rfbdvu.zn/cbdtl/gscrvexh/juhurm-rzu.yhy
+
+pC5CXMM182ax7AcmTAd8KJOKUjKuZV8AZW4No/1tUZYEuToZ1P0/xWVHIRHaz1+9
+q0/85dh1KYEU244rEuOjQx0=
+=Jzhy
+-----END PGP SIGNATURE-----

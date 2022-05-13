@@ -1,0 +1,34 @@
+Nein, du kriegst nix gschenkt. Im Gegenteil: Meist wird der Preis
+so festgesetzt, dass du was verlierst ohne es zu merken.
+Man kann an der Boerse fast alles genau berechnen (ausser den 
+zukuenftigen Kursen leider).
+Ein aelteres Beipiel fuer das Prinzip:
+
+Antiquitätengeschäft (ARB) "DAX Discount Zertifikate" 
+Diese Zertifikate werden am 6.9.97 fällig. Tonn & Glockemann können dann
+wählen, ob sie dem Inhaber entweder 1/100 des DAX-Standes am Ablauftag oder
+aber Höchstbeträge von z.B. DM 24 zahlen (es gibt auch Versionen mit DM 25 und
+DM 26 Höchstbetrag). Natürlich werden die dann den niedrigeren der beiden
+Beträge zahlen.
+In der Praxis handelt es sich für den Käufer eines solchen Zertifikates um den
+Kauf eines Zerobonds, der sich bis zum Ablauf auf den entsprechenden
+Höchstbetrag von z.B. 24 aufzinst, und um den Verkauf eines Puts auf 1/100 DAX
+mit Bezugskurs von z.B. 2400.
+Bei einem Wert des Zerobonds von z.B. 21 und einem Wert des Puts von z.B. 1,50
+ergibt sich ein Gesamtwert von 21 - 1,50 = 19,50 für das Gesamtzertifikat.
+Angeboten wurden diese Zertifikate dagegen wesentlich teurer. Die Käufer haben
+durch den Aufpreis nahezu den gesamten Zinsertrag verloren, d.h. sie haben dem
+Emittenten einen "Gratiskredit" gegeben. Auch hier wurde mittels einer neuen
+Verpackung und einem irreführenden Werbespruch "Discountpreis gegenüber
+direkten Kauf des DAX" kräftig abkassiert.
+ähnliche Zertifikate gibt es von Gehlenborg als "Gravis DAX Discount Perles".
+Neuerdings gibt es sogar "Discount-Zertifikate" von einzelnen Aktien.
+Man kann diese Art von Wertpapieren übrigens alternativ auch berechnen nach dem
+Schema: Underlying minus Call. Wir nehmen also den Wert des zugrundeliegenden
+Indizes bzw. Aktie und ziehen davon den Wert eines Calls mit der Obergrenze als
+Basiskurs ab.
+
+-- 
+Björn Ostmeyer
+Visit   http://gntsrdn.pcf.xmw/ecxrku  and download a 
+free calculator for options, futures, bonds and similar stuff.

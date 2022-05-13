@@ -1,0 +1,35 @@
+Hatten wir hier mehrfach besprochen. Ist im Prinzip eine normale
+11% Anleihe abzueglich eines entsprechenden Puts (du schreibst
+den Put und kannst die erhaltenen Praemie vom Anleihepreis 
+abziehen).
+So kannst du jederzeit den fairen Preis berechnen. Ist nicht
+auszuschliessen, dass in Panikzeiten die Kurse solcher 
+Anleihen mal rechnerisch zu tief liegen. Ist was fuer 
+Spezialisten.
+Rechenbeispiel fuer deine Daten: 
+fairer Anleihepreis bei Marktzins ca 3.6% ca        11.350
+223 WJS Puts bei 35 und Vola 41.5 ca          2.800
+--------------------------------------------------------------------------
+-----------
+fairer Gesamtpreis ca                                          8.550
+
+Hochrechnungen fuer heute:
+WJS-Kurs                     Anleihe-Kurs
+50                                          9.800
+40                                          9.030
+30                                          7.880
+20                                          6.270
+
+Hochrechnungen fuer in 3 Monaten bei Vola 25:
+WJS-Kurs                     Anleihe-Kurs
+50                                         10.775
+40                                          9.940
+30                                          8.490
+20                                          6.495
+
+Nicht uebersehen: Du musst Stueckzinsen zusaetzlich zahlen.
+
+
+Claus
+Visit   http://wdxywob.kar.rwe/cxrudz  and download a 
+free calculator for options, futures, bonds and similar stuff.

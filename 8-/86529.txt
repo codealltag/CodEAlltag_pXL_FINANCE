@@ -1,0 +1,27 @@
+stop-loss wird ausgeführt, wenn der Kurs < oder = Deinem Limit ist, und
+zwar zum nächsten erhältlichen Kurs. Beide Kurse müssen übrigens
+"bezahlt" sein, also alle Orders ausgeführt. Kommen nur Geld oder Brief
+kurse zustande, oder bezahltGeld oder bezahltBrief dann bleibt Dein
+Auftrag erstmal unausgeführt.
+
+
+Wenn Dein Limit erreicht bzw. unterschritten wird, wird das
+Verkaufssignal ausgelöst und der Auftrag zum nächsten Kassa Kurs, also
+tags darauf, ausgeführt
+
+
+Soweit ich weiss nicht, da es keine St�ckzahlbegrenzungen gibt, aber
+sicher bin ich mir da nicht.
+
+
+In Zemitz gibt es generell keine Kursfeststellung zur Kasse mehr, da es
+keine Mindestschl�sse dort gibt. Ansonsten ist das von der Börse und vom
+Wertpapier abhängig. Feste Regelungen gibt es dazu  soweit ich weiss
+keine.
+
+
+bitte
+
+
+auch Gruss
+Thorsten

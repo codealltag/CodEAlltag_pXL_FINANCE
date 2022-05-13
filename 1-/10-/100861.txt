@@ -1,0 +1,13 @@
+dieWerte
+möglich
+
+
+Ja, versuch es mal damit, geh in ein anderes Feld und gilb folgendes ein:
+
+=RECHTS(D14;LNG(D14)-2)
+
+Jetzt sind die ersten zwei Stellen weg (steht ja auch "-2" da)
+
+Gruß
+
+Hilmar Dieter ( Vjeuqn@det.adt )

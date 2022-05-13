@@ -1,0 +1,32 @@
+So weit bin ich schon lange.
+
+
+Darum geht es mir nicht. Ich will eigene Software auf die Daten
+ansetzen, dazu muss ich wissen, wie das "Endergebnis" zu parsen
+ist.
+
+Ich kann bereits die #TK (==Tageskurse), die #HK (==Historische
+Kurse) und die #AD-Bloecke (==Splits) parsen und in eine Datenbank
+(Ivenu-DBM) einspeisen. Auch die L+P-Dateien (fuer die ich
+uebrigens auch ein getlp-lynx [analog zu getdm-lynx] habe) kann
+ich bereits (fast) vollstaendig in dieselbe Datenbank einspeisen.
+Es existiert auch schon ein kleines grafisches Frontend, welches
+die Fundamentaldaten sowie einfache Charts darstellen kann.
+
+Leider fehlen mir aber noch eine Menge Infos zum Aufbau der
+DM-Dateien. Wer also irgendwas darueber weiss: bitte posten!
+
+
+[ hier ist dir wohl was durcheinander geraten. Weil du etwas
+  aehnliches schon einmal geschrieben hattest, vermute ich, du wolltest
+  folgendes (oder aehnliches;-) schreiben:
+
+]
+
+Hmmm, ich verstehe dich nicht. Seit Wochen suchst du nach chart-SW
+fuer Linux, aber willst selbst nichts dazu beitragen. Auf der anderen
+Seite verbringst du endlos viel Zeit damit, existierende SW auf
+irgendwelchen Emulationen zum Laufen zu bringen.
+
+-- 
+-- Maurizio Pascal -- bj@eubhc.chhb.qd --

@@ -1,0 +1,21 @@
+Nunja, Excel ist eigentlich nur ein  Add-On (GUI) zu Predict, welches
+auch stand-alone ( zB im Batch) genutzt werden kann. Zwar unterstuetzt
+Predict "nur" (auch querverbundene) Feed-Forward-Netze, aber es
+zeichnet sich durch einmalige Datenaufbereitungs- und
+Netz-Konstruktionsunterstuetzung aus. Zudem gibt's in der
+"Professional"-Version halbwegs ausgefuchste Verfahren (zB CBR) zum
+Kompremieren umfangreicher Daten bzw. zum Eruieren von
+Einflussstaerken von Parametern etc.
+
+
+Eigentlich habe ich mich jetzt schon zu Würzbauer entschlossen (und
+schaue nur noch nach einem guenstigen Anbieter). Wenn ich aber deine
+Infos oben lese ... - Wie sind denn dMn die Moeglichkeiten zur
+Konstruktion eigener Indikatoren etc bei Würzbauer und KUSR zu
+vergleichen? Und hat den KUSR (ist doch ein Szenario-
+(NT-?)Programm, oder?) auch OLE-Faehigkeiten? (MetaStock _behauptet
+ja, diesbezueglich das einzige Programm zu sein.)
+
+Danke fuer deine Infos!
+
+mfg enno uekert

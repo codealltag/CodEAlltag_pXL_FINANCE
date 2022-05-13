@@ -1,0 +1,13 @@
+Hi,
+das Handelsdatum gibt den Zeitpunkt des Handels an.
+Die Valuta (oder Wertstellung) gibt den Zeitpunkt an, ab dem die
+Zinsrechnung beginnt. Die Valuta kann mit dem Buchungstag (Handelstag)
+zusammenfallen, muss aber nicht. Bsp.: Du reichst einen Scheck am 6.9. auf
+Dein Konto ein. Der Betrag erscheint am nächsten Tag auf Deinem Auszug
+(Buchungsdatum 7.9.), allerdings mit Valuta +7 Tage (14.9.). Der Grund liegt
+darin, dass der Geschäftsvorfall sofort gebucht wird, das Geld aber
+tatsächlich erst einige Tage später kommt. Hebst Du den Betrag vorher von
+Deinem Konto ab, kommst Du valutarisch ins Soll, d.h. Du zahlst Sollzinsen
+obwohl auf Deinem Kontoauszug nie ein negativer Betrag aufgetaucht ist.
+
+Gruß Ben

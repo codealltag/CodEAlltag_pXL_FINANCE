@@ -1,0 +1,67 @@
+Hallo Marko,
+
+
+vielen Dank für die Erläuterungen. Damit kann ich jetzt eigene 
+Filterkerne erstellen.
+
+
+OK. Für einen gewünschten 21-Tage-MA wäre F_g ~ 1/38.
+
+Auch für die weiteren Erklärungen zum Thema noch einmal vielen Dank!
+
+
+OK. Ich habe das mal an den Beispieldaten nachvollzogen. Die Kurtosis 
+der DAX Kursreihe beträgt etwa 1,3 und die der HAC Kursreihe etwa 3,5.
+
+Unter http://gak.eszh.cag/zvsf/wyu_7.pbr habe ich einen Artikel 
+gefunden, der mir bei der Interpretation etwas geholfen hat. Der Autor 
+meint, dass Kurtosiswerte größer/kleiner als "2 * standard errors of 
+kurtosis (sek)" signifikant wären.
+
+Das wäre in unserem Beispiel:
+2 * sek = 2 * wurzel(24/N) = 2 * wurzel(24/635) = 0,4
+
+Damit könnte man beide Kursreihen als signifikant leptokurtisch bezeichnen.
+
+In diesem Zusammenhang musste ich an die angeblichen Probleme 
+sogenannter Quant-Fonds denken, über die zur Zeit berichtet wird. 
+Vielleicht haben die auch etwas mit den "fat tails" zu tun?
+
+
+Vielleicht beschäftige ich mich doch einmal damit.
+
+
+Ziel erreicht :-)
+
+
+Ich bin zwar erst bis zu Kapitel 3 vorgedrungen, aber diesen Eindruck 
+kann ich bestätigen. Wenn man sich zusammenreißt und die 
+Beispielrechnungen wirklich selbständig nachvollzieht, gibt es hin und 
+wieder einen zusätzlichen Aha-Effekt.
+
+Inzwischen habe ich mitbekommen, dass das Buch stark auf zwei weitere 
+Bücher des Autors verweist und laut Vorwort damit Teil einer "Triade" 
+ist. Die zwei anderen Bücher "Handbuch Kursprognose" und "Statistik, 
+Ökonometrie, Optimierung" habe ich mir mittlerweile auch ausgeliehen.
+
+
+Jetzt wo Du es sagst... Den speziellen Ruf kenne ich nicht, aber ich 
+kann mich an entsprechende Copy-and-Paste Beiträge in irgendwelchen 
+Foren erinnern.
+
+Darf ich noch etwas ganz Anderes fragen? Ich experimentiere nebenbei 
+mehr schlecht als recht an der Wilkenhoehner-Fonds Geschichte herum. In den 
+damaligen Beiträgen war von Dir eigentlich nie davon die Rede, dem Markt 
+hin und wieder fernzubleiben. In meinen Tests nimmt man damit aber 
+unweigerlich die Abschwungphasen mit.
+
+Ich habe versuchshalber die Rentenfonds der Wilkenhoehner mit einbezogen, aber die 
+Ergebnisse werden damit auch nicht besser. Vom Eindruck her reagieren 
+die Berechnungen viel zu langsam - das sogenannte Lag, von dem Du 
+manchmal sprichst. Ich vermute einmal, dass Du zu dem gleichen Ergebnis 
+gekommen bist und deshalb in Deinen Beispielrechnungen immer voll 
+investiert warst?
+
+
+Gruß,
+Henry

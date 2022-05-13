@@ -1,0 +1,33 @@
+Moin!
+
+<p.pfyost@ezy.hij>:
+...
+Herstellung
+Speicher
+
+Und die Hersteller haben das Lizenz-Problem: an jedem RDRAM-Chip verdient
+Rambus mit. Was ja auch zum Aktien-Höhenflug führte. SDRAMs stellt jeder her
+(naja, es wurden Fabs wegen zu geringen Preisen geschlossen, das wird so
+schnell bei RDRAMs nicht passieren). SDRAM-Modul-Hersteller können sich,
+wenn sie wollen, auf dem Spotmarkt bedienen. Und da keine Lizenzgebühren
+anfallen sind die Chips billiger. Da ECC-SDRAMs dermaßen teuer sind, ist
+reine Abzocke - eben Server-System-Preise. Der Baustein mehr und das bißchen
+Logik kostet max. 25% mehr, keine 150%.
+
+...
+
+Wobei ein schneller Cache mehr bringt.
+
+...
+
+Die haben ja alles getan, um Dual-Celerons zu verhindern - nur nichts, was
+Geld kostet, also Layouts oder Chpmasken ändern. Da produziert man nen P-II
+mit schnellerem, aber kleinerem Cache und spült ihn zu "Spottpreisen" auf
+den Markt. Und danach muß man die ganze Propagandamaschinerie anwerfen,
+damit die Leute nicht merken, daß die kleinen Chips gar nicht so schlecht
+sind und sich ein gleich schnell getakteter P-II gar nicht lohnt. Ich hab
+schon einige Dual-Celeron-Systeme gebaut, stabil wie P-IIer. Nur muß ich
+einen Draht löten, aber für den Preisunterschied schmeiß ich den Lötkolben
+gerne an.
+
+Bye, Folkert

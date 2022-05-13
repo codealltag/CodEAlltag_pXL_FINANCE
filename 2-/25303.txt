@@ -1,0 +1,18 @@
+Warum wird der Discount eines Zertifikats auf einen Kursindex (z.B. 
+Eurostoxx) relativ zum aktuellen Indexwert berechnet? Korrekt wäre es 
+doch, als Bezugswert den Preis eines Indexzertifikats zu nehmen, welches 
+die gleiche Laufzeit wie das Discountzertifikat hat, und der sollte 
+niedriger liegen als der Indexwert wegen der in Zukunft entgangenen 
+Dividenden.
+
+Aber wie berechne ich den korrekten Preisabschlag? Die Auswahl an 
+Indexzertifikaten ist ja nicht so groß, daß man für jede beliebige 
+Laufzeit eines erhalten würde und als Quelle für einen Referenzpreis 
+nehmen könnte.
+
+Ich würde lieber Zertifikate auf Performance-Indices kaufen, aber außer 
+dem DAX scheint es da nichts zu geben... Weiß jemand etwas besseres, 
+z.B, eines auf MDAX oder Euro Stoxx 50 Return?
+
+
+--Björn

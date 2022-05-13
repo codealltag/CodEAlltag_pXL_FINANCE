@@ -1,0 +1,319 @@
+Roulette-Strategy auf Erscheinungs-Distancen:
+Author J.Karweger
+Das System wird berechnet nach den neuronalen Netzen und der
+Chaosteorie. Grundlage ist, dass der Permanenz-Verlauf der
+Referenz-Permanenzen jeweils immer unterschiedlich läuft. Die
+Chancen erscheinen nach jeweiligen Abständen, aber immer
+unterschiedlich. So wird berechnet, wie an den Referenz-Permanenzen
+der jeweilige Abstand vom 1.Erscheinen zum 2.Erscheinen, vom
+2.Erscheinen zum 3.Erscheinen usw. verläuft und auf die Prognose
+repliziert. Dadurch ergibt sich für die Prognose, dass im laufenden
+Gambling immer jeweils nach Erscheinen der jeweiligen Chance
+nach entsprechender Anzahl von Coups ein Satz auf die Gegenchance,
+bzw.
+eben nicht auf diese Chance gesetzt werden sollte.
+Beispiel Rot: Rot erschien im 5.Coup zum 1.mal, im 9.Coup zum 2.mal,
+im 12.Coup zum 3.mal usw. Der Coup-Abstand der ersten Erscheinung
+zur zweiten Erscheinung ist 4 Coups, der Abstand der Erscheinung vom
+2.mal zum 3.mal ist 3. So sollte in der Folge-Permanenz als nach dem
+Erscheinen des ersten Rot und 4 Coups danach nicht auf Rot gesetzt
+werden, und nach dem 2.Erscheinen von Rot sollte 3 Coups danach nicht
+auf Rot gesetzt werden, usw. Dies ist analog für alle Chancen
+anzuwenden.
+Die hiesige Prognose hat das bereits alles berechnet und gibt an, wie
+am Folge-Tag gesetzt werden sollte.
+
+
+Die Satz-Prognose für den kommende Gamblingday am 25.07.09
+
+nach   1.Transversale 01-06    11  Coups danach nicht auf
+Transversale 01-06
+nach   2.Transversale 01-06    5  Coups danach nicht auf
+Transversale 01-06
+nach   3.Transversale 01-06    3  Coups danach nicht auf
+Transversale 01-06
+nach   4.Transversale 01-06    7  Coups danach nicht auf
+Transversale 01-06
+nach   5.Transversale 01-06    8  Coups danach nicht auf
+Transversale 01-06
+nach   6.Transversale 01-06    6  Coups danach nicht auf
+Transversale 01-06
+nach   7.Transversale 01-06    9  Coups danach nicht auf
+Transversale 01-06
+nach   8.Transversale 01-06    11  Coups danach nicht auf
+Transversale 01-06
+nach   9.Transversale 01-06    6  Coups danach nicht auf
+Transversale 01-06
+nach   10.Transversale 01-06    16  Coups danach nicht auf
+Transversale 01-06
+
+nach   1.Transversale 07-12    7   Coups danach nicht auf
+Transversale 07-12
+nach   2.Transversale 07-12    4   Coups danach nicht auf
+Transversale 07-12
+nach   3.Transversale 07-12    1   Coups danach nicht auf
+Transversale 07-12
+nach   4.Transversale 07-12    9   Coups danach nicht auf
+Transversale 07-12
+nach   5.Transversale 07-12    1   Coups danach nicht auf
+Transversale 07-12
+nach   6.Transversale 07-12    17   Coups danach nicht auf
+Transversale 07-12
+nach   7.Transversale 07-12    6   Coups danach nicht auf
+Transversale 07-12
+nach   8.Transversale 07-12    1   Coups danach nicht auf
+Transversale 07-12
+nach   9.Transversale 07-12    3   Coups danach nicht auf
+Transversale 07-12
+nach   10.Transversale 07-12    2   Coups danach nicht auf
+Transversale 07-12
+nach   11.Transversale 07-12    3   Coups danach nicht auf
+Transversale 07-12
+nach   12.Transversale 07-12    14   Coups danach nicht auf
+Transversale 07-12
+nach   13.Transversale 07-12    5   Coups danach nicht auf
+Transversale 07-12
+nach   14.Transversale 07-12    5   Coups danach nicht auf
+Transversale 07-12
+
+nach   1.Transversale 13-18    2   Coups danach nicht auf
+Transversale 13-18
+nach   2.Transversale 13-18    14   Coups danach nicht auf
+Transversale 13-18
+nach   3.Transversale 13-18    9   Coups danach nicht auf
+Transversale 13-18
+nach   4.Transversale 13-18    3   Coups danach nicht auf
+Transversale 13-18
+nach   5.Transversale 13-18    2   Coups danach nicht auf
+Transversale 13-18
+nach   6.Transversale 13-18    2   Coups danach nicht auf
+Transversale 13-18
+nach   7.Transversale 13-18    1   Coups danach nicht auf
+Transversale 13-18
+nach   8.Transversale 13-18    1   Coups danach nicht auf
+Transversale 13-18
+nach   9.Transversale 13-18    20   Coups danach nicht auf
+Transversale 13-18
+nach   10.Transversale 13-18    3   Coups danach nicht auf
+Transversale 13-18
+nach   11.Transversale 13-18    2   Coups danach nicht auf
+Transversale 13-18
+nach   12.Transversale 13-18    15   Coups danach nicht auf
+Transversale 13-18
+nach   13.Transversale 13-18    5   Coups danach nicht auf
+Transversale 13-18
+nach   14.Transversale 13-18    3   Coups danach nicht auf
+Transversale 13-18
+
+nach   1.Transversale 19-24    19   Coups danach nicht auf
+Transversale 19-24
+nach   2.Transversale 19-24    3   Coups danach nicht auf
+Transversale 19-24
+nach   3.Transversale 19-24    1   Coups danach nicht auf
+Transversale 19-24
+nach   4.Transversale 19-24    7   Coups danach nicht auf
+Transversale 19-24
+nach   5.Transversale 19-24    18   Coups danach nicht auf
+Transversale 19-24
+nach   6.Transversale 19-24    1   Coups danach nicht auf
+Transversale 19-24
+nach   7.Transversale 19-24    2   Coups danach nicht auf
+Transversale 19-24
+nach   8.Transversale 19-24    4   Coups danach nicht auf
+Transversale 19-24
+nach   9.Transversale 19-24    2   Coups danach nicht auf
+Transversale 19-24
+nach   10.Transversale 19-24    2   Coups danach nicht auf
+Transversale 19-24
+nach   11.Transversale 19-24    3   Coups danach nicht auf
+Transversale 19-24
+nach   12.Transversale 19-24    9   Coups danach nicht auf
+Transversale 19-24
+nach   13.Transversale 19-24    9   Coups danach nicht auf
+Transversale 19-24
+nach   14.Transversale 19-24    5   Coups danach nicht auf
+Transversale 19-24
+
+nach   1.Transversale 25-30    2   Coups danach nicht auf
+Transversale 25-30
+nach   2.Transversale 25-30    7   Coups danach nicht auf
+Transversale 25-30
+nach   3.Transversale 25-30    2   Coups danach nicht auf
+Transversale 25-30
+nach   4.Transversale 25-30    3   Coups danach nicht auf
+Transversale 25-30
+nach   5.Transversale 25-30    2   Coups danach nicht auf
+Transversale 25-30
+nach   6.Transversale 25-30    1   Coups danach nicht auf
+Transversale 25-30
+nach   7.Transversale 25-30    2   Coups danach nicht auf
+Transversale 25-30
+nach   8.Transversale 25-30    2   Coups danach nicht auf
+Transversale 25-30
+nach   9.Transversale 25-30    5   Coups danach nicht auf
+Transversale 25-30
+nach   10.Transversale 25-30    18   Coups danach nicht auf
+Transversale 25-30
+nach   11.Transversale 25-30    24   Coups danach nicht auf
+Transversale 25-30
+nach   12.Transversale 25-30    3   Coups danach nicht auf
+Transversale 25-30
+nach   13.Transversale 25-30    9   Coups danach nicht auf
+Transversale 25-30
+nach   14.Transversale 25-30    9   Coups danach nicht auf
+Transversale 25-30
+
+nach   1.Transversale 31-36    4   Coups danach nicht auf
+Transversale 31-36
+nach   2.Transversale 31-36    23   Coups danach nicht auf
+Transversale 31-36
+nach   3.Transversale 31-36    1   Coups danach nicht auf
+Transversale 31-36
+nach   4.Transversale 31-36    10   Coups danach nicht auf
+Transversale 31-36
+nach   5.Transversale 31-36    1   Coups danach nicht auf
+Transversale 31-36
+nach   6.Transversale 31-36    1   Coups danach nicht auf
+Transversale 31-36
+nach   7.Transversale 31-36    2   Coups danach nicht auf
+Transversale 31-36
+nach   8.Transversale 31-36    4   Coups danach nicht auf
+Transversale 31-36
+nach   9.Transversale 31-36    2   Coups danach nicht auf
+Transversale 31-36
+nach   10.Transversale 31-36    19   Coups danach nicht auf
+Transversale 31-36
+nach   11.Transversale 31-36    2   Coups danach nicht auf
+Transversale 31-36
+nach   12.Transversale 31-36    1   Coups danach nicht auf
+Transversale 31-36
+nach   13.Transversale 31-36    2   Coups danach nicht auf
+Transversale 31-36
+nach   14.Transversale 31-36    2   Coups danach nicht auf
+Transversale 31-36
+
+Statistische Auswertung der letzten Permanenz vom 24.07.09
+Transversale 01-06 erschien 11 mal
+Transversale 07-12 erschien 21 mal
+Transversale 13-18 erschien 15 mal
+Transversale 19-24 erschien 16 mal
+Transversale 25-30 erschien 15 mal
+Transversale 31-36 erschien 18 mal
+Transversale 01-06 erschien in den Coups 1, 12, 17, 20, 27, 35, 41,
+50, 61, 67, 83,
+Transversale 07-12 erschien in den Coups 3, 10, 14, 15, 24, 25, 42,
+48, 49, 52, 54, 57, 71, 76, 81, 84, 86, 89, 90, 96, 97,
+Transversale 13-18 erschien in den Coups 6, 8, 22, 31, 34, 36, 38, 39,
+40, 60, 63, 65, 80, 85, 88,
+Transversale 19-24 erschien in den Coups 7, 26, 29, 30, 37, 55, 56,
+58, 62, 64, 66, 69, 78, 87, 92, 98,
+Transversale 25-30 erschien in den Coups 2, 4, 11, 13, 16, 18, 19, 21,
+23, 28, 46, 70, 73, 82, 91,
+Transversale 31-36 erschien in den Coups 5, 9, 32, 33, 43, 44, 45, 47,
+51, 53, 72, 74, 75, 77, 79, 93, 94, 95,
+
+Die Permanenz letzter Tag am 24.07.09
+1.Coup  3  Transversale 22-06  Sector: 28.12.35.3.26.0.32
+2.Coup  30  Transversale 25-30  Sector: 13.36.11.30.8.23.10
+3.Coup  8  Transversale 07-12  Sector: 36.11.30.8.23.10.5
+4.Coup  27  Transversale 25-30  Sector: 17.34.6.27.13.36.11
+5.Coup  31  Transversale 31-36  Sector: 1.20.14.31.9.22.18
+6.Coup  13  Transversale 13-18  Sector: 34.6.27.13.36.11.30
+7.Coup  21  Transversale 19-24  Sector: 15.19.4.21.2.25.17
+8.Coup  15  Transversale 13-18  Sector: 26.0.32.15.19.4.21
+9.Coup  34  Transversale 31-36  Sector: 2.25.17.34.6.27.13
+10.Coup  7  Transversale 07-12  Sector: 22.18.29.7.28.12.35
+11.Coup  29  Transversale 25-30  Sector: 9.22.18.29.7.28.12
+12.Coup  3  Transversale 22-06  Sector: 28.12.35.3.26.0.32
+13.Coup  27  Transversale 25-30  Sector: 17.34.6.27.13.36.11
+14.Coup  10  Transversale 07-12  Sector: 30.8.23.10.5.24.16
+15.Coup  8  Transversale 28-12  Sector: 36.11.30.8.23.10.5
+16.Coup  30  Transversale 25-30  Sector: 13.36.11.30.8.23.10
+17.Coup  4  Transversale 22-27  Sector: 32.15.19.4.21.2.25
+18.Coup  26  Transversale 25-30  Sector: 12.35.3.26.0.32.15
+19.Coup  29  Transversale 25-30  Sector: 9.22.18.29.7.28.12
+20.Coup  4  Transversale 22-27  Sector: 32.15.19.4.21.2.25
+21.Coup  26  Transversale 25-30  Sector: 12.35.3.26.0.32.15
+22.Coup  13  Transversale 13-18  Sector: 34.6.27.13.36.11.30
+23.Coup  28  Transversale 25-30  Sector: 18.29.7.28.12.35.3
+24.Coup  10  Transversale 28-12  Sector: 30.8.23.10.5.24.16
+25.Coup  11  Transversale 07-12  Sector: 27.13.36.11.30.8.23
+26.Coup  24  Transversale 19-24  Sector: 23.10.5.24.16.33.1
+27.Coup  2  Transversale 22-27  Sector: 19.4.21.2.25.17.34
+28.Coup  28  Transversale 25-30  Sector: 18.29.7.28.12.35.3
+29.Coup  22  Transversale 19-24  Sector: 14.31.9.22.18.29.7
+30.Coup  23  Transversale 19-24  Sector: 11.30.8.23.10.5.24
+31.Coup  17  Transversale 13-18  Sector: 21.2.25.17.34.6.27
+32.Coup  34  Transversale 31-36  Sector: 2.25.17.34.6.27.13
+33.Coup  33  Transversale 31-36  Sector: 5.24.16.33.1.20.14
+34.Coup  14  Transversale 13-18  Sector: 33.1.20.14.31.9.22
+35.Coup  3  Transversale 22-06  Sector: 28.12.35.3.26.0.32
+36.Coup  17  Transversale 13-18  Sector: 21.2.25.17.34.6.27
+37.Coup  23  Transversale 19-24  Sector: 11.30.8.23.10.5.24
+38.Coup  18  Transversale 13-18  Sector: 31.9.22.18.29.7.28
+39.Coup  15  Transversale 13-18  Sector: 26.0.32.15.19.4.21
+40.Coup  18  Transversale 13-18  Sector: 31.9.22.18.29.7.28
+41.Coup  4  Transversale 22-06  Sector: 32.15.19.4.21.2.25
+42.Coup  11  Transversale 28-12  Sector: 27.13.36.11.30.8.23
+43.Coup  31  Transversale 31-36  Sector: 1.20.14.31.9.22.18
+44.Coup  32  Transversale 31-36  Sector: 3.26.0.32.15.19.4
+45.Coup  35  Transversale 31-36  Sector: 7.28.12.35.3.26.0
+46.Coup  29  Transversale 25-30  Sector: 9.22.18.29.7.28.12
+47.Coup  31  Transversale 31-36  Sector: 1.20.14.31.9.22.18
+48.Coup  8  Transversale 28-12  Sector: 36.11.30.8.23.10.5
+49.Coup  8  Transversale 28-12  Sector: 36.11.30.8.23.10.5
+50.Coup  6  Transversale 22-06  Sector: 25.17.34.6.27.13.36
+51.Coup  32  Transversale 31-36  Sector: 3.26.0.32.15.19.4
+52.Coup  8  Transversale 28-12  Sector: 36.11.30.8.23.10.5
+53.Coup  33  Transversale 31-36  Sector: 5.24.16.33.1.20.14
+54.Coup  8  Transversale 28-12  Sector: 36.11.30.8.23.10.5
+55.Coup  20  Transversale 19-24  Sector: 16.33.1.20.14.31.9
+56.Coup  19  Transversale 19-24  Sector: 0.32.15.19.4.21.2
+57.Coup  9  Transversale 28-12  Sector: 20.14.31.9.22.18.29
+58.Coup  21  Transversale 19-24  Sector: 15.19.4.21.2.25.17
+59.Coup  0  Zero  Sector: 35.3.26.0.32.15.19
+60.Coup  14  Transversale 13-18  Sector: 33.1.20.14.31.9.22
+61.Coup  1  Transversale 22-06  Sector: 24.16.33.1.20.14.31
+62.Coup  20  Transversale 19-24  Sector: 16.33.1.20.14.31.9
+63.Coup  15  Transversale 13-18  Sector: 26.0.32.15.19.4.21
+64.Coup  21  Transversale 19-24  Sector: 15.19.4.21.2.25.17
+65.Coup  17  Transversale 13-18  Sector: 21.2.25.17.34.6.27
+66.Coup  23  Transversale 19-24  Sector: 11.30.8.23.10.5.24
+67.Coup  2  Transversale 22-06  Sector: 19.4.21.2.25.17.34
+68.Coup  0  Zero  Sector: 35.3.26.0.32.15.19
+69.Coup  22  Transversale 19-24  Sector: 14.31.9.22.18.29.7
+70.Coup  29  Transversale 25-30  Sector: 9.22.18.29.7.28.12
+71.Coup  9  Transversale 07-12  Sector: 20.14.31.9.22.18.29
+72.Coup  32  Transversale 31-36  Sector: 3.26.0.32.15.19.4
+73.Coup  30  Transversale 25-30  Sector: 13.36.11.30.8.23.10
+74.Coup  33  Transversale 31-36  Sector: 5.24.16.33.1.20.14
+75.Coup  34  Transversale 31-36  Sector: 2.25.17.34.6.27.13
+76.Coup  7  Transversale 07-12  Sector: 22.18.29.7.28.12.35
+77.Coup  34  Transversale 31-36  Sector: 2.25.17.34.6.27.13
+78.Coup  24  Transversale 19-24  Sector: 23.10.5.24.16.33.1
+79.Coup  33  Transversale 31-36  Sector: 5.24.16.33.1.20.14
+80.Coup  14  Transversale 13-18  Sector: 33.1.20.14.31.9.22
+81.Coup  12  Transversale 07-12  Sector: 29.7.28.12.35.3.26
+82.Coup  29  Transversale 25-30  Sector: 9.22.18.29.7.28.12
+83.Coup  6  Transversale 22-06  Sector: 25.17.34.6.27.13.36
+84.Coup  10  Transversale 28-12  Sector: 15. 08. 22
+85.Coup  15  Transversale 13-18  Sector: 26.0.32.15.19.4.21
+86.Coup  12  Transversale 28-12  Sector: 15. 08. 22
+87.Coup  19  Transversale 19-24  Sector: 0.32.15.19.4.21.2
+88.Coup  16  Transversale 13-18  Sector: 10.5.24.16.33.1.20
+89.Coup  10  Transversale 28-12  Sector: 15. 08. 22
+90.Coup  12  Transversale 28-12  Sector: 15. 08. 22
+91.Coup  26  Transversale 25-30  Sector: 12.35.3.26.0.32.15
+92.Coup  20  Transversale 19-24  Sector: 16.33.1.20.14.31.9
+93.Coup  34  Transversale 31-36  Sector: 2.25.17.34.6.27.13
+94.Coup  33  Transversale 31-36  Sector: 5.24.16.33.1.20.14
+95.Coup  35  Transversale 31-36  Sector: 7.28.12.35.3.26.0
+96.Coup  9  Transversale 28-12  Sector: 20.14.31.9.22.18.29
+97.Coup  12  Transversale 07-12  Sector: 29.7.28.12.35.3.26
+98.Coup  21  Transversale 19-24  Sector: 15.19.4.21.2.25.17
+99.Coup  0  Zero  Sector: 35.3.26.0.32.15.19
+100.Coup  0  Zero  Sector: 35.3.26.0.32.15.19
+
+
+Korstian=AE       SelWave=AE       WaveTrader=AE       Karweger=
+=AE

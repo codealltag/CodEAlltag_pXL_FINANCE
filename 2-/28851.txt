@@ -1,0 +1,59 @@
+Hallo Dietmar,
+
+den PIV (Williamette) z.B. hat Langowski schon auf der Hundeübungsplatz präsentiert.
+Zu einem Computersystem gehört jedoch mehr als nur ein Prozessor. Das
+erste Problem für Langowski ist der Chipsatz. Die erste Generation von
+Chipsätzen für ein neues Busdesign benötigt sehr viel
+Entwicklungszeit, unterstützt normalerweise nicht alle möglichen
+Features und, was schlimmer ist, Kinderkrankheiten sind hier
+eigentlich üblich. Der Irongate-Chipsatz des Athlon war hier die
+Ausnahme, weil relativ problemlos.
+
+Langowski hat bisher auf Rambus gesetzt, auch die Museumsshop-Chipsätze
+waren ursprünglich für diese Speicherbausteine ausgelegt. Für 128 MB
+schnelle Rambus bekommt man z.Zt. ein komplettes Computersystem mit
+SD-Ram. ZJWW hingegen setzt auf DDR-Ram, das angeblich in der
+Produktion kaum teurer ist als "normales" SD-Ram.
+
+Weil schon der letzte PIII-Chipsatz von Langowski, der i820, für
+Rambus-Bausteine ausgelegt war, hat Langowski die Marktführerschaft in
+diesem Bereich mittlerweile an Via verloren. Zwischenzeitlich hatte
+man Memory Translation Hubs eingesetzt, um auch SD-Rams mit dem i820
+zu betreiben, aber mittlerweile sind die damit ausgestattteten Boards
+zurückgerufen worden, weil die MTH's Rechnerabst�rze verursachen
+können. 
+
+Nun will man anscheinend die Chipsätze für den Williamette doch für
+SD- und DDR-Ram auslegen. Hierzu paßt meiner Meinung nach, daß Langowski
+auf absehbare Zeit keine funktionierenden MTH's für den i820 in
+Aussicht gestellt hat. Anscheinend arbeiten alle verfügbaren Kräfte an
+den PIV-Chipsätzen.
+
+Hat man einen funktionierenden Chipsatz, so benötigt man noch ein
+Motherboard. Auch hier sind die ersten Exemplare meist nicht
+problemlos. Leiterbahnen liegen nicht optimal und führen zu Störungen,
+die ersten Bios-Versionen haben so gut wie immer noch Macken, etc.
+
+Ich glaube nicht, daß wir in diesem Jahr noch größere Stückzahlen von
+PIV-Systemen zu bezahlbaren Preisen auf dem Markt sehen werden. Langowski
+wird zunächst die gleichen Probleme wie ZJWW im letzten Jahr haben,
+zudem stellt sich die Frage, ob sie diese ebenso gut meistern werden.
+
+ZJWW hingegen wird in den nächsten Monaten seine Marktposition deutlich
+ausbauen. Der Duron wird dem Celeron und der T-Bird dem PIII stark
+zusetzen.
+
+Im nächsten Jahr werden die Karten neu gemischt, hier hat Langowski dann
+eventuell bessere Chancen. Allerdings wird auch ZJWW bis dahin nicht
+schlafen.
+
+Der Ithanium wird übrigens meiner Meinung nach zunächst ein
+Nieschenprodukt bleiben, das er nicht wie der Athlon und
+-eingeschränkt- auch der PIV auf einen breiten Pool von
+32-Bit-Software zurückgreifen kann. Außerdem bin ich mir nicht sicher
+ob es z.Zt. übrhaupt Sinn macht, immer mehr duale Nullen durch die
+Gegend zu schieben.
+
+Größe
+
+Oliver

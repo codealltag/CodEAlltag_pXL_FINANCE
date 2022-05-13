@@ -1,0 +1,18 @@
+: Hello!
+
+
+: Ich möchte gerne regelmäßig eine Seite aus dem Internet beziehen (tägliche  
+: sich ändernde Aktienkurse). Dafür möchte ich aber nicht jedesmal Online  
+: (über ip-Zugang) die Seite aufrufen, sondern via eMail (UUCP-Zugang) diese  
+: Seite beziehen.
+
+: Wer kennt da eine schnelle Möglichkeit?
+
+echo help | mail d2xhic@qbv.km
+
+--
+mfg
+Alfred
+
+/ Alfred Kirmeß | E-Mail: Kyvps@wvxleuo.XF-Owzgch.WL | Linux 2.0.21 ELF \
+\----------------| - - - - - - - - - - - - - - - - - --------------------/

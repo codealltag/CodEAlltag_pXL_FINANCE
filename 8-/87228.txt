@@ -1,0 +1,24 @@
+Hansjörg Ploigt <meiwy.fpwgjp@fieho.htwrsez.ao> schrieb in im Newsbeitrag:
+736ae101.310588@prex.hjdoj.fbylbpg.an...
+
+Um eine wirklich zufällige , d.h. nicht von ihrer Geschichte abhängige
+Entwicklung der Kurse zu simulieren, müßten VideoOase zwei getrennte
+Würfel bzw. Zufallsgeneratoren verwendet werden, die auch
+getrennt initialisiert werden sollten: Ein Würfel stellt fest, ob es
+am folgenden Tag nach oben oder nach unten gehen soll, der
+zweite bestimmt die prozentuale Größe der Veränderung, wobei
+die Begrenzung auf einen der Realität entlehnten Wert von irgendwo
+zwischen 50 und 100 Prozent gestattet sei.
+
+Wer mit einer solchen Konstruktion einen Chart hinbekommt, der
+z.B. einen langjährigen sich zum Ende hin beschleunigenden Trend
+enthält, kann sich bei mir melden.
+
+Ich nehme dann alles zurück und behaupte das Gegenteil. ;-)
+
+MFG
+Jürg
+--
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate:
+http://kse.gtjsnw.mu/ftfa/hjx/

@@ -1,0 +1,578 @@
+Roulette-Gambling-Prognose
+für Sonntag 11.April 2006 Casino Probstschwaig
+
+              Ziehms=AE       SelWave=AE       WaveTrader=AE
+Zogbaum=AE
+
+Für die entsprechenden Coups ist die Chance zu setzen, die für diese
+Coups
+prognostiziert sind.
+Lautet z.B. die Vorgabe: Black, Figur-5, Coups 27, 29, 31, 33, 35
+dann ist für diese Coups Black zu setzen.
+Die möglichen Figuren sind:
+x--  Figur 2
+-x-
+--x
+--x  Figur 3
+-x-
+x--
+x-x  Figur 4
+---
+x-x
+x-x  Figur 5
+-x-
+x-x
+x-x  Figur 6
+x-x
+x-x
+x-x  Figur 7
+xxx
+x-x
+Es ist aber bereits jeweils für die entsprechenden Coups die Vorgabe
+gegeben,
+auf welche Figur (Coup-Folge) zu setzen ist.
+Die Prognose-Berechnungen sind mit neuronalen Netzen und der von
+Zogbaum=AE
+entwickelten Chaos-Therory for Gambling erstellt.
+Buch-Tip: *AlphaCode*, Author Niklaus Zogbaum
+http://jvy.NrzasRlfz.ry       http://len.Ighbrmgi-Jouzpcbycy.lwj
+
+
+              Range ca.  1.Coup:    Impair, Figur-2, Coups 1, 5, 9
+              Range ca.  2.Coup:    Impair, Figur-5, Coups 2, 4, 6, 8,
+10  Passe, Figur-4, Coups 2, 4, 8, 10
+              Range ca.  3.Coup:
+              Range ca.  4.Coup:    Impair, Figur-5, Coups 4, 6, 8, 10,
+12
+              Range ca.  5.Coup:    Impair, Figur-2, Coups 5, 9, 13
+              Range ca.  6.Coup:    Impair, Figur-5, Coups 6, 8, 10,
+12, 14
+              Range ca.  7.Coup:
+              Range ca.  8.Coup:    Impair, Figur-3, Coups 10, 12, 14
+Passe, Figur-4, Coups 8, 10, 14, 16
+              Range ca.  9.Coup:  Red, Figur-3, Coups 11, 13, 15
+Impair, Figur-2, Coups 9, 13, 17  Passe, Figur-4, Coups 9, 11, 15, 17
+              Range ca.  10.Coup:  Red, Figur-3, Coups 12, 14, 16
+Impair, Figur-2, Coups 10, 14, 18  Passe, Figur-2, Coups 10, 14, 18
+              Range ca.  11.Coup:  Red, Figur-3, Coups 13, 15, 17
+Impair, Figur-3, Coups 13, 15, 17
+              Range ca.  12.Coup:    Impair, Figur-6, Coups 12, 14, 15,
+17, 18, 20  Passe, Figur-3, Coups 14, 16, 18
+              Range ca.  13.Coup:  Red, Figur-2, Coups 13, 17, 21
+Impair, Figur-5, Coups 13, 15, 17, 19, 21
+              Range ca.  14.Coup:    Impair, Figur-2, Coups 14, 18, 22
+Passe, Figur-5, Coups 14, 16, 18, 20, 22
+              Range ca.  15.Coup:    Impair, Figur-3, Coups 17, 19, 21
+
+              Range ca.  16.Coup:  Black, Figur-3, Coups 18, 20, 22
+Impair, Figur-3, Coups 18, 20, 22  Passe, Figur-3, Coups 18, 20, 22
+              Range ca.  17.Coup:  Red, Figur-2, Coups 17, 21, 25
+Impair, Figur-2, Coups 17, 21, 25  Manqe, Figur-3, Coups 19, 21, 23
+              Range ca.  18.Coup:    Impair, Figur-2, Coups 18, 22, 26
+Passe, Figur-2, Coups 18, 22, 26
+              Range ca.  19.Coup:    Impair, Figur-4, Coups 19, 21, 25,
+27  Manqe, Figur-2, Coups 19, 23, 27
+              Range ca.  20.Coup:      Passe, Figur-4, Coups 20, 22,
+26, 28
+              Range ca.  21.Coup:    Impair, Figur-2, Coups 21, 25, 29
+Manqe, Figur-4, Coups 21, 23, 27, 29
+              Range ca.  22.Coup:      Passe, Figur-2, Coups 22, 26, 30
+
+              Range ca.  23.Coup:    Impair, Figur-3, Coups 25, 27, 29
+Manqe, Figur-2, Coups 23, 27, 31
+              Range ca.  24.Coup:  Red, Figur-4, Coups 24, 26, 30, 32
+Pair, Figur-2, Coups 24, 28, 32  Passe, Figur-3, Coups 26, 28, 30
+              Range ca.  25.Coup:    Impair, Figur-2, Coups 25, 29, 33
+Manqe, Figur-3, Coups 27, 29, 31
+              Range ca.  26.Coup:    Pair, Figur-3, Coups 28, 30, 32
+
+              Range ca.  27.Coup:      Manqe, Figur-5, Coups 27, 29,
+31, 33, 35
+              Range ca.  28.Coup:    Pair, Figur-3, Coups 30, 32, 34
+
+              Range ca.  29.Coup:  Black, Figur-4, Coups 29, 31, 35, 37
+   Manqe, Figur-3, Coups 31, 33, 35
+              Range ca.  30.Coup:
+              Range ca.  31.Coup:  Black, Figur-2, Coups 31, 35, 39
+
+              Range ca.  32.Coup:  Red, Figur-2, Coups 32, 36, 40
+Manqe, Figur-4, Coups 32, 34, 38, 40
+              Range ca.  33.Coup:  Black, Figur-3, Coups 35, 37, 39
+
+              Range ca.  34.Coup:  Black, Figur-2, Coups 34, 38, 42
+Impair, Figur-3, Coups 36, 38, 40
+              Range ca.  35.Coup:  Black, Figur-2, Coups 35, 39, 43
+
+              Range ca.  36.Coup:  Red, Figur-2, Coups 36, 40, 44
+Impair, Figur-2, Coups 36, 40, 44
+              Range ca.  37.Coup:  Black, Figur-4, Coups 37, 39, 43, 45
+
+              Range ca.  38.Coup:    Impair, Figur-4, Coups 38, 40, 44,
+46
+              Range ca.  39.Coup:
+              Range ca.  40.Coup:  Red, Figur-2, Coups 40, 44, 48
+Passe, Figur-3, Coups 42, 44, 46
+              Range ca.  41.Coup:      Manqe, Figur-2, Coups 41, 45, 49
+
+              Range ca.  42.Coup:  Red, Figur-3, Coups 44, 46, 48
+Passe, Figur-3, Coups 44, 46, 48
+              Range ca.  43.Coup:
+              Range ca.  44.Coup:  Red, Figur-2, Coups 44, 48, 52
+Passe, Figur-2, Coups 44, 48, 52
+              Range ca.  45.Coup:      Manqe, Figur-2, Coups 45, 49, 53
+
+              Range ca.  46.Coup:    Pair, Figur-3, Coups 48, 50, 52
+Passe, Figur-4, Coups 46, 48, 52, 54
+              Range ca.  47.Coup:    Pair, Figur-3, Coups 49, 51, 53
+
+              Range ca.  48.Coup:    Pair, Figur-3, Coups 50, 52, 54
+
+              Range ca.  49.Coup:      Manqe, Figur-2, Coups 49, 53, 57
+
+              Range ca.  50.Coup:  Black, Figur-2, Coups 50, 54, 58
+Pair, Figur-2, Coups 50, 54, 58
+              Range ca.  51.Coup:      Passe, Figur-2, Coups 51, 55, 59
+
+              Range ca.  52.Coup:  Black, Figur-3, Coups 54, 56, 58
+Pair, Figur-4, Coups 52, 54, 58, 60
+              Range ca.  53.Coup:  Black, Figur-2, Coups 53, 57, 61
+
+              Range ca.  54.Coup:  Black, Figur-3, Coups 56, 58, 60
+Pair, Figur-2, Coups 54, 58, 62
+              Range ca.  55.Coup:  Black, Figur-3, Coups 57, 59, 61
+Passe, Figur-2, Coups 55, 59, 63
+              Range ca.  56.Coup:  Black, Figur-2, Coups 56, 60, 64
+Pair, Figur-3, Coups 58, 60, 62
+              Range ca.  57.Coup:  Black, Figur-2, Coups 57, 61, 65
+Pair, Figur-3, Coups 59, 61, 63  Passe, Figur-3, Coups 59, 61, 63
+              Range ca.  58.Coup:    Pair, Figur-7, Coups 58, 60, 61,
+62, 63, 64, 66
+              Range ca.  59.Coup:  Black, Figur-4, Coups 59, 61, 65, 67
+ Pair, Figur-7, Coups 59, 61, 62, 63, 64, 65, 67  Passe, Figur-3, Coups
+61, 63, 65
+              Range ca.  60.Coup:  Black, Figur-2, Coups 60, 64, 68
+Pair, Figur-3, Coups 62, 64, 66
+              Range ca.  61.Coup:    Pair, Figur-3, Coups 63, 65, 67
+
+              Range ca.  62.Coup:  Red, Figur-2, Coups 62, 66, 70
+              Range ca.  63.Coup:
+              Range ca.  64.Coup:      Passe, Figur-4, Coups 64, 66,
+70, 72
+              Range ca.  65.Coup:      Manqe, Figur-3, Coups 67, 69, 71
+
+              Range ca.  66.Coup:  Red, Figur-2, Coups 66, 70, 74
+              Range ca.  67.Coup:    Impair, Figur-3, Coups 69, 71, 73
+Manqe, Figur-3, Coups 69, 71, 73
+              Range ca.  68.Coup:  Red, Figur-3, Coups 70, 72, 74
+              Range ca.  69.Coup:
+              Range ca.  70.Coup:
+              Range ca.  71.Coup:  Black, Figur-3, Coups 73, 75, 77
+
+              Range ca.  72.Coup:      Manqe, Figur-3, Coups 74, 76, 78
+
+              Range ca.  73.Coup:  Black, Figur-2, Coups 73, 77, 81
+Pair, Figur-3, Coups 75, 77, 79  Passe, Figur-3, Coups 75, 77, 79
+              Range ca.  74.Coup:  Black, Figur-3, Coups 76, 78, 80
+
+              Range ca.  75.Coup:  Black, Figur-6, Coups 75, 77, 78,
+80, 81, 83  Pair, Figur-2, Coups 75, 79, 83  Passe, Figur-2, Coups 75,
+79, 83
+              Range ca.  76.Coup:  Black, Figur-3, Coups 78, 80, 82
+Pair, Figur-4, Coups 76, 78, 82, 84
+              Range ca.  77.Coup:    Pair, Figur-4, Coups 77, 79, 83,
+85  Passe, Figur-6, Coups 77, 79, 80, 82, 83, 85
+              Range ca.  78.Coup:      Passe, Figur-3, Coups 80, 82, 84
+
+              Range ca.  79.Coup:      Passe, Figur-2, Coups 79, 83, 87
+
+              Range ca.  80.Coup:      Passe, Figur-2, Coups 80, 84, 88
+
+              Range ca.  81.Coup:      Passe, Figur-3, Coups 83, 85, 87
+
+              Range ca.  82.Coup:  Red, Figur-3, Coups 84, 86, 88
+Pair, Figur-4, Coups 82, 84, 88, 90
+              Range ca.  83.Coup:    Pair, Figur-4, Coups 83, 85, 89,
+91  Passe, Figur-5, Coups 83, 85, 87, 89, 91
+              Range ca.  84.Coup:      Passe, Figur-2, Coups 84, 88, 92
+
+              Range ca.  85.Coup:      Passe, Figur-5, Coups 85, 87,
+89, 91, 93
+              Range ca.  86.Coup:
+              Range ca.  87.Coup:      Passe, Figur-3, Coups 89, 91, 93
+
+              Range ca.  88.Coup:    Pair, Figur-4, Coups 88, 90, 94,
+96  Passe, Figur-2, Coups 88, 92, 96
+              Range ca.  89.Coup:
+              Range ca.  90.Coup:      Passe, Figur-3, Coups 92, 94, 96
+
+              Range ca.  91.Coup:
+              Range ca.  92.Coup:
+              Range ca.  93.Coup:      Manqe, Figur-3, Coups 95, 97, 99
+
+              Range ca.  94.Coup:
+              Range ca.  95.Coup:    Impair, Figur-2, Coups 95, 99, 103
+
+              Range ca.  96.Coup:
+              Range ca.  97.Coup:
+              Range ca.  98.Coup:    Impair, Figur-2, Coups 98, 102,
+106  Manqe, Figur-4, Coups 98, 100, 104, 106
+              Range ca.  99.Coup:  Black, Figur-3, Coups 101, 103, 105
+  Passe, Figur-3, Coups 101, 103, 105
+              Range ca.  100.Coup:    Impair, Figur-3, Coups 102, 104,
+106  Manqe, Figur-2, Coups 100, 104, 108
+              Range ca.  101.Coup:  Black, Figur-3, Coups 103, 105, 107
+   Passe, Figur-3, Coups 103, 105, 107
+              Range ca.  102.Coup:  Black, Figur-2, Coups 102, 106, 110
+ Impair, Figur-2, Coups 102, 106, 110  Manqe, Figur-3, Coups 104, 106,
+108
+              Range ca.  103.Coup:
+              Range ca.  104.Coup:  Black, Figur-3, Coups 106, 108, 110
+   Manqe, Figur-5, Coups 104, 106, 108, 110, 112
+              Range ca.  105.Coup:
+              Range ca.  106.Coup:  Black, Figur-3, Coups 108, 110, 112
+ Impair, Figur-2, Coups 106, 110, 114  Manqe, Figur-7, Coups 106, 108,
+109, 110, 111, 112, 114
+              Range ca.  107.Coup:      Manqe, Figur-3, Coups 109, 111,
+113
+              Range ca.  108.Coup:      Manqe, Figur-7, Coups 108, 110,
+111, 112, 113, 114, 116
+              Range ca.  109.Coup:
+              Range ca.  110.Coup:      Manqe, Figur-5, Coups 110, 112,
+114, 116, 118
+              Range ca.  111.Coup:  Black, Figur-3, Coups 113, 115, 117
+
+              Range ca.  112.Coup:      Manqe, Figur-3, Coups 114, 116,
+118
+              Range ca.  113.Coup:    Pair, Figur-3, Coups 115, 117,
+119  Passe, Figur-3, Coups 115, 117, 119
+              Range ca.  114.Coup:  Red, Figur-4, Coups 114, 116, 120,
+122
+              Range ca.  115.Coup:      Passe, Figur-5, Coups 115, 117,
+119, 121, 123
+              Range ca.  116.Coup:  Red, Figur-2, Coups 116, 120, 124
+Impair, Figur-2, Coups 116, 120, 124
+              Range ca.  117.Coup:  Red, Figur-3, Coups 119, 121, 123
+ Passe, Figur-3, Coups 119, 121, 123
+              Range ca.  118.Coup:  Red, Figur-3, Coups 120, 122, 124
+ Passe, Figur-3, Coups 120, 122, 124
+              Range ca.  119.Coup:  Red, Figur-2, Coups 119, 123, 127
+
+              Range ca.  120.Coup:  Red, Figur-5, Coups 120, 122, 124,
+126, 128  Impair, Figur-2, Coups 120, 124, 128
+              Range ca.  121.Coup:
+              Range ca.  122.Coup:  Red, Figur-5, Coups 122, 124, 126,
+128, 130  Impair, Figur-3, Coups 124, 126, 128
+              Range ca.  123.Coup:    Pair, Figur-3, Coups 125, 127,
+129
+              Range ca.  124.Coup:  Red, Figur-3, Coups 126, 128, 130
+Impair, Figur-3, Coups 126, 128, 130  Manqe, Figur-3, Coups 126, 128,
+130
+              Range ca.  125.Coup:    Pair, Figur-3, Coups 127, 129,
+131
+              Range ca.  126.Coup:    Impair, Figur-2, Coups 126, 130,
+134  Manqe, Figur-5, Coups 126, 128, 130, 132, 134
+              Range ca.  127.Coup:    Pair, Figur-2, Coups 127, 131,
+135  Manqe, Figur-2, Coups 127, 131, 135
+              Range ca.  128.Coup:    Impair, Figur-4, Coups 128, 130,
+134, 136  Manqe, Figur-3, Coups 130, 132, 134
+              Range ca.  129.Coup:  Black, Figur-6, Coups 129, 131,
+132, 134, 135, 137    Passe, Figur-2, Coups 129, 133, 137
+              Range ca.  130.Coup:
+              Range ca.  131.Coup:  Black, Figur-2, Coups 131, 135, 139
+ Pair, Figur-2, Coups 131, 135, 139  Manqe, Figur-2, Coups 131, 135,
+139
+              Range ca.  132.Coup:
+              Range ca.  133.Coup:  Black, Figur-3, Coups 135, 137, 139
+ Impair, Figur-2, Coups 133, 137, 141  Passe, Figur-2, Coups 133, 137,
+141
+              Range ca.  134.Coup:
+              Range ca.  135.Coup:
+              Range ca.  136.Coup:
+              Range ca.  137.Coup:      Passe, Figur-2, Coups 137, 141,
+145
+              Range ca.  138.Coup:  Black, Figur-3, Coups 140, 142, 144
+   Manqe, Figur-3, Coups 140, 142, 144
+              Range ca.  139.Coup:  Red, Figur-3, Coups 141, 143, 145
+ Passe, Figur-3, Coups 141, 143, 145
+              Range ca.  140.Coup:  Black, Figur-3, Coups 142, 144, 146
+
+              Range ca.  141.Coup:  Red, Figur-2, Coups 141, 145, 149
+
+              Range ca.  142.Coup:
+              Range ca.  143.Coup:  Red, Figur-4, Coups 143, 145, 149,
+151  Pair, Figur-3, Coups 145, 147, 149
+              Range ca.  144.Coup:      Passe, Figur-3, Coups 146, 148,
+150
+              Range ca.  145.Coup:  Red, Figur-2, Coups 145, 149, 153
+Pair, Figur-5, Coups 145, 147, 149, 151, 153
+              Range ca.  146.Coup:
+              Range ca.  147.Coup:  Red, Figur-3, Coups 149, 151, 153
+Pair, Figur-3, Coups 149, 151, 153
+              Range ca.  148.Coup:
+              Range ca.  149.Coup:  Red, Figur-5, Coups 149, 151, 153,
+155, 157  Pair, Figur-2, Coups 149, 153, 157  Passe, Figur-3, Coups
+151, 153, 155
+              Range ca.  150.Coup:  Red, Figur-2, Coups 150, 154, 158
+ Manqe, Figur-3, Coups 152, 154, 156
+              Range ca.  151.Coup:  Red, Figur-3, Coups 153, 155, 157
+
+              Range ca.  152.Coup:      Manqe, Figur-2, Coups 152, 156,
+160
+              Range ca.  153.Coup:  Red, Figur-2, Coups 153, 157, 161
+Pair, Figur-2, Coups 153, 157, 161
+              Range ca.  154.Coup:  Red, Figur-2, Coups 154, 158, 162
+ Manqe, Figur-6, Coups 154, 156, 157, 159, 160, 162
+              Range ca.  155.Coup:      Manqe, Figur-3, Coups 157, 159,
+161
+              Range ca.  156.Coup:  Red, Figur-3, Coups 158, 160, 162
+Impair, Figur-3, Coups 158, 160, 162  Manqe, Figur-2, Coups 156, 160,
+164
+              Range ca.  157.Coup:
+              Range ca.  158.Coup:  Red, Figur-5, Coups 158, 160, 162,
+164, 166  Impair, Figur-2, Coups 158, 162, 166  Manqe, Figur-3, Coups
+160, 162, 164
+              Range ca.  159.Coup:
+              Range ca.  160.Coup:  Red, Figur-5, Coups 160, 162, 164,
+166, 168
+              Range ca.  161.Coup:      Passe, Figur-3, Coups 163, 165,
+167
+              Range ca.  162.Coup:  Red, Figur-5, Coups 162, 164, 166,
+168, 170  Impair, Figur-2, Coups 162, 166, 170
+              Range ca.  163.Coup:    Impair, Figur-3, Coups 165, 167,
+169  Passe, Figur-3, Coups 165, 167, 169
+              Range ca.  164.Coup:  Red, Figur-3, Coups 166, 168, 170
+Pair, Figur-2, Coups 164, 168, 172  Passe, Figur-3, Coups 166, 168, 170
+
+              Range ca.  165.Coup:  Black, Figur-2, Coups 165, 169, 173
+ Impair, Figur-2, Coups 165, 169, 173  Passe, Figur-2, Coups 165, 169,
+173
+              Range ca.  166.Coup:    Impair, Figur-2, Coups 166, 170,
+174
+              Range ca.  167.Coup:
+              Range ca.  168.Coup:
+              Range ca.  169.Coup:      Passe, Figur-2, Coups 169, 173,
+177
+              Range ca.  170.Coup:  Black, Figur-3, Coups 172, 174, 176
+ Impair, Figur-2, Coups 170, 174, 178
+              Range ca.  171.Coup:
+              Range ca.  172.Coup:  Black, Figur-2, Coups 172, 176, 180
+ Impair, Figur-3, Coups 174, 176, 178
+              Range ca.  173.Coup:
+              Range ca.  174.Coup:    Impair, Figur-2, Coups 174, 178,
+182  Passe, Figur-3, Coups 176, 178, 180
+              Range ca.  175.Coup:
+              Range ca.  176.Coup:  Black, Figur-2, Coups 176, 180, 184
+   Passe, Figur-3, Coups 178, 180, 182
+              Range ca.  177.Coup:  Red, Figur-2, Coups 177, 181, 185
+
+              Range ca.  178.Coup:      Passe, Figur-2, Coups 178, 182,
+186
+              Range ca.  179.Coup:  Red, Figur-3, Coups 181, 183, 185
+Impair, Figur-4, Coups 179, 181, 185, 187
+              Range ca.  180.Coup:      Passe, Figur-6, Coups 180, 182,
+183, 185, 186, 188
+              Range ca.  181.Coup:  Red, Figur-5, Coups 181, 183, 185,
+187, 189    Passe, Figur-3, Coups 183, 185, 187
+              Range ca.  182.Coup:      Passe, Figur-2, Coups 182, 186,
+190
+              Range ca.  183.Coup:  Red, Figur-3, Coups 185, 187, 189
+ Passe, Figur-2, Coups 183, 187, 191
+              Range ca.  184.Coup:  Black, Figur-4, Coups 184, 186,
+190, 192    Passe, Figur-3, Coups 186, 188, 190
+              Range ca.  185.Coup:  Red, Figur-2, Coups 185, 189, 193
+ Passe, Figur-6, Coups 185, 187, 188, 190, 191, 193
+              Range ca.  186.Coup:  Black, Figur-2, Coups 186, 190, 194
+   Passe, Figur-3, Coups 188, 190, 192
+              Range ca.  187.Coup:
+              Range ca.  188.Coup:  Black, Figur-3, Coups 190, 192, 194
+   Passe, Figur-2, Coups 188, 192, 196
+              Range ca.  189.Coup:  Red, Figur-2, Coups 189, 193, 197
+
+              Range ca.  190.Coup:      Passe, Figur-4, Coups 190, 192,
+196, 198
+              Range ca.  191.Coup:  Black, Figur-2, Coups 191, 195, 199
+ Pair, Figur-2, Coups 191, 195, 199
+              Range ca.  192.Coup:      Passe, Figur-2, Coups 192, 196,
+200
+              Range ca.  193.Coup:      Passe, Figur-2, Coups 193, 197,
+201
+              Range ca.  194.Coup:      Passe, Figur-3, Coups 196, 198,
+200
+              Range ca.  195.Coup:    Pair, Figur-2, Coups 195, 199,
+203
+              Range ca.  196.Coup:  Red, Figur-4, Coups 196, 198, 202,
+204  Impair, Figur-4, Coups 196, 198, 202, 204  Passe, Figur-3, Coups
+198, 200, 202
+              Range ca.  197.Coup:    Pair, Figur-3, Coups 199, 201,
+203  Passe, Figur-2, Coups 197, 201, 205
+              Range ca.  198.Coup:      Passe, Figur-2, Coups 198, 202,
+206
+              Range ca.  199.Coup:  Black, Figur-4, Coups 199, 201,
+205, 207  Pair, Figur-3, Coups 201, 203, 205  Passe, Figur-3, Coups
+201, 203, 205
+              Range ca.  200.Coup:
+              Range ca.  201.Coup:    Pair, Figur-2, Coups 201, 205,
+209  Passe, Figur-5, Coups 201, 203, 205, 207, 209
+              Range ca.  202.Coup:
+              Range ca.  203.Coup:    Pair, Figur-6, Coups 203, 205,
+206, 208, 209, 211  Passe, Figur-5, Coups 203, 205, 207, 209, 211
+              Range ca.  204.Coup:      Manqe, Figur-2, Coups 204, 208,
+212
+              Range ca.  205.Coup:      Passe, Figur-5, Coups 205, 207,
+209, 211, 213
+              Range ca.  206.Coup:      Manqe, Figur-3, Coups 208, 210,
+212
+              Range ca.  207.Coup:      Passe, Figur-5, Coups 207, 209,
+211, 213, 215
+              Range ca.  208.Coup:  Red, Figur-3, Coups 210, 212, 214
+
+              Range ca.  209.Coup:  Red, Figur-2, Coups 209, 213, 217
+Pair, Figur-4, Coups 209, 211, 215, 217  Passe, Figur-3, Coups 211,
+213, 215
+              Range ca.  210.Coup:
+              Range ca.  211.Coup:  Red, Figur-3, Coups 213, 215, 217
+Pair, Figur-2, Coups 211, 215, 219
+              Range ca.  212.Coup:
+              Range ca.  213.Coup:    Pair, Figur-3, Coups 215, 217,
+219
+              Range ca.  214.Coup:  Black, Figur-3, Coups 216, 218, 220
+   Passe, Figur-4, Coups 214, 216, 220, 222
+              Range ca.  215.Coup:
+              Range ca.  216.Coup:  Black, Figur-2, Coups 216, 220, 224
+ Impair, Figur-3, Coups 218, 220, 222  Passe, Figur-2, Coups 216, 220,
+224
+              Range ca.  217.Coup:  Black, Figur-3, Coups 219, 221, 223
+
+              Range ca.  218.Coup:  Black, Figur-6, Coups 218, 220,
+221, 223, 224, 226  Impair, Figur-2, Coups 218, 222, 226  Passe,
+Figur-3, Coups 220, 222, 224
+              Range ca.  219.Coup:    Impair, Figur-3, Coups 221, 223,
+225  Manqe, Figur-2, Coups 219, 223, 227
+              Range ca.  220.Coup:    Impair, Figur-6, Coups 220, 222,
+223, 225, 226, 228
+              Range ca.  221.Coup:    Impair, Figur-3, Coups 223, 225,
+227
+              Range ca.  222.Coup:
+              Range ca.  223.Coup:
+              Range ca.  224.Coup:
+              Range ca.  225.Coup:
+              Range ca.  226.Coup:
+              Range ca.  227.Coup:
+              Range ca.  228.Coup:
+              Range ca.  229.Coup:      Passe, Figur-3, Coups 231, 233,
+235
+              Range ca.  230.Coup:    Pair, Figur-2, Coups 230, 234,
+238
+              Range ca.  231.Coup:  Black, Figur-2, Coups 231, 235, 239
+ Impair, Figur-3, Coups 233, 235, 237  Passe, Figur-5, Coups 231, 233,
+235, 237, 239
+              Range ca.  232.Coup:
+              Range ca.  233.Coup:    Impair, Figur-3, Coups 235, 237,
+239  Passe, Figur-3, Coups 235, 237, 239
+              Range ca.  234.Coup:    Pair, Figur-2, Coups 234, 238,
+242
+              Range ca.  235.Coup:  Black, Figur-2, Coups 235, 239, 243
+   Passe, Figur-2, Coups 235, 239, 243
+              Range ca.  236.Coup:    Impair, Figur-2, Coups 236, 240,
+244  Passe, Figur-4, Coups 236, 238, 242, 244
+              Range ca.  237.Coup:  Black, Figur-3, Coups 239, 241, 243
+
+              Range ca.  238.Coup:    Pair, Figur-2, Coups 238, 242,
+246  Passe, Figur-2, Coups 238, 242, 246
+              Range ca.  239.Coup:  Black, Figur-2, Coups 239, 243, 247
+ Pair, Figur-3, Coups 241, 243, 245  Passe, Figur-2, Coups 239, 243,
+247
+              Range ca.  240.Coup:    Impair, Figur-2, Coups 240, 244,
+248  Passe, Figur-3, Coups 242, 244, 246
+              Range ca.  241.Coup:    Pair, Figur-5, Coups 241, 243,
+245, 247, 249
+              Range ca.  242.Coup:  Black, Figur-2, Coups 242, 246, 250
+ Pair, Figur-2, Coups 242, 246, 250  Passe, Figur-3, Coups 244, 246,
+248
+              Range ca.  243.Coup:  Black, Figur-2, Coups 243, 247, 251
+ Pair, Figur-3, Coups 245, 247, 249  Passe, Figur-2, Coups 243, 247,
+251
+              Range ca.  244.Coup:  Black, Figur-3, Coups 246, 248, 250
+
+              Range ca.  245.Coup:    Pair, Figur-2, Coups 245, 249,
+253  Passe, Figur-3, Coups 247, 249, 251
+              Range ca.  246.Coup:  Black, Figur-3, Coups 248, 250, 252
+ Pair, Figur-2, Coups 246, 250, 254
+              Range ca.  247.Coup:  Black, Figur-2, Coups 247, 251, 255
+ Pair, Figur-6, Coups 247, 249, 250, 252, 253, 255
+              Range ca.  248.Coup:    Pair, Figur-3, Coups 250, 252,
+254  Manqe, Figur-3, Coups 250, 252, 254
+              Range ca.  249.Coup:  Black, Figur-3, Coups 251, 253, 255
+
+              Range ca.  250.Coup:    Pair, Figur-2, Coups 250, 254,
+258  Manqe, Figur-2, Coups 250, 254, 258
+              Range ca.  251.Coup:      Manqe, Figur-3, Coups 253, 255,
+257
+              Range ca.  252.Coup:  Red, Figur-3, Coups 254, 256, 258
+Pair, Figur-4, Coups 252, 254, 258, 260
+              Range ca.  253.Coup:
+              Range ca.  254.Coup:
+              Range ca.  255.Coup:  Red, Figur-3, Coups 257, 259, 261
+
+              Range ca.  256.Coup:      Passe, Figur-2, Coups 256, 260,
+264
+              Range ca.  257.Coup:  Red, Figur-2, Coups 257, 261, 265
+Impair, Figur-2, Coups 257, 261, 265
+              Range ca.  258.Coup:      Passe, Figur-3, Coups 260, 262,
+264
+              Range ca.  259.Coup:    Impair, Figur-3, Coups 261, 263,
+265
+              Range ca.  260.Coup:      Passe, Figur-2, Coups 260, 264,
+268
+              Range ca.  261.Coup:    Impair, Figur-3, Coups 263, 265,
+267  Manqe, Figur-3, Coups 263, 265, 267
+              Range ca.  262.Coup:
+              Range ca.  263.Coup:  Black, Figur-2, Coups 263, 267, 271
+
+              Range ca.  264.Coup:    Pair, Figur-3, Coups 266, 268,
+270  Passe, Figur-2, Coups 264, 268, 272
+              Range ca.  265.Coup:  Black, Figur-3, Coups 267, 269, 271
+
+              Range ca.  266.Coup:    Pair, Figur-3, Coups 268, 270,
+272
+              Range ca.  267.Coup:  Black, Figur-2, Coups 267, 271, 275
+ Pair, Figur-3, Coups 269, 271, 273
+              Range ca.  268.Coup:  Black, Figur-2, Coups 268, 272, 276
+   Passe, Figur-2, Coups 268, 272, 276
+              Range ca.  269.Coup:  Black, Figur-6, Coups 269, 271,
+272, 274, 275, 277  Pair, Figur-5, Coups 269, 271, 273, 275, 277
+              Range ca.  270.Coup:  Black, Figur-3, Coups 272, 274, 276
+   Passe, Figur-3, Coups 272, 274, 276
+              Range ca.  271.Coup:  Black, Figur-2, Coups 271, 275, 279
+ Pair, Figur-3, Coups 273, 275, 277  Manqe, Figur-3, Coups 273, 275,
+277
+              Range ca.  272.Coup:    Impair, Figur-3, Coups 274, 276,
+278  Passe, Figur-2, Coups 272, 276, 280
+              Range ca.  273.Coup:  Black, Figur-3, Coups 275, 277, 279
+ Pair, Figur-2, Coups 273, 277, 281  Manqe, Figur-2, Coups 273, 277,
+281
+              Range ca.  274.Coup:      Passe, Figur-4, Coups 274, 276,
+280, 282
+              Range ca.  275.Coup:
+              Range ca.  276.Coup:      Passe, Figur-2, Coups 276, 280,
+284
+              Range ca.  277.Coup:    Pair, Figur-2, Coups 277, 281,
+285
+              Range ca.  278.Coup:    Pair, Figur-3, Coups 280, 282,
+284  Passe, Figur-3, Coups 280, 282, 284
+              Range ca.  279.Coup:
+              Range ca.  280.Coup:    Pair, Figur-2, Coups 280, 284,
+288
+              Range ca.  281.Coup:    Pair, Figur-2, Coups 281, 285,
+289
+              Range ca.  282.Coup:
+              Range ca.  283.Coup:
+              Range ca.  284.Coup:      Manqe, Figur-3, Coups 286, 288,
+290
+              Range ca.  285.Coup:
+              Range ca.  286.Coup:
+              Range ca.  287.Coup:  , Figur-2, Coups 287, 291, 295  ,
+Figur-2, Coups 287, 291, 295  , Figur-2, Coups 287, 291, 295
+              Range ca.  288.Coup:
+              Range ca.  289.Coup:  , Figur-3, Coups 291, 293, 295  ,
+Figur-3, Coups 291, 293, 295  , Figur-3, Coups 291, 293, 295

@@ -1,0 +1,24 @@
+Ich habe so einen Straddle-Strategie auch schon über längere
+Zeit getestet. Das größte Risiko sehe ich dabei nicht
+im abnehmenden Zeitwert von Put und Call (das kann man
+durch lange Laufzeiten beherrschen), sondern im Einfluß
+der impliziten Volatilität. Aussichtsreich und einigermaßen
+risikoarm sind solche Positionen vor allem dann, wenn
+die Volatilität zum Kaufzeitpunkt niedrig ist. War die Volatilität
+zum Kaufzeitpunkt zu hoch, ist es sehr schwer, mit der Position
+in den Gewinn zu kommen. übrigens kann man das Gewinn-
+Risiko-Verhältnis noch weiter verringern bzw. erhöhen, indem
+man für Put und Call unterschiedliche Basispreise wählt, das
+wäre dann eine Strangle-Strategie.
+
+Völlig ohne Risiko führt man, wenn man dann noch einen
+geeigneten Bandbreitenschein dazukauft, der nur dann
+ordentlich Gewinne macht, wenn sich nichts bewegt,
+dann ist am Ende außer Spesen nichts gewesen.;-)
+
+MfG
+Kay
+--
+B�rsenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gängigen Formate:
+http://gyi.qggfeo.ki/icnd/xuf/

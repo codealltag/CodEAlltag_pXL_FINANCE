@@ -1,0 +1,39 @@
+Hallo Christof!
+=2E..
+
+Mit dem Ueberrollen von Kontrakten habe ich auch ein Problem,
+konkret ist=B4s bei mir DBK und CBK auf 12/98 gewesen, die ich
+aus Gier (?) nicht rechtzeitig glattstellte. Da sie stark aus
+dem Geld waren, liegen die neuen (auf 10/98, monatlich war mir
+zu heiss) mit gleichem Einsatz noch staerker aus dem Geld,
+da die Vola dafuer gefallen ist und bei laengeren Laufzeiten
+wohl generell niedriger ist.
+Was soll man fairerweise als Verlust *vor* Ueberrollen akzeptieren?
+Zinsen + Transaktionskosten alleine sind=B4s jedenfalls nicht.
+Hast Du einen Ansatz?
+
+=2E..
+
+Mein Gedanke war: Kauf Put + Verkauf Call =3D Verkauf Index
+Damit ist das Risiko natuerlich nicht mehr auf den Einsatz
+fuer den Put beschraenkt und groesser. Aber die Groesse waere
+fuer mich besser zu kontrollieren als beim FDAX (muss ja nicht
+10 Kontrakte nehmen) und der Marginbedarf ist kurzfristig geringer
+als ein Nachschuss beim Future, wenn die Richtung falsch ist,
+da sich der Wert des Calls nicht um die Punktezahl des Index erhoeht,
+falls er nicht tief im Geld steht.
+Aber ob das fuer einen Privatmann Sinn macht?
+
+Wie ist=B4s mit: Verkauf Future + Kauf Call ? Damit hat man wohl die Vola=
+
+der Calls als Vola fuer den Put akzeptiert?
+
+Sollte ich mir mal durchrechnen und Bsp anschauen.
+
+=2E..
+
+Nach erst 3 Jahren Boerse trau=B4 ich mir da keine erfolgreiche
+Haltung zu.
+
+MfG
+Lars

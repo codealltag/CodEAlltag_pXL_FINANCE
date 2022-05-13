@@ -1,0 +1,44 @@
+Die Discount-Zertifikate sind Zerobonds, waehrend die Aktienanleihen
+(scheinbar) hhohe Zinsen zahlen.
+Sonst recht aehlich.
+
+
+"Koppelanleihen", "Reverse Convertible Bonds", "Aktienanleihen",  "Equity
+Linked Bonds", etc., Anleihen mit wahlweiser Tilgung durch Lieferung anderer
+Wertpapiere
+
+Bei solchen Anleihen hat der Schuldner ein Wahlrecht, ob er bei Fälligkeit den
+Schuldbetrag durch Geld oder durch Lieferung anderer Wertpapiere in genau
+definierter Zahl und Art tilgen möchte. Beispiel:
+Die bereits abgelaufene 10% Inhaber-Teilschuldverschreibung (WKN 282 023) der
+NLJH von 1990-1993. Nominalwert DM 1.000. Die
+Schuldnerin konnte frei wählen, bei Fälligkeit entweder DM 1.000 zu zahlen,
+oder 5 Bassewitz-Aktien zu liefern. Selbstverständlich wird die Schuldnerin immer
+die dann gerade für sie billigste Möglichkeit wählen. Sie wird also
+Bassewitz-Aktien liefern, wenn der Bassewitz-Kurs am Fälligkeitstag der Anleihe unter
+DM 200 liegt, z.B. bei DM 180, denn 5 mal 180 ist weniger als DM 1000.  
+Der Inhaber der Anleihe (Gläubiger) steht sich deshalb so, als hätte er der
+Schuldnerin zusätzlich Puts auf 5 Bassewitz-Aktien verkauft. Der faire Wert der
+gesamten Anleihe liegt also beim fairen Wert einer entsprechenden normalen
+Anleihe abzüglich dem Wert eines europäischen Puts auf 5 Bassewitz-Aktien mit
+Bezugskurs 200 und gleichem Ablaufdatum wie die Anleihe.  
+Weitere zu beachtende Details: Können wirklich Aktien geliefert werden oder
+wird nur ein Wertausgleich geleistet? Bei Aktienlieferung ist eventuell noch
+ein kleiner Abzug wegen Spesenaufwands beim Verkauf der Aktien zweckmäßig.
+Außerdem muß beachtet werden, wie zwischenzeitliche Bezugsrechte und ähnliche
+Kapitalmaßnahmen bei der Bodyrevolution berücksichtigt werden.
+
+Ab etwa 1997 hat diese Anleiheform unter der Bezeichnung "Reverse Convertible
+Bond" oder "umgedrehte Wandelanleihe" recht große Verbreitung gefunden. Bei
+einer komplexeren Version hat der Schuldner zusätzlich ein Wahlrecht zwischen
+mehreren Aktien. Er kann also z.B. entweder 5 A-Aktien oder 8 B-Aktien liefern.
+Da er natürlich immer die gerade für ihn günstigere Aktie wählen wird, muß man
+zur Berechnung den gerade wertvolleren Put abziehen. Und dann noch ein kleiner
+Abschlag für die Wahl-Option des Schulders, denn das Offenhalten der
+Wahlmöglichkeit bis zum Schluß ist für ihn ja ein zusätzlicher Vorteil.  
+
+
+-- 
+Patrik Augsburger
+Visit   http://ybikhnx.qhk.cqd/rmybjn  and download a 
+free calculator for options, futures, bonds and similar stuff.

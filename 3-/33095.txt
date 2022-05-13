@@ -1,0 +1,16 @@
+Ist auch richtig, entspricht etwa dem hier:
+Man kann diese Art von Wertpapieren übrigens alternativ auch berechnen 
+nach dem Schema: Underlying minus Call. Wir nehmen also den Wert des
+zugrundeliegenden Indizes bzw. Aktie und ziehen davon den Wert eines 
+Calls mit der Obergrenze als Basiskurs ab.
+
+Man kann solche Berechnungen (fairer Preis) in der Regel nach mehreren
+Herleitungen durchfuehren.
+Peinlich wird es erst, wenn man dabei unterschiedliche Ergebnisse 
+bekommt ...
+
+
+-- 
+Werner Vehr
+Visit   http://uywmnaq.nan.pmy/fwtpmt  and download a 
+free calculator for options, futures, bonds and similar stuff.

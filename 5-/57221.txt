@@ -1,0 +1,48 @@
+Hallo Gerti,
+
+meine Meinung ist die folgende:
+
+ich würde generell vermeiden, auf so langfristige Zeiträume
+wie 1 Jahr einen Optionsschein zu kaufen, weil der Zeitwert-
+verlust enorm ist (in Deinem Fall verlierst Du etwa 1500 Euro
+Zeitwert - nämlich den gesamten Einstandspreis).
+Entsprechend halte ich von Größen, die auf "Halten bis zur
+Ausübungsfrist" berechnet sind, nix (break even, Totalver-
+lustwahrscheinlichkeit, etc.)
+
+Einen Optionsschein würde ich nur auf kurzfristig erwartetete
+Kursbewegungen kaufen, und dabei auf folgende Größen achten:
+
+* implizite Vola Brief, verglichen mit anderen Scheinen auf das
+  gleiche underlying ein Maß für Preiswürdigkeit - wenn Du an
+  Black-Scholes glaubst
+* Spread in % des Briefkurses - draufzahlen macht keinen Spaß
+* Omega - der Faktor, der die Reaktion Deines OS-Engagements im
+  Vergleich zu einem Engagement im underlying angibt - wenn Du an
+  Black-Scholes glaubst ;)
+* prozentuales Wochentheta - die Geschwindigkeit, mit der Dein
+  Schein Dir in den Fingern zerbröckelt - wenn Du ... ach, Du
+  weisst schon.
+
+Gibts alles beim Etafs OS-Vergleich; die letzten beiden
+Faktoren sind schlecht unter einen Hut zu bringen.
+
+Außerdem sollte der Emittent seine Scheine gut pflegen, also
+zuverlässig quotieren und zügig zurückkaufen.
+
+Ganz nebenbei halte ich Optionsscheine auf Internet-Kram wegen
+der irrsinnigen eingepreisten Volatilitäten für wenig reizvoll.
+Vergleiche Dein Schein-Szenario mal mit dem Kauf des Aktie direkt:
+auch hier etwa 200% Gewinn - mit dem gewaltigen Unterschied, daß
+diese Position keinen Verlust macht, wenn Radlager in einem Jahr
+unverändert steht. M.E. ist das ein wesentlich besseres 
+Chance/Risko-Verhältnis.
+
+Und schließlich: Du hast Deine Zeitmaschine falsch abgelesen. Radlager
+steht am 17.3.2001 bestenfalls bei 20 Dollar. In diesem Fall ist die
+Performance der beiden OS identisch :)
+
+Ich hoffe auf rege Diskussion!
+
+Viele Größe;
+Lothar

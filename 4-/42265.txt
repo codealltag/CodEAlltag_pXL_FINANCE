@@ -1,0 +1,22 @@
+Hallo Theodor,
+
+Der ist leicht (sorry Carl, falls ich Dir vorgreife):
+
+Wahrscheinlichkeit für genau n Zuteilungen bei m Depots:
+(n aus m)*(1/6)^n*(5/6)^(m-n)
+
+Bei n=3D4 und m=3D6 macht das:
+15*(1/6)^4*(5/6)^2=3D15*5*5/6^6=3D375/46656~0,804%
+
+Das ist die Wahrscheinlichkeit für *genau* 4 Zuteilungen.
+
+Für mindestens 4 Zuteilungen erbit sich:
+n=3D5, m=3D6: 6*(1/6)^5*(5/6)=3D30/46656~0,064%
+n=3D6, m=3D6: 1*(1/6)^6=3D1/46656~0,002%
+
+also ~ 0,870%
+
+Da braucht man Statistik ja auch nicht so... ;-)
+
+Beste Grüße,
+Juan

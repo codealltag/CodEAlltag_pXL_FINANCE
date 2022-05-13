@@ -1,0 +1,25 @@
+Wo steht denn geschrieben, das das keiner macht ?
+
+
+Eine Menge, sollten aber bekannt sein.
+
+
+richtig, wobei dieses "nur" auch ganz schön ins Geld gehen kann. Ich sprach
+hier davon, Call *und* Put zu kaufen, mit dem gleichem Basispreis. Dann heben
+sich Kursveränderungen gegemseitig auf, d.h. man steht zur Kursveränderung
+neutral. übrig bleibt im Wesentlichen die Veränderung der Volatilität, d.h. Du
+gewinnst bei steigender und verlierst bei fallender, egal in welche Richtung
+sich die Kurse bewegen. 
+
+Man kann es auch umgekehrt machen, d.h. Call+Put verkaufen und profitiert dann
+von einer fallenden Vola. Dann wird man natürlich mit Sicherheit den Basiswert
+liefern müssen, entweder an den Besitzer des Puts oder den des Calls, d.h. man
+kauft sich zusätzlich einen passenden Future. 
+
+
+Soll vorkommen ;-)
+
+übrigens geht das auch unkomplizierter: mit Calls/Puts aauf den VDax
+(Volatilitätsindex). Leider sehr wenig gehandelt.
+
+Gruß, Cornelius

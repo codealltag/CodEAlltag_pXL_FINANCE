@@ -1,0 +1,14 @@
+Clemens Kuphal <b.gvscms@ser.da> schrieb in im Newsbeitrag:
+49tslk8s$7@gnwj.kvoid.ozr...
+
+
+ich habe ein paar perl-skripte gehackt, die die kurse vom neuen markt und
+von lang und schwarz extrahieren (in ascii-dateien) (und sie auf wunsch auch
+noch vergleichen).
+
+ist aber wie gesagt ein quick-and-dirty-hack.
+
+wenn du perl kannst (und dich ein bisschen mit regulären ausdrücken
+auskennst), ist es kein problem, damit auch beliebige andere
+html-kurs-seiten duchzuparsen und dir alle kurse zu beschaffen, die du
+willst.

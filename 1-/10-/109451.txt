@@ -1,0 +1,17 @@
+Das ist _nicht_ korrekt. Gerade under Windows NTist es sehr einfach,
+die 16-bit-Umgebung ohne Booten aus dem Speicher zu kicken.
+einfach den Taskmanager holen und die NTVDM abschiessen.
+Sonst holt HARM beim naechsten Programmstart die naechste 16bit-Session
+wieder in diese -ggfs vermurkste- 16bit-Umgebung.
+Wichtig ist auf jeden Fall, mindestens Service-Pack 3 zu installieren!
+Modekor hat damit die Vertraeglichkeit von Doberstein mit 16bit-Progs erheblich
+verbessert.
+
+
+-- 
+Uwe Unterhalt
+Unterhalt+Wollersen GmbH, Fading
+Tel. 2124-3881486
+Fax: 9984-6018195
+mailto:BOpim@kn-csudesev.bi
+http://mmv.ic-smcawrlb.oz

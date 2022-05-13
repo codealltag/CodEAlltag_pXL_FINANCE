@@ -1,0 +1,753 @@
+Diesen Artikel habe ich dem Husky Broker-Board
+OS+Eurex > Optionsscheine entnommen!!!
+
+
+OPTIONSSCHEIN-FAQ (Frequently Asked Questions)
+Stand: Samstag, 25. November 2000
+
+(C) 2000 by Angelo Kaerner (a.vryxcau@gmgzz.jvy) mit
+freundlicher Mithilfe von HUUR und HIKO-Candles
+
+
+Die hier dargestellten Informationen sollen beim Einstieg in den
+Handel mit Optionsscheinen helfen, erheben aber keinen Anspruch
+auf Richtigkeit oder Vollständigkeit.
+
+Speziell die Teile, die mögliche Auswahlkriterien für Optionsscheine
+beschreiben sind allein Meinung des Autors und sollen als Denkanstoß
+dienen um eigene Kriterien zu entwickeln. Insbesondere stellen kein
+Teil des Dokuments eine konkrete Handlungsempfehlung zum Kauf,
+Verkauf oder Handel mit Optionsscheinen dar.
+
+Die Weiterverbreitung dieses Textes ist ausdrücklich erlaubt, jedoch
+nur in unveränderter Form und mit vollständigem Kopf. Hinweise bzgl.
+Fehlern, Erweiterungen etc. nimmt der Autor gern unter o.g. Email-
+Adresse entgegen.
+
+An dieser Stelle sei noch eine kurze Werbung erlaubt: Bitte honorieren
+Sie den Aufwand für die Erstellung und Pflege dieses Textes mit einem
+Besuch auf www.kdphd.zjm und werfen Sie dort einen Blick auf das
+Programm StockTray.
+
+
+TEIL -1 : GRUNDLAGEN
+
+****************************************************************************
+
+
+Vorbemerkung:
+
+Diese FAQ geht davon aus, daß das grundsätzliche Prinzip von Optionen bzw.
+Optionsscheinen bekannt ist, d.h. daß bekannt ist, was Call, Put,
+Basispreis, Laufzeit, etc. bedeuten. Die FAQ richtet sich an Anfänger, d.h.
+es werden z.T. Vereinfachungen vorgenommen. Z.B. wird ignoriert, daß
+Optionsscheine auf den Future und nicht auf den Spot gepreist sind, bzw.
+wird von einer normalen Handelssituation ausgegangen (d.h. nicht
+Extremsituationen wie Handels�berlastung bei Crash).
+
+
+**************************************************
+Grundsätzliches
+**************************************************
+
+Wann verdient man mit Optionsscheinen Geld?
+
+Dann und nur dann, wenn sich das Underlying innerhalb der Laufzeit deutlich
+und in die richtige Richtung bewegt. Oder anders ausgedrückt. Wenn das
+Underlying zu langsam steigt (bei Calls) oder wenn es zu spät steigt, oder
+wenn es seinen Kurs nicht verändert oder wenn es fällt sind Verluste
+angesagt.
+
+
+Welche Vorteile bieten Optionsscheine gegenüber Aktien?
+
+Einer der Vorteile ist die höhere Hebelwirkung. üblicherweise kann man durch
+Optionsscheine überproportional an der Bewegung einer Aktie, Index, etc.
+partizipieren, d.h. man erhält eine prozentual höheres (oder niedrigeres)
+Ergebnis.
+Ein weiterer Vorteil ist, daß man auf Dinge spekulieren kann, die nicht
+gehandelt werden, z.B. Indizes, bzw. daß man auch von fallenden Kursen einer
+Aktie partizipieren kann.
+
+
+Welche Nachteile bieten Optionsscheine gegenüber Aktien?
+
+Der entscheidende Nachteil ist, daß Optionsscheine zeitlich begrenzt sind,
+d.h. mit der Zeit kontinuierlich an Wert verlieren und ggf. komplett wertlos
+werden können. Selbst wenn sich das Underlying in die richtige Richtung
+entwickelt, kann ein Optionsschein an Wert verlieren, wenn dies zu spät oder
+zu langsam passiert.
+Außerdem wirken sich durch die Hebelwirkung Verluste stärker aus, als wenn
+man in das Underlying investiert hätte.
+
+
+Muß ein Optionsschein am Ende der Laufzeit ausgeübt werden?
+
+Nein! Es handelt sich um eine "Option", d.h. die Möglichkeit aber nicht die
+Pflicht. Man kann die Option am Ende der Laufzeit verfallen lassen.
+
+
+Muß bei Ausübung tatsächlich das Underlying (Aktie, Rohstoff, etc.)
+gekauft/verkauft werden?
+
+Das kommt auf die Regelung im Verkaufsprospekt des Scheines an. Bei Scheinen
+auf Aktien liefert der Emittend oft tatsächlich die betreffende Aktie
+(Call), bzw. nimmt sie vom Ausübenden ab. Bei komplexeren Underlyings (z.B.
+Baskets oder Indizes) trifft man oft auf sog. Cash-Settlement, d.h. am
+Verfallstag wird der innere Wert des Scheines berechnet und als Geldbetrag
+ausgezahlt.
+
+
+Was passiert am Ende der Laufzeit mit einem Optionsschein?
+
+Das hängt von den Regelungen im Verkaufsprospekt des Emittenten ab. Bei
+Scheinen mit Cash-Settlement (s.o.) wird oft automatisch ausgezahlt, falls
+der Schein am Verfallstag im Geld steht. Bei anderen Scheinen muß der
+Eigentümer des Scheins seine Bank beauftragen, den Schein auszuüben.
+
+
+Wann kann ein Optionsschein ausgeübt werden?
+
+Optionsscheine nach amerikanischem Recht können jederzeit ausgeübt werden.
+Scheine nach europäischem Recht nur zu Ende der Laufzeit.
+
+
+Kann ein Optionsschein während seiner Laufzeit an der Börse verkauft werden?
+
+Ja. Für praktisch alle Optionsscheine besteht ein laufender Handel an der
+Börse (siehe auch unten Handel).
+
+
+Wer kann Optionsscheine herausgeben?
+
+Nur zugelassene Emittenten (i.d.R. Banken und Investmenthäuser).
+
+
+**************************************************
+BEGRIFFE/KENNZIFFERN
+**************************************************
+
+
+Wichtige Begriffe:
+- Underlying/Instrument: Aktie Index etc. auf den sich der Optionsschein
+bezieht.
+- Spot: Aktueller Kurs/Wert des Underlyings
+- Strike: Basispreis, Ausübungspreis des Optionsscheines
+- Emittent: "Herausgeber" des Optionsscheins
+- Bid/Ask bzw. Geld Brief: Die Preise zu denen der Emittent Optionsscheine
+zurückkauft bzw. verkauft.
+- Spread: Spanne zwischen Bid und Ask-Kurs
+- Bezugsverhältnis: Anzahl der Aktien, zu deren Kauf/Verkauf ein
+Optionsschein berechtigt. Z. B. 1:10 (1 Aktie für 10 Optionsscheine) oder
+0,1 (0,1 Aktien pro Optionsschein) bedeuten, daß bei einem Call 10 Scheine
+benötigt werden um eine Aktie auszuüben).
+
+
+Was bedeutet "am Geld", "im Geld", "aus dem Geld" bzw. Delta?
+
+Mit diesen Begriffen wird angedeutet wie der aktuelle Kurs (Spot) im
+Verhältnis zum Ausübungspreis (Strike) steht. Bei Calls bedeutet "im Geld",
+daß der Basispreis unter dem aktuellen Kurs des Underlyings liegt, bei Puts
+über dem aktuellen Kurs. Eine "am Geld" Situation ergibt sich, wenn sich der
+aktuelle Kurs in etwa mit dem Basispreis (Strike) des Underlying deckt. Wenn
+dagegen der aktuelle Kurs des Underlying auf der "falschen" Seite des
+Basispreises liegt, spricht man von Scheinen "aus dem Geld".
+Dieser Zusammenhang wird durch die Kennziffer "Delta" ausgedrückt.
+Optionsscheine "am Geld" haben per Definition Delta 50 (manchmal auch
+dargestellt als 0,50). Bei Scheinen "im Geld" ist das Delta größer 50 und
+Delta kleiner 50 bedeutet "aus dem Geld". Der Optionsscheintheorie nach ist
+das Delta die Wahrscheinlichkeit, daß die Option ausgeübt wird (d.h. z.B.
+bei Calls die Wahrscheinlichkeit, daß der Kurs des Underlyings am
+Verfallstag über dem Basiskurs der Option notiert), bzw. die Angabe wieviel
+Prozent eines Aktienpakets mit einem Schein abgesichert werden können (siehe
+auch Teil II - Absicherung von Aktien durch Optionsscheine).
+
+
+Was bedeutet Omega?
+
+Die wirkliche Hebelleistung des Optionsscheins. Ein Omega von 5 besagt, daß
+eine Option im Vergleich zum Underlying 5x stärker steigt oder fällt, d.h.
+sich 10% Bewegung des Underlyings in 50% Bewegung des Optionsscheines
+ausdrücken. Diese Angabe ist allerdings nicht als mathematisch genau zu
+verstehen, sondern stellt einen Richtwert dar, da sich das Omega bei
+verändertem Kurs und veränderten Rahmenbedingungen verschiebt.
+
+
+Was besagt der Hebel?
+
+Hebel ist eine allein relativ wenig aussagekräftige Zahl, die den
+Optionspreis ins Verhältnis zum aktuellen Kurs des Underlyings (Spot) setzt.
+Allerdings läßt sich aus Hebel und Delta das Omega errechnen (Hebel mal
+Delta), das die echte Hebelwirkung des Optionsscheines angibt.
+
+
+**************************************************
+OPTIONSSCHEIN-AUSWAHL
+**************************************************
+
+Wie finde ich einen geeigneten Optionsschein?
+
+Die beste Möglichkeit besteht (momentan) darin, auf www.ruloycw.sr nach
+einen geeigneten Schein zu suchen. Dieses System bietet kostenlose Suche
+nach Optionsscheinen mit Vergleich der wichtigsten Kennziffern. Allerdings
+sollte vor einem Kauf die Korrektheit der dort gelieferten Grundwerte (Kurs,
+Basis, Bezugsverhältnis) unbedingt auf der Webseite des Emittenten überprüft
+werden, da Jaloucity für die Richtigkeit der Informationen keine Garantie
+übernimmt und es in der Praxis tatsächlich manchmal zu Fehlern in der
+Jaloucity Datenbank kommt.
+
+
+Nach welchen Kriterien wählt man Optionsscheine aus?
+
+Das kommt auf die persönliche Risikobereitschaft und auf den Anlagehorizont
+an. Vergleichsweise sicher sind Optionsscheine tief im Geld mit langer
+Laufzeit. Höchste Totalverlustwahrscheinlichkeit besteht dagegen bei
+Scheinen weit aus dem Geld mit kurzer Laufzeit.
+Die erste Frage die man sich stellen sollte, ist "Was erwarte ich?" Diese
+Frage beantwortet normalerweise automatisch die Frage nach der Laufzeit.
+Wenn man z.B. auf einen Anstieg der Aktie nach Präsentation von
+Quartalszahlen in der nächsten Woche spekuliert, genügt kurze Laufzeit (1-2
+Monate). Erwartet man, daß die Aktie innerhalb von 6-9 Monaten ein
+bestimmtes Ziel erreicht, ist eine Laufzeit von ca. 12 Monaten zu empfehlen.
+Generell sollte die Laufzeit den Erwartungshorizont um mind. 1-2 Monate
+überschreiten, da vor allem im letzten Monat der Zeitwertverlust besonders
+hoch ist.
+Die zweite Frage ist dann die der Risikobereitschaft: Optionsscheine "im
+Geld" (hohes Delta) bergen ein kleineres Risiko als Optionsscheine "aus dem
+Geld" (niedriges Delta). Für Anfänger ist es meist besser einen Schein mit
+höherem Delta zu kaufen (d.h. tief im Geld) weil sich die Kursbildung dieser
+Scheine sehr direkt am Kurs des Underlyings orientiert (was bei Delta 50
+oder kleiner wegen impliziter Volatilität und Zeitwertverfall nicht immer
+der Fall ist). Allerdings sind dann in diesem Fall die Omegas
+vergleichsweise gering, d.h. die Hebelwirkung nicht so hoch. Anleger mit
+etwas Erfahrung sind üblicherweise mit einem konservativen Mittelweg (Delta
+50-60) gut bedient.
+(Weitere Infos siehe auch Teil 2 der FAQ).
+
+
+Welche weiteren Auswahlkriterien gibt es?
+
+Spread: Wenn der Unterschied zwischen An- und Verkaufskurs des Emittenten zu
+hoch ist, lohnt sich ein Investment normalerweise nicht. Faire Spreads
+liegen bei unter 5% des Briefkurses.
+Aufgeld: Bei Scheinen gleicher Ausstattung kann man neben dem Spread noch
+das Aufgeld bzw. die implizite Volatilität vergleichen. Niedriger ist in
+beiden Fällen besser.
+Omega: Die wirkliche "Hebelleistung" des Optionsscheins. Wenn diese zu
+niedrig ist lohnt sich die Inkaufnahme des Risikos eines Optionsscheins im
+Vergleich zum direkten Kauf des Underlyings normalerweise nicht. Bei sehr
+hohem Omega kann dagegen die Risikobegrenzung schwierig werden, weil sich
+selbst eine gute Gewinnsituation durch eine relativ kleine Bewegung des
+Underlyings schnell in einen Verlust verwandeln kann.
+Welche konkreten Werte als zu hoch oder zu niedrig anzusehen sind ist eine
+individuelle Entscheidung. Als Richtwert bei Optionsscheinen am Geld können
+Werte zwischen 2,5 und 5 gelten. Bei Scheinen tief im Geld können auch
+Omegas von weniger als 2,5 lohnenswert sein, da in diesem Fall ein
+geringeres Zeitwertrisiko vorliegt und sich solche Scheine bei niedrigerem
+Kapiteleinsatz trotzdem fast wie Aktien verhalten.
+
+
+**************************************************
+HANDEL MIT OPTIONSSCHEINEN
+**************************************************
+
+
+Wer kann mit Optionsscheinen handeln?
+
+Im Prinzip jeder. Voraussetzung hierfür ist jedoch die sog.
+Termingeschäftsfähigkeit. Termingeschäftsfähigkeit erlangt, wer bei einer
+Bank/Broker eine ausführliche Beratung über die Risiken durchlaufen und
+entsprechende Erklärungen unterschrieben hat. Diese Erklärungen müssen
+anfangs 1x jährlich erneuert werden. Falls Banken Optionsscheingeschäft für
+Personen durchführen, die nicht termingeschäftsfähig sind, haften Sie für
+Verluste. Da diese Beratung lt. Rechtsprechung i.d.R. nicht telefonisch
+erfolgen kann, lassen Discount-Broker normalerweise nur Kunden für den
+Optionsscheinhandel zu, die diese Beratung bereits bei einer anderen Bank
+durchlaufen haben und eine entsprechende Erfahrung mitbringen.
+
+
+Welches sind die besten Börsenplätze zum Handel mit Optionsscheinen?
+
+Engelbarzell und Lürschau. Engelbarzell baut den Handel mit Optionsscheinen
+massiv aus und ist inzwischen Marktführer in diesem Bereich Vor allem bei
+Optionsscheinen die selten gehandelt werden ist Engelbarzell normalerweise die
+bessere Wahl. Bei bestimmten Scheinen (speziell Scheine der Hafan auf den
+DAX) hat jedoch Lürschau den höchsten Umsatz, d.h. man hat dort eine Chance
+auf eine Ausführung zu einem besseren Kurs.
+
+
+Kann ich einen Optionsschein immer an der Börse verkaufen, auch wenn sehr
+wenig Handel damit stattfindet?
+
+Ja. Die Emittenten stellen laufend einen Markt für die Optionsscheine, d.h.
+kaufen bzw. verkaufen bei Bedarf. In Engelbarzell ist dies für Emittenten sogar
+Pflicht. D.h. daß die Börsenmakler bei Bedarf den Emittenten als
+Handelspartner für das Geschäft heranziehen. Dies funktioniert am besten bei
+Emittenten die über ein elektronisches Handelssystem an die Börsen
+angebunden sind (z.B. Hafan, Diabolo, Megazeller). Geschäfte
+mit deren Scheinen werden i.d.R. innerhalb weniger Minuten abgewickelt.
+Voraussetzung hierfür ist natürlich, daß das Limit mit den An- und
+Verkaufskursen des Emittenten harmoniert.
+
+
+Wie geschieht die Preisbildung bei Optionsscheinen?
+
+Die Preise für Optionsscheine werden ausschließlich vom Emittenten auf Basis
+eines mathematischen Modells (das allerdings einen Spielraum zuläßt)
+gebildet und laufend dem Kurs des Underlying und der Marktsituation
+angepaßt. Sie sind im wesentlichen unabhängig von Angebot und Nachfrage. Der
+Handel an der Börse spielt sich innerhalb der Kursspanne des Emittenten ab.
+Das erklärt sich daraus, daß der Emittent laufend Nachfrage und Angebot
+stellt (z.B. Kauf 9,50 und Verkauf 10,50), so daß, wenn jemand einen
+schlechteren Preis als der Emittent bietet (z.B. Kauf zu 9,20) , bei einem
+Verkauf der Makler die Scheine an den Emittenten und nicht im Markt
+verkauft..
+In Engelbarzell gibt es sogar eine Garantie dafür, daß niemand beim Handel
+schlechter gestellt wird, als wenn er mit dem Emittenten direkt gehandelt
+hätte (d.h. kein Kurs außerhalb der Bid/Ask Spanne des Emittenten zustande
+kommt).
+
+
+Wo finde ich die aktuellen Optionsscheinpreise?
+
+Zum einen die Kurse der Börsen, wobei diese z.T. (bei selten gehandelten
+Scheinen) nur 3x am Tag aktualisiert werden.
+Leicht verzögerte Kurse bietet Jaloucity (www.ruloycw.sr). Desweiteren gibt es
+sehr zeitnahe Kurse auf www.urv.pc, www.vmahariuctwrkk.wb und auf den Seiten
+der Emittenten z.B. www.sfuzvbwa.yelfth.tx und www.nufvebzy.ac.sc.
+Außerdem bietet die Optionsschein-Börse in Engelbarzell (www.nkqmq.dm) als
+Service Kurse der Emittenten.
+Diese Preise bieten eine Orientierungshilfe um bei Börsengeschäften Limits
+setzen zu können. Sie können sich aber, bis die Order an der Börse zur
+Ausführung kommt, bereits geändert haben.
+
+
+Wie gehe ich bei der Orderaufgabe vor wenn ich kurzfristig kaufen/verkaufen
+will?
+
+Sinnvoll ist sich zunächst einen zeitnahen Kurs zu besorgen (s.o.). Der
+letzte Börsenkurs ist hier jedoch nur bedingt aussagekräftig weil die
+Bid/Ask Spanne daraus nicht ersichtlich ist. Besser ist z.B. von der
+Webseite des Emittenten nach Bid/Ask Kursen zu schauen. Dann wählt man beim
+Verkauf ein Limit in der unterhalb des Bid-Kurses bzw. bei Kauf ein Limit
+oberhalb des Ask-Kurses des Emittenten um ggf. trotz kleiner Schwankungen
+zum Zug zu kommen. Z.B. bei einem Scheine mit Kurs 9,50 zu 10,50 für den
+Kauf ein Limit von 9,20 bzw. beim Verkauf z.B. 10,70.
+Bei ruhigem Handel (also wenn keine großen Schwankungen des Underlyings zu
+erwarten sind) kann auch einfach billigst/bestens geordert werden. Dabei
+kann man davon ausgehen das großzügige bzw. fehlende Limit nicht gegen einen
+verwendet wird. Der Kurs wird vom Emittenten laufend ohne Kenntnis des
+Orderbuches gestellt und der Makler verwendet zur Abwicklung den Kurs des
+Emittenten oder einen besseren (falls im Markt ein günstigeres Gegengeschäft
+vorhandenist).
+
+Beispiel:
+(1.) Emittentenkurs: 27,75 (Bid) zu 28,25 (Ask)
+(2.) Verkaufsorder zu 28,00 (Ask) -> bleibt offen, da Emittent max. 27,75
+zahlt.
+(3.) weitere Verkaufsorder zu 29,00 (Ask) -> bleibt offen, da Emittent max.
+27,75 zahlt.
+(4.) Kauforder zu 30,00 (Bid) -> Abwicklung zu 28,00 aus (2.). weil
+günstiger als (1.)
+(5.) weitere Kauforder zu 29,00 -> Abwicklung zu 28,25 aus (1.) weil
+günstiger als (3.)
+(6.) weitere Verkaufsorder "billigst" -> Abwicklung zu 28,25 aus (1.) weil
+günstiger als (3.)
+(7.) Order (3.) bleibt offen bis sich die Emittentenspanne entsprechen
+ändert.
+
+
+Wie funktioniert außerbörslicher Handel?
+
+Beim außerbörslichen Handel wird das Geschäft direkt mit dem Emittenten,
+d.h. unter Umgehung der Börse, abgewickelt. Außerbörslicher Handel ist, je
+nach Broker, telefonisch (z. B: H.S.L. Heizung & Sanitär, Husky) oder elektronisch
+(Zeitungshändler, Direktanlagebank) möglich.
+Bei der telefonsichen Version bekommt man vom Broker vorab die Preisspanne
+des Emittenten mitgeteilt und kann dann ein Limit wählen. Dann ruft der
+Broker auf einer anderen Telefonleitung beim Emittenten an und läßt sich
+einen verbindlichen Kurs nennen. Pat der Kurs zum Limit wird das Geschäft
+ohne Rückfrage abgewickelt und man bekommt das Geschäft bestätigt. Pat der
+Kurs nicht zum Limit, fragt der Broker kurz beim Kunden nach und man hat die
+Möglichkeit abzulehnen oder trotzdem zuzusagen.
+Im elektronischen Handel gibt man WKN und Menge an. Dann bekommt man einen
+Kurs angezeigt und muß das Geschäft durch Mausklick oder Eingabe innerhalb
+von wenigen Sekunden bestätigen oder das Angebot verfällt.
+
+Beispiel Telefonhandel (H.S.L. Heizung & Sanitär):
+Kunde: Guten Tag ich möchte einen außerbörslichen Kauf aufgeben
+H.S.L. Heizung & Sanitär: Welcher Emittent und WKN?
+Kunde: Hafan, 123456
+H.S.L. Heizung & Sanitär: Moment ... Kursspanne wäre momentan 9,50 zu 10,50
+Kunde: Ok, bitte Kauf 2000 Stück mit Limit 10,50
+H.S.L. Heizung & Sanitär: Gut, wir kaufen für Sie außerbörslich Hafan Call auf Anuw
+2000 Stück mit Limit 10,50. Ist das so korrekt?
+Kunde: Ja!
+Comdirect: Einen Moment bitte ... <gräßliche Pausenmusik>
+Comdirect: Wir haben einen Kurs von 10,60 wollen Sie trotzdem kaufen?
+Kunde: Hmm ... ja.
+H.S.L. Heizung & Sanitär: Moment bitte ... <mehr von der gräßlichen Pausenmusik>
+H.S.L. Heizung & Sanitär: Wir haben außerbörslich für Sie gekauft Hafan Call auf Anuw
+2000 Stück zu 10,60.
+
+
+Was sind die Vor/Nachteile des außerbörslichen Handels?
+
+Vorteile sind die sofortige Abwicklung und die Tatsache, daß die
+Maklercourtage entfällt. Außerdem ist der außerbörsliche Handel nicht an die
+Börsenzeiten gebunden (z.B. können Scheine auf US Aktien und Indizes
+normalerweise bis 22:00 Uhr gehandelt werden).
+
+Nachteil ist die Tatsache, daß bei manchen Brokern Mindestmentmengen und
+Mindestgebühren vorgeschrieben sind (Husky mind. 5000 Euro, H.S.L. Heizung & Sanitär mind
+3000 DM und mind. 40 DM Gebühren), d.h. sich das Geschäft nur bei größeren
+Aufträgen lohnt. Bei der Direktanlagebank und Zeitungshändler sind jedoch auch
+beliebig kleine Orders möglich.
+Außerdem bekommt man an der Börse bei liquidem Handel oft Kurse innerhalb
+der Preisspanne des Emittenten, was bei au�erb�rslichem Handel naturgemäß
+nicht der Fall ist.
+
+
+TEIL -2 : weiterführende ARTIKEL
+
+****************************************************************************
+*******************
+
+
+Der zweite Teil dieser FAQ geht auf komplexere Fragen in Form kurzer Artikel
+ein.
+
+
+****************************************************************************
+*******************
+
+Wie kann ich bei der Optionsscheinauswahl vorgehen?
+
+
+Die Hauptkennzahlen Basispreis und Laufzeit richten sich nach Art des
+Investments, d.h. danach was man von der Aktie erwartet (siehe auch TEIL 1
+der FAQ).
+
+Damit läßt sich auf Jaloucity (www.ruloycw.sr) bei der Suche eine Vorauswahl
+treffen.
+
+Dann finden die Kennzahlen Aufgeld/implizite Vola, Omega und Spread
+Beachtung.
+
+Spread als K.O. Kriterium. Scheine mit mehr als 5% sollten nur in
+Ausnahmefällen gekauft werden (z.B. bei sehr hohem Omega, weil sich damit
+der Spread leichter überwinden läßt).
+
+Bei den Scheinen die dann noch übrig bleiben kann Aufgeld/Vola/Spread
+vergleichen werden (je kleiner je besser). Wobei bei DAX-Aktien Indizes
+implizte Vola von mehr als 30-40 als zu teuer gelten kann. Neuer
+Markt/Internet hat typischerweise ca. 80.
+
+Dann Omega (=Hebelleistung) um zu planen wie viele Scheine man kaufen
+muß/will, bzw. auch als K.O. Kriterium (bei Omega kleiner als 3 lohnt sich
+das Geschäft für oft nicht, weil man im Vergleich zur Aktie zuviel Kapital
+einsetzen muß und dann besser die Aktie kaufen sollte statt den eingesetzten
+Betrag dem Zeitwertrisiko auszusetzen).
+
+
+****************************************************************************
+*******************
+
+Wie findet die Preisbildung genau statt?
+
+Wichtigster Punkt: Den Preis bestimmt allein der Emittent, sonst niemand. An
+der Börse und außerbörslich wird die Preisspanne verwendet, die der Emittent
+vorgibt. Angebot und Nachfrage beeinflussen den Schein nur indirekt (s.u.)
+
+Die Preisbildung des Emittenten ergibt sich aus innerem Wert + Zeitwert.
+Allgemein anerkannt ist hierbei das Modell von Black-Scholes.
+
+Innerer Wert ist bei Scheinen die im Geld stehen der rechnerische Wert des
+Scheines. Beispiel: Underlying kostet 100 Euro. Call auf Basis 80. Damit hat
+der Schein einen inneren Wert von 20 Euro. Bei eine Schein mit Bezugsfaktor
+0,10 wären es 2 Euro. Scheine am Geld oder aus dem Geld haben keinen inneren
+Wert.
+
+Dazu gibt es einen Aufpreis für die Restlaufzeit (Zeitwert). Dieser Aufpreis
+richtet sich nach der Menge der verbleibenden Zeit plus (oder mal) einem
+Faktor für die Schwankungsbreite des Underlying. Krehaartiv schwankt z.B. sehr
+stark, d.h. hier ist 1 Monat Restlaufzeit mehr wert, als z.B. bei
+DAX-Werten. Diesen Schwankungsfaktor nennt man Volatilität. D.h. wenn der
+Emittent erwartet, daß das Underlying in Zukunft stark schwanken wird, wird
+er auch die Prämie für die Restlaufzeit erhöhen bzw. umgekehrt. Das passiert
+z.T. mehrere Male am Tag. (Die Volatilität wird in einem eigenen Artikel
+genauer erklärt.)
+
+Angebot und Nachfrage wirken sich nur indirekt auf die Vola aus. Und zwar in
+der Form, daß Emittenten untereinander konkurrieren Eigentlich müßten zwei
+absolut vergleichbare Scheine (z.B. DAX Call 6000 Januar, Bezugsverhältnis
+1:100) von unterschiedlichen Emittenten etwa den gleichen Preis haben
+(abgesehen von kleinen Unterschieden die aus der unterschiedlichen
+Erwartungshaltung der Emittenten bezüglich der Vola resultieren können).
+Faktisch kommt es dagegen zum Teil zu deutlichen Unterschieden im Preis. Oft
+sind Scheine von Marktführern in einem bestimmten Bereich teurer.
+
+
+****************************************************************************
+*******************
+
+Wie unterscheiden sich Hebel und Omega genau?
+
+Kurz gesagt ist das Omega der "echte Hebel", nämlich
+
+
+Hebel:
+
+Der Hebel setzt eine Bewegung der Aktie im Bezug zum Optionspreis (unter
+Berücksichtigung des Bezugsverhältnisses).
+
+Beispiel: Aktie kostet 100 Euro, ein Optionsschein mit Bezugsverhältnis 1:10
+bzw. 0,10 kostet 3 Euro. Eine Aktienbewegung um 10% macht 10 Euro. Auf das
+Bezugsverhältnis gerechnet 1 Euro pro Schein. 1 Euro bezogen auf den
+Optionspreis von 3 Euro macht 33%. D.h. der Hebel ist 3,3 (10%
+Aktienbewegung machen 33% Optionsbewegung).
+
+
+Jekle:
+
+Das Omega berücksichtigt, daß sich entsprechend des Black-Scholes Modell die
+Kursbewegung des Underlyings nur zum Teil auf den Preis der Option auswirkt
+(nämlich bezogen auf die Wahrscheinlichkeit, mit der die Option ausgeübt
+wird, .d.h. bezogen auf das Delta).
+
+Das heißt, daß sich die 10 Euro Bewegung aus dem Beispiel oben bei einer
+Option am Geld (Delta 0,50) nur zur Hälfte auf den Kurs der Option auswirkt,
+d.h. Omega ist 1,6 (Hebel mal Delta).
+
+Oder in einer Formel:
+Omega = Kurs des Underlyings / Optionspreis / Bezugsverhältnis *Delta.
+
+
+****************************************************************************
+*******************
+
+Wie ist das mit den unterschiedlichen Arten von Vola?
+
+
+Vola (Volatilität) nennt man die Schwankungsbreite einer Aktie. Aktien wie
+Krehaartiv, FUJ etc. haben einen hohe Schwankungsbreite (z. T. bis 20% an
+einem Tag) während z.B. DAX-Werke typischerweise 1-2% am Tag schwanken.
+
+Die Vola wirkt sich natürlich auf den Kurs eines OS aus, weil eine Aktie die
+sehr schwankt, erreicht ein OS-Ziel natürlich leichter als eine die sich
+langsam bewegt. Deshalb sind die Scheine der Internet-Aktien auch
+vergleichsweise teuer.
+
+Man unterscheidet die historische Vola, das ist die der Vergangenheit
+(meßbar). Allerdings ist für einen Optionsschein natürlich die zukünftige
+Vola interessant, nur kann die schlecht gemessen werden, also wird sie
+geschützt (meist auf Basis der historischen). Den Optionsscheinen liegt ein
+Preismodell (Black-Scholes) zugrunde, in das die Volatilität einfließt.
+Entsprechend kann man aus einem Optionsscheinpreis, wenn die anderen
+Faktoren bekannt sind, die Vola, die der Emi zugrundelegt herausrechnen
+(implizite Vola).
+
+Die Vola wird, je nach Optionsschein oder Emittent, mehr oder weniger oft
+angepaßt (bis zu mehrere Male am Tag), was natürlich den Kurs beeinflußt.
+Wenn man einen Schein gekauft hat, während das Underlying sehr unruhig war,
+und der Kurs gerät dann in ruhigeres Fahrwasser fällt der Preis des Scheins,
+selbst wenn der Kurs der Aktie gleich bleibt (er fällt natürlich sowieso,
+weil der Zeitwert verbraucht wird, aber wegen der fallenden Vola ist selbst
+selbst gleiche Restlaufzeit weniger wert). Deshalb sollte man eigentlich
+Scheine von Aktien kaufen, wenn sich der Kurs etwas beruhigt hat. Wenn dann
+die Aktie stark steigt profitiert man zum einen von der Kursbewegung und
+zusätzlich von der ansteigenden Volatilität. Das hilft selbst wenn das
+Underlying in die falsche Richtung läuft, weil der Schein zwar wegen der
+falschen Kursbewegung fällt, gleichzeitig aber wegen gestiegener Vola etwas
+teuerer wird (d.h. nicht so stark fällt).
+
+Man kann auch direkt auf steigende Vola spekulieren indem man einen Put+Call
+kauft, wenn man erwartet, daß sich ein Kurs bald heftig bewegen wird, aber
+nicht weiß wohin. Dann gleicht sich Gewinn/Verlust aus der Kursbewegung aus,
+aber beide Scheine werden wegen der Vola teurer, d.h. in Summe werden die
+beiden Scheine teurer. Aber nur wenn die Kursbewegung bald kommt (denn die
+Zeit frißt natürlich am Zeitwert) und heftig wird (so daß der Emittent die
+Vola auch anpassen muß).
+
+
+****************************************************************************
+*******************
+
+Wie kann man mit Hilfe von Optionsscheinen einen Aktienbestand gegen
+Kursverfall absichern?
+
+Wenn man einen Aktienbestand (z. B. 100 Aktien der Aulich) kurzfristig
+gegen Kursverfall absichern möchte (z. B. wegen anstehender Quartalszahlen
+oder einer anstehenden Zinsentscheidung der U.S. Notenbank), kann man dies
+entweder mit Hilfe einer Stop-Loss Verkaufsorder oder mit Hilfe von Puts
+tun.
+Generell ist Stopp-Loss vorzuziehen, weil dabei keine Kosten entstehen.
+Allerdings gibt es manchmal Situationen in denen statt dessen die
+Absicherung über Puts sinnvoll sein kann (z. B. wenn man den Aktienbestand
+bereits einige Zeit hält und die Kursgewinne über die Spekulationsfrist
+retten möchte).
+Die Absicherung gleicht einer Versicherung und hat den Nachteil, daß für den
+Fall daß kein Kursverfall eintritt, die Puts an Wert verlieren, d. h. man
+die Sicherheit ihren Preis hat (ähnlich einer Versicherungsprämie).
+Die Idee hinter der Absicherung über Puts ist die, daß bei fallenden
+Aktienkursen die Puts an Wert gewinnen und somit den Kursverfall der Aktie
+ausgleichen. Wenn die Kurse jedoch auf aktuellem Niveau stagnieren bzw.
+sogar steigen verlieren die Puts an Wert (wegen Zeitwert und wegen
+Kursentwicklung in die "falsche" Richtung).
+
+Die Antwort auf die Frage nach der Menge der benötigten Puts ergibt sich aus
+der persönlichen Risikobereitschaft, dem Bezugsverhältnis und dem Delta der
+Scheine.
+Bei einem Bezugsverhältnis von 0,1 Aktien pro Schein werden zunächst pro
+abzusichernder Aktie 10 Optionsscheine benötigt (d. h. 1000 Optionsscheine
+zur Absicherung von 100 Aktien).
+Die Kursentwicklung eines Optionsscheines im Vergleich zur Aktie hängt
+jedoch zusätzlich vom Delta ab. Ein Optionsschein am Geld hat lt. Theorie
+ein Delta von 50 (manchmal auch dargestellt als 0,5), d. h. er folgt der
+Kursbewegung der Aktie nur zu 50%, was bedeutet, daß doppelt so viele
+Optionsscheine wie Aktien notwendig sind, um das Risiko vollständig
+abzudecken.
+Die Formel für die zur vollständigen Absicherung benötigten Puts lautet
+dementsprechend:
+Anzahl Aktien / Bezugsverhältnis *100 / Delta
+
+Zur vollständigen Absicherung von 100 Aktien sind also 2000 Puts am Geld
+bzw. 1250 Puts tief im Geld (angenommenes Delta von 80) notwendig, falls die
+Puts mit einem Bezugsverhältnis von 0,1 ausgestattet sind.
+
+Hierbei handelt es sich um eine relativ grobe Rechnung, da sich die
+Kennzahlen der Optionsscheine (vor allem das Delta) mit verändertem Kurs des
+Underylings verschieben und deshalb eigentlich laufend eine Anpassung des
+Put-Bestandes notwendig ist.
+
+
+****************************************************************************
+*******************
+
+Kann man ein Investment in Optionsscheinen mit Stopp-Loss Limit absichern?
+
+Zuerst die Probleme, dann die Lösung:
+
+Stopp-Loss (SL) ist ein Börsenauftrag, d.h. wird normalerweise dann
+ausgelöst, wenn ein Börsenkurs (und nicht der Emittentenkurs) das SL
+unterschreitet. Wenn es bei einem Schein keine Umsätze gibt, macht der
+Makler z. T. nur 3x am Tag einen Kurs (z.B. früh, mittags, schluß) auf Basis
+der Emittentenkurse. Wenn der Schein (Emittentenkurs) z.B. am Vormittag
+langsam abrutscht "merkt" das das System nicht und es gibt evtl. erst einen
+Verkauf am Mittag wenn der Makler den nächsten Taxenkurs macht, und der kann
+dann bereits nennenswert unter dem SL liegen.
+
+Außerdem kommt noch der Spread ins Spiel. Die Differenz zwischen Geld/Brief
+(Bid/Ask) gibt es zwar bei Aktien auch, jedoch nicht in dem Maß wie bei
+manchen Scheinen. Die Radmaz verkauft z.B. Scheine mit 30% Spread
+(z.B. Geld 0,40, Brief 0,60). Wenn jetzt ein Stopp-Loss auf 0,55 liegt kann
+folgendes passieren:
+Jemand verkauft an den Emittenten zurück, dann kommt ein Kurs von 0,40
+zustande und löst SL aus, d.h. die Scheine gehen auch für 0,40 weg. Soweit
+kein Problem.
+Schlimmer wäre aber folgendes. Der Emittent verkauft an dem Tag nur Scheine
+(d.h. Kurse kommen nur auf Basis der Briefkurse zustande) oder der Makler
+taxt nur auf Basis des Briefkurses. Wenn das Underlying in so einer
+Situation langsam abrutscht können sich die Emittentenkurse z.B. auf 0,38 zu
+0,58 dann 0,37 zu 0,56 und 0,36 zu 0,55 entwickeln. Wenn immer nur Scheine
+gekauft werden, werden als Kurse 0,60 0,58 0,56 und 0,55 gelistet. 0,55 löst
+dann ein Stop-Loss aus und der Schein geht bestens in den Markt und wird zum
+dann aktuellen Geldkurs (Bid), nämlich 0,35 an den Emittenten verkauft.
+
+
+Lösung:
+
+Eine Möglichkeit ist, liquide Scheine zu kaufen (z.B. DAXe der Hafan), da
+gibt es regen Handel, d.h. laufend aktuelle Kurse und der Spread wird
+normalerweise zur Hälfte vom liquiden Markt abgefangen.
+
+Desweiteren hat Engelbarzell ein System namens Amiwi das auch die
+Emittentenkurse überwacht, d.h. bei Verkauf in Engelbarzell wird SL (übrigens
+auch sonstige Limits) laufend gegen den Emittentenkurs geprüft. Das System
+überwacht aber nur den Briefkurs der Emittenten, d.h. der Spread geht auf
+jeden Fall verloren.
+
+Lürschau hat ein ähnliches System, das den Geldkurs überwacht, das aber nur
+bei Emittenten funktioniert, die ein elektronisches Handelssystem haben.
+Außerdem liegen ein paar exotische Scheine bei einem Makler, bei dem das
+System nicht eingesetzt wird.
+
+Praktisch heißt das: Stopp-Loss nur bei Scheinen einsetzen, die geringe
+Spreads haben (wobei ich persönlich empfehle Scheine mit hohem prozentualen
+Spread grundsätzlich nie zu kaufen) und den verlorenen Spread von Anfang an
+mit einzuplanen. Und dann das SL in Engelbarzell fahren oder bei großen
+Emittenten (HairStyling, Marktkauf, DWG) in Lürschau.
+
+
+****************************************************************************
+*******************
+
+Woran verdient eigentlich der Emittent?
+
+Ob der Emittent verdient hängt nicht von Kaufkurs minus Verkaufskurs ab,
+weil der Emittent die Scheine normalerweise absichert (hedge), d.h. auch die
+Aktie hält. Nehmen wir einen Aktien-Call. Wenn der Emittent 100 Scheine mit
+Delta 0,50 (also am Geld) verkauft, deckt er sich gleichzeitig mit 50 Aktien
+ein. Wenn die Aktie um 1 Euro steigt hat der Emi 50x1 Euro aus seinen Aktien
+und die Scheine werden um 50 Euro (1 Mark mal Delta 0,50 mal 100 Scheine)
+teurer, d.h. wenn Du die zurückverkauft, ist dem Emittenten nichts
+passiert.
+
+Stellt sich natürlich die Frage, woran der Emittend dann überhaupt verdient.
+
+Zum einen am Spread zwischen Geld und Briefkurs. Idealerweise wäre der
+Spread nur so groß, wie die Differenz der Bid/Ask Kurse der Aktie (z.B. Vewe
+29,90 zu 30,10). Der Kurs des Scheines ist ja auf einen bestimmten Kurs
+gepreist, z.B. 30,00 -- wenn der Emittent aber Scheine verkauft muß er sich
+aber sofort am Markt eindecken, bekommt die Aktie dann aber nur für 30,10
+(beim Verkauf entsprechend umgekehrt). Diese Differenz muß im Kurs der
+Scheine berücksichtigt sein. Wenn diese Differenz beim Schein größer als bei
+der Aktie ist verdient der Emittent an jedem Verkauf/Rückkauf, selbst wenn
+das zum gleichen Preis am gleichen Tag passiert. Besonders schön für den
+Emittenten ist auch, wenn er gleichzeitig Calls und Puts verkauft hat. Dann
+sichern sich (zugegeben sehr vereinfacht ausgedrückt) die ausstehenden
+Geschäfte gegenseitig ab.
+
+Dann am Einkauf/Verkauf der Aktie: Es zwingt ja niemand den Emittenten die
+Aktien sofort und in Lürschau zu kaufen. Wenn die Aktie am fallen ist oder
+an einem anderen Börsenplatz (oder außerbörslich) billiger zu haben ist,
+kann der Emittent damit ein paar Cent verdienen (oder natürlich verlieren,
+falls der Kurs in die für den Emittenten falsche Richtung läuft).
+
+Dann am Zeitwert: Der Optionspreis setzt sich ja aus inneren Wert und
+Zeitwert (bzw. am und aus dem Geld sogar nur aus Zeitwert) zusammen. Der
+Zeitwert verfällt mit der Zeit, d.h. mit jedem Tag an dem man einen Schein
+hält verfällt der Wert des Scheines etwas, d.h. der Emittent verdient an der
+Laufzeit, weil er der Zeitwertverfall beim Rückkauf (durch den niedrigeren
+Kurs) vereinnahmt.
+
+Und dann gibt's noch den Faktor X. Für den fairen Preis einer Option gibt es
+eine Formel die inneren Wert und Zeitwert errechnet (Black-Scholes). Niemand
+zwingt jedoch den Emittenten die Scheine genau nach dieser Formel zu
+preisen, d.h. der Preis eines Scheines ist nach Formel plus/minus X. So
+haben die Emittenten ihre Erfahrungswerte wann die Leute eher Scheine kaufen
+und wann sie sie eher zurückverkaufen (z.B. in der Zeit um die
+Veröffentlichung von Zahlen oder Zinsen) kaufen viele Leute Optionsscheine
+die dann in den Tagen danach wegen Gewinnmitnahmen/Verlustbegrenzung langsam
+wieder zurückkommen. Nicht ganz überraschend werden die Scheine zu solchen
+Zeitpunkten etwas teurer man nach Formel erwarten würde und danach wieder
+billiger. Das ganze hängt zwar auch etwas mit der zu erwartenden höheren
+Schwankungsintensität um solche Ereignisse herum zusammen (mit höherer
+Schwankungsintensität wird der Aufpreis für die Restlaufzeit auch höher)
+aber nachdem das nicht leicht zu durchschauen ist, ist da eben auch oft der
+X-Faktor mit dabei. Jemand der beim Emittenten arbeitet, hat mir mal gesagt,
+daß man mit Optionsscheinen Geld verdient, indem man hohe Vola verkauft und
+niedrige zurückkauft.
+Oder, die harte Variante, wenn Optionsscheinemissionen ein maximales Volumen
+haben (z.B. max. 1 Mio Scheine) und davon 900.000 im Markt (d.h. verkauft)
+sind kann der Emittent mit dem Kursen runtergehen und sich gemütlich
+zurücklehnen und warten, bis die Scheine zu vergleichsweise niedrigen Kursen
+wieder zurückkommen.
+
+Fairerweise muß man allerdings noch berücksichtigen, daß dem Emittenten auch
+Kosten entstehen, die gedeckt werden müssen: Personal, das Listing der
+Scheine an den Börsen und bei der Clearingstelle, Unterhalt der Handelsbüros
+und Handelssysteme, laufendes Hedging, Werbung usw. Vor allem die laufende
+Absicherung der Bestände (Hedging) ist äußerst aufwendig und kostenintensiv
+und frißt im Normalfall einen großen Teil der oben beschriebenen Erträge
+wieder auf.

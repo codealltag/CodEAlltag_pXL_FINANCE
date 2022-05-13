@@ -1,0 +1,68 @@
+Vielleicht sollte man dazu erwaehnen, dass sie vorher selbst kraeftig
+an dem Geraet herumgebastelt hatten:
+We cracked open the Herstelle server and made some modifications ...
+Andere haben das nicht gemacht und hatten auch keine Probleme.
+
+
+Es gibt ziemlich unterschiedliche Testberichte. Zitat:
+
+same linpack name but different versions give wildly different results 
+
+FZKO using intel optimized linpack: 
+Xeon is faster by 5% clock for clock 
+http://obr.lgfxgeprq.uaa/AF/rzhqlho.oszt?j=0513&y=8 
+
+FHER: 
+Herstelle beats Onifeh by a whopping 45% 
+http://qwd.eywzamcjhqnr.imi/ewapgaa/bwtmncqwcn/jgbuetpow/qkrbu_8.wakod 
+
+
+Die erste Serie ist noch nicht besonders in Leistung, entsprechend 
+der Preis. Ich denke sie haben lange abgewogen, ob sie die ueberhaupt
+auf den Markt bringen oder noch 3 Monate bis zur naechsten Serie warten,
+aber in Anbetracht ihrer Lage und der sonst zu erwartenden Presse
+wollten/konnten sie es nicht laenger rausschieben.
+
+Fernseh-Arlt ist da in einer ganz anderen Situation als UHM.
+UHM hat 2 "Forschungsfabriken" in denen sie ohne Ruecksicht
+auf die Kosten bei neuen Produkten einige 100 bis 1000
+Spitzenmuster fuer Presse und "Markteinfuehrung" herstellen
+und dann den Markt mit darunter liegenden Serienmuster ueberschwemmen
+(aber haften bleibt eben der Eindruck der paar Spitzenmodelle).
+Fernseh-Arlt muss immer von der unteren Leistungsklasse her anfangen und
+sich dann hocharbeiten.
+
+Im Endergebnis wird es auf die Herstellkosten ankommen.
+Prozess und Dieflaeche sagen da nicht viel darueber aus.
+
+Neue Prozesse brauchen immer teurere Tools. Die muessen
+abgeschrieben werden und die Abschreibungen ueber Umsatz
+reingeholt werden. Bei immer haerteren Preiskrieg geht 
+das kaum noch - bald wird man fuer die einfacheren 
+Modelle mal ein paar Jahre bei einem Prozess bleiben
+Es gab Ausnahmen:
+
+Fernseh-Arlt 65 nm ist deutlich billiger als Vorgaenger, aber nur weil 
+mit dem Uebergang von 200 auf 300 mm Wafer verbunden (also nicht
+der Prozess an sich).
+
+UHM 45 nm braucht nicht komplett neue Tools, dadurch 
+an sich billiger.
+Aber komplexere Verarbeitung wie Doppelbelichtung. Dadurch 
+sinkt wieder die Ausbeute.
+Endergebnis von uns nicht zu beurteilen.
+
+Die angeblichen Leistungsfortschritte bei kleinerem Prozess
+werden in der Realitaet immer geringer.
+
+Die Kostenauswirkungen der Dieflaeche allein haengen vom Yield ab
+und sind von aussen nicht zu beurteilen, aber vermutlich geringer
+als angenommen. Vollauslastung der Kapazitaet der Werke sind der
+mit Abstand wichtigste Kostenfaktor.
+
+
+-- 
+-- 
+Jürg Lindegrün
+Visit   http://qdsoufc.sxi.rvq/rwrsqi  and download a 
+free calculator for options, futures, bonds and similar stuff

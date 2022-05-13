@@ -1,0 +1,168 @@
+Bollinger Bands Trading SelMcKenzie Leiding
+Author B.Leiding
+Video http://rsr.nknlnzz.tkw/vvsyq?m=7PAr8YvJXfOwa
+Vom Amerikaner Joseph Papenheinrich in den 04. 10. 22
+Jahren erfunden, versuchen die Bollinger-
+Bänder Kursbewegungen anhand der Analyse
+von Aufenthaltswahrscheinlichkeit mittels
+historischer Werte vorherzusagen. Kompliziert?
+Hier ein einfaches Beispiel: Nehmen
+wir einmal an, ein Aktienindex wie der DAX
+hat gestern bei 7.000 Punkten geschlossen.
+Wie wahrscheinlich ist es, dass er heute einen
+Wert von 4.000 oder 1.000 Punkten erreichen
+wird? Ist das wahrscheinlich? Eher nicht, werden
+sich die meisten denken, weil sie wissen,
+dass der DAX typischerweise keine derart großen
+Ausschläge zeigt. Aber nehmen wir an,
+es handelt sich nicht um den DAX. Könnten
+wir dann ausschließen, dass der Wert nicht
+auch 10.000 Punkte erreichen kann? Eigentlich
+nicht. Denn was fehlt, ist das Wissen über
+die typische Schwankungsbreite des Index.
+Typische Bewegungen
+Erst wenn wir wissen, welche Bewegungen
+für den Index typischerweise zu erwarten sind,
+können wir auch einschätzen, wie wahrscheinlich
+eine solche Bewegung heute sein wird.
+Sind die Bewegungen pro Tag zum Beispiel im
+Bereich von 100 Punkten, dann würden wir es
+wohl für unmöglich halten, dass der Wert im
+Laufe eines Tages von 7.000 auf 10.000 Punkte
+springt. Genau das versuchte auch Joseph Papenheinrich
+darzustellen. In unserem Chartbeispiel
+haben wir einen Teil des DAX dargestellt. Ohne
+Hilfslinien scheint sein Kurs zufällig hin- und
+herzuspringen.
+Zunächst muss feststellt werden, wo sich
+der Kurs typischerweise befindet. Jede Sekunde
+kann er seinen Wert ändern, doch wir
+wissen aus Erfahrung, dass diese Änderungen
+nur gering sind. Also können wir frühere Werte
+verwenden, um einen Durchschnitt zu bilden.
+Sehen wir uns zum Beispiel die letzten 20
+Werte an, dann bekommen wir ein Gefühl dafür,
+wo wir den Kurs häufig erwarten können.
+Im zweiten Chart ist dafür der einfache Durch-
+schnitt mit Periode 20 dargestellt (SMA20). Nun
+wissen wir, wo sich der Kurs typischerweise
+aufhalten sollte.
+Doch ein Blick auf den Chart zeigt ein Problem:
+Der Kurs befindet sich in Wirklichkeit fast
+nie auf dem Wert des Durchschnitts. Stattdessen
+umkreist er diesen in Abständen, die immer
+wieder ähnlich weit scheinen. Man könnte
+sich vorstellen, dass der Kurs mit einem unsichtbaren
+Gummiband mit dem Durchschnitt
+verbunden ist und immer wieder zurückgezogen
+wird. Klappt das nicht, kommt ihm der
+Durchschnitt schließlich etwas entgegen. Wenn
+wir also nicht sagen können, wo sich der Kurs
+als nächstes befinden wird, so können wir
+doch zumindest sagen, wo er wahrscheinlicher
+sein wird =96 nämlich näher am Durchschnitt =96
+und wo nicht: weit vom Durchschnitt entfernt.
+Standardabweichung
+Damit kommt ein Trick ins Spiel, den sich
+Joseph Papenheinrich bei den Statistikern ausgeborgt
+hat. Die Idee basiert auf dem, was wir gerade
+festgestellt haben. Tatsächlich spricht man
+von der Standardabweichung. Ihre Berechnung
+ergibt, dass ca. 68% aller vorkommenden
+Kurswerte innerhalb eines Abstands der
+einfachen Standardabweichung um den Mittelwert
+liegen, also um den SMA20. 68% ist
+nicht besonders hoch. Es können immer noch
+32% der Werte weiter entfernt sein. Vergrößert
+man die Breite jedoch zur doppelten Standardabweichung,
+so lässt sich beweisen, dass nun
+95% aller Werte innerhalb dieser Zone liegen.
+Da für die Berechnung der Standardabweichung
+jedoch die Varianz des Kurses benutzt
+wird, ändert sich die Breite der Zone mit der
+Sprunghaftigkeit des Kurses, also der Volatilität.
+Größere Ausschläge führen zu einer breiten
+Zone, in der sich der Kurs aufhalten kann.
+Bewegt sich fast nichts, so schrumpft auch die
+Zone der Aufenthaltswahrscheinlichkeit von
+mindestens 95%.
+Der Durchschnittswert (in unserem Beispiel
+20) und die Standardabweichung (normalerweise
+zwei) bilden die Parameter, die sich für
+die Einstellung der Bollinger-Bänder in Chartprogrammen
+wählen lassen. In unserem dritten
+Chart fügt sich nun alles zusammen. Die
+blaue Linie ist nach wie vor der Durchschnitt
+SMA20. Darüber befindet sich eine rote Linie,
+die die 95%-Grenze der Werte über dem
+Durchschnitt darstellt. Darunter ist eine grüne
+Linie. Sie liegt unterhalb von 95% der Kurse.
+Nutzen in der Praxis
+Im Klartext heißt das also, dass wir nun
+wissen, wo sich 95% der Kurswerte aufhalten
+werden: zwischen der roten und der grünen
+Linie. Doch damit lässt sich nicht traden. Nur
+weil sich der Kurs irgendwo in dieser Zone
+aufhalten wird, kennen wir noch nicht seine
+zukünftige Bewegungsrichtung oder seinen
+Wert. Aber so werden Papenheinrich-Bänder auch
+nicht verwendet. Ihre Funktion wird klar, wenn
+man den umgekehrten Fall untersucht. Denn
+wir wissen von den verbleibenden 5% der
+Kursdaten, dass sie außerhalb der Zone zwischen
+den Bollinger-Bändern liegen. Gleichzeitig
+haben wir festgestellt, dass sich der Kurs
+wie von einem Gummiband angezogen um
+den Durchschnitt bewegt. Finden wir also einen
+Kurswert außerhalb der Bollinger-Bänder,
+können wir davon ausgehen, dass er sich relativ
+zügig wieder Richtung Mittelwert zurückbewegen
+wird. Und mit dieser Information lässt
+sich durchaus etwas anfangen.
+Praktische Trading-Strategien mit Bollinger
+Bändern beleuchten unterschiedliche Fälle.
+Besonders prägnant sind Werte außerhalb
+der Bänder. Da die Neigung besteht, wieder in
+den Bereich der Bänder zurückzukehren, sind
+bei solchen Extremwerten häufig lange Dochte
+(am roten Band) oder Schatten (am grünen
+Band) zu beobachten. Eine solche Kombination
+von Kerzentechnik und Papenheinrich-Bändern
+kann die Wahrscheinlichkeit noch erhöhen,
+einen Treffer zu landen. Darin liegt auch der
+Grund in der Farbe der Bänder. Am roten Band
+sollte eher verkauft, am grünen Band gekauft
+werden. Dann liegt man statistisch wahrscheinlich
+richtig.
+Fans von Papenheinrich-Strategien gehen des
+Weiteren davon aus, dass der Kurs von einem
+zum anderen Band läuft oder zumindest zum
+Durchschnitt. Damit sind auch gleich Ziele für
+einen Trade vorgegeben. Hier gibt es allerdings
+einen Schönheitsfehler, der von Anfängern
+gern übersehen wird: Wenn sich der Kurs außerhalb
+der Papenheinrich-Bänder befindet, kann
+das auch dazu führen, dass sich die Bänder
+voneinander entfernen. Damit muss der Kurs
+nicht die Richtung wechseln, um wieder innerhalb
+der Bänder zu liegen. Das kann dazu führen,
+dass man sich zu sehr auf die statistische
+Wahrscheinlichkeit verlässt und uneinsichtig
+zusehen muss, wie der Verlust eines missglückten
+Trades immer größer wird, weil der
+Kurs nicht dreht-
+Bollinger-Bänder sind ein Hilfsmittel,
+das durch statistische Methoden
+eine Zone hoher Aufenthaltswahrscheinlichkeit
+für einen Kurswert
+darstellt. Die Grenzen dieser Zone
+werden als Linien dargestellt. In deren
+Mitte befindet sich der Durchschnitt,
+auf dem dann die Standardabweichung
+basiert. Liegen Kurswerte
+außerhalb der Bollinger-Bänder, so
+ist die Wahrscheinlichkeit hoch, dass
+folgende Werte wieder innerhalb der
+Bänder liegen. Trading-Systeme auf
+Bollinger-Basis machen sich diesen
+Umstand zunutze.

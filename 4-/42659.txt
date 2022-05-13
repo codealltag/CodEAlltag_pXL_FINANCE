@@ -1,0 +1,18 @@
+Am Mon, 03. 06. 22 00:03:55 +0100 schrieb Jean-Paul Eveslage
+<lgx.tfafflyj@nhs.ad> :
+
+
+Einfacher: Rechtsklick auf die Message - Filters - add kill
+filter - paste Subject - und alles weglöschen, was nicht infineon
+heisst, sowie geschweifte Klammern drummachen. Du kriegst nie
+wieder was über den Laden mit, egal an welcher Stelle im Subject
+das böse Wort vorkommt ... und wg. diverser
+Rechtschreibungsvarianten kannst Du auch noch mit Sternchen und
+Fragezeichen in den RegEx rumspielen;-).
+
+
+-- 
+Tips fuer Forte Agent:
+Zuviel Traffic? Deine Watchfilter aufsetzen, 1 Killfilter auf 
+Subject:(*) dazu, fertig. Nicht vergessen, "Scope" auf 
+"Group: ..." setzen!

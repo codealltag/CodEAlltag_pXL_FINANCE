@@ -1,0 +1,7 @@
+Ja, wie lange das wohl dauert bei Brokat so ein Java-Quellcode
+ein bisschen zu editieren, damit's wieder richtig sortiert wird?
+
+Charly Ehlich <amjfas@vsw.kmm> wrote in message
+news:239s7cwd.98572028@ynjj.bnrjtqga.xtzkpmh.pe...
+normalerweise sind die jüngsten orders an erster stelle. dummerweise
+ist halt "00" kleiner als "99", daher wohl älter und so ganz unten

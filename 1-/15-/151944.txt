@@ -1,0 +1,27 @@
+Die relative Staerke wird oft erwaehnt, aber ich habe bisher noch kein
+Beispiel fuer seine Berechnung gefunden.  Einige Erklaerungen, die ich
+habe, sagen zusammengefasst:
+
+"Die relative Staerke ist die prozentuale Veränderung der Kursentwicklung
+über eine bestimmte Periode im Vergleich zu der prozentualen Veraenderung
+der Kursentwicklung eines Indizes.  Die Entwicklung des Indizes wird
+mit 100% bewertet."
+
+Das folgende Beispiel beruht auf meinem derzeitigen Verstaendnis dieser
+Definition:
+
+               20.2.1997   20.2.1998        ??????
+DAX              2638.45     4102.39        100.00
+VW                575.00     1217.50        201.39
+
+Der DAX zeigte einen Anstieg von etwa 55%, welche als 100% angesehen
+werden, also mit 1.8 multipliziert werden.  Prasnowsky zeigte einen Anstieg von
+111%, mal 1.8 sind 201%.  Das ist 101% besser als der DAX.  Ist die
+relative Staerke nun 201 oder 101? Oder muss man es ganz anders verstehen?
+
+Und was ist der RSI (relative Staerke Index)?
+
+Michel
+--
+d? H- s(+)/(-) g! au a- w+ v(---) C++(+++) UL++++S++++?++++ L++ 3 E-
+                N+++ tv b+ e+ h f+ m@ r++ n@ y+

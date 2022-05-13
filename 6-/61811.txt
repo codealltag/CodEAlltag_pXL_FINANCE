@@ -1,0 +1,23 @@
+Hallo,
+
+da hast du wohl einiges durcheinander gebracht:
+
+1. Verkauf Order mit Limit
+Es erfolgt der Verkauf genau dann, wenn er
+zu einem hoeheren oder genau dem gleichen Kurs
+moeglich ist, wie du im Limit angegeben hast. Was
+du oben als erstes geschildert hast entspricht nicht
+der Limit Order, sondern einer Stop-Buy Order.
+
+2. Stop-Loss
+Sobald ein Kurs zustande kommt, der deinem
+Limit entspricht oder tiefer, wird aus der
+SL-Order eine normale bestens Order. Die dann
+zum naechsten Kurs mit sehr hoher Wahrscheinlichkeit
+ausgefuehrt wird. 
+
+Es war also ok, wie Deine Order ausgefuehrt wurde.
+
+mfg
+
+ Claus

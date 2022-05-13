@@ -1,0 +1,13 @@
+Der V-Dax gibt die implizite Volatilität (Schwankungsbreite,
+Standardabweichung) der gehandelten Dax-Optionen an der DTB wider.
+Das heißt es wird nicht die Schwankung des DAX an sich gemessen, sondern,
+die in den gehandelten Optionspreisen "eingebaute" Volatilität. (Ein Faktor
+des Preises einer Option ist eben gerade die Vola).
+
+Das kann eben genau dann passieren, wenn die Händler der Optionen für die
+Zukunft eine sinkende Vola erwarten und dementsprechend die Optionen
+preisen. Es ergibt sich das der V-DAX (als Maß der impliziten Vola) dann
+sinkt!
+
+Hoffe, das war verständlich
+Dietmar

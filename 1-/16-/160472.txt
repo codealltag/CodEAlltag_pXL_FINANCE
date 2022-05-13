@@ -1,0 +1,63 @@
+Ein ganz kleines Beispiel, wie man einen Optionsschein in einer
+Modellsituation absichert:
+Eine Aktie steht bei 100DM, ich verkaufe eine Kaufoption mit
+europaeischer Ausuebung mit Laufzeit einem Jahr und Basispreis
+100DM. Der Preis haengt jetzt nur noch vom einjaehrigen Zinssatz
+und der Volatilitaet der Aktie ab. Nehmen wir einmal an, man
+wuesste, dass die Aktie in einem Jahr entweder bei 120DM oder
+bei 80 DM steht (=Simulation der Volatilitaet) und dass die Zinsen
+zunaechst vernachlaessigt werden koennen. Ich kaufe dann eine
+halbe Aktie und nehme 10 DM Optionspraemie. Wenn die Aktie
+nach einem Jahr bei 120 DM steht, habe ich 10 DM aus der halben
+Aktie verdient und 10 DM aus der Praemie. Ich kann also 20 DM
+auszahlen. Steht die Aktie bei 80 DM habe ich 10 DM mit der halben
+Aktie verloren, was aber durch die Praemie kompensiert werden.
+Offenbar kann man mit einer solchen Strategie die Option nicht
+billiger als 10DM verkaufen. Ferner sieht man, dass dieser
+optimale Preis auch fuer den Kaeufer fair ist. Wenn beide
+Ausgaenge fuer den Aktienpreis nach einem Jahr gleich wahrscheinlich
+sind, ist sein mittlerer Gewinn eben genau 10 DM. Die
+Beruecksichtigung der Zinsen erhoeht den Preis fuer die
+Option etwas. Unter der Hypothese, dass man mit Aktien genauso
+viel verdienen kann wie mit Anleihen (also in unsererem Beispiel
+der Ausgang 120 DM entsprechend wahrscheinlicher ist) ist der
+hoehere Preis ebenfalls fair. Bei hoeherer Volatilitaet ist der
+Anteil der Aktie, die ich auf Kredit kaufen muss, hoeher und der
+Optionspreis erhoeht sich ebenfalls. In Wirklichkeit hat der Kurs
+natuerlich unendlich viele Ausgaenge, die ich durch Transaktionen
+innerhalb der Laufzeit ausgleichen muss (=Black and Scholes).
+
+Folgerungen:
+1. Mit einer fair bewerteten Option kaufe ich ein
+Chance-Risiko-Verhaeltnis, das voellig dem Einsatz entspricht.
+2. Der Emittend ist bei allen Ausgaengen gleichermassen abgesichert
+und verdient entsprechend immer, wenn er die Optionen ueber dem
+fairen Preis verkauft.
+3. Der Kauf von Optionsscheinen ist kein Nullsummenspiel gegen
+die Bank, das von einem Privatanleger kaum gewonnen werden koennte.
+Durch die Absicherungsstrategie nimmt der Kaeufer an der
+Marktentwicklung teil.
+3. Ein wesentlich vom fairen Preis abweichender Preis gibt
+(zumindest den Institutionellen) eine Arbitragemoeglichkeit.
+So waren die Preise fuer Covered Warrants bei ihrer Einfuehrung
+in Deutschland ueberteuert, was sofort Konkurrenz hervorrief.
+
+
+Die Grundhypothese des Black& Scholes-Modells ist gleichbleibende
+Volatilitaet. Auch an der amerikanischen Terminboerse sind Puts
+ueberteuert. In beiden Faellen ist der Grund darin zu suchen, dass
+man seit dem Crash von 1987 diese Hypothese (in der Richtung
+nach unten) zu Recht anzweifelt. Eine weitere Hypothese des
+Black and Scholes-Modells ist eine stetige Kursfunktion, die die
+Durchfuehrung des Absicherungsgeschaeftes zu jedem Kurs gestattet.
+Auch diese Hypothese war beim Crash 1987 nicht annaehernd
+erfuellt. Um es weniger geschwollen auszudruecken: Das Risiko
+des Verkaufs einer Putoption zum fairen Preis ist den Marktteilnehmern
+zu hoch. Trotzdem kann man obiges Beispiel fuer eine Putoption
+durchrechnen, die man mit einem teilweisen Leerverkauf des Basisobjekts
+durchrechnet. Dass Puts billiger werden muessen, wenn die Zinsen
+steigen, ist also im Rahmen des Modells korrekt.
+
+
+Wie oben angedeutet, liefern die beiden Modelle genau die gleichen
+Werte.

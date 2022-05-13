@@ -1,0 +1,50 @@
+Hallo Alfons,
+
+die Relative Stärke (RS) wird dazu verwendet, um die Performance von
+zwei oder mehreren Titel zu vergleichen.
+Klassischerweise wird der Vergleich mit einem Index durchgeführt.
+Insofern lagst Du schon ganz richtig. Und Deine Formel vergleicht ja
+auch die Performance von FWT und DAX.
+Nur wird die Relative Stärke etwas anders berechnet. (Einfacher. Man
+braucht dazu kein Dreisatz können :-)
+
+Hier die Formel:
+
+RS(A,B,n) = (C(A)/C(B)) / (C(A,n)/C(B,n))
+
+, wobei:
+
+A         == Aktie A (die hinsichtlich der Relativen Stärke zu
+untersuchende Aktie, z.B. FWT)
+B         == Aktie B (Vergleichswert, z.B. DAX)
+n         == natürliche Zahl
+C(X)      == Letzter Schlußkurs der Aktie X
+C(X,n)    == Schlußkurs der Aktie X vor n Tagen
+RS(X,Y,n) == Relative Stärke der Aktie X zur Aktie Y
+
+
+Ist die RS einer Aktie zu einem Index größer Eins, dann hatte diese
+Aktie eine bessere Performance, als der Index.
+Bei einem Wert gleich Eins, war die Performance der Aktie genauso
+gut/schlecht, wie die des Index.
+Eine RS kleiner Eins bedeutet, daß die Aktie schlechter abgeschnitten
+hat, als der Index.
+
+In Deinem Beispiel oben, hätte FWT eine Relative Stärke von etwa 1.36 zum
+DAX.
+
+
+=============================
+
+Zum RSI weiß ich nur folgendes:
+
+Er ist ein Oszillator, der sich zwischen 0 und 100 bewegt. Ein Wert über
+70 bedeutet "überkauft" und ein Wert
+von unter 30 bedeutet "überverkauft"..
+
+Die Formel und ihre Interpretation würden mich auch interessieren. Weiß
+jemand mehr darüber?!
+
+
+gru
+benedikt

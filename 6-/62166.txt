@@ -1,0 +1,10 @@
+Hallo Valerian
+
+Bei einem Split eines Basiswertes wird auch die Option gesplittet, und der
+Strikeprice dem Verhältnis entsprechend angepasst.
+
+Wenn also in Deinem Beispiel die Option den Strike bei 100 hatte, wird sie
+nach dem Aktiensplit den Strike bei 50 haben.
+
+Gruss
+Carina

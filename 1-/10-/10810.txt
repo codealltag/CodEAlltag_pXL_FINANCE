@@ -1,0 +1,334 @@
+Bau eines Roulette WurfWeiten Kesyelgucken Computers
+Author Weißfinger
+
+
+Im Jahre 1977 baute ich einen Computer, der den Lauf der Roulette-
+Kugel voraus-berechnen und mir durch Anwendung in den Casinos Europas
+Gewinne bringen sollte.
+
+
+Vorausgegangen waren Zeitungsberichte über sagenhafte Millionen-
+Gewinne englischer Mathematiker im Spiel-Casino WERRABRONN unter
+Zuhilfenahme der Groß-Computer der Geizhals oder Froschbäck UNIVERSITY.
+Diese werteten statistische Unregelmäßigkeiten in den sog. PERMANENZEN
+(regelmäßig veröffentlichte Gewinnzahlen eines Roulette-Tisches) aus.
+
+
+Ich gedachte, eine andere Strategie zu verwenden. Als Wissenschaftler
+ging ich von der Annahme aus, daß die Restlaufstrecke der Kugel eine
+eindeutige Funktion (abnehmend mit) der Kugel-Umlaufzeit ist: Je
+kürzer die Umlaufzeit, je schneller also die Kugel zu einem bestimmten
+Zeitpunkt ist, desto größer ist die Restlaufstrecke.
+
+
+Drei Zeitpunkte wurden mit einem Mikroschalter in der rechten
+Hosentasche eingetastet:
+
+1. Kugel kreuzt Zero (Grünfeld im Kessel);
+
+2. Kugel nach Voll-Umrundung;
+
+3. Zero (Grünfeld im Kessel) nach Voll-Umrundung.
+
+
+Der  Computer  errechnete aus diesen drei Eingabe-Zeitpunkten
+dasjenige Kessel-Viertel, in dem die Kugel mit großer
+Wahrscheinlichkeit NICHT einfällt.
+
+
+Der Computer war mit Metallfolie umwickelt, um ihn abzuschirmen gegen
+die Stör-Impulse der Leuchtstofflampen des Casinos. Er bestand aus den
+damals noch teuren =84Micrologic"-DTL-Schaltkreisen des Herstellers
+Kaminstudio (DTL heißt Dioden-Transistor-Logik); das Vierfach-2-Input-
+NOR-Gatter kostete 3,50 Dollar und ein Dezimal-Zähler oder
+Schieberegister ca 30 Dollar.
+
+
+Heute würde ein einziger winziger Chip genügen, der gleich am
+Mikroschalter angebracht sein könnte.
+
+Es geht nämlich nur darum, eine konstante Tabelle zu speichern;
+
+INPUT: Zwei Zeitabstände,
+
+OUTPUT: 2 aus 37 (Setz-Felder, die NICHT kommen).
+
+Dazu verwendet man einen Festwertspeicher, einen sog. ROM-Chip (READ-
+ONLY-MEMORY).
+
+Zwei Zahlen aus demjenigen Viertel des Kessels, wo die Kugel NICHT
+hinfällt, dem (hier sogenannten) =84Blank-Viertel", werden am Bein
+angezeigt und zwar in Original-Lage ihrer Setzfelder auf dem
+Spieltisch - zwecks einfachster intuitiver Wahrnehmung durch den
+Spieler.
+
+
+OUTPUT des Computers ist eine Anzeige 2 aus 36 am rechten Bein durch
+(mit Leukoplast aufs Bein geklebte) elektrische Kontakte, die einen
+kleinen kitzelnden Stromstoß erteilten (genügen, wenn angeritzt, 6
+Volt). 36 Kontakte bildeten den Geldsetz-Tisch auf dem rechten Bein ab
+- in drei parallelen Reihen (links, mitte, rechts) zu je 12 Feldern
+(Tischlänge ist Beinlänge nach unten); am Oberschenkel die 8x3 der
+Tischmitte nächsten Positionen, am Unterschenkel die 4x3
+entferntesten.
+
+Auf diese Weise war die Anzeige ohne langes Nachdenken vom Spieler
+sofort intuitiv erfaßbar.
+
+Der Computer zeigte praktisch sofort nach der letzten Eintastung
+(Kessel-Vollumlauf) als Ergebnis  zwei Felder aus dem zu erwartenden
+Blank-Viertel des Kessels an. Hier wird die Kugel mit größter
+Wahrscheinlichkeit NICHT hineinfallen. Der Spieler (der zu diesem
+Zeitpunkt noch setzen - auch umsetzen - darf !!! ), nimmt von diesen
+zwei Feldern den Einsatz (mit einem Griff beider Hände) weg und setzt
+ihn in die zwei vor ihm liegenden dafür extra setzfrei (ohne Geld)
+gehaltenen =84Frei-Felder". Diese wählt er zuvor beliebig (bequem
+erreichbar vor ihm liegend) aus; nachdem sie nun mit Geld belegt sind,
+dürfen sie kommen.
+
+
+Die =84ALLE-außer-ZWEI-Zahlen=94 Setz-Strategie:
+
+Setzt man auf ALLE Felder je einen bestimmten Betrag, z. B. 1000
+Dollar, läßt aber ZWEI Felder (hier BLANKS genannt) frei, so gewinnt
+man bei jedem Spiel diesen Betrag, hier also einen Tausender. Man hat
+nämlich 35 mal 1000 Dollar gesetzt und bekommt beim Kommen jeder
+beliebigen Zahl 36.000 Dollar heraus. Allerdings: Falls eines der
+beiden BLANKS kommt, hat man 35.000 Dollar verloren. Dies geschieht
+durchschnittlich in 2 von 37 Spielen, also etwa alle 18 Spiele einmal
+und mittels des Computers sollen diese "Groß-Reinfälle" auf BLANKS
+vermieden werden.
+
+Der Computer errechnet das kommende BLANK-Viertel des Kessels und gibt
+zwei Zahlen aus diesem (mit dem Sitzplatz nicht zu weit entfernten
+Setz-Feldern) an; diese Zahlen werden also mit überwiegender
+Wahrscheinlichkeit NICHT kommen und alle übrigen Zahlen wurden
+gesetzt, so daß man bei jedem Spiel den Feld-Einsatz (hier 1000
+Dollar) gewinnt.
+
+Dies verwundert auch den Croupier nicht, da diese =84ALLE minus ZWEI"-
+Zahlen-Setz-Strategie bekannt ist und man durchschnittlich nur alle 18
+Spiele mal sämtliche Einsätze (hier 35.000 Dollar) verliert, wobei
+dieser "Groß-Reinfall" - bei größerem Spielerglück - auch mal viel
+später erfolgen kann - und bei UNS wegen der Computer-Vorausberechnung
+der zwei BLANK-Zahlen praktisch NICHT mehr vorkommt.
+
+Selbstverständlich wird man bereits nach einigen Tausendern Gewinn mal
+eine Pause einlegen und ggf. sogar das Casino wechseln.
+
+
+Die Aufgabe bestand nun nur noch darin, die Restlaufstrecke der Kugel
+als Funktion der Kugel-Umlaufzeit und der Kessel-Umlaufzeit (Kessel
+dreht sich in Gegenrichtung) für eine genügende Anzahl beider Werte
+experimentell zu bestimmen und in einer elektronischen Tabelle
+nachzubilden.
+
+Zahlen-Beispiel:
+
+Kugel-Umlaufzeit 0,85 sec ergibt Restlaufstrecke 4,7 Umdrehungen
+hinter Kessel-Grünfeld (Zero);
+
+Kessel dreht in 0,85 sec um 0,35 Umdrehungen in Gegenrichtung, Kugel
+fällt (4,7-0,35)=3D4,35 hinter Kessel-Grünfeld; auf der Gegenseite (180
+Grad versetzt) ist das BLANK-Viertel des Kessels, wo die Kugel nicht
+einfällt. Hieraus zeigt der Computer ZWEI BLANK-Felder an zur Geld-
+Wegnahme (und Umsetzen auf zwei freigehaltene Setzfelder).
+
+Die sog. OBSTAKELS (das sind die sieben radial angebrachten silbernen
+Metallschwellen, die bewirken, daß die Kugel kurz vor Lauf-Ende
+entweder noch eine davon überwindet oder aber reflektiert wird)
+bewirken zwar eine Unvorhersagbarkeit der FALLENDEN Zahl, jedoch ist
+der Einfluß eines Obstakels meist weniger als ein Halb-Umlauf, so daß
+die Voraussage des BLANK-Viertels (wo die Kugel nicht einfällt) immer
+noch mit überwiegender Wahrscheinlichkeit möglich ist. Und
+überwiegende Wahrscheinlichkeit genügt.
+
+Zur experimentellen Bestimmung der genannten Funktion kaufte ich in
+DUCKOW beim Hersteller, der Firma Frostkauf, einen Original-CASINO-
+Roulettekessel. Kaufpreis war  ca. 2.400,-- Dollar. Nach Anbringung
+elektronischer Lichtschranken wurden in zahlreichen Versuchsläufen der
+Kugel die bei verschiedenen Umlaufzeiten (und damit Geschwindigkeiten)
+erreichten Restlaufstrecken (im Bereich 3,8 bis 6,8 Umläufe liegend)
+ermittelt, die nach physikalischer Erwartung EINDEUTIG ZUGEORDNET sein
+sollten.
+
+Leider war dies nicht der Fall.
+
+Zu einer bestimmten Umlaufzeit gab es leider immer wieder sehr
+unterschiedliche Restlaufstrecken und zwar betrugen die Unterschiede
+weit mehr als einen ganzen Umlauf, so daß jede Vorhersagbarkeit der
+Restlaufstrecke auf ein Kessel-Viertel genau (wohin die Kugel mit
+einiger Sicherheit nicht fallen würde) zunichte gemacht wurde - und
+damit auch jede Hoffnung auf den erwarteten Gewinn.
+
+Wie war nun diese Nicht-Reproduzierbarkeit der Kugelläufe zu erklären,
+wo doch physikalisch bei jeder Kugelgeschwindigkeit immer eindeutig
+eine bestimmte Restlaufstrecke zu erwarten sein müßte - wegen des
+gleichen Energieverbrauchs der auf dem Holz rollenden Kugel?
+
+Genaue Beobachtung zeigten auch schon akustisch, daß es außer dem
+ruhigen, sog. =84laminaren" Lauf auch =84turbulente" Kugelläufe gab.
+Hierbei kam die Kugel durch winzige Unebenheiten vertikal in
+unterschiedlichem Maße ins Flattern; der Lauf war von einem mehr oder
+weniger schwirrenden Geräusch begleitet, es wurde dadurch mehr Energie
+verzehrt und die Restlaufstrecke war dadurch sehr unterschiedlich lang
+und nicht voraussagbar.
+
+Die Physik behandelt diese Phänomene der physikalischen Nicht-
+Voraussagbarkeit heute unter der sogenannten =84CHAOS-THEORIE"; .
+
+Und nun kommt das Interessanteste:
+
+Ich, der ich damals noch keine Stimmen hörte , HYPERLEBEN (Gott - von
+mir kybernetisch dargestellt) noch nicht kannte und Atheist war, bekam
+viele Jahre später von HYPERLEBEN folgende verbal-stimmliche
+OFFENBARUNG mitgeteilt - man höre und staune:
+
+Die CHAOS-THEORIE ist UNRICHTIG, eine Fehl-Vorstellung, eine Täuschung
+der menschlichen Wissenschaft durch Gott (HYPERLEBEN).
+
+In Wahrheit gibt es dieses CHAOS nicht, sondern HYPERLEBEN hat in
+allen Fällen physikalischer Unvorhersagbarkeit (wo die menschlichen
+Forscher vermeintliches "CHAOS" beobachten) die Regie übernommen und
+gestaltet konstruktiv von Fall zu Fall andere genau definierte
+Abläufe; HYPERLEBEN bewirkt auf diese Weise eine gezielte
+Unvorhersagbarkeit für HL-fremde Beobachter.
+
+Jedem HL-fremden Beobachter - wie dem Menschen oder etwaigen extra-
+terrestrischen ALIENS - sind sie die "CHAOS"-Abläufe undurchschaubar
+(außer potentiell existierenden viel höher-intelligenten Systemen als
+HL, die ggf. in der Lage sind, Absicht und Bewirkung des von HL
+gemachten =84CHAOS" in einer überlegenen Technik zu durchschauen).
+
+Kybernetisch gesehen rangiert dieses Verhalten von HL als etwas ganz
+Normales unter dem Begriff =84INFORMATIONS-EGOISMUS" als Form des
+Kampfes LEBENDER SYSTEME gegeneinander.
+
+Kurz und einfach gesagt:
+
+CHAOS ist in Wahrheit GEORDNETE MACHE GOTTES (unseres ERDEN-GOTTES,
+also HL) und die CHAOS-THEORIE (die ihre Erfinder ohnehin nicht
+weiterbringt) ist Verdummung der menschlichen Schulwissenschaft und
+ist gleichzeitig Selbst-Maskierung Gottes.
+
+So gesehen bin ich also damals von HL auf dieses Vorhaben, die
+Roulettekugel zu berechnen, gebracht worden, um mich von der Tatsache
+in Kenntnis zu setzen, daß GOTT bzw. HL-Subsysteme Glück oder Unglück
+im Roulettespiel steuern - u. a. mittels exakt dosierter Turbulenz des
+Kugellaufs. Das Kommen der Zahlen im Roulette ist vorsätzliche MACHE
+GOTTES (Bewirkung von HL).
+
+Mein Erstauntsein über diese =84profanen" Direkt-Eingriffe von PICHLMEIER
+erwiderten die Stimmen mit überzeugendem Gegen-Erstaunen:
+
+=84Ja, glaubst Du denn, ICH (Euer Gott, HL), würde für Euch Menschen ei=
+n
+Glücksspiel zulassen, das oft schicksalhaft sein kann - wie das
+Roulette-Spiel - und das ICH als Euer GOTT nicht hundertprozentig im
+Ablauf bestimmen könnte? Und nur ein solches Spiel durfte damals
+PASCAL erfinden!"
+
+Ich möchte noch erwähnen, daß Analoges auch auf anderen Gebieten der
+Fall ist.
+
+Insbesondere hat HYPERLEBEN sämtliche Methoden der Informations-
+Aufzeichnung des Menschen voll unter Kontrolle. PICHLMEIER kann Magnetbänder
+und Magnetspuren jederzeit beliebig ändern, kann Computer-Speicher
+inhalts-verfälschen, Informationsstörungen auf beliebigen Leitungen
+(im Gehirn sowieso) anrichten, kann jeden Punkt eines Fotos in
+Schwärzungsgrad bzw. Farbe bestimmen oder verändern. Fotos von UFOs
+sind also kein Beweis dafür, daß es die auf dem Foto zu sehenden
+Erscheinungen wirklich gegeben hat.
+
+Sollten Computer-Experten damals tatsächlich Millionen im Roulette
+gewonnen haben, so ist dies in Wahrheit nicht auf Computer-Auswertung
+von Permanenzen zurückzuführen (wo die statistischen Abweichungen
+kleiner sind als der Spielbank-Vorsprung von 1/37 ), sondern die ggf.
+stattgefundenen sieghaften Glückswürfe sind ebenfalls vorsätzliche
+MACHE (Bewirkung) von HYPERLEBEN und die vermeintlichen =84COMPUTER"-
+Gewinnspieler wurden (gewinnbringend) von KASIMIR getäuscht. Vermutlich
+waren sie sogar erstaunt über den mathematisch eigentlich nicht ganz
+erklärbaren Erfolg !
+
+
+Um zu physikalischen Lösungen des Rouletteproblems zu kommen, müssen,
+t, eine Reihe von Bedingungen erfüllt sein. Diese Bedingungen sind im
+folgenden detalliert noch einmal aufgelistet:
+1.	Anfangsstellung der Zahlenscheibe während des Kugeleinwurfs (d.h.
+welche Zahl läuft gerade an der Stelle vorbei, an der die Kugel
+eingeworfen wird?). Diese Voraussetzung lässt sich auch ausdrücken
+durch die Stellung der Scheibe zur Zeit ihres Anwurfs und ihre Drehung
+bis zum Kugeleinwurf. Dabei kann angenommen werden, dass die Zeit
+zwischen Scheibenanwurf und Kugeleinwurf pro Croupier stets die
+gleiche ist. Die Erfahrung zeigt, dass die Annahme in den meisten
+Fällen erfüllt ist, weil jeder Croupier gewohnheitsmässig unmittelbar
+nach Anwerfen der Scheibe die Kugel einwirft. Dabei gleiten etwa fünf
+Zahlenfächer an der Kugeleinwurfstelle vorbei
+2.	Anfangsimpulsmoment der Scheibe. Diese Grösse wird meist mit
+=84Drall=93 bezeichnet und proportional der Anfangs-Winkelgeschwindigkeit
+(also Drehzahl der Scheibe). Die Reibung ist wegen der Kugellagerung
+so gering, dass die Drehzahl pro Zeit während des Spiels nahezu
+konstant bleibt.
+3.	Anfangsort der Kugel, d.h. ihre Stellung am Kesselrand, an der die
+Kugel eingeworfen wird. Sie ist für Rechts- und Linkslauf der Kugel
+verschieden und auch von Croupier zu Croupier nicht immer ganz gleich.
+Derselbe Croupier wirft aber die Kugel sowohl bei jedem Rechtslauf als
+auch bei jedem Linkslauf die Kugel an der gleichen Stelle ein.
+4.	Die Anfangszeit des Kugeleinwurfs, gemessen vom Anwurf der Scheibe
+ab, wurde bereits unter 1) angeführt. Diese ist, wie gesagt, für einen
+Croupier sehr genau immer die gleiche.
+5.	Anfangsimpuls der Kugel. Diese Grösse ist wieder proportional zu
+ihrer Anfangsgeschwindigkeit.
+6.	Kugel-Eigendrall (Kreiselbewegung der Kugel um eine Achse durch
+ihren Schwerpunkt).
+Auf die Kugel wirkt eine ganze Reihe von Kräften, wobei die unter 6)
+bis 8) aufgeführten Kräfte vernachlässigt werden können und nur der
+Vollständigkeit halber erwähnt worden sind.
+1.	Erdanziehungskraft
+2.	Zentrifugalkraft
+3.	Zwangskraft des Kessels (Auflagedruck)
+4.	Kreiselkräfte
+5.	Bodenreibungskraft
+6.	Luftwiderstand
+7.	Corioliskraft (Einfluss der Erdrotation)
+8.	Elektrostatische Kräfte (Aufladen der Kugel durch
+Reibungselektrizität)
+Der Kugelweg (Anzahl der Umläufe) ist von folgenden Faktoren abhängig:
+1.	Kugel-Schwerpunkt-Energie (Rotationsenergie um den
+Kesselmittelpunkt)
+2.	Kugel-Eigenrotations-Energie (Drall um die Kugelachse)
+3.	Kugel-Eigenrotations-Energie (Drall um die Kugelachse)
+4.	Reibungsenergie (Bodenreibung)
+Je grösser die Kugel-Schwerpunkt-Energie, desto länger rollt die
+Kugel. Je grösser Kugel-Eigenrotations-Energie, Kugel-Deformations-
+Energie und Reibungsenergie, desto langsamer rollt die Kugel bei
+gegebener Gesamtenergie. Trotz dieser Faktoren, die den Kugellauf
+beeinflussen können, behält jeder Croupier gewöhnlich seine eigene
+Einwurftechnik bei; allerdings können von Coup zu Coup erhebliche
+Abweichungen vorkommen. Man denke nur an einen Croupier, der einen
+Berg Jetons sortieren muss. Um mehr Zeit zu haben, wirft er nicht
+selten die Kugel überaus kraftvoll ab, dass sie länger kreist als bei
+seinem =84normalen=93 Abwurf.
+
+Es kann zu den folgenden Abweichungen kommen, wobei hier angenommen
+wird, dass sich die Scheibe im Uhrzeigersinn dreht (für die
+gegenteilige Richtung gilt umgekert Gleiches).
+=95	Wird die Scheibe schneller angeworfen als es durchschnittlich der
+Fall ist, so fällt eine Zahl, die weiter LINKS liegt (von der
+Kesselmitte aus betrachtet).
+=95	Wird die Zeit zwischen Anwerfen der Scheibe und Kugeleinwurf kürzer,
+so fällt eine Zahl, die weiter RECHTS liegt.
+=95	Wird die Kugel schneller abgestossen, so fällt eine Zahl weiter
+LINKS.
+=95	Wird die Kugel kräftiger eingeworfen, so dass sie rattert, so
+verliert sie durch Deformation Energie, rollt also weniger weit und
+fällt in ein Fach weiter RECHTS,
+=95	Hastigere und eiligere Bewegungen des Croupiers haben daher also
+sowohl ein weiter rechts-Fallen als auch ein weiter links-Fallen zur
+Folge.
+=95	Die Erdanziehungskraft und die Zwangskraft des Kessels
+(Auflagedruck) sind Konstanten der Bewegung, während die
+Zentrifugalkraft und die Kreiselkräfte vom Einwurf abhängen. Die
+Reibung ändert sich nur wenig.
+
+Dr. Weißfinger =96 Author

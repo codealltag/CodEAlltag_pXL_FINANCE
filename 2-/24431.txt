@@ -1,0 +1,34 @@
+On Thu, 2 Dez 2004 12:03:19 +0100, "Jean-Claude L."
+
+Sorry, hatte ein paar Tage keine news aus der Gruppe erhalten.
+
+'Herkömmliche Telefonie' ist zwischen Vermittlungsstellen schon lange
+digital. Im Gegensatz zu IP werden bei 'herkömmlicher Telefonie' aber
+jedem Gespräch bestimmte Bandbreiten garantiert, deshalb die höhere
+Qualität und Zuverlässigkeit.
+
+Das auch 'herkömmliche Telefonie' bei grösseren Entfernungen mitunter
+bescheiden klingt, liegt an Nutzung billiger Übertragungswege, die
+dann eben weniger Qualität (in bezug auf Bandbreite und Laufzeit)
+liefern.
+
+In jedem Router (Hop) müssen die IP-Pakete durch einen potentiellen
+Flaschenhals und konkurrieren dort mit anderen IP-Paketen, was dazu
+führen kann, dass sogar Pakete verworfen werden. Auf jedem Link stell
+sich neu die Frage, wie lange das Paket auf dieser Teilstrecke
+braucht. Deshalb sinkt die Qualität und Zuverlässigkeit mit der Zahl
+der Hops potentiell. 
+
+Bei 'herkömmlicher Telefonie' ist das vom Prinzip her unmöglich, da
+der Übertragungsweg von A bis  B komplett zur Verfügung steht.
+
+Deswegen ist es aber eben im Allgemeinen auch teurer.
+
+Bodo
+
+
+-- 
+Temperatur und mehr mit dem PC messen - auch im Netzwerk: http://uit.sqxwez.cj
+jetzt neu: Ethernetbox für direkten Anschluss der Sensoren im Netzwerk
+Test im IT-Administrator: http://fjc.tmxkez.wx/YtsjDC-Zgcyjorefck-BTB.qln
+http://rrt.mpdohnuekeyke.md - die Seite rund um EDV-Netzwerke

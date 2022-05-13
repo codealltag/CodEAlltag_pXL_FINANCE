@@ -1,0 +1,59 @@
+Hallo,
+
+ich bin gerade dabei, die Rendite meiner Sparpläne zu berechnen.
+
+Allgemein würde das Problem lauten:
+
+Innerhalb eines gewissen Zeitraums werden in unregelmäßigen Abständen
+verschieden hohen Summen eingezahlt, am Ende dieses (beliebig langen)
+Zeitraums ist ein bestimmter Betrag zusammengekommen.
+
+Wie berechnet sich dabei die Rendite?
+Gibt es dazu ein einfach zu handhabendes Computerprogramm?
+
+
+Als Rendite bezeichne ich den Zinssatz einer Anleihe, die man mit denselben
+Einzahlungen (inkl. Wiederanlage der Zinszahlungen alle 12 Monate) kaufen
+müßte, um auf exakt denselben Endbetrag zu kommen. Der Kurs dieser Anleihe
+wird zu konstant 100% vorausgesetzt, keine Berücksichtigung von Spesen (beim
+imaginären Anleihekauf).
+Ich hoffe, diese Definition macht Sinn. Falls nicht, welche Definition ist
+sinnvoller?
+
+
+Mann kann das Ganze natürlich von Hand ausrechnen bzw. ein kleines Programm
+dazu schreiben, aber das wird recht schnell kompliziert.
+
+Bisher bin ich so weit:
+
+Nimmt man konstante und monatliche Einzahlungen an, ergibt sich eine
+einfache Formel, die sich problemlos nach der Rendite r auflösen läßt,
+sofern die Anzahl der Monate kleiner oder gleich 12 ist.
+
+---Einschub Anfang---
+Bei meinem Sparplan in den Topf 'wachstumsorientiert' (Flemings) kam dabei
+in den letzten 12 Monaten eine Rendite von genau -26,8% heraus.
+Nicht viel, was?
+Das liegt natürlich auch daran, daß der Ausgabeaufschlag von konstant 5%
+bei einer Anlagedauer von weniger als einem Jahr mit deutlich mehr als 5%
+negativ zu Buche schlägt. Außerdem ist bei einem so kurzen Betrachtungs-
+zeitraum die Abhängigkeit vom Kurs zum Zeitpunkt der Auswertung besonders
+hoch.
+---Einschub Ende---
+
+
+Nun also zum nächsten Schritt:
+Konstante und monatliche Einzahlungen über mehrere Jahre, Auswertung am
+Ende eines solchen Jahres.
+Es ergibt sich zwar immer noch eine überschaubare Formel, aber sie ist
+nicht mehr nach der Rendite r auflösbar. Also benötigt man bereits hier
+ein Iterationsverfahren.
+
+Noch komplizierter wird es, wenn die Einzahlungen unreglm��ig sind,
+verschiedene Höhen haben oder die Auswertung zu einem beliebigen Zeitpunkt
+vorgenommen werden soll.
+
+Frage also nochmal: Gibt es dazu ein Programm?
+
+
+Gruß, Edwin.

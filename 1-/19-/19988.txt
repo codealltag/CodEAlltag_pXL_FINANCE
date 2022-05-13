@@ -1,0 +1,47 @@
+Hallo liebe Investoren,
+
+Vielleicht kann mir ja jemand mal klar machen, wie diese sogenannten
+Rolling Turbo Future Optionsscheine funktionieren.
+
+Ich war immer der Meinung, daß die irgendwie bei touchieren der
+KO-Schwelle auch fällig werden bzw. man große Einbußen erleidet.
+
+Dann ist mir genau das mit einem Call auf die OZP (AM536KW1HZF1)
+passiert, aber der Schein war weiter handelbar und ist am nächsten Tag
+sogar noch kräftig angestiegen. Ich konnte ihn mit ordentlichem Gewinn
+verkaufen, obwohl er eigentlich "ausgknockt" war. Inzwischen ist das
+Bezugsveh�ltnis ziemlich extrem geworden, sodaß dieser Schein extreme
+Schwankungen bei geringen Schwankungen des Basiswerts ausführt (1ö
+Basiswert ==> 5ß beim Schein); aber er ist weiterhin handelbar.
+
+Nun steht auf der entsprechenden Kruschel Seite dieser Passus, der das erklärt:
+Long Rolling Turbo Optionsscheine verhalten sich genauso wie MINIS. Fixe
+Ausstattungsmerkmale sind jedoch Hebel und Stop-Loss-Puffer. Damit wird
+der Finanzierungslevel zum sekundaeren Merkmal und wird nach jedem
+Schlusskurs angepasst. Entsprechend muss auch das Bezugsverhaeltnis
+angepasst werden. Erreicht das Underlying eine Barriere, dann wird der
+Emittent den Hedge aufloesen. Die Laufzeit des Produktes endet jedoch
+nicht. Nach dem naechsten Schlusskurs des Underlyings, wird der neue
+Strike entsprechend dem Underlying und das neue Bezugsverhaeltnis
+entsprechend dem Restwert festgelegt. Liegt der Innere Wert bei
+Anpassung ueber 1999 oder unter 0,20 EUR kuendigt der Emittent das Produkt.
+<<
+
+allerdings vermag ich dann nicht ganz nachzuvollziehen, wo da der Haken
+ist, denn wie mein Beispiel des CoBa-Scheins zeigt wurde zwar das
+Bezugsverhältnis angepaßt, aber der Schein hat trotzdem die
+Kursbewegungen in einem Maße mitgemacht, daß ein Direktinvestmant in die
+entsprechende Aktie (wenn man mal von der Dividende absieht) weniger
+bringt.
+Momentan beobachte ich aus dieser Gruppe z.B den NG418IH7PAE0 (call auf
+Babywalz).
+
+Ist außer dem Spread (der geht allerdings beim CoBa Schein bei dem
+Bezugsverhältnis im Rauschen unter) noch irgendein Nachteil mit solchen
+Scheinen verbunden, wenn ich mal steigende Kurse voraussetzen darf? (das
+ist natürlich immer der Haken...)
+
+
+Gruß,
+
+Harm

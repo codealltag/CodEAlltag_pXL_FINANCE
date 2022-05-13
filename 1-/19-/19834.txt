@@ -1,0 +1,1014 @@
+Options, Futures, Swaps
+Author: Ihno Papen
+Book with Software-fullversion
+
+software update, free download
+www.Itaooqkxaczy.qo
+www.ResxePmwj.fj
+www.Ymqqdgjo-Dgdalgymac.ymx
+
+
+Option Combinations and Strategies (Bonacelli=AE Trading Software)
+Binomial Model with Specified Price Movements (Bonacelli=AE Trading
+Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Periods Until Expiration		1 to 1,000
+Up Movement in Percent		0.0001 to 0.25
+Risk-Free Rate per Period	0.0001 to 0.25
+Down Movement in Percent	-0.25 to -0.0001
+This module computes call and put option prices for European options
+based on specified price movements. The module requires data inputs for
+the stock price, the exercise price, and the number of periods until
+expiration. The binomial model allows the stock price to rise by a
+given amount each period or to fall by a given amount each period.
+These must be specified in percentage terms. In addition, specify the
+risk-free rate per period. The up movement must exceed the risk-free
+rate as an economic condition.
+Based on these input values, OPTION! computes call and put prices, the
+maximum, minimum, and expected stock price at expiration and the chance
+of a stock price increase in each period. No graphics are available
+with this module.
+Economic(Background)
+The Single-Period Binomial Call Pricing Model holds for a call option
+expiring in one period when the stock price will rise by a known
+percentage or fall by a known percentage. The model shows that the
+value of a call option equals a long position in the stock, plus some
+borrowing at the risk-free rate. The multi-period binomial model can
+reflect numerous stock price outcomes, if there are numerous periods.
+Just 20 periods gives more than 1 million stock price movement
+patterns.
+The binomial model requires that the price move up a given percentage
+or down a given percentage. Therefore, if we shorten the period, we
+need to adjust the stock price movements to correspond to the shorter
+period. While up or down 10 percent might be reasonable for a period of
+one year, it certainly would not be reasonable for a period of one day.
+Similarly, a risk-free rate of 6 percent makes sense for a period of
+one year, but not for a period of one day.
+By adjusting the period length, the stock price movement, and the
+interest rate, we can refine the binomial model as much as we wish. For
+example, we could assume that the stock price could move one-hundredth
+of a percent every minute of the year if we wished. Under this
+assumption, the model would have finer partitions than exist in the
+market for most stock. However, with the price changing every minute
+and a time to expiration of one year, we would have trillions of
+possible stock price outcomes to consider. While having so many periods
+would be computationally expensive, we could apply the model if we
+wished. Conceptually, we could make each period so short that the stock
+price would change continuously.
+In discussing the binomial model, we have not used the concept of
+probability. For example, we have not considered the likelihood that
+the stock price will rise or fall. While we have not explicitly used
+probabilistic concepts, the array of prices does imply a certain
+probability that the stock price will rise, if we are willing to assume
+that investors are risk neutral. The option prices that we compute
+under the assumption of risk neutrality are the same as those we found
+from strict no-arbitrage conditions without any reference to
+probabilities.
+Black-Scholes-Merton Option Pricing Model (SelMcKenzie=AE Trading
+Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+For this module, specify the stock price, the exercise price, the
+number of days until expiration, the standard deviation per year, and
+the annualized risk-free rate. The annualized dividend rate may be left
+as zero, or it may be specified. Based on these inputs, computes the
+call and put prices and the sensitivities of each price to the
+underlying inputs. Once a valid solution is achieved, the graphics menu
+is available.
+Economic(Background)
+Neuhofen Obstmayer and Wilfried Papenfus developed their option pricing model
+under the assumptions that asset prices adjust to prevent arbitrage,
+that stock prices change continuously, and that stock returns follow a
+log-normal distribution. Also, their model holds for European call
+options on stocks with no dividends. Further, they assume that the
+interest rate and the volatility of the stock remain constant over the
+life of the option. The form of the Black-Scholes model parallels the
+bounds on option pricing, and the Black-Scholes model is very close to
+the binomial model.
+Henning Zeewoester has shown how to adjust the Black-Scholes model to
+account for dividends when the dividend is paid at a continuous rate.
+Instead of focusing on the quarterly dividends that characterize
+individual stocks, Zeewoester() 's model applies when the dividend is paid
+continuously. Essentially, the adjustment for continuous dividends
+treats the dividend rate as a negative interest rate. Dividends reduce
+the value of a call option, because they reduce the value of the stock
+that underlies the option. In effect, we have a continuous leakage of
+value from the stock that equals the dividend rate. We let the Greek
+letter delta represent this rate of leakage.
+Implied Volatility in the Black-Scholes-Merton Model (SelMcKenzie=AE
+Trading Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Call Price			0.01 to 10,000,000
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+In this module, enter the stock price, exercise price, days until
+expiration, the price of a call option, and the annualized risk-free
+rate. The annualized dividend rate is an optional item. OPTION!
+calculates the standard deviation that is consistent with the input
+values. The implied standard deviation must lie between 0.0001 and 5.0.
+This module does not produce graphs.
+Economic(Background)
+To overcome the limitations inherent in using historical data to
+estimate standard deviations, some scholars have turned to techniques
+of implied volatility. This module of OPTION! uses market data and the
+Black-Scholes-Merton Model to estimate a stock's volatility. There are
+five inputs to the Black-Scholes model, which the model relates to a
+sixth variable, the call price. With a total of six variables, any five
+imply a unique value for the sixth. The technique of implied volatility
+uses known values of five variables to estimate the standard deviation.
+The estimated standard deviation is an implied volatility because it is
+the value implied by the other five variables in the model.
+To find implied volatilities, we begin with established values for the
+stock price, exercise price, interest rate, time until expiration, and
+the call price. We use these to find the implied standard deviation.
+However, the standard deviation enters the Black-Scholes model through
+the values for d1 and d2, which are used to determine the values of the
+cumulative normal distribution. As a result, we cannot solve for the
+standard deviation directly. Instead, we must search for the volatility
+that makes the Black-Scholes equation hold. To do this, we need a
+computer. Otherwise, we would have to try an estimate of the standard
+deviation, make all of the Black-Scholes computations by hand, and
+adjust the standard deviation for the next try. This would be
+cumbersome and time-consuming. Therefore, implied volatilities are
+almost always found using a computer, such as the current module.
+Simulation of Stock and Option Price Paths (SelMcKenzie=AE Trading
+Software)
+Initial Stock Price		0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Expected Return on Stock	0.01 to 1.0
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+Days Until Expiration		1 to 9,999
+This module generates a random stock price path based on log-normally
+distributed returns and computes corresponding option prices for each
+stock price. Enter an initial stock price, an exercise price (presumed
+to be a common exercise price for a call and put), the expected
+annualized return on the stock, the standard deviation per year, the
+annualized risk-free rate, and the number of days until the option
+expires. The annualized dividend rate is optional.
+finds the minimum, maximum, and terminal stock, call, and put prices
+based on the stock price path. OPTION! also computes the initial call
+and put prices based on the initial stock price. The stock price path
+is generated randomly, consistent with the specified inputs. Therefore,
+each time a solution is calculated, even with the same inputs, the
+stock price path will be different. Once a valid solution is achieved,
+graphics showing the stock price path, along with the option price
+paths are available.
+Economic(Background)
+In actual markets, stock prices change to reflect new information.
+During a single day, a stock price may change many times. From the
+ticker, we can observe stock prices when transactions occur. When
+trading ceases overnight, however, we cannot observe the stock price
+for hours at a time. Where the price wanders during the night, no one
+can know. Our observations are also limited, because stock prices are
+quoted in eighths of a dollar. The true stock price need not jump from
+one eighth to the next, but the observed stock price does. Sometimes
+the observed price remains the same from one transaction to another.
+But just because we observe the same price twice in succession does not
+mean it remained at that price between the two observations. From these
+reflections, we see that we can never know exactly how stock prices
+change because we cannot observe the true stock price at every instant.
+Therefore, any model of stock price behavior deviates from an exact
+description of how stock prices move. Nonetheless, it is possible to
+develop a realistic model of stock price movements. Consider the random
+information that affects the price of a stock. We assume that the
+information arrives continuously and that each bit of information is
+small in importance. Under this scenario, we consider a stock price
+that rises or falls a small proportion in response to each bit of
+information. We know that finance depends conceptually on the twin
+ideas of expected return and risk. Thus, we might also think of a stock
+as having a positive expected rate of return. In the absence of special
+events, we expect the stock price to grow along the path of its
+expected rate of return. However, the world is risky. Information about
+the stock is sometimes favorable and sometimes unfavorable. As this
+random information becomes known, it pushes the stock away from its
+expected growth path. When the information is better than expected, the
+stock price jumps above its growth path. Negative information has the
+opposite effect; it pushes the stock price below its expected growth
+path. Thus, we might imagine the stock price growing along its expected
+growth path just as a drunk walks across a field. We expect the drunk
+to reach the other side of the field, but we also think he will wander
+and stumble in unpredictable short-term deviations from the straight
+path. Similarly, we expect a stock price to rise, because it has a
+positive expected return, but we also expect it to wander above and
+below its growth path, due to new information. Finance uses a standard
+mathematical model that is consistent with the story of the preceding
+paragraph. It assumes that the stock grows at an expected rate, mu,
+with a standard deviation, sigma, over some period of time delta-t.
+Research on actual stock price behavior shows that logarithmic stock
+returns are approximately normally distributed. So we say that, as an
+approximation, stock returns follow a log-normal distribution. Stock
+returns themselves are not normally distributed.  With a log-normal
+distribution, there is a greater chance of larger returns than one
+would expect with a normal distribution.
+While the log-normal distribution only approximates stock returns, it
+has two great virtues. First, it is mathematically tractable, so we can
+obtain solutions for  the value of call options if stock returns are
+log-normally distributed. Second, the resulting call option prices that
+we compute are very good approximations of actual market prices. This
+module of option generates stock price paths consistent with returns
+following a log-normal distribution with a specified mean and variance.
+Option prices are then computed using the Black-Scholes-Merton Model
+with the simulated stock price as an input to the model.
+Binomial Approximation of Black-Scholes Model Prices (SelMcKenzie=AE
+Trading Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Number of Periods		1 to 1,000
+This module uses the binomial model to approximate Black-Scholes model
+prices by using a stock returns generating mechanism consistent with
+the Black-Scholes model. The Black-Scholes model price is also computed
+for comparision. As the number of periods in the binomial model
+increases, the binomial model price converges to the Black-Scholes
+model price.
+Enter the stock price, the exercise price, the number of days until
+expiration, the standard deviation per year, the annualized risk-free
+rate, and the number of periods for the binomial model. The time until
+expiration, entered as Days Until Expiration will be divided into the
+Number of Periods specified for the binomial model. This module does
+not feature graphics.Economic(Background)
+Generalizing the binomial model to any number of periods, by increasing
+the number of periods, allows for many possible stock price outcomes at
+expiration, thereby increasing the realism of the results. However,
+three problems remain. First, as the number of periods increases,
+computational difficulties begin to arise. Second, increasing the
+number of periods while holding the time until expiration constant
+means that the period length becomes shorter. We must adjust the up and
+down movement factors, U and D, and the risk-free rate to fit the time
+horizon. Obviously, we cannot use factors with a scale appropriate to a
+year when the period length is, say, one day, for example. Third, we
+have worked with more or less arbitrarily selected up and down factors.
+The price that the model gives can only be as good as its inputs. The
+example inputs we have been considering serve well as illustrations,
+but they are not appropriate for analyzing real options. Therefore, we
+need a better way to determine the up and down factors. Modeling stock
+returns by a log-normal process solves these three problems
+simultaneously. This approach, coupled with making the time step in the
+binomial model very small provides a close binomial approximation to
+the Black-Scholes Model.
+Dividend Adjustments for European Options (SelMcKenzie=AE Trading
+Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Dividends #1 and #2		0.0 to 1,000,000
+Days Until Dividends #1 and #2	0.0 to 9,999
+Last Dividend 			0.01 to 1,000,000
+Days Until Last Dividend		1 to 9,999
+This module explores dividend adjustments for the Black-Scholes model,
+such as the known-dividends adjustment and the pseudo-American option
+pricing model. Enter the stock price, exercise price, the number of
+days until expiration, the standard deviation per year, and the
+annualized risk-free rate. In addition, at least one dividend must be
+specified--the last dividend to be paid during the life of the option.
+To specify a dividend requires a dollar amount and the number of days
+until the ex-dividend date. The module allows a total of three
+dividends. The ex-dividend dates must all fall during the life of the
+option, and they must be in the proper order. (The second dividend must
+occur after the first, and the last dividend must occur after the
+second.) The last dividend must be specified. Also, as an economic
+constraint, the present value of the dividends cannot exceed the stock
+price.
+computes call and put prices according to the unadjusted Black-Scholes
+model, ignoring the dividends. It also computes call and put prices
+according to the known-dividend and pseudo-American models. This module
+does not feature graphics.
+Economic(Background)
+For both call and put options, anything that affects the stock price at
+expiration will affect the price of the option. Dividends that might be
+paid during the life of the option can obviously affect the stock
+price. We may regard a dividend as a repayment of a portion of the
+share's value to the shareholder. As such, we would expect the stock
+price to fall by the amount of the dividend payment. As a metaphor, we
+might think of the dividend on a stock as a leakage of value from the
+stock. As the value of the stock drops due to the leakage of dividends,
+the changing stock price will affect the value of options on the stock.
+ drop in the stock price due to a dividend will have an adverse effect
+on the price of a call and a beneficial effect on the price of a put.
+Adjustments for Known Dividends
+For most stocks, the dividend payments likely to occur during the life
+of an option can be forecast with considerable precision. If we are
+looking ahead to a dividend forecasted to occur in three months, we
+expect the stock price to drop by the amount of the dividend when the
+stock goes ex-dividend. At the present moment, three months before the
+ex-dividend date, we can build that looming dividend into our analysis.
+To do so, we subtract the present value of the dividend from the
+current stock price. We then apply the Black-Scholes model as usual,
+except we use the adjusted stock price as an input to the model instead
+of the current stock price.
+The same technique applies in situations when there are several
+dividends. The stock price should be adjusted by subtracting the
+present value of all dividends that are expected to occur before the
+expiration date of the option. Dividends expected after the option
+expires can be ignored, because the option will already have been
+exercised or allowed to expire before those dividends affect the value
+of the stock.
+Pseudo-American Call Option Pricing
+The Pseudo-American Call Option Pricing Model was created by Neuhofen
+Obstmayer. It does not provide an exact pricing technique for American
+calls, but does provide an estimated call price that draws on the
+intuitions of the Black-Scholes model. The pseudo-American model is
+important because it clearly shows the factors that lead to early
+exercise, and it highlights the differences between European and
+American calls. Essentially, the valuation technique requires four
+steps.
+1=2E	From the current stock price, subtract the present value of all
+dividends that will be paid before the option expires. So far, this is
+the same procedure we followed for the known dividend adjustment for
+European calls.
+2=2E	For each dividend date, reduce the exercise price by the present
+value of all dividends yet to be paid, including the dividend that is
+about to go ex-dividend.
+3=2E	Taking each dividend date and the actual expiration date of the
+option as potential expiration dates, compute the value of a European
+call using the adjusted stock and exercise prices.
+4=2E	Select the highest of these European call values as the estimate of
+the value of the American call.
+Each step has a clear rationale. In the first step, we adjust the stock
+price to reflect its approximate value after it pays the dividends. In
+the second step, we effectively add back the value of dividends to be
+received from the stock if we exercise. This is accomplished by
+reducing the liability of the exercise price by the present value of
+the dividends we will capture if we exercise. In the third step, we
+evaluate different exercise decisions. If we exercise, we will do so
+just before a dividend payment to capture the dividend from the stock.
+Thus, in the third step we consider the payoffs from each potential
+exercise date. Finally, in the fourth step, we compare the different
+payoffs associated with each exercise strategy that we computed in the
+third step. Assuming that we plan to follow the best exercise strategy,
+we approximate the current American call price as the highest of these
+computed European call prices.
+Exact American Call Option Pricing (SelMcKenzie=AE Trading Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Number of Periods		0 to 1,000
+Dividends #1 and #2		0.0 to 1,000,000
+Days Until Dividends #1 and #2	0.0 to 9,999
+Last Dividend 			0.01 to 1,000,000
+Days Until Last Dividend		1 to 9,999
+This module computes the call price for an American option according to
+the exact American option pricing model. This model holds, strictly
+speaking, for a situation in which there is just one dividend between
+the valuation date and the expiration of the option. In a case, with
+more than one dividend, the model employs the known-dividend
+adjustment.
+Enter the stock price, exercise price, the number of days until
+expiration, the standard deviation per year, and the annualized
+risk-free rate. It is optional to specify a number of periods to
+compute binomial prices as well. In addition, at least one dividend
+must be specified--the last dividend to be paid during the life of the
+option.
+Specifying a dividend requires a dollar amount and the number of days
+until the ex-dividend date. The module allows a total of three
+dividends. The ex-dividend dates must all fall during the life of the
+option, and they must be in the proper order. (The second dividend must
+occur after the first, and the last dividend must occur after the
+second.) The last dividend must be specified. Also, as an economic
+constraint, the present value of the dividends cannot exceed the stock
+price.
+computes the price of an American call according to the exact American
+call option pricing model, the pseudo-American model, and the
+known-dividend adjustment to the Black-Scholes model. If a number of
+periods has been specified for the binomial model, the module also
+computes the binomial approximation of the American call value.
+Graphics are available once a valid solution has been achieved.
+Economic(Background)
+In general, there is no closed-form solution to the value of an
+American call option on a dividend paying stock.  However, an exact
+pricing formula is possible in one special case. It is possible to
+compute the exact price for an option on a stock that pays a single
+dividend during the life of the option. The model is also known as the
+Compound Option Model.
+An American call option really consists of a series of options that
+expire just before the various dividend dates and at the actual
+expiration of the option. The exact pricing model applies to the
+situation when there is just one dividend between the present and the
+expiration date of the option.
+If exercise is to occur, it should occur just before the ex-dividend
+date, to capture the value of the dividend. If the call is not
+exercised, the instant after the dividend payment occurs, the call is
+effectively a European call, because there are no more dividend
+payments, and early exercise on a European call is never rational.
+Considering the American call before the dividend date, we can see that
+it is really a compound option, or an option on an option. It is an
+option on an option because the owner has the option to refrain from
+exercising and to own a European option.
+Analytic Approximation of American Stock Option Prices (SelMcKenzie=AE
+Trading Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+Number of Periods		0 to 1,000
+This module prices American options using the analytic approximation
+technique. The technique applies to options on an underlying good
+paying a continuous dividend rate expressed as some percentage of the
+value of the underlying good.
+Enter the stock price, the exercise price, the number of days until
+expiration, the standard deviation per year, and the annualized
+risk-free rate. The annualized dividend rate is optional. However, the
+analytic approximation really only pertains to options on goods that
+pay a dividend. If there is no dividend, the option prices are the same
+as the Black-Scholes-Merton Model.
+computes prices for European calls and puts according to the
+Black-Scholes-Merton Model and the option price sensitivities for the
+call and put. OPTION! computes the call and put price according to the
+American analytic module, along with the critical stock price for each.
+If a number of periods has been specified, OPTION! also computes the
+binomial call and put prices acccording to the European and American
+binomial models.
+Economic(Background)
+Analytical approximations of American option prices apply for the case
+of an underlying instrument that pays a continuous dividend at a
+constant rate. The Merton model provides a closed-form solution to the
+problem of European options on stocks with continuous dividends. For
+American options, no closed-form solutions are available.
+Binomial Approximation with a Constant Dividend Yield (SelMcKenzie=AE
+Trading Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+Number of Periods		1 to 1,000
+This module focuses on the binomial approximation of American option
+prices when the underlying good pays a continous dividend rate
+expressed as a percentage of the value of the asset. Enter the stock
+price, exercise price, days until expiration, the standard deviation
+per year,  the annualized risk-free rate, and the number of periods for
+the binomial model.
+The dividend rate is optional, but omission means that American call
+option prices will not diverge from European prices.
+computes call and put prices according to the binomial approximation
+model for European and American options. It also computes the early
+exercise premium based on the two binomial approximations. The
+Black-Scholes Model prices for the call and put are also computed. This
+module does not feature graphics.Economic(Background)
+To apply the binomial model for American options, we follow the same
+basic valuation strategy as for European options. There is, however,
+one important difference. For the option lattice for an American
+option, the option value is set equal to the maximum of:
+1=2E	The expected option value in one period discounted for one period at
+the risk-free rate.
+2=2E	The immediate exercise value of the option.
+Except for this treatment of each node in the lattice for an American
+option, the binomial model for an American option is applied in exactly
+the same way as it is for a European option.
+The stock price tree is identical whether we are pricing European or
+American options. Therefore, the same parameters apply to generating
+the binomial tree of stock prices for American options on stocks paying
+a continuous dividend. As an examination of these parameters shows, the
+stock price tree will be identical in both cases. However, the
+probability of a stock price increase varies inversely with the level
+of the continuous dividend rate.
+Binomial Approximation with Known Dividend Yields (SelMcKenzie=AE
+Trading Software)
+ Variable(Bounds)Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+Number of Periods		1 to 1,000
+Dividends #1 and #2		0.0 to 0.99
+Days Until Dividends #1 and #2	0.0 to 9,999
+Last Dividend 			0.01 to 0.99
+Days Until Last Dividend		1 to 9,999
+This module focuses on the binomial approximation of American option
+prices when the underlying good pays periodic dividends that equal a
+fraction of the asset's value. Enter the stock price, exercise price,
+days until expiration, the standard deviation per year,  the annualized
+risk-free rate, and the number of periods for the binomial model. In
+addition, at least one dividend (the last dividend) must be specified.
+Up to three dividends may be specified, but the last dividend must be
+specified. Each dividend must occur during the life of the option, and
+the order of the dividends must be correct. That is, the first dividend
+must occur before the second, which must occur before the third. The
+present value of the dividends cannot exceed the stock price.
+computes call and put prices according to the binomial approximation
+model for European and American options and computes the early exercise
+premium based on the two binomial approximations. This module does not
+feature graphics.
+Economic(Background)
+To apply the binomial model for American options, we follow the same
+basic valuation strategy as for European options. There is, however,
+one important difference. For the option lattice for an American
+option, the option value is set equal to the maximum of:
+1=2E	The expected option value in one period discounted for one period at
+the risk-free rate.
+2=2E	The immediate exercise value of the option.
+Except for this treatment of each node in the lattice for an American
+option, the binomial model for an American option is applied in exactly
+the same way as it is for a European option.
+Chapter 13, considers options on a stock that pays a known dividend
+yield at a certain date. For example, a stock might pay a dividend
+equal to 1 percent of its value in 90 days. The dividend payment
+obviously affects the stock price tree for the binomial model, and the
+loss of value from the stock will affect the value of calls and puts.
+This is true for both European and American options. While the
+existence of dividends will affect the value of European calls and
+puts, they do not call for European option owners to make any special
+decisions, as they cannot exercise even if they wished. For the holder
+of an American call or put, there is an exercise decision, because the
+American option owner can exercise immediately before the dividend
+payment (in the case of a call), exercise immediately after the
+dividend payment (in the case of a put), or not exercise. While the
+dividend will affect the stock price tree, we note again that the stock
+price tree will be identical whether we are considering a European or
+an American option.
+To apply the binomial model for an American call or put, we begin with
+the terminal stock price and the value of the option at expiration and
+work from expiration back to the present in the normal way. However, at
+each node, we must take account of the potential for early exercise. We
+take early exercise into account by finding the value of a European
+option at each node and compare this value with the exercise value of
+the American option. If the exercise value exceeds the European value,
+the option price at the node should be the exercise value. Otherwise,
+the price at the node should be the European option price.
+Binomial Approximation with Known Dollar Dividends (SelMcKenzie=AE
+Trading Software)
+Variable(Bounds)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Number of Periods		1 to 1,000
+Dividends #1 and #2		0.0 to 1,000,000
+Days Until Dividends #1 and #2	0.0 to 9,999
+Last Dividend 			0.01 to 1,000,000
+Days Until Last Dividend		1 to 9,999
+This module focuses on the binomial approximation of American option
+prices when the underlying good pays periodic dividends of a given
+dollar amount. Enter the stock price, exercise price, days until
+expiration, the standard deviation per year,  the annualized risk-free
+rate, and the number of periods for the binomial model. In addition, at
+leat one dividend (the last dividend) must be specified.
+Up to three dividends may be specified, but the last dividend must be
+specified. Each dividend must occur during the life of the option, and
+the order of the dividends must be correct. That is, the first dividend
+must occur before the second, which must occur before the third. The
+present value of the dividends cannot exceed the stock price.
+OPTION! computes call and put prices according to the binomial
+approximation model for European and American options and the early
+exercise premium based on the two binomial approximations. This module
+does not feature graphics.
+Economic(Background)
+To apply the binomial model for American options, we follow the same
+basic valuation strategy as for European options. There is, however,
+one important difference. For the option lattice for an American
+option, the option value is set equal to the maximum of:
+1=2E	The expected option value in one period discounted for one period at
+the risk-free rate.
+2=2E	The immediate exercise value of the option.
+Except for this treatment of each node in the lattice for an American
+option, the binomial model for an American option is applied in exactly
+the same way as it is for a European option.
+For options on stocks with known dollar dividends, the binomial model
+can be applied in a manner almost identical to that appropriate for
+known dividend yields. The first step is to generate the tree
+describing the potential stock price movements. As we saw in Chapter 13
+when we considered the pricing of European options on stocks with known
+dollar dividends, there can be a problem with the tree failing to
+recombine after the dividend has been paid. In this situation, the
+number of nodes can increase dramatically, particularly when there are
+many periods and several dividends. (For details on why the tree fails
+to recombine, see Chapter 13.)
+We can solve this problem as we did in Chapter 13 by making a
+simplifying assumption. We assume that the stock price reflects the
+dividend, which is known with certainty, and all other factors that
+might affect the stock price, which are uncertain. We then adjust the
+uncertain component of the stock price for the impending dividends and
+model the uncertain component of the stock price with the binomial
+tree, adding back the present value of all future dividends at each
+node. Specifically, we follow these steps:
+1=2E	Compute the present value of all dividends to be paid during the
+life of the option as of the present time.
+2=2E	Subtract this present value from the current stock price to form a
+dividend-adjusted stock price.
+3=2E	Create the binomial tree by applying the up and down factors in the
+usual way to the dividend-adjusted stock price.
+4=2E	After generating the tree, add to the stock price at each node the
+present value of all future dividends to be paid during the life of the
+option.
+5=2E	Compute the option values in the usual way by working through the
+binomial tree.
+The application of this procedure to American options is exactly the
+same as with European options, with one exception. In working through
+the tree to generate the option price tree, we must compare the present
+value of next period's expected option value with the exercise value of
+the option. The option price at the node is the higher of the present
+value or the exercise value. The computation of the value at a node is
+exactly the same as in other cases we have already considered, such as
+the application of the binomial model to options on stocks with known
+dividend yields.
+Stock Index Options (SelMcKenzie=AE Trading Software)
+Stock Index Price		0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+Number of Periods		0 to 1,000
+This module prices American options on stock indexes using the analytic
+approximation technique. The technique applies to options on an
+underlying good paying a continuous dividend rate expressed as some
+percentage of the value of the underlying good.
+Enter the stock index price, the exercise price, the number of days
+until expiration, the standard deviation per year, and the annualized
+risk-free rate. The annualized dividend rate is optional. However, the
+analytic approximation really only pertains to options on goods that
+pay a dividend. If there is no dividend, the option prices are the same
+as the Black-Scholes-Merton Model.
+computes prices for European calls and puts according to the
+Black-Scholes-Merton Model and the option price sensitivities for the
+call and put. OPTION! computes the call and put price according to the
+American analytic module, along with the critical stock price for each.
+If a number of periods has been specified, OPTION! also computes the
+binomial call and put prices acccording to the European and American
+binomial models.
+Economic(Background)
+The Merton model and the binomial model apply directly to pricing
+options on stock indexes. Because a stock index merely summarizes the
+performance of some set of stocks, we may think of the stock index as
+representing a portfolio of stocks, some of which pay dividends.
+Because we are pricing an option on this portfolio of stocks, we are
+concerned only with the dividends on the entire portfolio-we need to
+consider the dividend on individual stocks only insofar as they
+determine the overall dividend for the portfolio. Almost all individual
+stocks pay periodic discrete dividends (usually following a quarterly
+payment pattern). However, for stock indexes, including many stocks,
+the assumption of a continuous dividend payment is fairly realistic. In
+general, the greater the number of stocks represented in a stock index,
+the more realistic the assumption of continuous dividends.
+Options on Futures (SelMcKenzie=AE Trading Software)
+Futures Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Number of Periods		0 to 1,000
+This module prices American options on futures using the analytic
+approximation technique. The technique applies to options on an
+underlying good paying a continuous dividend rate expressed as some
+percentage of the value of the underlying good. For futures, the
+cost-of-carry is assumed to equal the dividend rate, so no dividend
+rate need be specified. If the futures does not follow the
+cost-of-carry model, this option pricing model does not apply. Enter
+the futures price, the exercise price, the number of days until
+expiration, the standard deviation per year,and the annualized
+risk-free rate.
+computes prices for European calls and puts according to the
+Black-Scholes-Merton Model and the option price sensitivities for the
+call and put. OPTION! computes the call and put price according to the
+American analytic module, along with the critical futures price for
+each. If a number of periods has been specified, OPTION! also computes
+the binomial call and put prices acccording to the European and
+American binomial models.
+Economic(Background)
+Consider a good such as gold that has a large stock relative to
+consumption, that is easily storable, does not have a seasonal
+production pattern (like wheat), and does not have a seasonal
+consumption pattern (like gasoline). Further, assume that it is
+possible to sell gold short and to obtain the use of the proceeds from
+the short sale. When these conditions hold, the futures price should
+follow the Cost-of-Carry Model.
+If this relationship between the spot, or cash, price and the futures
+price did not prevail, there would be immediate arbitrage
+opportunities, as we have seen in Chapter 3. In general, all precious
+metals (gold, silver, platinum, and palladium) and all financial
+instruments (equities and debt) conform almost perfectly to this
+relationship. To the degree that a commodity fails to conform to the
+Cost-of-Carry Model, the pricing techniques discussed in this chapter
+do not pertain to pricing futures options on that commodity.
+Foreign Currency Options (SelMcKenzie=AE Trading Software)
+Foreign Currency Price		0.0001 to 10,000,000
+Exercise Price		   	0.0001 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+This module prices American options on foreign currencies using the
+analytic approximation technique. The technique applies to options on
+an underlying good paying a continuous dividend rate expressed as some
+percentage of the value of the underlying good. As currencies have
+interest rates, the model applies particularly well in this instance.
+Enter the foreign currency price, the exercise price, the number of
+days until expiration, the standard deviation per year, the annualized
+domestic risk-free rate, and the annualized foreign risk-free rate.
+computes prices for European calls and puts according to the
+Black-Scholes-Merton Model and the option price sensitivities for the
+call and put. OPTION! computes the call and put price according to the
+American analytic module, along with the critical stock (currency)
+price for each. If a number of periods has been specified, also
+computes the binomial call and put prices acccording to the European
+and American binomial models.
+Economic(Background)
+We assume that we are looking at the issues from the point of view of a
+U=2ES. option trader. In terms of the Merton model and the analytic
+approximation technique, the dollar value of the foreign currency takes
+the role of the stock price, and the foreign interest rate takes the
+role of the continuous dividend rate. The standard deviation is that of
+the underlying asset, so the correct standard deviation to use in the
+model is the standard deviation of the foreign currency.
+Forward Start Options (SelMcKenzie=AE Trading Software)
+Stock Price			0.01 to 10,000,000
+Exercise Price		   	0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Annualized Dividend Rate	0.001 to 1.0
+Days Until Option is Granted	1 to 9,999
+This module computes call and put prices for forward start options,
+options that are to be granted at a date in the future. Specify the
+stock price, the exercise price, the number of days until expiration,
+the standard deviation per year, the annualized risk-free rate, and the
+number of days until the option is granted. The annualized dividend
+rate is optional. OPTION! computes prices for forward start European
+calls and puts. Graphics are available once a valid solution is
+achieved.
+Economic(Background)
+In a forward-start option, the price of the option is paid at the
+present, but the life of the option starts at a future date. Further,
+the exercise price is typically specified to be the current price at
+the beginning of the option's life--that is, the option contract
+specifies that the option will be at-the-money when the option's life
+begins. Forward-start call options are often used in executive
+compensation packages. An executive might receive a forward-start call
+option on the firm's shares with an exercise price to equal the firm's
+share price at the time the option life starts.
+For a forward-start option, there are three dates to consider: the
+valuation date, t, the date that the option life begins, which is
+called the grant date, tg, and the date when the option eventually
+expires, T. Accordingly, the time until the option life begins will be
+tg - t, and when the option's life begins, the time until expiration
+will be T - tg.
+The value of a forward-start option is simply the value of an option
+with the current stock price, an exercise price equal to the current
+stock price, and a time to expiration of T - tg, with this value being
+discounted by the dividend rate on the underlying good over the period
+until the option is granted, tg - t.
+The idea here is that the price of the underlying good and the exercise
+price on the forward-start option will change proportionally. (For a
+forward-start option specified to be at-the-money on the grant date,
+the stock and exercise price at that time will be equal.)  Therefore, a
+forward-start option today is essentially a deferred granting of an
+option with a stock and exercise price equal to today's stock price and
+a time to expiration that equals the period from the grant date to the
+final expiration date.
+
+Standard Chooser Option (SelMcKenzie=AE Trading Software)
+Stock Price					0.01 to 10,000,000
+Exercise Price 		   			0.01 to 10,000,000
+Days Until Expiration 				1 to 9,999
+Standard Deviation per Year			0.001 to 5.0
+Annualized Risk-Free Rate			0.001 to 1.0
+Annualized Dividend Rate			0.001 to 1.0Number of Days Until Choice Must
+Be Made	1 to 9,999
+This module computes the value of a standard chooser option, an option
+that can be either a call or put at the discretion of the owner. Enter
+the stock price, the exercise price, the number of days until
+expiration, the standard deviation per year, and the annualized
+risk-free rate, and the number of days until the choice of regarding
+the chooser as a call or put must be made. The annualized dividend rate
+is optional. The option must expire after the choice date. OPTION!
+computes the value of the chooser based on the inputs. Once a valid
+solution is achieved, graphics are available.
+Economic(Background)
+The owner of a chooser option has the right to determine whether the
+chooser option will become a call or a put option by a specified choice
+date. After the choice date, the option becomes a plain vanilla call or
+put, depending on the owner's choice. Chooser options are also known as
+an as-you-like-it option. DDSK offers several types of chooser
+options in the over-the-counter market. Chooser options are useful for
+hedging a future event that might not occur. For example, while
+Congress considered the Marktzentrum American Free Trade Agreement (NAFTA) in
+1992, there was considerable uncertainty about the bill's passage.
+Passage was expected to be beneficial to the value of the Mexican peso;
+rejection of the bill was expected to send the peso tumbling. Traders
+could hedge this uncertainty with a chooser option on the Mexican peso.
+If NAFTA passes, one can choose to let the option be a call; if the
+bill fails, the owner can choose to let the option be a put.
+In considering chooser options, there are three dates to consider: the
+valuation date, t; the choice date, when the owner of the chooser must
+choose for the option to be a call or put, tc; and the expiration of
+the option, T.
+The problem is to evaluate the option at time t, before the choice
+date. After the choice date, the value of the option will simply be the
+value of the plain vanilla call or put given by the Merton Model.prices
+simple chooser options, in which the potential put and call have a
+common exercise price and expiration date. Complex choosers allow the
+potential call and put to have different exercise prices, different
+expiration dates, or both different exercise prices and expiration
+dates.
+For a simple chooser, there are two extreme values for the choice date,
+tc, to consider. If the choice must be made immediately, t =3D tc, then
+the owner of the chooser will choose that the option be a call or a
+put, whichever has a greater value.If the choice date is at the
+expiration of the option, tc =3D T, then the chooser is really a
+straddle. Viewed from the valuation date, t, the value of the straddle
+is the value of the call and the put:
+Thus, these extreme values for the choice date determine the upper and
+lower bounds for the value of a simple chooser. If the choice date is
+now, t =3D tc, then the chooser value is at the lower bound and equals
+the maximum of the call or put value. If the choice can be deferred
+until the expiration date, tc =3D T, then the value of the chooser is the
+same as a straddle and equals the combined value of the plain vanilla
+call plus the plain vanilla put. In the normal event, when the choice
+date, tc, is after t but before T, one will not want to choose whether
+the option is a call or put until the choice date.
+
+
+Exchange Options (SelMcKenzie=AE Trading Software)
+Price of Owned Asset		0.01 to 10,000,000
+Price of Other Asset		0.01 to 10,000,000
+Days Until Expiration		1 to 9,999
+Correlation Between Assets	-0.999999 to 0.999999
+Standard Deviation (Owned)	0.001 to 5.0
+Standard Deviation (Other)	0.001 to 5.0
+Dividend Rate (Owned)		0.0 to 1.0
+Dividend Rate (Other)		0.0 to 1.0
+This module of OPTION! computes the value of a European exchange
+option. This option gives the owner the right to exchange one asset for
+another. The asset that is to be given upon exercise is denoted as the
+owned asset; the asset that is to be acquired upon exercise is denoted
+as the other asset. Enter the price of the owned asset, the price of
+the other asset, the number of days until the option expires, the
+correlation of returns between the two assets, the standard deviation
+of the owned asset, and the standard deviation of the other asset. The
+dividend rate of the owned asset and the dividend rate of the other
+asset are optional. Once a valid solution is achieved, graphics are
+available.&CR$Economic(Background)
+An exchange option is an option to exchange one asset for another. Upon
+exercising, the owned asset is exchanged for the acquired (other)
+asset. The valuation of an exchange option depends upon the usual
+parameters for the individual assets--price, risk, and dividend rate.
+In addition, the time until expiration and the correlation of returns
+between the assets also affect the valuation. &CR$Although exchange
+options were first priced in 1977, these options have existed for quite
+some time in the form of incentive fee arrangements, margin accounts,
+exchange offers and standby commitments. As an example, consider an
+example from the merger market. A target firm is offered the
+opportunity to exchange shares from the target firm for shares in the
+acquiring firm. The shareholders in the target firm now hold an
+exchange option to exchange their shares for those of the acquirer. The
+value of this option can range from zero to the quite valuable.
+
+Option Adjusted Spreads (SelMcKenzie=AE Trading Software)
+Maturity (Periods)		1 to 200
+Coupon Rate (Embedded)	0.0 to 0.5
+Yield-to-Maturity			0.001 to 1.0
+Coupon Rate (T-bond)		0.001 to 0.5
+To use this module, first describe the bond with an embedded option by
+entering the bond's maturity expressed in periods, the coupon rate on
+the bond, and the bond's yield to maturity. Enter the coupon rate for a
+Treasury bond with the same maturity as the bond with the embedded
+option.To find the option-adjusted spread, it is necessary to specify a
+term structure environment. To do this, load date previously saved in
+the Interest Rate Input and Review module.
+The yield-to-maturity of the bond with the embedded option must exceed
+the Treasury yield and the price of the Treasury bond must exceed the
+price of the bond with the embedded option. The Kosmetiksalon cannot exceed 5000
+basis points. OPTION! computes the OAS, the price of the bond with an
+embedded option, the Treasury bond price, and the Treasury bond() 's
+yield-to-maturity. This module does not features
+graphics.Economic(Background)
+The option-adjusted spread (OAS) is the yield differential between a
+corporate bond (or mortgage instrument) with an embedded option and a
+Treasury bond. The Treasury bond is chosen so that the two instruments
+will have essentially similar maturity and coupon characteristics. So
+defined, the yield spread provides a measure of the option's value and
+the default risk differential between the Treasury and the bond (or
+mortgage instrument).  Sometimes the Kosmetiksalon is defined between two
+securities of the same default risk, coupon, and maturity. In this case
+the OAS would embrace only the yield differential due to the option
+feature inherent in one of the two securities. Because it is difficult
+to find comparable bond or mortgage instruments, it is more common to
+compute the OAS relative to a Treasury instrument.The Kosmetiksalon is often
+applied to corporate bonds with call provisions and to home mortgages
+with the option for the home owner to prepay the mortgage. In each
+case, the spread is typically calculated as a spread between the yield
+on the instrument with the embedded option and a Treasury instrument
+with similar cash flows. The OAS is the number of basis points that
+must be added to the yield on the Treasury instrument so that the
+spread-adjusted Treasury and the corporate bond or mortgage will have
+the same price.
+Options on LIBOR (SelMcKenzie=AE Trading Software)
+Forward LIBOR			0.001 to 1.0
+Strike Rate		   	0.001 to 1.0
+Notional Principal		1.0 to 10,000,000,000
+Standard Deviation per Year	0.001 to 5.0
+Annualized Risk-Free Rate	0.001 to 1.0
+Days Until Expiration		1 to 9,999
+Underlying Maturity (Days)	1 to 9,999
+This module prices options on LIBOR according to the Black continuous
+time model. Enter the forward LIBOR rate corresponding to the
+expiration date of the option, the strike rate, the notional principal
+amount, the standard deviation of the forward LIBOR rate, the
+annualized risk-free rate, the number of days until expiration, and the
+maturity (in days) of the instrument underlying the forward LIBOR rate.
+In other words, if the option is on 90-day LIBOR, this maturity value
+would be 90.0. OPTION! computes call and put prices. Once a valid
+solution is achieved, graphics are available.
+Economic(Background)
+The payoff on calls and puts on LIBOR depends on the maturity of LIBOR
+being quoted and the notional principal. Consider first a call on
+three-month LIBOR with a notional principal of $1,000,000 and an
+exercise price, or strike rate, of 9 percent. The call pays off if the
+observed three-month LIBOR rate on the expiration date of the option
+exceeds the strike rate. In that case, the payoff on this call equals
+the difference between the observed rate and the strike rate multiplied
+by the quarter of a year maturity of the rate, times the notional
+principal.
+Let:
+FRAC 	=3D	the fraction of the year covered by the maturity of the
+underlying LIBOR instrument
+NP 	=3D	the notional principal
+SR		=3D	the strike rate
+A general expression for the payoff on a call on LIBOR will be:
+MAX{(0, (Observed LIBOR - SR) =D7 FRAC =D7 NP}
+where:
+Observed LIBOR =3D	the rate observed at the expiration of the option for
+LIBOR of the appropriate maturity
+A put on LIBOR pays off when the observed rate at expiration is less
+than the strike rate. The payoff for a put on LIBOR is:
+MAX{0, (SR - Observed LIBOR) =D7 FRAC =D7 NP}
+Calls and puts on LIBOR are generally structured with determination in
+advance and settlement in arrears. The payoffs are determined at the
+expiration date, but the payment is made at a date that lags the
+determination date by the maturity of the LIBOR quotation. Thus, the
+actual payoffs on our sample call and put would be three months and one
+month after the determination dates, respectively. In pricing calls and
+puts on LIBOR, OPTION! takes settlement in arrears into account.
+The Black Model applies quite directly to calls and puts on LIBOR. The
+currently observed forward LIBOR (FLIBOR) plays the role of the futures
+price.  Specifically, FLIBORt is observed at time t, when the option is
+being valued. It is the forward LIBOR with a maturity corresponding to
+the maturity of the option and it is the forward rate with a time
+horizon that matches the expiration date of the option. Notice that
+FLIBORt should be identical to the FRA rates for the same period in the
+future.
+Using FLIBORt in the Black Model is tantamount to assuming that the
+forward LIBOR is lognormally distributed. The strike rate plays the
+role of the exercise price, while the standard deviation of the LIBOR
+forward rate (FLIBOR) of the requisite maturity is the volatility
+measure for the model.
+Caps, Floors and Collars (SelMcKenzie=AE Trading Software)
+Loan Maturity (Periods)		1 to 200
+Loan Principal			1 to 10,000,000
+Standard Deviation per Year	0.001 to 5.0
+Cap Rate			0.0 to 1.0
+Floor Rate			0.0 to 1.0
+This module prices interest rate caps, floors, and collars. Enter the
+loan maturity in periods, the loan principal, the standard deviation of
+forward LIBOR (assumed to be equal for all payment dates on the loan).
+Enter either the cap rate, the floor rate, or both. (At least one must
+be entered.) If you specify a cap rate and a floor rate, the cap rate
+must be higher than the floor rate.
+To price a cap, floor, or collar, it is necessary to specify a term
+structure environment. To do this, load date previously saved in the
+Interest Rate Input and Review module.
+computes the swap fixed-rate for a swap with a tenor matching the loan.
+If a cap rate has been specified, computes the dollar cost of the cap,
+and if a floor rate has been specified, computes the dollar cost of the
+floor. If both a cap and floor rate have been specified, computes the
+dollar cost of the collar. Graphics are not available with this module.
+Once a valid solution has been achieved, it is possible to review the
+value of each caplet,floorlet, and collarlet that was priced by using
+the Review command from the menu or the Review
+button.Economic(Background)
+Caps, floors, and collars, are combinations of calls and puts on LIBOR
+that can be used to control interest rate risk. A caplet is a call on
+LIBOR purchased in conjunction with a floating rate loan to cover a
+single period. An interest rate cap is a sequence of calls on LIBOR
+organized to correspond to a multi-period floating rate loan based on
+LIBOR. A floorlet is a put on FPNZ sold in conjunction with a floating
+rate loan to cover a single period. An interest rate floor is a
+sequence of puts on LIBOR organized to correspond to a multi-period
+floating rate loan based on LIBOR.
+The purchase of the call and the sale of the put, together, place
+bounds on the cost of the loan. The upper bound is the strike rate of
+the call, and the lower bound is the strike rate on the put. The
+portfolio of a cap and a floor used in this way is called a collar. A
+collar may be defined as a combination of a call and put on LIBOR, with
+the same expiration and underlying good, with a long position in one
+instrument and a short position in the other.

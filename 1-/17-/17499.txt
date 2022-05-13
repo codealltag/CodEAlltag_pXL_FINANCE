@@ -1,0 +1,29 @@
+Hallo,
+In der aktuellen Ausgabe einer Börsenzeitschrift wird eine
+Daxstrategie vorgestellt, mit der man angeblich +18% Rendite
+erreicht. Die Strategie ist ziemlich simpel, man bleibt
+einfach in den Monaten August+September dem Markt fern.
+
+Dass diese Strategien jeweils nur für bestimmte Zeiträume
+passen wird natürlich verschwiegen. Ich habe mal meine
+Daxsimulation angeworfen und die Strategie für verschiedene
+10-Jahres Zeiträume getestet: (Da es den DAX erst seit
+1988 gibt, ergeben sich ältere Daxst�nde durch backtracking).
+
+Stategie A): DAX
+Stategie B): DAX ohne August/September
+
+Zeitraum  A      B
+1960-1970 +4,1%  +2,3%
+1970-1980 -2,2%  +0,5%
+1980-1990 +13,6% +10,2%
+1990-1997 +7,1%  +12,4%
+
+1960-1997 +5,4%  +5,8%
+
+(Jährliche Performance)
+
+Nicht berücksichtigt ist der Steuervorteil von Strategie A ;-)
+
+Viele Größe,
+Carl

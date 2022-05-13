@@ -1,0 +1,7 @@
+Eine Trading-Idee auf Schlusskursbasis wäre z.B.:
+
+Long >= 7915
+Stop 7845
+
+Short <= 7845
+Stop 7915

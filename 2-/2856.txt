@@ -1,0 +1,34 @@
+Hallo,
+ich habe irgendwo mal aufgeschnappt, dass Profis die Info über Bidsize 
+und Asksize heranziehen, um sagen zu können, ob der Kurs im nächsten 
+Moment steigen oder fallen wird. Logisch wäre ja dann: wenn Asksize > 
+Bidsize = fallender Kurs, da Angebot größer als die Nachfrage. Wenn 
+Bidsize > Asksize = steigender Kurs, da die Nachfrage größer ist. Und 
+wenn sich Angebot und Nachfrage in der Wage halten, dann tut sich auch 
+nicht so viel beim Kurs. Aber irgendwie kommt das nach meinen bisherigen 
+Beobachtungen überhaupt nicht hin. Oft scheint es überhaupt keinen 
+Einfluss auf den Kurs zu nehmen.
+
+Beispiel Kursticker Kerine
+Zeit      Bid    Ask    Bidsize  Asksize
+09:02:13  21,68  21,87  516      458
+09:02:12  21,68  21,87  510      458
+09:02:11  21,67  21,87  462      458
+09:02:10  21,67  21,87  462      600
+08:46:15  21,75  21,85  5.100    138
+08:46:07  21,75  21,87  5.000    138
+08:46:06  21,75  21,89  5.100    700
+08:45:54  21,75  21,92  5.100    137
+
+Wenn wie hier einmal Bidzize 5100 und Asksize 700 ist, bedeutet das 
+jetzt, dass jemand 5100 Aktien zum Preis von 21,75 kaufen wollte, aber 
+ein Anleger zu dem Zeitpunkt bereit war nur 700 Aktien zum Preis von 
+21,89 abzugeben? Wie funktioniert dann die Zusammenführung von Käufer 
+und Verkäufer, wenn die Preis und Mengenvorstellungen so unterschiedlich 
+sind? Also hier müsste doch der Käufer den höheren Preis akzeptieren? 
+Und wenn nur 700 Aktien angeboten werden, dann bekommt der Interessent 
+auch nur 700 Aktien? Ach, welches Buch könnt ihr mir empfhehlen, dass 
+alles von der Börse bis ins Detail erklärt? Es ist mühsam, sich über 
+verschiedene Websiten immer alle Erklärungen zusammenzusuchen.
+
+Gruß, Luciano E

@@ -1,0 +1,23 @@
+Die Kuendbarkeit kann man durch einen geschriebenen Put darstellen.
+D.h. man kauft eine Anleihe und verkauft gleichzeitig dem Emittenten
+einen Put, dessen Wert man gleich vom Kaufpreis der Anleihe 
+abzieht. Also niedrigerer Anleihekurs = hoehere Rendite.
+Das scheint mir aber nicht auf sein Beispiel zu passen. Wenn die
+Anleihe kurzfristig zu 100 kuendbar ist, dann ist heute ein Kurs von 
+107 absurd.
+
+
+Das gibt es auch. Wenn man eine schoen kleine Stueckelung hat,
+z.B. DM 100.000 in Stuecken zu DM 1.000, dann erwischt man
+einen Mischwert.
+Entsprechend kann man auch den fairen Wert als Mischwert 
+berechnen. Wenn man diese Auslosebedingungen genau 
+analysiert, dann kommt z.B. heraus, dass bei einer Anleihe
+mit eigentlich 10 Jahren normaler Restlaufzeit eine durchschnittliche
+Restlaufzeit von 8 Jahren zu erwarten ist. Und dann berechnet man 
+den fairen Wert jedes Stuecks eben gleich auf 8 Jahre Laufzeit.
+
+
+Robin Jetzfellner
+Visit   http://gcsfgjp.nzd.yzu/uhotmc  and download a 
+free calculator for options, futures, bonds and similar stuff.

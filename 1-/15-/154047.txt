@@ -1,0 +1,60 @@
+Aloha!
+
+Nein, ich will nicht die muessige Diskusssion fortsetzen, in
+welchem Fall, wann, wieviel Steuer auf Spekulationsgewinne
+zu zahlen ist. Es geht mir darum, ein paar Ideen anzubringen,
+wie der Buchgewinn einer Aktie während der Spekulationsfrist,
+den man gerne realisieren moechte, über diese gerettet werden
+kann.
+
+1. Kauf von PUTs
+
+positiv: Man setzt die Aktien mindestens zum Basispreis ab
+und kann auch weiterhin an steigenden Kursen partizipieren.
+
+negativ: Es wird ein zusaetzlicher Kapitaleinsatz noetig.
+Das Aufgeld der PUTs ist hoffnungslos verloren. Es entstehen
+zusaetzliche Transaktionskosten.
+
+Steuer: Entfaellt fuer die Aktien, ist jedoch fuer die OS zu
+entrichten, wenn diese nicht 6 Monate gehalten werden. So
+lassen sich bei steigenden Kursen Spekulationsverluste
+realisieren.
+
+
+2. Ausstellen von CALLs
+
+positiv: Es laesst sich ein zusaetzlicher Gewinn durch das
+Agio einstreichen.
+
+negativ: Bei staerker fallenden Kursen uebersteigt der
+Kursverlust der Aktien den Gewinn durch die CALLs.
+Ebenfalls zusaetzliche Kosten fuer die OS.
+
+Steuer: Entfaellt fuer die Aktien. Fuer die CALLs?
+
+Diese Variante ist nur sinnvoll, wenn stagnierende Kurse
+erwartet werden.
+
+
+3. Leerverkauf der gleichen Anzahl der entsprechenden Aktien
+
+positiv: Die Gewinne werden sofort realisiert, das Kapital
+steht zur Verfuegung.
+
+negativ: Zusaetzliche Transaktionskosten (oder was dabei auch
+immer anfaellt) fuer den Leerverkauf.
+
+Steuer: Hier der Knackpunkt: Fallen Steuern an, auch wenn
+ueber 6 Monate bis zum Glattstellen vergehen?
+
+An ein Funktionieren dieser Moeglichkeit kann ich nicht recht
+glauben, da so die Steuer problemlos umgangen werden koennte.
+
+
+Dabei werde ich es fuer das erste bewenden lassen. Fuer
+weitere Ideen, sowie fuer die Klarstellung der Fragen in
+2. und 3. sage ich schon mal Vielen Dank.
+
+
+CU, Ulrich

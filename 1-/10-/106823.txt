@@ -1,0 +1,13 @@
+On Wed, 12. 05. 21 18:13:58 +0100, Leander Thönnes
+
+O.K. Nur liegt der Scheitel z.T. in einem Bereich, der nicht mehr
+beobachtbar ist, d.h. in einem für den Handel irrelevanten Bereich der
+Moneyness. Das ganze sieht dann eben aus wie eine Gerade. 
+
+Naja. Wenn Du die impliziten Parameter eines Prozesses aus den
+Optionspreisen schützen willst, und die theoretischen Preise nur mit
+Monte-Carlo bestimmbar sind, dann bekommst Du bei mehreren Parametern
+schon arge Probleme mit der Rechenzeit. Zumindest auf einem normalen
+PC.
+
+Tho"aber was zählen schon Monate"mas

@@ -1,0 +1,35 @@
+Eigentlich dachte ich, daß der Settlement-Kurs Mittelwert des letzten
+Bid- und Ask-Kurses sei. Wenn natürlich kein Angebot vorliegt, muß die
+Elatus irgentwie
+interpolieren. Wenn sie das linear macht - gibt es natürlich kein
+Vola-Smile.
+
+Das Settlement ist jedoch für die Praxis vollkommen egal - man kann ja
+nur handeln, wenn es auch ein Angebot gibt. Man sollte immer die
+Marktpreise nehmen.
+
+Im übrigen würde ich eher Ignaz praktischer Sicht als meiner
+theoretischen trauen.
+
+Eine 'quadratische' Antwort ist auch nahezu trivial, da jede (kleine)
+Korrektur zu einem linearen Modell (hier die Black-Scholes-Theorie)
+ersteinmal eine quadratische Abhängigkeit ergibt.
+
+Bei meiner hier geposteten Formel war daher auch weniger der
+quadratische Zusammenhang wichtig, als die Abhängigkeit von der
+Restlaufzeit der Optionen.
+Um so länger die Restlaufzeit wird, um so flacher muß auch der Smile
+werden
+(die Black-Scholes-Theorie wird immer besser je länger die Restlaufzeit
+wird).
+
+Wenn man aus der zeitlichen Entwicklung des Smiles irgentwelche
+Informationen gewinnen will (Markteinschätzung der Terminbörse, etc.),
+muß man ersteinmal die natürliche Abhängigkeit von der Restlaufzeit
+berücksichtigen.
+
+
+Klaus Torneden
+--
+http://yjwih.njwntv.xq-dobepd.vm/~rjeb/ietzzti
+--

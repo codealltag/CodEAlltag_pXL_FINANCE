@@ -1,0 +1,36 @@
+Abstract
+~~~~~~~~
+
+Der Whitewater-Ticker (www.czv.ny, nicht der Abklatsch bei WBDI) ist IMHO
+eine der besten Informationsquellen im Netz. Daher habe ich ein
+Perl-Script geschrieben, dass diesen mitliest, was man selbst kaum
+schaffen kann, da nur wenige Nachrichten vorgehalten werden.
+
+
+Fuer die, die das Script noch nicht kennen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Man benoetigt einen Rechner mit Standleitung, Perl und lynx. Das
+Script laeuft als Hintergrundjob und schreibt alle neuen Meldungen in
+ein Textfile, das man jederzeit lesen kann.
+
+
+Upgrade
+~~~~~~~
+
+Whitewater hat sich offenbar entschlossen, die Ad-hoc-Meldungen auch ueber
+den Nachrichtenticker zu verteilen, weshalb mit der alten Version
+diese Meldungen "dupen". Die neue Version beseitigt dieses Problem.
+Ein weiterer Bug, der unter bestimmten Bedingungen zur doppelten
+Speicherung von Nachrichten fuehren kann, wurde beseitigt.
+
+
+Bezug
+~~~~~
+
+Mail an mich.
+
+pi
+-- 
+Money may make the world go 'round ...
+... but computer networks make money go around the world.

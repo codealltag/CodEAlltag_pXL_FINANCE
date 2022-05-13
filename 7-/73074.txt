@@ -1,0 +1,33 @@
+Nein, das ist ja gerade das Schoene beim Logarithmus. Egal, welche =
+
+Basis Du waehlst, jedes exponentielle Wachstum ist immer eine =
+
+Gerade.
+
+Beispiel: Eine Aktie verdoppelt sich jedes Jahr.
+
+Jahr             Kurs          log2        loge        log10
+  0               1              0           0           0
+  1               2              1           0.693       0.301          =
+
+  2               4              2           1.386       0.602
+  3               8              3           2.079       0.903
+usw.
+
+Wie Du siehst, ergibt sich bei jedem Logarithmus, egal zu welcher
+Basis, immer eine Gerade (bei loge siehst Du einen Rundungsfehler
+wegen der wenigen Nachkommastellen). Das haengt auch nicht davon ab, =
+
+ob sich der Kurs der Aktie jedes Jahr verdoppelt, verdreifacht oder =
+
+veranderthalbfacht. Wenn Du es nicht glaubst, probier es mit
+einem Taschenrechner aus. Waere es anders, ergaebe die Verwendung
+von logarithmischen Charts keinen Sinn.
+
+Auf einem logarithmischen Chart stellt sich exponentielles Wachstum
+niemals anders als durch eine Gerade dar. Das heisst, wenn Du auf =
+
+einem logaritmischen Chart eine Gerade siehst, dann siehst Du
+exponentielles Wachstum und bist gewarnt (oder freust Dich).
+
+Udo

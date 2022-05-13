@@ -1,0 +1,46 @@
+Hallo Felix,
+
+
+Noch mal etwas klarer: wir haben zwei verschiedene Motivationen, um auf
+den Smile zu schauen. Du willst aus dem Smile eine Prognose für den
+zugrunde liegenden Basiswert ableiten. Ich frage mich dagegen, ob der
+Smile so sein muß, wie er ist. Der Smile wird wahrscheinlich im
+wesentlichen durch den Marketmaker bestimmt, da er im wesentlichen die
+Optionspreise festlegt und die anderen Marktteilnehmer versuchen
+zwischen seinen Bid/Ask-Kursen zu handeln.
+Wenn der Marketmaker also die Vola festlegt, so tut dieses immerhin ein
+konkreter Mensch mit umfangreicher technischer Unterstützung. Aber
+Menschen können irren und konkrete erst recht! Und diese Fehler suche
+ich. Natürlich ist mir klar, daß ich das Spiel Profi gegen mich im
+Moment schlechter spielen werde - immerhin hat er zur Zeit mehr know how
+und bessere Ausstattung. Aber  a priori ist das nicht klar.
+
+
+Ja, klar. Nur dieses "fast" ist genau das Aufgeld und bestimmt die Vola.
+Damit ist auch klar, warum bei Optionen tief im Geld der risikolose
+Zinssatz in der Berechnung sehr wichtig wird. Nimmt man ihn falsch, so
+berechnet man vor allem den Future falsch und damit das Aufgeld und
+damit wiederum die Vola. Da kann man sich bei Optionen tief im Geld bei
+der Vola schon mal um 100% verrechnen. Ist natürlich wiederum nicht so
+wichtig, da es ja dort ohnehin kaum Umsatz gibt - aber für das
+Verständnis schon. Da die implizite Vola dann doch steigt, liegt an der
+kleinen Möglichkeit von Crashs, wo dann selbst fast wertlose Puts ins
+Geld rutschen. übrigens habe ich irgentwo gelesen (S. Kleen???),
+daß der Smile erst nach dem Oktobercrash von 1988 so steil wurde - also
+vorher das Problem überhaupt nicht erkannt wurde (und jetzt vielleicht
+überbewertet wird?).
+
+
+Sollst bald eine bessere bekommen :-)
+
+Und zum Einfluß der Hobbyzocker. Irgentwoher men die Profis doch ihren
+Gewinn bekommen. Aber vielleicht könnte man mal statistisch schauen, ob
+es eine Korrelation zwischen Mittelzufl��en in Fonds und Optionspreisen
+gibt. Kann ich mir sehr gut vorstellen - nur woher bekomme ich
+historische Daten zu den Mittelzufl��en?
+
+Also, viele Gruesse,
+
+Arthur
+--
+http://ytntyput.xk

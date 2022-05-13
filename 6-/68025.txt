@@ -1,0 +1,81 @@
+7.3  Swaps, Swaptions
+Swaps sind ein äußerst komplexes Gebiet. Eine der einfacheren Definitionen
+lautet: "Austausch von zukünftigen Zahlungsströmen für einen definierten
+Zeitraum". Meist geht es um Zinsen und/oder Devisen. Einige stark vereinfachte
+Beispiele:
+Ein deutsches Unternehmen hat regelmäßige Zahlungen in US-Dollar zu leisten,
+während ein anderes deutsches Unternehmen regelmäßige Einnahmen in US-Dollar
+erzielt. Beide Unternehmen leben in ständiger Unsicherheit wegen der dauernden
+Schwankungen des Dollarkurses. Durch ein Swapgeschäft ("Währungsswap") tauschen
+die Unternehmen die Zahlungsforderungen bzw. Zahlungsverpflichtung
+untereinander und können während der Laufzeit dieses Swaps sicherer
+kalkulieren. Denn das eine Unternehmen weiß nun, wieviel DM es in Zukunft für
+seine Dollars erhalten wird, und das andere Unternehmen weiß jetzt, wieviel DM
+es für die benötigten Dollar zu bezahlen haben wird. Etwas vereinfacht kann man
+derartige Swaps als eine Kette von Futuregesch�ften beschreiben.
+Noch wesentlich häufiger sind "Zinsswaps". Hierbei werden variable
+Zinszahlungen gegen feste Zinszahlungen getauscht. Der eine Tauschpartner
+bezieht also variable Zinseinnahmen (etwa aus einem Libor-Floater) oder er hat
+variable Zinsverpflichtungen, und er tauscht diese mit einem Partner, der feste
+Zinseinnahmen oder Verpflichtungen hat. Und natürlich gibt es auch kombinierte
+Zins- und Währungsswaps.
+Wesentlich ist, daß sich das Swapgeschäft immer nur auf die genau definierten
+regelmäßigen Zahlungsströme bezieht, etwa auf Zinszahlungen. Die
+zugrundeliegenden Geschäfte aus dem diese regelmäßigen Zahlungen stammen, also
+z.B. eine Geldanlage oder eine Kreditaufnahme, werden nicht getauscht. Deshalb
+ist es ohne weiteres auch möglich, Swapgeschäfte abzuschließen, ohne daß ein
+wirklicher Geschäftsgrund dahinter steht. Es handelt sich dann um "reine
+Luftgeschäfte", mit denen auf Änderungen der Marktzinsen und/oder
+Währungsrelationen spekuliert wird. Es darf angenommen werden, daß die meisten
+Swapgeschäfte in Wirklichkeit rein spekulativer Natur sind - ähnlich wie ja
+auch die meisten Optionskäufer oder -verkäufer nur mit der Option an sich
+spekulieren wollen und gar kein echtes Interesse an einem späteren Kauf oder
+Verkauf des zugrundeliegenden Wertes haben.
+Swaps werden in der Praxis auch sehr gerne benutzt, um alle möglichen Probleme
+und Fehler nachträglich schnell zu "flicken". Eine der goldenen Regeln für
+Bankmanager heißt z.B., daß sich die Fristigkeit der von der Bank
+hereingenommenen Anlagegelder und der herausgegebenen Ausleihungen entsprechen
+sollte. Für 1 Million, die auf 5 Jahre zu einem Festzins verliehen wird, sollte
+die Bank also auch 1 Million für 5 Jahre zu einem Festzins hereinnehmen. In der
+Praxis lassen sich Bankleute aber ungern ein lockendes Geschäft entgehen, und
+irgendwann stellt man dann mit Schrecken fest, daß man von der Einhaltung
+dieser gewünschten Relationen weit entfernt ist. Zum Ausbessern wird dann
+anschließend panikartig so oft "hin- und hergeswapt" (also die Fristigkeit bzw.
+die Zinssätze getauscht), bis die gewünschten Relationen scheinbar wieder
+eingehalten werden, - oder bis man die Übersicht völlig verloren hat.
+In den USA, wo auch Privatleute ihr Haus of mit einer variabel verzinsten
+Hypothek finanzieren, ist sogar die Unsitte eingerissen, daß Privatleute ihre
+Zinsverpflichtungen aus Hypotheken dauernd swapen. Je nach Zinserwartung
+tauschen sie alle paar Monate variable gegen feste Zinssätze oder wieder
+zurück, und wenn sie sich verspekulieren, dann sind sie eines Tages ihr Haus
+los und sitzen auf einem riesigen Schuldenberg.     
+Swapgeschäfte haben international inzwischen ein riesiges Volumen erreicht;
+vermutlich ist das weltweite Swapvolumen weit größer als das Volumen aller
+anderen Derivate zusammen. Trotzdem sind Swaps doch selbst für den engagierten
+Privatanleger kein geeignetes Spekulationsinstrument. Der Markt ist noch zu
+unübersichtlich und zu wenig standardisiert, und die Mindestabschlu�gr��en sind
+erheblich. 
+Vor allen Dingen jedoch sind die im Swapgeschäft benutzten Theorien und
+Rechenformeln noch weitgehend strittig, und vieles bleibt unklar. Es gibt in
+diesem Markt einige wenige Marktteilnehmer, die regelmäßig riesige
+Arbitragegewinne abschöpfen, während die große Mehrheit stetig verliert. Die
+meisten bemerken dabei nicht einmal, daß sie verlieren. Das Gebiet ist in der
+Tat so komplex, daß selbst Profis wie z.B. die oben erwähnten Bankmanager, die
+mittels Swaps nachträglich Versäumnisse ausbessern wollen, dann oft nicht mehr
+in der Lage sind, wirklich zu überblicken, ob und womit genau sie Gewinn oder
+Verlust machen.
+Nach unserer Meinung sind Swaps ein "unsauberes" Produkt: Falsch theoretisch
+begründet, falsch berechnet, falsch angewendet. Sollte es im Derivatebereich
+einmal einen richtigen "Crash" geben, so wird er vermutlich in der "Swap-Ecke"
+seinen Anfang nehmen.
+Im klassischen Devisenhandel steht der Ausdruck "Swap" auch für die Verbindung
+eines Kassageschäfts mit einem Termingeschäft. Dabei ist der Swapsatz der
+Unterschied zwischen Kassakurs (dem tatsächlichen heutigen Kurs) und dem
+Terminkurs (dem Kurs, der heute schon fest für Geschäfte in z.B. drei Monaten
+vereinbart wird). Dieser Swapsatz entspricht also der "Basis" bei Futures. 
+Und Swaptions sind Optionen auf Swaps.
+
+
+Ihno Anspichler
+Visit   http://veidypu.sww.dfi/kxhocs  and download a 
+free calculator for options, futures, bonds and similar stuff.

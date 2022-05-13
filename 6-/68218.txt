@@ -1,0 +1,39 @@
+Mal vorab sorry, dass ich deine ausfuehrlichen Rechnungen einfach
+aus Zeitgruenden nicht nachvollziehen kann.
+Mit der Schlussfolgerung hast du im Prinzip recht, aber genau
+das ist die heute uebliche Methode bein Optionen und sie liefert 
+durchaus sehr viele Aussagen.
+Die Option wird anhand der vom Markt gerade erwartenten 
+Wahrscheinlichkeiten bewertet (implizite Vola) und das ist eben 
+der faire Marktpreis. Der Markt ist eben an der Boerse alles,
+wuerde man versuchen, einen "richtigen" Preis festzusetzen, 
+dann brauchte man keine Boerse (das ist die schlechteste 
+Methode, alle anderen ausgenommen).
+Das hat durchaus seinen Nutzen, denn mit einigen Preisen kannst
+da dann fast den gesamten Rest bewerten.
+Beispiel: Du hast einen Optionspreis fuer 3-Monats Puts, und daraus
+kannst du dann naeherungsweise alle anderen Optionspreise berechnen.
+Deshalb ist bei Portfolio-Modellen dieses System so beliebt. Denn man
+hat vom Markt her faire Optionspreise fuer die verschiedenen 
+Alternativen, und die kann man zur Risiko/Chancen Bewertung 
+und Steuerung nutzen.
+
+
+Das ist zweifach falsch:
+
+1) Es war nur ein stark vereinfachtes Modell. Wir haben zeitweise 
+dazu Softwaren produziert, die waren schon etwas komplizierter
+(aber trotzdem fuer die Praxis nutzlos. Ich glaube, alle Kunden 
+haben sie nur zur theoretischen Schulung benutzt.)
+
+2) Wir wissen nicht, wo der Dax wann stehen wird. Aber aufgrund 
+der heutigen Optionspreise koennen wir trotzdem den heutigen Wert 
+jeder Moeglichkeit berechnen.
+
+
+i
+
+
+Anton Czarnecki
+Visit   http://jofjxrs.nsa.stu/hawanx  and download a 
+free calculator for options, futures, bonds and similar stuff.

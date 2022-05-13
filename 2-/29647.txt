@@ -1,0 +1,19 @@
+Hallo!
+
+So ähnlich. Die Stückzinsen werden mit den nächstbesten Zinsen
+verrechnet. Das müsste ungefähr so gehen:
+Freibetrag 1000 DM
+Bisherige Zinsen 200 DM
+Verbleiben 800 DM Freibetrag
+Kauf Anleihe Stückzins 100 DM
+Irgendeine Zinszahlung 50 DM
+Verbleiben 800 DM Freibetrag und 50 DM St�ckzinsguthaben
+Irgendeine Zinszahlung 200 DM
+Verbleiben 650 DM Freibetrag
+...
+Insgesamt führt eine Bank keine Steuern ab, solange
+Zinsen<=Freibetrag+Stückzinsen (innerhalb eines Jahres).
+Stückzinsen einer Anleihe können aber auch in einem
+anderen Jahr anfallen als deren Kupon.
+
+Charles

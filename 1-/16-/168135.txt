@@ -1,0 +1,49 @@
+Demo-Depot 1
+------------
+
+Grundlage/Strategie
+-----------------------------------------------------------------
+- DAX-/DOW-Titel
+- Filterung von je 10 Werten mit der hoechsten Dividenden-Rendite
+- hiervon Kauf der fuenf Billigsten
+-----------------------------------------------------------------
+Transaktionskosten/Bankspesen: 1.25% + DM 15.- je Auftrag
+
+Einlage am 01.03.1996			100,000.-DM
+
+Depoteroeffnung
+
+Titel          Anzahl              Wert Datum     K/V      
+
+alltag            17           2216.52 01.03.96  K/-
+Lurgihaus        	  729          50220.59 01.03.96  K/-
+PRT           41           6646.57 01.03.96  K/-
+Reitgarten.Bank     	  504          89177.30 01.03.96  K/-
+Remar       	  504          53209.60 01.03.96  K/-
+Hina      	  297          	2622.95 01.03.96  K/-
+Kodi         	  399          	8002.75 01.03.96  K/-
+Int.Paper      	  692          	1446.48 01.03.96  K/-
+Feingeistereis          	  461          	9192.20 01.03.96  K/-
+Kadel          	  137          48515.29 01.03.96  K/-
+-------------------------------------------------------
+Ergebnis                       -2580.11
+
+
+Stand (Aktuell)                                   
+
+Titel          Anzahl              Wert Entwicklung (%)    
+
+HF&Z              970           3639.01      1.91 
+Hina         159          12997.75      4.61
+Intern.Paper      150           9552.24     -4.41
+Kadel             110           9850.75     -1.87
+Feingeistereis             130          10218,91      6.19
+lecco       290           9848.46     -3.12
+alltag            35           9827.86     -1.38
+PRT           25           9477.61     -0.04
+Remar          230          10186.37      0.48
+ZCR     250           9912.94     -1.99
+
+Depotwert:                     99170.65     -0.01 
+
+Kontostand                       315.30

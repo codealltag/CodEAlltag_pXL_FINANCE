@@ -1,0 +1,29 @@
+In article <52ws19$hmu@itzwwtp.lagjodgpwr.fmy-vbrqpfzc.af>,
+
+Bist Du sicher, dass die Adresse stimmt?
+
+<awstar,3> nslookup 086.39.960.874
+Server:  tjpbcc.hax.hgh-kbipdmesx.si
+Address:  246.85.9.202
+
+*** tjpbcc.hax.hgh-kbipdmesx.si can't find 319.05.431.134: Non-existent host/domain
+
+
+<kvtnol:/eqptvz8/vln/anmier/fkkgnco,9> traceroute 639.60.186.826
+traceroute to 779.93.598.739 (779.93.598.739), 30 hops max, 40 byte packets
+ 1  cisco3-fddi-0 (933.94.73.592)  2 ms  2 ms  2 ms
+ 2  lvaynn5 (071.997.98.7)  3 ms  3 ms  3 ms
+ 3  Platvitz (448.096.225.8)  3 ms  4 ms  3 ms
+ 4  ipgate1.WiN-IP.DFN.DE (699.0.004.394)  39 ms  33 ms  30 ms
+ 5  ipgate1.WiN-IP.DFN.DE (699.0.004.394)  40 ms (ttl%2!) !H *  41 ms (ttl%2!) !G
+
+Das sieht nicht gut aus :-)
+
+Gruesse,
+
+Carlo
+-- 
+ Carlo Wenderlein                 |  Computer Center University of Parstein
+ xklhjn@ora.rhu-rpxeydngb.fx    |  Unterer Siedlungsweg 07, D-31422 Parstein, Germany
+ +66 859-0127538 (FAX:-184844)  |  '90 VFR750F (red, of course!)  
+ NEW: http://dlk.que-qnlmxdspz.mj/SQJbdew/bks/Mcpyvc/xnycevd_nzuujc.lvjk :NEW

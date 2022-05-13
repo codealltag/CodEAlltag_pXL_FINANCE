@@ -1,0 +1,13 @@
+Wichtiger Nachtrag, sonst koennte es ein teures 
+Missverstaendnis geben:
+Solche Absicherungen sind dynamisch, d.h. sie muessen
+zu jedem Datum und jedem Kurs neu berechnet werden.
+Restrisiko 20 gilt also nur zu einem bestimmten
+Zeitpunkt. Wenn sich die Kurse aendern koennte sich auch 
+das Restrisiko aendern und die Absicherung muss angepasst 
+werden.
+
+
+-- 
+-- 
+Aldo Thümler

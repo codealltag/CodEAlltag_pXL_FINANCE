@@ -1,0 +1,28 @@
+Hallo David
+
+MP>> Bei *nwp# gibt's auch Umsätze.
+MP>
+MP>Auch genaue Aufschluesselung Umsatz pro Kurs ? Ich habe festgestellt,
+
+Pro festgestelltem Kurs wohl nicht. Als Kursprovider ist es wohl auch
+nicht geeignet, da zu umständlich. Man kann sich aber auch ein Depot
+zusammenstellen, meine ich. Ich hänge mal ein Beispiel unten dran.
+
+        Neue Wirtschaftspresse           0,00 DM
+        ---07.01.97 Numerische Eingabe
+        ---Zeit:14:00 Dax:3595.15   Börsenschluß
+        KennNr-Kürz.-High --Low --Last -Ums.-Brs
+        360560-DDIX - 3.95- 3.94-  3.94-   0-SELK
+        360560-DDIX - 3.86- 3.86-  3.86-   0-LAUTERHOFEN
+        804077-DEPT - 2.85- 2.65-  2.65-   0-SELK
+        804077-DEPT - 2.65- 2.65-  2.65-   0-LAUTERHOFEN
+        289857-CMRT - 9.79- 9.61-  9.73-5.25-SELK
+        289857-CMRT - 9.81-  9.7-  9.76-  15-LAUTERHOFEN
+        289857-CMRT - 9.79- 9.71-  9.79- 7.2-WTF
+        393896-TZSI -29.17-28.35- 28.35-   0-SELK
+        393896-TZSI -28.94-28.94- 28.94-   0-LAUTERHOFEN
+
+usw.
+
+
+-Ivan

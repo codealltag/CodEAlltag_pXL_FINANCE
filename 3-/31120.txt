@@ -1,0 +1,29 @@
+Wenn Du eine Mail empfaengst, die eine Batch-Datei anhaengen hat,
+und Du, um das Anhaengsel genauer zu inspizieren ('Was ist da wohl
+drin?'),
+bei den fuer das Anhaengsel angebotenen Funktionen ,z.B. oeffnen oder
+ausfuehren,
+diese auf Deine Datei anwendest, dann kannst Du nur hoffen, dass das
+oeffnen
+mit einem Editor verknuepft ist und nicht mit dem Befehlinterpreter.
+Und
+wie ich mich erinnere, gab es beim ersten Anwenden auf einen
+unbekannten
+Anhaengsel-Typ die Abfrage, ob das ausgwaehlte Prgramm immer als
+Standard-
+oeffnungsfunktion dienen soll. Und war der erste Batch harmlos und der
+Standard
+der Befehlsinterpreter, gut, beim zweiten mal kann schon alles anders
+sein.
+Na gut, eine Batch-Datei nur mit 'format c:' (oder sonstiger
+System-Partition) unter
+NT murkst nichts, weil das Sperren des Laufwerkes nicht funktioniert,
+aber da kann
+man sich noch so ganz andere Dinge ausdenken :-).
+Nicht alle Entdeckungen wurden mit 'Heureka' oder mit 'Das ist lustig
+:-)'
+kommentiert, sondern in diesem fall mit einem lauten 'Merde'.
+Aber wie schon oben bemerkt, der Fehler sitzt meistens vor dem
+Computer.
+
+Bernard

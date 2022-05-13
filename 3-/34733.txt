@@ -1,0 +1,18 @@
+<OT>
+Virgin steuert den Link zu seinern Bildern über das Ticker Symbol (z.B.
+'F' bei KiK!). Mit etwas HTML kann man sich so leicht eine
+Übersichtsseite zusammenbasteln.
+Ich bin allerdings noch einen Schritt weiter gegangen und habe die
+Symbole in einer Datenbank abgelegt (MySQL), und beim Aufruf der Seite
+http://57.36.9.03/hiriq.hun0 wird mit Hilfe von PHP3 der HTML Code
+dynamisch kreiert und der daraus resultierende Inhalt dargestellt.
+Für den Surfer allerdings ist das Ergebnis auf dem Schirm und auch der
+Sourcecode in HTML in beiden Fällen gleich. Die Datenbank ist jedoch
+viel einfacher zu pflegen.
+Weitere Info unter http://nen.izumv.sqs und http://vzb.yms.rmr
+</OT>
+Übrigens weiß ich jetzt auch wie ich an deutsche Info über Virgin
+komme, als schau in den nächsten Tagen nochmal vorbei ;-)
+
+
+On Tue, 4 Sep 2000, Florian Biederbick wrote:

@@ -1,0 +1,37 @@
+Hallo Nils,
+
+AH> > Noe, die OS-Preise werden berechnet und koennen nicht willkuerlich durch
+AH> > die Bank festgelegt werden. Und sowas wie eine Volatilitaet auf dem
+AH> > neuen Markt gibt es noch nicht.
+AH>
+AH> Wieso das denn ? Ich war immer der naiven Ansicht, die Volatilität
+AH> würde berechnet. (Sonst könnte man ja die OS-Preise nicht berechnen,
+
+Volatilitäten werden immer nur berechnet. Es gibt zwei verschiedene Arten
+von Volas:
+Die 'historische' Vola berechnet sich aus den Kursen der zurückliegenden
+Tage und ist somit ein Maß für die Schwankung der Kurse in den
+zurückliegenden Tagen.
+Die 'implizite' Vola kann erst dann berechnet werden, wenn OS emittiert
+wurden. Aus der Höhe der gezahlten Aufgelder von Puts und Calls kann
+nämlich mathematisch geschlossen werden auf die vom Markt zukünftig
+erwartete historische Volatilität des Basisinstuments (der Aktie, auf den
+der OS lautet). Dies ist die sogenannte 'implizite' Volatilität, die
+sozusagen implizit im OS-Preis drinsteckt.
+OS-Preise werden aber nicht berechnet, sondern bilden sich am Markt und
+sind somit evtl. genauso abenteuerlich, wie derzeit die Kurse (und die
+historische Vola) am Neuen Markt.
+Und deshalb dürften sich die impliziten Volas und damit auch die OS-Kurse
+auf Werte des Neuen Marktes in solchen Höhen befinden (wenn es sie denn
+gäbe), so daß ich allen OS-Emittenten nur nahelegen kann, so schnell wie
+möglich solche OS zu emittieren, und zwar Calls und Puts.
+
+(Hat das eigentlich jeder Anfänger verstanden?)
+
+AH> Weiss da jemand genauer, wie die Volatilität errechnet wird ?
+AH> (Vielleicht was mit Varianz, 1. Ableitung der Kurse nach der
+AH> Zeit gewichtet...)
+
+Im Web-Angebot Warrant Online von Herrn Molendyk stehen einige Formeln.
+
+fG - Tim

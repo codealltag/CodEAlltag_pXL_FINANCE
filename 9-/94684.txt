@@ -1,0 +1,18 @@
+So, wie ich das sehe, muesste das Problem der Abhoerbarkeit nur durch
+Chiffrierung (PGP oder so)  loesbar sein.
+
+Switches/Router/Gateways an den Trafostationen/Umspannwerken muessten
+sorgfaeltig konfiguriert sein, damit die "Backbones" (die 115 kV
+Leitungen) nicht mit Daten ueberlastet werden. Hat jemand Erfahrung
+mit groesseren IP-Netzen hier?
+
+Und das Ganze noch mit Mittel- und Hochspannungsschaltern dazwischen,
+die beim Ein- und Ausschalten Vakuum- oder Lichtbögen bilden und
+entsprechend die Datenuebertragung stoeren. Ich stelle mir das
+schwierig vor. 
+
+Aber so manches, was man frueher mal fuer technisch schwierig hielt,
+funktioniert heute ganz selbstverstaendlich. Vor 25 Jahren haette auch
+nie einer gedacht, dass so was unfoermiges wie der Stealth Bomber
+fliegen kann. Das Ding muss vollgestopft sein mit Regelungstechnik --
+kostet bestimmt entsprechend.

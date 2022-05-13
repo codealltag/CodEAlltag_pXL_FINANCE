@@ -1,0 +1,11 @@
+Hallo Gustav!
+
+HK> BTW: Die Standardabw. einer Kurve, die tgl. 1% zulegt, kann nicht 0
+HK> sein, da ja die Summe der Quadrate, d.h. *Beträge* der Differenzen der
+HK> Werte zum Mittelwert zählt.
+
+Die Vola eines Papiers, das täglich 1% zulegt, ist 0, da die berechnet
+wird als Standardabweichung der nat. Logarithmen der Quotienten von Kurs
+und Vortagskurs. Hast du den engl. Anhang denn nicht genau gelesen?
+
+fG - Ulf

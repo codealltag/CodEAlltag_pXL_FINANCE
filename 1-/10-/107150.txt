@@ -1,0 +1,42 @@
+Aber nur innerhalb gewisser Grenzen.
+
+Du hast zwar recht, dass bei steigenden Zinsen meist die Aktienkurse
+zurueckgehen, aber massgeblich sind immer nur die tatsaechlichen 
+heutigen Kurse. Und wenn die bei 100 sind, dann gilt eben Kurs 100.
+Denn im heutigen Kurs steckt ja schon die zukueftige Kurserwartung.
+Wuerden wirklich alle Kurs 90 erwarten, dann haetten wir auch Kurs 
+90. Solange das aber nicht der Fall ist muessen wir aber Kurs 100
+als massgeblich betrachten. 
+
+Und bei dieser Situation wird der Callpreis eben nicht nur von
+normaler Angebot/Nachfrage bestimmt, sondern insbesondere 
+von arbitragebestimmter Nachfrage/Angebot. 
+Sobald ein Call zu billig wird kann es fuer die Aktienbesitzer
+(und es gibt immer genug Aktienbesitzer, denn alle Aktien gehoeren
+ja jemanden, es gibt keine besitzerlosen Aktien) guenstiger sein, 
+ihre Aktien zu verkaufen und stattdessen Calls zu kaufen und 
+ihren Cashueberschuss verzinslich anzulegen. Beispiel:
+Aktie kostet 100, Call Basis 100 1 Jahr Laufzeit kostet 10,
+Zinssatz 15%
+Also verkaufen wir die Aktie und kaufen den Call. Bleiben uns 90
+Cash, die fuer 1 Jahr zu 15% angelegt 13,50 bringen - mehr als
+wir bei dem Call verlieren koennen. 
+Resultat: Solange der Call unter 13,50 kostet ist er zu billig und
+viele Aktienbesitzer werden ihn nachfragen und dadurch seinen 
+Kurs hochtreiben (und eventuell durch ihre Aktienverkaeufe
+den Aktienkurs runter treiben). 
+Es gibt also einen Mindest-Callpreis, bei dem immer genug
+Nachfrage nach diesem Call besteht und unter den er nicht
+fallen wird. Je hoeher der Zinssatz, desto hoeher dieser
+Mindest-Callpreis.
+Und wenn der Aktienkurs faellt, dann geht dies ueber den 
+Kurs des Underlyings ja getrennt neben dem Zinssatz in die 
+Black/Scholes Formel ein und senkt dann entsprechend
+diesen CAll-Preis.
+
+.
+
+
+Michael
+Visit   http://cunrwqy.dfw.ycg/uggscg  and download a 
+free calculator for options, futures, bonds and similar stuff.

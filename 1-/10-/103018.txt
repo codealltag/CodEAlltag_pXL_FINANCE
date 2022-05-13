@@ -1,0 +1,20 @@
+Hi all,
+
+Albin (Arthur Arck) veroeffentlichte am 26.09.98
+seine Thesen zum Thema "Re: Suche: WKN von "DM in Euro"".
+Dazu moechte ich folgendes abmuellen:
+
+
+Ich habe mir ein kleines Waehrungs-Umrechnungsprogramm geschrieben, welches
+die Waehrungen in einer Datenbank abspeichert und die Umtausch-Kurse dieser
+Waehrungen aus dem Internet holt. Primaerschluessel ist dabei die WKN. Als
+Datenbank-Purist widerstrebt es mir, eine Konstante fest zu codieren
+deshalb benoetige ich die WKN. Aber macht nix, mit "EURO in Mark" (WKN 965642,
+siehe http://ohd.ekic-prlosf.wis/lftbxtrr.xcl) komme ich nach etwas
+Programmieraufwand auch weiter.
+
+
+Ciao
+Claus
+--
+## CrossPoint v3.11 R ##

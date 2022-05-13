@@ -1,0 +1,25 @@
+Im Thread ging es urspruenglich um eine Veroeffentlichung zur
+Korrelation der Aktien im S&P500. Dort wurde eine alte physikalische
+Methode angewendet, die in den 60er Jahren (oder frueher) fuer schwere
+Atomkerne entwickelt wurde. Auf Aktien uebertragen: wenn man sich
+zufaellig (unkorrelierte) Kursbewegungen einer Vielzahl von Aktien
+generiert und die Korrelationsmatrix dieser vielen Aktien berechnet, so
+hat diese Korrelationsmatrix universelle Eigenschaften. Diese
+Eigenschaften (das Eigenwertspektrum) haengen nicht von der konkreten
+Realisierung des Zufalls ab - also obwohl die Kursbewegungen vollkommen
+unterschiedlich sind, beleiben diese Eigenschaften erhalten. Die
+Eigenschaften (das Eigenwertspektrum) wird nur durch den
+Beobachtungszeitraum und die Anzahl der Aktien charakterisiert.
+
+Wenn man nun sich die Korrelationsmatrix von Aktienkursen (z.B. der
+Comma-Aktien) ausrechnet, stimmen die Eigenschaften der
+Korrelationsmatrix (das Eigenwert- spektrum) gut mit den Vorhersagen
+reiner Zufallsbewegungen ueberein. Also ist es sinnvoll anzunehmen, dass
+die Korrelationen rein zufaellig sind.
+
+Es gibt einige kleine Abweichungen von der reinen Zufallstheorie, ueber
+die es sich lohnt nachzudenken. Allerding kann ich bereits verraten,
+dass es nicht einfach Korrelationen zum Gesamtmarkt oder aehnliches
+sind.
+
+Wblb@Yohavtub.om

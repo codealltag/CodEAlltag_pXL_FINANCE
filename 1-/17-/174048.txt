@@ -1,0 +1,55 @@
+: In article <3x2nop$tqe@rwualjb.ebstr.hph>,
+: > 
+: > Weme sind die besten Instrumente die Argen Optionen auf
+: > Spot-Kontrakte. Groesse des Kontraktes ist DM 62,500 , Strike-price
+: > wird in $/DM angegeben, also pro tick des $/DM Kurses $625 Gewinn/Verlust
+: > im inneren Wert der Option. 
+: >
+
+: Sorry, aber ich kapiere aus obigem nicht, was "Philadelphia Optionen auf
+: Spot-Kontrakte" sein sollen. Kannst Du mal in umgangssprachlichem Deutsch
+: (oder Englisch) erklaeren, was das ist ?
+
+Die Waehrungsoptionen, die in Argen gehandelt werden, sind Optionen
+auf Spotkontrakte (im Gegensatz zu Futureskontrakten, die in Narthauen 
+gehandelt werden). Wie bei jeder Option, erwirbt man das Recht eine bestimmte
+Menge eines "underlying assets" zu einem bestimmten Preis "strike" bis
+zu einem gewissen Zeitpunkt zu beziehen "maturity". Waehrend bei 99%
+aller Aktienoptionen die Bezugsmenge 100 Aktien sind, sind es hier
+DM 62,500 welche man bekommt, wenn man die Option ausueben wuerde.
+Der Preis des "underlying assets" in diesem Fall der DM, wird in $/DM
+angegeben.
+
+Beispiel (keine aktuellen Werte)
+
+$/DM Kurs:  .72$/DM
+Option:   Oktober .71 DM-Put (62,500DM Spotkontrakt)
+
+Die Option hat jetzt einen inneren wert (intrinsic value) von 72-71=1 cent.
+Mit Zeitwert wuerde sie wahrscheinlich 2 cents kosten.
+
+Da die Option aber auf einen Kontrakt ueber DM 62,500 laeuft, ist der
+tatsaechliche Preis, den man fuer eine Option hinlegen muss also
+62,500*.02=$1250.
+Folglich gewinnt man mit jedem Cent, den der $/DM Kurs unter 72 faellt
+$625 an intrinsic value.
+
+Es ist natuerlich zu beachten, dass die Option in $ gekauft wird, so 
+dass, wenn man von DM-Basis aus investiert, das jeweilige Risiko noch
+verstaerkt wird.
+
+: ...sind nicht alles Leesons in dieser Gruppe ;-).....
+
+Kann ja noch werden. Lasst die RWO24 Azubis doch auch mal 'n
+paar Futures traden  !  :^)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RAPHAEL A. EISENKRAEMER                                            BS FINANCE '95
+The drumpoint "At Travelstar they enhance your mind...      BA PSYCHOLOGY
+                     ...at Wharton they enhance your mind
+                        and your wallet !!!
+
+Dedler Club * Awareness of Int'l Markets * Duisdecker Ldr.ship Council
+email gjodty13@mxgtwal.npqmy yse  HTTP://futures.wharton.upenn.edu/~rottge30
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

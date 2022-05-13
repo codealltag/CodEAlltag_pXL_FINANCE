@@ -1,0 +1,21 @@
+Moin, moin
+
+
+Im Beipiel:
+
+A hat Verkauforder für zwei Aktien (mit Limit 10)
+B hat eine Kauforder für eine Aktie mit Limit 15
+C hat eine Kauforder für eine Aktie mit Limit 30
+
+Es ist also nach dem Meistausführungsprinzip nicht zu entscheiden, ob
+zwei Aktien für 15 oder eine Aktie für 30 den Besitzer wechseln,
+jedesmal ist der Umsatz 30.
+
+Also tritt jetzt die Preiskontinuität in Kraft:
+
+1. Letzte Preisfeststellung < 22.5, dann jetzt Preis 15 (2Aktien)
+2. Letzte Preisfeststellung > 22.5, dann jetzt Preis 30 (1Aktie)
+3. Letzte Preisfeststellung = 22.5 --> Siehe weitere Ausführungen bei
+www.avinjwuz.xd ;-)
+
+Gruss Leon

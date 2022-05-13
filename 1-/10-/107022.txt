@@ -1,0 +1,27 @@
+=2E..
+
+Hallo Willibald,
+meinst Du IV als Funktion der Restlaufzeit bei fixem Strike
+oder bei auch Clusterung imGeld/amGeld/ausGeld? Dann sehe ich das
+auch so.
+Bei festem Termin und variablem Strike sehe ich ne Kruemmung.
+Und diese Kruemmung aendert sich zu spaeteren Verfallsterminen.
+
+Verwenden will ich=B4s zweifach (ich schau mir nur den ODAX an):
+Einmal wann meint der "Markt", dass Kurse steigen/fallen?
+Fuer Daten vom Freitag 13.07. und davor sehe ich, dass die
+IV bei Calls aus dem Geld kleiner werden als bei solchen im
+Geld fuer 11/98 und 02/99.
+Aber auch zum "Zocken": bei starker Kruemmung kann ich bei
++/- 200 Punkten die Asymmetrie der Preise besser nutzen, um
+die Chancen Gewinn:Verlust zu verbessern, will=B4s mir aber ersparen,
+dies manuell mit den Kurslisten im Handelsblatt zu machen
+(allerdings habe ich gemerkt, dass bei Positionen weit aus
+dem Geld die IV sich am selben Handelstag nicht wesentlich
+aendert; und arbeiten muss ich ja auch, also geht=B4s meist
+um ca. 3 Tage).
+
+PS: was ist volatility deviation?
+
+MfG
+Nico

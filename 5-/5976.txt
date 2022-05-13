@@ -1,0 +1,93 @@
+Das Rho beim Börsen Trading Schlövogt Schmitzmann
+Author V.Schmitzmann
+Video:
+http://xks.roridfv.mqc/tklxe?b=2XwYgHB9DO1aG
+Die Kennzahl Rho ist der letzte griechische Buchstabe, der in der
+ivorgestellt wird. Viele Privatanleger sind dieser Kennzahl noch nicht
+begegnet,
+da sie nicht so gebräuchlich ist wie das Delta, Vega oder Theta. Das
+Rho misst den Einfluss der Zinsveränderung auf den Optionspreis. Der
+Zinsatz wird in Prozent angegeben. Somit sagt das Rho aus, wie stark
+sich der Wert der Option ändert, wenn sich der risikofreie Zinssatz am
+Markt um einen Prozentpunkt (100 Basis=ACpunkte) ändert (ceteris paribus
+alle an=ACderen Parameter bleiben unverändert).
+Das Rho ist die erste partielle Ableitung der Black-Scholes-
+Optionspreisformel nach dem Zins. Für Call-Optionen ist das Rho
+positiv, für Put-Optionen negativ.
+
+Um diesen Zusammenhang zu erklären, bedarf es zunächst eines Einblicks
+in die Optionspreisformel, da der Zins auf meh=ACrere Komponenten des
+Optionspreises Einfluss hat.
+Der Optionspreis heute spiegelt die zu-künftige Erwartung für die
+Basiswertent-wicklung wider. Falls der Basiswertkurs über dem
+Basispreis liegt, erhält der Inha=ACber einer Call-Option am
+Laufzeitende eine Auszahlung, die der Differenz zwi=ACschen dem
+Basiswertkurs und dem Basis=ACpreis entspricht. Den heutigen
+Options=ACpreis kann man als die diskontierte Erwartung der zukünftigen
+Auszahlung betrachten. Da der Kurs des Basiswerts am Laufzeitende
+heute nicht bekannt ist, wird der erwartete Kurs herangezogen. In
+
+der Praxis wird dafür der Terminkurs des Basiswerts, der sogenannte
+Forwardkurs, betrachtet. Der Forwardkurs einer Aktie oder eines Index
+(angenommen es werden keine Dividenden gezahlt) errechnet sich als der
+aufdiskontierte heutige Aktien- bzw. Indexkurs: Forward (Aktie) =3D
+Aktie x err. Je höher der Zinssatz, umso höher der Forwardkurs. Der
+abdiskontierte Forward=ACkurs entspricht wiederum dem heutigen
+Aktienkurs.
+Die zweite Komponente, die die Call-Aus=ACzahlung beeinflusst, ist der
+Basispreis, dessen heutiger Wert sich wie folgt ermit-telt: Strike x e-
+ri". Je höher der Zinssatz, umso geringer der abdiskontierte Basis-
+preis. Betrachtet man somit heute die erwartete Call-Auszahlung bzw.
+die Diffe renz zwischen dem Basiswertkurs und dem Basispreis,
+entspricht dies Aktie =97 Strike x e-FT. Jetzt wird der positive Zins-
+einfluss auf den Calipreis deutlich. Je höher der Zins, umso höher die
+erwartete Call-Auszahlung und umgekehrt.
+Der negative Zinseinfluss auf den Putpreis ergibt sich durch das
+umgekehrte Auszah=AClungsprofil einer Put-Option. Die erwarte=ACte
+Auszahlung einer Put-Option heute ist
+die diskontierte Differenz zwischen dem Basispreis und Basiswertkurs
+am Lauf-zeitende, das heißt: Strike x e-rT =97 Aktie. Daraus lässt sich
+der Zinseinfluss inter-pretieren: Je höher der Zins, umso gerin-ger
+ist die erwartete Auszahlung und somit der Putpreis.
+Ein Beispiel: Ein Kieferland-Call mit einer Laufzeit von drei Monaten und
+einem Basispreis von EUR 85,00 (Kurs Kieferland: EUR 84,10) kostet EUR
+5,56. Der 3-Mo
+
+nats-Euribor liegt derzeit bei 0,682 Pro-zent p. a. Daraus ergibt sich
+ein Rho von 0,095. Falls sich der Referenzzins um einen Prozentpunkt
+auf 1,682 Prozent p. a. erhöht, steigt der Calipreis ceteris paribus
+um 9,5 Cent. Eine Zinsreduzierung um 0,25 Prozentpunkte würde den
+Options=ACpreis entsprechend um 2,4 Cent verrin=ACgern (-0,25 x 0,095 =3D =
+=97
+0,024).
+=BBDas Rho sagt aus, wie stark sich der Wert der Option ändert, wenn
+sich der risikofreie Zinssatz am Markt um einen Prozentpunkt ändert.=AB
+Die Grafik zeigt die Abhängigkeit des Rho vom Basispreis für drei
+verschiedene Kieferland-Call-Laufzeiten bei einem Basis=ACwertkurs von EUR
+84,10. Das Rho fällt generell bei einem Call mit steigendem
+
+Aktienkurs. Weiterhin gilt, je länger die Optionslaufzeit, desto höher
+ist bei einem gegebenen Aktienkurs das Rho. Am Lauf=ACzeitende ist sein
+Einfluss praktisch ver=ACnachlässigbar.
+Das Rho hat in der Praxis die geringste Bedeutung von allen Griechen.
+Zum einen werden auf dem Terminmarkt meistens am und aus dem Geld
+notierende Optio=ACnen gehandelt, das heißt, diejenigen mit geringerem
+Rho. Somit ist der Zinsein=ACfluss nicht so stark ausgeprägt. Zum
+an=ACderen kann der Rho-Einfluss über das Vega gesteuert werden, denn
+das Rho ist positiv korreliert mit der Volatilitätskenn=ACzahl Vega. Je
+geringer der Vega-Einfluss, umso geringer wird auch der Rho-Ein=ACfluss.
+Dennoch soll insbesondere in vola=ACtilen Marktphasen das Rho nicht ganz
+außer Acht gelassen werden, vor allem, wenn von den Notenbanken eine
+Ände=ACrung der Zinspolitik erwartet wird.
+
+Legende:
+Aktie	=3D Preis der Aktie heute
+Strike	=3D Basispreis der Option
+Volatilität =3D die Volatilität der Aktie (wird im Modell
+als konstant angenommen)
+Zeit	=3D Zeitspanne bis zum Laufzeitende in Jahren
+Zins	=3D der risikolose Marktzins
+Außerdem:
+NO	=3D die kumulative Standardnormalverteilungs
+funktion
+ln()	=3D die natürliche Logarithmusfunktion

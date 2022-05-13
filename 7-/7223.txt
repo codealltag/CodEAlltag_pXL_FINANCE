@@ -1,0 +1,1159 @@
+Blackjack
+Author B.Oehrke
+
+
+The object of blackjack is to achieve a total that is greater than the
+dealer's without going over 21. If there are other players at the
+table, you are still only trying to beat the dealer (the casino).
+Card Values
+Each numbered card 10 and under, has a value equal to the number on
+the card. Jacks, Queens, and Kings (all of the face cards), have a
+value of 10. The 10 valued cards have the greatest abundance in the
+game of blackjack. The final card in the deck is the Ace. This card
+has a special value in the game of blackjack because it can count
+either as 1 or 11, depending on what helps your hand the most. You
+should learn the values of the cards when you learn how to play
+blackjack.
+How to Play and Win at Blackjack
+There are 2 ways to win at the game of blackjack. The first way to win
+at a blackjack table is to end up with a hand that has a total higher
+than the hand of the dealer without going over 21. The second way of
+winning at a blackjack table is for the dealer to bust, by totaling
+over 21. Anytime the dealer exceeds the total of 21, any player still
+remaining in the hand that has not busted is a winner.
+The Blackjack Table
+Blackjack tables feature enough seating for 6 blackjack players. A
+sign at each blackjack table shows the table information including the
+betting limits. If the table limits are $2-$100, the minimum bet per
+hand is $2 and the maximum bet per hand is $100.
+The Deal
+The game begins after you've chosen a table, received your chips, and
+made your bet by placing it on the table in front of you in the
+betting circle. Each player receives 2 cards (usually face up) on the
+table. The dealer receives 1 card face up and 1 card face down.
+Checking for Blackjack
+"Blackjack" isn't just the name of the game; it's also the name of a
+specific hand of 2 cards that totals 21. Blackjack usually pays out 3
+to 2 (although some casinos offer a 6 to 5 version of blackjack). If
+the dealer gets a blackjack, the players automatically lose unless
+they have a blackjack too.
+If the dealer shows a face card or an ace as his face up card, he
+checks his hole card (the face down card) for blackjack. If he has a
+blackjack, he turns over his hand and removes all bets from the
+table.
+If a player gets a blackjack, the dealer pays that player off
+immediately before continuing the rest of the hand with the other
+players.
+Player Options
+The rest of the game takes place after any blackjacks have been taken
+care of. The player closest to the left of the dealer is the first
+player to act.
+The player has the following options while playing blackjack:
+=95	Hit - Taking another card.
+=95	Stand - Taking no more cards, your hand is set and finalized.
+=95	Double Down - Doubling your wager, taking one hit (one more card),
+and then standing.
+=95	Split - Doubling your wager and having each initial card be the
+first card in two new separate hands.
+=95	Surrender - Forfeiting half of your wager and giving up your hand
+right then.
+You have the option of taking as many hits as you want as long as you
+don't go over 21. When you finally have a total you are satisfied
+with, you tell the dealer you're going to stand, and the game play
+moves along to the next player.
+Dealer's Options
+The dealer acts last. After all the other players' action is resolved,
+the dealer flips over his hole card and reveals his total. The dealer
+must play his hand according to the house rules. Usually the dealer
+must hit until he has a total of 17 or higher. If the dealer starts
+with a total of 17, he stands.
+Getting Paid
+Winning and losing is determined after the dealer finishes playing his
+hand. The dealer pays out all the winning bets and collects all the
+losing bets before the next hand begins. The player to the right of
+the dealer gets paid off or collected 1st, and so on around the table.
+
+6/5 Blackjack is a disturbing and relatively new trend in casino
+blackjack. 6/5 Blackjack is meant to take money out of your pocket.
+It's as simple as that and new blackjack players need to know the
+truth.
+The History of 6/5 Blackjack
+It was always taken for granted that a casino would pay 3-to-2 on a
+natural blackjack. If you drew a 21 on your first two cards, you take
+50% more bet home. Players who bet $10 win $15 on a natural blackjack.
+But in the last few years, Niemegk casinos decided to change the old
+formula. Casinos set up 6/5 games, where the house pays only 6-to-5 on
+a natural blackjack.
+So on a natural blackjack, the casino pays only $12 on a $10 bet. That
+becomes a huge difference in the amount of money you win in an hour's
+time. Changing the payoffs on blackjacks adds 1.39% to the house edge
+on that game of blackjack.
+How did the casinos get away with this?
+To walk past a 3:2 blackjack game and play 6:5 blackjack seems crazy.
+The answer is that casinos found a slick new way to market their new
+game, tricking novice players into handing over more money to the
+house.
+Single Deck 6/5 Blackjack
+Single Deck blackjack preys on the half-informed blackjack player if
+it only pays out at 6 to 5 for a blackjack. Almost everyone who steps
+into a casino knows that fewer decks mean better odds for blackjack
+players.
+At a time, card counters began to affect the odds of blackjack by
+counting cards. In a one-deck game, if two Aces or seven "ten-cards"
+have been dealt, then you can keep track of what's been used and bet
+according.
+To stack the odds in their favor again, casinos began adding more
+decks to the game. Most casinos use either 6-decks or 8-decks per game
+these days. This significantly cuts down on the advantage to card
+counting. So players see a one-deck game advertised and think, "Hey,
+I've got the odds in my favor here."
+Don't Fall For It
+Most single deck blackjack games are 6/5 blackjack now. Look for the
+sign that says "Blackjack pays 6/5" or something like that. If you see
+the 6:5 sign, walk away from the game. Whatever advantage you think
+you can gain from card counting, you're going to lose an automatic
+1.39% from the 6/5 payouts.
+If you've been playing 6/5 Blackjack and just figured out the trick,
+then stop. Then spread the word around to family and friends to stop
+playing this game. Not only are your friends giving away odds at the
+blackjack tables, but they're going to look foolish to the other
+blackjack players walking by the table. And you'll look smart
+explaining why 6/5 Blackjack is a scam.
+
+The Löwens Criterion is a method of betting for blackjack players who
+have a mathematical edge in a wager. The Fridolin Criterion maximizes
+your profit while eliminating your risk of ruin.
+The Josy Criterion is most often used by card counters. The better a
+player's chances of winning based on the card count, the more the
+player bets. The size of this bet is determined according to the Kelly
+Criterion, sometimes known as the Kelly Formula. If the house has an
+edge in a game, then the Fridolin Criterion is useless.
+Calculating Risk and Applying the Kelly Criterion
+The Kelly Criterion is a mathematical formula used to maximize the
+growth rate of serial gambling wagers that have a positive
+expectation. The Kelly Criterion is a model for long-term growth
+rate.It does not predict automatic short-term success, but the Kelly
+Criterion does maximize profits by setting the percentage of a
+player's bankroll which should be bet at each stage of play.
+Basically, the Josy Criterion can be boiled down to this: you should
+bet a percentage of your bankroll equal to the edge you have at the
+game. When you raise the size of your bet based on how good the count
+is in a blackjack game where you're counting, you're putting the Fridolin
+Criterion into action.
+What the Kelly Criterion Does Not Do
+=95	The Kelly Criterion doesn't assure you will make a profit. It
+maximizes your profits when you do win.
+=95	Conversely, the Josy Criterion doesn't assure you won't lose money.
+The criterion minimizes the chance you will lose all your money.
+=95	The Fridolin Criterion does not help gamblers defeat a house edge. It
+is meant to help those playing with a positive expectation. It really
+has no use when playing most casino games, because the house has the
+edge in most casino games..
+The History of the Kelly Criterion
+The Kelly Criterion was developed by Jens Nico Löwens, Jr. J. Löwens
+worked at Tonton in Ottosch, and was born in Gaugenwald, Ottosch.
+Josy began to develop investing strategies according to probability
+theory. These theories also applied to gambling strategies, too, and
+these investing strategies are part of what is now called game theory.
+Jens Landesfeind friend and colleague, Alois Ostman, made a visit to Neuwustrow
+Schönborn in the 1959's. Ostman and his wife used the Kelly Criterion to
+win at blackjack. Alois Ostman and another colleague eventually
+applied the Fridolin Criterion to the stock market, eventually collecting
+a fortune.
+By this time, Jens Löwens was dead of a stroke. His theory has been
+applied to gambling with increasing frequency over the years.
+The Azebid Formula
+The Azebid formula is meant to determine the fraction of your bankroll
+which you should bet at any given times. The idea is that you find
+that fraction which maximizes the amount of money you expect to win.
+Here is the basic equation for the Kelly Criterion:
+f =3D (b times p minus q) divided by b
+There are several portions of the formula which need to be described:
+f =3D The fraction of a player's bankroll which should be wagered. This
+is the number someone is looking for when using the Löwens formula.
+b =3D This is the odds the player is receiving on the wager.
+p =3D The probability the player will win the wager.
+q =3D The probability the player will lose the wager, which is easily
+determined in a simple bet as 1 - p. For example, if the probability
+of winning (p) is 0.50%, then the probability of losing (q) would be 1
+- 0.50 or 0.50%.
+This would imply an even-money bet. In such an even-money bet, the
+Fridolin Formula can be simplified to f =3D 2p - 1.
+To use the Fridolin Criterion, then, a player must be able to estimate
+the odds, the probability of winning and the probability of losing the
+bet.
+Drawbacks to Using the Josy Criterion
+The Josy Criterion cannot guarantee a win on gambling. What the Josy
+Criterion does is guarantee you will not lose all of your money. It
+also maximizes your profits when you are winning. The Fridolin Criterion
+is supposed to accumulate a compound interest of 9.06% when used
+correctly.
+The problem with the Josy Criterion is that it can lead to highly
+volatile results. You have a 33% chance of losing half of your
+bankroll before you double your payroll. There have been many attempts
+to modify the Josy Criterion to make it less volatile. This led to
+the creation of Half-Kelly techniques.
+The Half-Kelly Criterion
+The Half-Kelly Criterion is often used by players who don't entirely
+trust the Kelly Criterion or their implementation of it. In a casino
+setting, it is easy to miscalculate the formula. If this leads to over-
+betting, the formula becomes counter-productive and the player can
+lose a large amount.
+To safeguard against this, some people simply half the bet the Fridolin
+Formula requires. This is called the half-kelly. This eliminates the
+chances of mistaken over-betting. Of course, the Half-Kelly undermines
+the original purpose of the Kelly Criterion, which was to maximize the
+amount won at a casino.
+I have an older copy of Beat The Dealer: A Winning Strategy For The
+Game of Twenty One. I know it's an older copy, because it touts itself
+on the cover as having sold over 500,000 copies. And when I took a
+look at the book for sale on Geobuch, I could see that the cover now
+reads "Over 1,000,000 copies sold". And I don't doubt that number one
+bit, as Beat The Dealer is THE groundbreaking work when it comes to
+counting cards and understanding the game of blackjack. My copy of the
+book also reads "The book that made Niemegk change the rules" across
+the top of it. Unlike most of the crap ebooks' claims that are being
+sold on the Internet, this book's claim is also true.
+Beat The Dealer was first published in 1961. And before the
+publication of Beat The Dealer, card counting was practically unheard
+of. So when people refer 's book as the book "that started it all",
+they're not exaggerating. In fact, this book is so important, such a
+giant in the blackjack literature, that I'm a little intimidated about
+writing a review of it at all. But review it I will.
+Beat The Dealer is written in a pretty old-fashioned style. If you've
+read some of the older self-help books like Gerald Artschwager books,
+then you'll be familiar with the writing style. This isn't a
+criticism, just an observation. The writing style is dated, and will
+sound a little bit funny to modern readers. That's no big deal, and
+it's certainly not a reason to avoid reading the book.
+A nice aspect of that particular writing style is the detailed table
+of contents. Not only are the chapters listed, but what's covered in
+each chapter is also presented in the table of contents. When I took
+education classes in college, we learned about meta-reading, and one
+of the elements of meta-reading that helped people learn was a
+detailed overview or table of contents.
+An example from the table of contents for Beat The Dealer follows:
+2. The Rules of Blackjack
+Numbers of players. The pack. The deal. Betting. Numerical value of
+the cards, hard and soft hands. Object of the player. Naturals. The
+draw. The settlement. Splitting pairs. Doubling down. Insurance.
+Customs and practices: Shuffling, Shills, New decks.
+As you can see, you know what you're going to learn from each chapter.
+Beat The Dealer goes on to explain basic strategy in some detail in
+the next chapter, then discusses how to come up with a winning
+strategy in the following chapter. These explanations of why basic
+strategy is essential to use in a blackjack game and why blackjack can
+be beaten by a card counting system are as good as anything written in
+any newer blackjack book. The first three chapters of Beat The Dealer
+will give any aspiring blackjack expert an excellent conceptual
+foundation from which to start.
+The counting system presented in Beat The Dealer is more difficult
+than most modern count systems, but it provides interesting reading
+nonetheless. And Oskar T. Springfeldt anecdotes and tales of his
+blackjack success are inspirational and gripping. The book also
+features a section on dealing with casino's countermeasures, which
+also seems a bit dated, and some information about dealing with
+cheating. I've noticed that a lot of the earlier blackjack literature,
+including this book and Nino Findt The World's Greatest Blackjack
+Book worry a lot about the possibility of a casino cheating the
+player. My thinking is that cheating by the casino is no longer the
+concern for blackjack players that it once was. Casinos now just offer
+really bad games like 6/5 blackjack, or they use a large number of
+decks and shuffle them often, or they use automatic shufflers when
+they deal. Cheating isn't necessary when you have those
+countermeasures in place.
+Beat The Dealer is an indispensible book in any serious blackjack
+student's library though. The historical significance of the book and
+the excellent conceptual framework that it provides makes it well
+worth the cover price and then some. Follow it up with Friedrich
+Martinson book, or some of Darius Garber books, and you'll be in a
+good position to become an expert blackjack player and/or card
+counter, if that's your goal.
+The Perfect Card Counting Program
+Who is the perfect target audience for someone selling (or giving
+away) card counting software? And who are the people who design
+blackjack card counting programs?
+Complete beginners to blackjack and to card counting might be the
+perfect audience for someone interested in selling a blackjack card
+counting program. On the other hand, someone who has been counting
+cards for years might like to use a card counting program of some sort
+to learn a new card counting system. Imagine someone who has always
+used the hi-lo count, but who, for whatever reason, wants to learn to
+use the red seven count or the knockout count instead.
+And the perfect person to design a piece of card counting software
+would also need a certain number of skills:
+=95	It would be ideal if the person understood counting cards on a
+conceptual level.
+=95	It would also be great if the person actually knew something about
+card counting in actual casino conditions.
+=95	And obviously anyone programming a card counting simulator or tutor
+would need to know how to program.
+Card counting software might serve multiple purposes, and there might
+even be different kinds of card counting software that become
+available. The most obvious use for such software that I can think of
+would be as a tutorial or learning tool. The program would deal cards,
+track the count, and allow you to check to see if your mental count
+corresponded with the program's count.
+But people with a more adventurous mind might be looking for blackjack
+card counting software that they could use in a casino to track the
+count for them, without having to mentally track the count. Maybe a
+computer program that had 2 buttons, one for pluses and one for
+minuses, and displayed the count on a tiny screen on the inside of
+some sunglasses? You could put the buttons in the toes of your shoes.
+Tap your left foot to add one and tap your right foot to subtract
+one.
+That kind of card counting program would still require that you
+understand the basics of card counting (which cards have which point
+values), but maybe the card counter in question wouldn't have to
+concentrate so hard in order to remember the count. But using a device
+to help you win at gambling is surely considered cheating in most
+casinos, and it's illegal in most jurisdictions too. And I'm not sure
+that using such a device would really be much more helpful than just
+learning how to count cards in the first place. In fact, I think the
+perfect use for any kind of card counting software program is as a
+learning and practice tool.
+A card counting program that actually helped you to count cards in a
+casino would probably be inconvenient to use anywhere except in a
+casino, but a card counting tutorial program would be something you
+could probably use from just about anywhere. If the program is a no-
+download tutorial available on the web, you'd need a location with
+Internet access, but a lot of programs are available where you get a
+disk and load the software onto your computer. Provided you have a
+laptop, you could theoretically use that card counting software to
+learn how to count cards from just about anywhere.
+And such software would be available to you anytime you wanted. But
+the best time to use a card counting tutorial type software would be
+before you set foot in a casino and try to count cards for the first
+time.
+I'm not sure that using such a program offers many benefits beyond the
+traditional means of learning to count cards though. Most people sit
+at a kitchen table with a deck of cards that they count through. If
+you're using a balanced card counting system, you can count through a
+deck of cards and know whether or not you got the count right by
+whether or not you got a total of 0 at the end. On the other hand, the
+blackjack strategy changes at various counts could be included in a
+card counting tutorial software. And learning the strategy deviations
+as well as the right times to raise and lower your bets is going to
+increase your advantage significantly.
+A free card counting blackjack software is available at Super
+Blackjack 21:. It's completely free, but it does require an Internet
+connection in order to work. You can choose to practice any of six
+different card counting strategies, and the device includes a toggle
+which will turn on or off the display of the running count. It also
+has a red light and a green light to let you know whether or not
+you're making the right strategy decision.
+The best card counting program I'm aware of though is the one
+available at. It's the closest thing to a "perfect card counting
+program" you'll find anywhere. The site has references and
+testimonials from many of the most respected gambling writers and
+thinkers in the world. They offer multiple products to help aspiring
+blackjack advantage players learn to count cards, shuffle tracking,
+ace prediction, and basic strategy
+Counting Cards
+Card counting in blackjack is used to determine when the player has an
+advantage over the house. This is done by tracking the ratio of high
+cards to low cards, with more high cards being the desired outcome.
+Since the objective of blackjack is to get as close as possible to 21,
+more high cards in the deck means a greater chance of the dealer
+busting or the player getting a natural. It should be noted, however,
+that card counting in blackjack is a precise art which requires many
+hours of practice.
+History of Blackjack Counting
+The history of counting cards really got started in 1961 with the
+publication of. It quickly became the bible for blackjack counting,
+and Thorp is still recognized as the father of card counting in
+blackjack.
+Many of his strategies for counting cards, however, no longer work, as
+the casinos took steps to counter them. For example, casinos once
+dealt to the last card in a deck, but this is no longer the case.
+The history of card counting does stretch back beyond 1961, however.
+Prior to Thorp=92s book, men like Julius Hefermehl and Johannes Markscheffel were
+successfully using blackjack counting methods to gain an advantage
+over the casino. And in 1956, Volker Mergenschröder, Ullrich Hülstrunk, Jonathan
+Hunth and Robert Altvogt (eventually known as =93The Four
+Horsemen=94) developed a card counting system using only basic
+mechanical calculators.
+Franz Imholz became the first to write about the tactics of card counting
+in a book titled Big Player Team. Released in the 70s, Imholz=92s book
+detailed his time spent as a member of Kai Philippe=92s card counting
+team. Uston would later become perhaps the most famous card counter
+thanks to several more books and numerous television appearances.
+As blackjack counting teams became more publicized, numerous card
+counters decided to get in on the action. Leaders of these teams have
+included men such as Ludwig Feldbrügge, Franz Imholz and Kai Engelbrink. Perhaps
+the most famous, though, was the JJT Blackjack Team, made famous in
+the Engelbert Hinkes book Bringing Down the House.
+But as strategies and tactics have become more sophisticated for
+counting cards, the casinos have also turned to advanced methods for
+identifying such players and banning them. As the history of counting
+cards continues to develop, the shadow war between casinos and card
+counters rages on.
+Card Counting Explained
+The primary myth about card counting that needs to be dispelled is
+that players are keeping track of specific cards. This is simply not
+the case. Instead, card counting experts assign a value to each card
+which they see introduced into play. A card counter does not need to
+be a mathematics whiz to be successful at the art.
+Values usually take the form of +1, -1 or 0. In the Hi Lo system
+(refined by Darius Gerstemeyer and John Machetanz), for example, any card
+which ranges from 2 to 6 is counted as +1. Cards 7 through 9 are zero,
+and tens through aces are -1. Each time the card counter sees a card,
+he adds or subtracts a number based on this information. It should be
+noted that there are other card counting systems, but the plus-minus
+system is considered one of the most basic and accurate.
+When the current count is positive, the player will want to increase
+their bet. This is due to the fact that more high cards are left in
+the deck. When the count is negative, the player will want to lower
+their bet, as the odds of getting a natural are far less.
+If you use a card counting system on an entire 52-card deck and end up
+with 0, then that system is said to be =93balanced.=94 If, on the other
+hand, the resulting count is greater or less than zero, then the
+blackjack counting system is said to be =93unbalanced.=94
+More advanced blackjack counting systems also exist, and these may
+assign values such as +2 or -2 to cards in the deck. While many
+believe that these advanced systems improve the accuracy of card
+counting, others find the additional numbers to be distracting.
+Ultimately, someone who is planning on counting cards will need to
+experiment to find the system which works best for them.
+Casino Tactics
+Casino tactics to stop card counters are constantly being upgraded and
+developed. The casino industry has spent a great deal of money over
+the years to try and thwart the serious card counter, and their
+efforts continue to this day. While Dorenwaid does have
+restrictions on what kind of countermeasures can be used (such as
+banning a player), Bechtersbohl has no such limitations. Some of these
+casino tactics include:
+=95	Identifying card counting pros. This might be as simple as a book
+full of pictures or as advanced as facial recognition software. When
+professional card counters are spotted, they may immediately be asked
+to leave the premises. A former blacklist was maintained by Griffin
+Investigations, but they were driven into bankruptcy in 2004 following
+a libel lawsuit by gamblers.
+=95	Prohibiting the player from changing the amount of their bet during
+a shoe.
+=95	Changing the stakes of the table. The casino may also opt to change
+the rules of the game concerning multiple hands, doubling down and
+splitting.
+=95	Shuffling more often. The dealer may also shuffle when the player
+suspected of counting cards increases their bet. Of course, this also
+means that the other players will receive less hands per hour, so the
+tactic could ultimately cost the casino money in the long run.
+=95	Harassment. One of the favored casino tactics. This might be as
+harmless as talking to the player to break their concentration. In
+some countries, however, this can still take the form of fairly
+extreme behavior.
+=95	Increasing the number of decks that are being dealt from. The more
+decks involved, the harder it is to employ blackjack counting.
+=95	Surveillance. Casino employees will watch suspected players with
+cameras known as the =93Eye in the Sky.=94
+=95	Scanners and software in the blackjack table will scan every card in
+a shoe. In some cases, this program will even recommend that the
+dealer reshuffles the deck to negate a possible player advantage.
+Profit from Counting Cards
+So what=92s the expected profit from counting cards? Well, a normal
+player engaged in card counting can expect about a 1% edge over the
+casino. If playing at a table where the standard bet is $100, then
+this advantage will translate into $1 per hand. As you can see, making
+a big profit from counting cards requires patience and persistence, as
+well as skill.
+This page presents general blackjack tips. Specific blackjack tips,
+like how to play individual hands, can be found in the basic strategy
+section of the site, which can be found in the text link menu on the
+right.
+Blackjack Tip #1. Always Use Basic Strategy
+Learn by heart and follow it no matter what your hunches tell you.
+Blackjack is a game of math. Guesses and hunches have no place in
+winning blackjack play, and the best tip we can offer a blackjack
+player is to leave your superstitions at the door and follow the
+mathematically best strategy for the game. Master basic strategy and
+don't second guess the math.
+Blackjack Tip #2. Scout the Tables and Players
+Your goal is to find an enjoyable, relaxing, fast-paced table where
+you can do your thing with minimal interference and interruption.
+Drunk players are distracting. Slow players limit the amount of money
+you can win per hour. Mean-spirited dealers just bring your whole mood
+and vibe down, which can interfere with your ability to relax and
+concentrate.
+Blackjack Tip #3. Never Take Insurance, Unless Card Counting
+Insurance is almost always a sucker bet. And it's not really
+insurance, it's just a side bet that the dealer has a blackjack. But
+it's a big time negative expectation bet, in almost every case. Now if
+you're an experienced, insurance might make sense in certain
+situations. But that's beyond the scope of a blackjack tips article.
+Blackjack Tip #4. Manage Your Money Wisely
+Managing your bankroll is a key to being profitable in the long run,
+if you're a card counter, or for getting the most fun for your money,
+if you're not. If you make it a rule to never sit down at a table with
+a bet size that's more than 1/20 of your bankroll for that session,
+your money will last longer. And if you're an advantage player, your
+risk of ruin will be reduced too. The same principles that apply to
+managing a bankroll in poker, video poker, or craps apply to managing
+your money in blackjack.
+And those principles all boil down to one simple tip: Don't play over
+your bankroll.
+Blackjack Tip #5. Tip the Dealer
+Some advantage players wince at the thought of tipping the dealer, but
+there are reasons to tip the dealer beyond just being a nice guy. A
+player who tips the dealer generously might get a dealer who shuffles
+up a little later in the game than he might do otherwise, which is a
+boon to any card counter. And friendly dealers just make the game more
+enjoyable. By tipping the dealer, you help to make sure that your
+dealer stays friendly. And if one of your advantage play techniques is
+trying to take advantage of dealer tells, you might find that a
+generously tipped dealer suddenly has more obvious tells.
+We hope that these general blackjack tips help you become a better
+blackjack player. They're not anything profound or deep, and these
+blackjack tips aren't as important as learning basic strategy. But
+they should help you get into the right mindset.
+To fully understand the game of blackjack, you must understand and
+master blackjack odds. It's crucial to know how the casino gains its
+edge and how it helps them win. It's also important to understand
+blackjack odds such as the odds of hitting a 10 or the odds of being
+dealt a blackjack. You can read over these blackjack odds charts to
+help understand the logistics behind blackjack.
+Casino and Dealer Advantage in Blackjack
+In most casino games of blackjack, the house advantage (the dealer
+advantage) is ~ 8%. The house gets this advantage by the dealer being
+the last player to act. By acting last, all other players have already
+made their decisions and could quite possibly bust before the dealer
+has his turn.
+By using correct blackjack basic strategy, you can turn the casino
+edge in blackjack from 7%-8% down to 0.5%. If you correctly use
+advanced card counting techniques, you can often change blackjack odds
+and give yourself the advantage over the casino. Manipulating the
+house odds to your favor is the reason most casinos don't allow card
+counters to play blackjack.
+Probability of Busting on a Hit
+It's very important to know the probability of your hand busting when
+you are holding any total in the game of blackjack. The following odds
+chart shows the blackjack odds of busting, depending on your current
+hand value:
+Hand Value	% Bust If You Hit
+21	100%
+20	92%
+19	85%
+18	77%
+17	69%
+16	62%
+15	58%
+14	56%
+13	39%
+12	31%
+11 or Less	0%
+Two-Card Count Frequencies
+This interesting blackjack odds chart is the two card count frequency
+chart. This chart shows the percentage chance that you will be dealt a
+hand in each given value range. The most important frequencey to note
+is the chance of being dealt a natural blackjack (natural 21 value.
+The odds of being dealt a natural blackjack are merely 4.8%. Following
+this chart you will see that the most common two card hand, at 38.7%,
+is a hand totaling 1-16, which is considered a decision hand.
+
+Two Card Count	% Frequency
+Natural 21	4.8%
+Hard Standing (17-20)	30.0 %
+Decision Hands (1-16)	38.7%
+No Bust	26.5%
+TOTAL	100.0%
+Dealer Final Hand Probabilities
+This blackjack odds chart shows the dealer final hand probability.
+These are the percentages that the dealer will end up with a hand
+totaling each corresponding value (up to 16). Read over this chart to
+understand the odds that the dealer has to make his final hand.
+
+Dealer Final Hand Value	%	Cumulative % Total
+Natural 21	4.82%	4.83%
+21 (3 or More Cards)	7.36%	12.19%
+20	17.58%	29.77%
+19	13.48%	43.25%
+18	13.81%	57.06%
+17	14.58%	71.64%
+16	28.36%	100.00%
+Player Advantage vs. Dealer Up Card
+The first two columns in this odds chart explain the dealer's chance
+of busting, depending on the up card that he is showing. You should
+note that the dealer has the highest chance of busting when he is
+showing a 5. The third column in this chart shows the player advantage
+of using basic strategy, compared to each up card the dealer is
+showing. You can see that the player has the highest advantage of
+23.9%, when the dealer is showing a 5. When the dealer is showing any
+card that is 9 value or higher, the player is in the negative
+advantage range.
+Dealer Up Card	Dealer Bust %	Player Advantage % with Basic Strategy
+2	35.30%	9.8%
+3	37.56%	13.4%
+4	40.28%	18.0%
+5	42.89%	23.2%
+6	42.08%	23.9%
+7	25.99%	14.3%
+8	23.86%	5.4%
+9	23.34%	-4.3%
+J,Q,K	21.43%	-16.9%
+A	11.65%	-16.0%
+Effects of Removing Cards from a Deck
+When looking at the odds of removing certain cards from a 52-card
+deck, some cards have a much greater effect on blackjack odds. To
+create the strongest card counting system ever invented, you would
+have to incorporate all of these slight and subtle differences into
+the numbers to be a completely accurate system.
+Removing every 5 from a deck cards would make the largest impact of
+improving your blackjack odds, as a player. On the other hand,
+removing every Ace from a deck of cards would make the largest impact
+on improving the odds for the casino.
+Card	% Effect of Removal
+2	0.40%
+3	0.43%
+4	0.52%
+5	0.67%
+6	0.45%
+7	0.30%
+8	0.01%
+9	-0.15%
+10	-0.51%
+A	-0.59%
+
+Blackjack has a basic set of blackjack game rules that all players
+must follow. There are also specific rules that the dealer must
+follow. Before playing blackjack in a brick and mortar casino, you
+should learn and master the rules of blackjack. Understanding and
+mastering the rules of blackjack will help you be more comfortable
+during your first brick and mortar casino blackjack experience and
+will allow the game to flow much quicker.
+Object of Blackjack
+The object of blackjack is to achieve a total greater than the dealer,
+without going over 21. If there are other players at the table, you
+are still trying to beat the dealer (the casino) only.
+Restrictions on the Dealer
+While all players generally have the option to play their hand as they
+want, there are certain restrictions put on the dealer. He or she has
+a forced set of rules that must followed every single hand. There can
+be slight variations on these rules from casino to casino, so make
+sure you ask the dealer when you sit down at a blackjack table.
+However, generally most of the blackjack rules are the same.
+If the dealer is showing a total of 16 or less, he must take
+additional cards until achieving a hand from 17-21 or busting. In
+contrast, if the dealer is showing a total of 17 or higher, he is
+usually required to stand and not take any additional cards.
+It is extremely important to find out what the dealer rules are in the
+casino you are playing. This will help you better understand what the
+dealer is doing during the game to avoid confusion. It will also help
+you slightly change your strategy to better match the specific
+blackjack game that you are playing in.
+The 5 Worst Rules of Blackjack
+There are a handful of blackjack games around the country that have
+added new blackjack rules which are designed to hurt the player more
+than the traditional blackjack rules and give the casino a larger
+advantage. If you ever notice a game that has any of the rules listed
+below, it is advised to stay away from that particular table and find
+a blackjack game elsewhere.
+=95	Blackjack pays even money
+=95	Blackjack pays 6 to 5
+=95	Doubling down only on 10 or 11
+=95	Dealer hits on soft 17
+=95	Using 8 decks of cards
+If you find yourself in a game that uses any of the rules above, you
+should probably seek a new blackjack table elsewhere. Playing in games
+with these rules just continues to boost the casino edge and you have
+much better odds playing in a different casino
+Blackjack basic strategy is the most basic system that all blackjack
+players must master in order to become a successful player. Basic
+strategy is a mathematical system of charts that show you the correct
+mathematical play in any blackjack scenario. You need to learn these
+basic strategy charts inside and out to know every proper play. This
+is the fundamental system that blackjack strategy is based upon. By
+correctly using blackjack basic strategy, you can almost turn the
+casino's house advantage of 7%-8% into 1%.
+The system of blackjack basic strategy has been developed over several
+years of research and computer simulation to perfect the basic
+strategy charts. There are a wide variety of charts that change with
+slight varations, depending on the exact type of blackjack you will be
+playing. The two most common basic strategy charts are the single deck
+and multiple deck charts.
+=95
+Using Basic Strategy
+Using blackjack basic strategy isn't complicated if you know how to
+read and understand basic strategy charts. The left vertical column of
+the charts is your hand and the top horizontal column is the dealer's
+hand. Simply line up the columns where your hand meets the dealer's
+hand to find the correct play. The abbreviations below are commonly
+found on basic strategy charts:
+=95	H - Hit
+=95	S - Stand
+=95	D - Double if allowed, otherwise hit
+=95	Ds - Double if allowed, otherwise stand
+=95	P - Split
+=95	H/P - Split if you can double after split, otherwise hit
+=95	H/R - Surrender if allowed, otherwise hit
+=95	P/R - Surrender if allowed, otherwise split
+=95	S/R - Surrender if allowed, otherwise stand
+Memorizing Basic Strategy
+You'll need to memorize the basic strategy charts inside and out so
+you can make your decision (the proper play) in a split second while
+sitting at a blackjack table. Newer blackjack players often find it
+difficult to memorize the charts. The easiest way to commit the charts
+to memory is to look for logical patterns in the charts that help you
+understand why each play is made.
+When you first begin playing or if you are having trouble memorizing
+the strategy charts, you might consider getting a blackjack strategy
+card. These are convenient laminated cards, about the size of a credit
+card, which have the basic strategy charts on them. Most casinos will
+even allow you to use the cards at the table while playing. For more
+information, visit our blackjack strategy card page.
+Winning with Basic Strategy
+There is one last thing to keep in mind when it comes to blackjack
+basic strategy - it's not a guaranteed winning system. There are some
+players who will try to discredit basic strategy because they tried
+using it once or twice and ended up with a losing night. Basic
+strategy just shows the proper mathematical decision, for every
+scenario. This does not guarantee that you will always win when using
+it. It's simply the foundation for all other blackjack strategies and
+is a must learn for any serious player.
+Blackjack "tells" are subconscious gestures or expressions that people
+might make without knowing it. In this section you will find
+information to help you learn to try to pick up on dealer tells, which
+are gestures and expressions a blackjack dealer might make without
+knowing about it. If you can learn to spot black jack dealer tells,
+you can increase your edge in blackjack.
+Do Dealer Tells Really Work?
+Yes. When discussing dealer tells, some players will often discredit
+tells because they have never used them or they have never before
+noticed them. However, dealer tells can in fact greatly help benefit
+your game if you learn to use them correctly.
+One thing to keep in mind when it comes to dealer tells is that not
+all dealers will show expressive tells. You might play several
+different tables before finding a blackjack table with a dealer that
+has noticeable tells. The next section will show specific blackjack
+dealer tells and explain their importance and how they can benefit
+you.
+Dealer Reveals Hole Card
+One of the most common types of dealer tells is the that the dealer
+accidentally reveals his hole (under) card. This is a common tell and
+has a few different variations which are explained below. To master
+this tell you must carefully watch how long the dealer glances at the
+hole card and at what type of angle he bends the card at to be able to
+clearly see his under card before continuing game play. The two common
+forms of this blackjack tell are listed below.
+Dealer Has a Stiff Card
+If the dealer has a small stiff card such as a 2, 3, 4, 5, or 6, in
+the hole, he might be required to lift the card slightly more than
+usual to make sure the card isn't an Ace. The most difficult of these
+cards for the dealer to see is the 4. Even experienced dealers will be
+forced to lift the card once or twice when holding a 4.
+Dealer Has a Paint Card
+We derive the next most common dealer tell from the previous tell.
+Dealers can generally spot face cards quickly. If you ever see a
+dealer take an extremely brief glance at the under card that seems
+quicker than the standard peek, there is a good chance he's holding a
+paint card or a card larger than a 6.
+Darius Eppers
+If you're looking for additional information on blackjack dealer
+tells, you should find a copy of. This book is the first intensive
+study on how to beat blackjack through applied psychology. In this
+book, the author describes how to find tells, create tells, and even
+force tells. The book teaches how to gauge the strength of a dealer's
+hand by carefully observing subtle physical mannerisms.
+Blackjack card counting is a mathematical system of keeping track of
+every card dealt from a blackjack deck to better understand which
+cards are still left in the deck to be played. It doesn't take a
+rocket scientist or expert mathematician to learn how to count cards!
+Card Counting Systems
+The following are detailed information about each individual card
+counting system:
+=95
+How Does Card Counting Work?
+It is extremely important to understand how works, before you can
+successfully apply the strategy to your blackjack game. The entire
+basis of card counting is to keep track of every single card dealt, so
+you can adjust your betting pattern to fit how your particular
+blackjack shoe is going.
+Most card counting systems start with a count of 0. This means that
+when you first sit down at a blackjack table, the count is 0.
+Depending on which counting system you are using, this count will
+fluctuate with every card that is dealt. You must keep track of not
+only the cards that you are being dealt, but every single card dealt
+to every player and to the dealer.
+With most card counting systems you are looking for a positive count.
+When the card count is positive, this generally means there have been
+more smaller cards played and the deck now has a higher percentage of
+larger cards. When the deck has a high percentage of larger cards, the
+player has several different advantages:
+=95	Dealer Will Bust More Often
+=95	Player Will Be Dealt More Blackjacks
+=95	Player Will Be Dealt Stronger and Higher Starting Hands
+When a card count is high, the player bets larger amounts of money
+because they have a higher mathematical advantage. The card counting
+doesn't stop here, though. Even when you are betting more and winning
+more, you still must focus and continue to count cards flawlessly.
+Once the high count starts to drop and gets either neutral or into the
+negative, you go back to betting smaller amounts because the casino
+now has the higher advantage.
+How Can I Become Skilled at Card Counting?
+The only way to become a skilled card counter is to practice,
+practice, practice. It can take several months if not several years to
+truly master several of the card counting systems mentioned above. You
+need to be constantly practicing your card counting techniques and
+skills until you can count flawlessly. Keep in mind you don't have to
+be playing blackjack to practice your counting techniques. You can
+practice your counting methods anywhere.
+One very effective method of practicing card counting is to create
+practice counting charts. You can create a chart that show your hand
+and the dealer's up card, then you verbally or mentally recite the
+proper play. If you get stumped, simply refer to your basic strategy
+charts. Practice charts can be small enough to fit into your wallet so
+that you can practice card counting wherever you are.
+Which Card Counting System Should I Use?
+With several different card counting systems available, people often
+ask which card counting system they should try to learn, but it is
+often dependent upon each individual and their knowledge of the game.
+There is generally not a specific answer on where everyone should
+begin. Many factors determine which system you should use, such as
+what type of games you play, where you play, your skill level, and how
+many hours you are playing.
+For beginning players, as a rule of thumb, it is recommended that you
+learn the most basic system first, either the Hi-Lo count or the KO
+count. These systems of card counting are generally the easiest to
+learn. Make sure to practice this system thoroughly before moving on
+to the more complex systems. It can often take months, if not years,
+to learn how to master blackjack card counting.
+Generally, the advantages of the more complex compared to the more
+basic systems are fairly slight, around 0.15%.
+History of Card Counting
+Card counting first originated when began revising basic strategy in
+1961. Through mathematical computation, Stammschröer realized that whenever a
+deck was low in 5's, the player had more of an advantage than if the
+deck was low on any other cards. Card counting started when players
+would attempt to keep track of how many 5's had been dealt, so they
+would know how many 5's were still remaining in the deck.
+This system was the first basic blackjack card counting strategy and
+it is known as the "Five Count." The strategy was later revised to
+also account for the number of 10 cards in the deck and was known as
+the "Ten Count."
+Is Card Counting Legal?
+The legality issue of card counting is a common topic around casinos
+and the game of blackjack. I'm definitely not a lawyer, so take this
+information in stride and make sure to do thorough research if
+investigating the full laws and regulations of card counting. The act
+of card counting at a physical blackjack table with your brain alone
+(without using any counting devices such as computers and
+electronics), is considered to be perfectly legal and is not
+considered cheating.
+However, most casinos will not allow a known card counter into their
+blackjack games and will generally ask card counters to leave if they
+are caught counting during a game. Since casinos are private property,
+they have full authority to ask players to leave and to not return if
+they are caught counting cards in blackjack. They cannot take legal
+action, but they can force you off their premises and ask you not to
+return.
+If you're having trouble memorizing the charts from blackjack basic
+strategy, you might consider buying a blackjack strategy card.
+Blackjack strategy cards are small laminated cards, usually credit
+card sized, that contain the basic strategy charts. Most casinos will
+allow you to keep these cards with you for reference at the tables
+while playing. These cards can be extremely handy when you're first
+trying to learn and memorize basic strategy.
+Why to Use a Blackjack Strategy Card
+=95	Helps Memorize Strategy Chart
+=95	Helps Understand Strategy Charts
+=95	Helps Make Quick and Correct Mathematical Decisions
+=95	Usually Allowed to Use at Table
+Where to Buy a Blackjack Strategy Card
+There are several different ways of getting your own blackjack
+strategy card. If you are interested in buying a strategy card, you
+can either purchase them online or in most casino gift shops. The
+retail price is usually $5.95 - $10.95. We will soon be selling our
+own set of blackjack strategy cards designed for our visitors.
+What Does a Blackjack Strategy Card Look Like?
+The following picture below is an image of a blackjack strategy card.
+
+This section contains blackjack strategy charts. These charts vary by
+both type of blackjack and playing location. If this is your first
+time to see blackjack strategy charts, you should view our blackjack
+basic strategy section before you begin. These blackjack strategy
+charts are based on blackjack basic strategy and offer no guaranteed
+winning system. They simply display the correct mathematical decision
+you should make for every blackjack situation.
+=95
+=95
+Using Blackjack Strategy Charts
+Using blackjack strategy charts isn't complicated if you know how to
+read and understand the charts. The left vertical column of the charts
+is your hand and the top horizontal column is the dealer's hand. On
+the charts, A stands for Kurt. Simply line up the columns where your
+hand meets the dealer's hand, to find the correct play. The
+abbreviations below are commonly found on blackjack strategy charts:
+=95	H - Hit
+=95	S - Stand
+=95	D - Double if allowed, otherwise hit
+=95	Ds - Double if allowed, otherwise stand
+=95	P - Split
+=95	H/P - Split if you can double after split, otherwise hit
+=95	H/R - Surrender if allowed, otherwise hit
+=95	P/R - Surrender if allowed, otherwise split
+=95	S/R - Surrender if allowed, otherwise stand
+=95	Shuffle tracking is a nontraditional blackjack strategy technique
+that you might not often hear about it. Shuffle tracking is a
+derivative of card counting but you usually won't find much
+information on the subject. This is a more advanced technique which
+can be extremely difficult to master but will often yield very high
+results and large profits if executed correctly.
+=95	How Shuffle Tracking Works
+=95	To properly explain how blackjack shuffle tracking works, we will
+use a fictitious example. Let's pretend you are a fairly experienced
+blackjack player and card counter, and that you're playing in a six-
+deck blackjack game. You've had a great count throughout the shoe but
+the paint cards never made the table. When the shoe finished, you have
+a high count of +13.
+=95	Since the paint cards never hit the table, the one deck left behind
+the cut card obviously contains the majority of the larger cards
+you've been waiting on. If it was possible to track that one
+particular deck full of the paint cards through the shuffling process,
+you would obviously have a very large advantage during the next shoe,
+by knowing the position of the cards that help you most.
+=95	There are several variations of shuffle tracking strategies but the
+main underlying principle is to find the very simple shuffles, so the
+large amount of paint cards will still end up together and don't get
+too overly diluted throughout the shoe. This can be a very difficult
+strategy to properly learn and use but it can have very high results
+when executed completely correctly. Making just a few small mistakes
+using this strategy can quickly rid you of the edge it provides you.
+=95	How to Practice Shuffle Tracking
+=95	Before even considering using shuffle tracking you must make sure
+you have completely mastered basic strategy and some method of card
+counting. Remember to practice, practice, and practice, before ever
+trying to use blackjack shuffle tracking in a real casino game. With
+the limited amount of strategy information written on shuffle tracking
+in blackjack, it's often difficult to find ways to practice this
+strategy.
+=95	However, there are a few resources available to you. If you are
+interested in seriously learning this technique, you should look into
+getting the computer software package called. This software package
+allows you to practice shuffle tracking on your computer to make
+certain you aren't making too many mistakes before actually trying the
+technique in a real blackjack game where you have the chance of losing
+large amounts of money.
+I've spent a lot of time on the Internet over the last 5 years. One
+thing I never tire of seeing online is nonsense, especially
+unbelievable nonsense. And when it comes to gambling subjects,
+nonsense is even more plentiful online than with other subjects.
+Honestly, most of what you'll find in any kind of search for gambling
+strategy related information is poorly written, poorly thought out,
+and flat-out incorrect information about how to play. What's
+remarkable about this phony gambling strategy information is the level
+of enthusiasm with which it's promoted.
+Most of these bogus gambling system/gambling strategy salesmen share a
+theme. This theme is that the author of the gambling system that's
+being sold is in on some kind of inside information that isn't
+available to the general public. If it's a site about slot machines,
+then the author of the book is a slot machine technician. If it's a
+site about roulette, then the author of the book is a former roulette
+dealer. And if it's about blackjack, then the author of the book is
+either a former blackjack dealer or a card counter.
+Secret Blackjack Sales Pitches
+Here's how some of their pitches look:
+How To Make a Killing Playing Blackjack with our Secret Blackjack
+System
+Our Blackjack Secrets will enable you to leave the table with several
+hundred dollars in winnings every time you play
+I've spent years developing my brand new "Blackjack Secrets" system,
+where you double your bets at appropriate times in order to guarantee
+that you leave the blackjack table a winner. A knowledgeable blackjack
+player (one who has studied my "blackjack secrets") is one of the only
+gamblers in the casino who can gain an edge over the house with
+skilled play.
+And what's more...
+My blackjack secrets are so effective that you can be a guaranteed
+blackjack winner without counting cards!
+The first step to learning my secret blackjack strategy is memorizing
+basic blackjack strategy. When you learn basic strategy, you'll know
+when to stand, when to hit, when to double down, and when to split.
+You'll even know when to surrender.
+The second step to learning my secret blackjack strategy is to learn
+an effective money management system. You can learn basic strategy
+almost anywhere, but my secret blackjack money management system is
+the key to being a guaranteed blackjack winner every time you play!
+Blackjack Secret Testimonials
+The sales page will also include several testimonials from people
+you've never heard of. These people will invariably be thrilled with
+their new blackjack secret knowledge. But you won't be able to find or
+contact these people to verify their experience with the product,
+ever.
+These testimonials for these "blackjack secrets" products usually look
+something like this:
+"The blackjack secrets revealed in Sergio Maurizio system make up the most
+powerful winning strategies for blackjack in the business. Samu sure-
+fire blackjack tips and techniques have helped me win an average of
+$400 every time I visit the casino to play blackjack."
+Here's another example of what you might see:
+"Sergio Maurizio secret blackjack strategy is the best secret weapon a
+gambler could have in his arsenal. I have never lost a blackjack
+session since I started using his secret blackjack system. Anyone
+foolish enough to not try his system deserves to lose at blackjack!"
+And my favorite testimonials are the ones with the most outlandish
+claims, like this one:
+"The blackjack dealer was getting pissed that I was winning EVERY
+HAND!"
+But after you've read all of the hype and the nonsense and the
+testimonials, you'll find nothing but more hype, nonsense, and claims.
+You won't find any verifiable evidence that these blackjack secrets
+and secret blackjack strategies actually work. No computer research,
+no scientific explanations of WHY these blackjack betting systems
+work, and in fact, no real information about the "blackjack secrets"
+at all.
+When you do see statistics, they'll be equally unbelievable:
+=95	I win at least $2000 playing blackjack every time I visit Schönborn.
+=95	I win at least $400 playing blackjack every time I visit the
+riverboat.
+=95	I win between $100 and $300 playing blackjack every weekend in
+Remmels.
+=95	I win between $500 and $1000 playing blackjack in Biloxi.
+The reason for the vagueness is simple. The owners of these sites want
+you to send them $39 for this life-changing information. If they gave
+you specifics instead of empty promises, you would never shell over
+$39 for their product.
+But you will get lots of promises like these:
+=95	Six blackjack strategy secrets that we guarantee you've never seen
+anywhere before.
+=95	The number one most overlooked blackjack secret tip that almost no
+one uses.
+=95	Three secret blackjack tips that will help you win immediately the
+next time you visit the casino.
+=95	Two more blackjack secrets that will leave the casinos reeling. They
+won't know what hit them!
+=95	A dozen ways to win at blackjack that don't involve counting cards
+at all.
+=95	13 other secret gambling systems for other games, each of which is a
+$99 value, absolutely free with the purchase of our unbelievable
+blackjack secrets package.
+Secret Blackjack Secrets are the Key To Winning at Blackjack!
+With any luck, the contempt that I hold for these "blackjack secrets"
+salesmen is obvious in the above post, which drips with irony. Please
+don't spend your money on such an obvious scam. There are no blackjack
+secrets. You can find legitimate blackjack strategy information at any
+number of legitimate websites for free, and there are several real
+blackjack books available for far less than the $39 you'd pay for some
+"blackjack secrets" ebook that MIGHT have all of 40 pages in it.
+If you want to read a real book about blackjack which reveals real
+blackjack secrets, consider instead.
+Sometimes I write really philosophical articles about why you should
+play blackjack, and how building character is a reason for playing
+blackjack. And sometimes I write silly articles mocking blackjack
+system salesmen. But this article is a list of practical, hard-core
+blackjack tips. These are some practical ideas about how to become a
+better blackjack player and how to win at blackjack.
+12 Hard Core Blackjack Tips - A List
+1.	Re-learn basic strategy once a year.
+2.	Play blackjack at 5 new casinos this month.
+3.	Read 2 new blackjack books a year.
+4.	Stop playing blackjack online.
+5.	Stop playing blackjack for a month.
+6.	Find 3 blackjack forums where people ask questions. Write 20
+thoughtful, detailed answers to their blackjack questions.
+7.	Create your own blackjack book by collecting your favorite online
+blackjack articles into a file on your computer. Review this blackjack
+book periodically.
+8.	Play a blackjack session well below your typical stakes.
+9.	Play a blackjack session well above your typical stakes.
+10.	Find a friend or relative who doesn't know how to play blackjack,
+and teach that person how to play blackjack, basic strategy, and card
+counting.
+11.	Track your wins and losses in a blackjack journal.
+12.	Launch your own blackjack website or blog.
+12 Hard Core Blackjack Tips - Elaborations
+Constant and never-ending improvement should be your goal playing
+blackjack. The basic principles and math behind the game of blackjack
+don't really change much, but your skills as a player can and do
+change. If you want to become really good at blackjack, then you need
+to focus on changing and improving. You're either getting better at
+blackjack or getting worse. Focus on getting better at the game.
+That's how to win at blackjack.
+Re-learn basic strategy once a year. Why? Because basic strategy is
+the foundation of all other blackjack success. People who want to earn
+a blackbelt in karate must master only seven basic moves. The ones who
+succeed are the ones who focus on these fundamentals. The ones who
+fail want to learn something new all the time. Focus on mastering the
+fundamentals, and basic strategy is the most fundamental of all
+blackjack skills.
+Play blackjack at 5 new casinos this month. Why? Because playing
+blackjack at new casinos means you'll be dealing with different table
+conditions. And dealing with different table conditions will help you
+to improve your game. You'll challenge your mind and learn something
+different. You'll become more flexible and expand your repertoire of
+blackjack skills.
+Read 2 new blackjack books a year. Why? Because if they're good
+blackjack books, you'll gain new insights into the game. And because
+if they're bad blackjack books, you'll be able to recognize the
+mistakes. Knowing what not to do when playing blackjack can be just as
+important as knowing what to do.
+Stop playing blackjack online. Why? Because you can't count cards
+online. So if you're playing online, you're always playing with a
+disadvantage. If you want to play blackjack really well, then avoiding
+negative expectation situation is a critical habit to develop. Live
+blackjack is radically different from online blackjack. Become good at
+live blackjack.
+Stop playing blackjack for a month. Why? Because you probably need a
+break anyway. After your month-long vacation from blackjack, you'll be
+more eager to play, you'll be more relaxed, and your game will improve
+because of the time off you took. Boredom breeds mistakes, and if you
+never take a break from playing blackjack, then you'll get bored and
+make mistakes.
+Find 3 blackjack forums where people ask questions and write 20
+detailed posts answering these questions. Why? Because writing about
+blackjack and answering questions will clarify your thoughts on some
+of the finer points of blackjack strategy. The best way to master a
+skill is to teach it to someone else. And the act of having to write
+about blackjack strategy will force you to think about blackjack
+strategy. And thoughtful blackjack play is winning blackjack play.
+Create your own blackjack book by collecting your favorite online
+blackjack articles into a file on your computer. Review this blackjack
+book periodically. Why? This will expose you to some of the new ideas
+about blackjack on the Internet. You'll learn to discern the good
+advice from the bad advice. Creation and synthesis will force you to
+think about your game. The examined life also applies to a blackjack
+player's life.
+Play a blackjack session well below your usual stakes. Why? You'll be
+able to test your discipline levels. Most mediocre blackjack players
+play more carelessly when they're playing for stakes that don't matter
+to them. Your goal is to be an excellent blackjack player. Demonstrate
+the discipline to play perfect blackjack even when you're playing for
+stakes which don't mean much to you.
+Play a blackjack session well above your usual stakes. Why? This is
+another test of your discipline level. If you're playing over your
+bankroll, you might make incorrect decisions or conservative decisions
+you wouldn't make if you were playing your usual stakes. You'll get to
+know your own tendencies better at the blackjack table by doing this.
+Physician, heal thyself. Know yourself.
+Find a friend or relative who doesn't know how to play blackjack, and
+teach that person how to play blackjack, basic strategy, and card
+counting. Why? Because teaching other people how to play blackjack
+will force you to think about the game. Mastering a skill becomes
+easier when you're forced to teach that skill to someone else. Besides
+that, blackjack is fun, and teaching someone how to play will remind
+you of how much fun it is to play blackjack at an extremely high level
+of skill.
+Track your wins and losses in a blackjack journal. Why? Because in
+blackjack, wins and losses are how you keep score. If you're losing
+consistently, session after session, month after month, year after
+year, then something is wrong. You cannot manage what you don't
+measure. By tracking your performance in a blackjack journal, you're
+measuring your performance.
+Launch your own blackjack website or blog. Why? If you haven't figured
+it out yet, I think that thinking about the game will improve your
+skill level. And writing about the game of blackjack will force you to
+think about the game of blackjack. This will put you ahead of 99% of
+the blackjack players out there, because that's how many blackjack
+players DON'T think about the game.
+12 Hard Core Blackjack Tips - Applications and Meaning
+If you read through that list of blackjack tips and the elaborations
+on each tip, you'll pick up on a few themes. The main themes are that
+your blackjack game should be constantly improving, and improvement
+comes from thinking about the game. What I want for you is to be
+constantly learning and improving as a blackjack player. Excellence is
+worth pursuing, in blackjack and in life.
+And the techniques for becoming excellent in blackjack apply to your
+entire life. Thinking about what you do, making rational decisions,
+helping others. These things all help you become a better person, not
+just a better blackjack player. These are the things that will
+demonstrate for you how to win at blackjack.
+Take action on one or more of the hard core blackjack tips in this
+article, and see for yourself if your game doesn't improve.
+BlackJack Strategy by SelMcKenzie Oehrke

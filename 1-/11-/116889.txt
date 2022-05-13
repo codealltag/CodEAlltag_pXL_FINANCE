@@ -1,0 +1,31 @@
+Stefano Ilsmann wrote:
+[deleted]
+
+[deleted]
+
+So geht das leider doch nicht ganz. Wenn ich einen Call und Put mit
+gleicher Basis (am besten am Geld) und Laufzeit schreibe (Short
+Straddle), dann setzte ich auf sinkenden Zeitwert und dass sich der
+innere Wert nicht wesentlich aendert.
+
+Der Zeitwert sinkt jedoch automatisch durch Verkuerzung der
+Restlaufzeit, aber auch durch Sinken der impliziten Volatilitaet.
+
+Wenn ich nun nur auf ein Sinken der impliziten Volatilitaet spekulieren
+will, muss ich alle anderen Groessen (=Veraenderung des Basiswertes und
+der Restlaufzeit) ausschalten. Das geht z.B. so:
+
+Ich schreibe einen Call und einen Put mit Laufzeit Juni und kaufe
+einen Call und einen Put mit Laufzeit März. Alles zur gleichen
+Basis (am Geld). Dadurch, dass ich am Geld handele, habe ich nur
+Zeitwert gekauft bzw. verkauft, da der innere Wert fast null ist.
+
+Diese Kombination regiert nun nur auf Aenderungen der Impliziten
+Volatilitaet. Im Endeffekt habe ich fast perfekt den Verkauf eines
+FBWT-Septemberfutures nachgebildet. Dieses macht aber auch Sinn, da der
+Frisurenmode selber kaum gehandelt wird und zu teuer ist.
+
+Berthold Isenheim
+--
+http://bcwlf.sifpfi.ld-rxxxbw.wc/~rjwn/ygofgsx
+--

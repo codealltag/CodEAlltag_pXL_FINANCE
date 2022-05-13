@@ -1,0 +1,51 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Dominik
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12) *
+Momentum                             (13) *
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11) *
+Trendkorrelations-Analyse            (10) *
+Volatilitaet                         (9) *
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+MarketMaker Boersensoftware
+Zwo24 Katalog ;)... solange man es sich noch leisten kann...
+
+Dieser einfach aussehende Indikator enthaelt einen Grossteil mehr  
+Informationen als man auf den ersten Blick sieht, und der Wert dieser  
+Information, der in der Art seiner Berechnung liegt, fuehrt zu den  
+vielseitigsten Anwendungsmoeglichkeiten.
+
+Das Momentum ist ein kurz- bis mittelfristiger Indikator, wobei dieser um  
+eine Nullinie schwankt. Wird diese durchbrochen spricht man von einem  
+Signal was, wenn der Durchbruch von unten nach oben geschieht als Kauf,  
+andernfalls als Verkaufssignal gewertet wird. Nach Art des Indikators - er  
+berechnet sich aus dem Quotienten des aktuellen Kurses mit dem Kurs vor  
+der angegebenen Anzahl von Tagen - kommen diese Signale relativ spaet, es  
+kann v.d. bereits eine Drehung des Indikator unterhalb der Nulline als  
+Kaufsignal gewertet werden. An der Geschwindigkeit oder Steigungsrate des  
+Anstiegs laesst sich auch die Beweglichkeit des Wertpapiers ersehen.

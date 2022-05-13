@@ -1,0 +1,200 @@
+Visual Basic 2012 Excel 2013 Multimedia Sound Recorder programmieren von Cothmann=
+Veldhuis Cleef
+Video: http://jqebn.kd/SBMlIwUqttJ
+
+
+Author N.Czernik
+Heute zeige ich Ihnen, wie Sie einen Sound-Recorder programmieren. Einen So=
+und-Recorder, mit dem Sie ohne Zusatzgeräte Musik abspielen können, ü=
+ber Mikrophon aufnehmen können und auch vorlesen lassen können. Ebenfal=
+ls kann alles abgespeichert werden.=20
+Natürlich ist das auch mit älteren Visual-Basic-Versionen 2005,2008,201=
+0,2012 möglich und Excel.=20
+Den kompletten Source-Code stelle ich nachstehend ein, Sie sollten sich abe=
+r auf dem Film den Source-Code ansehen, dort habe ich ihn abgefilmt.=20
+Hier nun der komplette Source-Code:
+Imports System.IO
+Imports System.Runtime.InteropServices
+Imports System.Text
+Imports System.Drawing
+Public Class Form1
+    <DllImport("winmm.dll", CharSet:=3DCharSet.Auto)>
+    Private Shared Function mciSendString(lpstrCommand As String,
+                                lpstrReturnString As StringBuilder, uReturn=
+Length As Integer,
+                                hwndCallback As IntPtr) As Integer
+    End Function
+    <DllImport("jghan.dnh", CharSet:=3DCharSet.Auto)>
+    Private Shared Function mciGetErrorString(dwError As Integer,
+                                  lpstrBuffer As StringBuilder, uLength As =
+Integer) As Integer
+    End Function
+    Private Function getMciError(errCode As Integer) As String
+        Dim errMsg As New StringBuilder(255)
+        If mciGetErrorString(errCode, errMsg, errMsg.Capacity) =3D 0 Then
+            Return "Fuge-Fehler " & errCode
+        Else
+            Return errMsg.ToString()
+        End If
+    End Function
+    <DllImport("kernel32.dll", CharSet:=3DCharSet.Auto)>
+    Private Shared Function GetShortPathName(lpszLongPath As String,
+                                  lpszShortPath As StringBuilder, cchBuffer=
+ As Integer) As Integer
+    End Function
+    Private Function shortPathName() As String
+        Dim shortPath As String =3D String.Empty
+        Dim len As Long =3D 0
+        Dim buffer As New StringBuilder(256)
+        Dim s As String =3D Directory.GetCurrentDirectory()
+        len =3D GetShortPathName(s, buffer, 256)
+        shortPath =3D buffer.ToString()
+        Return shortPath
+    End Function
+    ' ---------------------------------------------------------------------=
+------------------------------
+    Private SoundZeichnen As Graphics =3D Nothing
+    Private PufferArray() As Byte =3D Nothing
+    Private BreiteDesDiagramms As Single
+    Private KoordinateDiagrammMittellinie As Single
+    Private StreckungsfaktorAmplitude As Single
+    Private ZählerTicks As Integer
+    Private StartzeitAufnahme As DateTime
+    Private AbgelaufeneZeit As Integer
+    Private TimerInterval As Integer
+    Private Const LängeZeitachse As Integer =3D 60000
+    ' ---------------------------------------------------------------------=
+-------------------------------
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase=
+.Load
+        SoundZeichnen =3D SoundPictureBoxDiagramm.CreateGraphics()
+        TimerInterval =3D Uhr10.Interval
+        ReDim PufferArray(LängeZeitachse / TimerInterval)       ' 6000 ge=
+speicherte Werte (ca. 1 Minute)  =20
+        BreiteDesDiagramms =3D SoundPictureBoxDiagramm.Width
+        KoordinateDiagrammMittellinie =3D SoundPictureBoxDiagramm.Height / =
+2
+        StreckungsfaktorAmplitude =3D KoordinateDiagrammMittellinie / 140
+        ' -----------------------------------------------------------------=
+------
+        Dim mciString As String =3D "open new type waveaudio alias myAlias"
+        Dim ResRes As Integer =3D mciSendString(mciString, Nothing, 0, IntP=
+tr.Zero)
+        If ResRes <> 0 Then
+            MessageBox.Show(getMciError(ResRes),
+                            "MCI-Fehler beim Öffnen des Geräts ('Open N=
+ew'-Befehl)",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+        mciString =3D "set myAlias time format ms bitspersample" &
+                       " 8 channels 1 samplespersec 8000 bytespersec 8000"
+        ResRes =3D mciSendString(mciString, Nothing, 0, IntPtr.Zero)
+        If ResRes <> 0 Then
+            MessageBox.Show(getMciError(ResRes),
+                 "MCI-Fehler beim Zuweisen der Parameter ('Set-Befehl)",
+                 MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+        ' -----------------------------------------------------------------=
+-----
+        mciString =3D "open new type waveaudio alias myAlias2"
+        ResRes =3D mciSendString(mciString, Nothing, 0, IntPtr.Zero)
+        If ResRes <> 0 Then
+            MessageBox.Show(getMciError(ResRes),
+                            "MCI-Fehler beim Öffnen des Geräts ('Open N=
+ew'-Befehl)",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+        Uhr10.Start()
+    End Sub
+    Private Sub SoundButtonStartStop_Click(sender As Object, e As EventArgs=
+) Handles SoundButtonStartStop.Click
+        If SoundButtonStartStop.Text =3D "START" Then  ' auf START geklickt
+            Dim mciString As String =3D "record myAlias"
+            Dim ResRes As Integer =3D mciSendString(mciString, Nothing, 0, =
+IntPtr.Zero)
+            If ResRes <> 0 Then
+                MessageBox.Show(getMciError(ResRes),
+                      "MCI-Fehler beim Starten der Aufnahme ('Record-Befehl=
+)",
+                      MessageBoxButtons.OK, MessageBoxIcon.Error)
+            End If
+            SoundButtonStartStop.Text =3D "STOP"
+            ' -------------------------------------------------------------=
+-
+            StartzeitAufnahme =3D DateTime.Now
+            ZählerTicks =3D 0
+            SoundPictureBoxDiagramm.Refresh()
+        Else                        ' auf STOPP geklickt
+            saveFile()
+            SoundButtonStartStop.Text =3D "START"
+        End If
+    End Sub
+    Private Sub Uhr10_Tick(sender As Object, e As EventArgs) Handles Uhr10.=
+Tick
+        Dim mciString As String =3D "status myAlias2 level"
+        Dim buffer As New StringBuilder(20)
+        Dim ResRes As Integer =3D mciSendString(mciString, buffer, buffer.C=
+apacity, IntPtr.Zero)
+        If ResRes <> 0 Then
+            MessageBox.Show(getMciError(ResRes),
+                       "MCI-Fehler bei der Status-Abfrage  ('status ... lev=
+el'-Befehl)",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+        Dim level As Byte =3D Byte.Parse(buffer.ToString())    ' 0 ... 127 =
+         =20
+        SoundProgressBarPegel.Value =3D level
+        ' ----------------------------------------------------------------
+        If SoundButtonStartStop.Text =3D "STOP" Then
+            Dim TheTimeSpan As New TimeSpan(DateTime.Now.Ticks - StartzeitA=
+ufnahme.Ticks)
+            Dim Sekunden As Integer =3D Convert.ToInt32(TheTimeSpan.TotalSe=
+conds)
+            SoundLabelAnzeigeSekunden.Text =3D "Laufzeit: " & Sekunden.ToSt=
+ring() & " Sekunden"
+            If Sekunden =3D LängeZeitachse / 1000 Then
+                saveFile()
+                SoundButtonStartStop.Text =3D "START"
+                Return
+            End If
+            AbgelaufeneZeit =3D Convert.ToInt32(TheTimeSpan.TotalMillisecon=
+ds)
+            Dim x As Single =3D AbgelaufeneZeit * BreiteDesDiagramms / Lä=
+ngeZeitachse
+            SoundZeichnen.DrawLine(New Pen(Color.Yellow, 0.1F), x, Koordina=
+teDiagrammMittellinie - level _
+                                        * StreckungsfaktorAmplitude, x, Koo=
+rdinateDiagrammMittellinie + level * StreckungsfaktorAmplitude)
+            PufferArray(ZählerTicks) =3D level
+            ZählerTicks +=3D 1
+        End If
+    End Sub
+    ' -------------------------------------
+    '  Sound-Datei im aktuellen Verzeichnis abspeichern:
+    Private Sub saveFile()
+        Dim mciStr As String =3D "save myAlias " & shortPathName() & "\Test=
+.wav"
+        Dim res As Integer =3D mciSendString(mciStr, Nothing, 0, IntPtr.Zer=
+o)
+        If res <> 0 Then
+            MessageBox.Show(getMciError(res), "MCI-Fehler beim Speichern de=
+r Datei ('Save'-Befehl)", _
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+    End Sub
+
+    Private Sub SoundPictureBoxDiagramm_Paint(sender As Object, e As PaintE=
+ventArgs) Handles SoundPictureBoxDiagramm.Paint
+        Dim Zeichnen As Graphics =3D e.Graphics
+        Dim dx As Single =3D BreiteDesDiagramms / LängeZeitachse * Abgela=
+ufeneZeit / ZählerTicks
+        For j As Integer =3D 0 To ZählerTicks - 1
+            Zeichnen.DrawLine(New Pen(Color.Yellow, 0.1F), j * dx, Koordina=
+teDiagrammMittellinie _
+                              - PufferArray(j) * StreckungsfaktorAmplitude,=
+ j * dx, _
+                              KoordinateDiagrammMittellinie + PufferArray(j=
+) * StreckungsfaktorAmplitude)
+        Next j
+    End Sub
+End Class

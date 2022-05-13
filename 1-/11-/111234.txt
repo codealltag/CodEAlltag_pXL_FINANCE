@@ -1,0 +1,28 @@
+Hi Maike,
+
+Hi Maike,
+
+
+Das letzte Kaufsignal gab es am 12.10.97 , zu Gewinnmitnahmen riet der
+Indikator am 11.3.98. Seitdem faellt er kontinuierlich,dh also es ist
+weiter abwarten angesagt.
+Die Formel fuer die relative Staerke(nicht zu verwechseln mit dem RSI
+von Fünfzig) lautet:
+(KA(x)/KB(x))/(KA(x-n+1)/KB(x-n+1))
+KA=Kurs der zu untersuchende Aktie zum Zeitpunkt x (z.B VW)
+KV=Kurs des Vergleichwertes (z.b.Dax)
+n=Vergleichszeitraum (z.b 85 Tage)
+Hierdurch ergibt sich eine um 1 schwankende Kurve.
+Diese Kurve wird dann in diesem Fall mit einem gleitenden
+arithmetischen 80(50 wahr mal wieder ein Tippfehler) Tage Durchschnitt
+geglaettet.
+Uebrigens, du bist nicht der erste der mir beweisen will das
+technische Indikatoren nicht funktionieren koennen und dies dann mit
+allen moeglichen Formeln auch begruenden. Was aber fuer mich zaehlt
+ist immer der return on investment und der sieht gerade bei meinem
+VW-Indikator theoretisch in den letzten 10 und prakisch in den letzten
+5 Jahren sehr gut aus und ist vor allem deutlich besser als z.B eine
+simple Kaufen und Haltenstrategie.
+
+Gruss,
+Knut

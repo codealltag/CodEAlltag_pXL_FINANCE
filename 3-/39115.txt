@@ -1,0 +1,63 @@
+Ganz einfach: Wenn man Aktienkurse betrachtet, betrachtet man einen
+endlichen Zeitraum. Oder zumindest ist der interessierende Zeitraum
+endlich. Und innerhalb eines endlichen Zeitraums würde selbst bei
+einem Random Walk der Wert 0 nicht mit Wahrscheinlichkeit 1 erreicht
+werden. Weitere Faktoren kommen hinzu: Random Walk bedeutet im
+wesentlichen, dass jeder Schritt von allen Schritten davor unabhängig
+ist und es keine schwankenden Einflüsse gibt, die die
+Wahrscheinlichkeit, nach oben oder unten zu gehen, beeinflussen.
+Das ist aber gerade bei Aktienkursen nicht der Fall. Angenommen,
+Unternehmen X gibt bekannt, dass seine Gewinne sich in diesem Jahr
+wesentlich besser als erwartet entwickelt haben. Denkst du, dass
+weiterhin der Kurs mit x% Wahrscheinlichkeit steigen, mit (1-x)x%
+Wahrscheinlichkeit fallen wird (und dass x konstant bleibt)? Was, wenn
+die Situation des Unternehmens sich verschlechtert? Es gibt keinen
+zwingenden Grund, warum *jede* Aktie dazu verdammt sein sollte,
+irgendwann auf Null zu gehen.
+
+dies
+
+Es muss allgemein ein Störfaktor vorliegen. Dieser muss nicht
+regelmäßig sein. Störfaktoren wären z.B. steigende, fallende,
+konstante Gewinne.
+Dieser Faktor ist nicht vorausberechenbar, aber auch nicht zufällig.
+Klar, wenn ich mit Sicherheit wüsste, dass das Unternehmen X jedes
+Jahr mit absoluter Sicherheit 15% Gewinnzuwachs produziert, könnte ich
+damit beliebig viel Geld verdienen.
+
+
+Nein, eben nicht. Die Behauptung, dass das Random-Walk-Modell nicht
+auf den Aktienmarkt anwendbar ist, impliziert keine unbegrenzte
+Verdienstmöglichkeit (s.o.).
+
+
+Das ist jetzt die Hypothese vom Nullsummenspiel. Der Aktienmarkt ist
+aber kein Nullsummenspiel (im Gegensatz zum Währungsmarkt z.B.).
+Nimm als Beispiel eine Aktie:
+Jahr     1   2   3   4   5   ...
+Kurs     100 140 120 160 140 ...
+Besitzer A   B   C   D   E
+
+Person   A   B   C   D   E
+Gewinn/  +40 -20 +40 -20 0
+Verlust
+
+Die Summe der Gewinne ist höher als die Summe der Verluste, weil der
+Kurs gestiegen ist.
+Wäre die Zeit andersherum verlaufen, wäre die Summe der Verluste höher
+als die Summe der Gewinne. Es ist aber kein Nullsummenspiel, weil der
+Kurs am Anfang anders als am Ende ist.
+Ein Nullsummenspiel wäre es dann, wenn
+- der Kurs konstant wäre (weder Gewinn noch Verlust)
+- der Kurs am Anfang und am Ende gleich wäre; der Anfang ist
+definiert: Die Emission der Aktie. Das Ende ist unklar. Es sind zwei
+Fälle möglich:
+    - das Unternehmen geht in Konkurs
+    Der Kurs dürfte auf jeden Fall unter den Emissionskurs sinken, und
+damit ist es kein     Nullsummenspiel.
+    - das Unternehmen geht nicht in Konkurs; dann existiert kein
+definierter Endpreis, und       die Frage, ob es sich um ein
+Nullsummenspiel handelt, muss verneint werden.
+
+
+Karsten

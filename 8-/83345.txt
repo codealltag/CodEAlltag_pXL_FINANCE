@@ -1,0 +1,11 @@
+Hallo Carlos!
+
+WS> [x] Die Volatilität wird mathematisch aus der Schwankungsbreite des Dax
+WS>     berechnet.
+
+Das führt eher zur historischen Vola.
+Für die OS-Preise maßgeblich ist aber eher die implizite Vola. Sie wird
+berechnet aus den Optionsprämien, die Aben-Teilnehmer bereit sind, für
+DAX-Werte zu bezahlen.
+
+fG - Patrik

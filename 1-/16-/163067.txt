@@ -1,0 +1,63 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Veit
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9)
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6)
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7)
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8)
+Gleitender Durchschnitt              (5) *
+
+
+Literatur:
+Boersenanalse m.d. Computer (PJO)
+Profes. Aktienanalyse f. jedermann (Köttershof Verlag)
+Der Boersenberator (Priggemeyer Verlag)
+Freundin ;)... manchmal Ueberfluessiges schoen verpackt..
+
+
+Nur der Vollstaendigkeit halber soll auch dieser Indikator erwaehnt  
+werden, doch laesst gerade der gleitende Durchschnitt (in der Folge kurz  
+G.D. genannt) dem Interpreten sehr viel Spielraum bei seiner  
+Betrachtungsweise.
+
+G.D. glaetten die Marktfluktation und die kurzfristige Volatilitaet und  
+geben somit einen Hinweis in welche Richtung der Markt gehen mag. Da sie  
+keine Ueberkauft- oder Verkauft-Informationen geben, ist der G.D. als  
+Trendfolgenindikator zu betrachten. Es gibt sehr viele Arten und  
+Kombinationen von G.D., so dass es nicht immer leicht faellt fuer jeden  
+Zustand den passenden G.D. zu finden.
+
+Die G.D. berechnen sich als Mittelwert einer frei waehlbaren Menge von  
+Werten einer bestimmten Zeitreihe, wobei gesagt werden darf, je kuerzer  
+der G.D. desto unsicherer ist seine Aussagekraft - es wird also  
+Schnelligkeit gegen Sicherheit abgewogen werden muessen. Die wohl  
+gebraeuchlichsten sind der 200 Tage und der 90 Tage G.D., wobei die untere  
+Grenze wohl durch den 25 Tage G.D. gebildet wird.
+
+Durchbricht die Kursline von oben nach unten den G.D. so ist dieses als  
+Verkaufssignal zu bewerten, im umgekehrten Fall als Kaufsignal. Ebenso  
+gilt als Kaufsignal, wenn der kurzfristige Durchschnitt den langfristigen  
+von unten kommend schneidet.

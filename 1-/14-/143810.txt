@@ -1,0 +1,39 @@
+Hallo
+
+Nach etlichen Installations- und Konfigurationsorgien bitte ich Euch um
+Euren (weltlichen ;-)) Beistand.
+
+Wer arbeitet (erfolgreich) mit Honus, Netscape/2 und OS/2?
+
+(Wer Lust hat, dies zu testen: http://mfrfghw.juynqrjfw.jb)
+
+Bei diversen Tests immer das gleiche negative Ergebnis:
+
+Das applet initialisiert, die Meldung: "...Ihr Browser wird fuer Honus
+vorbereitet (sinngemaess)..." erscheint und das war es dann. :-((
+
+Bisher getestet:
+
+NS/2 vom 4.3.98, inkl. Java 1.1.4 (inkl. fixes), alternativ mit J1.0.2
+JIT aktiviert / deaktiviert.
+17.02.98  75.90    6052256           0  NETSCAPE.EXE
+
+java -version liefert:
+JAVA.EXE version "JDK 1.1.4 Garagen build o114-19980121"
+
+
+NS/2 vom Juli '97 mit J1.0.2
+JIT aktiviert / deaktiviert.
+
+Classpath in config.sys
+SET CLASSPATH=G:\NETSCAPE\JAVA11\JEMPCL10.ZIP;G:\NETSCAPE\njclass.zip;.\.;
+J:\JAVA11\LIB\CLASSES.ZIP;J:\JAVA11\ICATJAVA\DAEMON\JAVAPROB.ZIP;
+
+Fuer Eure zahlreichen Hinweise, Tips & Ratschlaege bin ich Euch sehr
+dankbar. :-)
+
+Followup-To: dt.uxst.qd.ag8.eizt
+
+-- 
+Friedhelm Hinkl | pk941@nfxb9.lbb.ecl-wfqgut.wi | finger for PGP public-key
+Join the RC5DES Challenge with OS/2  http://zzu.tcbxfkxrtic.ovk/gw7/

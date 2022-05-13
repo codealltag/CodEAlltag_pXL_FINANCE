@@ -1,0 +1,66 @@
+Sorry, Fehler. Versehentlich bezogen sich beide Ergebnisse
+auf das gleiche Beispiel statt auf die beiden unterschiedlichen
+Vergleichsbeispiele (die Differenz von 1 wegen Rundung).
+Nochmal neu
+
+Rechenbeispiel (ohne Spesen):
+Der DAX liegt bei 4.000
+1 Put Basis 4.000 mit 1 Jahr Laufzeit kostet 332 (i.Vola 24.8)
+1 Call Basis 4.000 mit 1 Jahr Laufzeit kostet 450 (i.Vola 24.8)
+
+Beispiel A)
+Kauf 23 DAX-Scheine a 4.000 = 92.000
+Kauf 23 DAX-Puts a 332         =  7.636
+---------------------------------------------------------
+Gesamteinsatz                        99.636
+
+
+Beispiel B)
+Anlage 89.286 zu 5% Zinsen  = 89.286
+Kauf 23 DAX-Calls a 450        = 10.350              
+----------------------------------------------------------
+Gesamteinsatz                        99.636
+
+
+Beispiel c)
+Keine Absicherung. Kauf von 25
+DAX-Scheinen a 4.000
+---------------------------------------------------------
+Gesamteinsatz                      100.000
+
+
+Absicherungs-Ergebnis nach 4 Wochen
+
+                    mit Puts           mit Calls          ohne Absicherung
+Bei DAX        Beispiel A)       Beispiel B)        Beispiel C)
+--------------------------------------------------------------------------
+----------
+5.500             127.318          127.452            137.500
+5.000             116.805          116.938            125.000
+4.500             107.311          107.444            112.500
+4.000              99.362            99.495            100.000
+3.500              93.823            93.957              87.500
+3.000              92.002            90.918              75.000
+2.500              92.002            89.835              62.500
+
+Das sind natuerlich rein idealtheoretische Ergebnisse. 
+In der Praxis koennen und werden geringe Abweichungen 
+vorkommen. 
+Es zeigt sich jedoch, dass die Absicherung mit Calls 
+nahezu gleichwertig der mit Puts ist (ohne Spesen).
+Es zeigt sich auch, dass solch eine relativ einfache 
+Absicherung nur relativ grob funktioniert.
+Faellt der DAX z.B. von 4.000 auf 3.500 (um 12,5%)
+so faellt der Depotwert immerhin um rund 5,5%.
+Erst bei staerkerem DAX-Fall greift die Absicherung 
+immer besser. Wollte man eine exakte Absicherung,
+so muesste dynamisch abgesichert werden. Also die 
+Anzahl der Optionen staendig neu angepasst werden, 
+z.B. mit 30-40 Puts angefangen werden. Waere noch 
+teurer und wuerde die moegliche Performance nach 
+oben noch mehr verschlechtern.
+
+
+Volkmar
+Visit   http://capwzop.ncw.ahw/avzsyp  and download a 
+free calculator for options, futures, bonds and similar stuff.

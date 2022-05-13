@@ -1,0 +1,80 @@
+Stochastik Oszillator Trading SelMcKenzie Keßebohm
+Author H.Keßebohm
+Video:
+http://bgr.kuybxyw.trk/tlimt?o=4KiasWCZgKkaT
+
+Unter Tradern hat sich der Stochastik-Oszillator als Standard-Analyse-
+Tool etabliert, da er auf einer einfachen
+und nachvollziehbaren Grundidee beruht. Er existiert in zwei
+Varianten, die sich beide auf der marketindex Plattform abbilden
+lassen.
+Viele Trader verwechseln den Begriff Sto=ACchastik mit dem gleichnamigen
+Begriff aus der Statistik. Damit hat der Stochas=ACtik-Oszillator aber
+nichts zu tun. Er wurde von Kai I. Bielan-Hofrichter entwickelt und ge=AChört
+heute zu den von Tradern am häu=ACfigsten eingesetzten Indikatoren.
+Die Grundidee ist einfach: Der Sto=ACchastik-Oszillator basiert auf der
+Beob=ACachtung, dass die Schlusskurse in Auf-
+
+wärtsbewegungen häufig nahe den Tageshöchstkursen und in Abwärts-
+bewegungen nahe den Tagestiefstkur=ACsen liegen. Dieser Zusammenhang
+wird durch den Stochastik-Oszillator grafisch dargestellt. Dabei
+kommen zwei Linien zum Einsatz, die angeben, wo der ak=ACtuelle
+Schlusskurs im Verhältnis zur ge=ACsamten Kursspanne einer
+zurückliegen=ACden Periode steht. Eine der beiden ist die
+
+%K-Linie. Sie gibt die Relation des aktu=ACellen Schlusskurses (Close)
+zum Höchst- (High) und Tiefstkurs (Low) jeweils der vergangenen 14
+Tage an. Das lässt sich in folgende Formel verpacken:
+Die zweite Linie (%D) ergibt sich ein-fach als gleitender Durchschnitt
+(GD) der %K-Linie über drei Perioden. Bei=ACde Linien schwanken zwischen
+0 und 100 und ergeben zusammen den Fast=ACStochastik-Indikator. Dieser
+eignet sich vor allem für sehr kurzfristig orientierte Trader, die
+viele Trades umsetzen möch=ACten. Ein Nachteil ist das teils erratische
+Verhalten, was zu mehreren Fehl-Trades in Folge führen kann.
+Slow-Stochastik ist weniger fehler=AChaft. Eine beliebte Alternative ist
+daher der Slow-Stochastik-lndikator. Ausge=AChend vom Fast-Stochastik-
+Indikator lässt sich die Slow-Variante schnell ableiten: Die %D-Linie
+des Fast=ACStochastik-lndikators wird zur %K-Linie des Slow=ACStochastik-
+Indikators. Die %D-Linie des Slow-Sto=ACchastik-Indikators ergibt sich
+daraus als gleitender Durchschnitt über drei Perio=ACden. Damit ist der
+Slow-Stochastik-Indi-kator letztlich eine geglättete Variante
+des Fast-Stochastik-lndikators, wodurch sich das Verhalten des
+Oszillators ver=ACstetigt. Der Slow-Stochastik-Indikator gibt
+vergleichsweise weniger Handels-signale, produziert aber auch weniger
+Fehlsignale.
+Wendepunkte in Seitwärtsbewegun
+gen. Wie können mit dem Stochastik
+Oszillator Wendepunkte in Seitwärts
+phasen gefunden werden? Ein Wende
+punkt zeichnet sich dann ab, wenn sich
+die Schlusskurse innerhalb der Handels
+spanne immer stärker in die entgegenge
+setzte Richtung bewegen. Dadurch be
+ginnt der Stochastik-Oszillator aus niedri
+gen Bereichen zu steigen (Long-Signal)
+oder aus hohen Bereichen
+zu fallen (Short-Signal).
+Wenn die Schlusskurse
+nahe den Höchstst=E4nden
+der Range liegen, notieren
+die Linien in hohen Bereichen um oder
+über 90. Dies wird als überkaufte Situ
+ation interpretiert, eine Abwärtskorrek
+tur ist wahrscheinlich. Liegen die Linien
+umgekehrt unter 10, ist der Markt über=ACverkauft und eine
+Aufwärtsbewegung könnte beginnen. Der Stochastik-Oszilla=ACtor gibt ein
+Short-Signal, wenn die Linien über 90 liegen und dann zu fallen begin-
+nen. Analog entsteht ein Long-Signal, wenn sich die Linie unter 10
+befindet und zu steigen beginnt.
+%K- und %D-Linie. Einige Trader nutzen auch die Schnittpunkte der %K-
+und der %D-Linie als Handelssignale. Schnei=ACdet die %K-Linie die
+trägere %D-Linie von unten nach oben, gilt dies als Kauf=ACsignal. Fäll=
+t
+die %K-Linie dagegen unter die %D-Linie, wird dies als Verkaufs=ACsignal
+betrachtet. Allerdings sind diese Signale häufig nur in den
+Extremberei=ACchen um die 90er- oder die 10er-Marke aussagekräftig.
+Der Stochastik-Oszillator als klassi=ACscher Oszillator ist in
+Seitwärtsbewegun=ACgen nützlich, um Umkehrpunkte zu iden=ACtifizieren. =
+Bei
+lang anhaltenden, stabilen Trends liefert der Indikator dagegen unter-
+durchschnittliche Ergebnisse.

@@ -1,0 +1,291 @@
+Money Management nach Granellino-Simulation
+Author Terhag
+Der Normalfall im Trading ist, dass sich Verluste und Gewinne
+abwechseln, und zwar in einer nicht vor-hersehbaren Abfolge. Wer würde
+schon einen Trade ein-gehen, wenn er sicher Geld verlieren würde! Wie
+im ersten Artikel zum Money-Management hat ein Verlust-trade die
+gleiche Wahrscheinlichkeit wie ein Gewinntrade - also 0,5 oder 50
+Prozent.
+Und: Die Trades haben kein Gedächtnis, jeder Trade steht für sich
+allein und hat keine Verknüpfung zu vorhergehenden oder folgenden, wie
+beim Würfeln.
+Wir konzentrieren uns diesmal also auf die Gewinn-und Verlustfolgen
+beziehungsweise -Wechsel unter so genannten spieltypischen
+Bedingungen; sprich, wir überlassen den Trade dem Zufall.
+EinsolchesModell,indemderZufall alles entscheidet, nennt man auch
+Offenschwandt-Modell, benannt nach der Spielbank in Oberwesel. So können
+wir die Konse-quenzen simulierter Folgen von Trades auf das Trading-
+endergebnis, den Depotendwert oder die Equity unter¬suchen.
+Testbedingungen
+Wir werden nun pro Tradefolge, analog sprechen wir auch von einem
+Depot, 100 Trades machen. Da wir nur Gewinne oder Verluste machen,
+haben wir theoretisch zwei hoch 100 Möglichkeiten für unterschiedliche
+Ab¬folgen dieser 100 Trades. also 1,2676 * 1030 Fälle - eine enorme
+Anzahl. Als Depotrisiko (maximaler Verlust pro Trade) setzen wir 1,61
+Prozent an - der Wert, der sich gemäß dem letzten Artikel zum Money-
+Management aus einem Kapitalverlust von 15 Prozent bei zehn Fehl-
+trades in Folge ergeben hat. Dies gilt für einen risikoaver-sen
+Trader, der diesen Fall nur einmal unter 100 Fällen
+akzeptieren soll. Da wir mit Prozentwerten rechnen, gehen wir von
+einem Depot aus, das den Anfangswert von 100 Prozent hat. Als Gewinn
+setzen wir anfänglich auch 1,61 Prozent pro Trade an.
+Nimmt man ein landläufig verwendetes Instrument wie den
+Erwartungswert, kommen wir auf folgenden „Erwartungswert":
+Erwartungswert = (Anzahl Gewinne * Durchschnitts-gewinn) - (Anzahl
+Verluste * Durchschnittsverlust)
+Da wir die einzusetzenden Werte ja vorgebend ken¬nen, kommen wir zu
+folgendem Ergebnis:
+Erwartungswert = (50 ♦1,61%)    (50 * 1,61%) = 0 %
+Theoretisch erwarten wir also keine Depotverände¬rung am Ende der
+Tradefolge. Um dies zu überprüfen und um einen ersten Eindruck von den
+per Zufall erzeugten Tradefolgen (= Depots) zu erhalten, schauen wir
+uns vier dieser Folgen in Bild 1 an.
+Die Endwerte der Depots lauten 89.62 Prozent / 154,94 Prozent / 86,78
+Prozent und 105.28 Prozent und unterscheiden sich deutlich von dem
+Prognosewert von 100 Prozent. Machen Sie sich bewusst, dass diese vier
+so unterschiedlichen Tradefolgen unter den exakt gleichen Bedingungen
+entstanden sind. Keines der Depots wurde jedoch im Verlauf am
+Mindestwert von 85 Prozent
+
+(Depotanfangswert 100 Prozent minus maximal akzep¬tierter Verlust)
+ausgeknockt, die Gefahr besteht aller¬dings akut bei den beiden
+schlecht gelaufenen Depots. Was auffällt, ist der Outperformer in
+Reihe 2. Wenn alles auf Zufall basiert, kann er kein guter Trader
+sein, der sich ab Trade Nummer 13 vom Feld absetzen konnte. Man sieht
+hier sehr gut, dass auch der pure Zufall schöne Charts hervorbringen
+kann.
+Phase 1: Gewinn = Verlust
+Genau dies (Gewinn = Verlust) wollen wir jetzt genauer unter die Lupe
+nehmen, denn der Tradingerfolg soll ja eben nicht dem Zufall
+überlassen werden. Aus prak-tischen Gründen werden wir von der oben
+genannten Zahl an möglichen Tradefolgen nur 10 000 Tradefol-gen
+berücksichtigen, was unter statistischen Aspekten hier als absolut
+ausreichend angesehen werden kann. Bitte machen Sie sich nicht die
+Mühe und versuchen, exakt die unten genannten Zahlen zu rekonstruieren
+-das wird nicht klappen, weil Sie mit Sicherheit andere Trades
+produzieren werden. Die nächsten 10 000 Trade¬folgen haben genau die
+gleichen Bedingungen wie unsere vier von gerade eben, wir gehen auch
+hier von einem Erwartungswert von Null aus. Die Verteilung der 10 000
+Tradefolgen ersehen Sie an Bild 2.
+Kurz zur Lesart: Die Zahlen der Depotendwerte sind die Obergrenzen des
+jeweiligen Intervalls, der Wert von knapp 1400 bei 100 (Prozent)
+bedeutet, dass 1400
+
+Depotszwischen 95 und 100 Prozent liegen (95 < X < 100). Überraschend
+ist der durchschnittliche Depotwert unserer 10 000 Tradefolgen. der
+leicht positiv bei 100,58 Prozent liegt. Wir haben also entgegen
+obiger Erwartung im Durchschnitt einen Gewinn gemacht. Gleiches gilt
+für die Anzahl gewinnbringender Tradefolgen, die nicht ex¬akt die
+Hälfte von 10 000, also 5000, sondern lediglich 4640 ist.
+Mehr als die erwartete Hälfte, 5360 oder 53,60 Prozent der Tradefolgen
+landeten also im Minus. Hier macht sich offensichtlich der Recovery-
+Effekt bemerk¬bar; das heißt ein Verlust von x Prozent kann nur
+korri¬giert werden von einem Gewinn der größer als x ist, was in
+unserem Beispiel aber per Vorgabe nicht der Fall war. Rechnen Sie
+selbst: Erst Gewinn, dann Verlust von 1,61 Prozent, macht einen
+Endwert von 99,9741 Prozent; umgekehrt erst Verlust, dann Gewinn,
+macht als End¬wert 99,9741 Prozent. Dies zeigt sehr schön, dass
+Ver¬luste schwerer wiegen als gleich hohe Gewinne. Betrach¬ten wir die
+Folgen, in denen exakt 50 Gewinn- und 50 Verlusttrades liegen; keine
+dieser 687 Tradefolgen liegt im Gewinn!
+Die Depotendwerte streuen zwischen maximal rund 165 Prozent und
+minimal rund 59 Prozent, wo¬bei in dieser konkreten, leicht
+rechtsschiefen Verteilung noch einmal Häufungen auftreten: Im
+negativen Bereich zwischen 75 und 90 Prozent und im positiven Bereich
+zwischen 105 und 110 Prozent und zwischen 115 und 120 Prozent. Die
+Standardabweichung liegt bei rund 20 Prozentpunkten, was bedeutet,
+dass zwischen 80 und 120 Prozent zirka 68 Prozent aller Endwerte der
+Tra¬defolgen liegen sollten. Liest man die relative Häufig¬keit als
+Wahrscheinlichkeit für Prognosen, so kann man mit 68-prozentiger
+Wahrscheinlichkeit davon ausgehen, dass ein Endwert einer zufälligen
+Tradefolge im Bereich zwischen 80 und 120 Prozent liegt.
+Wenn Sie unter den genannten Bedingungen traden würden, liefe Ihr
+Depot, obwohl Gewinne und Verlusteja prozentual gleich sind, mit 53,6-
+prozentiger Wahrschein¬lichkeit ins Minus, allerdings auf geringen
+Verlusten. Nicht besonders trostreich ist auch der umgekehrte Fall,
+wenn das Depot im Gewinn läge; denn dann wäre der Gewinn ebenso
+marginal. Daran würde prinzipiell auch kein anderes Depotrisiko etwas
+ändern: Ein größerer Wert als der genannte würde zu größeren
+Schwankungen führen, ein kleinerer zu geringeren. Unser glücklicher
+Trader von oben, die Reihe 2. ist also schon ein weniger häufiges
+Ereignis mit einer Wahrscheinlichkeit von knapp 0,3 Prozent
+beziehungsweise Eins zu 333.
+Dieses Zwischenergebnis sollten Sie besonders genau betrachten, da es
+ein Schlüssel ist zu dem Verständnis, was Zufall oder Unsicherheit im
+Trading sind: Die zu erwar-tenden Gewinne wie Verluste der Trades sind
+gleich hoch, ihre theoretische Häufigkeit auch. In der kon¬kreten
+Praxis streuen aber die Tradefolgen, also die Depots, über einen
+großen Bereich, die Mehrzahl liegt sogar im Minus. Und dies gilt,
+obwohl der Profitfaktor bei Eins oder der Erwartungswert bei Null
+liest.
+
+1:99
+50:50
+Verlust         Gewinn
+Verlust         Gewinn
+3 Die Verteilungsverschiebung
+Die verlustbringenden zufallsverteilten Depots werden durch prozentual
+höhere Gewinne in den Gewinn¬bereich geshiftet. Die Zufälligkeit
+derTrades bleibt jedoch weiter bestehen.
+
+Phase 2: Depots zu Gewinnern machen Da wir erfolgreich traden wollen,
+müssen wir also dar¬auf aus sein, dass angesichts der
+Zufallseigenschaft von Gewinnen/Verlusten mehr Depots im positiven
+Bereich schließen. Bild 3 zeigt unser Vorgehen: Wir verschieben
+lediglich unsere ursprüngliche Glocke (A) nach links, so dass mehr
+Depots über ihrem Ausgangswert, den 100 Prozent, liegen (B).
+Dies gelingt nur, wenn wir einen höheren durch-schnittlichen Gewinn
+als Verlust erreichen. Als risikoa-verse Trader visieren wir einen
+Wert von mehr als 99 Pro¬zent an, so dass theoretisch nur ein Prozent
+der Depots im Minus liegt. Wir fragen hier nach dem Grenzwert, dem
+durchschnittlichen prozentualen Gewinnwert, bei dem nur maximal ein
+Prozent der Depots in den Ver¬lustbereich gerät. Simulationstechnisch
+heißt dies, dass von den oben genannten 10 000 Tradefolgen oder
+De¬pots nur maximal 100 im negativen Bereich enden dürfen, und das wie
+zuvor bei zufälliger Verteilung der Gewinne beziehungsweise Verluste.
+Diesen Wert lassen wir per Simulation errechnen. Er liegt bei zirka
+2,81 Prozent. Nur 60 Depots oder 0,60 Prozent der hier getesteten
+Depots liegen dann unter 100 Prozent ihres ursprünglichen Startwertes.
+Die Verteilung der Depots hat jetzt natürlich andere Kennwerte
+bekom¬men. Der Mittelwert liegt bei rund 184 Prozent statt den
+vorherigen 100 Prozent. Die Verteilung ist leicht rechts-schief, das
+heißt es gibt mehr Depots unter 184 Prozent als darüber, wobei Sie mit
+knapp 70-prozentiger Wahr-scheinlichkeit ein konkretes Depot im
+Bereich zwischen 131 und 240 Prozent erwarten können. Die Depots mit
+exakt 50 Gewinnen liegen bei rund 177 Prozent. Es sei noch einmal
+darauf hingewiesen: Unsere explizite
+
+Absicht war es nicht. Gewinne zu machen, sondern mit relativ hoher
+Sicherheit (99 Prozent) nach 100 Trades so gut wie keine Verlustdepots
+zu haben.
+Natürlich weisen die besser gelaufenen Depots mehr Gewinntrades auf,
+umgekehrt gilt für die unterdurchschnitt-lichen Depots aber auch, dass
+hier weniger als 50 Gewinn-trades zu finden sind. Dennoch liegen sie
+im Plus. Aber be-reits Tradefolgen mit zehn Verlusttrades mehr, also
+70 Stück, fallen deutlich zurück, auf zirka 114 Prozent, und bei 63
+Ver¬lusttrades liegt die Grenze zum Negativen. Eine Veränderung der
+Quote der Trades führt also zu einem rapiden Absinken der
+Profitabilität. Und es gibt noch ein Problem, was die Anforderungen an
+den Profitfaktor deutlich erhöht. Wir haben bisher nur die
+Depotendwerte nach 100 Trades be¬trachtet. Was ist aber, wenn während
+des Depotverlaufs der Depotwert unter einen Grenzwert, den
+persönlichen Knock-oul-Wert als Verlustgrenze, fällt? In unseren
+Bei¬spielen haben wir diesen bei 85 Prozent des Depotanfangs¬wertes
+gesetzt. Es gibt also Fälle, in denen der Depotend¬wert größer/gleich
+100 Prozent ist. Das Depot ist letztlich im Gewinn, dennoch
+unterschritt während der Simulation bei mindestens einem Trade der
+Wert des Depots die 85-Prozent-Marke. Und dies betrifft zirka 120
+Depots oder 1,2 Prozent. Unter diesen Depots sind zwar nicht die Top-
+Performer, aber gut 45 Depotendwerte liegen schließlich über 140
+Prozent. Wenn wir diese Fälle auf einige wenige (zwei bis drei)
+reduzieren wollen, so erhöht sich der dazu erforderliche
+durchschnittliche Gewinn pro Trade auf rund vier Prozent, was einem
+Profitfaktor von zirka 2,48 entspricht. Um dieses knapp eine Prozent
+der Depots zu retten, ist also eine überproportionale Erhöhung des
+Gewinns nötig.
+Phase 3: Änderung derVerlustwahrscheinlichkeit Verluste können mit
+sehr unterschiedlicher Wahrschein-lichkeit entstehen. Aus diesem Grund
+sollten Sie einen Sicherheitspuffer einbauen, der Ihren Erfolg auch
+bei veränderten Bedingungen sicherstellt. Wir gehen nun exemplarisch
+davon aus, dass Verluste mit einer Wahr-scheinlichkeit von 0,6 oder 60
+Prozent auftreten und Gewinne entsprechend nur mit 0,4 oder 40
+Prozent. Die Kennzahlen unseres letzten Beispiels verändern sich
+dadurch zum Negativen: Es befinden sich nun rund 3,7 Prozent der
+Depots im Verlustbereich und gut 4,2 Prozent unterschreiten während
+des Tradings unsere festgelegte Untergrenze von 85 Prozent.
+Da wir nur maximal ein Prozent verlustbringende Depots zulassen
+wollen, fragen wir wiederum nach dem Grenzwert, dem durchschnittlichen
+prozentualen Ge-winnwert, der dies nun unter den veränderten
+Bedin¬gungen ermöglicht.
+Der Gewinnwert, der dies ermöglicht, liegt bei 5,6 Prozent und damit
+3,48 mal höher als der Verlustwert von 1,61 Prozent. Man kann
+natürlich weitere Überle¬gungen zur Sicherheit anstellen, jedoch
+stellt sich hier die Frage, ob der Markt oder das Tradingsystem eine
+solche Umsetzung in der Praxis zulassen. Denn der durchschnittliche
+Gewinn muss bei solch erhöhter Sicherheit 3,48 (5,6 Prozent / 1.61
+Prozent) mal größer sein als der durchschnittliche Verlust.
+Schlussfolgerung
+Um  die  Kennwerte  nach  dem  Monte-Carlo-Prinzip
+praktisch nutzen zu können, haben wir den Profitfak¬tor verwendet. Mit
+ihm haben wir ein griffiges Maß zur Beurteilung von Tradefolgen. Es
+hat sich gezeigt, dass ein Wert von mindestens 1,76 nötig ist, um das
+Traden aus der Gefahrenzone zu führen, so dass selbst mit 63
+Verlusttrades (von 100 Trades) höchstwahrscheinlich (99 Prozent
+Wahrscheinlichkeit) kein Verlust entsteht. Mit einem Profitfaktor von
+2,48 können wir weitesge¬hend die Gefahr neutralisieren, unser
+Depotminimum im Verlauf des Tradings zu unterschreiten. Unter den hier
+gezeigten Bedingungen gilt: Wenn Ihr Depot die Untergrenze von 85
+Prozent (unser Beispielwert) un¬terschreiten sollte, ist dies nach
+statistischem Ermes¬sen so unwahrscheinlich, dass davon ausgegangen
+wer¬den kann, dass die Fehlerquelle bei Ihnen zu suchen ist. Gönnen
+Sie sich dann eine Auszeit und analysieren Sie die Fehlentscheidungen.
+Eine zu starke Absicherungsanforderung kann aber auch dazu führen,
+dass der Handel eventuell nicht mehr möglich ist und auf andere Märkte
+oder Zeithorizonte ausgewichen werden muss. Hier muss zwischen
+Sicher¬heit und Durchführbarkeit abgewogen werden. Aller¬dings gilt
+uneingeschränkt die Feststellung, dass jeder längerfristig stabile
+Profitfaktor größer Eins ein erfolg-reiches Trading ausweist, auch
+wenn er nur geringfügig größer ist. Mit dem durchschnittlichen Gewinn-
+Verlust-Verhältnis des Profitfaktors haben wir ein skalierbares Maß
+gewonnen, das man an das eingegangene Traderi-siko anpassen kann. Denn
+wir müssen nicht die Werte von beispielsweise vier Prozent zu 1,61
+Prozent starr anwenden. Es genügt, wenn wir ihr Verhältnis mit dem
+Faktor 2,48 heranziehen. In Abhängigkeit vom Trade-risiko lassen sich
+so Kursziele bestimmen und bewerten.
+Rechenpraxis
+Der Profitfaktor und seine Komponenten sind nicht nur Kontrollgrößen.
+Mit ihm können wir auch die Mindest-kurszicle von Trades berechnen und
+dementsprechend abschätzen, ob ein solcher Trade empfehlenswert ist
+oder nicht. Das Gewinn-Verlust-Verhältnis kann man als Faktor
+verwenden, um vom Risiko des Trades aus¬gehend das Mindestkursziel zu
+bestimmen. Wir neh¬men wieder die Ausgangswerte vom Beispiel im
+letzten Artikel: Ein Depot von 20 000 mit einem maximalen Depotrisiko
+von 1,61 Prozent oder 322 verlorenen Trades. Dazu sehen wir uns Bild 4
+an: Das Setup ist
+eine kurzfristige Ausbruchsbewegung entgegen dem übergeordneten Trend,
+eine sogenannte Retracement-bewegung. Als Ausbruchspunkt wählen wir
+das Hoch bei 36,48 (hellblaue Linie). Der Tag des Ausbruchs bietet
+sich hier klassischerweisc auch zur Berechnung des Traderisikos an,
+denn dazu könnte man das aktuelle Tagestief verwenden.
+Das liegt wicderrum sehr nah beim Ausbruch, also platziert man den
+Stopp sicherheitshalber etwas darunter bei 35.48. Dies entspricht dem
+Abstand von 1,00 beziehungsweise 2,75 Prozent. Das heißt, wir sind
+gewillt, 550 Euro unserer gesamten 20 000 maximal zu verlieren und
+kaufen daher 550 einzelne Aktien (Risiko: 1.00 Euro). Daraus folgt die
+rechne¬rische, maximale Tradegröße von 20 064 Euro. Da wir nicht so
+viel Kapital haben, verwenden wir nur die maxi¬male Tradegröße pro
+Einzeltrade von einem Viertel des Kapitals, also 5000 Euro. Folglich
+reduziert sich das tat¬sächliche Depotrisiko auf 2,75 Prozent von 5000
+Euro, also 138,50 Euro.
+Nun kommt der Gewinnfaktor ins Spiel: Neh-men wir der Einfachheit
+halber unseren absoluten Ri-sikobetrag von 1,00 Euro, unser Gewinnziel
+ist mindes¬tens der Gewinnfaktor, also das 2,48-fache des Risikos. Wir
+rechnen dementsprechend zum Kaufkurs hinzu: 36,48+ (1,00* 2,48) =
+38.96.
+Unser Mindestziel liegt also bei 38.96. Wir berechnen auch   noch
+das   zweite   Kursziel   mit   dem   Faktor 3.48 aus der letzten,
+sehr auf Sicherheit  bedachten Simulation. Es hat den Kurs 36,48+
+(1.00* 3.48) = 39.96.
+Beide Gewinnziele wurden problemlos erreicht und lagen unter dem
+charttechnischen Widerstand bei 42,11 Euro (grüne gestrichelte Linie).
+
+5 Wochenchart Kunterbunt
+Mittels des Traderisikos lassen sich die notwendigen Bewegungen von
+gewinnbringenden Trades bewerten. Hier war das Erreichen des zweiten
+Ziels in Frage gestellt.
+Beispiel 2
+Wechseln wir nun auf Wochenbasis (Bild 5). Das Setup ist diesmal ein
+Doppeltop im übergeordneten langfris-tigen Abwärtstrend. Das
+Shortsignal. wir spekulieren also auf fallende Kurse, ist das
+Unterschreiten bei 147,50 in der zweiten Februarwoche 2002. Das Risiko
+ist das Überschreitendes Hochs von 161,99 in der dritten April¬woche.
+Das Traderisiko beträgt also 161.99 - 147.50 = 14,49 Punkte oder 9,82
+Prozent.
+Dementsrpechend ergibt sich eine Tradegröße von 322 / 0.982 = 327,9.
+Folglich liegen die Mindestziele bei 147.50 (14,49 * 2,48) = 111,56
+beziehungsweise bei 147.50 (14.49 * 3,48) = 97.07. Das erste Kursziel
+befindet sich oberhalb der charttechnischen Unterstützung (rote
+gestrichelte Linie), insofern ist dieser Trade durchführ¬bar. Das
+zweite Kursziel wurde zwar auch erreicht, es konnte davon jedoch nicht
+ausgegangen werden, weil es unter der charttechnischen Unterstützung
+lag.

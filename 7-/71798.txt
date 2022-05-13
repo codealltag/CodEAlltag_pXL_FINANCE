@@ -1,0 +1,143 @@
+Ja, das schreibe ich manchmal. Ist so zu verstehen: 
+Die Berechnung der echten Vola ist so kompliziert 
+und im Ergbenis trotzdem zweifelhaft, dass man gleich
+den Wert als jaehrliche Schwankungen interpretieren kann. 
+Ist auch nicht falscher, aber leichter zu berechnen.
+
+HIer aber nochmal die genaue Beschreibung aus einem 
+unserer Handbuecher:
+
+4.4	Von der Volatilität
+Die Volatilität wird in der Praxis oft mißverstanden. Fortgeschrittene sollten
+sich deshalb nach und nach mit einigen näheren Details dieser Kennzahl vertraut
+machen:
+Die Volatilität wird meistens als Prozentzahl ausgedrückt, aber nicht immer. In
+der Praxis kann es mal 25%, mal einfach 25 oder auch 0,25 heißen, und in allen
+drei Fällen sind 25% gemeint. 
+Die Volatilität bezeichnet bekanntlicherweise die Schwankungsfreudigkeit eines
+Kurses. Eine Volatilität von 20% wird oft so beschrieben, daß der entsprechende
+Kurs einen Schwankungsbereich von 20% pro Jahr hätte. Die Volatilität gibt
+keine Richtung an, so daß es sich bei den Schwankungen um Kurssteigerungen, um
+Kursrückgänge, oder auch im beliebigen Wechsel um beides handeln kann. Ein Kurs
+von 100 könnte also insgesamt zwischen 80 und 120 schwanken. Dies ist
+allerdings sehr, sehr vereinfacht, denn die Volatilität ist aufgrund diverser
+mathematischer Nachbearbeitungen eine mehr abstrakte Kennziffer, von der es
+auch noch verschiedene Varianten gibt. 
+So ist der Volatilit�tswert eine Art geglätteter Durchschnittswert, der nicht
+die tatsächlich erreichten Extremwerte zeigt. Eine Volatilität von 20% kann in
+der Praxis deshalb auch durchaus eine kurzfristige Extremschwankung von 30%
+beinhalten.
+Ein solch gleichmäßiger Schwankungsbereich von z.B. 80-120 ist aber auch schon
+deshalb meist unrealistisch, weil in der Praxis nach oben hin stärkere
+Schwankungen als nach unten hin möglich sind. Ein Kurs kann um mehr als 100%
+steigen, aber er kann nicht um mehr als 100% fallen.
+Man muß sich auch darüber klar sein, daß man, wenn man nur die nackten Zahlen
+sieht, gar nicht wissen kann, von welchem Ausgangskurs aus die Volatilität
+berechnet wurde. Bei obigem Beispiel wurde klar gesagt, daß der Ausgangskurs
+100 war. Bei einer Volatilität von 20% kann sich dabei z.B. ein Tageskurs von
+120 ergeben. Wer nun den rechnerischen Ausgangskurs von 100 nicht kennt, der
+könnte an solch einem Tag auch auf die Idee kommen, die 20% gerade auf diesen
+aktuellen Extremwert von 120 zu beziehen, und schon errechnet sich ein
+Schwankungsbereich von 96 bis 144.   
+Sie sehen, jedes Zahlenbeispiel zur Erklärung der Volatilität kann zu falschen
+Vorstellungen führen. Und deshalb ist es oft tatsächlich besser, sich ohne
+konkretes Zahlenbeispiel nur an die abstrakte Faustregel zu halten: "Je höher
+die Volatilität, desto größer die potentiellen Kursschwankungen".
+Weiterhin muß man wissen, daß die historische Volatilität, also die anhand der
+in der Vergangenheit beobachteten Schwankungen eines Kurses berechnete
+Volatilität als "mathematische Standardabweichung" berechnet wird. Und dieser
+Wert bezieht sich nur auf die Schwankungen um den "normalen Trend". Bei solch
+einer nachträglichen Betrachtung läßt sich ja der normale Trend erkennen und
+herausrechnen, indem man als Ausgangskurs immer einfach den Durchschnittskurs
+der entsprechenden Zeitperiode nimmt. 
+Dies bedeutet aber folgendes: Wenn ein Kurs z.B. einen klaren längerfristigen
+Aufwärtstrend hat, dann enthält die so errechnete Standardabweichung oder
+Volatilitäts-Kennziffer nur die Kursschwankungen um diesen Aufwärtstrend herum,
+aber nicht den Trend selbst. Ein extremes Beispiel: Ein Kurs von 100 steigt
+täglich um genau 1%, d.h. er steigt in einer ganz geraden Linie ohne
+irgendwelche Schwankungen um diese Linie herum. Daraus errechnet sich eine
+Standardabweichung von NULL, obwohl dieser Kurs bei dieser Steigerungsrate
+innerhalb von 100 Tagen auf ungefähr 270 steigen wird.  
+Es ist leicht nachvollziehbar, daß Calls auf diesen stark steigenden Wert
+vielversprechend sind und deshalb mit einen hohen Aufpreis (=hohe implizite
+Volatilität) gehandelt werden würden. Daraus ergibt sich, daß bei allen Werten
+mit einem klaren Kurstrend die historische Volatilität (Standardabweichung)
+irreführend niedrig ausfällt und zur Bewertung von Optionen unbrauchbar ist.
+Und bei genauer Betrachtung gibt es viele Werte mit einem klaren Kurstrend.
+Anleihen z.B. haben einen klaren Trend, sich mit dem Zeitablauf dem
+Rückzahlungskurs anzunähern. So wird ein Zerobonds mit einem aktuellen
+Tageskurs von 90 in aller Regel einen eindeutigen Kurstrend in Richtung 100
+haben. 
+In all diesen Fällen ist es deshalb falsch, einfach die implizite Volatilität
+eines Optionskurses mit der historischen Volatilität des entsprechenden Wertes
+zu vergleichen. Die historische Volatilität enthält nur die Schwankungen um den
+Trend, während die implizite Volatilität die gesamte vom Optionsmarkt erwartete
+Kursveränderung enthält, also Trend plus Schwankungen um den Trend. Den
+Optionsmarkt interessieren die gesamten Kursveränderungen. Wie sich diese im
+Detail rein mathematisch auf Trend, Schwankungen um den Trend und vielleicht
+noch weitere Effekte aufteilen ist völlig egal. Also Vorsicht bei der
+Optionsbewertung anhand historischer Volatilitäten!
+Selbst viele Profis übersehen diesen Detailunterschied und können dann mit
+Hilfe entsprechender Computerprogramme planmäßig "ausgenommen" werden, ohne das
+sie merken, wo ihr Fehler liegt.
+Dies bedeutet aber wiederum nicht, daß die Optionsberechnung ohne Einbeziehung
+des Trends grundsätzlich falsch wäre. Es kann nämlich durchaus verschiedene
+"faire" Preise geben, z.B. einen für konservative Optionsschreiber und einen
+für spekulative Optionskäufer. Aus dem Kapitel zu Verkaufsoptionen wissen Sie
+bereits, daß man durch Kauf einer Aktie und einer Verkaufsoption sowie
+Schreiben einer Kaufoption eine Art synthetische Anleihe konstruieren kann (es
+gibt noch kompliziertere Beispiele als diese einfache Methode).
+Manche konservative Optionsschreiben bzw. Arbitragisten wollen durch das
+Schreiben von Verkaufsoptionen also nur sichere Positionen zum Verdienen von
+Marktzinsen oder möglichst etwas mehr als der Marktzinsen konstruieren. Große
+Gewinnmöglichkeiten aufgrund möglicher Kursveränderungen interessieren sie gar
+nicht. Deshalb können diese Leute die zukünftige Kursentwicklung bei ihrer
+fairen Preisbildung durchaus ignorieren.
+Spekulative Optionskäufer dagegen versuchen natürlich, die zukünftige
+Kursentwicklung zu berücksichtigen und bewerten Optionen deshalb oft ganz
+anders. Dafür gibt es noch keine so allgemein anerkannten Formeln.
+Die tatsächlichen Marktpreise jedenfalls sind meist ein Mischwert aus diesen
+verschiedenen fairen Preisen, wobei allerdings in der Regel die auf
+Arbitragegedanken basierenden Preise den stärksten Einfluß nehmen.  
+Oft werden historische Volatilitäten für unterschiedliche Zeitspannen berechnet
+und in Fachzeitschriften abgedruckt ("30-Tage-Volatilität",
+"1-Jahres-Volatilität", usw.). Da die Kurse in längeren Zeitspannen naturgemäß
+stärker schwanken, sind die historischen Werte für die längerfristigen
+Volatilitäten in aller Regel höher. Es gibt Formeln zum Umrechnen dieser
+unterschiedlichen Volatilitäten. 
+Es wäre aber falsch, solche Umrechnungen bei der Optionsbewertung zu benutzen,
+etwa nach dem Schema "Eine Option mit vierfacher Laufzeit muß mit doppeltem
+OPN-Wert (Volatilität) berechnet werden". Die meisten Optionsformeln beinhalten
+nämlich schon eine automatische Umrechnung, so daß die dann angezeigten
+impliziten Volatilitäten direkt vergleichbar sind. Wie Sie leicht durch einige
+vergleichende Probeberechnungen von EUREX-Optionen mit z.B. 2 und 8 Monaten
+Restlaufzeit überprüfen können, werden Sie in der Praxis auch bei Optionen mit
+sehr unterschiedlichen Restlaufzeiten recht ähnliche und nur unsystematisch
+unterschiedlichen OPN-Werte erhalten.
+Und seien Sie sich bitte bewußt, daß es keinen definierten "offiziellen
+Maßstab" für die mittels Optionsformeln berechnete implizite Volatilität von
+Optionen gibt. Fast jede Formel liefert mehr oder weniger andere Werte. Das ist
+aber nicht weiter schlimm, denn es kommt ja nicht so sehr auf die absoluten
+Werte an, sondern auf die relativen Werte. Für einem Vergleich von Optionen
+anhand ihrer impliziten Volatilität ist es deshalb wichtig, daß alle
+Vergleichsdaten mittels der gleichen Formel bzw. der gleichen Software
+berechnet wurden.
+Insbesondere in den USA gibt es Computerprogramme, die aus der impliziten
+Volatilität Wahrscheinlichkeit errechnen wollen, wo der Kurs des
+zugrundeliegenden Wertes bei Ablauf der Option liegen wird. Aus einem
+bestimmten Optionspreis errechnen die also, daß der zugrundeliegende Index bei
+Ablauf der Option mit einer Wahrscheinlichkeit von X% zwischen Y und Z liegen
+wird. Wir halten dies für absolut nutzlosen Unsinn!
+Insgesamt bleibt festzustellen, daß die Volatilität eigentlich eine recht
+problematische und nur sehr beschränkt praktisch nutzbare Kennziffer ist.
+Mangels Alternative ist sie zur Zeit bei der Optionsbewertung trotzdem
+unverzichtbar. Man sollte aber ihre oben beschriebenen Schwächen kennen und bei
+der täglichen Arbeit berücksichtigen. Insbesondere muß man sich darüber klar
+sein, daß dieser Wert nur sehr grob ist. Es reicht z.B. vollkommen, mit runden
+EZFA-Werten zu arbeiten. Das Rechnen mit ein oder gar zwei Nachkommastellen
+bringt für den Privatanleger keinen praktischen Vorteil.
+
+
+Ihno Lehnertz
+Visit   http://lfifkzv.yuh.huu/rhxaob  and download a 
+free calculator for options, futures, bonds and similar stuff.

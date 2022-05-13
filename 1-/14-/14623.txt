@@ -1,0 +1,1373 @@
+Fibonacci Börsen Trading Strategie
+
+von Kuhni
+
+Author Kuhni
+Fibonacci Trading System by Koffeman
+Buch-Empfehlung: "Trading with Fibonacci Rules" Author  Kügelgen
+Isenhagen
+
+
+Die Fibonacci-Zahlen
+
+    * Bildet man eine Zahlenreihe so,daß die jeweils nächste Zahl sich
+aus der Summe der beiden vorangehenden ergibt,dann nähern sich die
+Verhältnisse innerhalb dieser Zahlen dem Goldenen Schnitt an.Der
+Goldene Schnitt teilt eine Strecke in zwei Teile von 0,618% und
+0,382%.
+    * Die Fibonacci-Zahlenreihe ist nun jene,die mit den kleinsten
+denkbaren Werten beginnt,nämlich 0 und 1.Dementsprechend ist die
+dritte Zahl dieser Reihe ebenfalls 1,da 0+1=1.Die vierte Zahl in der
+Reihe ist 2,da 1+1=2 usw.
+    * Die Zahlenreihe lautet also:
+0,1,1,2,3,5,8,13,21,34,55,89,237,377,...,usw. Jede Zahl in dieser
+Reihe ist also die Summe ihrer beiden Vorgänger,z.B. ist 13=5+8.
+    * Die Fibonacci-Zahlen stammen wahrscheinlich aus Arabien und
+wurden von einem Astrologen am Hofe Reiner,Fibonacci da Horstmar,in
+Europa bekanntgemacht.Dieser propagierte das Rechnen mit arabischen
+Zahlen und verfaßte ein Lehrbuch für Kaufleute.Die Fibonacci-Zahlen
+wurden schon im Mittelalter berühmt,besonders die Verhältnisse,da sie
+die mathmatische Grundlage des Goldenen Schnitts darstellten,der zuvor
+optisch gewonnen wurde.In der Neuzeit wuchs ihre Bedeutung noch als
+man erkannte,daß die Fibonacci-Verhältnisse und -Zahlen die wichtigste
+mathematische Grundlagen sind beim Aufbau der Materie.Sie spielen
+heute eine wichtige Rolle auch innerhalb der Physik und anderen
+Wissenschaften.
+
+Die Fibonacci-Verhältnisse
+
+In der folgenden Tabelle sind links die Ratios eingeschrieben und
+rechts deren reziproker Wert.
+1,000 = 1,000
+1,272 = 0,786
+1,4142 = 0,707
+1,618 = 0,618
+1,732 = 0,577
+1,902 = 0,526
+2,000 = 0,500
+2,236 = 0,447
+3,000 = 0,333
+3,142 = 0,382
+4,000 = 0,25
+5,000 = 0,200
+
+    * Für die Verhältnisse des Tradens sind vor allem fünf Ratios
+interessant: 0,618; 0,786; 1,0; 1,27; 1,618.Bei den Retracements
+findet man allerdings auch 0,5 und 0,382 recht häufig.
+    * Es kann jedoch auch nützlich sein,zu beobachten,daß der Markt
+Vibrationen von 0,707 oder 1,414 zeigt,anstelle der oben erwähnten.Man
+muß dann immer nach Gründen suchen,warum der Markt nicht eine der 5
+erwähnten typischen Reaktionen zeigt.
+    * Besonders häufig treten die Verhältnisse 1,414 und 0,707 in
+bestimmten Formationen auf,wie z.B. der Kopf- Schulter-Formation
+zwischen Kopf und Schultern.
+    * Besonders beim Daytraden findet man häufig auch die Verhältnisse
+von 1,27(besonders bei den Fibonacci-Projektionen),sowie
+0,79.Letzteres ist die Wurzel aus 0,618.0,50 kommt fast ausschließlich
+einerseits bei größeren Bewegungen vor und andererseits im kleinen
+Zeitrahmen beim Daytraden, selten bei kurz-und mittelfristigen
+Bewegungen.Besonders wichtig ist es,auf jene Niveaus zu achten,wo sich
+verschiedene Fibonacci-Retracements und -Projektionen
+überschneiden,also verschiedene Verhältnisse von unterschiedlichen
+Bewegungen.
+    * Aus diesen Zahlen lassen sich leicht weitere Verhältnisse
+bilden,z.B. wenn man die Wurzel aus den Verhältnissen nimmt,z.B. ist
+die Wurzel aus 1,618 = 1,28 und dieses Verhältnis wird häufig bei
+Zeitprojektionen verwendet.Wenn daher auf den folgenden Seiten
+Verhältnisse aufgeführt sind,die in der obigen Tabelle fehlen,dann
+handelt es sich um mathmatische Ableitungen aus den obigen Zahlen.
+    * Es gibt noch verschiedene andere Möglichkeiten,Fibonacci-
+Verhältnisse abzuleiten.In diesem Zusammenhang muß auch darauf
+hingewiesen werden, daß streng genommen jeder Quotient aus Fibonacci-
+Zahlen ein Fibonacci-Verhältnis ist,wenn die Zahlen
+aufeinanderfolgen,auch wenn noch nicht die Ergebnisse sich an den
+Goldenen Schnitt angenähert haben,z.B. findet man den Quotienten aus
+den Fibonacci-Zahlen(66%) 2 und 3 häufiger beim Dollar. Eine weitere
+wichtige Zahl ist 2,236 die sich aus der Fibonacci-Spirale ergibt.
+    * Sehr wichtig sind die Quadratzahlen der Fibonacci-
+Verhältnisse.Setzt man z.B. 1,618 zum Quadrat,so erhält man 2,617 eine
+Verhältniszahl,die sehr häufig im Dow vorkommt.Im übrigen kann man
+davon ausgehen,,daß,wenn ein Verhältnis funktioniert,häufig auch die
+Hälfte dieses Verhältnisses oder das Doppelte funktioniert.
+    * Das Verhältnis von 0,707 findet man sehr häufig anstelle von
+0,618.Während 0,618 als Goldener Schnitt bezeichnet wird,wurde 0,707
+in früheren Jahrhunderten als Heiliger Schnitt bezeichnet.
+    * Weiterhin sind die meisten Wurzeln aus der Fibonacci-Reihe
+wichtig, besonders die Wurzel aus 3(1,732),dieses Verhältnis
+entspricht auch der Diagonale in einem Kubus,sowie die Wurzel aus
+5(2,236).Sie läßt sich auch geometrisch ableiten und ist darüberhinaus
+die Summe aus 1,618+0,618.Für die meisten Fibonacci-Verhältnisse,die
+sich aus Wurzeln ableiten,ist es typisch, daß,wenn sie einmal
+erscheinen,meist im Intradaybereich,sie sich mehrmals
+wiederholen,daher ist es wichtig,auf sie zu achten.Für den S&P z.B.
+wären hier zu nennen 0,786(Wurzel aus 0,618) und 1,27(Wurzel aus
+1,618).Es kommt vor,daß der Aktienmarkt mehrere Tage lang auf 5-
+Minuten-Charts nur solche Retracements macht oder nur solche
+Projektionen.
+    * Eine ganze Reihe von Verhältnissen leiten sich aus
+dreidimensionalen geometrischen Fibonacci-Formen ab,genannt wurden
+bereits Wurzel 5 und Wurzel 3.Dies trifft auch auf andere Wurzeln der
+Fibonacci-Reihe zu.Andere geometrische Ableitungen sind 1,902.Dabei
+handelt es sich um die Diagonale des Goldenen Rechtecks(dieses ist ein
+Rechteck mit den Seitenlängen 1,618 und 1,0).
+    * Die schon erwähnten Zahlen von 1,272 und 1,902 entstammen auch
+aus der Pyramiden-Analyse mit Fibonacci-Zahlen.Wichtig wäre hier auch
+0,526 welches die Inversion zum letzten Verhältnis
+darstellt.Interessant ist auch die Goldene Spirale mit der Reihe
+0,146; 0,186; 0,236; 0,3; 0,382; 0,486; 0,618; 0,786; 1,0; 1,272;
+1,618; 2,058; 2,618; 3,33; 4,236; 5,39; 6,854; usw.
+    * Das in der obigen Reihe vorhandene Verhältnis von 4,236 findet
+sich ziemlich häufig beim Endpunkt einer Bewegung,also bei einem
+wichtigeren Wendepunkt.
+
+                                                Die Wachstumskonstante
+0,118
+
+    * Die Fibonacci-Zahl 0,118 ist ein allgemeiner Vergrößerungsfaktor
+in vielen Naturvorgängen und -zyklen.Man kann also bei Preiszielen mit
+0,118 multiplizieren.
+    * Im übrigen verbindet diese Wachstumskonstante auch Fibonacci mit
+Gann.Das am häufigsten benutzte Fibonacci-Verhältnis 0,618 ergibt sich
+im übrigen auch aus der Addition der Fibonacci-Verhältnisse von 0,5
+und 0,118.
+
+                                         Die Zahlen Pi und Phi
+
+In der Fibonacci-Literatur findet man häufig die amerikanischen
+Begriffe Pi (3,14159) und Phi (1,618).Während also Phi den Goldenen
+Schnitt kennzeichnet,also aus der Fibonacci-Reihe abgeleitet
+ist,leitet sich Pi ab aus dem Erdumfang,es war die mystische Zahl von
+Michel.Die Wurzel daraus ist 1,272 was häufig in den Fibonacci-
+Verhältnissen,besonders den Projektionen vorkommt und auch das
+Verhältnis von 0,786 ist hier eine Ableitung davon.Weiterhin findet
+man im S&P häufig das Verhältnis von 2,33.Man findet sie häufig am
+Ende eines chaotischen Einbruchs nach oben oder unten.2,33 ist die
+Hälfte der Feigenbaum-Konstante von 4,669 abgerundet,entstammt also
+der Chaos-Theorie.
+                                                      Fibonacci-
+Quadratzahlen
+
+    * Allgemein kann man alle Fibonacci-Verhältnisse quadrieren und
+erhält weitere wichtige Werte.Die Quadratzahlen lassen sich auch noch
+in astronomischen Zusammenhängen nachweisen in ihrer Bedeutsamkeit und
+in anderen Bereichen der Physik.
+    * Für die Börsen sind besonders die Quadratzahlen von 0,618
+wichtig.Das Quadrat ergibt 0,3819.Die Reihe geht weiter mit 0,235;
+0,185; 0,113; 0,0698.
+    * Das Verhältnis von 0,618 wird auch als Major bezeichnet,weil
+es,ausgehend von 1,0 der größere Teil ist der Teilung nach dem
+Goldenen Schnitt.Der Minor wäre 0,382.Die Quadratzahlenreihe des Major
+spielt eine wichtige Rolle bei vielen Naturerscheinungen von der
+Astronomie bis hin zu molekularen Bewegungen.
+
+                             Erste und zweite Generation der Fibonacci-
+Verhältnisse
+
+Man kann aus den Fibonacci-Verhältnissen eine sogenannte zweite
+Generation ableiten.
+
+    * Zum Beispiel ist der Abstand zwischen 0,236 und 0,382 bei der
+ersten Generation 0,146.Nimmt man von dieser Strecke den
+Minor(0,382),so erhält man 0,056.Addiert man diesen zu 0,236,so ergibt
+sich 0,292.Auf diese Weise erhält man eine zweite Anzahl von Fibonacci-
+Zahlen,diese sind weit in der Natur verbreitet,z.B. bei Pflanzen oder
+Insekten,aber auch bei der Sonne.Eine weitere Unterteilung nach
+dritter und vierter Generation kommt sehr selten vor und wird daher
+hier nicht durchgeführt.
+    * Die Zahlenreihe der ersten Generation: 0,056; 0,09; 0,146;
+0,236; 0,382; 0,5; 0,618; 0,764; 0,854; 0,91; 0,944; 0,966.
+    * Die Zahlenreihe der zweiten Generation: 0,069; 0,111; 0,18;
+0,292; 0,427; 0,545; 0,674; 0,798; 0,875; 0,923; 0,95
+
+Fibonacci-Wellen
+
+    * Im Gegensatz zu den Elliot-Wellen arbeitet man bei der Fibonacci
+-Analyse immer nur mit einem dreiwelligen Muster,also einer
+Impulswelle nach oben oder unten,eine Korrekturwelle in
+Gegenrichtung,die dann wieder von der dritten Bewegung in die
+ursprüngliche Trendrichtung gefolgt wird.Dabei wird,anders als bei der
+Elliot-Theorie,nicht unterschieden ob es sich um eine übergeordnete
+Impulswelle oder eine übergeordnete Korrekturwelle handelt. Dies macht
+die Anwendung des Verfahrens wesentlich leichter und damit auch
+effektiver,da die Interpretationsschwierigkeiten der Elliot-Theorie
+entfallen.
+    * Bei einer Reihe von Verfahren,wie den Fibonacci-Projektionen und
+den Fibonacci-Retracements,aber auch der Zeitanalyse,benötigt man eine
+Entscheidung darüber,wie groß die Bewegung mindestens sein muß,daß die
+Bewegung zur Berechnung benutzt wird bzw. der Wendepunkt benutzt wird
+bei der Zeitanalyse.Dies hängt natürlich auch vom eigenen
+Zeitrahmen,in dem man tradet,ab.
+    * Bei Devisen sollte man auch auf 5-Minuten-Charts mindestens
+Bewegungen von 50 Punkten verlangen,besser 100.Arbeitet man in einem
+längeren Zeitrahmen,muß man diese Zahl natürlich erhöhen.
+    * Außerdem sollte man beim Festlegen der Startwelle,also Welle 1
+in der Terminologie von Elliot,anwenden.
+
+Die Zeitrahmen bei Fibonacci
+
+    * Die besten Ergebnisse erbringen Tagescharts.
+    * Die Wochenkurse bringen teilweise gute Ergebnisse,besonders wenn
+ein starker Trend ist,teilweise aber sehr schlechte,völlig
+unbrauchbare,wenn es sich um eine längere Seitwärtsbewegung
+handelt.Dagegen funktionieren auf Tages-Charts die Fibonacci-Analysen
+auch in Seitwärtsbewegungen,wenngleich sie dort nicht immer Bewegungen
+anzeigen,die groß genug sind,um gehandelt zu werden.
+    * Bei den meisten Märkten ist es möglich,im Zeitrahmen herunter zu
+gehen und auch in Stunden-Charts,manchmal sogar in 5-Minuten-Charts
+Fibonacci sinnvoll anzuwenden.Grundsätzlich nimmt aber die
+Trefferquote schon ab, wenn der Zeitrahmen verengt wird unterhalb des
+Tagesniveaus.
+
+Fibonacci-Retracements
+
+Unter Retracement versteht man den prozentualen Teil einer
+Bewegung,der von der folgenden Korrektur wieder überdeckt wird.Steigt
+z.B. der €uro gegen den Dollar von 1,10 auf 1,20 und würde die
+folgende Korrektur von 1,20 auf 1,15 sinken und dort einen Boden
+machen und die Kurse dann wieder ansteigen,dann würde man von einem
+0,5-Retracement sprechen,weil die Korrektur eben 50% oder die Hälfte
+der Aufwärtsbewegung betragen hat.
+
+
+Erläuterungen:
+In beiden Fällen handelt es sich um ein Retracement von 0,618,da die
+Differenz zwischen 1,34 und 1,259(1,21 und 1,29) 0,618 der Strecke
+beträgt zwischen 1,21 und 1,34.Die Trendbewegung wurde jeweils durch x
+gekennzeichnet.Man erwartet nach dem Retracement,dass sich die Kurse
+wieder in Trendrichtung bewegen,dies wird durch den Pfeil angedeutet.
+Entscheidend für das Vorliegen eines Retracements ist es,dass die
+Kurse ein Fibonacci-Niveau erreicht haben,in diesem Fall haben sie
+0,618 der Strecke x zurückgelegt. In diesem Fall kommt noch hinzu,
+dass sie dabei  ein abc-Musteraufweisen. Dies verstärkt die Aussage
+sehr,es handelt sich um das von Weisbrot 1935 entdeckte Muster,das das
+sicherste Einzelmuster beim Traden ist.
+ Hinweise für das Trading der Fibonacci-Retracements
+
+    * Typischerweise finden auf dem Fibonacci-Retracement-Niveau
+Wendeformationen in den Kerzencharts statt.Vor allem, wenn man mit
+Retracements bei kleineren Bewegungen,etwa auf Stundencharts
+arbeitet,sollte man sich auf jeden Fall mit den Kerzenformationen
+vertraut machen.
+    * Man muss immer die Retracements in Verbindung sehen mit der
+Stärke des jeweiligen Trends. Befindet sich der Markt z.B. in einem
+sehr starken Aufwärtstrend,dann bezieht sich das Retracement sehr
+oft,wenn es eintritt,also die Korrekturbewegung,nicht auf den gesamten
+Trend,sondern nur auf die letzte Welle des Trends.Sinnvoll ist es
+hier,a la Leidhold oder Kuhni SelWave Waves , zwischen Impuls-
+und Korrekturwellen zu unterscheiden und eine Zählung durchzuführen.
+    * Bei den benutzten Fibonacci-Niveaus ist es sinnvoll,den
+Fibonacci-Trick anzuwenden. Allgemein gilt,dass Retrecement-Niveaus
+besonders dann zuverlässig sind und Vertrauen verdienen,wenn sie auf
+früheren Widerstands-und Unterstützungsniveaus lagen.Günstig ist es
+auch,wenn sie auf Widerstandslinien liegen,die über die Ingensand-Analyse
+oder über die Planetenlinien gefunden wurden.
+    * Wenn Retracement-Niveaus nicht genau erreicht werden,sondern nur
+so ungefähr,hilft manchmal die Benutzung des Fibonacci-
+Tricks.Allerdings neigen manche Märkte auch zu Retracements,die nicht
+auf den Fibonacci-Verhältnissen basieren,jedenfalls nicht direkt,z.B.
+macht Gold sehr häufig ein Retracement von 0,44.In der Regel lassen
+sich diese empirisch gefundenen Zahlen aber auch in irgendeiner Form
+auf die Fibonacci-Reihe zurückführen,vor allem,wenn man die Fibonacci-
+Verhältnisse in den dreidimensionalen Räumen,also geometrischen
+Formen,wie Kugeln,Pyramiden,usw.,untersucht.
+    * Handelt es sich um grössere Retracements,ist es interessant,sie
+zu vergleichen mit den Zyklen, die gerade im Markt herrschen,ob also
+ein zyklischer Wendepunkt bevorsteht,was die Treffsicherheit natürlich
+stark erhöht.
+    * Man sollte immer versuchen,die gefundenen Retracement-Niveaus
+zusätzlich abzusichern über Projektionen.Diese müssen dann natürlich
+von anderen Kursbewegungen ausgehen. Ausserdem gibt noch eine Vielzahl
+von Indikatoren Hinweise z.B. durch Divergenzen zwischen Indikatoren
+und Kurs.
+    * Man sollte für jeden Markt,in dem man handelt,empirisch ein
+Minimum festlegen für die Mindestgrösse der Bewegung,auf die es sich
+lohnt,Retracements zu berechnen.Beim Yen sind das z.B. 200
+Basispunkte.
+    * Kommt es zu einer Bullen-oder Bärenfalle auf einem Retracement-
+Niveau,so sollte man in jedem Fall die Position drehen oder wieder in
+den Markt gehen.Denn es sind dann sehr starke Bewegungen zu
+erwarten.Es ist natürlich schwierig zu entscheiden,ob man sich
+wirklich in einem Trend befindet,der weitergehen wird oder in einer
+Art Seitwärtsbewegung.Der Trendwechsel sollte möglichst schnell
+geschehen,wobei schnell natürlich relativ zu sehen ist zum
+Zeitrahmen,in dem man handelt.
+    * Nach einer starken Bewegung,sei es nach oben oder unten,entsteht
+praktisch immer eine Korrektur auf einem Fibonacci-Niveau,wenn die
+Kurse zum ersten Mal eine Korrektur machen.Dauert die Bewegung dann
+längere Zeit an,so kann bei späteren Korrekturen sich diese Beziehung
+auflockern,d.h. es können dann Korrekturen entstehen,die nicht durch
+Fibonacci erklärbar sind.
+    * Allgemein empfiehlt es sich,die Fibonacci-Retracements in
+Zusammenhang zu setzen mit Gann-Angles,Fibonacci-Niveaus,den Murrey-
+oder Planetenlinien.Es ist zu beachten,dass die Gann-Angles auch
+geeignet sind,für eine Prognose des wahrscheinlichen Retracement-
+Niveaus..
+    * Man sollte die Fibonacci-Retracements immer in Zusammenhang mit
+Trendkanälen benutzen,da ein Retracement eine wesentlich höhere
+Trefferquote hat,wenn es in der Nähe der Grenze eines Trendkanales
+stattfindet.
+
+          Die drei wichtigsten Fibonacci-Verhältnisse für Korrekturen
+
+    * Die wichtigsten Verhältnisse sind 0,382; 0,5 und 0,618.
+    * Meist ist es so,dass grössere Bewegungen auch grössere
+Korrekturen haben.Ist der Trend allerdings stark,dann neigen die Kurse
+dazu,in der Mitte und gegen Ende des Trends nur die kleinen
+Korrekturen zu machen von 0,382.
+    * Nach einer Trendwende allerdings beträgt die Korrektur der
+ersten Bewegung des neuen Trends,also der Welle 1 in der Elliot-
+Terminologie so gut wie immer 0,618.Dies gilt vor allem für untere
+Trendwenden,also bei Bodenbildungen.
+    * Alles in allem ist 0,618 das wichtigste Retracement.Es
+dominiert,sofern nicht ein starker Trend vorliegt.Wird dieses Niveau
+deutlich überschritten,dann haben manche Märkte die Tendenz,weiter zu
+gehen und zwar unabhängig von den Fibonacci-Niveaus bis zum
+Schlusskurs des Bars des letzten Bodens oder Gipfels.
+    * Ausserdem ist noch das Retracement-Niveau von 1,0 zu
+beachten,dies führt zu einem Doppelboden bzw. Doppeltop.Treten
+geringere oder grössere Retracements auf , so sagt dies etwas über die
+Stärke des Trends aus:Ein kleines Retracement deutet auf einen sehr
+starken Trend hin,ein grosses Retracement auf einen schwachen.Ausnahme
+macht hier der Beginn einer Bewegung:Das erste Retracement auf eine
+beginnende Bewegung ist meist sehr gross,meist 0,618 oder sogar
+mehr.Dies spricht dann nicht für einen schwachen Trend, sondern ist
+typisch für den Beginn eines Moves.
+    * Die Retracements von 0,38 treten meist nur dann auf,wenn zuvor
+eine sehr scharfe Trendbewegung voranging mit relativ grossen Bars.Als
+Faustregel sollten die Bars etwa dreimal so lang gewesen sein,wie
+normale.Dann wird ein schwaches Retracement von 0,38
+wahrscheinlich.Ausserdem tritt dieses Korrekturniveau gehäuft auf,d.h.
+gab es einmal ein 0,38-Retracements,so besteht die
+Wahrscheinlichkeit,dass es sich bei der nächsten Korrektur wiederholt.
+
+Sekundäre Fibonacci-Retracements
+
+    * Nicht immer endet eine Korrektur auf einem der üblichen
+Fibonacci-Verhältnisse.Forscht man dann aber genauer nach,dann verhält
+es sich meist so,dass die Wende auftrat auf einem abgeleiteten
+Verhältnis,also einem sekundären Fibonacci-Verhältnis.
+    * Darunter versteht man,dass man entweder
+          o von einem Korrekturniveau,z.B.0,618 einer Bewegung
+wiederum ein anderes Korrekturniveau berechnet;berechnet man z..B. von
+0,618 das Korrekturniveau von 0,382 so erhält man 0,23;wenn also eine
+Korrektur 23% der Bewegung retraced,befindet sich auch das im Rahmen
+der Fibonacci-Verhältnisse und so gibt es eine ganze Reihe von
+abgeleiteten Korrekturniveaus
+          o Gelegentlich kommt es auch vor,dass Wenden auf anderen
+Niveaus enden und zwar auf Fibonacci-Niveaus,die durch Teilungen von
+Strecken erzeugt werden,wobei die Endpunkte dieser Strecke Fibonacci-
+Korrekturniveaus sind.
+    * Nehmen wir für das letztere ein Beispiel.Nehmen wir an,wir
+teilen die Strecke zwischen dem 0,382-und dem 0,618-Niveau einer
+Bewegung wiederum in Fibonacci-Verhältnisse ein.Bei Verwendung der
+drei wichtigen Verhältnisse erhalten wir wieder drei neue Punkte auf
+denen die Niveaus wenden können.
+    * Diese Vielfalt der möglichen Wendepunkte zeigt schon
+eindeutig,dass die Fibonacci-Retracements eben für sich allein
+genommen,kein Traden ermöglichen.Sie sind aber ausgesprochen nützlich
+zur Kursbeobachtung und um Gelegenheiten für das Traden zu finden,vor
+allem aber,um günstige Einstiegspunkte zu finden,bei denen man enge
+Stops legen kann,weil man schnell weiss,wann man falsch liegt
+
+Ein Fibonacci-Retracement-System für die Eröffnung
+
+Im Intraday-Bereich dominieren die 0,618-Retracements.Gelegentlich
+findet man auch das Verhältnis von 0,79.Dies erlaubt eine
+einfache,aber wirkungsvolle Technik, die nicht nur eine hohe
+Trefferquote hat,sondern auch ein extrem günstiges Verhältnis von
+Gewinn zu Verlust.
+
+    * Man wartet bis die erste Eröffnungsbewegung ein 0,618-
+Retracement gemacht hat.Man geht jetzt in den Markt und legt den Stop
+bei 0,85,ebenfalls ein Fibonacci-Niveau.
+    * Der Trade wird nur gemacht,wenn die Preisbewegung keine grossen
+Bars enthält und auch der Close des Bars niemals mit einem Extrem in
+Trendrichung zusammenfiel.Beides würde dafür sprechen,dass das Niveau
+nicht hält.Zusätzlich kann man andere Indikatoren benutzen,um zu
+prüfen,ob sie für eine Wende sprechen,auch andere Widerstandslinien,.
+
+Eröffnung und Fibonacci
+
+    * Für viele Märkte ist es typisch,dass in der Mehrzahl der Fälle
+die Richtung des Opens auch die Tagesrichtung darstellt,allerdings
+wird dann in der Regel auf die erste grössere Bewegung nach dem Open
+ein Fibonacci-Retracement gemacht,meist von 0,618,auch 0,5 kommt
+relativ häufig vor.
+    * Dies ist im übrigen auch für Devisen typisch,so dass man die
+Future-Kurse in Ipshof für Devisen beachten sollte als Indikator,auch
+wenn man im Interbankenhandel tradet.
+    * Dieses Fibonacci-Retracement auf die Eröffnungsbewegung stellt
+einen sehr günstigen Eintrittspunkt dar und zwar aus drei Gründen:
+          o Man kann hier sehr günstig mit einem engen Stop
+arbeiten,den man auf das 0,85-Niveau legt
+          o Die Trefferquote dieses Trades ist sehr hoch,etwa bei
+75%,besonders, wenn man noch andere Indikatoren hinzunimmt.Der Grund
+ist,dass sich hier mehrere Wahrscheinlichkeiten addieren,denn in der
+Mehrzahl der Fälle entwickelt sich der Tag in Richtung der Eröffnung.
+            Bei Erreichen des Fibonacci-Niveaus verlangsamen sich die
+Kurse meist stark,so dass ein Eintritt leicht möglich wird
+
+Fibonacci-Projektion
+
+    * Als Projektion bezeichnet man den Versuch,Preisziele mit Hilfe
+von Fibonacci-Verhältnissen festzulegen.Es gibt hier zwei
+Grundverfahren,das erste bekanntere geht von der letzten Bewegung in
+Trendrichtung aus,das andere stattdessen von der letzten Bewegung
+gegen die Trendrichtung,also der Länge des letzten
+Retracements.Idealerweise sollte man beide verwenden,da die
+Preisziele,die beiden gemeinsam sind,die höhere Trefferquote besitzen.
+    * Den Marktprojektionen kommt eine besondere Wichtigkeit zu:Die
+meisten Marktteilnehmer verwenden nämlich ausschliesslich die
+Retracements,daher funktionieren die Projektionen in den heutigen
+Märkten besser,weil sie eben der Mehrheit unbekannt sind.
+    * Die meisten Händler nehmen diese Zielprojektion zu
+Gewinnmitnahmen.Interessanter ist es allerdings,sie noch auf zwei
+andere Weisen zu verwenden:
+          o Man benutzt sie Selektion der Trades,ergibt sich ein
+klares Korrekturmuster,d.h. bei einer Wende auf einem Fibonacci-
+Retracement.Gehen die Kurse wieder in Richtung des alten Trends,gibt
+das dann errechnete Preisziel eine erhöhte Sicherheit,denn wenn die
+Kurse einmal auf einem Fibonacci-Niveau gewendet haben,ist es sehr
+wahrscheinlich,dass sie auch ein Preisziel aus einer Fibonacci-
+Projektion erreichen werden.
+          o Findet auf dem so gefundenen Preisziel dann eine Wende
+statt,kann man in die neue Richtung handeln,besonders,wenn andere
+Indikatoren ebenfalls für eine Wende sprechen.Auf diese Weise können
+die Projektion in beide Richtungen gehandelt werden und sind daher
+noch interessanter als die Retracements.
+    * Nach Möglichkeit sollten sich die verschiedenen Projektionen
+schneiden,zumindest sollte sich ein Gebiet herausbilden,wo viele
+Projektionen nahe beieinanderliegen.In dem Augenblick dann, wo dieses
+Gebiet erreicht wird,sollte man prüfen,ob auch andere Indikatoren auf
+eine Wende hindeuten,z.B. über die Zeitanalyse.
+    * Häufig wird es vorkommen,dass die Situation unklar ist,weil die
+sich ergebenden Ziele zu stark divergieren.In einem solchen Fall geht
+man einen Zeitrahmen höher,also z.B. von 5-Minuten-auf
+Stundencharts,usw. und orientiert sich dort.Auch die Ziele von Tages-
+und Wochencharts sind häufig wichtiger als die,die man in den
+Zeitrahmen findet,die man handelt.
+    *
+      Sowohl bei den Preiszielen,die sich aus den Retracements
+ergeben,als auch bei denen,die man über die hier dargestellten
+Projektionen findet,pflegen sich die Kurse meist zu beschleunigen,wenn
+sie hier Wende machen.Dies ist einer der Gründe,warum die Fibonacci-
+Analyse im Bereich des Devisenhandels eine so zentrale Bedeutung
+gewonnen hat,denn hier fehlen viele andere Orientierungspunkte, z.B.
+Eröffnungskurse,usw.,da es sich um ein 24-Stunden-Traden handelt,wo
+auch Volumen und andere Indikatoren nicht zur Verfügung stehen. Wenden
+auf den Fibonacci-Niveaus allerdings bringen fast immer Trades,die
+lang genug sind,um Gewinne zu machen.
+
+Verlängerte Fibonacci-Projektion:
+
+Besonders beimAktienmarkt findet man die häufige Erscheinung,dass
+innerhalb einer Bewegung sich zweimal ein Fibonacci-Verhältnis bildet,
+getrennt von einer nur kurzen Seitwärtsbewegung oder -korrektur.Zum
+Beispiel findet man beim Daytraden häufig eine Bewegung von z.B. 1,27
+der vorangegangenen Bewegung(dies kann auch die letzte Bewegung von
+gestern sein,wenn es sich um die Eröffnungsbewegung handelt)und nach
+einer kurzen Konsolidierung verlängert sich die Bewegung von 1,44 der
+vorangegangenen Bewegung.
+Die wichtigsten Fibonacci-Preisprojektionen
+Von der Impulsbewegung zur Gesamtbewegung
+
+    * Unter Impulsbewegung versteht man immer eine Bewegung in
+Richtung eines Trends,also nach oben oder unten.Davon abzuheben ist
+die Korrekturbewegung,die einen Teil der Impulsbewegung retraced,
+    * Bei dieser Technik schliesst man jetzt also von der Grösse der
+Impulsbewegung auf die Gesamtbewegung,die aus der Impulsbewegung der
+Korrekturbewegung und der folgenden Impulsbewegung besteht,d.h. man
+schliesst auf die Höhe des Preisziels der Trendbewegung,die auf die
+Korrektur folgt.
+
+
+    * In der Elliot-Wellen-Terminologie,wie die einzelnen Wellen
+numeriert werden, bedeutet dies,dass man von der Grösse der Welle 1
+auf das Ende der Welle 3 schliesst.Im Normalfall wird die Welle 1,also
+die erste Impulsbewegung entweder 0,382 oder 0,618 der Gesamtbewegung
+betragen.
+    * Seltener treten auch die Verhältnisse von 0,5 auf und von 0,236.
+    * Die am häufigsten verwendeten Multiplikatoren sind 0,618; 2,618;
+2,0; 4,236. Ander ausgedrückt:Welle 1 ist meist entweder 0,382; 0,618;
+0,5 oder 0,236 des Gesamtgebietes von Beginn der Welle 1 bis Ende
+Welle 3.
+
+Fällt die Korrektur klein aus,dann ergibt die Projektion mit diesem
+Verfahren meist das richtige Ziel,d.h.die Ergebnisse sind
+wahrscheinlich richtiger als jene,die mit den anderen Verfahren der
+Projektion gewonnen worden sind.
+Von der ersten Impulsbewegung auf die zweite Impulsbewegung
+
+Hier schliesst man,wie im ersten Verfahren,ausgehend von der gesamten
+ersten Trendbewegung mit Hilfe der Multiplikation von Fibonacci-
+Verhältnissen auf die Länge der zweiten Impulsbewegung.Man schliesst
+also in der Terminologie von Leidhold von Welle 1 auf Welle 3.
+Im Unterschied zum ersten Verfahren jedoch,wird die so gewonnene
+Strecke nicht vom Beginn der Bewegung aus abgetragen in
+Trendrichtung,sondern vom Ende der Welle 2,also vom Ende der ersten
+Korrektur.
+Die Fibonacci-Multiplikatoren sind hier etwas anders als bei den
+anderen Verfahren, zumeist: 0,618; 1,0; 1,618; häufig auch
+1,27.Seltener finden sich 0,382; 0,5; 2,618.Sogar 4,236 kann in einem
+starken Trend vorkommen.
+
+
+Preisprojektion vom nichtretracten Teil auf die Gesamtbewegung
+
+
+Man nimmt nur jene Strecke der Impulsbewegung,also von Welle 1,die
+nicht von Welle 2 retraced wurde.Daher muss man hier grössere
+Fibonacci-Verhältnisse verwenden.Vor allem jene Preisziele sind
+wichtig, die sich auch aus anderen Projektionen ergeben.
+Preis-Projektion aus mehreren Impuls-Wellen
+
+Dieses Verfahren ähnelt dem Measured Move.Man nimmt also die Länge von
+vergangenen Impulswellen und setzt sie an das Ende von Korrekturen an
+und sucht nach Überschneidungen.Hier spielen besonders die Fibonacci-
+Verhältnisse von 1,236 und 1,764 eine Rolle,sowie die
+Vielfachen,besonders 2 und 3.
+Preis-Projektion aus der letzten Korrektur-Bewegung
+
+    * Hierbei wird die Grösse der letzten Korrekturbewegung mit
+Fibonacci-Verhältnissen multipliziert.Dieser Betrag wird dann
+ebenfalls an das Ende des Retracements angesetzt,wie oben am
+bekannteren Verfahren.
+    * Da im Normalfall die Korrekturbewegung kleiner war als die
+vorangegangene Trendbewegung,benutzt man hier natürlich grössere
+Fibonacci-Verhältnisse. Üblich sind 1,618 und 2,618.Bei sehr starken
+Trends kann auch einmal das Ziel von 4,236 erreicht werden.
+    * Die Zahlen ergeben sich dadurch,dass man 1,618 zum Quadrat
+setzt,was 2,618 ergibt und nimmt man 1,618³,so erhält man 4,236.
+    * In der Terminologie der Elliot-Wellen wird hier also von Welle 2
+auf Welle 3 geschlossen.
+
+
+    * Bei Aktien funktioniert dieses Projektionsverfahren besonders
+gut,Hier findet man auch besonders häufig das Verhältnis von
+1,382.Besonders bei grösseren Retracements ist es sinnvoll,es bei
+Aktien anzuwenden.
+
+Pullback-Projektion
+
+    * Diese Technik wurde entwickelt.Sie wird angewendet,wenn ein
+Retracement aufgetreten ist,das nicht auf einem Fibonacci-Niveau
+stattgefunden hat.Am einfachsten funktioniert sie,wenn man mit dem
+professionellen Börsenprogramm Ebedu® arbeitet,das es ermöglicht mit
+der Maus die Fibonacci - Zonen zu verschieben,wobei sie sich
+gleichzeitig an die geänderten Kurse anpassen,daher der Name
+"Pull".Man kann es natürlich auch mit einem Dreisatz machen,was aber
+im Intraday aufwendig wäre.
+    * Das Verfahren wird eingesetzt,wenn eine Korrektur aufgetreten
+ist,die nicht auf einem Fibonacci - Niveau gehalten hat.Nehmen wir als
+Beispiel einen 5 - Minuten - Chart des Dax - Futures.Der Dax stieg von
+3733 auf 3763 und korrigierte jetzt auf 3750,wo er einen Boden
+machte.Dies ist noch oberhalb der 50%-Marke.Das Fibonacci-Niveau wurde
+also nicht ganz erreicht.Man zieht jetzt die 62% - Korrekturlinie des
+Programms nach oben,so dass sie auf den Boden zu liegen kommt.Das
+Niveau,wo jetzt das Ende des Moves liegt,ist dann die neue Zielzone,in
+diesem Fall 3777,die auch exakt erreicht wurde.
+    * Im Dreisatz würde man das am einfachsten so ausrechnen: Man
+setzt das Niveau des Retracements(hier bei 3750) als 62% - Marke der
+gesamten Bewegung(zukünftig) und rechnet jetzt von hier aus den
+Abstand zum Beginn der Bewegung,auf den sich das Retracement
+bezog.Dies waren 3733.3733 + 0,38*x = 3750.Durch Umformung erhält man
+0,38x = 50-33=17,so dass x = 17:38 sind.
+      x ist also = 44.Zählt man 44 zum Beginn des Moves von 3733
+hinzu,erhält man 3777,was exakt der nächste Top Nr.2 war
+
+
+Das Konzept der Saat-Welle
+
+Neue Wenden zeichnen sich früh dadurch aus,dass sie nach einem
+absoluten Tief oder Hoch ein neues Tief darüber bzw. ein neues Hoch
+darunter bilden.In einem solchen Fall kann man vom Beginn eines neuen
+Trends ausgehen.
+Als Saat-Welle,also als erste Welle auf der wir eine Fibonacci-
+Projektion vornehmen, bezeichnen wir dann die Bewegung vom tiefsten
+Tief bzw. höchsten Hoch zum höheren Tief(bzw.tieferen Hoch),das sich
+zwischen dem 8. und 13.Bar gebildet hat.Diese Vorgehensweise
+verhindert,dass wir zu kleine Wellen als Welle 1 ansehen. Häufig ist
+auch die erste Welle schon untergliedert in eine Korrekturbewegung.
+Nehmen wir ein Beispiel:JOP-Aktie  hätte ein neues Tief gebildet bei
+218(d.h. die vorangegangenen Tiefs lagen höher).Bildet sich jetzt nach
+dem fünften Bar ein höheres Tief,z.B.bei 219,so führen wir jetzt noch
+keine Fibonacci-Projektion durch.Wir warten auf ein Tief zwischen dem
+8.und 13.Bar.Nehmen wir an,ein solches bildet sich im 9.Bar bei
+220.Wir würden jetzt den höchsten Punkt zwischen diesem Tief und dem
+tiefsten Tief bei 218 suchen und die Bewegung vom tiefsten Tief als
+Welle 1 kennzeichnen.Nehmen wir an,dieser höchste Punkt läge bei
+223,dann würde unsere Welle 1 also 5 Punkte betragen.
+Fibonacci-Projektionen ausgehend von absoluten Werten
+
+Dies ist ein relativ neues Verfahren.Es ist besonders interessant für
+Aktien.Dass dieses Verfahren funktioniert,zeigt,in welchem Mass die
+Kursbewegungen mathematisch von den Fibonacci-Verhältnissen dominiert
+werden.Man geht hier nämlich von absoluten Preisen aus(Ähnliches
+machte übrigens schon Wittfoot,dieser benutzte zwar nicht die Fibonacci-
+Zahlen,sondern die Oktavierung,jedoch ähneln sich viele der
+Verhältnisse sehr stark,so dass das Funktionieren dieses Verfahrens
+nicht besonders überraschend ist).
+
+    * Dividiert man eine Fibonacci-Zahl durch die vorhergehende,so
+erhält man die Wachstumskonstante 1,618.Diese findet sich nun auch in
+den Aktienkursen.
+    * Ich könnte z.B.ausgehend vom Ausgangstief bei JOP-Aktie von
+210 diese Zahl mit 1,618 multiplizieren und erhielte ein Ziel von
+339,78.Dies wäre das Wachstumspotential der Aktie,aber keine
+Prognose,dass dieses erreicht wird.
+    * Da so grosse Abstände ausserhalb des Bereichs der Daytrader
+liegen,gehen wir so vor,dass wir 1,618 durch 10 dividieren.Wir
+multiplizieren also 210*0,1618 und erhalten 33,98.Addiert man dieses
+Ergebnis zu 210,so erhält man als Ziel 243,98.
+    * Diesen Move von 210 nach 243,98 betrachten wir als eine
+Wachstumseinheit. Wir erhalten also so ein zusätzliches Preisziel.
+    * Jetzt diese Strecke nach den Fibonacci-Verhältnissen teilen,also
+0,38; 0,50 und 0,62.Auch 1,0 und 1,62 bilden zusätzliche Preisziele.
+    * Dieses kann man jetzt weiterführen.Besonders die wichtigen
+Fibonacci-Punkte, wie 0,382 oder 0,618 kann man wiederum als eine
+Einheit ansehen und selbst wiederum 0,382 und 0,618 unterteilen.
+    * Man kann auch andere Fibonacci-Verhältnisse benutzen,z.B. 0,382
+im obigen Beispiel würden wir dann 210 multiplizieren mit 0,0382 und
+erhalten 8,02.Eine weitere Teilung wäre hier wenig sinnvoll,wir
+addieren diese Zahl zu 210 und erhalten als Preisziel 218,02.
+
+Anpassung an das Daytraden
+
+Bei Verwendung von 1,618 würden wir im obigen Beispiel 210*0,618
+rechnen,was 33,98 ergibt.Diesen Wert teilen wir jetzt für die
+Verhältnisse des Daytradens durch 10 und erhalten abgerundet 3,4.Diese
+Zahl kann man auch dazu benutzen,um einen Trendbestätigungspunkt zu
+finden.Wir addieren diesen Wert zum Tiefstpunkt von 210 und erhalten
+213,40 und ziehen diesen Betrag auch ab von 210,was 206,6 ergibt.Ein
+Aufwärts-oder Abwärtstrend wäre bestätigt,wenn diese Werte
+überschritten wären.
+Die Kombination von Fibonacci-Retracements mit Fibonacci-Projektionen
+
+    * Grundsätzlich sollte man nach Möglichkeit immer mehrere
+Fibonacci-Methoden kombinieren. z..B. lassen sich alle Fibonacci-
+Verfahren mit der Zeitanalyse nach Fibonacci kombinieren und die
+meisten auch sinnvoll mit den Fibonacci-Ellipsen.
+    * Im folgenden werden hier die Kombinationen von Fibonacci-
+Retracements mit Fibonacci-Projektionen gezeigt. Diese ergänzen sich
+und schaffen ein Muster nach dem sich die Kurse bewegen.Dies ist
+besonders wichtig für das Daytraden.An den meisten Tagen lassen sich
+an den grossen Märkten alle Wendepunkte im Intradaybereich mit diesem
+Verfahren erklären.
+    * Weisbrot untersuchte bereits 1935 diese Zusammenhänge und
+entwickelte zehn Muster. Diese werden hier nicht wiedergegeben,da sie
+für die einzelnen Märkte unterschiedliche Bedeutung haben und bei
+vielen Märkten auch andere Muster auftreten.Hat man aber das
+Grundverfahren verstanden,wird man leicht für den jeweiligen Markt auf
+dem man tradet,die relevanten Muster selbst feststellen können.Daher
+enthält diese Seite nur zwei Elemente:
+          o Das Schmetterlingsmuster von Hilmar Wagelöhner,das neben dem
+wichtigsten Gartley-Muster das wohl sicherste Einzelsignal der
+technischen Analyse ist.
+            Einige Beispiele von wichtigen Kombinationen von Fibonacci-
+Retracements und Fibonacci-Projektionen.
+
+
+    * In den allermeisten Fällen lassen sich die gesamten Bewegungen
+eines Tages,wie hier im Beispiel gezeigt,durch Fibonacci-Verhältnisse
+erfassen.Es können sich natürlich auch andere Verhältnisse einstellen
+als die hier dargelegten,aber die hier gezeigten sind besonders
+typisch.
+    * Es ist zu beachten,dass die Retracements und Projektionen sich
+nicht immer auf die jeweils vorangegangene Bewegung beziehen.Man
+benötigt also etwas Phantasie,um die Zusammenhänge zu erfassen.Zum
+Beispiel ist die 1,27-Projektion von 7 nach 8 bezogen auf die Bewegung
+6.
+    * Manchmal kommt es aber auch vor,dass sich ein bestimmter
+Wendepunkt durch mehrere Fibonacci-Verhältnisse erklärt.Zum Beispiel
+enden die Kurse auf einem Niveau,das sowohl ein 0,786-Retracement der
+Bewegung von 1 ist als eine 1,618-Projektion der Bewegung 6.
+
+Klassische Chart-Formationen,Fibonacci-Projektionen und Fibonacci-
+Retracements
+
+    * Es ist wenig bekannt,dass die Formationen der klassischen Chart-
+Analyse,wie Dreieck,Kopf-Schulter- Formation,usw.,ebenfalls den
+Fibonacci-Verhältnissen gehorchen.Die Kenntnis dieser Tatsache
+versetzt den Trader in die Lage,diese Formationen viel genauer
+analysieren zu können und Ausbrüche zu bestimmen.
+    * Die Formationen werden im Berech der Technischen Analyse
+dargestellt.Als ein Beispiel von vielen wird nun im folgenden die
+Vorgehensweise anhand der Formation Three Drives to a Top (Drei
+Schwünge zum Gipfel) dargestellt.Ähnlich sind die Verhältnisse auch
+bei  Three Drives to a Bottom
+
+
+Three Drives to a Top wurde gewählt,weil diese Formation beim
+Daytraden sehr häufig ist und oft übersehen wird.Auch alle anderen
+Formationen lassen sich auf diese Weise analysieren und für das Traden
+sicherer machen.
+TSVR 028
+
+    *
+      Diese Gartley-Formation wurde ausführlich i m Buches aus dem
+Jahr 1935).Diese Besprechung wird hier nicht wiederholt,vielmehr wird
+sie hier nur bildlich dargestellt,wie sie sich zusammensetzt aus der
+Kombination von Fibonacci-Projektionen mit Fibonacci-Retracements.
+    *
+      Wie gesagt,kommt dieser Gartley-Formation eine besondere
+Bedeutung zu wegen ihrer hohen Trefferquote von 75%,auch in den
+modernen Märkten,die nur von der unten besprochenen
+Schmetterlingsformation erreicht wird.
+
+
+Im Bild handelt es sich um die Gartley-Formation am Boden.Die
+Verhältnisse bei der am Gipfel sind dieselben. Schmetterlings-
+Muster(Butterfly):
+
+    * Das Schmetterlingsmuster(Butterfly) ist ein neueres Muster. Es
+hat eine ähnlich hohe Trefferquote,wie das klassische Muster Gartley
+222.
+    * Im Gegensatz zu diesem Muster sind hier die Fibonacci-Verhältnis
+variabel.Die folgenden Beispiele könnten auch mit anderen Fibonacci-
+Verhältnissen gestaltet worden sein.Entscheidend ist hier die Form,sie
+erinnert an Schmetterlingsflügel,wenn man die Dreiecke betrachtet,die
+die Kursbewegung bildet.Die Pfeile wären dann jeweils der Boden der
+beiden Dreiecke.Es wurden typische Fibonacci-Verhältnisse gewählt,die
+in der Schmetterlingsformation häufig vorkommen,es könnten aber auch
+andere gewählt werden
+
+
+    * Der Butterfly-Up bildet sich nach einem Abwärtstrend nach einer
+Bodenbildungsformation,die Kurse werden steigen.
+    * Der Butterfly-Down bildet sich nach einem Aufwärtstrend als Top-
+Formation,die Kurse werden fallen.
+
+Ellipsen
+
+    *
+      Die Ellipsen als Hilfsmittel des Traders hatten ursprünglich
+nichts zu tun mit der Fibonacci-Analyse,sondern sind ein Praktiker-
+Verfahren gewesen.Einer der ersten,der dieses Verfahren
+anwendete,zumindest von dem wir es wissen,war Kasimir Timmers,ein Weizen-
+Trader aus Ipshof,der eine Reihe von Büchern verfasst hat,auch
+astrologischer Art,die damals kaum Leser fanden und deren Nachdrucke
+heute zu Höchstpreisen gehandelt werden.
+    *
+      Einige Trader gingen so vor,dass sie sich Ellipsen verschiedener
+Grösse ausschnitten und sie an die Charts anlegten.Wurde dann eine
+Ellipse von einem Chart in der Breite ausgefüllt,erwartete man,dass
+diese Ellipse den ganzen Wellenzug,also die Bewegung in
+Trendrichtung,die Kurse umspielen würde,so dass der Bruch eine
+Trendwende bedeutet.Heute ist es natürlich ,die Ellipsen mit
+Chartprogrammen einzuzeichnen und fast alle führenden Programme geben
+mittlerweile diese Möglichkeit.
+    *
+      Dabei hat es sich bewährt,für die Grösse der Ellipsen Fibonacci-
+Verhältnisse zu benutzen.Wie auch die anderen geometrischen Fibonacci-
+Verfahren kann man mit Hilfe der Ellipsen sowohl zeitliche als auch
+preisliche Prognosen treffen.Ähnlich wie mit den Kanälen und der
+Fibonacci-Spirale.Ihre Anwendung ist jedoch schwieriger und erfordert
+einige Übung, dennoch ist sie sehr lohnenswert.Die Schwierigkeiten
+liegen im folgenden:
+          o
+            Auch wenn man eine Ellipse gefunden hat,die die
+Preisbewegung umspannt,kann es sein,dass man im späteren Verlauf die
+Ellipse verlängern muss. Hierzu gehört einige Erfahrung.
+          o
+            Innerhalb der Ellipse treten verschiedene Formen von
+Wellen auf,also verschiedene Muster,was häufig verwirrend wirkt.
+          o
+            Fibonacci-Ellipsen sind gelegentlich,sogar ziemlich
+häufig,miteinander verbunden.Das bedeutet,dass nach einem Austritt aus
+einer Ellipse nicht nur eine neue Ellipse beginnt, sondern es ist auch
+möglich,dass ein Teil einer alten Ellipse sinnvollerweise schon ein
+Teil der neuen werden kann,es gibt als Überschneidungen zwischen den
+Ellipsen und einzelne Wellenzüge können Teil zweier Ellipsen sein.
+          o
+            Gelegentlich ist es auch lohnenswert bei grösseren
+Ellipsen,z.B. von Wochendaten,eine Teilbewegung zum Gegenstand einer
+kleineren Ellipse zu machen,dann einen Zeitrahmen niedriger auf Tages-
+Charts.Dies kann man natürlich auch mit Tages-und Stundencharts,usw.
+machen.
+    *
+      Man sollte sich immer bemühen für jeden dreiwelligen Zyklus eine
+eigene Ellipse zu bilden,also zwei Wellen in Trendrichtung und
+zwischen ihnen eine Korrekturwelle.Deren Stärke bestimmt die Breite
+der Ellipse.
+    *
+      Die Ellipsen werden einerseits angewendet zu
+Gewinnmitnahmen,wenn man bereits im laufenden Trend ist und dessen
+Ende erwartet,andererseits dienen sie zum Markteinstieg,wenn man in
+die Haupttrendrichtung gehen will.
+    *
+      Man sollte zunächst mit einem dreiwelligen Muster beginnen,das
+sich immer findet und die Grundstruktur des Marktes ist.Hat man einige
+Übung,kann man versuchen,die Ellipse auch auf fünfwellige Muster
+anzuwenden,analog von Adolf.Die Ellipsen sind um dreiwellige Muster
+besser zu ziehen,aber die fünfwelligen bringen bessere Ergebnisse.Man
+kann auch so vorgehen,dass man mehrere kleinere Ellipsen aus der
+Vergangenheit in eine grössere einbettet, um ein Fünfwellenmuster zu
+analysieren,falls es sich bildet.
+    *
+      Treten die Preise vor dem Ende der Ellipse aus,so wird dieser
+Ausbruch nicht gehandelt.Man verwirft vielmehr die alte Ellipse und
+zeichnet eine neue ein.
+    *
+      Nach Möglichkeit sollte man die Ellipsentechnik verbinden mit
+den anderen Verfahren,d.h. die Endpunkte der Ellipsen sollten auf den
+Niveaus liegen von Retracements,Projektionen, Kanallinien,usw.
+    *
+      Der grosse Vorteil der Verwendung der Fibonacci-Ellipsen liegt
+darin,dass sie das anscheinend unübersehbare Wirrwarr der Kurse in
+deutlich erkennbare Muster gliedern.Der Trader,der es gelernt hat,die
+Kurse mit Hilfe der Ellipsen zu analysieren,weiss immer,wonach er
+Ausschau halten muss.Vor allem,wenn er die Ellipsen auf verschiedene
+Zeitrahmen anwendet,z.B. Stunden-,Tages-und Wochendaten.
+
+Die Bildung der Fibonacci-Ellipsen
+
+Der Kreis entspricht einer Ellipse bei der die beiden Achsen der
+Ellipse,also die,die die Länge misst und die,die die Breite
+misst,jeweils die gleiche Länge haben.Ihr Quotient ist dann 1,eine
+Zahl,die auch zur Fibonacci-Reihe gehört.Von diesem Quotient 1
+ausgehend,wird bei den Fibonacci-Ellipsen der Quotient zwischen der
+Länge der beiden Achsen in Fibonacci-Verhältnissen gesteigert und zwar
+1,618; 2,618; 4,236; 6,854; 11,09; 17,944; usw. Ist die Ellipse von
+1,618 noch eher kreisförmig,ist die mit dem Quotienten von 4,236 schon
+deutlich als Ellipse zu erkennen und weiter als 17,944 sollte man
+nicht gehen,diese entspricht schon einer Havanna-Zigarre und es gibt
+selten schmalere Bewegungen in den Kursen.Besonders wichtig ist,dass
+man erst dann sinnvoll versuchen kann,die Kurse in eine Ellipse
+einzufassen,wenn bereits die dritte Welle läuft,denn die
+Korrekturbewegung setzt den Massstab für die Breite der Ellipse,wir
+brauchen also drei Punkte,den Beginn der Trendbewegung,ihr Ende,das
+zusammenfällt mit dem Beginn der Korrektur und dessen Ende.
+
+
+Hierbei ist besonders darauf zu achten,dass die Welle 2,also die
+Korrekturbewegung, meist selbst aus drei Wellen besteht.Man muss also
+die Ellipse nicht zu früh anlegen, weil sie sonst viel zu früh
+gebrochen wird,was dann kein Hinweis auf eine Trendwende ist,sondern
+nur auf ein zu frühzeitiges Anlegen.
+Die Ellipse als Ausgangspunkt der Fibonacci-Analyse
+
+    *
+      Die Ellipse eignet sich gut als Startpunkt für die Analyse.Sie
+funktioniert in allen Zeitrahmen,nur bei sehr extremen Preisschwüngen
+ist es nicht möglich mit ihr zu arbeiten.Ansonsten folgen die Kurse
+eben der Ellipsenform.
+    *
+      Aus diesem Grund werden alle anderen Preisziele,die man
+findet,sei es über Projektionen,
+Retracements,Spiralen,usw.,aufgewertet,wenn sie auf das Ende einer
+Ellipse fallen.Dazu ist es natürlich nötig,dass man mit mehreren
+Zeitrahmen arbeitet,z.B. wird man die Tagesbewegung auf Stundencharts
+meist in drei Ellipsen analysieren können.
+    *
+      Es ist allerdings darauf hinzuweisen,dass das Ende einer Spirale
+nicht als Bestätigung eines Zeitziels dient oder eines Preiszieles.Der
+Endpunkt sollte zweimal bestätigt sein durch andere Instrumente.
+
+Beispiele für die Kombination der Fibonacci-Ellipsen mit den anderen
+Fibonacci-Verfahren
+
+
+Kombination der Fibonacci-Ellipse mit Fibonacci-Zeitanalyse und
+Fibonacci-Projektionen
+
+
+Kombination der Fibonacci-Ellipse mit den Fibonacci-Retracments
+Das Traden mit den Fibonacci-Ellipsen
+
+    * Will man die Ellipse zum Markteinstieg verwenden,reicht
+normalerweise nicht ein Bruch der Ellipse,sondern man wartet bis die
+Ellipse völlig durchschritten ist und tradet erst am Ende auf den
+Bruch.Bei einem Bruch vor dem Ende ist es meist sinnvoller,die Ellipse
+zu verbreitern,also einen Quotienten zurückzu- gehen.
+    * Noch günstiger ist es,statt des Ausbruchs aus der Ellipse den
+Ausbruch aus einem Trendkanal zu traden,der sich durch Trendlinien
+ergibt,die als Tangenten an die Ellipse gelegt werden.Die Ausbrüche
+aus den Tangenten an die Ellipsen geben zwar etwas später Signale als
+die Ausbrüche aus den Ellipsen selbst,aber wesentlich sicherere und
+diese Signale sind deutlich früher als wenn wir Trendlinien zeichnen
+würden an die Kurse selbst und deren Breaks traden.Siehe das Beispiel
+unten.
+    * Grundsätzlich gilt immer,dass wir für den Einstieg immer gegen
+den Trend gehen,d.h. gegen die Neigungsrichtung der Ellipse.War sie
+nach oben,wird also leerverkauft,war sie nach unten,wird gekauft.Wir
+würden also nur den Ausbruch in diese Richtung aus dem Kanal
+traden.Ausnahmen können sich ergeben,wenn die Neigung der Ellipse fast
+waagerecht war,dann können Ausbrüche nach beiden Richtungen getradet
+werden.
+    * Kehrt sich der Markttrend am Ende der Ellipse um,dann betrachten
+wir den Endpunkt der alten Ellipse als Anfangspunkt für eine
+neue,wobei wir einige Überschneidungen in Kauf nehmen müssen.Es gibt
+nur wenig Kurse,die nicht in Ellipsenform sich abspielen.
+    * Die Ellipse eignet sich nur als gröberes Hilfsmittel für das
+Timing,für den konkreten Eintritt muss man weitere Indikatoren
+benutzen,z.B. die speziellen Tagesmuster beim Daytraden,usw.
+    * Die schmalen Ellipsen sehen zwar besser aus,aber sicherer sind
+die Ergebnisse bei den etwas fülligeren Ellipsen,also denen mit den
+kleineren Fibonacci-Verhältnissen.Noch wichtiger ist die Steigung der
+Ellipse.Je steiler, desto stärker wird vermutlich die Korrektur
+werden,auch die Grösse einer Ellipse spielt eine Rolle:Wendepunkte
+werden besonders dann wichtig sein, wenn innerhalb einer grossen
+Ellipse man an die Kurse drei kleinere Ellipsen einzeichnen kann.
+    * Die Ellipse gibt schon ein frühzeitiges Zeichen für eine
+Wende:Befinden sich die Kurse nämlich am Ende der Ellipse und zeigen
+sich hier Wendezeichen,z.B. wenn eine Widerstandslinie hält,wenn ein
+Fibonacci-Niveau erreicht wird und nicht durchbrochen wird oder die
+Kurse auf einem Fibonacci-Zeitziel wenden, kann es dann in der Nähe
+des Endes der Ellipse schon sinnvoll sein,sich noch innerhalb der
+Ellipse im Markt zu positionieren.
+    * Man sollte nur Ellipsen verwenden,die mindestens 21 Bars
+umfassen.
+
+                       Frühzeitiges Ausbrechen aus den Ellipsen
+
+    *
+      Brechen die Kurse frühzeitig aus der Ellipse aus und nicht an
+ihrem Ende,muss die Situation neu analysiert werden.Man verwendet dann
+also eine neue Ellipse.
+    *
+      Dies bedeutet aber nicht,dass man die erste Ellipse vergessen
+sollte:Denn fast immer tritt ein Wendepunkt auf,wenn das Zeitziel
+erreicht wird,das durch Ende dieser Ellipse gekennzeichnet wird.Die
+Kurse reagieren dann auf diese Ellipse,obwohl sie sich nicht mehr
+darin befinden.
+
+Fibonacci-Kanäle
+
+    * Die Fibonacci-Kanäle haben nichts zu tun mit den normalen
+Preiskanälen.Diese entstehen durch Anlegung einer Trendlinie zu der
+dann eine Parallele gezogen wird im jeweiligen entgegen- gesetzten
+Hoch-oder Tiefpunkt.Dagegen werden die Fibonacci-Kanäle anders
+berechnet.
+    * Die grundlegende Trendlinie von der aus die Fibonacci-Kanäle
+berechnet werden,wird durch ein 3-Wellen-Muster hindurchgezogen,sie
+wird als Basislinie bezeichnet.In einer dreiwelligen Bewegung
+verbindet man Anfang-und Endpunkt dieser Bewegung,die Basislinie geht
+also durch Welle 2 hindurch.
+
+
+Fibonacci-Trendkanäle aus Impulswelle 1 und 3  und  Fibonacci-
+Widerstandslinien aus den Korrekturwellen 4 und 6(a und c)
+Der Unterschied zwischen den Impuls-und den Korrekturwellen wird im
+Elliotmuster dargestellt.
+
+    *
+      Zu dieser Basislinie wird nun die sogenannte Aussenlinie gezogen
+durch jenen Extrempunkt der Welle 2,in deren Richtung sich nach Ende
+der Welle 3 die Kurse bewegen.Auf diese Weise entsteht ein Kanal,der
+aber anders als die üblichen Trendkanäle nicht die gesamte
+Wellenbewegung einschliesst.
+    *
+      Zu diesem Kanal nun werden Parallelen gezogen,wobei die Breite
+des Kanals mit Fibonacci-Verhältnissen multipliziert wird.Dieses
+Verfahren ist noch nicht in allen gängigen Softwarepaketen enthalten
+und daher wenig bekannt. Spezialsoftwares aber, wie Ebedu®,verfügen
+über diese Möglichkeiten.
+    *
+      Wichtig ist,dass man nur strukturell wichtige Wendepunkte und
+Wellenzüge zur Konstruktion eines Fibonacci-Kanals benutzt.
+    *
+      Im Normfall bietet die arithmetische Skalierung hier bessere
+Ergebnisse als die übliche halblogarithmische.
+    *
+      Bei den meisten Fällen endet die Relevanz der Kanäle bei der
+Relation 2,618.Es kommt aber häufig vor,dass noch weit höhere
+Relationen funktionieren,etwa 4,236.Dies hängt von der Breite des
+Kanals ab:Je schmaler der Kanal,desto brauchbarer werden die
+entfernten Fibonacci-Linien.
+
+Traden mit Fibonacci-Kanälen
+
+    *
+      Besonders relevant sind die Kreuzungspunkte der Linien,die aus
+verschiedenen Fibonacci-Kanälen abgeleitet werden.Diese entstehen
+dadurch, dass man sowohl an Trend- als auch an Korrekturbewegungen
+Basislinien konstruiert und daraus Kanäle formt auf die man dann die
+Fibonacci-Linien zieht.Es entsteht also ein Muster von sich kreuzenden
+Linien.
+    *
+      Natürlich entstehen so viele Kreuzungspunkte und man kann nicht
+im vorhinein bestimmen,welcher Kreuzungspunkt erreicht werden wird
+oder welcher relevant sein wird.Erreichen aber die Kurse einen
+Kreuzungspunkt, dann ist eine Wende wahrscheinlich und fast
+sicher,wenn noch andere Hinweise hierauf vorliegen,wenn also
+gleichzeitig z.B. ein Preisziel über ein Fibonacci-Retracement oder
+eine Fibonacci-Projektion erreicht wird oder ein Zeitziel aus der
+Zeitanalyse.Natürlich sind auch Überschneidungen mit den anderen
+geometrischen Fibonacci-Verfahren interessant,wie der Ellipse oder der
+Spirale.
+    *
+      Die Regel der Alternation findet sich auch bei den Kanälen:Wird
+eine Linie berührt,bewegt sich der Marktpreis meist zunächst zurück
+zur vorhergehenden Linie und dann geht erst der Trend weiter zur
+entfernteren äusseren Linie.
+    *
+      Für das praktische Traden vielleicht der wichtigste Punkt ist
+der:Geschieht eine Wende auf einer Linie,dann wird die jeweils nächste
+Fibonacci-Linie erreicht werden.Wird die Linie durchbrochen,zumindest
+deutlich,dann wird die weiter entfernte Fibonacci-Linie erreicht
+werden.Auf diese Weise ist dieses Verfahren auch geeignet,neue
+Preisziele festzulegen.
+
+               Wie werden gültige und ungültige Kanäle unterschieden?
+
+Hierfür gibt es eine einfache Faustregel:Wenn der erste grössere
+Wendepunkt an einer Linie(die mit dem Fibonacci-Verhältnis von 0,618
+oder 1,0 gezeichnet wurde)auf Unterstützung oder Widerstand trifft,ist
+der gezeichnete Kanal gültig.In diesem Fall werden auch die weiteren
+Linien dieses Fibonacci-Kanals von Bedeutung sein.In der Regel sollte
+schon die erste Parallellinie funktioneren als Wendepunkt.
+Fibonacci-Spirale
+
+    * Hier handelt es sich um eine Spirale,die sich in Fibonacci-
+Verhältnissen vergrössert.Man findet sie in vielen Naturformen des
+Pflanzen-und auch des Tierreichs(z.B.bauen sich die Meeresschnecken
+nach diesem Muster auf).Auch in der Astronomie spielt sie eine grosse
+Rolle.
+    * In vielen Märkten,z.B. bei den Devisen,jedenfalls den
+grösseren,finden sämtliche Wendepunkte auf den Spiralen
+statt,jedenfalls wenn man die Spirale doppelt verwendet und zwar
+einmal im Uhrzeigersinn und einmal gegen ihn.
+    * Voraussetzung ist natürlich,dass man den richtigen Startpunkt
+findet.Man muss mehrere Startpunkte ausprobieren,und dann sehen,welche
+sich bestätigen.Die Ausgangspunkte sind im übrigen anders als bei den
+meisten anderen Verfahren.Meist Wendepunkte,die strukturell nicht so
+bedeutend sind.
+    * Die Spiralen geben immer wieder verblüffende Resultate.Da man
+die Wendepunkte aber nur mit sehr vielen Spiralen erfasst,ist es nicht
+möglich mit ihnen allein zu traden.Sie sollten immer mit anderen
+Verfahren kombiniert werden,auch mit anderen Fibonacci-Verfahren.Bei
+letzteren bieten sich vor allem die Fibonacci-Ellipsen an.Sehr häufig
+werden wir nämlich finden,dass, wenn die Kurse z.B. den dritten Ring
+erreicht haben,sie gleichzeitig am Ende einer Ellipse sich
+befinden,was dann schon ein sehr sicheres Signal ist.
+
+
+ Die einzelnen Ringe der Spirale
+
+Die Ringe werden vom Mittelpunkt nach rechts aus gezählt,also in die
+Zukunft.
+
+    *
+      Ring 1:
+      Dieser ist nur dann von Bedeutung,wenn es sich um einen sehr
+starken Trend handelt,dann können hier Wendepunkte vorkommen.
+    *
+      Bildet sich hier kein Wendepunkt,dann bedeutet dies also
+nicht,dass die Spirale nicht richtig konstruiert wurde,dies kann man
+erst später feststellen.Es ist allerdings ein Hinweis darauf,dass beim
+folgenden Ring ein grösserer Wendepunkt gemacht werden wird.
+    *
+      Ring 2:
+      Ring 2 gibt alles in allem die häufigsten und wichtigsten
+Signale,hier findet fast immer eine Wende statt.
+    *
+      Findet die Wende nicht statt,dann kann es sein,dass eine
+besonders grosse auf dem dritten Ring stattfindet.Es kann natürlich
+auch sein,dass die Spirale nicht gut funktionieren wird.
+    *
+      Ring 3:
+      Hier finden wichtige Trendwenden statt,allerdings nur,wenn der
+Trend diesen Ring in Richtung des Haupttrends berührt,d.h. bei Ring 3
+beginnen normalerweise nur Korrekturen,während Korrekturen hier nicht
+enden.
+    *
+      Ring 4:
+      In den meisten Phasen hat er bereits keine Bedeutung mehr.Nur
+bei sehr starken Bewegungen finden wir hier Trendwenden.Dies ist sehr
+häufig bei Crashs der Fall.Typischerweise endet der Crash beim
+Erreichen der vierten Spirale.
+
+Die Konstruktion der Spirale
+
+    *
+      Die Spirale lässt sich nur mit Hilfe eines Computers oder der
+Ebedu® Software erstellen.Ihre Grösse und damit die Ergebnisse
+hängen davon ab,welche Parameter wir wählen.Hier sind zwei Parameter
+zu wählen,einmal der Mittelpunkt der Spirale und dann ihr
+Startpunkt.Dies wird normalerweise jeweils ein Hoch und ein Tief sein
+einer kleinen Welle,klein deshalb,weil sonst die Spirale schnell zu
+gross werden würde.Allerdings dürfen die Punkte auch nicht zu nah
+sein,da sonst die Analyse durch zu viel Marktrauschen gestört wird.Man
+kann sie auch in beide Richtungen drehen,was jeweils andere Ringe
+ergibt.
+    *
+      Ein gewisser Hinweis darauf,dass wir zwei gute Punkte gewählt
+haben,liefern die Reaktionen in der Vergangenheit der Kurse an den
+Ringen.Es ist dann wahrscheinlich,dass sie auch in der Zukunft an den
+Ringen reagieren werden.
+    *
+      Wir sollten immer mit mehreren Spiralen arbeiten,mindestens mit
+zweien,also mit Spiralen von verschiedenen Zentren und
+Anfangspunkten.Dabei sollten die Zentren so unterschiedlich sein,dass
+der erste Schnittpunkt frühestens am dritten Ring auftritt.Noch
+günstiger ist es,zusätzlich noch die Spiralen im Uhrzeigersinn und
+gegen den Uhrzeigersinn laufen zu lassen,ausserdem noch verschiedene
+Spiralen in verschiedenen Zeitrahmen zu verwenden.
+    *
+      Die grösste Bedeutung hat immer der dritte Ring,weil wir erst
+nachdem die Kurse an den ersten beiden Ringen Reaktionen gezeigt
+haben,wirklich sicher sein können,dass wir eine Spirale benutzt
+haben,die erfolgversprechend ist.Über das Warten auf den dritten Ring
+vermeiden wir zusätzlich noch das Traden von kleineren
+Kursschwankungen.Besonders wichtig ist es,wenn der Preis den dritten
+Ring in einem Schnittpunkt erreicht mit dem dritten Ring einer anderen
+Spirale.
+
+Optimale Werte für die Konstruktion der Spirale
+
+Kuhni gibt die folgenden Werte an für den Abstand zwischen
+Zentrum und Startpunkt bei der Spirale,diese wurden aus historischen
+Werten gewonnen.Nimmt man die Abstände kleiner,so kommt zu viel
+Marktrauschen zustande,vergrössert man sie,dann werden wichtige
+Wendepunkte nicht erfasst.
+S&P                        40 Punkte
+Dax                        100 Punkte
+Euro                       2 Cents
+Yen                        2 Yen
+Diese Werte beziehen sich auf die Tages-Charts.Man muss die Werte
+vergrössern,geht man auf Wochen-Charts und verkleinern für
+Stundencharts.
+Unterscheidung zwischen bedeutenden und unbedeutenden Wendepunkten mit
+Hilfe der Spiralen
+
+Je mehr Spiralen unabhängig voneinander ein und denselben Wendepunkt
+bezeichnen,desto wichtiger wird dieser.Das Allzeithoch beim S&P etwa
+im Jahr 2000 geschah am Schnittpunkt von acht Spiralen.Die grösste
+dieser Spiralen startete im Jahr 1996,der S&P berührte sie auf dem
+7.Spiralring.Dies Beispiel zeigt im übrigen, dass dort,wo sich
+verschiedene Spiralen schneiden,auch die Schnittpunkte der weit
+entfernten Ringe noch wichtig sein können als zusätzliche Bestätigung.
+Die Fibonacci-Verhältnisse gliedern den Aktienmarkt
+
+    *
+      Der S&P und die meisten anderen Aktienmärkte lassen sich sowohl
+im länger-als auch im kurzfristigen Bereich,auch im Tageslauf,sehr
+stark mit Fibonacci-Verhältnissen aufgliedern.
+    *
+      Im kurzfristigen Bereich sind ausser den Verhältnissen von
+0,618; 1,0; 1,618 auch noch die Verhältnisse von 0,786 und 1,27
+wichtig.Letzteres ist die Wurzel aus 1,618 und ersteres das Quadrat
+von 0,618.
+    *
+      Neben den Retracements beim Daytraden,vor allem der
+Eröffnungsbewegung sind besonders die Extensionen wichtig.
+    *
+      Weiter sind die Preisziele wichtig: Wenn eine Bewegung nicht auf
+den drei Retracement-Niveaus der vorangegangenen Gegenbewegung
+wendet(im Intradaybereich 0,618; 0,786; 1,0),dann werden Boden oder
+Top der Bewegung fast immer bei 1,27 oder 1,618 liegen.
+
+                                                  Eröffnung und
+Fibonacci
+
+    *
+      Für viele Märkte ist es typisch,dass in der Mehrzahl der Fälle
+die Richtung des Opens auch die Tagesrichtung darstellt,allerdings
+wird dann in der Regel auf die erste grössere Bewegung nach dem Open
+ein Fibonacci-Retracement gemacht,meist von 0,618,auch 0,5 kommt
+relativ häufig vor.
+    *
+      Dies ist im übrigen auch für Devisen typisch,so dass man die
+Future-Kurse in Ipshof für Devisen beachten sollte als Indikator,auch
+wenn man im Interbankenhandel tradet.
+    *
+      Dieses Fibonacci-Retracement auf die Eröffnungsbewegung stellt
+einen sehr günstigen Eintrittspunkt dar und zwar aus drei Gründen:
+          o
+            Bei Erreichen des Fibonacci-Niveaus verlangsamen sich die
+Kurse meist stark,so dass ein Eintritt leicht möglich wird
+          o
+            Man kann hier sehr günstig mit einem engen Stop
+arbeiten,den man auf das 0,85-Niveau legt
+          o
+            Die Trefferquote dieses Trades ist sehr hoch,etwa bei
+75%,besonders, wenn man noch andere Indikatoren hinzunimmt.Der Grund
+ist,dass sich hier mehrere Wahrscheinlichkeiten addieren,denn in der
+Mehrzahl der Fälle entwickelt sich der Tag in Richtung der Eröffnung.
+
+  Ein Fibonacci-Retracement-System für die Eröffnung
+
+Im Intraday-Bereich dominieren die 0,618-Retracements.Gelegentlich
+findet man auch das Verhältnis von 0,79.Dies erlaubt eine
+einfache,aber wirkungsvolle Technik, die nicht nur eine hohe
+Trefferquote hat,sondern auch ein extrem günstiges Verhältnis von
+Gewinn zu Verlust.
+
+    *
+      Man wartet bis die erste Eröffnungsbewegung ein 0,618-
+Retracement gemacht hat.Man geht jetzt in den Markt und legt den Stop
+bei 0,85,ebenfalls ein Fibonacci-Niveau.
+    *
+      Der Trade wird nur gemacht,wenn die Preisbewegung keine grossen
+Bars enthält und auch der Close des Bars niemals mit einem Extrem in
+Trendrichung zusammenfiel.Beides würde dafür sprechen,dass das Niveau
+nicht hält.Zusätzlich kann man andere Indikatoren benutzen,um zu
+prüfen,ob sie für eine Wende sprechen,auch andere Widerstandslinien.
+
+Fibonacci-Analyse beim Daytrading
+
+    * Die meisten Fibonacci-Verfahren erbringen die besten Ergebnisse
+auf Tages-Charts.Man wird also beim Daytrading vor allem jenen
+Fibonacci-Niveaus Beachtung schenken,die im grösseren Zeitrahmen von
+Tages-Charts gewonnen wurden.
+    * Dennoch funktioniert die Fibonacci-Analyse auch im kleineren
+Zeitrahmen gut genug,so dass man sie auch auf Stundencharts anwenden
+kann und einige Verfahren sogar noch niedriger bis hin zu 5-Minuten-
+Charts.Vor allem dann,wenn man sie mit anderen Intraday-Indikatoren
+verbindet.Hierbei ist nicht nur an die normalen Indikatoren zu
+denken,sondern auch an Dinge,wie die Marktlupe.
+    * Darüberhinaus wird man grundsätzlich allen verwendeten
+Daytrading-Techniken grössere Beachtung schenken,wenn ihre Prognosen
+mit Fibonacci-Niveaus zusammenfallen.Ein Beispiel wären die Pivot-
+Punkte.
+    * Man kann allerdings auch anstatt der Pivot-Punkte die Fibonacci-
+Niveaus des Vortages benutzen:Man teilt den Tages-Bar von gestern in
+drei Drittel mit den Verhältnissen von 38,2% und 61,8%, also den
+beiden wichtigsten Fibonacci-Verhältnissen bei den Retracements.Sodann
+verfährt man so,als handele es sich um die Pivot-Punkte.Wenn z.B. die
+Eröffnung von heute im unteren Drittel stattfindet und die Preis ins
+mittlere vordringen,kauft man den Markt in der Erwartung,dass die
+Preise auch noch ins obere vordringen werden,usw.
+
+                                    Retracements und Projektionen beim
+Daytraden
+
+    * Wie gesagt,sollte man beim Daytrading vor allem auf jene
+Retracements und Projektionen achten,die aus einem höheren Zeitrahmen
+gewonnen wurden,also aus Tages-Charts.
+    * Diese spielen dann auch eine Rolle,wenn die Kurse relativ weit
+von ihnen entfernt sind:Ist man z.B. aufgrund von anderen Indikatoren
+im Markt und im Gewinn und die Kurse bewegen sich in unsere Richtung
+auf ein Fibonacci-Ziel hin,gibt dies natürlich für uns noch einen
+zusätzlichen Anreiz im Markt zu bleiben und die Gewinne erst dann
+mitzunehmen,wenn das Fibonacci-Preisziel erreicht wurde,egal,ob es
+über ein Retracement oder eine Projektion gewonnen wurde.Diese Ziele
+werden meist erreicht,denn die Kurse wenden meist nicht beim ersten
+Fibonacci-Ziel,sondern meist erst bei den folgenden.
+    * Darüberhinaus sind natürlich auch jene Preisziele wichtig,die
+durch Retracements und Projektionen in kürzeren Zeitrahmen gewonnen
+wurden, besonders auf Stundencharts.Ganz besonders natürlich,wenn sich
+hier Cluster bilden von mehreren Preiszielen,ausgehend von
+unterschiedlichen Bewegungen.In Verbindung mit den üblichen Daytrading-
+Techniken,wie der Opening-Range,den Pivot-Punkten,usw.ergeben sich so
+zahlreiche Möglichkeiten für das Handeln.
+    * Im Tagesverlauf erklären die Kombinationen von Fibonacci-
+Projektionen und Fibonacci-Retracements fast sämtliche Bewegungen,sie
+werden daher eingehend erläutert.
+
+                                                  Eine Fibonacci-
+Formel für das Tageshoch oder Tagestief
+
+Sehr häufig lässt sich mit dem einfachen Fibonacci-Niveau von 0,618
+das Tagestief oder Tageshoch bestimmen.Man braucht hier eine ABC-
+Bewegung,die im Verlauf des Tages gemacht wird,also eine Bewegung in
+Trendrichtung(AB) und dann eine Korrektur im Gegenrichtung(BC).Die
+entsprechenden Formeln sind dann die folgenden:
+
+Tageshoch: C+ 1,618(B-A)
+Tagestief:   C - 1,618(A-B
+
+
+    * Diese einfache Fibonacci-Projektion findet sich auch ausserhalb
+des Daytradens bei normalen Bewegungen,unabhängig von einer
+Eröffnung.Sie kommt aber sehr häufig vor im Intraday-Bereich und ist
+für die Bewegungen nach der Eröffnungsphase sehr typisch.
+    * Häufig kommt sie in komplexerer Formation vor,d.h. der Bewegung
+1 geht zunächst noch eine andere vom Open voraus,die retraced wird und
+dann erst kommt die Bewegung 1,usw.Es ist also in der Praxis etwas
+schwieriger,das Muster zu erkennen.
+    * Bei dieser Projektion handelt es sich um eines der 10 Gartley-
+Muster..
+    * Die Projektionsniveaus von 1,27 und 1,618 sind hier die
+häufigsten.Bei der Marke von 1,27 muss man mit Hilfe der anderen
+technischen Verfahren entscheiden,ob hier die Kurse weitergehen oder
+hier bereits schon wenden.Hilfreich sind auch die Kerzen-Charts und
+ihre Muster.
+
+Ein Fibonacci-Retracement-System für die Eröffnung
+
+    * Häufiger kommt es anstatt zu einer Fibonacci-Projektion der
+Eröffnungsbewegung zu einem Fibonacci- Retracement.
+    * Auch hier gilt das Analoge,wie für die Projektionen.Wir haben
+wieder die beiden typischen Fibonacci-Verhältnisse für die
+Eröffnungsphase und müssen die Technik verwenden,um zu
+entscheiden,welches relevanter sein wird und ob sie überhaupt relevant
+werden.
+
+
+Die zwei wichtigsten Daytrading-Verfahren der Fibonacci-Analyse
+
+Natürlich arbeitet man beim Daytraden auch mit Retracements und
+Projektionen und mit den anderen Verfahren,jedoch sind drei Fibonacci-
+Techniken besonders für das Daytraden geeignet.
+1. Fibonacci-Ellipsen
+
+Beim Daytrading ist folgendes zu beachten:
+
+    *
+      Man tradet hier nicht,wie bei Tages-Charts,den Ausbruch aus den
+Tangenten, die an die Ellipsen angelegt werden,sondern schon den
+Ausbruch aus der Ellipse selbst,natürlich nur,sofern diese am Ende der
+Ellipse stattfindet.Dies ist nötig,da sonst die Bewegung häufig zu
+schnell wäre,wir also zu spät kämen.
+    *
+      Der entscheidende Vorteil für das Daytrading liegt darin,dass
+sich praktisch alle Kurse in allen Zeitrahmen bis etwa zu 4-Minuten-
+Charts sich vollständig in Ellipsenform einfügen,d.h. die jeweiligen
+Wellen.
+    *
+      Dieser Vorteil überwiegt die Hauptschwierigkeit der
+Methode,nämlich die Tatsache,dass hier sehr viele freie Entscheidungen
+einfliessen,man also viel Übung braucht,um effektiv zu werden.
+    *
+      Überdies funktionieren die Ellipsen auch in längeren
+Seitwärtsbewegungen,wie sie beim Daytraden in vielen Zeitrahmen häufig
+sind.
+    *
+      Man sollte die Ellipsen,die sich auf Tages-Charts bewähren,beim
+Daytraden untergliedern:Enthält eine Ellipse auf Tages-Charts z.B.
+fünf Wellen ,so untergliedert man sie in fünf Ellipsen auf
+Stundencharts.Dies ist eine zentrale Technik der Ellipsenmethode beim
+Daytrading. Jede Ellipse sollte aber nach Möglichkeit mindestens 21
+Bars enthalten.
+    *
+      Sinnvoll ist es,auch beim Daytraden darauf zu achten,dass nach
+Möglichkeit die Endpunkte der Ellipsen auf Preisziele zu liegen
+kommen,die man entweder über die Kanäle oder über die Retracements und
+Projektionen gefunden hat.
+    *
+      Ein entscheidender Vorteil der Verwendung von Ellipsen beim
+Daytrading liegt darin,dass wir hier in Echtzeit analysieren können
+die Wellenmuster,während dies bisher gescheitert ist bei der
+Elliot'schen Wellenanalyse.
+    *
+      Arbeitet man mit Stundencharts,wird man im Tagesverlauf etwa
+drei
+
+2. Zeitanalyse
+
+    * Zu den Vorteilen der Zeitanalyse nach Fibonacci gehört es,dass
+sie auch in kleineren Zeitrahmen funktioniert,auch in
+Seitwärtsmärkten.Deshalb ist sie für das Daytraden ideal geeignet.
+    * In jedem Fall sollte man jedoch nur mit Zeitzielen arbeiten,die
+mindestens von einer anderen Zeitprognose,die von anderen Wendepunkten
+ausging,zusätzlich bestätigt wird,also z.B. von zwei Prognosen mit
+Fibonacci-Verhältnissen,die von unterschiedlichen Wendepunkten
+ausgingen oder von einer Prognose über die Zählung und einer über die
+Verhältnisse,usw.
+    * Da in kleineren Zeiträumen die Verhältniszahl von 1,618(dies ist
+im üblichen die normale Wachstumskonstante)eine sehr grosse Rolle
+spielt,ist es am besten,wenn eine Zeitprojektion mit dieser
+Verhältniszahl durchgeführt wurde.
+    * Die beiden Projektionen,die gefordert werden,um mit einem
+Zeitziel zu arbeiten,sollten nicht weiter als zwei Bars
+auseinanderliegen,d.h. wir benutzen keine Zeitziele,wenn die
+Projektionen mehr als drei Bars auseinanderliegen. Der Wendepunkt,wenn
+er eintritt,wird entweder in der Mitte zwischen den beiden Bars
+eintreten oder auf dem zweiten.
+    * Man sollte bei den Zeitzielen im Daytrading-Bereich so
+vorgehen,dass man zunächst verschiedene Projektionen mit 1,618
+macht.Dann versucht man diese mit den Verhältniszahlen von 0,618 und
+1,0 zu bestätigen.Gelingt dies nicht,prüft man,ob man eine Bestätigung
+mit höheren Fibonacci-Verhältnissen erreichen kann ober über die
+Zählung.

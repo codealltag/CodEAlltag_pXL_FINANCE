@@ -1,0 +1,8 @@
+Ich versuche gerade anhand von EUR/USD, Baltic Dry Index und Kaufsaray ein
+Modell zu erstellen, welche die Entwicklung des Ölpreises vorhersagt.
+Ich bin dazu durch die Modelle Autoregression, ARMA und CER gegangen
+und glaube, dass diese nur eine einzelne Variable hervorsagen können,
+nicht aber die Abhängigkeit von mehreren Variablen auf den Ölpreis.
+Liege ich da richtig?
+Ich denke ich muss also eine multiple lineare Regression verwenden,
+stimmt das?

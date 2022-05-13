@@ -1,0 +1,295 @@
+Money Management und Wahrscheinlichkeit
+Author Dr. P. Allekotte
+
+Immer wieder hört man von der Wichtigkeit des richtigen
+Kapitaleinsatzes beim Eingeben einesTrades. Eine gängige Zahl dabei
+ist zwei Prozent des Gesamtkapitals. Was steckt hinter dieser Größe
+und was kann man mit ihr anfangen? Darf man von ihr abweichen? Es gibt
+eine Menge an interessanten Fragen zum Money Management. Wir wollen
+die wichtigsten Aspekte diesesThemas unter praktischen Gesichtspunkten
+klären und ein paar neue hinzufügen.
+
+Kernproblem desTrading
+Neben der Entwicklung profitabler Handelsstrategien und gutem Timing
+steht im Trading das Vermeiden und Begrenzen von Verlusten im
+Vordergrund, wobei der Schwerpunkt hier deutlich beim Begrenzen liegt.
+Das Börsengeschehen ist nur in geringem Umfang wirklich greifbar, so
+dass verlustbringende Trades die regelmä=ACßige und natürliche Folge
+sind. Das pragmatische Ziel des Traders kann also nicht sein, keine
+Verluste zu ha=ACben, sondern möglichst wenige und kleine Verluste zu
+haben. Trotz Verlusten per Saldo Gewinne zu machen ist das Ziel.
+Trading kann auch per Saldo profitabel sein, selbst wenn
+beispielsweise drei Gewinntrades neun Verlust-trades gegenüber stehen.
+Der Gewinn der drei Ge=ACwinntrades muss dabei aber durchschnittlich
+mindes=ACtens dreimal so hoch wie die Verluste sein. Mittelfristige
+
+trendfolgende Systeme sind hier ein klassisches Bei=ACspiel. Das Produkt
+aus den Gewinnverhältnissen und den Häufigkeiten nennt man den
+Profitfaktor, der bei gewinnbringendem Handel größer 1, bei
+verlustbrin=ACgendem Handel kleiner 1 ist:
+Profitfaktor =3D
+durchschnittlicher Gewinn       Gewinnhäufigkeit durchschnittlicher
+Verlust         Verlusthäufigkeit
+Rechnerisch muss der Profitfaktor größer 1 ausfal=AClen, um
+gewinnbringend zu sein. Aus rein statistischen Gründen sollte die
+Tradeanzahl mindestens 30 oder der Zeitraum bei längerfristigen
+Trendsystemen mindestens zehn Jahre betragen, damit der Profitfaktor
+anfängt, als Kennzahl Relevanz zu erlangen. Dann aber hat er hohe
+Bedeutung für Ihre Erfolgskontrolle. Auch wenn es permanentes Ziel
+sein muss, die Verluste zu verringern, so lassen sie sich nicht völlig
+ausschließen. Sie müs-
+
+sen kontrolliert beziehungsweise gemanagt werden und dazu bedient man
+sich des Money- und Risiko-Manage-ments. Das Problem sind also nicht
+Verluste an sich, di=ACese muss man akzeptieren, sondern deren Anzahl
+und natürlich auch deren Höhe. Sofern Ihr Profitfaktor ge=ACgen l und
+kleiner geht, gilt es die Tradingstrategie zu überdenken und eventuell
+eine Auszeit zu nehmen. In=ACsofern ist der Profitfaktor eine
+hervorragende Kennzahl der Profitabilität.
+Verlustfolgen
+Das Kernproblem, mit dem es Trader zu tun haben, sind also
+Verlustfolgen oder -reihen. Die Frage, wie viel man setzen und
+riskieren darf (pro Trade), hängt davon ab, wie oft man von einem
+Verlust ausgeht oder wie oft in Folge ein Verlust entsteht. Primär ist
+dabei auch die Höhe des Verlustes entscheidend, deswegen betrachten
+wir diesen Punkt zuerst.
+Das Depotrisiko pro Trade
+Man geht, standardmäßig, von einem fixen prozentu=ACalen Depotrisiko von=
+
+zwei Prozent aus, das heißt ein Ver=AClust soll nicht mehr als zwei
+Prozent des gegenwärtigen
+
+Gesamtkapitals ausmachen. Dies nennt man auch den Fixed-Fractional-
+Ansatz. Wie viel das ist, ermitteln Sie, indem Sie Ihr Depot mit zwei
+Prozent, also 0,02 multi-plizieren. Bei beispielsweise 20 000 Euro
+sind dies 20 000 * 0,02 =3D 400 Euro. Das Depotrisiko ist also der
+Betrag, den Sie bei einem misslungenen Trade verlieren, und nicht zu
+verwechseln mit der Tradegröße, dem im Tra=ACde eingesetzten Kapital. So=
+
+manch einem kommt dies zu wenig vor und er geht ein größeres
+Depotrisiko ein. Warum sollte man das aber nicht tun? Die Antwort
+liegt in der Tatsache begründet, dass es eine Folge von Ver=AClusten
+geben kann und sich dann der Gesamtverlust sehr schnell vergrößert.
+Machen wir gleich hierzu ein Beispiel und gehen von zehn Verlusten in
+Folge aus:
+Endwert =3D
+Startwert * (100% - Verlust in Prozent) Verluste in Folge
+Konkret für unser Beispiel sieht die Rechnung wie folgt aus: Endwert =3D
+20 000 Euro * (1 - 0,02) 10 =3D 16 341,46 Euro Die zehn Verlusttrades in
+Folge ergeben also bei
+
+zwei Prozent Depotrisiko einen Verlust von zirka 18,3 Prozent, bei
+drei Prozent Depotrisiko bereits 26,3 Pro=ACzent und bei vier Prozent
+schon ein Drittel.
+Kleine Ursache, große Wirkung. Es gibt eben Ver-lustreihen, und um
+diese zu überleben, braucht man diese =84kleinen" Depotrisikowerte. Der
+Vorteil dieses Fixed- Fractional-Ansatzes ist, dass in einer
+Verlustreihe der prozentuale Verlust konstant bleibt, der absolute
+Verlust aber abnimmt, wegen dem kleiner werdenden Depot. Bei den Money-
+Management-Ansätzen mit fixen absoluten Verlustgrößen (Fixed Amount),
+in unserem Beispiel etwa anfanglichen 400 Euro, erhöht sich bei
+Verlustreihen der prozentuale Verlust zusehends. Diese Strategie,
+zunehmendes Risiko (hierdurch die konstante Verlustgröße) in einer
+Verlustreihe, wird auch als Mar-tingale-Verfahren bezeichnet. Sie ist
+im Trading sehr risikoreich, weil sie auf der Annahme basiert, dass
+der nächste Trade =84mit Sicherheit" ein Gewinn ist. Genau dies ist aber
+fraglich und als Strategie deswegen sehr pro-blematisch. Denn dadurch
+wird das Depotrisiko in einer Verlustfolge immer größer und letztlich
+zu groß. Der Knackpunkt sind also die Verlustreihen.
+Warum sollen es aber zwei Prozent Depotrisiko sein? Kann es nicht auch
+mehr oder weniger sein? Schauen wir uns dazu Tabelle 1 an.
+Zur Tabelle muss einiges erklärt werden. Sie zeigt für ausgesuchte
+Parameter den Zusammenhang zwi=ACschen Depotrisiko, das sind die Werte
+unter den Spalten 4 bis 9, und der Wahrscheinlichkeit p(V(x)) von
+Verlust-folgen von x Verlusten hintereinander. Dabei geht diese
+Tabelle von einer Wahrscheinlichkeit für einen einzelnen Verlusttrade
+in Höhe von 0,5 aus, das heißt die Wahr=ACscheinlichkeit für einen
+Verlust liegt bei 50 zu 50, was hier auch mit 50 Prozent bezeichnet
+wird. Spalte 1 nennt die Verluste in Folge, Spalte 2 die
+Wahrscheinlichkeit dafür und Spalte 3 gibt diesen Wert nun in
+Prozenten wieder. Zu lesen ist sie wie folgt. Nehmen wir an, Sie
+möchten keinesfalls mehr als 15 Prozent Ihres Kapitals verlieren, so
+dass Ihnen noch 85 Prozent verbleiben, also stehen Ihre
+Depotrisikowerte in der Spalte 6 unter =8485". Diese Grundeinstellung
+ist allein von Ihrer persönlichen Risikoneigung abhängig und kann bei
+jemand anderem wieder ganz anders aussehen. Sie sollten Ihr Trading
+zumindest auf Zeit einstellen, wenn Sie Ihren Depotmin=ACdestwert
+erreichen oder wenn Sie einen Verlust von 15 Prozent vom Höchststand
+ihres Depots erlitten haben.
+
+Die zweite Risikokennzahl in Spalte 2 oder 3 betrifft die
+Wahrscheinlichkeit einer Verlustfolge in Spalte 1, und ihre Wahl ist
+wiederum von Ihrer persönlichen Risiko=ACneigung abhängig.
+Gehen wir von einem =84risikoaversen" Trader aus, der nicht mehr als 15
+Prozent Maximalverlust hinnehmen möchte (Spalte 6). Da er dieses
+Szenario mit einer Wahr-scheinlichkeit von höchstens einem Promille
+erleben möchte, sprich in einem von 1000 Fällen, liest er den
+Wahrscheinlichkeitswert dazu (0,10 Prozent) in Spalte 2 oder 3 ab und
+landet in Zeile 10. Was eben zehn Ver-lusttrades in Folge bedeutet. In
+dieser Zeile geht er nun nach rechts in die Spalte von 85 und liest
+hier seinen maximalen Depotrisikowert ab, der dann 1,61 Prozent
+lautet. Ein risikofreudigerer Trader sieht seine Grenzen bei anderen
+Werten liegen, er geht beispielsweise von einem möglichen
+Gesamtverlust von 25 Prozent aus (Spalte 8, 75 Prozent Kapitalerhalt)
+und nimmt dafür die Wahr-scheinlichkeit von einem Prozent in Kauf.
+Folglich fin=ACdet er seinen Wahrscheinlichkeitswert für eine
+ent=ACsprechende Verlustfolge in Zeile 7 beim Wert von 0,78 Prozent.
+Hier geht er wieder nach rechts in die Spalte 8 und liest seinen
+maximalen Depotrisikowert ab, der bei 4,0 Prozent liegt.
+Diese pragmatische Sichtweise definiert voraus-schauend einen Schluss-
+oder Abbruchpunkt für Ihr Trading in Abhängigkeit von der persönlichen=
+
+Verlust-schmerzgrenze. Es ist also nicht das Depotrisiko, die
+klassischen zwei Prozent, an sich von großer Bedeu=ACtung, sondern Ihr
+persönliches Exit- oder Tradingpau-senniveau. Sie können damit Ihr
+Depotrisiko pro Trade vorab über die Wahrscheinlichkeit einer
+Verlustfolge fest=AClegen. Der Vorteil ist, dass Sie eine feste
+Abbruchgröße haben und über das Depotrisiko eine Annahme treffen, wie
+wahrscheinlich Sie diese Grenze erreichen. Sollte Ihre Annahme nicht
+einteffen, haben Sie Ihr Kapital nur zu dem von Ihnen festgelegten
+Teil verloren. Wie sagte Matzka so schön in einem Interview.
+=84Trading is a money management and probability game".
+Wahrscheinlichkeit im Wandel Die Verlustwahrscheinlichkeit eines
+einzelnen Trades in der Tabelle liegt bei 0,5 oder 50 zu 50. Es stellt
+sich natürlich die Frage, ob dieser Wert zu groß oder zu klein ist
+oder ob er nicht dynamisch ist. Er ist natürlich in der Praxis
+dynamisch und schwankt um einen Mittelwert,
+den Sie aus Ihrer individuellen Tradehistorie ermitteln müssen, indem
+Sie die Gewinntrades durch die Ver-lusttrades teilen. Wenn Ihre
+Tradeanzahl 30 übersteigt, haben Sie eine erste Orientierung für
+diesen Wert, bei ei=ACner Tradeanzahl von mehr als 100 Trades haben Sie
+einen sehr brauchbaren Prognosewert. Um Veränderungen bis hin zum
+Systemversagen oder periodische Abwei=ACchungen feststellen zu können,
+sollten Sie Ihre letzten Trades stets relativ zu Ihrem Prognosewert im
+Auge be=AChalten. Grundsätzlich gilt hier, dass die vermehrten Werte
+sehr kurzfristiger Tradings hier weitaus genauer, stabiler und damit
+zuverlässiger sind als die längerfristi-gen Tradings. Negative
+Entwicklungen im Profitfaktor sollten immer sehr aufmerksam verfolgt
+werden, denn hier deutet sich ein Handelsversagen am frühesten an.
+Dieses Thema kann und soll an dieser Stelle aber nicht weiter erörtert
+werden.
+Ein weiteres Problem taucht hier in Form der kaum beachteten Frage
+auf, wie man die resultierende Wahr-scheinlichkeit von Verlustfolgen
+zu beurteilen hat. Ist ein Prozent nicht wenig? Ist ein Promille nicht
+gar sehr ge=ACring, zu gering? Oder ist ein Prozent gar viel? Es gibt
+darauf leider keine allgemein anerkannte Antwort, hier gehen die
+Meinungen letztlich doch weit auseinander. Es ist das statistische
+Problem selten auftretender Er=ACeignisse. Obwohl die
+Wahrscheinlichkeit, im Lotto sechs Richtige zu haben, bei knapp 1 zu
+14 Millionen steht, gibt es doch Lottospieler. Und manche gewinnen
+auch noch. Seltene Ereignisse sind zwar selten, kommen aber immer
+wieder vor. So auch im Trading. Man kann daher nur empfehlen, das
+Risiko so gering wie nur möglich zu halten und den Weg des
+risikoaversen Traders, ähnlich wie oben, zu gehen. Und dies möglichst
+lange, denn die Verlockung, in günstigen Börsen- und Tradingphasen das
+Depotrisiko zu erhöhen - sprich die Wahrschein=AClichkeit die Exitgrenze
+zu erreichen - ist sehr groß.
+Rechenpraxis
+Wenn Sie sich für eine Verlustreihe entschieden haben, die Sie noch
+gewillt sind zu akzeptieren, oder die Sie für wahrscheinlich halten,
+dann können Sie Ihr Depotrisiko pro Trade auch rein rechnerisch,
+unabhängig von den in der Tabelle genannten Werten, bestimmen:
+Endwert Startwert
+Formel Depotrisiko =3D   1 - n
+
+Beispiel: Sie rechnen mit zehn Verlusten in Fol=ACge, wollen aber nur
+zwölf Prozent insgesamt verlieren. Wie hoch darf dann Ihr Depotrisiko
+(pro Trade) sein?
+Startwert =3D 20 000 Euro
+Endwert =3D Startwert - 12 % =3D 17 600 Euro
+17 600 20 000
+Depotrisiko (pro Trade) =3D 1 -10/
+Depotrisiko =3D 1 - 0,987298 ~ 0,01270 oder 1,27%. Ihr Depotrisiko ist
+dann 1,27% oder 20 000 Euro * 0,0127 =3D 254 Euro.
+Tradegröße und Opportunität Bisher haben wir das vertretbare
+Depotrisiko (pro Trade) betrachtet, jedoch noch nicht die Tradegröße,
+also die Größe einer Handelsposition, weswegen man das ganze auch als
+Positionsgrößenbestimmung bezeichnet. Das Depotrisiko (absolut in
+Euro) und die Tradegröße sind in der Regel verschieden, können unter
+Umständen aber auch gleich sein. Die Trade- oder Positionsgröße
+bestimmt sich nach der Formel:
+Tradegröße (Euro) =3D Depotrisiko (Euro) /Traderisiko (Prozent)
+Das Traderisiko ist der prozentuale Verlust der je-weiligen Position
+und richtet sich in der Regel nach bestimmten Volatilitätskennzahlen
+oder Formations=ACgrenzen. Hier wird auch der erste Stopp-Loss gesetzt.
+Rechenbeispiel: Wir nehmen das Depotrisiko von 1,27 Prozent =3D 254 Euro
+und verkaufen die Position bei einem Verlust von 15 Prozent oder
+dezimal 0,15. Unsere Tradegröße ist dann 254 Euro / 0,15 =3D 1693,33
+Euro, dies entspricht 8,47 Prozent unseres Beispielka=ACpitals von 20
+000 Euro. Wenn die Tradegröße dem De=ACpotrisiko entspricht, das
+Traderisiko also bei 100 Pro=ACzent oder dezimal bei 1,0 steht, dann
+können Sie diesen Trade zu 100 Prozent verlieren und sind angesichts
+Ihres Money Managements immer noch im Spiel. In der Regel sind solche
+Positionsgrößen zu klein, denn Sie müssen ja Ihren erwarteten
+prozentualen Gewinn auf der Basis Ihres Trades kalkulieren. Und der
+pro=ACzentuale Gewinn ist bei vielen Trades nicht so hoch, dass sich der
+Gewinn nach Abzug der Kosten rechnen würde. Um bei unserem Beispiel zu
+bleiben: Wenn Sie das Depotrisiko von 1,27 Prozent =3D 254 Euro als
+Tradegröße nehmen und von einem Gewinn von realis-tischen zehn Prozent
+ausgehen, so sind dies 25,40 Euro Gewinn vor Kosten und vor Steuern.
+Bei mehr als 20 erfolgreichen Trades im Intraday-Handel ist dies
+viel=ACleicht vertretbar. Aber im längerfristigen Handel auf Tagesbasis
+und bei einer durchschnittlichen Tradedauer von 20 Tagen (zirka ein
+Börsenmonat) ist dies schon sehr gering. Die Opportunität, also die
+Tradeanzahl pro Zeit=ACeinheit (welche auch immer), ist ein wichtiger
+Faktor. Trading mit hoher Opportunität kann sich also eine geringe
+Tradegröße viel eher erlauben als Trading mit geringer Opportunität,
+wie das klassische End-of-Day-Trading. In diesem Falle sollten Sie den
+Tradc aufgrund einer zu geringen Positionsgröße ausfallen lassen und
+sich die Kosten sparen.
+Money Management und Hebel
+Es empfiehlt sich außerdem, den Hebel als Faktor auf
+das Traderisiko nach folgender Formel anzuwenden.
+TraderisikoH =3D Traderisiko (Basiswert) * Hebel
+Setzen wir den Hebel beispielsweise konstant und mit Faktor 5 an, so
+berechnet sich das gehebelte Trade-risko H wie folgt, wenn der
+Basiswert ein Traderisiko von 15 Prozent oder dezimal 0,15 vorlegen
+würde:
+TraderisikoH =3D 0,15 * 5 =3D 0,75
+Anders gesagt: durch den Hebel wird ein Verlust pro Tradc von 75
+Prozent in Kauf genommen. Das führt wiederum zu einer Tradegröße von
+254 Euro / 0,75 =3D 338,67 Euro oder 1,69 Prozent bezogen auf unser Bei-
+spielkapital.
+Diese Tradegröße sieht natürlich optisch nicht reizvoll aus, ist aber
+unter Money Management Ge=ACsichtspunkten  nur vernünftig.   Viele
+Tradinganfänger
+
+machen diese Rechnung nicht und verwenden stattdes=ACsen das =84normale"
+Traderisiko des Basiswertes. Sie in=ACvestieren vielleicht die oben
+ausgerechneten rund 1693 Euro als Tradegröße und gehen damit ein um
+ein Viel=ACfaches zu hohes Depotrisiko ein. Genauer gesagt den Hebel und
+haben somit ein fatales und oft finales 6,35 Prozent (5* 1,27)
+Depotrisiko. Wenn Sie also einen Hebel einsetzen, dann müssen Sie, um
+ein rationales Money Management zu betreiben, die Tradegröße
+entsprechend anpassen. Die gehebelte Tradegröße H ist die
+entspre=ACchende Tradegröße des Basiswertes geteilt durch den Hebel. In
+unserem Falle also 1693 Euro / 5 =3D 338,67 Euro, der Wert von oben.
+Lassen sie uns noch einen zweiten klassischen Fehler ansprechen. Oft
+verlagert sich die Aufmerksamkeit auf das Traderisiko des Basiswertes.
+Falsch und ein typisch psychologischer Anfängerfehler ist nun, das
+Traderisiko des Basiswertes =84innerlich zu verharmlosen" und als zu
+hoch einzustufen. Denn =84man muss ja" angesichts des zu hohen
+Traderisikos H das Risiko mindern und damit das Traderisiko des
+Basiswertes erniedrigen. Schließlich will man ja als Tradegröße 1693
+Euro ansetzen.
+Also wird das Traderisiko (des Basiswertes) her-abgesetzt: =84Drei
+Prozent oder 0,03 passen schon". Rein rechnerisch ist dies in unserem
+Beispiel korrekt, damit befindet sich das System wieder im grünen
+Be=ACreich. Doch wenn unser anfängliches Traderisiko von 15 Prozent ein
+zu unserem Handelssystem ermittelter optimaler Wert war (dies mal
+angenommen), so führt in der realen Tradingpraxis ein zu enger Stopp-
+Loss von beispielsweise drei Prozent permanent in die Verlustzo=ACne
+über zu viele kleine Verluste und über die Kosten. Bei der Bestimmung
+der Tradegröße ist also das Traderisiko neben dem Depotrisiko ein
+enorm wichtiger Aspekt. Das Traderisiko muss zum gehandelten System
+passen, ansonsten ist die Gefahr eines dauernd zu frühen Stopp-Loss-
+Verlustes zu groß
+Fazit
+Auf die Dauer haben nur die Trader Erfolg, die Money Management
+anzuwenden und zu beherrschen lernen. Jede Glückssträhne oder Hausse
+findet einmal ein Ende, egal wie lange sie gedauert hat, und dann
+kommt es auf das Knowhow an: richtig eingesetztes Money- und Risiko-
+Management und die richtigen Risikowerte. Halten Sie deswegen Ihr
+Risiko, Ihren Depotrisikowert klein, denn nur dann haben Sie die
+Chance, auch große verlustbringende, seltene Ereignisse als Trader zu
+überleben.

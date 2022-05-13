@@ -1,0 +1,17 @@
+Falls es Minshorts auf die Aktie gibt, würde ich solche verwenden. IDLF 
+hat z.B. für viele Standardaktien Minishorts.
+
+Ausrechnen:
+Wert der Aktien geteilt durch aktuellen Hebel des Derivats.
+Dieser Betrag geteilt durch Derivatkurs ergibt nötige Stückzahl.
+
+Alternative:
+Wenn Du einen Minishort mit StopBuy orderst, kaufst Du erst, wenn die Aktie 
+fällt,
+hast aber einen niedrigeren gehedgten Kurs.
+Du kannst bei steigendem Aktienkurs, das StopBuy nachziehen, bzw.den Schein 
+switchen (Scheinswitsch 10 mal sagen, dann bist Du Masterhedger) .
+
+Welche Aktie willst Du hedgen?
+
+Yours schwitzing Patrik

@@ -1,0 +1,31 @@
+Ich bin leider kein Energieversorger, aber folgendes weiss ich:
+
+Es gibt Hoch- und Mittelspannungsnetze. Erst die letzte Ebene
+transformiert auf die 400 Volt Drehstrom, die Dir meist per Erdkabel
+in den Keller gelegt werden. (oft auch noch übers Dach).
+
+Schickst Du Daten an jemanden im Nachbarbezirk, so kann es sein, dass
+dieser am selben 400 Volt Netz haengt, wie Du. Dieses eine 400 Volt
+Netz waere tatsaechlich ein Bus.
+
+Meine Vermutung:
+Sollen Deine Daten ans anderen Ende der Sadt, so gehen sie eventuell
+ubers Mittelspannungsnetz. Also von Deiner 400 Volt Leitung ->
+Mittelspannung. An der entsprechenden Trafostation Mittelspannung  ->
+400 Volt muesste dann entschieden werden, in *welchen* 400-Volt-Bus
+die Daten weitergeleitet werden sollen.
+
+Die Transformatoren sind auf das Uebertragen von 50 Hz Wechselspannung
+optimiert. Daten uebertragen die bestimmt nicht. Aus Sicht der Daten
+duerften die Spannungsebenen also galvanisch getrennt sein. Man muss
+wahrscheinlich spezielle "Router" installieren.
+
+Je nach Art und Anzahl der Energieversorgungleitungen muesste da doch
+auch die Moeglichkeit fuer Switching bestehen?
+
+Fuer lange Strecken (Hochspannung) duerfte analog das Gleiche gelten.
+
+Schau auch mal hier:
+
+
+Da sind Literaturverweise auf die Avini, ein Artikel bereits von 1995.

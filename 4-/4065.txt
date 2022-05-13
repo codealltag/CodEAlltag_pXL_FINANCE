@@ -1,0 +1,98 @@
+Visual Basic 2010 Roulette Tableau jetonsetzend aktiv programmieren
+Czach Cotte
+Video http://hoh.zsibypm.rud/chamz?o=8DK3JUWNMnYr7
+
+Author S.Cotte
+Heute zeige ich Ihnen, wie man z.B. für ein Internetcasino ein aktives
+Roulettetableau programmiert, auf dem die Jetons gesetzt werden. Sie
+kennen das ja, man clickt auf die Jetons, zieht sie auf das Tableau
+und somit hat man gesetzt. Zum besseren Verständnis habe ich die
+verdeckten Steuerelemente hier sichtbar gemacht und zeige, wie man so
+etwas programmiert. Gestern habe ich Ihnen ja gezeigt, wie man den
+Roulettekessel als drehenden Roulettekessel programmiert. Die heutige
+Anwendung des Tableaus soll nur die Vorgehensweise zeigen, es ist
+natürlich genauso auch für andere Dinge, wie Spiele usw. anwendbar,
+ich zeige hier nur, wie es grundsätzlich geht.
+Ein kurzer Code und schon läuft das Ding. Das Tableau sollte immer
+gezeichnet werden, aber Sie können auch ein Foto nehmen.
+Damit Sie die Funktionalität sehen, mache ich die Abfrage über einen
+Button Setzen. Normalerweise ist es ja so und auch überflüssig, denn
+man zieht den Jeton auf die entsprechende Zahl auf dem Roulettetisch.
+Das sieht nunmehr alle dann erst mal so aus (siehe Video).
+So, nun ist es schon fast fertig, wir brauchen nur noch einen kleinen
+Code. Den Code schreibe ich mal in den Button Setzen rein, weil das
+Setzen ja hierüber erfolgt, um die Funktionalität zu zeigen.
+Hier mache ich nur Zahlen, beim Roulette können Sie natürlich auch
+noch Cheval, Carre und alle anderen Chancen setzen. Das können Sie
+dann ganz einfach erweitern.
+Der Code im Button Setzen lautet somit:
+        Me.Refresh()
+        Dim SchriftFont1 As New Font("Arial Black", 10)
+        Dim StiftFarbeWeiss =3D New Pen(Color.White, 1)
+        Dim FarbeWeiss As New SolidBrush(Color.White)
+        Zeichnen =3D Me.CreateGraphics
+
+        Dim DerJeton(38, 3) As Integer
+        Dim PleinNumber(3) As Integer
+        DerJeton(0, 1) =3D 202 : DerJeton(0, 2) =3D 129
+        DerJeton(3, 1) =3D 290 : DerJeton(3, 2) =3D 141
+        DerJeton(8, 1) =3D 289 : DerJeton(8, 2) =3D 179
+        DerJeton(12, 1) =3D 381 : DerJeton(12, 2) =3D 181
+        DerJeton(20, 1) =3D 421 : DerJeton(20, 2) =3D 242
+        DerJeton(25, 1) =3D 441 : DerJeton(25, 2) =3D 306
+        DerJeton(27, 1) =3D 525 : DerJeton(27, 2) =3D 253
+        DerJeton(32, 1) =3D 566 : DerJeton(32, 2) =3D 312
+        DerJeton(34, 1) =3D 552 : DerJeton(34, 2) =3D 350
+        DerJeton(36, 1) =3D 643 : DerJeton(36, 2) =3D 296
+        'Hier zur Demo nur für 10 Zahlen,
+        'die restlichen 27 Zahlen müssen Sie noch
+        'reinschreiben
+
+        Text1 =3D "Welches "
+        Text2 =3D ". Plein soll gesetzt werden?"
+        For FrageWohinSetzen =3D 1 To 2
+            PleinNumber(FrageWohinSetzen) =3D InputBox(Text1 _
+            & FrageWohinSetzen & Text2, Text1 _
+            & FrageWohinSetzen & Text2, Int(Rnd() * 36 + 1))
+        Next FrageWohinSetzen
+
+        Zeichnen.FillEllipse(New SolidBrush(Color.Yellow), _
+                             DerJeton(PleinNumber(1), 1), _
+                             DerJeton(PleinNumber(1), 2), 40, 40)
+        Zeichnen.DrawEllipse(New Pen(Color.Black, 4), _
+                             DerJeton(PleinNumber(1), 1), _
+                             DerJeton(PleinNumber(1), 2), 40, 40)
+
+        Zeichnen.FillEllipse(New SolidBrush(Color.Lime), _
+                             DerJeton(PleinNumber(2), 1), _
+                             DerJeton(PleinNumber(2), 2), 40, 40)
+        Zeichnen.DrawEllipse(New Pen(Color.Blue, 4), _
+                             DerJeton(PleinNumber(2), 1), _
+                             DerJeton(PleinNumber(2), 2), 40, 40)
+
+Das wars dann schon, jetzt müsste es funktionieren und wir starten.
+Nun wollen wir je einen Jeton auf die Zahl 20 und 36 setzen. Und siehe
+da, ein Jeton wird genau auf diese Zahlen gelegt. Jetzt je einen Jeton
+auf 25 und 34, und siehe da, die 25 und 34 wird belegt. Jetzt auf die
+Zahlen 3 und 27 je einen Jeton, und der Jeton wird auf die 3 und 27
+placiert. Jetzt auf die 0 und die 27 je einen Jeton, und es klappt
+ebenfalls. Jetzt noch je einen Jeton auf 32 und 8, und es klappt.
+Es funktioniert alles bestens mit diesem kleinen Code, ein Programm,
+was man in 5 Minuten hingezaubert hat.
+Sie sehen wie einfach es ist und warum mache ich das. Ich habe mir mal
+deutsche Bücher über Visual Basic angesehen, dort steht ein Mist, ein
+reiner Mist drin, funktioniert nicht und von Anfängern geschrieben.
+Genauso ist das mit diesen sogenannten Lernvideos, die da von 2
+Verlagen herausgegeben werden. Von Grafigprogrammierung finden Sie da
+nichts, nur Konsole (alte DOS) mit denen eigentlich heute niemand was
+anfangen kann. Und dann nennen sich diese Leute Fachleute von
+angeblichen Hochschulen, die diese Bücher geschrieben
+haben.Tatsächlich ist das alles aus alten Büchern abgeschrieben,
+weshalb auch in jedem Buch das Gleiche drinsteht. Alter Mist neu
+aufgemotzt, der aber nicht passt. Sparen Sie sich das Geld für diese
+Schundbücher.
+Den obigen Code könnte ich noch sparsamer in einer Zeile für dieses
+Programm schreiben, ich habe das aber jetzt nur verteilt, damit Sie
+die Funktionalität erkennen.
+Das wars dann.
+Cotte

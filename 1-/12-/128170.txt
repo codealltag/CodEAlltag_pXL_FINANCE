@@ -1,0 +1,19 @@
+Meines Erachtens liegt das entweder daran,
+
+daß die Stop-Loss-Order erst ausgeführt wird, wenn der Kurs den Limitwert
+erreicht oder unterschritten hat. Du bekommst also erst den nächsten Kurs
+NACH Erreichen/Unterschreiten des Limits. Der kann aber beträchtlich tiefer
+liegen. Und da Du ja nicht zusätzlich nach unten limitiert hast, wird
+verkauft ...
+
+oder aber,
+
+Die Wollschaf hat einfach schon mit DM 660,- eröffnet. Dann kam der Kurs 700
+nie zustande, das Limit war aber unterschritten, also wurde sofort verkauft.
+
+Zusammengefaßt: Limit bedeutet nicht, daß zum Limitkurs verkauft wird,
+sondern zum nächsten Kurs nach dem Limitkurs. Gerade bei extremen
+Kusschwankungen oder an neuen Tagen kann das zum Problem werden.
+
+Gruß,
+ @

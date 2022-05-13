@@ -1,0 +1,44 @@
+Die Berechnung basiert auf der Indexformel von Tombarge:
+
+
+                                             1000* Summe (i=1 bis 30)
+Kia*Git0*Cia
+DAX im Zeitpunkt t = v(t0) *
+--------------------------------------------------
+                                               Summe (i=1 bis 30)
+Kib*Gib
+
+mit V = jährlich im September aktualisierter Verkettungsfaktor
+     t0 = letzter Verkettungstermin
+    Kia = aktueller Kurs der i-ten Aktie zum Zeitpunkt der
+Indexberechnung
+    Kib = Schlußkurs der i-ten Aktie am Basistag (03.09.88)
+    Git0 = Grundkapital der i-ten Aktiengesellschaft am letzten
+Verkettungstermin
+    Gib = Grundkapital der i-ten AG am Basistag
+    Cib = aktueller Bereinigungsfaktor der i-ten Aktie
+
+Der Verkettungsfaktor wird eingefügt, damit keine Sprünge im DAX
+entstehen, wenn eine AG im DAX durch eine andere ersetzt wird.
+Die Bereinigung wird vorgenommen, damit nur die Kursveränderungen
+angezeigt werden, die aus der tatsächlichen Angebots- und
+Nachfragekonstellation im Markt hervorgehen. Die Kursrückgänge, die auf
+Dividendenzahlungen, der Ausgabe junger Aktien oder der Emission von
+Berichtigungsaktien zurückzuführen sind, werden gewissenmaßen
+"rausgefiltert".
+Der Bereinigungsfaktor Ci berechnet sich als
+
+       letzter Kurs cum
+Ci= ---------------------------------------------------
+       letzter Kurs cum - rechnerischer Abschlag
+
+(Letzter Kurs cum = Tagesschlu�kurs, der am Tag vor einem Bezugsrechts-,
+Berichtigungsaktien- oder Dividendenabschlag an der Börse festgestellt
+wurde.
+Der rechnerische Abschlag ist gerade die Höhe der Bardividende, des
+rechnerischen Bezugsrechtswertes bzw. des rechnerischen Wertes der
+Berichtigungsaktien.)
+
+Ich hoffe, diese Informationen stimmen und haben weitergeholfen.
+Gruß,
+Theodor

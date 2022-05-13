@@ -1,0 +1,36 @@
+Hallo! Nun habe ich das gleiche Problem. Ich folgte dem
+Ratschlag von Hanno Uphoff (s.u.), die Datei mdac_ie5.cab zu extrahieren
+und das darin enthaltene Setup auszuführen.
+Diese meldete erfolgreiche Ausführung. Der Access-Fehler tritt leider
+weiterhin auf.
+Was gibts an weiteren Tips?
+
+Hier eine genaue Beschreibung des Ablaufs:
+
+Ich hatte das Programm früher schon mal installiert und registriert,
+danch wieder deinstalliert.
+
+Nun möchte ich es wieder installieren, dabei geschieht folgendes:
+
+-Anzeige Lizenzvertrag
+-MsgBox "Sie haben dieses Programm bereits registriert.
+Wollen Sie die Registrierung erneut durchführen?" Ich antworte "Nein"
+-Ich wähle als Zielpfad C:\Programme\WISO\Börse2, wird angelegt
+-Wähle Option kostenloses Datenabo,
+-Wähle Option Geschäftsberichte auf die Festplatte kopieren
+-akzeptiere Programmordner "DVWG Börse 2.0"
+-Install-Shield hat alle Dateien kopiert, Plattenzugriffe für 5 Sekunden,
+-blendet Fenster ein "Setup konfiguriert ODBC",
+bringt unmittelbar danach folgende MsgBox
+--------------------------------------------------------------
+Schwerwiegend
+
+Setup- oder Konvertierungsbibliothek konnte nicht geladen werden
+Microsoft Access driver (*.mdb)
+---------------------------------------------------------------
+Install-Shield bricht ab und entfernt im Hintergrund alle bereits nach
+C:\Programme\WISO\Börse2 kopierten Dateien sowie das Verzeichnis selbst
+
+
+===============================================
+MS)

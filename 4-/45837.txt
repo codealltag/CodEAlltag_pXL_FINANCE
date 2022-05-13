@@ -1,0 +1,30 @@
+hallo ihr alle,
+
+ich interessiere mich für den *exakten* algorithmus zur kursfeststellung im
+variablen handel. ich wäre für jeden hinweis dankbar, denn ich habe schon
+einige zeit in diversen büchern/sites zu diesem thema vergeblich gesucht.
+
+ich weiß folgendes:
+
+in einem topf sind kauf- und verkaufsangebote, die limitiert oder
+unlimitiert sind (stop-aufträge jetzt mal unberücksichtig). nun wird
+versucht, diese aufträge gegeneinander zu "matchen", d.h. eine zahl zu
+bestimmen (den aktuellen kurs), bei der möglichst viele aufträge ausgeführt
+werden können (oder aktien den besitzer wechseln?).
+
+nur: wie *genau* geht das vor sich?
+
+sehe ich das richtig, dass der kurs immer eine der zahlen sein muss, die auf
+mindestens einem der aufträge als limit verzeichnet ist?
+
+was passiert, wenn in dem topf nur unlimitierte aufträge schwimmen?
+
+wie ist das mit den stop-loss/buy-aufträgen?
+
+was pasiert im außerbörslichen handel mit dem topf?
+
+kann ich den topf irgendwo online einsehen?
+
+
+vielen dank im voraus,
+   olaf

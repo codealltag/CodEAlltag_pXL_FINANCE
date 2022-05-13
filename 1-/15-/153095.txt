@@ -1,0 +1,15 @@
+Hallo Gert, 
+
+
+Der ROC (Rate Of Change) ist ein Momentumindikator der die Ge-
+schwindigkeit bzw die Staerke der Kursbewegung misst.
+Berechnung:
+((Schlusskurs heute minus Schlusskurs vor n Tagen) : Schlusskurs vor 
+n Tagen) x 100.
+Die Einstellungen fuer n koennen von einigen Tagen bis zu mehreren Monaten 
+reichen. Ich verwende eine Kombination von kurz mittelfristigen und
+langfristigen
+ROC die sich als sehr zuverlaessig herausgestellt hat.
+
+Gruss,
+Ivo

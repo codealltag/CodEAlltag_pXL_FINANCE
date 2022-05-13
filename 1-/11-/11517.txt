@@ -1,0 +1,441 @@
+Math of Texas Holdm Poker
+Author Dr. H. Ungerbühler
+
+A World Series of Poker Hand
+The following hand occurred during the last five minutes of the first
+day of the $10,000
+championship no-limit hold=91em event. It is a good hand to illustrate
+proper no-limit
+thought processes as well as a simple trick to estimate =93all-in=94 odds.
+With eight players at the table, the ante was $50 and the blinds were
+$100-$200. I was the
+small blind and had the moderate amount of $15,000 in front of me. A
+well-known
+tournament player had the big blind and about $5,000. I held pocket
+sevens and everyone
+folded to me. I made it $1,200 total. The player in the big blind
+moved in $3,800 more.
+Now what?
+Obviously, this problem combines both reading hands and mathematics.
+At this point I
+was getting 6,600-to-3,800 odds. I need to win 3,800/10,400 of the
+time to have an even
+bet =97 about 36.5 percent. To know what my chances are, I need to know
+not only what
+my opponent=92s possible holdings are, but also how to turn that into an
+overall price.
+After some thought, I came to the conclusion that my well-known
+opponent did not need
+a great hand to move in, in this spot. I know he hates to risk all of
+his chips on close
+gambles, but three factors told me this situation was an exception:
+namely, my position,
+his relatively short stack, and the fact that he probably felt an
+aversion to returning the
+second day with very few chips. It was better to double up or get out.
+On the other hand, this opponent would not go overboard here. I
+thought he would
+choose only hands that had pretty good chances in a =93race=94 even if I
+called him with a
+premium hand.
+I postulated that he probably had a pair of fives or better, or A-K,
+or A-Q. Given that,
+would the pair of sevens win often enough to make a call correct?
+The reason why this question is not simple is because not all hands
+are equally likely to
+be dealt. A-K and A-Q can be dealt 16 ways, while pairs can be dealt
+six ways (except for
+two sevens, for which my opponent had only one way). So, even if I
+know the chances
+the sevens have against each of my opponent=92s possible holdings, I
+can=92t simply average
+them. I must instead get a =93weighted=94 average, which is time-
+consuming. But here=92s a
+trick.
+First, I count the total number of combinations my opponent (in my
+opinion) could have.
+A-K plus A-Q is 32. Aces down to fives is 55 (9 x 6 plus 1). That=92s
+87. Now I add up
+how many of these 87 possibilities figures to win for me. When he has
+one of the 32 nonpair
+combinations, I should win about 17 of them. When he has one of the 12
+combinations of pairs smaller than mine, I should win about 10 of
+them. When he has oneof the 42 combinations of pairs above mine, I
+should win about 7. That=92s 34. I then add a
+half for when we both have sevens. Altogether, my chances are about
+34.5 out of 87, just
+short of 40 percent.
+Since I rarely make borderline calls for big money in tournaments,
+where survival is
+critical, I was reluctant to call here. But, I did. And in theory I
+was probably right, since
+my well-known opponent showed K-Q. Had I added that to his possible
+move-in hands,
+my chances would have increased to about 37.5 out of 93. (Do you see
+why?) That=92s
+more than 40 percent. If he also would have raised with other hands
+(especially pairs
+below fives), my call was clear-cut. But, that didn=92t stop a king from
+coming.
+A Controversial Play
+Our books point out that there are sometimes situations, especially in
+multiway pots, in
+which you should delay raising with a good hand. The idea is that by
+keeping the pot
+smaller and disguising your hand, you can get someone to bet into you
+the next round,
+allowing you to raise others out. (Sometimes the scenario is that you
+bet to get someone
+else to raise.)
+We have encountered criticism for that recommendation because it
+misses the
+opportunity to extract the maximum from worse hands. Critics say that
+it is better to raise
+on the earlier round and then come out betting on the next round.
+Unquestionably, that is
+often the better alternative. It depends on the exact situation. But
+we believe that our play
+has the higher expected value (EV) in more situations than most people
+think.
+Hopefully, the reader can see that the debate revolves around the fact
+that our play wins
+less money when it wins, but wins the pot more often. Is it worth it
+to give up profits to
+somewhat increase winning chances? That is normally a very complex
+question. So, what
+I want to do here is set up a very simplistic model that corresponds
+to the situation in a
+very rough way.
+Say the bet is $100 and you have a hand that is 60 percent to beat
+each of your two
+opponents. The first opponent checks, the next one bets, and it is up
+to you. If you raise,
+they will both call. On the next round, you will bet again and get
+called by both. So, after
+the first two rounds, each of you will have $300 in the pot (assume
+nothing was put in
+earlier). The alternative play would be to just call the first-round
+bet, then when it goes
+check, bet, you now raise. Assume this second-round raise will get the
+first guy out. That
+leaves you heads up as a 60 percent shot. One opponent has given up
+$100 and the other
+has matched your $300. (Of course, it is unrealistic to think that in
+a real game, your
+chances of winning will remain unchanged.)
+It is easy to see that your EV with the second alternative (assuming
+no further betting) is
+$120. That=92s 60 percent of $400 minus 40 percent of $300. What about
+the first
+alternative, where you raise and bet out? In that case, you win less
+often. If each
+opponent=92s chances of beating you are independent, the chances that
+you beat both are 60
+percent x 60 percent, or 36 percent. So, if they both contest you,
+your EV is 36 percent x
+$600 minus 64 percent x $300. That EV is a mere $24, which is much
+worse than if you
+got it heads up.
+Suppose you are 70 percent against both hands. Playing the pot three
+ways means you
+win $600 49 percent of the time, while losing $300 51 percent of the
+time. That=92s an EV
+of $141. Playing the hand heads up means you win $400 70 percent of
+the time and lose
+$300 30 percent of the time, or $190. It=92s still better to delay your
+raise to get the guy out.
+(And this, don=92t forget, is true even though we assumed there was no
+previous money put
+into the pot.)
+When you are a 4-1 favorite (80 percent) against each hand
+individually, it is a different
+story. Now, it is better to raise on the first round to keep the guy
+in and win more money.
+That play results in an EV of 64 percent of $600 minus 36 percent of
+$300, or $276. The
+other way gets you 80 percent of $400 minus 20 percent of $300, which
+is $260.
+However, if the hand involved three, rather than two, opponents, each
+of whom had an
+independent 20 percent chance to beat you, the right play, under these
+simplified
+assumptions, again, is to delay your raise. If you don=92t, you will win
+$900 51.2 percent of
+the time and lose $300 48.8 percent of the time. (See why?) That=92s an
+EV of $314.40. If
+you wait to raise and get two guys out, you will win $500 80 percent
+of the time while
+losing $300 20 percent of the time. That=92s an EV of $340.
+Of course, this simplified model has quite a few flaws. The most
+important one is that in
+real poker, knocking out players will not usually result in as great
+an increase in your
+chances of winning as it does in this model. The chances for each
+opponent are not
+independent. This is especially true if your hand is not only the best
+now, but also has
+chances to improve to a near cinch. Other problems with this model
+stem from the fact
+that probabilities change from round to round (in real life), as does
+betting limits. These
+problems all mean that you need not be as strong a favorite as the
+model suggests to
+make it right to build the pot early.
+On the other hand, the model assumes no money was put into the pot on
+a previous
+round. If there was, there is that much more reason to strive to win
+the pot at all costs,
+even if that means not building it further (thus making it easier to
+raise people out the
+next round).
+What this model does seem to show is the following: It may well be
+right to avoid
+building the pot early with rather good hands in multiway pots if that
+decision will
+deceive a player on your right into betting into you on the next
+round, when he otherwise
+wouldn=92t. Exactly when you should do that will be discussed at another
+time. Examples
+are given in our Hold=91em Poker for Advanced Players. For now, suffice
+it to say that the
+play is correct a lot more often than =93common sense=94 might indicate.
+A Common Error
+Consider the following four scenarios:
+1. A professional gambler hires a renowned football handicapper to
+come up with picks
+for him to bet. The guy comes through with 59 percent winners. The
+gambler is pleased,
+but he knows that even 53 percent would show a profit. So, he asks his
+handicapper to be
+less picky about advising a bet. He wants to know, and bet on, those
+games that
+heretofore were not quite good enough in the handicapper=92s mind to
+make a play.
+2. A loan officer at a bank is proud that 97 percent of the loans he
+has approved have
+been paid back fully. The bank president, however, knows they would
+still make plenty
+of money if only 95 percent of loans were repaid. He therefore tells
+the loan officer to be
+more liberal when it comes to approving loans.
+3. A casino manager notices that his $1 slots are winning an average
+of $200 a day each,
+while his quarter slots are winning $150 a day. He therefore starts
+replacing quarter slots
+with dollar slots until the per-machine wins almost equal out.
+4. A casino manager realizes that his poker room makes half as much
+per square foot as
+his slots. Thus, he closes his poker room and puts slot machines in
+its place.
+Perhaps you can see that these four scenarios have a lot in common.
+You might even
+realize that they involve similarly flawed thinking. If you don=92t,
+here=92s the following:
+1. There is a good chance the handicapper is already giving out games
+that are 55 percent
+or less to cover the spread, because he is also almost certainly
+giving out games that are
+over 60 percent to cover. If the professional gambler insisted on the
+handicapper giving
+up more game picks, he might be costing himself money without ever
+realizing it. The
+overall percentage might dip down to 56 percent or so, where he still
+does quite well. But
+the extra bets he is now making could easily be, on average, losing
+ones.
+2. This example is almost identical to the first one, except it should
+be even more
+obvious. That=92s because everyone knows that many loan customers are
+99.9 percent
+certain to pay back. If half of them are, the other half are on
+average 94 percent, and
+some are thus worse. If the bank manager insisted on bringing the
+overall loan repay rate
+down to 95 percent, the loan officer would be forced to give out loans
+that were less than
+90 percent certain to be repaid. If those loans are unprofitable, the
+bank would be
+needlessly costing itself money and, again, might never realize it.
+3. Here, the mistake is not as obvious, but it involves the same
+principle. (And it has
+nothing to do with the psychological aspect of appearing to give
+quarter players short
+shrift.) More precisely, the principle is not to get average gain or
+loss confused with
+incremental gain or loss.
+In this particular case, adding more dollar machines might be the
+right decision, but it
+could easily be wrong, psychological consideration aside. To show
+this, let=92s say this
+casino started with only one quarter machine and one dollar machine.
+Now, they are up to
+five each. But when they started, their one quarter machine won $190 a
+day while their
+dollar machine won $300. With two machines each, the average went to
+$180 vs. $275.
+With three machines each, it was $170 vs. $250. When they moved up to
+four machines
+each, the quarters averaged $160 while the dollars averaged $225.
+Finally, with 10 total
+machines, dollars beat quarters $200 to $150 (which is the situation
+of scenario No. 3).
+And it is at this point that the casino manager is planning to switch
+at least one quarter
+machine to a dollar machine. But if he was managing the hypothetical
+casino we were
+just talking about, it would be a dumb move.
+To show why, we need to look at the totals, rather than the averages.
+This shows that each succeeding machine adds less and less to total
+casino revenue, not
+surprisingly, unless the casino is always jam-packed. But look at the
+pattern of the
+incremental income! That fifth dollar machine adds less to the
+casino=92s revenue than the
+fifth quarter machine. The contemplated sixth dollar machine would add
+even less. In this
+example, a switch would be a big mistake, and probably in real life,
+too, since dollarmachine
+players are less plentiful than quarter players.
+If a slot or casino manager wants to make sure he is allocating the
+proper number of
+denominations to the floor of a casino, he cannot simply look at
+averages. He must
+instead experiment with adding or subtracting a few machines to assess
+their incremental
+value.
+4. As far as taking out the poker room to put in slots, most casino
+big shots think that may
+be wrong only because they want to have a full-service casino that
+accommodates all
+tastes. They don=92t realize that the fact that slots make more per
+square foot on average
+does not necessarily mean the casino would make more money from the
+slots that replace
+the poker room than it does from poker itself.
+That=92s too bad, because, as of now, most casino honchos think they are
+doing us poker
+players a favor by having that cardroom. But in all probability, they
+are doing themselves
+a favor.
+Ace in a Race
+It is the World Series of Poker and you are in it! True, you won a
+satellite to get in, and
+you know you are not a superstar. But you=92re no slouch, either. You
+have survived the
+first six hours, built your $10,000 to $12,000, and are now playing
+with $200-$400
+blinds.
+Being a good, but not great, player, you know you have to gamble a
+bit. The very best
+players are trying not to commit lots of chips when they have only a
+small edge, but that
+is not your strategy. On the other hand, you have no desire to throw
+caution completely to
+the wind. You are willing to bet lots of chips with a small edge, but
+not otherwise. On the
+other side of the coin, part of your strategy is to avoid
+confrontations with the best
+players, if at all possible. There are plenty of players in the
+tournament who play worse
+than you. So, you know you will feel sick if you get played out of
+lots of chips by one of
+the champions, especially if you have a hand you didn=92t have to play.
+As you are contemplating these thoughts, you look down to see the A 8
+in the small $200
+blind. This is not usually a playable no-limit hand, but when everyone
+folds to you, things
+change =97 because it is very likely you have a better starting hand
+than the player in the
+big blind. Thus, a raise, or at least a call, seems in order =97 except
+for one thing. It is Wilfried
+Poeschmann who=92s in the big blind. Now what do you do? If you were low on
+chips, it would
+obviously be right to move them in and take your chances. But you
+still have plenty of
+chips =97 $12,000. Against weak players, you might try a moderate raise,
+but you don=92t
+like that move against Wilfried. He will probably call. Then what do you
+do if an ace doesn=92t
+flop, or, for that matter, if it does?
+Perhaps it would be better to just call the $200 =97 except that you
+know Wilfried will often
+raise. And even if he doesn=92t, you still wind up in a similar
+situation =97 out of position,
+with a tricky hand, against one of the best tournament players in the
+world. Thus, you
+remember your admonition to yourself about avoiding champions, and
+simply fold.
+As smart as that seems, I can prove your play is wrong, because I can
+prove that moving
+in $12,000 is a better play than folding. Other plays may be better,
+but from a pure
+mathematical standpoint, folding can=92t be right because moving in has
+a higher expected
+value (EV).
+At this point you may be thinking that it is impossible to calculate
+the mathematical
+expectation of moving in, because you don=92t know what hands Wilfried Poeschmann
+will call with.
+That is, of course, true =97 except that it turns out that it is right
+to move in even if Wilfried
+plays perfectly! In other words, he knows your hand and calls with all
+the hands he
+should and none that he shouldn=92t. Hopefully you see that it is
+correct to move in if Wilfried
+plays precisely A-8 to A-K, or a pair. It is even more correct if he
+folds some of those
+hands (or calls with others).
+It is surprising, but true, that with an A-8, you would need more than
+70 times the small
+blind in your stack for it to be right to fold your hand, even if the
+big blind sees your
+cards. (This statement does not take into account the =93bunching
+factor,=94 the idea that you
+can assume the big blind=92s cards are better than random when everyone
+else folds. That=92s
+true, but computers have shown that the effect is negligible in
+hold=91em.)
+Here=92s the math:
+Assume $1-$2 blinds. Because the big blind is getting only very
+slightly above even
+money when you move in, it is correct for him to call only with pairs
+or a better or equal
+ace. Of the 1,225 two-card combinations he could have, only 141, or
+about one-ninth,
+will he play. So, there is about an eight-ninths chance you will steal
+the big blind by
+moving in.
+Now let=92s see what happens when you are called. With 45 of the 141
+combinations he
+could have (deuces through sevens, plus A-8), he is about even money.
+With eights
+through kings, he is an average of about 70 percent. That=92s 33
+combinations. The three
+combinations of aces are more than 90 percent. And the 60 combinations
+of bigger aces
+are about 75 percent. If you average these out, you get the big blind
+winning about two
+out of three times he calls.
+Suppose this situation came up 54 times. If so, you should steal the
+$2 blind eight-ninths
+of those situations, or 48 times. Of the six remaining times, you will
+win your all-in bet
+(plus $1) twice and lose that amount four times. So, with X dollars to
+move in, your net
+result, after 54 hands, would be (48)(2) + (2)(X + 1) - (4)(X+1)
+That result is better than folding as long as it exceeds -54 (which
+would be your result if
+you folded every time). The break-even point occurs when (48)(2) + (2)
+(X+1) - (4)(X+1)
+=3D -54. Simplifying: 2X =3D 148, or X =3D 74.
+With 60 times the small blind and Wilfried Poeschmann almost certainly folding
+A-10 and A-9 when
+you move in, your decision should be easy.
+Note: What you just read has some major implications, especially in a
+tournament. The
+fact is that any two cards can be =93rated=94 according to their heads-up,
+faceup, all-in value.
+The rating for A-8 is about 70. A-2 is significantly less. Two kings
+are about 1,000. I
+expect to be writing a list of ratings for all two-card hands in the
+near future

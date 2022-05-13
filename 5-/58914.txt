@@ -1,0 +1,84 @@
+Im Artikel <545U78PK.17307259@z-kqdhius.wb>, Charly Flaskühler
+
+Eine allgemeine Beschreibung dazu:
+
+Range-Warrants, Korridor-Warrants, Boost-Warrants, Earn-Warrants,
+Bereichsscheine, Bandbreiten-Warrants, und andere Namen
+Diese Derivate sind etwa wie folgt definiert: "1 DM für jeden Tag, den der DAX
+im Bereich zwischen 2001 und 2500 bleibt", oder "2,043 Pfennige für jeden Tag,
+bis der US-Dollar den Bereich 1,50 bis 1,60 DM verläßt", usw.. Allerdings sind
+die Details solcher Scheine oft sehr verschieden. Meist gibt es nur solange
+einen Gewinn, wie der zugrundeliegende Wert innerhalb des Bereichs bleibt.
+Manchmal dagegen wird der Gewinn für Tage außerhalb des Bereiches lediglich
+vermindert. In anderen Fällen dagegen erfolgt für jeden Tag außerhalb des
+Bereichs gar ein Abzug. 
+In vielen Fällen endet der Schein, sobald der zugrundeliegende Wert erstmals
+den definierten Bereich verläßt, und der bisher angesammelte Gewinn wird
+ausgezahlt. In anderen Fällen läuft der Schein bis zu einem vorher festgelegten
+Termin weiter, und es können weitere Gewinne angesammelt werden, falls der
+zugrundeliegende Wert später wieder in den definierten Bereich zurückkehrt. Oft
+ist auch ein Maximal- oder Minimalgewinn oder beides festgelegt. Und manchmal
+verändert sich der definierte Schwankungskanal auch während der Laufzeit des
+Scheines.
+Die Berechnung fairer Werte für solche Scheine ist sehr kompliziert und wird
+durch die vielen unterschiedlichen Details weiter erschwert. Wir wollen deshalb
+hier nur das Prinzip kurz skizzieren:
+Zuerst wird durch Kombinationen von Optionen und/oder Zerobonds der
+Schwankungsbereich nachgebildet. Da es aber meistens heißt "für jeden Tag
+innerhalb des Schwankungsbereichs" muß diese Nachbildung des Schwankungskanals
+durch Aufteilung in viele europäische Einzeloptionen gewissermaßen in
+"Tagesscheibchen" zerlegt werden. Oft stecken auch sogenannte "Simplex" oder
+"Digital" Optionsscheine dahinter (vgl. hier etwas weiter unten).
+Hinzu kommt, daß die angesammelten Gewinne in der Regel erst bei Ablauf des
+Scheins ausgezahlt werden. Deshalb müssen diese scheibchenweisen Anrechte
+darauf entsprechend abgezinst werden.
+Weiterhin muß das bisher schon angesammelte Gewinnguthaben als Zerobond
+berücksichtigt werden. Und schließlich müssen auch die diversen
+Nebenbedingungen durch Optionen oder ähnliche Konstrukte nachgebildet werden. 
+Natürlich sind oft vereinfachte Näherungslösungen möglich, aber manchmal müssen
+tatsächlich mehrere tausend verschiedene Positionen einzeln berechnet und dann
+miteinander verknüpft werden. Dies läßt sich in der Praxis dann nur noch mit
+Software bewältigen, die speziell für das entsprechende Derivat konstruiert ist
+und alle Einzelschritte selbsttätig berechnet.
+Nach unserer Erfahrung sind die meisten "Bereichsscheine" zumindest bei der
+Emission deutlich überteuert. Der spätere Marktpreis dagegen kann, gerade wegen
+der für die meisten Marktteilnehmer nahezu unmöglichen Berechnung, durchaus
+zeitweise in günstige Bereiche rutschen.
+Wir empfehlen Ihnen grundsätzlich, alle Papiere zu meiden, deren Preis Sie
+nicht zumindest näherungsweise auf "Fairneß" überprüfen können. Boykottieren
+Sie ruhig zu undurchschaubare Angebote. Es kann sich auf das zukünftige
+Marktgeschehen nur günstig auswirken, wenn einige Anbieter lernen, daß es nicht
+in jedem Fall genug Dumme gibt, die immer alles für jeden Preis kaufen.
+Es gibt am Markt immer Alternativen. Und schlußendlich können Sie fast jedes
+Derivat in ähnlicher Form selbst konstruieren. Beispiel: Sie schreiben an der
+Ferienspaß einen DAX-Call 2300 und einen DAX-Put 2000, und schon haben Sie, je nach
+Höhe der vereinnahmten Optionsprämien, einen Gewinnbereich etwa zwischen 1950
+und 2350. Wollen Sie nun Ihre Verluste beim Verlassen des Gewinnbereichs
+begrenzen, dann kaufen Sie zwecks Absicherung einfach noch einen Call 2400 und
+einen Put 1900 dazu.
+Wenn es aber unbedingt ein fertiger Bereichsschein sein soll, dann beachten Sie
+bitte folgende Tips:
+Kaufen Sie nur Scheine, die schon Gewinne angesammelt haben. Ein Schein für DM
+8 DM, der bereits 6,50 DM festen Gewinn beinhaltet, nähert sich immer mehr
+einem Zerobond mit überschaubarem Restrisiko an.  Dagegen ist ein neuer Schein
+für 6 DM, der noch keinerlei Gewinn beinhaltet, eine hochspekulative
+Angelegenheit. Um den bisher angesammelten Gewinn zu kennen, muß man sich
+natürlich bezüglich der genauen Konditionen des Papiers und des bisherigen
+Kursverlaufs des zugrundeliegenden Wertes schlau machen. Dies sollte man
+allerdings bei Derivaten grundsätzlich machen.
+Bevorzugen Sie kurze Laufzeiten. Je länger die Laufzeit, desto größer die
+Wahrscheinlichkeit, daß der zugrundeliegende Wert sich aus dem Gewinnbereich
+entfernt.
+Erwägen Sie Kombinationen wie etwa zwei verschiedene Bereichsscheine, die
+zusammen einen breiteren Gewinnbereich ergeben. Ergänzend oder alternativ
+können Sie den Bereich ober- bzw. unterhalb des Gewinnbereichs durch andere
+Derivate abdecken. Oder nutzen Sie Bereichsscheine als Gegenposition, z.B.
+einen Gewinnbereich unterhalb des aktuellen DAX-Standes zur Absicherung eines
+Aktienbestandes. Rechnen Sie aber vorher immer genau nach und vergleichen Sie
+verschiedene Alternativen.
+
+
+-- 
+Burkhard Eckert
+Visit   http://blxarmx.snl.xrl/jlcvug  and download a 
+free calculator for options, futures, bonds and similar stuff.

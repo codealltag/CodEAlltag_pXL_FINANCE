@@ -1,0 +1,166 @@
+ATR der Average True Range Indikator an der Börse
+
+Author Einhaus
+Der Börsentrader, der sich zum ersten Mal mit einem Chartanalyse-
+Programm aus=ADeinandersetzt, wird zunächst von der Vielzahlt und
+Vielfalt der angebotenen Instrumente erschlagen. Bis dann aus einem
+Ein=ADsteigerein erfahrener Börsianer wird, können Jahre vergehen. Dabei
+wird geübt, Fehler werden gemacht, Fehler werden verbessert -und das
+alles kostet Geld. Die vielen Bücher, die auf dem Weg dorthin gelesen
+werden, sind reich an Information und dennoch nur Theorie. Alles, was
+an der Börse zählt, ist die praktische Erfah=ADrung. So natürlich auch
+im Fall der Average True Range, die wir Ihnen zunächst erklären und
+dann mit Pivot-Linien kombinieren. Natürlich können wir nicht die
+Erfahrung bringen, aber vielleicht dabei helfen, den langen Weg zum
+erfahrenen Börsianer ein wenig abzukürzen...
+Die Ursprünge: Der Commodity-Markt
+
+Auf den ersten Blick ist der Average True Range-Indikator weder zur
+Generierung von Signalen noch zur Bestätigung einer bestimmten
+Marktrichtung geeignet. Es braucht einen zweiten Blick, um den Wert
+dieses außergewöhnlichen Tools erkennen zu können.
+Entwickelt wurde die ATR aufgrund der außerordentlichen Kursbe=AD
+wegungen in den Rohstoffmärkten der 18. 07. 22 Jahre. Sie gibt, wie die
+Pivot-Linien auch, Hinweise darauf, wo der Markt sich gerade befindet.
+Grundsätzlich ist sie ein Tool zur Einschätzung der gerade
+existierenden Volatiliät und kann deshalb auch zur Risikokontrolle
+benutzt werden.
+Die Average True Range ist der Gleitende Durchschnitt des True-Range-
+Indikators, der 1978 von Edgar Volkelt entwickelt wurde. Er sollte
+ursprünglich den ,,Limit"-Bewegungen an den Roh=ADstoffmärkten Rechnung
+tragen. Was aber sind,,Limit"-Bewegungen? Das sind Tage, an denen wegen
+eines großen Kurssprungs kein Han=ADdel stattfindet. Der Hintergrund:
+Jeder an den Commodity-Börsen gehandelte Rohstoff darf pro Tag nur
+eine bestimmte Maximal=ADbewegung nach oben (limit-up) oder nach unten
+(limit-downj ma=ADchen. Wird diese überschritten, wird der Handel bis
+zum nächsten Tag ausgesetzt.
+Am darauffolgenden Tag wird der Handel dann wieder aufge=ADnommen. Kommt
+es erneut zu einer Limit-Bewegung, gibt es wieder keinen Umsatz an
+diesem Tag. Nehmen wir zum Beispiel Weizen.
+Hier kann ein Sturm für den Verlust von einem Großteil der Jahres=AD
+ernte sorgen. Der Markt würde in so einem Fall über Nacht mit ei=ADnem
+Aufwärts-Limit eröffnen, eventuell sogar mehrere Tage am Stück. Kommt
+dies vor, gibt es weder einen Höchst- noch einen Tiefst=ADkurs, sondern
+lediglich einen einzigen Kurs am Tag. Die Volatilität, also die
+Schwankungsintensität der Kurse ist bei einem derartigen Szenario also
+extrem hoch, Trader sind manchmal tagelang gefan=ADgen in ihren
+Positionen.
+Grundlagen von True Range und Average True Range
+Um eine derartig angestiegene Volatilität zu reflektieren, suchte
+Volkelt nach einem Weg, diese Bewegungen einzufangen. Die herkömmliche
+Volatilitäts-Formel, die aufgrund der täglichen Hoch-und Tief-Kurse
+Berechnungen anstellt, würde in diesem Fall fehler=ADhafte Ergebnisse
+anzeigen, denn sie berücksichtigt nicht die Kurs=ADlücken, die zwischen
+den Tagen bestehen, und mit nur einem fest=ADgestellten Kurs war ohnehin
+keine Berechnung möglich. Volkelt ging einen anderen Weg und fand mit
+der True Range eine Mög=ADlichkeit, in allen Szenarien realistische
+Werte zu berechnen.
+Berechnung der ATR
+Wie genau berechnen sich also nun diese True Range und der ATR-
+Indikator? Dazu ein Beispiel: Nehmen wir also an, ein Handels=AD
+instrument hat am Vortag bei 50,00 Punkten geschlossen. Am heu=ADtigen
+Tag registriert man folgende Kurse: Hoch 53,00; Tief 50,50;
+Schlusskurs 52,50 Punkte. Nun werden die drei nachfolgenden Be=AD
+rechnungen angestellt.
+=B7      Aktuelles Hoch (53,00) - aktuelles Tief (50,50) =3D 2,50
+=B7      Aktuelles Hoch (53,00) - Vortages-Schluss (50,00) =3D 3,00
+=B7      Aktuelles Tief (50,50) - Vortages-Schluss (50,00) =3D 0,50
+Die True Range ist nun der höchste absolute Wert dieser drei
+Berechnungen, in diesem Fall also 3,00. Bei negativen Zahlen wer=ADden
+die Vorzeichen einfach weggelassen, die höchste Zahl ist immer das
+Ergebnis. In Bild 1 können Sie die drei Berechnungsformeln anhand von
+Candlestick-Charts nochmals grafisch nachvollziehen.
+Im konkreten Einsatz bildet man nun aus diesen Werten einen
+Durchschnitt und kommt damit zu dem ATR-Indikator (Average True
+Range). Dieser Gleitende Durchschnitt wird nun mittels der ATR-Levels
+zur Berechnung von weiteren Widerstands- und Unter=ADstützungslinien im
+Intraday-Bereich verwendet (neben denen, die bereits durch die Pivot-
+Linien vorgegeben sind).
+Average True Range - der Indikator
+Bevor wir uns nun diesen ATR-Levels zuwenden, wollen wir zu=ADnächst
+einen Blick auf die normale Anwendung des ATR-Indikators werfen. In
+Bild 2 im unteren Chartabschnitt ist der normale ATR-Indikator zu
+sehen. In diesem Euro-Tageschart kann man erkennen, dass niedrige
+Stände des Indikators normalerweise vor dem Beginn einer größeren
+Bewegung angezeigt werden, hohe Werte erreicht er in der Regel, wenn
+eine große Bewegung vor ihrem Ende steht. Natürlich stellt sich auch
+hier die Frage, was ist eigentlich hoch oder
+niedrig, und deshalb kann dieser Indikator auch nur eine Hilfestel=AD
+lung sein. Doch gerade im Intraday-Bereich kann er gute Hinweise
+geben. Das gilt vor allem beim Setzen von Stopps (wenn der ATR eine
+durchschnittliche Bewegung von 5 Ticks pro Stunde anzeigt, sollte der
+Stopp größer als diese 5 Ticks gewählt werden, um ein zufälliges
+Ausstoppen zu vermeiden) sowie zur Erkennung mögli=ADcher
+Unterstützungs- und Widerstandslinien.
+ATR-Level-Konstruktion
+Diese Linien im Intraday-Bereich werden anhand eines Indikators
+berechnet, den der russische Trader Nicolas Riemann entwickelt hat. Er
+nannte diesen Indikator ATR-Level. Ähnlich wie bei Pivot-Linien werden
+sie in den Charts als Unterstützungs- und Widerstandslinien
+eingezeichnet. Aber wie bereits vorher erwähnt: Ein Indikator al=ADlein
+ist wenig effektiv. Wenn man die ATR-Levels zum Beispiel mit den Pivot-
+Linien kombiniert, sind manche Linien sogar doppelt aus=ADsagekräftig.
+Beispiel: 15-Minuten-Chart
+In Bild 3 sieht man, dass sich knapp beim oberen Widerstand 1 (ge=AD
+strichelte Linie) des Pivot-Indikators auch der ATR-Widerstand
+(durchgezogene Linie) befindet. Das Gleiche gilt unten an der Pi=ADvot-
+Unterstützung 1, die ebenfalls in Nähe des ATR-Levels liegt. Wer=ADden
+solche Linien markant gebrochen, geht es oftmals weiter bis zur
+nächsten Linie. Beim ersten Antesten dieser Linien kommt es häufig zu
+Gegenbewegungen, wie man es auch in Bild 3 an beiden Widerstandslinien
+erkennen kann.
+Pivot-Linien und ATR-Levels befinden sich nicht immer auf glei=ADchem
+Niveau, sie können durchaus markant voneinander abweichen.
+Im praktischen Forexhandel sollte der Blick am Tag auf einen solchen
+Chart gerichtetsein, am besten ohne dass noch weitere Li=ADnien
+eingezeichnet sind. Befindet sich der Kurs unterhalb des Pivots an
+einer Unterstützungslinie, sollte man nach Long-Signalen Ausschau
+halten. Befindet sich der Kurs um den Pivot herum, wartet man am
+besten ab und beobachtet den Kurs weiter. Steht der Wert am
+Widerstand, hält man dagegen Ausschau nach Short-Signalen.
+Beispiel: Wirtschaftszahlen
+Ein weiteres Beispiel für die Anwendung von ATR-Level und Pivot-Linien
+sehen Sie in Bild 4. Der Chart zeigt den Verlauf des Euro in US-Dollar
+am 1.6.2007. Dieser Tag war kein normaler Handelstag, denn um 14.30
+Uhr wurden die Arbeitsmarktdaten für die Verei=ADnigten Staaten
+veröffentlicht. Solche Termine sind immer gut für Überraschungen an
+den Märkten.
+Nach der Bekanntgabe solcher Zahlen kommt es oft zu sehr star=ADken
+Reaktionen in die eine oder andere Richtung, die Märkte wer=ADden stark
+volatil. Selbst ausgeklügelte Handelssysteme haben in solchen
+Situationen Probleme, manche erfahrene Marktteilnehmer raten davon ab,
+in einem solchen Umfeld überhaupt positioniert zu sein. Viele
+Marktteilnehmer werden auf dem falschen Fuß er=ADwischt, ausgestoppt und
+alle möglichen Indikatoren zeigen fehler=ADhafte Signale an. Also sollte
+man an solchen Tagen erst handeln, wenn sich der Rauch verzogen hat.
+Links sieht man als senkrechten Balken den Zeitpunkt, ab dem diese
+Linien gelten. Dick markiert als waagerechte Linien sind die ATR-
+Levels dieses Tages. Nach Tagesbeginn stieg der Euro über den Pivot
+bis zum ersten ATR-Widerstand bei 1,3156 Punkten.
+Nach diesem Test konnte man einen Rückgang bis zum Pivot und einen
+erneuten Anstieg bis zum ATR-Level, dem Widerstand bei 1,3156 um14.31
+Uhr beobachten. Zu diesem Zeitpunkt wurden die Arbeitsmarktdaten in
+den USA veröffentlicht. In diesem Moment wird der US-Dollar stark und
+beginnt gegen den Euro zu steigen. Sie sehen, wie massiv es für den
+Euro in diesem Augenblick in nur einem Balken nach unten ging. Die
+erste ATR-Unterstützung sowie die dort ebenfalls liegende
+Pivotunterstützung werden in einem Rutsch durchschlagen. Bis auf
+einmal die zweite ATR-Level-Unter-stützung auftaucht. Dort stoppt die
+Abwärtsbewegung. Die Linie wird zweimal getestet und es gibt eine
+Gegenbewegung von 30 Pips. Was wird nun wohl passieren? Aus der
+ehemaligen Unterstüt=ADzung durch das ATR-Level wird Widerstand. Am
+inneren ATR-Level hält der Euro und oszilliert bis zum Handelsende
+dort.
+Bei neuen Zahlen nicht nur auf Indikatoren achten
+Man kann anhand dieser Zusammenhänge deutlich erkennen: Es gibt mehr
+als nur einfach Indikatoren und Trendlinien. Nicht nur zu
+Handelsbeginn sollte man als erstes einen Blick auf den Kursverlauf
+mit eingeblendeten Pivots und ATR-Levels werfen. Wenn große Be=AD
+wegungen entstehen, speziell nach der Veröffentlichung von wichti=ADgen
+Wirtschaftsdaten, kann man davon ausgehen, dass die meisten
+Indikatoren nicht funktionieren und Fehlsignale geben werden. Dort
+kommt es sehr oft zu starken Ausschlägen mit heftigen Gegenbe=AD
+wegungen.
+Weil gerade an den Devisenmärkten relativ häufig solche Bewe=ADgungen
+vorkommen können, sind eingeblendete Pivot-Linien und ATR-Levels
+durchaus sehr hilfreich

@@ -1,0 +1,61 @@
+Hi Anton
+
+war
+verkauft
+
+Nun [tieflufthol] es ist so:
+
+Das kann mehrere Gruende haben, dass ein Auftrag nicht geht, obwohl er die
+Limite erreicht hat (in Deinem Fall sogar darueber ist):
+
+1. Ein anderer war schneller als Du ("Stock ahead"). Das war hier nicht der
+Fall, weil Dein Limit ja noch unter einem anderen bezahlten Kurs war. Das
+kann aber passieren, wenn ein Kurs nur einmal erreicht wird, dass es ein
+anderer war, der zuerst kam.
+
+2. An der VNSA gelten etwas andere Regeln als man sich das von Deutschland
+(oder der Schweiz etc.) gewohnt ist. Ein bezahlter Kurs, der im System
+(Internet o.Ae.) notiert wird, kommt nicht durch das Zusammentreffen von
+Kaeufer und Verkaeufer (Anleger) zustande, sondern die Gegenpartei ist immer
+ein Broker in der Funktion eines Market Makers. Der Market Maker ist
+verpflichtet (!) zu jeder Zeit Bid und Ask Kurse (Kauf und Verkauf) zu
+offerieren. D.h. der Anleger macht seinen Verkauf oder Kauf immer mit dem
+Broker als Gegenpartei. Fuer das Risiko, das der Broker traegt, nimmt er
+eine kleine Marge. D.h. er wird zum Beispiel ein Bid von 25 15/16 und ein
+Ask von 26 1/8 offerieren. D.h. Du als Anleger kannst nun zu 25 15/16
+verkaufen oder zu 26 1/8 kaufen. Kaufst Du zu 26 1/8 wird der Kurs als
+gehandelt notiert, das will aber nicht automatisch heissen, dass Du zu
+diesem Kurs auch haettest verkaufen koennen. Die Marge kann je nach dem
+variieren und unter Umstaenden auch groesser als 1/4 sein. Alles klar?!
+Leider gibt es immerwieder Leute, die meinen, wenn sowas passiert, haette
+sie die Bank uebers Ohr gehauen, aber die hat ja auch nichts davon, wenn das
+Geschaeft nicht zustande kommt.
+
+3. Die Zeit des Eingangs des Auftrages. Kommt ganz auf die Bank an. Eine
+"anstaendige" Bank hat wahrscheinlich automatisierte Systeme mit sehr
+geringen Laufzeiten der Auftraege. Auftraege, die sich in gewissen
+Bandbreiten bewegen gehen direkt zum Handel durch und werden sofort
+abgewickelt. D.h. Kurse die 5 Min. nach dem Aufgeben des Auftrages gegangen
+sind, sollten auch abgerechnet werden. Es gibt aber evtl. auch
+Kontrollmechanismen (zum Schutz der Kunden) die Auftraege ausfiltern
+koennen, wenn gewisse Parameter unrealistisch sind (grosses Volumen, grosse
+Abweichung der Limite, unplausible Stueckelung, etc), dann wird der Auftrag
+"von Hand" weiterverarbeitet und muss erst wieder "aufgegleist" werden, dass
+kann schon mal ein paar Minuten gehen.
+
+Bei elektronischen Boersen (z.B. Schweiz) haben grosse Banken direkte
+Anbindungen, d.h. Dein Berater gibt den Auftrag ins System, waehrend Du mit
+ihm telefonierst, und kann Dir nach ein paar Sekunden schon die Ausfuehrung
+bestaetigen (wenn die Limite stimmt). Da werden Auftraege im Idealfall
+innert 5 Sek. nach Eingabe abgerechnet. Aber auch dort kann es wieder sein,
+das unplausible Auftraege ausgesteuert werden, um Fehler zu vermeiden.
+
+Ich hoffe, Dich nicht noch mehr verwirrt zu haben.
+
+In Deinem Fall, kann es also sein, dass A. der Kurs ueber 26 auf dem Ask
+Kurs (Kaufofferte des Brokers) zustande kam, oder B. Dein Auftrag zu spaet
+an der VNSA ankam.
+
+Gruss
+
+Gunter

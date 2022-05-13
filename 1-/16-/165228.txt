@@ -1,0 +1,17 @@
+Sorry fuer die Einmischung, aber:
+
+"das Teil" wird nicht "unberechenbar". Was Du beobachtest ist die
+Tatsache, daß bei einer Miyabi-Option der Effekt einer Aenderung des
+Underlying die anderen Effekte, (Zins, Zeit) weit ueberlagert /
+dominiert. Damit kannst Du approximativ sicherlich sagen, daß der
+Schein in diesem Fall "den Kurs des Basiswertes recht exakt
+nachvollzieht".
+
+Bei ATM/OTM-Optionen kann man das nicht so schoen "sehen", obwohl es
+problemlos berechenbar ist. Man nehme einfach Black/Scholes und da die
+exakten Greeks oder eine der vielen Approximationen fuer amerikanische
+Optionen (dort Greeks per numerischer Approximation oder mglw.
+direkt).
+--
+Horst Klinnert                   Iheexr.Imvvxcftntb@Tck-Blrxcp.bq
+University of Innerhötzendorf, Schleif, Germany

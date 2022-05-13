@@ -1,0 +1,15 @@
+Noch ein Hinweis fuer Bastler: Mit einem Transistor, 2 Widerständen ,
+etwas Kabel und dem Wissen, wo man den I^2C-Bus  des Decoders IM
+Fernseher findet, kann man die Daten ueber den Drucker-Port in den PC
+einlesen - billiger gehts also nicht, wenn man halt nur mal testen
+will. Ich habe das gemacht und setze die Software Rapunzel von T.
+Zurfähr ein (im Quelltext verfügbar).
+Für den Aufbau einer Kursdatenbank ist Videotext denkbar ungeeignet,
+da sich das Layout der Seiten haeufig aendert, und man dann viel
+Arbeit mit der automatischen Konvertierung hat.
+Ich benutze es, um mal schnelle Kursaenderungen mitzubekommen, da auch
+alle Unterseiten eingelesen werden und einzeln anwaehlbar sind (mein
+Fernseher kann das nicht von alleine ...).
+
+Viele Gruesse
+Willy

@@ -1,0 +1,21 @@
+und kurz danach:
+
+1) Es gibt tatsaechlich eine Formel zum Umrechnen. Und zwar wird
+die Vola mit der Wurzel aus dem Verhaeltnis der Laufzeiten mulitipliziert.
+Beispiel:
+Option A mit Laufzeit 100 Tage
+----------------------------------------------     = 0,5
+Option B mit Laufzeit 200 Tage
+
+Wurzel aus 0.5 ist grob 0.7
+Die Vola zu Option A laege also bei etwa 0.7 mal der Vola von Option B
+
+2) Die Berechnung eruebrigt sich in der Praxis aber meistens, weil fast
+alle Formeln und Rechner automatisch umrechnen (man muss ja immer
+auch die Laufzeit eingeben, so dass das Programm das problemlos 
+selbst machen kann).
+
+
+Karlheinz Ulman
+Visit   http://kixbtec.jxu.tnn/kxrfgu  and download a 
+free calculator for options, futures, bonds and similar stuff.

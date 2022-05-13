@@ -1,0 +1,23 @@
+Man braucht nur genauso wie zu 486er Zeiten mehrere Module zusammenzuschalten.
+IMHO ist das bei SDRAM auch so, denn mein Board meldet
+insgesamt 8 Bänke obwohl doch nur 4 physikalisch vorhanden sind. Scheint, also
+so
+zu sein dass ein 64bit Modul als 2x 32bit angesprochen wird. Und bei RMBS
+braucht man bestimmt nichts zu ändern, denn im i840 laufen die selben RIMMs
+wie
+in dem i820 (1 Kanal). Bei SDRAM ist das genauso.
+
+
+Stimmt. RDRAMs sind kompliziert und die Chipsets benötigen manchmal recht
+seltsame Verrenkungen um das Timing einzuhalten. Aber nochmal: alles nur eine
+Frage der Stückzahlen.
+
+
+Soweit ich weiss handelt es sich hierbei um Grafikkartenspeicher. Und meist
+passen da nur 32MB drauf. => mit solchen Modulen bekommst Du max. 128MB
+Hauptspeicher. Ein wirklicher Fortschritt gegenüber HMU! :-)
+
+
+MfG
+
+Domenico

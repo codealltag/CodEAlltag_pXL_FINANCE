@@ -1,0 +1,52 @@
+Meine Variante der Marktkapitalisierung soll wiedergeben, was
+passiert, wenn man versucht, alle Aktien eines Unternehmens zu
+liquidieren. Nehmen wir an es gibt 1.000.000 Million Aktien im
+freefloat (=100% aller Aktien). Wir haben doch nun die intuitive
+Vorstellung, dass diese Aktien zusammen einen bestimmten Wert
+repraesentieren. Aber welchen Wert? Doch wohl den Wert,
+den man auf dem Markt dafuer erhalten kann. Und meine Intuition
+sagt mir, dass er viel kleiner ist als die Marktkapitalisierung.
+Denn wenn man wirklich versucht viele Aktien auf dem Markt
+zu verkaufen sinkt der Kurs. Es ist aber schwer, diese Intuition
+nun in einen genau beschreibbaren und realisierbaren Prozess
+umzuschreiben.
+
+Sagen wir mal ein Grossaktionaer habe 500.000
+Aktien einer AG. Jede Aktie habe einen Kurswert von 100 EUR.
+Die Aktie ist zu 100% im free float und es gibt insgesamt
+1.000.000 Aktien. Der Grossaktionaer koennte doch jetzt
+rechnen, der Wert seines Aktienpakets sei 500.000 x 100 = 50.000.000 EUR.
+Doch wenn er versucht diesen Wert durch Verkauf zu realisieren,
+drueckt er wahrscheinlich den Kurs und er erhält dann viel weniger.
+Sollte er dies nicht gleich bei der Bewertung seines Aktienpakets
+beruecksichtigen? Und wenn nun bei einem Verkauf des Pakets
+dies nur 30.000.000 EUR bringen wuerde, dann koennte man
+aus dem berichtigten Wert des Pakets auch eine berichtigte
+Marktkapitalisierung der AG ableiten.
+
+Zweites Beispiel
+Sehr konstruiert.
+Die Firma A emittiert 1.000.000 Aktien zu 10 EUR.
+100 Personen zeichnen zu diesem Kurs je 10.000 Aktien.
+Sie zahlen also fuer die AG insgesamt 10.000.000 EUR.
+Nun kommt es zu einem einzigen Umsatz in der Geschichte dieser
+Aktie:
+Jemand kauft bei einem Kurs von  20 EUR 10.000 von einem Zeichner.
+(Der Zeichner hatte eben ein Verkaufsorder mit Limit 20 EUR aufgegeben
+und der Käufer ein Kauforder mit Limit 20 EUR.)
+Nun haben die Investoren (einschliesslich des letzten Kaeufers)
+10.010.000 EUR fuer die AG bezahlt. Dies ist wohl die
+Marktkapitalisierungsvariant, die ich meine: Die Summe des
+Geldes, das der Markt bisher fuer die AG gezahlt hat.
+Obwohl der Umsatz relativ klein war, betraegt die klassische
+Marktkapitalisierung des Unternehmens nun aber 20.000.000 EUR,
+spiegelt also mit ihrer gewaltigen Verdoppelung eigentlich gar
+nicht die relative geringe Bedeutung des einen kleinen Umsatzes
+wieder.
+
+Jetzt könnten die Zeichner und der eine Käufer versuchen
+den Kurswert zu realisieren,
+indem sie alle verkaufen. Wuerden sie dann alle zusammen
+20.000.000 EUR erhalten? Wohl kaum, weil dies den Kurs
+entsprechend druecken wuerde, vielleicht wuerden sie eher
+so etwas erhalten wie 10.010.000 EUR?

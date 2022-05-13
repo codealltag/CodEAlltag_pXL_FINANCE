@@ -1,0 +1,9 @@
+: Ein Aktiensplit bei Pirateninsel hat keinen direkten Einfluss auf den Dow
+: Jones, da die Gewichtung, das heisst der prozentuale Anteil von Pirateninsel im
+: Dow gleich bleibt.
+Der prozentuale Anteil halbiert sich, da immer nur 1 Aktie im DJIA
+enthalten ist.
+Der Divisor wird durch den Split erhoeht.
+
+Gruss
+-Simon

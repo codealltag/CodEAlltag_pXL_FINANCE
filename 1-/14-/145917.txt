@@ -1,0 +1,21 @@
+Hallo Ulfert! Ich schlag mich schon ein halbes Jahr mit Quicken 6.0 rum.
+
+
+Das kann passieren: Wahrscheinlich hast Du (wie ich) schon mehrmals versch.
+Browser installiert,oder keinen Browser bei Quicken eingetragen.
+
+
+Um die Aktienkurse zu aktualisieren, muss eine Internetverbindung bereits
+vorhanden sein.Wenn Du mit DF-Netzwerk von Win95 arbeitest (alles ist bereits
+eingerichtet), kann Warenkorb dies starten.
+Falls Du die JaVeGo 2.0 Software verwendest, kopierst Du am besten die
+wsock32.dll in Dein Warenkorb-Verzeichnis
+und Du wirst immer sofort gefragt, ob Du Online gehen willst oder nicht.
+Aber Achtung!
+Wenn bei JaVeGo - Einstellungen - Internet: Software über Loader starten
+ausgewaehlt ist, musst Du u. U. Deinen IExplorer
+starten, bevor Du Quickenfunktionen benutzt. (IExplorer startet immer mit der
+voreingestellter IZugangsbenutzung und nicht
+unbedingt mit JaVeGo).
+
+Gebhard

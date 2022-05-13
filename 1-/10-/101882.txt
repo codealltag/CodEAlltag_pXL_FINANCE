@@ -1,0 +1,18 @@
+Du meinst den Mittelwert der periodischen Aenderungen?
+Das klingt logisch. Aber wie vergleicht man das in der Praxis?
+Die implizite Vola wird ja indirekt rueckwaerts rausgezogen.
+Da hat man keine echte Wertetabelle der Schwankungen
+des Underlyings. 
+
+Ich Hab eben mal ein kleines  Vergleichsbeispiel nachgerechnet.
+Einmal steigt der Kurs taeglich um genau 1%, das andere Mal
+mit Schwankungen, aber mit genau dem gleichen Endziel. 
+Die Mittelwerte sind doch ungleich. Wegen dieser Verzerrung
+bei der Prozentrechnung. Faellt der Kurs von 100 auf 95,
+so geht das mit -5% in die Rechnung ein. Steigt er wieder 
+von 95 auf 100, so gehen +5,263...% in die Rechnung.
+
+
+Pietro Nauber
+Visit   http://saclyie.kry.ohh/dsjngd  and download a 
+free calculator for options, futures, bonds and similar stuff.

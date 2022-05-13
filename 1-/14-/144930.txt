@@ -1,0 +1,27 @@
+War eine Frage an dich, ob du mit Ableitung das Delta meinst. Da, soweit 
+ich mich erinnere, du nicht geschrieben hattest, die Ableitung von was du 
+meintest, war mir das unklar.
+
+
+Ich meinte Deltas stueckzahlmaessig addieren. Also bei Delta 0,65 und 100
+Stueck-OS = 65. Bedeutet dass 100 solche OS wuerden sich (an diesem 
+Punkt und diesem Datum) so verhalten wie 65 Stueck des Underlying.
+
+
+Ich kann da auf Anhieb auch nichts sicheres zu sagen. Mein Vorschlag
+mit den Deltas erscheint mir im Augenblick auch nicht mehr so gut, da
+sich die Verhaeltnisse ja mit dem Zeitablauf dauernd aendern. Hab mal 
+kurz ein Beispiel angedacht, und musste feststellen, dass der OS aus dem
+Geld, der mir deltamaessig heute guenstiger erscheint kurz vor Ablauf
+dann viel unguenstiger ist. 
+Zwar gibt es viele schoene Modelle, bei denen taeglich durch 
+Umschichtungen die Gesamtdeltas angepasst werden. Aber fuer die 
+private Praxis ist sowas wegen der hohen Spesen unbrauchbar.
+Bei unseren Profiprogrammen wird sowas ueber die Zielvorgabe
+gesteuert, d.h. der Anwender muss sich zuerst festlegen, was er
+eigentlich optimieren will. 
+
+
+Theo
+Visit   http://sfsjsbc.ueb.crn/nmbndl  and download a 
+free calculator for options, futures, bonds and similar stuff.

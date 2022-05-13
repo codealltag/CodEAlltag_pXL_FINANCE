@@ -1,0 +1,143 @@
+Hallo Volkert,
+
+
+Oh Mann - was für eine Blamage! Jetzt habe ich Dich solange mit meinen 
+Fragen genervt, mich Deinem Rat widersetzt, sich da nicht so sehr 
+festzubeißen und der Haussegen hängt auch schon schief wegen der vielen 
+Stunden am PC...
+
+Wie es aussieht, habe ich das mit der Mittelwertbildung immer noch nicht 
+begriffen. Ich glaube, ich gebe mich geschlagen - Du bist der Sinc-Guru 
+;-) Da komme ich nicht gegen an...
+
+
+Stimmt denn wenigstens die verwendete Grenzfrequenz F_g = 1/28,5?
+
+
+Wahrscheinlich fehlen mir hier einfach die erforderlichen Vorkenntnisse. 
+Ich kann ja spaßeshalber noch einmal schreiben, was ich in diesen 
+Absätzen zu verstehen glaube. Vielleicht ist ja nicht alles Unsinn...
+
+Ausgangspunkt: Die modifizierte Sinc-Funktion ist unser Filterkern.
+
+Filterkern ist: Funktion im Zeitbereich
+
+Zum Filter(kern) läßt sich zuordnen: eine Systemfunktion im Frequenzbereich
+
+Diese Systemfunktion läßt sich berechnen durch: Fouriertransformation 
+der Gewichtsfunktion
+
+Die Gewichtsfunktion ist: widerum der Filterkern
+
+Moving Average ist: Rechteckfenster im Zeitbereich
+
+Zum Rechteckfenster läßt sich zuordnen: eine Systemfunktion im 
+Frequenzbereich
+
+Diese Systemfunktion läßt sich beschreiben durch: Sinc-Funktion
+
+
+Systemfunktion eines idealen Tiefpasses ist: Rechteckfenster im 
+Frequenzbereich
+
+Gewichtsfunktion dieses idealen Tiefpasses ist: Sinc-Funktion im 
+Zeitbereich, bestimmt aus der Systemfunktion durch Umkehrtransformation 
+der Fouriertransformation
+
+Verglichen werden: Systemfunktion des idealen Tiefpasses mit 
+Systemfunktion des "moving average"
+
+
+"Rechteck" des MA und Sinc-Funktion des idealen Tiefpasses sind: jeweils 
+Gewichtsfunktionen im Zeitbereich
+
+
+Der oben angesprochene Vergleich der Systemfunktion des idealen 
+Tiefpasses mit der Systemfunktion des "moving average" ist weder trivial 
+noch intuitiv.
+
+Wenn ich das jetzt noch einmal zusammenfasse, gibt es keine einfache 
+mathematische Regel, aus einem gewünschten x-Tage-MA die passende 
+Grenzfrequenz F_g der Sinc-Funktion zu berechnen. Stattdessen hast Du 
+F_g auf Basis eines nicht trivialen Vergleichs der beiden 
+Systemfunktionen gewonnen.
+
+
+Hmm. Noch eine Sache, die ich offensichtlich nicht begriffen habe...
+
+Ich habe unter "fat tails" das gehäufte Auftreten von Ausreißern im 
+Vergleich zu einen Normalverteilung verstanden. Also relativ gesehen 
+durchaus seltene aber dafür heftige Kursausschläge.
+
+Mit Optionen kenne ich mich nicht so aus. Vielleicht sind es einfach 
+Vorurteile gegenüber den Options*scheinen*- mir ist irgendwie unwohl 
+dabei, wenn der Emittent gleichzeitig mein Kontrahent ist und auch noch 
+in gewisser Weise den Marktpreis festlegt.
+
+Mit den "doppelt zuschlagen" habe ich wohl nur ein Vorurteil 
+nachgeplappert. Es heißt ja gerne, die Emittenten würden an den 
+impliziten Volatilitäten drehen. Wenn ich es jetzt nämlich mal 
+durchdenke, müsste bei einer höheren Volatilität eigentlich auch der 
+Kurs steigen und damit einen Kursverfall beim Basiswert zumindest 
+teilweise kompensieren. Nur - warum schimpfen dann manche so auf die 
+"Volatilit�tsspielchen" der Emittenten?
+
+
+Ich habe noch einmal nachgesehen, meine Berechnung hat drei Schritte:
+1. ln(|r_(i)-r_i|)
+2. Davon bilde ich den Mittelwert mittels Sinc-Funktion
+3. exp("Mittelwert aus Schritt 2")
+
+Aus meiner Sicht entspricht das Deiner Formel. Weiter unten gibt es das 
+Ergebnis als Grafik.
+
+
+Dann macht diese Variante auch keinen Sinn mehr oder? Ein paar Fragen 
+hätte ich da schon noch, aber dann kann ich mir die sparen.
+
+
+Nun ja - also ein Unterschied ist da schon. Ich habe das mal für den DAX 
+als Grafik hochgeladen:
+http://kyo389.oovkixhhyn.uz/tev679/5366/xpteeprzbkdd3.tdw
+
+Rot ist die normale Varianzkurve.
+Grün ist die "vereinfachte" Variante.
+Blau ist die "mit Logarithmieren" Variante.
+
+Die vereinfachte Variante macht zwar keinen großen Unterschied aber 
+streng identisch zur normalen ist sie auch nicht.
+
+Bei der Grafik sind übrigens noch die "Überschwinger" zu sehen, von 
+denen ich letztens berichtete. Man sieht ganz gut, dass die "mit 
+Logarithmieren" Variante diese "Überschwinger" beseitigt.
+
+
+Ich habe meine Ergebnisse als Grafik hochgeladen. Die Farbkodierung und 
+Skalierung ist wie bei Deiner Grafik.
+
+http://qse906.vdsfkifeoh.jb/tpz832/9847/nceibfmyddjfipefd6.pql
+
+Stimmen unsere Diagramme jetzt überein?
+
+
+Das wäre aber eher als eine Art Test interessant, ob man sich bei seinen 
+Berechnungen nicht vertan hat?
+
+
+Hier trennen sich dann Deiner Meinung nach Theorie (CAPM) und Praxis? 
+Dann wären wir wieder bei den von Dir schon angesprochenen 
+Marktineffizienzen?
+
+
+Das wäre dann sozusagen das optimale Portfolio. Man diversifiziert so 
+gut, dass nur noch das Marktrisiko verbleibt.
+
+
+Ich habe inzwischen Deinen Rat befolgt und mir heute das Buch 
+"Portfoliomanagement" ausgeliehen. Die aktuellen Werke von Prof. Granse 
+sind mit knapp 30 Euro auch nicht teuer.
+
+Wen meinst Du eigentlich mit Alts?
+
+Gruß,
+Simon

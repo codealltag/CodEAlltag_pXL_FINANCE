@@ -1,0 +1,55 @@
+Die Firma Ruzeki gibt eine Liste der von Ihnen verwalteten
+Wertpapiere (mehrere Tausend) mit WKN als ASCII-Datei mit Suchroutine
+heraus. Ueber Teli kannst Du direkt bestellen und wird dann ueber
+Telefonrechnung eingezogen: 9,99 DM incl. Porto.
+
+Hier anschliessend ein Makro fuer den Teli-Dekoder, damit Du Dir
+die Grafiken aus Ruzeki "saugen" kannst. 
+-->>>>>
+Leider fehlt noch die Routine zum Speichern von Grafikseiten aus
+Teli heraus. Falls jemand eine Loesung kennt, bin ich daran
+interessiert.
+
+# +--------------------------------------------------+
+# |    Abruf von Ruzeki Aktien-Charts           |
+# |  Kurt Conrades, rwbycqi.kwikmz@d-smoeus.ph      |
+# +--------------------------------------------------+
+send "\c\*0\#"
+send "\*Ratschiller´s#"
+waitdct
+send "1"
+waitdct
+# Bestaetigung, dass DM 0,60 oder 0,80 pro Minute Ok sind.
+send "19"
+waitdct
+send "1"
+waitdct
+send "1"
+waitdct
+send "55"
+waitdct
+# WKN hier eingeben als Beispiel ist 877296 angegeben
+send "589730\#"
+# Bildschirm als Grafik speichern 
+# Routine hier einfuegen oder Gosub-Aufruf
+waitdct
+send "2"
+waitdct
+#Bildschirm als Grafik speichern
+#Routine hier einfuegen oder Gosub-Aufruf
+send "\*0\#"
+waitdct
+end
+Grafikspeichern:
+# Hier Routine eintragen um Teli-Bildschirm als Grafik 
+# zu speichern.
+#
+Return
+
+Tschuess Kurt.
+
+eMail: rwbycqi.kwikmz@d-smoeus.ph
+Fax:   4422 - 79234
+
+PS.: Anwort bitte als eMail, da ich das Brett nur 
+     unregelmaessig mitlese. Danke

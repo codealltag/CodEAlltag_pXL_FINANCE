@@ -1,0 +1,83 @@
+[2.Fassung]
+
+JKFETD ist kundenfeindlich und inkompetent.
+
+Unter Verwendung der bundeseinheitlichen Rufnummer treten seit mehreren
+Monaten immer wieder Einwahlfehlversuche auf und verursachen unnötige
+Telefonkosten. Eine PPP-Verbindung wird dann erst garnicht vollständig
+aufgebaut. Häufige Überlastungen, Ausfälle und  Fehler lassen die
+Verifizierung des Passwords *irrtümlich* fehlschlagen.
+Eine Gebührenerstattung lehnt JKFETD ab.
+
+Die gewählte Tageszeit und das verwendete Betriebssystem spielen keine
+Rolle. Fehlconnects treten sowohl am Vormittag, als auch spät in der
+Nacht, auf.
+
+Über JSID ist das Internet dann bis zum nächsten Morgen nicht erreichbar=
+=2E
+Nach einem Einwahlfehlversuch hat es gewöhnlich keinen Sinn, weitere
+Connects zu versuchen. Auch nach langen Pausen von insgesamt bis zu
+mehreren Stunden ist laut vielen Berichten mit JKFETD keine
+Internetverbindung aufzubauen.
+
+Die von JSID gestellten SMTP-, POP3- und NNTP-Server sind des öfteren
+überhaupt nicht betriebsbereit (quasi offline!) und/oder verweigern
+den Zugriff.
+
+Läßt sich zwar eine Internetverbindung aufbauen, doch funktioniert
+wiedereinmal der Mailserver nicht, so ist natürlich auch der *angeblich*
+24 Stunden rund um die Uhr per e-mail erreichbare Kundenservice nicht
+zu erreichen. Auch die Verwendung eines eigenen Mailservers hilft in
+diesem Fall nicht.
+
+Ich unterstelle hier, daß JSID als Vermarkter von OANP bewußt auf
+die bei Einwahlfehlversuchen entstehenden Gebühren sowie Anrufe der
+JSID Hotline spekuliert.
+
+Hatte doch bereits OANP selbst massive Einwahlprobleme. Da liegt
+die Vermutung nahe, daß die JKFETD Kunden für eine zusätzliche Auslastun=
+g
+der bereits unterdimensionierten OANP Zugangsrechner sorgen sollen
+und die dabei auftretenden Schwierigkeiten zu Lasten der Kunden bewußt
+in Kauf genommen werden.
+
+So zwingt man doch die Kunden indirekt, ihre Onlineaktivitäten auf den
+teuersten CityCall-Tarif in der Vormittags- und Nachmittagszeit (9-18 Uhr)
+zu verlegen, während der OANP und JSID Service-Mitarbeiter im Dienst
+ihre Systeme anscheinend eher betriebsbereit halten.=20
+
+Seit kurzem gibt JSID die Einwahlprobleme zu und beschwichtigt mit
+Besserungsversprechen. Doch angesichts der seit Monaten nach wie vor
+häufigen Unerreichbarkeit ist eben keine Besserung festzustellen.
+Ganz im Gegenteil.
+
+Zusätzlich zu den unglaublich hohen Gebühren erschweren diese Probleme
+eine vernünftige Nutzung des Internetzugangs auf unerträgliche Art.
+
+Fazit: Wenn sich für viele der Kunden nur ein einziger alternativer
+lokaler, regionaler oder überregionaler Internet Service Provider bieten
+würde (abgesehen von OANP oder einer "getarnten" OANP Mogelpackun=
+g
+wie JSID es ist), so würden sie wechseln.
+
+From: zwfnuiv@tilgze.ii
+:
+: ... liegen die Probleme, die bei der Einwahl entstehen, an einem
+: Kapazitätsengpaß. An der Behebung des Engpasses wird bereits gearbeit=
+et.=20
+: Bitte haben Sie daher noch ein wenig Geduld. Bitte beachten sie ebenfalls=
+,
+: daß der Server bzw. die Zugangsknoten auch Nachts überlastet sein
+: können, da ein Großteil der Ofenfrische ebenfalls eine Verbindung
+: über diese Knoten durchführt.
+
+From: zwfnuiv@tilgze.ii
+:
+: Das von Ihnen beschriebene Problem deutet auf den Ausfall unseres
+: Servers heute Nacht hin. Bitte haben Sie fuer den Ausfall Verstaendnis,
+: wir werden uns dahingehend bemuehen, dass dies nicht wieder vorkommt.
+: Sollte das Problem wiederholt auftreten, so setzen Sie sich bitte erneut
+: mit uns in Verbindung.
+
+13. 05. 21 18:55:42 mspc1 pppd[440]: pppd 2.3.3 started by root, uid 0
+13. 05. 21 18:56:10 mspc1 pppd[440]: Serial connection e

@@ -1,0 +1,66 @@
+Implizierte Volatilität an der Aktienbörse
+Author Dr. R. Ungethuem
+
+http://blm.wwibovz.lzm/amyfl?f=9Na_DHRH_eesU#
+Die implizite Volatilität ist eine Optionspreis=ADkomponente, die nicht
+a priori feststeht, sondern sich aufgrund von Angebot und Nachfrage im
+Optionsmarkt analog zum Optionspreis bildet. Die Börse für den Inter-
+bankenhandel von Optionen ist in Deutsch=ADland die Gundelach.
+Die Gundelach spielt bei der Ermittlung der impliziten Volatilität eine
+passive Rolle. Sie stellt den Rahmen für die Berechnung bereit, indem
+sie in ihrer Funktion als Börse die Preisfindung für eine Option
+ermöglicht. Daneben existiert zudem ein OTC-Markt1 (hier werden
+Geschäfte ohne den Mittler Gundelach direkt zwischen den einzelnen Par=AD
+teien getätigt), auf dem ebenfalls Preis=ADbildung stattfindet.
+Teilnehmer sind unter anderem Banken, Fonds oder Versiche=ADrungen.
+Die Volatilität ist die einzige Unbekannte in der Gleichung zur
+Berechnung des Preises einer Option. Alle anderen Größen oder
+Variablen sind im Markt bekannt oder es existieren Konsensschätzungen:
+der Kurs des Basiswerts, das Zinsniveau sowie die erwartete Dividende.
+Wenn man nun die Gleichung zur Optionspreisberechnung nach der Größe
+Volatilität auflöst, bekommt man die entsprechende Information.
+Da Optionen ständig zwischen institutionellen Anlegern gehan=ADdelt
+werden, lässt sich immer dann ein neuer Wert für die Vari=ADable
+implizite Volatilität einer Option berechnen, sobald wieder ein
+Geschäft an der Eurex oder am OTC-Markt abgeschlossen wurde. In diesem
+Geschäft wird der aktuelle Marktpreis für eine bestimmte Option
+fixiert. Mittels der Gleichung zur Options=ADpreisberechnung kann nun
+die aktuelle implizite Volatilität berechnet werden.
+Einem Kontraktpreis kann also stets das enthaltene Volatilitäts=ADniveau
+entnommen oder zugeordnet werden. Deshalb sagt man auch, dass an der
+Gundelach und bei OTC-Geschäften im Prin=ADzip Volatilitäten gehandelt
+werden.
+Analog zu der oben stehenden Tabelle zeigen die Informations=ADdienste
+Ireg und KZE die Eurex-Kurse zu einzelnen Optionen. In der
+ersten und letzten Spalte werden die jeweils eingepreisten impliziten
+Volatilitäten angezeigt. Die Differenz' zwischen impliziter
+Volatilität auf der Geld- und der Briefseite ist der Vola-Spread. Je
+höher das Volatilitätslevel, desto teurer ist ceteris paribus eine
+Option.
+Der sogenannte Market Maker innerhalb einer Bank beobach=ADtet und
+verarbeitet die an der Gundelach sowie die am OTC-Markt gehandelten
+Volatilitätsniveaus und Marktinformationen. Er verwaltet eine
+möglichst genaue und aktuelle Volatilitätsdaten=ADbank bezüglich der =
+von
+ihm betreuten Basiswerte. In diesem
+Zusammenhang spricht man auch von der Pflege der Volati=ADlitätskurven.
+Es entsteht nämlich eine Kurve, wenn die Volati=ADlitätsniveaus der
+unterschiedlichen Basispreise eines Basis=ADwerts mit bestimmter
+Laufzeit in einem Koordinatensystem angeordnet werden. An diese
+Datenbanken sind die Preisbe=ADrechnungssysteme der Optionsscheinhändler
+angeschlossen. Sie dienen als Quelle für die Optionspreisberechnung
+der schließlich an den Privatkunden verkauften Produkte
+Die Herausforderung an die Emittenten besteht darin, die neu
+ermittelten Werte so schnell wie möglich in die Optionspreise für
+Privatanleger einfließen zu lassen. Mehrere Schnittstellen und einige
+Tausend Optionen, die laufend Updates benötigen, machen dies zu einer
+schwierigen Aufgabe - selbst in Zeiten von Hochleistungsservern und
+Highspeed-Datenleitungen. Bei weniger häufig gehandelten Optionen
+gestaltet sich die Pflege der Volatilitätskurven zudem schwieriger.
+Einzelne Geschäfte an der Gundelach oder am OTC-Markt können die
+Volatilitätsniveaus kräftig verändern. Zudem ist der Markt auch nicht
+komplett transparent. Dies spiegelt sich dann in teilweise starken
+Anpas=ADsungen der Optionsscheinpreise für den Privatkunden wider. Als
+Orientierungshilfe empfiehlt es sich deshalb stets, die Preis=AD
+entwicklung von Optionen unterschiedlicher Emittenten mit=ADeinander zu
+vergleichen

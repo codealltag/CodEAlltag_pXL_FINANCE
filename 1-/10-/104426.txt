@@ -1,0 +1,41 @@
+Das ist ein Grund, warum ich nicht viel von Musterdepots halte. Bei
+Zu- und Abfluessen aendern sich einige Werte, etwa auch die
+Gewischtung einzelner Posten.
+
+
+Jetzt eben stellt sich die Frage, wie Du auf diese Performance kommst.
+Du hast sie einfach abgeschrieben. Um den beschriebenen Effekt zu
+verhindern, musst Du Dein Depot indexieren. Am Anfang also faengst Du
+mit 1000 an: 1 Euro entspricht einem Indexpunkt. Nach n Aktionen ist
+der Index auf 500 gefallen. Jetzt kommt die Einzahlung. Nach der
+Einzahlung muss der Index immer noch bei 500 stehen; ein Indexpunkt
+entspricht nun also 10500/500 Euro (= 21 Euro). Den Saldo *und* den
+Gesamtwert drueckst Du nun also in Indexpunkten aus, nicht mehr in
+Euro. Die Performance ergibt sich nun leicht, indem Du vom
+Anfangsstand 1000 Punkte ausgehst.
+
+
+Rechnen wir den Index aus: 11500/21, rund 548 Indexpunkte. Deine
+Performance ist also immer noch mies;-)
+
+Alternativ kann man die Betraege umrechnen, statt Indexpunkte zu
+nehmen, etwa indem man ueberlegt, wieviel eine Einzahlung am
+Startpunkt gewesen waere, wenn die Performance identisch fuer diesesn
+Betrag mit dem bisherigen Verlauf waere. Im Beispiel also waere der
+Zufluss von 10000 Euro am Startzeitpunkt doppelt so hoch gewesen (Du
+hast ja die Haelfte seit dem Verloren). Also betraegt die Einzahlung
+(fiktiv) 21000 Euro. Am Ende hast Du 11500/21000 uebrig. Natuerlich
+ist das dieselbe Zahl, die bei der Indexierung rauskommt.
+
+Ich selbst habe letzteres Verfahren mal eine Weile durchgehalten. Dies
+fuehrt zu absonderlichen Werten. Selbst wenn man alle Zahlungen
+aufsummiert und feststellt, dass man sein Kapital nicht grossartig
+veraendert hat, kann die so berechnete Performance wirklich schlecht
+sein. Muss man sich einfach eingestehen, dass man da eine Zeitlang
+wirklich Scheisse gebaut hat, aber ansonsten gut von seinen
+Spekulationsgeschaeften leben kann;-)
+
+HTH. pi
+-- 
+Money may make the world go 'round ...
+... but computer networks make money go around the world.

@@ -1,0 +1,38 @@
+...
+...
+..
+Klasse, eine wirklich fundamentale Beschreibung von Futures. So ganz
+hab ich es aber noch nicht verstanden. Keine Angst, solange ich
+das nicht verstanden habe werde ich auch sicher kein Geld da 
+reinstecken.
+
+Nehmen wir mal als Beispiel die Daten von heute.
+Der Dax steht bei 5802
+Der Dax-Future 3/2000 liegt bei 5859
+
+Wenn ich nun 1 Dax Future zum Kauf des DAX fuer 5859 kaufe, dann
+sage ich (theoretisch) zu, den Dax in 3/2000 fuer 5802 zu kaufen,
+right ? So weit so gut. Abgesehen von der Sicherheitsleistung, was
+muss ich den nun fuer das Papier bezahlen ? (5859-5802)*25 in Euro ?
+=1425 Euro ? Warum notiert dieser Future dann nicht bei 1425 ?
+Waere doch viel "uebersichtlicher". Wie bestimmt sich eigentlich
+in der Praxis die Hoehe der Sicherheitsleistung und wer legt sie
+fest ?
+
+Und wie funktioniert so ein Futureverkauf eigentlich rein 
+praktisch ein einer Brokeranwendung wie etwa bei Heisig ?
+Verkauft man einfach ein Papier, das man nicht im Depot hat
+oder wie ?
+
+Sorry, das sind absolute Greenhorn Fragen, ich will aber mal
+wieder was lernen:-)
+..
+... Schade, hier fehlte was
+
+Gruss
+  Benedikt
+-- 
+Benedikt Lövenig         Jongh VCJJ April GmbH
+ila@dxkmnyswkpl.rk                Internetloesungen vom Feinsten
+Fon. +41 6781 8823-2                       Fax. +52 6174 0264-92
+Privat: vcv@iycwmp.fn        - Trink mal wieder ein gutes Bier -

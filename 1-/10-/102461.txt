@@ -1,0 +1,20 @@
+So auf die schnelle..
+
+Der Verweis auf das statistische Instrumentarium ist schon OK. Standardabweichung/Varianz
+Achtung 1:
+Nicht Abweichung der absoluten Kurswerte wird berechnet, sondern von deren relativen
+Änderung:
+    LN(Kursheute/Kursgestern)
+Beim Interpretieren der Ergebnisse das Umrechnen nicht vergessen.
+
+Details: EXCEL Handbuch/ Hilfe zu Standardabweichung/Varianz anschauen.
+Buch zur statistischen Methodenlehre anschauen.
+
+Achtung 2:
+Die historische Volatilität muß nichts mit der momentanen, für die Zukunft erwarteten Vola
+zu tun haben !
+Je länger die historische Zeitreuhe, desto geringer die Schwankungen der Vola im
+Zeitablauf.
+
+Bis dann
+Jean

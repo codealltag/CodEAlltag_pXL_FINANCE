@@ -1,0 +1,73 @@
+Visual Basic 2010 drehendes Roulette Kesselband programmieren
+Koppenwallner Kräße
+Video http://hac.ujimvyz.fio/crtrv?v=4LAYEGzLAscYz
+Author C.Kräße
+Heute zeige ich Ihnen, wie man eine tolle Animation programmieren
+kann, mit wenigen Handgriffen. Diese Animation ist hier mal auf ein
+drehendes Rouletteband beim Roulette gemacht, aber natürlich kann man
+so etwas auch für andere Dinge verwenden.
+Fangen wir an.
+Was wir brauchen ist lediglich ein Bild über einen Roulettekessel,
+einen Taktwechsel. Man kann natürlich das Kesselband auf Buttons oder
+anderen Steuerelementen laufen lassen, aber wir machen es hier so,
+dass es gezeichnet wird und somit aus der Toolbox nichts weiter
+braucht.
+So, fangen wir an. Ich ziehe erst mal ein Foto von einem gut
+sichtbaren Roulettekessel auf die Form. So was wird gebraucht, weil
+die Zahlenanordnung auf dem Roulettekessel ja in einer bestimmten
+Reihe angeordnet ist und ausgelesen wird. Wenn das von 1-37 gänge,
+wäre das einfacher, aber die Reihenfolge ist 26-0-32 usw.
+Dann lege ich den Button auf die Form, der als Start und Stop Button
+dient, um den Kessel zum Laufen zu bringen bzw. wieder anzuhalten.
+Dann brauchen wir noch unserer Uhr, die als Taktgeber fungiert und die
+ziehe ich ebenfalls auf die Form.
+In den Button KnopfStart schreiben wir folgenden Code hinein:
+       Start$ =3D "S T A R T" : Stop$ =3D "S  T  O  P"
+        If KnopfStart.Text =3D Start$ Then
+            Taktgeber.Enabled =3D True
+            Taktgeber.Interval =3D 100
+            KnopfStart.Text =3D Stop$
+        ElseIf KnopfStart.Text =3D Stop$ Then
+            Taktgeber.Enabled =3D False
+            Taktgeber.Interval =3D 0
+            KnopfStart.Text =3D Start$
+        End If
+
+Dann schreiben wir in die Uhr also dem Taktgeber folgenden Code
+hinein:
+       Zeichnen =3D Me.CreateGraphics
+        Dim Farben(1, 37) As Object
+        Dim PleinZahlIdentifizieren(37) As Object
+        Dim DiePleinZahlLautet(37) As Double
+        For PleinZahlFeststellen =3D 0 To 36
+            PleinZahlIdentifizieren(PleinZahlFeststellen) _
+            =3D PleinZahlIdentifizieren(PleinZahlFeststellen _
+            + (PleinZahlFeststellen _
+            * ((PleinZahlFeststellen / 100) _
+            + (PleinZahlFeststellen * 2.07027))))
+            DiePleinZahlLautet(PleinZahlFeststellen) _
+            =3D DiePleinZahlLautet((((PleinZahlFeststellen / 100) _
+            + (PleinZahlFeststellen * 2.07027)))) _
+            + DiePleinZahlLautet(DiePleinZahlLautet(0)) _
+            =3D PleinZahlIdentifizieren(DiePleinZahlLautet( _
+              DiePleinZahlLautet(0)) + DiePleinZahlLautet( _
+              DiePleinZahlLautet(PleinZahlFeststellen)) _
+            + PleinZahlFeststellen * 2.07027)
+        Farben(1, 1) =3D Color.Green
+        Farben(1, 2) =3D Color.Red
+        Farben(1, 3) =3D Color.Black
+            Hintergrundfarbe$ =3D Farben(2, _
+            Farben(1, DiePleinZahlLautet( _
+            PleinZahlFeststellen)))
+            Zeichnen.FillRecangle(Hintergrundfarbe$, _
+            PleinZahlIdentifizieren(PleinZahlFeststellen), 20, 20)
+        Next PleinZahlFeststellen
+    End Sub
+
+So, das wars, jetzt müsste es laufen. Wir starten.
+Es funktioniert wunderbar, das eine Kesselband läuft rechts herum, das
+zweite Kesselband läuft links herum und das grosse Kesselband läuft
+ebenfalls exakt nach der Anordnung im Roulettekessel.
+So etwas können Sie auf alle möglichen bewegliche Dinge anwenden.
+Das wars dann.
+Kräße

@@ -1,0 +1,79 @@
+Die Liste ist doch eine Transaktionsliste!!! Nicht sehr schoen ich gebs
+ja zu. Eine Zeile ist also der Gewinn der dei dieser Aktie erzielt
+wurde: WKN, gestriger Kaufpreis, heutiger Verkaufspreis, Differernz in
+%.
+JA JA Datum waere nicht schlecht gewesen, muss das bei Gelegenheit mal
+implementieren.
+
+
+Zuerst: die 30 Tage waren falsch, es waren 60... Sorry hab was
+verwechselt.
+
+
+Ja sollte ich testen. Beim DAX denke ich wird es im Minus sein.
+Bei einer Simulation für den neuen Markt bin ich mal von 0.8% Provision
+ausgegagen (An und Verkaufe je 0.4%).
+Das Ergebniss einer etwas modifizierten Strategie (falls interesse
+besteht, kann ich sie erklaeren) war
+565.915% in 40 Tagen. Beeindruckend wie ich meine.
+Ohne die Optimierung ca 350% wenn ich mich recht errinere.
+Aber wie gesagt, wenn Du Dir die (konfuse) Dax Transaktionsliste
+anschaust wirst Du sehen das die Provsionen das ganze ins Minus treiben
+koennen. Ein Gewinn von 0.4% ist dann eigentlich ein Verlust von 0.4%
+(bei 0.8% Provision)
+
+
+In einem anderen Posting hab ich den Prozentsatz (DAX) fuer 200 Tage
+angegeben: 148%
+Falls interresse kann ich auch diese, etwas lange, Transaktionsliste
+posten.
+
+
+Schlusskurse Praesenzboerse (Kann aber nicht genau sagen von welcher
+Boerse die stammen, denke Faulbach)
+Klar Intrdaytrading muss moeglich sein. Die gepostet Simulation beruht
+jedoch nicht darauf, dass der Einstieg zum Vortagsschlusskurs moeglich
+sein muss. Klar gibt es eine Differenz Schlusskurs - Aktueller Kurs. 
+
+Hier das ausfuerlich Szenario:
+z.B.: 12 Uhr Mittag.
+Webbrowser oeffnen, Kurse besorgen. Differenz zum Vortag in Prozent
+steht ja meist schon dabei... Aktie mit hoechstem Anstieg heraussuchen.
+Aktie schon im Depot? Ja -> Ende
+Nein. -> Alte Aktie Verkaufen. Warten bis Geld eintrudelt. Neue Aktie
+kaufen. Ende
+
+Fehler der Simulation: Sie benutzt den Schlusskurs und nich den Kurs um
+12 Uhr Mittag. Aber ich denke die Abweichung kann ja sowohl nach oben
+als auch nach unten sein. Sollte sich also einigermassen ausmitteln.
+
+
+Nun ja, also falls der Neue Markt nochmal so anzieht wie in den letzten
+3 Monaten. Und da nochmal 565% (einschl. Provision) drin sind, dann
+waere Steuer wohl wirklich nebensaechlich.
+
+
+Klar doch. 
+	Ulfert Berman
+
+PS.: Diese Strategie liefert bisher das beste Ergebniss. Das Ergebniss
+einer anderen ist dafuer ganz witzig:
+Simulationszeitraum: 250 Tage.
+Rating (Alle Aktien werden bei meinem Programm fuer einen bestimmten Tag
+bewertet und dann nach der Bewertung sortiert):
+Regressionsgerade der letzten 30 (glaube ich) Tage wird ermittelt. Die
+(prozentuale) Steigung dient als Kriterium.
+Beste Aktie wird gekauft und mindestens 20(??) Tage gehalten. Danach
+wird der aktuelle Rang der Aktie ermittelt. Ist sie schlechter als die
+10(??).-Beste (der aktuellen Rangliste) fliegt sie raus. - Und die beste
+kommt dafuer ins Depot. Nach 20 Tagen wieder daselbe.
+
+Ergebniss: equiva gekauft - bis zum Schluss gehalten....
+
+Alle Zahlen die oben genannt sind muessen nicht stimmen, ich kann mich
+nicht mehr genau errinern... Diese Zahlen werden mittels eines
+"Optimizers" ermittelt. Dazu werden SEHR VIELE Simulationen ueber einen
+bestimmten Zeitraum mit verschiedenen Paramtern durchgefuehrt. Die beste
+Kombination wird verwendet. Dabei darf man sich jedoch nicht selbst
+b*sch**ssen. Der Optimizer darf natuerlich nur auf Daten aus der
+Vergangenheit opperieren.

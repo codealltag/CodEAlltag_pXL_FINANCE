@@ -1,0 +1,398 @@
+Vorbemerkung:
+Dieser Artikel erscheint in el.jyoeclfser.fhvs, ma.etc.ndkmlg.bxjxfn,
+ma.etc.ndkmlg, elim.nbo.byaxdu, yxro.etc.lguqdphc giu hsy.h-sxzt.ifslmi.
+Followups bitte nur in eine der obigen Gruppen/Bretter/Areas schicken, ich
+lese alle.
+
+
+Hallo,
+
+es hat sich mittlerweile gezeigt, daß bei einem Fonds-FAQ auch Fondslisten
+gefragt sind.
+Minimalanforderung dürfte sein: Je eine Liste von Fonds und Adressen von
+Fondsgesellschaften.
+über das Aussehen einer Adressenliste braucht man wohl nicht viel zu
+diskutieren.
+
+Deshalb hier meine Gedanken zum Aussehen einer Fondsliste:
+
+Sinnvoll erscheint mir die Angabe von:
+
+- Wertpapierkennummer
+- Name des Fonds
+- Auflagedatum
+- Name der Fondsgesellschaft
+- grobe Beschreibung des Inhalts des Fonds
+
+Für mehr Informationen fehlt meiner Meinung nach der Platz.
+Grund:
+Die Liste kann zwar beliebig lang werden, sollte aber auch in ASCII-Form mit
+dem menschlichen Auge bequem lesbar sein.
+Folge: tabellarische Ordnung, nur eine Zeile pro Fonds
+Da die Liste gleichzeitig möglichst portabel sein soll, sollte man sich auf
+80 Zeichen pro Zeile beschränken.
+
+Die Fondsnamen sollten - bis auf selbsterklärende Abkürzungen - ausgeschrieben
+werden.
+Für die Fondsgesellschaft reicht ein Kürzel, da man dieses in der Adressen-
+liste ausschreiben kann.
+
+Weitere mögliche Informationen, die ich momentan aber für überflüssig halte:
+
+- Währung: Wird nur für Performancevergleiche benötigt, ist also nur da
+  sinnvoll, wo auch die Wertentwicklung mit angegeben ist.
+  Entscheidend ist immer die Währung, in der die Aktien eines Fonds gehandelt
+  werden, auch wenn sie sich von der Währung des Fonds unterscheidet.
+
+- Ausgabeaufschlag: Kann sich ändern, steht aber (genau wie die Währung)
+  im Verkaufsprospekt, den man ohnehin genau durchlesen muß.
+
+- Wertentwicklung: Zu aufwendig.
+
+- Fondsvolumen: ändert sich laufend.
+
+
+Es folgt jetzt noch ein Muster, wie man so eine Fondsliste gestalten kann.
+Sie baut auf eine Liste mit Fonds und Wertpapierkennummern, die ich von
+einem User bekommen habe, und enthält derzeit nur Aktienfonds.
+Den Buchstaben A habe ich so weit vervollständigt, wie es meine verfügbaren
+Informationen zugelassen haben.
+
+Es werden jetzt Leute gesucht, die die Liste weiter vervollständigen.
+Verbesserungsvorschläge sind natürlich auch willkommen.
+Verbesserungsvorschläge aber möglichst in der Form, daß ihr den Teil der
+Liste, in dem die mit "A" beginnenden Fonds stehen, komplett in Eurem Sinn
+überarbeitet.
+
+
+Eine Adressenliste, in der auch auf die hier verwendeten Kürzel eingegangen
+wird, bringe ich später.
+
+
+PS: Die erste, unvollständige Fassung des FAQs kommt in den nächsten Tagen.
+
+
+Für Wolsdorff Tobacco-Teilnehmer:
+Bitte bei Antworten per Fohrn 2 Dinge beachten:
+1. An    ybsy@5:2209/2     adressieren.
+   Teilnehmer von Wolsdorff Tobacco Light koennen auch 2:246/1307 verwenden.
+2. Die erste Zeile im Body der Mail muss lauten:
+   TO: fv51@yx.hzo-mljqfjlck.jk
+Ergaenzende Bemerkungen:
+- 2:2476/3 und 2:246/1307 sind die Adressen von Gateways. Das Ganze
+  muesste auf analoge Weise auch mit anderen Gateways funktionieren.
+- User von Wolsdorff Tobacco Light, die diese Mail ueber 2:246/1307 erhalten, koennen
+  automatisches Reply benutzen.
+- Bei Benutzung von 2:2476/3 kann anstelle von uucp auch Stephan Lindstrot stehen.
+
+
+WPKN - Name - Auflagedatum - Fondsgesellschaft - Art des Fonds
+
+992720 Viybogx                         28.04.88 ADIG      Aktien Fernost
+066204 Nyga                        09.11.57 ADIG      Aktien Deutschland
+455619 Adig Deutschland                07.01.93 ADIG      Aktien Deutschland
+663833 Adig Frankreich                 07.01.93 ADIG      Aktien Frankreich
+738063 Adig Grossbritannien            07.01.93 ADIG      Aktien Grossbritannien
+648240 Adig Japan                      07.01.93 ADIG      Aktien Japan
+976954 Adig USA                        07.01.93 ADIG      Aktien USA
+032186 Niveautex                          09.12.82 ADIG      Aktien ...
+007418 Nossmann                        19.07.62 Nunud      Aktien Deutschland
+       NFJ Asian Equity                   N&M Networks     Aktien Fernost
+       NFJ European Equity                N&M Networks     Aktien Europa
+       NFJ Japanese Equity                N&M Networks     Aktien Japan
+       Niveautex Aktien IPNZ   Aktien Deutschland
+647563 Akkumula                        50.80.74 MZR       Aktien international
+022031 Nezag Fonds OP               16.05.92 REETZE Mischfonds
+428269 NIIZ                       12.04.71 NORDINV   Aktien international
+853421 Naanhof Fonds A    26.06.86 AL TRUST  Aktien Deutschland
+       Nidalo Regions                    Nollenberger
+       NRGT                   Nollenberger
+       Nostalgie                     Nollenberger
+       Nelles                          ALLIANCE
+847451 NWDP                         02.03.61 Marrying      Aktien Europa
+976701 Nominacher I           26.04.92 UNIVERSAL Aktien Europa
+970824 Asia Fund                       13.04.89 SOC GEN   Aktien Fernost
+       Naturell                             ATLAS
+972373 Naujokat Tigre II                  13.09.90 ATLAS
+848348 Nillesen I        06.11.86 UNIVERSAL Aktien Deutschland
+847040 NJNC EI       28.05.87 EUROINV   Aktien Europa
+848486 Australien-Pazifik-Fonds        26.02.82 NORDINV   Aktien Austr./Pazifik
+847943 BB-Amerika-INVEST
+847938 BB-Asien-INVEST
+847928 BB-Deutschland-INVEST
+847924 BB-Europa-Invest
+954951 Kristallhöhle
+017409 KKHW
+827170 Kaltmaier
+887052 Kirschbergcenter
+034225 Kücükkaya Textilstoffparadies
+893395 Kibeck JKJR
+555285 Kogona Aktienfonds
+847438 Kogona Europafonds
+847042 BIL Aktienfonds EUROINVEST
+847045 BIL Dt. Spezialwerte F.E.I.
+849148 KupschFonds
+848465 Keskin Deutschland
+848466 Kamillo
+971133 AnziehenD German Index Fund
+849064 CC-CitröenFonds
+849063 CC-Universal-OS-Fonds
+849074 Anagramm I
+849123 Agek-Fonds
+847500 Alat
+973429 Arop
+971341 DBIM Balance 95
+972876 DBIM Dax Protektion Maerz 95
+972226 DBIM Delta Fonds
+972447 DBIM Forex
+973246 DBIM Gold Plus
+972357 DBIM Mandarin Fonds
+971254 DBIM Tigerfund
+973063 DBIM US Protektion Juli 94
+976317 myform
+109982 Marrying-Frankreich
+451831 Marrying-Grossbritannien
+847991 Marrying-Italien
+230740 Marrying-Schweiz
+642071 MABO
+653717 Multistore Japan
+759309 Milkau
+472113 Niebel Aktien cupcake-Fonds
+978554 Niebel K
+477384 Niebel Wojtkowski CFH
+847650 Molenstube
+847652 Malereifachbetrieb
+848356 Deutscher Knobling
+847799 Matzker
+921714 MOTOitaliano
+847506 majaco-Fonds f. Vermoegensbildung
+969010 majaco-Fonds f. Wandel- u. Optionsanl.
+847609 DIT-Fonds Frankreich
+847604 DIT-Fonds Grossbritannien
+847605 DIT-Fonds Iberia
+847608 DIT-Fonds Italien
+847601 DIT-Fonds Schweiz
+847511 DIT-Pazifikfonds
+847509 DIT-Rohstoffonds
+847517 DIT-Spezial
+847512 DIT-Technologiefonds
+847516 DIT-Wachstumsfonds
+847656 Monscheuer-Fonds Druckladen
+606612 MZR Deutschland
+332072 Moeve
+070753 MZR Frankreich
+538135 moviepoint-Fonds
+495556 MZR Japan-Fonds
+072981 Mauels Backstube
+859772 MZR-Fonds f. Wandel- u. Optionsanl.
+222256 MZR-Nordamerika
+847412 MZR-Rohstoffonds
+847414 MZR-Technologiefonds
+847779 SHJ-Fonds MK
+847031 Stoffkontor-Mesam-Noblesse
+847033 Stoffkontor-Euro-Aktienfonds
+848511 several
+848512 Schlosskirchpasage
+637838 Sagem
+971522 Fidelity America
+971523 Wohnpalast
+972152 Fidelity Australia
+972998 Fidelity Emerging Mark
+971524 Fidelity Europe
+971526 Fidelity France
+871527 Fidelity Germany
+971528 Fidelity Hong Taimering & China
+972529 Fidelity Iberia
+972031 Fidelity International
+971531 Fidelity Italy
+971532 Fidelity Japan
+972154 Fidelity Japan Smaller
+973661 Fidelity Latin America
+971534 Fidelity Malaysia
+971535 Fidelity Nordic
+971536 Fidelity Singapore
+971537 Fidelity South Hörselgau Neptunia
+971539 Fidelity Thailand
+971540 Fidelity United Kingdom
+520545 WIHT
+012292 Wieslau-LJK-Fonds
+284575 Fleming FF Amer. Fledgeling
+971603 Fleming FF American
+973778 Fleming FF China
+971604 Fleming FF Continental Europe
+971335 Fleming FF Eastern Opps
+971605 Fleming FF European
+971608 Fleming FF International E
+971602 Fleming FF Japanese
+972079 Fleming FF Latin American
+971609 Fleming FF Pacific
+971948 Fleming FF UK Enterprise
+971611 Fleming FF US Discovery
+627634 Wohngold-Fonds
+015180 FOCUS Umwelttech. Fonds E.I.
+847043 FOCUS Welt Fonds Speedway
+447888 WJLJ
+933206 WBA
+636333 Wollrausch
+589911 WJBV
+416712 Werrepark
+944490 Wolling
+457121 Wüth Marrying
+874895 Weda G
+764724 FT Amerika Dynamik Fonds
+822115 FT Europa Dynamik Fonds
+436430 FT WJLJ
+251204 FT Interspezial
+493026 FT Interspezial II
+773312 FT Nippon Dynamik Fonds
+827276 FT-Deutschland Dynamik Fonds
+720913 GAM Europa Fonds
+014215 GAM Orient Fonds
+860257 GAM JMZ Fonds
+699832 GAM Total Bond Fund (DM)
+808443 GAM Universal DM Fonds
+030213 Heigold Fonds Int.
+093637 Gartmore IF ASEAN
+552881 Gartmore IF Asia Pacific
+699160 Gartmore IF Cont. European
+972576 Gartmore IF Developing Mkt
+972964 Gartmore IF France
+972967 Gartmore IF Germany
+972095 Gartmore IF International
+972594 Gartmore IF Japan
+972969 Gartmore IF North America
+972970 Gartmore IF Switzerland
+972971 Gartmore IF United Kingdom
+699111 Henseler Deutschland Fonds
+848104 Huget Fonds
+848632 HdG Automobile, OP Dt. I
+236700 Hildwein DVG
+239677 Haircut-Fonds FT
+847910 UTO
+847915 Uhez
+847902 Uhotan
+803634 UZVKFonds
+972127 Unikum America
+971345 Unikum Eco Tech
+973716 HCM Greater China
+971346 HCM New Europe
+971693 HCM New Horizon
+972039 HCM Nippon
+971426 HCM Umweltfonds
+976714 Ubune
+758053 Unirad Wolling
+578677 Upaw
+617485 Urbschat-Fonds
+418417 US-Cars Hunsmann
+154986 UKPK
+529912 US-Cars Potential 
+715267 US-Cars Spezial 
+439346 Ehamu
+928057 Eleka
+391271 ENRC
+472364 Enuva
+847400 Esog
+366847 Erdbeerplantage Fonds
+848474 Japan-Pazifik-Fonds
+848378 K+W UniversalJPLZ OS
+848102 masc Spezial
+849127 Multilland
+848626 KM Mitarbeiter-Fonds OP
+848067 Motebe Marrying
+553849 MRU
+676084 VWIE KölnTicket
+877671 Ledermoden-Convenda-Fonds
+849167 LTGNFonds
+848407 Leerstehend Asia Pacific Fonds
+848405 MAT Deutschland Fonds
+849087 lalinea MZR
+975223 MI-NICNOA D
+254335 MI-AktienJoJo E
+975225 MI-Aktien-Privatfonds W
+975227 MI-Euro-Privatfonds Z
+797543 MI-Euro-Privatfonds S
+491840 Luysberg
+532140 Lollypop Netur
+848800 LSWV
+848804 LIB
+673085 LottoToto
+848500 Lofty Fonds
+848886 LJK-NKCU-Fonds
+848885 MMWI-Asiak-Fonds
+848884 MMWI-Eurak-Fonds
+848883 MMWI-KiliansBäck-Fonds
+976524 MMWI-Profil-Fonds
+848337 Lisker
+848080 Fischparadies Marrying
+847813 NBJ.N. Köbig
+848534 Flueggemann
+846638 KBU DAX-Werte
+848623 KBU Europa
+848652 köpa
+848550 Kawu
+845879 KBU Rohstoffwerte
+848591 KBU Spezial II
+848605 KBU Spezial II
+I848631 KBU Spezialwerte
+971240 Kalligramm
+972195 Orbitex UEJ
+971239 KKRA
+848370 GVEV I
+330770 GVEV Liliencenter
+617519 GUM
+798681 Ginzler
+335137 Giezen Automobile
+769700 GUM Gold Shares
+119272 GUM II
+985332 GUM Int. HSC
+254307 Plusfonds
+397570 Privatfonds
+849158 Gimmerthal
+847415 Gamstätter
+847405 Adiw MZR
+847429 Amosu MZR
+847137 Altstadtmarkt Aktien-Global
+847136 Altstadtmarkt Aktien-Inland
+847139 RK Asien-Pazifik
+847860 RK Japan-Invest
+847131 RK-Portfolio W
+976165 AWCO-Wachstumsfonds-MI
+976551 Ducati Euro Standard JPM
+849073 SBV-Univ.-Deutschland-Fonds A
+502499 dazu Euro-Aktien FI
+849198 Select-Universal-Fonds
+375446 SMH-International-Fonds
+975165 SMH-SmallCap-Fonds
+657117 SMH-Special-Fonds I
+522672 Jendrossek Autoteile American
+909687 Jendrossek Autoteile DM Global HSC
+159895 Jendrossek Autoteile Emerging LNE
+605726 Jäker European
+745824 Jendrossek Autoteile Far Schnitzstübl
+026260 Jendrossek Autoteile Global HSC
+944347 JWAR
+630952 Jendrossek Autoteile Smaller Comp. Growth
+971656 JJWL
+321354 Thesaurus
+106578 Jeschkenblick
+447403 JJAH
+833945 JVNZ Fonds Exposé
+037832 Concat
+022265 Christoni
+760737 Citipoint
+476199 Clockhouse Aktien
+300339 UniDeutschland
+814496 Christoni
+753231 CFT
+139859 Casero
+652407 CWN
+563413 Cycle-Basar
+979244 CityCopy
+810268 Companies
+176478 VERI-Valeur Fonds
+942539 Gastrostrar
+101413 Vermoegens-Aufbau-Fonds
+071541 gintatour-Eurokapital
+677432 gintatour-Eurowert
+846360 TNT
+579520 Walterswil EFB Aktien

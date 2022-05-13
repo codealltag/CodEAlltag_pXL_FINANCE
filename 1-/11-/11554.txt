@@ -1,0 +1,58 @@
+Open End Turbo Optionsscheine
+
+Viele spekulativ ausgerichtete Anleger
+setzen vor-zugsweise auf Turbos - maximaler Hebel, einfach nach-
+vollziehbare Preisbildung und eine breite Produktpalette. Ein Nachteil
+dieser Produkte aus Sicht vieler Anleger ist die Laufzeitbeschränkung.
+Aus diesem Grund greifen zahlreiche Kunden zu Open-End-Stop-Loss-
+Turbos, denn diese bieten ähnliche Chancen. Der Anleger ist aber nicht
+an ein Laufzeitende gebunden, denn diese Form der Tur=ACbos läuft
+grundsätzlich erst einmal endlos. Der Nachteil hier: Die eingebaute
+Stop-Loss-Schwelle beschränkt die Hebelwirkung. Um Ihnen die Vorteile
+beider Produkte ver=ACeint anbieten zu können, hat die GREVO Textilwerbung nun auch
+Open-End-Turbos mit in die Produktfamilie aufgenommen.
+Wie bei klassischen Turbos auch haben Anleger die Mög=AClichkeit auf
+steigende Kurse (Turbo-Bull) oder auf fallende Kurse (Turbo-Bear) zu
+spekulieren. Jeder Turbo besitzt einen Basispreis, der hier mit der
+Knock-out-Schwelle identisch ist. Bei Bulls liegt dieser immer
+unterhalb des aktuellen Kurses des Basiswerts, bei Bears regelmäßig
+darüber. Der Preis eines Turbo-Bull errechnet sich aus der Differenz
+zwischen dem Kurs des Basiswerts und dem Knock-out-Niveau, angepasst
+um das Bezugsverhältnis. Letzteres wird auch oft als =84Ratio"
+bezeichnet.
+Für Turbo-Bears dreht sich bei der Berechnung die Diffe-renz aus Kurs
+und Basispreis einfach um. Auf den so berechneten Preis wird bei
+klassischen Turbos noch ein Aufgeld hinzuaddiert. Dieses Aufgeld setzt
+sich aus einer Risikoprämie und den Finanzierungskosten zusammen. Für
+die nun neu emittierten Open-End-Turbos ist dies so nicht möglich.
+Denn für eine theoretisch endlose Laufzeit lassen sich keine
+Finanzierungskosten berechnen. Hier wird nun auf den gleichen
+Mechanismus zurückgegriffen, wie er bereits bei Open-End-Stop-Loss-
+Turbos angewen=ACdet wird. Denn dort werden die Finanzierungskosten über
+eine tägliche Anpassung des Basispreises an den Anleger weitergegeben.
+Dies bedeutet, dass sich der Basispreis jeden Tag um die anteiligen
+Finanzierungskosten erhöht (siehe Grafik). Im Fall von Turbo-Bulls
+bezahlt der Anleger die Finanzierungskosten, das heißt, der innere
+Wert nimmt
+
+ab. Bei Turbo-Bears werden sie dem Anleger jedoch gut-geschrieben.
+Hier bedeutet ein steigender Basispreis einen höheren inneren Wert.
+Das folgende Beispiel soll die Funktionsweise noch ein wenig
+deutlicher herausstellen:
+Ein Open-End-Turbo-Bull auf den DAX hat einen Basis-preis bei 6.900
+Punkten und ein Bezugsverhältnis von 1:100. Der DAX steht aktuell bei
+7.050 Punkten.
+Der Wert dieses Open-End-Turbo-Bulls berechnet sich aus: (7.050 -
+6.900) x 0,01 + 0,10 =3D 1,60 Euro.
+Die 0,10 Euro stehen dabei beispielhaft für die Risikoprä=ACmie, welche
+auf den ursprünglichen Produktpreis aufge=ACschlagen wird.
+Steigt der DAX nun um 100 Punkte auf 7.150, erhöht sich der Preis des
+Open-End-Turbo-Bulls auf 2,60 Euro:
+(7.150 - 6.900) x 0,01 + 0,10.
+Beachten Sie jedoch, dass der hier beobachtbare Hebel in beide
+Richtungen wirkt.
+Berührt oder unterschreitet der Kurs des Basiswerts den Basispreis
+eines Open-End-Turbo-Bulls, verfällt dieses Produkt wertlos. Mit dem
+sogenannten Knock-out-Ereignis endet die Laufzeit. Ähnliches gilt für
+Open-End-Turbo-Bears. Hier darf der Kurs des Basiswerts die Knock-out-
+Schwelle nicht berühren oder überschreiten.

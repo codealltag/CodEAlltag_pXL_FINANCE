@@ -1,0 +1,19 @@
+Ist es schon mal jemandem gelungen, mit  Quicken Version 4 über die
+Fritz!Card unter NT4/SP3 eine BTX-Verbindung aufzubauen ?
+
+Offensichtlich ist SMF mit der CAPI nicht zufrieden, obwohl die
+ZNIL CAPI 1.1 und CAPI 2.0 jeweils in 16- und 32-bit Ausprägung
+installiert sind (Versionen vom 05.01.97). (32-bit ist ist für Quicken
+4 natürlich vergebliche Liebesmüh, aber der Vollständigkeit halber...)
+
+Der JHZ BTX-Decoder (Version 1.x für 01910) funktioniert
+einwandfrei, verwendet aber wohl die CAPI 2.0. Die CAPI 1.1 wird auch
+hier nicht erkannt.
+
+Auch der Versuch, den (virtuellen) Modem-Zugang über die neuen ZNIL
+Capiports für NT zu konfigurieren war leider erfolglos.
+
+An den Zugangsdaten kann's nicht liegen. Dieselbe SMF-Installation
+läuft unter Win95 völlig problemlos.
+
+  Italo

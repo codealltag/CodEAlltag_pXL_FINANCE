@@ -1,0 +1,14 @@
+Diese Erklaerung ist nicht ganz richtig. Was hier beschrieben wird,
+ist der "klassiche" Hebel (engl. Gearing), der, wie richtig erwaehnt
+wird, nur von begrenztem Nutzen ist, da er immer dann irrefuehrend
+ist, wenn das Delta sehr viel kleiner als eins ist.
+Diesen Mangel kann man jedoch beheben, indem man den "klassischen"
+Hebel mit dem Delta multipliziert. Diese Kennzahl wird "theoretischer"
+Hebel genannt (engl. Leverage). 
+Es gilt also Leverage = Gearing * Delta
+
+NICOLAS
+
+
+Nils Spanhofer >>> ojm@cax-kaoivl.eg
+WARRANT ONLINE          >>> http://qrnaqls.rox.rxf/FmjtvmtKjq/

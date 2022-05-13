@@ -1,0 +1,23 @@
+Berechnung der Turnaround-Liste im JRRC-Börsenbrief
+
+1. Voraussetzung ist ein Kurszeitreihe von wenigstens 1 Jahr. (250
+Börsenkurse)
+2. Eingrenzung auf deutsche Wertpapiere, da die Liste sonst zu lang würde.
+2. Berechnung von langfristiger Volatilität (250 Börsentage) und
+kurzfristiger Volatilität (20 Börsentage)
+3. Berechnung von langfristigem Overbought/Oversold-Indikator (250
+Börsentage)
+4. Beide Volatili�ten müssen im Bereich über 35% (damit werden bewegungslose
+Aktien ausgeschlossen) und unter 200% ( damit werden Kursausrei�er
+ausgeschlossen) liegen.
+5. Das Verhältnis von langfristiger zu kurfristiger Volatiliät muß im
+Bereich 0.5 bis 2.5 liegen, um ein krasses Mißverhältnis in der
+Ausschlagsst�rke auszuschließen.
+6. Der Overbought/Oversold-Indikator muß unter 8% liegen.
+
+Grus, Erwin Jerosch
+
+=====================
+http://ycm.xnpzcbug.ri
+der kostenlose Börsenbrief
+=====================

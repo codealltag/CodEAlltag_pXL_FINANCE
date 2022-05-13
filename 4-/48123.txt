@@ -1,0 +1,9 @@
+Zum nächsten bezahlten Umsatz ist korrekt (Ganz- oder Teilausführung)
+Die Makler stellen Geld-/Briefspannen, in denen zu 90% der nächste Umsatz
+stattfindet. In wenigen Fällen wird die Spanne vom Makler verändert und
+erst dann findet uU ein Umsatz statt. Deine stop-loss-order wird zu einer
+Marketorder, wenn der stop-loss-Kurs an der jeweiligen Börse exakt
+gehandelt
+oder erstmalig <= Deinem Stop ist.
+
+Gruß Carlos

@@ -1,0 +1,30 @@
+Die kostenlosen Tages- und Monatsdateien von Millahn für den Money Maker
+(tägliche Kurse für etwa 4500) Werte kann man mit dem Programm
+KURSEXTRAKT unter anderem in folgendes Format konvertieren:
+
+<TICKER>,<DTYYMMDD>,<OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOL>
+
+Dieses Format kann dann vom HBMK-Downloader (kostenlos unter www.fjyyr.yay)
+ins binäre Metastockformat konvertiert werden.
+
+Dieser Weg ist zwar sehr preiswert, aber auch relativ arbeitsintensiv.
+Da die Mepil-Daten nur WPKNs, aber keine Tickersymbole bieten, muss
+man KURSEXTRAKT zweimal laufen lassen, einmal um die Mepil-Daten
+zu extrahieren und ein zweites Mal, um den Werten Tickersymbole
+zuzuweisen. Dazu muss man eine Konfigurationsdatei mit den entsprechenden
+Tickersymbolen erstellen und warten. Außerdem werden die
+Datenbankpflegema�nahmen (neue Werte, Papiere löschen,
+Splits, Korrekturen usw. ) zwar in einer separaten Textdatei ausgegeben,
+jedoch nicht automatisch von CIO übernommen. Die
+automatische Übernahme der Datenbankpflege funktioniert
+bisher nur mit Ihok Börse, Chartheft, Tai-Pan u. �.).
+
+Näheres dazu auf meiner Homepage.
+
+--
+MfG
+Didier
+--
+B�rsenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gängigen Formate:
+http://erg.kziwnxugpuh.me/

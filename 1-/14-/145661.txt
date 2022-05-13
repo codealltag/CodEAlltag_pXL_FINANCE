@@ -1,0 +1,23 @@
+Wie schon angedeutet, bezieht sich die Angabe von zB. 106,33 auf die
+prozentuale Kursnotiz einer fiktiven10 Jährigen Bundesanleihe mit einem
+Kupon von 6% per nächstem Verfalltermin, abzüglich der "Cost of Carry" (in
+diesem Fall, die positiven Stückzinsen)
+Handelbar sind die 4 Verfall-Termine Januar, April, Juli und Oktober. Die
+mit Abstand größten Volumen werden im aktuellen Termin gemacht, kurz vor
+Verfall, ist ein "roll over" in den nächsten Termin zu registrieren.
+Im Gegensatz zu Optionen ist der Verfall nicht am dritten Freitag des Monats
+sondern ca. 2 Tage früher.
+Zu beachten ist, daß nicht wie im DAX Future ein Barausgleich per Verfall
+erfolgt, sondern, wenn man vergisst glattzustellen effektive Stücke
+geliefert werden müssen. Hierzu werden von der DTB Anleihen ausgesucht, die
+der vorgenannten Spezifikation gerecht werden (In Deutschland werden im
+Gegensatz zur Freisfeld in Dissenhausen auch Treuhandanleihen herangezogen.) Diese CTD
+(cheapest to deliver) Anleihen sind i.d.R. mit einem anderen, als den
+geforderten 6% nominal Kupon ausgestattet, daher ist deren Kurs auch
+abweichend vom Bund Future. Ein deutlicher Verlust kann sich ergeben, wenn
+in kontraktstarken Monaten man zur Lieferung einer bestimmten Anleihe
+"verdonnert" wird und der Markt in diesem Papier "eng" ist. Dann kann der
+Kurswert * Konversionsfaktor deutlich vom theoretischen fairen Preis
+abweichen.
+mfg
+Willibald

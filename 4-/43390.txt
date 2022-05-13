@@ -1,0 +1,31 @@
+Hallo Leute,
+
+(1) wer kann mir mal sagen, für was die Abkürzung ISIN steht?
+    (Das WKN gleich "Wertpapier-Kennummer" bedeutet, weiss ich...)
+
+(2) Gibt es für die ISIN auch eine Gliederung wie bei den WKN?
+
+
+Systematik der WKN:
+===================
+A: Schuldverschreibungen  (geordnet nach Emittenten)
+ 100 000  bis  199 999: Bund, Länder, Gemeinden, öffentl. Verbände
+ 200 000  bis  349 999: Emissionsinstitute
+ 350 000  bis  399 999: Industrieunternehmen
+ 400 000  bis  499 999: ausländische Emittenten
+
+B: Aktien, Kuxe, Anteilsscheine, Optionsscheine (geordnet nach Branchen)
+ 500 000  bis  789 999: Industrieunternehmen
+ 790 000  bis  799 999: Kuxe
+ 800 000  bis  819 999: Banken
+ 820 000  bis  839 999: Verkehrsunternehmen
+ 840 000  bis  846 939: Versicherungen
+
+C: Sonstige
+ 847 000  bis  849 939: inländische Investmentzertifikate
+ 850 000  bis  879 999: Auslandsaktien
+ 880 000  bis  909 999: Bezugsrechte
+ 910 000  bis  939 999: Junge Aktien
+ 940 000  bis  969 999: Jüngste Aktien, Sonderfälle
+ 970 000  bis  979 999: ausländische Investmentzertifikate
+ 980 000  bis  999 999: Immobilienzertifikate

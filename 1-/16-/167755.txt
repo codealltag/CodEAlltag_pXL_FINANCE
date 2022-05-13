@@ -1,0 +1,41 @@
+Kommentar zur Nachricht vom 25.03.97 in /MAUS/de.etc.vjqgvx.Glasblaserkunst
+von aboifmoc@ibrm.hss-dcuoaclni.ta zu Re: PC Broker - Metastock-Taipan :
+
+w>> weiss jemand von Euch ob man die von HWN Kusdatenbank bezogenen
+w>> Kurse auch fuer Metastock; Taipan verwendbar sind ?
+
+w>Konvertierung ins Metastockformat ist angeblich moeglich. Allerdings
+w>bietet HWN wohl fuer die mtl. DM 15,- nur Kassakurse+Volumen.
+
+
+Nein, ein bisschen mehr kommt schon rueber. Hier mal ein Beispiel ganz vom  
+Anfang der Kursdatei, ich habe fuenf Zeilen ueber Excel eingelesen und  
+einen manuellen Zeilenumbruch hinter "Low" eingefuegt.
+
+
+WPK   Bo Datum           Last          Open          High          Low      
+Kassa      Umsatz    (Zusatz)
+
+
+571797DE 22.05.1995      165,0000      163,5000      165,0000      163,5000
+165,0000      4,00
+
+571797DE 26.05.1995      165,3000      164,7000      165,3000      164,7000
+165,3000    128,00
+
+571797DE 27.05.1995      164,0000      162,5000      164,0000      162,5000
+164,0000    548,00
+
+571797DE 28.05.1995      168,0000      167,5000      169,0000      167,5000
+168,0000    475,00
+
+571797DE 29.05.1995      166,0000      166,0000      167,0000      166,0000
+166,0000      0,00G
+
+
+Was fehlt und auch fuer die Chartauswertung im HWN-Programm nicht  
+beruecksichtigt ist, ist jedes Kennzeichen fuer Kapitalschnitt,  
+Nennwertaenderung, HV-Termin, ex-Dividende usw.
+
+
+Udo Uelpenich, Joldelund

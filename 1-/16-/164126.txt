@@ -1,0 +1,21 @@
+Der Strike wird um den Betrag gekappt, wie die Differenz zwischen
+beiden Kontrakten steht. Angenommen dein Put hat einen Strike
+von 99,09, der Maerz Kontrakt steht auf 101,25, der Juni Kontrakt
+auf 100,37. Die Basis des Bezugswert (Juni Kontrakt) ist also um 
+88 Ticks tiefer. Jetzt wird einfach die Basis der Puts, wie auch der
+Calls um 88 Ticks nach unten korrigiert. Der Strike deines
+Optionsscheins liegt also jetz bei 99,09 - 0,88 = 98,21.
+Unterm Strich verliert oder gewinnt also dein Schein 0,0 Pfg.
+Aber Achtung : Diese Berechnunsmodell wird stets um einige Tage,
+letztes mal sogar ueber 2 Wochen VOR dem endgueltigen Wechsel
+des Kontrakts angewendet. Was das heisst ? Kann Vorteil oder
+Nachteil sein. Dumm z.b wenn ein Tag nach dieser Angleichung die
+Differenz nich mehr 88 sondern nur noch 70 Ticks betraegt.
+Haette die Anpassung an diesem Tag stattgefunden, waere der Strike
+eben nur um 70 Ticks gerutscht.
+Schlecht is man deshalb nich beraten, wenn immer vor dem
+Kontraktwechsel glattstellt wird. 
+
+
+------------------------------------------------------
+Homepage : http://mhb.mdfpjuz.rg/yqyaz/wahym/xivgcvrk/

@@ -1,0 +1,23 @@
+C=S*N(x)-K*r^(-t)*N(x-v*SQRT(t))
+
+mit x=(ln(S/(K*r^(-t))/v*SQRT(t))+0.5*v*SQRT(t)
+
+t=Restlaufzeiten in Jahren, z.B 0.5=6Monate
+v=Volatility p.a., z.B. 0.25 (25%)
+r=Zins p.a. z.B 1.06=6%
+K=Basispreis
+S=Aktueller Börsenpreis
+
+(Quelle: Wöhrlein/Mundel, Option Markets, S.205
+ Klassiker!)
+
+Restriktionen des Modells beachten! (konstante Div.Renditen, 
+Aktienkursverteilung, keine vorzeitige Ausübung)
+
+nicht für Put-Bewertung geeignet
+
+Uphues-Freudt Approximationsverfahren liefert i.d.R bessere
+Ergebnisse.
+
+gru
+martin

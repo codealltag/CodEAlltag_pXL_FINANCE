@@ -1,0 +1,115 @@
+Wahrscheinlichkeiten beim Texas Holdm
+Author Irle
+Nur wenige Pokerspieler sind sich im Klaren darüber, wie hoch die
+Wahrscheinlichkeiten für das Auftreten einer bestimmten Pokerhand
+sind. Daher hat Herr Irle nachfolgend die
+Wahrscheinlichkeiten für die besten fünf von sie=ACben Karten aus einem
+Spiel (52 Karten) nach ihrer Rangfolge aufgeführt
+Poker Hand	Wahrscheinlichkeit in %
+Royal Flush	0,0032 %
+Straight Flush	0,028 %
+Vierer	0,17 %
+Full House	2,6 %
+Flush	3,0%
+	4,6 %
+Dreier	4,8 %
+Zwei Paare	23,0%
+Ein Paar - Bube oder höher	13,0%
+Ein Paar < 10	30,0 %
+Hohe Karte	18,6 %
+Insgesamt	100 %
+
+Wie aus dieser Aufstel=AClung ersichtlich, besteht die Mehrzahl der
+Hände aus einer hohen Karte, einem Paar oder zwei Paaren. Alle
+besseren Hände vom Dreier bis zum Royal Flush machen zusammen nicht
+einmal 20% aus. Diese Vertei=AClung der Wahrschein=AClichkeiten muss sich
+der ernsthafte Pokerspieler immer vergegenwärti=ACgen, damit er nicht
+die Geduld verliert und sich zu unüberlegten Aktionen hinreißen lässt,
+wenn er ein=ACmal eine ganze Zeit lang keine ,,anständige" Hand erhalten
+hat. Am häufigsten wird der Spieler ein kleines Paar erhalten (in 30%
+der Fälle), am seltens=ACten einen Royal Flush (in 0,0032% der Fälle).
+Neben diesen allgemeinen Wahrscheinlichkeiten für das Auftreten der
+einzelnen Pokerhände ist für den Pokerfan gleichermaßen wichtig und
+aufschluss=ACreich, welche Wahrscheinlichkeiten sich ergeben, wenn er
+ein Pocketpaar (seine ersten beiden verdeckten Karten sind ein Paar)
+erhält. In diesem Zusammenhang spielt die Anzahl der Mitspieler eine
+entscheidende Rolle: Je geringer die Anzahl der Mitspieler, desto
+größer die Chancen, mit einem Pocketpaar zu gewinnen!
+Die nachstehenden Tabellen geben präzise Auskünfte über die
+Wahrscheinlichkeiten der einzelnen Pocket-paare in Abhängigkeit von
+der Anzahl der Mitspieler.
+anzahl spieler	as/as	König/ König	Dame/ Dame	bube/ bube
+2	88	85	82	79
+3	76	72	68	64
+4	68	63	58	54
+7	44	39	34	30
+10	34	30	26	22
+
+Aus dieser Tabelle wird z. B. deutlich, dass bei zwei Spielern zwei
+Asse in 88 % aller Fälle gewinnen, dagegen bei 10 Mitspielern nur in
+34 % aller Fälle.
+anzahl spieler	10/10 9/9	8/8	7/7	6/6	5/5	4/4	3/3	2/2
+2	77	74	71	68	65	63	60	57	55
+3	60	56	54	48	45	43	40	37	34
+4	50	46	43	39	36	33	30	26	22
+7	27	25	23	21	20	19	17	16	15
+10	20	18	16	14	13	12	11	10	9
+
+
+Auch hier sieht man deutlich, wie mit zunehmender Teilnehmerzahl die
+Chancen mit einem Pocketpaar drastisch sinken. Fazit: Nicht nur die
+Starthand, son=ACdern auch die Anzahl der Mitspieler entscheiden über
+den Erfolg des informierten Spielers.
+
+Berechnung von Outs und Odds
+Vor Kurzem hatte sich der Author Imgarten  bereits mit der
+Berechnung von Chancen und Wahr=ACscheinlichkeiten beschäftigt. Viele
+erfolgreiche Poker=ACspieler haben die Bedeutung dieses wichtigen
+As=ACpektes verinnerlicht. So schreibt beispielsweise der bekannte
+Pokerspieler Frerich Nähser dem Sinne nach folgendes: Sobald der Flop
+auf dem Tisch liegt, ist bei
+wertlosen Karten (bestenfalls für einen Bluff geeig=ACnet), zwischen den
+so genannten Made-Hands und den Draw-Hands zu unterscheiden. ,,Made-
+Hands" bestehen aus dem bestmöglichen Paar oder einer noch besseren
+Kombination. Sie müssen gegen die ,,Draw-Hands", die sich erst noch
+verbessern müssen, verteidigt werden. Mit anderen Worten, der Kauf
+einer passenden Karte sollte so teuer wie möglich gemacht werden.
+BEISPIEL Ein Spieler hat eine Draw-Hand und vor ihm erfolgt ein
+Einsatz (vielleicht auch noch eine Er=AChöhung). In dieser Situation
+lässt sich relativ einfach berechnen, ob sich ein Call entsprechend
+der Wahr=ACscheinlichkeit lohnt. Der Spieler hat also z. B. Pik 10 und
+Pik 9 und der Flop zeigt Pik Dame - Herz Bube -Pik 3.
+
+Von insgesamt 13 Pik sind vier verteilt, bleiben also noch neun Pik
+für die Bildung eines Pik-Flush. Dazu kommen noch drei Könige und drei
+Achten für die Bildung einer Straße, was zusammen 15 Outs macht.
+Von den insgesamt 52 Karten sind dem Spieler fünf bekannt. Von den 47
+verbleibenden Karten werden die 15 passenden Karten abgezogen. Die
+Chance für eine Verbesserung beträgt somit 15 zu 32, also knapp 1:2 -
+eine günstige Ausgangsposition,.
+In diesem Fall lohnt sich auf jeden Fall ein Call, wie auch in allen
+anderen Fällen, in denen das Verhältnis ca. 1:2 steht. Doch derartige
+Situationen sind eher selten. Wenn der Spieler, um bei obigem Beispiel
+zu
+bleiben, nur auf einen Flush wartet, hat er neun Outs, wenn er nur auf
+eine Straße wartet, hat er acht Outs usw. Wenn ein Spieler nur vier
+Outs hat - 47 - 4 =3D 43 =3D 4/43 =3D 1:10,75 - dann müsste ein z. B. $1
+Einsatz zu $11 Gewinn stehen, damit sich ein Call rechnen würde.
+Viele Pokerspieler vernachlässigen diese Berechnun=ACgen. Das kann zwar
+gelegentlich zu so genannten ,,Bad Beats" führen, wenn der Turn oder
+der River dem Gegenspieler doch die passende Karte zum Gewinn bringt,
+aber langfristig bringen Calls ohne korrekte Chancenberechnungen
+Verlust.
+Mit der Zeit prägen sich die wichtigsten Wahrschein=AClichkeiten so ein,
+dass man diese nicht mehr berech=ACnen muss. Denn die Situationen
+wiederholen sich ständig, so dass sich der Spieler an die
+entsprechen=ACden Werte erinnert. Eine Kurzformel zur Errechnung der
+Chancen besteht darin, dass der Spieler am Flop oder Turn die Anzahl
+seiner Outs mit zwei multipli=ACziert und so den annähernden Prozentsatz
+seiner Verbesserungschance erhält. Acht Outs würden so=ACmit z. B. ca.
+16 % für die nächste Karte entsprechen.
+Bei allen Berechnungen muss der Spieler jedoch im=ACmer einen
+wesentlichen Aspekt in Rechnung stellen: Wird sein Blatt durch den
+erwarteten Kauf wirklich zum besten Blatt? Oder spricht der Flop
+eindeutig dagegen? Im Zweifelsfalle ist es langfristig immer besser,
+passiv zu bleiben und auf den Kauf zu verzichten

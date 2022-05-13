@@ -1,0 +1,52 @@
+Der V-Dax ist das Maß der historischen Volatilität also der
+zur�ckliegenen Kursschwankungen.
+Wie er nun genau berechnet kann ich dir auch nicht sagen ;-)
+
+Aus der historischen Volatilität wird die Implizierte (erwartete)
+Volatilität abgeleitet du die macht das Aufgeld aus.
+
+Eine gute Quelle sind die Leitfäden des Wehrend
+die schicken sie dir auf Anfrage kostenlos. Schau mal im Rude VT ab
+Steite 160 nach dort ist auch beschrieben die du die zwei Broschüren
+bekommen kannst oder schaue im Internet nach.
+
+Tom hat das gestern hier im Thread sehr gut beschrieben:
+:Für OS-Neulinge: Durch einen schweren Kurseinbruch steigen die OS-
+:Aufgelder stark an (bullische Anleger erwarten Erholung und zahlen höhere
+:Aufgelder für Calls, bearische Anleger erwarten weitere Einbrüche und
+:zahlen höhere Aufgelder für Puts).
+:Bei jeder anschließenden Kurserholung (und sei sie sogar so stark, daß sie
+:die historische Volatilität weiter in die Höhe treibt) gehen die Aufgelder
+:stark zurück:
+:Für bullische Anleger ist ein Teil der Erholungsphantasie weg, sie zahlen
+:weniger Aufgeld.
+:Da sich die Stimmung bei einer Erholung bessert, sind auch die Bären nicht
+:mehr so bearisch und zahlen weniger Aufgeld.
+:Beide Effekte führen zu weniger Aufgeld und somit über die OS-Theorie zur
+:geringeren impliziten Vola.
+:
+:fG - Tom
+�
+
+Besorg dir die Warmer-Broschüren denn die sind wirklich gut.
+Und rechne dir zu jeden OS bevor du ihn kaufs immer folgene Werte aus
+(am besten mit Excel) :
+Hebel,Innerer Wert,Zeitwert,Aufgeld,Break-Event(in DM und in %)
+
+Und achte nicht nur auf den Hebel sondern schaue vor allen auf den
+Break-Event  wenn du nicht glaubst das dein Basisobjekt innerhalb der
+Laufzeit des OS den Break-event erreicht dann kaufe den OS NICHT.
+
+Und nochwas ist ganz wichtig im letzetn Monat bauen die OS ihr Aufgeld
+extrem ab also möglichst rechtzeitig verkaufen oder dann den OS
+ausüben.
+
+mfg
+Noah
+
+
+-- 
+Noah Dornseiff              |alle schraib- kommer- tren- oda gros- und
+Assd@Lqujkjdc.zqfhwevrz.uc |klainchraibunksfehler basiren auf der    
+Tel. +34 0949 69 32 70     |neuen rechtschraibreform und spiegeln den
+Fax. +87 1320 69 32 31     |aktuelen bildunksstant dr 'B!LD' wider !

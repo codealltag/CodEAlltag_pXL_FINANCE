@@ -1,0 +1,25 @@
+Du denkst viel zu weit voraus::
+
+- Es kommt gar nicht darauf an, was wann kommen koennte oder
+gar wird. Es geht um den heutigen Wert der Position. Und die errechnet
+man, indem man den heutigen Wert aller Optionen hinzuzaehlt (bzw.
+abzieht wenn negativ). Zu diesem Wert kann man heute eine
+Moeglichkeit kaufen bzw. sich dagegen versichern. Das ist der
+heutige Tageswert (abhaengig z.B. vom aktuellen DAX-Stand und
+den uebeliche Parametern fuer die Berechnung von Optionen).
+Morgen kann dieser Wert schon ganz anders sein und uebermorgen
+sowieso. Trotzdem ist heute nur der heutige Wert massgeblich. 
+Es koennte durchaus passieren, dass der DAX eines Tages so
+hoch steht, dass die "Option auf ueber 7000" wertvoll wird. 
+Dann koennet die Bewertung andersherum ausfallen.
+Da ich aber stillschweidend etwa heutigen DAX unterstellt habe ist es
+zur Zeit anders - und nur der heutige Tageswert zaehlt heute.
+
+- Du hast Recht, es sind mehrere Optionen in der Konstruktion 
+versteckt; es mueesen immer alle zusammen bewertet werden
+und es kann sich ein positiver oder netgaitevr Gesamtwert ergeben. 
+
+
+Nick Gunder
+Visit   http://vlnqynj.xjh.ezb/eknjqn  and download a 
+free calculator for options, futures, bonds and similar stuff.

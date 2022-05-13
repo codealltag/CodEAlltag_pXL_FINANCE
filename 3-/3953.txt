@@ -1,0 +1,104 @@
+Visual Basic 2010 Excel VBA  Würfel Animation programmieren
+Beuerlein Buchgeister
+Video http://mlu.qngnjsx.rux/rufro?l=5VfGsmzr1jjma
+
+Author D.Buchgeister
+Heute zeige ich Ihnen an einem Beispiel, wie man z.B. für die
+Spieleprogrammierung einen animierten Würfel programmiert. Natürlich
+ist das genausogut auch für andere Dinge, wie Bilder usw. möglich. Das
+geht in Visual Basic aber auch in Excel VBA.
+Ich habe den Code bereits geschrieben und der ist gut lesbar, und Sie
+wollen ggf. das Video anhalten, um den Code abschreiben zu können.
+Und Sie sehen, der Würfel funktioniert bestens.
+Buchgeister
+
+Der Code lautet:
+Public Class Form1
+    Inherits System.Windows.Forms.Form
+#Region " Vom Windows Form Designer generierter Code "
+
+    Public Sub New()
+        FWDR.New()
+
+        ' Dieser Aufruf ist für den Windows Form-Designer
+erforderlich.
+        InitializeComponent()
+
+        ' Initialisierungen nach dem Aufruf InitializeComponent()
+hinzufügen
+
+    End Sub
+
+    ' Die Form überschreibt den Löschvorgang der Basisklasse, um
+Komponenten zu bereinigen.
+    Protected Overloads Overrides Sub Dispose(ByVal disposing As
+Boolean)
+        If disposing Then
+            If Not (components Is Nothing) Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    ' Für Windows Form-Designer erforderlich
+    Private components As System.ComponentModel.IContainer
+
+    'HINWEIS: Die folgende Prozedur ist für den Windows Form-Designer
+erforderlich
+    'Sie kann mit dem Windows Form-Designer modifiziert werden.
+    'Verwenden Sie nicht den Code-Editor zur Bearbeitung.
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub
+InitializeComponent()
+        Me.SuspendLayout()
+        '
+        'Form1
+        '
+        Me.AutoScaleBaseSize =3D New System.Drawing.Size(5, 13)
+        Me.ClientSize =3D New System.Drawing.Size(384, 237)
+        Me.Name =3D "Form1"
+        Me.Text =3D "Würfel programmieren by Beuerlein=AE"
+        Me.ResumeLayout(False)
+
+    End Sub
+
+#End Region
+    Private Sub ZeichneWürfel(ByVal x0 As Integer, ByVal y0 As
+Integer)
+        Dim Zufallszahl As New System.Random()
+        Dim DieZufallszahl As Integer =3D Zufallszahl.Next(1, 7)
+
+        Dim Zeichnen As Graphics =3D Me.CreateGraphics()
+        Dim Füllung As Brush =3D New SolidBrush(Color.Yellow)
+        Zeichnen.FillRectangle(New SolidBrush(Color.Red), x0, y0, 100,
+100)
+        If (DieZufallszahl =3D 1) Or (DieZufallszahl =3D 3) Or
+(DieZufallszahl =3D 5) Then
+            Zeichnen.FillEllipse(Füllung, x0 + 40, y0 + 40, 15, 15)
+        End If
+        If DieZufallszahl > 1 Then
+            Zeichnen.FillEllipse(Füllung, x0 + 20, y0 + 20, 15, 15)
+            Zeichnen.FillEllipse(Füllung, x0 + 60, y0 + 60, 15, 15)
+        End If
+        If DieZufallszahl > 3 Then
+            Zeichnen.FillEllipse(Füllung, x0 + 60, y0 + 20, 15, 15)
+            Zeichnen.FillEllipse(Füllung, x0 + 20, y0 + 60, 15, 15)
+        End If
+        If DieZufallszahl =3D 6 Then
+            Zeichnen.FillEllipse(Füllung, x0 + 40, y0 + 20, 15, 15)
+            Zeichnen.FillEllipse(Füllung, x0 + 40, y0 + 60, 15, 15)
+        End If
+    End Sub
+    ' clicken Würfel starten
+    Protected Overrides Sub OnMouseDown(ByVal e As
+System.Windows.Forms.MouseEventArgs)
+        Dim x0 As Integer =3D 150, y0 As Integer =3D 50
+        If New Rectangle(x0, y0, 100, 100).Contains(e.X, e.Y) Then
+ZeichneWürfel(x0, y0)
+    End Sub
+    ' Überschreiben von OnPaint:
+    Protected Overrides Sub OnPaint(ByVal e As
+System.Windows.Forms.PaintEventArgs)
+        ZeichneWürfel(150, 50)
+    End Sub
+End Class

@@ -1,0 +1,17 @@
+Drei Anregungen am Rande:
+1. Manche Leute zahlen fuer den Download von News-Artikeln und sind
+   froh, wenn sie wissen, wieviel kBytes sich hinter einem Artikel
+   verstecken. Deshalb BITTE eine (ungefaehre) kB-Angabe im Subject.
+2. Es hilft viel, wenn Du die Daten, die Du versendest, vorher in
+   ein 'ballastfreies' Format umwandelst. Von Deiner (schoenen aber
+   so nicht zu gebrauchenden) HTML-Tabelle (1.1 MB) bleiben nach
+   Umwandlung in eine ASCII-Datei im Format WKN;Name noch 170 kB
+   uebrig; gezippt (kann ich hier nicht nachvollziehen, da ich auf
+   einer Unix-Kiste sitze) wahrscheinlich nur noch die Haelfte Deiner
+   Datei.
+3. PkUnzip o.ae. sollte (fast) jeder, der News liest, verfuegbar haben
+   oder sich vom Netz holen koennen. Du solltest es also nicht auch
+   noch mitschicken.
+
+Gruesse Kasimir
+--

@@ -1,0 +1,22 @@
+Hey,
+
+
+Die an der DTB gehandelten Optionen sind immer "Amerikanischer
+Natur". Deshalb kostet ein PUT normalerweise "normales Aufgeld" PLUS
+"erwarteter Dividendenabschlag".
+
+Umgekehrt ist das beim CALL, denn man kann ja noch kurz vor dem
+Dividenddenabschlag ausueben. Also Aufgeld nur fuer die Zeit vor
+dem Abschlag, denn wer vor dem Abschlag nicht ausuebt ist selber Schuld.
+
+Abweichungen sind moeglich:
+   bei "Europaeischen Optionen",
+   langer Reslaufzeit
+   oder bei Optionen die nicht Tief im Geld sind.
+
+Frage: Was gilt nun fuer Futures mit kurzer Restlaufzeit?
+
+-orlando
+-- 
+/------------------------------------+--------------------------+
++------------------------------------+--------------------------+

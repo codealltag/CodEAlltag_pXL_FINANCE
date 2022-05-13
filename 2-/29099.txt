@@ -1,0 +1,8 @@
+Warum? Wenn der Stop Loss-Kurs erreicht oder unterschritten
+wird, wird zum nächsten möglichen Kurs verkauft, oder nicht?
+Da wird doch praktisch nur ein Schalter umgelegt, von "Verkauf
+wait" auf "Verkauf go"; wenn der nächste Kurs wieder höher ist,
+spielt das doch keine Rolle. Oder ist das bei Kursen, zu denen
+kein Umsatz stattgefunden hat, etwa anders?
+
+Gruß,  Valerius

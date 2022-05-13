@@ -1,0 +1,309 @@
+Toto Wett Strategie
+
+Author Wruk
+
+In der zum kostenlosen Downnload zur Verfügung stehenden full-version
+der Software Wernekenschnieder können alle Berechnungen usw. vorgenommen
+werden.
+
+Mit den nachfolgend beschriebenen Systemalgorithmen sowohl für Einzel-
+als auch für Combinationswetten soll Ihnen das Wetten von
+Sportereignissen, speziell Fussballspielen, nicht nur erleichtert
+werden, sondern sie zeigen Ihnen eine Möglichkeit auf, wie Sie bei
+klassischen Dreiwegwetten (1, 0, 2) auf alle 3 Spielausgänge setzen
+können und dabei Reingewinne im mittleren zweistelligen Prozentbereich
+erzielen können und zwar konstant.
+
+
+Dreiwegwetten sind die gebräuchlichsten Wetten und werden bei fast
+allen Sportarten angeboten.
+
+Die meisten Wettspieler verfahren wie folgt: Kombinieren von meistens
+3 Spielen zu Kombinationswetten, wenn 1 Spiel falsch ist, so ist auch
+der Einsatz weg. Bei 3 aus 4 oder ähnlichen Systemwetten können zwar
+ein oder mehrere Spiele falsch sein, dafür vervielfacht sich der
+Einsatz, weil gleichzeitig mehrere Tippreihen gespielt werden müssen.
+
+Die Wahrscheinlichkeit, eine Dreierkombination von beispielsweise 3
+Remis richtig vorauszusagen, liegt in etwa bei 1 zu 51 (27 %x27%x27%),
+die resultierende Kombi-Quote aber nur bei ca. 33 zu 1. Das heisst im
+Klartext: nur in jeder 51. Kombiwette gewinnen Sie 33 Euro. Das sind
+in etwa die 65 bis 70 Prozent, die der Buchmacher auf Kombiwetten
+ausschüttet. Wenn Sie nach dieser Methode im Monat für 500 Euro
+wetten, bleiben mind. 150 Euro beim Buchmacher !
+
+Dreht man nun den Spiess um und kalkuliert als Tipper mit Gewinnmarge,
+geht an den folgenden zwei Tippvarianten kein Weg vorbei:
+
+- entweder auf alle 3 Spielausgänge (1, 0 oder 2) setzen
+- oder sich auf gewisse Quotenbereiche festlegen
+
+Wetten ist nicht Sportwissen,
+sondern reines Zahlenspiel !
+
+Die beiden nachfolgend beschriebenen Systemalgorithmen zeigen Ihnen,
+das es möglich ist, bei Fussballspielen auf alle 3 Spielausgänge
+(1,0,2) unterschiedliche Beträge zu setzen und dabei trotzdem
+Reingewinne zwischen 21 % bis 84 % (SyAlg 1) bzw. 17 % bis 68 % (SyAlg
+2) des Einsatzes zu erzielen !
+
+Anhand des folgenden einfachen Beispiels sei dies erläutert::
+
+Nehmen wir folgende vorgegebene Quote an:
+
+Heimsieg 2,05 / Remis 3,25 / Auswärtssieg 3,25
+
+Ca. 46% dieser Spiele enden mit 1, jeweils 27% mit 0 und 2. Das heißt,
+von 10 Spielen dieser Quotierung enden 4 bis 5 mit 1 und jeweils 2 bis
+3 mit 0 und 2
+
+
+Spiel 	Ergebnis 	Tip 	Einsatz 	Gewinn 	Tip 	Einsatz 	Gewinn 	Tip
+Einsatz 	Gewinn
+1 	3:1 	1 	2,00 	4,10 	0 	2,00 	0,00 	2 	2,00 	0,00
+2 	0:0 	1 	2,00 	0,00 	0 	4,00 	13,00 	2 	4,00 	0,00
+3 	2:1 	1 	4,00 	8,20 	0 	2,00 	0,00 	2 	8,00 	0,00
+4 	0:1 	1 	2,00 	0,00 	0 	4,00 	0,00 	2 	16,00 	52,00
+5 	1:1 	1 	4,00 	0,00 	0 	8,00 	26,00 	2 	2,00 	0,00
+6 	1:2 	1 	8,00 	0,00 	0 	2,00 	0,00 	2 	4,00 	13,00
+7 	1:0 	1 	16,00 	32,80 	0 	4,00 	0,00 	2 	2,00 	0,00
+8 	4:0 	1 	2,00 	4,10 	0 	8,00 	0,00 	2 	4,00 	0,00
+9 	2:2 	1 	2,00 	0,00 	0 	16,00 	52,00 	2 	8,00 	0,00
+10 	1:3 	1 	4,00 	0,00 	0 	2,00 	0,00 	2 	16,00 	52,00
+Gesamteinsatz: 164,00 € 	Gewinn: 257,20 € 	Reingewinn: 93,20 €
+
+Reingewinn in Prozent: 56,8%
+
+Bei diesen Beispiel wird der Einsatz jeweils verdoppelt. Nach Gewinn
+wird wieder mit dem kleinen Betrag begonnen.
+Einzelwetten
+
+SYSTEMALGORITHMUS  - E I N Z E L W E T T E N
+
+Die beiden Systemalgorithmen 1 - Einzelwetten und 2 -
+Kombinationswetten zeigen Ihnen, dass es möglich ist, bei
+Fussballspielen auf alle 3 Spielausgänge (1,0,2) unterschiedliche
+Beträge zu setzen und dabei Reingewinne zwischen 21% bis 84% (SyAlg 1)
+bzw. 17% bis 68% (SyAlg 2) des Einsatzes zu erzielen!
+
+Der Systemalgorithmus  bietet dazu u.a. folgende Inhalte:
+
+    *
+      Setzen auf alle 3 Spielausgänge mit Kalkulation von
+Reingewinnmargen ab 21% bis 84%. Dabei wurden alle Quoten von 1,25 bis
+14,00 betrachtet!
+    *
+      Ergebniserwartungender einzelnen Quoten von 1,15 bis 14,00
+    *
+      Vergleiche der tatsächlichen Werte mit dem mathematischen SOLL -
+Wert (SOLL - IST - Vergleiche)
+    *
+      Wie errechne ich den SOLL - Wert
+    *
+      Setzen auf bestimmte Quotenbereiche mit Gewinnermittlung
+    *
+      Muster für das gleichzeitige Spielen mehrerer Quotenbereiche
+    *
+      Verfahrensweise bei Parallelspielen mit der gleichen Quote
+
+Fall 1:
+
+Die Systematik von Einzelwetten mit einer Heimsiegquote von 1,85 bis
+1,95 ist so aufgebaut, dass jedes Spiel dieses Quotenbereiches einfach
+mit einer "1" getippt wird und der Reingewinn ca. 12% beträgt!
+
+Das funktioniert wie folgt: Aus der Fülle der angebotenen Spiele
+werden diese herausgesucht, in denen auf den Gastgeber die Quoten
+1,85; 1,90 oder 1,95 geboten werden und diese Spiele dann alle mit "1"
+getippt. Fertig!
+
+Beispiel: 1,90 / 3,25 / 3,50 - der Tip muss hier die 1 sein.
+
+Fall 2:
+
+Die Systematic von Einzelwetten mit einer Auswärtssiegquote von 1,85
+bis 1,95 ist ebenfalls so aufgebaut, dass jedes Spiel dieses
+Quotenbereiches mit einer "2" getippt wird und der Reingewinn
+ebenfalls 12% beträgt! - mit vielen praktischen Anwendungsbeispielen
+
+Beispiel: 3,50 / 3,25 / 1,90 - der Tip muss die 2 sein.
+
+Fall 3:
+
+Die Systematic von Einzelwetten mit einer Quote von 2,90 bis 3,10 ist
+so aufgebaut, dass die Spiele, in denen diese Quoten enthalten sind,
+diese getippt werden (entweder "1", "0" oder "2") und 23 - 27%
+Reingewinn daraus resultieren! - ebenfalls mit den unterschiedlichsten
+Anwendungsbeispielen
+
+Das funktioniert wie folgt: Aus der Fülle der angebotenen Spiele
+werden diese herausgesucht, in denen die Quoten 2,90 bis 3,10
+auftauchen, ganz gleich ob als Heimsieg- Remis- oder
+Auswärtssiegquote: diese Quote wird dann einfach getippt.
+
+Beispiel: 2,40 / 3,10 / 2,65 - der Tip muss hier die 0 sein; oder
+2,20 / 3,15 / 2,90 - der Tip muss 2 sein; oder 3,00 / 3,25 / 2,10 -
+Tip 1
+
+Fall 4:
+
+Die Systematic von Einzelwetten mit einer Heim- bzw. Auswärtssiegquote
+von 2,20 bis 2,40 ist so aufgebaut, dass jedes Spiel dieses
+Quotenbereiches mit einer "1" bzw. "2" getippt wird und als Ergebnis
+daraus 17 - 20% Reingewinn resultieren! - mit praktischen
+Anwendungsbeispielen
+
+Das funktioniert wie folgt: Aus der Vielzahl der angebotenen Spiele
+werden diese herausgesucht, in denen die Quoten 2,20 bis 2,40
+auftauchen, ganz gleich ob als Heimsieg- oder Auswärtssiegquote: und
+diese Quote wird dann getippt. Fertig!
+
+Beispiel: 2,40 / 3,10 / 2,65 - der Tip muss hier die 1 sein oder
+2,90 / 3,15 / 2,20 - der Tip eine 2 oder 2,30 / 3,25 / 2,70 - Tipp 1.
+
+Fall 5:
+
+Die Systematic von Einzelwetten mit einer Heim- bzw. Auswärtssiegquote
+von 2,05 bis 2,15 ist so aufgebaut, dass die Spiele dieses
+Quotenbereiches mit einer "1" bzw. "2" getippt werden und daraus 15 -
+18% Reingewinn resultieren! - mit praktischen Anwendungsbeispielen
+
+Beispiel: 2,10 / 3,10 / 3,10 - Tip hier eine 1 oder 2,95 / 3,25 / 2,15
+- der Tip muss die 2 sein oder 2,05 / 3,15 / 3,20 - Tip 1
+
+Fall 6:
+
+Die Systematic von Einzelwetten mit einer Heim- bzw. Auswärtssiegquote
+von 4,20 bis 4,60 ist so aufgebaut, dass aus der Vielzahl der
+angebotenen Spiele diese herausgesucht werden, in denen die Quoten
+4,20 bis 4,60 auftauchen - und diese Quoten werden dann getippt!
+
+Ergebnis: ab 40 % Reingewinn
+
+Beispiel: 1,75 / 3,25 / 4,25 - der Tip muss hier die 2 sein oder
+4,40 / 3,25 / 1,70 - der Tip in diesem Fall die 1.
+
+Fall 7:
+
+Die Systematic von Einzelwetten mit einer Quote von 3,20 bis 3,40
+(Heimsieg-, Remis- oder Auswärtssieg - Quote) ist so aufgebaut, dass
+aus der Vielzahl der angebotenen Spiele diese herausgesucht werden, in
+denen die Quoten 3,20 bis 3,40 vorkommen - diese Quoten werden getippt
+(entweder "1", "0" oder 2)
+
+Ergebnis: ab 28 % bis 35 % Reingewinn
+
+Beispiel: 2,50 / 3,15 / 2,55 - Tip 0 oder 3,10 / 3,25 / 2,05 - Tip 1
+oder 2,10 / 3,20 / 3,05 - Tip 2
+
+Fall 8:
+
+Die Systematic von Einzelwetten mit einer Quote von 3,45 bis 3,55
+(Heimsieg-, Remis oder Auswärtssieg - Quote) ist so aufgebaut, dass
+aus der Menge der angebotenen Begegnungen diese herausgesucht werden,
+in denen die Quoten 3,45 bis 3,55 vorkommen: dann werden diese getippt
+(entweder "1", "0" oder 2).
+
+Ergebnis: ab 32 % bis 36 % Reingewinn
+
+Beispiel: 1,50 / 3,55 / 6,00 - Tip in diesem Falle die 0 oder 1,90 /
+3,25 / 3,50 - der Tip muss hier 2 sein oder 3,45 / 3,15 / 1,95 - Tipp
+1.
+
+Die angegebenen Reingewinnspannen sind Durchschnittswerte und können
+je nach angebotenen Buchmacherquoten leicht nach oben oder unten
+abweichen.
+Kombinationswetten
+
+SYSTEMALGORITHMUS  - K O M B I N A T I O N S W E T T E N
+
+Die beiden Systemalgorithmen  - Einzelwetten und - Kombinations-
+wetten zeigen, das es möglich ist, bei Fussballspielen auf alle 3
+Spielausgänge (1,0,2) unterschiedliche Beträge zu setzen und dabei
+Reingewinne zwischen 21% bis 84% (SyAlg 1) bzw. 17% bis 68% (SyAlg 2)
+des Einsatzes zu erzielen !
+
+Der Systemalgorithmus  beleuchtet die gleichen Schwerpunkte wie der
+Systemalgorithmus , jedoch unter Berücksichtigung von
+Kombinationswetten.
+
+Fall 1:
+
+Die Systematic von Zweiercombis mit einer Combiquote von ca. 3,50 ist
+so aufgebaut, dass Sie sich aus der Vielzahl der angebotenen Spiele
+diese heraussuchen, in denen auf den Gastgeber die Quote 1,70; 1,75;
+1,80; 1,85; 1,90; 1,95; 2,00 oder 2,05 geboten wird, tippen diese
+Spiele alle mit "1" und bilden hieraus Zweierkombinationen, so dass
+als Ergebnis immer ein Wert um 3,50 resultiert.
+
+Beispiel: Einzelheimsiegquoten z.B. 1,75 x 1,95 oder 2,05 x 1,70 oder
+1,80 x 1,90 oder 1,85 x 1,85
+Der Reingewinn wird sich dabei in einer Spanne von 20 - 25% des
+Einsatzes bewegen!
+Mit praktischen Anwendungsbeispielen
+
+Fall 2:
+
+Die Systematic von Zweiercombis mit einer Combiquote von ca. 3,50 ist
+ebenfalls so aufgebaut, dass Sie sich aus der Vielzahl der angebotenen
+Spiele diese heraussuchen, in denen auf die Gästemannschaft die Quote
+1,70; 1,75; 1,80; 1,85; 1,90; 1,95; 2,00 oder 2,05 geboten wird,
+tippen diese Spiele alle mit "2" und bilden hieraus analog Fall 1
+Zweierkombinationen, so dass als Ergebnis immer ein Wert um die 3,50
+resultiert.
+
+Beispiel: Einzelauswärtssiegquoten    z.B. 1,75 x 1,95 oder 2,05 x
+1,70 oder 1,80 x 1,90 oder 1,85 x 1,85
+Der Reingewinn wird sich hierbei wie in Beispielfall 1 in einer Spanne
+von 20 - 25% des Einsatzes bewegen!
+
+Fall 3:
+
+Die Systematic von Dreiercombis mit einer Combiquote von ca. 28,00
+(Einzelquoten z.B. 3,10 x 3,50 x 2,75) ist so aufgebaut, dass Sie sich
+diese Spiele heraussuchen, in denen die Quoten 2,50 bis 3,50 enthalten
+sind, daraus Dreierkombis mit dem Resultat 28,00 +/- 2,00 bilden und
+unter dem Strich ca. 62 bis 65% Reingewinn als Ergebnis hieraus
+resultieren !
+
+Beispiel:
+
+      Spiel A 2,35 / 3,15 / 2,75 Spiel B 1,70 / 3,35 / 4,25 Spiel C
+2,20 / 3,10 / 2,95 Spiel D 2,50 / 3,10 / 2,60
+      A 0 x B 0 x D 2 oder A 2 x B 0 x D 0 oder A 2 x C 0 x D 0 oder A
+0 x C 2 x D 0
+
+Fall 4:
+
+Die Systematic von Dreiercombis mit einer Combiquote von ca. 7,00 ist
+so aufgebaut, dass Sie sich aus der Vielzahl der angebotenen Spiele
+diese heraussuchen, in denen auf die Heim - oder Gästemannschaften die
+Quoten 1,50 bis 2,30 geboten werden, tippen diese Spiele alle mit "1"
+bzw. "2" und bilden hieraus Dreierkombinationen, so dass als Ergebnis
+immer ein Wert um die 7,00 +/-0,50 resultiert.
+Ergebnis: 45 bis 50% Reingewinn!
+
+Fall 5:
+
+Die Systematic von Dreiercombis mit einer Kombiquote von ca. 15,00 ist
+so aufgebaut, dass Sie sich aus der Fülle der angebotenen Spiele diese
+heraussuchen, in denen auf die Heim - oder Gästemannschaften die
+Quoten 2,00 bis 2,90 geboten werden, tippen diese Spiele alle mit "1"
+bzw. "2" und bilden hieraus Dreierkombinationen, so dass als Ergebnis
+immer ein Wert um die 15,00 +/-1,00 resultiert.
+Ergebnis: 56 bis 60% Reingewinn !
+
+Fall 6:
+
+Die Systematic von Viererkombis mit einer Kombiquote von ca. 8,00 ist
+so aufgebaut, dass Sie sich aus der Vielzahl der angebotenen Spiele
+diese heraussuchen, in denen auf die Heim - oder Gästemannschaften die
+Quoten 1,50 bis 1,90 geboten werden, tippen diese Spiele alle mit "1"
+bzw. "2" und bilden hieraus Viererkombinationen, so dass als Ergebnis
+immer ein Wert um die 8,00 +/-0,50 resultiert.
+Ergebnis: 47 bis 52% Reingewinn !
+
+Die angegebenen Reingewinnspannen sind Richtwerte und können je nach
+angebotenen Buchmacherquoten leicht nach oben oder unten abweichen.
+Diese Systematic der vorgenannten Fälle der Combinationswetten können
+Sie auf  jede Kombinationsquote von 1,50 bis 30,00 anwenden !

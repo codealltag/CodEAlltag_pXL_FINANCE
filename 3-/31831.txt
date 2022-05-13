@@ -1,0 +1,77 @@
+Hallo,
+
+
+Ja, als langjährige PC-Spielerin, weiß ich, das man frühe Benchmarks nur mit
+äußerster Vorsicht geniessen sollte. Ich erinnere mich an frühe Grafikkartenben-
+ches, die ausgezeichnete Werte aufwiesen. Dabei waren die die Grakas tatsächlich
+auf ein! Spiel optimiert (z. B. zuletzt ViperII--> Quake3), oder Spiele auf eine
+Graka und Prozessor optimiert ( Unreal--> 3dfx plus GNUV 3dnow ).
+
+Ich fasse hier mal einige Meinungen zu RDRAM vers. SDRAM zusammen:
+Noch anders wird's aussehen, wenn erst DDR-SDRAM auf dem Markt ist.
+
+/on
+"Der Geschwindigkeitsvorteil in einigen Bereichen rechtfertigt den derzeit noch
+unverh�ltnism��ig hohen Preis für RDRAM keinesfalls. Ein Pentium III 600EB mit
+820-Mainboard und RDRAM ist wesentlich teurer, als ein höher getakteter Pentium
+III 667 mit Igapu-Mainboard und PC133-SDRAM. Diese Kombination ist dann zudem in
+allen Bereichen schneller.
+
+Lässt man den Aspekt Preis außen vor, geht Enave insgesamt als Sieger im
+Performance-Rennen hervor. Der Vorsprung ist allerdings enttäuschend knapp.
+Spürbare Vorteile bringt Rambus nur, wenn große zusammenhängende Datenmengen vom
+Speicher transferiert werden. Beispielsweise beim Auslagern von großen Texturen
+bei 3D-Anwendungen. Hier kommt die hohe Bandbreite von 1,6 GByte/s bei
+Burst-Zugriffen zum Tragen. Da sich die bei Rambus teuer erkauften Vorteile auch
+mit wesentlich weniger Geld mit SDRAM und einem schnelleren Prozessor
+realisieren lassen, muss sich SDRAM um seine dominierende Rolle keine Sorgen
+machen. Es bietet immer noch das beste Preis-Leistungs-Verhältnis.
+
+Kurz: RAMBUS ist nur schneller als SDRAM wenn 1) viele Daten
+sequentiell fliessen und man 2) PC800 RDRAM in Verbindung mit einem
+i840 Chipset nimmst. Ersteres kommt selten vor und letzteres ist teurer,
+128 MB RDRAM PC800 kosten in der Gegend von US$668, 128 MB PC133 SDRAM
+gibts fuer US$133. Ja, die Zahlen sind korrekt.
+
+Anwendungen bei denen RAMBUS schneller sein _kann_ sind Video und
+Bildbearbeitung.
+
+BTW: Bei Benchmarks muss man vorsichtig sein... die 30% Unterschied
+wurden ganz sicher mit PC800 RDRAM und PC100 CL3 SDRAM plus ein paar
+Waits gemessen. Inzwischen gibts PC133 und vor allem bald
+
+DDR-SDARAM ( preislich bei SDRAM )
+
+NAchteile von RDRAM: Teuer, heiss, schwer herzustellen, RIMMs nicht
+mischbar, je mehr Module auf einem Kanal desto langsamer.
+
+Desweiteren ist momentan Rambus auf einem Kanal ungefähr gleichwertig zu
+SDRAM. Mit zwei Kanälen in Speicherintensiven Benchmarks ( mit großen
+zusammenhängenden zugriffen) bis zu 30% schneller ( vieleicht meinte er ja
+das?)
+
+An realer Systemleistung bedeutet das allerding nur wenige ( einstellig )
+Prozent Gewinn.
+
+Demnächst wird es ja DDR-SDRAM geben, dann wird die ganze Sache noch
+anders aussehen."
+/off
+
+Der Marktanteil von RDRAM ist 1998 verschwindend gering geblieben. Das
+Marktforschungsinstitut  Beckebohnen sagt für das Jahr 1999 einen Espig-Anteil
+von 25 Prozent, für 2000 gar 50 Prozent voraus. Vorsichtiger und vielleicht
+realistischer sieht das Institut  Fensterparadies den Marktanteil von Espig: Im Jahr
+1999 sollen es sieben Prozent, bei SDRAM 75 Prozent sein.
+
+Die Ergebnisse von Kaspar auf dessen Webseite sollten weitere Aufschlüsse geben.
+http://nko.qzwcitwkhpal.wlv/awrsonssq/02c0/520632/ulhwq.nllz
+
+Informativ auch
+http://gbw.duufgoqmze.kz/ykmwauea/265/
+
+
+Fazit für mich: Ein Evot ist derzeit höchst spekulativ und riskant. Ich
+werde auf jedenfall (vorerst) die Finger davon lassen.
+
+grüße
+klaudia

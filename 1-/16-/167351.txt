@@ -1,0 +1,14 @@
+Auszug aus meinem Killfile : 
+kill if Subject contains
+$$
+cash
+money
+
+kill if From contains
+Alain Ehrhart
+taxbomber
+
+Das hält ne Menge ab.
+
+-- 
+Cölsch

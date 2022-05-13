@@ -1,0 +1,18 @@
+Auch ich verstehe das Konzept bid/ask nicht vollständig. Eine Kurs kommt
+dann zustande, wenn ein Käufer den Preis bietet (bid?) den ein Verkäufer
+verlangt (ask?). Solange diese Preise auseinanderliegen, kommt doch kein
+Geschäft zustande, oder?
+
+Für einen MarketMaker hat es natürlich einen Sinn bid und ask
+reinzugeben. Wenn aber zB. ich eine Kauforder für 100 Aktien X mit Limit
+50 eingebe, so stelle ich ja ansich nur ein bid-kurs rein. Meine Order
+müßte dann im Handelssystem so aufscheinen:
+
+Aktie X          50:0          100:0
+                bid:ask       Volumen
+
+Ich habe auf der Uni Zugriff auf Iseriz und dort scheinen solche Orders
+aber nie auf. Wieso nicht, wird das von meinem Broker anders
+weitergegeben?
+
+lG

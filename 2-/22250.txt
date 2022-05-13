@@ -1,0 +1,508 @@
+10.1  Caps, Floors, Collars
+Hierbei handelt es sich um die Berechnung der bereits in Kapitel 7.4 kurz
+beschriebenen Zinsausgleichszertifikate. Ein Cap bringt periodische
+Ausgleichszahlungen, wenn ein bestimmter Marktzins an dem Stichtag der Periode
+oberhalb des festgelegten Basiszinses liegt, während ein Floor eine
+Ausgleichszahlung bringt, wenn der betreffende Marktzins unterhalb des
+Basiszinssatzes liegt.
+Die genauen Details können jeweils sehr individuell festgelegt sein. Meist ist
+als Marktzins jedoch ein kurzfristiger Zinssatz wie der 6-Monats-Libor
+vereinbart, und die Periodenlänge beträgt oft 6 Monate.
+Vorab soll noch nochmals ausdrücklich darauf hingewiesen werden, dass es
+verschiedene Ansätze für die Berechnung von Zinscaps, Zinsfloors, etc. gibt, und
+dass bislang auch unter Profis strittig ist, welcher Ansatz "wirklich richtig"
+ist. Und selbst wenn man den absolut richtigen Ansatz hätte, so wäre trotzdem
+nicht sichergestellt, dass sich auch der Markt an die damit ermittelten
+"richtigen Kurse" halten würde.
+Außerdem muss man sich bewusst sein, dass gleichzeitig verschiedene
+Bewertungsmethoden "richtig" sein können, je nachdem, ob man sich an
+kurzfristigen Arbitragezielen, an langfristigen Anlagezielen oder an
+irgendwelchen speziellen, eigenen Zielsetzungen orientiert. Das mag zwar
+unlogisch erscheinen, ist aber so, weil in der Praxis eine Reihe Fehler,
+Unregelmäßigkeiten, Vorschriften, etc. dafür sorgen, dass die Märkte leider
+nicht so perfekt ausgleichend sind, wie in den meisten Theorien unterstellt.
+Im folgenden wird der wohl am häufigsten angewandte "Optionsb�ndel-Ansatz"
+benutzt. Ein Floor wird dabei als Bündel von Puts, und ein Cap als Bündel von
+Calls auf den zukünftigen Zinssatz betrachtet und berechnet. Ein Floor mit einer
+Laufzeit von 5 Jahren und jährlichen Ausgleichszahlungen kann man also als
+Bündel von 5 Puts betrachten. Bei halbjährlichen Ausgleichszahlungen wäre es ein
+Bündel von 10 Puts, usw.
+Es gibt übrigens auch Caps und Floors, in denen für einzelne Perioden (z.B. für
+das 1. Jahr) grundsätzlich keine Ausgleichszahlung geboten wird. In solchen
+Fällen besteht das Optionsb�ndel dann aus entsprechend weniger Einzeloptionen.
+Als Laufzeit jedes einzelnen Puts gilt der Zeitraum von heute bis zum jeweiligen
+Zins-Stichtag. Der dazugehörende Zahltag liegt fast immer deutlich später, z.B.
+ein halbes Jahr nach dem Zins-Stichtag. Wegen dieser verspäteten  Zahlung muss
+dann auch noch eine entsprechende Abzinsung erfolgen.
+Als Ergebnis wird der faire Preis des Zertifikates in Prozent vom Nominalbetrag
+angezeigt. Nominalbetrag ist der Betrag, auf den die Ausgleichszahlung berechnet
+wird. Bei einem Nominalbetrag von 10.000 und einer Ausgleichszahlung von 2% für
+ein Jahr würden mithin 200 gezahlt. Wird ein fairer Preis von 4,63% berechnet,
+so müsste ein Zertifikat auf 10.000 Nominalbetrag also 463 kosten.
+Konkret rechnet das Programm bei einem Cap mit 10.000 nominal mit der Formel:  
+Zinssatz * 100 * Zinsperiodenl�nge in Jahren. Oder als Zahlenbeispiel: 
+Strike: 5% und 6 Monate = 5 * 100 * 6/12 = 500 * .5 = 250
+Underlying: 6% = 6 * 100 * 6/12 = 600 * .5 = 300
+In diesem Fall werden in die normale europäische Black/Scholes Formel als
+Tageskurs 300 und als Basis (Bezugskurs) 250 eingesetzt. Falls Zahltag nach
+Zinsstichtag (=Ablauftag der Option bei Berechnung), dann wird der resultierende
+Optionspreis noch entsprechend der Zeitspanne Zinsstichtag=>Zahltag mit dem
+unten eingestellten normalen kurzfristigen Zinssatz abgezinst.
+
+Die Einstellung aller Daten eines solchen Zertifikates ist recht aufwendig. In
+der Regel werden Sie dazu eine genaue Beschreibung des Zertifikates (Prospekt)
+benötigen. Zu den Details der Einstellung im Programm:
+Wählen Sie zuerst, ob Cap oder Floor (rechte Seite obere Mitte). Es können
+gleichzeitig die Daten von je einem Cap und einem Floor im Programm gehalten
+werden. Umschalten zwischen Cap und Floor überschreibt also nicht automatisch
+das jeweils andere Zertifikat.
+
+Danach müssen Sie zeilenweise durch Mausklick links/rechts die Daten jeder
+einzelnen Zinsperiode des Zertifikates einstellen. Sollten die Zeilen nicht
+ausreichen, so können Sie durch Mausklick auf die Pfeilbuttons links bis zu
+Zeile 60 scrollen. Sie sollten grundsätzlich in Zeile 1 anfangen und die
+Perioden ihrer Laufzeit nach ohne Leerzeilen eingeben. Es muss mit der ersten,
+also der zeitlich nächstliegenden Periode begonnen werden. In den einzelnen
+Spalten muss folgendes eingegeben werden:
+Basis %. Hier muss der Zinssatz eingestellt werden, bei dessen Überschreitung
+(Cap) bzw. Unterschreitung (Floor) eine Ausgleichszahlung anfällt.
+Aktuell %. Hier muss der aktuelle Wert des Basiszinssatzes eingestellt werden.
+Wenn es also beispielsweise um den 6-Monats-Libor geht, dann muss hier der am
+Berechnungstag aktuelle 6-Monats-Libor-Satz eingestellt werden.
+Hier gibt es 2 verschiedene Rechenmethoden: Entweder man berechnet mehrere oder
+alle Zeilen mit dem gleichen aktuellen Zinssatz, nämlich dem, der später links
+unten als "Kurz-Zins" eingegeben wird. In diesem Fall müssen Sie in der
+Tabellenzeile die Einstellung "S.-Interest" wählen (rechte Mausklicks bis dieser
+Schriftzug erscheint), und dann wird diese Zeile mit dem unten eingestellten
+"Kurz-Zins" berechnet.
+Bei der zweiten möglichen Methode wird jede Zeile mit einem eigenen Zinssatz
+berechnet, z.B. dem "Forward-Satz" der entsprechenden Periode. In diesem Fall
+müssen Sie durch linke Mausklicks anstelle der Schrift "S.-Interest" dort direkt
+den betreffenden Zinssatz einstellen.
+Monate. Hier bitte die Länge der jeweiligen Zinsperiode in Monaten einstellen,
+also für welchen Zeitraum eventuell eine Ausgleichszahlung erfolgt.
+Zins-Stichtag. Der Stichtag, an dem der Zinssatz festgestellt wird, der über
+eine eventuelle Ausgleichszahlung entscheidet.
+Zahltag. Der Zahltag für die eventuelle Ausgleichszahlung. 
+Zins% (unter Black/Scholes): Hier können Sie den internen Rechenzins für die
+Black/Scholes Formel eingeben. Bitte beachten Sie, dass damit nicht der
+Basiszinssatz des Caps oder ähnliches gemeint ist, sondern es geht um die
+Eingabe, die im normalen Optionsteil als "Marktzins" einzustellen ist. Intern
+wird dort dann mit dem Marktzins minus der Dividendenrendite gerechnet. Hier bei
+Caps/Floors gibt es natürlich keine Dividendenrendite. Viele Profis rechnen hier
+grundsätzlich mit 0%, andere aber haben diverse Geheimrezepte. Hier können Sie
+jetzt ganz nach Belieben für jede Zeile (Periode) einen individuellen Zinssatz
+zwischen -50,0% und +50,0% einstellen.
+Vola (unter Black/Scholes): Hier kann für jede Zeile (Periode) zur Berechnung
+eine eigene Zins-Volatilität zwischen 0 und 99 eingestellt werden. Wenn Sie
+versuchen, die Eingabe durch entsprechende Mausklicks unter Null zu drücken,
+dann erscheint der Schriftzug "Below". Alle so gekennzeichneten Zeilen werden
+mit der unten bei "Zins-Vola" eingestellten einheitlichen Volatilität berechnet.
+Bei der Anzeige in der Volatilities-Scrolltabelle werden dagegen grundsätzlich
+alle Zeilen mit dieser einheitlichen Volatilität berechnet. Anders wäre diese
+Tabelle nicht darstellbar. Auch die "Suche" Funktion rechnet natürlich mit einer
+einheitlichen Volatilität für alle Zeilen.
+Wenn es Ihnen zu viel Arbeit macht, jede Zeile einzeln auszufüllen, dann können
+Sie zur Arbeitserleichterung auch die jeweils darüberliegende Zeile kopieren.
+Dazu müssen Sie in dem Nummernfeld am Anfang der Zeile links von der Nummer
+klicken. Und durch Mausklick rechts von der Nummer können Sie eine Zeile
+vollständig löschen. Natürlich müssen Sie bei einer kopierten Zeile dann per
+Hand noch den Zins-Stichtag und den Zahltag genau einstellen.
+Solange eine Zeile in roter Farbe gedruckt wird, ist die Eingabe unvollständig,
+und diese Zeile wird bei Berechnungen übersprungen. Die Farbe einer Zeile
+schlägt erst dann in schwarz um, wenn alle Daten in dieser Zeile vollständig
+eingegeben sind. Außerdem darf der Zahltag nicht vor dem Zins-Stichtag liegen,
+und der Zins-Stichtag darf noch nicht abgelaufen sein oder vor dem Zins-Stichtag
+der vorhergehenden Zeile liegen. Wenn Sie ein älteres Zertifikat einstellen oder
+laden, so werden vermutlich die ersten Zeilen rot sein und auch bleiben, denn
+diese Perioden sind schon abgelaufen.
+In dem Feld "Zuschlag" rechts oben kann ein Zuschlag oder Abschlag zu dem
+gesuchten Preis eingestellt werden. Dieser Zuschlag wird in Prozent vom
+Nominalbetrag eingestellt. Beispiel: 0,25% bedeuten bei einen Nominalbetrag von
+10.000 also 25. Häufigster Grund für einen solchen Zuschlag:
+Am letzten Zins-Stichtag lag der Zinssatz so hoch oder tief, dass ein Anspruch
+auf eine Ausgleichszahlung entstand. Aber der Zahltag ist noch nicht erreicht
+(Tagesdatum zwischen Zins-Stichtag und Zahltag). Eine Option für solch eine
+Zeile wird nicht mehr berechnet, da der Stichtag ja schon überschritten ist, und
+auch den Zahlungsanspruch kann das Programm nicht allein berechnen, denn dazu
+müsste es ja wissen, wie hoch der Zinssatz an dem abgelaufenen Stichtag lag. In
+solchen und ähnlichen Fällen müssen Sie das eventuell bestehende Guthaben als
+"Zuschlag" in den Preis hineinmanipulieren. Beispiel: Ein Guthaben von 100 bei
+Nominalbetrag 10.000 sind 1% (eventuell etwas abzinsen, wenn der Zahltag noch in
+weit entfernt liegt).
+
+Zusätzlich müssen unten links durch Mausklick links/rechts folgende Daten für
+das gesamte Zertifikat eingestellt werden:
+Tagesdatum: Das Datum, zu dem der faire Preis des Zertifikates berechnet werden
+soll. In der Regel also das heutige Datum.
+Name: Name des Zertifikates. Die Eingabe ist im Prinzip freiwillig, aber
+notwendig wenn das Zertifikat gespeichert werden soll.
+Regeln: Grundsätzlich nur Kleinbuchstaben, aber keine Sonderbuchstaben wie �, �,
+�, �, etc., auch Zahlen und "_" sind zulässig, aber nicht als erstes Zeichen.
+Alles zusammen maximal 8 Zeichen.
+Lang-Zins: Aktuelle Marktrendite für Anleihen mit ähnlicher Restlaufzeit. 
+Kurz-Zins: Aktueller Marktzins, und zwar der Zinssatz, auf den sich der
+Basiszins des Zertifikates bezieht. Oft z.B. der 6-Monats-Libor.
+(Hinweis: Die Berechnungsmethode mittels "Forward Zinssätzen" wird weiter hinten
+bei "Forward-Einzelzeilenberechnung erläutert.)
+Volatilität: Wird weiter unten genauer diskutiert. Für die erste Berechnung kann
+man ungefähr 10 einstellen.
+Button "Suche": Normalerweise wird bei diesem Programm der faire Preis eines
+Caps/Floors berechnet. Hier kann ausnahmsweise jedoch ein Marktpreis zu dem
+eingestellten Cap/Floor eingegeben werden, und dann werden dazu die implizite
+Volatilität und die Schwelle bestimmt.
+Bitte beachten Sie, dass hier nur grobe implizite Volatilitäten bestimmt werden,
+und dass eine implizite Volatilität von unter Null nicht berechnet werden kann.
+Selbst bei extrem unterbewerteten Caps/Floors (Preis weit unter innerem Wert)
+wird deshalb als implizite Volatilität minimal "< 1" angezeigt, und bei
+überbewerteten Caps/Floors wird maximal ">100" angezeigt. Zur Berechnung
+erscheint eine Eingabebox, deren Bedienung problemlos sein sollte.
+
+Nun zu den Buttons in der rechten Mitte: 
+Convert: Hier kann ein Cap in einen Floor gewandelt werden (oder umgekehrt). Es
+gibt sehr viele Caps und Floors mit fast identischen Konditionen. Mit "Convert"
+kann man sich die Arbeit sparen, die vielen Zeilen für Cap und Floor doppelt
+eingeben zu müssen. Achtung: Wenn Sie gerade schon einen Floor/Cap im Programm
+halten, so wird dieser natürlich durch den neuen Floor/Cap überschrieben!
+Save: Das Zertifikat wird gespeichert. Endung ".cap" bei Caps und ".flo" bei
+Floors. Da die Einstellung aller Daten eines solchen Zertifikates doch recht
+aufwendig ist, sollten Sie grundsätzlich möglichst sofort speichern, denn es
+macht wohl kaum Spaß, die vielen Zeilen später ein 2. oder gar 3. Mal per Maus
+eingeben zu müssen.
+Load: Laden eines Zertifikates. Sie müssen vorher mit den Wahlfeldern rechts
+wählen, ob Cap oder Floor. Achtung: Wegen der inzwischen erfolgten
+Programmerweiterungen können mit älteren Version des "Modern Speculator Pro"
+(vor 18. 01. 22) gespeicherte Dateien können leider in Sonderfällen zu Problemen oder
+gar Fehlermeldungen führen. Eventuell müssen Sie solche Dateien mit der neuen
+Programmversion neu anlegen.
+
+Rechenpraxis: 
+Die folgenden Ausführungen beziehen sich überwiegend auf die Berechnung mit
+einem einheitlichen Kurz-Zinssatz. Die "Forward-Methode" wird weiter hinten
+gesondert erläutert.
+Stellen Sie die Daten z.B. eines Caps vollständig ein (oder laden Sie die
+Daten), und drücken Sie dann den Button "OK, Rechnen" in der linken Mitte. Bei
+vielen Zeilen und langsamen Rechnern kann es wegen des großen Rechenaufwandes
+mehrere Sekunden dauern, bis die Ergebnisse in der Kopfzeile angezeigt werden.
+Unter "Cap" bzw. "Floor" wird dann in der Kopfzeile der zu der eingestellten
+Volatilität errechnete "faire" Preis angezeigt.
+Liegt dieser Preis unter dem Marktpreis, so muss eine höhere Volatilität
+eingestellt und die Berechnung wiederholt werden. Liegt der Preis über dem
+Marktpreis, so muss die Berechnung mit einer niedrigeren Volatilität wiederholt
+werden. In der Regel wird nach 3-5 Versuchen herausgefunden haben, welche
+Volatilität zu dem aktuellen Marktpreis gehört.
+Das eigentliche Problem liegt aber in der Interpretation der so gefundenen
+"impliziten Volatilität": Genau wie bei allen anderen Optionen bedeutet eine
+hohe Volatilität prinzipiell, dass der Preis (Kurs) relativ teuer ist, während
+eine niedrige Volatilität Indikator für einen relativ preiswerten Kurs ist.
+Anhand der gefundenen impliziten Volatilitäten kann man also grob bewerten, ob
+ein Cap im Vergleich zu anderen Caps "relativ teuer" oder "relativ billig" ist.
+Dabei muss aber unbedingt beachtet werden, dass der Vergleich anhand der
+Volatilität nur bei relativ ähnlichen Zertifikaten zu realistischen Ergebnissen
+führt.
+Der Markt für Caps und Floors ist noch sehr unübersichtlich, und aufgrund der
+schwierigen Berechnung fehlt oft eine wirksame Arbitrage bzw. es wird mit rein
+theoretischen Arbitragemöglichkeiten gerechnet, die in der Praxis nicht
+durchführbar sind und/oder zu anderen Problemen führen würden.
+Oft werden die Preise auch weniger "mathematisch objektiv" gemacht wie bei
+normalen Optionen, sondern spekulative Erwartungen spielen eine große Rolle. Bei
+Optionen auf z.B. den DAX kann man bei einem DAX-Stand von z.B. 3000 relativ
+einfach "mathematisch objektive" Optionspreise bestimmen, denn die Erfahrung
+lehrt, dass der DAX ohne weiteres plötzlich auf 4000 steigen oder auf 2000
+fallen könnte. Deshalb wird sich der Markt einigermaßen an diese "fairen" Preise
+halten.
+Bei Zinsen dagegen zeigt die Erfahrung, dass es einen "normalen"
+Schwankungsbereich für die Zinssätze gibt, z.B. zwischen 2% - 15%. Liegt der
+aktuelle Zins an der Obergrenze dieses Schwankungsbereichs, so kann man aufgrund
+der Erfahrung erwarten, dass er über kurz oder lang wieder sinken wird (dafür
+werden z.B. auch schon die Notenbanken sorgen!). Jedenfalls wird kaum ein
+Marktteilnehmer erwarten, dass der Zinssatz für die nächsten 5 oder 10 Jahre auf
+ein Niveau oberhalb des bisherigen Schwankungsbereichs steigen wird.
+Gleiches gilt für die Untergrenze: Der Zinssatz wird sich nie dauerhaft bei
+knapp über Null halten, sondern die nächste Hochzinsphase folgt bestimmt.
+Aus all diesen Gründen werden die Preise von Zinscaps und Zinsfloors auch viel
+stärker von spekulativen Erwartungen bestimmt als die Preise von Optionen auf
+den Aktienindex. Man sollte deshalb auf keinem Fall einfach die implizite
+Volatilität eines Floors mit 5% Basiszins benutzen, um damit den Preis eines
+Caps mit 12% Basiszins zu berechnen. Sondern die Volatilitäten können nur dann
+verglichen werden, wenn:
+Gleiche Art, also immer getrennte Volatilitäten für Caps und Floors berechnen
+und benutzen.
+Der Basiszinssatz muss möglichst ähnlich liegen. Caps/Floors im Geld
+(Basiszinssatz in die "richtige" Richtung überschritten) weisen tendenziell eine
+niedrigere implizite Volatilität auf, als Caps/Floors, die noch aus dem Geld
+liegen. Eventuell vor Vergleich etwas auf- oder abrunden.
+Hier einige grobe Faustregeln für die theoretisch "fairen" Volatilitäten bei der
+hier beschriebenen Rechenmethode (bei anderen Methoden können andere Werte
+angebracht sein):
+Caps/Floors tief im Geld: Implizite Volatilität etwa 0--9, je tiefer im Geld,
+desto niedriger,
+Caps/Floors dicht am Geld etwa 9-12, 
+Caps/Floors aus dem Geld über 11, wenn extrem weit aus dem Geld dann bis über
+100 .
+Möglichst ähnliche Restlaufzeit. Die Restlaufzeit ist allerdings weniger
+wichtig, als ein ähnlicher Basiszinssatz. Man muss sich auch bewusst sein, dass
+eigentlich für jede Periode die Einstellung einer anderen, speziell zu dieser
+Periode gehörenden Volatilität angebracht sein könnte (ist möglich, vgl. weiter
+unten bei "Forward-Einzelzeilenberechnung"). Die Einstellung einer einzigen
+Volatilität für das gesamte Zertifikat läuft deshalb auf eine Art
+"Durchschnittsvolatilit�t" hinaus, und diese könnte für verschiedene
+Restlaufzeiten verschieden sein.
+Vergleichen Sie nur mit diesem Programm berechnete Volatilitäten miteinander.
+Jedes Programm unterscheidet sich in Details der benutzten Formeln, ohne dass
+man bis heute eindeutig sagen könnte, was "richtiger" und was "falscher" ist.
+Aber sicher ist: Würde man die Ergebnisse verschiedener Berechnungsmethoden
+durcheinander werfen, so würde dies nur die Probleme vergrößern.
+Am sichersten ist es, wenn man eine "mittlere Volatilität" aus mehreren
+ähnlichen Caps/Floors berechnen kann. Dazu braucht man natürlich die aktuellen
+Marktpreise mehrerer ähnlicher Zertifikate.
+Auf keinen Fall darf man zur Berechnung einfach die Kurs-Volatilität von
+Optionen auf Anleihen oder gar die Anleihevolatilit�t nehmen, denn diese
+beziehen sich auf den Kurs der Anleihe (90, 100, 110, ...), während es bei
+Cap/Floors ja direkt um den Zinssatz (6%, 7%, 8%, ...) geht. Deshalb muss
+grundsätzlich mit der Zins-Volatilität gerechnet werden, und diese
+Zins-Volatilität liegt meist deutlich höher als die Kurs-Volatilität.
+Zur Not können Sie in der Anleihe-Funktion einige Optionen auf Anleihen
+berechnen und dort eine ganz grobe erste Idee zur aktuellen Höhe der fairen
+Zins-Volatilität erhalten. Diese Anleihe-Optionen müssen natürlich ähnlich weit
+im oder aus dem Geld liegen und eine ähnliche Restlaufzeit haben..
+Trotz all dieser Einschränkungen kann der Vergleich der Marktpreise mittels der
+impliziten Volatilität sehr lohnenswert sein, denn am Markt herrschen teilweise
+enorme Preisunterschiede, z.B. einerseits eine implizite Volatilität von 10 und
+andererseits eine solche von 60 bei sehr ähnlichen Caps/Floors.
+Daneben gibt es natürlich auch den "naiven Ansatz" mit Einsetzen der
+historischen Volatilität. Wenn man aus irgendeiner Quelle über die tatsächliche,
+historisch beobachtete Volatilität des entsprechenden Zinssatzes verfügt, dann
+könnte man diese Volatilität einsetzen und damit den "wirklich fairen Preis"
+berechnen. Allerdings erhält man dadurch nur "theoretische" Preise, die meist
+nichts mehr mit den aktuellen Marktpreisen zu tun haben. Für realistischere
+Preise müsste man diese historische Volatilität erst korrigieren, je nachdem ob
+der Cap/Floor gerade im oder aus dem Geld liegt (siehe Faustregeln etwas weiter
+oben). Und wie bei allen Fällen historischer Volatilität käme des Problem des
+"Trends" hinzu.
+In dem Kapitel über Floater werden Sie erfahren, dass es Arbitragegeschäfte
+gibt, bei denen Caps und Floors eine wichtige Rolle spielen. Im Zusammenhang mit
+solchen Geschäften kann es vorkommen, dass einige Marktteilnehmer bestimmte Caps
+und Floors zu fast jedem Preis nachfragen oder anbieten müssen. Dann ergeben
+sich vorübergehend absurde Preise, z.B. werden Floors zur Hälfte ihres inneren
+Wertes angeboten, usw. Lassen Sie sich dadurch nicht verwirren!
+Gleiches gilt im Zusammenhang mit Swaps, beim Rechnen mit Forward-Zinssätzen,
+usw. Dadurch können sich andere Preise ergeben, die für den jeweiligen
+Marktteilnehmer und sein spezielles Geschäft durchaus richtig sein können,
+während für langfristige Anlagezwecke ein ganz anderer Preis angemessen sein
+kann.
+Aus technische Gründen kann für unterbewertete Caps/Floors (d.h. nach unserer
+Methode "zu billige" Caps/Floors) keine implizite Volatilität unter Null
+berechnet werden. Aber mittels des Buttons "Suche" kann man wenigstens eine zu
+Vergleichszwecken brauchbare Schwelle berechnen.
+
+Sonstige Ergebnisanzeigen: 
+Der BCP-Wert (Bond-Collar-Parität) wird weiter unten ausführlich erklärt. 
+Die rechts in der Kopfzeile angezeigte Restlaufzeit wird von heute bis zum
+letzten Zahltag berechnet. Sie ist deshalb oft länger als die verbleibende Zeit
+an Zinsausgleichsperioden. Durch Mausklick in die Kopfzeile kann auch in dieser
+Funktion eine scrollbare Tabelle angefordert werden. Werte werden berechnet für
+die Zinsspanne ("Kurz-Zins") von 5% unter dem aktuellen Zinssatz bis 5% darüber
+(maximal bis 30%). Bei 7% wird also von 2% bis 12% gerechnet.
+Wie Sie bereits wissen, können Sie gleichzeitig einen Cap und einen Floor im
+Speicher halten. Beide Ergebnisse werden nebeneinander angezeigt. Neu berechnet
+wird allerdings immer nur der zuletzt gewählte Cap oder Floor. Wenn Sie also
+einen Cap berechnet haben, dann auf Floor umschalten, und dazu ein anderes
+Tagesdatum einstellen, dann passen die Ergebnisse insofern nicht zusammen, als
+sie ja jeweils auf ein unterschiedliches Datum hin berechnet wurden.
+
+Collars und andere Kombinationen mit Caps oder Floors: 
+In der Spalte "Collar" werden einfach die Ergebnisse der Spalten "Cap" und
+"Floor" miteinander verknüpft. Die Verknüpfungsform (Addition, Subtraktion) kann
+in den Feldern unter den Eingabezeilen gewählt werden. Eine Verknüpfung macht
+natürlich nur Sinn, wenn Cap und Floor mit gleichem Daten (gleiches Tagesdatum,
+gleicher Zinssatz, etc.) berechnet wurden!
+Normalerweise versteht man unter einem Collar den Kauf eines Floors und den
+gleichzeitigen Verkauf eines Caps. Der Wert eines solchen Collars berechnet sich
+also nach der Formel:
+	Preis des Collars = Kaufpreis des Floors - Verkaufserlös für den Cap
+Caps und/oder Floors treten oft als Kombination mit anderen Wertpapieren auf. Am
+häufigsten sind variable Anleihen ("Floater") mit Mindestzins und/oder
+Höchstzins. In solchen Fällen werden die Komponenten einzeln berechnet und dann
+addiert bzw. subtrahiert.
+Als Inhaber (Gläubiger) einer Anleihe mit Mindestzins müssen Sie den Wert der
+Anleihe und den Wert eines entsprechenden Floors zusammenzählen, denn Sie müssen
+den Floor kaufen, also zusätzlich zur Anleihe bezahlen.
+Bei einem Höchstzins dagegen muss der Wert eines entsprechenden Caps abgezogen
+werden, ganz so, als hätten Sie einen solchen Cap geschrieben. Dafür haben Sie
+ein Entgelt erhalten und sind nun daraus verpflichtet, im Falle höherer
+Marktzinsen den Überschuß abzuliefern.
+Ein Collar, der dem Inhaber (Gläubiger) einer variablen Anleihe gleichzeitig
+einen Mindestzins sichert und einen Höchstzins auferlegt, entspricht mithin dem
+Kauf eines Floors (Ausgabe) und dem gleichzeitigen Verkauf eines Caps
+(Einnahme). Fairer Preis also Collar = Floor - Cap !
+Genau andersherum sieht es aus, wenn der Schuldner einer variablen Anleihe einen
+Höchstzins (maximal zu zahlenden Zinssatz) vereinbart haben möchte und dafür
+bereit ist, in jedem Fall einen Mindestzins zu zahlen. Ein solcher Collar
+entspricht dem Kauf eines Caps (Ausgabe) und dem gleichzeitigen Verkauf eines
+Floors (Einnahme). Fairer Preis also Collar = Cap - Floor !
+In der Praxis gibt es allerdings das Problem, dass schon die richtige Berechnung
+eines fairen Preises für die variable Anleihe an sich problematisch ist. Lesen
+Sie dazu das Kapitel "Floater".
+
+Forward-Einzelzeilenberechnung:
+Viele Spezialisten halten es für richtig, jede Periode (Zeile) mit einem
+unterschiedlichen Zinssatz (z.B. den "Forward Zinssätzen") und/oder einer
+anderen Volatilität zu berechnen.
+Wir halten die Forward-Methode bei vielen Anwendungen für nicht zweckmäßig, da
+sie auf kurzfristigen Arbitrageüberlegungen beruht und für langfristige
+Anlagezwecke zu oft falschen Werten führt. Aber da sich die Marktpreise meistens
+an den kurzfristigen Arbitragemodellen orientieren, kommt diese Methode den
+tatsächlichen Marktpreisen in der Regel näher als die herkömmlichen
+langfristigen Methoden. Je nach Unterschied zu den mit anderen Methoden
+berechneten Preisen kann dies für den langfristig disponierenden Anleger zu
+vorteilhaften oder nachteilhaften Marktpreisen führen.
+Wenn Sie mit dem Modern Speculator nach einer dieser anderen Methode
+(unterschiedliche Zinssätze oder Volatilitäten) rechnen wollen, dann können Sie
+das auf einem der beiden folgenden Wege erreichen:
+- Sie berechnen jede Zeile einzeln und zählen dann alle Ergebnisse "per Hand"
+zusammen. Auf diese Art können Sie jede Zeile mit einer beliebigen,
+unterschiedlichen Einstellung bei Kurz-Zins und Zins-Volatilität berechnen.
+Einfachste Vorgehensweise: Stellen Sie den gesamten Cap/Floor ein, und stellen
+Sie dann in allen Zeilen bis auf eine den Basiszins auf 0. Diese Zeilen werden
+dann rot gedruckt und bei der Berechnung übersprungen. Berechnet wird jeweils
+nur die schwarz gedruckte, vollständige Zeile.
+- Oder, wenn Sie nur mit unterschiedlichen aktuellen Kurz-Zinssätzen für jede
+Zeile rechnen wollen, dann stellen Sie in jeder Zeile unter "AKTUELL %" statt
+"S.-Interest" direkt den Wert dieses Zinssatzes ein.
+Bei dieser Vorgehensweise sollten Sie sich jedoch darüber im Klaren sein, dass
+Sie alle Daten in der ausklappbaren Scrolltabelle ignorieren müssen. Denn diese
+Tabelle wird grundsätzlich immer anhand des einheitlichen Kurz-Zinses für alle
+Zeilen berechnet, denn die Zinsskala vorne in der Tabelle bezieht sich ja auf
+genau diesen Kurz-Zinssatz und kann sich nicht auf verschiedene Zinssätze
+gleichzeitig beziehen
+Sie müssen sich in diesem Fall also allein an den Daten in der Headline
+orientieren. Sobald in auch nur einer Zeile statt "S.-Interest" ein konkreter
+Zinssatz eingestellt ist, dann handelt es sich in der Headline um die Ergebnisse
+einer Forward-Einzelzeilen-Berechnung. Erkennbar am Schriftzug "Individual" ganz
+vorne und am Fehlen der BC-Parity, da diese bei dieser Methode keinen Sinn
+ergibt.
+Die "Volatilities" Scrolltabelle dagegen, die Sie durch den Button links unter
+der normalen Scrolltabelle aufrufen können, die zeigt bei allen Berechnungsarten
+die zu den jeweils eingestellten Daten passenden Werte an.
+
+Was-wäre-wenn Versuche: 
+Dies funktioniert genau wie in den anderen Funktionen auch. Die Ergebnisse
+werden nur in der Scrolltabelle angezeigt. Die Kopfleiste dagegen zeigt immer
+die Originalwerte (linke Berechnung). Sie können hier grob berechnen, welchen
+Wert der Cap/Floor ungefähr zu einem späteren Zeitpunkt und/oder bei einem
+anderen Zinssatz und/oder anderer Volatilität haben würde.
+Auch hier gelten die oben gemachten Einschränkungen. Da schon die aktuellen
+Preise stark von spekulativen Erwartungen und Zufällen (unübersichtliche Märkte,
+fehlende Arbitrage) und der gewählten Rechenmethode beeinflusst werden, ist jede
+Hochrechnung in die Zukunft erst recht von Unsicherheit belastet. Man sollte die
+Ergebnisse deshalb wirklich nur als ganz grobe Anhaltspunkte betrachten.
+Alle Skalenwerte werden mit der aktuell eingestellten Volatilität berechnet. Wie
+Sie aber bereits wissen, sind in der Praxis unterschiedliche Volatilitäten
+zweckmäßig, je nachdem ob der Cap/Floor weit im Geld aus dem Geld liegt. Dies
+wird bei der Skalenberechnung nicht berücksichtigt. Sie sollten deshalb davon
+ausgehen, dass die Skalenwerte, die weiter im Geld als der aktuelle Tageswert
+(Kopfzeile) liegen, in der Praxis eher tiefer ausfallen werden. Die Skalenwerte
+weiter aus dem Geld werden in der Praxis dagegen eher höher ausfallen.
+Achtung: Die Ergebnisse dieser Art von was-wäre-wenn Berechnung werden nur in
+der ausklappbaren Scrolltabelle angezeigt. Und diese wird grundsätzlich immer
+anhand des einheitlichen Kurz-Zinses für alle Zeilen berechnet, denn die
+Zinsskala vorne in der Tabelle bezieht sich ja auf genau diesen Kurz-Zinssatz
+und kann sich nicht auf verschiedene Zinssätze gleichzeitig beziehen
+Deshalb ist diese Art von was-wäre-wenn Berechnung nicht für die Berechnungen
+mit Forward-Sätzen oder ähnlichen unterschiedlichen Zinssätzen in jeder Zeile
+brauchbar. In solchen Fällen müssen Sie für eine was-wäre-wenn Berechnung Datum,
+Zinssätze, Volatilität selbst direkt verstellen und das Ergebnis dann in der
+Kopfzeile ablesen.
+
+Bond-Collar-Parität (BCP): 
+Wie in dem Kapitel über Floater noch näher gezeigt werden wird, kann man im
+Prinzip jede Anleihe A mittels eines Collars in jede Anleihe B verwandeln. Dies
+bedeutet aber auch, dass der Wert des entsprechenden Collars genau dem
+Wertunterschied zwischen Anleihe A und Anleihe B entsprechen muss. Und da man
+die fairen Werte von Anleihen sehr genau berechnen kann, lässt sich auch der
+Unterschied zwischen 2 beliebigen Anleihen und damit auch der faire Wert des
+entsprechenden Collars berechnen.
+Allerdings wird meist ja nicht der Wert eines Collars gesucht, sondern nur der
+Wert eines Caps oder eines Floors. Zwar wissen wir, dass der Collar = Floor -
+Cap, aber die genaue Aufteilung des gefunden Collars in Floor und Cap lässt sich
+nur grob näherungsweise durchführen. Außerdem ist der Weg über diese
+Bond-Collar-Parität nur bei "sauberen" Caps/Floors ausreichend genau. Konkret:
+Keine Leerperioden, gleicher Basiszins in allen Perioden, letzter Zahltag
+unmittelbar nach Ende der letzten Periode, perfekt arbitrierter Markt mit
+einheitlicher Bewertungsmethode, normales Zinsniveau mit kurzfristigem Zins
+unter langfristigem Zins und nicht extrem hohen oder tiefen Zinsniveau, etc. .
+Rechenbeispiel: Bei jeder Berechnung eines Caps oder Floors wird in der
+Kopfzeile unter BCP der anhand der Bond-Collar-Parität berechnete theoretische
+Wert des entsprechenden Collars angezeigt. Diese muss nun gemäß der Formel
+Collar = Floor - Cap in Cap und Floor aufgeteilt werden.
+Hat man gerade einen Cap berechnet, so muss man jetzt auch einen genau passenden
+Floor berechnen. Dies erledigt man am einfachsten mittels des Convert-Buttons.
+Wenn sowohl Cap und Floor berechnet sind, dann gehen Sie durch Mausklick in die
+Kopfzeile in die Scrolltabelle. Dort dann Mausklick auf den Button <
+Volatilities > . Nach kurzer Berechnung erscheint nun eine Scrolltabelle mit
+Werten für den Cap und den Floor für alle Volatilitäten von 1 - 100 .
+In dieser Tabelle muss man sich ein passendes Floor-Cap Paar suchen. Dabei
+sollte man von dem Cap oder Floor ausgehen, der gerade im Geld liegt, denn von
+diesem wissen wir ja, dass er eine implizite Volatilität von etwa 0-10 haben
+muss, z.B. von etwa 6 . Hat man diesen Wert, so findet man leicht auch den
+anderen Wert, denn wir wissen ja, dass Floor - Cap = Collar . Der andere Wert
+muss sich dann logischerweise bei einer Volatilität von meist deutlich über 10
+finden.
+Eine Bond-Collar-Parity von Null bedeutet logischerweise, dass Floor - Cap = 0,
+das heißt in diesem Fall gilt ausnahmsweise Floor = Cap .
+Mittels der Bond-Collar-Parity lassen sich mithin sowohl einigermaßen faire
+Preise für Cap und Floor finden, als auch Anhaltspunkte, mit welchen
+Volatilitäten gerechnet werden sollte.
+Leider ist aber auch diese Methode kein perfektes, geschlossenes Rechensystem,
+sondern es handelt sich nur um eine Näherungsmethode, die bei Extremfällen nur
+sehr grobe Ergebnisse liefert. Dies kann man leicht überprüfen, indem man z.B.
+einen langfristigen Cap/Floor mit Basiszinssatz Null berechnet. Ein solcher
+Collar ist zwar scheinbar unsinnig, würde alle Rechentheorie aber stimmen, dann
+müsste er genau der Differenz zwischen einer Festzinsanleihe und einem Zerobond
+entsprechen. Tatsächlich findet sich aber meist keine genau passende Floor-Cap
+Kombination. Wahrscheinlich ist dies auf Fehler der Black/Scholes Formel
+zurückzuführen, die immer noch Grundlage bei der Berechnung der einzelnen Caps
+und Floors ist.
+
+Gewinnschwellen-Methode: 
+Dies ist eine etwas einfachere Berechnungsmethode für Caps und Floors. Beispiel:
+Ein Floor mit 10 Jahren Laufzeit und einem Basiszins von 6% wird zu einem
+Marktpreis von 1.000 gehandelt. Der Floor bezieht sich auf 10.000 Nominalbetrag.
+Man könnte nun den Preis von 1.000 auf die 10 Jahre aufteilen. Macht pro Jahr
+100, oder 1% bezogen auf 10.000 nominal. Diese 1% muss man von dem Basiszins von
+6% abziehen, und man erhält eine Gewinnschwelle von 5%: Der Marktzins müsste im
+Schnitt unter 5% fallen, damit man den Einsatz wieder erhält.
+Allerdings ist der Kaufpreis von 1.000 in der Regel sofort zu zahlen, während
+die Ausgleichszahlungen aber erst später erfolgen. Deshalb muss der Kaufpreis
+von 1.000 vorher etwas aufgezinst werden, z.B. auf 1.500. Dadurch sinkt die
+Gewinnschwelle auf 4,5%. Außerdem darf natürlich nicht auf die Gesamtlaufzeit
+bis zum letzten Zahltag verteilt werden, sondern nur auf die Perioden mit
+eventueller Ausgleichszahlung. Und einige weitere Details müssen beachtet
+werden.
+All dies macht das Programm automatisch, und rechts in der Kopfzeile wird dann
+die Gewinnschwelle angezeigt. Die angezeigte Schwelle wird immer anhand des
+Basiszinses der letzten Periode berechnet (falls bei dem Floor/Cap für die
+einzelnen Perioden unterschiedliche Basiszinssätze gelten, so gelten für diese
+Perioden dann natürlich auch unterschiedliche Schwellen). Bei Caps liegt die
+Gewinnschwelle immer über und bei Floors immer unter dem Basiszins.
+Und für absolute Spezialisten wird ganz rechts in Klammern ein Wert je Monat
+angezeigt. Dies ist der "Schwellenzuschlag" (Cap) oder "Schwellenabschlag"
+(Floor) zum/vom Basiszins der Periode je Monat Periodenlaufzeit. Dieser Wert mal
+allen noch offenen Monaten ergibt übrigens den heutigen Preis des Caps/Floors
+plus der erwähnten Aufzinsung.
+Das Problem bei dieser Rechenmethode ist, dass dabei eine gleichmäßige
+Verteilung der Ausgleichszahlungen über alle Perioden unterstellt wird, und dies
+ist natürlich unrealistisch. Trotzdem kann auch diese Methode genutzt werden, um
+näherungsweise die "Preiswürdigkeit" verschiedener Caps oder Floors zu
+vergleichen.
+Der Vorteil dieser Methode ist, dass damit relativ einfach auch unterschiedliche
+Caps/Floors verglichen werden können, und dass man nicht den Aufwand treiben
+muss, Volatilitäten zu beurteilen.
+
+
+-- 
+-- 
+Heinz Mushake
+Visit   http://ipzrgbh.fll.whl/nkvada  and download a 
+free calculator for options, futures, bonds and similar stuff

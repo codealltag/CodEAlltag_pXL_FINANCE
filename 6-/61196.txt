@@ -1,0 +1,31 @@
+Hallo
+
+zu 1)
+Wie werden bei 2 Depots (z.B bei GRDG und GlanzPunkte) die Durchschnitte
+berechnet.
+Beispiel:
+-Kauf bei GRDG 1000 Stück am 11.11.98 zu 10EU
+-Kauf bei Com 1000 Stück am 11.11.98 zu 20EU
+-Verkauf bei GRDG 1000 Stück am 12.11.98 zu 30EU
+-Verkauf bei Com 1000 Stück erst nach 12.11.99)
+
+Möglichkeit getrennt:
+nur GRDG: Gewinn von 1000*(30-10)EU = 20000EU
+nur Grünwert: Gewinn von 10000EU ausserhalb Frist
+
+Möglichkeit gemischt:
+GRDG+Grünwert: Gewinn von 1000*(30-15)EU=15000EU
+GRDG+Grünwert: der andere Gewinn von 15000EU liegt ausserhalb der Frist.
+
+
+zu 2)
+Was passiert, wenn ich gleichzeitig eine Kauf- und eine Verkaufsorder
+aufgebe,
+die sich selbst in Stückzahl und Limit vollkommen entsprechen. Kann ich
+sicher sein, dass diese beiden
+sofort ausgeführt werden Zweck: Realisierung von Verlusten, ohne die Aktien
+hergeben zu muessen.
+
+Gruss
+
+Garrelt

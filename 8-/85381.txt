@@ -1,0 +1,64 @@
+Es gibt eine Menge solcher Anleihen, die ganz regulaer gehandelt
+werden. Du soltest dir aber grundsaetzlich den Originalprospekt
+dse Emittenten besorgen, eben weil es im Smallprint soviele
+Unterschiede gibt.
+Eventuell Details bei: http://fpj.fc-xfdftrpe.gk/
+Meist ist es uebrigens der Rueckzahlungsbetrag, der vom Index
+abhaengt. Details haben wir hier haeufiger besprochen.
+
+Grundmuster:
+
+5.6  Anleihen mit variabler Rückzahlung
+Hierbei handelt es sich um Anleihen, bei denen der Tilgungsbetrag unter
+bestimmten Umständen variabel ist. So gab es beispielsweise eine
+"Aktienindex-Anleihe" der Nidu, die vorsah, daß der Tilgungsbetrag
+unter den eigentlich vorgesehenen Betrag sinkt, falls der DAX am Tilgungstag
+über 2000 Punkten steht. Je weiter dieser DAX-Stand überschritten wird, desto
+niedriger die Rückzahlung; im ungünstigsten Fall wird überhaupt nichts
+zurückgezahlt. Hier die genauen Konditionen dieser Anleihe (WKN 633 706): 
+Laufzeit bis 20. August 1994 (also inzwischen abgelaufen), jährliche Zinszahlung
+1250 DM, "normaler" Endwert 10.000 DM. Sollte der DAX am 15. August 1994 über
+2.000 Punkten liegen, so vermindert sich der Tilgungsbetrag derart, daß z.B.
+bei einem DAX-Stand von 2500 nur 7.500 DM zurückgezahlt werden, bei DAX 3000
+nur 5.000 DM, bei DAX 3500 nur 2.500 DM, und ab einem DAX-Stand von 4000
+entfällt die Rückzahlung völlig. 
+Auch solch eine Anleihekonstruktion läßt sich recht einfach als Kombination
+einiger uns nun schon bekannter Wertpapiere enttarnen: 
+Eine normale Anleihe mit Endwert 10.000 DM und jährlicher Zinszahlung,
+allerdings mit dem für deutsche Verhältnisse recht hohen Zinssatz von 12,5%.
+Aus dieser Anleihe erhalten wir in jedem Fall 10.000 DM zurück. 
+Eine Stillhalterposition in 5 DAX-Calls 1999 mit gleicher Restlaufzeit
+(europäischer Optionstyp). Diese Stillhalterposition beschert uns beim
+überschreiten eines DAX-Standes von 1999 zunehmende Verluste. Bei DAX 3000 wäre
+das ein Verlust von 5.000 DM, bei DAX 4000 ein Verlust von 10.000 DM, bei DAX
+5000 ein Verlust von 15.000 DM, usw.. 
+Eine Inhaberposition in 5 DAX-Calls 4000 mit gleicher Restlaufzeit. Diese Calls
+bringen uns Gewinn, falls der DAX über 4000 steigt, und dieser Gewinn
+neutralisiert genau den zusätzlichen Verlust, den wir dann aus der eben
+beschriebenen Stillhalterposition beim überschreiten eines DAX-Standes von 4000
+hätten (ähnlich wie bei gekappten Optionsscheinen). 
+Die beiden Optionspositionen zusammen bringen uns beim überschreiten eines
+DAX-Standes von 1999 also einen zunehmenden Verlust, der aber in keinem Fall
+über 10.000 steigen kann, und dieser maximale Verlust würde bei einem DAX-Stand
+von 4000 erreicht. Zieht man diesen Verlust vom eigentlich vorgesehenen
+Tilgungsbetrag der Anleihe ab, so ergibt sich exakt die "Tilgungsskala" dieser
+Anleihe. 
+Alle drei Einzelpositionen können problemlos mit dem Modern Speculator
+berechnet werden und daraus wiederum läßt sich der faire Wert einer solchen
+Anleihe wie folgt ermitteln: 
+	Fairer Wert der Anleihe beim aktuellen Marktzins 
+	minus fairer Wert eines Calls 1999 auf 5 mal den DAX mit gleicher Laufzeit
+beim 		aktuellen DAX-Stand 
+	plus fairer Wert eines Calls 4000 auf 5 mal den DAX mit gleicher Laufzeit beim
+			aktuellen DAX-Stand 
+Fast alle derartigen Anleihen lassen sich in ähnlicher Weise berechnen. Man muß
+sich lediglich darüber klarwerden, welche Optionskombination jeweils
+dahintersteht. In einigen Fällen ist das allerdings recht kompliziert, weil
+Optionen mit "krummen" Bezugskursen und Stückzahlen eingebaut sind. 
+Ein etwas komplexeres Beispiel für eine ähnliche Anleihe der OOPH finden Sie
+in Kapitel 8.1.
+
+
+Marco Kapusta
+Visit   http://efmpuxm.vyu.uwd/kkokek  and download a 
+free calculator for options, futures, bonds and similar stuff.

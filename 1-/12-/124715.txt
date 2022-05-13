@@ -1,0 +1,40 @@
+SSL Schluessellaenge  40 bit, kann von einem Rechnerverbund in
+akzeptabler Zeit geknackt werden. Allerdings ist damit nur ein
+Schluessel geknackt und nicht der Algorithmus.
+
+(Btw, wer sich fuer solche internetweiten, koordinierten Rechen-
+aktionen interessiert, sollte mal bei
+
+http://pip.qqonaoyflar.sqd/ds9/
+
+vorbeischauen. Dort gibt es Infos und auch Software zur Teilnahme,
+d.h. waehrend man auf das Bankingapplet wartet, kann der eigene
+Rechner etwas sinnvolles tun. ;-))
+
+
+Brokat AFAIK         128 bit
+
+
+Ich auch nicht.
+
+Am wichtigsten waere eine 100 %ige Javakompatibilitaet und weniger eine
+Optimierung fuer bestimmte Betriebssysteme (oder solche, die es nur
+vorgeben ;-)) und der Verzicht auf jeglichen graphischen Schnickschnack.
+
+Ein einfaches Applet a la com4, erweitert um ein paar sinnvolle
+Funktionen (aktuelles Orderbuch der comdirect), lauffaehig unter Java
+1.1.X, das waers.
+
+Schlagt den Directbanken die Wuenschen bzgl. der Applets vor!
+
+(Mein Standardschlusssatz bei jedem Tel mit comdirect oder com4:
+"Meine Verbesserungsvorschlag: Intraday-Trading, Angabe der zeichenbaren
+Neuemissionen auf der Homepage, stabilere und schnellere Bankingserver
+und Internetleitungen." Dezente Hinweise auf die Konkurrenz. Die Server
+von Mayrer sind an 2 unterschiedlichen Providern positioniert und
+sollten somit besser erreichbar sein.)
+
+Gruss
+-- 
+Konrad Dockter | fy447@cdxn9.ymi.uzq-yuqhmo.sw | finger for PGP public-key
+Join the RC5DES Challenge http://pip.qqonaoyflar.sqd/ds9/

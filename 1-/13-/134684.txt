@@ -1,0 +1,20 @@
+Hallo no name,
+damit ist wohl gemeint, daß Du Puts mit einer bestimmten Basis
+verkaufst und wenn der Verfalltermin bzw. der Optionskäufer seine
+Aktien an Dich abgegeben will, dann lieferst Du den Gegenwert in Cash
+und hast die Aktien in Deinem Depot liegen. So kann man seinen
+Einstiegskurs verbilligen. 
+Beispiel. Du möchtest bis zum 27. August 1998 100 NLPH-Aktien kaufen,
+und bist bereit den heutigen Kurs minus Zeitwert zu bezahlen. Also
+verkaufst Du einen Put mit Basis 80 Laufzeit September 98. Dafür bekommst Du
+einen Prämie in Höhe von DM 11*100. Heute steht die Aktie bei DM 71.
+Also verbilligst Du Deinen Einstiegskurs um DM 2. Bis zum 27. August mußt
+Du nun jederzeit die Aktie zu einem Preis von DM 80 übernehmen.
+(tatsächlich 80 - 11 pro Stück )
+Das gleiche Spiel geht auch beim Verkauf. Du hast die gleiche Aktie
+und möchtest mindestens DM 75 bekommen. Also verkaufst Du einen Call (
+Du coverst Deine Aktien im Depot ) mit Laufzeit September 98 und bekommst
+eine Prämie in Höhe von DM 2. Steigt der Kurs auf über DM 75 bist Du
+Deine Aktien los, allerdings für insgesamt 75 + 2 DM.
+Alles verstanden ?? Das nächste Mal bitte mit Namen !!!!
+Gruß Igor

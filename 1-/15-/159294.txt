@@ -1,0 +1,56 @@
+Greetings Manfred,
+
+Deine Bemerkungen sind zweifelsohne richtig - daran ist nicht zu 
+rütteln.  Ich möchte aber auf den einen oder anderen zusätzlichen Aspekt 
+des gleitenden Durchschnitts (GD) aufmerksam machen.
+
+Da der GD dem aktuellen Preisgeschehen "nachhinkt", kann man dadurch 
+ausbalanzieren, daß man einen "exponentiellen" oder "weighted" (ich 
+kenne die Ausdrücke in erster Linie auf Englisch, bitte nicht ungehalten 
+sein) GD wählt.  Bei diesen Varianten werden neuere Daten schwerer 
+bewertet als ältere.  Der exponentielle GD ist sozusagen mehr 
+"up-to-date" und hat darüberhinaus den Vorteil, daß der Hund nicht zwei 
+mal bellt (Jacques. Elder).  Damit meine ich, daß der GD von zwei Seiten 
+her beeinflußt wird, also an beiden Enden.  Erstens durch das 
+Hinzukommen eines neuen (womöglich extremen) Wertes, u. zweitens durch 
+das Wegfallen eines (womöglich extremen) Wertes am Anfang der Periode.  
+Der exponentielle GD wirkt dem entgegen.
+
+Zweitens, sehe ich den GD als Richtlinie - also als Trendanzeiger, der 
+mir Grenzwerte liefert und mir sagt, was sich in ganz großen Zügen 
+abspielt.  Wenn etwas geschieht, wenn sich etwas außerhalb des 
+Durchscnittlichen abspielt, dann verdient es meine Aufmerksamkeit.  
+Viele Traders verwenden den GD in verschiedene Längen als Einstiegs- 
+bez. Austiegssignal.  Dabei erzeugt aber häufig ein relativ kurzer GD 
+das Signal.  Die Verzerrung, die Du richtigerweise erwähnst, kommt dabei 
+also weinger zum tragen - gerade genug, so wollen wir hoffen, um die 
+eventuelle Volatilität des Preises etwas zu glätten.
+
+Drittens, ist meiner Ansicht nach nicht der eigentliche Wert des GD das 
+ausschlaggebende, sondern vielmehr der Neigungswinkel, der sog. "slope", 
+oder der "rate of change".  Niemand weiß mit Sicherheit, wie sich die 
+Preise morgen bewegen werden, es geht lediglich um Wahrscheinlichkeiten. 
+ Wenn der Neigungswinkel steil ist, so scheint der Trend in Ordung zu 
+sein, so ist es halt eine Spur wahrscheinlicher, daß die gegenwärtiger 
+Preisentwicklung anhält.  Aber sicher ist es keineswegs!
+
+Wenn Du von Verschiebung sprichst, bin ich mir nicht 100% sicher, daß 
+ich verstanden habe, worum es Dir geht, es ist aber vielleicht 
+erwähnenswert, daß man eine GD auf der horizontalen Achse tageweise 
+verschieben kann.
+
+Jeder Preis stellt einen Konsens dar.  Der GD stellt einen 
+durchschnittlichen Konsens dar . . . aber bitte, wenn wir von einem 
+"durchschnittlichen Konsens" sprechen, dann ist doch der Anspruch auf 
+eine strenge mathematische Überprüfbarkeit längst beim Fenster hinaus.  
+Man kann mit quantitativen Mittel nur versuchen, an das menschliche 
+Verhalten (kaufen oder verkaufen) möglichst nahe heranzukommen. Ich 
+verwende den GD als allgemeinen "Stimmungsanzeiger" mit numerischen 
+werten.  Je kürzer die Periode, desto ferner rückt das Allgemeine und 
+desto näher rückt das Besondere, das Tägliche, der Preis vor einer 
+Stunde, der Preis im jetztigen Augenblick.  Insofern liefert der MICHAEL ganz 
+brauchbare Einsichten.
+
+Stay in touch,
+
+Diedrich

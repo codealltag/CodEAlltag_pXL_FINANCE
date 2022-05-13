@@ -1,0 +1,45 @@
+Kaum, insbesondere wenn man sich Deine Signature ansieht
+
+
+Die impl. Vola von Optionen deep in oder out of the money ist hoeher als
+at-the-money.
+
+
+Ich habe *erwartete* Vola geschrieben, nicht implizite.
+Bei der Bewertung von Optionen muss man immer Erwartungen bilden, naemlich
+ueber
+- die zukuenftige Vola
+- die zukuenftige Zinsentwicklung
+- die zukuenftige Dividendenentwicklung
+
+Nein, das waere unzulaessig bis unsinnig.
+Man koennte Optionspreise theoretisch nicht mehr in DM, sondern in
+Prozentpunkten der Volatilitaet quotieren, wenn sich alle ueber dasselbe
+Optionsbewertungsmodell einig waeren und wenn alle die gleichen Erwartungen
+hinsichtlich der anderen zu bestimmenden Parameter, naemlich hinsichtlich der
+Zinsentwicklung und der Dividendenentwicklung haetten.
+
+Entwicklung
+kontinuierlich
+um
+
+Ich werde mich bestimmt nicht ueber Chartinterpretationen streiten, da soll
+sich jeder selbst ein Bild machen, aber nach dem Hoch bei 43 % Ende Oktober ist
+der VDAX nicht mehr signifikant ueber 32 % gestiegen, so dass man den Beginn
+des Abstiegs durchaus Ende Oktober (beim Allzeithoch) ansetzen kann. 
+
+Der VDAX wurde konstruiert, um den Marktteilnehmern einen Indikator fuer das
+Preisniveau, auf dem sowohl Calls als auch Puts gehandelt werden, zur
+Verfuegung zu stellen.
+Wenn Deine Beobachtungen vom Verlauf des VDAX abweichen, gibt es dafuer viele
+Moeglichkeiten (unterschiedliche Daten, Berechnungsmethoden etc.), aber der
+Grund fuer ein gleichzeitiges Sinken von Call- und Putpreisen bei konstanter
+Laufzeit liegt in der veraenderten Volatilitaetserwartung, dazu braucht man
+eigentlich noch nicht mal die Optionspreistheorie, den VDAX oder aufwendige
+Berechnungen.
+
+FERNAND
+
+cuo@zxxpootolva.ao
+WARRANT ONLINE - http://gtf.hihabwbljdh.kh/iph/
+Alle Stammdaten von Optionsscheinen und Indexzertifikaten

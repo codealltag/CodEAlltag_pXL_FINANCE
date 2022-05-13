@@ -1,0 +1,31 @@
+In article <3urd9x$v5g@sk71.wv.lon-qlgxpngzg.aa>, gs09@oj.idv-rhpzykgan.ut (Moubne Unseld) writes:
+
+
+Ja, leider.
+Um es genau zu sagen: Solange der Anlagezeitraum weniger als ein Jahr ist,
+kann man noch eine geschlossene Formel angeben, auch bei unregelmäßigen
+Einzahlungen.
+Aber nach genau einem Jahr muß man (beim fiktiven Anleihekauf) die
+Wiederanlage der Erträge berücksichtigen, und dann läßt sich die Formel nicht
+mehr nach der gesuchten Rendite auflösen.
+Danke an Louis übrigens für den Hinweis auf Excel.
+
+
+Noch eine Ergänzung zum Beispielergebnis mit meinem Sparplan "wachstums-
+orientiert":
+Die Rendite nach 12 Monaten war ja ca. -26%.
+Das ist nicht ganz so schlimm, wie es aussieht, weil es zu einem nicht
+unerheblichen Teil auch auf den Ausgabeaufschlag zurückzuführen ist, und der
+wirkt sich im ersten Jahr am schlimmsten aus.
+Beispiel:
+Angenommen, der Kurs des Fonds wäre das ganze Jahr über exakt gleich.
+Bei einem Ausgabeaufschlag von 5% würde man zunächst naiverweise annehmen,
+daß dann eine Rendite von -5% herauskommt.
+Tatsächlich ergibt sich aber eine Rendite von ca. -9%, der Ausgabeaufschlag
+wirkt sich also im ersten Jahr fast doppelt so stark aus, als es sein Wert
+andeutet.
+(-5% wäre der Grenzwert bei einem unendlich langen Sparplan mit einem
+Aktienfonds, der ewig den gleichen Kurs hat.)
+
+
+Gruß, Robert.

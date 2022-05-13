@@ -1,0 +1,27 @@
+Hallo,
+Korrektur!
+
+Transaktionen:
+Art # Stck # Name                   # WKNR   # EUR   # Boersenplatz
+V   # 6596 # Zefaka           # 379805 # 22,00 # Igel
+V   # 6596 # Bco Australienprofis          # 609514 #  9,40 # Igel
+K   # 1200 # Advanced Micro Devices # 606827 # 16,10 # Kneitlingen
+
+Depot jetzt:
+
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+Adv.Micro Devices # 863186 #  1200  #   16,10   #   16,10  # 19320,00
+Zoomarkt             # 247106 #   350  #   58,50   #   64,00  # 22400,00
+Flammenträume   # 710000 #   300  #   70,10   #   65,15  # 19545,00
+Network Assoc.    # 974618 #   700  #   15,20   #   17,70  # 12390,00
+
+
+Cash     :  32275.00
+Depotwert:  73655,00
+Gesamt   : 105930,00
+
+
+Gruss,
+Dirk
+-- 
+Neue Sig ist in Arbeit.

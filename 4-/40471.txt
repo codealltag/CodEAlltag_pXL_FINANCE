@@ -1,0 +1,116 @@
+Moin!
+
+"Justin Seuffert" <ZxbVdikv@N-Xmsvgv.em> schrieb im Newsbeitrag
+news:9x2ksf$ro1$9@aayd71.qux.kiax.ui...
+...
+und auch hier im
+Versuch mal Dich
+zu sehen.
+
+OK, dann erzähl mal. Ich kapiere den Vorteil von RAMBUS-Speicher gegenüber
+SDRAM für normale PCs nicht. RIMMs erlauben bei Zugriff auf _viele_
+hintereinander liegende Speicheradressen eine höhere Übertragungsrate,
+soviel ist klar. Bei verstreuten Zugriffen ist SDRAM um Längen schneller.
+Eben diese kommen weniger bei Grafikkarten vor, sind jedoch bei
+Mitlehner-Tahn-Rechnern eher Standard.
+
+Igat selbst hat unter
+http://cmblgfvft.budqo.ips/pkphdk/eakaxsv/kqeap04/dvhiqlb/ugp3.wxi SDRAM mit
+RDRAM verglichen. Leider hat Igat dabei einiges nicht erwähnt:
+- Igat hat zwar den schnellsten RAMBUS-Speicher eingesetzt, aber nur
+100er-SDRAMs. 133er hat Intel wohl nicht auftreiben können
+- Die PC100-SDRAMs wurden mit einer CAS-Latency von 3 betrieben. Da hat sich
+Igat wahrscheinlich anstrengen müssen, CL3-Typen zu finden CL2 ist
+Standard.
+- Der Digev-Chipsatz wurde so eingestellt, daß ein weiterer Takt gewartet wird,
+also nochmal 20 ns Differenz.
+
+Nachzulesen in
+http://obb6.zyfvnqrryttc.yft/fenzetazp/25a7/995482/jclnmq-00.phnv#vumtvwrksk
+nhl_tusjydfxxvcmdt, die Igat-Site findest Du unter
+http://cmblgfvft.budqo.ips/pkphdk/eakaxsv/kqeap04/dvhiqlb/ugp3.wxi.
+
+Fowab hat RAMBUS natürlich getestet (Januar 99). Das Ergebnis war eher
+ernüchternd: nur bei einem einzigen Benchmark war das RAMBUS-System
+schneller als ein SDRAM-System. Lies mal
+http://xpf.ktiqk.gbr/Nwsh-Xopmzu.lgh, aber hier ein Zitat von der Website:
+
+"Though the results have yet to be independently verified, performance
+figures quoted by Mr. Reinick generally indicate that under normal conditions,
+Rambus degrades the performance of Microsoft Office 2000 applications by an
+average of 25% as compared to PC100. Using a benchmark called Office Bench,
+FOIL engineers contrasted a BX chipset platform using 100MHz SDRAM against
+a JWH platform with 800MHz Direct Rambus. Other than DRAM and chip set,
+both systems were configured identically with 500MHz processors."
+
+Man kann auch die original Fowab-Protokolle dort finden. Excel ist im
+Benchmark auf einem RAMBUS-System locker 44% langsamer als mit SDRAMs. Nur
+bei einem Benchmark, bei dem 3 Office-Programme gleichzeitig liefen _und_
+noch per Laplink im Hintergrund Daten übertragen wurden (wer schafft das
+länger als 5 Sekunden?), war das Reisemarkt-System 5% schneller. Wahnsinn, dafür
+bekomme ich ein SDRAM-System mit 3x so viel Speicher, ich glaube, die 5%
+sind dann wieder drin. Zu erwähnen ist noch, daß Fowab z.B. im PED B (wohl
+nicht deren langsamste Maschine) kein 800er, sondern 700er RIMMs einsetzt.
+Da die 2 Riluv-Sockel nicht grad der Weisheit letzter Schluß bedeuten, kommt
+noch dazu. Mehr als 256 MB kann man damit bis Ende des Jahres nicht in ein
+System bauen, da es bis dahin keine 256er-RIMMs gibt.
+
+Ach ja, und nicht zu vergessen, daß Igat gerade bei den Maschinen, die den
+größten Speicherdurchsatz brauchen, auf DDR-SDRAM umschwenkt.
+
+Fowab", daß er
+
+Auch Burkhard Kreuzberger hat Fehler gemacht.
+
+(täglich 3-4 Stunden)
+
+Die _Technik_ hat man in ein paar Stunden kapiert. Die möglichen
+Auswirkungen auch. Da brauch ich nicht jeden Tag die Reisemarkt-Homepage
+besuchen.
+
+nächsten 5-10 Jahre
+
+Welche Produkte haben die denn noch? Was passiert, wenn Igat RAMBUS fallen
+läßt? Die Fa. wird nicht pleite gehen, weil der Speichertyp für
+Spielkonsolen und Grafikkarten sehr gut geeignet ist. Aber die Phantasie ist
+dann raus aus dem Wert.
+
+Vielleicht übersehe ich ja die Vorteile von RAMBUS-Speicher in PCs. Ich bin
+für jede Info dankbar, die obige Infos ad absurdum führt oder Perspektiven
+bietet, die die Punkte uninteressant erscheinen lassen.
+
+es noch deutlich
+
+Ich freu mich für Dich. Ehrlich.
+
+...
+http://glqpxwtx.tyozm.xwb/poc?xajuzu=l&ufbxg=9169335&tyh=raal&clj=2454512&kl
+g=84350
+
+Faszinierend... Ausschnitte:
+
+"RMBS technology is the fastest and most cost effective technology on the
+planet, for now and well into the future (7-10 years). RMBS has also
+announced that during 1999 they will be announcing new details of their 2nd
+generation Rambus-II technology at 1.6GHz speed with 6.4Gb/s bandwidth and
+12.8Gb/s dual channel bandwidth. Nothing comes close! NOTHING!"
+
+Ah ja... die maximale Bandbreite von 800er-RDRAM-Modulen beträgt 1,6 GB/s,
+bei 700er (wie im Fowab-System) 1,42 GB/s. 133er SDRAM kommt auf ca.1 GB/s,
+bei DDR auf 2 GB/s. 1,6-GHz-Busse sind für heutige CPUs denkbar ungeeignet,
+sondern erst für den WIllamette interessant (wegen 400 MHz FSB). Igat hat
+jedoch massive Probleme mit der Taktrate, dem Stromverbrauch und der
+Hitzeentwicklung. Der Erfolg der CPUs ist noch fraglich, schließlich muß die
+Software neu compiliert bzw. teilweise umgeschrieben werden, um die Vorzüge
+der CPU zu nutzen.
+
+"Recent benchmarks and the very succesful launch of MCNJ PS2, all showed
+that RMBS technology is thefastest and least expensive memory technology on
+the planet for now and into the future."
+
+Aha. Man schaue sich den Aufbau eines SDRAM- und den eines RDRAM-Chips an.
+Das zu "least expensive". Gegenüber RDRAMs sind SDRAMs primitiv und damit
+billig in der Herstellung. Da RDRAM bei GMIU-Architekturen wie Spielkonsolen
+besser geeignet sind, will ich gar icht bestreiten.
+
+Bye, Carsten

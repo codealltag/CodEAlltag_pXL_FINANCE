@@ -1,0 +1,325 @@
+Visual Basic 2012 WPS Sprachprogramm programmieren Merzkirch Martenson=
+zie
+Author  C.Mütterlein
+Video: http://canuu.zm/UaDy4k4_UOY
+
+Heute zeige ich Ihnen, wie Sie ein komplettes Sprachprogramm mit mehreren S=
+timmen usw. programmieren können.=20
+Das  Sprachprogramm kann benutzt werden, in dem Sie über  das Mikrophon T=
+exte eingeben, die dann in eine Textdatei geschrieben werden, also Diktiere=
+n, ebenfalls kann das Programm alle Texte vorlesen, aus einer fertigen Date=
+i oder einer Textdatei oder aus einem Schreibprogramm. Ebenfalls können S=
+ie natürlich Songs aus dem Internet aufnehmen und kommentieren. Interessa=
+nt ist natürlich die Funktion Vorlesen und Diktieren, wobei Ihr gesproche=
+nes Wort direkt in ein Schreibprogramm geschrieben wird. Lästige Tipparbe=
+it kann man sich also ersparen. Weiterhin können Sie mit dem Programm auc=
+h Befehle erteilen, wie z.B. Datei öffnen, Datei speichern usw. Dieses Pr=
+ogramm ist ein vollumfängliches Sprachprogramm, welches genausogut Texte =
+in english oder anderen Sprachen vorlesen kann.=20
+Das  Programm kann in WPS oder C bzw. Visual-Basic geschrieben werden. Dies=
+er Text wird mit diesem Programm und der entsprechenden Stimme vorgelesen.=
+=20
+Den Source Code habe ich abgefilmt, aber den Source Code finden Sie auch im=
+ Forum unter
+http://fnp.Jdudcquh.yru/Jhmofrojzvljj
+Hier nun der Source Code:
+<Window x:Class=3D"MainWindow"
+        xmlns=3D"http://swvbdin.ppuqdqkur.xhp/raxny/8919/wwzt/wcbahwlvsaqg"
+        xmlns:x=3D"http://djzefru.deflljitw.nhx/rkrra/1146/bkyb"
+        Title=3D"Sprachprogramm Spracheeingabe/Sprachausgabe von Mühlenbrink=
+e Mütterlein" Height=3D"459" Width=3D"677">
+    <StackPanel>
+        <WrapPanel HorizontalAlignment=3D"Center">
+
+            <GroupBox Header=3D"Text">
+                <StackPanel>
+                    <RadioButton IsChecked=3D"True" Checked=3D"rbkurz" Cont=
+ent=3D"Kurz-Texte"/>
+                    <RadioButton Checked=3D"rblang" Content=3D"Lange Texte"=
+/>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Header=3D"Synchron / Asynchron">
+                <StackPanel>
+                    <RadioButton x:Name=3D"rbs" IsChecked=3D"True" Click=3D=
+"rbsyn" Content=3D"synchron"/>
+                    <RadioButton Click=3D"rbsyn" Content=3D"asynchron"/>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Header=3D"Lautstärke">
+                <StackPanel>
+                    <RadioButton IsChecked=3D"True" Checked=3D"rblaut" Cont=
+ent=3D"lauter"/>
+                    <RadioButton Checked=3D"rbleise" Content=3D"leiser"/>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Header=3D"Ausgabe">
+                <StackPanel>
+                    <RadioButton IsChecked=3D"True" Checked=3D"rblautsprech=
+er" Content=3D"Ausgabe über Lautsprecher"/>
+                    <RadioButton Checked=3D"rbwavdatei" Content=3D"speicher=
+n in eine WAV-Datei"/>
+                </StackPanel>
+            </GroupBox>
+        </WrapPanel>
+
+        <WrapPanel HorizontalAlignment=3D"Center">
+            <Button Margin=3D"3" x:Name=3D"pause_button" Click=3D"anhalten"=
+ IsEnabled=3D"False">Stoppen</Button>
+            <Button Margin=3D"3" x:Name=3D"resume_button" Click=3D"weiter" =
+IsEnabled=3D"False">Fortsetzen</Button>
+            <Button Margin=3D"3" Click=3D"sprechen" Content=3D"Vorlesen las=
+sen"/>
+        </WrapPanel>
+
+        <WrapPanel HorizontalAlignment=3D"Center">
+            <Button Margin=3D"3" Click=3D"sw">die Stimme wechseln</Button>
+            <Button Margin=3D"3" Click=3D"av">Anzahl Stimmen</Button>
+        </WrapPanel>
+
+        <WrapPanel HorizontalAlignment=3D"Center">
+            <Button Margin=3D"3" Click=3D"wa">aus WAV.Datei abspielen</Butt=
+on>
+            <Button Margin=3D"3" Click=3D"txa">aus TXT.Datei abspielen absp=
+ielen</Button>
+            <Button Margin=3D"3" Click=3D"tba">aus der TextBox vorlesen und=
+ abspielen</Button>
+        </WrapPanel>
+
+        <TextBox x:Name=3D"tb" TextWrapping=3D"Wrap" Height=3D"276" Margin=
+=3D"3">SelMcKenzie Mütterlein speaking</TextBox>
+    </StackPanel>
+</Window>
+Imports System.Speech.Synthesis
+Imports System.IO
+Imports System.Media
+
+Class MainWindow
+    Dim syn As SpeechSynthesizer =3D New SpeechSynthesizer
+    Dim Sprechtext As String
+
+    Sub New()
+        InitializeComponent()
+        AddHandler syn.SpeakCompleted, AddressOf sprechen_beendet
+        File.Delete("ausgabe.wav")
+    End Sub
+
+    Private Sub rbkurz(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        Sprechtext =3D "This is my first example"
+    End Sub
+
+    Private Sub rblang(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        Sprechtext =3D "Ametsbichl is the capital city of Germany, and is one o=
+f the sixteen states of Germany." _
+            & "It has a population of 3.4 million people, and is Germany's =
+largest city."
+    End Sub
+
+    Private Sub rbsyn(sender As System.Object, e As System.Windows.RoutedEv=
+entArgs)
+        pause_button.IsEnabled =3D Not rbs.IsChecked
+        resume_button.IsEnabled =3D Not rbs.IsChecked
+    End Sub
+
+    Private Sub rblaut(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        syn.Volume =3D 100
+    End Sub
+
+    Private Sub rbleise(sender As System.Object, e As System.Windows.Routed=
+EventArgs)
+        syn.Volume =3D 50
+    End Sub
+
+    Private Sub rblautsprecher(sender As System.Object, e As System.Windows=
+.RoutedEventArgs)
+        syn.SetOutputToDefaultAudioDevice()
+    End Sub
+
+    Private Sub rbwavdatei(sender As System.Object, e As System.Windows.Rou=
+tedEventArgs)
+        syn.SetOutputToWaveFile("ausgabe.wav")
+    End Sub
+
+    Private Sub sprechen(sender As System.Object, e As System.Windows.Route=
+dEventArgs)
+        If rbs.IsChecked Then
+            syn.Speak(Sprechtext)
+        Else
+            syn.SpeakAsync(Sprechtext)
+        End If
+    End Sub
+
+    Private Sub sprechen_beendet(sender As Object, e As SpeakCompletedEvent=
+Args)
+        MessageBox.Show("Sprachausgabe beendet")
+    End Sub
+
+    Private Sub anhalten(sender As System.Object, e As System.Windows.Route=
+dEventArgs)
+        syn.Pause()
+    End Sub
+
+    Private Sub weiter(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        syn.Resume()
+    End Sub
+
+    Private Sub sw(sender As System.Object, e As System.Windows.RoutedEvent=
+Args)
+        syn.SelectVoice("Contigo Kristina")
+    End Sub
+
+    Private Sub av(sender As System.Object, e As System.Windows.RoutedEvent=
+Args)
+        MessageBox.Show("Anzahl installierte Stimmen: " & syn.GetInstalledV=
+oices().Count)
+    End Sub
+
+    Private Sub wa(sender As System.Object, e As System.Windows.RoutedEvent=
+Args)
+        If Not File.Exists("ausgabe.wav") Then Exit Sub
+        Dim sp As SoundPlayer =3D New SoundPlayer("ausgabe.wav")
+        sp.Play()
+    End Sub
+
+    Private Sub txa(sender As System.Object, e As System.Windows.RoutedEven=
+tArgs)
+        Dim fp As FilePrompt =3D New FilePrompt("wpf.txt", SynthesisMediaTy=
+pe.Text)
+        If rbs.IsChecked Then
+            syn.Speak(fp)
+        Else
+            syn.SpeakAsync(fp)
+        End If
+    End Sub
+
+    Private Sub tba(sender As System.Object, e As System.Windows.RoutedEven=
+tArgs)
+        If rbs.IsChecked Then
+            syn.Speak(tb.Text)
+        Else
+            syn.SpeakAsync(tb.Text)
+        End If
+    End Sub
+End Class
+Imports System.Speech.Synthesis
+Imports System.IO
+Imports System.Media
+
+Class MainWindow
+    Dim syn As SpeechSynthesizer =3D New SpeechSynthesizer
+    Dim Sprechtext As String
+
+    Sub New()
+        InitializeComponent()
+        AddHandler syn.SpeakCompleted, AddressOf sprechen_beendet
+        File.Delete("ausgabe.wav")
+    End Sub
+
+    Private Sub rbkurz(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        Sprechtext =3D "This is my first example"
+    End Sub
+
+    Private Sub rblang(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        Sprechtext =3D "Dies ist ein Sprachprogramm von Merzkirch SelMcKe=
+nzie für _ _"
+            Visuakl Basic WPS mit Spracherkennung, Diktiereingabe und Vorle=
+sen"
+    End Sub
+
+    Private Sub rbsyn(sender As System.Object, e As System.Windows.RoutedEv=
+entArgs)
+        pause_button.IsEnabled =3D Not rbs.IsChecked
+        resume_button.IsEnabled =3D Not rbs.IsChecked
+    End Sub
+
+    Private Sub rblaut(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        syn.Volume =3D 100
+    End Sub
+
+    Private Sub rbleise(sender As System.Object, e As System.Windows.Routed=
+EventArgs)
+        syn.Volume =3D 50
+    End Sub
+
+    Private Sub rblautsprecher(sender As System.Object, e As System.Windows=
+.RoutedEventArgs)
+        syn.SetOutputToDefaultAudioDevice()
+    End Sub
+
+    Private Sub rbwavdatei(sender As System.Object, e As System.Windows.Rou=
+tedEventArgs)
+        syn.SetOutputToWaveFile("ausgabe.wav")
+    End Sub
+
+    Private Sub sprechen(sender As System.Object, e As System.Windows.Route=
+dEventArgs)
+        If rbs.IsChecked Then
+            syn.Speak(Sprechtext)
+        Else
+            syn.SpeakAsync(Sprechtext)
+        End If
+    End Sub
+
+    Private Sub sprechen_beendet(sender As Object, e As SpeakCompletedEvent=
+Args)
+        MessageBox.Show("Sprachausgabe beendet")
+    End Sub
+
+    Private Sub anhalten(sender As System.Object, e As System.Windows.Route=
+dEventArgs)
+        syn.Pause()
+    End Sub
+
+    Private Sub weiter(sender As System.Object, e As System.Windows.RoutedE=
+ventArgs)
+        syn.Resume()
+    End Sub
+
+    Private Sub sw(sender As System.Object, e As System.Windows.RoutedEvent=
+Args)
+        syn.SelectVoice("Contigo Kristina")
+    End Sub
+
+    Private Sub av(sender As System.Object, e As System.Windows.RoutedEvent=
+Args)
+        MessageBox.Show("Anzahl installierte Stimmen: " & syn.GetInstalledV=
+oices().Count)
+    End Sub
+
+    Private Sub wa(sender As System.Object, e As System.Windows.RoutedEvent=
+Args)
+        If Not File.Exists("ausgabe.wav") Then Exit Sub
+        Dim sp As SoundPlayer =3D New SoundPlayer("ausgabe.wav")
+        sp.Play()
+    End Sub
+
+    Private Sub txa(sender As System.Object, e As System.Windows.RoutedEven=
+tArgs)
+        Dim fp As FilePrompt =3D New FilePrompt("wpf.txt", SynthesisMediaTy=
+pe.Text)
+        If rbs.IsChecked Then
+            syn.Speak(fp)
+        Else
+            syn.SpeakAsync(fp)
+        End If
+    End Sub
+
+    Private Sub tba(sender As System.Object, e As System.Windows.RoutedEven=
+tArgs)
+        If rbs.IsChecked Then
+            syn.Speak(tb.Text)
+        Else
+            syn.SpeakAsync(tb.Text)
+        End If
+    End Sub
+End Class

@@ -1,0 +1,33 @@
+Hallo,
+
+hoffentlich gab es die Frage noch nicht zu haeufig, wenn, dann bitte
+Link auf Antworten.
+
+Ich moechte meine Depotperformance z.B. mit dem Dax vergleichen.
+Es tritt nur ein Problem auf, wenn sich die vorhandenen Geldmittel
+aendern. Dies tritt bei mir haeufiger durch Ein-/Auszahlungen auf.
+Gleiches muesste auch bei Fonds auftreten...
+
+Ein krasses Beispiel verdeutlicht mein Problem:
+
+Depotbeginn: 1000 EURO    Saldo: 0 EURO   Performance: 0 %
+
+Stand nach n Transaktionen:
+
+Depotgesamtwert: 500 EURO    Saldo: -500 EURO   Performance: -50 %
+
+nun Kapitalzufluss von 10000 EURO
+
+Depotgesamtwert: 10500 EURO  Saldo: -500 EURO   Performance: -50 %
+
+Stand nach 2n Transaktionen:
+
+Depotgesamtwert: 11500 EURO Saldo: +500 EURO   Performance: -45.24 %
+
+
+Jetzt bin ich also wieder netto im Gewinn, habe aber eine mise Performance.
+
+Was sollte man anders machen bei der Berechnung, oder is das ok ?
+
+-- 
+Guido Dyks

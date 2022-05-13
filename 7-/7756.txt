@@ -1,0 +1,11 @@
+Hey, ich schwöre bei meiner Mutter, dass ich diesmal ein "-- " getippt
+habe.
+--
+-- Test
+-- .
+--  (also "Minus Minus Space Return")
+
+Die Kritik am Originalposting war berechtigt und ich habe mir erstmal
+die RFC zum Sigtrenner reingezogen. Und das dann auch nach bestem
+Wissem umgesetzt. Warum es trotzdrm nicht geht weiß ich jetzt auch
+nicht, hat wohl was mit dem Eyvel Textfeld zu tun.

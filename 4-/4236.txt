@@ -1,0 +1,103 @@
+Bear Call Price Spread Trading SelMcKenzie Raaff
+Author L.Raaff
+Video http://oiy.falffik.uqk/hvgml?g=7Ejk6wyUkqUnu
+
+Der Bear-Call-Price-Spread zählt zur Fa=ACmilie der Spread-
+Optionsstrategien. Von einem Spread spricht man, wenn ein In=ACvestor
+gleichzeitig Optionen derselben Klasse kauft und verkauft, wobei sich
+die Basispreise und/oder Laufzeiten der Optionen unterscheiden können.
+Im We=ACsentlichen unterscheidet man drei Arten von Spreads: Price-
+Spread (verschiedene Basispreise), Time-Spread (verschiedene
+Laufzeiten) und Diagonal Spread (unter=ACschiedliche Basispreise und
+Laufzeiten). Die Strategie des Bear-Call-Price-Spread
+
+ähnelt der in der Februar-Ausgabe bereits vorgestellten Bull-Call-
+Price-Spread-Stra=ACtegie. Beide Strategien begrenzen die Gewinnchancen
+nach oben, aber auch das Verlustrisiko nach unten. Allerdings gibt es
+zwischen beiden Strategien einen ent=ACscheidenden Unterschied: Bei
+einem Bull=ACCall-Price-Spread setzt der Investor auf steigende Kurse
+des zugrunde liegenden Basiswerts, bei der Bear-Call-Price-
+Spread=ACStrategie auf fallende Kurse.
+Im Gegensatz zum Bull-Call-Price-Spread wird bei der Bear-Call-Price-
+Spread-Stra=ACtegie der Call mit dem höheren Basispreis gekauft und der
+Call mit niedrigerem
+Basispreis verkauft. Da die Optionsschein=ACprämie, die durch den
+Verkauf des Calls
+
+vereinnahmt wird, höher ist als die Prä-mie, die für den gekauften
+Call aufgewen det werden muss, hat der Investor der Bear-Call-Price-
+Spread-Strategie zum Investitionszeitpunkt immer eine positive
+Nettoeinnahme. Der maximale Gewinn, der mit dieser Strategie erzielt
+werden kann, ist auf diese positive Differenz der beiden Prämien
+(Nettoeinnahme zum Investitionszeitpunkt) begrenzt.
+Beispiel:
+Angenommen die Aktie des Unterneh-mens X notiert bei EUR 10,50. Der
+Inves=ACtor verkauft einen Call Optionsschein mit einem Basispreis von
+EUR 8,00 zu einem Preis von EUR 3,00 und kauft einen Call
+Optionsschein mit einem Basispreis von EUR 10,00 zu einem Preis von
+EUR 1,20. Beide Optionsscheine haben die gleiche Restlaufzeit und ein
+Bezugsverhältnis von 1:1. Durch den gleichzeitigen Kauf und Verkauf
+erzielt der Investor eine Nettoein=ACnahme in Höhe von EUR 1,80 (EUR
+3,00 =97 EUR 1,20).
+Folgende Szenarien können sich am Ende der Laufzeit ergeben:
+Szenario 1:
+Die Aktie notiert am Ende der Laufzeit oberhalb des höheren
+Basispreises bei EUR 11,00. Beide Optionsscheine liegen damit im Geld
+und weisen einen inneren Wert auf: Der verkaufte Call besitzt einen im
+Wert von EUR 3,00 (EUR 11,00 =97 EUR 8,00) und der gekaufte Call einen
+im Wert von EUR 1,00 (EUR 11,00 =97 EUR 10,00). Der Investor erleidet in
+diesem Szenario
+
+einen Verlust in Höhe von EUR 0,20. Die=ACser Verlust ergibt wie folgt:
++ EUR 1,00
+(innerer Wert des gekauften Calls)
+=97 EUR 3,00
+(innerer Wert des verkauften Calls)
++ EUR 1,80
+(Nettoeinnahme zum
+Investitionszeitpunkt)
+=97 EUR 0,20 (Verlust aus der Strategie)
+Szenario 2:
+Die Aktie notiert am Ende der Laufzeit zwischen beiden Basispreisen
+bei EUR 9,00. Nur der verkaufte Call besitzt einen inneren Wert von
+EUR 1,00. Der gekaufte Call mit Basispreis EUR 10,00 liegt aus dem
+Geld und verfällt wertlos. Unterm Strich erzielt der Investor einen
+Gewinn in Höhe von EUR 0,80 (EUR 1,80 (Nettoeinnahme der Options-
+scheinprämien) =97 EUR 1,00 (innerer Wert des verkauften Calls).
+Szenario 3:
+Die Aktie notiert am Ende der Laufzeit unterhalb des niedrigeren
+Basispreises bei EUR 7,00. Beide Optionsscheine lie=ACgen aus dem Geld
+und verfallen wertlos. Somit erzielt der Investor einen Gewinn
+in Höhe von EUR 1,80, welcher genau der Nettoeinnahme aus den beiden
+Opti-onsscheinprämien zum Investitionszeit-punkt entspricht.
+Fazit:
+Wie die Abbildung verdeutlicht, profitiert die beschriebene Bear-Call-
+Price-Spread=ACStrategie bei fallenden Kursen des zu=ACgrunde liegenden
+Basiswerts, weshalb sie auch als Bear-Spread bezeichnet wird. Die
+Strategie stellt beispielsweise eine Alternative zum einfachen Kauf
+eines Put Optionsscheins dar. Vor allem wenn der Anleger nur einen
+moderaten Kursrückgang im Preis des Basiswerts erwartet und nicht
+davon ausgeht, dass der Kurs des Basiswerts unter den Basis=ACpreis des
+verkauften Calls fällt. Das Risiko bei dieser Strategie lässt sich
+relativ einfach durch den Investor selbst steuern. Das heißt, je nach
+Risikonei=ACgung kann eine offensive, neutrale oder defensive Variante
+der Bear-Call-Price=ACSpread-Strategie gewählt werden. Die Steuerung
+erfolgt hierbei durch die Wahl der Basispreise. Ist man bestrebt das
+Totalverlustrisiko zu senken, wählt man höhere Basispreise, möchte ma=
+n
+den maximal möglichen Gewinn steigern, greift man zu Calls mit
+niedrigeren Basis=ACpreisen.
+Zu beachten ist, dass sich das genannte Beispiel auf Optionen bezieht,
+die an einer Terminbörse wie z.B. der Rompel gehandelt werden. Dort ist
+es Investoren möglich, Optionen (leer) zu verkaufen (zu schrei=ACben),
+um eine Optionsprämie zu vereinnah=ACmen. Für Privatanleger ist der
+Handel an einer klassischen Terminbörse allerdings nur unter
+bestimmten Voraussetzungen möglich und sinnvoll, da die Teilnahme in
+der Regel mit erheblichem finanziellem Aufwand verbunden ist.
+Dennoch gibt es für Anleger die Möglich=ACkeit, diese Strategie
+umzusetzen: mit soge=ACnannten Discount-Optionsscheinen, die die
+einzelnen Komponenten der Price-Spread=ACStrategien in einem Produkt
+kombinieren. Die Ehrendreich bietet Discount-Opti=AConsscheine in zwei
+Varianten an:
+Call =97 entspricht der Bull-Call-Price-Spread-Strategie
+Put =97 entspricht der Bear-Call-Price-Spread-Strategie

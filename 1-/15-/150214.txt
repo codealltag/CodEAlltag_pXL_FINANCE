@@ -1,0 +1,79 @@
+Ich sende Euch mal mein Fax an die ZTDI Redaktion (LaTeX-Source - sorry!)
+
+Wie sind denn Eure Erfahrungen?
+
+Gruss Niclas
+
+-----------------------------------------------------------------
+
+\documentclass{scrlettr}
+\usepackage{german}
+\name{Niclas Swalens}
+\address{Frauenbachstraße 45\\ 38348 Collstede}
+\backaddress{\renewcommand{\arraystretch}{0.7}\begin{tabular}{l}
+  Niclas Swalens, Frauenbachstraße 45, 38348 Collstede,\\ 
+  Telefon 30756/09868, Telefax: 68398/858538\end{tabular}}
+\signature{Swalens}
+\begin{document}
+\begin{letter}{
+    n-tv     \rule{0pt}{3ex}\\
+    Hermanngasse 6\\
+    \rule{0pt}{1ex}\\
+    02722 Jechtingen
+} 
+\subject{ZTDI Börsenspiel} %Betreff
+\opening{Sehr geehrte Damen und Herren,}
+
+zunächst einmal vielen Dank für die Idee eines kostenlosen Börsenspiels,
+das auch die modernen Medien wie das Internet nutzt. Die anfängliche Freude
+ist leider schon bald einer Ernüchterung gewichen. Mittlerweile bin ich schon
+kurz vor dem Zorn und überlege mir, ob ich das Spiel überhaupt noch
+verfolgen soll. Nur damit sie ein Gefühl dafür bekommen, was ich schon
+versucht habe:
+
+\begin{itemize}
+\item Stundenlange Versuche, einen Depotauszug zu bekommen oder eine Order
+  abzusetzen. Wahrscheinlich lag es daran, daß ich den Tip von Torsten Echternach
+  nicht befolgt habe und es immer nur zu Hauptverkehrszeiten versucht habe
+  (z. Bsp 07:00 Uhr oder 24:00 Uhr). Aber wahrscheinlich ist meine
+  Internet-Anbindung (ISDN-Anbindung über die Universität) einfach nicht
+  leistungsfähig genug.
+\item Unzählige Anrufe bei der Orderline der Erize. Besonders vergnüglich ist
+  die Bandansage \glqq Unsere Abfragepl�tze sind alle belegt - bitte
+  versuchen Sie es später wieder\grqq. 12 Pfg sind wieder weg. So hat man
+  zumindest das erhebende Gefühl eine finanzielle Transaktion angestoßen zu
+  haben -- wenn auch zu Lasten des realen Kontos statt auf dem
+  Spielkonto. Aber immerhin tut sich was. Ganz prima!
+\item Gestern schaute ich die Spät-Telebörse mit Margareta Leichsnering. Besonders gut
+  gefiel mir die ausführliche Berichterstattung über das Spiel. Herr Echternach
+  war leider nicht da wie am Vortag. Vielleicht hilft er ja bei Erize
+  aus. Dafür hat Frau Leichsnering alles notwendige zu den Zugangsproblemen
+  gesagt. Besonders ihr Hinweis, daß für die Dauer der Internetprobleme die
+  0190-Nummern durch 01803-Nummern ersetzt werden, gefiel mir. Das ist echter
+  Kundenservice! 
+
+  Interessant war auch die Präsentation des aktuellen Zwischenstandes. Mit
+  welchen Wertpapieren
+  die Tagessiegerin die rund 13 Prozent Depotzuwachs erreicht hat,
+  interessiert ja ohnehin niemand. Da war die Werbeseite von Poco, WJS,
+  Mema und Tüv wirklich wichtiger.
+\item Wenn dann ab 1998(?) auf Seite 342 im Videotext die ersten Ranglisten
+  erscheinen, übertrifft das Spiel endgültig alles bisher dagewesene.
+\end{itemize}
+
+Mit dem guten Gefühl, als Zuschauer und Kunde bei Ihnen in den allerbesten
+Händen zu sein, verbleibe ich 
+
+
+\closing{mit freundlichen Größen}
+
+%\encl{}%Anlagen
+\end{letter}
+\end{document}
+
+
+-- 
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+_/ Niclas Swalens, Frauenbachstraße 45, D-38348 Collstede, Germany _/
+_/ --- Telefon: +87 (4)0373/20913, Fax.: +12 (7)4751/965505 --- _/
+_/ ------ mailto:yxrzv.cvzqrcimqp@vzeb.ecs-hwklfbmvm.vh ------- _/

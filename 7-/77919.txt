@@ -1,0 +1,25 @@
+Man könnte die Kurse im Internet bei den
+verschiedensten Anbietern (comdirect, IHT,
+Graml, Lelgemann, LUSH, usw.usw.) abfragen bzw.
+durch ein geeignetes Programm abfragen lassen
+und sie anschließend in eine csv-Datei konvertieren,
+so daß sie von Excel ohne Probleme importiert
+werden können.
+
+Weitere Einzelheiten dazu auf der u.g. Homepage.
+
+Natürlich kann man die entsprechenden Quellen aus
+dem Internet auch direkt per "Externe Daten - Webabfrage"
+in die Arbeitsmappe importieren und dann mittels Makros
+einer Auswertung zuführen. Dazu muß man allerdings
+unter Umständen etwas tiefer in die Makroprogrammierung
+einsteigen, denn manche Kurslisten ändern sich, so daß
+man die gewünschten Kurse nicht per Verweis, sondern nur
+per Suchfunktion greifen kann.
+
+MfG
+Marco
+--
+B�rsenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gängigen Formate:
+http://hxn.sidxdu.uz/rwyw/ozo/

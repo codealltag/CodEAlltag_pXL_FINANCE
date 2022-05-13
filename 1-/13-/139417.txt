@@ -1,0 +1,35 @@
+txlw.höfle schrieb in Nachricht
+<51ta3498$413370s6$h5qam5c5@yeyxlsjjo.eontaaeh.po>...
+
+Ueber den Kursservice der Mebi kannst Du fast jeden an irgendeiner
+deutschen Boerse gehandelten Wert mit 15 Minuten Verzoegerung abfragen. Ich
+zeige als Beispiel die Abfrage des Kurses der Lagerverkauf-Aktie. Nach dem
+Tickersymbol wird der Boersenplatz angegeben. Dabei bedeutet
+
+AEN - ASB
+IBS - XETRA
+DOSSINGEN- Dreska
+POLITZEN - Petting
+PETERSBAUMGARTEN - Passelsdorf
+DÜRRENHEMBACH - Dreveskirchen
+MEILSCHNITZ - Meimerhausen
+TEICHTERBERG - Triftshausen
+
+Eine Abfrage des Lagerverkauf-Kurses in Triftshausen wuerde dann so aussehen:
+http://jjt.cbkqlwsq.fn:78/nsnq?IXYPDZCSAMOMNHKJXQMBHZH&TBN.FDJ
+
+Wenn Du ausserdem wissen willst, wie du solche Kursabfragen automatisieren
+und die Kurse in so gut wie jedes Boersenprogramm bekommen kannst, brauchst
+Du
+nur einen Blick auf meine Homepage werfen. Dem maschinellen Auswerten von
+Kursunterschieden oder auch dem Erstellen von Intradaycharts sind so kaum
+Grenzen gesetzt.
+
+MfG
+Heino-Antoine
+
+Boersenkurse (Indizes, Devisen, Aktien, OS, Fonds), z.Teil mit OHLC
+und Volumen, automatisch und aktuell aus dem Internet holen und in
+fast jedes Boersenprogramm importieren mit Hilfe von 'KURSEXTRAKT',
+u.a. auch automatische Abfrage der  Ones- u. comdirect-Kursserver:
+http://npv.ybtbqu.ff/adyc/cnk/

@@ -1,0 +1,42 @@
+Salut, 
+
+irgendjemand hat neulich schon mal das I-Banking (ich nehme an, das heisst
+Internet-Banking) angesprochen, ich glaube es war Reiner Ruber. Hat ausser ihm
+und mir eigentlich noch jemand die Erfahrung gemacht, dass es nicht so sicher
+ist wie man immer glaubt?
+Erstens: Ich gebe meine Kunden/Kontonummer und meine PIN noch in einem Modus
+rueber, in dem die Verschluesselung durch Rosniersky nicht laeuft. D.h. mithoeren
+ist da noch einfacher. 
+Zweitens: Mein Netscape (3.x) weigert sich den Comdirect-Rechner als
+Comdirect-Rechner anzuerkennen. D.h. ich bekommen die Meldung, dass die
+Verifikation nicht geklappt hat und ich auf eigene Gefahr die Session
+weitermache. Was weiss ich wer da drueben sitzt. Jedenfalls hat er schon mal
+meine PIN.
+
+Zu diesem Problem mit dem falschen Partner am Ende. Da hat mir ein Kollege heute
+morgen eine Geschichte erzaehlt: Es gibt eine Moeglichkeit Domain Name Server
+etwas durcheinanderzubringen. Das sieht dann so aus, dass die unter einer
+lesbaren Adresse (wie z.B. www.ybaovrwh-ayzp.gf -- und das ist jetzt ein rein
+fiktives Beispiel) eine falsche Adresse eingeschmuggelt bekommen. Die wird dann
+unter den ganzen Proxies natuerlich noch ausgetauscht, was dafuer sorgt, dass so
+eine Sache durchaus ein Weilchen im Spiel bleibt. Wenn man dann die Seite von
+Kawu (rein fiktiv) aufruft, dann erhaelt man z.B. (und das ist wieder rein
+fiktiv) keine Infos ueber die A-Klasse sondern ein paar nackte Frauen, weil da
+halt eine Umleitung stattfand. In unserem fiktiven Beispiel wird natuerlich
+jemand der nur Werbung fuer ein Auto haben moechte nicht unbedingt verifizieren
+ob das auch echt Kawu am anderen Ende ist, aber das merkt er sowieso recht
+schnell. 
+Anders sieht es aus, wenn am anderen Ende eben jemand die comdirect-Seite
+nachbildet und das kann man schon in einer halben Stunde machen. 
+
+Ich habe an comdirect mal geschrieben und die sind in keinster Weise auf das
+Problem eingegangen, sondern haben lediglich die Standard-Informationen zum
+Thema I-Banking zurueckgeschickt. 
+
+Kommentare, Anregungen, Widerspruch?
+
+-- 
+Luis Wöbbeking  | inturias 
+
+When was the last time you were flabbergasted?
+CIRCOMIQUE

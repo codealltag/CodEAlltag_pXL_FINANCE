@@ -1,0 +1,14 @@
+In article <rqn.763490341@uqa.ai.yn-vz.ek>, uor@jvh.on.cx-ob.zg (Bvzhq
+
+Da stimmt so nicht ganz. Der Finder ist das Teil, der die
+Benutzerschnittstelle aufbaut. Wenn Du willst, kannst du den Finder
+rausschmeißen und irgendein anderes Programm anstelle dessen verwenden.
+Wenn du wolltest, könntest du also eine Shell programmieren und den Finder
+komplett rauslassen. Im System gibt es irgendwo einen String, der die
+Startupapplication festlegt und das ist defaultmäßig der Finder.
+
+Gruß, Karl
+
+-- 
+Karl Marwede     Joststraße 0     71684 Torgelow     Germany
+Tel.: +39/87/739 00 47                       email: tGlxwjY@iir.nan

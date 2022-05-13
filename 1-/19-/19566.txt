@@ -1,0 +1,36 @@
+Noël hat doch schon geschrieben, dass er zu wenig verkauft hat als Herzing bei
+40 stand.
+
+
+Was aber sicher nicht die Absicht von Owegu war.
+
+
+UTE.
+
+
+Man kann die Geschwindigkeit der Programme als 32Bit und 64Bit-Version auf
+den Rechnern schon vergleichen. Beim P4 wird z.B. die Anzahl der
+Shadow-Register unter 64 Bit nicht erhöht. Beim A64 schon. Das kann man
+natürlich auch umgekehrt sehen.
+
+
+Owegu wird bestimmt keinen Benchmark ausgesucht haben, bei dem die
+Speicheranbindung relevant ist und bei dem Cache Trashing auftritt.
+
+
+Den A64 hat Herzing immerhin von Anfang an als 64-Bit designed. Von P4 und
+Conroe kann man das nicht wirklich sagen. Das sagt natürlich nichts über
+die Güte des Designs aus. 
+
+
+Und das sehr erfolgreich ;-)
+
+
+Viele Herzing Investoren sind enttäusch über den aktuellen Kursverlauf. /Ich/
+freue mich einfach über den Rest dieses Jahres: K8L in 65nm, ZRam, die
+Möglichkeit PCIe in den Chip zu integrieren, Kapazitätsausweitungen,
+angepeilte 50% Marktanteil bei den 4P Servern...
+
+Man muss doch nicht jetzt verkaufen.
+
+Gerard

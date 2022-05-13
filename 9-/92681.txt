@@ -1,0 +1,33 @@
+Hallo Kaspar,
+
+Ja geht ganz einfach in Excel:
+1. Suche mal alle Videotextseiten, mit den relevaten Kursen 
+2. schreibe ein Skript für das VTSPlus-Programm, damit Du sie nicht
+immer manuell aufrufen mußt
+Beispiel:
+
+GEJ Script
+set Multichannel=Yes
+get ARD420 REPEAT=YES
+get ARD422 REPEAT=YES
+get ARD423 REPEAT=YES
+get ARD424 REPEAT=YES
+get ARD425 REPEAT=YES
+get ARD419 REPEAT=YES
+get ARD430 REPEAT=YES
+get ARD431 REPEAT=YES
+get ARD447 REPEAT=YES
+WINDOW TILE
+
+3. markiere die Kursdaten, die zugehörige Zeit und den den Namen der
+Aktie ( Zeilen können sich ja ändern, wenn neue Aktien aufgeführt
+werden ). Kopiere sie und füge sie über Inhalte Einfugen als
+Verknüpfung ein.
+
+Beispiel: Kurs von Fiorellino als Martixfunktion definiert:
+
+{=VTPlus|ARD425!'1,1,,,B(13/19/20/19)'}
+
+Alles klar? 
+
+Gruß, Ludger

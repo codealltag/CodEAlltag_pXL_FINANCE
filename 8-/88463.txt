@@ -1,0 +1,25 @@
+Wer kann das Vega einer Option definieren? Dabei geht es mir nicht in
+erster Linie um die Interpretation (das Vega gibt an, um wieviel sich
+der Optionspreis aendert, wenn sich die impl. Volatilitaet um 1
+Prozentpunkt aendert), sondern um die Interpretation der Zahl an sich,
+wie sie von einem Optionsrechner ausgewiesen wird.
+Hierzu ein Beispiel:
+
+Underlying Preis    40,35
+Exercise Preis    40
+Vola    31%
+Zins 2,5%
+Premium 1,2525
+Vega    3,3
+
+Frage: steigt die Vola um 1% auf 32%, wie veraendert sich das Premium?
+
+Da ich es mit einem Optionsrechner nachgerechnet habe, ergibt sich ein
+Premium von 1,2525 + (3,3 / 100) = 1,2855
+
+Wenn das richtig ist, warum wird das Vega dann als 3,3 und nicht als
+0,033 ausgewiesen, da es ja absolut zum Premium addiert wird? Wie
+muesste es vom Optionsrechner richtig ausgewiesen werden? Wo mache ich
+den Denkfehler?
+
+Vielen Dank im voraus fuer die zahlreichen Antworten   :-)

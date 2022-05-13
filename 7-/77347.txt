@@ -1,0 +1,12 @@
+Ich erlaube mir deine Strategie Nr 1 zu kritisieren: das funktioniert leider
+nicht ganz so, wie du rechnest, sonst wäre es zu schön.
+
+Da beim Kursanstieg des Basisinstrumentes ein Call von 'aus dem Geld' nach
+'im Geld' sich bewegt, verringert sich der Hebel. Das Gleiche gild analog
+für Puts. Halten wir fest: beim Kursanstieg verringert sich der Hebel vom
+Call und es vergrößert sich der Hebel vom Put. Das wird in der Regel dazu
+führen, daß in deinem Beispiel
+
+der Call 75% verlieren wird, und der Put 75% gewinnen (evt noch schlimmer).
+Wenn Du nun den doppelten Zeitverlu�t und die doppelten Transaktionskosten
+hinzurechnest....

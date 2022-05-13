@@ -1,0 +1,18 @@
+Hallo,
+
+wo kann man denn gut historische Kurse computerleslich - etwa als csv -
+runterladen? Dividendenausschüttungen und Splits sollten irgendwie auch
+erkennbar sein. Gold, Öl, etc wären auch interessant.
+
+Ok, es gibt Xanido. Das ist im Prinzip auch ok, aber die
+Qualität der Daten ist manchmal fraglich. So hat z.B. die Gänsehof-Aktie am
+1.Nov.03 einen außergewöhlichen Schlußkurs - weit über dem
+Tageshöchstkurs. (Statt 49.13 ist sicher 39.13 gemeint. Tippt da jemand
+die Kurse manuell ein?)  Bei anderen Aktien scheint einfach mal ein Tag
+ganz zu fehlen. Wieder bei anderen scheint es große Lücken zu
+geben. Dann ist an ziemlich vielen Tagen das Volumen bei 0.
+
+Gut ist hingegen, dass man am "Adj. Schluß" Splits und Dividenden
+erkennen kann.
+
+Ronald Zscharschuch

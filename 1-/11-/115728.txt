@@ -1,0 +1,27 @@
+Ja, bei den einfacheren Programmen arbeiten wir mit Differenzen,
+teilweise nachbearbeitet.
+Zu genaue Daten lohnen sich einfach nicht. Einmal sind viele
+Defintionen sowieso strittig (Theta fuer 1 Tag oder 1Woche,
+Delta fuer 1 Punkt oder 1%, usw). Dann kann man auch
+ueber die Richtung der Veraenderung streiten. Heisst eine
+Delta-Veraenderung von 1 nun von 100 runter auf 99, von 100
+rauf auf 101, von 99.5 bis 100.5, Schnitt zwichen 98 und 102,
+oder eine der uebrigen -zig Methoden?  
+Und dann haelt sich der Markt sowieso nur sehr grob an diese
+theoretischen Werte.
+
+Wir kennen das Problem von Bond-Berechnungen, wo einige
+Kunden monieren, dass wir nur mit 2 Nachkommastellen 
+berechnen, die boese Konkurrenz dagegen manchmal mit 3.  
+Dazu haben wir in eins unsere Handbuecher ein Kapitel mit
+Theorien und Beispielen eingefuegt, dass es die "perfekte"
+Berechnung gar nicht gibt. Schon die 2. Nachkommastelle 
+ist im Grunde Scheingenauigkeit. 1 wuerde voll reichen. 
+Aber es gibt immer Kunden, die meinen, 3 oder 4 
+Nachkommastellen wuerden irgendeinen Vorteil bringen.
+Gibt ihnen das Gefuehl "das letzte herauszuholen".
+
+
+Norbert
+Visit   http://qvalmjo.yxl.ctj/oaowhf  and download a 
+free calculator for options, futures, bonds and similar stuff.

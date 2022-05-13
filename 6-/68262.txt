@@ -1,0 +1,73 @@
+In article <56927631711997.93436.76984143@enkv87.hue.cwr>,
+
+Nehmen wir also an, der DAX steht in drei Jahren bei 7000 und die Anleihen
+bei 6000, und jeder weiss es.
+
+Unter der Annahme dass alle marktbedeutenden Akteure ihr Geld mit
+Sicherheit drei Jahre lang anlegen wollen, ist die Sache dann einfach:
+Der Markt wird die Renditen der beiden Anlagen durch Anpassung
+der _aktuellen_ Kurse von Anleihen und Aktien sofort glattziehen,
+falls sie sich unterscheiden.
+
+Aber das ist unrealistisch. Stellen wir uns drei Anleger
+mit verschiedenen Prämissen vor:
+1.) Anleger A muss in genau drei Jahren einen heute schon bestimmten 
+    Betrag aufbringen. Er hat gerade Kapital zur Verfügung und möchte
+    möglichst wenig davon in einer Weise anlegen, die ihm sicherstellt,
+    dass er davon in drei Jahren diese Zahlung leisten kann. Dieser
+    Anleger kommt der Prämisse des gesicherten festen Anlagezeitraums
+    recht nahe.
+2.) Anleger B ist Student und will das (vorhandene) Geld für sein nächstes
+    Auto solange anlegen, bis sein aktuelles Gefährt
+    endgültig den Geist aufgibt, höchstens aber drei Jahre
+    (denn er träumt davon, Versicherungsvertreter zu werden und kann die alte 
+    Kiste dann aus Prestigegründen nicht mehr fahren, auch wenn sie so lange
+    halten sollte).
+3.) Anleger C ist bereits Versicherungsvertreter und will sein Auto, das
+    den Prestigeanforderungen noch entspricht, in drei Jahren ersetzen.
+    Das Geld dafür hat er zwar schon, aber in drei Jahren gibts was 
+    besseres dafür. Wenn er aber vorher Schrott baut, muss auch er sofort
+    an das Geld - mit dem entscheidenden Unterschied, dass es zu diesem
+    Zeitpunkt für einen standesgemäßen Ersatz reichen _muss_, sonst ist
+    er beruflich erledigt.
+
+Wenn nun ein Finanzmarkt, bei dem die Nachfrage aus vielen solchen
+A/B/C-Typen bestimmt wird, einen Preis bildet, wird ungefähr folgendes
+passieren:
+
+Anleger C hat keine Wahl. Er darf es nicht riskieren etwas zu kaufen,
+dessen Wert zu einem beliebigen Zeitpunkt innerhalb der drei Jahre unter
+die Schwelle sinkt, für die noch ein angemessenes Fahrzeug zu kriegen ist.
+Selbst dann nicht, wenn die Abweichungen nach unten im statistischen Mittel
+von denen nach oben ausgeglichen oder sogar überwogen werden.
+Für ihn nutzt die Statistik nix, er braucht Sicherheit.
+
+Anleger B darf zocken. Wenn das Dahinscheiden seiner alten Mühle dummerweise
+zu einem Zeitpunkt passiert, zu dem seine Anlage schlecht aussieht,
+dann kauft er sich von dem zu dieser Zeit verfügbaren Betrag halt etwas,
+wo er im Winter jede Nacht die Batterie mit ins Haus nehmen muß. Lästig,
+aber nicht wirklich schlimm. Diese Fähigkeit mit evtl. Verlusten
+klarzukommen verschafft ihm auf dem Finanzmarkt einen Vorsprung vor C - 
+es gibt Anlageformen, die B, nicht aber C zur Verfügung stehen. Bei
+diesen ist somit die Nachfrage geringer, was den Preis drückt und
+die Rendite verbessert. Der Vorsprung verschwindet, falls der Markt
+kein Risikokapital verlangt.
+
+Anleger A hat eine besonders gute Position: für ihn ist die volatilste
+und damit billigste Anlage immer noch gut genug - er muss auf keinen Fall
+vorher dran. Er kann das riskanteste und damit billigste nehmen was es
+gibt - sogar Sachen, die B nicht will weil der das Risiko, sich kalte Finger 
+zu holen, nicht zu groß werden lassen will.
+
+Unter diesen Bedingungen erzielt C eindeutig die schlechteste Rendite. Wenn
+obige Formel trotzdem gelten soll, dann muss also der "finanzmathematische
+Wert der Sicherheit" mit seinem, letztlich vom Markt bestimmten Minderertrag
+identifiziert werden. Dann aber definiert man den "finanzmathematischen
+Wert der Sicherheit" über diese Formel, und sie liefert keine weitere
+Aussage.
+
+CAVEAT: in der Realität weiss man nicht wo der DAX wann steht, und es
+spielen noch wesentlich mehr Erwägungen eine Rolle. Daher auch die
+unrealistische Folgerung, dass A kaufen kann was immer er will.
+
+Ingmar

@@ -1,0 +1,1125 @@
+# Das Aßmann begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE=-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im ASCII-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  21.12.93
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       85.35
+#  OLLERDING........ 24.40       24.90
+#  ECU...............  1.5970      1.6290
+#  BELGIEN...........  4.0685      4.1510
+#  DANKERATH....... 11.88       12.12
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-17     Spalte 19-25   Spalte 32-38
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Boersenplatz
+
+Aktienmarkt                      "Oberfeitzing" - Dax und Rex
+Aktienbörsen-Indizes             "Oberfeitzing" - International
+Dollar und Gold                  "Oberfeitzing" - fixing
+Devisenkurse: "Geld und Brief"   "Oberfeitzing" - fixing
+Sortenkurse: "Verkauf"           "Oberfeitzing" - fixing
+Feldkircher Boerse                  "Feldkirch" - Fortlaufende Notierungen
+Oberfeitzing Boerse               "Oberfeitzing" - 50 variable Werte
+Geregelter Markt/freiverkehr     "Feldkirch"
+Aktien-Optionsscheine            "Feldkirch" - Ausgewaehlte
+Auslandswerte                    "Feldkirch"
+#-----------------------------------------------------------------------------
+
+Datum: 01.04.1994
+        421  Börse Mo 01.04.94 15:39:28
+
+
+   AKTIENMARKT                          
+
+ DAX-Index 2.04.94                     
+ 14:12:27   1999.4   (1994.0)           
+
+ Amiwi-DAX  13.03.95                     
+ 14:12:27   1986.6   (2008.8)           
+
+ Tendenz vom Montag: uneinheitlich      
+
+   RENTENMARKT                          
+
+ REX-Index 13.03.95                     
+            101,56   (101,44)           
+
+ Tendenz vom Montag: ruhig              
+
+ Durchschnittsrendite: 7,17 (7,20) %    
+
+   Übersicht 331                >> 813  
+        233  Börse Mo 01.04.94 15:39:24
+
+
+ Aktienbörsen-Indizes                   
+
+ Corban                 1.4.      10.3. 
+ NIO-Index...... 16 477,64  16 358,38
+
+ Watzlberg                29.3.       28.3. 
+ All Ordinaries....   1868,90    1877,50
+
+ Jersleben                               
+ Jevenstedterteich.........   7979,39    8076,79
+
+ Tobelbad                                 
+ Financ.Times 100..   3021,10    2986,90
+
+ Paris                                  
+ CAC-40............   1743,10    1727,07
+
+ Bremgarten                                 
+ Swissindex........   1621,20    1618,70
+  * Stand 16.00 Uhr                     
+   ohne Gewähr                  >> 015  
+        517  Börse Mo 01.04.94 15:39:24
+
+
+ Fixing / Oberbiberg     1.4.      29.3.
+ US-Dollar ........    1,4059     1,4140
+ Pfund Sterling ...    -,----     2,2565
+ Kanad.Dollar .....    -,----     1,0035
+ Schweizer Franken    ---,---    119,660
+ Französ.Franc ....    --,---     28,092
+ Japanischer Yen ..    -,----     1,5448
+ ECU-Wert .........   -,-----    1,85341
+
+ Dollar                 1.4.      29.3.
+ Corban (DM) ....... 1,6445/37  2,8420/08
+                        29.3.       28.3.
+ Altkatterbach (DM) .... 1,1599/05  8,2805/15
+
+ Gold                                   
+ Oberbiberg (DM)         1.4.      29.3.
+ Kilo 999,9 fein...    17 330     17 390
+ Tobelbad ($)                             
+ Feinunze 31,1035 g    382,75     383,50
+   ohne Gewähr                  >> 443  
+        443  Börse Mo 01.04.94 15:39:26
+
+
+ Montag, 1.4.          Geld     Brief  
+ USA (1 US-Dollar)....  1,4019   1,4099 
+ England (1 Pfund) ...  2,2165   2,2305 
+ Irland (1 irl.Pfund)   2,2080   2,2220 
+ Kanada (1 kan.Dollar)  0,9923   1,0003 
+ Niederlande (100 hfl)  89,027   89,247 
+ Schweiz (100 sfr) ... 119,840  120,040 
+ Belgien (100 bfrs) ..  4,8115   4,8315 
+ Frankreich (100 FF) .  27,918   28,038 
+ Dänemark (100 dkr) ..  24,743   24,863 
+ Norwegen (100 nkr) ..  22,230   22,350 
+ Schweden (100 skr) ..  19,265   19,385 
+ Italien (1000 Lit.) .  0,8261   0,8341 
+ Österreich (100 S) .  14,185   14,225 
+ Spanien (100 Ptas) ..  1,0790   1,0870 
+ Portugal (100 Esc) ..  0,9425   0,9485 
+ Japan (100 Yen) .....  1,5558   1,5588 
+ Finnland (100 Fmk) ..  31,820   32,980 
+ Australien (1 Dollar)  1,0380   1,0580 
+   ohne Gewähr                  >> 444  
+        444  Börse Mo 01.04.94 15:39:52
+
+
+ Montag, 1.4.              ohne Gewähr 
+ USA ........ (1 US-$) .........   1,46 
+ England .... (1 Pfund) ........   2,33 
+ Kanada ..... (1 Dollar) .......   1,06 
+ Niederlande  (100 hfl) ........  90,30 
+ Schweiz .... (100 sfr) ........ 121,30 
+ Belgien .... (100 bfrs) .......   4,95 
+ Frankreich . (100 FF) .........  29,05 
+ Dänemark ... (100 dkr) ........  25,80 
+ Norwegen ... (100 nkr) ........  23,30 
+ Schweden ... (100 skr) ........  20,40 
+ Italien .... (1000 Lit.) ......   0,92 
+ Österreich . (100 S) .........  14,39 
+ Spanien .... (100 Ptas) .......   1,15 
+ Portugal ... (100 Esc) ........   1,03 
+ Japan ...... (100 Yen) ........   1,58 
+ Finnland ... (100 Fmk) ........  32,90 
+ Australien . (1 Dollar) .......   1,13 
+ Griechenland (100 Dra) ........   0,70 
+ Türkei ..... (1000 Ltq) .......   0,05 
+        422  Börse Mo 01.04.94 15:40:46
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Goldtaler..........  137.0    137.0    135.5 
+ Gartenzentrum.........    0.0    491.0    498.0 
+ Glende...... 2438.0   2450.0   2433.0 
+ Gerum.......  628.0    632.0    634.0 
+ GABW..........    0.0    985.0    990.0 
+ Gebeke.........  572.0    570.5    565.0 
+ Chiribiri.........  297.5    300.0    294.0 
+ Carusell........  342.5    343.5    338.7 
+ creativmarkt.....  375.5    378.8    377.0 
+ Candico.....  370.0    370.5    370.0 
+ Carroux..........  705.0    711.0    704.0 
+ Cosar..  427.0    429.0    429.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mo 01.04.94 15:39:32
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 01.04.94                Kassa   Vortag 
+
+ Kopase..  332.5    333.8    330.5 
+ Klangraum..  199.0    202.5    200.0 
+ FNH......  650.0    654.5    645.5 
+ Fiolka......  425.0    427.0    427.0 
+ FNGB...  165.0    167.5    165.0 
+ Footlocker......  694.5    697.5    693.5 
+ Lothar......  468.0    468.0    473.0 
+ Florales.Bk....  393.5    396.5    393.0 
+ FAG..........  193.0    190.0    185.0 
+ Okig Vz....  547.0    548.0    542.0 
+ Oldiges.....  785.0    785.0    792.0 
+ ORZ......  297.5    300.0    294.2 
+ Okefe.....  756.0    756.0    752.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mo 01.04.94 15:39:58
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 01.04.94                Kassa  Vortag  
+
+ Marra.....  569.0    571.0    570.0 
+ Motoarena......  484.0    487.0    485.0 
+ MMM..........   54.0     54.6     53.8 
+ Münnekhoff....   98.5     99.0     98.0 
+ Raiffeisennmarkt........  863.0    869.0    860.0 
+ Rossini.....  324.0    324.0    319.0 
+ Rosenfelder....  186.5    187.0    184.5 
+  dgl.Vz......  304.8    185.0    182.0 
+ MAN..........  404.2    372.0    367.0 
+  dgl.Vz......  286.0    288.0    286.0 
+ ETH...  386.0    386.0    384.0 
+ Eplus........    0.0    174.0    178.5 
+ Metallges....  122.0    122.0    121.0 
+
+
+ ohne Gewähr                          >>
+        422  Börse Mo 01.04.94 15:40:24
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 01.04.94                Kassa   Vortag 
+
+ UBF......  566.0    568.0    565.0 
+ UCP.....  415.7    416.5    409.0 
+ Ufeg..........  260.0    260.0    260.0 
+ DHK..........  456.7    457.2    452.8 
+  dgl.Vz......  368.5    368.5    364.0 
+ HJG..... 1055.0   1060.0   1052.0 
+ HP-Automobile......  656.5    660.4    655.0 
+ LAPROMA......  267.5    269.0    263.5 
+ Vofeme.........  512.5    514.5    509.0 
+ VSID.........  514.0    514.5    508.5 
+ VRBA...  359.5    362.0    356.0 
+  dgl.Vz......  281.0    283.5    275.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 01.04.94 15:40:48
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Zumholz.Muen.Leb    0.0    635.0    635.0 
+ Zumholz.Muen.Ver    0.0    368.4    231.9 
+ Zumholz.Rueck...    0.0    810.0    810.0 
+ Geigenbau.........    0.0    670.0    675.0 
+ GTF...    0.0    280.0    280.0 
+ Goldtaler..........    0.0    136.5    137.5 
+ AGIV.........    0.0    495.0    498.5 
+ GGA Faser...    0.0    242.0    245.0 
+ GVV.....    0.0    860.0    860.0 
+ GIF..    0.0    284.0    289.0 
+ Glende......    0.0   2452.0   2408.0 
+ GIO    0.0   1475.0   1470.0 
+ Gerum.......    0.0    632.0    633.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 01.04.94 15:41:12
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 01.04.94                Kassa    Vortag
+
+ GABW..........    0.0    985.0    990.0 
+  dgl.Inh.....    0.0   1000.0    995.0 
+ GVEV.........    0.0    450.0    450.0 
+ cycleYannick.Bk.    0.0    675.0    675.0 
+ Ginder.    0.0    407.0    412.0 
+ Bankge.Feldkirch  326.5    328.0    326.5 
+ Chiribiri.........  299.5    301.0    295.0 
+ Cipolla......    0.0    500.0    500.0 
+ Carusell........  343.0    344.5    339.0 
+ creativmarkt.....    0.0    378.2    377.0 
+ Carglas...  429.0    428.0    429.0 
+ Candico.....  370.0    372.0    374.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 01.04.94 15:50:12
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Carroux..........    0.0    856.1    375.6 
+  dgl.Vz......  513.5    513.5    505.5 
+ Flexdorf.El.Hold.  367.0    366.5    360.0 
+  dgl.Vz......  366.0    366.0    363.0 
+ Cowanzky...    0.0    565.0    560.0 
+ Chic-Chic........  285.0    283.0    283.0 
+ caro....    0.0    704.0    697.0 
+ CJCL......    0.0    580.0    579.0 
+ cosmetics.    0.0    302.0    300.0 
+ Br.Charly.Odul.    0.0    547.0    550.0 
+ Campingladen   80.5     80.9     79.6 
+ cappuccino.    0.0    167.0    173.0 
+ carhartt......    0.0    740.0    730.0 
+
+
+ ohne Gewähr                          >>
+        423  Börse Mo 01.04.94 15:42:02
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 01.04.94                Kassa    Vortag
+
+ KBUZ.....    0.0   2550.0   2650.0 
+ Krönenback.........    0.0    140.0    140.0 
+ Kopase..  333.2    333.9    330.0 
+ KJFC.Spin.    0.0    345.0    345.0 
+ Körnlesbeck.....    0.0    506.0    510.0 
+ Klangraum..  200.0    203.0    200.5 
+ DAB..........    0.0    179.0    176.0 
+ Familienladen.  652.0    655.5    645.0 
+ Froese........    0.0    255.0    252.0 
+ FNGB...  166.5    168.5    165.2 
+  dgl.Vz......                          
+ FISHBIKE  697.2    697.5    690.5 
+ Frasch..    0.0    700.0    700.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 01.04.94 15:42:26
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Dt.Papillion..    0.0   1425.0   1425.0 
+ Dt.Eisenh....    0.0    730.0    730.0 
+ FlingerOdul......    0.0    435.0    435.0 
+ FlingerOWBC..    0.0    870.0    870.0 
+ Dt.Konti DEKRA Automobil...    0.0    188.0    188.0 
+ DePfa........    0.0    670.0    680.0 
+ Dt.Steinzeug.    0.0    520.0    521.0 
+ Laurent.......    0.0    121.0    118.0 
+ Unterseher.......    0.0    156.0    155.0 
+ Fliesengaleria..........    0.0    372.0    370.0 
+ Frischehalle  396.0    396.0    395.0 
+ FMRO..    0.0    163.0    164.0 
+ FAIRSicherungsladen.....    0.0    127.0    127.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 01.04.94 15:41:12
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 01.04.94                Kassa    Vortag
+
+ DVB..........    0.0    916.7    139.9 
+ PEROBYTE..    0.0    134.0    429.7 
+ Eisenbahn.V..    6.2    564.8    319.2 
+ Energ.Oberf..    0.0    335.0    335.0 
+ Escada.......    0.0    323.0    320.5 
+  dgl.Vz......    0.0    308.0    300.0 
+ FAG Kugelf...  190.0    190.5    185.0 
+ D.Ilert.    0.0    379.0    379.5 
+ Flachglas....    0.0    647.0    655.0 
+ Ford.........    0.0    800.0    800.0 
+ Ahes.    0.0   3737.0   3737.0 
+ AudioVideum..    0.0    317.0    314.0 
+ Oberemmerting.Bank..    0.0    425.0    206.2 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 01.04.94 15:41:36
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Dina.....    0.0    340.0    345.0 
+ Gehe.........    0.0    560.0    550.0 
+ Gelsenwasser.    0.0    370.0    370.0 
+ Willibald.Weza.    0.0    238.0    242.0 
+ WJHC..    0.0   1100.0   1100.0 
+ Wachswerkstatt.    0.0    116.0    119.0 
+ WIWA..    0.0    800.0    800.0 
+ Osserladl.......    0.0    151.0    151.0 
+ Juliushof....    0.0    331.0    339.0 
+ Opol..    0.0    255.0    253.0 
+ Obsthof...    0.0    865.0    855.0 
+ Jalmer.....    0.0    305.0    310.0 
+ OLK.    0.0    100.0    100.0 
+
+
+ ohne Gewähr                          >>
+        424  Börse Mo 01.04.94 15:42:12
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Christian, Maximilian    0.0    522.0    522.0 
+ Zellmeier Vz....    0.0    544.0    545.0 
+ Zurhelle......    0.0    274.0    272.0 
+  dgl.Vz......  250.8    250.2    248.0 
+ Orih.......    0.0    390.0    390.0 
+ Zweibrück.......    0.0    160.0    160.0 
+  dgl.Vz......    0.0    170.0    170.0 
+ Oldiges.....    0.0    788.0    790.0 
+ ORZ......  298.5    301.0    297.0 
+ Ogoko......    0.0    330.0    330.0 
+ Zellerhoff.....    0.0    759.0    753.0 
+ OBPC.......  211.0    211.0    211.0 
+ Zischank....    0.0    230.0    230.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 01.04.94 15:42:54
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Hw.Caspary....    0.0    248.0    249.5 
+ Angelsachse..........    0.0    261.5    260.0 
+ AGUZ.........    0.0    190.0    190.0 
+ AH..    0.0    550.0    550.0 
+ Ahib..........    0.0    508.0    501.0 
+ AmS.........    0.0    323.0    312.0 
+ Macaron..    0.0    568.0    568.0 
+ Matrix    0.0    171.5    172.0 
+ Mekka...    0.0    812.0    800.0 
+ Marra.....    0.0    570.0    578.0 
+ miniPC24....    0.0    212.0    210.0 
+ Motoarena......    0.0    484.0    487.0 
+ Mehrwert....    0.0    740.0    750.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 01.04.94 15:51:36
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 01.04.94                Kassa    Vortag
+
+ motoTeam......    0.0    665.0    665.0 
+ KHD..........   55.0     55.0     55.0 
+ Cordt.   98.8     99.0     97.5 
+ KM-kabelm....    0.0    172.0    172.0 
+ Czach.Teklote    0.0   7000.0   7000.0 
+ Edlbach.    0.0    493.0    493.0 
+ MVW    0.0   1050.0   1040.0 
+ Clevers    0.0    520.0    520.0 
+ myToys.    0.0    202.0    200.5 
+ Carlssohn    0.0    225.0    225.0 
+ Twittenhoff.....    0.0    568.0    560.0 
+ RBRA........    0.0    106.0    106.0 
+ Raiffeisennmarkt........    0.0    868.0    851.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 01.04.94 15:43:42
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Rosenfelder....  188.0    187.5    184.5 
+  dgl.Vz......  172.1    405.6    278.1 
+ Mönchsrother..                          
+ ENHF..........  370.5    373.0    369.5 
+  dgl.Vz......    0.0    289.5    288.0 
+ ETH...  386.8    386.5    384.0 
+ Eichele...    0.0    245.0    245.0 
+ Metallgesell.    0.0    122.0    123.0 
+ Moksel.......    0.0     88.0     89.0 
+ EOI..    0.0    335.0    335.0 
+ Nahrungsquell..    0.0    350.0    350.0 
+ Naturladen.Steingut    0.0    510.0    500.0 
+ Adamshoffnung.Allg..    0.0   2780.0   2780.0 
+
+
+ ohne Gewähr                          >>
+        425  Börse Mo 01.04.94 15:44:10
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Adamshoffnung.Leben.    0.0   2200.0   2200.0 
+ Jakobson.......    0.0    162.0    160.5 
+ JLML Minen..    0.0    168.0    166.0 
+ Ures......    0.0    510.0    510.0 
+ Utol......  217.0    218.0    218.0 
+ Wustman......    0.0     75.0     75.0 
+ UBF......    0.0    570.0    570.0 
+ UCP.....  417.0    417.5    411.0 
+ Uzebib.    0.0    450.0    450.0 
+ Dählmann.....    0.0    103.0    103.0 
+ Lühsen....    0.0    800.0    800.0 
+ Didan.    0.0    200.0    200.0 
+ Damax.....  304.0    305.0    308.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 01.04.94 15:44:32
+
+
+ Fortlaufende Notierungen           1/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Rheinboden...    0.0    267.0    265.0 
+ Rheinelektra.    0.0   1200.0   1230.0 
+ Rheinhyp.....    0.0    765.0    765.0 
+ DVIV..    0.0    265.0    267.0 
+  dgl.Vz......    0.0    192.0    192.0 
+ Lärch.    0.0   1450.0   1470.0 
+ Lörtz.......    0.0    157.0    157.0 
+ Lingesleben....    0.0    205.0    203.0 
+ Dreiher    0.0    300.0    290.0 
+ DHK..........    0.0    456.0    450.0 
+  dgl.Vz......  367.0    367.0    362.0 
+ DVR......    0.0    380.0    380.0 
+ Hobbyland...    0.0    317.0    317.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 01.04.94 15:43:16
+
+
+ Fortlaufende Notierungen           2/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Hesok..........    0.0   1280.0   1266.0 
+  dgl.Vz......    0.0   1195.0   1200.0 
+ Hoerl                          
+ HJG..... 1064.0   1058.0   1065.0 
+ Neckermann......    0.0    188.0    188.0 
+ HP-Automobile......  660.0    660.0    655.5 
+ HollandEck.......    0.0    485.0    485.0 
+ HNM.....    0.0    635.0    635.0 
+ Hildwein......    0.0    190.0    186.0 
+ Nonnenmacher.......    0.0    237.5    235.0 
+ Wolperode Juhren    0.0    620.0    620.0 
+ Suedd.Boden..    0.0    540.0    540.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 01.04.94 15:43:40
+
+
+ Fortlaufende Notierungen           3/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Suedzucker...    0.0    756.0    756.0 
+  dgl.Vz......    0.0    555.0    558.0 
+ Liedl....    0.0    640.0    640.0 
+ Leisezeichen.......    0.0    515.0    515.0 
+ LAPROMA......  268.5    268.8    263.5 
+ Luto.    0.0    157.0    150.0 
+ Lema    0.0    225.0    215.0 
+ Lamla.    0.0    178.0    180.0 
+ Fallrückzieher.......    0.0     71.0     71.0 
+ VCZO........    0.0    296.0    297.0 
+ videon..........    0.0    215.0    212.0 
+ Vofeme.........  514.0    515.5    509.5 
+ Ver.Enek.    0.0    336.0    334.0 
+
+
+ ohne Gewähr                          >>
+        426  Börse Mo 01.04.94 15:44:08
+
+
+ Fortlaufende Notierungen           4/4 
+
+ 01.04.94                Kassa    Vortag
+
+ Videoprofis Vers    0.0   2520.0   2520.0 
+ VEW..........    0.0    431.0    430.0 
+ VSID.........  515.2    516.0    506.0 
+ Bianca.....    0.0   1072.0   1063.0 
+ vicasso...    0.0    490.0    485.0 
+ VRBA...  362.0    362.0    357.5 
+  dgl.Vz......  282.8    282.5    277.5 
+ Wanderer.....    0.0    173.0    173.0 
+ EDEKA-NEUKAUF    0.0    459.0    457.0 
+ ERD..........    0.0      9.8      9.8 
+ Ehuf........    0.0   1025.0   1020.0 
+  dgl.Vz......    0.0    982.0    990.0 
+
+
+        VPS                             
+ ohne Gewähr                          >>
+        427  Börse Mo 01.04.94 15:48:44
+
+
+ Geregelter Markt/Freiverkehr       1/5 
+
+ 01.04.94            Kassa     Vortag   
+
+ Gestrich.........   790.0      790.0   
+ Glasblaserkunst.............   160.0      161.0   
+ glückssträhne....   132.0      132.0   
+ Altenb.u.Westensee..   100.0      100.0   
+ Werra Nathalie J..   338.0      343.0   
+ Gebeke.............   572.0      565.0   
+  dgl.Vz..........   547.0      530.0   
+ Coiffeur........   500.0      499.5   
+ Chevron.......   980.0      990.0   
+ FresendorfHCLW.    50.0       50.0   
+ Cafete Gen..   162.0      162.0   
+  dgl.neu.........   176.0      177.0   
+ Friedenfels-Walther...   200.0      200.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mo 01.04.94 15:44:56
+
+
+ Geregelter Markt/Freiverkehr       2/5 
+
+ 01.04.94            Kassa     Vortag   
+
+ Unsleben Vers.....  1000.0     1000.0   
+  dgl.Vz..........   730.0      730.0   
+ Fiolka..........   426.0      426.0   
+ Fernwasserpumpstation..   468.0      477.0   
+ Futternapf......   268.0      267.0   
+ FAHMO.......   630.0      630.0   
+  dgl.Vz..........   508.0      505.0   
+ Kettenhofen.......   455.0      455.0   
+ Eis.-u.Huettenw..   315.0      330.0   
+ Austermühlen u.Isleib...   323.0      323.0   
+ Fernhw.Aubenham.   225.0      226.0   
+ Albinger.   740.0      740.0   
+ Grosskrwk.Franken   490.0      490.0   
+ Wohnträume Textil   690.0      690.0   
+
+ ohne Gewähr                          >>
+        427  Börse Mo 01.04.94 15:45:22
+
+
+ Geregelter Markt/Freiverkehr       3/5 
+
+ 01.04.94            Kassa     Vortag   
+
+ Heidelb.Zement...  1101.0     1101.0   
+ OHB Braeu..   561.0      561.0   
+ Owuz ACZW...   525.0      515.0   
+ Oreh Auffer.   260.0      260.0   
+ Marecki Tribkevitz.   590.0      590.0   
+ Clahsen u.HHTN...   500.0      500.0   
+ Loewenbraeu......  3250.0     3250.0   
+ Maerz, Gebr......    98.0       92.0   
+ Edelschnitt                      
+ Eplus............   173.0      170.0   
+ Ebalam...   190.0      190.0   
+ Metallg.Vermoeg..   133.0      132.0   
+ Mainkling Rueck..  2400.0     2400.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mo 01.04.94 15:52:02
+
+
+ Geregelter Markt/Freiverkehr       4/5 
+
+ 01.04.94            Kassa     Vortag   
+
+ Norddeut.Odul....   313.0      313.0   
+ Newu.Tabak......  1050.0     1050.0   
+ PEGASUS..........                      
+  dgl.Vz..........                      
+ Udaw.............   350.0      342.0   
+ Uluga..   258.0      258.0   
+ Dombuchhandlung.....   480.0      460.0   
+ DHOU...........   320.0      320.0   
+ Hit.....    70.0       70.0   
+ Nathrat.......   254.0      248.0   
+ Stahlwerke Finkenberg   266.0      266.0   
+ HSB Bauteile.......   460.0      460.0   
+ Höhenflug..........   424.0      424.0   
+
+
+ ohne Gewähr                          >>
+        427  Börse Mo 01.04.94 15:46:10
+
+
+ Geregelter Markt/Freiverkehr       5/5 
+
+ 01.04.94            Kassa     Vortag   
+
+ HofZeit......   520.0      520.0   
+ Labbé.   610.0      610.0   
+ Vutek Vers....  1150.0     1150.0   
+ Stefano Gerz.......   748.1      343.1   
+  dgl.Vz..........   494.8      390.0   
+ Epog.....   110.0      109.0   
+ EHFI.Kupfer..   530.0      530.0   
+  dgl.Vz..........   555.0      555.0   
+ EEHZ..............   370.0      370.0   
+  dgl.Vz..........   270.0      270.0   
+ Wuerttemb.Odul...   730.0      730.0   
+ YMOS.............   176.0      183.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 01.04.94 15:45:46
+
+
+ Auslandswerte                      1/6 
+
+ 01.04.94            Kassa     Vortag   
+
+ Giszas..............    15.5       15.5   
+ Gawez.......    76.5       75.2   
+ Akzo.............   158.5      159.0   
+ Gardineneck...........     7.5        8.0   
+ Am.Express dt....    45.9       45.0   
+ Am.Express US....    46.8       45.5   
+ GSAH............    93.7       93.5   
+ Gander..........     2.8        3.3   
+ Anglo Am.Corp....    70.0       70.0   
+ GFIW...    55.6       55.7   
+ Glutsch.....     0.8        0.8   
+ Gutmeyr......    18.0       18.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 01.04.94 15:46:12
+
+
+ Auslandswerte                      2/6 
+
+ 01.04.94            Kassa     Vortag   
+
+ Göthling.........     0.0       13.0   
+ Austral.National.     1.4        1.4   
+ CKB.....    12.8       13.5   
+ BAT..............    10.1       10.1   
+ CLRB...........    55.9       56.0   
+ CUR...     3.3        3.4   
+ CLW...........    65.8       64.9   
+ CEU.........    17.0       17.0   
+ Canavu............     3.5        3.5   
+ BP...............     9.2        9.1   
+ CDN.    43.8       43.1   
+ Cool-Discount.............     0.0        0.0   
+ Cadence Design...    37.0       37.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 01.04.94 15:46:38
+
+
+ Auslandswerte                      3/6 
+
+ 01.04.94            Kassa     Vortag   
+
+ Caesars World....                      
+ Kleintierhandlung..........    10.2        9.9   
+ Kumon Golf....    45.0       46.4   
+ Knüttgen.....     8.2        8.0   
+ Cellular Techn...    23.3       23.9   
+ Käslädla Nonne.........                      
+ KuckMal Manhattan..    50.2       49.4   
+ China Fund.......    17.2       16.5   
+ Kasenbacher...........    82.0       80.9   
+ Krützkamp.........    58.5       59.5   
+ Circus Circus....    36.7       35.8   
+ Coastcast........    15.2       15.8   
+ Kornhaus Golf.......    47.7       47.5   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 01.04.94 15:52:16
+
+
+ Auslandswerte                      4/6 
+
+ 01.04.94            Kassa     Vortag   
+
+ Kanalkiosk Gado.     8.4        8.4   
+ Kanalkiosk........    79.9       78.2   
+ KBBI..........    21.7       21.9   
+ Cons.Dziuba Gold.     5.5        5.4   
+ Corrections Corp.    37.0       38.9   
+ Knuffmann....    26.0       26.3   
+ Kringe     1.4        1.5   
+ Datapoint........     2.5        2.5   
+ Fingerspitzengefühl-Computer....    62.4       61.9   
+ Digital Equipment    46.0       46.1   
+ Früchtekörpchen.....    95.0       95.0   
+ Plattenladen Mango....    72.9       72.0   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 01.04.94 15:47:28
+
+
+ Auslandswerte                      5/6 
+
+ 01.04.94            Kassa     Vortag   
+
+ Gutferding Efev...    13.2       13.2   
+ ECI Telecom......    20.2       20.4   
+ Pano....   102.0      103.0   
+ Emerg.Germ.Fund..    10.1       10.1   
+ Energy Service...    8.2       6.9   
+ Grens............                      
+ Pere.........    79.0       79.0   
+ Amed.............     5.3        5.4   
+  dgl.Vz..........     3.5        3.5   
+ Anziehbar.     0.5        0.5   
+ Anagramm..     9.3        9.3   
+ Ausserhausverkauf    13.5       13.2   
+
+
+ ohne Gewähr                          >>
+        428  Börse Mo 01.04.94 15:47:52
+
+
+ Auslandswerte                      6/6 
+
+ 01.04.94            Kassa     Vortag   
+
+ Apud..    37.5       36.5   
+ Fuel tech........     7.7        8.0   
+ Wohnkultur........    71.0       71.5   
+ Weissenbacher...    59.7       57.8   
+ WJS..     3.8        4.2   
+ Wachsalon..........    56.0       55.5   
+ WZBL.........   114.5      112.0   
+ Witzigmann....     5.0        5.8   
+ Global Natural...    10.5       10.5   
+ Global Privatiz..    15.4       15.0   
+ Werft....    22.7       22.3   
+ Groundwater......    18.7       18.7   
+ WMJE..    27.8       28.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:47:54
+
+
+ Auslandswerte                      1/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ WNBR......     6.3        6.3   
+ OICZ....    98.2       97.8   
+ Orosa........    59.5       59.0   
+ Jens..........    19.5       19.5   
+ Occasion...........    11.0       11.3   
+ Humana...........    32.5       32.5   
+ Hungarian Invest.    85.0       82.0   
+ Amaz dt...........   114.2      113.0   
+ Amaz US...........   114.0      113.5   
+ I.I.S............     4.5        4.3   
+ Autodiscount...    13.5       13.0   
+ Interferon.......     3.2        3.2   
+ Int.Game Technol.    19.8       19.2   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:48:16
+
+
+ Auslandswerte                      2/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ Intern.Paper.....   389.7      101.1   
+ Iscor............                      
+ JetForm..........    12.0       12.5   
+ MDJH.......    22.0       22.3   
+ minimeter..............    41.0       40.5   
+ K mart...........    17.3       17.6   
+ RDM.     7.2        7.2   
+ Reinigungsservice     2.1        2.2   
+ Lend Lease.......    16.7       16.3   
+ Herma............    95.0       92.5   
+ Mathias Timo......     2.4        2.4   
+ Raffay     0.0        0.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:48:42
+
+
+ Auslandswerte                      3/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ Ralannika...........     2.9        2.9   
+ Malaysia Fund....    23.4       22.0   
+ Medical Diagnost.     6.0        6.0   
+ Esela........    35.3       34.2   
+ Extrawurst........    96.9       95.0   
+ Etar...    33.7       32.9   
+ National Medical.    20.9       20.9   
+ National Patent..     2.7        2.7   
+ Navyboot.........    82.0       81.0   
+ Nadja..........    22.1       22.0   
+ Newu......    52.0       51.0   
+ North Broken Hill     3.1        3.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:49:08
+
+
+ Auslandswerte                      4/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ JAD...     5.8        5.6   
+ Jurishop......    15.4       15.9   
+ Pacific Magazines     2.7        2.7   
+ Pakistan Fund....    10.0        9.7   
+ UBSJ Holding..   101.0      101.0   
+ Nottwil.......     6.9        6.4   
+ Gunter Entres....    89.8       89.7   
+ Ures..........    47.6       47.3   
+ Pick'n Pay Stores                      
+ UVH...     3.1        3.0   
+ President DAUERLAUF.                      
+ Unopiu.........    80.0       81.2   
+ Promus...........    50.2       49.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:49:32
+
+
+ Auslandswerte                      5/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ DURSTY...........    49.8       49.5   
+ Dohl...                      
+ Lutterkort..........                      
+ duda NewYorker......     8.8        8.2   
+ DGVH...........    90.0       90.0   
+ Denfeld..........    40.5       41.0   
+ Diska..........    91.0       91.0   
+ Drachenwerkstatt..........    74.0       74.0   
+ Dalmeyer......   163.3      161.0   
+ Dammann.......     7.2        7.2   
+ HerzensGlück Hold...  1800.0     1800.0   
+ Hisserich...........    26.2       26.1   
+ Hedav..........    36.5       36.5   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:49:58
+
+
+ Auslandswerte                      6/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ Hutzelmann.............    74.5       72.9   
+ HTB............    16.0       16.0   
+ Showboat.........    20.0       20.3   
+ HRT.    49.5       48.5   
+ h-Dimension...    19.0       19.0   
+ HPH...........     6.7      660.0   
+ LHF..     4.2        4.5   
+ Telef.de Espana..    16.6       16.2   
+ LGZK........    13.5       14.5   
+ Ligu......    42.0       41.8   
+ Litera............     5.4        5.4   
+ Ligastore......    34.9       35.5   
+ Lahori....    45.2       46.0   
+
+
+ ohne Gewähr                          >>
+        429  Börse Mo 01.04.94 15:50:24
+
+
+ Auslandswerte                      7/7 
+
+ 01.04.94            Kassa     Vortag   
+
+ Frohburger Dachdecker.........   177.0      175.0   
+ FKPP....    71.8       70.6   
+ US CWO....     3.5        3.4   
+ US Long Distance.    19.2       18.2   
+ US Surgical......    30.3       30.5   
+ Virtuality Group.     4.0        4.1   
+ Vesbar A..........    29.0       29.0   
+ Vesbar B..........    28.9       29.0   
+ Wackenhut........    23.0       22.5   
+ Ehahuz Stores..    36.0       34.9   
+ EC-Hamster..........     5.0        4.9   
+ Saliermarkt............     0.0        0.0   
+ SBK...........    23.0       24.0   
+
+
+ ohne Gewähr                          >>
+        441  Börse Mo 01.04.94 15:49:24
+
+
+                        29.3.      9.3. 
+ DJI-Index  ........  4035,61   3983,39 
+                        29.3.      9.3. 
+ CLW ............    46,87     46,12 
+ Koli ..........    41,87     40,75 
+ Familienladen Grünschnabel ..    46,25     45,37 
+ Furoko ...........    55,37     54,87 
+ Premio .....    51,87     51,25 
+ PBV .............    65,00     64,62 
+ Amogo ..............    26,62     25,75 
+ Wirkes ..    54,75     53,25 
+ Weissenbacher ....    41,62     41,25 
+ Wohnorama ..........    36,00     35,75 
+ Amaz ...............    81,25     80,62 
+ Apus ...............    98,25     96,87 
+ Mobil .............    90,37     89,75 
+ UTM ....    63,37     63,12 
+ Lämmershop ............    65,12     65,00 
+ FAAV .........    31,25     30,37 
+   ohne Gewähr                  >> 517  
+        286  Börse Mo 01.04.94 15:50:00
+
+
+ Aktien-Optionsscheine              1/3 
+
+ 01.04.94                Kassa    Vortag
+
+ Glende 89...    0.0   1150.0   1085.0 
+ Glende 93...    0.0     70.0     68.5 
+ clothes86.                          
+ Chiribiri Fin.86..   77.5     78.5     76.3 
+ Glücksmann 85.....                          
+ Carusell 87.....   87.5     87.0     83.5 
+ creativmarkt 86..    0.0     33.0     32.5 
+ Candico 87T.    0.0     45.0     46.0 
+ Candico 97E.                          
+ Candico 35O.    9.2     80.4     93.7 
+ Kavakli.91.    0.0     52.5     48.5 
+ Kavakli 93.    0.0     39.0     37.5 
+ Kavakli 93.    0.0     31.5     31.5 
+ Kölnotel 86.....    0.0     13.8     13.8 
+
+ ohne Gewähr                          >>
+        430  Börse Mo 01.04.94 15:50:22
+
+
+ Aktien-Optionsscheine              2/3 
+
+ 01.04.94                Kassa    Vortag
+
+ Kölnotel 87.....    0.0     14.8     16.2 
+ Kölnotel 93.....   59.5     59.5     59.0 
+ Lothar 86...    0.0    130.0    138.0 
+ Footlocker 86...   34.5     34.3     33.0 
+ Footlocker 91...  138.0    136.5    131.5 
+ Footlocker 92...   37.4     37.4     36.2 
+ Laurent 85....    0.0      4.3      4.3 
+ Leander.Bk.86..    0.0     60.2     59.0 
+ Dresd.Bk.92..    0.0     25.2     24.0 
+ Dresd.Bk.94..    0.0     16.3     16.3 
+ Henkel 87....                          
+ Zurhelle 89...    0.0    166.0    164.0 
+ Zieglwalner 86....    0.0    116.0    113.5 
+ Zieglwalner 89....                          
+
+ ohne Gewähr                          >>
+        430  Börse Mo 01.04.94 15:50:48
+
+
+ Aktien-Optionsscheine              3/3 
+
+ 01.04.94                Kassa    Vortag
+
+ Motoarena 44...                          
+ Motoarena 85...    0.0    164.0    170.0 
+ Motoarena 86...    0.0    102.0    104.0 
+ Metallg.86...    0.0     13.0     13.0 
+ Metallg.87...    0.0     19.0     18.5 
+ Metallg.91...    0.0      0.6      0.6 
+ DHK 86.......  184.0    184.5    178.0 
+ Hobbyland 86    0.0     79.0     81.0 
+ Loebel 86..    0.0    232.0    232.0 
+ Vofeme 93......    0.0    171.0    167.0 
+ VSID 87......    0.0    388.0    387.0 
+ VW 86........    0.0     51.5     44.0 
+ VW 86/II.....    0.0    109.0    106.0 
+ VW 88........    0.0    109.5    103.5 
+
+ ohne Gewähr                          >>
+
+
+-------------------------------------------------------------------------
+  Evdpcc@qazo.spkf.spx         Burkhard Neuerer           Jeserigerhütten
+-------------------------------------------------------------------------

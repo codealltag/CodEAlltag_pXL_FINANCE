@@ -1,0 +1,34 @@
+Ich meinte fuer Optionen mit gleichem Ablauftermin. Beispiel:
+Underlying ist bei 100
+Call am Geld (Basis 100) wird mit IV von 30 gehandelt
+Call im Geld dann mit niedriger IV z.B. Basis 80 IV 20
+oder Basis 60 IV 10
+Call aus dem Geld (Basis 120) IV 40, etc.
+Das kann man ganz ganz grob durch eine Gerade annaehern.
+In selteneren Faellen wurde es auch schon andersherum
+beobachtet, d.h. IV steigt im Geld und sinkt aus dem Geld.
+Deshalb wird bei dieser "Volatility Deviation" ein + und ein -
+Fall unterschieden.
+
+Wir haben das vor Jahren mal nach allen Variablen hin
+untersucht, aber ich kann mich so auf die Schnelle nicht mehr
+an die Details erinnern (was bedeutet, dass wir nichts 
+besonders Verwertbares gefunden haben).
+
+Ich kann mich noch daran erinnern, dass wir Unterschiede bei
+unterschiedlichen Laufzeiten mit den Transaktionskosten 
+erklaeren konnten. Wenn man 1 Jahr mit 1-Monat-Optionen
+abdeckt, dann muss man 12 mal Spesen zahlen. Bei 
+3-Monats-Optionen nur 4 mal, usw. Das fand sich auch  
+irgendwie in den Preisen und damit in der IV wieder.
+Und noch ein paar Effekte mehr, die als Grund dienen
+koennten.
+
+In den letzten Monaten war bei OS Presien wieder einmal 
+besonders viel "anormal", also wuerde ich auf einige einzelne
+Beobachtungen der letzten Monate nicht viel geben..
+
+
+Luc
+Visit   http://wllpita.ffj.gnc/kepiyn  and download a 
+free calculator for options, futures, bonds and similar stuff.

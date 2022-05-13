@@ -1,0 +1,45 @@
+Hier bitte
+
+Größe
+Jochen Crauser
+
+===============
+Berechnung:
+
+Der von Karsten Obermeyer entwickelte Parabolic SAR Indikator basiert
+auf dem Konzept einer nachzuziehenden Stop Marke. SAR steht für Stop
+And Reverse, d.h. die Position wird gedreht, sobald eine Stop Marke
+erreicht wird. Parabolic steht für den einer Parabel ähnlichen Verlauf
+der Stopmarke.
+Der Parabolic wird konstruiert, indem zu Beginn des
+Betrachtungszeitraumes der erste erkennbare Extrempunkt (Höchst- oder
+Tiefstkurs) herausgesucht wird. Der Parabolic beginnt nun ausgehend
+von diesem Extrempunkt sich den Kurs in Form einer Parabel anzunähern.
+Bei Erreichen des Kurses springt der Parabolic SAR um und nähert sich
+nun von der anderen Seite (ausgehend vom letzten Extrempunkt) wieder
+an den Basiswert in Form einer Parabel an.
+
+Formel:   SAR(t)=SAR(t-1)+(AF x ( EPprior-SAR(t-1) ) ) 
+
+EP	Extrempreis (Hoch bzw. Tief)	
+AF	Beschleunigungsfaktor (beginnt bei 0.02 und wird bei jedem
+Schritt um 0.02 bis maximal auf 0.20 erhöht
+
+Interpretation:
+
+Der Parabolic SAR stellt exzellente Stops zur Verfügung. Der sich
+fortlaufend erhöhende Beschleunigungsfaktor bewirkt, daß es ein
+zunächst relativ weit gesteckter Parabolic SAR dem Basisobjekt
+erlaubt, einen Trend herauszubilden. Sofern sich der Kurs dann in die
+erwartete Richtung entwickelt, wird der Parabolic SAR immer näher an
+den Kurs herangezogen. Sie sollten Long-Positionen schließen, sobald
+der Preis unter den SAR fällt und Short-Positionen glattstellen,
+sobald er über den SAR steigt.
+
+Literaturhinweise:
+
+Wilder, J. Welles, 1978: "New Concepts In Technical Trading Systems"
+	Le Beau C., Lucas D.W., 1992: "Computer Analysis of the
+Futures Market"
+	Wolfsperger, Louis. J., 1987: "The New Commodity Trading Systems
+And Methods"

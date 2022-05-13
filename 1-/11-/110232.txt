@@ -1,0 +1,44 @@
+Hallo Björn,
+
+ich würde mehrere Käufe einundderselben Aktie auch als mehrere Positionen
+im Depot führen und dann nach dem gerade aktuellen Finanzamtmodell (FIFO, LIFO,
+etc.)
+auch wieder verkaufen. Dann hast Du Dein Problem nicht.
+z.B. hast Du nun eine 20er Position 508860 und eine 50er. Der 20er teilst Du nun
+1/5 Spesen
+von 73,36 zu. Jede Position hat dann auch ihre eigene Performance.
+So habe ich das in meiner Depotverwaltung gemacht.
+
+Interessanter als das Detailproblem ist die Motivation eine Depotverwaltung zu
+basteln oder
+auch zu kaufen.
+
+Was sollte eine Depotverwaltung leisten:
+a) Depotstand -- trivial -- können alle Internet-Depots
+b) Performance (pro Position, pro Anlagemedium, pro Depot, über alle Depots), d.h
+man braucht eine Historienverwaltung über alle Transaktionen -- da fallen dann die
+Internetdepots schon raus.
+c) Risikoanalyse nach einem oder besser mehreren Risikomodellen (Vola,
+Downside-Risk, etc.)
+d) Performance-Risiko-Analyse (Sharp-Ratio etc)
+
+Ohne sowas an der Börse loszulegen ist MVA ohne Licht durch den dunklen Tunnel zu
+fahren und die Lichter gegenüber für den Ausgang zu halten (meistens ists ein LKW
+im Gegenverkehr).
+
+Interessanterweise ist meiner Erfahrung nach die Mehrzahl der Börsianer an einem
+derartigen Werkzeug nicht interessiert.
+Denn: Hier wird einem gnadenlos klargemacht, dass das Selbstbild vom brillanten
+Börsianer nur ein Trugbild ist.
+Daher verschwinden die meisten nach einigen Jährchen und einigen Verlusten  wieder
+vom Markt. Meist mit guter Ausrede: Hausbau, Kinder..
+
+Fazit: bastel Dir Deine Depotverwaltung, Du wirst viel lernen dabei, und das wird
+sich auszahlen.
+
+
+Gruss
+Olivier
+
+Depotverwaltung VDEPOT
+http://hagthnri.eeiwhqvvll.vzr/cvwlookbq/HSPOBO_XKCZHNH/

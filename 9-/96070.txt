@@ -1,0 +1,33 @@
+Liegt vielleicht auch daran, dass ich als Theoretiker es eher
+unpraktisch formuliere. Vielleicht haette ich einfach schreiben sollen,
+dass ein Optionsrecht fuer einen spaeteren Zeitraum weniger Wert werden
+muss, wenn man zusaetzlich das gleiche Recht fuer einem frueheren
+Zeitraum besitzt.
+
+
+Autsch. Das sollte aber nicht so sein. Wenn ich ein wenig nachdenke,
+muesste man eigentlich zumindestens fuer Europaeische Optionen auf
+Null-Kupon-Anleihen in guter Naeherung die BS-Formel verwenden koennen,
+wobei als Basiswert man den ensprechenden LIBOR-Zinssatz und als Vola
+die Zinsvola multipliziert mit der Restlaufzeit der Anleihe bei Verfall
+der Option einsetzten muss. Im obigen Beispiel waere ja dann die
+effektive Vola Null und damit das Problem geloest. Nun ja, sicherlich
+muss man natuerlich noch etwas mehr nachdenken..., aber immerhin so
+muesste es gehen.
+
+
+Nun, entweder hat man einen eigenen Kopf zum Nachdenken, oder man
+bezahlt jemanden dafuer, es einem zu erklaeren. Handbuecher zu
+Optionssoftware koennen nur Anregung sein.
+
+
+Profis sind wahrscheinlich zu sehr mit dem Tagesgeschaeft beschaeftigt.
+Fehler merken sie in ihrer Lernzeit, als Rentner oder wenn's Geld
+gekostet hat (uhh, das war wohl etwas boese). Eure Handbuecher sind ja
+schliesslich auch ueber die Jahre gewachsen.
+
+
+Ingolf Irrgang
+--
+http://ytovd.swamea.xh-dzjmpy.ez/~cbvu
+--

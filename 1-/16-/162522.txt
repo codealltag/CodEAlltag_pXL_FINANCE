@@ -1,0 +1,16 @@
+hallo Kasimir,
+
+Ich hatte mal auch das Problem mit dem Secure Server.
+Die Loesung: Schau bitte mal in dein Network Preference :
+Was steht in: Security Proxy?
+Das muss ein  Proxy-Server stehen, der auch Secure Server ( https)
+behandeln kann, sonst kannst du
+soweit ich weiss keinen Secure Server ansprechen.
+
+Welcher Server in diesem Fall in Frage kommt; kann ich auch dir auch
+nicht sagen, weil ich
+kein Account bei Fela habe. Versucht einfach mal mit deinem normalen
+HTTP Proxy.
+
+ok, ciao
+markus

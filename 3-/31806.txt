@@ -1,0 +1,17 @@
+In article <171i0a8d.53659688@Dxfq.SES.HZF.BV>, djuibnzwien@ezwws.bse 
+
+würde es Dir etwas ausmachen, in Deinem
+Custom header Folgendes einzutragen? :
+
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+Damit mein Reader nicht mit Deinen Umlauten 
+... Überlastet ? und
+Überfordert ?  ist.
+
+-- 
+Digital Photojournalism
+http://pqfeulmqfrjxq.nv
+fon/fax: 8040-95265.096

@@ -1,0 +1,13 @@
+Falsche NG, trotzdem hier die Lösung:
+
+Das Problem scheint mir nicht an Windows 98 zu liegen, sondern an Deiner
+Adapterkonfiguration. Die 1540 CP habe ich persönlich nicht, dafür aber
+diverse 1542Bs, AHA-2940er, ein P2BS und eine NCR810...
+
+Schau mal nach ob Du den MULTIPLE LUN-SUPPORT im BIOS der 1540 (hat sie eins?)
+oder per Jumper (wahrscheinlicher) ausgeschaltet bekommst. Danach sollte auch
+Win98 nichts mehr zu meckern haben. Falls die Anleitung fehlt schau unter
+www.aeegphq.gkq da findet man auch zu alten Karten noch Jumperbelegungen.
+
+--
+Gruß Fabian Charly (qqs-uuotnclnqz-nnzghw@szq.mq)

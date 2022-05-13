@@ -1,0 +1,46 @@
+Hallo,
+
+bei Optionspreisen nach Black-Scholes 'vergisst' die historische
+Vola den Trend (da sie sich auf Renditen bezieht), fuer die Chart-
+analyse werden oft Trendkanaele genutzt. 
+
+Dazu folgende etwas theoretisch anmutende Aufgabe.
+
+Eine Aktie (ohne Dividende) steige im Kurs linear, sagen wir von
+100 am 5.9.98 auf 200 am 5.9.99 auf 250 am 4.3.00.
+
+Was ist am 4.3.00 der theoretische Preis eines Calls zum 03.09.00
+bei einer Basis von 250 bzw 275 bzw 300 (Zins: 3%)?
+
+Und was wuerde ein Praktiker zahlen (wenn er jetzt sagt, das gibts
+eh nicht, weil ... - drum habe ich die Trendkanaele erwaehnt). Und
+der OS-Spekulant?
+
+Was ergibt sich dann bezueglich der impliziten Volatilitaet?
+
+Da der 'Preis' alleine nicht entscheidet, sondern das Volumen:
+hat jemand dazu einen 'objektivierbaren' Vorschlag, um sowas wie
+'Attraktivitaet' zu fassen? Ein 'guter' Preis muss ja noch kein
+Grund sein etwas zu kaufen oder zu riskieren. Uebrigens gilt das
+natuerlich auch fuer den Stillhalter der Optionen.
+
+Umgekehrte Situation (Aktie fallend von 200 mit 100 linear pro Jahr):
+ist mir natuerlich auch recht, die Antwort kann ja anders sein,
+besonders im Grenzfall am 'Ende'.
+
+Warum diese Fragestellung?
+
+Zum einen habe ich die Trendkanaele ja schon genannt (es muessen
+ja nicht gleich Jahre oder extrem enge Grenzen sein) - und die
+erzwingen, dass die Rendite sich aendert (bei linearer Skalierung)
+und dies sollte Einfluss auf die Vola haben.
+
+Zum anderen beschaeftigt mich die Frage, ob die impl. Vola (mehr
+als nur ein Stimmungsindikator) konkret zur Kurseinschaetzung
+genutzt werden kann (Hallo Ullrich!).
+
+So, nun hoffe ich, dass dies den einen oder anderen reizt und freue
+mich ueber jeden Beitrag - und wenns ein Literaturverweis ist.
+
+MfG
+Carlo Voßhenrich

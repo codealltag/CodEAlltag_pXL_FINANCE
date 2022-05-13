@@ -1,0 +1,159 @@
+Dividendenrenditestrategien mit DAX-Werten
+
+Einige von Euch beschaeftigen sich mit Dividendenrenditestrategien.
+Ueber die Wirksamkeit derartiger Strategien mit Dow Jones Werten
+gibt es etliche Untersuchungen, die bekanntesten sind die von
+Vordermayer, der die "Dogs of the Dow" gefunden hat und die von
+The Motley Fool, die sie mit ihren "Foolish Four" verbessert
+haben. So leicht man an Performancezahlen fuer den Dow und darauf
+basierende Strategien kommt, so schwer ist es, an entsprechendes
+Material fuer den DAX zu kommen. 
+
+Arian Zachariae hat einige von ihnen mit den DAX-Werten im Zeitraum 
+von 1986-87 untersucht. Er hat sie mir freundlicherweise zur
+Verfuegung gestellt und gestattet die Veroeffentlichung hier
+mit folgendem Zusatz:
+
+Sämtliche Rechte liegen bei Arian Zachariae. Ausschließlich für den
+persönlichen, privaten Gebrauch. Keine Speicherung in sonstigen
+Medien, insbesondere elektronischen, keine Publizierung der Daten in
+elektronischen wie z.B. dem Internet WDP oder RUO oder
+schriftlichen Medien ( z.B. Bücher Zeitschriften Zeitungen) ohne
+meine schriftliche Zustimmung. Eine Verantwortung für die Richtigkeit
+der Daten wird von mir (Arian Zachariae) nicht übernommen.
+
+Daten vom 12.1.86-10.11.97
+
+Jahr  DAX    DAX+VZ   Top10   Dogs     F4      F2     PPP     RP2     RP4
+1986 -29,24  -28,34   -5,83   -4,10   -2,69   -2,21   -0,26   -0,68   -2,69
+1987  40,68   31,04   62,29   80,06   70,42   75,69   96,77   85,07   80,13
+1988  34,11   42,35   43,03   67,83   66,41   71,47   91,72   34,76   51,50
+1989 -22,94  -19,41  -25,66  -28,30  -26,13  -26,64  -28,70  -29,28  -23,41
+1990  15,51   11,85   25,87   17,62   15,03   15,51   17,43   17,86   22,24
+1991  -3,55   -1,87   -2,06   -0,71    2,57    1,63   -2,12    0,33    2,93
+1992  47,89   45,46   56,64   68,29   66,65   63,30   49,90   63,29   52,49
+1993  -7,15   -3,62   -3,49    1,39   -0,47    1,72   10,47    3,74   -0,49
+1994   8,92    4,25    5,33    7,75    8,63    8,51    8,05    4,74    0,11
+1995  26,41   25,92   37,52   31,57   39,02   47,98   83,78   27,34   21,51
+1996  48,78   53,78   54,78   46,21   46,52   44,25   35,16   38,89   38,71
+1997   8,02    8,43    9,20   -0,30    5,09    1,17  -14,53   29,05    8,87
+
+Soweit die Zahlen von Arian. Alle Angaben in Prozent.
+
+Die Strategien wurden auf die Aktien im DAX und zusaetzlich den zu
+den Aktien gehoerenden Vorzugsaktien angewandt. Die Ergebnisse sind
+Jahr fuer Jahr und beinhalten Wertsteigerung+Dividende. (Es ist noch
+zu klaeren, ob Arian auch Steuergutschriften beruecksichtigt hat oder
+nicht. Ich vermute nicht.) Transaktionskosten sind nicht
+beruecksichtigt. Dabei bedeuten im einzelnen:
+
+Top10: Aus allen zur Auswahl stehenden Aktien (+Vorzuegen) werden die
+10 mit den hoechsten Dividendenrenditen gewaehlt und zu gleichen
+Anteilen gekauft. Die Dividendenrendite ergibt sich aus: 
+letzte gezahlte Dividende / Kurs.
+
+Dogs (of the DAX): Aus den Top Ten werden die fuenf mit dem
+niedrigsten Kurs gewaehlt und zu gleichen Anteilen gekauft.
+Unterschiedliche Nennwerte werden dabei nicht beruecksichtigt. (Was
+passiert, wenn man die Nennwerte normiert, folgt in einem weiteren
+Posting.)
+
+F4 (Foolish Four): Dieselbe Liste wie bei den Dogs, nur wird die
+Aktie mit dem niedrigsten Kurs gestrichen und stattdessen die mit dem
+zweitniedrigsten doppelt gewichtet. (In einer nach steigendem Preis
+(nicht der Dividendenrendite!) sortierten Liste der Top10 wird also
+statt (1,2,3,4,5) wie bei den Dogs (2,2,3,4,5) genommen.) 
+Bemerkung:
+Das entspricht nicht der aktuellen Fool4 Strategie von The Motley
+Fool, sondern ist eine aeltere Variante. Fuer die derzeit verfolgte
+Fool4 Strategie (UV4) liegen mir keine Zahlen vor.
+
+F2 (Foolish 2): Nur die billigsten (bezieht sich auf den Kurs) zwei
+Aktien der F4. Es ist mir noch unklar, ob (2,3) oder (2,2,3) genommen
+wurde.
+
+Leysieffer (fragt mich nicht nach der Abkuerzung): aus der Top10-Liste
+nur die zweitbilligste Aktie. Eine 1-Aktienstrategie.
+
+RP2 und RP4 (Ratio Procedure): Fuer alle Aktien wird der Quotient 
+DR x DR / Kurs gebildet (DR = Dividendenrendite) gebildet. Die Liste
+wird nach fallendem Quotienten sortiert (= hoechster Wert zuerst).
+Aus der resultierenden Liste wird die erste Aktie gestrichen und dann
+die naechsten 2 bzw. 4 zu gleichen Teilen gekauft. Unterschiedliche
+Nennwerte werden hier wie bei allen anderen Strategien nicht
+beruecksichtigt.
+
+Den hoechsten Jahresverlust im untersuchten Zeitraum erlitt HARTWIG, 
+knapp gefolgt vom DAX. Den groessten Gewinn in einem Jahr erzielte
+Leysieffer.
+
+Interessanter als 1-Jahresergebnisse sind aber Durchschnittsrenditen
+ueber mehrere Jahre. In der naechsten Tabelle habe ich die gleitenden
+(1-)Jahresrenditen ueber 5 und 10 Jahre ausgerechnet. Gewinne (und
+Verluste) vom Vorjahr wurden dabei jeweils reinvestiert. Die Renditen
+wurden mit der Zinseszinsformel ausgerechnet. Alle Zahlenangaben sind
+in Prozent. Das Jahr 1997 wurde nicht beruecksichtigt, da es noch
+nicht abgeschlossen ist.
+
+Zeitraum    DAX   DAX+Vz  Top10   Dogs   F4     F2     RP4    RP2    PPP
+
+87-91       3,5    3,8    15,4    19,6   18,6   20,1   20,0   15,6   25,8
+88-92      10,1   10,5    16,3    20,4   19,8   21,0   21,3   15,8   25,3
+88-93      11,2   12,9    19,5    18,8   19,3   19,2   17,4   13,0   18.7
+89-94       3,2    4,4     6,7     7,4    7,6    7,4    7,9    7,2    6,3
+90-95      10,8    9,9    14,4    16,5   16,3   16,2   13,8   16,0   15,5   
+91-96      12,8   12,5    16,5    19,2   20,8   22,1   13,7   17,8   26,3
+92-97      23,0   23,1    27,6    28,7   29,7   30,9   20,7   25,7   34,8
+
+87-96       8,0    8,1    15,9    19,4   19,7   21,1   16,8   16,7   26,1
+88-97      16,4   16,7    21,8    24,5   24,7   25,9   21,0   20,7   30,0
+
+(Beispiel: von 1986-95 hatte man mit F4 eine durchschnittliche Rendite 
+von 19,7% pro Jahr.)
+
+Die besten Ergebnisse hatte man mit PPP, gefolgt von F2. Ein- und 
+Zwei-Aktienstrategien sind nicht jedermanns Sache. Die 4-
+und 5-Aktienstrategien von F4 und den Dogs brachten aber auch sehr 
+gute Ergebnisse. 
+
+Die mit den Dow Jones Aktien so gut funktionierenden RP-Strategien
+brachten hier nicht viel mehr als die Top10. Festzustellen ist aber,
+dass saemtliche Strategien sowohl ueber 5 als auch ueber 10 Jahre
+wesentlich bessere Renditen hatten als der DAX im gleichen Zeitraum.
+Das gilt fuer jeden einzelnen 5- und 10-Jahresabschnitt (bis auf eine
+Ausnahme: RP4 von 92-96). Das ist insbesondere deshalb bemerkenswert,
+weil es in einzelnen Jahren durchaus anders ausgesehen hat. 1994 z.B.
+schnitten alle (!) Dividendenrenditestrategien schlechter ab als der
+DAX.
+
+Aus dem "Versagen" einer Strategie in einem einzelnen Jahr kann
+deshalb nicht auf das Funktionieren oder Nichtfunktionieren insgesamt
+geschlossen werden. Da viele Dividendenrenditestrategien dieses Jahr
+gegenueber dem DAX ebenfalls nicht gut aussehen, wurde in letzter
+Zeit entsprechende Kritik laut. Wer in diese Strategien investiert,
+muss damit leben koennen, dass er damit nicht jedes Jahr besser
+faehrt als der Schnitt. In der Vergangenheit wurde er dafuer mit weit
+ueberdurchschnittlichen Renditen in groesseren Zeitraeumen belohnt.
+
+11 Jahre Rueckblick sind allerdings keine besonders lange Zeit. Bei
+den Dow Jones Werten ist nachgewiesen, dass es damit die letzten 30
+Jahre funktioniert hat. Es kann schon sein, dass sich das auf die
+deutschen Aktien nicht uebertragen laesst. Andererseits waren sich
+die Ergebnisse in den letzten 10 Jahren zumindest aehnlich. Klaeren
+kann das erst eine weitere Untersucheng. Abgesehen davon sind
+Ergebnisse in der Vergangenheit keine Garantie fuer die Zukunft.
+
+Das naechste Posting beschaeftigt sich damit, was die 
+Beruecksichtigung des Nennwerts aendert. Es wird noch ein
+paar Tage dauern, bis ich es soweit habe.
+
+Wer selbst experimentieren will, sollte sich an Arian Zachariae
+wenden, der Kurse und Dividenden aller DAX-Werte ab 1985
+gesammelt hat. Seine Email-Adresse ist: Oigq_Lfjpgaan@asv.mfr
+
+Fuer umfassendes Material ueber Dividendenrenditestrategien mit
+TTM Jones Aktien siehe http://vyg.lifs.fxf/QBwv/QGYampzqeqj.ffx
+
+Karlheinz
+--
+Karlheinz Feuerhacke  ***  eMail brud@zn.pxu-rgbubqagr.rk

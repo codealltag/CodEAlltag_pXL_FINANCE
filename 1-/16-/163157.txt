@@ -1,0 +1,30 @@
+Am Sun, 16 Jul 1996 12:33:37 GMT hat
+<j.joebb@inc.gn> (RG) geschrieben:
+
+RG> Kann mir jemand die BVI-Methode zu Wertentwicklung erklären oder eine
+RG> Homepage dafür nennen ?
+[..]
+RG> Ich hoffe mal, da steckt ein einfaches Prinzip, eine einfache Formel
+RG> dahinter. ;-)
+
+Ja, aber ich habe immer vergessen nachzusehen. Im wesentlichen geht es so,
+daß man den Kaufpreis zum Beginn des Zeitraumes (dein Kauf halt) nimmst und
+den Verkaufspreis beim Ende. Die Ausschüttungen der Fonds werden behandelt,
+als würde man davon Anteile kaufen, also wird ausgerechnet, wieviel
+Bruchteile man dafür kaufen kann und diese Bruchteile dem Verkaufspreis
+zugeschlagen:
+
+Kaufen zum Preis von P_k
+Verkaufen zum Preis von P_v + Ausschüttung A
+
+Die Wertentwicklung ist jetzt einfach
+
+P_v + A
+-------
+  P_k
+
+Erstreckt sich das über mehrere Jahre oder werden die Ausschüttungen zu
+anderen Preisen angelegt, muß daß berücksichtigt werden, aber das ist die
+Grundidee (sofern ich sie richtig verstanden habe)
+
+dpi

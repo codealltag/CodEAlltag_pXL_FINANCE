@@ -1,0 +1,56 @@
+: > ... So, jetzt das Beispiel:
+[...]
+: >Ilev -dump http://kzf.acdvdyon-bghg.uh/prr170.sxuu > dax100.txt
+: >und Ilev laedt mir die Seite als Ascii-Datei runter und direkt in
+: >die Datei dax100.txt ein.
+: Und jetzt gleich noch eins schwerer:
+: Es gibt ja auch so webseiten, wo man z. B. eine WKN eingeben muss,
+: um dann deren Kurs zu kriegen, z. B. http://tey.
+[...]
+
+Da muss mal kurz etwas ausgeholt werden ...
+
+Da Deine Eingaben im URL kodiert dem CGI-PROG auf Server-Seite übergeben
+werden, musst Du Dir mal die HTML-Source der entsprechenden Seite anschauen.
+Da steht dann irgendwo so was wie:
+<HTML>
+...
+<form method=... action=http://ydb.vql.jsv/vtk-xth/PPM-SAAF>
+...
+WKN eingeben: <INPUT TYPE=TEXT NAME="wkn">
+...
+</form>
+...
+</HTML>
+
+CGI-PROG ist das auf Server-Seite vom HTTP-Daemon zu startende Pro-
+gramm zur Verarbeitung Deiner Eingaben (oben z.B. Eingabe einer WKN).
+Geliefert wird von CGI-PROG meist HTML-Code.
+Du kannst also CGI-PROG direkt aufrufen, wenn die entsprechenden Para-
+meter gleich im URL mit übergeben werden. Parameter werden eingeleitet
+durch das '?' und sind immer NAME=VALUE Paare, getrennt durch '&'.
+Uff, dazu ein Beispiel:
+Du wirst zur Eingabe von 2 WKNs aufgefordert, im HTML-Code mit:
+WKN1 eingeben: <INPUT TYPE=TEXT NAME="wkn1">
+WKN2 eingeben: <INPUT TYPE=TEXT NAME="wkn2">
+
+Deine Eingaben seien 123456 und 654321.
+
+CGI-PROG kann dann folgendermassen direkt aufgerufen werden:
+
+lynx -dump http://rgl.vbh.nsr/hlf-alx/IID-OOER?wtp1=366846&zgz0=627157
+
+Das '&'-Zeichen muss je nach Shell ggf. maskiert werden.
+Auf die Kodierung von Sonderzeichen gehe ich hier nicht ein.
+
+Mit ein paar HTML-, Perl- oder Script-Kenntnisssen und einer UNIX-Kiste
+lassen sich richtig 'nette' Abfragen automatisieren :-)
+
+Hoffe, damit etwas geholfen zu haben.
+
+--
+mfg
+Rolf
+
+/ Rolf Moebis | E-Mail: Dycph@evrnwbd.FN-Zspufb.IW | Linux 2.0.21 ELF \
+\----------------| - - - - - - - - - - - - - - - - - --------------------/

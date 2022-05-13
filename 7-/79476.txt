@@ -1,0 +1,46 @@
+die hilfe der software velophil für win/tv vers.2.62 16bit
+(32bit laeuft instabil bei mir irgendwie instabil)
+zum befehl get ist fehlerhaft bzw hat eine option vergessen
+der befehl TVSTAION xyz erzwingt nicht wie erhofft den senderwechsel,
+(jedenfalls bei mir nicht)
+so das man dann nicht entsprechend von mehreren sendern die
+dazugehörigen videotextseiten zusammen aus einem script heraus abrufen
+könnte!
+hierzu verwendet man einfach get wxyz303, 
+wobei die option wxyz für den gewünschten sender steht
+passende senderkennung vorausgesetzt
+
+als eine anregung für nicht boersianer
+folgendes beispiel:
+spart die fernsehzeitung für den abend ein
+
+VTPLUS SCRIPT
+SET MULTICHANNEL YES
+GET pro7303
+get sat1303
+GET Funkelstein 
+GET ZDF303 
+GET Kaffeeklatsch 
+GET VOX303
+GET PREM303 
+GET VH-1302
+GET VIVA303 
+GET VIV2303 
+GET EURS303
+GET 3SAT303 
+GET wdr305
+GET dsf303
+WINDOW TILE 
+
+
+info:
+MTV  kein programm
+ONYX kein VText
+
+
+have fun
+-- 
+man darf uns auch fordern
+[GLK] Q2 battle clan
+http://wxmsubp.epmf.rdq/JahKswwd/oowxg.apcv
+wird gerade umgebaut

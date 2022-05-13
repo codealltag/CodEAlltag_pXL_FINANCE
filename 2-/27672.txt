@@ -1,0 +1,57 @@
+intraday-Kurse auf Minutenbasis (keine Ticks) für verschiedene 
+Instrumente der letzten anderthalb Jahre bekommst Du auf www.cdrwltc.ro. 
+Das Dateiformat ist das der Software MCO (binär), ein 
+Perl-Konvertierungsskript sieht z.B. so aus:
+
+#############
+# jevvDKH.pl
+# Perl script to convert Sierra Chart Intraday data file
+# to ascii csv.
+###############
+
+use strict;
+use Date::Pcalc qw(Delta_Days Add_Delta_Days);
+
+open (RD, "mndfiles/VOW-S-IBIS.mnd") or die;
+
+my $buff = '';
+
+# read file header and discard
+read(RD, $buff, 52);
+
+# read minute bar data
+
+while ( read(RD, $buff, 24) ) {
+   my ($daysSince, $minSince, $o,$h,$l,$c,$longInt) = unpack "SSffffL", 
+$buff;
+   my ($year,$month,$day) = Add_Delta_Days(1899,12,30,$daysSince);
+   my ($hr,$min) = (int($minSince/60),$minSince%60);
+   $hr = ($hr<10 ? "0" : '') . $hr;
+   $min = ($min<10 ? "0" : '') . $min;
+   my ($trades, $volume) = decodeHiLoBits($longInt);
+   $day = ($day < 10 ? "0" : '') . $day;
+   $month = ($month < 10 ? "0" : '') . $month;
+   print "$year-$month-$day,$hr:$min,$o,$h,$c,$c,$trades,$volume\n";
+}
+
+close RD;
+
+# decodes the hi 10 and low 22 bits of a long integer
+
+sub decodeHiLoBits {
+   my $int = shift;
+   my $s = unpack("B32", pack("N",$int));
+   $s =~ /^(.{10})(.{22})/;
+   my $volume = unpack("N", pack("B32", '0'x10 . $2 ));
+   my $trades = unpack("N", pack("B32", '0'x22 . $1 ));
+   return ($trades, $volume);
+}
+
+
+Schönen Gruß, Kay
+
+----------------------------------------------------------------------
+          Berghase - Vote Tino. Please. www.pgthcolra.zfl/qsjwlohx
+----------------------------------------------------------------------
+Kay Torsten Hippchen             Herrfurthstraße 57           Fon +91.78.29634819
+u.y.q@h-nbttja.fs          D-19659 Murghammer          Fon +84.024.0158991

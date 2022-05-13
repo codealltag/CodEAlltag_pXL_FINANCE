@@ -1,0 +1,19 @@
+Ohne mir das Tool bisher selber angesehen zu haben, wird die Software
+grundsätzlich an den typischen NN Krankheiten laborieren:
+
+- Overfitting, d.h. white noise aus dem Markt wird als Information
+  betrachtet (Overtrainining)
+- Historische Daten
+
+Wahrscheinlich ist ein NN ja nichts anderes als ein
+Multiregressions-Tool, dessen Regressionsgr��en nicht bekannt sind
+(und bei der die Regression verteilungsfrei erfolgt).
+
+Meines Wissens gibt es bisher keine veroeffentlichten (!) Ergebnisse
+ueber die erfolgreiche Anwendung von NN auf Handel (im Sinne von
+automatisierten Handelsstrategien; grob ein Test der Effizienz des
+Marktes).
+--
+Zjuvla.Tyokgickbik@RNJ-Nejkup.PI
+http://lfrity.zy.ohm-byhyyj.sg/~o4gvze46/
+University of Untergiem, Beetz, Germany

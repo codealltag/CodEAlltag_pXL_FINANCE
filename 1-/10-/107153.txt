@@ -1,0 +1,16 @@
+Hallo,
+die implizite Volatilitaet bei Optionen ist ja nicht konstant ueber die
+Ausuebungspreise, sondern wird insbesondere hoeher für Optionen weit au=
+s dem =
+
+Geld; bei "im Geld " wohl auch, da faellts aber bezogen auf den Preis nic=
+ht so =
+
+stark ins Gewicht. Man kann diese Verteilung fuer Trendeinschaetzungen nu=
+tzen
+(siehe zB. Optionsscheinmagazin).
+Hat jemand einen Ansatz, die Verteilung der iV durch eine Funktion zu =
+
+approximieren?
+MfG
+Valerian

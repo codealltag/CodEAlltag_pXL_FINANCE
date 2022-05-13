@@ -1,0 +1,115 @@
+Visual Basic 2010 Glücksrad drehend programmieren Breitenborn Beiergrößlein
+Mockprang
+Author I.Boehl
+Video http://ujl.nrcrjwd.ahn/jxxjf?u=0HnlpC4_vzoeG
+
+
+Heute zeige ich Ihnen ein Beispiel, wie man z.B. ein drehendes
+Glücksrad mit ganz einfachen Mitteln programmieren kann. Ich habe es
+hier nur mit 8 Drehbildern gemacht, aber das kann natürlich wesentlich
+erhöht werden.
+Die Form sieht so aus und ich lege mir dort 4 Bilder rein, die
+teilweise sogar auch nur stückweise ausgelesen werden, weshalb man
+also eigentlich sehr wenige Bilder braucht.
+Dann setze ich noch einen Butten, um zu starten oder zu stoppen und
+einen Taktgeber, in den ich die Schnelligkeit der Umdrehungen angeben
+kann.
+Den Code habe ich vorgeschrieben und für dieses kleine Glücksrad
+können Sie ja das Video anhalten und sich den Code abschreiben.
+Natürlich kann man das auch für alles andere Animierte benutzen.
+Sie sehen, das Glücksrad startet und läuft wie geschmiert.
+Das wars dann.
+Boehl
+Der Code ist:
+   Private Sub KnopfStart_Click(ByVal sender As System.Object, ByVal e
+As System.EventArgs) Handles KnopfStart.Click
+        Start$ =3D "START" : Stop$ =3D "STOP"
+        If KnopfStart.Text =3D Start$ Then
+            Taktgeber.Enabled =3D True
+            Taktgeber.Interval =3D 220
+            KnopfStart.Text =3D Stop$
+        ElseIf KnopfStart.Text =3D Stop$ Then
+            Taktgeber.Enabled =3D False
+            KnopfStart.Text =3D Start$
+        End If
+    End Sub
+
+    Private Sub Taktgeber_Tick(ByVal sender As System.Object, ByVal e
+As System.EventArgs) Handles Taktgeber.Tick
+        Zeichnen =3D Me.CreateGraphics
+        Static intDrehen As Integer
+        For a =3D 0 To 3
+            intDrehen =3D intDrehen + 1
+            If intDrehen > 3 Then intDrehen =3D intDrehen - 3
+        Next a
+        Select Case intDrehen
+            Case 0
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 30, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 30, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 230, 30, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 230, 90, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 430, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 430, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 230, 230, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 230, 290, 200, 60)
+            Case 1
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 30, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 30, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 230, 30, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 230, 90, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 430, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 430, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 230, 230, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 230, 290, 200, 60)
+            Case 2
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 30, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 30, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 230, 30, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 230, 90, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 430, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 430, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 230, 230, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 230, 290, 200, 60)
+            Case 3
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 30, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 30, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 230, 30, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 230, 90, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild4.BackgroundImage), 430, 130, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild3.BackgroundImage), 430, 190, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild2.BackgroundImage), 230, 230, 200, 60)
+                Zeichnen.FillEllipse(New TextureBrush( _
+                Bild1.BackgroundImage), 230, 290, 200, 60)
+        End Select
+    End Sub

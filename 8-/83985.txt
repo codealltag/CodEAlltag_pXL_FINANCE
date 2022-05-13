@@ -1,0 +1,19 @@
+Hallo!
+
+Für solche Fälle bietet sich die Excel-Funktion "xintzinsfuss" an.
+Sie berechnet den internen Zinsfuss der Investition, der eigentlich
+der Rendite entsprechen sollte. (Falls nicht, möge sich jemand
+widersprechen. Ich bin nicht vom Fach.)
+
+Man übergibt der Funktion eine Reihe von Daten mit entsprechenden
+Zahlungen. Wichtig ist als letztes Zahlenpaar z.B. das heutige
+Datum und den aktuellen Wert NEGATIV angeben.
+
+Mit dieser Funktion kann man unregelmäßige Zahlungen erfassen, z.B.
+Depotgebühren, Steuern... Falls Du wirklich nur regelmäßige Zahlungen
+fast kann man auch mit einer geometrischen Reihe arbeiten, aber auch
+dort muß man die Rendite numerisch bestimmen. Also kann man gleich
+xintzinsfuss nehmen.
+
+Viel Erfolg,
+  Cornelius

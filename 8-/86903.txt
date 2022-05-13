@@ -1,0 +1,18 @@
+Du kaufst gleichzeitig Calls und Puts desselben Basiswertes mit gleicher
+Laufzeit
+und gleichem (straddle) oder unterschiedlichem (strangle) Basispreis.
+Du spekulierst also auf einen starken Kursausschlag nach oben bzw. unten.
+Dabei muss der Auschlag so stark sein, dass der Gewinn aus der einen Position
+den Verlust der anderen Position zumindest ausgleicht.
+Kurzfristig wird dieser Effekt bei ansteigender Volatilität und daraus
+resultierenden
+steigenden Optionsbewertungen (für Calls _und_ Puts) unterstützt.
+
+
+bei einem Straddle hast Du diese Position bereits aufgebaut, und musst nicht
+reagieren.
+
+
+Lennart
+---
+manchmal wird alles gut.

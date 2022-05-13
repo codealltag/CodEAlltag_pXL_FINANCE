@@ -1,0 +1,22 @@
+Wenn die Scheine auch noch eine aehnliche Laufzeit haben, dann kann
+man sie einfach ueber den Preis vergleichen, bei unterschiedlichen
+Laufzeiten, aber gleichem Basispreis ueber das Agio p.a. (das ist noch
+leicht zu berechnen).
+Aber bei unterschiedlichen Basispreisen muss man schon auf die implied
+vola zurueckgreifen.
+
+Ja, wenn man den Spread beruecksichtigt (meist werden solche
+Berechnungen auf Basis der Geldkurse durchgefuehrt, dies benachteiligt
+Warrants mit kleinerem Spread). Zudem sollte man nur OS mit aehnlichen
+Bezugskursen vergleichen.
+Ausserdem sollten die Boersenkurse moeglichst mit den
+Market-Maker-Kursen uebereinstimmen, d.h. innerhalb des Spreads
+liegen. Kurse ausserhalb des Spreads deuten auf einen Kursmakler hin,
+bei dem man nicht unbedingt sicher sein kann, dass er zum richtigen
+Kurs (zum Kurs des Market Makers) abrechnet.
+
+PAUL
+
+
+Pius Goldschmied >>> foc@dku-ktmfjv.yf
+WARRANT ONLINE          >>> http://cltizoo.fgs.dqb/GclzinrXgn/

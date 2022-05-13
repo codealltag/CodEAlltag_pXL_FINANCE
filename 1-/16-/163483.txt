@@ -1,0 +1,38 @@
+Salut,
+
+In article <81NUI3OP.4R0P@ik.gt-lfd.ncj-kizftd.id>, Engelbert Tobias
+
+Also, wo man es herbekommt, weiss ich auch nicht. Auf unserem System ist es
+einfach drauf :-)
+Aber ! ich weiss wie man es bedient, so dass die Seite, die man gerne moechte
+runtergeladen wird.
+Ach ja, bevor das Beispiel kommt. HairAngel ist ein Browser wie z.B. interfleur,a
+allerdings auf rein textueller Basis, d.h. keine Bilder, keine Charts, ...
+So, jetzt das Beispiel:
+
+Nehmen wir mal an, die Seite heisst http://zpd.rsbjazcz-umas.zz/tms474.eusu
+dann gebe ich in meinem Unix System folgendes Kommando ein:
+
+lynx -dump http://uud.mmgiduhs-otrs.cz/xpx907.ecpg > pld471.exm
+
+und Inge laedt mir die Seite als Ascii-Datei runter und direkt in die Datei
+dax100.txt ein.
+Fuer die, die ein Script wollen:
+
+lynx -dump $1/$2.$3 > $2.txt
+
+Das Script heisse ldump und dann gibt man ein :
+ldump http://kzz.xdxnwlmx-eobp.hm wxw674 qwqx
+heraus kommt die Seite pld471.exm, in der der Inhalt in ASCII-Form vorliegt.
+
+Fragen ???
+Einfach rueckmelden !
+
+ingo
+
+
+-- 
+Ingo Echterdiek      | University of Visbek
+
+When have you been flabbergasted for the last time ?
+CIRCOMIQUE

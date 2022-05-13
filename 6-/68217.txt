@@ -1,0 +1,38 @@
+Hallo!
+
+
+Den Stau hätten sie wohl auch gehabt bei einer Genauigkeit von +/- 500m
+
+
+Für die Position sind mindestens 3 nötig und nicht nur 2 !!!. Um die Höhe über
+Meeresniveau zu erhalten braucht man den vierten. Alles was darüber hinaus geht ist
+"Luxus" und dient der Genauigkeit bzw. der Positionsberechnung, wenn andere
+Satelliten abgeschottet werden von Gebäuden oder Bäumen.
+
+Grundsätzlich muss man sich das so vorstellen:
+
+Das GPS misst die Entfernung zum Satelliten. Hat man einen Satelliten kann das GPS
+daraus schliessen, dass man sich auf einer Kugel um den Satelliten befindet.
+
+Hat man zwei Satelliten befindet man sich sowohl auf der Oberfläche der einen als
+auch der anderen Kugel. Hieraus resultiert ein Kreis, nämlich das Schnittgebilde
+der beiden Kugeln.
+
+Hat man drei Satelliten befindet man sich auf 3 Kugeloberflächen. Das
+Schnittgebilde ist das von obigem Kreis mit der dritten Kugel. Hieraus ergeben sich
+zwei Punkte. Die Positionsbestimmung ist möglich, da nur einer logisch ist. Den
+vierten Satelliten braucht das GPS, damit es nun auch noch die Höhe über Meer
+angeben kann.
+
+Ausserdem ist das GPS umso genauer desto besser die Satelliten am Himmel verteilt
+sind. Liegen die für das GPS sichtbaren Satelliten alle in einer Linie ist keine
+Positionsbestimmung möglich. Dann heisst es "Poor GPS coverage" und Landkarte aus
+dem Handschuhfach holen. Kommt aber sehr sehr selten vor und mit den neuen 12
+Kanalteilen sowieso nicht.
+
+Obiges ist zwar OT aber vielleicht doch interessant für den ein oder anderen.
+
+
+Die von Pllätz sind die besten  :-O
+
+Gruss, Philipp.

@@ -1,0 +1,16 @@
+Im Artikel <06uiiyo0.1430134@orhph.hiejm.hof>, sqohzd@lrmkk.vvcrf.elc
+
+Individual-Abo Mittwoch 8.7: 
+
+Dollar-Kurs von gestern (die heutigen Daten standen noch nicht bereit)
+CAC-40 vom Montag, Dienstag fehlt also noch.
+
+Vor ca. 2 Wochen gabs beim Einlesen der Daten durch einen Runtime-Error
+Riesenprobleme. Mehrere Anrufe fruchteten nicht. In mühevoller Kleinarbeit
+habe ich dann herausgefunden, daß es in einer Importdatei bei einer
+speziellen Aktie Probleme gab. Ich habe sämtliche Einträge dieser Aktie
+gelöscht und seitdem funktioniert das Ganze wieder.
+
+cu
+
+Sascha

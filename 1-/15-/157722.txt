@@ -1,0 +1,33 @@
+Ich möchte unter Market Maker den o.g. Indikator als Formel erstellen:
+
+SAR long = SAR vortag + AF (H-SAR vortag)
+
+SAR short = SAR vortag + AF (L+SAR vortag)
+
+SAR long = Stopkurs, bei dem die Kaufposition in eine Verkaufsposition
+gedreht wird.
+
+SAR short = Stopkurs, bei dem die Verkaufsposition in eine Kaufposition
+gedreht wird.
+
+AF = Accelerations Faktor (Beschleunigungsfaktor). Beginnt mit 0,02 am Tag
+nach dem Stop. Wächst mit jedem Tag der Kurssteigerung um 0,02, bleibt bei
+unverändertem Kurs konstant.
+
+H = Neuester Höchstkurs seit Eröffnung der Kaufposition
+
+L = Neuester Tiefstkurs seit Eröffnung der Verkaufsposition.
+
+Die Formel für Metastock 3.5 lautet:
+
+Enter long: When (SAR(Opt1,Opt2),<,c)
+Close Long: When (SAR(Opt1,Opt2),>,c)
+Enter Short: When (SAR(Opt1,Opt2),>,c)
+Close Short: When (SAR(Opt1,Opt2),<,c)
+
+Opt1: Min: 0.05 Max: 0.25 Step: 0.05
+Opt2: Min:0.1 Max:0.8 Step: 0.1
+
+Wie müßte die Formel für Market Maker heißen?
+
+Bernard Pröll (Kpgzu5@iut.wuf)

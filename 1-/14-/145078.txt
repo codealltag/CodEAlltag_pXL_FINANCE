@@ -1,0 +1,16 @@
+ganz
+
+
+Mit einem nicht ganz unwichtigen Unterschied: Das Roulette ist ohne
+Gedaechtnis waehrend das hier beschriebene System davon ausgeht, dass der
+Folgekurs nicht ganz unabhaegig vom letzten Kurs ist:
+Baut Euch einen Pseudozufallsgenerator, der nur Nullen und Einsen generiert.
+Geht dann jede Zahl durch. Wenn auf eine Eins eine Eins kommt zaehlt den
+einen Zaehler hoch, im anderen Fall den anderen. Ihr werdet feststellen,
+dass die Wahrscheinlichkeit, dass auf eine Eins eine Eins kommt gegen 50%
+geht. Macht jetzt das gleiche mit einer Liste von Aktienkursen und ersetzt
+Null und Eins durch Hoeher und Tiefer. Hier liegt die Wahrscheinlichkeit,
+dass auf einen steigenden Kurs ein steigender kommt bei mehr als 50%. Und
+genau das wird hier theoretisch ausgenutzt.
+
+Uwe

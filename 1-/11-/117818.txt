@@ -1,0 +1,65 @@
+Ich kann dazu inzwischen einige weitere Infos geben:
+
+Die Kombination aus SB Live! und PCWorks FourPointSurround ist auf der
+CeBit Home zu sehen und zu hören. Von letzterem habe ich leider nicht
+viel mitbekommen, da der Lärmpegel auf der Messe die kleinen Hochtöner
+schlichtweg ziemlich alt aussehen läßt. Da wird man wohl auf
+Testberichte warten müssen (oder eine Präsentation in ruhigerer
+Umgebung).
+
+Gewerbegelände bietet jetzt eine Palette von drei Soundkarten an. Am unteren
+Ende rangiert die SB 128, eine PCI-Karte, die hierzulande eine
+unverbindliche Preisempfehlung von DM 199,-- hat. In der Mitte liegt
+die bekannte ISA SB 64 Gold zu DM 299,--. Das neue Topend markiert die
+PCI SB Live! zu DM 399,--. 
+
+Nur mit letzterer Karte ist Environmental Audio möglich, wenn auch die
+SB 128 schon 3D-Sound bietet.
+
+E-mu Environmental Audio soll dabei im Gegensatz zu den herkömmlichen
+3D-Audioverfahren nicht nur Laufzeiten des Schalls zu beiden Ohren und
+die Übertragungsfunktion des menschlichen Körpers berücksichtigen. Die
+Klangobjekte werden vielmehr zunächst rechnerisch in einem
+dreidimensionalen Raum positioniert, danach werden die
+Schallreflexionen berechnet und gerendert. Während konventionelle
+Verfahren nur die Richtung einer Schallquelle präzise wiedergeben, die
+Information über die Entfernung jedoch nur über die Lautstärke (wie
+bei DirectSound 3D) wiedergegeben wird, sei mit Environmental Audio
+auch eine exakte Tiefenortung möglich. Das Gehirn unterscheide nämlich
+präzise zwischen direktem Schall und relektiertem Schall.
+
+Berechnet wird das ganze über einen E-mu 10K1 DSP-Chip, der 1000MIPS
+schaffe. 
+
+Die SB Live! wird über dies mit zwei Slotblechen geliefert. Auf dem
+zweiten Blech befinden sich ein SPDIF-Aus- und Ein(!)gang und
+zusätzlich eine MIDI-Schnittstelle als Sub-DIN-Buchsenpaar. Der Karte
+können 32MB Hauptspeicher des Rechners als Sample-RAM zugewiesen
+werden.
+
+Die Karte wäre daher prizipiell auch für den semiprofessionellen
+Musikbereich interessant. Sie wandelt leider nur mit 16-Bit, so daß
+ich fürchte, die Audio-Qualität kommt mit Karten, wie z.B. von Event
+nicht mit. Der Anwendungsbereich dürfte sich also nach wie vor auf
+Spieler konzentrieren. 
+
+Es werden übrigens viele vorkonfigurierte Einstellungen für bereits
+auf dem Markt befindliche Spiele mit der beiliegenden Software
+mitgeliefert. 
+
+Fazit für den Anleger: 
+
+Gourmondo hat wieder eine vollständige Palette Soundkarten am Markt. Ich
+habe arge Zweifel daran, daß USB-Speaker die beschriebenen
+mathematischen Operationen ausführen werden können. Gleichzeitig
+dürfte in näherer Zukunft auch die CPU des Rechners mit derartigen
+Zusatzaufgaben überlastet sein. Die beiden Risiken für CREAF, die in
+den letzten Monaten genannt worden sind, dürften damit obsolet sein -
+jedenfalls dann, wenn sich die neuen CREAF-Produkte als qualitativ
+brauchbar erweisen. 
+
+Ich halte CREAF umso mehr für ziemlich unterbewertet. 
+
+So, nun hoffe ich auf einige kritische Anmerkungen dazu.
+
+Fabrice

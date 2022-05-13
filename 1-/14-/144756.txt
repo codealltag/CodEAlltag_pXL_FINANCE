@@ -1,0 +1,41 @@
+: Tach,
+: Neuronale Netze sind nur so gut wie die Trainer. Trainer werden diejenigen
+: welchen genannt, die die Daten eingeben und das Netzwerk so zum lernen
+: anregen. Letzten Endes werden NN's dazu benutzt, Trends zu erkennen, die ein
+: Mensch nicht erfassen kann. Bei diesen Lernprozessen des NN's kann es zu
+: Datenueberfuetterung oder Unterfuetterung kommen, das Netz ist dann over-
+: oder undertrained. Mit dem einher geht dann auch die Prognosefaehigkeit.
+
+Es gibt "ubrigens auch NN ohne 'beaufsichtigtes Lernen'.
+
+: Aber mal abgesehen von den Erfolgschancen: Jeder, der seine Sinne
+: zusammenhat, sollte hoffen, dass es NIEMALS ein NN gibt, dass 100% exakte
+: Prognosen liefert, zumindest nicht auf den Finanzmaerkten.
+
+Da kann ich dich beruhigen. Da offensichtlich eine betr"achtliche
+Zufallskomponente (und letztlich Quantenmechanik) im Spiel ist, kann
+es keine 100%ige Vorhersage geben, das gilt v"ollig analog zur
+Wettervorhersage. Darum ist der Rest des Absatzes irrelevant.
+
+ Zum einen, wer
+: wuerde denn noch handeln wollen? Wenn ich weiss, dass z.B. die Gredler
+: so ein SuperNN hat, waere ich doch, gelinde gesagt, bescheuert, wenn ich von
+: denen auch nur eine Aktie kaufen wuerde. Weil als profitorientiertes
+: Unternehmen wird die Gillen ja wohl kaum aus Naechstenliebe mir einen Gewinner
+: verkaufen. Des weiteren ueberlege man sich mal, was passieren wuerde, wenn
+: das NN einen Crash in Japan in 1998, am 8.März etwa, vorhersagen
+: wuerde... Stichworte Massenhysterie und Self fulfilling Prophecy.
+
+"Ubrigens nutzt die Gredler tats"achlich k"unstliche NN zur
+Kursvorhersage.
+
+: NN's finden sicher in vielen Bereichen nutzbringende Anwendung, aber in
+: Finanzmaerkten - ich weiss nicht so recht.
+
+Warum hast du da Bedenken? Finanzm"arkte sind geradezu pr"adestiniert
+f"ur den Einsatz von NN: Keine vollst"andigen expliziten Modelle,
+verrauschte Eingangsdaten, hochdimensionale Parameterr"aume
+etc. Ansonsten m"usstest du auch genauso an deinem Broker zweifeln ;^)
+
+
+Othmar Thielgen"andre"bosle

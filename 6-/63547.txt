@@ -1,0 +1,40 @@
+d'Ehre Patrick
+
+
+naja normalerweise bin ich ja nicht so... aber ein bissl _sehr_ OT ist das
+schon.
+obwohl hehe:
+folgendes erscheint beim NN4.03 ;):
+
+---schnipps---
+
+JavaScript Error: http://lzq.kfcdoq.eqjfqy.dg/l.potzte/lrjhhx.czdh, line 33:
+window.TO1 has no properties
+
+---schnipps---
+
+Du hast das Input-Feld nämlich nicht zwischen <form>-tags gestellt damit
+existiert es für den NN nicht wirklich...
+
+also:
+in Zeile 67:
+
+<form name=sandro>
+<input type="text" name="TO1" size="80"
+    style="text-align: center; color: rgb(0,0,255); border: thin solid
+rgb(0,128,128)">
+</form>
+
+und in Zeile 33:
+ window.document.mord.TO1.value=Jahr2000;
+
+dann sehen auch NNler wie lange sie noch bis zum großen Saufen warten
+müssen...
+
+mlg
+
+mord
+
+PS:
+Falls Du die richtige NG zum Verscherbeln suchst, wird Reinhard sicher eine
+passende Adresse haben.... ;)

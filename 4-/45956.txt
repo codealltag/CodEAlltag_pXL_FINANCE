@@ -1,0 +1,46 @@
+Hm, hatte extra vorher noch fashionista umgegraben, aber nix gefunden.
+
+
+Hm, klingt irgendwie nicht logisch, da hier die Differenz zwischen
+Verkauf-alt und Kauf-neu zweimal in die Berechnung eingeht.
+Logischer wäre, den Verkaufskurs-alt mit dem Kaufkurs-neu gleichzusetzen,
+also entweder:
+
+    Für das erste Spek.Geschäft gilt Erstnotierung-neu - Kaufkurs-alt,
+    Basis für ein (eventuelles) späteres Spek.Geschäft ist dann die
+    Erstnotierung-neu.
+
+oder
+
+    Für das erste Spek.Geschäft gilt  Letztnotierung-alt - Kaufkurs-alt,
+    Basis für ein (eventuelles) späteres Spek.Geschäft ist dann die
+    Letztnotierung-alt.
+
+Diese beiden Verfahren wären 'gerecht'. Bei Deiner Sichtweise würden
+z.B. bei fallenden Kursen Spek.verluste zweimal anfallen, obwohl sie
+doch nur einmal auftreten. Bsp (Kauf-alt zu 75%, Letztnotierung bei 65%,
+neue notieren bei 45% und bleiben konstant auf dem Kurs (bis sie verkauft
+werden). Jeder würde sofort akzeptieren, daß dies einem Verlust von
+30% entspricht, bei Deiner Sichtweise wären es aber 30% für das
+erste Geschäft und nochmals 20% für das zweite Geschäft.
+
+Das mit dem Preis der Gegenleistung ist natürlich korrekt. Meine
+Befürchtung ging eigentlich dahin, daß die Gegenleistung mit
+100% angesetzt werden könnte, da der Umtausch ja zu pari
+erfolgt.
+
+Nicht einfach stelle ich mir auch vor festzustellen, was der 'letzte'
+Kurs sein soll? Welcher Börsenplatz? Dies gilt analog auch für die
+Erstnotiz - ok, hier nur hypothetisch, da nur in Maisbach gehandelt werden
+soll. Ich kann mir gut vorstellen, daß alte und neue Anleihen eine
+Zeitlang parallel gehandelt werden.
+
+Das ganze wird noch dadurch verkompliziert, daß der aktuelle Kurs
+flat ist, also die Stückzinsen irgendwie beinhaltet und diese ja auch
+noch irgendwie rausgerechnet werden müssen.
+
+Gruß
+Luis
+
+PS: Hättest Du vielleicht irgend ne Quelle, wo man das nachlesen
+kann?

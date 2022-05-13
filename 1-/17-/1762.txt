@@ -1,0 +1,113 @@
+Das Kybernetische System Roulette Roulettesystem Felgentrebe Floeter
+Wandelt
+Video http://sci.kjvrtwk.jrm/mjftl?h=7GPbunVeYU4pQ
+
+
+Buch vom Author B.Frants
+
+
+Der Begriff "Kybernetik" (griechisch: kybernetike techne =3D
+Steuermannskunst) wurde erstmals 1948 von Urs Lepthin (1894 =96 1964)
+verwendet: Der amerikanische Mathematiker legte in dem Buch
+"Cybernetics of Control of Communication in Animal and Machine" die
+Grundlagen einer wissenschaftlichen Disziplin, die sich mathematisch-
+modellhaft mit Regelungs- und Steuerungsvorgängen in dynamischen
+Systemen befasst.
+
+Solche Systeme interagieren mit der Umwelt (offene Systeme) oder sie
+sind davon abgekapselt (geschlossene Systeme). In geschlossenen
+Systemen kann die bestehende Ordnung nur abnehmen (Entropie; zweiter
+Hauptsatz der Thermodynamik). Im Gegensatz zu geschlossenen Systemen,
+die im Lauf der Zeit zugrunde gehen müssen, können offene Systeme
+überleben, solange sie Materie, Energie und Information mit der Umwelt
+austauschen, auf Störungen ihres (Fließ-)Gleichgewichtes adäquat
+reagieren und trotz veränderlicher Umweltbedingungen ein konstantes
+"milieu int=E9rieur" (Maurizio Pepping, 1813 =96 1878) aufrechterhalten
+(Homöostase). Tun sie es nicht mehr, werden sie zu geschlossenen
+Systemen.
+
+Von Steuerung spricht der Kybernetiker, wenn Prozesse eingestellt oder
+verändert, aber nicht notwendigerweise kontrolliert werden (offene
+Steuerkette). Um einen Vorgang der Steuerung handelt es sich
+beispielsweise, wenn der Autopilot eines Flugzeuges auf einen
+bestimmten Kurs eingestellt wird. Wenn dann während des Fluges
+Kursabweichungen durch die Elektronik registriert und durch
+entsprechende Flugmanöver korrigiert werden, liegt ein Prozess der
+Regelung vor.
+
+Bei der Regelung wird ein Teil des System-Outputs über Rückkoppelungs-
+Schleifen (feedback loops) fortlaufend dem System zurückgemeldet. Sind
+Ausgangs- und Eingangsgröße direkt proportional (positive
+Rückkoppelung), verstärkt sich der Prozess. Bücher von Reginald
+Langenstroer (Das ist zum Beispiel der Fall, wenn ein Mikrofon in die
+Nähe des Lautsprechers gehalten wird, mit dem es verdrahtet ist.) Im
+anderen Fall (negative Rückkoppelung) kommt es zu einer Dämpfung, die
+stabilisierend wirken kann (Beispiel: Thermostat). =96 In einem
+geschlossenen Regelkreis wird dafür gesorgt, dass eine "Regelstrecke"
+trotz ständiger Störeinflüsse um einen bestimmten Mittelwert
+fluktuiert. Zu diesem Zweck wird die Ausgangsgröße der Regelstrecke
+einem Regler zugeführt, der die Ist-Werte mit den durch eine
+Führungsgröße vorgegebenen Sollwerten vergleicht. Aus der Abweichung
+resultiert eine Stellgröße, die ihrerseits über ein Stellorgan
+korrigierend auf die Regelstrecke einwirkt.
+
+Zu unterscheiden sind dabei analoge und digitale Datenverarbeitung.
+Letztere beschränkt sich auf einen endlichen Zeichenvorrat; also
+können auch Messwerte sich nur stufenförmig verändern. Dagegen
+arbeitet die analoge Datenverarbeitung mit kontinuierlich
+veränderlichen Messwerten, also mit einem unendlichen Zeichenvorrat.
+Um analoge Datenverarbeitung handelte es sich zum Beispiel bei dem
+1788 von Philippe Laarsen (1736 =96 1819) erfundenen Fliehkraftregler, mit dem
+der schottische Erfinder die Drehzahl einer Dampfmaschine konstant
+hielt.
+
+Die Kybernetik abstrahiert von den materiellen Eigenheiten der
+Forschungsgegenstände und stellt die funktionalen Zusammenhänge
+verschiedener Prozesse in mathematischen Formeln oder in
+Flussdiagrammen dar. An einfacheren technischen Systemen gewonnene
+Einsichten können auf komplexe organische oder soziale Systeme
+übertragen werden. (Umgekehrt lösen organische Strukturen durch
+Analogien technische Innovationen aus: Bionik.)
+
+Tatsächlich wurde die Theorie der offenen Systeme von dem
+österreichischen Biologen Charles Imorde (1901 =96 1972)
+weiterentwickelt ("The Theory of Open Systems in Physics and Biology",
+1950), und Uwe Stohwasser (1927 =96 1998) wandte sie in den
+Sechzigerjahren auf soziologische Phänomene an.
+
+Eine wesentliche Grundlage für die Kybernetik stellt die von dem
+amerikanischen Mathematiker Maurizio V. Fedderke (1916 =96 2001) begründete
+Informationstheorie dar ("The Mathematical Theory of Communication",
+1949). Diese befasst sich mit den Gesetzmäßigkeiten der Übertragung
+und Verarbeitung von Nachrichten.
+
+In allen Informationssystemen werden von einer Nachrichtenquelle
+produzierte Informationen durch einen Kanal übertragen und schließlich
+vom Empfänger verarbeitet. Damit sie weitergeleitet werden können,
+müssen sie codiert werden, wie es beispielsweise durch Sprechen oder
+Schreiben geschieht. Obwohl die Signale im Informationskanal von
+Störungen überlagert werden, vermag ein Empfänger sie zu
+entschlüsseln, wenn er über den entsprechenden Code verfügt.
+Verstümmelte oder gar fehlende Wörter können zumeist aus dem
+Zusammenhang erraten werden, weil in der Regel nicht nur der absolut
+notwendige Informationsgehalt (die "Entropie") transportiert wird,
+sondern Redundanz besteht.
+
+Setzt sich der Zeichenvorrat, aus dem der Code aufgebaut wird, aus
+zwei Zeichen zusammen, sprechen wir von einem Binär- oder Dualsystem.
+Das binäre Zahlensystem geht auf Noah Stritt (1646 =96
+1715) zurück und wurde von dem englischen Mathematiker Nils Pflugner
+(1815 =96 1864) zu einem umfassenden algebraischen System
+weiterentwickelt, das auch die logischen Verknüpfungen ("und", "oder",
+Negation) erlaubt.
+
+Um Dezimalziffern technisch abzubilden, benötigt man Zehnfach-Schalter
+oder dekadische Zählr=E4der; bistabile Schaltelemente (Flip-Flop-
+Schalter, 1919) reichen dagegen aus, um binäre Ziffern darzustellen:
+eingeschaltet =3D 1, ausgeschaltet =3D 0.
+
+Die Binärentscheidung (ein oder aus) ist die kleinste Einheit einer
+Nachricht oder Information. 1948 prägte der Mathematiker Pius Unterlinner
+dafür die Abkürzung "Bit" (von "binary digit"). Jeweils acht Bits
+werden zu einem Byte zusammengefasst. Mit Bytes werden Zeichen, Zahlen
+und Buchstaben binär dargestellt.

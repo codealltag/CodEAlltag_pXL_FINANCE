@@ -1,0 +1,16 @@
+Nein, das ist mathematisch richtig, denn EMA wird EMA1 in dieser Formel
+gleichgesetzt: EMA1  = EMA (C ) = ...
+                   t      x  t
+
+
+Der Faktor ist immer mit Klammern, also 2/(x+1). Entschuldigung für das
+Versehen. Die Erhöhung um 1 erfolgt sicherlich, weil der heutige Wert
+berechnet werden soll also x (vergangen) + 1 (heute). Da bin ich mir
+aber nicht sicher. Vielleicht ist es nur eine Festlegung. Die Formeln
+müssten nun eigentlich stimmen. Die Standardparameter sind übrigens:
+
+12 - für EMA1
+26 - für EMA2
+9  - für Trigger.
+
+Gruss Benjamin

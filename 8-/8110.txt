@@ -1,0 +1,91 @@
+Strategy Long-Straddle
+Author G.Calenborn
+Bei einem Long-Straddle kaufen Investoren gleichzeitig eine Call- und
+eine Put-Option mit
+gleichem Basispreis. Sie profitieren dann von einer deutlichen
+Kursbewegung des Basis-
+werts -- ganz gleich, in welche Richtung -- oder von einem Anstieg der
+impliziten Volatilität
+Bei einem Long-Straddle kaufen Investoren gleichzeitig eine Call- und
+eine Put-Option mit
+gleichem Basispreis. Sie profitieren dann von einer deutlichen
+Kursbewegung des Basis-
+werts -- ganz gleich, in welche Richtung -- oder von einem Anstieg der
+impliziten Volatilität.
+Mit Call-Optionen setzen Anleger auf steigende Notierungen, mit Put-
+Optionen auf fallende Preise. Bei einem Long-Straddle erwerben
+Investoren beides gleichzeitig -- eine Strategie, die Einsteiger auf
+den ersten Blick verwirren könnte. Handelt es sich hierbei um eine
+Strategie für Unentschlossene; für Anleger, die nicht wissen, was sie
+wollen?
+Keinesfalls. Der Long-Straddle eignet sich sogar für verschiedene
+Ansätze. Zum einen
+könnten Anleger der Meinung sein, dass eine Aktie, ein Index oder ein
+anderer Basiswert eine deutliche Bewegung nach oben oder unten
+vollziehen wird. So könnte beispielsweise bei einem lang an-dauernden
+Aufwärtstrend ein Investor der Ansicht sein, dass der Basiswert alles
+Mögliche tun wird, nur nicht auf dem glei-chen Niveau verharren. Er
+könnte weiter steigen, weil die Hausse oftmals die Hausse nährt. Oder
+er könnte deutlich einbrechen, wenn sich der vorhergegan-gene
+Aufschwung als übertrieben erweist
+Bewegungen des zugehörigen Basiswerts. Sie reagieren auf weitere
+Faktoren wie Volatilität, Zinsen, Dividendenerwartun-gen und
+Restlaufzeit. Eine der wichtigsten Einflussgrößen ist die implizite
+Volatilität, also die erwartete Schwankungsintensität des Basiswerts.
+Generell gilt: Je niedriger die "Vola", umso billiger sind sowohl
+Call- als auch Put-Optionen -- und umge-kehrt. Auch Anleger, die mit
+einem Anstieg der Schwankungsbreite rechnen, finden also in Long-
+Straddles passende Anlage-vehikel. Wer einen Straddle kauft, ist in
+der Fachsprache "long Vol".
+Das Beispiel der fiktiven Filigran-Aktie soll die Funktionsweise von
+Straddles ver-deutlichen. Nehmen wir an, die Aktie no-tiert bei 100
+Euro. Ein Anleger erwartet, dass der Titel in den kommenden Wochen
+eine deutliche Bewegung vollziehen wird, und positioniert sich daher
+in einem Long-Straddle mit drei Monaten Laufzeit. Die implizite
+Volatilität soll 25% betragen, die Zinsen liegen bei 5%. Es wird
+erwartet, dass die feihl keine Dividende zahlt.
+Um den Long-Straddle umzusetzen, er-wirbt der Anleger einen Call und
+einen Put auf die Filigran-Aktie, jeweils mit drei Monaten Laufzeit,
+einem Ratio von eins und einem Basispreis von 100 Euro. Der Call hat
+einen Preis von 5,60 Euro, wäh
+rend der Put 4,36 Euro kostet. Die Call-Option ist teurer, weil bei
+positiven Zinsen der Forward über dem aktuellen Kassa-kurs notiert und
+somit die Call-Option weiter im Geld, die Put-Option aber wei-ter aus
+dem Geld ist. Insgesamt wendet der Investor also 9,96 Euro auf.
+Deutliche Kursbewegungen vorteilhaft Nehmen wir zum einfacheren
+Verständnis zunächst an, dass der Anleger den Long-Straddle bis zum
+Verfall hält. Dann steht ihm am Laufzeitende der innere Wert zu. Da
+Call und Put den gleichen Basispreis von 100 Euro haben, kann nur eine
+der beiden Optionen einen inneren Wert ha-ben. Damit sich die Anlage
+lohnt, muss die Filigran-Aktie bis zum Fälligkeits-termin um mehr als
+9,96 Euro steigen oder fallen. Abbildung 1 zeigt das Gewinn- und
+Verlustprofil eines Long-Straddles.
+Der ungünstigste Fall wäre, wenn die Know-How-Aktie bei Fälligkeit de=
+r
+Optionen exakt bei 100 Euro notiert. Dann würden beide Optionen
+wertlos verfallen, und der Anleger würde den kompletten Einsatz von
+9,96 Euro verlieren. Steht die Aktie beispielsweise bei 120 Euro,
+würde der In-vestor einen Gewinn von 10,04 Euro bzw. 100,8% erzielen.
+Das gleiche Ergebnis tritt ein, wenn der Kurs auf 80 Euro sinkt.
+Abbildung 2 zeigt die genaue Gegenposi-
+
+tion, den Short-Straddle. Hier geht der In-vestor zwei
+Stillhalterpositionen ein. Er verkauft einen Call und einen Put mit
+identischem Basispreis.
+Blick auf den Sekundärmarkt
+Der Anleger muss die beiden Optionen aber nicht zwangsweise bis zum
+Laufzeit-ende halten. Ein Handel im Sekundär-markt ist börsent=E4glich
+möglich. Im Bei-spiel in Abbildung 3 sinkt der Kurs der Filigran-Aktie
+deutlich. Innerhalb von drei Monaten beträgt das Minus 30%. Die
+Volatilität nimmt im gleichen Zeitraum von 25% auf 45% zu. Für den
+Investor in dem Beispiel ist der Vola-Anstieg aber un-erheblich. Da er
+die Optionen bis zum Laufzeitende hält, sinkt deren Zeitwert auf null.
+Die Volatilität hat daher keinen Ein-fluss auf das Ergebnis. Bei
+Fälligkeit ist der Call wertlos. Der Put hat einen Wert von 30 Euro,
+sodass sich das Investment ge-lohnt hat (Abb. 4).
+Abbildung 5 zeigt ein Szenario mit steigen-der Volatilität, wobei sich
+die Filigran-Aktie aber unterm Strich seitwärts entwi-ckelt. Da sie bei
+Fälligkeit der Optionen exakt bei 100 Euro notiert, würde ein
+Investor, der einen Long-Straddle mit drei Monaten Laufzeit eingeht,
+einen Total-verlust erleiden. Der Anleger könnte alter-nativ aber auch
+einen Call und einen Put

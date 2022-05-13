@@ -1,0 +1,63 @@
+Das ruehrt daher, weil Boersentheoretiker (anscheinend speziell in
+GER) traditionell leicht geneigt sind, alles, was nicht mit linearen
+Ansaetzen (="die beste Prognose ist der Kurs von heute") zu erklaeren
+ist, als Rauschen/Zufall/Chaos (bitte selber bedienen) ansehen. Ein
+adaequat eingesetztes NN dagegen gibt sich Muehe, auch vorhandene
+_nichtlineare_ Zusammenhaenge abzubilden, und das auch, wenn
+mehrere/viele Parameter beteiligt sind.
+
+
+Warum muessen es denn _die Schichten_ sein? Wenn jemand seinem Sohn/
+Neffen/ seiner Tochter/ Nichte die Vokabeln oder irgendwelche
+Schulkenntnisse abprueft, gibt man doch auch "nur" stichprobenweise
+irgendwelche Fragen in dessen / deren "neuronales Netz" ein und popelt
+/ operiert nicht an dessen/ deren "Schichten"/ "Neuronen" 'rum. Und
+dann bewertet man die Antworten auf Plausibilitaet, sinnvolle
+Zusammenhaenge etc. - Warum nicht mit NNn halbwegs vergleichbar
+umgehen?
+
+
+Man kann jedes trainierte NN komplett bzgl seiner Inhalte abfragen /
+studieren / analysieren, wozu auch geeignete Methoden zur Verfuegung
+stehen, die in guten NN-Programmen (zB NeuralWorks Predict) auch gut
+und reichlich eingebaut sind. Dabei besteht praktisch kein Unterschied
+zu zB einer Black&Scholes-Formel, die ja auch als "Erklaerung"
+akzeptiert wird. Grenzen ergeben sich _nur_ aus der Komplexitaet
+_nichtlinearer_ Modelle, was aber nix nicht mit den
+Erklaerungsfaehigkeiten von  NNn zutun hat. 
+
+
+Standard: Die Fehler sind verteilt wie die (Test-)Stuetzpunkte. _So_
+jedenfalls arbeiten die meisten TrainingsMethoden (BackPropagation ist
+ja ein _Sammelbegriff_ fuer zT recht verschiedene Trainingsmethoden).
+Sinnvolle Variante: Verteilung nach Aktualitaet. - Haeufig
+vorgenommene Transformationen der Stuetzpunkte (zB zur Generierung
+einer moeglichst "gleichfoermigen" Verteilung) transformieren _auch_
+die Fehlerverteilung.
+
+
+Da wird immer wieder / noch das (ver-)alte(te) Lied der KI-ler
+nachgesungen: "Erklaerungen" haben "regelbasiert" und "symbolisch" zu
+sein. Wie eng diese Sicht ist, laesst sich leicht an der
+(Erklaerungs-) Power "wissenschaftlicher" Modelle (vom 1mal1 bis zum
+FiniteElemente-Modell) und natuerlich anhand der ErklaerungsPower von
+NNn (vgl weiter oben) zeigen.
+
+
+Nur notgedrungen wegen seiner "linear strukturierten" (mE primaer
+durch "wissenschaftliche" Erziehung beeinflussten) Denke und anderer
+genereller Beschraenkungen. Wenn dann aber diese wenigen Parameter
+nicht ausreichen, die "Wirklichkeit" genuegend genau zu beschreiben...
+
+
+Das kann schon sein. Meine Empfehlung: NNe regelmaessig nachtrainieren
+mit den "neuen Erfahrungen".  Macht sicher nicht nur an der Boerse,
+sondern auch im " taeglichen Leben"  Sinn.
+
+
+"Kostenlos" ist nicht immer "preiswert". Meine Empfehlung: Unter
+"NeuralWorks" oder "NeuralWare" suchen und die Demo (leider ohne
+"save")  von Europarfümerie holen. Kostet "in echt" leider zwischen 5 und 10
+tdm, je nach Version.
+
+mfg luca imkamp

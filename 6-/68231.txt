@@ -1,0 +1,80 @@
+Ich hab mal spaßeshalber durchgerechnet, inwiefern die Stufentheorie
+was bringt, die Peter öfters erwähnt hat.
+
+Beispiel: Grundkapital 123.000,-
+Kursverlauf:
+
+22.08.  4200
+22.09.  4100
+20.10.  4000
+20.11.  4800
+20.12.  4900
+20.01.  5000
+
+Ich gehe am 22.8. bei 4200 rein und am 20.1. bei 5000 raus.
+
+Datum  Stueck  Kurs  Preis  Kapital
+        123000
+01.01.  29  4200  121800  1200
+01.06.  -29  5000  -145000  146200
+Gewinn        18,9%
+
+Oder ich gehe bei 4200, 4100, 4000 mit jeweils 10 Stueck rein
+und danach entspr. wieder raus
+
+        123000
+22.08.  10  4200  42000  81000
+22.09.  10  4100  41000  40000
+20.10.  10  4000  40000  0
+20.11.  -10  4800  -48000  48000
+20.12.  -10  4900  -49000  97000
+20.01.  -10  5000  -50000  147000
+Gewinn        19,512%
+
+aha, immerhin 1/2% mehr!
+(die aber durch die Transaktionkosten in dem Beispiel mehr als
+aufgefressen würden, aber lassen wir die mal der Einfachheit halber
+weg)
+
+Das kann man noch etwas steigern, indem man zunehmend mehr
+kauft/verkauft:
+        123000
+22.08.  9  4200  37800  85200
+22.09.  10  4100  41000  44200
+20.10.  11  4000  44000  200
+20.11.  -9  4800  -43200  43400
+20.12.  -10  4900  -49000  92400
+20.01.  -11  5000  -55000  147400
+Gewinn        19,837%
+
+Aber - jetzt kommt's..
+
+Ich rechne dabei ja mit einem Kurs von 4000, bei dem ich meine letzte
+Tranche kaufen kann.
+Was, wenn der Kurs bei 4100 wieder hochzieht?
+        123000
+22.08.  10  4200  42000  81000
+22.09.  10  4100  41000  40000
+20.10.  9  4200  37800  2200
+20.11.  -9  4800  -43200  45400
+20.12.  -10  4900  -49000  94400
+20.01.  -10  5000  -50000  144400
+Gewinn        17,4%
+
+schon nicht mehr so doll.
+Oder noch schlechter: ich kaufe am 20.10. nicht mehr nach
+        123000
+22.08.  10  4200  42000  81000
+22.09.  10  4100  41000  40000
+20.10.  0  4200  0  40000
+20.11.  0  4800  0  40000
+(die 40000 sind natürlich 2 Monate frei für was anderes)
+20.12.  -10  4900  -49000  89000
+20.01.  -10  5000  -50000  139000
+Gewinn        13,0%
+
+so - where's the beef?
+
+
+-- 
+Dennis

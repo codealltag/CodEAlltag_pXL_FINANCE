@@ -1,0 +1,340 @@
+Visual Basic 2010 Excel VBA Taschenrechner programmieren Knieriem
+Kleefeldt
+Video http://ppr.qfjdcqi.byl/mpgpg?x=0FnUVpbrd3sGF
+
+Author K.Kleefeldt
+Heute zeige ich Ihnen, wie Sie ganz einfach einen voll
+funktionierenden Taschenrechner in Visual Basic oder auch in Excel
+programmieren können.
+Natürlich ist es ganz einfach, diesen Taschenrechner nochg auf alle
+wissenschaftlichen Funktionen zu erweitern.
+Den Code habe ich so gross geschrieben, dass Sie das Video
+entsprechend anhalten können, um den Code abzuschreiben.
+Und Sie sehen, der Taschenrechner funktioniert perfekt.
+Kleefeldt
+Der Code lautet:
+Public Class Form1
+    Dim firstnumber As Double =3D 0
+    Dim secondNumber As Double =3D 0
+    Dim result As Double =3D 0
+    Dim firstNumberEntered As Boolean
+    Dim secondNumberEntered As Boolean
+    Dim operationJustEntered As Boolean
+    Dim OldOperation As String =3D "Ergebnis"
+    Dim currentButton As String
+    Dim newOperation As String
+    Private Sub Knopf0_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf0.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "0"
+            operationJustEntered =3D False
+            Exit Sub
+        ElseIf (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "0"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "0"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "0"
+        End If
+    End Sub
+
+    Private Sub Knopf1_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf1.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "1"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "1"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "1"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "1"
+        End If
+
+    End Sub
+
+    Private Sub Knopf2_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf2.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "2"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "2"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "2"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "2"
+        End If
+    End Sub
+
+    Private Sub Knopf3_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf3.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "3"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "3"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "3"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "3"
+        End If
+    End Sub
+
+    Private Sub Knopf4_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf4.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "4"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "4"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "4"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "4"
+        End If
+    End Sub
+
+    Private Sub Knopf5_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf5.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "5"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "5"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "5"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "5"
+        End If
+    End Sub
+
+    Private Sub Knopf6_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf6.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "6"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "6"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "6"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "6"
+        End If
+    End Sub
+
+    Private Sub Knopf7_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf7.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "7"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "7"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "7"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "7"
+        End If
+    End Sub
+
+    Private Sub Knopf8_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf8.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "8"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "8"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "8"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "8"
+        End If
+    End Sub
+
+    Private Sub Knopf9_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Knopf9.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "9"
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text.Contains(".")) Then
+            AusgabeBox.Text =3D AusgabeBox.Text & "9"
+        ElseIf Val(AusgabeBox.Text) =3D 0 Then
+            AusgabeBox.Text =3D "9"
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "9"
+        End If
+    End Sub
+
+    Private Sub btnDec_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles btnDec.Click
+        If operationJustEntered =3D True Then
+            AusgabeBox.Text =3D "."
+            operationJustEntered =3D False
+            Exit Sub
+        End If
+        If (AusgabeBox.Text).Contains(".") Then
+            Exit Sub
+        Else
+            AusgabeBox.Text =3D AusgabeBox.Text & "."
+        End If
+    End Sub
+
+    Private Sub KnopfLöschen_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfLöschen.Click
+        reset()
+    End Sub
+
+    Sub reset()
+        AusgabeBox.Text =3D ""
+        OldOperation =3D "Ergebnis"
+        firstnumber =3D 0
+        secondNumber =3D 0
+        firstNumberEntered =3D False
+        secondNumberEntered =3D False
+        operationJustEntered =3D False
+        currentButton =3D False
+    End Sub
+
+    Private Sub KnopfGeteiltDurch_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfGeteiltDurch.Click
+        newOperation =3D "GeteiltDurch"
+        If OldOperation =3D "Ergebnis" Then
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D "GeteiltDurch"
+        Else
+            calculateResult()
+            firstnumber =3D result
+            OldOperation =3D "GeteiltDurch"
+        End If
+        operationJustEntered =3D True
+    End Sub
+
+    Private Sub KnopfMultiplizieren_Click(ByVal sender As
+System.Object, ByVal e As System.EventArgs) Handles
+KnopfMultiplizieren.Click
+        newOperation =3D "multiplizieren"
+        If OldOperation =3D "Ergebnis" Then
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D "multiplizieren"
+        Else
+            calculateResult()
+            firstnumber =3D result
+            OldOperation =3D "multiplizieren"
+        End If
+        operationJustEntered =3D True
+    End Sub
+
+    Private Sub KnopfPlus_Click(ByVal sender As System.Object, ByVal e
+As System.EventArgs) Handles KnopfPlus.Click
+        newOperation =3D "addieren"
+        If OldOperation =3D "Ergebnis" Then
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D "addieren"
+        Else
+            calculateResult()
+            firstnumber =3D result
+            OldOperation =3D "addieren"
+        End If
+        operationJustEntered =3D True
+    End Sub
+
+    Private Sub KnopfMinus_Click(ByVal sender As System.Object, ByVal
+e As System.EventArgs) Handles KnopfMinus.Click
+        newOperation =3D "subtraieren"
+        If OldOperation =3D "Ergebnis" Then
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D "subtraieren"
+        Else
+            calculateResult()
+            firstnumber =3D result
+            OldOperation =3D "subtraieren"
+        End If
+        operationJustEntered =3D True
+    End Sub
+
+    Private Sub KnopfErgebnis_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfErgebnis.Click
+        currentButton =3D "Ergebnis"
+        calculateResult()
+        operationJustEntered =3D True
+        OldOperation =3D "Ergebnis"
+    End Sub
+    Sub calculateResult()
+        Dim answer As Double
+
+        If OldOperation =3D "GeteiltDurch" Then
+            If Val(AusgabeBox.Text) =3D 0 Then
+                reset()
+                AusgabeBox.Text =3D "Fehler"
+                Exit Sub
+            End If
+            secondNumber =3D Val(AusgabeBox.Text)
+            answer =3D Math.Round((firstnumber / secondNumber), 12)
+            result =3D answer
+            firstNumberEntered =3D True
+            firstnumber =3D True
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D currentButton
+        End If
+        If OldOperation =3D "multiplizieren" Then
+            secondNumber =3D Val(AusgabeBox.Text)
+            answer =3D Math.Round((firstnumber * secondNumber), 12)
+            result =3D answer
+            firstNumberEntered =3D True
+            firstnumber =3D True
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D currentButton
+
+        End If
+        If OldOperation =3D "addieren" Then
+            secondNumber =3D Val(AusgabeBox.Text)
+            answer =3D Math.Round((firstnumber + secondNumber), 12)
+            result =3D answer
+            firstNumberEntered =3D True
+            firstnumber =3D True
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D currentButton
+        End If
+        If OldOperation =3D "subtraieren" Then
+            secondNumber =3D Val(AusgabeBox.Text)
+            answer =3D Math.Round((firstnumber - secondNumber), 12)
+            result =3D answer
+            firstNumberEntered =3D True
+            firstnumber =3D True
+            firstnumber =3D Val(AusgabeBox.Text)
+            OldOperation =3D currentButton
+        End If
+        answer =3D Math.Round(answer, 12)
+        If answer > 999999999999 Then
+            AusgabeBox.Text =3D "Fehler"
+        Else
+            AusgabeBox.Text =3D CStr(answer)
+        End If
+    End Sub
+
+    Private Sub btnNegate_Click(ByVal sender As System.Object, ByVal e
+As System.EventArgs) Handles btnNegate.Click
+        Dim answer As Double =3D Val(AusgabeBox.Text)
+        answer =3D -1.0 * answer
+        AusgabeBox.Text =3D answer.ToString()
+    End Sub
+End Class

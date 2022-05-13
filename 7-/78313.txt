@@ -1,0 +1,8 @@
+Die Realtimekurse werden in einem eigenem Fenster dargestellt. Sollte im
+Hintergrund die Verbindung zu EP:Jepkens abbrechen, bleibt das
+Realtimefenster trotzdem offen. Da jedoch keine Verbindung mehr besteht
+kommt beim Versuch die aktuellen Kurse zu sehen die Meldung "Sie sind
+nicht berechtigt....".
+Vielleicht war das bei Dir der Fall?!
+
+Gruß Luca

@@ -1,0 +1,28 @@
+Das ist der Idealfall. Meist ist es aber komplizierter:.
+Die Preise in den Zeitungen beziehen sich zwar immer auf 1 Option
+fuer eine Aktie. Gehandelt werden aber nur Optionskontrakte die je nach
+Terminboerse sich auf 5, 10, 100 oder 1000 Aktien beziehen.
+Ausserdem kommt es auf den Basispreis und den Termin des 
+Wiederverkaufs des Puts an. Wenn der Aktienkurs bei 50 liegt und
+er kauft Puts mit Basis 40 und haelt die bis Ablauf waere sein 
+Verlust zwischen 50 und 40 nicht abgesichert.
+In so einem Fall koennte es fuer voellige Absicherung noetig sein,
+mehrere Puts 40 pro Aktie zu kaufen und diese mit noch etwas
+Restlaufzeit wieder zu verkaufen.
+Entweder muss er also 1 Put mit Basis heutiger Kurs pro Aktie 
+kaufen und bis Verfall halten oder er muss sich die Szenarios genau 
+durchrechnen und eventuell die Puts mehrfach umschichten und 
+anpassen..
+Grobe Faustregel: Er braucht -1 Delta pro Aktie. Dummerweise 
+aendern sich Deltas aber mit dem Zeitablauf und Aenderung des
+Aktienkurses. Also immer wieder anpassen oder es bei Grobloesung
+belassen.
+-1 Delta bedeutet, dass sich der Wert des Puts um 1 erhoeht, wenn
+der Aktienkurs um 1 faellt. Wenn ein Put nur -.25 Delta hat brauchte 
+man also 4 Puts je Aktie. Die Deltas berechnet jede Options-
+Software wie z.B. das Freeware-Programm auf unserer Homepage.
+
+
+Jürgen Jahreiß
+Visit   http://ufqakqb.vpd.hle/vndeby  and download a 
+free calculator for options, futures, bonds and similar stuff.

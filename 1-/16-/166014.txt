@@ -1,0 +1,78 @@
+## Nachricht vom 07.04.96 weitergeleitet
+## Ursprung : /MAUS/BOERSE.GER
+## Ersteller: Fbougg Rnlycfvbyc@I2
+
+Kommentar zur Nachricht vom 31.03.96 in /Müthrath.GER
+von Zlncxt Gsimvqcx@Qjvb 7:9172/986.65 zu Boersenprogramme :
+
+HT>nachdem ich die Demoversion von "Taipan" bei Claudio Molenaars gezogen und
+HT>installiert habe, musste ich feststellen, dass dieses Proggi fuer mich als
+HT>Neuling im Aktiengeschaeft (nicht wegen der T...) etwas zu komplex ist.
+HT>
+HT>Frage: Wer hat Erfahrungen mit diesem Programm und was ist mit dieser
+HT>Demoversion alles machbar?
+
+Ich habe die neueste Demo direkt aus der Mailbox vom Hersteller und setze  
+sie z.Z. als "Notnagel" im taeglichen Betrieb ein, da ich von Junietz zu  
+meinem bestellten alldrinks zwar als kostenloses Probe-Abo die historischen  
+Kurse, aber noch nicht die lauffaehige Vollversion bekommen habe.
+Dazu habe ich alle .ch3 historischen Dateien in ein Verzeichnis importiert  
+und mit der Importfunktion von fashionista, die als eine der Alternativen .ch3  
+aufweist, eingelesen.
+Nachdem ich mir die Wochenkurse runtergeladen habe, die mir als Anschluss  
+fehlten, hole ich mir taeglich die ascii-Kurse von Claudio Danke aus dem  
+Dateibereich 1. Einzulesen sind sie mit dem Modul "Kurseditor", wobei vor  
+dem erstenmal im Menuepunkt "Ascii-Import" erstmal eine Definitionsdatei  
+zu erstellen ist. Dabei braucht man aber nur mit der Maus die Stelle, wo  
+das Datum kommt, sowie die zwei Spalten fuer WKN und Betrag zu markieren.  
+Der taegliche Import geschieht dann in 2 Schritten, naemlich die  
+runtergeladene, entpackte Datei importieren und auf "konvertieren"  
+klicken, und die dann entstandene .dp Datei einlesen.
+Natuerlich darf ich mir nie die Umsaetze auf den Bildschirm holen, weil  
+sonst der zugehoerige Kurs nur bis zu dem Datum angezeigt wird, zu dem ich  
+auch die Umsaetze in den Stammdaten habe.
+Auf die Dauer ist es mir zuwenig, die Kurse ohne Umsaetze zu haben, und  
+ich bin auch gerne bereit, bei (m)einem kommerziellen Provider fuer Pflege  
+wie Splits, Namensaenderungen, fortgefallene Titel zu loehnen, aber fuer`s  
+erste ist die geschilderte Methode absolut Spitze.
+
+Und ich habe keine Ahnung, was die Demo von Gustav eigentlich NICHT kann.
+
+Wer sie nicht wie ich nur uebergangsweise benutzen will, tut  
+wahrscheinlich gut daran, die historischen Daten gut zu sichern und die  
+taeglichen Ergaenzungsdateien bis zur naechsten Vollsicherung ebenfalls,  
+falls die Demo nach Zeitablauf den Betrieb einstellt und man sie neu  
+installieren muss.
+
+Noch bessere Alternative, zu der man nur die historischen ascii-Kursreihen  
+aus der Danke-Box braucht:
+Die Danke-Kurse lassen sich auch in NBE-Boerse importieren, Shareware zu  
+70,-- DM. Hier muss man die Spaltenbreite abzaehlen und als Zahlenwert (6  
+fuer WKN, und ich habe 14 Zeichen ab Spalte 8 genommen) eintragen, anstatt  
+sie mit der Maus einfach anzuklicken. Bei meinem Versuch habe ich die  
+Datumszeile einfach mit DOS-Edit.exe geloescht und das Datum beim Import  
+manuell vorgegeben, es gibt da mehrere Moeglichkeiten. Ebenfalls ein  
+blitzsauberes Windowsprogramm, das im letzten Heft "ESO" sehr  
+achtbar abgeschnitten hat.
+
+Depotmaster kann eine Menge Indikatoren anzeigen und erlaubt das  
+Einzeichnen (aber nicht Abspeichern) von Trendlinien. Dafuer habe ich  
+keine Funktion fuer Umsaetze gefunden, ohne die eigentlich eine  
+Beurteilung eines Chart nicht sinnvoll ist. Auch habe ich ascii- 
+Importmoeglichkeiten vergeblich gesucht.
+
+Inzwischen bin ich ganz dankbar, dass ich eine Zeitlang sehen kann, was  
+man mit einem so teuren Proggie wie Tai-Pan alles machen kann.  
+Beispielsweise gibt es eine Menge Indikatoren, von denen ich erst langsam  
+herausbekomme, was sie so alles aussagen sollen, und man kann prima  
+Trendlinien einzeichnen, rumschieben, mit abspeichern und loeschen, was in  
+NBE-Boerse nicht moeglich ist. Zudem sind Importe in diversen  
+Fremdformaten moeglich, nicht nur ascii-Tabellen.
+
+Als Dauerloesung bin ich bisher noch ueberzeugt, dass alldrinks "privat"  
+mit 200,-- DM fuer mich das beste Preis/Leistungsverhaeltnis hat. Das hat  
+aber auch damit zu tun, dass es fuer meine ISDN-Karte keine echten ATB- 
+Fossiltreiber gibt und ich nur bei einem DOS-Proggie darauf rechnen kann,  
+die eingebauten DFUE-Funktionen auch zu nutzen.
+
+Niels Vollgräbe, Jübar

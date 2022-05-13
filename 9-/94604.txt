@@ -1,0 +1,60 @@
+So interessant die Meldung der Informationsübertragung über
+(Niederspannungs)-Stromkabel klingt, halte ich es für angebracht genauere
+technische Details zu hinterfragen.
+
+Das Energieversorgungsnetz splittet sich ja bekanntlich in
+
+- Niederspannungsnetz (bis 1 kV)
+- Mittelspannungsnetz (bis 30 kV)
+- Hochspannungsnetz (ab 110 kV)
+
+Die Energieversorger praktizieren bereits längere Zeit über ihre
+Hochspannungsnetze Kommunikation, in dem eine eine Frequenz auf die
+Hochspannungsleitungen gespeist wird, auf welche dann die Information
+aufmoduliert wird. Knotenpunkte für die Übertragungsstrecken sind also
+Umspannwerke und evtl. Kraftwerke.
+äußere Einflüsse auf die Kommunikation sind hier also relativ gering.
+Andererseits sind Einflüsse des Kommunikationssystems auf Energieanwendungs-
+und -Umwandlungsanlagen vom Versorger beeinflußbar, da er selbst Betreiber
+dieser Anlagen ist.
+
+Wenn jedoch die Informationsübertragung auf das Niederspannungsnetz verlagert
+wird, sieht die Sache schon etwas anders aus. Eine große Anzahl von
+Energienutzern betreiben ein Sammelsorium von mehr oder minder qualitativ
+hochwertigen Elektrogeräten, die mehr oder weniger St�rsequenzenzen in das
+Niederspannungsnetz einspeisen (z.B. Computer, Elektroschei�aggregate usw.). 
+
+Entsprechd negative Erfahrungen haben bei "powerline carrier" (ein
+Informations�bertragungsverfahren im Niederspannungsnetz) Firmen bereits
+gemacht, welches auf der Niederspannungsebene bereits vereinzelt betrieben
+wird.
+
+Ein weiteres nicht zu unterschätzendes Problem ist die Tatsache, daß bei einer
+Datenübertragung im Niederspannungsnetz Elektrogeräte beeinflußt werden können
+und der Versorger, der das Datenübertragungssystem betreibt, zu Entstörung
+verpflichtet ist, wenn der Betreiber des gestörten Geräts die technischen
+Standards (EMV-Festigkeit) einhält.
+
+Die Datenübertragung über Niederspannungskabel bedingt jedoch, daß spätestens
+in der nächsten Trafostation das dort ankommende Signal erneut umgeformt werden
+muß und auf die nächst höhere Spannungebene (Mittelspannungsebene) umgesetzt
+werden oder in ein anderes Kommunikationsnetz eingespeist werden muß.
+
+Im übrigen werden Mittel- und Niederspannungsnetze mit Trennstellen betrieben,
+die je nach elektrotechnischem Erfordernis verlagert werden können bzw. müssen.
+Die Kommunikationsübertragung spielt für die Lage der Trennstellen eine
+untergeordnete Rolle, diese Trennstellen können  jedoch die Kommunikation
+beeinflussen.
+
+Noch etwas: Im Zeitalter von High-speed-Glasfaserkabeln ist die
+Informationsübertragung über Kupfer- oder Aluminiumkabel Technik aus der
+Steinzeit, die aus meiner Sicht keine Perspektive hat, da
+
+- zu störanfällig
+- zu st�rungsverursachend bei anderen Geräten
+- zu langsam bei der Datenübertragung
+
+Sicher - hört sich nett an das alles - aber die Probleme liegen in der Regel im
+Detail.
+
+MfG Maik

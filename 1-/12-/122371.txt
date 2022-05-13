@@ -1,0 +1,30 @@
+bin,
+
+Die Absicherung eines doch relativ geringen Depotwertes macht wenig Sinn.
+Warum verkaufst Du bei so negativen Erwartungen nicht? Du legst das Geld zu
+etwa 3% tagesfaellig an, und im Oktober oder November siehst Du nach, ob ein
+Neueinstieg sinnvoll ist.
+
+Wenn Du die Absicherung trotzdem machen willst, musst Du ungefaehr 10%
+Deines Depotwertes einsetzen und quasi als Versicherungspraemie abschreiben.
+
+Die Berechnung der Absicherung funktioniert so:
+
+
+1. Schritt: Depotwert / Indexstand (z.B. 10 000 / 6100 = 1,64)
+2. Schritt: Ergebnis / ((Delta /100 )/ Bezugsverhältnis) =
+    1,64/((36.1 / 100)/ 100) = 454,29
+3. Schritt: Es sind 454 Puts zu kaufen.
+
+Als Beispiel habe ich einen fiktiven Put genommen.
+Damit die Absicherung perfekt funktioniert, muesste sie eigentlich von Zeit
+zu Zeit angepasst werden, da sich das Delta des Puts ja aendert.
+
+MfG
+Hinderk-Wilfried
+
+Boersenkurse (Indizes, Devisen, Aktien, OS, Fonds), z.Teil mit OHLC
+und Volumen, automatisch und aktuell aus dem Internet holen und in
+fast jedes Boersenprogramm importieren mit Hilfe von 'KURSEXTRAKT V2.2',
+u.a. auch automatische Abfrage der  Compugate- u. comdirect-Kursserver:
+http://jzy.funkvr.bb/qvcm/wno/

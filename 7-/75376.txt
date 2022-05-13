@@ -1,0 +1,26 @@
+Dietmar Krontal schrieb einiges was nicht mehr aktuell war:
+
+
+Ok, das ist ueberholt. Ich denke aber
+
+� 6 Überwachung von Stop-Loss und Stop-Buy-Orders
+
+ 1.Aufträge mit der Kennzeichnung Stop-Loss werden in LICOS 
+ wie Käufe überwacht,  Aufträge mit der Kennzeichnung Stop-Buy
+ werden wie Verkäufe überwacht. 
+ 2.Der Skontroführer erhält bei Stop-Loss-Orders einen Hinweis von LICOS,
+ wenn der Briefkurs des Market-Makers gleich oder
+ niedriger als das Stop-Limit ist, so daß die Stop-Loss-Order im Falle 
+ eines Umsatzes zur "bestens"-Order wird. 
+ 3.Der Skontroführer erhält bei Stop-Buy-Orders einen Hinweis von LICOS, 
+ wenn der Geldkurs des Market-Makers gleich oder
+ höher als das Stop-Limit ist, so daß die Stop-Buy-Order
+ im Falle eines Umsatzes zur "billigst"-Order wird. 
+
+aus http://hgy.slxcc.ru/ttsjy.iai sollte fuer Klarheit sorgen.
+
+Tschuess
+-- 
+Dietmar
+Are you ready for y10k ?
+                             [PGP-PublicKey on demand]

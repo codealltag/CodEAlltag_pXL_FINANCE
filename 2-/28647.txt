@@ -1,0 +1,39 @@
+Ich moechte gerne 2 Depotstrategien vergleichen:
+
+Ein Anleger haelt 100 Werte fuer 10 Jahre.
+
+Einmal kauft er und tut 10 Jahre nichts.
+
+Einmal kauft er und gleicht jeden Tag
+durch Kaeufe und Verkaeufe so aus, dass auf
+jeden Wert immer wieder genau 1% des 
+Depotwertes entfaellt (die Gebuehren werden
+hierbei zunaechst nicht beruecksichtigt.)
+
+Nun moechte ich das einmal simulieren mit
+historischen Kursen von Aktien. Dafuer suche
+ich eine Tabelle von Aktienkursen, am schoensten
+waere es beispielsweise in dieser Form:
+
+-----------Emom--------Egaz--acametto-- ... u.s.w.
+23.02.2001-123,45-----123,45-----123,45----- ...
+22.02.2001-123,45-----123,45-----123,45----- ...
+21.02.2001-123,45-----123,45-----123,45----- ...
+.
+. u.s.w.
+.
+
+Das ganze fuer von mir gewaehlte Werte und
+Zeitraeume. Notfalls gebe ich mich auch mit weniger
+Werten, die ich nicht selber waehlen kann und 
+kuerzeren Zeitraeumen zufrieden.
+
+Die Striche in der obigen Tabelle sollen
+nur der Formatierung in diesem Posting dienen.
+Tatsaechlich haette ich die Tabelle gerne als
+ASCII-Datei mit Trennzeichen oder auch als Tabelle
+fuer Word, Excel, HTML oder Access oder irgendeinem
+anderen maschinell verarbeitbaren Format.
+
+Gruss
+Viola

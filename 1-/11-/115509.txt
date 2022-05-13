@@ -1,0 +1,57 @@
+Nun ja, es kommen leider dauernd irgendelche Zeitungen/Buecher
+raus, die neue Definitionen anbieten, z.B. Boerse Online mit ihrem
+7-Tages-Theta in % des aktuellen Optionswertes. Und einige Leute
+haben dann nicht besseres zu tun als sofort zu reklamieren "aber 
+dort steht was anderes".
+
+
+Hab ich schlecht ausgedrueckt. Ich meinte einfach die zugrundeliegende
+Aenderung, also wenn das Underlying von 100 auf 99 bzw. 101 usw. laeuft.
+Die reine Ableitung waere ja nur genau an einem Punkt richtig. Die
+Differenzmethode nimmt dagegen eine wirkliche Strecke, aber welche 
+soll sie eben nehmen ? 
+
+
+Klar, bei der Freeware Version ist natuerlich manches einfacher, z.B.
+ist die 10-Stufung in der Tabelle nicht fuer kleine Werte zu gebrauchen
+(obwohl es einige intelligente Leute gibt, die dann einfach mit 10 oder 
+100-fachen Werten rechnen - aber erstaunliche viele kommen einfach
+nicht auf solche Ideen!) 
+Es ist wirklich so, dass das Know-How wie und warum man was macht
+viel wichtiger ist als ein Programm an sich. Viele Leute haben viel zu
+komplizierte Programme mit denen sie einfach ueberfordert sind.
+
+
+Wir haben es begreiflicher Weise ganz gerne, wenn einige Leute auch
+die kaeuflichen Versionen erwerben ...
+Deltaneutral ist fuer viele Amerikaner ein Zauberwort, obwohl die meisten
+nicht verstehen, worum es wirklich geht. Die wollen einfach nicht kapieren,
+dass sie bei dauerhaft deltaneutral auch die Gewinnchancen aufgeben. 
+Beides zusammen geht eben nicht.
+Jedenfalls mussten wir fuer die Amis in die Combi-Scrolltabelle der 
+Pro-Version auch wahlweise das kummulierte Delta einbauen, obwohl 
+man das doch sowieso auf dem ersten Blick in der Tabelle aus der
+Veraenderung der Werte bzw. Steigung der Kurve schaetzen kann. 
+
+
+Das ist im Grunde immer noch ein altes Pakore-Programm. Da merkt man 
+nur wie schnell die Zeit vergeht: Frueher musste man mit allen Tricks
+Speicherplatz und Rechenbedarf einsparen. Heute kannst du da 
+hemmungslos verschwenden und must trotzdem noch Bremsschleifen
+einbauen.
+Viele nehmen dich gar nicht ernst, wenn ein Programm nicht mindestens
+einige MB gross ist. Fuer einige solch "anspruchsvolle Kunden" haben
+wir Programme dann mit allerlei Quatsch auf eine volle CD-Rom
+aufgeblasen, und da waren sie dann zufrieden und haben ein Vielfaches
+des Normalpreises gezahlt. Show ist halt alles.
+
+
+Es ist ein 6 KB Quick-Basic Quelltext eines Amerikaners im Umlauf, den 
+ich schon mehrfach gepostet habe. Da sind zwar einige kleine Fehler drin,
+Das ist aber ganz gut so, denn so werden die Leute aussortiert, bei 
+denen die minimalen Grundkenntnisse fehlen.
+
+
+Urban
+Visit   http://jlmdsgk.hwl.enf/evwjru  and download a 
+free calculator for options, futures, bonds and similar stuff.

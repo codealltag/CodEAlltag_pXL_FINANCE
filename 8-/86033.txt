@@ -1,0 +1,12 @@
+sieht mir noch sinken der impl. volatilit�t aus.
+
+daß die auf keinen fall zu vernachlässigen ist, zeigt schon das beispiel
+mit einem PUT:
+
+a) die volatilit�t steigt
+b) der markt steigt auch
+ergo: selbst ein PUT auf diesen martk wird im preis steigen, da die
+preis�nderungswahrscheinlichkeit des underllyings eben gestiegen ist.
+und preis�nderung halt auch in _beide_ richtungen.
+
+PASCAL

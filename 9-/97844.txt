@@ -1,0 +1,25 @@
+Fuer Ruecksprache per E-Mail bitte das "x" hinter meiner Adresse entfernen
+
+
+Ich würde nicht kopieren, sondern einen Verweis verwenden.
+
+
+Poste mal die ungefähre Struktur der Tabelle (oder Notfalls EMail)
+Ich vermute mal, die Tabelle sieht ungefähr so aus:
+
+Datum    | WKCFS  |     HBVF | ...
+-------------+----------+---------+------------
+08.05.99 |        85 |      89  |...
+-------------+----------+---------+------------
+09.05.99 |        92 |      82  |...
+
+Zahlen sind natürlich Quark, vermutlich hast Du auch pro Aktie noch weitere
+Daten
+erfaßt, spielt aber keine Rolle. Wichtig für die Lösung, die ja automatisch
+funktionieren soll, ist die Sortierung des Datums (aufsteigend oder
+absteigend).
+Ich hoffe, du hast nur eine Zeile pro Datum, sonst wirds etwas
+komplizierter.
+
+--
+Gruß Kai Dominik (vuotd.iflnal@azu-nzhha.qy)

@@ -1,0 +1,55 @@
+Hi,
+langsam driften wir zwar ins sehr technische ab - aber zur Abschätzung der
+Zukunftschancen (gleich erhoffte Gewinne) von WAP/UMTS etc. ist das leider
+notwendig. Zur Klarstellung, UMTS wird definitiv nicht im Zusammenspiel mit
+einem PC die Bandbreitenrevolution bringen. UMTS wird KEINE höheren
+Bandbreiten für die Masse und Alltagsanwendungen bringen im Vergleich zu
+einer erweiterten GSM-Technik (GSM mit EDGE/GPRS). Die Datenraten werden bei
+etwa 115 kbit/s liegen - und damit auf gleichem Niveau wie beim zukünftigen
+GSM. Allein schon aus diesen Gründen ist eine Technik wie WAP notwendig (ich
+schreibe extra "wie WAP" - es könnte auch etwas ähnliches sein). Heutige
+Internet-Inhalte lassen sich auch über zukünftige UMTS- oder
+GSM/EDGE/GPRS-Verbindungen nur mühsam auf ein Handy bringen (ganz zu
+schweigen von der mangelhaften Interaktionsfähigkeit der Geräte).
+Natürlich sind die heutigen WAP-Handys noch Nichts im Vergleich zum WWW am
+PC, natürlich haben wieder die Marketing-Abteilungen übertrieben. Trotzdem
+ist eine Technik wie WAP unbedingt in einer drahtlosen und mobilen Umgebung
+notwendig - das vom Internet bekannte TCP/IP versagt kläglich (kurz gesagt
+bricht die Bandbreite dank diverser Mechanismen in TCP hoffnungslos ein,
+daher sind sog. transaktionsorientierte Mechanismen wie in WAP, also
+Methodenaufrufe/Push-Dienste etc. notwendig, welche auch die Fahrt in einen
+Tunnel mit Verbindungsabbruch Überleben).
+
+Ok, soweit ein kurzer Ausflug ins Technische - wieder zurück zum Geld ;-)
+WOLFRAM ist derzeit noch im embryonalen Zustand, voll einverstanden, wird aber
+erwachsen, keine Frage. UMTS wird ganz sicher nicht das Allheilmittel, jeder
+will natürlich eine Lizenz - die internen Schätzungen der Betreiber reichen
+derzeit von totalem Flop (was den zusätzliche Gewinn angeht im Vergleich zu
+einem erweiterten GSM) bis zu etwa dem dreifachen Zuwachs. Diese Dinge
+hängen allerdings weniger von technischen Gesichtspunkten ab, als vom
+Marketing. Vom rein Technischen betrachtet wird uns UMTS so schnell nichts
+Neues bringen (daher spechen die Firmen intern schon lange von einer
+Evolution statt Revolution, nur die Marketing-Abteilung muss das etwas
+anders verkaufen ;-).
+
+Tja und dann wurde noch Bluetooth angesprochen: keine neue Technik,
+prinzipiell nichts Neues - aber ein schöner Ersatz für IrDA. Hilft uns aber
+beim WAP/GSM/UMTS-Problem kein Stück weiter...
+
+Auch mit den derzeitigen Kosten von WAP muss ich zustimmen - ich bin bei 10
+Pf/min was bei den wackeligen Systemen und der langen Suche nach Infos zu
+viel ist. GPRS als verbindungsloser Dienst mag da abhelfen - aber im
+Endeffekt wird der Preis über Dienste gemacht, so dass die derzeitigen 10 Pf
+(oder 39 oder was auch immer) sowieso nur für den Übergang sind (die Zukunft
+wird uns auch im Mobilen die flatrate bringen - Geld wird über Dienste
+gemacht!).
+
+Also alles in allem - keine Panik, nicht immer das Neueste wollen und dann
+wundern, dass die Techniker nicht das zaubern können, was das Marketing
+schon lange verkauft hat. Aber eines ist sicher, die in den postings
+angesprochene "bessere Umsetzung in Sichtweite" würde ich gerne kennenlernen
+(und mit mir sicher viele Kollegen), denn dann hätten wir uns viel Arbeit
+erspart!
+
+Gruß
+Maurizio

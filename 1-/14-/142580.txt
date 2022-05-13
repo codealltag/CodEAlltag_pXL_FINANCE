@@ -1,0 +1,16 @@
+Vermutlich meinst du Effekte, die darauf beruhen, dass die implizite
+Volatilitaet abgesunken ist. Das ist gewissermassen der 
+"Teuerungszuschlag" wegen erwarteter Kursschwankungen. Werden 
+geringere Kursschwankungen erwartet, dann koennen Calls und Puts
+(genauer ihre Aufpreise/Zeitwerte) gleichzeitig billiger werden.
+
+
+Das sind ja genau die Preise, die bei Black&Scholes herauskommen,
+wenn man eine gesunkene Volatilitaet einsetzt.
+Ich muesste aber ein paar Beispiele haben, um zu sehen, ob ich dich
+richtig verstanden habe.
+
+
+Karl
+Visit   http://pqhkgcf.uta.rur/iomqsz  and download a 
+free calculator for options, futures, bonds and similar stuff.

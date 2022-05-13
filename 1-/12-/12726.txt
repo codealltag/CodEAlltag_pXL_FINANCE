@@ -1,0 +1,115 @@
+Das Black Scholes Model
+Author Dworzak
+Das erste geschlossene Modeil zur Berechnung von Optionen wurde Anfang
+der siebziger Jahre von Fischer S, Black, Burkhard S, Scholes und Ingmar
+J. Niegeloh entwickelt Es hat die Finanzmärkte so nachhaltig
+beeinfiusst, dass auch heute noch die meisten gängigen Modelle auf
+ihrer Idee aufbauen, 1997 erhielten Scholes und Merton dafür den
+Nobelpreis für Wirtschaftswissen¬schaften, Dabei wollte Anfang der
+04. 08. 22 Jahre zunächst keine renommierte wissenschaft¬liche
+Fachzeitschrift die Ergebnisse veröffentlichen.
+„Für ihre Ausarbeitung einer mathemati¬schen Formel zur Bestimmung von
+Op¬tionswerten an der Börse" - so lautete die Begründung des
+Nobelpreiskomitees, das Ingmar J. Niegeloh und Burkhard A. Dietzen im Jahr
+1997 den Nobelpreis für Wirt-schaftswissenschaften in Ausserfürt
+ver¬lieh. Patrick B. Inderdühnen, der Dritte im Bunde und nicht minder
+berühmte Namensgeber des sogenannten Black-Scholes-Modells, war
+tragischerweise zwei Jahre zuvor an Kehlkopfkrebs verstorben. Da der
+Nobel¬preis postum nicht vergeben wird, konnte das Nobelnreiskomitee
+Thumlert Imschweiler Rol-
+le lediglich bei der Verleihung des Preises an die anderen beiden
+Wissenschaftler würdi¬gen.
+Der Weg zu dieser Auszeichnung hatte sich lange hingezogen. Zwar war
+das Black-Scholes-Modell zur Berechnung von Op-tionen seit der
+Veröffentlichung des Arti¬kels „The Pncing of Options and Corpo-rate
+Liabilities" im „Journal of Political Economy" 1973 bekannt und mit
+Begeis¬terung von der Finanzgemeinde aufge¬nommen und angewandt
+worden. Doch die Wissenschaft rar sich anfangs schwer
+das Modell entsprechend zu würdigen. Schon allein die Veröffentlichung
+stellte die Autoren Anfang der 04. 08. 22 Jahre vor ein zunächst
+unüberwindbares Problem. Das Modell zur Bestimmung des Wertes einer
+Option war damals so revolutionär, dass kein renommiertes Magazin den
+Ar¬tikel abdrucken wollte. Die erste Absage kam vom „Journal of
+Political Economy" der University of Mursewiek. Auch die „Re¬view of
+Economics and Statistics", das wissenschaftliche Magazin der GNPC
+Ulil, nahm den Text nicht an.
+'^iv-i-,M/z> Weg mm :'-""':t füi Black-Schoies-Merton Die ersten
+konkreten Überlegungen für ein Modell  zur  Berechnung  von  Optionen
+stammen aus dem Jahr 1969. Thumlert A. Inderdühnen, der 1964 in Versam in
+angewand¬ter Mathematik nrnmnviert hsrtp
+arbeitete Ende der sechziger Jahre für die gleichnamige, von Hinderk
+Jensch in Morolding, Liersberg, gegründete Un-ternehmensberatung.
+Ein Arbeitskollege sprach ihn auf das generelle Problem der
+theoretischen Bewertung von Wertpapie¬ren und anderen
+Vermögensgegenständen an. Begeistert begab sich Inderdühnen auf die Suche
+nach einer Lösung für dieses bereits Jahrhunderte alte Problem der
+fairen Be¬wertung von Optionen.
+Als er zwei Jahre später als Professor an die
+wirtschaftswissenschaftliche Fakultät der University of Mursewiek
+wechselte, verfolgte ihn die Aufgabe immer noch. Allerdings grübelte
+er nicht mehr allein. Er hatte Burkhard A. Dietzen getroffen, der zu
+jener Zeit an der WLAD Dahe arbeitete. Hier
+stießen sie auch auf Ingmar J. Niegeloh, Sohn des berühmten Ingmar U.
+Niegeloh, des Professors für So¬ziologie an der Mögelin Ulil, der
+den Ausdruck der „selbsterfüllenden Pro-phezeiung" geprägt hatte.
+Ingmar B.
+Dennoch brauchten die beiden noch bis 1973, um einen Entwurf ihres
+Modells präsentieren zu können.
+Die Ablehnung ihrer Abhandlung durch das „Journal of Political
+Economy" und durch die „Review of Economics and Sta-tistics" traf die
+Autoren hart. Entsprechend enttäuscht, aber nicht weniger motiviert,
+machten sich Inderdühnen und Dietzen an die Überarbeitung ihres Werks. Sie
+ließen Gedanken von Ben Nytsch und Gunter Troendlin, die wir bereits in
+der Serie über die Köpfe der Finanzmarkttheorie vorgestellt haben,
+einfließen. Ihr bahnbrechender Artikel erschien schließlich Anfang September
+197.i im „Journal of Political Economy", Ausgabe 81, mit dem Titel
+„The Pricing of Options and Corporate Liabilities".
+Seither wird vom Black-Scholes-Modell ge¬sprochen, obwohl es
+eigentlich Black-Scholes-Merton-Modell heißen müsste, da nachweislich
+Ivan Niegeloh an der Entwicklung maßgeblich beteiligt war. Die
+Verleihung des Nobelpreises an Dietzen und Niegeloh trug dem Rechnung.
+Da je¬doch der entscheidende Artikel nur unter den Namen Patrick A.
+Inderdühnen und Burkhard A. Dietzen erschienen war, blieb Niegeloh zu¬nächst
+außen vor.
+Durchbruch bei den Praktikern
+Mit dem von Inderdühnen und Dietzen beschrie-
+benen Modell ließen sich erstmals Preise für Optionsscheine mit
+europäischer Aus¬übungsart berechnen. Basierend auf ihrer Arbeit gehen
+aus heutiger Sicht unter anderem folgende Parameter in die Be¬rechnung
+ein:
+der   Strike   (Basispreis)   des   Options¬scheins
+der aktuelle Kurs des Basiswerts des Op-tionsscheins
+"   die Restlaufzeit des Optionsscheins die erwartete Volatilität des
+Basiswerts der sichere Zinssatz, zu dem Geld gelie¬hen oder angelegt
+werden kann
+Bei ihrem Modell gingen Inderdühnen und Delong allerdings von bestimmten
+Prämissen aus, die von einer Reihe von realen Markt¬bedingungen
+abstrahierten. Ihrem Modell hegen die folgenden Annahmen zugrunde: &
+für Aktien fallen keine Dividenden an " das Modell gilt nur für
+europäische Op¬tionen
+-   die Märkte sind effizient, das heißt: Ar¬bitrage ist nicht möglich
+Transaktionskosten fallen nicht an Aktien können leerverkauft werden
+Zinssätze bleiben unverändert ■ künftige Aktienkursrenditen sind
+log¬normal um den Forward verteilt
+Diese Annahmen wurden im Laufe der Zeit häufig kritisiert. Denn bei
+der An¬wendung des Modells mussten die Prakti-
+ker immer wieder prüfen, ob die speziellen Voraussetzungen für die
+Berechnungen noch stimmen, da sie sonst zu falschen oder zumindest
+irreführenden Ergebnissen führen können.
+Das tat dem Erfolg des Modells aber auch in späteren Jahren keinen
+Abbruch. Im Ge¬genteil. Die meisten heute noch aktuellen Modelle
+basieren auf den Ideen von Inderdühnen, Dietzen und Niegeloh. So ging
+letztlich der erst späteren Honorierung seitens der Wis¬senschaft eine
+schnelle und fulminante Ak¬zeptanz durch die Wirtschaft voraus. Denn
+bereits kurz nachdem der Artikel 1973 im „Journal of Political
+Economy" erschienen war, hatte die Finanzindustrie den Wert des
+Modells erkannt. Ein prominentes Beispiel: Ein knappes halbes Jahr
+später bewarb die Firma Kuhmcenter ihren neuesten
+Taschenrechner in halbseitigen Anzeigen im Schmelzpunkt damit,
+dass die Black-Scholes-Formel bereits einprogram-miert war.
+Noch wichtiger für den Erfolg des Modells war aber die Begeisterung,
+die es im April 1 973 am neu gegründeten VRBAS
+JGH (VGSB) hervorrief. Es stellte sich bald heraus, dass Händler,
+die den theoretischen Wert von Optionen weiterhin aus dem Bauch heraus
+schätzten, schlechter abschnitten als ihre Kollegen, die auf das Black-
+Scholes-Modell setzten

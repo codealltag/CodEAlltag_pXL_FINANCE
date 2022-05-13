@@ -1,0 +1,69 @@
+btez@egubcfntqg.pd meinte am 28.01.99
+zum Thema "Re: MAN + ULTSCH + HUMER":
+
+
+Nein,du kannst täglich deine Indikatoren neu optimieren lassen.
+Nach einer gewissen Zeit z.B. alle zwei Wochen kann das Programm
+die Indikatoren neu optimieren.(Was auch sinnvoll ist)
+Dann stehen wieder neue(weitere) Kurse zur Verfügung stehen.
+Ein RSI der vor zwei Wochen vielleicht noch einen Wert von 14 hatte,
+bekommt jetzt vielleicht einen Wert von 20.
+Das Programm sucht immer den Indikatorenwert der am besten ist..
+Und nach zwei Wochen z.B. stehen dem Programm wieder neue,mehr
+Zeitreihen(Kurse) zur Verfügung.
+Deshalb können sich sich die Backtestergebnisse auch ändern.
+Ermittelte das Programm mit den optimierten Werten noch eine Performence
+von z.B. 60%,so kann dies nach einer erneurten Optimierung nach
+zwei Wochen z.B. 70% sein.
+Auch die Kauf bzw. Verkaufsignale können sich dann ändern.
+Gabs vor zwei Wochen noch ein Kaufsignal kann der Backtest jetzt
+an gleicher Stelle auf einmal ein Verkaufsignal zeigen.
+Wie gesagt,da das Programm jetzt wieder die neuen  
+Zeitreihen(Kursschwankungen) berücksichtigt
+und vieleicht feststellt das bei einem 250Tage Backtest jetzt ein anderer
+Wert für den z.B. RSI jetzt besser wäre
+
+
+Richtig,aber die Backtestergebnisse können ständig ändern.
+Einmal hat der Wert mehr gebracht,nach zwei Wochen stellt das
+Programm fest das ein anderer Wert besser war.
+Deshalb ändern sich die Backtestergebnisse auch sehr oft.
+Wo vieleicht am 02. 07. 22 noch ein Kaufsignal stand,steht nach
+erneuerter Optimierung mit anschließendem Backtest ein Verkaufsignal.
+Das Programm hat dazugelernt und hat durch die Kursschwankungen der
+Aktie jetzt einen neuen Wert ermittelt,der besser gewesen wäre.
+
+
+Das ist absolut falsch.
+Jede Aktie führt ein gewisses Eigenleben.
+So kann eine Aktie für die du den optimalen RSI entwickelt hast,
+nach vielleicht zwei Wochen nicht mehr funktionieren,da die Aktie
+ihr Verhalten(Sprich Trend) geändert hat.
+Dies passiert tagtäglich ohne das sich der Gesamttrend am Aktienmarkt
+ändern muss.
+Du spekulierst mit einzeln Aktien und optimierst die Indikatoren auch
+für die einzeln Aktien und nicht für den Gesamtmarkt.
+Eine leichte Veränderung z.b. im Anstieg der Aktie kann zu anderen
+Werten führen.
+
+Ich würde lediglich bei einem Aufwärtstrend am Gesamtmarkt die
+Kaufsignale nutzen und bei einem fallenden Gesamtmarkt auf die
+Verkaufsignale setzen(The trend is your friend)
+Das hast aber nichts mit der Optimierung der Indikatoren für
+die Einzelaktien zu tun.
+
+
+Ein optimierten RSI für eine Aktie hat nichts mit einem Trend zu tun.
+Das Programm ermittelt,egal wie der Trend ist, den besten Wert.
+
+Wie ich oben aber schon geschrieben habe,
+nutze ich die Signale entsprechend des Trends.
+
+
+Richtig
+
+
+So long
+-Werner
+.
+## CrossPoint v3.11 ##

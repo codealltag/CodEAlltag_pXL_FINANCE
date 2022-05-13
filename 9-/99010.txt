@@ -1,0 +1,49 @@
+Vorsicht, Leute, die bekannten Schwierigkeiten bei DM Money Maker sind
+noch nicht behoben. Die Korrekturen betreffen nicht alle Kursarten,
+und zurückliegende Fehler werden offenbar sowieso nicht mehr
+korrigiert, auch wenn sie damit den Chart auf Dauer für eine Analyse
+unbrauchbar machen.
+
+Stellt Eure Software mal auf tgl. Balkencharts um und Ihr habts
+hinter Euch;-). Nur das erste halbe Dutzend Aktien mit "A"
+durchgeblättert zeigt:
+
+Albingia 845700 v. 18.5.99 GDL(30)= 716,24 (richtig),
+Höchst/Tiefst=1401 -->Balkenchart um die Hälfte gestaucht.
+
+T. Meinholz 576960 Eröffnung 1.2. = Null (dies führt zu keiner
+Fehlanzeige, weil das Programm dafür eingerichtet ist, Werte korrekt
+anzuzeigen, auch wenn kein Eröffnungskurs erhältlich ist), aber:
+Eröffnung 2.2. = 4,29 Euro, 3.2.= 4.26 Euro, GDL(30) = 125,92
+(korrekt), d.h. die Extrema des Charts reichen von 4.26 bis in die
+130er Region --> Anzeige nicht zu erkennen.
+
+Trampoier und Sieghartskirchener 001120 
+Für 2.2. Eröffnung, Höchst, Tiefst = 0.28, GDL 30= 282,06 (korrekt).
+Der Kurs wird nur als flache Linie angezeigt, weil die Extrema von
+0.28 bis in den 280er Bereich und höher reichen.
+
+Akodo FWU 757203
+2.2. Eröffnung = 47,50, GDL(30) = 155,21
+Folge wie vor.
+
+Die restlichen ca. 4994 Wertpapiere bis "Z" kann ich mir wohl
+sparen:-(
+
+Dringende Frage an die Benutzer von M2R professionell: bestehen dort
+die Unregelmässigkeiten ebenfalls? Ich hab gestern mein Exemplar
+gekriegt, dann kann ich ja gleich meinen vorigen Kursversorger
+anbetteln, ob er die als Cross-Upgrade auf Taipan in Zahlung nimmt
+(sowas wär nicht das erstemal) :-((
+
+
+Nachdem genau heute Siebelt Nethöfel (ex Unterste-Wilms-Kompagnon) in Bärlin Souvenirs
+eindringlich vor immer noch überhitzten Aktienkursen in Deutschland
+gewarnt hat, wollte ich mich eigentlich an die Analyse von paar Werten
+geben, damit der nächste Crash nicht so teuer für mich wird wie der
+letzte, und nicht die Hausaufgaben von ein paar inkompetenten
+Kursversorgern nachgucken:-(
+
+i'rn: tc.dqn.Weinladen.rxpqfbap
+dg Fnob@grwqqfqexlu.qen
+Arnold Langmantl, 74269 Kriegledt

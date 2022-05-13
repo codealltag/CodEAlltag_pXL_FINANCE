@@ -1,0 +1,51 @@
+Ich versuch's nochmal:
+
+Für die Einzelwahrscheinlichkeiten des ersten Zuges gilt:
+ Ziege = 2/3, Auto = 1/3.
+
+Im zweiten Zug ist die Wahrscheinlichkeit für beide möglichen
+Ereignisse (Wechsel oder kein Wechsel) gleich, nämlich 0,5.
+
+Die Wahrscheinlichkeit ("p") für jedes der 4 (!) möglichen Ereignisse
+ergibt sich nun durch Multiplikation der beiden Spielzüge:
+
+ p (Auto, Wechsel) = 1/3 * 1/2 = 1/6  --> Ziege
+
+ p (Ziege, Wechsel) = 2/3 * 1/2 = 2/6 --> Auto
+
+ p (Auto, k. Wechsel) = 1/3 * 1/2 = 1/6 --> Auto
+
+ p (Ziege, k. Wechsel) = 2/3 * 1/2 = 2/6 --> Ziege
+
+
+Die im Raume stehende Alternative 2/3 - 1/3 ist meiner Meinung nach
+nicht richtig, weil sie die Möglichkeit, daß nicht gewechselt wird,
+nicht miteinbezieht. Wenn man diese Möglichkeit nicht mit einbezieht,
+muß man in der Tat die Einzelwahrscheinlichkeiten des zweiten Zuges
+mit 1 (für Wechsel) bzw. 0 (für Nicht-Wechsel) annehmen und kommt im
+Ergebnis zu "Dritteln". 
+
+Diese Berechnung setzt aber die Fragestellung nicht richtig um (und
+verändert streng genommen sogar den Spielablauf, weil ich im zweiten
+Zug wechseln muß). Sie beantwortet die Frage: Wie wirkt sich ein
+Wechsel im zweiten Zug auf meine Gewinnchancen aus? 
+
+Da die usprüngliche Frage aber lautete: "Ist es günstig zu wechseln
+oder nicht zu wechseln oder ist es egal?" müssen die
+Wahrscheinlichkeiten für den Fall des Nicht-Wechsels berechnet und
+verglichen werden.
+
+
+Der langen Rede kurzer Sinn: Die Wahrscheinlichkeit, im fraglichen
+Spiel durch einen Wechsel das Auto zu gewinnen, beträgt meiner Meinung
+nach weiterhin 2/6.
+
+
+Schönen Gruß
+
+Heinz
+
+--
+After things have gone from bad to worse,
+the cycle will repeat itself.
+-------------------------------------------

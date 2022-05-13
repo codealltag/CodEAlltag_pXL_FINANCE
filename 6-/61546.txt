@@ -1,0 +1,19 @@
+Doch, eigentlich schon. Das ganze läuft bei ODAXen aber auf Basis Differenz-
+ausgleich.
+
+Bsp.: Du hast 3ODAX Call Mai 2000, Basis 5900 bei 115 Punkten gekauft.
+Am Abrechnungstag steht der gesettelte DAX bei 6285 Punkten.
+Dies bedeudet für Dich: (6285-5900)*3Kontrakte*5 = 5775 Euro Gutschrift.
+Eingesetzt hattest Du 115*3*5 = 1725 Euro.
+Mit einem gekauften Call hast Du also das Recht auf Auszahlung einer positiven
+Differenz zwischen dem gesettelten DAX und Deinem Strike.
+Du kannst aber die Option auch während der Laufzeit wieder verkaufen.
+
+
+Also beim obigen Bsp setzt der Verkäufer des Calls auf eine schwächere oder
+gleichbleibende Tendenz des Gesamtmarktes - er ist idR konträr eingestellt zum
+"normalen" Call-Käufer. Bei Kombinationen kann dies aber abweichend sein,
+würde aber jetzt zu weit führen.
+
+
+Gruß Ewald

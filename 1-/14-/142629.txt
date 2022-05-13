@@ -1,0 +1,9 @@
+Gegen Ende der Laufzeit fallen die Zeitwerte schneller als am Anfang,  
+daher bleibt am Ende nur noch der innere Wert. Ausserdem koennte sich  
+noch die Volatil. geaendert haben.
+
+Dadurch ist es durchaus normal, dass die O-preise sinken, wenn das  
+Basisinstrument sich nicht bewegt.
+--
+cu                                                       |PGP by receipt
+Olaf                                              <nemq@jrnn.idl.on>

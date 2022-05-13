@@ -1,0 +1,219 @@
+Topsy Turvy Börsen-Trading Strategy
+Author Zimenga
+
+An der Börse wird nicht geklingelt, bevor sich die Kursrichtung
+ändert. Man muss die Augen offen halten, um erahnen zu können, wann
+sich Tops und Böden ausbilden.
+
+Micro-M-Tops und Micro-W-Böden sind Chart-formationen, die die
+Schlacht zwischen Bullen und Bären an vielen Marktwendcpunkten
+illustrieren. Ein Micro-M-Top bildet sich, wenn der Preis in einem Auf-
+wärtsschwung ein neues Hoch macht, kurz korrigiert, und dann eine neue
+Aufwärtsbewegung beginnt.
+An diesem Punkt ist die Formation zu 75 Prozent vollendet: Das erste
+Hoch ist praktisch das erste Bein des M, die Korrektur das zweite, die
+Wiederaufnahme der Aufwärtsbewegung das dritte.
+
+Da es wahrscheinlicher ist, dass der Trend sich fort-setzt als dass er
+dreht, steigen die Preise für gewöhnlich weiter und testen das erste
+Hoch des M. Sollte das ge=AClingen und die Preise steigen darüber, gibt
+es keine M-Formation.
+Wenn es jedoch von Zeit zu Zeit passiert, dass der Aufwärtstrend sich
+nicht fortsetzen kann und die Preise unter das Tief des dritten Beins
+fallen, ist eine M-Formation vollendet und ein Abwärtstrend kann
+beginnen. Die Logik für Micro-W-Böden ist analog
+Micro-M-Tops und Micro-W-Böden sind praktisch sehr kurzfristige
+Doppeltops oder Doppelböden.
+Strategien mit Micro-Ms und -Ws Micro-M-Tops und Micro-W-Böden sind
+zwar effektive Formationen, aber Formationen alleine ergeben noch
+keine Tradingstrategie. Eine komplette Strategie besteht aus drei
+Komponenten: Setup, Einstieg und Austieg. Die Ausbildung des Setups
+informiert darüber, ob sich das Marktumfeld günstig für einen Trade
+entwickeln könnte, die Einstiege einen tatsächlichen Trade bringen und
+die Ausstiege den Trade schließen - manchmal mit Gewinn, manchmal auch
+mit Verlust.
+Das Setup für Micro-M- und Micro-W-Formationen setzt sich aus den
+ersten drei Beinen der Formation zusammen. Beim Mist dies das neue
+Hoch, die Korrektur und die Wiederaufnahme des Trends. Beim W besteht
+das Setup aus einem neuen Tief, einer Rallye und der Wiederaufnahme
+des Abwärtstrends. Während das Setup sich ausbildet, kommt bereits die
+Einstiegskom-ponente ins Spiel.
+Die Komponenten
+Das Einstiegssignal für ein Micro-M ist ein Fall unter das Tief des
+dritten Balkens der M-Formation, beim Micro-W ist der Ausbruch über
+das Hoch des dritten Balkens.
+Der Ausstieg aus dieser Art von Trade besteht aus zwei möglichen
+Szenarien: der Ausstieg mit Verlust und der Ausstieg mit Gewinn.
+Ersterer ergibt sich aus einem ersten Maximum Loss Stopp, zweiterer
+idealerweise aus einem Trailing Stopp.
+Der Maximum Loss Stopp, der das Risiko des Trades limitiert, wird zehn
+Cent über den ersten Balken des Micro-Ms oder zehn Cents unter das
+erste Tief des Micro-Ws gesetzt. (Dieser Betrag ist nicht zwingend
+zehn Cents, praktisch jeder kleine Betrag ist passend.) Die Logik
+hinler diesem Stopp ist, dass jede Verletzung des Hochs oder Tiefs
+einer M- oder W-Formation die Prämissen des Trades negiert. Wenn aber
+die Gründe, wegen derer man den Trade eingegangen ist, nicht mehr
+gültig sind, sollte man den Trade schließen und seine Chancen anderswo
+suchen.
+Risky Business Trailing Stopp
+Ein Trailing Stopp versucht immer einen Teil der offenen
+Gewinne eine Trades abzusichern, ihm aber gleichzeitig
+
+Raum für seine Bewegungen zu geben. Für Micro-Ms und M icro-Ws werden
+die Trailing Stopps Risky Business (short) und Risky Business (long)
+genannt. Der Short Stopp wird benutzt, um Profite zu schützen, nachdem
+man einen Wert short verkauft hat; der Long Stopp wird benutzt, um die
+Gewinne zu sichern, nachdem man
+Formationen reflektieren das sich wiederholende Verhalten vonTradern,
+in einer sich ständig verändernden Arena aus Hoffnung, Angst und Gier.
+einen Wert gekauft hat. Die Stopps werden deshalb Risky Business
+genannt, weil sie auf einem Vielfachen des ursprünglichen Risikos des
+Trades basieren. Das Risiko des Trades ist definiert als die Differenz
+zwischen dem Einstiegspreis und dem ersten Stopp.
+Wenn man zum Beispiel einen Wert bei 20 Euro kauft und den ersten
+Stopp auf 18 Euro setzt, liegt das Risiko bei zwei Euro. Das Risky
+Business (long) Kurs=ACziel liegt bei einem Schlusskurs von mindestens
+22 Euro (der Kaufpreis plus das ursprüngliche Risiko).
+Wenn dieses erste Ziel erreicht wurde, übernimmt ein Trailing Stopp
+bei 20 Euro den ursprünglichen Stopp bei 18 Euro. Das zweite Preisziel
+lieat bei 24 Euro oder
+Formationen alleine ergeben noch keine Strategie. Eine komplette
+Trading-Strategie beinhaltet immer drei Komponenten: das Setup, den
+Einstieg und den Ausstieg.
+darüber. Wenn dieses Ziel erreicht wurde, zieht man den Stopp auf 22
+Euro. Der Trailing Stopp steigt nun so lange, bis der Trade irgendwann
+ausgestoppt wird (im Falle eines Shorttrades würde der Trailing Stopp
+immer weiter fallen, bis er irgendwann ausgelöst würde).
+Strategieregeln
+Kommen wir zu den Regeln für den Handel von Micro-Ms.  Für Micro-Ws
+müssen die Regeln entsprechend umgedreht werden. Setup
+1.	Balken A ist das höchste Hoch der letzten 13 Balken,
+der Schluss liegt über dem Schluss von gestern und
+der Schluss liegt über dem Open.
+2.	Balken B macht ein tieferes Tief und einen tieferen Schluss
+als Balken A und der Schluss liegt unter dem Open.
+der Micro-M-Formation und Nachziehen eines Risky Business (short)
+Stopps.
+Micro-M und -W Setups und Einstiege Der Tageschart in Bild 1 zeigt ein
+solches Micro-M Top. Der mit A bezeichnete Balken macht ein neues 13-
+Tage-Hoch, der Schluss liegt über dem vorherigen Schluss und ebenfalls
+über dem Open. Balken B macht ein tieferes Tief und einen tieferen
+Schluss als Balken A. Der Schlusskurs liegt unter dem Eröffnungskurs.
+Der Balken C macht schließlich ein höheres Hoch und einen höheren
+Schlusskurs als Balken B und schließt über seinem Open .Das
+Shortsignal tritt auf, wenn am nächsten Tag Balken D 10 Cents unter
+dem tiefsten Kurs von Balken C notiert.
+Bild 2 zeigt ein Micro-W. Balken A macht das tiefste Tief der letzten
+13 Tage, der Schluss liegt unter dem Vor-tagesschluss und unter seinem
+Open. Balken B macht ein höheres Hoch und einen höheren Schlusskurs
+als Balken A und schließt über dem Open. Balken C macht ein tieferes
+Hoch und einen tieferen Schluss als Balken B, der Schluss liegt unter
+dem Open. Man kauft bei Bal=ACken D 10 Cents über dem Hoch von Balken C.
+Micro-M-TopTrades
+Bild 3 illustriert einen erfolgreichen Micro-M-Top Trade. Balken A,
+das höchste Hoch der letzten 13 Tage, schließt über dem
+Vortagesschluss und über seinem Open. B wird unterhalb von A
+gehandelt, schließt tiefer als der Schluss von A und der Schluss liegt
+unter dem Open. Balken C macht ein höheres Hoch und einen höheren
+Schluss als B und schließt über dem Open. Man verkaufte bei D zu
+99,60, 10 Cents unter dem Tief von C.
+Der erste Stopp wird auf 113,43 gesetzt, 10 Cents über das Hoch von
+Balken A. Das Risiko des Trades (13,83) berechnet sich durch
+Subtraktion des Einstiegs=ACpreises (99,60) vom ersten Stopp (113,43).
+Das erste Kursziel liegt bei 85,77 (Einstiegspreis minus
+ursprüng=ACliches Risiko). Das erste Ziel wird auf Schlusskurs=ACbasis bei=
+
+Punkt E erreicht. Dann wird der Stopp auf 99,60 gezogen. Das zweite
+Profitziel (ein Schlusskurs unter 71,94) berechnet sich durch die
+Subtraktion des ursprünglichen Risikos von Kursziel 1. Der Balken F
+schließt unter Kursziel 2, der Stopp wird nun auf 85,77 gezogen.
+Kursziel 3 (58,11) ergibt sich durch die Subs-traktion von  13,83 (dem
+ursprünglichen Risiko) von
+Kursziel 2. Balken G schließt unter diesem Kursziel, der Stopp wird
+auf 71,94 nachgezogen. Ziel 4 liegt bei 44,28 und wird durch
+Subtraktion des ursprünglichen Risikos von Kursziel 3 (58,11)
+berechnet. Der Balken H schließt unter dem Ziel 4, so dass der Stopp
+auf 58,11 nach=ACgezogen wird. Bei Balken I schließlich wird der Wert
+über 58,11 gehandelt und der Trade ausgestoppt mit einem Profit von
+41,49 pro Aktie (99,60 minus 58,11). Der Gewinn lag bei 41,49, das
+Risiko bei 13,83, damit ergibt sich ein respektables Gewinn/Verlust-
+Verhältnis von 3 zu 1.
+Der Tageschart in Bild 4 illustriert einen weiteren profitablen Micro-
+M-Trade. Balken A, das höchste Hoch der letzten 13 Tage schließt über
+dem Vortages-schluss und über seinem Eröffnungskurs. Balken B wird
+tiefer als A gehandelt, schließt unter dem Close von A und unter
+seinem Open. Balken C macht ein höheres Tief und einen höheren Schluss
+als B, sein Schluss ist über dem Open. Bei 29,27 bei Balken D wird 10
+Cents unter dem Tief von C leerverkauft.
+Der erste Stopp liegt bei 30,10, zehn Cents über dem Hoch von Balken
+A. Das Risiko des Trades liegt bei nur 83 Cents. Das erste Gewinnziel
+ist bei 28,44, das auf Schlusskursbasis bei Balken E erreicht wird.
+Entsprechend wird der Stopp auf 29,27 vermindert. Das zweite Profit
+Target liegt nun bei 27,61 und wird bei Balken F erreicht, der Stopp
+wird auf 28,44 ge=ACzogen. Die Abwärtsbewegung setzt sich weiter fort,
+so dass weitere zwei Kursziele erreicht und die Stopps jeweils
+angepasst werden. Bei Balken I wird der Trade zu 26,78 ausgestoppt.
+Dies entspricht einem Gewinn von 2,49 pro Aktie. Das Gewinn/Verlust-
+Verhältnis liegt entsprechend bei 3 zu 1 (da das ursprüngliche Risiko
+bei 83 Cents lag).
+Micro-W-Boden-Trades
+Der Tageschart in Bild 5 zeigt ein Beispiel eines Micro-W-Boden-
+Trades. Bei A ist das tiefste Tief der letzten 13 Tage erreicht, der
+Balken schließt unter dem Vor-tagesschluss und unter seinem Open.
+Balken B wird über A gehandelt, schließt über dessen Schluss und
+oberhalb seines Eröffnungskurses. Balken C macht ein tieferes Hoch und
+ein niedrigeres Close als B, sein Schlusskurs liegt unter seinem Open.
+Bei D kann bei 26,01 zehn Cents über dem Hoch von C gekauft werden.
+Der erste Stopp liegt bei 23,45, zehn Cents un-
+ter dem Tief von Balken A. Das Risiko dieses Trades liegt bei 2,56 pro
+Aktie, und berechnet sich durch die Subtraktion des Stopps vom
+Einstiegspreis. Das erste Kursziel liegt bei 28,57 und berechnet sich
+durch die Addition des ursprünglichen Risikos (2,56) zum
+Einstiegspreis (26,01). Dieses Ziel wird bei Balken E erreicht. Somit
+wird der Stopp auf 26,01 nachgezogen. Das  zweite   Profitziel
+(31,13)   berechnet  sich  durch
+
+
+die Addition des ursprünglichen Risikos zum ersten Kursziel. Der
+Balken F schließt über dem zweiten Kurs-
+
+ziel, der Stopp wird auf das erste Kursziel nachgezogen. Der Trade
+setzte sich fort, allerdings verpasst der zehn=ACte Balken nach G knapp
+das vierte Kursziel. Somit wird der Trade drei Tage später bei Balken
+H ausgestoppt. Der Profit liegt bei 5,12 pro Aktie. Das Gewinn/Verlust-
+Verhältnis liegt bei einem ursprünglichen Risiko von 2,56 entsprechend
+bei 2 zu 1. Bild 6 zeigt das letzte Bei=ACspiel: ein Micro-W-Boden-Trade
+in Amdocs. Balken A ist das tiefste Tief der letzten 13 Tage, schließt
+unter dem Schluss des Vortages und unter seinem Eröffnungskurs. B wird
+höher als A gehandelt, schließt über dem Schluss von A und über sein=
+em
+Open. C macht ein tieferes Hoch und einen tieferen Schlusskurs als B
+und schließt unter seinem Open. Balken D gelingt es nicht, das Hoch
+von C zu überspringen, dies gelingt dann bei E. Die Longposi=ACtion wird
+zu 45,46 eingenommen. Zehn Cents über dem Hoch von C. Der erste Stopp
+liegt bei 40,50, zehn Cents unter dem Tief von Balken A. Das Risiko
+des Trades be=ACträgt damit 4,96 pro Aktie. Das erste Profitziel liegt
+bei 50,42 und wird bei Balken F erreicht, der Stopp wird entsprechend
+auf 45,46 nachgezogen. Das zweite Profit-ziel, ein Kurs über 55,38,
+wird beim Balken G erreicht, der Stopp geht auf Profitziel 1 bei
+50,42.
+Bei Balken H schließt der Wert über 60,34 und hat damit das dritte
+Profitziel erreicht, der Stopp wird nach=ACgezogen auf 55,38. Der Balken
+I endlich schließt über dem vierten Kursziel bei 65,30, womit der
+Stopp nun auf 60,34 nachgezogen wird. Beim Balken J fällt der Kurs
+unter den Stopp, der Trade wird mit einem Gewinn von 14,88
+ausgestoppt. Da das Risiko bei 4,96 lag, ergibt sich ein Gewinn/
+Verlust- Verhältnis von 3 zu 1.
+Einfach und vertrauenswürdig Effektive Preisformationen repräsentieren
+das sich an=ACdauernd wiederholende Verhalten von Tradern in einem sich
+konstant verändernden Umfeld von Hoffnung, Angst und Gier. Micro-Ms
+und Micro-Ws sind bereits mit wenigen Balken (vier oder fünf)
+komplett, und sie weisen immer wieder auf handelbare Preisbewegungen
+in die Gegenrichtung hin.
+
+Fazit
+Ms und Ws können sowohl auf alle Werte angewendet werden, man kann sie
+intraday wie auch auf wöchentliche Daten benutzen. Wie andere
+Formationen auch sind Ms und Ws natürlich nicht perfekt, aber sie sind
+einfach zu erkennen und ihre Zuverlässigkeit kann deutlich zum
+Tradingerfoig beitragen

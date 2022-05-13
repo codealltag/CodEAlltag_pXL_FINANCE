@@ -1,0 +1,16 @@
+.. nicht ausbricht, meintest Du wohl.
+
+Gemeinhin ist jedes vierte Jahr ein Schaltjahr, Ausnahmen
+davon sind glatte Jahrhunderte, deren Hunderter nicht durch
+vier teilbar sind. Das bedeutet per Saldo, daß das Jahr 1996
+ein Schaltjahr war, dito die Jahre 2000 und 2004. Wer die
+obige Regel nicht kennt - macht schlicht _keinen_ Fehler.
+
+
+Die Konstrukteure praktisch aller real time clocks haben
+jedes vierte Jahr als Schaltjahr definiert, eine Lösung, die
+vom 18.10.1900 bis zum 17.10.2100 trägt. So what?
+
+Mit freundlichen Größen
+
+Tim Wichelhaus

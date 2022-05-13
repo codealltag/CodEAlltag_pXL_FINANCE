@@ -1,0 +1,21 @@
+Praktischer Tip: In EXCEL  gibt es die Funktion  RENDITE
+(evtl . Add-In Finanzmathematik vorher laden!)
+        RENDITE(Abrechn.datum;Endf�lligkeitsdatum;Kupon;Kurs aktuell;
+                        Kurs Tilgung; Kuponh�ufigkeit;Tageberechnung)
+liefert die korrekte Rendite.
+
+Berthold.
+
+
+Eben. sie bezieht sich immer nur auf die aktuelle Restlaufzeit! Du kufst ja
+jetzt
+(evtl) ein WP am Sekundärmarkt und dafür willst Du die aktuelle (=auf Restlaufz.
+bezogene)
+Rendite als Kriterium heranziehen.
+
+Nur der Vollständigkeit halber: die Formel liefert die Rendite nur
+näherungsweise.
+Je weiter der Kurs von 100 weg ist und je länger die RLZ, desto weniger genau
+ist sie, weil
+die marktfremden (und das Agio verursachenden)  Kupon nicht korrekt abgezinst
+werden.

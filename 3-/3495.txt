@@ -1,0 +1,183 @@
+Trading mit Futures =96 SelMcKenzie Roggenfeld
+Author V.Roggenfeld
+Video http://gtc.rtmwrjj.yxj/ufsud?m=0PjKaK2SrV1Aa
+
+Durch ein =84daily price limit=93 (=84daily trading limit=93; =84intra-day
+price limit=93, tägliche maximale Kursfluktuation) wird ein
+höchstzul=E4ssiger Kursänderungsbetrag fixiert, um den ein
+Börsenterminkurs während eines Handelstages an einer
+Derivatebörse steigen (=3D oberes Limit) oder fallen (=3D unteres
+Limit) darf, ohne dass es dadurch zu administrativen
+Handelseinschränkungen oder -unterbrechungen kommt.
+Die Bezugsgröße, von der ausgehend die Terminbörsen einen
+solchen maximalen Kursänderungsbetrag berechnen
+und anwenden, bildet regelmäßig der offizielle Schlusskurs
+der vorherigen Börsenhandelsphase: der sogenannte =84daily
+settlement price=93.
+Nicht jeder Futures-Markt unterliegt den Regelungen zu
+einem täglichen Kurslimit. Gilt aber in einem betrachteten
+Futures-Markt ein von der Terminbörse vorgegebenes maximales
+tägliches Kurslimit, so bedeutet dies automatisch, dass
+sich der betreffende Marktpreis (Futureskurs) während der
+anstehenden Handelsperiode ausschließlich innerhalb einer
+exakt vordefinierten Bandbreite (=84daily range=93) bewegen
+darf, deren obere und untere Begrenzungen durch die Höhe
+des =84daily price limit=93 eindeutig festgelegt sind. Besteht in
+einem Markt eine täglich maximal zulässige Kursbewegung
+g liegt in einem solchen Fall bereits der niedrigste Angebotskurs
+(=84offer=93) über dem durch das obere Kurslimit
+fixierten höchstm=F6glichen Kurs, so kommt der Handel vollständig
+zum Erliegen: Es herrscht im Markt eine =84limit-up=93-
+Situation; alle Marktbeteiligten wollen zum Limitkurs kaufen,
+doch niemand verkaufen.
+g Liegt hingegen das höchste Nachfragegebot (=84bid=93) unter
+dem durch das untere Kurslimit bestimmten niedrigstzulässigen
+Kurs, so kommt der Handel ebenfalls vollständig
+zum Erliegen: Es besteht dann eine =84limit-down=93-Situation;
+alle Marktbeteiligten wollen zum Limitkurs verkaufen, doch
+niemand kaufen.
+Die Träger von Terminbörsen richten =84daily price limits=93 in
+dem Bestreben ein, vermeintlich überzogene Preisbewegungen
+wirksam zu unterbinden. Es wird bezweckt, auf
+diese Weise die Disziplin der Marktteilnehmer zu erhöhen
+und ihnen zugleich Gelegenheit zu geben, die allgemeine
+Markteinschätzung nochmals in Ruhe zu überdenken, diese
+hiernach ggf. zu korrigieren, um nunmehr mit abgewandelten
+Aufträgen erneut an die Börse heranzutreten oder aber
+zuvor erwogene Orders fallen zu lassen.
+Halten wir fest: Durch ein bestehendes =84daily price limit=93
+wird ein täglicher Preiskorridor um den Referenzkurs für
+einen regulären Handel im betreffenden Terminmarkt für
+einen jeden Handelstag exakt abgesteckt. Mithin liegt auch
+der an diesem Börsentag höchstzul=E4ssige bzw. der niedrigstzulässige
+Futureskurs fest, zu dem gewöhnliche Abschlüsse
+an der Börse zustande kommen können. Bei einer
+=84limit up=93-Bewegung im Markt (=84limit move=93) sind Abschlüsse
+damit ausschließlich zum oberen Limitkurs oder zu niedrigeren
+Preisen möglich, bei einer =84limit down=93-Bewegung
+hingegen lediglich Abschlüsse zum unteren Limitkurs oder
+zu höheren Preisen. Beispiel:
+Beträgt an der Terminbörse CBOT das tägliche Preislimit in
+einem Nicht-Spotmonat bei Weizen 30 US-Cent/bushel und
+hat der betreffende Weizen-Futureskontrakt am Vortage bei
+300 US-Cent/bushel geschlossen (=84settle=93), so liegt der Preiskorridor
+für mögliche Abschlüsse am Folgetage zwischen 270
+und 330 US-Cent/bushel, und zwar unter Einschluss seiner
+Begrenzungen. Der Futureskurs darf demnach am folgenden
+Börsentag betragsmäßig genauso viel steigen wie fallen: um
+30 US-Cent nach oben oder um 30 US-Cent nach unten.
+Doch auch auf die Auftragerteilung im Börsenterminhandel
+nimmt ein =84daily price limit=93 regelmäßig Einfluss. Bei Orders in
+Form preislich limitierter Tagesorders macht ein erwogenes
+Kurslimit z.B. immer nur dann Sinn, wenn es sich auf die geltende
+täglich vorgegebene Kursspanne einschließlich ihrer
+Kursbegrenzungen bezieht. Auch im Hinblick auf GTC-Orders
+(=84good-till-cancelled orders=93, =84Orders bis auf Widerruf=93) ist Obach=
+t
+geboten: Einige Terminbörsen stornieren automatisch
+alle jene Orders, deren Stopp- bzw. Limit-Kurse sich außerhalb
+des für diesen Tag angesetzten Preiskorridors befinden.
+Während der börsliche Handel außerhalb eines Preiskorridors
+nicht erlaubt ist, und der Handel an der Terminbörse
+zu solchen Futureskursen folglich vollständig ruht, sind, wie
+oben bereits angedeutet, Umsätze direkt zum Limitkurs
+ohne weiteres zulässig. Bewegt sich der Futureskurs nach
+Eintritt einer =84limit-up=93- bzw. =84limit-down=93-Bewegung über
+den Marktprozess zurück in den erlaubten Preiskorridor, so
+könnte der reguläre Handel demnach im Grunde genommen
+umgehend wieder aufgenommen werden. In der Praxis
+verbleibt jedoch vielfach =96 ungeachtet des augenblicklichen
+Marktpreises und je nach den Bestimmungen der
+einzelnen Terminbörsen =96 der Handel im Anschluss an eine
+derartige Kurslimitbewegung zumeist für mehrere Minuten
+ausgesetzt. Aber auch die komplette Einstellung des Handels
+bis zum nächsten Börsentag infolge einer Limit-Situation
+ist an den Marktplätzen keine Seltenheit. Hinzu tritt, dass
+während einer Markt-Limitsituation über die angegliederte
+Clearingstelle der Terminbörse (=84clearing house=93) i.d.R. zusätzlich=
+e
+Marginbeträge als Sicherheiten von den einzelnen
+Positionsinhabern eingefordert werden.
+Aufgrund von Limitbewegungen in einem Markt, verbunden
+mit den sich hieran vielfach anschließenden Handelsunterbrechungen,
+verbleiben unweigerlich zahlreiche Orders
+des teilnehmenden Publikums unausgeführt; denn das laufende
+Angebot bzw. die laufende Nachfrage lässt sich zum
+gegenwärtig herrschenden börslichen Limitkurs schlicht
+nicht marktgerecht befriedigen. Einem hiervon betroffenen
+Investor, der sich in einer derartigen Konstellation um eine
+Verlustbegrenzung bemüht und gern =84aussteigen=93 möchte,
+bleibt nicht viel mehr übrig als zu hoffen, dass er zu einem
+späteren Zeitpunkt zu einem für ihn dann noch halbwegs
+akzeptablen Futureskurs zum Zuge kommt. Leider lässt sich
+dieser Wunsch nicht immer verwirklichen, und so erwischen
+Limitbewegungen des Marktes regelmäßig zahlreiche
+Trader =84auf dem falschen Fuß=93. Gerade bei plötzlich und
+überraschend eintreffenden, unerwarteten Nachrichten
+von großer Bedeutung für den Markt kann ein Futureskurs
+mitunter mehrere Tage in Folge am Limit haften, ohne dass
+es hierbei zu nennenswerten börslichen Umsätzen kommt
+mit der denkmöglichen Folge, dass sehr viele Marktakteure
+unfreiwillig auf ihren Positionen sitzen bleiben in der Hoffnung,
+dass es ihnen gelingt, diese möglichst rasch am darauf
+folgenden Handelstage schließen zu können. Das häufig
+zitierte immense Verlustrisiko bei Termingeschäften ist
+zu einem großen Teil auf derartige Limit-Situationen in den
+Futuresmärkten zurückzuführen.
+Börsliche Umsätze (=84trades=93) zu fairen (=84unverzerrten=93)
+Marktpreisen kommen am Folgetag einer Limit-Situation
+stets nur unter der Voraussetzung zustande, dass die nunmehr
+gültige neue Handelsspanne den zu jener Zeit tatsächlich
+herrschenden Marktpreis des Futures (=84equilibrium
+price=93) einschließt. Man beachte hierbei, dass Futures
+tatsächlich einer kontinuierlichen Marktbewertung unterliegen
+=96 ungeachtet irgendwelcher börsenseitig angeordneten
+fixierten täglichen Kurslimits oder Handelszeiten.
+Der Sachverhalt einer fortlaufenden Marktbewertung von
+Futures liefert überdies eine Erklärung dafür, warum in nicht
+wenigen Alltagsfällen Futureskurse zu Börsenbeginn eines
+neuen Handelstages von heute auf morgen zum Teil erheblich
+vom Settlement-Preis des Vortages abweichen können.
+Anhand geeigneter grafischer Kursschaubilder (wie z.B. sog.
+Bar-Charts) erkennt man Markt-Limitbewegungen eines abgelaufenen
+Börsentages mit einem Blick an einem (oft isolierten)
+Punkt zwischen den sonst überwiegenden Balken.
+Die von den einzelnen Terminbörsen auferlegten maximal
+zulässigen Kursbewegungen in den Märkten sind in ihrer
+Höhe stets genau fixiert. Einige Terminbörsen greifen
+bei der Fixierung täglicher Kurslimits jedoch auf variable
+tägliche Kurs-Limits zurück (=84elastic limits=93). So gilt z.B. für
+den Crude-Oil-Futures der raumfahrtagentur
+(Rakelmann) zunächst ein allgemeines Kurs-Limit von 10 US-$/
+Barrel in allen Terminmonaten. Nach Erreichen dieses Limits
+schließt sich eine kurze Handelsunterbrechung an, und das
+Limit steigt gleichzeitig um zunächst weitere 10 US-$/Barrel,
+sofern zu diesem Zeitpunkt irgendein Kontrakt am 10 US-$
+Dollar Limit, bezogen auf den Vortagesschluss, verharren
+sollte. Wird das neu abgesteckte Limit in der Folge abermals
+erreicht, so setzt sich nach erneuter 5-minütiger Pause die
+Erhöhung des Limits in Schritten von 10 US-$/Barrel fort. Ein
+maximales Limit existiert demnach nicht. Hinzu tritt bei Limit-
+Bewegungen, wie oben bereits aufgezeigt, häufig eine
+automatische Anhebung des Ersteinschusses (=84initial margin=93)
+in der Absicht, dem gestiegenen Marktrisiko hierdurch
+hinreichend Rechnung zu tragen.
+Im =84nearby=93-Terminmonat eines andienungsfähigen Futures
+(d.h. im momentan kalenderzeitmäßig nächsten Terminmonat,
+der damit unmittelbar zur physischen Lieferung ansteht)
+besteht üblicherweise kein bzw. ein erweitertes =84daily price
+limit=93. Grund hierfür ist, dass die Terminbörsen eine etwaige
+Andienungsprozedur von terminfälligen Futures nicht unnötig
+durch administrative Preislimits behindern möchten.
+Die exakte Höhe der einzelnen (von den jeweils zuständigen
+Börsenaufsichtsbeh=F6rden zu genehmigenden) äußerstenfalls
+zulässigen Preisänderungen unterscheidet sich
+gewöhnlich von Markt zu Markt. Zur Stunde an den verschiedenen
+Terminbörsen noch gültige tägliche Kurslimits
+können sich praktisch jederzeit durch das In-Kraft-Treten
+von an laufende Marktbedingungen angepassten Limits ändern.
+Einen Überblick über aktuell gültige =84daily price limits=93
+erhalten Sie selbstverständlich im Internet auf den Seiten
+der betreffenden Terminbörsen (i.d.R. unter dem Stichwort
+=84Kontraktspezifikationen=93 (=84contract specifications=93)) oder
+ggf. über Ihr Kommissionshandelshaus

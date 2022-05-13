@@ -1,0 +1,39 @@
+Daniel Albertus <Wdmkr.Vnxewsezf@h-zlttmy.lp> schrieb in im Newsbeitrag:
+92KL4588.6W8DZ82C@f-eovzjw.ra...
+
+
+ich parse die seiten von PWJ und lang und schwarz. l&s sind
+ausserbörsliche handel.
+
+
+kann ich machen, aber erwarte nichts besonderes! das war ein wochenendhack.
+
+ich wollte einfach am wochenende mall *alle* nachbörslichen kurse mit
+*allen* schlusskursen vergleichen, um zu sehen, welche im samstags-handel am
+meisten gestiegen sind (natürlich die, die in der Quickopie-börse freitags abends
+hochgejubelt wurden). und zwar nach prozentualer differenz absteigend
+sortiert. ist mit perl ein klacks.
+
+
+kann ich machen. du brauchst perl und das gnu-tool "wget". (wenn du linux
+hast, ist es kein problem).
+.
+
+wir könnten bei interesse auch ein newsgroup-projekt daraus machen.
+
+wenn hier einer ein unix-kiste mit ständiger netzvebindung hat, könnte man
+die skripte alle 5 min laufen lassen und auf einer eigenen seite eine
+kursliste im ascii-format anbieten. das wäre praktisch für alle, die
+kursstatistik betreiben wollen.
+
+(oder per sms weiter aufs handy - kostenlos :-) )
+
+ich weiss allerdings nicht, ob man die kurse einfach so "weiterverwenden
+darf".
+
+ist mir im zweifelsfalle aber auch wurscht.
+
+kurse sind für alle da!
+
+gruss,
+    guido

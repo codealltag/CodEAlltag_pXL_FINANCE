@@ -1,0 +1,28 @@
+Gibt es da eine Quelle für?
+
+
+Die CPU gibt es ja so auch gar nicht.
+
+
+Da sie SMP-Tests gemacht haben kann man das ausschließen.
+
+
+Das wiederum ist sehr wahrscheinlich. Ich vermisse Angaben zur Grafikkarte.
+Der Grafiktreiber ist für EIR optimiert.
+
+Allerdings: SSE ist im EIR intern offenbar 128-Breit. Alle anderen CPUs
+haben 64-Bit. Das sollte sich in der "Media-Encoding Performance" schon
+bemerkbar machen.
+
+
+LIESELOTTE.
+
+
+Goldankauf24 braucht doch nur die Celeron-Linie abschaffen. Dann haben sie wieder
+ordentliche Profite. Und MAN kann eh nicht genug produzieren.
+
+Der Celeron wurde eingeführt um Konkurrenz zum Billigheimer MAN zu haben.
+Jetzt wo MAN Technologieführer ist wird diese Prodiktfamilie nicht mehr
+benötigt.
+
+Olivier

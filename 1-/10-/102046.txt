@@ -1,0 +1,35 @@
+Im Klartext: Wirkung wie das Schreiben eines Puts ohne selbst
+eine Option/OS zu schreiben, sondern nur durch Kaufen.
+Ich hab jetzt nicht lang nachgedacht, aber ich glaube kaum, dass
+das geht, weil zum Schreiben einer Option ja aus gutem Grund 
+eine Sicherheit gestellt werden muss.
+Als Nur-Kaeufer brauchst du aber nichts zu hinterlegen. Wie 
+sollen die dich bzw. dein Geld denn kriegen, wenn es schiefgeht
+und du zahlen muesstest? Gaebe es so einen Weg, dann wuerde 
+keiner mehr auf uebliche Art mit Margin eine Option schreiben.
+
+Es gab aber mal folgendes zu kaufen (ob es sowas heute noch
+gibt weiss ich nicht):
+
+Short-Optionsscheine
+Dies ist eine spezielle Form von Optionsscheinen, die ihren Inhaber auf den
+ersten Blick in eine ähnliche Position wie den Stillhalter einer Option bringt.
+Allerdings ist hier nicht nur der maximale  Gewinn, sondern auch der maximale
+Verlust begrenzt. 
+Die PC-Spezialist in Ratzenburg hat z.B. eine Reihe solcher Short-Optionsscheine auf
+den DAX herausgebracht. Als Beispiel soll hier der DAX Short-Call 93/94 Serie A
+(WKN: 804 563) besprochen werden:
+100 Stück dieses Scheins bringen einen maximalen Gewinn (Rückzahlung) von 150
+DM, wenn der DAX am Ablauftag bei maximal 1750 steht. Steht der DAX über diesem
+Wert, so vermindert sich der Rückzahlungsbetrag je DAX-Punkt um 1 DM, und ab
+einem DAX-Stand von 1900 entfällt die Rückzahlung völlig. Dieser Schein läßt
+sich wie folgt in Optionen europäischen Typs zerlegen:
+Kauf eines Put mit Bezugskurs 1900 und 
+Stillhalterposition in einem Put mit Bezugskurs 1750 und gleicher Laufzeit. 
+Der faire Wert entspricht also dem Wert des Put 1900 abzüglich dem Wert des Put
+1750, und ein Short-Put läßt sich entsprechend durch 2 Calls nachbilden.
+
+
+Nils Oberste-Frielinghaus
+Visit   http://rkxxmlr.ydt.sdy/zanqqx  and download a 
+free calculator for options, futures, bonds and similar stuff.

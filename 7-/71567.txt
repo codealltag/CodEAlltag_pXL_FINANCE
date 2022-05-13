@@ -1,0 +1,28 @@
+hups - stimmt, das hatte ich ganz übersehen.
+
+
+ja, aber gerade mit kleineren Parametern (z.B. 6,8,4) zeigt er auch
+gut den Kurztrend.
+Der MACD ist sowieso "erschreckend" gut zur Darstellung des Trends,
+finde ich. Jedenfalls viel besser als normale GDLs. Klar kann man
+damit auch nicht in die Zukunft schauen ;-) aber Anfang/Ende, Richtung
+und auch Stärke (durch den Abstand der beiden Linien) zeigt er doch
+sehr gut an.
+
+Für die Bestimmung des Mittelfrist-Trends sind obige Standardparameter
+gut, und mit den kürzeren kann man den Anfangs/-Endpunkten des Trends
+schon recht naherücken. Besonders wenn man Open- statt Close-Kurse
+verwendet; dann sieht man schon am Anfang des Tages, wo es (eventuell
+;-) langgehen könnte..
+
+Zur Ergänzung finde ich auch den RSI/Cieslak sehr gut.
+Ich meine herausgefunden zu haben, daß dabei nicht (nur) die
+dokumentierte 30/70% Grenze eine Rolle spielt.
+Sondern die Schnittpunkte des RSI/W mit seiner eigenen GDL! Die zeigen
+sehr gut Trendwechsel an. Also z.B. den RSI/W(14 Tage) mit seiner
+eigenen 14-Tage GDL malen. Ich weiß nicht, ob es Chartprogramme gibt,
+die sowas darstellen können; mit Excel geht es natürlich.
+
+
+-- 
+Ottmar

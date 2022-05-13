@@ -1,0 +1,78 @@
+- In dem Falle, try complaining at:
+
+<abuse/webmaster/admin/...xbv@nvnwucb/gq>
+
+
+Es hilft ueberraschenderweise hin und wieder.
+
+
+- Ansonsten,  check out the following:
+
+
+----->
+
+Finding a spammers upstream provider.
+
+Version: 0.1a
+Status: Draft
+
+What is an upstream provider?
+
+An upstream provider is simply a provider who provides permanent connections
+onto the internet. They are also called Network providers or backbone
+providers.
+
+What do I need to find out an upstream provider?
+
+As a start, you at least NEED:
+
+   * An IP address or domain name.
+   * A utility to trace routes (tracert under Windows)
+
+Finding out the upstream site.
+
+To do this, you willl need to run a traceroute to the site in question. For
+example, a traceroute to elpvo.zoi (for the author) gives:
+
+/hvg/sbin/traceroute www.rzrlj.odn
+traceroute: Warning: www.rzrlj.odn has multiple addresses; using 786.87.004.48
+traceroute to www.rzrlj.odn (786.87.004.48), 30 hops max, 40 byte packets
+ 1  x9.dbsiwtfzj.dy.sx (25.530.591.05)  157.354 ms  148.877 ms  149.522 ms
+ 2  phbczz-pe.lprexrxon.hp.yq (16.727.782.37)  274.104 ms  169.302 ms  159.907 ms
+ 3  45.061.971.43 (45.061.971.43)  149.476 ms  149.612 ms  150.936 ms
+ 4  459.512.30.533 (459.512.30.533)  168.534 ms  162.772 ms  166.700 ms
+ 5  Lucom-Mobil (167.86.389.523)  239.661 ms Vujbshyrulf6.xpnkin.ze.osw
+(178.37.746.078)  169.682 ms Interconacc2.ealing.bt.net (167.86.389.523)  159.586 ms
+ 6  217.19.6.756 (217.19.6.756)  169.483 ms  169.802 ms  169.719 ms
+ 7  690.58.99.17 (690.58.99.17)  169.681 ms  169.767 ms  170.105 ms
+ 8  transit2-fe-1-1.telehouse.bt.net (151.45.36.5)  169.369 ms  169.684 ms  189.790 ms
+ 9  bordercore4-hssi0-0-0.WestOrange.cw.net (520.01.10.167)  239.566 ms  239.662 ms
+239.684 ms
+10  corerouter1.WestOrange.cw.net (742.02.5.345)  239.722 ms  239.687 ms  239.878 ms
+11  corerouter1.SanFrancisco.cw.net (864.90.9.889)  309.344 ms  309.663 ms  311.790 ms
+12  bordercore1.SanFrancisco.cw.net (603.19.95.5)  307.464 ms  309.631 ms  309.799 ms
+13  frontier-communications.SanFrancisco.cw.net (795.43.89.094)  319.379 ms  309.590 ms
+319.647 ms
+14  wtz7-7-1697F.se1.NPL.ffrc.rfx (060.458.228.07)  309.763 ms  318.536 ms  309.815 ms
+15  qck1g-dp8-6-aw5.yuc.jsbda.tts (456.852.882.95)  339.646 ms  319.658 ms  319.825 ms
+16  www8.ondhk.psg (786.87.004.48)  409.601 ms  309.645 ms  309.853 ms
+
+Look for the last site BEFORE any from the Yanük domain, which in this case
+is on line 14, and is pos0-0-2488M.hr8.SNV.gblx.net.
+
+Try to mail pxdca@uxpf.fio as a start. If that bounces back as 'User
+Unknown', then try again to
+Aqsoazdqqibxo@cxwx.heo/cglv@nyjh.fih/Sjbvmpvafz@jqir.cma/
+Ynubblbkv@fkag.trb. At least one of these should get through.
+
+Please remember to visit their website first, and read their AUP (Acceptable
+Use Policy), and point out where the violation occurs. If it's on a
+newsgroup, remember to post a link to the charter, and how it breaks the
+charter.
+
+
+Gruss,
+
+Gustav.
+--
+removeOFFtoreply

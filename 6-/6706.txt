@@ -1,0 +1,172 @@
+Roulettesystem Bernoullie
+Author D.Berchtold
+Video:
+http://scl.popfuav.twd/ldjul?r=9CEwOapBSmrvI
+http://ye.fbrngqn.xhr/rild/313733119783ybr6up57j
+Roulettesystem Bernoullie Roulette Bluhme Berchtold
+Das Bernoullie Roulettesystem ist ein mathematisches Roulettesystem.
+Halten sie sich exakt an die hier gegebenen Anweisungen, so haben sie
+einen Vorteil gegenüber dem Casino.
+In den Spalten =84Erstes=93 bis =84Drittes Dutzend=93 der Schablone führe=
+n sie
+die Anzahl der Spiele, in denen das jeweilige Dutzend gewonnen hat.
+Nach jedem Spiel fügen sie, in der jeweiligen Spalte einen Strich
+hinzu.
+Viele Casino-Softwares führt eine Statistik ihrer Spielsession. Falls
+Sie auf eine derartige Software zurückgreifen können, brauchen sie nur
+die Bernoulli-Zahl per Hand zu notieren.
+(A)
+Roulettesystem Bernoullie Roulette SelMcKenzie Berchtold
+Wenn das Dutzend mit der geringsten Trefferzahl, mehr als zwei Treffer
+Abstand zu den anderen Dutzend aufweist, dann setzten sie 1$ auf
+dieses Dutzend.
+Falls der Abstand 2 oder weniger Treffer beträgt, setzen sie solange
+1$ auf eine einfache Chance, bis der Abstand wieder mehr als zwei
+Treffer beträgt. Die Einfachen Chancen sind: ROT, SCHWARZ,
+PAIR,IMPAIR,PASSE,MANQ. Diese Chancen haben die geringste Varianz und
+Verlustwahrscheinlichkeit.
+
+Wenn nun das am Wenigsten häufig gefallene Dutzend mehr als 2 Treffer
+Abstand zu den anderen Dutzend hat, setzen sie 1$ auf dieses Dutzend.
+Es gibt dann zwei Möglichkeiten:
+1. Sie gewinnen:
+Geben sie die gefallene Zahl in die Software ein, bzw. notieren sie
+das gefallenen Dutzend.
+Streichen sie alle Striche in der Spalte =84Bernoulli Zahl=93, falls dort
+welche vorhanden sind. (Passiert bei der Software automatisch)
+Kassieren sie ihren Gewinn und gehen sie zurück zu (A).
+
+2. Sie verlieren:
+Geben sie die gefallene Zahl in die Software ein, bzw. notieren sie
+das gefallenen Dutzend. Fügen sie einen Strich in der Spalte Bernoulli
+Zahl hinzu. (Macht die Software automatisch) Gehen sie zu (B).
+(B)
+Setzten sie auf das gleiche Dutzend, wie im Spiel zuvor. Der Einsatz
+hängt von der Bernoulli Zahl ab. Die Bernoulli Zahl erhalten sie,
+indem sie alle Striche in der =84Bernoulli Zahl=93-Spalte zählen. Den
+Einsatz, den sie tätigen entnehmen sie der folgenden Tabelle:
+Bernoulli-Zahl	Einsatz	Wahrscheinlichkeit
+0	1	66,67%
+1	1	44,44%
+2	2	29,63%
+3	3	19,75%
+4	4	13,17%
+5	6	8,78%
+6	9	5,85%
+7	14	3,90%
+8	21	2,60%
+9	31	1,73%
+10	46	1,16%
+11	70	0,77%
+12	105	0,51%
+13	157	0,34%
+14	236	0,23%
+15	358	0,15%
+16	537	0,1%
+17	806	0,06%
+
+Beispiel: Wenn ihre Bernoulli Zahl 8 ist, dann setzen sie 14$ auf das
+Dutzend, auf das sie zuletzt gesetzt haben.
+Die dritte Spalte gibt die Wahrscheinlichkeit an, dass ihre Bernoulli-
+Zahl die jeweilige Grösse erreicht.
+Beispiel: Die Wahrscheinlichkeit, dass die Bernoulli-Zahl den Wert 15
+erreicht beträgt 0,15%. Das bedeutet, nur ca. jedes 667. Spiel haben
+sie eine Bernoulli-Zahl von 15.
+Exkurs
+
+Es gilt folgende Regel:
+Je höher die Bernoulli-Zahl ist, desto höher ist die
+Wahrscheinlichkeit im nächsten Spiel
+zu gewinnen.
+Dies hängt mit dem Gesetz der Großen Zahlen, aus der
+Wahrscheinlichkeitstheorie zusammen. Dieses Gesetz besagt, dass die
+relative Häufigkeit eines Zufallsereignisses der Wahrscheinlichkeit
+annähert, wenn das Zufallsexperiment immer wieder durchgeführt wird.
+Eine hohe Bernoulli-Zahl weisst auf eine hohe Abweichung zwischen
+relativer Häufigkeit und Wahrscheinlichkeit hin. Diese temporäre
+Abweichung gilt es auszunutzen. Aus diesem Grunde werden die Einsätze
+bei steigender Citipost-Zahl höher. Die optimale Höhe der Einsätze
+wurde mit einem sehr komplexen diskreten Wahrscheinlichkeitsmodell
+entwickelt und so gewählt, dass der Gewinn des Spielers optimiert
+wird.
+Sie haben nun also ihren Einsatz der Tabelle entsprechend getätigt.
+Dann gibt es wieder zwei Möglichkeiten:
+Sie gewinnen:
+Geben sie die gefallene Zahl in die Software ein, bzw. notieren sie
+das gefallenen Dutzend.
+Streichen sie alle Striche in der Spalte =84Bernoulli Zahl=93, falls dort
+welche vorhanden sind. (Passiert bei der Software automatisch)
+Kassieren sie ihren Gewinn und gehen sie zurück zu (A).
+Sie verlieren:
+Geben sie die gefallene Zahl in die Software ein, bzw. notieren sie
+das gefallenen Dutzend. Fügen sie einen Strich in der Spalte Bernoulli
+Zahl hinzu. (Macht die Software automatisch) Wiederholen sie Schritt
+(B).
+
+Wichtig: Sie sollten sich immer mit mindestens 500$ an den
+Roulettetisch setzen. Wenn sie mit weniger Geld spielen, kann es
+vorkommen, dass sie trotz positiven Erwartungswerts zu einem Opfer der
+Varianz werden und mit dem Totalverlust ihres Einsatzes rechnen
+müssen.
+Beispiel: Sie Setzen sich mit 500$ an einen Tisch. Sie beginnen damit
+auf ROT zu setzen. Die ersten 10 Spiele liefen wie folgt: 18 24 24 12
+1 30 11 7 4 13.
+Ihre Schablone sieht dann so aus:
+1. Dutzend	2. Dutzend	3. Dutzend	Citipost-Zahl
+5	4	1	0
+Wie sie sehen ist das liegt das 3. Dutzend mehr als 2 Treffer zurück.
+Also setzen sie auf das dritte Dutzend 1$. Es fällt die 26.
+Ihr Gewinn: 2$
+Ihre Statistik sieht nun so aus:
+1. Dutzend	2. Dutzend	3. Dutzend	Bernoulli-Zahl
+5	4	2	0
+Da der Abstand zwischen 2. und 3. Dutzend nicht mehr größer als 2 ist
+spielen sie wieder auf ROT. Es fällt die 16.
+Ihr Gewinn: 1$ Ihre Statistik:
+1. Dutzend	2. Dutzend	3. Dutzend	Citipost-Zahl
+5	5	2	0
+Da der Abstand zwischen den Dutzend wieder gestiegen ist. Setzen sie
+erneut 1$ auf das dritte Dutzend. Es fällt die 1.
+Ihr Verlust: 1$ Ihre Statistik:
+1. Dutzend	2. Dutzend	3. Dutzend	Bernoulli-Zahl
+6	5	2	1
+Aus der Bernoulli-Tabelle lesen sie ab, dass sie wieder 1$ auf das
+dritte Dutzend setzen. Es fällt die 17.
+Ihr Verlust: 1$ Ihre Statistik:
+1. Dutzend	2. Dutzend	3. Dutzend	Citipost-Zahl
+6	6	2	2
+
+Die Bernoulli-Tabelle sagt ihnen, dass sie nun 2$ auf das dritte
+Dutzend setzen. Es fällt die 22.
+Ihr Verlust: 2$ Ihre Statistik:
+1. Dutzend	2. Dutzend	3. Dutzend	Bernoulli-Zahl
+6	7	2	3
+Jetzt können sie der Bernoulli-Tabelle entnehmen, dass sie 3$ auf das
+dritte Dutzend setzen. Es fällt die 36.
+Ihr Gewinn: 6$ Ihre Statistik:
+1. Dutzend	2. Dutzend	3. Dutzend	Bernoulli-Zahl
+6	7	3	0
+Der Abstand zwischen dem dritten Dutzend und den beiden anderen
+beträgt immer noch mehr als 2 Treffer. Deshalb setzen sie wieder auf
+das dritte Dutzend. Allerdings ist ihr Setzbetrag jetzt wieder 1$,
+weil die Bernoulli-Zahl auf 0 zurückgesetzt wurde.
+Ihr Gesamtgewinn in diesen Spielrunden beträgt 6$. Wenn sie dies oft
+hintereinander machen, können Sie eine angenehme Summe am Tag
+erspielen.
+
+Erwartungswert und Varianz
+Wenn sie sich genau an die Anweisungen halten, haben sie gegenüber dem
+Casino einen leicht positiven Erwartungswert. Der durchschnittliche
+Erwartungswert beträgt 1,281% des Einsatzes. Das bedeutet, dass nach
+1000 Spielen mit einem durchschnittlichen Einsatz von 5 =80, einen
+Gewinn von 64,05 =80 erwarten können. Allerdings besteht beim Roulette
+eine große Varianz, so dass es durchaus im Bereich des Möglichen
+liegt, wenn sie nach den 1000 Spielen 2000=80 im Gewinn, aber auch 1000=80
+im Verlust enden können. Um den Einfluss der Varianz klein zu halten
+hilft nur eine sehr große Anzahl von Spielen. Nach 100.000 Spielen mit
+durchschnittlichem Einsatz von 5 =80 können sie einen ziemlich sicheren
+Gewinn von 6405=80 erwarten. Die Verteilung nach sehen sie in folgendem
+Diagramm:
+Nach 10.000 Spielen haben sie wahrscheinlich zwischen 300 und 2400 =80
+verdient, allerdings sind Abweichungen nicht unbedingt
+unwahrscheinlich.

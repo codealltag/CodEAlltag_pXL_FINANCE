@@ -1,0 +1,123 @@
+Visual Basic 2010 Ein Internet-Casino programmieren Rueger Rotzinger
+Utendorf
+Video http://tlt.oktwigh.rjz/tuujj?z=3PczbRk22rI4N
+Author W.Rohtermundt
+Heute zeige ich Ihnen, wie man ein Internetcasino programmiert, so wie
+sie zu tausenden im Internet zu finden sind,. Das a und o ist ja der
+Roulettekessel, und ich programmiere diesen nur hier bzw. zeige es,
+wies geht. Sie wissen, es gibt inzwischen tausende von sogenannten
+Internetcasinos, die alle eigentlich nur betrügen. Sie haben nicht die
+geringste Chance, etwas zu gewinnen, weil alles manipuliert ist. Ich
+zeige Ihnen auch hier, wie manipuliert wird, wie man bei drehendem
+Roulettekessel dafür sorgen kann, dass die Kugel in ein Fach fällt,
+welches nicht gewinnt. Es gibt ja auch noch niemanden, der in einem
+Internetcasino was gewonnen hätte und da lassen diese Leute sich was
+einfallen. Sie sehen zur Zeit im Internet Werbung, man solle auf
+bestimmte Casinos gehen, da sei ein Softwarefehler und man gewinnt
+immer. Nichts davon ist wahr, Sie verlieren genauso und die hoffen nur
+auf neue Doofe, die etwas einzahlen und spielen und sich dann sowieso
+nicht mehr sehen lassen. Es gibt schliesslich 6 Millarden Menschen,
+und da werden immer neue Dumme gesucht. Findet man nur pro Tag 100
+Leute, die jeweils mal 100 Euro versuchen, dann hat man schon 10000
+Euro verdient. Ein anderer Spezialist macht das jetzt ganz anders, er
+hat Croupiers und einen echten Kessel und alles sieht echt aus. Wenn
+sich aber die Kugel dreht, kommt der Roulettekessel ins Bild angezoomt
+und man kann mit blossem Auge nicht sehen, dass da ein Film auf das
+Video aufgesetzt ist. Wenn Sie das mal abfilmen, werden Sie
+feststellen, dass da was nicht stimmt, wenn im Bild 2052 z.B. die Zahl
+0 erscheint, müsste als nächstes Bild die 32 erscheinen, ist aber
+nicht, es kommt die 5, also der Schnittpunkt, wo das entsprechende
+Video aufgesetzt ist. Der Spieler merkt nichts davon und glaubt, in
+einem echten Casino zu spielen. Deshalb: Finger weg von
+Internetcasinos, das Geld können Sie gleich auf dem Marktplatz
+verteilen.
+So nun fangen wir an, ich mache es mal ganz einfach, verschönern
+können Sie selbst. Wir ziehen auf die Form eine PictureBox, und zwei
+Buttons, der eine ist zum Start und der andere zur Demonstration zur
+Manipulation dafür, welche Zahl kommen soll. Dann brauchen Sie ein
+Bild, auf dem ein runder Roulettekessel deutlöich sichtbar ist und
+dieses Bild kommt in die PictureBox, wir zeilenweise ausgelesen,
+verändert und dann sieht das so aus, als ob sich der Kessel dreht.
+Als globaler Variable schreiben wir über die Form (über die Form!)
+Dim Betrügen(2)  as Integer
+Dann schreiben wir in den Button Manipulieren rein:
+        Betrügen(1) =3D Val(InputBox("Der Schwindel", "Der Beschiss",
+"35"))
+        MsgBox("Garantiert fällt jetzt die Roulettezahl " &
+Betrügen(1), , )
+Und nun der Haupteil Code in den Button Drehen. Halten Sie das Video
+an und schreiben es genauso ab, wie es vergrössert dort abgebildet
+ist. Dadu4rch läuft der Drehkessel, der lediglich aus den Punkten und
+Pixeln des Bildes gemacht wird, sehr schnell, etwa so wie alte
+Stummfilme gegenüber den neuen Filmen, aber Sie können das auch
+ändern, indem Sie noch einige Schleifen mit Zwischenmassen dazwischen
+tun, dann wirkt das glatter und schöbner, wenn sich der Kessel dreht.
+Der drehende Kessel wird lediglich aus dem Ur-Bild erzeugt und muss
+alles immer neu zeichnen. Ich habe es hier nur so kurz und schnell
+gemacht, aus Zeitmangel, Sie können es aber ändern und einen
+fliessenden drehenden Kessel machen, in dem Sie Masse
+dazwischensetzen.
+Der Code für den Button Drehen lautet:
+       Dim Pixel_1(3700) As Double
+        Dim Pixel_2(3700) As Double : Dim Pixel_3(3700) As Double
+        Dim Pixel_4(3700) As Double : Dim Pixel_5(3700) As Double
+        Dim Pixel_6(3700) As Double : Dim Pixel_7(3700) As Double
+        Dim Pixel_8(3700) As Double : Dim Pixel_9(3700) As Double
+
+        Pixel_1(0) =3D 1 : Pixel_2(0) =3D 5 : Pixel_3(0) =3D 9
+        Pixel_4(0) =3D 1 : Pixel_5(0) =3D 5 : Pixel_6(0) =3D 9
+        Pixel_7(0) =3D 1 : Pixel_8(0) =3D 5 : Pixel_9(0) =3D 9
+
+
+        FarbeRot =3D "" : FarbeGrün =3D "" : FarbeBlau =3D ""
+        FarbeRGB =3D "" : Alles_schön_bunt =3D "" : BildFertig =3D ""
+        Positionieren =3D "" : NeubildFertigstellen =3D ""
+        NeubildAusgeben =3D ""
+        Dim ErsteSchicht_als1(3700) As Double
+        Dim ZweiteSchicht_als5(3700) As Double
+        Dim DritteSchicht_als9(3700) As Double
+        For Malen =3D 0 To 3600
+            For UnterMalen =3D 0 To 3700
+                For Und_wieder_drunter_malen =3D 0 To 3700
+                    FarbeRot =3D FarbeRot & Malen
+                    FarbeGrün =3D FarbeGrün & Malen
+                    FarbeBlau =3D FarbeBlau & Malen
+                    FarbeRGB =3D FarbeRGB & FarbeRot _
+                                     & FarbeGrün _
+                                     & FarbeBlau
+                    Alles_schön_bunt =3D Alles_schön_bunt _
+                                     & FarbeRGB
+                    BildFertig =3D BildFertig _
+                                     & Alles_schön_bunt(FarbeRGB)
+                    Positionieren =3D Positionieren _
+                                     &
+BildFertig(Alles_schön_bunt(FarbeRGB))
+                    NeubildFertigstellen =3D NeubildFertigstellen _
+=20
+(Positionieren(Und_wieder_drunter_malen))
+                    NeubildAusgeben =3D NeubildAusgeben &
+NeubildFertigstellen
+                Next Und_wieder_drunter_malen
+            Next UnterMalen
+        Next Malen
+
+        DrehenderKessel =3D ""
+        For Umdrehungen =3D 0 To 36
+            DrehenderKessel(DasBild) =3D NeubildAusgeben(NeubildAusgeben
+_
+                                      * 1000)
+        Next Umdrehungen
+
+So, und nun kommt der spannende Moment, alles ist fertig, das Casino
+müsste laufen. Wir starten. Jetzt den Knopf Drehen drücken und Sie
+sehen, der Roulettekessel dreht sich.
+Jetzt wollen wir mal sehen, wir setzen die 0 und die 0 muss kommen.
+Auf den Button Manipulation drücken, 0 eingeben, und  siehe da, die
+Kugel fällt in die 0.
+Als nächstes drehen wir nochmal, der Kessel dreht, wir wollen, dass
+die 7 kommt, also im Knopf Manipulation die 7 eingeben. Und siehe da,
+die Kugel fällt tatsächlich in die 7.
+Als nächstes nehmen wir nochmal die 21, wir drehen, und siehe da, die
+Kugel fällt in die 21.
+Das wars dann. Good Luck.
+Rohtermundt

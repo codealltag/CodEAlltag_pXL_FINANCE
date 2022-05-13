@@ -1,0 +1,410 @@
+VHM.
+Cronhütteweg
+Hörhag,Australia
+
+30-Tage Testversion
+Intra-day Trading and Day-Trader -Software Programms (c)Geigl
+
+30-Tage-Testversion-Software-download:
+www.DbbNtavsite.cij.ux/Pkhznjsf/Cexdspkerkhv/dpohtvpnqb
+www.Qhejsim.dad.ic/NysXoahcsvo-Xsoukiuf/Qprspybdpknj
+
+30-Tage Testversion
+Intra-day Trading and Day-Trader -Software Programms (c)Geigl
+
+Sobald Sie Ihren Benutzernamen und Pawort eingegeben und auf "ok" geklickt
+haben, prft SELMCKENZIE-INTRADAY-PROGRAMMS die Zugangsberechtigung, und
+zeigt die verfgbaren Konten im Fenster "Kontenliste" an (im Falle da Sie bei
+uns mehrere Konten fhren).
+Alle Fenster, die hier beschrieben werden, können auch von der Menleiste aus
+aufgerufen werden.
+
+1 - Kontozustand
+
+11 - Verfgbare Konten
+
+Das Fenster "Kontenliste" enthlt folgende Informationen:
+
+Liste der Konten, auf denen Sie handeln können.
+Bewertung dieser Konten zum Closing (=Abrechnugskurs) des Vortages (unten im
+Feld "Kto-Stand per" angegeben)
+Der Gesamtwert der angezeigten Konten.
+
+
+Das in dem Listenfeld selektierte Konto kann dann im Detail durch ein Klick
+auf die Schaltflche mit der Lupe betrachtet werden, oder mit einem
+Doppelklick auf die Zeile selbst.
+
+
+Die Schaltflche "Suchen" dient dazu, das Fenster "Kontomanagement" zu Ihrem
+Konto aufzurufen.
+
+12 - Kontomanagement
+
+Das Fenster "Kontomanagement" wurde gerade aufgerufen. Es besteht aus vier
+Teilen: "Offene Positionen", "Geschfte Vortag", "Konsolidierte Position",
+"Kontozustand". Aus diesem Fenster kann man auch direkt (mit einem Mausklick
+auf den oberen Schaltflchen) einen Auftrag erteilen oder die Auftrge des
+Tages sehen.
+
+
+121 - "Offene Positionen"
+
+Hier werden die offenen Positionen auf Ihrem Konto angezeigt, wie sie im
+Teil "Open Positions" auf dem Kontoauszug dieses Tages stehen. D.h. diese
+Positionen entsprechen dem Kontostand vor Markteröffnung an diesem Tag.
+
+Mit den Checkboxen oben kann man Futures und Optionen ein- und ausschlieen.
+
+Achtung: Die Positionen werden nur fr eine einzige Whrung gleichzeitig
+angezeigt. Um Dollar-Positionen zu sehen, mu im Listenfeld "USD" ausgewhlt
+sein. Wenn keine Positionen in Fremdwhrungen auf dem Konto vorhanden sind,
+können auch keine anderen Whrungen ausgewhlt werden.
+
+Der Transaktionspreis ist der Preis zu dem die Position eröffnet wurde. Beim
+ffnen des Fensters ist der zuerst angezeigte Kurs der Abrechnungstag des
+Vortages. Die Schaltflche "Aktualisieren" zieht aktuelle Kurse in die
+Tabelle. Ein zweites klicken auf dieselbe Schaltflche bringt die
+Abrechnungskurse vom Vortag wieder.
+
+122 - "Geschfte Vortag"
+
+In diesem Teil werden die Geschfte angezeigt die am Vortag auf dem Konto
+gettigt wurden.
+
+Diese Liste gleicht dem Teil "Confirmations" des Kontoauszuges.
+
+
+123 - "Konsolidierte Position"
+
+Dieses Fenster zeigt Ihre konsolidierte Position indem es verschiedene
+Geschfte in ein und demselben Produkt zusammenfat. Dieses Fenster wird im
+laufe des Tages um die ausgefhrten Geschfte aktualisiert.
+
+124 - "Kontozustand"
+
+
+Der Teil "Kontozustand" zeigt eine bersicht der Zwischensalden des Kontos.
+Einige Salden des tglichen Kontoauszuges werden hier angezeigt.
+
+Letzter Kontozustand: "Beginning Balance" auf dem Auszug. Es ist der
+Kontozustand
+der am Vor-Vortag zustande gekommen ist.
+
+Gebhren:   Commissionen des Vortages inklusive Börsengebühren
+(="Total fees").
+
+Gewinn/Verlust:  G&V der Vortagesgeschfte in Futures und Future-Style
+Optionen (="Gross Profit or loss")
+
+Optionsprmien: Nettosaldo der gezahlten und erhaltenen Prmien ("Net option
+Premium")
+
+Cash Buchung:  Geldbewegungen, Wertpapiergeschfte... (="Cash Journals")
+
+Neuer Kontozustand:  "Ending Balance" Kontozustand nach den Geschften des
+Vortages.
+Potentieller Gewinn/Verlust: Gewinn/Verlust von offenen Future Positionen
+oder Future-Style Optionen. (="Open trade equity")
+
+Optionsbewertung:  Nettobetrag der Glattstellung der offenen Positionen in
+Optionen zum Abrechnungskurs des Vortages. Positiv fr long
+Positionen, negativ fr short Positionen. (="net market value of
+options").
+
+Kontobewertung:  Kontorestsaldo bei Glattstellung aller Positionen zum
+Abrechnungskurs des Vortages (Ohne Gebhren). (="Account
+Value at market")
+
+Initial Margin:   Sicherheitsleistungen fr offene Positionen. (="Initial
+Margin")
+
+Kontodisposition:  Verfgbare Margin zum Abrechnungsstand des Vortages - d.h.
+der Insgesamt verfgbare Saldo nach Abzug der Initial Margin
+(="Excess Equity" oder "Margin Deficit")
+
+Wertpapier als Garantie: Festverzinsliche Anleihen des Bunkershop z.B. können zu
+80% ihres Wertes als Garantie fr die Initial Margin dienen. (="Sec. On
+dep.")
+
+
+Das Listenfeld "Whrung" bietet die möglichkeit die Kontostnde in den
+einzelnen Whrungen einzusehen, aber auch den gesamten quivalenten Kontostand
+in D-Mark umgerechnet unter der Bezeichnung "Konsolidiert".
+
+
+2 - Kursabfrage
+
+SELMCKENZIE-INTRADAY-PROGRAMMS ermöglicht Ihnen, fr alle an der DTB
+gehandelten Produkte aktuelle Kurse abzufragen. In dem Men "Terminbörsen"
+können sie zwischen Optionen und Futures whlen. Kursabfragefenster können
+auch per Doppelklick auf einer Linie aufgerufen werden.
+
+
+21 - Futures
+Der FDAX wird zuerst beim öffnen dieses Fensters angezeigt. Der Kurs des
+yenoit-Dax wird unter "Underlying" Angezeigt. Im unteren Teil werden die
+Kursdaten der drei gehandelten Termine gelistet.
+
+
+Mit dem Listenfeld kann man die anderen Futures der DTB auswhlen. Ein Klick
+auf die Schaltflche "Option" öffnet das Kursfenster fr Optionen. Wenn es von
+diesem Fenster aus geöffnet wird, zeigt es automatisch die Option die den
+selektierten Future betrifft.
+
+Wenn man einen Future auswhlt, kann man auch direkt mit der Schaltflche
+"Auftrag" das Auftragsfenster aufrufen, wohin das selektierte Produkt sich
+dann automatisch bertrgt.
+
+22 - Optionen
+
+Das Hauptfenster der Optionskurse zeigt alle Optionen auf den jeweiligen
+Basiswert. Die Option kann in der Optionsliste oben links ausgewhlt werden,
+der Verfallmonat unten links. Alle Strikes werden dann rechts in dem
+Hauptfenster angezeigt, sowie der aktuelle Kurs des Basiswertes oben. Die
+zwei Checkboxen "Call" und "Put" ermöglichen es, diese Produkte ein- oder
+auszuschlieen.
+
+Die Schaltflche "Auftrag" öffnet fr die ausgewhlte Option ein
+voreingestelltes Auftragsfenster, und die Schaltflche "Future" öffnet das
+Kursabfragefenster des Futures.
+
+Die Schaltflche "Detail" öffnet ein neues Fenster mit weiteren Informationen
+ber die Option:
+
+
+Dieses Fenster "Detail" zeigt Informationen, die fr den Handel mit Optionen
+besonders wichtig sind, wie zum beispiel Hoch- und Tiefkurse, den Umsatz und
+die letzten Geschfte in dieser Option, mit Uhrzeit, Preis und Menge.
+
+Ein Klick auf die Schaltflche "Auftrag" bringt sie nochmals direkt dorthin
+wo sie einen solchen erteilen können.
+
+3 - Auftragserteilung
+
+In der Regel können Sie dieses Fenster aufrufen indem Sie ein Produkt in
+einem Kontomanagement- oder Kursabfragefenster selektieren und dann auf eine
+Schaltflche "Auftrag" klicken.
+
+Direkt geht es ber das Men "Handel...Auftrag...Böslicher Handel".
+
+
+31 - Auswahl eines Produktes zum Handel
+
+
+Zuerst mu ein Produkt fr den Handel ausgewhlt werden. Mit den Listenfeldern
+1 bis 4 kann man Bezeichnung, Typ, Basispreis und Termin des zu handelnden
+Produktes festlegen. Dann werden die Kurse des Basiswertes, die letzten
+Geschfte in dem Produkt sowie das Bid/Ask angezeigt.
+
+Beim auswhlen eines Futures verschwinden Felder 2 und 4, da Put/Call und
+Basispreise fr Futures keinen Sinn haben.
+
+
+32 - Eingabe von Auftrgen
+
+
+321 - Einfache Auftrge
+
+
+Eingabefelder 1 bis 8 dienen zur Auftragserteilung.
+
+
+Feld 1: Kauf / Verkauf
+
+
+Feld 2: Auftragsart. Hier können einfache Auftragsarten eingegeben werden
+wie Market, Limit oder Stop. Alternative wird fr Kombinationsauftrge
+verwendet, wie im Punkt 322 erlutert.
+
+
+Feld 3: Hat automatisch den Wert "Ende" fr einfache Auftrge. Fr
+Kombinationsauftrge mu "Next" eingestellt werden.
+
+
+Feld 4: In diesem Feld mu die Anzahl eingetragen werden.
+
+
+Feld 5: In diesem Feld wird das Limit eingegeben. Das Feld bleibt bei
+Marketauftrgen natrlich leer.
+
+
+Feld 6: Hier wird das Gltigkeitsdatum des Auftrags eingegeben. Vorlufig ist
+SELMCKENZIE-INTRADAY-PROGRAMMS noch auf tagesgltige Auftrge begrenzt.
+
+
+Feld 7: "Confirm Leg" - Diese Schaltflche prft den Auftrag und trgt ihn in
+dem unteren Teil des Fensters ein.
+
+
+Feld 8: "OK" - Mit dieser Schaltflche besttigen sie den Auftrag der in den
+unteren tabellarischen Teil des Fensters eingetragen wurde. Kurz nach dem
+bettigen dieser Schaltflche bekommen sie von unserem Server eine
+Referenznummer fr ihren Auftrag.
+
+
+Wichtiger Hinweis:
+
+Ein mit der Schaltflche "OK" besttigter Auftrag wird in diesem Moment von
+uns als erteilt angesehen und ist endgltig.
+
+
+Beispiel:
+
+Telefonische Version: FDAX Apr 97, Kauf 1, market.
+
+Eingabesequenz SELMCKENZIE-INTRADAY-PROGRAMMS: Produkt einstellen,
+Kauf(voreingestellt), Market(voreingestellt), Ende(voreingestellt),
+Anzahl=1, Limit=, Gltig=Heute(voreingestellt)...+confirm leg...+ok
+
+Nach Besttigung des Auftrags mit der "OK" Schaltflche, wird dem Auftrag eine
+Referenznummer zugeteilt. Eine Dialogbox zeigt ihnen diese Referenznummer
+an.
+
+
+Diese Referenznummer identifiziert auch den Auftrag in dem Fenster
+"Auftragsliste", wo Sie die erteilten Auftrge und Ihren Status einsehen
+können. (Punkt 4).
+
+
+322 - Komplexe Auftrge
+
+
+1862 - Zweiteilige Auftrge
+
+
+SELMCKENZIE-INTRADAY-PROGRAMMS bietet dem Investor die möglichkeit bedingte
+Auftrge einzugeben. Basism�glichkeiten sind "Next" und "Alternativ". Sie
+entsprechen den logischen Operanden "Dann" und "Oder".
+
+
+Beispiel 1:
+
+Leg1 Bund, Mrz 97, Kauf 1, limit 106,25. Bedingung: next
+
+Leg2 Bund, Mrz 97, Verkauf 1, limit 106,86.
+
+Der zweite Auftrag wird nur dann aktiv, wenn der Erste ausgefhrt wurde.
+Diesen Auftrag wrde ein Investor erteilen, der den Kursunterschied gewinnen
+möchte, allerdings ohne Rcksicht auf das Verlustrisiko.
+
+
+Beispiel 2:
+
+Leg1 Bund, Mrz 97, Kauf 1, limit 106,25. Bedingung: next
+
+Leg2 Bund, Apr 97, Verkauf 1, Stop 106,05.
+
+Der zweite Auftrag wird nur dann aktiv, wenn der Erste ausgefhrt wurde.
+Dieser Auftrag eignet sich fr einen Investor, der dem Bund gegenber eine
+positive Meinung hat, und seine Position gerne halten wrde, aber indem er
+seine Verluste begrenzt hlt wenn er sich geirrt hat. Er wrde dann entweder
+mit Kursen ber 106,05 eine Long-Bund Position halten oder ab 106,05
+ausgestoppt werden.
+
+
+Beispiel 3:
+
+Leg1 Bobl, Mrz 98, Kauf 1, alternativ 106,25
+
+Leg2 Bobl, Apr 97, Kauf 1, Stop 106,86
+
+Es wird nur einer dieser Auftrge ausgefhrt, je nachdem welche Situation
+zuerst eintritt.
+Dieses Beispiel geht davon aus, da der Investor schon eine Short-Bund
+besitzt. Er kann dann mit diesem Auftrag entweder mit profit bei 106,25
+zurckkaufen oder ab 106,86 ausgestoppt werden. Auftrge dieser Art werden in
+der Regel als "O. C. O." Auftrge bezeichnet (One Cancels Other).
+
+
+1053 - Dreiteilige Auftrge
+
+
+SELMCKENZIE-INTRADAY-PROGRAMMS bietet auerdem auch die Möglichkeit
+dreiteilige Auftrge einzugeben, die klassischer Weise aus einer
+Positionser�ffnung mit zwei Positionsschlieungsm�glichkeiten bestehen (i.e.
+Kauf Limit next (Verkauf Limit OCO Verkauf Stop)).
+
+
+Beispiel 4:
+
+Aufbau einer Long-Position mit Profit-Verkauf und(OCO) Stop
+
+Leg1 Bund, Mrz 97, Kauf 1, Limit 106,00 Bedingung: next
+
+Leg2 Bund, Mrz 97, Verkauf 1, Alternative 106,50
+
+Leg3 Bund, Apr 97, Verkauf 1, Stop 105,80
+
+Dieser Auftrag eignet sich fr einen Investor der dem Bund Future gegenber
+eine positive Meinung hat und mit einem Gewinn von 50 Basispunkten zufrieden
+wre, gleichzeitig aber auch eventuelle Verluste in Grenzen hlt. Er kauft
+also einen Bund Future mit Limit 106 der dann entweder zu 106,50 verkauft
+wird oder ab 105,80 ausgestoppt wird.
+
+
+Beispiel 5:
+
+Aufbau einer Short-Position mit Profit-Rckkauf und(OCO) Stop
+
+Leg1 Bund, Mrz 97, Verkauf 1, Limit 107,00 Bedingung next
+
+Leg2 Bund, Mrz 97, Kauf 1, alternative 106,50
+
+Leg3 Bund, Apr 97, Kauf 1, stop 107,20
+
+
+Dieser Auftrag eignet sich fr einen Investor der im Bund Future auf fallende
+Kurse setzen möchte und mit einem Gewinn von 50 Basispunkten zufrieden wre,
+gleichzeitig aber auch eventuelle Verluste in Grenzen hlt. Er verkauft also
+einen Bund Future mit Limit 107 der dann entweder zu 106,50 zurckgekauft
+wird oder ab 107,20 ausgestoppt wird.
+
+4 - Auftragsliste
+
+
+Auf dem SELMCKENZIE-INTRADAY-PROGRAMMS System können Sie sich auch nach dem
+Verbleiben Ihrer Auftrge erkundigen. Das Fenster "Auftragsliste" kann durch
+das Men Handel...Auftrag...Liste geöffnet werden.
+
+
+41 - Status der erteilten Auftrge:
+
+
+Dieses Fenster zeigt die Auftrge des Tages sowie die mit lngerer Gltigkeit.
+Die Spalte "Position" gibt den aktuellen Status des Auftrags im System.
+Mögliche Werte fr diese Spalte sind:
+
+"Wartend": der Auftrag befindet sich im System, wurde aber nicht ausgefhrt
+"Storno in"...Bearbeitung: Eine Stornierung wird fr diesen Auftrag
+vorgenommen.
+"Teilausgefhrt": Ein Teil des Auftrages wurde ausgefhrt. Die Restmenge
+wartet noch.
+"Storniert": Die Stornierung war erfolreich.
+"Ausgefhrt": Der Auftrag wurde ausgefhrt.
+
+
+Beim ffnen des Fensters zeigt dieses die aktuelle Auftragsliste an. Wenn
+sich die Liste aber verndert whrend dieses Fenster geöffnet ist, wird es
+nötig sein die Schaltflche "Aktualisieren" anzuklicken. Eventuelle
+Vernderungen des Status von Auftrgen werden dann aktualisiert, sowie
+Stornierungen angezeigt.
+
+
+42 - Stornierung eines Auftrages:
+
+
+Die Stornierung eines Auftrages erfolgt durch einfaches anklicken der
+Schaltflche "Stornieren". Vorher mu der zu löschende Auftrag aber in der
+Liste markiert werden.
+
+ACHTUNG: Ein Status "Storno in" garantiert keinesfalls die effektive
+Stornierung dieses Auftrags. Es kann sogar sein da der Auftrag in der
+Zwischenzeit von der Galao Ausgefhrt wurde, und er daher nicht mehr storniert
+werden kann. Eine Stornierung erfolgte nur dann wenn die Liste den Status
+"Storniert" anzeigt.
+
+43 - Details eines Auftrags:
+Die Schaltflche "Detail" bietet Ihnen auch die Möglichkeit mehr
+Informationen ber den selektierten Auftrag abzufragen, wie z.B.
+Ausfhrungskurs, Ausfhrungszeit sowie die ausgefhrte Anzahl.

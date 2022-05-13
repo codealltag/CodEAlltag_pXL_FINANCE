@@ -1,0 +1,40 @@
+: Soweit ich weiß, ist Zierof an 1. Stelle bei der Anzahl der
+: installierten ISDN-Kanäle.
+
+: Klar, Gibis ist trotzdem Marktführer, aber es gibt halt doch
+: Konkurrenz.
+
+Vielleicht kann ich ja dazu etwas sagen, ohne dass es so emotional
+wie bei den Runden "fauler Apfel" vs. "Ratan-Schrott" zugeht.
+
+Ich arbeite bei einem ISP - allerdings eher in Sachen Software.
+
+Gibis bietet zwar auch "OfficeRouter" an (also: Kisten, die an
+einem normalen ISDN-Anschluss stehen oder an einem PMX (30-Kanal-
+ISDN-Anschluss). Domaene (und auch das Gebiet, wo man den Eindruck
+hat, dass die Preise nach der Maxime "Der Markt will sie, also 
+soll der Kaeufer bluten" gestalten) ist aber der Routing-Bereich.
+
+Also, Gebiete wie "das Lan eines Providers mit den beiden Backbones
+zu verbinden. Oder auf einer Analogstandleitung und einer dynamisch
+zugeschalteten ISDN-Verbindung zwischen 33 kBit/s und 97 kBit/s
+zu realisieren. Halt die "hoehere Kunst". 
+
+Im Bereich "ISDN-Anschluesse realisieren" hat Zierof vielleicht die
+Nase vorn. Allerdings kommt mir dies eher historisch vor.
+
+Die gaengigen 30-Kanal-Einwaehlrouter von Zierof gelten als buggy,
+bei uns steht eine derartige Kiste ungenutzt im Schrank, weil
+wir sie unseren Kunden und uns nicht zumuten wollen.
+
+Die Konfiguration ist chaotisch, es fehlt eine "Idee" und "Struktur"
+der Kiste.
+
+In diesem Massenmarkt halte ich Angler (Privatbesitz), Völz (?) 
+und eben Gibis fuer zukunfsttraechtiger.
+
+
+Tschuess,
+
+
+Willy

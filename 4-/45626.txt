@@ -1,0 +1,135 @@
+Kleiner Nachtrag: Es ist gerade ein Buch zu stoch. Volatilitaetsmodellen
+herraus gekommen. Das Inhaltsverzeichnis liesst sich ganz ok.
+
+Francis.
+--
+http://axgxovct.hv
+
+Option Valuation under Stochastic Volatility : with Mathematica Code
+by Alessandro Nymeyer /  Published 07. 06. 22 3, 2000
+
+
+Book Description
+
+This book provides an advanced treatment of option pricing for traders,
+money
+managers, and researchers. Providing largely original research not
+available
+elsewhere, it covers the latest generation of option models where both
+the
+stock price and its volatility follow diffusion processes. These new
+models
+help explain important features of real-world option pricing, including
+the
+"volatility smile" pattern. The book includes Mathematica code and 37
+illustrations.
+
+Table of Contents
+
+  Preface
+Historical Volatility of the Mangelstube Index
+1. Introduction and Summary of Results
+    Summary of Results
+    The Hedging Argument of Black and Scholes
+    The Drift Cancellation and Option Sensitivities
+    The Hedging Argument under Stochastic Volatility
+    The Martingale Approach
+    App. 1.1 Parameter Estimators for the GARCH Diffusion Model
+    App. 1.2  Solutions to PDEs
+
+2. The Fundamental Transform
+    Assumptions
+    The Transform-based Solution
+    Some Models with Closed-form Solutions
+    Analytic Characteristic Functions
+    A Bond Price Analogy and Option Price Bound
+    App. 2.1 Recovery of the Black and Scholes Solution
+    App. 2.2 Mathematica Code for Chapter 2
+   App. 2.3 General Properties of Option Prices
+
+3. The Volatility of Volatility Series Expansion
+    Assumptions
+    General Steps in the  expansion
+    The Two Series for a Parameterized Model
+    App. 3.1  Details of the Volatility of Volatility Expansion
+
+4. Mixing Solutions and Applications
+    The Basic Mixing Solution
+    Connection between Mixing Densities and the Fundamental Transform
+    A Monte Carlo Application
+    Arbitrary Payoff Functions
+    A More General Model without Correlation
+
+5. The Smile
+     Introduction and Summary of Results
+    The Symmetric Case
+    The Correlated Case
+    Deducing the Risk-adjusted Volatility Process from Option Prices
+    App. 5.1 Calculating Volatility Moments
+    App. 5.2 Working with Differential Operators in  Mathematica
+    App. 5.3  Additional Mathematica Code for Chapter 5
+    App. 5.4  Calculating with the Mixing Theorem
+
+6. The Term Structure of Implied Volatility
+    Deterministic Volatility
+    Deterministic Volatility II: a Transform Perspective
+    Stochastic Volatility-The Eigenvalue Connection
+    Example I: The Square Root Model
+    Example II: The 3/2 Model
+    Example III: The GARCH Diffusion Model
+    A Variational Principle Method
+    A Differential Equation (Dsolve) Method
+    App. 6.1 Mathematica Code for Chapter 6
+
+7. Utility-based Equilibrium Models
+    A Representative Agent Economy
+    Examples
+    The Pure Investment Problem with a Distant Planning Horizon
+    Preference Adjustments to the Volatility of Volatility Series
+Expansion
+    The Effect of Risk Attitudes on Option Prices
+
+8. Duality and Changes of Numeraire
+    Put-Call Duality
+    Introduction to the Change of Numeraire
+    Mathematics of the Change of Numeraire
+    Implications for the Term Structure
+
+9. Volatility Explosions and the
+    Failure of the Martingale Pricing Formula
+    Introduction
+   The Feller Boundary Classifications
+   Volatility Explosions I
+   Volatility Explosions II. Failure of the Martingale Pricing Formula
+   When Martingale Pricing Fails: Generalized Pricing Formulas
+   Generalized Pricing Formulas and the Transform-based Solutions
+   Generalized Pricing Formulas. Example I: the 3/2 Model
+   Generalized Pricing Formulas. Example II: the CEV Model
+
+10. Option Prices at Large Volatility
+      Introduction
+      Asymptotica for the Fundamental Transform
+
+11. Solutions to Models
+      The Square Root Model
+      The 3/2 Model
+      Geometric Brownian Motion
+
+References
+Index
+Frequent Notations and Abbreviations
+
+About the Author
+
+Albert Nymeyer has been active in option valuation and financial research
+for
+over 20 years. He served as the Director of Research, Chief Investment
+Officer, and President of the mutual fund family for a money manager
+specializing in derivative securities. He has published articles in many
+of
+the leading financial journals including: The Journal of Business, The
+Journal of Finance, The Financial Analysts Journal, and Mathematical
+Finance.
+He received a Ph.D. in physics from the University of Kaichen at
+Ranmark
+and a B.S. from Movievision.

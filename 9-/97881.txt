@@ -1,0 +1,66 @@
+Hallo Börsenfreunde,
+
+Zwei verschiedene Versionen stehen in der NG > de.alt.dateien.misc < zur
+Verfügung.
+
+Der Betreff lautet >Excel95 Depot< Datum 30.07.97 und ist für Excel 7.0 oder
+der Betreff lautet >Excel97 Depot< Datum 30.07.97 und ist für Excel 8.0.
+
+Für beide gilt Auflösung 800 x 600.Win ab 95.
+Bitte nur die Version für das jeweilige Excel laden, da die Version für 7.0
+in deutschem VBA geschrieben ist, wird bei der Übersetzung ins Englische
+einiges fehlerhaft übersetzt.Außerdem ist die 8.0 Version stark erweitert
+mit Möglichkeiten die in 7.0 garnicht  zur Verfügung stehen.
+
+1.)  Das haben beide Versionen gemeinsam
+Es werden alle Werte in Euro erwartet ! (Datum,WKN usw. natürlich  nicht
+:-)))))
+Zwischen den einzelnen Einträgen im Depot dürfen keine Leerzeilen sein!
+Das gilt auch für die anderen Blätter ! Speziell die erste Spalte wird von
+vielen Routinen benutzt um das "Ende" zu finden !!!
+
+Ein Depot in das man 50 Werte (Aktien,Indexe...)  eintragen kann.
+Ein Blatt in dem alle Verkäufe stehen.(max. 500)
+Zu jedem Wert den man in sein Depot nimmt kann man einen Verlauf,mit Chart
+anlegen.
+Zu jedem Wert kann man eine >AktienInfo< abrufen (alle Daten zur Aktie).
+Eine Übersicht in der man seine gesammte Habe auf einen Blick sehen
+kann.(Zahlen)
+Die Entwicklung des Depots im Chart.
+Eine Aktiendatenbank, ein Blatt mit Branchen.(KARLHEINZ)
+
+Den Währungsrechner der alle EU Währungen nach EURO oder umgekehrt
+berechnet.
+Die Möglichkeit innerhalb des Depot's zu ordern.
+
+Kleine rote 3 oder 4 Ecken die weiter Hilfe geben wenn man mit dem Cursor
+darüber führt.
+
+Hinweise sollten entfernt werden aus den Blättern.
+
+2.) nur in der 8ter Version
+Online von FHS Kurse abrufen und diese per klick in sein Depot zu
+übernehmen.
+Der Button >Kurse übernehmen< trägt Dat., Volumen, Erster, Hoch, Tief,
+Letzter
+in den jeweiligen Verlauf des Wertes ein.Sofern dieser vorher angelegt
+wurde.
+Zur Beachtung:
+Der Button >Kurse übernehmen< im Blatt >Depot< trägt lediglich die Werte in
+der Spalte
+Da schreibe ich die Kurse von NTv rein >Depot->Aktuell< .
+Der Button im Blatt >FHS< arbeitet anders ! s.o.
+
+Was es nicht gibt sind Unkosten, denn es ist umsonst (Option siehe Info) !
+Viren gibt's auch nicht,meine richtige Adresse gebe ich bekannt im Prog.
+Auch in der Hoffnung das jemand was für mich zu tun hat.
+Würde mir gerne was nebenbei verdienen,vieleicht gibt's ja einen der ein
+kniffliges Problem in Excel zu lösen hat.
+
+Glaube das wars.
+Wuerde mich über Mail freuen, wenn ihr ehrlich
+schreibt was ihr denkt.
+Oder hier in der NG wäre mir sogar noch lieber .
+
+MfG
+Jörg

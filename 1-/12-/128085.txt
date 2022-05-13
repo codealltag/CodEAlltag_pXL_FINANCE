@@ -1,0 +1,21 @@
+Hallo, Stefano
+Wenn bei Stop-Loss Limitierung das Limit erreicht bzw. unterschritten wird
+(nicht bei taxierten Kursen!), wird automatisch ein unlimitierter
+Verkaufsaufstrag erteilt. Dann wird zum   n � c h s t e n  Kurs verkauft,
+egal wie hoch er ist (kann auch höher sein).
+Wird eine Stopp-Loss-Order im Kassahandel erteilt, erfolgt der Verkauf immer
+zum ersten Kurs der am Tag nach dem Auslösen des Stop-Loss zustandekommt.
+
+Folgerung: Stop-Loss bei geringen Umsätzen kann teuer werden.Möglichst nur
+im amtlichen Handel bei umsatzstarken Werten verwenden. Stop-Loss kann als
+Schutz vor Kurscrash eingesetzt werden, kann aber auch aufgrund des
+beschriebenen Mechanismus die Verluste erhöhen.
+
+Mit Stop-Loss wirst du bei volatilen Werten ausgebremst, weil man meistens
+aus psychologischen Gründen nicht mehr nachkauft.
+
+Die Gretchenfrage ist auch: Wie setzte ich das Stop-Loss?
+
+Wer hat gute/schlechte Erfahrungen mit Stop-Buy / Stop-Loss gemacht ?
+
+Yours Torsten

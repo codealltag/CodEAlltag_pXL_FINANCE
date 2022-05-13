@@ -1,0 +1,18 @@
+Hallo Leute!
+
+Ich möchte von einer Aktie die Gewinn/Verlustentwicklung fortlaufend 
+ermitteln.
+
+Beispiel:
+Kauf 50 Stück zu 10 => -500
+Verkauf 30 Stück zu 11 => -170
+Kauf 40 Stück zu 12 => -650
+Verkauf 60 Stück zu 11 => +10
+
++10 sagt mir, dass ich bei den Transaktionen brutto 10 Euro verdient habe. 
+Wie sollte die Spalte dieser fortlaufenden Entwicklung denn heißen? Eine 
+kurze Bezeichnung wäre toll (also nicht: Fortlaufende 
+Gewinn/Verlust-Entwicklung)
+
+Gruß,
+Ivan

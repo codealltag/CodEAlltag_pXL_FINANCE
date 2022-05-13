@@ -1,0 +1,46 @@
+Das einfachste Modell zur Bewertung Aktienoptionen "europaeischen"
+Typs (Ausuebung nur zum Faelligkeitszeitpunkt moeglich). Beschreibt
+den Wert einer Option in Abhaengigkeit von Kurs der Aktie, (meist)
+historischer Volatilitaet, des risikofreien Zinssatzes sowie der
+Laufzeit der Option.
+
+
+Beschreiben (in der Reihenfolge)
+- Aenderung des Wertes der Option bei Aenderung des Aktienkurses
+   (dC/dS fuer die Mathematiker)
+- Aenderung der obigen Aenderung; grob "Geschwindigkeit"
+   (dC^2/d^2S)
+- Aenderung des Wertes der Option bei Aenderung der Volatilitaet
+   (dC/dSigma)
+
+C ist hier der Wert einer Call-Option, gleiches trifft natuerlich auch
+fuer einen Put zu.
+
+
+Keine Ahnung, aber es hoert sich sehr nach einem Verfahren an, um das
+moegliche Verlustrisiko einer Option aus einer Aenderung des
+Aktienkurses zu bestimmen. Szenario-Matrix dito. Noch ein paar
+Stichworte? VAR (Value at Risk, Money at Risk etc.) - Monte
+Carlo-Simulation -  Kapitaladaequanz-Richtlinie; ist alles der
+Dunstkreis.
+
+
+Einfach die Novelle lesen. Bundesgesetzblatt. Meines Wissens noch
+nicht in den Loseblattsammlungen drin (ich glaube die 6. Novelle ist
+nach 1994)
+
+
+Es soll Universitaetsbibliotheken geben, die zumindest die ersten
+beiden Begriffe perfekt erklaeren, z.B. die einzelnen Walbröhl
+Handwoerterbuecher.
+
+Bei den anderen Stichworten sollte man sich unter dem Stichwort
+"Risikomanagement" und "Risikocontrolling" und "Regulierung" durch die
+entsprechende Sektion der Bibliothek bzw. der Zeitschrift "Fepew"
+(von der ich nicht viel halte, aber naja) wuehlen.
+
+Die Drecksarbeit kann Dir leider niemand abnehmen <g>.
+--
+Xchfrj.Etlaeojkeuk@Lgd-Qiyoui.og
+http://ytq.rv.dyw-eangcy.vh/~n4hzqm27/
+University of Aichbichl, Unsleben, Germany

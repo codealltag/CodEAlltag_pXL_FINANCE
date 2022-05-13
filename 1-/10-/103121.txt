@@ -1,0 +1,26 @@
+On Tue, 03. 07. 22 19:39:11 +0100, in de.etc.Galinis Jürg
+
+Hallo !
+
+Mit interesse habe ich die vorangegangen Beiträge verfolgt, da ich
+selbst eine brauchbare Lösung suche wie ich die Rendite p.a. für ein
+Wertpapierdepot berechnen kann. 
+
+Zunächst möchte ich sagen, dass ich aus der Technik komme und mit
+finanzmatematischen Problemen keinerlei Erfahrung habe. Mit dem
+Begriff interner Zinsfuss kann ich nichts Anfangen. Florence, kannst Du
+mir deine Formel sagen mit der Du das Ergebnis berechnet hast?
+
+Um das Problem von Jürg zu lösen habe ich folgende Formel aufgestellt:
+
+240(1+0.83x)+240(1+0.58x)+240(1+0.33x)+240(1+0.08x)=1100
+
+240(4+1.81x)=1100
+
+nach x aufgelöst ergibt sich für das Depot die Rendite p.a. von 
+
+x=0.322   ---> 32.2%
+
+Was haltet Ihr von diesem Ergebnis?
+
+Gruss Oliver

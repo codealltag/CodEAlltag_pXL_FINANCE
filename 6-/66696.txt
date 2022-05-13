@@ -1,0 +1,90 @@
+Hallo Laurent,
+
+ich komme leider auch erst jetzt zum antworten.
+
+
+Nun eine Marktmeinung läßt sich bestimmt daraus ableiten - genauso
+wie z.B. aus dem Put/Call-Verhältnis. Was jedoch die Vorhersage der
+weiteren
+Entwicklung angeht, bin ich SEHR skeptisch. Mich dagegen interessiert
+eigentlich nur, ob die gehandelte implizite Volatilität in naher Zukunft
+steigen oder fallen wird. Allerdings die paar mal, wo ich entsprechend
+meiner Meinung Volatilität ge- bzw. verkauft habe, waren im Mittel die
+Transaktionskosten größer als der Gewinn. Im Klartext habe ich einen
+(kleinen)
+Verlust erlitten, aber durch praktisches Ausprobieren einen
+Erfahrungsgewinn...
+Im Moment mache ich eine kleine Denkpause um dann spaeter noch einen
+Anlauf
+zu unternehmen.
+
+
+Das wichtigste an der Formel war die Abhängigkeit von der Restlaufzeit
+der
+Optionen. Ohne Berücksichtigung dieser, kann man leicht zu
+Fehlinterpretationen kommen. Aber ich halte die Formel auch nicht mehr
+für so gut.
+
+
+Ich habe mich mit Franco immer gut vertragen (und viele Denkanstöße von
+ihm
+erhalten)!!!
+
+
+Das Arbeiten mit Settlementpreisen ist viel einfacher (damit werden
+auch die Bilder auch meiner Homepage erzeugt). Wenn man intraday-Daten
+nimmt, kommt man aber auf ein ähnliches Ergebnis.
+
+Der Vola-Smile der DAX-Optionen ist für niedrige Strikes eine fallende
+Gerade, geht dann in eine Parabel über und steigt danach wieder linear
+an.
+Der Scheitel liegt bei Strikes oberhalb des Geldkurses und wandert mit
+Verkürzung der Restlaufzeit in Richtung Geldkurs. Bei langlaufenden
+Optionen ergibt sich somit eine nahezu vollkommene fallende Gerade,
+da der Scheitel bei so hohen Strikes liegt, die nicht gehandelt werden.
+Gleichzeitig wird auch der Smile mit Verkürzung der Restlaufzeit immer
+steiler.
+
+Die Berechnung des Smiles ist dabei sehr empfindlich gegenüber der Wahl
+des risikolosen Zinssatztes. Wählt man ihn zu klein, ergeben sich immer
+Parabeln
+statt Geraden. Wählt man ihn zu groß, so lassen sich viele Volatilitäten
+nicht
+berechnen (Aufgeld wird manchmal sogar negativ).
+
+Der eigentliche Smile bewegt sich relativ träge - dagegen der VDAX (und
+die
+anderen Volatili�tsindices) sehr schnell. Der VDAX wird jedoch immer am
+Geld
+berechnet - da sich der Geldkurs schneller ändert als der eigentliche
+Smile,
+ändert sich der VDAX zu 80% durch Hoch- bzw. Runterlaufen des Geldkurses
+am
+Smile.
+
+Wahrscheinlich wird der Smile im wesentlichen durch den Marketmaker
+bestimmt.
+Vielleicht programmiert er seine Quotemaschine mit dem Smile und die
+berechnet
+aus den DAX-Kursen usw. die Bid/Ask-Kurse und er dreht selber träge nur
+am
+Smile? Weiß jemand wie eine Quotemaschine programmiert ist?
+
+
+Nun ich meinte auch weniger den direkten Einfluß, sondern daß die
+Hobbyzocker Call-OS kaufen und die Emittenden dann Optionen an der
+Eurex, um sich selber abzusicheren. Nun kenne mich leider mit den Profis
+überhaupt nicht aus - warum sollten sie eigentlich Call-Optionen auf
+den DAX kaufen? Zur Rückversicherung ja klar, aber zur eigenen
+Spekulation -
+glaube ich kaum. Vielleicht kann ja mal einer schreiben warum Profis
+einen DAX-CALL gerbrauchen können. Insgesamt halte ich daher den
+indirekten
+Einfluß der Hobbyzocker für sehr hoch - kann mich natürlich ganauso
+haushoch
+irren.
+
+Alles Gute,
+
+Norbert
+http://lzxwsklf.gc

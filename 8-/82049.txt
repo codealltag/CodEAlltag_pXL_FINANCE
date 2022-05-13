@@ -1,0 +1,23 @@
+Das ignoriere ich mal....
+
+
+Mit Black-Scholes war nur eine Bemerkung, dass dort die gleichen
+Voraussetzungen gemacht werden. Aber auch diese Vorraussetzungen sind
+sind ja leider falsch - sonst gebe es keine implizieten Volatilitaeten
+und Vola-Smiles (sondern nur die historische Volatilitaet (identisch
+fuer alle Basispreise)). Deshalb wird ja auch ueber Value at Risk (VaR)
+- Bewertungen diskutiert (sozusagen welchen groesstmoeglichen Verlust
+ich akzeptieren moechte). Aber da streiten die Fachleute selber. 50%
+halten von VaR ueberhaupt nichts und die anderen 50% schwoeren darauf.
+
+Z.B passsiert es schon mal, dass eine Firma pleite geht, und deshalb
+braucht man mit VaR auch mehr als viermal soviele Titel, um das Risko zu
+halbieren.
+
+
+Tut mir leid, dass ich den Anfang des Threads nicht gelesen habe.
+Allerdings welchen Sinn macht eigentlich die Unterscheidung, wenn ich
+z.B. zwischen
+verschiedenen Anlageformen wie Sparbuch oder Aktien entscheiden soll?
+
+Utwl@Nwijuosm.qx

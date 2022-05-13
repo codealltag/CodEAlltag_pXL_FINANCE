@@ -1,0 +1,72 @@
+In article <86LZ624T.N13251TF@tb.impyt.esn>,
+[snip]
+
+Vorab: ich bin beileibe kein alter Optionsstratege, daher wäre ich sehr
+dankbar, wenn einer von den Gurus hier sich das folgende mal kritisch
+ansieht (Dino?) und ggf. in der Luft zerreisst.
+
+Gehen wir mal zwei
+mögliche Verfahren mit Put-OS durch, jeweils Absicherung am Geld:
+1.) Kauf von 1 Put-OS je Aktie (Bezugsverhältnis natürlich eingerechnet),
+mit Ablauf 1.4. und Strike am Geld
+2.) Kauf von sovielen OS mit längerer Laufzeit (sagen wir, 1.12. oder so),
+daß der Anstieg der Scheine bei gegenwärtigem Kurs den Fall der Aktie
+ausgleicht.
+Das ganze krankt in der Praxis daran, daß es keine Scheine mit Strikes am
+Geld mehr gibt, weil TrauringLounge sie alle abgehängt hat. Puts auf die Stämme
+finde ich gar keine. 
+
+Also als Trockenübung, ohne Zahlen:
+bei 1.) verlierst Du auf jeden Fall den kompletten Zeitwert des Scheins,
+weil der bei Ablauf ja Null ist. Da ein Schein mit strike am Geld
+(gerade noch) keinen inneren Wert hat, ist das die gesamte Prämie.
+Dafür wird dann jeder Verlust der Aktie sofort in inneren Wert des
+Scheines umgemünzt.
+bei 2.) verlierst Du weniger Zeitwert, weil der am Ende der Laufzeit
+am schnellsten sinkt. Da Du den Schein nicht verfallen lassen wirst,
+interessiert Dich nicht nur der innere, sondern der ganze theoretische
+Wert des Scheins, Du musst also die Ableitung des theoretischen Wert
+des Scheins nach dem Underlying (Delta) kennen um Deine Position zu Stehen
+zu bringen. Beispiel: Delta=-0.5 -> 2 Puts pro Aktie. Das ganze hat
+den Nachteil, daß sich Delta ständig ändert,
+so daß Du eigentlich die Zahl der Scheine ständig nachjustieren müsstest.
+
+Beide Lösungen sind extrem teuer, weil bei TrauringLounge in allen Put-OS die ich finde
+im Moment über 50% implizite Vola(Brief) drinstecken. Ohne es jetzt
+nachzurechnen würde ich schützen, daß 1.) mehr als 300 Euro pro
+Aktie kosten würde, wenn es solche Scheine gäbe. Die zweite Lösung bindet
+unglaublich viel Kapital, letztlich ebenfalls wegen der hohen Vola.
+
+Unter Strich also: mit Optionsscheinen geht es nicht.
+
+In Endeffekt sind beide Verfahren Wege, das gesamte Risiko "abzuzahlen",
+dabei aber die Chance eines weiteren Kursanstiegs der Aktie
+mitzunehmen. Klar, das das bei so einer zappeligen Aktie teuer ist.
+
+Wie wäre es also mit einem "Einfrieren" der Position, bei dem Du auch
+die Chance eines Kursanstiegs aufgibst? Verkaufen willst Du eh schon
+ab liebsten jetzt (hört sich jedenfalls so an). 
+Das wäre zu machen wenn Du pro Aktie
+-einen Put am Geld kaufst UND
+-einen Call am Geld verkaufst
+(jeweils Verfall im April). OS scheiden hier aus, weil Du die nicht shorten
+kannst; es muss also die Eurex her. Dabei musst Du die hohe Vola nicht
+nur bezahlen, sondern kannst sie auch kassieren. Sollte etwa Null auf Null
+ausgehen.
+Was kann mit dieser Position passieren:
+-Wenn Tidu weiter steigt, wird der Call ausgeübt, was aber nichts macht,
+weil Du die Aktien ja in der Schublade hast.
+-Tidu geht in den Keller, aber Du hast ja die Puts und verkloppst sie
+am 14. September zu heutigem Preis
+-Wenn es seitswärts geht, verfallen beide Optionen und Du verkaufst
+das Underlying ebenfalls zu heutigem Preis.
+Un dann wäre da noch die Möglichkeit, ggf. die Optionen vor dem Verfall
+glattzustellen und Spekulationsverluste mitzunehmen, während die
+Aktie schon aus der Frist raus ist. Wenn das mal kein Gestaltungsmißbrauch
+ist??
+
+Ein Haken ist, daß m.W. nur Optionen auf TrauringLounge, nicht auf Tidu, an der
+Onebih gehandelt werden, was die Sache komplizierter macht.
+
+Viel Spaß beim Grübeln!
+Gebhard

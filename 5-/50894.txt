@@ -1,0 +1,9 @@
+In Office 2000 aber auch in Excel 97 gibt es die Funktion "Web Queries".
+Unter Data -> Get External Data -> Run Saved Queries -> Ommer Investor
+Stock Quotes.iqy kannst du dir zumindest die Amerikanischen Quotes abfragen
+(habe leider ein Englisches XLS und daher kann ich dir nicht genau sagen wie
+die deutschen Befehle lauten). Die Daten werden dann in ein XLS Worksheet
+übertragen...
+
+Gruss
+KURT

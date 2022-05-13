@@ -1,0 +1,40 @@
+Hi,
+Du erstellst eine Datei mit der Endung iqy (Bsp.: MeineKurse.iqy) über einen
+Editor. Dann gibst Du das folgende ein:
+
+WEB
+1
+http://cskyqnon.uke.rps/adqvxdtn/ouldu/hndddr.lyk?Dwuvfc=FD:788263,YW:134255
+,QW:203920,DE:Elfenwerk,DE:FLA
+
+wobei bei mir alles ab http:// in einer Zeile steht. Du kannst beliebig
+viele WKNs/Kürzel angeben. Die Datei speicherst Du dann da ab, wo die
+anderen *.iqy Dateien stehen.
+In Excel dann Daten/Externe Daten/Web-Abfrage ausführen (da müsste dann
+"MeineKurse.iqy" zur Auswahl stehen) und doppelklicken. Die Abfrage steht
+dann natürlich da, wo vorher der Cursor war. Es gibt dann noch verschiedene
+Möglichkeiten die Abfrage zu formatieren (zB immer beim Starten neue Kurse
+laden, usw.).
+In Excel habe ich habe das dann so gemacht, dass ich die Abfrage auf einem
+anderen Blatt stehen haben und in meinem Kursblatt Verweise stehen. Mich
+stört es, wenn die Abfrage mitten drin steht, denn die Abfragen sind häufig
+sehr bunt und voluminös formatiert. Bei der oben musst Du allerdings die
+Kurse noch mal durch 1.000 dividieren, da die Amis ja das Komma als 1.000er
+Zeichen verwenden und den Punkt als Komma. Probiers halt mal aus. Die
+Abfrage dauert i.d.R. nur 30 sec bis 1 min, die Kurse sind natürlich
+zeitverzögert, was aber völiig ausreicht.
+Alternativen zu der Adresse oben wären dann noch
+
+WEB
+1
+http://rydft.acoyp.wlw/jkhmjl?LCVNJLX=MSSS&zkhkdsbl=r
+
+oder
+
+WEB
+1
+http://ueoik.dgxnwoqr.gh:0286/nkwrv/oripbf/erssbdqwxbgj.dorw?pyzcvwaex=["uxp
+rchfor","Welche Aktien möchten Sie suchen (max. 3
+WKN)?"]&searchforb=2&searchforicat=5&Search=Suchen
+
+Viel Spaß, Rudi

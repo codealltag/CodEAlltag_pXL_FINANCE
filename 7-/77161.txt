@@ -1,0 +1,24 @@
+bG = bezahlt Geld - die zum festgestellten Kurs limitierten Kaufaufträge
+müssen nicht vollständig ausgeführt sein, es bestand weitere Nachfrage (es war
+noch Geld da...)
+
+bB = bezahlt Brief - die zum festgestellten Kurs limitierten Verkaufsaufträge
+müssen nicht vollständig ausgeführt sein, es bestand weiteres Angebot (es
+waren noch Briefe (Stücke) da...)
+
+ebG = etwas bezahlt Geld - die zum festgestellten Kurs limitierten
+Kaufaufträge konnten nur zu einem geringen Teil ausgeführt werden.
+
+ebB = etwas bezahlt Brief - die zum festgestellten Kurs limitierten
+Verkaufsaufträge konnten nur zu einem geringen Teil ausgeführt werden.
+
+rG = rationiert Geld - die zum Kurs und darüber limitierten sowie die
+unlimitierten Kaufaufträge konnten nur beschränkt ausgeführt werden
+
+rB = rationiert Brief - die zum Kurs und niedriger limitierten sowie die
+unlimitierten Verkaufsaufträge konnten nur beschränkt ausgeführt werden
+
+So in etwas müsste es eigentlich passen
+
+
+Gruß Thorsten

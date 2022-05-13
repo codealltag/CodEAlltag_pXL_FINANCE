@@ -1,0 +1,22 @@
+Das ist jetzt etwas OT: Mit Mittelwert meinte ich einen langfristigen
+ueber die Jahre (Berechne langfristige hist. Vola DAX und Vergleiche mit
+Mittelwert VDAX). Wenn beide Werte wesentlich voneinander abweichen,
+sollte der Terminmarkt die Optionen falsch preisen - was ich aber nicht
+glaube....
+Falsch: LN(95/100)=-LN(100/95)= ca. -5.13%. In beiden Faellen ist der
+Mittelwert gleich ( 1% Steigerung pro Tag), im ersten Fall ist die Vola
+jedoch Null, im zeiten Fall dagegen positiv. Damit sich in beiden
+Faellen auch der gleiche Mittelwert ergibt, wird ja gerade der
+Logarithmus genommen. Ist wie bei der Zinseszinsrechnung. Wenn ich mir
+den mittleren Zins einer Anleihe mit Stufenzins ausrechnen will (z.B.
+Bundesschatzbriefe), muss ich ja auch den Logarithmus mitteln (oder das
+geometrische Mittel verwenden):
+
+LN(1+Z_mittel)=(LN(1+Z_1)+LN(1+Z_2)+ ...+LN(1+Z_n))/n
+
+--
+Cédric Zimmerer                  | uvszfiwd@bziuis.sm-fbmcvp.wc
+RBRA | http://tmsut.brsfhi.ip-ztblmy.ih/~cqrp
+ZFV            |
+Pölitzstraße 878              | Tel. (+06/37) 7714 5180
+D-86250 Holzerode                 | Fax. (+41/05) 9931 9489

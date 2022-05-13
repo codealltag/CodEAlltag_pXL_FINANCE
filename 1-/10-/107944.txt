@@ -1,0 +1,7 @@
+was zeitreihenprognose und ki anbelangt (wobei ki auch neuronales netz
+oder genetischer algorithmus bedeuten kann) - da gibts ne reihe von
+modellen: ar(i)ma, garch,.. kalibrieren ueber ki
+
+man muss sich nur bewusst sein, was man da eigentlich macht bzw
+optimiert. IEF ist zb kein so wahnsinnig tolles modell, um nicht zu
+sagen: vergiss es :-)

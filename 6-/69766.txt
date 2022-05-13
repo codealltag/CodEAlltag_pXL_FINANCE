@@ -1,0 +1,46 @@
+: Angenommen, es gibt zwei Geldmaschinen: eine zahlt 1 DM pro Jahr
+: bis in alle Ewigkeit aus, die andere 5 Jahre lang nichts, im 6. 
+: Jahr eine DM, dann steigert sie jedes Jahr ihren Gewinn um 100% 
+: bis zum 20. Jahr, ab dem die zweite Maschine den Gewinn vom 
+: 20. Jahr fuer alle weiteren Jahre auszahlt. Welchen Preis 
+: wuerdest Du fuer jede dieser Maschine zahlen?
+
+: Fuer die erste irgendwas zwischen 10 und 17 DM. Das entspricht 
+: ungefaehr den 6-10% Rendite, die der rationale Geschaeftsmann 
+: von dieser Art Anlage erwartet. 
+
+: Die zweite ist nicht so einfach, den mann muss den ausgezahlten
+: Gewinn ueber die Zeit berechnen und dann auf den heutigen Wert
+: zurueckrechnen. 
+
+: Im 20. Jahr und in allen Folgejahren zahlt die 2. Maschine 32767 DM
+: aus, also ist sie im 20. Jahr zwischen 327670 und 557039 DM wert
+: (6-10% Rendite bei konstanter Auszahlung). Die erste Maschine
+: ist zu diesem Zeitpunkt immer noch nur zwischen 10 und 17 DM wert.
+: Anders gesagt ist die 2. Maschine im 20. Jahr soviel wert wie
+: 32767 Maschinen vom ersten Typ. Um das im Lauf der 20 Jahre mit 
+: den Maschinen vom ersten Typ zu erwirtschaften, braucht man im 
+: Jahr 0 bei einem Preis von 10 DM pro Maschine 4871 Maschinen, bei 
+: einem Preis von 17 DM pro Maschine 10446 Maschinen.
+
+: Also liegt der Preis im Jahr 0 fuer eine Maschine vom Typ 2 zwischen
+: dem von 4871 und 10446 Maschinen vom Typ 1. Das sind zwischen
+: 48710 und 177582 DM. Wie hoch ist dann das KGV der 2. Maschine im 
+: Jahr 6?
+
+Was passiert aber, wenn ich gerade maschine typ 2 für recht günstige
+80 TDM gekauft hat und erfahre dann im 6. jahr, dass die prognose für
+das 7. jahr doch nur 1,50 DM statt 2 DM ist.... naja, Da wird der kurs
+wohl ein bischen fallen... wenn er sich dann auf 40 TDM halbiert hat
+nutze ich die "günstige" gelegenheit und kaufe nach... aber komisch,
+so richtig mag sich der kurs gar nicht mehr erholen....
+hmmmm.... wenn das so weitergeht wird ja auch ab dem 20. jahr auch 
+nur etwa 292 statt 16384 ausbezahlt.... tja, dann würde der wert
+meiner maschine aber nur noch etwa *schluck* 3-5 TDM sein....
+
+und plötzlich wird einem auch klar, warum und wie empfindlich der wert
+dieser maschine auf "schlechte nachrichten" wie 50% wachstum reagieren
+wird...
+
+gruss,
+kai

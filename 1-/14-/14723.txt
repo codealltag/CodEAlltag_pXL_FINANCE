@@ -1,0 +1,82 @@
+Opening Range Breakouts an der Börse beim Trading
+
+Author Lübbers
+Die Range Breakout als Signal und  ein Kurs- bzw. Preis-Breakout ist
+grundsätzlich eine sehr einfache Herangehensweise, um die mögliche
+Richtung von Preisen abzuschätzen. Man geht wie folgt vor: Zuerst
+wirdeinPreisbereich,auchRangegenannt,definiert.Wenn sich die Preise
+außerhalb dieser Range bewegen, steigt die Wahrscheinlichkeit, dass
+sich die Kurse weiter in die selbe Richtung bewegen und sich von der
+Range entfernen werden. Preis-Ranges können auf allen Zeitebenen
+definiert werden. Meistens sind es Bereiche zwischen gut definierbaren
+Unterstützungs- und Widerstandslinien, also Preisebenen, die mehr als
+nur einmal innerhalb eines bestimmten Zeitraums als Widerstand und
+Unterstützung gehalten haben.
+Widerstands-und Unterstützungszonen können aber auch anhand von Hochs
+und Tiefs der letzten x Zeitpe=ADrioden definiert werden, zum Beispiel
+anhand der Hochs und Tiefs der letzten zwei Wochen, drei Tage oder
+vier Stunden. Aber wie schon eingangs angekündigt - wir wollen dieso
+genannte OpeningRangehandeln. Zunächst gilt es also, diese Range für
+unsere Strategie zu definieren.
+Opening Range
+Die Opening Range umfasst die ersten Zeitperioden des ,,heutigen"
+Handelstags. Die Opening Range wird oft unterschiedlich definiert, sie
+kann zum Beispiel als die ersten 15 Minuten, aber auch als die ersten
+30 bzw. 60 Minuten eines Handelstages definiert werden. Für unsere
+Strategie nehmen wir die ersten 60 Minuten. Diese ersten 60
+Handelsminuten, zum Beispiel beim DAX oder beim EuroSTOXX50, werden
+auch als Initial Balance bezeichnet. Die erste Handelsstunde für den
+DAX und den EuroSTOXX50 ist von 8.00 bis 9.00 Uhr. Grundsätzlich
+wollen wir dann handeln, wenn die Kurse aus dieser ersten 60-minütigen
+Range ausbrechen. Aber was bedeutet ,,ausbrechen" genau? Ein paar
+Minuten außerhalb der Range reichen uns nicht für ein Handels=ADsignal.
+Wir dürfen erst handeln, wenn ein Breakout mit dem ersten 15-Minuten-
+Balken, der außerhalb unserer Opening Range schließt, bestätigt wird.
+Optionspreistheorie zu Nutze machen ,,Miss" Box-Options zahlen sich am
+meisten aus, wenn sie möglichst vor den aktuellen Kursen platziert
+werden. Nur so erreicht man die höchsten Risiko-/ Gewinn-Verhältnisse,
+zum Beispiel 1 zu 2,5. Der Grund dafür ist, dass man in der
+Optionspreistheorie davon ausgeht, dass der wahrscheinlichste Preis
+der nächsten x Zeitperioden eben der jetzige Preis ist. Das bedeutet
+wiederum, dass die Wahrscheinlichkeit, dass die Kurse die Box doch
+treffen werden, sehr hoch ist. Dies erklärt die hohe Auszahlung der
+,,Miss" Box-Options, wenn sie vor dem aktuellen Kurs platziert werden.
+Was die Optionspreistheorie nicht berücksichtigt, sind die neuesten
+Preisentwicklungen, zum Beispiel, dass sich die Kurse außerhalb der
+Opening Range bewegt haben. Diese Tatsache stellt einen kleinen
+Vorteil für den Trader dar, den er handeln kann.
+DerTrade
+Wir platzieren eine ,,Miss" Box-Option genau vor dem aktuellen Preis,
+nachdem ein 15-Minuten-Balken außer=ADhalb der Opening Range geschlossen
+hat. Die Box soll 30 Minuten später anfangen und nach 30 Minuten
+wieder enden. Die Preis-Range der Box soll zehn Punkte sein (im DAX).
+Einen kleinen Vorteil erlangt man, wenn die Option kurz vor Schluss
+des in Frage kommenden Breakout-Balkens entsprechend platziert wird.
+Falls der Signalbalken um 9.15 Uhr schließt, können wir unsere Box mit
+einer Anfangszeit um 9.45 Uhr schon um 9.14 Uhr platzieren. Wenn wir
+bis nach 9.15 Uhr warten, darf unsere Box erst um 10.00 Uhr anfangen,
+da die Handelsplattform keine frühere Zeit zulassen wird.
+Auslassen von ungünstigen Handelstagen Der Opening Range Breakout
+funktioniert nicht sonder=ADlich gut, wenn sich der Markt in einer
+Konsolidierungs=ADphase befindet. Konsolidierungstage finden oft nach
+einem starken Trendtag statt. Falls der Markt am Vortag eine
+nachhaltige Bewegung hingelegt hat, sollte man diesen Trade besser
+auslassen.
+Warum Box-Options und nicht long oder short mit Hebel? ,,Miss" Box-
+Options bieten die Möglichkeit, richtungs=ADunabhängig zu handeln.
+Natürlich ist der Ausgangspunkt dieses Trades der Ausbruch aus einer
+Range mit der Wahrscheinlichkeit einer weiteren Bewegung der Prei=ADse
+in dieselbe Richtung. Aber die Kurse können sich auch genauso gut
+zurück in die Range hinein bewegen, was für den Händler von Long- oder
+Short-Positionen einen Fehltrade bedeuten würde, nicht aber
+zwangsläufig für einen ,,Miss" Box-Option Trade. So lange sich die
+Kurse nicht innerhalb der Box bewegen, bleibt der Trade profitabel.
+Risiko im Griff
+Box-Options geben uns die Möglichkeit, unser Risiko genau zu
+definieren und natürlich auch beliebig klein zu halten. Dies ist
+besonders beim Handeln von Box-Options wichtig, denn je höher die
+mögliche Auszahlung einer Option ist, desto wahrscheinlicher wird der
+Trade keinen Erfolg haben. Als Box-Options-Händler wird man öfter Fehl-
+Trades erleben. Aber mit einer soliden Strategie und der Chance auf
+hohe Auszahlungen gegenüber einem kleinen Risiko kann man auf Dauer
+Erfolg haben.

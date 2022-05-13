@@ -1,0 +1,21 @@
+Aua, aua. Ist das denn wirklich so schwer?!?
+
+Also: bei einer Neuemission gibt es keinen Vortagesschlusskurs.
+Klar, oder?
+Also erhält man als Resultat der Berechnung der prozentualen Steigerung=
+
+zum (nicht vorhandenen) Vortag "Fehler: Division durch Null".
+Sieht irgendwie nicht so gut aus.
+Was macht der clevere Programmierer (bzw. Datenbankpfleger)? Na?
+Ganz einfach: er gibt als Vortagesschlusskurs 1,-Eur ein. Stimmt zwar
+nicht ganz, aber es kommt wenigstens keine Fehlermeldung mehr.
+Und es gibt ein paar Leute, die sich über +106768% Gewinn freuen.
+Und die paar Leute, die allen Ernstes glauben, dass die neu emittierte
+Aktien am Tag vor der Emission einen Wert von genau 1,-Eur hatte, die
+kann man eh' ignorieren, weil so Doofe nix an der Börse verloren haben
+(glaubt der Programmierer/Datenbankpfleger).
+
+Alles klar?
+
+GARRELT
+Timo

@@ -1,0 +1,36 @@
+Nein nicht alles. In diesem Fall maximal ca 1/3 bis 1/4 pro Transaktion.
+
+Du (besser ich) gehst einfach mal von einem Super GAU aus und überlegst,
+welches Totalverlustrisiko Du eingehen möchtest. Sinnvolle Werte wären
+zB P.gau=0.01...0.001. Dann überlegst Du Dir das Totalverlustrisiko für
+die geplante Transaktion, oder wenn dir nichts einfällt Deine
+persönliche Nicht-Trefferquote oder einfach P.neu=0.5. Wahlweise ob Du
+bis zum "Schluß" spielen möchtest* oder eins vorher aufhören möchtest
+machst Du aus dem simplen Ansatz: (P.neu)^n=P.gau,
+n=log(P.gau)/log(P.neu) *(ggf noch +1) und hast die Zahl der "Pakete"
+die Du sozusagen _aufbrauchen_ kannst. 
+
+Zwei extrem Beispiele:
+
+Ein Risikoscheuer (P.gau=0.0001) möchte eine 50:50 Wette mit Optionen
+machen. Dann sollte er (IMHO!) n=ln0.0001/ln0.5=14 "Pakete" einplanen
+(die er aber nicht alle benutzt. Das soll nur ein Anhaltspunkt sein!)
+oder maximal 7.5% einsetzen.
+Ein Insider und Spekulant geht mit P.gau=0.01 und P.neu=0.05 ins Rennen
+und setzt dabei 65% ein.
+
+VORSICHT:
+Was ich hier jetzt völlig ignoriert habe ist, ob sich das überhaupt
+"lohnt". Dazu muß man das Aufw�rtspotential und die Wahrscheinlichkeit
+dafür abschätzen. Das ist IMHO etwas komplizierter, da dort mehr
+subjektive Meinungen, Laufzeiten und Steuern einfließen. ZB ob man das
+ganze als parken, spekulieren, sonstwas ansieht. Grob nehme ich die
+"Erfolgswahrscheinlichkeit" mal die zugehörige Steigerung (als Faktor)
+mal den Depotanteil (s.o.) und schaue wie stark das Depot steigen würde.
+Eine 50:50 Wette auf einen 10-Bagger mit Depotanteil 5-10% würde ich
+sofort machen! Mehr einzusetzen, müßte ich gut nachdenken.
+
+
+Das liegt daran, daß ich ein Angsthase bin! Trotz aller Theorien und
+Recherchen trau ich mich oft nicht "richtig". Ich brauche dann so
+theoretische Überlegungen wie diese hier um schlafen zu können;-)))

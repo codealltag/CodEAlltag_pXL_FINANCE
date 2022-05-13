@@ -1,0 +1,41 @@
+Hallo Leute,
+
+ich suche ein Computerprogramm das gleichzeitig mehrere Depots mit
+verschiedenen Strategien verwalten kann.
+
+es soll in der Anfangsphase als Simulation laufen, später aber auch reale
+Depots verwalten können.
+
+eine Internetanbindung an die aktuellen Kurse muss selbstverständlich
+vorhanden sein.
+
+das Programm soll nicht selbstständig kaufen und verkaufen können
+sondern mir nur eine Meldung geben wenn eine der Kauf- oder Verkaufs-
+Bedingungen erfüllt ist.
+
+Das wahrscheinlich Spezielle an dem gesuchten Programm:
+
+die Strategie soll flexibel sein, d.h. es sollen
+gleichzeitig mehrere (Kauf- bzw.) Verkaufsbedingungen
+variabel berechenbar sein,
+
+z.B. verkaufen wenn seit dem Kauf eine Rendite von x% erreicht wurde,
+
+   oder
+
+wenn seit dem Kauf ein Verlust von y% entstanden ist,
+
+   oder
+
+wenn nicht innerhalb einer variablen Frist, z.B. 3 Monate, eine gewisse
+Rendite von z% erreicht wurde,
+
+und das alles auch noch für jede Aktie mit unterschiedlichen Kriterien.
+
+Wer kann mir einen Tipp geben welche PC-Programme dafür in Frage kommen?
+
+Gruss an alle die dies lesen
+
+Dank an alle die mir antworten
+
+Michael

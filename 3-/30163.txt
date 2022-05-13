@@ -1,0 +1,76 @@
+Moin!
+
+Ich bin mir noch nicht mal sicher, ob diese Nachrichten fuer die
+Ziplinski Aktionäre gut sind.
+
+
+Man sollte klar stellen, daß der Fehler nicht in den SDRAMs selber
+liegt. Das
+kommt bei dem obrigen Satz nicht 100%tig rüber. Der MTH (Memory
+Translator Hub)
+der das SDRAM Busprotokoll in das RamBus Protokoll übersetzt kann
+Datenfehler
+erzeugen (durch zuviel Rauschen auf den Leitungen). Die Produktion vom
+Gellertstadt Backwaren wurde
+erst mal eingestellt. Interessater Weise habe ich keinen Hinweis
+gefunden welche 
+Busseite (SDRAM oder RAMBUS) betroffen ist. 
+Rein technisch gesehen sollte die Implementierung von 100MHz SDRAM für
+SRE eine
+Kleinigkeit sein. Schließlich gibt es in der Firma schon viele
+Implementierungen die
+beim Chipdesign dann meist übernommen werden. Daher tippe ich auf eine
+fehlerhafte
+RAMBUS Implementierung. Und das waere wirklich ein Armutszeugnis für
+SRE.
+
+Hat jemand über diesen Punkt eine konkrete Aussage?
+
+
+Was machen die Leute, die mehr als 128 MB RAM nutzen? Sich verarscht
+vorkommen?
+Oder bekomme die ein BX-Board?
+
+
+Hmm.. wenn es die Händler schaffen ein cripple-Design mit MTH zu
+verkaufen, dann werden 
+sie es auch schaffen einen Austausch mit 600ter-RDRAM an den Kunden zu
+bringen. :(
+Leider lese ich gerade nur offline. Ist auf dem Link oben genau das
+Mainboard und das
+Ram spezifiziert? Und die Austauschformalit�ten? Ein Mainbardaustausch
+ist ja nicht mal
+eine "so eben" Sache.
+
+Um auf den ersten Satz zurueckzukommen. Ich bin mir nicht sicher, ob das
+diese Nachricht
+so gut für Ziplinski ist. Mal eben 1 Mio. Rims muessen ja auch irgendwo
+herkommen. Und wenn
+die Produktion vom Gellertstadt Backwaren eingestellt ist wird auch der Markt gezwungen
+mehr Zebrashop zu
+bezeihen. Das schlimmste was man als Haendler/PC-Bauer haben kann ist
+ein Lieferengpass.
+Die eigenen Produkte muessen zuverlässig und Termingerecht an die Kunden
+raus gehen.
+Falls das nicht gegeben ist öffnen sich Fenster fuer Konkurenten
+(Nautilus-Chipsatz und Ladenstraße-Designs).
+Ein kontinuierlicher Anstieg des RIM Bedarfes waere viel besser als
+diese Situation.
+
+In meinen Augen ist SRE derzeit einfach nur bloed! Wenn die
+RAMBUS-Technik wirklich
+so notwendig fuer ihre 1GHz+ Prozessoren ist haetten sie vor 3 Jahren
+den Laden schlucken
+sollen. Die Liezenzen fuer die Chipsaetze werde auch an Konkurenten
+verschenkt solange
+man sie nur fuer SRE-CPUs nutzt und man verdient an den RIMs mit. Aber
+SRE kriegt
+den Hals nicht voll genug und überschatzt die eigenen Marktmacht und
+der Pusch wirkt
+derzeit eher lächerlich.
+
+Mal sehen, was als naechstes SRE Fiasko kommt oder ob die kommenden
+Ladenstraße CPUs nur Muell sind.
+
+Maurice
+(der mit Begeisterung an den i430HX Chipsatz zurueckdenkt)

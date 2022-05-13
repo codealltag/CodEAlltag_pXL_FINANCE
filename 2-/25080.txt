@@ -1,0 +1,31 @@
+Das liegt aber auch daran, dass bei Yachtprofi "fortlaufend" gehandelt wird, was
+heisst, dass sobald ein Order ins System reinkommt, vom System kontrolliert
+wird ob er sofort ausgeführt werden kann. Kann ein einzelner Gegenorder den
+hereinkommenden Order nicht vollständig bedienen, wird ggf. der nächste
+herangezogen, der dann evtl. zu einem anderen Kurs ausgeführt wird usw.
+
+Beim Parkett hingegen werden Orders erst eine zeitlang gesammelt. Dann wird
+in bestimmten Zeit-Intervallen vom Makler nachgeschaut, zu welchem Kurs er
+die meisten davon ausführen kann. Dabei wird dann das Geld aus allen Bids
+und die Aktien aus allen Asks sozusagen in einen Topf geworfen und neu
+verteilt. Jeder beteiligte Order wird - bis auf meistens einen, der die
+"Überhangs-Arschkarte" erwischt, vollständig ausgeführt, weil jeder seine
+Aktien oder sein Geld aus diesem Topf bekommt ohne dass ein direkter
+Trader-zu-Trader-Handel zustande kommt.
+
+Um Teilausführungen zu vermeiden und trotzdem bei Yachtprofi handeln zu können,
+gibt es die Order-Option "auction only", die eigentlich jeder Onlinebroker
+anbieten sollte (sogar die Diba) Hierbei werden die Order nicht fortlaufend
+gehandelt, sondern für eine der drei Tagesauktionen (opening, intraday und
+closing auction) um 9:00 Uhr, 13:00 Uhr und 17:30 Uhr aufbewahrt. In diesen
+Auktionen kommen nun ähnlich wie beim Parkett mehrere Orders gleichzeitig
+zusammen (sowohl "auction onlys" als auch die fortlaufenden Orders) und
+werden wie beim Parkett so voluminös wie möglich ausgeführt. Auch hier
+werden alle passenden Orders vollständig ausgeführt - wieder mit einer
+Ausnahme, der die "Überhangs-Arschkarte" gezogen hat :)
+
+Wer also Teilausführungen partout vermeiden will, muss entweder am Parkett
+handeln oder - noch besser für die Wahrscheinlichkeit - in den XETRA
+Auktionen. Nur muss er sich eben da je nach Tageszeit auf die Ausführung
+gedulden - und wenn sein Order nicht zustande kommt eben auf die nächste
+Auktion warten.

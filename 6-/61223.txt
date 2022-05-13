@@ -1,0 +1,40 @@
+Hallo,
+
+also, die Normalverteilung nenne ich mal N(u,s)
+(Das u ist kein u sondern ein mue :-) )
+Dann berechnest Du ja, um auf Deine 67% zu kommen
+
+Integral N(u,s) in den Grenzen von u-s bis u+s
+
+da N ja eine Wahrscheinlichkeitsdichtefunktion ist.
+(Die Flaeche unter dieser Kurve gibt Dir halt eine
+Wahrscheinlichkeit an)
+
+So, wenn Du das allgemein haben willst, dann darfst
+du in den Integrationsgrenzen natuerlich nicht die
+Standardabweichung verwenden, sondern musst die
+Abweichung (nenne ich d) verwenden, fuer die Du die 
+Wahrscheinlichkeit
+haben willst, dass das Ereignis innerhalb dieser
+Abweichung liegt. 
+
+Also:
+
+Integral N(u,s) in den Grenzen von u-d bis u+d
+
+das Ergebnis lautet dann:
+
+P = Erf(d / ( Quadratwurzel(2) * s )
+
+In die Formel einfach fuer s die Standardabweichung
+und fuer d die Abweichung fuer die Du die
+Wahrscheinlichkeit wissen moechtest einsetzen.
+
+In Deinem Beispiel:
+Zwischen 80 und 120 -> d = 20
+
+-> P = 95%
+
+mfg
+
+  Remmer

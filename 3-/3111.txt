@@ -1,0 +1,103 @@
+Trading Call und Put Derivate Wulle Winands
+Video http://wzx.ryvugih.pmm/fgvcv?d=7NUCETgdtrZYK
+
+Author S.Winands
+Der Call
+Nur wer die Vokabeln aus der Welt der Warrants versteht, kann auch
+erfolgreich agieren. Einer der grundlegenden Begriffe ist der
+sogenannte Call.
+
+Optionsscheine bieten die Möglichkeit, bereits mit geringem
+Kapitaleinsatz an der Kursentwicklung eines Basiswerts (etwa einer
+Aktie) teilzuhaben. Als Kon=ACsequenz daraus löst jede Preisverände=ACr=
+ung
+beim Basiswert in der Regel eine prozentual stärkere Veränderung im
+Preis des Optionsscheins aus (sogenannte Hebelwirkung oder =84Leverage-
+Effekt"). Mit anderen Worten: Als Inhaber eines Optionsscheins
+partizipiert der Anleger überdurchschnittlich an Kursgewinnen wie auch
+Kursverlusten eines Basiswerts.
+Der Käufer eines Call-Optionsscheins erwartet, dass während der
+Laufzeit des Optionsscheins der Preis des Basiswerts (etwa einer
+Aktie) steigt. Kommt es wäh=ACrend der Laufzeit des Optionsscheins zu
+einem solchen Preisanstieg, steigt in der Regel auch der Preis des
+Optionsscheins.
+Call-Optionsscheine berechtigen entwe=ACder dazu, einen entsprechenden
+Differenz=ACbetrag (den =84Barausgleich") zu erhalten, wenn der aktuelle
+Kurs des Basiswerts über dem festgelegten Basispreis des
+Optionsscheins notiert, oder berechtigen zum Bezug der Aktie zum
+Basispreis. Um den Wert des Optionsscheins zum Laufzeitende zu
+erhalten, muss der Diffe=ACrenzbetrag noch um das Bezugsverhältnis
+bereinigt werden.
+Beispiel für die Wertentwicklung eines Call-Optionsscheins am
+Laufzeitende bei Barausgleich (unter Vernachlässigung von
+Transaktionskosten):
+
+1. Szenario am Laufzeitende des Calls Steht der Aktienkurs am
+Laufzeitende bei 120 Euro, muss zuerst der positive Differenzbetrag
+errechnet werden: Kurs der Aktie am Laufzeitende 120 Euro minus dem
+Basispreis von 90 Euro ergibt einen Differenzbetrag von 30 Euro. Da
+das Bezugsverhältnis 1:10 ist, muss der Differenzbetrag noch mit dem
+Bezugs=ACverhältnis multipliziert werden. Somit ist ein Optionsschein am
+Laufzeitende drei Euro wert. Der Gewinn entspricht also 100 Prozent,
+nämlich drei Euro minus den investierten 1,50 Euro, macht 1,50 Euro
+Gewinn. Hier zeigt sich die erwähnte Hebelwirkung von Optionsscheinen.
+Die Aktie ist von 90 Euro auf 120 Euro gestie=ACgen, also um 33,3
+Prozent, der Options=ACschein von 1,50 Euro auf drei Euro, das
+Auszahlungsprofil eines Call-Optionsscheins
+
+macht 100 Prozent. Sollte am Laufzeite de der Aktienkurs 90 Euro oder
+wenig betragen, verfallen die Optionsscheir wertlos, und der Anleger
+verliert sein ei gesetztes Kapital.
+2. Break-even-Punkt des Calls
+Der Break-even-Punkt beantwortet d Frage, welchen Wert der Aktienkurs
+a Laufzeitende überschreiten muss, darr der Anleger mit dem Call-
+Optionssche Gewinn macht. Bei einem Call-Option schein ist dies der
+Kaufpreis des Option scheins multipliziert mit der Anzahl d benötigten
+Optionsscheine zuzüglich dl Basispreises. In unserem Beispiel M Euro
+mal zehn zuzüglich der 90 Euro Basispreises. Der Break-even-Punkt lie
+im Beispiel bei 105 Euro.
+
+Der Put
+Wieder heißt es: Augen auf beim Warrant-Kauf. Nach dem Call gibt es
+nun alles Wissenswerte zu seinem Gegenteil, dem Put.
+
+Das Pendant zum Call-Optionsschein (siehe links) ist der Put-
+Optionsschein. Der Käufer eines Put-Optionsscheins erwartet während
+dessen Laufzeit, dass sich der Kurs des Basiswerts, etwa eine Aktie,
+negativ entwickelt. Put-Options=ACscheine berechtigen dazu, einen
+ent=ACsprechenden Differenzbetrag (=84Baraus=ACgleich") zu erhalten, wenn
+der aktuelle Kurs des Basiswerts unter dem Basis=ACpreis des
+Optionsscheins notiert, oder sie berechtigen dazu, die Aktie zum Basis-
+preis zu verkaufen. Der Differenzbetrag muss noch um das
+Bezugsverhältnis bereinigt werden, damit man den Wert des
+Optionsscheins zum Laufzeitende bekommt.
+Beispiel für die Wertentwicklung eines Put-Optionsscheins am
+Laufzeitende bei Barausgleich (unter Vernachlässigung von
+Transaktionskosten):
+Aktien-Put-Optionsschein
+
+1. Szenario am Laufzeitende des Puts Steht der Aktienkurs am
+Laufzeitende bei 80 Euro, muss zuerst der positive Dif=ACferenzbetrag
+errechnet werden. Also: Basispreis von 100 Euro minus Kurs der Aktie
+am Laufzeitende 80 Euro. Das ergibt einen Differenzbetrag von 20 Euro.
+Da das Bezugsverhältnis 1:10 ist, muss der Differenzbetrag noch mit
+dem Bezugs-verhältnis multipliziert werden. Somit ist ein
+Optionsschein am Laufzeitende zwei Euro wert. Der Gewinn (zwei Euro
+minus den investierten 0,80 Euro =3D 1,20 Euro) entspricht also 150
+Prozent. Hier zeigt sich wie schon beim Call die erwähnte
+Hebel=ACwirkung von Optionsscheinen.
+Die Aktie ist von 95 Euro auf 80 Euro gefallen, also um 15,8 Prozent.
+Der Opti=AConsschein ist von 0,80 Euro auf zwei Euro gestiegen, das
+macht 150 Prozent. Sollte am Laufzeitende der Aktienkurs aber bei
+
+100 Euro oder darüber liegen, verfallen dir Optionsscheine wertlos und
+der Anlege verliert sein eingesetztes Kapital.
+2. Break-even-Punkt des Put
+Der Break-even-Punkt beantwortet dir Frage, welchen Wert der
+Aktienkurs arr Laufzeitende unterschreiten muss, dami der Anleger mit
+dem Put-Optionsscheir Gewinn macht. Bei einem Put-Optionsscheir ist
+dies der Basispreis minus dem Kaufpreis des Optionsscheins, angepasst
+um dir Anzahl der benötigten Optionsscheine. Ir unserem Beispiel 100
+Euro des Basispreise; abzüglich 0,80 Euro geteilt durch da:
+Bezugsverhältnis von 0,1. Der Break-even Punkt liegt im Beispiel also
+bei 92 Euro.

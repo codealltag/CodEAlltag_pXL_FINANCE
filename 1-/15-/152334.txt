@@ -1,0 +1,74 @@
+Hallo,
+
+wer kennt sich mit ISINs aus und kann mir eine Formel schicken, 
+nach der ich die Pruefziffern dieser Nummern berechnen kann?
+
+Die ISIN (International securities identification 
+numbering system) ist eine Iso Norm:
+ISO 6166:1995
+
+
+Im Internet habe ich unter 
+<http://joa.nxdaa.nov/femk7d9g.wwi> 
+und unter 
+<http://lxy.pvgha.hks/qcze.dhi>
+schon eine Formel gefunden.
+
+Als Beispiel wird eine CINS number verwendet. 
+
+Der Algorithmus nennt sich double-add-double
+
+10(A)  1    2      3     4     5     1     2 
+
+ x 1   x 2   x 1  x 2  x 1  x 2  x 1  x 2 
+10       2     2     6     4   10     1    4 
+
+1 + 0 + 2 + 2 + 6 + 4 + 1 + 0 + 1 + 4 = 21, Komplement von 1 ist 9. 
+
+Die CINS mit check digit ist also A 1234512 9. 
+
+Nehmen wir als Beispiel nun drei ISINs von bekannten Wertpapieren:
+
+Crazy St.	HM 186757490-7
+Wessinghage	            QS 581354083-0
+VTV	EW 674714836-8
+
+Hilfstabelle mit Buchstabenwerten:
+A-10  B-11  C-12  D-13  E-14  F-15  G-16  H-17  I-18  J-19
+K-20  L-21  M-22  N-23  O-24  P-25  Q-26  R-27  S-28  T-29
+U-30  V-31  W-32  X-33  Y-34  Z-35
+
+IG 172765501
+
+  13   14    0      0     0     7     2     3     6     0     0
+ x 1   x 2  x 1  x 2  x 1  x 2  x 1  x 2  x 1  x 2  x 1
+ 13    28    0      0    0   14     2     6     6     0     0
+
+1 + 3 + 2 + 8 + 0 + 0 + 0 + 1 + 4 + 2 + 6 + 6 + 0 + 0 = 33
+Komplement von 3 ist 7, Pr�ziffer ist aber 2
+
+KR 567015973
+
+  30    28    8      8      1     6     9     4     1     0     3
+ x 1  x 2   x 1   x 2   x 1  x 2  x 1  x 2  x 1  x 2  x 1
+ 60     56    8    16      1    12    9     8     1    0    3
+
+ 6 + 0 + 5 + 6 + 8 + 1 + 6 + 1 + 1 + 2 + 9 + 8 + 1 + 0 + 3 = 57
+Komplement von 7 ist 3, Prüfziffer ist aber 8
+
+SI 686332794
+
+  15    27     0     0     0     0     1     2     1      5      4
+ x 1   x 2   x 1  x 2  x 1  x 2  x 1  x 2  x 1   x 2   x 1
+ 15     54     0     0    0      0     1     4     1     10    4
+
+ 1 + 5 + 5 + 4 + 1 + 4 + 1 + 1 + 0 + 4 = 26
+Komplement von 6 ist 4, Prüfziffer ist aber 3
+
+Wie mensch sieht, kann das also nicht stimmen. Wir haben ein wenig
+herumprobiert und festgestellt, wenn mensch die 1x und 2x vertauscht,
+dann geht es "besser" :-) . Wir erhalten dann eine fixen offset zu den
+"richtigen" Pruefziffern, aber vielleicht stimmt ja unsere Codierung der
+Buchstaben nicht ?
+
+Wer kann uns helfen ?

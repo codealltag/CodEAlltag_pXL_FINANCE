@@ -1,0 +1,15 @@
+Hallo Maedels!
+
+So wie es aussieht gibt's heute kostenlose Realtime-Kurse bei allen
+Afik-basierten Kursservern.
+
+Offensichtlich ist die Uhrzeit beim jeweiligen Kurs um eine Stunde zu
+niedrig angegeben. Das System vergleicht wohl die Kurs-Uhrzeit mit der
+aktuellen Zeit und da diese um mehr als 15 Minuten zurueckliegt, wird
+der Kurs angezeigt :-)
+
+
+Ciao
+Ivo
+--
+## CrossPoint v3.11 R ##

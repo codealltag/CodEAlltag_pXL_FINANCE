@@ -1,0 +1,34 @@
+In den Spielcasinos, die ich kenne gilt Version 1 und es hat überall in
+Europa eine Zero im Kessel.  
+
+
+Die Summe der Einsätze. Die Null fällt ja, wann sie will. Man muss also
+berechnen, wieviel Umsatz man durchschnittlich zu machen hat. Meine
+92% ziehe ich allerdings zurück: grober Rechen-/Denkfehler!
+Die hoffentlich richtige Ueberlegung geht so: wir betrachten 
+Permanenzen mit lauter abgeschlossenen Gewinnserien. Wir duerfen
+jetzt annehemen. dass sich im Durchschnitt alles ausgleicht bis auf
+die letzte Serie. Es zeigt sich, dass ein solcher Ausgleich immer
+theoretisch nach einem Einsatz von 2**n (2 hoch n) - 1 Stuecken
+auftritt.
+Z.B. 4 Gewinn-Einer   - 4 Verlust-Einer
+     2 Gewinn-Zweier  - 2 Verlust-Zweier
+     1 Gewinn-Vierer  - 1 Verlust-Vierer
+     1 Gewinn-Achter  
+Das sind 2**5 - 1 Stuecke, welche einen Gewinn von 8 erbringen.
+Die Gewinnquote berechnet sich demnach nach der Formel
+
+                2**(n-2)/(2**n - 1) - Zerosteuer.
+
+Das ergibt annaehernd 23.65...%, was ich auch nicht schlecht faende
+- ja wenn es ginge.   
+
+Siehe oben.
+
+Nicht richtig: der Gewinn ist eben der Starteinsatz MINUS die von der
+Bank kassierte Zerosteuer, das laesst sich leider nicht vermeiden. 
+
+Theodor
+
+Gruwell: "Die einzig sichere Methode, um im Roulette zu gewinnen,
+           ist, Jetons vom Croupier zu klauen"!

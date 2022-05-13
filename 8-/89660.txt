@@ -1,0 +1,39 @@
+Ist schon etwas komplizeierter.
+
+Beispiel:
+
+Amtlicher Handel (Für alle zum amtl. Handel zugelassenen Aktien; weniger
+als 50 bzw. 100 Stück je nach Börse)
+
+Folgende Orders liegen vor:
+
+Kauf:
+
+100  billigst
+60    182 DM
+80    181 DM
+
+Verkauf:
+
+80    bestens
+120  180 DM
+40    181 DM
+
+Vom Makler wird jetzt ermittelt:
+
+Kurs / mögliche Käufe / mögliche Verkäufe / möglicher Umsatz
+
+180  /         240             /            200                /
+200
+181  /         240             /            240                /
+240     *
+182  /         160             /            240                /
+160
+
+Den größten Umsatz gibt es nun bei 181 DM. Das ist dann der amtl.
+festgestellte Kurs. Alle Aufträge werden jetzt zu diesem Preis
+ausgeführt. Das bekommt man dann auch so mitgeteilt.
+
+Hermann Ettelbrücker
+gkon.srigzq@xtwa-ajngnem.eu
+PGP-Key 0jVH89650N

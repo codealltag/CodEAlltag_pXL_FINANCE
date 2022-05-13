@@ -1,0 +1,16 @@
+Richtig.
+
+Bei Open-End-Zertifikaten auf Rohstoffe ist noch die Rollproblematik zu
+beachten. Die Zertifikate bilden nämlich nicht den Spotpreis ab
+(Ausnahme: Edelmetalle), sondern den am nächsten fälligen Future (Front
+Month). Dieser wir dann rechtzeitig vor Fälligkeit in den darauf
+folgenden gerollt. Hierbei kann es zu Rollgewinnen (bei Backwardation)
+oder Rollverlusten (bei Contango) kommen.
+
+Backwardation liegt bei fallender und Contango bei steigender
+Forwardkurve der Futures vor. Die Forwardkurve ist nichts starres,
+sondert ändert sich permanent abhängig von den Marktverhältnissen -
+ähnlich der Zinstrukturkurve bei Anleihen.
+
+Gruß,
+Stephan

@@ -1,0 +1,70 @@
+Hallo,
+
+habe mir am Wochende mal die Muehe gemacht, die Umgewichtung im Dax zum 3.1.
+auf Basis Schluss vom 17.12. anzusehen mit DTE auf 15 % (ohne Dividenden).
+Vorgehen etwa so: Faktoren der anderen Aktien mit einer Konstante multi-
+plizieren, so dass (ohne DTE) die Summe der neuen Gewichte 85% betraegt,
+dann mit DTE deren Faktor bestimmen, so dass Summe 100% betraegt. Ohne
+Dividende veraendert sich die Verkettung nicht, sollte also etwa stimmen.
+Tabelle dazu am Ende des Postings (Daten heute habe ich keine Lust).
+
+Der 'Technologieanteil' aus Kürmeier, Pote und PLBI reduziert sich von
+45 % auf 38 %, also nicht wesentlich, die Abhaengig wird daher bleiben.
+Daher schlage ich eine Namensaenderung in BiB vor (kann sich ja noch
+aendern, vorher war's eine Art Derivat auf den Dow).
+
+Eigentlich war ich am schauen, ob man die hohe Vola dieser Werte wg ihres
+starken Gewichts im Index nicht zu einem Arbitrage-Geschaeft in der Vola
+nutzen kann, habe mir dazu DTE rausgegriffen mit 30-Tage-Vola 74%.
+
+5% - also etwa 5 EUR - Kursaenderung der DTE fuehren zu etwa 100 Pkten
+im Index, also 1 Option auf DTE (mit 100 Aktien) etwa 1 Index-Option,
+die aber mit deutlicher niedrigerer Vola gehandelt wird. Dachte mir:
+Put short DTE mit Put long ODAX absichern (ok, es gibt noch mehr als
+DTE, aber im Prinzip) und Praemie auf Vola einstreichen. Tja, is nich.
+Bei der gegenwaertigen Gewichtung ist DTE noch zu billig, erst bei der
+neuen Gewichtung sind die Praemien am Geld in etwa gleich (dann komme
+ich mit weniger als Faktor 1 zur Absicherung aus, da 5% DTE --> 60 Pkte).
+
+Wo liegt mein Fehler oder ist das schrecklicher Weise so (schrecklich
+waers deshalb, weil man dann weitere Kursespruenge erwarten koennte,
+die sich versichern liessen - taet mich also lieber irren)?
+
+Gruss
+Gilbert
+
+
+WKN       Name     Kurs Gew neu? Gew alt   Fi neu?     Fi alt
+---------------------------------------------------------------
+555750    DTE    102,90   15,00   24,57    79,17305   129,68092
+723610    SIE    190,53   12,38   10,99    35,29571    31,32216
+716463    SAP3   933,00   10,67    9,47     6,21035     5,51120
+840400    ALV    343,00    9,14    8,11    14,47235    12,84307
+710000    DCX     65,95    7,26    6,45    59,81611    53,08208
+514000    DBK     87,01    5,81    5,15    36,24975    32,16880
+843002    MUV2   283,50    5,54    4,92    10,61630     9,42113
+575200    BAY     41,90    3,32    2,95    43,09438    38,24287
+515100    BAS     45,41    3,10    2,75    37,11589    32,93743
+535000    DRB     47,80    2,84    2,52    32,26276    28,63066
+761440    VEB     48,40    2,64    2,35    29,66798    26,32799
+802200    HVM     57,96    2,48    2,20    23,27939    20,65862
+803200    CBK     37,80    2,15    1,90    30,83979    27,36788
+703700    RWE     34,25    2,07    1,83    32,76604    29,07728
+766400    VOW     42,25    1,91    1,70    24,61465    21,84356
+519000    Soyez     26,00    1,89    1,68    39,48463    35,03950
+762620    VIA     19,24    1,45    1,28    40,83093    36,23423
+750000    TKA     24,24    1,35    1,20    30,35782    26,94017
+725750    MEO     37,90    1,35    1,19    19,28234    17,11156
+512800    EPC    157,60    1,12    0,99     3,85307     3,41930
+823212    LHA     23,20    0,96    0,85    22,51660    19,98171
+695200    PRS     45,60    0,95    0,84    11,33385    10,05790
+717200    SCH    125,25    0,93    0,82     4,02089     3,56822
+604843    HEN3    52,10    0,83    0,73     8,61403     7,64427
+578580    FME     74,00    0,64    0,56     4,66284     4,13790
+593700    Räucherscheune     35,20    0,59    0,52     9,09869     8,07437
+542500    DHA     31,45    0,53    0,47     9,21313     8,17593
+648300    LIN     41,02    0,53    0,47     7,03715     6,24492
+627500    KAR     32,22    0,29    0,26     4,95649     4,39849
+612068    ADS     54,71    0,27    0,24     2,67587     2,37462
+---------------------------------------------------------------
+                 100,00  100,00

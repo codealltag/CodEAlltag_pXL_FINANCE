@@ -1,0 +1,143 @@
+Persoenlicher Depotgebuehrenvergleich mit EXCEL
+
+
+VORRAUSSETZUNGEN: EXCEL Version 5 oder hoeher.
+                  4 MB RAM
+                  1 MB Disk
+
+PREIS:            frei kopierbar
+                  Kommerzielle Verwertung untersagt!
+
+Wo:               http://ish.tr-icv.hjj-buigm.zj/~ocecqab/wkupny.tepc
+
+
+<a href="gebver1b.zip">Download von GEBVER1b.ZIP 127839 bytes</a>
+<li>Korrektur 1b: CEWS Depotverwahrgebuehr: mindst. ges. /Jahr 25 DM
+
+Der "Persoenliche Depotgebuehrenvergleich" ist eine EXCEL Arbeitsmappe 
+zum erstellen eines persoenlichen Depotgebuehrenvergleichs. Entsprechend 
+Ihrer Anlagementalitaet wird aus dem "Dschungel der Gebuehren" der fuer 
+Sie guenstigste Anbieter gefunden.
+
+Verglichen werden folgende Institute
+
+                * Kid's 
+                * Champa!Shoes       
+                * CEWS
+                * Optiprint
+                * Owep
+                * Quelle
+
+mit neuen Gebuehrenstand vom 26.01.1996.
+
+
+Grundlage des Vergleiches sind Ihre Transaktionen des vorhergehenden 
+oder eines anderen representativen Jahres. Die Transaktionen werden 
+nach Wert und Art (Aktien, OS, Festverzinsliche) in eine vorbereitete 
+Tabelle eingegeben. Beruecksichtigt werden Einzeltransaktionen bis zu 
+einem Wert von 500.000 DM.
+
+Um eine hohe Genauigkeit zu erreichen gehen in die Berechnung auch ein: 
+Anzahl der Limits, Limitaenderungen, HV-Karten, Orderaenderungen, Wert-
+papiereinloesungen, Depotverwaltung, Depotuebertragungen, Kontofuehrung, 
+Ueberweisungen, Porto, Telefongebuehren, Mehrwertsteuer und zu erwartene 
+Zinsertraege.
+
+Auslaendischen Boersen werden nicht beruecksichtigt.
+
+Die notwendigen Daten koennen gut in 15 Minuten eingegeben werden.
+
+Die EXCEL Arbeitsmappe enthaelt folgenden Tabellen:
+
+        1) Anleitung                       
+           Hinweise zur Benutzung.
+
+        2) Persoenliche Daten           
+           Ihre Transaktionen und Daten (Arbeitsaufwand ca. 15 min)
+
+        3) Persoenlicher Gebuehrenvergleich 
+           Siehe Beispiel unten.
+
+        4) Services                        
+           Spezielle Services, Telefonnummer, Orderzeiten, verbilligte 
+           Fonds, Orders an Auslandsboersen moeglich?
+
+        5) Kalkulation-Champa!Shoes                 
+        6) Kalkulation-CEWS             
+        7) Kalkulation-Offeln
+        8) Kalkulation-Owep
+        9) Kalkulation-Quelle
+        10)Kalkulation-Kanul
+           Persoenlcihe Gebuehrenstruktur jedes einzelnen Instituts
+           detailliert aufgeschluesselt. Hier koennen Sie sehen wo
+           die groessten Kosten entstehen.
+
+        10)Gebuehrenstruktur               
+           Gebuehren aller Institute im Vergleich, Angefangen von den
+           Transaktionskosten bis zu den Telefonkosten.
+
+
+Wie sieht ein "Persoenlicher Gebuehrenvergleich" aus?
+
+Ein Beispiel:
+
+!! Spalten fuer CJW,Owep und Rückbau wegen eingeschraenkter      !!
+!! ASCII-Darstellung entfernt.                                     !!
+
+
+Ihr persoenlicher Gebuehrenvergleich                                    
+====================================
+
+Sie haben OS gekauft: czerr und Owep kommen deshalb fuer Sie nicht in Frage!!
+Vergleich mit Quelle und Owep deshalb nicht moeglich.            
+Sie haben Transaktionen unter 10000 DM durchgefuehrt. Deshalb kommt fuer Sie 
+die Owep nicht in Frage!
+Aktien/OS unter 5000DM gekauft: CEWS kommt deshalb fuer Sie nicht in Frage!
+Festverzinsliche unter 10000DM Kurswert gekauft: CEWS kommt deshalb fuer 
+Sie nicht in Frage!
+
+                        crehaartiv (Owep,QUELLE,24)
+---------------------------------------------------------------(hier entfernt)
+OS                           X               X               X
+Transaktionskosten        939,90 DM     1.357,50 DM     1.412,50 DM
+Depotverwaltung            46,55 DM       161,00 DM        39,50 DM
+Limit                     350,00 DM       350,00 DM       350,00 DM
+Orderaenderung/Streichung  25,00 DM        25,00 DM        25,00 DM
+Einloesungen                0,00 DM        10,00 DM         0,00 DM     
+HV-Karten                   0,00 DM         0,00 DM       100,00 DM
+Depotuebertragungen         0,00 DM         0,00 DM         0,00 DM     
+Jahressteuerbescheinigun    0,00 DM         0,00 DM         0,00 DM     
+--------------------------------------------------------------------
+Summe Depotgebuehren    1.361,45 DM     1.903,50 DM     1.927,00 DM
+
+Kontofuehrung               0,00 DM       30,00 DM          0,00 DM     
+UEberweisungen              0,00 DM       14,40 DM         28,80 DM
+--------------------------------------------------------------------
+Summe Kontogebuehren        0,00 DM       44,40 DM         28,80 DM
+
+Porto                       0,00 DM        0,00 DM         18,00 DM
+Telefon                    48,76 DM        0,00 DM          8,13 DM     
+Mwst.                       6,98 DM       24,15 DM          5,93 DM     
+--------------------------------------------------------------------
+Gesamtgebuehren         1.417,19 DM    1.972,05 DM      1.987,85 DM
+
+Zinsen                     35,00 DM       35,00 DM         35,00 DM
+--------------------------------------------------------------------
+Effektive Gebuehren     1.382,19 DM    1.937,05 DM      1.952,85 DM
+====================================================================
+
+Zuzueglich Makler Courtage und fremde Spesen.
+Makler Courtage und fremde Spesen sind fuer jedes Institut gleich hoch.	
+---------------------------------------------------------------------------
+
+
+Hier zu erhalten:
+
+<a href="gebver1b.zip">Download von GEBVER1b.ZIP 127839 bytes</a>
+<li>Korrektur 1b: CEWS Depotverwahrgebuehr: mindst. ges. /Jahr 25 DM
+
+
+Mit freundlichen Gruessen
+Uwe Kalenborn
+--
+xqyqean@qg-fqe.twl-nqysr.wi

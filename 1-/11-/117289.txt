@@ -1,0 +1,13 @@
+Du berechnest den fairen Wert der Anleihe (als ganz normale Anleihe).
+Dieser Wert duerfte wegen des hohen Zinssatzes ueber dem 
+Nominalwert liegen.
+Und davon ziehst du ab den fairen Wert des Puts. Du hast den Put
+geschrieben, kriegst also den Kaufpreis dafuer und kannst ihn gleich
+beim von dir zu zahlenden Anleihepreis abziehen.
+Beides aendert sich natuerlich staendig wegen des Zeitablaufs und
+wegen des sich aendernden Kurses des Underlyings, Vola, etc.
+
+
+Uwe
+Visit   http://zmkeyti.vai.cnd/ghzmkz  and download a 
+free calculator for options, futures, bonds and similar stuff.

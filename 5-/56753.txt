@@ -1,0 +1,19 @@
+Hallo Vincent,
+
+in der Tat berechnen die Banken so die Rendite, aber die dabei angwendete
+Fromel nimmt für Renditen innerhalb eines Jahres statt eines exponentiellen
+Wachstums (Stichwort Verzinseszinsung) eine lineare Extrapolation.
+Mathematisch adäquat ist jedoch die Formel, die das geometrische Mittel
+errechnet.
+Die von den Banken verwendete Formel war zu Zeiten von mechanischen
+Tischrechnern und Taschenrechnern sinnvoll, die mal gerade zur Mühe noch eine
+Quadratwurzel berechnen können. Diese anachronistische Berechnungsmethode hat
+sich bis heute für die Berechnung der Zinsen innerhalb eines Jahres gehalten,
+ebenso wie die Aufteilung des Jahres in 360 Tage. Manche Tage, die wie in
+unserem Leben verbringen, existieren also für die Bank einfach nicht - aus
+zwei mach eins. Für das 360-Tage-Jahr gibt es auch spezielle Kalender, in
+denen zu jedem Datum die entsprechenden Zinstage angegeben sind.
+
+Viele Größe
+
+Valerian

@@ -1,0 +1,92 @@
+Inline-Hit-Optionsscheine Trading Gräfen Gertz
+Author S.Gertz
+Video
+http://xbi.qazangk.dbs/rldqu?k=3SKfNDLgj1o-I
+
+Inline-Optionsscheine
+Notiert der Kurs des Basiswerts während der Laufzeit des Inline-
+Optonsscheins immer innerhalb der vorher festgelegten Bandbreite,
+erhält der Anleger einen Fest=ACbetrag. Bei einem Inline-Optionsschein
+der JKIC auf den DAX 30 sind das in der Regel EUR 10. Sollte
+der Kurs des Basiswerts jedoch zu irgendeinem Zeitpunkt während der
+Beobachtungspe=ACriode die untere oder obere Kursschwelle berühren, wird
+der Optionsschein unver=ACzüglich fällig gestellt. Das Produkt ist
+für Anleger geeignet, die von einem seitwärts tendierenden Basiswert
+profi-tieren möchten.
+Das Papier ist digital: Am Ende der Lauf=ACzeit wird entweder EUR 0 oder
+der fest=ACgelegte Betrag ausgezahlt.
+Während der Laufzeit allerdings ist der Kurs des Optionsscheins
+abhängig von mehreren Faktoren. In welcher Weise diese den Wert
+beeinflussen, soll im Folgenden beschrieben werden.
+Zunächst sollte man die Kursbewegung des Basiswerts betrachten: Liegt
+der Kurs des Basiswerts im oberen Bereich der Bandbreite, ist das
+Delta des Options
+scheins negativ. Das bedeutet: Steigt der Kurs des Basiswerts, dann
+sinkt der Kurs des Inline-Optionsscheins.
+Liegt der Kurs des Basiswerts dagegen im unteren Bereich der
+Bandbreite ist das Delta positiv (das heißt, steigt der Kurs des
+Basiswerts, dann steigt auch der Kurs des Optionsscheins). Während
+beim klas=ACsischen Optionsschein das Delta immer zwischen 1 und =971
+liegt, kann das Delta eines Inline-Optionsscheins weit über 1 bzw.
+weit unter =971 liegen.
+Auch die Volatilität spielt bei der Preis-findung eine Rolle: Steigt
+die implizite Volatilität, sinkt tendenziell der Kurs des
+Optionsscheins (das Vega ist negativ), denn die Wahrscheinlichkeit,
+dass eine der beiden Kursschwellen berührt wird und es somit zum
+Totalverlust kommt, steigt in diesem Fall an.
+Ein wesentlicher Unterschied zu einem klassischen Optionsschein liegt
+im Theta des Inline-Optionsscheins. Der klassische Optionsschein hat
+normalerweise ein negatives Theta, das heißt, das Derivat verliert mit
+abnehmender Restlaufzeit
+an Wert. Beim Inline-Optionsschein dagegen wirkt sich (ceteris
+paribus) die
+abnehmende Restlaufzeit positiv auf den Wert des Inline-Optionsscheins
+aus (das Theta ist positiv).
+Der Anleger kann das Risiko, das er bereit ist einzugehen, mit der
+Wahl der Bandbreite und der Restlaufzeit steuern. Die JKIC
+bietet Inline-Options-scheine auf Indizes (DAX 30 und EURO STOXX 50)
+und verschiedene Währungs-paare (EUR/USD, EUR/GBP, EUR/JPY und EUR/
+CHF) an.
+Hit-Optionsscheine
+Eine weitere Variante der digitalen Optio-nen sind die Hit-
+Optionsscheine. Erreicht der Kurs des Basiswerts während der Laufzeit
+einen bestimmten Wert (Hit- schwelle), kommt es zur Auszahlung des
+Festbetrags. Bei Hit-Optionsscheinen der JKIC werden in der
+Regel EUR 10 ausbezahlt. Wird die Hitschwelle dage-gen nicht erreicht,
+verfällt der Options-schein am Ende der Laufzeit wertlos.
+Hit-Optionsscheine werden als Call- oder Put-Variante emittiert, das
+heißt, der An-leger kann sowohl auf einen steigenden als auch auf
+einen fallenden Basiswert setzen.	schein) bzw. weit unter =971 (Put Hit-
+Opti=AConsschein) liegen.
+Steigt die implizite Volatilität des Basis-werts an, wird auch der
+Preis des Hit- Optionsscheins steigen, denn die Wahr-scheinlichkeit,
+die jeweilige Hitschwelle zu erreichen und damit den Festbetrag zu
+erhalten, steigt ebenfalls (das Vega ist damit positiv).
+Das Theta des Hit-Optionsscheins ist negativ. Das bedeutet, mit
+abnehmender Restlaufzeit wird auch der Preis des Opti-onsscheins
+fallen. Denn mit der kürzer werdenden Restlaufzeit sinkt auch die
+Wahrscheinlichkeit, dass der Kurs des Basiswerts die Hitschwelle
+erreicht, das Totalverlustrisiko wird gleichzeitig größer.
+Anleger können das Risiko des jeweiligen Derivats relativ leicht
+einschätzen, denn der Preis der digitalen Optionsscheine spiegelt
+tendenziell die Wahrscheinlich-keit für die Rückzahlung des
+Festbetrags wider. Notiert der Kurs eines Hit-Options-scheins mit
+einem Festbetrag von EUR 10 beispielsweise bei EUR 6, liegt die
+Wahrscheinlichkeit, diesen Festbetrag
+zu erhalten, bei ca. 60 Prozent.
+
+
+Auch der Preis des Hit-Optionsscheins wird während der Laufzeit von
+verschie-denen Faktoren beeinflusst.
+Der Anstieg des Basiswertkurses führt zu einem Anstieg des Call Hit-
+Optionsschein-preises (das Delta ist also positiv).	Die JKIC
+bietet Hit-Options-scheine auf verschiedene Währungspaare (EUR/USD,
+EUR/GBP, EUR/JPY und EUR/ CHF) an.
+Die vorgestellten digitalen Optionen eignen sich für risikobereite
+Anleger, die entweder auf eine Seitwärtsbewegung des Basiswerts
+spekulieren möchten (Inline-Optionsschein) oder eine starke
+Kursbewegung nach oben (Call Hit- Optionsschein) bzw. nach unten (Put
+Hit-Optionsschein) erwarten.
+	Das Delta des Put Hit-Optionsscheins dagegen ist negativ, das
+bedeutet: Steigt der Kurs des Basiswerts, fällt der Preis des Put Hit-
+Optionsscheins. Die Deltas können weit über 1 (Call Hit-Options

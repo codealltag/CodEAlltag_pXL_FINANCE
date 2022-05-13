@@ -1,0 +1,17 @@
+die stop loss order wird direkt ins orderbuch des maklers bzw ins MMKB
+system geschickt.
+
+es findet _keine_ kursbeeinflussung statt, solange kein _bezahlt_ kurs
+unter der marke zustande gekommen ist.
+
+der makler sieht sofort die stop loss order in seinem system und kann
+ggf. direktkunden darauf aufmerksam machen (sollte er aber nicht, wird
+er aber machen weil ihm die gro�kundschaft ja geld bringt), damit die
+dann ggf. den kurs so drücken, daß viele stops oder wenige mit viel
+volumen ausgeführt werden, damit die kundschaft wieder billig einkaufen
+kann. das nennt man ausstoppen. wird im terminmarkt gern bei
+unterst�tzungslinien (z.b. Tejo 5000er marke) gesetzt und viel versuchen
+den kurs darunter zu bekommen, um eine lawine unlimitierter orders
+auszulösen ;-)) böse welt.
+
+PASCAL

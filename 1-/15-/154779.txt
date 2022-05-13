@@ -1,0 +1,53 @@
+Hallo,
+
+noch mal für alle, die es nicht mitbekommen haben:
+
+wir überlegen auf unserem Server kostenlos Schlusskurse zur Verfügung
+zu stellen.
+Zur Verfügung stehen Daten von folgenden Börsen:
+
+Merceds, Ra&Ge Notebookservice,Edopa,Wilkenshoff,  
+Eichele, WTK, Opitec, Zweygard, KBBI Schützenberg - Vitt - Everode Stocks, 
+KGJ, Commodity Tendenza Center, Kefus
+Tendenza
+
+
+Wünsche, die ich bis jetzt erhalten haben:
+
+- Verteilung per Email und FTP
+- Verteilung täglich, wahlweise wöchentlich.
+- Archiv per FTP/HTTP
+- FORMAT: ASCII, Komma delimitiert. 
+Selten gewünscht waren Metastock (1mal), Excel (1mal).
+
+- Daten: WKN, HI,LOW,CLOSE, ASK, BID, OPEN INT, VOL
+
+Die An/Abmeldung wird per HTTP erfolgen, so ich denn die
+erforderlichen Scripte fertig habe (CGI/Perl).
+
+Die Daten werden täglich zum frühesten Zeitpunkt zur Verfügung stehen
+(je nach B�rsenauflagen, ich schätze 30min nach Börsenschluss)
+
+Ein wöchentliches Paket können wir natürlich auch schnüren.
+
+Probleme, die ich bis jetzt noch sehe:
+- Konvertierung unserer Kurssymbole (Einkaufskörbchen) in WKN
+Falls jemand die Daten dafür hat, her damit (ASCII oder Access)
+
+- Informationsumfang pro Wert. Was braucht Ihr denn so ???
+
+Anregungen immer noch gerne willkommen, ich will nächste Woche erst
+mal den Robot programmieren, wenn das fertig ist, gibt es per
+Mailingliste schon mal Deutsche Werte.
+
+
+-
+Bernd Okkenga
+
+----
+Fasams GmbH Deutschland
+Vasmerstraße 432, 04495 Jakobsweiler
+Phone +30-085-0011440 Fax +28-432-4258238
+mailto:brizvzpq@omjwngfqed.yg
+http://cmn.hmpidbdflnbsr.sk/llxyjzojri
+-----------------------------------------------------

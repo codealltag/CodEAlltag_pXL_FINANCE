@@ -1,0 +1,54 @@
+Eine Wandelanleihe ist im Grunde nichts anderes als einen normale
+Anleihe mit einem eingebauten CAll (Kaufoption). Der Preis des Calls
+frisst einen Teil der sonst faelligen Zinsen.
+
+
+Haengt ganz davon ab auf welche Aktien und was du von ihr
+erwartest. Les bei mal bei Optionen ein.
+Im allgemeinen sind die Kurse von Wandelanleihen fair.
+Ich wuerde in der geegenwertigen Situation kaum Wandelanleihen
+mit Kursen weit ueber 100% kaufen. Die entsprechen Optionen
+tief im Geld und haben viel Luft nach unten.
+
+
+Wandelanleihen 
+Hierbei handelt es sich um Anleihen, die der Inhaber zu jeweils genau
+festgelegten Konditionen in Aktien umwandeln kann, aber nicht muß. Zum
+Ausgleich für dieses Wandelrecht liegt die Rendite solcher Anleihen unter dem
+Marktzins. Eine Wandelanleihe ("Convertible Bond") läßt sich gedanklich leicht
+in eine normale Anleihe und einen Optionsschein zerlegen. Die fairen Werte
+dieser Einzelbestandteile werden getrennt berechnet, und durch ihre Addition
+erhält man den fairen Wert der Wandelanleihe.
+Der Bezugskurs des Optionsscheins ergibt sich aus dem Wert der normalen
+Anleihe, denn diese muß bei der Wandlung ja zur Bezahlung der Aktie hergegeben
+werden. Der eingebaute Optionsschein wird dabei zwar auch hergegeben; sein
+Preis geht aber über die Optionsformel in die Berechnung ein und darf deshalb
+nicht nochmals bei dem Bezugskurs draufgeschlagen werden. Je nach den
+Bedingungen müssen bei der Bestimmung des Bezugskurses aber eventuell auch das
+Zinsguthabens, ein anderes Wandelverh�ltnis als einfach 1 Aktie für 1
+Wandelanleihe und eine eventuell nötigen Zuzahlung und/oder anderen
+Sonderregelungen berücksichtigt werden. Wenn eine Wandlung jederzeit möglich
+ist (amerikanischer Typ), dann muß zur Berechnung des Bezugspreises der jeweils
+aktuelle Tageskurs der Anleihe benutzt werden. Ist die Wandlung nur bei Ablauf
+der Anleihe möglich, dann muß mit dem Nominalwert (Rückzahlungswert) der
+Anleihe gerechnet werden, denn für den Ablauftag gilt ja: Marktwert einer
+Anleihe = Nominalwert.
+Beispiele für Berechnungen finden Sie bei der Beschreibung von
+Wandelgenu�scheinen und im Kapitel "Beispiele". 
+Der allmähliche Wertverfall des eingebauten Optionsscheins "frißt"
+gewissermaßen einen Teil des Zinsertrags der Anleihe, woraus die, gemessen am
+Marktzins, relativ niedrigere laufende Rendite der Wandelanleihe resultiert. 
+Ein solches Wertpapier hat den Vorteil, bei stärkeren Kurssteigerungen der
+Aktie im Wert zu steigen, bei stärkeren Kurseinbrüchen jedoch kaum unter den
+fairen Wert der reinen Anleihe zu fallen. Hinzu kommt eine sichere
+Mindestrendite. 
+Wandelanleihen sind gewissermaßen "Aktien mit eingebauter Notbremse" gegen zu
+starke Kurseinbrüche. Dies gilt natürlich nur für Wandelanleihen, deren Kurs
+noch nicht zu weit über dem fairen Wert der reinen Anleihe liegt. Ist der Kurs
+aber schon sehr weit gestiegen, z.B. auf 400 bei einem fairen Anleihewert von
+100, so hat er leider auch viel Spielraum nach unten.
+
+
+Ulrich Itzenga
+Visit   http://mynzfwo.pbs.rql/jrfbpu  and download a 
+free calculator for options, futures, bonds and similar stuff.

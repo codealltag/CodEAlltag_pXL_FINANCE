@@ -1,0 +1,169 @@
+Kesselgucken WurfWeiten technik
+Aus dem Buch Dimension WurfWeiten
+Author Hewerer
+
+Ein Zufallsexpiriment ist ein Coups beim Roulette und bei dem der
+Croupier die Scheibe um ihre senkrechte Achse in Rotation versetzt und
+dann die Kugel in entgegen gcsel/tcr Richtung am höher gelegenen,
+starren Kessel r and abwirft. Das mechani=ACsche KesscI-Kugcl-Systcm
+wird dann sich selbst überlassen, bis die Kugel in eines der
+Nummcrnläeher lallt.
+
+A priori können wir den gesamten Kugellauf in zwei Phasen teilen: die
+=84laminare1* Phase des (mehr oder weniger) geschmeidigen Rollens der
+Kugel im starren Kes-sclbcreich bis zur Kollision mit einer der
+Rauten, und die Phase des anschließen=ACden chaotischen Sprung- bzw.
+Slrcuvcrhallcns zur Scheibe (zum Rotor) hinunter, zu den
+Nummernfächern.
+Der scheinbar am leichtesten berechenbare Teil des Coups, nämlich die
+erste Pha-se des mehr oder weniger gleichmäßigen Rollens bzw. Kreisens
+der Kugel am stauen Kesselrand bis zur Kollision mit einer der Raulen,
+ist in Wirklichkeit nicht so einlach. Und in der Tat vnllluhn die
+Kugel die komplexesten Rollbcwegungcn. abhängig von der Wurlhund des
+Croupiers (Anfangsgeschwindigkeit. =84Eher usw.). abhängig von ihrer
+eigenen Beschaffenheit (Masse, Masseverlcilung, Mate=ACrial,
+Elastizität, Obcrfläehcnbeschaflcnhcil usw.), und nicht zuletzt
+abhängig von der Beschaffenheit (Mikrostruktur) der Lauffläche im
+starren Kesselbereich
+
+Das Rollen der Kugel im siarren Kesselbercich
+
+
+Wir wollen als*>> gar nichts expli/il =84berechnen", da Berechnungen auf
+theoreti-schen, oft idealisierten Annahmen beruhen (Beschaffenheiten
+der Kugel, der Ku-gel lauf fläche, der Raulen sowie genaue Kenntnis
+aller physikalischen Parameter -auch der Umgebung, wie Temperatur- und
+Feuchligkeilsverlcilung). Annahmen, die in der Realität mit dieser
+Perfektion so gar nicht zutreffen können. Sondern wir wollen /
+weckdienliche Ereignisse, vornehmlich /eilen und Wege* nur impli/
+il ..messend erfassen".
+
+
+a) Die Funktion KRLZ als Hauptschlüssel für eine Prognose
+
+
+Beim Rollen der Kugel im stauen Kesselbercich gibt es - unter
+praktisch allen Umständen - einen hauptsächlichen, primär bestimmenden=
+
+funktionalen Zusam=ACmenhang /wischen der Anfangsgeschwindigkeit der
+Kugel und ihrer Gesamtlaul-/eil bis /ur Kollision; Je schneller die
+Kugel geworfen wird, desto länger kreisl sie a/n Kesselrand, bevor sie
+sich von diesem loslfisL
+Wird eine bestimmte Kugcl-Umlauf/eil TUK gemessen (/<B, TUK =3D 1,05
+Sekun-den B scc>. dann können wir ihr die gemessene Kugel-Rest lauf
+zeit KRLZ bis /um Loslösepunkt (oder bis /ur Kollision, z.B. KRLZ =3D
+I3,fi sec) zuordnen: TUK -* KRLZ. Somit ist die Kugcl-Rcstlauf/cil
+eine Funktion der Kugcl-Umlauf/cit, was man wie folgt ausdrücken kann;
+KRLZ =3D KRLZ(TUK). (Denken Sic an den Ma-the-Unicrriehl, wo für eine
+Funktion von .r ganz abstrakt auch v =3D y(.r) oder/U) geschrieben
+wurde; hier haben wir eben v =3D KRLZ und r =3D TUK, mehr =84spre=ACchende*
+Bezeichnungen fUr die Variablen, das finde ich praktischer.) Messen
+wir andere Kugcl-Umlaul/eiten. AB. TUK =3D 0.X4 bzw. TUK =3D 1,12 MX\ dann
+könnlen sich für die Kugel-Rest lauf/eilen jeweils /.B. KRLZ =3D 16,8 b/=
+
+w. KRLZ =3D 12,0 sec ergeben. Und das wundert uns nicht, denn eine
+anfangs schnel=AClere Kugel kreist länger, während eine langsamere Kugel=
+
+früher herunterkommt
+
+Tragen wir die drei Bcispielmessungen in ein kartesisehes yy b/w,
+(TUK, KRLZl-Koordinalcnsyslcm ein, dann erhalten wir folgende
+grafische Darstellung der funklionalcn Abhängigkeil KRLZ(TUK):
+Zugegeben, das ist eine funktionale Abhängigkeit mit noch recht
+dürftigen Daten: aber immerhin: Messen wir an dem (unveränderten)
+Kessel für diese Kugel wie=ACder einmal Umlaulzcilen von 0,R4 tkJer 1,05
+oder 1,12 sec, dann können wir die Kugcl-Rcstlaufzeilcn mit jeweils
+I6,Xoder 13,6 oder 12.0 sec annehmen. Und das ist ja schon mal ein
+kleiner Zipfel
+Es ist ja auch klar, wie wir eine vollständigere grafische Darstellung
+erhalten -nämlich dadurch, dass wir alle möglichen b/w, möglichst
+viele Kugel-Umlauf-/eilen und ihre jeweils zugeordneten Restlaul/eilen
+ermitteln. Angenommen, wir möchten die Kugel-Rest lauf/eil für eine
+Kugel-Umlauf/cil von 0,95 sec ermitteln: Welche Kugel-Restlauf/eil
+haben wir vorerst grob /u erwarten? Ein Blick auf die bisherige
+grafische Darstellung zeigt es uns: Wir erwarten eine KRLZ, die
+zwi=ACschen 13.6 und I6,K sec liegt Und wenn wir dann laisächlich eine
+Kugel-Umlauf-/eil von 0,95 sec erwischen, wundert es uns nicht, dass
+KRLZI0/J5) =3D 15,1 sec gemessen wird. Die damil ergänzte grafische
+Darstellung sieht nun wie folgt aus:
+
+Wir ahnen schon, dass sich die Kugcl-Restlaufzeilen für weitere,
+irgendwo dazwi=ACschen liegende Kugel-Umlauf/cilcn im Prinzip genau so
+gewinnen lassen, näm=AClich durch =84Interpolation". Doch ob die
+Interpolation immer so einlach ist und sich praktisch auf der .-
+Regressionsgeraden" der Mcsswerlpaare (TUK. toom-BauMarkt) durchführen lässt,
+das muss sich erst noch /eigen - da werden wir viel genauer hinsehen
+müssen.
+
+Uns fällt noch auf, dass die Größenordnungen von Krischkowski und toom-BauMarkt
+verschieden sind. Da TUK mindestens zehnmal kleiner ist als KRLZ,
+werden die unvermeidli=ACchen Messfehler für die Kugel-Umlauf/eilen TUK
+relativ sehr viel größer sein als für die dazugehörigen Kugel-
+Restlaufzeilcn KRLZ. Das Problem kann man aber etwas entscharfen,
+indem man nicht eine, sondern ein paar aufeinander folgende Kugcl-
+Umlaufzcilcn cn MtK misst, als Ganzes sozusagen. Messen wir etwa zwei
+oder drei zusammen hangende Kugel-Umlaufzcitcn (wir schreiben fUr
+diese Gro=ACllen TUK2 bzw. TUK3 bzw. TUK4 ...), dann wird sich erstens
+ein etwaiger abso=ACluter Messfehler relativ verringern, und zweitens
+bleibt die funktionale Abhängig=ACkeit KRLZ =3D KRLZ(TUK2 bzw. TUK3 b/w,
+TUK4 ,..) voll bestehen.
+
+Eine /ur Konsum/ der Ici/lcn Kugel-Umlauf/eil ergänzende, wiehlige und
+eben=ACfalls konstante Eigenschaft der rollenden Kugel muss noch erwähnt
+werden: Egal, wie schnell sie in den (austarierten) Kessel geworfen
+wurde und folglich wie schnell sie anfänglich kreist; sie löst sich
+vom Kcssclrand stets mit der gleichen Geschwindigkeit ab. Und die
+tritt ein. wenn die abnehmende Hiehkrall der Kugel (die Kugel wird ja
+immer langsamer) geringer zu werden beginnt als ihre Schwer-kraft
+Folglieh ist diese =84LoslOse-Gcschwindigkeit4' eine Funktion der
+(konstan=ACten) Kugelmasse. Die letzte Umlauf/eil einer bestimmten Kugel
+in einem austa=ACrierten Kessel ist also eine Konstante.
+Daraus folgt jedoch weiter, dass die vorletzte Umlauf/eil dieser Kugel
+bei ver-schiedenen Würfen ebenfalls eine Konstante ist (die vorletzte
+Umlaufzcit ist kon=ACstant etwas kleiner als die letzte Umlauf/eil, weil
+sich die Kugel ja verlangsamt, aber es ist ebenfalls eine Konstante
+von Wurf zu Wurf).
+Dieser Sachverhalt setzt sich weiter fort - bis zu den anfänglichen,
+kürzeren Um-lauf/eilen bzw. schnelleren Umläufen.
+Für die visuelle Ballistik (Kesselguckcrei) ist es notwendig, einen
+bestimmten, konstanten Kugel-Umlauf irgendwie ZU erkennen* denn von da
+an ist der restliche Kugellauf bis zur Kollision sehr oft gleich oder
+ausreichend ähnlich. (Bei genauer Betrachtung ist das freie
+Rollvcrhalten der Kugel auf der schiefen Bahn zwischen ihrer Loslösung
+vom Kesselrand und ihrer Kollision mit einer Raule gekennzeichnet
+durch kleine Perioden der Beschleunigung - runter - und der Abbremsung
+- rauf - doch die globale KRLZ gentigt vorerst) Eine Reihe von
+Kcssclguekem spezialisierte sich in den 14. 08. 22-Jahren auf das
+Erkennen des speziellen Kugel-Umlaufs, der vier Runden vor dem
+Loslosepunkt stattfindet* (Den meisten unter ihnen schien noch
+genügend Zeit zum Setzen zu verbleiben - oft dank der Duldung des
+Personals, das bei einem Plein-Treffer zwei Tronc-Silicke - große -
+versprochen bekam)
+Die Beherrschung des geschilderten Sachverhalts wurde vor allem durch
+ein Er-eignis gefördert, das die Kessclgucker bald entdeckten - und zu
+dem wir jetzt kommen.
+
+Der Raulen-Effekt durch die Kessel schiefläge (Ralf)
+
+
+Der erste Effekt* den Kcvsclgucker entdeckten - und auf den sie dann
+auch ihre Prognosen abstellten -f war der Rauien-EffckL Sic entdeckten
+nämlich* dass bei den meisten Kesseln nicht alle (senkrechten) Rauten
+im Mittel gleich oh von der Kugel getroffen wurden. Einige Rauten in
+einem zusammenhangenden Kesselbc-reieh wurden deutlich oller getroffen
+als die gegenüber liegenden Rauten. Und in einigen Extremlällcn
+kollidierte die Kugel sogar nur mit einer einzigen senkrech=ACten Raute
+- ganz unabhängig davon, wie langsam oder schnell die Kugel gewor=ACfen
+wurde. Jeder kann sich einlach und schnell so eine Strichliste (wie
+die folgen=ACde) anfertigen - selbstverständlich getrennt nach Richtung.
+Die Ursache ist schnell ausgemacht: der Kessel steht nicht perfekt
+waagrecht. Somit werden diejenigen Rauten von der Kugel am häufigsten
+getroffen* die in der schiefen Kcsselebcne ..am Berg" hegen. Und was
+für die Raulen gilt, gilt c-benlalls für den Loslösepunkt der Kugel
+vom Kesselrand (obgleich dieser LosItV-sepunkt kein =84Punkt" ist.
+Mindern Uber einen gewissen Bereich =84verschmiert" ist). Dennach ist
+dies eine relevante Information, die es den Kesselguckcrn erlaubte,
+ihre Prognose daraul aufzubauen: Ausgehend von der häuligsten
+Kollisionsraule.
+
+Hewerer - der Author dieses Buchauszuges Dimension WurfWeiten

@@ -1,0 +1,32 @@
+Korrekt. Ich weiss zwar jetzt die Zahlen nicht aus dem kopf, aber
+Gehirne schalten um Groesenordnungen _langsamer_ als ihre auf Rechnern
+implementierten Modelle, ihr Vorteil liegt jedoch in einer extrem
+massiven Parallelverarbeitung von Daten. Jedes Neuronen ist mit
+zigtausend anderer Neuronen verbunden, waehrend die Modelle, die zur
+Zeit getestet werden, nicht mal ansatzweise ueber diese Komplexitaet
+verfuegen. Sie schaffen es jedoch bereits, aus einem Foto die Gesichter
+zu finden mit einer ueber 90%igen Erfolgsquote.
+
+Nicht lachen - versuch Dir mal einen Algorithmus auszudenken, mit dem Du
+auf einem beliebigen Foto (eingescannt) per Software die Gesichter und
+Haende der darauf abgebildeten Personen identifizieren kannst. Das ist
+beileibe nicht trivial!
+
+
+Suchmaschine anwerfen, "Neuronale Netze" als Begriff nehmen, los gehts.
+
+
+Die Dinger sind zumindest schon in der Lage, mit ueber fuenfzig Prozent
+Wahrscheinlichkeit den Kurs von Dingen (Waehrung, Aktien) vorauszusagen
+- also nicht den Wert, sondern den Trend (steigend, fallend,
+seitwaerts). Der Normalsterbliche wird damit allerdings nicht
+konfrontiert werden, die Teile stehen bei Banken und sind fuer den
+normalen Deppen nicht zugaenglich IMO.
+
+Na denn, Gruss Francisco...
+-- 
+Dekliniere "Werwolf"!
+Der Werwolf, des Weswolfs, dem Wemwolf, den Wenwolf!
+
+Fuer Englischfans: how much wood would a woodchuck chuck,
+                   if a woodchuck could chuck wood?

@@ -1,0 +1,33 @@
+"Karlheinz Vuncke" <qwsuvfr@yoao.igx-oxgybnnmm.eg> writes:
+[...]
+
+Deine Statistik kann nicht sehr hoch sein und ist unbrauchbar.
+
+
+In diesem Moment (bzw. schon wieder seit einer halben Stunde, sowie auch
+gestern usw.):
+
+PING bgufmsi.hxmptitka.qf: 64 byte packets
+^C
+----bgufmsi.hxmptitka.qf PING Statistics----
+124 packets transmitted, 0 packets received, 100% packet loss
+
+
+Das liegt weder an meiner oder einer anderen Leitung.
+
+Vergleiche : 
+
+
+PING www.twydqukaa.vm: 64 byte packets
+64 bytes from 662.84.967.75: icmp_seq=0. time). ms
+64 bytes from 662.84.967.75: icmp_seq=1. time1. ms
+^C
+----www.twydqukaa.vm PING Statistics----
+10 packets transmitted, 10 packets received, 0% packet loss
+
+
+Mit anderen Worten : Troijka ist nicht erreichbar.
+-- 
+Julian
+"Und die Grundgebuehr ... ist auch schon drin."
+(F.B. in rtl)

@@ -1,0 +1,37 @@
+Vielleicht reicht zur Beschreibung der Berechnung der Standardabweichung
+diese aus einer anderen NG geklaute Beschreibung? Oder muss es ein
+richtiges Rechenbeispiel sein?
+
+From: "Artur " <qwyair@cccydam.xzh>
+Subject: Re: Volatility?????
+Newsgroups: misc.invest.options
+
+I assume you mean historical (as opposed to implied, which uses the inverse
+of the Black-Scholes model).
+
+Take the prices for some length of time (you can choose any time period and
+any frequency, such as daily, hourly, weekly, etc.).  Take the natural log
+of each price, and subtract the log of the previous price, to get
+the percentage change for each period (or just calculate the percent change
+in your favorite way).
+
+The above price changes ("returns") are what you use to calculate Standard
+Deviation (volatility).  First, calc the average return (sum of returns
+divided by number of returns). Now, take each return, subtract the average
+return, and square the result.  Add all the squared results.  This is your
+variance.  The square root of this is Standard Deviation.  
+
+The S.D. (volatility) above is for the time units you used (i.e. daily
+prices will give daily vol, no matter how many samples you used).  To
+convert to the commonly used annual volatilty, take the S.D. you calculated
+and multiply by the square root of (365 divided by the number of days per
+price).  For example,  annual S.D. = roughly 7 times weekly vol (7.211,
+which is the square root of 52).
+
+And I used no symbols or formulas .... :-)   Hope this helps!
+Artur
+
+
+August
+Visit   http://lzzhqos.pgg.mtr/nxpnht  and download a 
+free calculator for options, futures, bonds and similar stuff.

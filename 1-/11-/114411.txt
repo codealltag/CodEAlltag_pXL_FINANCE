@@ -1,0 +1,28 @@
+....
+
+Ergaenzung:
+Bei diesem Beispiel haben wir bei den Hochrechnungen unterstellt,
+dass das Niveau der impliziten Volatilitaet ungefaehr gleich bleibt.
+Das muss aber nicht sein. Fuer den DAX liegt die implizite Vola 
+meistens so um 20. Es gab aber auch schon Zeiten, wo sie fast auf
+10 gefallen war, und zur Zeit ist sie nahe 50 gestiegen.
+Der Kenner macht solche Hochrechnungen deshalb auch noch fuer 
+diese beiden Extremwerte.
+Besonders im Augenblick ist anzuraten, fuer die heute mit hoher 
+impliziter Vola von 40-50 gekauften OS auch einmal auszurechen,
+wie deren zukuenftiger Kurs in z.B. 2 Monaten waere, wenn die
+Vola dann auf z.B. 20 gefallen sein sollte. Das Ergebnis wird 
+ernuechternd sein, denn in solch einem Fall koennen die 
+OS-Kurse drastisch sinken, obwohl der Dax eigentlich weit in 
+die richtige Richtiung gelaufen ist.
+
+Beispiel: Bei DAX-Stand 4500 kostet ein Put 4000 mit 3 Monaten 
+Restlaufzeit 200 = implizite Vola 48
+Unterstellen wir nun, in 8 Wochen laege die implizite Vola nur
+noch bei 20, so laege der OS-Kurs bei Dax-Stand 3900 bei
+knapp 190. Also Verlust trotz eigentlich aufgegangener Spekulation.
+
+
+Klaas
+Visit   http://vuijgcg.nvg.bmr/qqlrro  and download a 
+free calculator for options, futures, bonds and similar stuff.

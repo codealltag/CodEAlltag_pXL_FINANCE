@@ -1,0 +1,27 @@
+Du setzt auf fallende Kurse: Dann kaufst du entweder einen Put (Long Put)
+oder
+verkaufst einen Call an der DTB (Short Call).
+Steigende Kurse: Umgekehrt.
+
+Maximaler Gewinn/Verlust:
+Long Put: Gewinn begrenzt (Aktien fallen nicht unter Null),
+          Verlust begrenzt (wenn die Ausübung des OS für dich von Nachteil
+          wäre, läßt du es eben, dann nur Totalverlust).
+Short Call: Gewinn begrenzt (vereinbarte Optionsprämie),
+            Verlust unbegrenzt (Aktien können unendlich steigen...
+            im Moment vielleicht nicht, aber theoretisch zumindest).
+
+Bei Short Puts bzw. Long Calls ist natürlich alles analog (nur ist hier
+jeweils
+der Gewinn und Verlust begrenzt).
+
+Jetzt ist natürlich die Frage: Hat man sich wirklich einen V-DAX-Put
+gebastelt,
+wenn man je einen Call und Put mit gleicher Basis verkauft? Nicht wirklich,
+zumindest nur in Grenzen, weil Short Calls und Short Puts ja nicht
+vollkommen
+symmetrisch sind.
+
+;->
+
+Thierry

@@ -1,0 +1,43 @@
+On Sun, 27 Sep 1998 18:54:13 +0100, Fabian <251849.8498@rlndjtsojw.yjw>
+wrote:
+
+hallo marcus,
+ich habe selten mehr in dieser ng gelacht, als ueber fernando beitrag zu
+b.i.s. eindrucksvoll stellt er unter beweis, dass er entweder nie ein
+system hatte oder absolut unfähig ist ein real-timy-sys zu beurteilen.
+zu den facts:
+die auffaelligsten b.i.s - features im ueberblick
+
+ - b.i.s ist nicht ausreichend stabil (klingt hart,aber alles andere
+wäre gelogen.abstürze mit verlust d kompletten datenbank)
+ - b.i.s.hat keinen stabilen datenfeed bzw daten schlechter qualitaet
+(beispiel: habe ich mehrfach selbst erlebt: an volatilen tagen - s&p
+future eroeffnet limit down - bekommt b.i.s ueberhaupt keine daten
+mehr zum kunden und das ueber mehrere stunden!!! kommentar b.i.s.:
+" oh, gut,daß sie uns draufhinweisen, wir haben es noch gar nicht
+bemerkt"
+(mag sein, dass das mirt der datenqualit�t bzw feedstabilit�t
+inzwischen besser wurde-ich hab mir das nur eine gewisse zeit
+angeschaut)
+- superinkompetente hotline - staendiger und einziger rat: "versuchen
+sie mal einen warmstart"
+(ich bin zuversichtlich, dass sich daran wenig geändert hat..)
+b.i.s. kann bis heute wohl keinen vernünftigen t-bond-chart abliefern.
+grund: man hat uebersehen, dass nicht die ganze welt als masseinheit
+das dezimalsystem hat.man nehme sich ein blatt papier und
+veranschauliche sich wie ein b.i.s-chart  aussieht, wenn der kurs
+beispielsweise zwischen 112.28/32 und 113 2/32 hin& her schwankt.
+die vielgelobte (von b.i.s.selbst) dde-anbindung an excel usw. liefert
+falsche kurse ab. beispiel: kurs in b.i.s. für ftse 5642,30 kurs im
+selben augenblick in excel (per dde-verbindung) 12789,15.ohne worte...
+
+es lassen sich noch mehr ganz dolle "features" beschreiben aber das
+genannte spricht fuer sich. wir sind damals mit ein paar freunden von
+Creation-Bosso zu b.i.s gewechselt. inzwischen sind alle reumuetig zu armborst
+(vielleicht daher der name ;-) ) zurückgekehrt.
+
+mfg
+--
+yoyo
+
+diese message besteht zu 100% aus biologisch abbaubaren daten;

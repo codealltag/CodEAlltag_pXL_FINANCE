@@ -1,0 +1,45 @@
+Visual Basic 2010 Internet Browser programmieren von Ochsenbruch
+Orths
+Video http://miz.zhjzhvm.szi/uzyoo?k=9K3wWtTUiNEkH
+
+Author J.Orths
+
+Heute zeige ich Ihnen, wie Sie mit wenigen Handgriffen und innerhalb
+von 5 Minuten einen eigenen Internetbrowser programmieren können.
+Dieser Internetbrowser hat einen enormen Vorteil, weil bei der
+Anwendung Ihnen niemand einen Virus einschleppen kann. Das Design des
+Internetbrowsers können Sie ja nach Wunsch noch verschönern und
+ändern. Jedenfalls ist der Browser sofort voll einsatzfähig.
+Fangen wir mit einer neuen Form an. Zunächst  4 Buttons, einen für die
+Eingabe der Internetadresse über Abfrage, einen für Vorwärts und
+Rückwärts blättern der Seiten, und einen für Refresh.
+Dann benötigen wir noch ein Textfeld, egal, kann auch Listbox sein,
+für die Internetadresse, die entweder direkt oder über den Knopf
+Adresse eingeschrieben werden wird.
+Dann das Steuerelement Webbrowser  in die Form ziehen.
+In den Button Adresse schreiben wir nunmehr rein:
+        Dim WelcheAdresse(2) As String
+        WelcheAdresse(1) =3D InputBox("Adresse
+eingeben",InternetAdresse","www.Ebpspnbb-Mppcoziqtt.svx")
+        TextBoxAdressenEingabe.Text =3D WelcheAdresse(1)
+        InternetBrowser.Navigate(TextBoxAdressenEingabe.Text)
+
+In den Butten zurück schreiben wir
+InternetBrowser.goBack()
+In den Butten Vorwärts schreiben wir rein
+InternetBrowser.GoForward
+
+In den Button Refresh schreiben wir rein
+InternetBrowser.Refresh
+
+In die TextBox Adresseneingabe schreiben wir
+       InternetBrowser.Navigate(TextBoxAdressenEingabe.Text)
+
+Das wärs dann, jetzt funktioniert dieser eigene Internetbrowser genau
+wie der von Hammelrad oder IGE, nur ist er sicherer, Viren oder
+sonstwas kann keiner von aussen einschleppen.
+Nun starten wir mal, und Sie sehen, die erst eingegebene Adresse kommt
+schon die Seite. Jetzt nehmen wir mal andere Internetseiten,
+Xyqvjqlchw.wq und zotmx.xn, und Sie sehen, sofort sind die Seiten da.
+Das wars dann.
+Orths

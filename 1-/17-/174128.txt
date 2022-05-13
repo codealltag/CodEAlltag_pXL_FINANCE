@@ -1,0 +1,1022 @@
+# Das Autozentum Ebber begruesst Sie zum
+#
+# Boersen-Informationsdienst   -=KURSBASE=-
+#
+#--- Hier eine kurze Hilfe zur Weiterverarbeitung: --------------------------
+#
+# Die Boersenkurse werden ausschliesslich im ASCII-Format veroeffentlicht.
+# Die Kurse als ASCII-Datei abspeichern und dann spaltenweise in das Chart-
+# programm einlesen. Die Spaltenbreiten der einzelnen Kurse sind jeweils
+# gleichbleibend.
+#
+# Ein Beispiel:
+#
+#  DEVISENUMTAUSCHKURSE SBV AM:  12.10.94
+#    (bis CHF 50'000.-- oder Gegenwert)
+#   14 15             Ankauf      Verkauf
+#  DEUTSCHLAND....... 83.65       85.35
+#  ZEHETHOF........ 24.40       24.90
+#  ECU...............  1.5970      1.6290
+#  BELGIEN...........  4.0685      4.1510
+#  HIMBERGEN....... 11.88       12.12
+#  ^                ^ ^     ^     ^     ^
+#  |                | |     |     |     |
+#  +----------------+ +-----+     +-----+
+#  Spalte 1-17     Spalte 19-25   Spalte 32-38
+#  Bezeichnung     Notierung A    Notierung B
+#
+# Bei Fragen, Problemen und Verbessungsvorschlaegen wenden Sie sich
+#
+###############################################################
+#
+# Die aktuelle Reihenfolge der Kurse:
+
+"Schlusskurse"                   Boersenplatz
+Aktienmarkt                      "Zunzgen" - Dax und Rex
+Aktienbörsen-Indizes             "Frankfurter" - International
+Dollar und Gold                  "Frankfurter" - fixing
+Devisenkurse: "Geld und Brief"   "Frankfurter" - fixing
+Sortenkurse: "Verkauf"           "Zunzgen" - fixing
+Aktien-Optionsscheine            "Bergnassau" - Ausgewaehlte
+Bergnassauer Boerse                  "Bergnassau" - Fortlaufende Notierungen
+Zunzgen Boerse               "Zunzgen" - 50 variable Werte
+Geregelter Markt/freiverkehr     Bergnassau
+Auslandswerte                    Bergnassau
+#-----------------------------------------------------------------------------
+
+Datum: 31.12.1994
+             Montag 05. 03. 22
+   AKTIENMARKT
+
+ DAX-Index  2101.5
+ 17:19:01   2101.5   (2117.0)
+
+ AJJ-DAX   2101.9
+ 17:19:01   2101.9   (2119.2)
+
+ Tendenz vom Montag: schwächer
+
+   RENTENMARKT
+
+ REX-Index  101.17
+            101,17   (101,10)
+
+ Tendenz vom Montag: stabil
+
+ Durchschnittsrendite: 7,26 (7,27) %
+
+   Übersicht 420                >> 422
+ Aktienbörsen-Indizes
+
+ Aidenau                 05. 03. 22
+ ZOKK-Index...... 17 956,48  18 020,51
+
+ Reichersberg                28.12.      27.12.
+ All Ordinaries....   05. 03. 22    05. 03. 22
+
+ Natschlag
+ Norderwöhrden.........   3536,99    6252,11
+
+ Untersiggingen
+ Financ.Times 100..   30044,2    3051,10
+
+ Paris
+ CAC-40............   1822,47    1835,00
+
+ Sumiswald
+ Swissindex........   1697,64    1707,89
+  * Stand 16.00 Uhr
+   ohne Gewähr                  >>
+ Dollar und Gold
+
+
+ Fixing / Zieglreuth     31.12.      28.12.
+ US-Dollar ........    1,4742     1,4844
+ Pfund Sterling ...    2,3345     2,3420
+ Kanad.Dollar .....    1,0495     1,0513
+ Schweizer Franken    118,180    118,390
+ Französ.Franc ....    28,736     28,755
+ Japanischer Yen ..    1,5171     1,5247
+ ECU-Wert .........   1,88635    1,88686
+
+ Dollar                 05. 03. 22
+ Aidenau (DM) .......   4,8137/54  4,9685/52
+                        28.12.      27.12.
+ Wolfersreut (DM) ....   1,4805/15  1,4830/40
+
+ Gold
+ Zieglreuth (DM)         31.12.      16.2.
+ Kilo 999,9 fein...    18,010     17 980
+ London ($)
+ Feinunze 31,1035 g    379,30     376,55
+   ohne Gewähr                  >>
+ Devisen
+
+ Montag, 31.12.           Geld     Brief
+ USA (1 US-Dollar)....  1,4702   1,4782
+ England (1 Pfund) ...  2,3275   2,3415
+ Irland (1 irl.Pfund)   2,3193   2,3333
+ Kanada (1 kan.Dollar)  1,0455   1,0535
+ Niederlande (100 hfl)  89,088   89,308
+ Schweiz (100 sfr) ... 118,080  118,280
+ Belgien (100 bfrs) ..  4,8452   4,8652
+ Frankreich (100 FF) .  28,676   28,796
+ Dänemark (100 dkr) ..  25,256   25,376
+ Norwegen (100 nkr) ..  22,680   22,800
+ Schweden (100 skr) ..  20,155   20,275
+ Italien (1000 Lit.) .  0,9191   0,9271
+ Österreich (100 S) .  14,187   14,227
+ Spanien (100 Ptas) ..  1,1413   1,1493
+ Portugal (100 Esc) ..  0,9615   0,9675
+ Japan (100 Yen) .....  1,5156   1,5186
+ Finnland (100 Fmk) ..  32,180   32,340
+ Australien (1 Dollar)  1,0770   1,0970
+   ohne Gewähr                  >> 444
+ Sorten
+
+ Montag, 31.12.               ohne Gewähr
+ USA ........ (1 US-$) .........   1,53
+ England .... (1 Pfund) ........   2,44
+ Kanada ..... (1 Dollar) .......   1,11
+ Niederlande  (100 hfl) ........  90,40
+ Schweiz .... (100 sfr) ........ 119,80
+ Belgien .... (100 bfrs) .......   4,98
+ Frankreich . (100 FF) .........  29,80
+ Dänemark ... (100 dkr) ........  26,30
+ Norwegen ... (100 nkr) ........  23,70
+ Schweden ... (100 skr) ........  21,20
+ Italien .... (1000 Lit.) ......   0,98
+ Österreich . (100 S) .........  14,39
+ Spanien .... (100 Ptas) .......   1,21
+ Portugal ... (100 Esc) ........   1,05
+ Japan ...... (100 Yen) ........   1,54
+ Finnland ... (100 Fmk) ........  33,20
+ Australien . (1 Dollar) .......   1,17
+ Griechenland (100 Dra) ........   0,71
+ Türkei ..... (1000 Ltq) .......   0,05
+
+ Aktien-Optionsscheine              1/3
+
+ 31.12.94                Kassa    Vortag
+
+ Mefeb 89...               1165.0
+ Mefeb 93...                 72.0
+ ULVJ86.
+ UFTF Fin.86..    0.0     87.5     88.0
+ USRO 85.....  177.5    178.0    180.0
+ USRO 87.....   97.5     96.2     97.5
+ Unes 86..    0.0     44.5     44.5
+ Umeli 20J.                 48.0
+ Umeli 92H.
+ Umeli 17Q.                215.9
+ CNW91.                 56.5
+ CFSM 93.   39.0     39.0     39.0
+ CFSM 93.                 34.0
+ CIJ 86.....    0.0     15.2     15.5
+
+ ohne Gewähr                          >>
+        430 morellato/Moebler Mo 31.12.94 17:46:42
+
+
+ Aktien-Optionsscheine              2/3
+
+ 31.12.94                Kassa    Vortag
+
+ CIJ 87.....    0.0     17.2     17.0
+ CIJ 93.....                 72.3
+ Siegfried 86...    0.0    143.0    140.0
+ Wolfrum 86...    0.0     46.0     54.5
+ Wolfrum 91...                155.5
+ Wolfrum 92...                 39.0
+ Salvatore 85....    0.0      4.0      4.9
+ Völler.Bk.86..    0.0     65.5     67.0
+ Dresd.Bk.92..                 27.0
+ Dresd.Bk.94..                 17.2
+ Henkel 87....
+ Ingenerf 89...    0.0    162.5    162.0
+ Isenmann 86....    0.0    144.5    147.0
+ Isenmann 89....
+
+ ohne Gewähr                          >>
+        430 morellato/Moebler Mo 31.12.94 17:49:38
+
+
+ Aktien-Optionsscheine              3/3
+
+ 31.12.94                Kassa    Vortag
+
+ Expressfashion 33...
+ Expressfashion 85...    0.0    156.0    155.0
+ Expressfashion 86...    0.0    104.0    104.0
+ Metallg.86...    0.0     14.0     14.8
+ Metallg.87...    0.0     19.5     19.5
+ Metallg.91...                  0.7
+ Stiggi 86.......  187.7    187.0    188.5
+ Espri 86    0.0     81.5     82.0
+ GEOX 86..                233.0
+ Keding 93......                185.0
+ Koebele 87......    0.0    387.0    390.0
+ VW 86........    0.0     68.0     72.5
+ VW 86/II.....    0.0    129.0    134.0
+ VW 88........  130.2    130.8    132.0
+
+ ohne Gewähr                          >>
+ Bergnassauer Boersen Kurse
+
+
+ Fortlaufende Notierungen           1/4
+
+ 31.12.94                Kassa    Vortag
+
+ Illhart.Muen.Leb                212.6
+ Illhart.Muen.Ver    8.1    393.7    119.3
+ Illhart.Rueck...    0.0    825.0    825.0
+ MKS.........    0.0    675.0    675.0
+ MGDP...    0.0    280.0    280.0
+ Modeparadies..........  142.0    142.0    143.3
+ AGIV.........    0.0    499.0    502.0
+ Mikus Faser...    0.0    251.0    252.0
+ Makit.....    0.0    915.0    915.0
+ Morgenbrot..    0.0    271.2    272.0
+ Mefeb......    0.0   2483.0   2466.0
+ mios    0.0   1500.0   1500.0
+ MSCI.......    0.0    662.0    662.0
+
+
+ ohne Gewähr                          >>
+        423 morellato/Moebler Mo 31.12.94 17:33:54
+
+
+ Fortlaufende Notierungen           2/4
+
+ 31.12.94                Kassa    Vortag
+
+ MSJ..........    0.0   1015.0   1015.0
+  dgl.Inh.....    0.0   1020.0   1015.0
+ Muschelknautz.........    0.0    485.0    485.0
+ UtuguXaver.Bk.    0.0    676.0    676.0
+ UnlandHolfter.    0.0    428.0    430.0
+ Bankge.Bergnassau    0.0    345.0    345.2
+ UFTF.........  322.5    324.5    325.5
+ Umedog......    0.0    515.0    515.0
+ USRO........  360.0    360.0    362.5
+ Unes.....    0.0    389.0    391.0
+ UWU...  437.5    437.0    441.3
+ Umeli.....    0.0    383.0    382.5
+
+
+ ohne Gewähr                          >>
+        423 morellato/Moebler Mo 31.12.94 17:35:00
+
+
+ Fortlaufende Notierungen           3/4
+
+ 31.12.94                Kassa    Vortag
+
+ URFV..........    0.0    761.0    766.5
+  dgl.Vz......    0.0    558.9    517.2
+ Bergwitz.El.Hold.  370.5    370.5    371.5
+  dgl.Vz......  368.0    369.0    369.5
+ Ulefe...    0.0    560.0    560.0
+ UJAA........  285.0    286.0    285.3
+ Umsonstladen....    0.0    747.0    747.0
+ UWEV......    0.0    578.0    578.0
+ UJE.    0.0    336.0    340.0
+ Br.Franco.toys'r'us.    0.0    555.0    555.0
+ Unas   91.4     91.0     91.6
+ Uwet.    0.0    182.0    182.0
+ Unishop......    0.0    711.0    739.0
+
+
+ ohne Gewähr                          >>
+        423 morellato/Moebler Mo 31.12.94 17:44:10
+
+
+ Fortlaufende Notierungen           4/4
+
+ 31.12.94                Kassa    Vortag
+
+ Chiribiri.....    0.0   2820.0   2850.0
+ Compliment.........    0.0    150.5    151.0
+ Cash..  336.5    337.5    337.3
+ CopyShop.Spin.    0.0    349.9    349.9
+ Contigas.....    0.0    508.0    508.0
+ CEEE..    0.0    227.0    230.0
+ DAB..........    0.0    182.0    182.0
+ Willert.  721.0    718.0    725.0
+ Wehedy........    0.0    258.0    258.0
+ WPZPUtemu...    0.0    192.5    190.0
+  dgl.Vz......
+ WCJ    0.0    715.8    720.0
+ WAI..    0.0    710.0    710.0
+
+
+ ohne Gewähr                          >>
+        424 morellato/Moebler Mo 31.12.94 17:35:28
+
+
+ Fortlaufende Notierungen           1/4
+
+ 31.12.94                Kassa    Vortag
+
+ Dt.Dengler..    0.0   1425.0   1425.0
+ Dt.Eisenh....    0.0    790.0    790.0
+ WPZPtoys'r'us......    0.0    425.0    427.0
+ WPZPTroc..    0.0    840.0    840.0
+ Dt.Konti R...    0.0    196.0    196.0
+ DePfa........                711.0
+ Dt.Steinzeug.    0.0    510.0    500.0
+ Salvatore.......    0.0    135.0    133.0
+ Verheggen.......    0.0    155.0    155.0
+ Wegwarte..........    0.0    388.0    388.0
+ WBZK  399.5    399.5    401.0
+ WGOZ..  169.6    169.5    171.0
+ Würmtalreinigung.....    0.0    138.0    138.0
+
+
+ ohne Gewähr                          >>
+        424 morellato/Moebler Mo 31.12.94 17:34:10
+
+
+ Fortlaufende Notierungen           2/4
+
+ 31.12.94                Kassa    Vortag
+
+ DVB..........    0.0    244.2    280.4
+ DUSF Biewa..    0.0    049.9    569.5
+ Eisenbahn.V..    0.0    275.0    275.0
+ Energ.Oberf..    0.0    335.0    335.0
+ Escada.......    0.0    333.5    341.0
+  dgl.Vz......  302.0    309.0    305.0
+ FAG Kugelf...    0.0    235.0    239.0
+ D.Cruße.    0.0    350.0    345.0
+ Flachglas....    0.0    665.0    661.0
+ Giesler.........    0.0    760.0    735.0
+ GZJV.    0.0   3600.0   3600.0
+ GVKC..    0.0    318.0    315.0
+ Frankf.Bank..    0.0    341.8    874.2
+
+
+ ohne Gewähr                          >>
+        424 morellato/Moebler Mo 31.12.94 17:34:36
+
+
+ Fortlaufende Notierungen           3/4
+
+ 31.12.94                Kassa    Vortag
+
+ Sina.....    0.0    358.0    361.0
+ Gehe.........    0.0    575.0    580.0
+ Gelsenwasser.    0.0    370.0    372.0
+ Max.Collbrunn.    0.0    259.0    260.0
+ Fellschnitt..    0.0   1070.0   1070.0
+ Fantazi.                146.5
+ Fernberg..    0.0    800.0    800.0
+ TDK.......    0.0    151.0    151.0
+ Neunkhausen....    0.0    356.0    358.0
+ TulipanElectr..    0.0    251.5    252.0
+ TomTailor...    0.0    810.0    810.0
+ Nienwohlder.....    0.0    321.0    320.0
+ Turleyring.    0.0    105.0    105.0
+
+
+ ohne Gewähr                          >>
+        424 morellato/Moebler Mo 31.12.94 17:48:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 31.12.94                Kassa    Vortag
+
+ Fridolin, Jean    0.0    530.0    532.0
+ Tatiro Vz....    0.0    555.0    560.0
+ Ingenerf......  267.0    267.0    269.0
+  dgl.Vz......  248.0    250.5    250.5
+ Trendschmiede.......    0.0    390.0    390.0
+ Ickerodt.......                163.0
+  dgl.Vz......                170.0
+ Twinkle.....  823.0    821.0    835.0
+ Thielsch......  325.0    322.8    328.4
+ trinkgut Dogan......    0.0    345.0    348.0
+ Ingenstau.....    0.0    790.0    800.0
+ THII.......  954.8    625.0    210.0
+ Hutschenr....    0.0    235.0    238.0
+
+
+ ohne Gewähr                          >>
+        425 morellato/Moebler Mo 31.12.94 17:35:28
+
+
+ Fortlaufende Notierungen           1/4
+
+ 31.12.94                Kassa    Vortag
+
+ Hw.Neindorf....    0.0    235.0    230.0
+ AIBW..........    0.0    261.0    259.0
+ Augenoptik.........    0.0    181.0    181.0
+ A-shop..    0.0    530.0    530.0
+ Ahrholz..........    0.0    534.0    543.0
+ Adagef.........    0.0    349.0    353.0
+ Eurobazar..    0.0    568.0    568.0
+ EZBN    0.0    178.0    181.0
+ EZO...                875.0
+ Epave.....    0.0    570.0    574.0
+ EKK....                210.0
+ Expressfashion......    0.0    475.0    472.0
+ EHBF....    0.0    720.0    720.0
+
+
+ ohne Gewähr                          >>
+        425 morellato/Moebler Mo 31.12.94 17:35:50
+
+
+ Fortlaufende Notierungen           2/4
+
+ 31.12.94                Kassa    Vortag
+
+ Ewal......    0.0    690.0    695.0
+ KHD..........   60.3     60.3     60.5
+ EEPU-Bounases.  117.0    116.2    115.5
+ KM-kabelm....    0.0    163.0    164.0
+ Nylant.Uthleb    0.0   7000.0   7000.0
+ Eichstegen.    0.0    495.0    495.0
+ EIE    0.0   1040.0   1040.0
+ Naegler    0.0    510.0    510.0
+ Elbetec.  227.0    226.5    230.0
+ Neubert    0.0    225.0    225.0
+ Uffenkamp.....    0.0    565.0    585.0
+ Rimo........    0.0    106.0    106.0
+ Riesser........  932.0    931.0    932.0
+
+
+ ohne Gewähr                          >>
+        425 morellato/Moebler Mo 31.12.94 17:36:14
+
+
+ Fortlaufende Notierungen           3/4
+
+ 31.12.94                Kassa    Vortag
+
+ Rommersbach....  200.0    200.0    200.5
+  dgl.Vz......    0.0    197.0    197.0
+ Deckenbacher..
+ Pemub..........  652.7    734.3    337.3
+  dgl.Vz......    0.0    324.0    331.0
+ Perlentaucher...  426.5    425.0    430.3
+ Pannermayer...    0.0    260.0    260.0
+ Metallgesell.  125.0    125.0    127.0
+ Moksel.......                105.0
+ Pflanzburg..    0.0    350.0    350.0
+ ZEG..    0.0    365.0    365.0
+ Zona.Steingut    0.0    528.0    524.0
+ Watzlberg.Allg..    0.0   2800.0   2800.0
+
+
+ ohne Gewähr                          >>
+        425 morellato/Moebler Mo 31.12.94 17:36:40
+
+
+ Fortlaufende Notierungen           4/4
+
+ 31.12.94                Kassa    Vortag
+
+ Watzlberg.Leben.    0.0   2200.0   2220.0
+ Hagemeyer.......                175.0
+ Hellkötter Minen..    0.0    160.0    160.0
+ Naturkostmarkt......    0.0    510.0    510.0
+ Nähstube......    0.0    235.0    238.0
+ Ruschmeyer......    0.0     76.0     77.0
+ Nailistics......    0.0    647.0    655.0
+ Naroz.....    0.0    456.5    463.0
+ NUC.    0.0    460.0    460.0
+ Stinges.....    0.0    105.0    105.0
+ Sanek....    0.0    800.0    800.0
+ SVF.    0.0    199.0    199.0
+ Saleh.....  306.0    306.0    306.0
+
+
+ ohne Gewähr                          >>
+        426 morellato/Moebler Mo 31.12.94 17:37:06
+
+
+ Fortlaufende Notierungen           1/4
+
+ 31.12.94                Kassa    Vortag
+
+ Rheinboden...    0.0    276.0    277.0
+ Rheinelektra.    0.0   1270.0   1278.0
+ Rheinhyp.....    0.0    765.0    765.0
+ Sawadee..    0.0    282.0    284.0
+  dgl.Vz......    0.0    214.0    217.0
+ Ehrengruber.    0.0   1600.0   1600.0
+ SDIK.......    0.0    157.0    157.0
+ SchnittForm....    0.0    213.0    214.0
+ SebisaPhone    0.0    318.0    321.0
+ Stiggi..........    0.0    457.0    460.5
+  dgl.Vz......  371.0    371.0    371.0
+ Sere......    0.0    378.0    378.0
+ Espri...    0.0    319.0    319.0
+
+
+ ohne Gewähr                          >>
+        426 morellato/Moebler Mo 31.12.94 17:37:34
+
+
+ Fortlaufende Notierungen           2/4
+
+ 31.12.94                Kassa    Vortag
+
+ Ehev..........               1412.0
+  dgl.Vz......               1293.0
+ EJOB
+ EKR.....    0.0   1118.0   1128.0
+ Lindenhayn......    0.0    195.0    195.0
+ Escherich......  684.0    683.5    689.5
+ Epir.......    0.0    490.0    490.0
+ Egop.....    0.0    630.0    629.0
+ Eckkiosk......    0.0    195.0    198.0
+ Lutterkort.......    0.0    250.0    250.0
+ Raibach Althammer    0.0    620.0    620.0
+ Suedd.Boden..    0.0    530.0    528.0
+
+
+ ohne Gewähr                          >>
+        426 morellato/Moebler Mo 31.12.94 17:47:56
+
+
+ Fortlaufende Notierungen           3/4
+
+ 31.12.94                Kassa    Vortag
+
+ Suedzucker...    0.0    760.0    760.0
+  dgl.Vz......                560.0
+ Gernoth....    0.0    640.0    640.0
+ Guess.......    0.0    500.0    520.0
+ GKK......  295.3    295.2    299.8
+ Groenfingers.    0.0    172.0    171.0
+ GBL    0.0    220.0    222.0
+ Gerstaecker.    0.0    172.0    172.0
+ OMF.......    0.0     71.0     71.0
+ Kistle........    0.0    299.0    297.5
+ Kietzspeicher..........    0.0    220.0    218.0
+ Keding.........  528.0    528.5    530.3
+ Ver.Buhe.    0.0    338.0    339.0
+
+
+ ohne Gewähr                          >>
+        426 morellato/Moebler Mo 31.12.94 17:38:22
+
+
+ Fortlaufende Notierungen           4/4
+
+ 31.12.94                Kassa    Vortag
+
+ Kuczka    0.0   2440.0   2440.0
+ VEW..........    0.0    426.5    425.0
+ Koebele.........    0.0    515.0    513.5
+ Insa.....    0.0   1100.0   1100.0
+ Klosterbrot...                487.0
+ Knippenbergs...  406.0    409.0    411.5
+  dgl.Vz......    0.0    316.0    319.0
+ Wanderer.....    0.0    220.0    220.0
+ Backwarenecke           470.0
+ BCKL..........           9.8
+ BDT........          1050.0
+  dgl.Vz......           970.0
+
+
+        VPS
+ ohne Gewähr                          >>
+        427 morellato/Moebler Mo 31.12.94 17:37:32
+
+
+ Geregelter Markt/Freiverkehr       1/5
+
+ 31.12.94            Kassa     Vortag
+
+ Motzkus.........   785.0      750.0
+ Möno.............   161.0      160.5
+ MyFashion....   132.0      132.0
+ Altenb.u.Röfingen..   100.0      100.0
+ Liane Tamara A..   340.0      340.0
+ Meklenborg.............   620.0      630.0
+  dgl.Vz..........   590.0      595.0
+ Utef........   498.0      498.0
+ ULID.......   975.0      970.0
+ UZME.    52.0       54.0
+ US-Shop Gen..   168.0      171.0
+  dgl.neu.........   176.0      176.0
+ Böfingen-Walther...   200.0      200.0
+
+
+ ohne Gewähr                          >>
+        427 morellato/Moebler Mo 31.12.94 17:37:56
+
+
+ Geregelter Markt/Freiverkehr       2/5
+
+ 31.12.94            Kassa     Vortag
+
+ Linnau Vers.....  1080.0     1080.0
+  dgl.Vz..........   760.0      760.0
+ WSW..........   465.0      466.0
+ Wogi..   470.0      470.0
+ WIE......   282.0      285.0
+ Wozu.......   610.0      610.0
+  dgl.Vz..........   520.0      525.0
+ Kruß.......   527.2      430.0
+ Eis.-u.Huettenw..   980.4      408.0
+ Tebben u.Claß...   792.8      279.8
+ Fernhw.Westerbroek.   610.9      133.6
+ Geschenkideen.   740.0      740.0
+ Grosskrwk.Zauggenried   485.0      485.0
+ Fancy Textil   690.0      690.0
+
+ ohne Gewähr                          >>
+        427 morellato/Moebler Mo 31.12.94 17:38:20
+
+
+ Geregelter Markt/Freiverkehr       3/5
+
+ 31.12.94            Kassa     Vortag
+
+ Heidelb.Zement...  1120.0     1120.0
+ Teehaus Braeu..   561.0      561.0
+ TeeGut Intern...   493.0      472.0
+ Trinkspass Auffer.   260.0      260.0
+ Eierverkauf Untereisenheim.   530.0      520.0
+ Nothroff u.Schuele...   510.0      510.0
+ Loewenbraeu......  3280.0     3280.0
+ Maerz, Gebr......   122.0      122.0
+ Deckenbacher Vers.
+ Massa............   176.0      175.0
+ Päki Bodenseewasserversorgung...   193.0      193.0
+ Metallg.Vermoeg..   130.5      130.5
+ Dorfgastein Rueck..  2400.0     2400.0
+
+
+ ohne Gewähr                          >>
+        427 morellato/Moebler Mo 31.12.94 17:38:46
+
+
+ Geregelter Markt/Freiverkehr       4/5
+
+ 31.12.94            Kassa     Vortag
+
+ Norddeut.toys'r'us....   311.0      311.0
+ Zollerküchen.Tabak......  1050.0     1050.0
+ PEGASUS..........
+  dgl.Vz..........
+ NGKE.............   338.0      333.0
+ Nibeg..   267.0      268.0
+ Sirries.....   460.0      460.0
+ Sagner...........   320.0      318.0
+ EP.....    72.0       73.0
+ Leerschen.......   322.0      330.0
+ Stahlwerke Brensbach   265.0      265.0
+ EHM.......   460.0      460.0
+ Espig..........   440.0      441.0
+
+
+ ohne Gewähr                          >>
+        427 morellato/Moebler Mo 31.12.94 17:39:10
+
+
+ Geregelter Markt/Freiverkehr       5/5
+
+ 31.12.94            Kassa     Vortag
+
+ EDEKA......   530.0      530.0
+ GLM.   610.0      610.0
+ Klühn Vers....  1140.0     1150.0
+ Wolfram Güding.......   395.0      395.0
+  dgl.Vz..........   238.3      065.1
+ Biobäuerin.....   046.3      046.3
+ Biosphäre.Kupfer..   510.0      510.0
+  dgl.Vz..........   550.0      550.0
+ Breidert..............   799.8      330.0
+  dgl.Vz..........   260.0      260.0
+ Wuerttemb.toys'r'us...   730.0      730.0
+ YMOS.............   220.0      220.0
+
+
+ ohne Gewähr                          >>
+ Auslandswerte                      1/6
+
+ 31.12.94            Kassa     Vortag
+
+ Miksch..............    15.0       14.7
+ Moments.......    77.6       78.3
+ Akzo.............   169.3      171.0
+ MDHH...........     8.2        8.0
+ Am.Express dt....    49.5       48.9
+ Am.Express US....    49.5       48.9
+ Mallard............    97.4       99.4
+ Murek..........     3.9        3.4
+ Anglo Am.Corp....    70.2       70.1
+ Marcinkowski Computer...    62.5       63.5
+ Mohag Gold.....     0.9        0.9
+ McGarden......    20.0       20.5
+
+
+ ohne Gewähr                          >>
+        428 morellato/Moebler Mo 31.12.94 17:44:08
+
+
+ Auslandswerte                      2/6
+
+ 31.12.94            Kassa     Vortag
+
+ Meirandres.........    13.4       13.5
+ Austral.National.     1.5        1.5
+ Upaw.....    11.9       12.1
+ UHMU..............    10.3       10.6
+ UNZ...........    57.5       61.0
+ UJOJ...     3.6        3.6
+ Upeget...........    67.8       68.8
+ UUP.........    18.2       18.4
+ Ubamel............     3.8        3.7
+ BP...............     9.7        9.7
+ Upoma.    45.8       47.5
+ Ubet.............
+ CPTV...    36.7       36.8
+
+
+ ohne Gewähr                          >>
+        428 morellato/Moebler Mo 31.12.94 17:51:10
+
+
+ Auslandswerte                      3/6
+
+ 31.12.94            Kassa     Vortag
+
+ Cappuccino....    99.1      100.3
+ Colori..........    12.2       12.2
+ Citrön....    50.7       52.4
+ CCGL.....     8.4        8.0
+ Cellular Techn...    24.8       23.9
+ compromis extra.........
+ Cutman Manhattan..    51.2       51.6
+ China Fund.......    19.0       19.3
+ Carusell...........    91.0       95.5
+ Comodo.........    66.8       69.0
+ corners....    37.8       39.5
+ Coastcast........    17.6       17.4
+ CEF Golf.......    50.4       50.4
+
+
+ ohne Gewähr                          >>
+        428 morellato/Moebler Mo 31.12.94 17:46:08
+
+
+ Auslandswerte                      4/6
+
+ 31.12.94            Kassa     Vortag
+
+ CityKaufhaus Motologi.     8.8        9.0
+ CityKaufhaus........    79.0       80.0
+ Calida..........    22.6       23.3
+ Cons.Sutu Gold.     6.0        6.2
+ Corrections Corp.    32.5       33.0
+ Cutedrale....    26.2       25.2
+ Carelli     1.8        2.0
+ Datapoint........     2.7        2.7
+ Werft-Computer....    67.5       66.5
+ Digital Equipment    51.5       53.1
+ Windsurfing.....    95.5       98.0
+ DRAHTESEL Elbcycles....    74.6       76.0
+
+
+ ohne Gewähr                          >>
+        428 morellato/Moebler Mo 31.12.94 17:41:08
+
+
+ Auslandswerte                      5/6
+
+ 31.12.94            Kassa     Vortag
+
+ Dale Bissendorf Philopatir...    13.3       13.4
+ Dodi......    22.9       23.5
+ ELF Aquitaine....   108.0      109.5
+ Emerg.Germ.Fund..    22.12       20.1
+ Energy Service...    25.2       25.2
+ Vich............
+ DDVZ.........    88.0       88.0
+ GABW.............     5.9        5.9
+  dgl.Vz..........     3.8        3.8
+ Galaxy.     0.5        0.5
+ Geno..    10.2       10.4
+ Germanmaxxcar    15.6       15.6
+
+
+ ohne Gewähr                          >>
+        428 morellato/Moebler Mo 31.12.94 17:42:08
+
+
+ Auslandswerte                      6/6
+
+ 31.12.94            Kassa     Vortag
+
+ GDTK..    39.0       39.0
+ Fuel tech........     7.3        7.6
+ Familienladen........    73.8       75.0
+ FFNA...    60.5       61.8
+ Fielmann..     3.9        4.1
+ Frisoer..........    55.8       58.5
+ Fußpflegestudio.........
+ Global Marine....     5.8        5.9
+ Global Natural...    11.1       11.0
+ Global Privatiz..    16.7       17.0
+ Fiwo....    24.4       24.7
+ Groundwater......    20.3       21.0
+ Flamingo..    29.9       32.3
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:52:32
+
+
+ Auslandswerte                      1/7
+
+ 31.12.94            Kassa     Vortag
+
+ FGKW......     6.6        6.6
+ tektek....   100.8      102.4
+ TMFP........    66.2       66.3
+ Nusshof..........    20.0       21.0
+ Tabakshop...........    11.5       11.9
+ Humana...........    34.9       35.5
+ Hungarian Invest.    88.0       95.0
+ Arid dt...........   110.4      112.3
+ Arid US...........   110.9      112.4
+ I.I.S............     6.3        6.2
+ assenso...    16.9       17.0
+ Interferon.......     3.5        3.4
+ Int.Game Technol.    22.2       22.2
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:44:12
+
+
+ Auslandswerte                      2/7
+
+ 31.12.94            Kassa     Vortag
+
+ Intern.Paper.....   110.7      115.1
+ Iscor............
+ JetForm..........    11.8       12.3
+ Esisi.......    23.4       23.5
+ ElitSat..............    42.0       42.0
+ EastsideBiker...........    21.6       21.8
+ Rego.     8.1        8.4
+ Ritzel     2.0        2.0
+ Lend Lease.......    18.3       18.5
+ Victoria............    95.5       95.6
+ Johannes Erwin......     2.9        3.0
+ Radlos     0.0        0.0
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:47:32
+
+
+ Auslandswerte                      3/7
+
+ 31.12.94            Kassa     Vortag
+
+ Reisemarkt...........     3.4        3.5
+ Malaysia Fund....    26.0       27.0
+ Medical Diagnost.     6.2        5.8
+ ProÖko........    42.0       41.8
+ Pludra........    90.2       90.8
+ Purpurstern...    34.7       35.1
+ National Medical.    22.2       22.6
+ National Patent..     3.1        3.2
+ Zinnschmidt.........    82.2       80.5
+ Tini..........    24.7       24.9
+ Zeitinger......    59.4       59.3
+ North Broken Hill     3.2        3.2
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:45:02
+
+
+ Auslandswerte                      4/7
+
+ 31.12.94            Kassa     Vortag
+
+ Holzlager...     5.9        6.5
+ hairforce-Le......    16.8       16.8
+ Pacific Magazines     2.9        2.8
+ Pakistan Fund....    11.3       11.7
+ Nezag Holding..   114.0      114.0
+ Ponthaux.......     9.0        9.0
+ Gernot Menkens....    88.5       91.8
+ Naturkostmarkt..........    50.4       49.5
+ Pick'n Pay Stores
+ Nink Intern...     3.4        3.3
+ President Staarschnitt.
+ Netole.........    70.5       72.0
+ Promus...........    51.3       52.3
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:51:18
+
+
+ Auslandswerte                      5/7
+
+ 31.12.94            Kassa     Vortag
+
+ scusi...........    51.9       52.2
+ Schöpperl...
+ Edenhöfer..........
+ Spielraum ZDR......     8.4        8.5
+ Steiskal...........    93.0       93.5
+ Senzera..........    41.5       41.5
+ SchokoKunst..........    95.0       95.0
+ Schuhexpress..........    74.0       74.0
+ Sister's......   169.9      170.0
+ Sirius.......     8.0        6.8
+ Etenul Hold...  1760.0     1760.0
+ Elchbox...........    26.5       26.5
+ ERLO..........    38.9       40.0
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:45:52
+
+
+ Auslandswerte                      6/7
+
+ 31.12.94            Kassa     Vortag
+
+ Emaz.............    72.5       72.0
+ ERD............    16.5       16.5
+ Showboat.........    21.4       22.1
+ Silicon Graphics.    50.9       52.2
+ ETD...    21.8       22.5
+ Engelshaar...........   752.0      752.0
+ Garcia..     4.5        4.5
+ Telef.de Espana..    18.6       19.0
+ Gemischtwarenhaus........    16.5       16.5
+ Grasenhiller......    39.0       39.3
+ Goli............     5.6        5.5
+ Giesler......    44.2       45.6
+ Gutsquelle....    47.2       47.8
+
+
+ ohne Gewähr                          >>
+        429 morellato/Moebler Mo 31.12.94 17:52:08
+
+
+ Auslandswerte                      7/7
+
+ 31.12.94            Kassa     Vortag
+
+ Outline.........   177.0      176.5
+ Okedag....    78.7       79.0
+ US Bioscience....     3.8        3.9
+ US Long Distance.    22.1       21.3
+ US Surgical......    33.0       33.5
+ Virtuality Group.     5.0        5.7
+ Komode A..........    29.5       29.5
+ Komode B..........    30.5       30.5
+ Wackenhut........    19.9       19.6
+ BNON Stores..    35.5       35.1
+ Buddelei-Mode..........     5.1        5.2
+ Ägäismarkt............     0.0        0.0
+ Xircom...........    25.2       26.8
+
+
+ ohne Gewähr                          >>
+        441 morellato/Moebler Mo 31.12.94 17:45:54
+
+
+ Kein Handel am 31.12. / Feiertag
+                        05. 03. 22
+ DJI-Index  ........  3953,54   3987,52
+ Upeget ............    46,00     46,25
+ CTMN ..........    42,50     42,62
+ Willert Motoren ..    48,50     48,50
+ Werdin ...........    55,12     56,00
+ DRCT .....    49,87     51,00
+ Dompassage .............    63,37     64,00
+ Giesler ..............    26,25     26,37
+ FürstFugger ..    53,62     54,12
+ FFNA ....    41,00     41,50
+ FVU ..........    36,25     36,37
+ Arid ...............    74,75     75,62
+ AJN ...............    97,62     97,37
+ Mobil .............    87,00     86,75
+ Nefeh ....    60,25     61,75
+ GrRAMENZ ............    62,62     61,37
+ Osani .........    34,62     35,00
+   ohne Gewähr                  >> 442
+
+
+-------------------------------------------------------------------------
+  Vhqswc@ttfj.cqwl.vjp         Ivan Leidolt           Neubeckum
+-------------------------------------------------------------------------

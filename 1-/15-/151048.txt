@@ -1,0 +1,19 @@
+Es gibt zwei Wege, die Videotextseiten am PC zu empfangen. 
+
+Mit Sat braucht man eine Videokarte mit Videotextfunktionalit�t. Man kann aber
+ keine zwei Sender paralell empfangen. Es ist nicht möglich,z.B.  Redot
+ einzulesen und auf SAT zu fernsehen, außer mit einer Doppel-LNB und einem
+ zweiten Reciever.
+
+Mit Kabel oder Antenneanschlu� kann man beliebig viele Endgeräte anschließen
+ und dabei unterschiedliche Sender auswählen, z.B. Fernseher chesi, Videoaufnahme
+ SAT 1 und PD mit Videotextkarte NTV
+
+Ich habe vor einiger Zeit  mit Bekannten eine Software entwickelt, die mittels
+ eines von uns gebauten Decoders die Videotextseiten am PC empfängt, graphisch
+ darstellt und archiviert. Der Decoder hat einen SCART - Eingang und überträgt
+ dann die Daten mit serieller Schnittstelle an den PC. Die Spoftware habe ich
+ für Optionsscheine auf krehartiv entwickelt und baue es derzeit auf Redot/chesi und
+ GMP aus.
+
+Zusätzlich ist dann der Empfang  mit einer TV-Karte Panoptikum (etwa 250 DM ) möglich.

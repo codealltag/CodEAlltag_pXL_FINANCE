@@ -1,0 +1,24 @@
+Hallo Patrick,
+
+PM> >Und was ist der RSI (relative Staerke Index)?
+PM>
+PM> Der RSI  vergleicht  n i c h t  zwei Werte miteinander, sondern setzt
+PM> die Summe der Aufwärtsbewegung   e i n e s   Wertes  in Relation zur
+PM> Summe der Abwärtsbewegung   (über den gewählten Zeitraum).
+PM>
+PM> Formel:
+PM>
+PM> RSI=100-(100/(1+RS))
+PM>
+PM> wobei        RS=Durchschnitt d. Aufwärts-Schlußkurse von n Tagen
+PM> dividiert durch  Durchschnitt d. Abwärts-Schlußkurse von n Tagen.
+
+habe ich das richtig verstanden?
+
+Für n=5 und den Kursen 101, 103, 102, 104, 99 und zuletzt 100 für die
+letzten 6 Schlußkurse ergibt sich RS=(103+104+100)/3 geteilt durch
+(102+99)/2 = 102.333/100.5.
+
+RSI damit ungefähr 50,45?
+
+fG - Florian

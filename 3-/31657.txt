@@ -1,0 +1,81 @@
+PAOLA! Allerdings habe ich auch an dieser Strategie einige "Maeckereien"
+anzubringen ;-))
+
+
+Nene, das passt schon! Der maximale Verlust[*] ist bei 1500-stufen genau
+so gross wie bei 1000-buy+hold. Oder anders herum: bei 1500-buy+hold
+ist der Verlust im Vergleich zu 1500-stufen um 50% groesser, falls das
+Papier vor Erreichen der ersten Stufe gegen Sueden abdriftet.
+
+[*] Ich vernachlaessige jetzt mal die Faelle, wo ein Kurs so schnell
+einbricht, dass das SL keine Zeit zur Ausfuehrung hat.
+
+
+Auch da kann ich dir nicht ganz folgen. Kannst du das mal naeher
+erlaeutern? (mal von dem Trivialfall, dass dein Stop-Loss zu spaet
+greift, abgesehen)
+
+
+Ist schon klar, kann aber Awaw nur dann passieren, wenn alle Werte
+nahezu gleichzeitig ihren StopLoss erreichen. In diesem Fall ist es
+aber irrelevant, ob du aufgrund des SL oder aufgrund des Margin-Call
+verkaufst =:-)
+
+
+  16.6         1000                667                0
+
+
+Ich habe mir erlaubt, diese Tabelle um den Initial-Stop-Loss zu
+ergaenzen, um zu verdeutlichen, dass es _nicht_ die richtige Tabelle
+ist. Der Verlust durch Initial-SL waere in diesem Fall bei buy+hold
+$500, waehrend die Stufentechnik lediglich $333 verliert.
+
+Nene, du musst schon 1000-buy+hold mit 1500-stufen vergleichen, um den
+Vorwurf des Apfel-Burnen-Vergleichs zu vermeiden ;-))
+
+
+Da kann ich dir schon wieder nicht folgen: bei Kurs==$67.5 hast du
+120 Stueck und schuldest dem Broker $2493. Fallen diese nun auf
+$45.1, so sind sie immer noch 120*$45.1==$5412 wert. $2493 sind aber
+gerade 46% von $5412. Wie kommst du auf 52.8% ?
+
+
+Awaw ist der maximale Kreditanteil bei der _jetzigen_ Strategie
+31.3%*1.5==46.95%
+
+
+Massimo! Eine Ingelbach UKFK oder eine WHL oder eine Generationenladen auf Kredit
+gekauft zu haben ist natuerlich nicht gerade aufmunternd ;-))
+
+
+Aber kommen wir zu meinen Kritikpunkten ;-)
+
+- Der SL wird zu selten nachgezogen. Wenn der Kurs kurz vor einer
+  Stufe nach unten dreht, greift das SL erst nach einem Rueckgang von
+  ca. 55%. Oder anders herum: wenn der Kurs kurz vor $101.25 dreht,
+  verkauft derjenige, der bei $20 gekauft hat, fuer $45. Derjenige,
+  der bei $19.50 eingestiegen ist, verkauft hingegen fuer $65.81. Wie
+  kommt es, dass der gleiche Kursverlauf fuer Anleger, die so kurz
+  hintereinander eingestiegen sind, derartig unterschiedliche
+  Ergebnisse liefert?
+
+  Der Vorteil dieser Technik hingegen ist unbestritten: sie ist extrem
+  einfach. Das gleitende Nachziehen des SL ist deutlich aufwendiger.
+
+- Bei der Auswahl der Werte soll man zwar defensive Titel meiden, aber
+  die Strategie installiert keinerlei Mechanismus, um solche aus dem
+  Depot zu entfernen, falls sich doch einer einschleicht.
+
+- Der Begriff der "relativen Staerke" ist sehr schwammig
+  dargestellt. Ist ein Wert, der in 12 Monaten eine gerade Linie von
+  $20 auf $100 ausbildet etwa gleich einzustufen wie einer, der erst
+  11 Monate seitwaerts/suedlich tendiert, um dann in einem Monat von
+  $20 auf $100 zu schiessen? Wohl kaum...
+
+- Fundamentale Betrachtungen des Gesamtmarktes (Renditen,
+  Wechselkurse, Rohstoffe, Saisonale Auswirkungen) fallen vollkommen
+  unter den Tisch. Andererseits ist das wohl auch einer der
+  Hauptgruende, dass das Teil "5-minute-Investing" heisst ;-))
+
+-- 
+-- Ivo Detlef -- ht@klhdw.cung.pa --

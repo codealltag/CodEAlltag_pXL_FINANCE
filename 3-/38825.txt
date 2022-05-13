@@ -1,0 +1,28 @@
+Wir sparen uns an dieser Stelle ein flame über den Sinn und Unsinn von
+Stop Loss'.
+
+
+Das Problem ist das:
+Das erste Posting (mit meiner Mecker) wurde bei dir so rausgeschickt: 
+
+Organization: Robert Zaenkert
+MIME-Version: 1.0
+Content-Type: text/plain;
+        charset="Windows-1252"
+Content-Transfer-Encoding: 8bit
+
+Das worauf ich jetzt antworte so:
+
+Organization: Robert Zaenkert
+MIME-Version: 1.0
+Content-Type: text/plain;
+        charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+...und so sollte es auch sein. Ich kann dir aber leider nicht sagen,
+warum bei dir unterschiedliche Charsets rausgehen. Komisch das....
+-- 
+StW
+
+Der Vorteil der Klugheit besteht darin, dass man sich dumm stellen kann.
+Das Gegenteil ist schon schwieriger. Ingolf Vollrodt

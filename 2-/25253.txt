@@ -1,0 +1,35 @@
+Um dir vielleicht auch mal zu erklären, warum sich die anderen Herren etwas
+über deinen Stop-Buy Order amüsieren:
+
+Ein Stop-Buy Order sagt im Grunde nur eines aus: "halte diesen Order solange
+zurück bis eine Kursfeststellung auf oder unter einem bestimmten Betrag
+erfolgt ist, und setze meinen Order dann als Market-Order (also ohne Limit)
+ein."
+
+Und hier ist eben das Problem: wenn die Kursfeststellung einmal auf 0,005
+erfolgt ist, heißt das, dass bereits zu diesem Preis gehandelt wurde und das
+Angebots-Order von 0,005 komplett darin aufgegangen ist. Der nächste ASK
+Order im Orderbuch hingegen mag schon wieder bei 0,02 liegen, und genau dann
+tritt dein Limit-loser Market-Order in Aktion.
+
+Was du eigentlich gebraucht hättest wäre ein Stop-Buy-Limit Order, bei dem
+du sowohl eine Stop-Grenze als auch eine Limit-Grenze angibst. Wird der Stop
+ausgelöst, wird der Order als Limit-Order eingestellt und so wäre das, was
+dir passiert ist, eben nicht passiert.
+
+Allerdings bieten nicht alle Online-Broker ihren Kunden diese Orderform an.
+
+Es ist nicht ohne Grund, dass Optionsscheine und andere Hebel-Derivate in
+der höchsten Risikoklasse liegen und von den Banken verlangt wird bei
+Depoteröffnung dich per Fragebogen in eine Risikoklasse einzustufen. Ein
+falscher Klick aus Unwissenheit, und dein ganzes Geld kann in wenigen
+Minuten futsch sein, vorallem wenn es noch mit ein oder zwei Nullen zuviel
+im Ordervolumen gepaart ist. Und die Börse ist leider knallhart - da gibt es
+niemanden den man anrufen kann und ihn bitten einen Trade zurückzunehmen,
+weil das doch alles nur ein Mißverständnis war.
+
+Ich wünsche dir jedenfalls viel Glück bei deinen Optionsscheinen, und dass
+dir das Lehrgeld erspart bleibt - wenn's was hilft.
+
+Für die Zukunft Stop-Orders nur bei Werten mit geringer Volatilität und
+keinesfalls bei Pennystocks einsetzen!

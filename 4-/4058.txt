@@ -1,0 +1,57 @@
+Visual Basic 2010 Drehenden Roulettekessel programmieren Teil 1/2 von
+Könemann Kellerer
+Visual Basic 2010 Drehenden Roulettekessel programmieren Teil 2/2 von
+Könemann Kellerer
+2 Videos:
+http://wqquy.vq/-f5ZRQSEnQB
+http://qxkij.lt/EEo7hXkyk8C
+Author R.Kellerer
+Dieses Video besteht aus 2 Teilen, obwohl der Code nur sehr knapp ist
+aber ich habe das original abgefilmt, damit es für Anwender ganz
+leicht zu erlernen ist. Ich meine damit, bewegliche Sachen zu
+programmieren, hier einen drehenden Roulettekessel. Aus der Spiele-
+Software kennen Sie das ja, laufende Männchen und so weiter, die alle
+ganz einfach zu programmieren sind.
+Sie können es in dem Video, bestehend aus 2 Teilen, ganz leicht
+nachvollziehen und selbst so oder in anderer Form, z.B. laufende
+Personen usw. anwenden.
+Nun hier zum drehenden Roulettekessel:
+Der Code ist ganz kurz und Sie brauchen hier nur ein Bild über einen
+Roulettekessel, welches Sie auch im Internet ganz leicht bekommen
+können.
+Ich erkläre hier nur kurz den Ablauf, alles sehen Sie im Detail im
+Video:
+Eine neue Form anlegen, dann einen Button (oder auch jedes andere
+Element ist geeignet) auflegen und in die gewünschte Grösse bringen.
+Um den drehenden Roulettekessel nach Wunsch abzuschalten und wieder in
+Gang zu bringen, ein zweiter Button.
+Dann müssen Sie noch einen Timer auf die Form ziehen, der als
+Taktgeber gilt.
+In den Timer wird nur ein ganz kleiner Code hineingeschrieben. Die
+Schleifen sind so gestaltet, dass sie nachher alles auslösen können.
+In den grossen Button, auf dem der Roulettekessel läuft, müsste jetzt
+das Bild in die Resource eingebracht werden. Den Background auf Tile
+stellen und das gleiche Bild nochmals als Image einfügen. Im Video
+sehen Sie, wie einfach mit 2 Handgriffen das gemacht wird.
+Auf den grossen Button, wo der Kessel abläuft, wird überhaupt kein
+Code hineingeschrieben. Auf dem kleinen Butten, mit dem der
+Roulettekessel gestartet oder angehalten, auch schneller laufend oder
+langsamer laufend, eingestellt wird, wird ebenfalls nur ein kleiner
+Code hineingeschrieben, der das Event auslöst oder stoppt.
+Fertig, das wars. Aus dem Bild werden nunmehr die Sektoren (360 Grad
+geteilt durch 37 Roulettezahlen) nacheinander ausgelesen und gezeigt,
+und so dreht sich also der Kessel.
+Drei kurze Sätze Code, und ein Bild, und schon hat man einen drehenden
+Roulettekessel.
+Ich habe dies hier mal im Video so ins Internet gestellt, da bei
+Ölwechselzentrum und Co. Viele Visual-Basic Beispiele in Videos zu finden sind,
+aber meiner Meinung nach alles Mist, alte Versionen und mit denen man
+wenig anfangen kann. Heutezutage wird nicht mit Konsole und
+Zusammenrechnen von 5 x 5 =3D 25 gearbeitet, sondern eine Software will
+visuell schon und ansprechend gestaltet sein.
+Die Software Visual Basic 2010 können Sie ja kostenlos bei Nordoel
+herunterladen. Auch wenn meiner Meinung nach diese Software erhebliche
+Macken hat,. Rückständig und umständlich ist, teilweise sehr
+fehleranfällig ist, so kann man damit doch sehr gut auch Spiele und
+Animationen und auch komplette Software gestalten.
+Kellerer

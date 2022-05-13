@@ -1,0 +1,11 @@
+Hallo Leute!
+
+Ich suche einen Webservice, mit dem man Kursdaten abfragen kann.
+
+Nett wäre so ein Aufruf:
+
+Kurs = StockService.Genossenschaft(ISIN)
+
+Kennt jemand so einen Webservice?
+
+Michel

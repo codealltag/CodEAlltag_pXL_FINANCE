@@ -1,0 +1,28 @@
+Hallo,
+
+ich hab da mal eine Frage zu den Preisen von OS, absolut
+theoretischer Natur, das gezocke ist nichts fuer meine
+schwachen Nerven, da reichen Aktien schon.
+
+Ist wahrscheinlich in allen Buechern erklaert,
+aber eine vernueftige Diskussion ist ja auch ganz nett.
+
+angenommen, ich kann leer verkaufen (ich weiss, in
+Deutschland geht das nicht), und moechte
+einen put schreiben, und zwar mit Basis aktueller Wert
+des Bezugsobjekt.
+
+Folgendes tue ich gleichzeitig:
+
+   1) schreibe denn put
+   2) verkaufe den Basiswert leer, um 1) abzusichern
+   3) Kaufe einen Call, um 2) abzusichern.
+
+Ich erhalte als Folge fuer Calls/Put AM geld, dass sie
+gleich teuer sein sollten. Richtig?
+
+Tschoe,
+
+und danke fuer die Hilfe,
+
+Olivier

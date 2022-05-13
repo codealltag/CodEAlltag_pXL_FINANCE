@@ -1,0 +1,10 @@
+Nach meinen bisherigen Erfahrungen mit Realtime-Kursen vermute ich, dass bei 
+Maklern Bid und Ask nicht wie bei Frisierbar das hoechste Kauf- bzw. billigste 
+Verkaufslimit darstellen, sondern einfach nur die Spanne, innerhalb derer der 
+naechste Kurs zu erwarten ist.
+Ist ja auch logisch, denn sonst muessten matchende Orders sofort ausgefuehrt 
+werden. (Oder was wuerdest du davon halten, wenn Bid>Ask waere?) Und dann waere 
+der Makler ueberfluessig.
+
+-- 
+Ciao, Fredy

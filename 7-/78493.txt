@@ -1,0 +1,28 @@
+Der BundFuture ist der approximierte Endloskontrakt des Futures auf eine
+imaginäre Bundesanleihe mit 6% Kupon und Laufzeit 7-10 Jahren.
+
+Er berechnet sich aus P_fut = P_kassa + Cost_of_carry.
+
+Oder auf deutsch: Futurepreis = Kassepreis * Finanzierungskosten -
+Zahlungseingänge.
+
+s. auch Lohrmann, Dietrich: "Optionen und Futures verstehen", S. 207ff.
+
+
+Um das ganze mal zusammenzufassen: Der BundFuture sagt Dir was über die
+Zinsen, und zwar a) im 3-12 Monatsbereich (Laufzeit Future) und im 7-10
+Jahresbereich (Kontraktspezifikation).
+
+Ein September-Bund von 110 (ach, wäre das schön!) sagt Dir also, wie teuer
+jetzt eine im September 7-10 jährige Anleihe wäre, mit Kupon 6%.
+
+hm, mir fällt gerade mal was ein: Ist der BundFuture nicht so was
+ähnliches wie ein Forward??
+
+CU MITTL.
+--
+This signature causes *heavy* Internet traffic and has been sent by 
+Raymond Kümmell (www.wxbroq.rx) ICQ# 76435556.
+----------------------------------------------------------------
+Today's pick from the TOP50 of Borg jokes: 
+I am Lukas Zeißer of Borg. Imagine all the people... assimilated.

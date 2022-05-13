@@ -1,0 +1,57 @@
+Salve Oliver,
+
+:
+: Wobei in die Modellbildung wohl auch Erfahrungen aus der Vergangenheit
+: wesentlich eingehen. 
+
+Nein nicht in die Modellbildung! Nur in die Zaehldichte fuer die Uebergangs-
+Wahrscheinlichkeiten. Mehr Probleme machen die Zufallsgeneratoren, denn
+Zufall kann man nicht berechnen.
+
+: Hier am Lehrstuhl benutzen wir uebrigens Markovketten
+: zur Spracherkennung, und ganz grob kann man sagen, das man auf diesem
+: Gebiet mit n.N. und M.ketten etwa gleich gute Ergebnisse erziehlt.
+: 
+: Auf die Schnelle faellt mir bei M.ketten zur Modellierung nur ein, dass
+: man als Zustaende die relativen Kursaenderungen nehmen koennte, dann wird
+: man aber ungefaehr das gleiche machen, wie bei autoregressiven Zeitreihen.
+
+Ich wuerde auch die relativen Kursaenderungen nehmen plus Wochentag.
+
+: Solche Ansaetze eignen sich m. W. nicht zur laengerfristigen Prognose, weil
+: die Korrelation zwischen Kursaenderungen bei groesseren time-lags schnell
+: Null wird.
+
+Gibt es fuer Aktien ein Verfahren was eine laengerfristige Prognose ermoeglicht?
+Wenn man Markoffketten nimmt natuerlich nicht! Im Jetztzustand sind ja alle
+Informationen enthalten ( siehe Def. einstufige-homogene M.-ketten ).
+Ein Aktienkurs wird ja auch so gebildet, dass moeglichst viel Material
+gehandelt werden kann und die Information der meisten Kaeufer/Verkaeufer
+ausgeglichen wird. Ich vergleiche das immer gerne mit dem Wetter!
+Wieso soll Morgen die Sonne scheinen wenn sie vor 10 Tagen geschienen hat.
+Im Sommer ist es auch nicht immer warm, aber meistens waermer als im Winter.
+Beim Zinszyklus wissen wir nicht mal wann "Winter/Sommer" ist.
+
+: Bei Kurzfristprognosen (max. wenige Tage) sind die Kurs-
+: schwankungen leider zu klein, so dass die Gebuehren die Gewinne zunichte
+: machen (eventuell koennte man es aber mit Futures versuchen).
+: Kennst Du vielleicht noch andere interessante Ansaetze hierzu ?
+
+Ein Tip der mir sehr oft geholfen hat. Beim Kauf die ersten 5 Boersentage
+im Monat beobachten, und das Limit fuer den restlichen Monat so berechnen:
+Min[ersten 5d] - ( Max[ersten 5d] - Min[ersteb 5d] )   > 0  ( :-) )
+So erwischt man die schwachen Tage. Das Problem sind die Gebuehren!
+Bei 4% Kursschwankung im Monat kann man als Kleinanleger ja nie mehr als
+2-3% pro Monat maximal erzielen, das muss dann auch noch versteuert werden.
+Bei einer Order von 10.000 DM bleiben nur 100-150 DM (1-1,5%).
+Ich hoffe, dass Du Dich mit so kleinen Orders nicht abgeben muss :-)
+
+
+ciao
+Giorgio svsevoo@hvby.uxg-firmyon.wi, 765/2216-97 85 Raum X28 Fax: -68 84
+http://nafwu73.vsrz.uiz-rxafyrh.od/Buojp.wej.xmnvnqvhnsk.gqmkd.zwombhh.cmdxaus
+http://rvf.cotk.bfx-zqwmtkb.eo/lbmr/oprvgqn/erlhdtie.xwul                __
+    _||_/    Frisurenstübchen. JOEH, Nonnstraße 89. D-38860 Birndorf /    \
+  _/                                                                  |      |
+ _)__   _    _________A_M___A_N_F_A_N_G___W_A_R___D_A_S___O_M_E_G_A_!__\    /__
+schaerfere Konturen an. Bundeskanzler ist hier die Variable, bitte einsetzen.

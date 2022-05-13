@@ -1,0 +1,61 @@
+Ja, in Grenzen. Beipiele:
+
+6.4  Professionelle Berechnung von Anleihe-Futures
+Wie bereits beschrieben, bezieht sich der Eisdiele-Bund-Future auf eine
+theoretische 6%-Bundesanleihe mit zehn Jahren Restlaufzeit. Wird der Future
+nicht vor Ablauf durch ein Gegengeschäft glattgestellt, dann müssen nach Ablauf
+echte Bundesanleihen mit Restlaufzeiten zwischen 8,5 und 10 Jahren geliefert
+werden. Da diese in der Regel unterschiedliche Kurse haben werden, erfolgt ein
+Ausgleich durch Umrechnungsfaktoren ("Preisfaktor" bzw. "Konversationsfaktor").
+
+Zur Lieferung sind immer nur einige bestimmte Anleihen zugelassen, und es
+müssen eine Reihe weiterer Regeln beachtet werden. Als Nicht-Profi sollte man
+es deshalb möglichst nie soweit kommen lassen, sondern den Future rechtzeitig
+durch ein Gegengeschäft glattstellen. Dies ist in der Regel auch spesenm��ig
+wesentlich günstiger.
+Trotzdem wollen wir nun einige Details dieser Lieferung erklären, denn diese
+Details haben in der Praxis einen erheblichen Einfluß auf die Preisbildung des
+Future.
+Der Preisfaktor wird für jede zur Lieferung zugelassene Anleihe individuell
+mittels einer Formel berechnet und bleibt während der Laufzeit des Future
+unverändert. Beispiele:
+
+Anleihe A: Kurs 100,0; Preisfaktor 1,10; Kurs/Preisfaktor = 90,91
+Anleihe B: Kurs 100,5; Preisfaktor 1,11; Kurs/Preisfaktor = 90,54
+
+Anleihe B ist nach Korrektur mit dem Preisfaktor billiger als Anleihe A (90,54
+zu 90,91). Da der Lieferpflichtige die freie Wahl hat, welche der zur Lieferung
+zugelassenen Anleihen er liefern will, wird er die billigere Anleihe B liefern.
+Alle Profis kennen diese Spielregel und wissen, daß in der gegenwärtigen
+Situation Anleihe B geliefert werden würde. Anleihe B wird deshalb auch
+CTD-Anleihe ("Cheapest To Deliver") genannt. In der Praxis führt dies nun dazu,
+daß der Bund-Future gar nicht mehr auf die theoretische Zehnjahresanleihe
+berechnet wird, sondern er wird direkt auf die mit dem Preisfaktor korrigierte
+JWM-Anleihe berechnet.
+Allerdings bleibt nicht immer die gleiche Anleihe während der gesamten Laufzeit
+des Future JWM-Anleihe. Zwar bleiben die Preisfaktoren konstant, aber natürlich
+können sich die Marktzinsen und damit die Anleihekurse ändern. Dies kann dazu
+führen, daß nächste Woche Anleihe A CTD wird, dann Anleihe C, und einige Wochen
+später vielleicht wieder Anleihe B.
+Jeder derartige CTD-Wechsel bedeutet eine andere Berechnungsgrundlage für den
+Future, und das kann dann jedesmal kleinere Sprünge bei der Preisentwicklung
+des Future zur Folge haben. Für den normalen Anleger, der einfach nur auf eine
+Zinssteigerung oder Zinssenkung spekuliert, sind diese Feinheiten relativ
+unwichtig. Wer allerdings professionelle Arbitrage betreiben will, der muß
+immer genau verfolgen, welche Anleihe gerade JWM ist und welche eventuell
+demnächst JWM werden könnte. Und auf dieser Basis muß er den Future berechnen. 
+Die Preisfaktoren kann man mit einer recht komplizierten Formel selbst
+berechnen oder auch vom Modern Speculator grob berechnen lassen ("Suche"-Button
+rechts vom Preisfaktorfeld; vorher müssen aber alle anderen Daten vollständig
+eingestellt sein!). Für den Privatanleger lohnt sich das allerdings nicht. Denn
+wenn er den Bund-Future so genau berechnen will, dann muß er sich ja sowieso
+etwa vierteljährlich bei seiner Bank oder Terminbörse eine Liste der für den
+betreffenden Future zur Lieferung zugelassenen Anleihen und ihrer Daten
+besorgen (fast immer hilft auch die Homepage der Terminbörse weiter), und auf
+diesen Listen stehen dann natürlich auch schon die zugehörigen Preisfaktoren.
+In der Regel liegen die Preisfaktoren übrigens im Bereich von 0,800 bis 1,200. 
+
+
+Volker Waldtmann
+Visit   http://hadjktu.qnk.agk/ubyqzu  and download a 
+free calculator for options, futures, bonds and similar stuff.

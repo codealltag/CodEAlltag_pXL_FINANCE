@@ -1,0 +1,22 @@
+Die miese Performane kommt wirklich durch das Rollen der Futures 
+zustande. In der Monatszeitschrift von Galaxy kann man das sehr 
+schön verfolgen - da stehen die Rolltermine und dazugehörigen Ratios 
+(Bezugsverhältnisse). Da l seit längerem in Contango notiert, wird das 
+Ratio bei jedem Rollen kleiner.
+
+Beispiel RL4LO0:
+Future fällig   aktuelles Ratio
+Apr 29          24
+Mai 30          0,9874
+...             ...
+Apr 30          0,8874
+Mai 31          0,8760
+Die Spalte "aktuelles Ratio" ist streng monoton fallend.
+
+So lange l weiterhin in Contango notiert, wird man mit Zertifikaten auf 
+rollende Futures keinen Blumentopf gewinnen - es sei denn, man ist nur 
+kurzfristig zur rechten Zeit investiert. Doch dann kann man auch gleich 
+Mini-Futures nehmen.
+
+Gruß
+Benedikts

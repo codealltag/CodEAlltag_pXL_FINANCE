@@ -1,0 +1,1693 @@
+User Preferences
+User Information
+First Name Type your first name.
+Last Name Type your last name.
+Nickname Type your Internet Phone nick name. This is required to connect =
+to
+Community Browser servers. The nick name can contain a maximum of nine
+characters without spaces.
+Comment Type a comment about yourself
+Phone Type your phone number. Other users can call you by this number
+through the Dialer if you include the country code. You can enter the =
+number
+with or without hyphens.
+E-mail Type our e-mail address. Other users can use this address to send =
+you
+voice mail or to call you if you have subscribed to the Addressing =
+Service
+Country Type the country you are in (click None to leave this item empty =
+in
+the user lists).
+Internet Phone Address Displays your Internet Phone address if you
+subscribed to the Addressing Service. This address is visible to other =
+users
+when you are in a chat room. Other users can use this address to call =
+you
+directly.
+Audio Preferences
+Audio Settings
+Start Test/Stop Test Click to start or stop, respectively, the audio =
+test.
+Status Displays the state of the test:
+Idle - No voice
+Active - Recording voice, but not long enough for significant playback
+Recording - Recording voice, long enough for significant playback
+Playing - Playing back the recorded voice
+Record Drag the slider to adjust the voice recording level. This is only
+available when the Voice Activation Mode is Manual.
+Playback To increase the volume, drag the slider to the right.
+Voice Activation Mode Automatic Quiet Environment - Select to activate
+automatic voice if you use Internet Phone in a quiet environment.
+Automatic Noisy Environment - Select to activate automatic voice if you =
+use
+Internet Phone in a noisy environment.
+Manual - Select this option to activate the voice manually.
+Time Before Idle - Adjust the wait time from the end of the voice until =
+the
+recording is stopped.
+Devices
+Recording Device Select the recording device that you use during calls =
+and
+voice mail.
+Playback Device Select the playback device that you use during calls and
+voice mail.
+Use Full Duplex Select to start Internet Phone automatically in =
+full-duplex
+mode. If the user at the other end of a call is in half-duplex mode, or =
+if
+full-duplex mode fails, Internet Phone will run in half-duplex mode.
+Use Speaker Phone Mode Select this option if you use speakers and
+microphone. This will reduce echo problems when you are in a full-duplex
+mode. When you use handset or headset clear this option for better
+performance.
+Use Standard Sampling Rate Select to run Internet Phone with devices =
+that
+claim to support 8000 Hz sampling rate, but in fact, do not at a
+satisfactory level. This option reduces audio quality and affects both
+recording and playback devices.
+Use 8 Bits Select to run Internet Phone with devices that claim to =
+support
+16-bit audio but in fact, do not at a satisfactory level. This option
+reduces audio quality and affects both recording and playback devices.
+Use Audio Compatible Mode Select this option if you have an audio device
+with MWave chipsets or Sound Blaster on Windows NT. You can also select =
+this
+option if you have another card and the other options do not fix your =
+audio
+problem.
+Codecs The Audio Codecs properties affect recording and transmitting =
+audio
+only. Audio playback is affected by the other user's Audio Codecs =
+settings.
+Choose codec automatically Select to allow Internet Phone to decide upon =
+the
+audio codecs and their priority. This automatic selection will be =
+suggested
+to the other user' system while negotiatiating audio capabilities.
+Clear to set audio codecs priority manually. Note that even if you set =
+the
+codecs priority manually, the actual codec that will be used during a =
+call
+depends on the other user's supported codecs and the available =
+bandwidth.
+Priority of codecs used for audio compression If you choose to set the =
+audio
+codecs priority manually, you can arrange the codecs in the list by
+priority:
+Click Up to move the selected codec up the list, giving it a higher
+priority.
+Click Down to move the selected codec down the list, giving it a lower
+priority.
+Events
+Audio Notifications Double-click a listed event to activate its event =
+sound.
+No Sound Select to disable all event sounds.
+Change Sounds Click to change an event sound from Döllinger Control Panel
+Play button Click to play the selected event sound.
+Stop button Click to stop the currently playing sound.
+Community Browser Preferences
+Main
+Join to last room on startup Select to automatically open the Community
+Browser with the last room that was active each time you start Internet
+Phone.
+Enable/Disable Parental Control Click to enable parental control. A =
+dialog
+box will open, and prompt you to enter and confirm a supervisor =
+password. If
+you enabled parental control, the button will then change to a Disable
+button. Click to enter the password and cancel parental control.
+Servers
+Try another server after: XX Seconds Set the amount of time Internet =
+Phone
+will try to connect to one server before moving on to the next server if =
+the
+attempt was unsuccessful. The default time is 30 seconds, and the =
+allowed
+range is between 10 and 120 seconds.
+Clear Server Performance Information Click to reset the server =
+performance
+history.
+Web Content
+Cache Folder The Community Broswer employs a cache in order to reduce
+download time from the Internet. A cache is a folder on your hard disk =
+in
+which the Community Broswer stores information downloaded from the =
+Internet.
+The next time you want to access this information, it will appear much
+faster because it is already stored on your hard disk. This means that =
+the
+first time you use the Community Browser things may be a bit slow, =
+depending
+on the speed of your Internet connection. As you continue to use the
+Community browser, things will speed up, since most of the information =
+is
+already stored locally in the cache. This box displays the folder =
+containing
+the Community Browser browser cache.
+Cache Size Set the amount of memory the cache can use. The default is =
+10MB,
+and the allowed range is between 5MB and 50MB.
+Move Cache Folder Click to select a different path for the cache folder.
+Clear Cache Click to clear the cache contents. This operation will close =
+the
+Community Browser and the next time you use it things may be a bit slow,
+since the information is downloaded from the Internet.
+Web Browser The Community Browser displays information your computer
+receives from the Internet, just like a Web browser. If you have =
+Goldlaub
+Internet Jurishop installed on your system, you will be able to view =
+content
+that contains animation, plug-ins and Java applets. If you do not have
+MLCN installed, the Community Browser will display its =
+content
+using an internal browser, which means that you will not be able to view =
+all
+types of content properly. We therefore recommend that you install =
+Gemüsescheune
+Internet Explorer on your system. Note that if you use another type of =
+Web
+broswer, such as Netscape Navigator, you can install Internet Explorer =
+on
+your system and still use the other browser to browse the Internet.
+Internal - Select to use the internal Web browser to display Web content =
+in
+the Community Browser.
+Internet Explorer - Select to use Microsoft Internet Explorer to display =
+Web
+content in the Community Browser.
+Use Proxy Select to enable to enter an HTTP proxy server address and =
+port.
+Proxy Port Type the proxy server port to use if the Use Proxy option is
+selected. Grayed when Use Proxy option is not selected.
+Proxy Address Type the host name or IP address of the proxy server to =
+use if
+the Use Proxy option is selected. Grayed when Use Proxy option is not
+selected.
+Video Preferences
+Video Test
+Device Name Displays the name of the video device that is recording =
+during
+the video test.
+Codec Name Name of the video codec that is being used during the video =
+test.
+Different codecs can be selected.
+Start/Stop Test Click the Start Test button to start the video test. =
+Click
+the Stop button to stop the video test.
+Codec Quality Drag this slider to adjust the video compression quality. =
+If
+the quality is higher, the video speed is slower. If the quality is =
+lower,
+the video speed is higher.
+Frame Rate Displays current speed of the video display (number of frames =
+per
+second) in the remote view window.
+Bandwidth Displays available bandwidth required to transmit the =
+compressed
+video in the remote view window.
+Device
+Device Name Select the video device to capture video.
+Video Source Click to adjust camera properties of the selected video =
+device
+driver.
+Video Format Click to set image size* and quality properties of the =
+selected
+video device driver.
+Video Display Click to set Self View properties of the selected video =
+device
+driver.
+Captured picture size Select the preferable video capture size*: Small,
+Normal, Large.
+*Please note: Internet Phone receives the information about the image =
+size
+from your selection for the Captured picture size option (i.e., Small,
+Normal or Large) and ignores any changes you apply to the image size =
+through
+the Video Format dialog.
+Voice Mail Preferences
+Message
+Prompt for Voice Message whenever someone is not available Select to
+automatically open the Voice Mail window after you call to an e-mail
+address, but there is no answer.
+Default Comment Type text that will automatically be included in your =
+voice
+mail message.
+Signature
+Reply-to Address Type your e-mail address for your voice mail in case =
+you do
+not want to show your e-mail address to other users, but you want to use =
+the
+Voice Mail feature.
+Signature Type a signature that will automatically be included in your =
+voice
+mail message.
+Send my Internet Phone Address shortcut with the message Select to =
+attach an
+Internet Phone Address file to your voice mail so that the other user =
+can
+return your call easily.
+Attach a shortcut to your Internet Phone Address to every message This
+option is enabled only if you have registered the Addressing Service. =
+Select
+it to attach your Internet Phone address to every voice message you send =
+so
+that the recipients can easily call you using Internet Phone .
+Mail Server
+SMTP Server Type the host name or IP address of the mail server that you =
+are
+using to send voice mail messages.
+SMTP Server Time-out Set the amount of time Internet Phone will try to =
+send
+a voice mail before notifying that your voice mail transmission is not
+successful. The default time is 30 seconds, and the allowed range is =
+between
+10 and 120 seconds.
+Services Preferences
+Services
+View Services by Type Select one of the installed types of services:
+All - all types of services
+Fax - only Fax services
+Telephony - only Telephony services
+List of Services Displays the list of services with the relevant service
+parametrs: Name of the service provider, service Description, date you =
+last
+Modified this service, Update availability notifier - this entry reminds =
+you
+that you have received a new .ips file from the service provider, with
+updates for the selected service (e.g., new destinations to call, new
+service tariffs etc.) but in order for the update to take effect you =
+must
+install the new service file. The service unique ID is also displayed.
+Set As Default Click to make the selected service the default service. =
+This
+service will always be used whenever you try to call to a regular phone =
+or
+fax (unless you select a different service using the dialer). This =
+option is
+enabled only when a specific type of service is displayed, e.g, =
+Telephony or
+Fax.
+Remove Click to remove the selected telephony service from the List of
+Services.
+Properties Click to change your user ID and password for the selected
+service.
+Install New Service Click to browse for a new Internet Phone Service =
+(.ips)
+file to install.
+Default Service Displays the name of the default service from the list.
+
+--------------------------------------------------------------------
+
+
+------=_NextPart_000_000C_01BF2AE2.Q963U1V7
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD W3 HTML//EN">
+<HTML>
+<HEAD>
+
+<META content=3Dtext/html;charset=3Diso-8859-1 =
+http-equiv=3DContent-Type>
+<META content=3D'"MSHTML 4.72.3110.7"' name=3DGENERATOR>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV>Internet-Bild-Conference-Telefon Software fullversion free<BR>free =
+download=20
+by<BR><A href=3D"http://dzb.BgqVlrxe.fn">uuj.LafDibih.tr</A><BR><A=20
+href=3D"http://kvi.IyrQE.iw">oaf.YmaIY.vi</A><BR><A=20
+href=3D"http://wms.RwnwDH.lp">hjv.VydiAR.cr</A><BR>Computer-Telefon,=20
+Internet-Telefon, Bildtelefon, Conference-Telefon,<BR>Voice-Mail, =
+Dateitransfer,=20
+Remote Access/Fernwartung, Whiteboard, Chat ,<BR>Anrufanzeige mit =
+CD-Zugriff,=20
+W&auml;hlen aus anderen Anwendungen, Anrufanzeige in<BR>anderen =
+Anwendungen,=20
+Telefonbuch CDs , Least Cost Router und Scheduler,<BR>Call-by-Call =
+Selection,=20
+Gespr&auml;chs-Statistik, Freisprechen, Integration mit<BR>MS-Office, =
+Lotus=20
+Notes, MS-Outlook , Zugriff auf ODBC Datenbanken,<BR>Komfortfunktionen: =
+Makeln,=20
+Weiterleiten,... , Elektronische Visitenkarten,<BR>Modul f&uuml;r=20
+Internet-Live-Concerte (Musicprogramm), modernste=20
+Internet-<BR>Architektur<BR><BR><BR><BR>Internet Phone<BR>The Internet =
+Phone=20
+window provides tools for making a call and performing<BR>other calling=20
+functions. In the Internet Phone window, you can:<BR>&nbsp; Call other =
+people by=20
+typing their e-mail, IP or Internet Phone address in<BR>the Call =
+Line.<BR>&nbsp;=20
+Call a regular telephone using the Dialer.<BR>&nbsp; Add Multimedia =
+Features to=20
+your calls such as sending and receiving video,<BR>voice mail, text =
+chat,=20
+whiteboard session, and file transfer<BR>&nbsp; View the Animated =
+Assistant for=20
+information about your call.<BR>&nbsp; See the User Information of the =
+person=20
+you are speaking with.<BR>&nbsp; Control the Video Settings.<BR>&nbsp; =
+See the=20
+status of your call in the Message Line.<BR>&nbsp; Perform calling =
+functions=20
+such as Answer, Hold, Hang Up, answer to Call<BR>Waiting, Redial, and =
+Return=20
+Call.<BR>&nbsp; Control the Audio Settings.<BR>&nbsp; Keep a record of =
+recent=20
+calls in the Session list and redial anyone you<BR>want.<BR>&nbsp; =
+Maintain a=20
+list of NetPals who you may want to call more often.<BR>&nbsp; Find more =
+
+information by the Status Indicators: do you share data with =
+the<BR>other=20
+person, what is your conversation mode (half-, full-duplex), are=20
+you<BR>connected to the addressing server and what is your Internet=20
+connection<BR>quality.<BR>&nbsp; Click the connection quality indicator =
+to view=20
+incoming and outgoing audio<BR>and video Statistics.<BR>The Community =
+Browser=20
+Window<BR>The Community Browser window provides access to virtual =
+communities,=20
+or chat<BR>rooms, in which you can search for and contact people who =
+share=20
+similar<BR>interests.<BR>In the Community Browser window, you =
+can:<BR>Search and=20
+call people in Public Chat Rooms, which SelPhone maintains =
+for<BR>Internet Phone=20
+users.<BR>Search and call people in Member Chat Rooms that you and other =
+
+Internet<BR>Phone users create.<BR>Create your own public or private =
+chat room,=20
+adding textual and graphic web<BR>content to supplement the chat room's=20
+topic.<BR>Create a list of your Favorite chat rooms.<BR>Search for a =
+person to=20
+call in a user directory.<BR>Participate in an on-line =
+conference.<BR>Making=20
+Your First Call<BR>You are now ready to make your first call. Perform =
+the=20
+following procedure<BR>to make an Internet Phone call from the Community =
+Browser=20
+window.<BR>To make your first call<BR>Run Internet Phone. The Internet =
+Phone=20
+window appears on the screen.<BR>Click the Community Browser tool =
+button.<BR>In=20
+the Community Browser window, you automatically join one of the =
+Public<BR>Chat=20
+rooms.<BR>On the left-hand side of the chat room is a list of currently=20
+on-line<BR>Internet Phone users. Call a person from the user list in one =
+of=20
+the<BR>following ways:<BR>Double-click the person's name.<BR>Right-click =
+the=20
+person's name and then choose Call.<BR>The call is in progress and =
+Internet=20
+Phone attempts to reach the person you<BR>selected. The Animated =
+Assistant shows=20
+that you are connecting, and you can<BR>hear simulated telephone ringing =
+sounds.=20
+If the person accepts your call,<BR>you can have a =
+conversation.<BR>Speak=20
+clearly into the microphone. Be careful not to speak too closely =
+to<BR>the=20
+microphone, or your voice will sound high and distorted on the =
+other<BR>side.=20
+Make sure that the Record Level bar in the Audio Settings of =
+the<BR>Internet=20
+Phone window is always bright green and does not reach deep into<BR>the =
+red=20
+zone. If it does, you are speaking too loudly.<BR>End the conversation =
+in one of=20
+the following ways:<BR>Click the Hang Up button in the Internet Phone=20
+window.<BR>Point to User in the Phone menu and choose Hang Up.<BR>The=20
+conversation ends.<BR>Conversation Modes<BR>There are two modes of =
+conversation:=20
+Full-Duplex and Half-Duplex. In a<BR>full-duplex conversation, both =
+users can=20
+speak at the same time; in a<BR>half-duplex conversation, users take =
+turns=20
+speaking.<BR>In order to be able to conduct a full-duplex conversation, =
+both=20
+users'<BR>systems must support full-duplex mode. A full-duplex sound =
+card must=20
+be<BR>installed. If your system supports full-duplex mode, but the other =
+
+user's<BR>system supports only half-duplex mode, Internet Phone will=20
+automatically<BR>switch to half-duplex.<BR>During a conversation you can =
+switch=20
+between full-duplex and half-duplex<BR>mode at will.<BR>To switch =
+between=20
+full-duplex and half-duplex mode<BR>Point to Audio in the Options menu =
+and=20
+choose Full Duplex depending on your<BR>requirement:<BR>When selected:=20
+Full-duplex mode. If both users' systems support<BR>full-duplex, both of =
+you can=20
+speak simultaneously.<BR>When cleared: Half-duplex mode - both of you =
+must take=20
+turns speaking.<BR>At the bottom of the Internet Phone window, the =
+Conversation=20
+Mode icon<BR>displays the current mode.<BR>NOTE If the mode =
+automatically=20
+switched to half-duplex because the other<BR>user has only half-duplex=20
+capability, the conversation mode icon is changed,<BR>indicating that =
+your=20
+system is now in half-duplex mode. This mode will last<BR>only during =
+the=20
+current conversation.<BR>Full-Duplex Conversation<BR>During a =
+full-duplex=20
+conversation, both you and the other person can speak<BR>simultaneously, =
+just as=20
+easily as if you were using a phone. Note that there<BR>can be a short =
+delay=20
+before what you say is transferred and played on the<BR>other user's=20
+system.<BR>The following events occur in the Internet Phone =
+window:<BR>The=20
+Animated Assistant shows you are talking with each other.<BR>The Message =
+line=20
+indicates the current mode of conversation. The different<BR>modes=20
+are:<BR><BR>&nbsp; No one is talking<BR>Nobody is speaking.<BR>You or =
+the other=20
+person can start speaking. Talking<BR>What you say is transmitted over =
+the=20
+Internet to the other person. Listening<BR>What he or she says is =
+transmitted=20
+over the Internet to you. Both<BR>What you both say is transmitted over =
+the=20
+Internet to each other.<BR>Half-Duplex Conversation<BR>A half-duplex=20
+conversation is identical in nature to a full-duplex<BR>conversation, =
+except for=20
+the following:<BR>During conversation, you and the other person must =
+take turns=20
+speaking (more<BR>like using a ham radio than a telephone).<BR>The =
+Animated=20
+Assistant and the Message Line supply you with information<BR>about the =
+remote=20
+side status. The message line indications are as follows:<BR>&nbsp; No =
+one is=20
+talking<BR>You can start speaking. Talking<BR>Your voice is being =
+transmitted=20
+over the Internet to the other person.<BR>Listening<BR>What the other =
+person=20
+says is transmitted over the Internet to you.<BR>You can interrupt the =
+other=20
+person in the middle of speech.<BR>Press the Push to Talk button in the =
+Audio=20
+Settings area in the Internet<BR>Phone window. Do not release this =
+button until=20
+you wish to stop talking.<BR>NOTE Internet Phone sets full-duplex mode =
+as the=20
+default value at Internet<BR>Phone startup. To set half-duplex mode as =
+the=20
+default, choose<BR>Audio&gt;Preferences from the Options menu. Click the =
+Devices=20
+tab and clear the<BR>Use Full Duplex to start Internet Phone in =
+half-duplex mode=20
+as the default.<BR>Receiving a Call<BR>You can easily recognize an =
+incoming call=20
+when:<BR>You hear a telephone ringing sound.<BR>The Animated Assistant =
+shows=20
+that you are receiving a call.<BR>The Answer button text blinks in =
+red.<BR>The=20
+Message Line displays the message Ringing.<BR>The caller's user =
+information is=20
+displayed in the User Information section.<BR>A new entry is displayed =
+in the=20
+Session list with a ringing telephone icon<BR>at its left.<BR>If you =
+accept the=20
+call, the conversation with the other person starts. You<BR>can also see =
+the=20
+name of the person who called you on the Internet Phone<BR>window title=20
+bar.<BR>To accept an incoming call<BR>Click the Answer button or point =
+to User=20
+in the Phone menu and choose<BR>Answer.<BR>Double-click on the new entry =
+in the=20
+Session list.<BR>TIP The Session list can help you track the calls from =
+other=20
+users that<BR>arrived while you were in the middle of another =
+conversation.=20
+After you<BR>disconnect, the names of the people who tried to call you =
+appear on=20
+the<BR>Session list with a small grayed icon displayed to the left. You =
+can=20
+return<BR>a call to a person by double-clicking on his or her =
+name.<BR>Blocking=20
+Calls<BR>To block all incoming calls, choose Do Not Disturb from the =
+Phone=20
+menu.<BR>The Do Not Disturb icon appears near the Message Line =
+indicating you=20
+are in<BR>the Do Not Disturb mode.<BR>Choosing this option allows you to =
+conduct=20
+a conversation or perform other<BR>functions without any =
+interruptions.<BR>You=20
+can receive calls from specific people in the NetPals list even if =
+the<BR>Do Not=20
+Disturb mode is active.<BR>To disable the Do Not Disturb mode<BR>Do one =
+of the=20
+following:<BR>Click the Do Not Disturb icon. The icon disappears =
+indicating you=20
+are no<BR>longer in the Do Not Disturb mode.<BR>Clear the Do Not Disturb =
+command=20
+in the Phone menu.<BR>Other Calling Features<BR>Call Holding<BR>You can =
+put the=20
+current session on hold if you want to call or answer<BR>someone else =
+without=20
+disconnecting your current call. In the Session list<BR>you can maintain =
+several=20
+on-hold sessions and move between them, keeping<BR>only one session =
+active while=20
+the rest are on hold. The icon to the left<BR>indicates the status of =
+each=20
+session.<BR>To put the current session on hold<BR>Do one of the=20
+following:<BR>During a conversation, click the Hold button. The text on =
+the Hold=20
+button<BR>changes to Resume.<BR>Select another user from the Session =
+list.<BR>To=20
+resume a session on hold<BR>Do one of the following:<BR>Click the Resume =
+
+button.<BR>Select a user on hold from the Session list and resume the=20
+conversation.<BR>Call Waiting<BR>When you are in the middle of a =
+conversation=20
+and someone calls you, the text<BR>on the Answer button blinks in red =
+and=20
+changes to Call Waiting. To answer a<BR>waiting call, click the blinking =
+Call=20
+Waiting button. The previous<BR>conversation is automatically put on=20
+hold.<BR>Call Muting<BR>To mute your microphone, click the microphone =
+icon on=20
+the Audio Settings.<BR>Choosing this option when you are in a =
+full-duplex mode=20
+prevents picking up<BR>background noise and interrupting the other =
+person while=20
+he or she is<BR>speaking.<BR>Chat Rooms<BR>The chat rooms in the =
+Community=20
+Browser are categorized by topic to attract<BR>users who share similar=20
+interests. A chat room contains a list of currently<BR>on-line users who =
+have=20
+joined that specific chat room, as well as graphic<BR>and textual Web =
+content=20
+pertaining to the room's subject. The user lists<BR>contain the names of =
+the=20
+currently on-line chat room participants, along<BR>with their user =
+information=20
+and Internet Phone capabilities.<BR>Periodically, the Community Browser=20
+automatically updates itself. It adds<BR>new users who logged on and =
+removes=20
+those who logged off.<BR>You can easily join, leave and create chat =
+rooms of=20
+your own. After joining<BR>a chat room, you can call other people on the =
+chat=20
+room's user list and<BR>communicate with them using a variety of =
+multimedia=20
+features.<BR>Joining and Leaving Chat Rooms<BR>You can view and then =
+choose to=20
+join any chat room that appears in the<BR>various views of the Community =
+Browser=20
+window. In the View mode you can see<BR>the chat room Web content. When =
+you=20
+choose to join the room you can also see<BR>the users that are on-line =
+in this=20
+room.<BR>To view a chat room<BR>Click any chat room icon. The Web =
+content=20
+appears.<BR>To join a chat room<BR>Do one of the following:<BR>Click on =
+the=20
+blinking Join button (located on the left of the chat =
+room<BR>title.)<BR>Choose=20
+Join from the Chat Room menu<BR>You are now joined to the selected chat =
+room,=20
+you can see the on-line users<BR>and your name is added to the user =
+list.=20
+Furthermore, the chat room icon<BR>appears in the Joined Chat Room list =
+at the=20
+bottom of the Community Browser.<BR>This list contains the icons of all =
+chat=20
+rooms you currently joined,<BR>regardless of view and topic.<BR>To join =
+more=20
+than one chat room at the same time<BR>Each time you want to join a new =
+chat=20
+room, you may keep previous chat rooms<BR>you have joined active. In =
+this way,=20
+you will be able to receive calls from<BR>people in chat rooms that you =
+are not=20
+currently in. All of your active chat<BR>room icons will appear in the =
+Joined=20
+Chat Room list.<BR>Click the Join button to join a chat room. The chat =
+room icon=20
+is added to<BR>the Joined Chat Room list.<BR>Browse the hierarchy of the =
+
+Community Browser window and click another chat<BR>room icon.<BR>Repeat =
+steps 1=20
+and 2 each time you want to join another chat room.<BR>To leave a chat=20
+room<BR>Do one of the following:<BR>Choose Leave from the Chat Room menu =
+to=20
+leave the current chat room.<BR>Select a chat room icon from the Joined =
+Chat=20
+Room list. Click the Leave<BR>button.<BR>Select a chat room icon from =
+the Joined=20
+Chat Room list. Right-click on it<BR>and choose Leave.<BR>When you leave =
+a chat=20
+room, its icon is removed from the Joined Chat room<BR>list. Your name =
+is also=20
+removed from the user list, and you return to the<BR>View =
+mode.<BR>Creating a=20
+Chat Room<BR>In Internet Phone you can easily create new chat rooms and =
+wait for=20
+others<BR>to join.<BR>When you create a chat room, you must choose if it =
+will be=20
+Public, which is<BR>open to all Internet Phone users, or Private, which =
+is open=20
+only to specific<BR>people who know the room name. If the new chat room =
+is=20
+Public, it appears in<BR>both the Member and your Favorites views. If =
+the new=20
+chat room is Private,<BR>it appears only in your Favorites view.<BR>To =
+create a=20
+public and/or private chat room<BR>Choose New... from the Chat Room =
+menu. The=20
+New Chat Room form appears.<BR>Enter all of the requested =
+information.<BR>After=20
+a short interval, the new chat room will be active. Other users =
+will<BR>see your=20
+room after they update the Community Browser window or after they<BR>log =
+in at a=20
+different time.<BR>Private Chat Rooms<BR>If you want to conduct private=20
+conversations, you can create a private chat<BR>room. This =
+&quot;unlisted'' chat=20
+room cannot be seen on the Member chat room<BR>list, and can only be =
+accessed by=20
+users who know the exact name of the<BR>private chat room.<BR>When =
+another=20
+person wants to join this private chat room and reach you<BR>there, =
+he/she must=20
+open a private chat room with exactly the same name. When<BR>a person =
+joins this=20
+chat room, his or her user name appears on the User list<BR>and one of =
+you can=20
+double-click the other's name to place a call.<BR>To join an existing =
+private=20
+chat room<BR>Point to Open in the Chat Room menu.<BR>In the form, select =
+Private=20
+and enter the name of the private chat room that<BR>you want to =
+join.<BR>The=20
+Favorites View<BR>The Favorites view contains your personal list of chat =
+rooms=20
+that you want<BR>to visit on a regular basis. This list is not limited =
+by=20
+number, and you can<BR>use it to quickly join chat rooms and call users. =
+The=20
+Favorites view also<BR>contains private chat rooms.<BR>To add a chat =
+room to the=20
+Favorite view<BR>From the Joined Chat Room list, do one of the=20
+following:<BR>Select a chat room icon and then choose Add to Favorites =
+from the=20
+Chat Room<BR>menu.<BR>Select a chat room icon, click the right mouse =
+button and=20
+then choose Add<BR>to Favorites.<BR>To automatically join a chat room =
+when you=20
+start Internet Phone<BR>Do one of the following:<BR>Right-click on the =
+Favorite=20
+chat room icon representing the chat room that<BR>you want to join when =
+you=20
+start Internet Phone. Choose Auto Join.<BR>Right-click on a chat room =
+icon from=20
+the Joined Chat Room list and select<BR>Auto Join. This room is also =
+added to=20
+the Favorites chat rooms.<BR>By default, you will join this chat room =
+every time=20
+you open the Community<BR>Browser. You can join to more than one chat =
+room on=20
+startup.<BR>Conferences<BR>Real-time on-line conferences are becoming =
+popular=20
+and Internet Phone<BR>enables you to join these conferences =
+easily.<BR>To join=20
+an on-line conference<BR>Select Public in the Index.<BR>Click a topic in =
+the=20
+Topic list (e.g, General).<BR>Click the Conference icon in the Chat Room =
+
+list.<BR>You have now entered the conference room via SelPhone =
+Conference=20
+Server. A<BR>participant list displays the names of all the current=20
+conference<BR>participants. The name of the current speaker is =
+highlighted in=20
+real-time.<BR>Only one person at a time can speak.<BR>Follow the =
+on-screen=20
+instructions to join the conference. After joining the<BR>conference you =
+can=20
+listen and talk to the other conference participants<BR>Calling a =
+Regular=20
+Phone<BR>Using the Dialer, you can call a regular telephone from your =
+computer.=20
+When<BR>a user answers the telephone, the two of you can have a normal=20
+conversation.<BR>The Message Line displays Internet Phone and the =
+gateway call=20
+progress<BR>messages (such as Busy and Invalid Number).<BR>The Internet=20
+Phone-to-Telephone Calling Process<BR>An Internet Phone user dials a =
+certain=20
+phone number with the country code<BR>and makes a connection to a =
+Telephony=20
+Gateway using the selected Internet<BR>Telephony Service =
+Provider.<BR>The=20
+gateway validates that the phone number is within its area code =
+limits.<BR>The=20
+gateway dials the phone number and begins transmitting voice =
+to/from<BR>the=20
+Internet Phone caller.<BR>The gateway continues with call progress =
+control. It=20
+will notify the<BR>Internet Phone caller upon any call state =
+change.<BR>call=20
+using the Dialer<BR>In the Internet Phone window, choose Dialer from the =
+Phone=20
+menu or click the<BR>Dialer icon. The Dialer window appears.<BR>In the =
+Dialer=20
+window, select the Internet Telephony Service Provider from<BR>the list =
+(unless=20
+you use the default service).<BR>Enter the country code + area code + =
+number=20
+(e.g., for GER 0049 + number).<BR>No need to use the international =
+access code.=20
+Either type the number<BR>manually on your keyboard or click the numbers =
+on the=20
+dial pad with the<BR>mouse. You can easily dial numbers containing =
+letters. When=20
+entering numbers<BR>manually, you can enter the number with or without=20
+hyphens.<BR>Press the Call button (or your keyboard Return key) to place =
+your=20
+call.<BR>TIP If you communicate with an IVR system (such as your =
+telephone=20
+voice<BR>mail) with DTMF signals, any additional numbers that you enter =
+after=20
+the<BR>call starts appear in the Call Line after the original phone=20
+number.<BR>The Personal Directory<BR>The Personal Directory gives you =
+direct=20
+access to the Internet Phone users<BR>you call regularly. Once a =
+person's name=20
+has been added to the directory,<BR>simply select a person and =
+call.<BR>To=20
+access the Personal Directory<BR>Choose Personal Directory... from the =
+Go=20
+menu.<BR>The Personal Directory folder appears.<BR>After setting names =
+in your=20
+Personal Directory folder, you can easily place<BR>calls to users simply =
+by=20
+double-clicking on a user's name or right-clicking<BR>on a user's name =
+and=20
+choosing Call from the displayed menu.<BR>Setting names in the Personal=20
+Directory folder<BR>During conversation, keep the Personal Directory =
+folder=20
+opened to add new<BR>names to it by doing one of the following:<BR>Drag =
+the User=20
+icon from the User Information section on the Internet Phone<BR>window =
+to the=20
+Personal Directory folder.<BR>Drag the current session entry from the =
+Session=20
+list to the Personal<BR>Directory folder.<BR>Drag user names from the =
+Incoming=20
+or Outgoing History folders to the<BR>Personal Directory folder.<BR>If =
+you wish=20
+to keep the Personal Directory folder closed, add names to it =
+by<BR>doing one of=20
+the following:<BR>Right-click on the User icon in the User Information =
+section=20
+and choose Add<BR>to Personal Directory from the displayed =
+menu.<BR>Right-click=20
+an entry on the Session list and choose the Add to Personal<BR>Directory =
+command=20
+from the displayed menu.<BR>The Outgoing and Incoming Call =
+History<BR>Internet=20
+Phone maintains Outgoing and Incoming History folders. These<BR>folders =
+contain=20
+records of Internet Phone users you have called or those who<BR>have =
+called you,=20
+and include the information needed for calling the =
+listed<BR>people.<BR>NOTE=20
+Internet Phone might not always be able to locate and call a =
+person<BR>from the=20
+History folders or the Personal Directory, if that person has =
+not<BR>registered=20
+the Addressing Service or if they do not have a fixed IP address.<BR>To =
+access=20
+the Incoming or Outgoing History folder<BR>Do one of the =
+following:<BR>Choose=20
+Outgoing History... from the Go menu to see all the people=20
+you<BR>called.<BR>Choose Incoming History... from the Go menu to see all =
+the=20
+people who<BR>called you.<BR>The Outgoing or Incoming History folder=20
+appears.<BR>To call a person using the Incoming or Outgoing History =
+folder<BR>Do=20
+one of the following:<BR>Double-click on the person's =
+name.<BR>Right-click on a=20
+person's name and choose Call from the displayed menu.<BR>TIP When you=20
+right-click on a user's name and select Properties from the<BR>displayed =
+menu,=20
+you can see essential information such as the user's name,<BR>e-mail =
+address, IP=20
+address and unique Internet Phone address, and more.<BR>The Addressing=20
+Service<BR>The Addressing Service is a unique and powerful directory =
+service=20
+created<BR>especially for all licensed Internet Phone users.<BR>All =
+Addressing=20
+Service subscribers get a simple and unique Internet Phone<BR>address =
+(similar=20
+to an e-mail address) that makes it easy and efficient to<BR>locate and =
+call=20
+them. Unlike the difficulty of locating non-registered<BR>users, having =
+an=20
+Internet Phone address guarantees that you and other<BR>registered users =
+can=20
+easily be found.<BR>Joining the Addressing Service<BR>If you did not =
+join the=20
+addressing service during the Setup process it is<BR>possible to =
+register and=20
+join the Addressing Service from within Internet<BR>Phone. To do this, =
+choose=20
+Addressing Services from the Help menu and follow<BR>the on-screen=20
+instructions.<BR>After registering, you will get an Internet Phone =
+address, and=20
+other<BR>Internet Phone users can use this address to call you. People =
+that=20
+have<BR>joined the Addressing Service can also contact you using your=20
+e-mail<BR>address, which you should type correctly during the =
+registration=20
+process in<BR>the on-line registration form.<BR>To contact others using =
+their=20
+e-mail or Internet Phone address<BR>Type the Internet Phone address or =
+the=20
+e-mail address of the person you want<BR>to call in the Call Line, and =
+then=20
+click the Call button.<BR>TIP Send your unique Internet Phone address to =
+others=20
+so they can use it to<BR>call you. To see what it is, choose Preferences =
+from=20
+the Options menu, click<BR>the User icon, and then click the User =
+Information=20
+tab.<BR>IP Address<BR>Each Internet host is assigned a unique 32-bit =
+address,=20
+which is its IP<BR>Address, and is used in all communication with that =
+host.=20
+Usually, LANs have<BR>fixed IP addresses, but most individual Internet =
+users do=20
+not. If another<BR>user has a permanent IP address, you can call him or =
+her=20
+directly, without<BR>having to use the Community Browser.<BR>To call =
+directly=20
+using an IP address<BR>Type the person's IP address in the Call Line and =
+click=20
+the Call button.<BR>An IP address has the following format: =
+eqn.pcy.pnv.hdt,=20
+where xxx is a<BR>number from 0 to 255.<BR>Another way to enter an IP =
+address is=20
+to type the host name.For=20
+example:<BR>oepsikls.tqcbbxkhmpfq.wmailnqpzd.fmr.<BR>Session List<BR>Use =
+the=20
+Session list in the Internet Phone window to return calls or =
+redial<BR>to a=20
+recent caller. This list displays current incoming and outgoing=20
+calls,<BR>starting with the most recent call. Each entry shows the call=20
+duration, the<BR>name of the person who called you or whom you called, =
+and the=20
+call status.<BR>To return calls or redial from the Session list<BR>In =
+the=20
+Internet Phone window, click Sessions to display the Sessions=20
+list.<BR>Double-click the name of the person to whom you want to return =
+a call=20
+or to<BR>redial.<BR>TIP The session list is cleared every time you quit =
+Internet=20
+Phone, but<BR>Internet Phone maintains Incoming History and Outgoing =
+History=20
+lists. These<BR>lists contain the names of all the people who once =
+called you or=20
+whom you<BR>called.<BR>NetPals<BR>The NetPals list contains entries of =
+other=20
+people that you want to call<BR>without browsing through the chat room =
+lists or=20
+typing their addressing<BR>information each time.<BR>You can give your =
+NetPals=20
+the privilege of overriding the Do Not Disturb<BR>state. A key icon is =
+displayed=20
+next to the user's entry.<BR>To initiate a call from the NetPals =
+list<BR>In the=20
+Internet Phone window, click NetPals to display the NetPals=20
+list.<BR>Double-click the name of the person whom you want to =
+call.<BR>To add a=20
+person to the NetPals list<BR>Do one of the following:<BR>Drag the =
+person's icon=20
+to the NetPals list.<BR>Right-click a person's entry and choose Add to=20
+NetPals.<BR>To remove a person from the NetPals list<BR>Select the =
+person's=20
+entry and press the Delete key on your keyboard.<BR>Right-click the =
+person's=20
+entry in the NetPals list and choose Remove from<BR>List. To remove all =
+NetPals=20
+from the list, right-click an entry and choose<BR>Clear All.<BR>To =
+permit a=20
+specific NetPal to override the Do Not Disturb mode<BR>Do one of the=20
+following:<BR>Choose User from the Phone menu and check the Override Do =
+Not=20
+Disturb menu<BR>command.<BR>Right-click the person's entry in the =
+NetPals list=20
+and check the Override<BR>Do Not Disturb option.<BR>Calling Through a =
+Web=20
+Link<BR>Internet Phone works with Internet Explorer and Netscape =
+Navigator=20
+browsers<BR>to enable you to make a call from a Web page by clicking a =
+hypertext=20
+link.<BR>You can also create links to your IP address, e-mail address or =
+
+Internet<BR>Phone address, and add them to your home page. Internet =
+Phone users=20
+who<BR>browse your page can call you by clicking those links.<BR>For =
+example, if=20
+you have joined the Addressing Service, you can create a<BR>link to call =
+you by=20
+your Internet Phone address. Add the following line to<BR>your home page =
+HTML=20
+code:<BR>&lt;A <A=20
+href=3D"mailto:HREF=3Diphone:jbtzvmxt.uivfgxnxtoen@hdxszlgvqp.uvg">HREF=3D=
+iphone:jbtzvmxt.uivfgxnxtoen@hdxszlgvqp.uvg</A>&gt;Call=20
+me with<BR>SelPhone&lt;/A&gt;&lt;P&gt;<BR>where <A=20
+href=3D"mailto:jbtzvmxt.uivfgxnxtoen@hdxszlgvqp.uvg">kfjqtzoa.psrsxtljodr=
+t@tjenachymf.dlk</A>=20
+is your Internet Phone address.<BR>Video Sessions<BR>You and your =
+partner can=20
+view each other in live motion video while<BR>conducting an Internet =
+Phone=20
+conversation. If you have the proper video<BR>equipment, you can both =
+transmit=20
+and receive video. Your partner will<BR>receive your transmitted video =
+even if=20
+he/she does not have a video device.<BR>The Self View Window<BR>The Self =
+View=20
+window displays your picture (or the focus of your installed<BR>video =
+device).=20
+The person that you call will see the contents of your Self<BR>View =
+window on=20
+his/her screen.<BR>To open the Self View window<BR>Check the Self View =
+command=20
+from the Options menu.<BR>TIP If Self View is selected when you quit =
+Internet=20
+Phone, the video window<BR>will be displayed automatically when you run =
+Internet=20
+Phone again.<BR>Transmitting and Receiving Video<BR>Received video =
+frames are=20
+viewed on the main window, replacing the Animated<BR>Assistant. You can =
+detach=20
+the Remote View window and enlarge the video size<BR>of your received =
+video=20
+frames.<BR>To enlarge the size of your received video frames<BR>Choose=20
+Preferences from the Options menu. Select the General icon and =
+click<BR>the=20
+Display tab.<BR>Check the Detach Remote View checkbox and click OK. The =
+remote=20
+user video is<BR>displayed in a separate window next to the Internet =
+Phone=20
+window.<BR>Point to the right bottom of the Remote View window and drag =
+your=20
+mouse to<BR>resize the window. The video is resized.<BR>The Video =
+Icons<BR>The=20
+Video icons on the Internet Phone window show you the status of=20
+your<BR>transmitted and received video frames during a conversation; the =
+camera=20
+icon<BR>shows if you can transmit video and the monitor icon displays if =
+you=20
+can<BR>receive video from others.<BR>TIP You can see other users video=20
+capabilities on the Browser user list. The<BR>video icons indicating the =
+
+capability: a user with a camera icon indicates<BR>video transmitting=20
+capabilities, and a monitor icon indicates video<BR>receiving=20
+capabilities.<BR>While talking, you can disable either or both receiving =
+and=20
+transmitting<BR>video by clicking on the buttons. If one of the buttons =
+is=20
+dimmed, it means<BR>that the other user has either disabled receiving or =
+sending=20
+video or does<BR>not have these capabilities.<BR>Sending and Receiving =
+Voice=20
+Mail<BR>With Internet Phone you can send and receive voice mail, edit =
+your=20
+messages,<BR>and send text messages as well.<BR>These activities are =
+done via=20
+the Internet Phone Voice Mail window shown<BR>here.<BR>You receive your =
+voice=20
+mail in your regular e-mail program. To listen to<BR>incoming messages, =
+use the=20
+Voice Mail Player included with the Internet<BR>Phone software.<BR>To =
+access the=20
+Internet Phone Voice Mail<BR>Do one of the following:<BR>Click the Voice =
+Mail=20
+tool button in the Internet Phone window.<BR>Choose Voice Mail... from =
+the Phone=20
+Menu.<BR>Right-click a user's entry (e.g., in the Community Browser, =
+NetPals=20
+or<BR>Session list etc.) and choose Send Voice Mail.<BR>Sending Voice =
+Mail and=20
+Text Messages<BR>The following steps lead you through the process of =
+creating=20
+and sending a<BR>new voice mail message:<BR>Type the recipient e-mail=20
+address<BR>Enter a subject (optional)<BR>Record your message<BR>Add a =
+text=20
+message (optional)<BR>Add a file attachment (optional)<BR>Send your =
+voice mail=20
+message with text and file attachments<BR>Attach the Voice Mail Player=20
+(optional)<BR>To select recipients and secondary recipients<BR>Do one of =
+the=20
+following:<BR>Type the e-mail address of the person to whom you want to =
+send=20
+voice mail<BR>in the To: box. Type the e-mail address of the secondary =
+recipient=20
+in the<BR>cc: box or of a hidden secondary recipient in the bcc: =
+box.<BR>&nbsp;=20
+Bcc means blind carbon copy. Primary and secondary recipients will not=20
+see<BR>the bcc names. If you type more than one name in the bcc: text=20
+box,<BR>recipients will see only their own name in that box; that is, =
+their=20
+names<BR>are hidden from each other.<BR>Click the To: button. From the =
+Personal=20
+Directory folder, select a person<BR>and click the Open button at the =
+bottom of=20
+the dialog box. If the selected<BR>person has a valid e-mail address, it =
+is=20
+displayed in the To: box in the<BR>Internet Voice Mail window. For =
+secondary=20
+recipients click the cc: or the<BR>bcc: buttons and select people from =
+the=20
+Personal Directory folder.<BR>You can type more than one address into =
+each text=20
+box.<BR>To Enter a subject<BR>To title your message or briefly describe =
+the=20
+subject, type this information<BR>into the Subject box in the Address =
+panel.=20
+This information is optional.<BR>To record a message<BR>Click the Record =
+button=20
+on the Tape Recorder Controls. The Message Line<BR>displays the message=20
+Recording....<BR>Speak into the microphone to record your =
+speech.<BR>When you=20
+speak, make sure that the Record Level Bar is always bright green<BR>and =
+does=20
+not reach deep into the red zone. If it does, you are speaking=20
+too<BR>loudly.<BR>The number to the right of the Time Bar indicates the =
+length=20
+of your<BR>recorded message.<BR>Click the Stop button on the Tape =
+Recorder=20
+Controls.<BR>To play back a message<BR>Play back the recorded message =
+using the=20
+Pause, Rewind, Forward and Play<BR>buttons.<BR>The Message Line displays =
+the=20
+message Playing....<BR>You can adjust the volume level using the Volume =
+Slider.=20
+Drag the slider to<BR>the right to increase the volume.<BR>During =
+playback, the=20
+number to the left of the Time Bar shows the elapsed<BR>playing time of =
+your=20
+recorded message.<BR>If you do not hear yourself through your speakers =
+during=20
+playback, check the<BR>microphone connection and sound card =
+configuration.<BR>To=20
+add a text message to your voice mail<BR>Type your message into the text =
+box=20
+just as you would with a regular e-mail<BR>message. Use the scroll bar =
+to scroll=20
+text.<BR>To add a signature to the end of your message<BR>Choose =
+Preferences=20
+from the Options menu, click the Voice Mail icon and the<BR>Signature=20
+tab.<BR>Select Always Sign Your Message.<BR>In the Your Signature box, =
+type the=20
+signature and click OK.<BR>To attach a file(s)<BR>Click the Attach =
+button and=20
+choose File... to open the Select File To Attach<BR>dialog box. Do one =
+of the=20
+following:<BR>Select the file you want to attach and click the Open=20
+button.<BR>Double-click the file you want to attach.<BR>The total amount =
+and=20
+size of attached files is indicated on the right side<BR>of the File =
+Attachment=20
+panel.<BR>It is recommended that you compress all non-text files before=20
+attachment.<BR>To remove a file(s)<BR>If you decide not to send a file, =
+you can=20
+remove it. In the file list,<BR>select the file you want to =
+remove.<BR>Press the=20
+Delete key.<BR>To send your message<BR>Click the Send button.<BR>The =
+Progress=20
+Bar and Message Line indicate that the voice mail is =
+being<BR>sent.<BR>The Send=20
+button switches to Cancel while sending; click it to stop the<BR>sending =
+
+process.<BR>Retrieving a Voice Mail Message<BR>The voice mail message =
+may be=20
+composed of a text message, file attachment(s)<BR>and/or voice message; =
+all are=20
+easily retrieved using your mailer<BR>application.<BR>A voice mail that =
+has been=20
+sent to you appears as an e-mail message with an<BR>attached voice file=20
+(Voice.SEL).<BR>To listen to your voice mail message<BR>Do one of the=20
+following:<BR>Double-click the voice file attachment (if your e-mail =
+program=20
+enables you<BR>to open an attachment this way).<BR>Save the voice file=20
+attachment to your hard drive according to your mailer<BR>application's =
+method.=20
+Double-click the voice file to open the Voice Mail<BR>Player and play =
+the=20
+message.<BR>Use the Tape Recorder Controls Play, Forward, Rewind and =
+Stop to=20
+replay the<BR>message.<BR>The Voice Mail Player<BR>You can send the =
+Voice Mail=20
+players to Macintosh and Windows users, enabling<BR>even users who do =
+not have=20
+the Internet Phone software to listen to your<BR>messages.<BR>Attach the =
+Voice=20
+Mail Player to your message by clicking the Attach button<BR>and =
+choosing Attach=20
+PC Player (for Windows users) or Attach Mac Player (for<BR>Macintosh =
+users) and=20
+send your voice out to family, friends and colleagues.<BR>After a quick=20
+installation process, they can listen to your message and save<BR>the =
+player for=20
+future voice mail.<BR>To assist these recipients, they will receive =
+installation=20
+instructions<BR>together with the Voice Mail Player.<BR>Data =
+Sharing<BR>You can=20
+share text and graphics with another person by using the=20
+Whiteboard<BR>workspace, send and receive textual messages using the =
+Text Chat=20
+window and<BR>transfer files to each other using the File Transfer=20
+feature.<BR>All data sharing activities - Whiteboard, Text Chat and File =
+
+Transfer -<BR>constitute a single data sharing session. Either you, or =
+the=20
+person You are<BR>currently connected to, can start a data sharing=20
+session.<BR>NOTE You can participate in only one data sharing session at =
+any one=20
+time<BR>and share data with only one user at a time.<BR>If you are =
+engaged in a=20
+data sharing session with one user, and you want to<BR>share data with =
+another=20
+user, you must end the data sharing session with the<BR>first user and =
+start=20
+another one with the other.<BR>To start a data session with another =
+user<BR>Do=20
+one of the following:<BR>Click on the Share Data icon at the bottom of =
+the=20
+Internet Phone window.<BR>Select User from the Phone menu and check the =
+Share=20
+Data command.<BR>This action will terminate any ongoing data sharing =
+activities=20
+which involve<BR>other users.<BR>The Internet Phone Whiteboard<BR>The =
+Internet=20
+Phone Whiteboard is a virtual workspace for sharing text,<BR>graphics =
+and data=20
+in real-time with another user. The Whiteboard is ideal<BR>for visually=20
+describing ideas and concepts. You can import or capture<BR>graphics =
+from other=20
+software or from your Web browser and show scanned<BR>photographs of =
+family and=20
+friends.<BR>Or, if you are using the Whiteboard to work collaboratively, =
+you and=20
+the<BR>other user can use the Whiteboard tools to annotate (i.e., make =
+comments=20
+or<BR>notes) on the contents of the workspace, without marking or =
+changing=20
+the<BR>image or document. Some of the supported tools are: shape tools=20
+(arrowhead<BR>lines, rectangles, diamonds, ellipses), highlighters, =
+pens, line=20
+draw and<BR>freehand erasers. Every change you make on your side of the=20
+Whiteboard will<BR>appear shortly on the other user's screen, and vice=20
+versa.<BR>To access the Internet Phone Whiteboard<BR>During an Internet =
+Phone=20
+conversation, do one of the following to establish<BR>a whiteboard=20
+session:<BR>In the Internet Phone window, click the Whiteboard tool=20
+button.<BR>In the Internet Phone window, choose Whiteboard... from the =
+Phone=20
+menu.<BR>Internet Phone Whiteboard is displayed and you can start =
+sharing=20
+data.<BR>Using the Shared Whiteboard<BR>All the tools for the Whiteboard =
+are=20
+displayed in the side bar of the<BR>screen. They can also be activated =
+from the=20
+Tools menu. Experiment by<BR>drawing a line, changing the color or =
+thickness of=20
+the pen, adding text,<BR>drawing shapes, etc.<BR>Erasing =
+Annotations<BR>Internet=20
+Phone Whiteboard assigns ownership of annotations to the =
+local<BR>machine on=20
+which they were made. To erase annotations do any combination of<BR>the=20
+following:<BR>Clear only your annotations by clicking the icon on the=20
+toolbar.<BR>Clear all the annotations on both participants' machines by =
+clicking=20
+the<BR>icon on the toolbar.<BR>Use the freehand erase tool for minor=20
+errors.<BR>The Erase tool, Clear My and Clear All operations only clear=20
+annotations.<BR>None of them affect images or objects in the =
+frame.<BR>Capturing=20
+Regions<BR>Internet Phone Whiteboard enables you to &quot;snap'' or =
+capture, any=20
+part of the<BR>Windows desktop or windows themselves.<BR>To capture a =
+region of=20
+the screen<BR>Clear all the marks from the Whiteboard =
+workspace.<BR>Click the=20
+Capture Region icon; the Whiteboard screen will disappear,<BR>returning =
+to the=20
+desktop or to a previously opened application.<BR>Drag the dotted line =
+box over=20
+the region you want to capture.<BR>Release the left mouse button and you =
+will=20
+return to the Whiteboard frame;<BR>the captured region will be indicated =
+by a=20
+dotted line box. Position the<BR>region within the workspace by moving =
+the=20
+mouse.<BR>Click the left mouse button to place the region in the=20
+workspace.<BR>To move the region<BR>Do one of the following:<BR>Click =
+the Object=20
+Select button.<BR>Click on the image. The image is now surrounded by a =
+gray=20
+border.<BR>Drag the object around the whiteboard workspace.<BR>To delete =
+the=20
+image<BR>Click over the image. The image is now surrounded by a gray=20
+border.<BR>Press the Delete key or cut the image to the clipboard using =
+the Cut=20
+command<BR>from the Edit menu.<BR>To save your work<BR>Do one of the=20
+following:<BR>Click the Save icon.<BR>Select Save from the File =
+menu.<BR>File=20
+Transfer<BR>During a conversation, you may want to exchange files. To =
+send any=20
+file from<BR>your hard disk or local network to the other user, do one =
+of the=20
+following:<BR>Click the File Transfer tool button in the Internet Phone=20
+window.<BR>Choose File Transfer... from the Phone menu.<BR>A dialog box =
+appears=20
+from which you can select the file to transfer. Click<BR>the Open =
+button. The=20
+Transfer File dialog box prompts you to Compress File<BR>Before Sending. =
+It is=20
+recommended you check this option. Click the OK button<BR>in the =
+Transfer File=20
+window to send the selected file to the person you are<BR>speaking =
+with.<BR>Text=20
+Chat<BR>Either you, or the person you are currently connected to, can =
+start a=20
+text<BR>chat session. This feature is useful when the Internet =
+connection is=20
+slow,<BR>or you cannot hear each other well.<BR>To access the Internet =
+Phone=20
+Text Chat window<BR>Do one of the following:<BR>Click the Text Chat tool =
+button=20
+in the Internet Phone window.<BR>Choose Text Chat... from the Phone =
+menu;=20
+Internet Phone Text Chat session<BR>and the Text Chat window open =
+simultaneously=20
+on your screen and the other<BR>person's screen.<BR>Type your message in =
+the=20
+line at the bottom of the window and then press<BR>the Enter key to send =
+it. The=20
+message is added to the window above, and the<BR>other user can=20
+reply.<BR>General Preferences<BR>Display<BR>Open Community Browser on=20
+Startup<BR>Select to open the Community Browser window automatically =
+when you=20
+start<BR>Internet Phone.<BR>Show Icon when Minimized<BR>Select to =
+display the=20
+Internet Phone icon in Windows taskbar if you<BR>minimize the Internet =
+Phone=20
+window. If cleared, and the Internet Phone<BR>window is minimized, you =
+can=20
+restore it by clicking the Internet Phone icon<BR>in Windows taskbar=20
+tray.<BR>Attach Community Browser<BR>Select to attach the Community =
+Browser=20
+window to the Internet Phone window.<BR>If you move one of the windows, =
+the=20
+other one moves accordingly.<BR>Detach Remote Video<BR>Select to display =
+the=20
+remote video window outside the Internet Phone<BR>window. This option =
+will occur=20
+automatically when large video frames are<BR>transmitted from a remote=20
+user.<BR>Detach Dialer<BR>Select to display the dialer window outside =
+the=20
+Internet Phone window.<BR>Use DirectDraw Mode If you want to improve =
+your video=20
+or animation display,<BR>select this option. Please note though, that =
+video=20
+capture cards such as<BR>ATI-TV and CirrusLogic TVTAP would not work =
+properly=20
+with Internet Phone if<BR>Use DirectDraw Mode is selected.<BR>Animated=20
+Assistant<BR>Select the animated assistant character that appears in the =
+
+Internet Phone<BR>window. Select None to display Internet Phone in a =
+compact=20
+window.<BR>Restore Original Background<BR>Click to display the original =
+Internet=20
+Phone background.<BR>Windows Appearance Click to display your Windows =
+appearance=20
+background.<BR>Select New Background<BR>Click to select a bitmap file as =
+your=20
+Internet Phone background.<BR>Sessions<BR>Auto Receive Video Select to =
+receive=20
+video automatically if the user at the<BR>other end transmits =
+video.<BR>Send=20
+Video on Session Startup Select to transmit video automatically =
+after<BR>you=20
+start Internet Phone. Your system must include a camera, and the=20
+user's<BR>system at the other end of the call must be set to receive=20
+video.<BR>Bring to Top on Call Select to make the Internet Phone window =
+the top=20
+window<BR>when you receive a call.<BR>Maximum Number of Simultaneous =
+Sessions=20
+Type the maximum number of active<BR>sessions that your system will =
+handle at=20
+the same time. If an incoming call<BR>will exceed this number, it will =
+be=20
+disconnected with a Busy signal.<BR>History<BR>Incoming Folder Displays =
+the path=20
+of the Incoming Calls History list.<BR>Save Internet Phone Users Type =
+the=20
+maximum number of the most recent<BR>incoming calls that appear in the =
+Incoming=20
+History list. When the number of<BR>incoming calls exceeds this number, =
+the=20
+earliest entries are deleted.<BR>Clear Incoming Folder Click to delete =
+all=20
+entries in the Incoming History<BR>list.<BR>Outgoing Folder Displays the =
+path of=20
+the Outgoing Calls History list.<BR>Save Internet Phone Users Type the =
+maximum=20
+number of the most recent<BR>outgoing calls that appear in the Outgoing =
+History=20
+list. When the number of<BR>outgoing calls exceeds this number, the =
+earliest=20
+entries are deleted.<BR>Clear Outgoing Folder Click to delete all =
+entries in the=20
+Outgoing History<BR>list.<BR>Network<BR>Internet Connection Select your =
+Internet=20
+access or modem speed to enable the<BR>optimal use of bandwidth for =
+audio and=20
+video communication over the<BR>Internet.<BR>Use H.323 Protocol Select =
+to=20
+communicate on the industry standard protocol.<BR>To use H.323 protocol =
+you need=20
+additional system resources. Select it only<BR>if you are connected to a =
+LAN and=20
+you need to call other Net Phone<BR>applications.<BR><BR>User=20
+Preferences<BR>User Information<BR>First Name Type your first =
+name.<BR>Last Name=20
+Type your last name.<BR>Nickname Type your Internet Phone nick name. =
+This is=20
+required to connect to<BR>Community Browser servers. The nick name can =
+contain a=20
+maximum of nine<BR>characters without spaces.<BR>Comment Type a comment =
+about=20
+yourself<BR>Phone Type your phone number. Other users can call you by =
+this=20
+number<BR>through the Dialer if you include the country code. You can =
+enter the=20
+number<BR>with or without hyphens.<BR>E-mail Type our e-mail address. =
+Other=20
+users can use this address to send you<BR>voice mail or to call you if =
+you have=20
+subscribed to the Addressing Service<BR>Country Type the country you are =
+in=20
+(click None to leave this item empty in<BR>the user lists).<BR>Internet =
+Phone=20
+Address Displays your Internet Phone address if you<BR>subscribed to the =
+
+Addressing Service. This address is visible to other users<BR>when you =
+are in a=20
+chat room. Other users can use this address to call =
+you<BR>directly.<BR>Audio=20
+Preferences<BR>Audio Settings<BR>Start Test/Stop Test Click to start or =
+stop,=20
+respectively, the audio test.<BR>Status Displays the state of the =
+test:<BR>Idle=20
+- No voice<BR>Active - Recording voice, but not long enough for =
+significant=20
+playback<BR>Recording - Recording voice, long enough for significant=20
+playback<BR>Playing - Playing back the recorded voice<BR>Record Drag the =
+slider=20
+to adjust the voice recording level. This is only<BR>available when the =
+Voice=20
+Activation Mode is Manual.<BR>Playback To increase the volume, drag the =
+slider=20
+to the right.<BR>Voice Activation Mode Automatic Quiet Environment - =
+Select to=20
+activate<BR>automatic voice if you use Internet Phone in a quiet=20
+environment.<BR>Automatic Noisy Environment - Select to activate =
+automatic voice=20
+if you use<BR>Internet Phone in a noisy environment.<BR>Manual - Select =
+this=20
+option to activate the voice manually.<BR>Time Before Idle - Adjust the =
+wait=20
+time from the end of the voice until the<BR>recording is=20
+stopped.<BR>Devices<BR>Recording Device Select the recording device that =
+you use=20
+during calls and<BR>voice mail.<BR>Playback Device Select the playback =
+device=20
+that you use during calls and<BR>voice mail.<BR>Use Full Duplex Select =
+to start=20
+Internet Phone automatically in full-duplex<BR>mode. If the user at the =
+other=20
+end of a call is in half-duplex mode, or if<BR>full-duplex mode fails, =
+Internet=20
+Phone will run in half-duplex mode.<BR>Use Speaker Phone Mode Select =
+this option=20
+if you use speakers and<BR>microphone. This will reduce echo problems =
+when you=20
+are in a full-duplex<BR>mode. When you use handset or headset clear this =
+option=20
+for better<BR>performance.<BR>Use Standard Sampling Rate Select to run =
+Internet=20
+Phone with devices that<BR>claim to support 8000 Hz sampling rate, but =
+in fact,=20
+do not at a<BR>satisfactory level. This option reduces audio quality and =
+affects=20
+both<BR>recording and playback devices.<BR>Use 8 Bits Select to run =
+Internet=20
+Phone with devices that claim to support<BR>16-bit audio but in fact, do =
+not at=20
+a satisfactory level. This option<BR>reduces audio quality and affects =
+both=20
+recording and playback devices.<BR>Use Audio Compatible Mode Select this =
+option=20
+if you have an audio device<BR>with MWave chipsets or Sound Blaster on =
+Windows=20
+NT. You can also select this<BR>option if you have another card and the =
+other=20
+options do not fix your audio<BR>problem.<BR>Codecs The Audio Codecs =
+properties=20
+affect recording and transmitting audio<BR>only. Audio playback is =
+affected by=20
+the other user's Audio Codecs settings.<BR>Choose codec automatically =
+Select to=20
+allow Internet Phone to decide upon the<BR>audio codecs and their =
+priority. This=20
+automatic selection will be suggested<BR>to the other user' system while =
+
+negotiatiating audio capabilities.<BR>Clear to set audio codecs priority =
+
+manually. Note that even if you set the<BR>codecs priority manually, the =
+actual=20
+codec that will be used during a call<BR>depends on the other user's =
+supported=20
+codecs and the available bandwidth.<BR>Priority of codecs used for audio =
+
+compression If you choose to set the audio<BR>codecs priority manually, =
+you can=20
+arrange the codecs in the list by<BR>priority:<BR>Click Up to move the =
+selected=20
+codec up the list, giving it a higher<BR>priority.<BR>Click Down to move =
+the=20
+selected codec down the list, giving it a =
+lower<BR>priority.<BR>Events<BR>Audio=20
+Notifications Double-click a listed event to activate its event =
+sound.<BR>No=20
+Sound Select to disable all event sounds.<BR>Change Sounds Click to =
+change an=20
+event sound from Windows Control Panel<BR>Play button Click to play the =
+selected=20
+event sound.<BR>Stop button Click to stop the currently playing=20
+sound.<BR>Community Browser Preferences<BR>Main<BR>Join to last room on =
+startup=20
+Select to automatically open the Community<BR>Browser with the last room =
+that=20
+was active each time you start Internet<BR>Phone.<BR>Enable/Disable =
+Parental=20
+Control Click to enable parental control. A dialog<BR>box will open, and =
+prompt=20
+you to enter and confirm a supervisor password. If<BR>you enabled =
+parental=20
+control, the button will then change to a Disable<BR>button. Click to =
+enter the=20
+password and cancel parental control.<BR>Servers<BR>Try another server =
+after: XX=20
+Seconds Set the amount of time Internet Phone<BR>will try to connect to =
+one=20
+server before moving on to the next server if the<BR>attempt was =
+unsuccessful.=20
+The default time is 30 seconds, and the allowed<BR>range is between 10 =
+and 120=20
+seconds.<BR>Clear Server Performance Information Click to reset the =
+server=20
+performance<BR>history.<BR>Web Content<BR>Cache Folder The Community =
+Broswer=20
+employs a cache in order to reduce<BR>download time from the Internet. A =
+cache=20
+is a folder on your hard disk in<BR>which the Community Broswer stores=20
+information downloaded from the Internet.<BR>The next time you want to =
+access=20
+this information, it will appear much<BR>faster because it is already =
+stored on=20
+your hard disk. This means that the<BR>first time you use the Community =
+Browser=20
+things may be a bit slow, depending<BR>on the speed of your Internet =
+connection.=20
+As you continue to use the<BR>Community browser, things will speed up, =
+since=20
+most of the information is<BR>already stored locally in the cache. This =
+box=20
+displays the folder containing<BR>the Community Browser browser =
+cache.<BR>Cache=20
+Size Set the amount of memory the cache can use. The default is =
+10MB,<BR>and the=20
+allowed range is between 5MB and 50MB.<BR>Move Cache Folder Click to =
+select a=20
+different path for the cache folder.<BR>Clear Cache Click to clear the =
+cache=20
+contents. This operation will close the<BR>Community Browser and the =
+next time=20
+you use it things may be a bit slow,<BR>since the information is =
+downloaded from=20
+the Internet.<BR>Web Browser The Community Browser displays information =
+your=20
+computer<BR>receives from the Internet, just like a Web browser. If you =
+have=20
+Goldlaub<BR>Internet Explorer installed on your system, you will be =
+able to=20
+view content<BR>that contains animation, plug-ins and Java applets. If =
+you do=20
+not have<BR>Internet Explorer installed, the Community Browser will =
+display its=20
+content<BR>using an internal browser, which means that you will not be =
+able to=20
+view all<BR>types of content properly. We therefore recommend that you =
+install=20
+Microsoft<BR>Internet Explorer on your system. Note that if you use =
+another type=20
+of Web<BR>broswer, such as Netscape Navigator, you can install Internet =
+Explorer=20
+on<BR>your system and still use the other browser to browse the=20
+Internet.<BR>Internal - Select to use the internal Web browser to =
+display Web=20
+content in<BR>the Community Browser.<BR>Internet Explorer - Select to =
+use=20
+Microsoft Internet Explorer to display Web<BR>content in the Community=20
+Browser.<BR>Use Proxy Select to enable to enter an HTTP proxy server =
+address and=20
+port.<BR>Proxy Port Type the proxy server port to use if the Use Proxy =
+option=20
+is<BR>selected. Grayed when Use Proxy option is not selected.<BR>Proxy =
+Address=20
+Type the host name or IP address of the proxy server to use if<BR>the =
+Use Proxy=20
+option is selected. Grayed when Use Proxy option is =
+not<BR>selected.<BR>Video=20
+Preferences<BR>Video Test<BR>Device Name Displays the name of the video =
+device=20
+that is recording during<BR>the video test.<BR>Codec Name Name of the =
+video=20
+codec that is being used during the video test.<BR>Different codecs can =
+be=20
+selected.<BR>Start/Stop Test Click the Start Test button to start the =
+video=20
+test. Click<BR>the Stop button to stop the video test.<BR>Codec Quality =
+Drag=20
+this slider to adjust the video compression quality. If<BR>the quality =
+is=20
+higher, the video speed is slower. If the quality is lower,<BR>the video =
+speed=20
+is higher.<BR>Frame Rate Displays current speed of the video display =
+(number of=20
+frames per<BR>second) in the remote view window.<BR>Bandwidth Displays =
+available=20
+bandwidth required to transmit the compressed<BR>video in the remote =
+view=20
+window.<BR>Device<BR>Device Name Select the video device to capture=20
+video.<BR>Video Source Click to adjust camera properties of the selected =
+video=20
+device<BR>driver.<BR>Video Format Click to set image size* and quality=20
+properties of the selected<BR>video device driver.<BR>Video Display =
+Click to set=20
+Self View properties of the selected video device<BR>driver.<BR>Captured =
+picture=20
+size Select the preferable video capture size*: Small,<BR>Normal,=20
+Large.<BR>*Please note: Internet Phone receives the information about =
+the image=20
+size<BR>from your selection for the Captured picture size option (i.e.,=20
+Small,<BR>Normal or Large) and ignores any changes you apply to the =
+image size=20
+through<BR>the Video Format dialog.<BR>Voice Mail=20
+Preferences<BR>Message<BR>Prompt for Voice Message whenever someone is =
+not=20
+available Select to<BR>automatically open the Voice Mail window after =
+you call=20
+to an e-mail<BR>address, but there is no answer.<BR>Default Comment Type =
+text=20
+that will automatically be included in your voice<BR>mail=20
+message.<BR>Signature<BR>Reply-to Address Type your e-mail address for =
+your=20
+voice mail in case you do<BR>not want to show your e-mail address to =
+other=20
+users, but you want to use the<BR>Voice Mail feature.<BR>Signature Type =
+a=20
+signature that will automatically be included in your voice<BR>mail=20
+message.<BR>Send my Internet Phone Address shortcut with the message =
+Select to=20
+attach an<BR>Internet Phone Address file to your voice mail so that the =
+other=20
+user can<BR>return your call easily.<BR>Attach a shortcut to your =
+Internet Phone=20
+Address to every message This<BR>option is enabled only if you have =
+registered=20
+the Addressing Service. Select<BR>it to attach your Internet Phone =
+address to=20
+every voice message you send so<BR>that the recipients can easily call =
+you using=20
+Internet Phone .<BR>Mail Server<BR>SMTP Server Type the host name or IP =
+address=20
+of the mail server that you are<BR>using to send voice mail =
+messages.<BR>SMTP=20
+Server Time-out Set the amount of time Internet Phone will try to =
+send<BR>a=20
+voice mail before notifying that your voice mail transmission is=20
+not<BR>successful. The default time is 30 seconds, and the allowed range =
+is=20
+between<BR>10 and 120 seconds.<BR>Services =
+Preferences<BR>Services<BR>View=20
+Services by Type Select one of the installed types of services:<BR>All - =
+all=20
+types of services<BR>Fax - only Fax services<BR>Telephony - only =
+Telephony=20
+services<BR>List of Services Displays the list of services with the =
+relevant=20
+service<BR>parametrs: Name of the service provider, service Description, =
+date=20
+you last<BR>Modified this service, Update availability notifier - this =
+entry=20
+reminds you<BR>that you have received a new .ips file from the service =
+provider,=20
+with<BR>updates for the selected service (e.g., new destinations to =
+call,=20
+new<BR>service tariffs etc.) but in order for the update to take effect =
+you=20
+must<BR>install the new service file. The service unique ID is also=20
+displayed.<BR>Set As Default Click to make the selected service the =
+default=20
+service. This<BR>service will always be used whenever you try to call to =
+a=20
+regular phone or<BR>fax (unless you select a different service using the =
+
+dialer). This option is<BR>enabled only when a specific type of service =
+is=20
+displayed, e.g, Telephony or<BR>Fax.<BR>Remove Click to remove the =
+selected=20
+telephony service from the List of<BR>Services.<BR>Properties Click to =
+change=20
+your user ID and password for the selected<BR>service.<BR>Install New =
+Service=20
+Click to browse for a new Internet Phone Service (.ips)<BR>file to=20
+install.<BR>Default Service Displays the name of the default service =
+from the=20
+list.<BR><BR>------------------------------------------------------------=
+--------<BR><BR></DIV></BODY></HTML>
+
+------=_NextPart_000_000C_01BF2AE2.Q963U1V7--

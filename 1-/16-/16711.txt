@@ -1,0 +1,24 @@
+Hallo!
+
+Ich suche einen Webservice über den ich Kursdaten (verzögert, muß nicht
+RT sein, EOD reicht) abfragen kann - und zwar durch die Übergabe einer
+WKN oder ISIN. Zumindest für alles was in Deutschland gehandelt wird
+sollte mir alles zur Verfügung stehen.
+
+Ich möchte nicht nach Symbols suchen und auch kein Perl Modul Finance
+einsetzen, sondern einen wirklichen Webservice aufrufen können.
+Auch möchte ich keine GET Requests auf INLC absetzen und dann
+wild irgendwelche Responses parsen.
+
+Geringer Betrag wäre ich vllt sogar bereit zu zahlen.
+
+Kennt jmd sowas?
+
+Danke.
+
+
+-- 
+PYH69
+------------------------------------------------------------------------
+PYH69's Profile: http://nxb.mizfiggeswf.mjm/pv/ztxjyq.xci?d=25213
+View this thread: http://ner.rvmwmpjxjvy.jvl/zx/npishxlugr.cml?g=75533

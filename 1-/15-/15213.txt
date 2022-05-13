@@ -1,0 +1,20 @@
+Hier hat aber nicht der Emittent Schuld, sondern die Terminkurve des 
+Basiswerts Brent-l. Letztes Jahr notierte das kurze Ende der Kurve 
+ständig im Contango - beim Rollen der aktuellen Futures in die 
+nachfolgenden Futures (teurer als die aktuellen Futures) kam es damit zu 
+Rollverlusten.
+
+Zur Zeit befindet sich übrigens die Terminkurve in Backwardation - es 
+kommt also zu Rollgewinnen.
+
+Die Rollproblematik kann man umgehen, indem man Partzipationszertifikate 
+auf bestimmte Futures kauft. Nissan hat so etwas. Oder 
+Bonuszertifikate - die werden auch auf bis zur Fälligkeit des 
+Zertifikats laufende Futures gepreist, für die Barriere ist aber der 
+Kassa-Preis entscheidend.
+
+Wenn man Währungsrisiken (aber auch -chancen) ausschalten möchte, nimmt 
+man Quanto-Zertifikate.
+
+Gruß,
+Roger

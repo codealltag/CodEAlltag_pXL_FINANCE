@@ -1,0 +1,36 @@
+On 27 Okt 1998 22:09:28 +0200, Mike Lesser
+
+stimmt so nicht ganz, die Dividende für 97 beträgt 2.20 DM +
+Körperschaftsteuergutschrift. 
+
+Im Nenner Deiner Formel muß Bezugsverhältnis + 1 stehen. Ich verzichte
+hier mal darauf, die Formel herzuleiten. Aber an einem einfachen
+Beispiel wirds deutlich:
+Um die gewünschten Milliarden einzufahren, könnte die Nuzah
+auch die neunfache Anzahl neuer Aktien zu je EUR 4 (gerundet)
+emittieren. Für eine alte würde es dann eine neue Aktie geben. Du
+kaufst also eine alte Aktie zu EUR 50 (ich nehme mal an, die Dividende
+wäre schon ausgeschüttet), zahlst EUR 4 für eine neue. Also hast Du
+für EUR 54 zwei Aktien bekommen, jede ist also EUR 27 wert. Für eine
+neue Aktie brauchst Du EUR 4 und ein BZR, macht 4 + BZR = 27 oder BZR
+= 23.
+Nehmen wir Deine Formel: (50 - 4) / 1 = 46
+Mit dem richtigen Nenner: (50 - 4) / (1 + 1) = 23
+
+Die Gesellschaft selbst gibt nichts, zumindest keinen Betrag aus. An
+die Stelle einer alten Aktie, die zum Bezug neuer Aktien berechtigt,
+tritt eine Aktie, die kein Bezugsrecht mehr hat und das Bezugsrecht
+selbst. Geld kommt erst ins Spiel, wenn Bezugsrechte gehandelt werden.
+Aber das hat keinen Einfluss auf das Vermögen der Gesellschaft.
+
+rechne einfach mal ein Beispiel durch:
+
+1. Kurs alte Aktie EUR 50
+==> BZR = (50 - 38) / (9 + 1) = 1,20
+
+2. Kurs jetzt + 1%, also 50,50
+==> BZR = (50,50 - 38) / (9 + 1) = 1,25, sind 4,17% mehr.
+Ich gebe zu, ein Hebel von 4,17 ist nicht die Welt. Ein BZR ist zwar
+ein Optionsschein, aber kein heißer,  denn er liegt doch dick im Geld.
+
+Alexandre

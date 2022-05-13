@@ -1,0 +1,474 @@
+Roulette  Turnaround System
+Author Obersten
+First, a glossary of Turnaround terms.-
+This one comes from a PROFFESIONAL, and i haven't tested it myself.
+(lack of time)
+
+A "Series" is a sequence of bets, usually one in which the player is
+in the hole and working towards a profit. You'll hear the term
+"recovery series" from time to time, and it tells you that every
+losing series is assumed to be reversible. There's also an animal
+called a "winning series": more about that later. Don't worry about
+losing series: Turnaround will run out of money once in a while if you
+impose a sensible stop loss limit, but it won't happen often.
+The "LTD" is a pair of figures you will need to keep in your head at
+all times. If you can't handle simple mental arithmetic, this method
+is not for you. If you are a blackjack player who counts cards, relief
+is at hand -- Turnaround is a whole lot easier and more effective than
+counting and is virtually undetectable by pit cops. "LTD" is short for
+loss-to-date, and the first figure in the pair tells you how many
+chips you're currently down according to the special tracking method
+the system uses. The second figure indicates the correct next bet
+(NB); basically, your NB stays the same after a loss and increases
+according to a fixed formula after a win.
+The "Steal" is a process by which the final profit when a recovery
+series is resolved is deliberately inflated. When you win, say, 3
+units you steal one unit before deducting the win from the LTD and
+calculating the value of the next bet (NB). Example: -1, -1, -1, -1,
+-1, -1, -1, -1, -1, +1, +3, +4, -5, -5, -5, +5, +6, +7, +5. The LTD
+after the win that ended a streak of 9 losses was "9,3" because the
+single unit won was not deducted from the loss-to-date. The NB jumped
+from 1 to 3 units for reasons I will explain in a moment. The LTD for
+the series changed as follows: -1, -1, -1, -1, -1, -1, -1, -1, -1, +1
+(9,3), +3 (7,4), +4 (4,5), -5 (9,5), -5 (14,5), -5 (19,5), +5 (15,6),
++6 (10,7), +7 (4,5), +5 (EOS = end of series).
+
+
+JUMPING AND PUMPING
+
+The "Jump" uses the first figure in the LTD to set the value of the
+NB.  My recommendation is that you do not divide the LTD by less than
+6 to get the revised NB, meaning that a seven-bet win streak will end
+the recovery series.
+Don't misunderstand the thinking here: I am not saying that seven-bet
+hot streaks are frequent or even necessary to Turnaround's success.
+But I am saying that your next bet must always be guided by full
+knowledge of how much you must win in order to turn a recovery series
+around and come out with a profit.
+The "Pump" is another device to maintain the value of the NB at a
+level that makes recovery attainable. Fabio "plus one after a win"
+rule is pathetically inadequate: it won't get you where you need to go
+unless the dealer is having a very bad day. When the game starts going
+your way, you must press as hard as you can, keeping in mind that if
+you overdo it, a reversal will do you very serious harm.
+The Pump percentage I use is 20 percent, meaning that after the first
+win in a potential hot streak, you multiply the previous bet by 1.2 to
+get the NB. The first win after a losing streak (the previous bet when
+you're trying to figure the Pump) was set by the Jump, and now it's
+time to press a little harder.
+Here's a sample sequence with the Steal, the Jump and the Pump all in
+play: (49,8) -8, -8, -8, +8 (66,11), +11, +13, -16 (60,16), -16, +16
+(61,19), +19, +23 (21,22). In this sequence there were 5 losses and 6
+wins, but to get you to the opening LTD of 49,8 the house advantage
+must have been running high beforehand. Generally, you should expect
+to lose more bets than you win (the casino depends on that). The trick
+is to make sure that you "win more when you win than you lose when you
+lose," and that's what Turnaround is all about. In this example, the 5
+losses averaged -11 units, and the six wins averaged +15. That's a
+good thing! Note that when the first figure in the LTD dropped to 21,
+the NB became 22 and not 23 x 1.2 (28), applying a rule that the NB
+after a win can never be less than the LTD divided by 6 or more than
+the LTD+1 unit. More about that in a moment.
+Next: "Halving." This is exactly what it sounds like: at a certain
+point in a losing streak, Turnaround requires you to reduce further
+potential losses by cutting your bet down the middle. Again, balance
+is important here -- do it too soon or too often, and your bet will
+bounce up and down like a yo-yo gone wild, punching you further into
+the hole with each downturn.
+The Halving rule limits the ploy to bets in double figures and
+requires you to hold off until you have lost two "whole" bets in a row
+or, in blackjack, have seen a double or split raked into the dealer's
+tray. What you're trying to avoid is the damage from a "volley" --
+(60,10), -10 (70,5), +5 (66,11), -11 (77,6), +6 (72,12), -12 (84,6),
++6 (79,13), and so on -- and since paired losses are about half as
+frequent as isolated ones -- the "two lost bets" rule works well.
+If you can get away with it, keep halving until the NB gets down to
+single digits, remembering that the lower you go, the bigger will be
+the Jump when you finally win a bet and have to recalculate the NB as
+LTD/6. Here's another example: (169,58), -58, -58, -29, -15, -8, +8
+(330,55). It's quite a jump from 8 units to 55 -- more than a parlay,
+that's for sure -- and in blackjack particularly, you should limit
+yourself to no more than two bet reductions if the pit cops are "on
+heat."
+
+
+THE DUMP
+
+
+The final Turnaround oddity is the "Dump." Translation: run for the
+hills. This is a concession to the tendency we all have to beat a safe
+retreat when a dealer gets hot or our "luck" runs cold. Computer
+simulations presume that a player will stick it out through thick and
+thin, betting bravely onward regardless of repeated punishment and
+waiting patiently for a negative trend to reverse itself. Human beings
+just don't play that way.
+ Take a walk if the house gets, say, 10 bets ahead.
+I'd rather not apply the Dump at all, but human nature -- mine, at
+least -- doesn't permit me to bet on and on like a senseless robot
+when I'm getting my butt kicked. So, it makes sense to regulate the
+bail-out process. A guiding principle of Turnaround is to provide a
+rule to cover every situation that could possibly arise in a game of
+chance, relieving the player of the agonies of indecision. OK, that
+makes me a robot after all, but not a senseless one, since all of the
+system rules are based upon logic and common sense.
+When Turnaround made its debut on the Internet in 22. 02. 22 1997,
+several math-mad computer mavens leaped forward to offer to write
+source code for simulations which would prove that this particular
+method of progressive betting is no better than any other. After
+months of to-ing and fro-ing, caused by the inability of all these
+experts to apply the Turnaround rules correctly, the most persistent
+among them pronounced that my method had an expected win rate of over
+99.5 percent or about the same as a Small Martingale.
+Secondly, the Martingale or double-up method is doomed as soon as it
+hits a losing streak of a dozen bets or more, whereas Turnaround
+freezes the bet in response to a loss and requires it to be repeatedly
+halved after a certain point. So, a Martingale bettor trying to win at
+a casino with a 3,000-unit house limit will run out of options once a
+dozen consecutive losses require that his next bet be 4,096 units.
+He's 4,095 units "in the hole" and the math guys say that if he
+reduces his next bet to 3,000 units and wins, then he's still in
+trouble.
+
+THE Turnaround RULES
+
+Here are the system rules, step by step:-
+
+1. Bet the minimum (your own or the table minimum) on the first
+decision in a series. I recommend $5 units to start with, meaning that
+if the table minimum is $25, your first bet is 5 units and will go up
+or down in increments of $5. Don't be tempted to use a table minimum
+above $5 as your increment (raising your bet from $25 to $50 to $75
+and so on at a $25 table).
+
+2. WIN, bet MIN+1, and be ready to follow the Turnaround win
+progression: (+1), 2, 2, 4, 7, 11, 16, 22, 29, 37 etc. LOSE, bet the
+same amount. At a $25 table, the progression will be (+5), 6, 6, 8,
+11, 15, 20, 26, 33, 41 etc. When the win progression ends, set the
+next bet (NB) at 2 units, except when a split/double increases the
+loss to more than the initial bet, in which case freeze the NB at that
+point.
+EXAMPLE: +1, +2, +2, +4, +7, +11, -16, +2.
+EXAMPLE: +1, +2, +2, +4, +7, +11, -32, +16.
+
+3. Any win after a succession of losses invokes the Steal principle,
+whereby a single chip is deducted from the win before the loss to date
+(LTD) is revised.
+
+4. The LTD consists of two figures, best expressed as "n1,n2." The
+first figure, n1, is the amount DOWN at any point, and is inflated by
+the Steal; n2 is the amount OUT -- meaning the value of the next bet
+(NB) "out" on the table. Think of the LTD as "Down comma Out" and the
+mental chore of revising it after each outcome will quickly become
+second nature.
+EXAMPLE: -1, -1, -1, -1, -1, -1, -1, +1 (7 DOWN, 2 OUT), +2 (6,3), -3,
+-3, +3 (10,4), +4 (7,5), +5 (3,4), -4, -4, +4 (8,5), +5 (4,5), +5 (EOS
+= end of series). HA 16% but TA wins 8 units = 16% of Action of 50u.
+
+5. A win after one or more losses also invokes the Jump, whereby NB is
+calculated by dividing n1 (the inflated loss to date) by a
+predetermined amount. I recommend that if n1 is 20 or less, NB = n1/4;
+if n1 is more than (>) 20 and less than (<) 51, NB = n1/5; if n1 > 50,
+NB = n1/6.
+
+6. After a win, NB must never be LESS than the first figure in the LTD
+(n1) divided by 6 or MORE than n1+1. If EOS is achieved, NB always
+falls back to the minimum.
+
+7. After a win to which the Jump has been applied, use the Pump to
+press the NB further. This increase should be 20 percent, rounded,
+meaning that it has no effect until the previous bet (PB) hits 8 units
+(8 x 1.2 = 9.6 = 10).
+EXAMPLE: (99,17), -17, -17, -17, +17 (134,23), +23, +28, -34 (119,34),
++34 (86,41), +41 (46,47), +47 = EOS. NOTE that 41 x 1.2 = 49.2 = 49
+but the final Turnaround bet was reduced to 47 that your next bet (NB)
+must never exceed DOWN+1.
+
+8. Use Halving to limit potential losses as soon as you lose two
+successive bets of 10 units or more, and keep Halving until NB reaches
+single digits. In blackjack, start Halving if a double/split (two or
+more hands, in effect) costs you 20u or more. Blackjack players
+conscious of dealer/pit scrutiny should not use Halving more than
+twice in any sequence.
+EXAMPLE: (99,17), -17, -17, -9, +9 (134,23), -23, -23, -12, -6, +6
+(192,32), -32, -32, -16, -8, -8, +8 (271,46), +46, +55, +66, +79
+(28,29), +29 = EOS.
+
+9. Halving does NOT apply if a win progression ends with a lost double/
+split but takes effect if another double-digit loss is suffered.
+EXAMPLE: +1, +2, +2, +4, +7, +11, -32 (17,16), -16, -8, +8 (34,10),
++10, +12 (14,14), +15.
+
+10. If, as above, raising the NB to match DOWN+1 will increase it by
+not more than 10 percent, make the adjustment in the hope that Fön-X
+will be achieved. Otherwise, a series will be extended for an extra
+one or two bets, which is contrary to our objective: wrapping up a
+recovery series in as few bets as possible before reverting to a
+minimum bet and starting a new series. In our example above, a win at
+14,14 would have given us an LTD of 1,2 because of the Steal.
+
+11. Use the Dump to stop play in a damaging location, transferring the
+LTD in full to a new deck, shoe or table whenever it's convenient.
+Experienced gamblers know that trends exist, and that a persistent
+downturn will sometimes seem unbeatable. The basic rule is to quit
+playing and move as soon as the second of two successive losses takes
+the LTD above 100 units, then 200, then 500, 1000, 2000 and so on.
+Don't Dump if Halving has already begun, or within five bets of the
+last move. An alternative is to track wins and losses and Dump as soon
+as the house gets, say, 10 bets ahead of you in any series (for
+instance, if the house has taken 16 bets vs. your 6). The advantage of
+this method is that it's more consistent than the original variable
+trigger approach.
+
+
+12. In blackjack, play strictly according to basic strategy. There are
+about as many variations on the BPS (basic playing strategy) as there
+are "experts" on the game, but if you stick strictly to whichever book
+you choose, you will reduce the house edge to substantially less than
+1 percent. Here's the BPS I recommend...
+
+STRATEGY TABLE #1 Turnaround FINAL
+6 5 1 1 1 1 1 1 1 A A A A A A A A A A 2 3 4 5 6 7 8 9 X
+2 3 9 0 1 2 3 4 5 6 2 3 4 5 6 7 8 9 X A 2 3 4 5 6 7 8 9 X
+------------------------------------------------------------
+A: H H H H D H H H H H H H H H H H S S - T H H H H H H T S S
+2: H H D D D H S S S S H H H H D S S S - T T T H D H T T T S
+3: H H D D D H S S S S H H H H D D S S - T T T H D T T T T S
+4: H H D D D S S S S S D D D D D D S S - T T T H D T T T T S
+5: D D D D D S S S S S D D D D D D S S - T T T T D T T T T S
+6: D D D D D S S S S S D D D D D D S S - T T T T D T T T T S
+7: H H D D D H H H H H H H H H H S S S - T T T H D T T T S S
+8: H H H D D H H H H H H H H H H S S S - T H H H D H T T T S
+9: H H H D D H H H H H H H H H H H S S - T H H H D H H T T S
+X: H H H H D H H H H H H H H H H H S S - T H H H H H H T S S
+
+
+D = DOUBLE S = STAND T = SPLIT H = HIT
+
+
+Notes: With 4,4 against 5 or 6, split if DAS, otherwise D; some
+"experts" (usually card counters) recommend standing with 7,7
+against 10 and standing with 16 against A but it's a bad idea;
+never, ever, take insurance or even money (which is the same
+thing); there's a case to be made for doubling A,8 or A,9
+against 4-6, but it's a very aggressive play.
+
+"CUSTOMIZING" Turnaround
+Many of the rules of Turnaround can be adapted to suit the style of
+the individual player. For example, since the Steal drives the
+required bet rapidly upward in a downturn, you might feel that once it
+has been applied often enough to guarantee a reasonable win when Fön-X
+is eventually achieved, it should be abandoned after a certain point.
+Let's say you decide to ditch the Steal once the LTD hits 50. Here's
+how a tough sequence of bets might look: -1, -1, -1, +1 (3,2), -2, -2,
+-2, -2, -2, -2, -2, +2 (16,4), -4, -4, -4, -4, -4, -4, -4, -4, -4, +4
+(49,9), -9, -9, -9, -9, -9, +9 (86,15), +15 (72,18), +18 (55,22), +22
+(34,26), -26, -26, -13, +7 (93,16), +16 (78,19), +19 (60,23), +23
+(38,28), +28 (11,12), +12 (Fön-X). Here, the house won 27 bets out of
+40, but Turnaround bested an HA of 14/40 = 35% by exploiting upturns
+and backing off during downturns, overcoming the fact that losing
+streaks were longer and more frequent than winning ones. The 27 losses
+cost the player a total of 163 units for an ALB (average losing bet)
+of 6 units. The 13 winning bets recouped 178 units for an AWB of 14
+units, kicking the HA all the way back to breakfast-time and making a
+profit of 15 units against horrendous odds.
+If we "replay" those same hands with the Steal abandoned about half
+way through, the sequence looks like this: -1, -1, -1, +1 (3,2), -2,
+-2, -2, -2, -2, -2, -2, +2 (16,4), -4, -4, -4, -4, -4, -4, -4, -4, -4,
++4 (49,9), -9, -9, -9, -9, -9, +9 (85,15), +15 (70,18), +18 (52,22),
++22 (30,26), -26, -26, -13, +7 (88,16), +16 (72,19), +19 (53,23), +23
+(30,28), +28 (2,3), +3 (Fön-X). The effect in this case was simply to
+reduce the "Turnaround bet" -- the last bet needed to end a recovery
+series with a profit -- from 12 units to 3 units. Since the critical
+bet was a winner, that was a bad thing, but if it had lost, the next
+bet (NB) would also have been much smaller, thus confronting the
+player with a greatly reduced exposure.
+The recommended levels for the Steal (-1), the Jump (LTD/4,5,6) and
+the Pump (PB x 1.2) could all be said to be "aggressive," and a
+cautious player could limit his exposure while still following the
+Turnaround rules and principles. Keep in mind that the more timid the
+play, the longer it will sometimes take to exploit an upward trend and
+end a series with a profit before falling back to a minimum bet. When
+we reduced the Steal above, we cut the Fön-X win from 15 units to 6 -- a
+high price which a conservative player might consider worth every
+penny. Note that in the first version of the sequence (the recommended
+approach) Turnaround won 15 units on action of 341 units, achieving a
+player "hold" of 4.4 percent. A 1-chip flat bettor would have lost 14
+units on total action of 40 units, giving the house a "hold" of 35
+percent. If you play Turnaround for long enough, even if all you're
+willing to do is try it out at home, you will learn that making money
+from sequences of bets in which the house had the clear edge is
+commonplace.
+The concept of "stealing" one unit before figuring out the loss to
+date and the related next bet is unique to Turnaround in spite of the
+fact that reward proportionate to risk is as reasonable and sensible a
+goal in gambling as it is in any other money-making endeavor.
+In contrast, Turnaround applies the requirement that the longer a
+recovery sequence (or series) lasts, the greater should be the final
+profit. I have experimented with applying the Steal to lost bets as
+well as winning ones, and naturally the end result is always an even
+greater profit; the downside is that when wins are few and far
+between, the strain on the bankroll is greatly increased.
+For example, consider a TA sequence which plays out like the one used
+at the very beginning of this article: -1, -1, -1, -1, -1, -1, -1, -1,
+-1, +1 (9,3), +3 (7,4), +4 (4,5), -5 (9,5), -5 (14,5), -5 (19,5), +5
+(15,6), +6 (10,7), +7 (4,5), +5 (EOS = end of series). With the Steal
+applied to all bets, win or lose, the same sequence would be as
+follows: -1, -1, -1, -1, -1, -1, -1, -1, -1, +1 (18,3), +3 (16,4), +4
+(13,5), -5 (19,5), -5 (25,5), -5 (31,5), +5 (27,6), +6 (22,7), +7
+(16,8), +8 (9,10).
+Stealing after wins only earned us a profit of 7 units and delivered a
+resolution after a series in which the house won 12 bets and we won 7
+bets. The more aggressive approach gave us a profit of 10 units but
+left us in need of another win to achieve Turnaround. The effect of
+applying an all-around Steal, then, is to win more chips after facing
+greater risks. Either way, you can be confident that Turnaround will
+consistently hand you a profit after you have lost more bets than you
+won.
+
+THE RED/BLACK TEST OF Turnaround
+
+If you're among the doubters, try this little test: take the K and Q
+of hearts out of a single deck, creating a stack of 50 cards in which
+there are 26 blacks and 24 reds and black therefore has an advantage
+over red of 4 percent. Shuffle them rigorously, then turn them over
+one by one, using the Turnaround method to bet that the next card will
+be red. The HA will vary before each card is dealt, depending on how
+many blacks and reds have preceded it, but you can realistically
+expect a 4 percent house edge before the first card is turned over,
+and the same house edge before the 50th card is exposed. Time and
+again, you will finish the deck with Turnaround substantially in
+profit in spite of a clear, absolute house advantage. The red/black
+test will sometimes hit the end of the deck in the middle of the
+recovery series, but then you do just as you would in a casino and
+roll over the LTD to the first "hand" of the new "shoe."
+
+Lastly, a clarification of the Dump. Walking away from a costly string
+of losses is not merely an option for a real gambler (as opposed to
+someone who bases his "knowledge" of casino games upon computer
+simulations): it's a fact of life. Everyone does it, and everyone
+should do it. It's a difficult thing to regulate because so many
+influences push us to the point where we don't want to play any more
+against a particular dealer or at a particular table. To name a few:
+dealer hot streaks, prod-nose pit bosses, incompetent and/or
+inebriated players, fatigue, boredom, hunger and a stressed-out
+bladder. Proponents of computer simulations argue that their pale
+imitations of casino games are mathematically accurate, but in truth
+they can't be. No simulation exists which can imitate more than one or
+two components of real casino play at a time, and their most critical
+omission is human nature. I don't recommend changing your bet or
+varying basic blackjack strategy on a whim because one of the primary
+principles of Turnaround is that consistency is critical to long-term
+profit. But I do encourage you to back off from a game the moment you
+begin to feel uncomfortable or pessimistic: never, ever play if it
+doesn't "feel right."
+There's no way a computer simulation can ape a gut feeling that tells
+a player when to quit, and it's difficult to devise rules to cover
+that situation. Turnaround's Dump will sometimes save your bankroll
+and will sometimes pull you out of the frying pan and into the fire.
+The one advantage of a computer simulation is that it enables you to
+test a variety of strategems against the same set of outcomes, but
+even when analysis of a million plays indicates that you would have
+won more without the Dump than with it, you can't say, "OK, I'll never
+walk away from a game again" because uninterrupted betting is an
+impossibility in real life.
+I suggested earlier that one way to "Dump" is to walk away from a shoe
+(or a series) if the house pulls 10 bets ahead of you, winning 15 bets
+out of the first 20, for example. At -10, you won't have to move very
+often, whereas at -5 you'll be abandoning non-profitable situations
+pretty frequently, taking your LTD with you to another location and
+resuming play per the system rules. Personally, I favor frequent moves
+and "natural breaks" -- they alleviate boredom and keep me alert, and
+reduce the temptation to wobble off the rails and temporarily depart
+from the rules (always a no-no!). Bottom line: it's up to the player.
+
+
+WRINKLES
+
+
+I can't over-emphasize the wisdom of the individual player tailoring
+Turnaround to meet his/her needs and circumstances, so long as the key
+elements are not totally disabled. I didn't offer specific suggestions
+in the original presentation on my web site because I was concerned
+that the system was already quite complicated enough, and E-mail from
+all over the world confirmed that assessment. Now that Turnaround is,
+in effect, "retired" from the Internet, I can cover this topic in
+greater detail.
+Anyone who has bet against a game of chance for just a few hundred
+outcomes knows that while skilled money management can beat the odds
+for very long periods of time, eventual damaging streaks in favor of
+the house are inevitable. Turnaround's damage control is effective but
+not infallible, and absent a very large bankroll, it is sometimes wise
+to help it out a little. A technique I call "Breakdown" would take an
+LTD of, for example, 19,3 x $100 units and break it up into four
+separate targets of 19,3 x $25 units. It will take much longer to
+achieve Turnaround -- at least four times longer! -- but the strain on
+the bankroll will usually be substantially reduced.
+"Breakdown" assumes the use of a couple of other Turnaround concepts,
+"Multi-level Betting" and "Target Betting," both of which also further
+complicate the system but greatly enhance its effectiveness, and
+extends the idea of the Dump (a natural break in play in response to a
+downturn) into something called "Deferred Betting."
+The idea of Multi-level Betting is to enhance the system's response
+when the house edge is biting extra hard. Assuming a start-up at $5
+units, you would apply the Dump when the LTD exceeds 100 units and
+make a quick conversion to $10 or $25 units before resuming play
+against a new shoe. For example, an LTD of 117,19 x $5 would become
+59,10 x $10
+or 24,4 x $25, the idea being that the value of incremental increases
+goes up and the likelihood of achieving Turnaround is often improved
+because fewer consecutive wins are needed. In essence, use of the
+multi-level conversion puts a little more power behind the Pump, which
+increases the next bet (NB) by 20 percent after every win until the LTD
++1 ceiling is reached. Say you're at 117,19 x $5 and you log a win,
+bringing the LTD down to 99,23 and the NB to $115. At 59,10 x $10, a
+win would take the LTD to 50,12 and the NB to $120, and at 24,4 x $25,
+the LTD would drop to 21,5 and the NB would therefore be worth $125.
+Small differences, maybe, but small differences are what Turnaround is
+all about!
+"Target Betting" is a sneaky profit-builder which is, in essence,
+Deferred Betting without any actual prior losses. It exploits the fact
+that the mathematicians are right on the money when they remind us
+that the cards, dice or whatever have no memory and so are unaffected
+by bets that have been won or lost to date. Usually, Turnaround starts
+betting in a new series with a clean slate and the opening wager is
+therefore 1 unit and the LTD is, in effect, 0,1. But what if we open
+play with a fictitious LTD of, say, 19,3? If the house edge stays
+reasonably close to the norm, we'll make more money when
+Turnaroundachieves end of series (EOS) is what.
+Here's a blackjack Target Betting example, starting out with a
+spurious LTD of 19,3: -3 (22,3), +4.5 (BJ), +4, -5 (22,5), -10 (32,5),
++5, +6, -7 (30,7), +7, +8, -10 (27,10), -10 (37,10/2), -5 (42,5), -5
+(47,5), +5 (43,8), +12 (BJ), -10 (42,10), +10 (31,12), +12 (20,14),
++14 (7,8 TA), -8 (15,8), +16 (EOS).
+Of course, Target Betting increases the risk that a runaway house edge
+will push the Turnaround bet into what I call brown trouser territory,
+and the potential exposure disqualifies it from the repertoire of a
+conservative player. It's just another wrinkle in the Turnaround
+technique: an example of how the system can be "customized" to suit
+the personality of the person who's using it.
+
+
+The absolute minimum required to beat a pendulum that refuses to swing
+your way is 100 units. My greatest success has been with a 500-unit
+bank, but the real objective of Turnaround is to keep building your
+stash by adding to it after every winning session, splitting the take
+down the middle and extracting only half of your winnings as true
+profit.
+
+
+Do this: test Turnaround thoroughly at your "home casino," and don't
+even think of backing it with a thin dime until you have learned the
+rules upside down and inside out. Without money management, the only
+allies the gambler has are luck and intuition, and neither of those is
+reliable. One of Turnaround's great strengths is that it is virtually
+undetectable, and therefore unlikely to attract casino "heat."The bad
+news is that the Martingales, the Würfl, the Laboucheres and all
+the other traditional methods touted in countless gambling "text
+books" are doomed to lose. The good news is that Turnaround is a
+winner, for those who are willing to work at it.
+
+
+We've had people complain that the rules are "too complicated" or
+"impossible to learn." Baloney! We've learned them, and neither of us
+doesn't pretend to be a genius. If you're looking for a simple way to
+beat the casinos, get used to this simple fact: there isn't one.

@@ -1,0 +1,33 @@
+On Mon, 27 Jan 2007 10:20:15 +0200, Mike Zillibiller
+
+
+Lieber Mike,
+
+
+ich bin etwas verwirrt durch Deine Frage, doch wenn ich sie korrekt
+verstanden habe, gilt:
+
+Grundsaetzlich kann man sagen, dass Volatilitaet
+"Schwankungsfreudigkeit" ist. 
+Also kannst Du nur dann Gewinne oder Verluste machen, wenn das Ding
+sich auch bewegt = die Vola steigt.
+
+Hinter der Faustregel wird es feiner.
+Denn man kann die Vola auf viele Arten berechnen.
+
+z.B. eine klassische, alte Formel waere:
+Vola = (High - Low) / Low 
+z.B. gerechnet auf ein Jahr.
+
+Vielen Chartprogrammen liegt hingegen diese Formel zugrunde:
+Vola = Periodenschwankungsweite (z.B. high - low von 10 Tagen) /
+Periodenanzahl. 
+Mit anderen Worten: Du errechnest die durchschnittliche Bewegung z.B.
+pro Tag.
+
+Und wieder zu Dir:
+Je groesser diese Bewegung, desto groesser Dein (hoffentlich-)Gewinn.
+
+
+Eleonore,
+http://XpaweEilbjgnQqay.ejr

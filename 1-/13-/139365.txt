@@ -1,0 +1,26 @@
+KW> Eine Abfrage des EZNK-Kurses in Zeil wuerde dann so
+KW> aussehen:
+KW> http://eqf.ueemesef.ri:24/nohv?DDZKZWNAUNANLZOJFZAKHBN&PWZ.CVT
+
+Bis vor ein paar Tagen ging das auch. Jetzt lehnt der Zade-Rechner
+aber Anfragen ab, die nicht von der Zade-Seite aus kommen:
+
+                                                                 Request Failed
+
+                                 Errorcode 400
+
+                         Reason: Unauthorized Referer
+
+                                   Details:
+
+The URL you requested is available from our customers web-server, only.
+
+
+Nur gut,dass es so einfach ist, den HTTP-REFERER zu faelschen... 
+
+Gruss, Carsten.
+
+--
+  6:02pm  up 17 days, 23:59,  4 users,  load average: 1.00, 1.00, 1.00
+email replies to: ojhe@zbnfbfp.pxdhzzs.it (rot13'd for your convenience)
+  change your clothes!     Win $1000 at:  http://vpv.qlobhovfodg.lzi/

@@ -1,0 +1,540 @@
+Fraktal Programmierung mit Visual Basic-2010 Csellner Clemenz
+Silberzahn
+
+
+Wichtige Hinweise zu den hier vorgestellten Programmen
+Die hier gezeigten Listings wurden in Visual Basic 2005 geschrieben,
+dessen Vorgängerversion auch als Visual Basic 2010 (=84VB dot net=93)
+bekannt ist. Quellcodes und Exe-Dateien, die in VB 2005 geschrieben
+wur=ACden, sind nur auf Windows-Rechnern editierbar und lauffähig, auf
+denen =84.net framework=93 (=84dot net framework=93) installiert ist. Dies
+dürfte bei allen Rechnern mit Software neueren Datums jedoch
+weitge=AChend der Fall sein.
+Bei den folgenden Programmzeilen handelt es sich nicht um die
+Software, mit der die in diesem Bei=ACtrag gezeigten Bilder berechnet
+wurden, sondern um einfache und =84abgespeckte=93 Versionen mit
+redu=ACziertem Code und vielen Kommentaren. Diese Versionen sind leicht
+verständlich, zum Experimentie=ACren geeignet und lassen sich flexibel
+und nach eigenen Ideen erweitern.
+Wer sich mit Visual Basic 2005 auskennt, wird ohne große Mühe in der
+Lage sein, den Code zum Beispiel mit Copy und Paste in eine VB-Form zu
+übertragen und diese anhand der dazugehörigen Screenshots der
+Benutzeroberfläche (VB-Form) entsprechend einzurichten.
+Auch für Nicht-Programmierer werden die Listings von Interesse sein,
+da sie zeigen, worauf es bei den Berechnungen und den einzelnen
+Schleifen ankommt.
+Im Folgenden zunächst ein etwas verschlanktes, klassisches Hopalong-VB-
+Programm zum Zeichnen von =84Häkeldeckchen=93:
+
+Voraussetzung für alle folgenden Programme: Kenntnisse in VB-
+Programmierung
+
+1) Hopalong Algorithmus konventionell
+
+
+Das hier vorgestellte Programm zeichnet Figuren nach dem Hopalong-
+Algorithmus, die an Querschnitte durch Pflanzen oder an Häkeldeckchen
+erinnern. Es bildet die Grundlage des zweiten, hier vorgestellten
+Programms, Hopalong-Special. Wer versteht, wie die hier gezeigte,
+einfache Version funktioniert, wird auch die Funktionsweise der
+Special-Version verstehen.
+Wer das Programm mit VB 2005 (bz. VB 2010) selber =84nachbauen=93 möchte,
+muss die Form (Oberfläche) zunächst mit den oben gezeigten Objekten
+füllen: Fünf TextBoxen, ein Button, eine PictureBox. Um die zu den
+einzelnen Subroutinen gehörenden Codes per Copy und Paste von dieser
+Stelle in das Original-VB=ACListing zu übertragen, müssen der Button un=
+d
+die Form zuerst angeklickt werden. In das sich daraufhin öffnende
+Codefenster kann der zum jeweiligen Objekt gehörende Code dann
+hineinkopiert werden. Das Programm funktioniert nicht, wenn man den
+Code an einem Stück ins Codefenster kopiert.
+Bedienung
+Die Parameter sind so voreingestellt, dass das im Bild gezeigte Objekt
+direkt nach dem Anklicken des Buttons =84Start=93 gezeichnet wird. Durch
+Überschreiben der in den TextBoxen =84Parameters=93 dargestellten Werte
+lassen sich andere Figuren erzeugen. Nicht alle Werte liefern gleich
+gute Ergebnisse. Hier ist etwas Geduld und Experimentierfreude
+gefragt. Es sind auch negative Zahlen und mehrere Nachkommastellen
+möglich.
+Durch Ändern der Werte in der Box =84Loops=93 lassen sich auch
+Schleifenzahlen bis in den Millionenbereich realisieren.
+Erfahrungsgemäß kann das Programm in solchen Fällen mehrere Minuten
+lang beschäftigt sein =96 auch ohne dass man etwas sieht: Es werden
+gelegentlich Punkte in Bereiche außerhalb des Sichtfeldes gezeichnet,
+so dass der Eindruck erweckt wird, das Programm sei abgestürzt. In
+diesem Falle sollte man einfach eine Weile warten. Dass das Programm
+fertig ist, erkennt man daran, dass sich der Mauscursor beim Bewegen
+über die TextBoxen von einem Pfeil in einen Schreibcursor verwandelt.
+Leider besitzt das Programm zurzeit noch keinen vernünftigen
+Fehlerabfang, so dass ein Klicken mit der Maus neben das
+Programmfenster oder ein Verschieben des Programmfensters während des
+Zeichnens leider zu einem Absturz führt.
+Der eingestellte Zoom-Wert wird reziprok übernommen und muss größer
+als 1 sein: Höhere Werte führen zu einer Verkleinerung der Abbildung.
+Diese Eingabe ist notwendig, da, je nach eingegebenem Parameter, die
+Größe der berechneten Objekte sehr unterschiedlich sein kann.
+Durch Eingabe verschiedener Werte in =84Farbsprung-Schwelle=93 kann
+festgelegt werden, wie schnell sich die Farben bei Zeichnen ändern.
+
+Programmbeschreibung:
+Das Programm beginnt mit der Variablendeklaration. Anschließend
+erfolgt ein automatisches =84Füllen=93 der auf der Oberfläche vorhanden=
+en
+TextBoxen mit Stan=ACdardwerten, damit man nach dem Start durch Klicken
+des Startknopfes gleich loslegen kann. Das Ganze erfolgt in einer Sub
+mit der Bezeichnung =84Form_Load=93, die beim Anlegen eines neuen
+Projektes automatisch vorgegeben wird und sich durch Klicken auf die
+leere Form öffnet.
+Die Sub mit dem Namen =84Button1_Click=93 wird beim Anklicken des Start-
+Buttons ausgeführt. Sie enthält alles, was zum Zeichnen der Hopalong-
+Figur benötigt wird:
+Zunächst müssen einige Parameter auf Null gesetzt werden, damit sich
+ihre Werte bei einem erneuten Start nicht akkumulieren und überlaufen.
+Es folgt der zum Löschen des Bildschirms (der PictureBox)
+erforderliche VB-Befehl.
+Anschließend werden den 6 aufgelisteten Variablen die in den TextBoxen
+stehenden Werte zugewiesen. Dadurch lassen sich vor dem Zeichnen neuer
+Figuren immer wieder neue Parameter eingeben.
+Mit =84For i =3D ...=93 folgt die eigentliche Iterationsschleife. Die
+Variable =84schleifenzahl=93 gibt die Anzahl der Iterationsschritte vor.
+Der Befehl zum Zeichnen von Rechtecken, Linien oder Kreisen ist in VB
+2004 bzw. VB 2010 leider sehr kryptisch. Erfahrene Programmierer
+werden erkennen, dass es sich bei den am Ende der Zeile stehenden
+Werten um die X- und Y-Koordinaten zum Zeichnen handelt. Durch die
+Schreibweise =84X/teilfaktor+300=93 wird dafür gesorgt, dass die Objekte
+mit der richtigen Größe an die richtige Stelle gezeichnet werden, da
+ansonsten die Mitte des Hopalong-Objektes in der linken, oberen Ecke
+des Bildschirms liegen würde.
+Liegt die Figur zu weit links oben oder rechts unten, so kann die
+Konstante =84300=93 entsprechend angepasst werden. Diese Konstante kann
+natürlich auch als wei=ACtere Variable über eine zusätzliche TextBox
+während der Laufzeit verändert werden. Längere Zeilen können in VB
+2005 übrigens durch Anfügen eines von einem Unterstrich gefolgten
+Leerzeichens (=84 _=93) umgebrochen werden (siehe Befehl zum Zeichnen der
+Pixel).
+Es folgt die bekannte Hopalong-Formel und anschließend eine Zeile, die
+ich mir für eine Änderung der Farben während der Laufzeit ausgedacht
+habe: Der Aus=ACdruck =84Math.Abs(x =96 xx)=93 macht eine Aussage drüber,=
+ wie
+stark ein beim Zeichnen erfolgender Sprung ist: Wenn man beobachtet,
+wie der imaginäre =84Stift=93 beim Zeichnen oft plötzlich nach innen od=
+er
+außen springt, erscheint es logisch, in diesem Moment auch einen
+Wechsel der Farbe durchzuführen: Die Variable =84coun=ACter=93 wird bei
+Erfüllung der im Listing enthaltenen Bedingung um 1 erhöht und bei 255
+wieder auf 1 gesetzt. Setzt man die Variable =84counter=93 nun an Stelle
+der RGB-Werte in den Befehl zum Zeichnen der Pixel ein, so ergeben
+sich die im Bild gezeigten Farben.
+Durch das Subtrahieren der Variablen von 255 oder das Addieren von
+counter/2 zum Wert 127 ergeben sich begrenzte Möglichkeiten zum
+Zeichnen von Farben. Der Ausdruck =84FromArgb (counter, counter,
+counter)=93 würde lediglich zu Grau- und Schwarzweißwerten führen.
+Besser wäre natürlich das Arbeiten mit vorgegebenen Paletten. Dies
+würde jedoch das Programm zu umfangreich und unübersichtlich machen
+und den Rahmen dieser Publikation überschreiten.
+
+Eine andere Verbesserung des Programms, die die Berechnungszeit
+wesentlich abkürzen würde, wäre eine Überprüfung auf bereits
+gezeichnete Punkte. Damit ließe sich verhindern, dass Punkte mehrmals
+überschrieben würden, was, so meine Erfahrung, sehr viel Zeit spart,
+da dies sehr häufig vorkommt. Dies lässt sich zum Beispiel durch ein
+zweidimensionales Array erreichen, das den Koordinaten der
+gezeichneten Punkte entspricht, und das jedes Mal, bevor ein Punkt
+ge=ACzeichnet wird, abgefragt werden kann, ob solch ein Punkt bereits
+existiert. Da das Zeichnen von Punkten sehr viel länger dauert als das
+Abfragen eines Array-Inhaltes, gewinnt man damit in der Tat erheblich
+viel Zeit. Auch in diesem Falle möchte ich jedoch auf den betreffenden
+Code verzichten, um das vorliegende Programm nicht zu unübersichtlich
+werden zu lassen.
+
+Und hier nun der lauffähige, kommentierte Programmcode:
+
+Public Class Form1
+' ######################################## PROGRAMM "HOPALONG" ZUM
+ZEICHNEN VON ORBIT FRAKTALEN '
+######################################## NACH DEM BARRY-MARTIN-
+ALGORITHMUS
+' ######################################## Variablendeklaration
+##########################################
+Dim schleifenzahl As Double ' Anzahl der Iterationen
+Dim a As Double	' Hopalong-Parameter
+Dim b As Double	' Hopalong-Parameter
+Dim c As Double	' Hopalong-Parameter
+Dim x As Double	' Hopalong-Parameter
+Dim y As Double	' Hopalong-Parameter
+Dim i As Double	' Iterationsvariable
+Dim yy As Double	' Hopalong-Parameter
+Dim xx As Double	' Hopalong-Parameter
+Dim teilfaktor As Double	' Größe der Abbildung
+Dim counter As Integer	' Farb-Berechnung
+Dim jumpwert As Double	' Farb-Berechnung
+Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles MyBase.Load
+' Textboxen werden beim Start automatisch mit vorgegebenen
+Standardparametern gefüllt
+TextBox1.Text =3D 100000
+TextBox2.Text =3D 98
+TextBox3.Text =3D "0.44"
+TextBox4.Text =3D "23.234"
+TextBox5.Text =3D 100
+TextBox6.Text =3D 10
+End Sub
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Button1.Click 'Reset verschiedener Hopalong-
+Parameter
+xx =3D 0
+
+yy =3D 0
+x =3D 0
+y =3D 0
+counter =3D 0
+PictureBox1.CreateGraphics.Clear(Color.Black) 'Bildschirm löschen
+'Den Variablen werden die in den TextBoxen gespeicherten Werte
+zugeordnet.
+'Die Werte in den TextBoxen können vom Anwender vor dem Start einer
+neuen Grafik geändert werden
+a =3D CInt(TextBox2.Text)
+b =3D CInt(TextBox3.Text)
+c =3D CInt(TextBox4.Text)
+schleifenzahl =3D TextBox1.Text
+jumpwert =3D TextBox6.Text teilfaktor =3D TextBox5.Text
+' Schleife zum Zeichnen der Grafik
+For i =3D 1 To schleifenzahl =92(Schleifenzahl kann bis zu mehreren
+Millionen betragen)
+If counter > 255 Then counter =3D 1 'Die Variable =84counter=93 sorgt für
+die Änderung der Farben beim Zeichnen
+' Es folgt der leider etwas kryptische VB-Befehl zum Zeichnen der
+Pixel an den berechneten Stellen:
+' In VB gibt es keinen Befehl zum Zeichen von Pixeln. Am besten eignet
+sich der Befehl zum Zeichnen von
+' Rechtecken mit der Kantenlänge 1 (Fill Rectangle)
+' Die Konstante mit dem Wert 300 bestimmt, wieweit die Grafik vom
+Nullpunkt (links oben)
+' entfernt ist und kann individuell angepasst werden.
+PictureBox1.CreateGraphics.FillRectangle(New
+SolidBrush(System.Drawing.Color.FromArgb(255 - counter, _ counter, 127
++ counter / 2)), New Rectangle(10 * x / teilfaktor + 300, 10 * y /
+teilfaktor + 300, 1, 1))
+'Die Hopalong-Formel:
+xx =3D y - Math.Sign(x) * Math.Sqrt(Math.Abs(b * x - c))
+'Ein kleiner "Trick" zum sprunghaften Ändern der Farben If Math.Abs(x
+- xx) < jumpwert Then
+counter =3D counter + 1
+End If
+'Weiterer Teil der Hopalong-Formel
+
+yy =3D a - x
+'Dies sind Alternativen zur obigen Zeile, die ebenfalls interessante
+Ergebnisse liefern:
+'yy =3D b - x
+'yy =3D a + b - x
+'yy =3D a - b - x
+'yy =3D b * b - x
+'yy =3D Math.Sqrt(a * b) - x
+'Weiterer Teil der Hopalong-Formel
+x =3D xx
+y =3D yy
+Next End Sub
+End Class
+
+2) Hopalong-Special
+
+
+Programmbeschreibung
+Zum Verständnis dieses Programmes möchte ich auf die detaillierte
+Beschreibung des vorhergehenden Programms verweisen, da das
+vorliegende Programm darauf basiert. Im Folgenden werden daher
+hauptsächlich die Unterschiede dieses Programms zum Vorhergehenden
+beschrieben.
+Das Programm =84Hopalong-Special=93 enthält die gleiche Iterationsschleif=
+e
+wie das =84normale=93 Hopalong-Programm. Diese Schleife ist jedoch hier in
+zwei weitere, verschachtelte Schleifen eingebettet. Im zuvor
+beschriebenen Programm wurden die durch den Hopalong-Algorithmus
+berechneten Werte als Koordinaten zum Zeichnen eines Pixels
+herangezogen. Im hier betrachteten Fall sind die beiden zusätzlichen
+äußeren Schleifen jedoch im Zusammenhang mit dem inneren Befehl zum
+Zeichnen von Pixeln so programmiert, dass sie zu einem zeilenweisen
+Beschreiben des Bildschirms führen, was zum Beispiel zu einer
+Bildfläche von 800 mal 600 Pixeln führen könnte.
+Gleichzeitig dazu werden zwei der drei Hopalong-Parameter um einen
+konstanten, vorgegebenen Wert erhöht =96 zum Beispiel um den Wert 0,004.
+Nach jeder Erhöhung erfolgt ein erneuter Start der vom vorhergehenden
+Programm bekannten Hopalong-Iteration, wobei jedoch die Ergebnisse
+hier nicht zu einer Figur, sondern zu einem farbigen Pixel führen, das
+genau an der durch die beiden äußeren Schleifen festgelegten Stelle
+gezeichnet wird. Dabei ist es wichtig, beim Start jeder neuen Zeile
+den Wert des horizontal-inkrementierten Wertes wieder auf Null zu
+setzen, und den Wert des vertikalen Parameters erst beim Beginn einer
+neuen Zeile zu inkrementieren. Auf diese Weise ergibt sich eine
+Zuordnung der in den vier Quadranten der Zahlenebene existierenden
+Koordinatenpaare zu den Parametern: Das Verhalten des Hopalong-
+Algorithmus wird damit, ähnlich wie bei der Mandelbrotfigur, in
+Abhängigkeit zwei seiner Parameter beschrieben.
+Natürlich ist diese Zuordnung willkürlich, aber sie führt zu einer
+klar definierten, reproduzierbaren Struktur, die aus seltsamen, völlig
+unregelmäßig angeordneten und jeder Symmetrie entbehrenden Objekten
+führt, in die man, wie bei der Mandelbrotfigur, hineinzoomen kann.
+Damit jedoch nicht bloß eine homogene Fläche gezeichnet wird, muss
+jedes einzelne Pixel beim Zeichnen noch einen bestimmten Farbwert
+erhalten, der im Zusammenhang mit den Eigenschaften der aktuellen
+Hopalong-Figur steht.
+Bleibt die Frage, wie diese Eigenschaften in farbige Punkte verwandelt
+werden. Dazu gibt es viele verschiedene Methoden, die jedoch zu
+ähnlichen Ergebnissen führen: Zum Beispiel das Berechnen des Maximums
+innerhalb einer vorgegebenen Iterationszahl oder die =84Messung=93 der
+Schleifendurchläufe, die zum Überschreiten einer vorgegebenen Schwelle
+benötigt wurden. Das folgende Listing ist lauffähig. Die in der
+Galerie gezeigten Bilder wurden jedoch mit einer Software erzeugt, die
+über eine Zugriffsmöglichkeit auf Farbpaletten verfügt. Da diese
+Methode jedoch den Rahmen dieses Beitrags überschreiten und zur
+Unübersichtlichkeit des Listings führen würde, habe ich mich auf die
+gezeigte, einfachere Methode beschränkt.
+
+Public Class Form1
+' #################################### HOPALONG SPECIAL
+######################################
+Dim
+Dim
+Dim	yyy As Integer xxx As Integer i As Integer	'
+'
+'	Äußere Schleifenvariable zum Zeichnen Innere Schleifenvariable zum
+Zeichnen Innerste Schleifenvariable zur Iteration
+Dim	buffer As Double	'	Speichervariable für Zeichenmode 2
+Dim	xx As Double	'	Variable für Hopalong-Algorithmus
+Dim	yy As Double	'	Variable für Hopalong-Algorithmus
+Dim	x As Double	'	Variable für Hopalong-Algorithmus
+Dim	y As Double	'	Variable für Hopalong-Algorithmus
+Dim	farbwert As Integer	'	Farb-Umrechnung
+Dim	flag As Byte	'	Schaltvariable für Zeichenmode 2
+
+' ################################## Parameter
+############################################
+Dim breite As Integer =3D 600	' Bildbreite (Darf geändert werden)
+Dim höhe As Integer =3D 400	' Bildhöhe	(Darf geändert werden)
+Dim innenschleife As Integer ' Maximaler Iterationswert; Festgelegt in
+TextBox 5
+Dim a As Double	' Hopalong-Parameter und gleichzeitig linker oberer
+Startpunkt (X) der Grafik
+Dim b As Double	' Hopalong-Parameter und gleichzeitig linker oberer
+Startpunkt (Y) der Grafik
+Dim c As Double =3D 32.234	' Dritter Parameter für die Hopalong-
+Gleichung. Darf verändert werden.
+'	Hier können andere Werte jedoch zu völlig anderen Ergebnissen führe=
+n
+Dim stap As Double	' Über Textbox 3 änderbar: Schrittweite bzw.
+Auflösung
+Dim graphmode As SByte =3D -1	' Kann mit Button 2 in 1 geändert werden
+Dim schwelle As Double	' Nur relevant für grafikmodus 2
+Dim farbfaktor As Integer	' Kann geändert werden
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Button1.Click
+'Abfrage der in den TextBoxen gespeicherten, vorgegebenen Variablen
+a =3D TextBox1.Text	' Über Textbox 1 änderbar / Startkoordinate X
+stap =3D TextBox3.Text	' Über TextBox 3 änderbar / Auflösung
+schwelle =3D TextBox4.Text	' Über TextBox 4 änderbar / Schwelle für m=
+ode
+2
+innenschleife =3D TextBox5.Text	' Über TextBox 5 änderbar / Anzahl der
+Iterationen
+farbfaktor =3D TextBox6.Text	' Über TextBox 6 änderbar / Verwandlung de=
+r
+Rechenergebnisse in Farben
+
+For yyy =3D 1 To breite ' Erste, äußere Verschachtelungsebene:
+Bildbreite: X-Koordinate
+a =3D a + stap 'Inkrementierung des Parameters a um den Wert stap (z.B.
+0,004)
+b =3D TextBox2.Text 'Neue "Zeile": b muss auf Anfangswert zurückspringen
+und wird neu incrementiert
+For xxx =3D 1 To höhe ' Zweite Verschachtelungsebene: Bildhöhe: =92 Y-
+Koordinate zum Zeichnen b =3D b + stap 'Inkrementierung des Parameters b
+um den Wert stap
+buffer =3D 0	' Farbwertberechnung: Buffer-Reset
+xx =3D 0	' Hoplaong-Parameter Reset
+yy =3D 0	' Hoplaong-Parameter Reset
+x =3D 0	' Hoplaong-Parameter Reset
+y =3D 0	' Hoplaong-Parameter Reset
+For i =3D 1 To innenschleife =92Dritte, innere Verschachtelungsebene
+' Hoplaong-Schleife - Kann von ca. 100 bis unbegrenzt variiert werden
+' Hopalong-Gleichung:
+xx =3D y - Math.Sign(x) * Math.Sqrt(Math.Abs(b * x - c))
+yy =3D a - x
+' Berechnung der Farbe des zu zeichnenden Pixels
+' Zwei Methoden zur Farbberechnung: Graphmode 0 und 1. Der Modus kann
+von der
+' Benutzeroberfläche aus gewählt werden.
+' Mode 1: Speichern des höchsten Wertes in =84buffer=93 If graphmode =3D =
+-1
+Then
+If x > buffer Then buffer =3D Math.Abs(x)
+End If
+' Mode 2: Abbruch der Schleife bei Erreichen eines Schwellenwertes
+If graphmode =3D 1 Then
+flag =3D 1
+If Math.Abs(x) > schwelle Then
+If flag =3D 1 Then
+buffer =3D i 'Schleifenwert i wird in Buffer gespeichert
+Exit For 'Schleife wird verlassen
+End If
+End If
+
+flag =3D 0 End If
+' Teil der Hopalong-Gleichung:
+x =3D xx
+y =3D yy
+Next i 'Ende der inneren Schleife zur Berechnung eines einzigen
+Punktes
+' Umrechnung in Farbwert. Variable "farbfaktor" kann in TextBox 6
+geändert werden farbwert =3D CInt(farbfaktor * buffer)
+If farbwert > 511 Then farbwert =3D 511
+If farbwert > 255 And farbwert < 512 Then farbwert =3D farbwert - 256
+' Es folgt das Zeichnen des betreffenden Farbpixels an den Koordinaten
+yyy und xxx. ' Der Einsatz der Variablen "farbwert" als rgb-Werte ist
+nur ein Beispiel.
+' Die besten Ergebnisse lassen sich mit Paletten-Arrays erzielen, in
+denen zu jedem Wert ' der Variablen "farbwert" die jeweiligen RGB-
+Werte gezielt nach Gesichtspunkten der ' optimalen Wahrnehmung bzw.
+der Ästhetik eingetragen sind.
+PictureBox1.CreateGraphics.FillRectangle(New SolidBrush _
+(System.Drawing.Color.FromArgb(farbwert, 125 + farbwert / 2, 255 -
+farbwert)), _ New Rectangle(yyy, xxx, 1, 1))
+Next xxx Next yyy
+End Sub
+Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles MyBase.Load 'Beim Start des Programms werden
+die Textfelder mit vorgegebenen Standardwerten gefüllt.
+'Diese Werte können vor einem Start mit dem Startbutton, so lange das
+Programm nicht mit Zeichnen ' beschäftigt ist, verändert werden.
+TextBox1.Text =3D 0
+TextBox2.Text =3D 0
+TextBox3.Text =3D "0,004" 'Kommazahlen funktionieren nur, wenn sie als
+Strings vorgegeben wurden
+TextBox4.Text =3D 12
+TextBox5.Text =3D 300
+
+Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Button2.Click
+'Dieser Button schaltet abwechselnd zwischen den beiden modi 1 und 2
+zum Zeichnen um (Toggle-Betrieb).
+graphmode =3D -graphmode
+If graphmode =3D -1 Then Button2.Text =3D "Mode 2"
+If graphmode =3D 1 Then Button2.Text =3D "Mode 1"
+End Sub
+End Class
+
+3) Georgette-Special
+
+Das Programm funktioniert ähnlich wie das vorhergehende (Hopalong-
+Special), mit dem Unterschied, dass sich im Zentrum der Schleife hier
+nicht der Hopalong-, sondern der Polihanthos-Iterationsalgorithmus befindet.
+Weitere Erläuterungen finden Sie in den Kommentaren des (lauffähigen)
+Listings. Auch dieses Programm ist nicht identisch mit demjenigen, das
+die in der Galerie gezeigten Bilder erzeugt hat, da es bei der
+Farbgebung aus Gründen der Übersichtlichkeit auf eine Palette
+verzichtet.
+Weitere Informationen zum Mira-Algorithmus finden Sie an anderer
+Stelle in der Fraktalwelt sowie auf zahlreichen weiteren Webseiten.
+
+Public Class Form1
+=92 ####################################### Variablendeklaration
+######################################
+mira-Parameter mira-Parameter mira-Parameter mira-Parameter mira-
+Parameter mira-Parameter mira-Parameter
+Koordinaten zum Zeichnen Koordinaten zum Zeichnen
+Dim schritt As Double	' X-Auflösung
+Dim schritt2 As Double	' Y-Auflösung
+Dim grenzwertx As Integer ' Bildbreite Dim grenzwerty As Integer '
+Bildhöhe
+Dim wert As Integer	' Zeichenfarbe
+Dim stap As Double	' Gemeinsame X-Y-Auflösung
+Dim i As Integer	' Iterationsvariable
+Dim innenzahl As Integer ' Anzahl der Iterationen
+Dim schwelle As Double	' Iterationsschwelle
+'Dim xp As Double	Nicht verwendet
+'Dim yp As Double	Nicht verwendet
+'Dim zoom As Integer	Nicht verwendet
+' ######################################## Polihanthos SPECIAL
+##################################################
+' Dieses Programm interpretiert zwei von drei Mira-Paramtern als X-
+bzw. Y-Koordinaten
+' und zeichnet das Verhalten des Mira-Attraktors als Farben bzw.
+Helligkeitswerte in das
+' entsprechende Achsensystem. Bei vorgegebener Wahl der Parameter
+ergibt sich ein fraktales
+' Gebilde, das Ähnlichkeit mit dem Apfelmännchen besitzt und in das
+hinein gezoomt werden kann.
+'
+' Die Möglichkeiten dieses Programms können jedoch erst voll
+ausgeschöpft werden, wenn der Variablen
+' "wert" ein RGB-Farbarray (Palette) zugeordnet wird.
+
+'Reset der beiden Variablen: schritt =3D 0
+schritt2 =3D 0
+PictureBox1.CreateGraphics.Clear(Color.Black) 'Bildschirm löschen
+' Den Variablen werden die voreingestellten Werte aus den Picture-
+Boxen zugeordnet
+grenzwertx =3D TextBox4.Text
+grenzwerty =3D TextBox6.Text
+stap =3D TextBox7.Text
+innenzahl =3D TextBox8.Text
+schwelle =3D TextBox10.Text
+b =3D TextBox1.Text 'Der fixen Variablen b wird der in TextBox1 stehende
+Wert zugeordnet
+For yy =3D 1 To grenzwerty 'Äußere Schleife (vertikaler-Fortschritt)
+a =3D TextBox2.Text + schritt2 ' Inkrementierung der mirar-Konstanten um
+"schritt2"
+For xx =3D 1 To grenzwertx 'Schleife zum horizontalen Fortschritt. XX
+wird um 1 incrementiert
+y =3D TextBox3.Text + schritt 'incrementierung der mira-Konstanten um
+den Wert "schritt" 'Reset bestimmter mira-Konstanten
+x =3D 0 j =3D 0
+z =3D 0
+'xp =3D 0
+'yp =3D 0
+c =3D 2 - 2 * a
+For i =3D 1 To innenzahl 'mira-Iterationsschleife
+z =3D x
+x =3D b * y + j
+j =3D a * x + c * (x ^ 2) / (1 + x ^ 2)
+y =3D j - z
+'xp =3D zoom * x + 400 'Koord. zum Zeichnen der mira-Figur, hier nicht
+benötigt 'yp =3D zoom * y + 400 'Koord. zum Zeichnen der mira-Figur,
+hier nicht benötigt
+
+If x > schwelle Then Exit For
+'Abbruch bei Überschreiten des vorgegebenen Wertes "schwelle"
+Next i
+wert =3D i 'Zuordnung der benötigten Schleifendurchläufe zur Farb-
+Variablen "wert"
+'wert darf nicht kleine 0 und nicht größer 255 werden If wert > 255
+And wert < 512 Then wert =3D wert - 256 If wert > 511 Then wert =3D 255
+If wert < 0 Then wert =3D 0
+'Zeichnen der Pixel in die PictureBox
+PictureBox1.CreateGraphics.FillRectangle(New
+SolidBrush(System.Drawing.Color.FromArgb(255 - wert, 255 - wert, 255 -
+wert)),New Rectangle(xx, yy, 1, 1))
+schritt =3D schritt + stap ' incrementierung der Variablen schritt Next
+xx
+schritt =3D 0 'Zeile "springt nach links an den Anfang zurück
+schritt2 =3D schritt2 + stap 'Icrementierung des vertikalen
+Zeilenvorschubs Next yy
+End Sub
+Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles MyBase.Load
+'Füllen der TextBox-Felder mit den voreingestellten Werten
+'geschieht automatisch beim Programmstart
+TextBox1.Text =3D "0,989" 'Parameter
+TextBox2.Text =3D "-1,2"
+TextBox3.Text =3D "-0,4"
+TextBox4.Text =3D 350 'Bildbreite x
+TextBox6.Text =3D 600 'Bildhöhe y
+TextBox7.Text =3D "0,004" 'Schrittweite stap
+TextBox8.Text =3D 500 'Iterations-Schleifenzahl innen
+TextBox10.Text =3D "0,35"
+End Sub
+
+Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles _ Button2.Click
+End 'Beenden des Programms
+End Sub End Class

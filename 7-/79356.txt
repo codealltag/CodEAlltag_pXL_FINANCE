@@ -1,0 +1,39 @@
+du kaufst ein wertpapier (aktie,anleihe, optionsschein etc.) zum preis
+X. du möchtest dir aber eine marke setzen, unter der du das papier nicht
+weiter behalten willst, also verluste begrenzen willst.
+
+du setzt ein stop-loss (gibst also einen verkaufauftrag mit zusatz
+stoploss, stückzahl, gültigkeit etc.) mit limit X minus Y (z.b. du
+kauftest für 10 euro und setzt stop loss bei 5 euro).
+
+der kurs des wertpapiers fällt auf 5 euro (kurszusatz bezahlt "5 b").
+danach wird automatisch deine verkauforder _bestens_ ins orderbuch
+eingestellt und gemäß dem marktniveau ausgeführt - also auch deutlich
+niedriger, wenn der wert markteng ist!
+
+anders szenario:
+
+kurs des wertpapiers fällt auf 5 euro; kurszusatz 5 G (oder -T oder B),
+also rein Geld, gestr. taxe oder Brief.
+Dein stop loss wird nicht ausgeführt. 
+Nächster Kurs ist 4,50 b (bezahlt). JETZT ERST wird deine bestens order
+ins orderbuch eingespeist!
+
+fazit: deine bestens order (stop loss order) wird erst DANN ins
+orderbuch eingestellt, wenn dein limit kurs zuvor BEZAHLT festgestellt
+wurde.
+
+hast du z.b. einen illiquiden optionsschein, der immer x euro G gefixed
+wird, dann kann es sein, daß dein stopp loss erst zum tragen kommt, wenn
+der kurs bezahlt deutlich UNTER deinem limit liegt.
+
+Das selbe gilt für stop buys nur umgekehrt und nicht bei wertpapieren
+ind deutschland, da du dann das wertpaier short sein müßtest, was du in
+deutschland nicht darfst, sondern nur banken.
+
+am terminmarkt bzw. im ausland aber auch bei wertpapieren möglich.
+
+
+für eurex handel zu teuer.
+
+PASCAL

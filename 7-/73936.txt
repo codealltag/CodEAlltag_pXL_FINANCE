@@ -1,0 +1,12 @@
+Stop Loss ist so ne Art Versicherung: Erreicht der Kurs deinen Stop-Loss
+Kurs (kleiner gleich) dann wird deine Verkaufsorder in eine Bestens Order
+umgewandelt und steht ab dem nächsten Tick im System.
+Es gibt auch noch das Stop Loss mit Zusatz Kassa, Hier wird deine Order zum
+nächsten Kassakurs ausgeführt, falls der heutige Kassakurs deine Order
+auslöst.
+
+Ganz gleich funktioniert auch eine Stop Buy Order. Die wird ein Bestens
+Kaufauftrag, sobald das Kurslimit erreicht od. überschritten ist.
+
+Hartwig Lucaßen <U.Rhmczr@a-gfmduz.gr> schrieb in im Newsbeitrag:
+1lwkts$q8o$9@ymfi52.cly.jlct.wo...

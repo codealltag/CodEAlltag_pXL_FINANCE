@@ -1,0 +1,23 @@
+Andersherum wird mE ein Pantoffel d'raus: 
+Die wichtigste Einschraenkung des B&S-Modells besteht gerade darin,
+dass alle Parameter als _im Gleichgewicht befindlich_  vorausgesetzt
+werden, dh alle Derivativa sind=0. Nur deshalb ergibt sich eine so
+einfache Formel, die damit allerdings keinerlei "VorhersagePotential"
+hat, alldieweil die zeitliche Komponente im Modell fehlt.
+"Verzichtet" man auf diese Annahme, indem man halbwegs konsequent den
+Einfluss der Derivativa (mit) modelliert, so sollte sich ein
+"dynamisches"  Modell mit entsprechendem "VorhersagePotential" ergeben
+(koennen).
+
+Bleibt die Frage:
+
+=> Welche zusaetzlichen Parameter (ausser denen der B&S -Formel)
+koennten fuer eine Modellierung des _dynamischen_ Verhaltens von
+OptionsPreisen hilfreich sein?
+
+So soll ja die B&S-Formel auch bzgl des Risikos erhebliche
+Vereinfachungen enthalten. Als Konsequenz wuerde mich interessieren,
+wie "das Risiko" zB aus einer Preis-ZeitReihe "gemessen" werden kann.
+Gibt es da uebliche Ansaetze bzw Vorgehensweisen?
+
+mfg ivano ottenbacher

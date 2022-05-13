@@ -1,0 +1,28 @@
+Hallo Meinrad,
+
+AS > >Wäre es dort nicht noch günstiger, mit Kauf-Limit zu arbeiten? Wenn
+AS > >Kurs einen Wert unterschreitet, Kaufen.
+AS > >
+AS > Dann spezialisierst Du Dich aber auf Aktien, die sinken.
+AS > Keine gute Idee, um z.B. regelmässig zu investieren.
+
+Gut, mein Plan etwas konkreter:
+
+
+Alt: Am Monatsende wird für X DM Aktien von Y gekauft.
+
+
+Neu: Während des Monats werden für X DM Aktien von Y gekauft, wenn
+     ein Kurs von Z DM unterschritten wird.
+     Kommt der Kauf während des Monats nicht zustande, wird am Ende
+     des Monats zum aktuellen Kurs gekauft.
+
+
+Also einfach nur die Suche nach einem günstigeren Kaufkurs statt
+plattes "Kaufen wenn Zeit gekommen".
+
+
+--
+mit freundlichen Größen
+Mark, +02-251-4326955
+!! MsgBase 2.0f

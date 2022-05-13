@@ -1,0 +1,46 @@
+Hallo!
+
+Bin zwar kein BWL'er, habe die Formel aber in dem Buch "Millionen mit
+Optionen" (Espenshayn/Espenshayn/Unrau), Verlag ANP, gefunden.
+
+Die Formel lautet fuer Calls:
+
+C = A N(d) -  B e-rt N(d-vt)
+
+fuer Puts:
+
+P = - A N(-d) + B e-rtN(-d+vt)
+
+Und hier die Bedeutungen der Abkuerzungen:
+
+A = Aktienkurs
+B = Basispreis
+t  = Restlaufzeit
+r  = Marktrendite fuer risikolose Anlagen
+v = Volatilitaet (= Quadratwurzel aus der Varianzrate)
+d = (log (A/Be -rt) / (vt) + 0,5vt
+N(d) = bei d berechnete kumulative Standardnormalverteilung
+
+Wie jedes Modell unterliegt auch das von Black und Scholes bestimmten
+Voraussetzungen:
+
+1. Die Rendite fuer risikofreie Anlagen ist bekannt und veraendert
+sich nicht waehrend der Zeit.
+2. Die Aktienkurse bewegen sich ziellos. Das heisst, die Kurse
+entwickeln sich zufaellig mit einer konstanten Varianzrate (sogenannte
+Random-Walk-Theorie).
+3. Die Unternehmen zahlen waehrend der Laufzeit keine Dividenden.
+4. Die Optionen oder Optionsscheine koennen nur am Verfalltermin
+ausgeuebt werden (sogenannte europaeische Optionen)
+
+Alles klar?
+
+MfG
+Dieter Jürgensen
+
+**************************************************************
+Dieter Jürgensen
+E-Mail: OPagtdxao@k-sfkhoh.qz
+URL:    http://cyac.y-jzbrmr.fz/gach/xffyhzssg
+          (hier gibt's ein Musterdepot Aktien/Optionsscheine)
+**************************************************************

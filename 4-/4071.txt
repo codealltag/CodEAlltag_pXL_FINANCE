@@ -1,0 +1,137 @@
+Visual Basic 2011 Animationen programmieren Koerwer Kesselaar
+Fürhölter
+Author N.Krahe
+Video http://ghz.rnqdqae.nyt/wtvok?r=6YLWWh6H6YKvA
+
+Heute zeige ich Ihnen, wie man aus einem einzigen Bild ganz einfach
+Animationen programmieren kann. Zum Beispiel einen drehenden
+Roulettekessel, eine drehende Weltkugel oder einen rollenden Fussball.
+Ich habe auf dieser Form hier gleich mehrere Beispiele gebracht und
+die Form sieht dann so aus.
+Wir brauchen also lediglich aus der Toolbox eine PictureBox, wo das
+Bild reinkommt und dann machen wir hier noch einen Button, zum starten
+und stoppen. Ebenfalls brauchen wir noch eine Uhr, die als Zeitgeber
+dient.
+In den Button Start/Stop schreiben wir dann den folgenden Code rein
+und in den Taktgeber, also die Uhr, wird ebenfalls der folgende Code
+reingeschrieben.
+Ich habe das schon vorgeschrieben und Sie sollten das Video anhalten,
+um es abschreiben zu können.
+   Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Button1.Click
+        Start$ =3D "Start" : Stop$ =3D "Stop"
+        If Button1.Text =3D Start$ Then
+            Uhr.Enabled =3D True
+            Uhr.Interval =3D 100
+            Button1.Text =3D Stop$
+        ElseIf Button1.Text =3D Stop$ Then
+            Uhr.Enabled =3D False
+            Button1.Text =3D Start$
+        End If
+
+    End Sub
+
+    Private Sub Uhr_Tick(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles Uhr.Tick
+        Static intDrehen As Integer
+        For a =3D 1 To 3
+            intDrehen =3D intDrehen + 1
+            If intDrehen > 3 Then intDrehen =3D intDrehen - 2
+        Next a
+
+        bitmap1 =3D Bild1.Image
+        bitmap2 =3D Bild2.Image
+
+        Select Case intDrehen
+            Case 1
+                bitmap1 =3D Bild1.Image
+                bitmap1.RotateFlip(RotateFlipType.Rotate90FlipX)
+                Bild1.Image =3D bitmap1
+            Case 2
+                bitmap1 =3D Bild1.Image
+                bitmap1.RotateFlip(RotateFlipType.Rotate180FlipX)
+                Bild1.Image =3D bitmap1
+            Case 3
+                bitmap1 =3D Bild1.Image
+                bitmap1.RotateFlip(RotateFlipType.Rotate270FlipX)
+                Bild1.Image =3D bitmap1
+        End Select
+        Select Case intDrehen
+            Case 1
+                bitmap2 =3D Bild2.Image
+                bitmap2.RotateFlip(RotateFlipType.Rotate90FlipY)
+                Bild2.Image =3D bitmap2
+            Case 2
+                bitmap2 =3D Bild2.Image
+                bitmap2.RotateFlip(RotateFlipType.Rotate180FlipY)
+                Bild2.Image =3D bitmap2
+            Case 3
+                bitmap2 =3D Bild2.Image
+                bitmap2.RotateFlip(RotateFlipType.Rotate270FlipY)
+                Bild2.Image =3D bitmap2
+        End Select
+        Select Case intDrehen
+            Case 1
+                bitmap3 =3D Bild3.Image
+                bitmap3.RotateFlip(RotateFlipType.Rotate90FlipY)
+                Bild3.Image =3D bitmap3
+            Case 2
+                bitmap3 =3D Bild3.Image
+                bitmap3.RotateFlip(RotateFlipType.Rotate180FlipY)
+                Bild3.Image =3D bitmap3
+            Case 3
+                bitmap3 =3D Bild3.Image
+                bitmap3.RotateFlip(RotateFlipType.Rotate270FlipY)
+                Bild3.Image =3D bitmap3
+        End Select
+        Select Case intDrehen
+            Case 1
+                bitmap4 =3D Bild4.Image
+                bitmap4.RotateFlip(RotateFlipType.Rotate90FlipY)
+                Bild4.Image =3D bitmap4
+            Case 2
+                bitmap4 =3D Bild4.Image
+                bitmap4.RotateFlip(RotateFlipType.Rotate180FlipY)
+                Bild4.Image =3D bitmap4
+            Case 3
+                bitmap4 =3D Bild4.Image
+                bitmap4.RotateFlip(RotateFlipType.Rotate270FlipY)
+                Bild4.Image =3D bitmap4
+        End Select
+        Select Case intDrehen
+            Case 1
+                bitmap5 =3D Bild5.Image
+                bitmap5.RotateFlip(RotateFlipType.Rotate90FlipY)
+                Bild5.Image =3D bitmap5
+            Case 2
+                bitmap5 =3D Bild5.Image
+                bitmap5.RotateFlip(RotateFlipType.Rotate180FlipY)
+                Bild5.Image =3D bitmap5
+            Case 3
+                bitmap5 =3D Bild5.Image
+                bitmap5.RotateFlip(RotateFlipType.Rotate270FlipY)
+                Bild5.Image =3D bitmap5
+        End Select
+        Select Case intDrehen
+            Case 1
+                bitmap6 =3D Bild6.Image
+                bitmap6.RotateFlip(RotateFlipType.Rotate90FlipY)
+                Bild6.Image =3D bitmap6
+            Case 2
+                bitmap6 =3D Bild6.Image
+                bitmap6.RotateFlip(RotateFlipType.Rotate180FlipY)
+                Bild6.Image =3D bitmap6
+            Case 3
+                bitmap6 =3D Bild6.Image
+                bitmap6.RotateFlip(RotateFlipType.Rotate270FlipY)
+                Bild6.Image =3D bitmap6
+        End Select
+
+
+    End Sub
+
+Das wars dann schon und jetzt starten wir mal. Sie sehen, es läuft
+wunderbar, die Schnelligkeit kann man über die Uhr einstellen. Und
+sehen Sie, alles dreht sich, die beiden Roulettekessel, die Weltkugel
+und auch der Fussball.
+Krahe

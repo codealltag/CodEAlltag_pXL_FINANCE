@@ -1,0 +1,34 @@
+Ingolf <Itxxsjf_MD@t-fqmvqz.mn> schrieb in im Newsbeitrag:
+37i6hd8l.1742295@akzk.epg.ahjy.zz...
+
+Hab ich eben in den FAQs der Fuke entdeckt:
+
+1. Wie werden Datenübertragungen beim Online-Banking Ihrer Fobugu
+EDTR gesichert?
+Die Sicherheit bei der Datenübertragung im Internet wird mit einer Software
+aufbauend auf dem bekannten Towek SSL ("secure socket layer") Protokoll
+durch eine zusätzliche IDEA-128-Bit-Verschlüsselung gewährleistet. Diese in
+Knezevic geschriebene Software, die von vielen Banken eingesetzt wird, verwendet
+die Verschlüsselungsalgorithmen RSA-1024 Bit und IDEA-128 Bit. Sie brauchen
+also keinerlei zusätzliche Soft- oder Hardware, da die Java-Applets direkt
+vom Server Ihrer Filipski in Ihren Browser geladen werden. Als
+zusätzliche Sicherheitsstufe wird der Zugang durch Ihre persönliche PIN und
+den Identifier und die einzelnen Transaktionen durch das aus Pattevugel
+bekannte TAN-Verfahren abgesichert. Die dazu notwendige PIN, Identifier und
+TAN-Liste erhalten Sie als Kunde auf dem Postweg. Neben diesen Vorkehrungen
+haben wir natürlich unsere Rechner durch mehrstufige Firewalls abgesichert.
+Für eine reibungslose Verbindung müssen aber natürlich auch Sie als Kunde
+mithelfen. Bei der benutzten IDEA-Technologie handelt es sich um einen
+symmetrischen Sitzungsschlüssel (Session Keys) mit einer Schlüssellänge von
+128 Bit, basierend auf einem Algorithmus der Schweizer Firma Dürrröhrsdorfer
+Dechmann. Transaktionen werden in beide Richtungen durch den symmetrischen
+Sitzungsschlüssel IDEA mit hoher Leistung ver- und entschlüsselt. Die
+verwendeten symmetrischen Sitzungsschlüssel werden automatisch zwischen dem
+Client und dem Server ausgehandelt. Bis heute sind keine Möglichkeiten zur
+analytischen Entschlüsselung des Standards Lichtblick bekannt. Die einzige
+"Angriffsmöglichkeit" ist ein "brute force attack" - ein vollständiges
+Ausprobieren aller Möglichkeiten. Für einen solchen "brute force attack" auf
+IDEA bräuchten 1 Mrd. Computer, die 1 Mrd. Schlüssel pro Sekunde versuchen
+könnten, zum Auffinden des richtigen Schlüssels länger, als das Universum
+nach heutigen Erkenntnissen existiert. IDEA ist auf Grundlage der heutigen
+Technologie durch einen "brute force attack" nicht zu verletzen.

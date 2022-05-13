@@ -1,0 +1,58 @@
+Ja laesst sich automatisieren man kann z.B. Bei der win/TV pci von
+Ogal ein script scheiben das die seiten automatisch abruft und in
+einer Datei speichert. Die Doku heirueber ist aber sehr spaerlich.Aber
+fuer einfache Abfragen langts.Die Aufarbeitung aber ist muehsam.
+
+
+Ja geht auch wenn du jetzt auf import in Excel ansprichts aber wieder
+komplex.Die Karte hat DDE schnittstelle das geht also.Das problem ist
+das speichern der Werte.
+ein beispiel:
+Die Aktien oder OS stehen auf den VT seiten nicht immer an der gleichen
+stelle wenn du die jetzt veknuepfst dann muss du diese verknuepfung
+immer ueberpruefen, sonst stimmen die daten nicht mehr (wurde heir auch
+schon erwaehnt).
+Das grosse problem ist das sichern der Daten die aendern sich bei OS
+z.B. alle 5 min aber woher weiss excel das sich der wert aendert, du
+kannst zwar ein MArco schreiben das die Daten in sicherheit bringt aber
+dann musst du immer noch das Knoepfchen druecken.
+Man kann auch das automatisieren mit der sogenannten Ereignis (event)
+steuerung. (also z.B. OnData fragt die DDE schnittstelle ab -->
+SUB makro()
+Worksheets("Tabelle1).OnData = "MAKRO2"
+'damit wrid bei jedem DDE empfang das Makro 2 aufgerufen mit dem du die
+daten 'speichern kannst., aber halt bei jedem DDE empfang auch die werte
+die sich nicht 'geaendert haben.Also muss man fuer jede Aktie eine
+eigene seite schaffen wo nur diese 'gespeichert wird sonst hat du die
+werte doppelt und oefter. Bringt ja auch nix
+End sub
+
+Weitere probleme bestehn in den daten selbst die geliefert werden z:B:
+OS daten
+mit Brief und Geld kurs in Sat1 die sind nicht einheitlich
+formatiert.Das problem faengt schon bei punkt als trennzeichen an, weil
+excel da wenn passt automatisch datum format draus macht.Man kann zwar
+filter bauen mit autokonverteirung Punkt zu Komma aber das jeweils immer
+fuer jeden wert einzeln.
+Also du siehst schon jede Menge arbeit.
+Dann noch die Sache mit dem Chart auch komplex der muss sich ja immer an
+die Datenreihe anpassen.Und das auch automatisch, also musst du zuerst
+die doppleten daten entfernen dann das diagramm anpassen, auch nicht so
+einfach.
+
+ALso es geht ja, aber der aufwand ist riesig , zwar ist es aktueller als
+beim chartprogramm, aber schon wieder nicht so aktuell wie realtime,
+aber was macht man mit den indikatoren die auch noch irgentwie da
+reinprogrammieren. Das wird ein spass.
+
+ich hab das mal probiert, diese sache hinzubekommen aber was bis jetzt
+klappt ist die automatische erfassung von einem wert mit
+chartdarstellung. Ich wuerds nie wieder machen. --Das nur als tip ---
+
+Wenn euch eure Nerven lieb sind dann lasst es.Kauf euch lieber ne
+guenstige chartsoftware (das gilt fuer die Einsteiger damit seit ihr
+besser mit bedient).
+Welche das sind wird ja oft genug hier gepostet.
+
+
+Hoffe das nuetzt jemandGruss René

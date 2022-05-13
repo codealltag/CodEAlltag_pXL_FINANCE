@@ -1,0 +1,42 @@
+...
+
+
+Das ueblichste System ist Delta-Hedgen. Hab ich hier zwar schon 
+mindestens 10 mal erklaert, aber weil du es bist:
+
+Zuerst nochmal das Delta:
+"Delta" bezeichnet die theoretisch zu erwartende Änderung des 
+Optionskurses bei einer Änderung des Leitkurses (z.B. DAX oder Aktie) 
+um 1. Also beispielsweise 0,66. 
+
+Nun zum Delta-Aufaddieren bzw. Hedgen:
+Das Delta wird bei großen Portfolios aus verschiedenen 
+Optionen und zugrundeliegenden Aktien oft zur Darstellung 
+des Gesamtrisikos benutzt. Dazu werden die Deltas aller 
+Einzelpositionen aufaddiert, wobei bei Stillhalterpositionen ein
+Vorzeichenwechsel erfolgt und bei Aktien bzw. Index-Scheinen 
+immer ein Delta von genau 1 angesetzt wird (bei 1/10-Scheinen 
+natürlich nur 0,1 Delta). Ein Gesamtdelta von 300 bedeutet 
+dann, daß das Gewinn-/Verlustpotential des Gesamtportfolios
+einem Portfolio von 300 Aktien des zugrundeliegenden Wertes 
+entspricht. Durch Zukauf oder Verkauf von Aktien und/oder 
+Optionen kann dieses Gesamtrisiko dann jederzeit genau 
+gesteuert werden. Dabei muss man natuerlich beachten, dass 
+sich das Deta auch bei stagnierenden Kurs z.B. allein durch 
+Zeitablauf aendern kann.
+Bei "delta-neutralen" Anlagetechniken wird ein Portfolio so 
+ausgerichtet, daß es nicht mehr auf Änderungen des 
+zugrundeliegenden Wertes reagiert. Werden also beispielsweise 
+100 Aktien (Gesamtdelta 100) gehalten und dazu Puts mit einem 
+Gesamtdelta von -100 gekauft, so ergibt sich für dieses Portfolio 
+ein Delta von 0 ("delta-neutral"). Insbesondere in amerikanischer 
+Literatur werden solche Techniken geradezu als Wundermittel 
+beschrieben. Sie sind auch zweckmäßig, um ein Portfolio 
+vorübergehend abzusichern. Ein Portfolio dauernd Delta-neutral 
+zu halten ist jedoch unsinnig, denn dadurch gäbe man ja auch 
+alle Gewinnchancen auf.
+
+
+Erik
+Visit   http://klicybz.ozl.zdp/bimpna  and download a 
+free calculator for options, futures, bonds and similar stuff.

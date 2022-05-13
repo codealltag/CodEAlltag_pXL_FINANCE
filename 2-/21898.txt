@@ -1,0 +1,37 @@
+diese definition ist zu einschraenkend. und auch die aussage, die
+strategie des op sei keine arbitrage ist so nicht gerechtfertigt.
+(vgl. box arbitrage bei Spieleburg)
+
+wichtig ist bei strenger fassung des begriffs, dass die cashflows und
+endwerte identisch sind. dann muessen auch die anfangspreise der
+portfolien identisch sein. 
+
+darunter faellt ebenso primitive indexarbitrage (future vs kasse) wie
+die box-konstruktion des op. letztere kann er aber mit 4 trades je
+half turn garantiert wg der transaktionkosten knicken.
+
+weiterhin hat man eben auch bei theoretisch risikofreien deals immer
+noch nicht zu vernachlaessigende restrisiken: bei der
+positionseroeffnung mit 4 legs kann er beliebig schnell dumm dastehen
+wg ploetzlich geaenderter preise (boersen kennen leider kein 2-phase
+commit). dito beim close. das ist kein theoretisches problem, sondern
+wird alleine schon durch die eingebauten schutzmechanismen der
+autoquoter forciert.
+
+oder ein leg eines beliebigen arbitragegeschaeftes wird von der boerse
+als mistrade gecancelt. dass sich das nicht gecancelte leg positiv
+entwickelt hat glaubt wohl keiner ernsthaft.
+
+...
+
+bei statistischer arbitrage wird "risikolos" noch viel weiter
+aufgeweicht.
+
+
+da werden eher die abgefahrenenen konstellationen mit stabilen
+korrelationen gesucht und ausgenutzt.
+
+
+in bezug auf optionsgeschaefte an der Warenkorb kann man triviale delta
+arbitrage mit sicherheit aufgrund der permanenten quotierung durch die
+marketmaker vergessen.

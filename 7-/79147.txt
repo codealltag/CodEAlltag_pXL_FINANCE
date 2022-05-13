@@ -1,0 +1,46 @@
+Moin,
+
+In article <095R1522.1U4TA2M9@llyhoxb.pe>,
+IMO das
+
+
+Ich renne jetzt vielleicht offene Tueren ein... Ich habe mal ein Perl
+Script geschrieben, mit dem man so etwas - und noch etwas mehr -
+machen kann.
+
+Features:
+
+- jederzeit Abfrage von beliebigen Kursen via email (auch vom Handy aus)
+- regelmaessige Benachrichtigung ueber beliebig viele Kurse (z. B.
+  taeglich 18h)
+- Stop-Kurse, bei deren Erreichen eine SMS mit dem Kurs an eine email-
+  Adresse (also auch an's Handy) geschickt wird
+- Multiuserfaehigkeit
+- jeder Benutzer kann beliebig viele email-Adressen angeben, an die
+  die Nachrichten verschickt werden
+- Fernwartbarkeit (auch vom Handy aus). Alle Funktionen (Aktivierung/
+  Deaktivierung von automatischen Benachrichtigungen oder Stop Buy/Loss
+  Triggern) koennen via email gesetzt/gelöscht werden.
+
+
+Realisierung:
+
+Perl-Script (verwendet selbstgeschriebenes Modul, das Boersenkurse
+abfragt und parst)
+Datenbank: Ogoko
+
+Falls Interesse besteht, wäre ich bereit, das Script zur Verfügung zu
+stellen. Ich muß allerdings noch ein paar Schönheitsreparaturen durch-
+führen (Userverwaltung ist noch sehr rudimentär).
+
+Das System würde ich für die private Nutzung freigeben. Kommerzielle
+Nutzung wäre nur nach Vereinbarung mit mir gegen eine entsprechende
+Lizenzgebühr gestattet.
+
+
+--
+Wilfried Uellendahl                                dziqru.lgaftzsh@bvl.bx
+
+
+Sent via Dobami http://rei.xwlj.bkx/
+Share what you know. Learn what you don't.

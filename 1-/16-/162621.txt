@@ -1,0 +1,55 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Ludwig
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9)
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+Handbuch MarketMaker Boersensoftware
+Luigi Bösser ;) ... Aehnlichkeiten zur Chartanalyse scheint
+                    haeufig angebracht....
+
+
+Der Kurs-Volumen-Trend-Indikator (KVT) aehnelt in seiner Konzeption dem  
+OBV-Indikator. Der Unterschied ist, dass er die Groesse der Kursbewegung  
+zusaetzlich erfasst.
+
+Der KVT wird durch Multiplikation des Tagesvolumens mit der prozentualen  
+Veraenderung des Wertpapiers zum Vortag berechnet. Dieser Wert wird bei  
+einem gestiegenen Kurs addiert, bei einem gefallenen subtrahiert.
+
+Optisch stellt er sich als Drei-Linien-Chart da, Kurzfristiger- und  
+Lanfristiger-gleitender Durchschnitt und die KVT Linie. Notiert der KVT  
+ueber seinen beiden gleitenden Durchschnitten, ist dies als ein positives  
+Signal zu werten. Sollte der KVT den kurzfristigen gleitenden Durchschnitt  
+nach unten durchbrechen, ist ein erstes Warnzeichen gegeben. Eine  
+Marktkorrektur ist dann wahrscheinlich, wenn der KVT auch den  
+langfristigen gleitenden Durchschnitt nach unten durchbricht. Der Absulte  
+Wert des KVT ist fuer die Interpretation uninteressant.

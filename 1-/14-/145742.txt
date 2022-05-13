@@ -1,0 +1,18 @@
+Hallo
+ich hab mal ein kleines Prog geschrieben, das die Daten in ein von
+Taipan/Aupers-Börse-Light-Format lesbares (ASCII-Import) umwandelt.
+Allerdings benötigt dann das NWP-Prog ca. 1 Stunde bei _intensivster_
+Festplattenbenutzung, um die Daten eines Tages einzulesen (bei
+586/166-Rechner). Bevor mir die Festplatte um die Ohren fliegt, habe
+ich das aufgegeben. Ausserdem werden Daten, zu denen kein Name in der
+Datenbasis existiert, später nicht angezeigt. Auch mit der
+Automatisierung des Einlesens habe ich Probleme gehabt.
+
+Kennt jemand ein brauchbares B�rsenprogramm, das ASCII-DAten
+vernünftig einliest? Dazu würde auch gehören, dass bei einem neuen
+Namen/neuer WKN auch automatisch eine neue Aktie im Programm angelegt
+wird. Bei NWP-Programmen ist das nicht so, da muss man umständlich
+jeden Wert von Hand anlegen. 
+
+
+Gruss Fredi

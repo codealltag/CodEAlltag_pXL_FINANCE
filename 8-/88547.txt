@@ -1,0 +1,22 @@
+Es gibt ja unter Excel ja noch die Möglichkeit die Zahlenreihen in ein Diagramm einzuzeichnen
+
+und sich dann eine Trendlinie ziehen zu lassen. Das beste Ergebnis ergibt sich scheinbar mit
+
+der exponentionellen Rechenweise. Bei einer Zahlenreihe von: 100,110,121,133 usw. also bei
+
+einer 10%igen Steigerung erscheint auf dem Diagramm die Formel: 90,909e potenziert mit
+
+0,0953x.
+
+90,909 ist anscheinend ein Mittelwert , 0,0953 kommt doch mit 100 multipliziert ziemlich genau
+
+an die Steigerungsrate in Prozent heran.
+
+Mir ist das aber so zu umständlich, weil ich die Steigerungsrate immer aus dem Diagramm ab-
+
+schreiben muss. Eine einfache Funktion wäre für größere Berechnungen praktischer.
+
+Ich habe es auch mit anderen Zahlen getestet. Leider wird die Genauigkeit bei größeren
+Steigerungen
+
+kleiner.

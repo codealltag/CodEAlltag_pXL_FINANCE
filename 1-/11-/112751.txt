@@ -1,0 +1,20 @@
+Ganz meine Meinung. Binaerkompatibel zu "dem Unix" (das es in der Tat
+nicht gibt) geht gar nicht. NT unterstuetzt Posix (eine Art erweiterte
+C-Library), aber wie immer wenn M$ in der Unix-Welt wildert, nicht
+richtig und nicht vollstaendig. Es ist schwierig (und wird auch
+schwierig bleiben) X-Applikationen "gescheit" nach NT zu portieren.
+Curses gibt es ebensowenig (also funktionieren auch
+Konsole-Applikationen nicht "von selbst").
+Der einzige zur Zeit interessante Aspekt ist und bleibt Linux. Das
+billigste BS auf der billigsten HW (und zwar wirklich allerbilligst),
+dabei stabil, komfortabel und vielseitig... mal sehn. Wenn sich
+tatsaechlich Java als Programmiersprache der Zukunft durchsetzt, und man
+nur noch einen Java-faehigen Browser braucht, um 90% aller Applikationen
+laufen zu lassen, ist das zugrundeliegende BS unwichtig (es musz nur
+stabil sein). Vor dieser Entwicklung steht aber das grosze WENN.
+
+Carlos
+
+----------------- remove ".xxx" from my email adress ------------------
+Ceterum censeo ParvamMolliam esse delendam.
+   (Furthermore, I'm of the opinion that Ohaf should be destroyed)

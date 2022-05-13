@@ -1,0 +1,26 @@
+Das ist eigentlich nur ein simples Shell-Script, daß auf einen
+Linux-Server läuft. Der Server steht bei einem Kumpel in der Firma rum
+und hängt permanent am Netz. Könnte aber auch ein Shell-Account bei
+einem Provider sein.
+
+In dem Script passiert folgendes:
+
+1. "wget" holt die Seite des gewünschten Aktienwertes von
+http://txzlzlcd.cf.iphov.ijd und legt es als File ab
+2. "lynx" wandelt von html nach text
+3. mit "grep", "cut" usw. wird die gewünschte Information (Name, Kurs
+und Veränderung) aus dem Textfile herausgefiltert (hätte man schöner mit
+awk und sed machen können, aber da hatte ich im Moment kein Bock drauf),
+4. wird zum Schluss eine schöne subjectzeile aus den einzelnen werten
+gebastelt und mit
+5. "mail" an meinen DigitalPrint-account gemailt
+
+6. Cron startet das Script dann 2x vormittags und 2x nachmittags
+
+
+Einträge in die crontab kann normal unter unix (linux) jeder machen. es
+sei denn, root verbietet es explizit.
+
+
+Ciao,
+Lennart

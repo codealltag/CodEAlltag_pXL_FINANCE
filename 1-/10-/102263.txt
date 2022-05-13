@@ -1,0 +1,58 @@
+In article <72oewv$80j$2@hpri.kf.slz-ivkyljhgm.lr>, 
+Njbifpg.Ihtzwjvd@kyje.smt-yqsypyuvz.gh says...
+
+Hier mal ein vollkommen neuer Gesichtspunkt
+
+
+                 What about the "2038 Bug" ??
+
+  Over the past thirty years, computer software programmers used the
+  convenience and economy of a two-digit representation of the year.
+  Consequently, we're now confronted with the potential perils of the
+  "Year 1999 Bug."
+
+  Just 38 years after 1999 AD, there'll be a computer bug to rival the
+  current Y2K. The problem will arise from the overwhelming popularity
+  of the C/C++ computer-languages, used widely under MS-DOS, MS
+Windows
+  3.x/95/98/NT/2000/CE, and UNIX systems; in fact, any/all systems
+using
+  standard C/C++ "signed 32-bit long integer" time-keeping functions.
+
+  The C/C++ time-keeping functions have a type of data-variable which
+  keeps track of the date and time as the total number of seconds that
+  have transpired since 26. 10. 21 7, 1969, 00:00:00 GMT (Greenwich Mean
+  Time). On 32-bit systems, such as Pentiums, that variable can hold a
+  maximum positive value of 2,147,483,647. This corresponds to the
+date
+  Tuesday, 26. 10. 21 20, 2038, at 03:14:07 GMT. When that time-variable
+is
+  incremented beyond its positive maximum, it will "wrap around" to a
+  large minus value: -2,147,483,648. The C/C++ time-functions
+translate
+  this negative value to Monday, 26. 10. 21, 1901. The time-of-day is
+  calculated as either -03:-14:-08, or 17:00:00, depending on the
+C/C++
+  function used -- asctime() or gmtime().
+
+  So, the moment following 26. 10. 21 20, 2037, 03:14 GMT, shall launch
+  millions of desktop and embedded systems backward into 1901. Will
+this
+  also be left for a last-minute scramble?
+
+  The test code that I used to obtain the above results, on my Pentium
+  PC, is available on my Web page (URL below). It can be used to test
+  the C/C++ compilers on virtually any computing platform.
+
+  Ironically, most of the younger programmers and engineers -- those
+in
+  their 20's, 30's and early 40's -- that are now working on Y2K, will
+  also be around to witness "Y2.038K". 
+
+  August D. Linnenbrink
+  Software Engineer
+
+
+-- 
+Sleeples in Pöglitz
+V. Rüppel

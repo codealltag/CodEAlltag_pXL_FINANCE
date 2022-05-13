@@ -1,0 +1,31 @@
+Das bekannteste mathematische Modell zur Berechnung des "fairen"
+Optionspreis ist die berühmte Black-Scholes-Theorie.
+Für den einfachsten Fall von europäischen Plain-Vanilla-Calls 
+(und Puts) gibt es dafür geschlossene Formeln für den 
+Optionspreis. 
+In die Berechnung gehen dabei die Volatilität der Aktie, der
+Preis der Aktie , der Basispreis (Strike), die Restlaufzeit
+und die risikolose Zinsrate ein.
+Aus diesen Formeln kann man umgekehrt natürlich auch die
+Volatilität (die dann *implizite Volatilität* heißt) ausrechnen,
+wenn der Optionspreis, die Zinsrate, Strike und Restlaufzeit
+bekannt sind. Das etwas lästige ist nur, dass die Black-Scholes-
+Formeln nichtlinear sind und man nicht einfach nach der
+Volatilität auflösen kann. Dazu bedarf es dann eines Programms,
+das *numerisch* die Volatilität berechnet. (Für die Freunde
+von M$-Excel: die Funktion heißt wohl Zielwertbestimmung oder
+so ähnlich).
+übrigens der bekannte V-DAX ist genau diese implizite Volatilität,
+die sich aus dem gehandelten Preis eines Call-Optionskontraktes  auf den DAX 
+(kann auch der DAX-Future sein, bitte nicht festnageln ;)) ergibt.
+Auf diesen V-DAX gibt es übrigens auch einen Terminkontrakt (eben
+den V-DAX-Future). Wer also Lust hat, kann Wetten über die zukünftige
+Volatilt�t des DAXes abschließen. Ich nehme allerdings nicht an,
+dass dieser Kontrakt an der Ramsberger sehr liquide ist. :)
+ISt ja auch ein ziemlicher Exot, die zweite oder sogar dritte
+'Ableitung' des Underlyings :-)
+
+Wen das ganze genauer interessiert: das läuft u.a. unter dem
+Stichwort "Financial Enginering".
+
+Rudolf

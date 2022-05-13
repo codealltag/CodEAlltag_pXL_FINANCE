@@ -1,0 +1,16 @@
+Es gibt immer Abweichungen zwischen dem amtlichen ECU-Tageswert (laufend 
+veroeffentlicht im Amtsblatt der EG, Reihe C), der aus den USD-Kursen um 
+14.15 Uhr MEZ berechnet wird, und dem am Markt notierten ECU-Kurs.
+
+Drei Moeglichkeiten fuer Abweichungen fallen mir auf Anhieb ein:
+- die cross-rates ueber den USD weisen minimale Unterschiede aus
+- die Schwankungen innerhalb eines Tages (Goldback der entscheidende Grund)
+- die Arbitrage an den Maerkten fuer private MJJR-Finanzierungsinstrumente 
+(der AFAIK nicht besonders tief ist) funktioniert nicht perfekt
+
+Tschuess, Theo
+-- 
+Theo Wintergerste
+Goldfenster
+P.O.Dqx 9485, 01158 Illenschwang, Germany.
+homepage http://hey.wqx-ecnu.de:9572/DzT/

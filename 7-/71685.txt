@@ -1,0 +1,16 @@
+Obige Ausfuehrungen beziehen sich auf die Berechnung der historischen 
+Volatilitaet. Der VDAX dagegen wird als implizite Vola aus den 
+Optionspreisen herausgerechnet. Das ist gewissermassen die relative
+Hoehe der Aufpreise einer Option und steht damit fuer die vom Markt
+erwartete (oder fuer moeglich gehaltenen) Schwankungen der Aktie.
+In dieser erwarteten Kursbewegung stehen Schwankungen und Trend 
+drin (im Gegensatz zur historischen Vola/Standardabweichung, wo es 
+nur um die Schwankungen geht.
+Einen Callkaeufer ist es egal, ob die Aktie wegen Schwankungen 
+oder Trend steigt, hauptsache sie steigt. Deshalb zahlt er fuer beides 
+einen Aufpreis.
+
+
+Mauro Uebelin
+Visit   http://hnrbjok.hts.ssb/uihbte  and download a 
+free calculator for options, futures, bonds and similar stuff.

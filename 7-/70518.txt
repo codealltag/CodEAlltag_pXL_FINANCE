@@ -1,0 +1,25 @@
+Hallo,
+
+
+Transaktionen:
+Art # Stck # Name                   # WKNR   # EUR   # Boersenplatz
+V   # 7334 # Mega-Hagebau           # 116862 # 21,80 # Unterurbach
+V   # 1100 # Bco ZGZC          # 858872 #  9,68 # Unterurbach
+K   # 1200 # Advanced Micro Devices # 863186 # 16,10 # Unterurbach
+
+Depot jetzt:
+
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+Adv.Micro Devices # 863186 #  1200  #   16,10   #   16,10  # 19320,00
+Mati             # 281019 #   350  #   58,50   #   64,00  # 22400,00
+LouisenCenter   # 710000 #   300  #   70,10   #   65,15  # 19545,00
+Network Assoc.    # 111897 #   700  #   15,20   #   17,70  # 12390,00
+
+
+Cash     :  43583.00
+Depotwert:  73655,00
+Gesamt   : 117238,00
+
+
+Gruss,
+Axel

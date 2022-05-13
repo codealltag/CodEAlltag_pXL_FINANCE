@@ -1,0 +1,46 @@
+Missverstaendnis? Du meinst vermutlich, dass der AKtienkurs faellt, 
+nicht der Bezugskurs des Put (der ist in der Regel dauerhaft fest) 
+
+
+Bei europaeischen Optionen ist es durchaus normal, dass diese
+bei noch langer Restlaufzeit und wenn tief im Geld unter ihrem
+innerem Wert gehandelt werden. Das ist durchaus nicht unfair, 
+sondern muss so sein. Auszug aus Kapitel 3.3 aus dem Handbuch 
+unseres Freeware Programms (DAX bei 1000):
+
+Sie kaufen 1 DAX-Schein zu 1000 und dazu einen Put 1500 zu 500. 
+Das kostet zusammen 1500 und scheint äußerst billig, denn der Put 
+wurde ja zum inneren Wert gekauft, also völlig ohne Aufpreis. Auch 
+dies ist eine absolut risikolose Kombination, die nach Ablauf des Puts
+einen Wert von genau 1500 haben wird. Dabei würden Sie aber nichts 
+verdienen, denn 1500 haben Sie ja auch hineingesteckt. Im Gegenteil: 
+Sie haben sogar einen Zinsverlust verglichen mit einer Anlage zum M
+arktzins oder verglichen mit der ersten Musterrechnung.
+Mittels dieses Beispiels kommt man zu der Erkenntnis, daß dieser 
+Put zu teuer ist. Um das Marktgleichgewicht nicht zu stören, müßte 
+der Kurs des Puts unter seinem inneren Wert liegen, also z.B. bei 450.
+
+Und auch mit einigen anderen Musterrechnungen läßt sich beweisen, 
+daß der faire Preis von bestimmten Puts unter ihrem inneren Wert 
+liegen muß. Betroffen sind meistens Puts die tief im Geld liegen und/oder 
+eine lange Restlaufzeit haben. Die Black/Scholes Formel berücksichtigt 
+dies automatisch und liefert auch in diesen Fällen den richtigen, fairen Kurs.
+
+Wegen Arbitrage der Profis du kannst ziemlich sicher sein, diesen fairen 
+Preis dann auch am Markt zu erhalten.
+Vorzeitige Ausuebung bei europaeischen Optionen ist also nicht nur nicht
+moeglich, sondern auch nicht noetig. 
+
+
+Haengt von den Uebernahmekonditionen und OS Kontitionen ab. Ich kann mir aber
+nicht vorstellen, dass du leer ausgehst.
+
+
+Die Puts werden ja wohl kaum von kolor selbst sondern von einem
+anderen Emitenten stammen und wenn der selbst nicht Konkurs geht muss
+er dir die wertlosen Aktien dann abnehmen.
+
+
+Patrik
+Visit   http://lfwvycd.tyg.abk/gahixn  and download a 
+free calculator for options, futures, bonds and similar stuff.

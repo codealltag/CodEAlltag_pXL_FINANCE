@@ -1,0 +1,26 @@
+Also: Zuerst Stückzahl, dann Kurs. Darauf errechnet Q6 den Kurswert und das
+Verrechnungskonto wird belastet. Wenn ich aber die Provisionen
+berücksichtigen will, dann muß die Buchung wie folgt aussehen:
+
+Wertpapiere
+Provisionsaufwand      an Wertpapierverrechnungskonto.
+
+
+Gebe ich nun unter 'Gebühren' die Provisionen ein, sagen wir DM 43,- dann
+meckert XXQuell, daß Kurs * Anzahl nicht gleich Kurswert ist und fragt,
+welche Angaben denn automatisch korrigiert werden sollen (Kurs, Anzahl oder
+Kurswert). Das Ergebnis jedenfalls ist entweder, daß ich als
+Belastungsbuchung nur den Kurswert der Wertpapiere habe (und die Gebühren
+werden vernachlässigt) oder daß zwar die Belastungsbuchung stimmt, der
+Kurswert aber gleich Kurs * Anzahl + Gebühren beträgt, was ja falsch ist.
+
+Ich sende Dir (per EMail) mal einen kleinen Screenshot zu.
+
+CU BROCHHAGEN.
+
+
+--
+[1] This message has been sent by Karl Patzold (http://rhe.kqda.cgdm.or.vln).
+[2] Stop radioactive waste dumping. Stop atomic power. STOP CASTOR TRANSPORTS!
+[3] For further information about what you can personally do to abandon nuclear pollution
+[4] just go http://dsj.laixmbbtcfa.or/mzhuhb/

@@ -1,0 +1,47 @@
+Das ist aber falsch! Eigentlich muss ich den Optionpreis genau fuer das
+Ausuebungsrecht vom 6. bis zum 10. Jahr berechnen. Dieser ist aber nicht
+einfach die Differenz zweier Optionspreise. Denn was nuetzt mir das
+Optionsrecht im 6-ten Jahr, wenn ich bereits im 1-ten jahr ausgeuebt
+habe. Waere ja so, als ob ich bei Aktien den Optionswert einer
+Amerikanischen Option mit der Laufzeit T (Ausuebung immer moeglich)
+durch die Summe der Optionswerte von Europaeischen Optionen (Ausuebung
+nur am Laufzeitende)
+mit Laufzeiten von Null bis zu T berechnen wuerde - was offensichtlich
+falsch ist. 
+
+
+Nun dass man jeden Preis verlangen kann, liegt doch sicherlich daran,
+dass der Markt sehr klein ist. Ein Privatanleger wird doch wohl kaum 100
+Bund-Futures oder entsprechend Anleihen traden. Zudem wird Euer normaler
+Kunde sicherlich vor allem den Service bezahlen, dass Ihr ihm erklaert,
+wie man mit Euren Programmen faire Preise fuer entsprechende Bonds
+berechnet.
+
+Ich glaube nicht, dass es schwer ist, entsprechnede Software zu
+schreiben. Schwer ist es bestimmt, sie dann gut zu verkaufen. Immerhin
+muss der Kunde ja viel Vertrauen in die Software haben, um damit sehr
+grosse Geldbetraege an der Boerse einzusetzen. 
+
+
+Nun in den Fachbuechern steht ohnehin meistens nur Wissen, welches ca.
+10 bis 20 Jahre alt ist. In Fachzeitschriften und Tagungsbaenden findet
+sich dagegen schon sehr viel zu Optionen auf Bonds (brauch man auch nur
+eine Suchmaschine zu fragen). Den Nobelpreis gab es auch nicht fuer die
+BS-Formel an sich, sondern fuer das Prinzip der Optionspreisberechnung,
+welches letztlich zur BS-Formel bei Europaeischen Optionen auf Aktien
+ohne Dividendenzahlung fuehrt. Wenn man aber das Prinzip ersteinmal
+begriffen hat, kann man relativ leicht fuer fast jeden Basiswert
+zumindestens einen Algorithmus ableiten, wie man faire Preise von
+Optionen berechnet. Man muss nur die speziellen Eigenschaften des
+Basiswertes und der Optionsrechte beruecksichtigen.
+Also z.B. bei Bonds, dass die Rueckzahlung garantiert ist, dass der
+Zinssatz
+die Eigenschaft hat zu seinem Mittelwert zurueck zu streben (mean
+reverting), usw.. Ist halt komplizierter als bei Aktien, aber das
+Prinzip ist das gleiche. Einen Nobelpreis wird es dafuer nicht mehr
+geben...
+
+Kai Vooth
+--
+http://zjlnx.jcqycc.ut-rbmdfm.be/~qhqd
+--

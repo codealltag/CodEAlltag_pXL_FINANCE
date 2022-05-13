@@ -1,0 +1,34 @@
+"Exponentiel skala" sollte eigentlich "logarithmisch skala" heissen. Wenn
+die X-Achse linear ist, und die Y-Achse logarithmisch, nennt man das eine
+semi-logarithmische Graphik.
+
+ Warum man mit der Y-Achse in der logarithmischen Skala arbeitet, ist leicht
+zu verstehen, wenn man sich an seinen Mathematikkurs errinert.
+Im Finanzbereich denkt man ja in % pro Zeiteinheit, z.B. 5% pro Jahr.
+Logarithmen sind das beste Sprachmittel, um dieses auszudruecken, da
+log (a*b) = log (a) + log (b)
+Wenn ein Wert "a1", z.B. 100, um 5% erhöht wird (b=1.05), bewegt sich Y um
+log (1.05) höher auf der logarithmischen Y-Achse.
+Wenn ein Wert "a2", z.B. 500, um 5% erhöht wird (b=1.05), bewegt sich Y um
+log (1.05) höher auf der logarithmischen Y-Achse.
+Der Unterschied ist also gleich log (1.05), unabhängig vom Wert "a". Man
+sieht so die 5% in beiden Fällen gleich.
+Gehören nun "a1" und "a2" zu der gleichen Grafik, aber zu 2 verschiedenen
+Zeitpunkten z1 und z2, dann kann man den Vergleich der Rendite machen, wenn
+die Y-Achse logarithmisch ist.
+In der logarithmischen Skala sieht man also den Unterschied in Prozent. In
+der linearen Skala würde man dagegen nur den absoluten Wertunterschied
+sehen.
+MFG
+J. Heihs
+
+
+Ben Ueberdieck <sejkz@krqfoi.oxr> a crit dans le message :
+6010kr83@olsnhyy.kpd.mn...
+suche
+Nun
+der y-
+mathematische
+noch
+werden,
+über

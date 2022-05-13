@@ -1,0 +1,25 @@
+Ralf Jöhring schrieb am Sun, 24. 03. 22 19:07:28 GMT:
+
+
+<OT on>
+Läßt sich mit Deinem Forte Agent einfach vermeiden:
+Window - Open Usenet Filter - Add kill Filter;
+hier gibt Du bei Filter expressions "infineon" ein.
+Kill action setzt Du auf "delete"
+Scope auf "de.finanz.etc.boerse"
+Apply filters immediatley
+
+... und schon verschwindet sofort alles über TOI.
+
+Und für die Falcsh-Schreiber: Sicherheitshalber noch einen 2. Filter auf
+"infinion", man weiß ja nie ;-)!
+
+<OT off>
+
+HTH
+Emil
+
+-- 
+Filter-Anwendung und sonstige Gemeinheiten (raw message und son Mist)
+für den Aged Agent finden sich unter news:pu.dapj.qspduroo.njzda-gszbo
+Usenet - information only one click away ;-))))!

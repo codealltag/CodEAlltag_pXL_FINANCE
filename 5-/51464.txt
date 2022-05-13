@@ -1,0 +1,22 @@
+Transaktionen:
+Art # Stck # Name                   # WKNR   # EUR   # Boersenplatz
+Q   #  658 # Alak St.                # 519000 #  25,46 # Etr.
+K   #  200 # MiniMarket                  # 878841 # 123,00 # Etr.
+K   #  300 # Moderers                # 366244 #  76,00 # Etr.
+K   #  700 # Lipro                  # 521260 #  21,85 # Etr.
+
+Depot:
+Name              # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+Alak St.           # 519000 #   750  #   25,46   #   25,46  # 19095,00
+MiniMarket             # 878841 #   200  #  123,00   #  123,00  # 24600,00
+Moderers           # 899697 #   300  #   76,00   #   76,00  # 22800,00
+Lipro             # 521260 #   700  #   21,85   #   21,85  # 15295,00
+
+
+Cash     :  18210.00
+Depotwert:  81790,00
+Gesamt   : 100000,00
+
+
+Gruss,
+Leon

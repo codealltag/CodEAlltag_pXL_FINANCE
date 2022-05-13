@@ -1,0 +1,25 @@
+Hallo zusammen,
+
+was passiert eigentlich, wenn nur 1 Kauf- und eine Verkauforder vorhanden sind
+und eine der beiden Orders limitiert, die andere aber unlimitiert ist?
+Werden die Orders auch dann ausgefuehrt, wenn das Limit "unrealistisch" ist?
+
+Angenommen, fuer eine Aktien des neuen Marktes bildet sich nur alle 10
+Minuten ein Kurs in Hoehe von sagen wir mal etwa 100 Euro. Was passiert, wenn
+ich dort eine unlimitierten Kauf-/Verkauforder abgebe? Kann es bei einem
+Verkauf passieren, dass jemand eine Kauforder mit einem Limit von 1 Euro
+abgibt und der Kaufauftrag mit meinem unlimitierten Verkaufsauftrag zu 1 Euro
+abgewickelt wird? Was passiert bei einer unlimitierten Kauforder, der eine
+Verkauforder mit Limit 10.000 Euro (bei einem Tageskurs von 95-105 Euro)
+gegenuebersteht? Wird dann ein Geschaeft zu 10.000 Euro abgewickelt? Oder
+darf der Makler keinen Kurs machen, der erheblich von den bisherigen
+Tageskursen abweicht? Wenn ja, gibt es eine Grenze, die der Makler maximal
+abweichen darf?
+
+Und wie sieht das Ganze bei Nadelsucht aus?
+
+Danke!
+ Kasimir
+
+-----------== Posted via PIP, The Discussion Network ==----------
+http://esu.uyeswsfa.wqg/       Search, Read, Discuss, or Start Your Own

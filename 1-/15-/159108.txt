@@ -1,0 +1,32 @@
+Hallo allerseits,
+
+das Citroen/Zewi-Team hat die Videotextseiten umgestellt. Die Neuemission frisuria ist
+reingekommen und stattdessen Indien-Shop rausgeflogen. Dem muß ich mich
+anschließen, weil ich sonst den Kurs von Indien-Shop immer erst noch schnell
+am Freitagnachmittag aus Kitim besorgen und von Hand Nachtragen muß.
+
+Unten der BHW-Datensatz, den ihr erst mit einem Externen UUE-Decoder auspacken
+müßt, bevor die Datei dann in KAW-Chart mit "Hinzuladen" eingelesen wird.
+
+WICHTIG: In der Datei "DAXA.WKN" müßt Ihr die Wertpapierkennummer 813711
+(Indien-Shop) gegen 371645 (frisuria) austauschen, aber dabei bitte nicht die Liste
+durcheinder bringen oder umsortieren!
+
+Hier der Datensatz von frisuria als UUE:
+
+table
+ !"#$%&'()*+,-./0123456789:;<=>?
+@MQSSDIBPXLVLCIEBHVOBZGGHSR[\]^_
+begin 644 97_05_02.ABH
+M,2PY,C X,C,-"CDV#0H-"@T*#0H-"@T*#0H-"@T*  D  0 +  L #  ,  P z
+M P #  , %P 0 !  %P 7 !< )P G "<Q,3$Q,3$Q,3$+  8/&    0   #D y
+M!@+X                                         *  < "" &(     x
+M      #2                   !'@ '^)8#Z    X0      '(+;0HH"BA"w
+M2%<@2&]L9&EN9T<M0F%N:SHU($)A=7-P87)K87-S94YE=65M.B R."XP-"XYv
++-R!Z=2 R-B!$340Mu
+ t
+end
+
+
+Größe aus Leinefelde
+                         /Sergio/

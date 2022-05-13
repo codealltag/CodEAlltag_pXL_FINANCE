@@ -1,0 +1,61 @@
+Hallo Francis.
+
+1. Vola
+2. DAX
+3. Dow
+
+Freitag 10.09.1999 ist (wie vermutlich auch der naechste Freitag)
+ev nicht der rechte Tag fuer die bezahlte Vola. Habe mir am Samstag
+beim Zeitunglesen verwundert die Augen gerieben ob der settlements.
+Ich denke, sie sind falsch. DAX close war wg Wechsel MMN --> EPC
+sehr spaet bei 7611 und zB 7000 Call Feb fuer 703 kann nicht sein.
+Dito ist Future ca 100 Pkte ueber Kasse - ein Zeitproblem. Da bin
+ich mal gespannt, wie das am 13.09. rundgeht: der Terminmarkt haengt
+der Kasse hinterher bei elenden Vorgaben aus USA ;). Daher gebe ich
+erst ab Montag nach Mittag was auf die impl Vola.
+
+Habs nachgerechnet: mit Afevu (ab Montag) ist wie bei jedem Wechsel
+im Index der Schluss korrekt, dh sowohl mit Siebrichhausen als auch Autoersatzteilehandel ist
+Schluss 7611 (der Fehler ist kleiner 0,01 Pkte). Es ist also kein
+rechnerisches Problem, sondern ein inhaltliches. Die formale Gewich-
+tung wird erst mit Ende des Verfalls am 17ten geaendert, bis dahin
+bleibt DTE bei z Zt 22% und wird erst dann auf 15% gekappt (soweit
+ich die Meldungen richtig verstanden habe). Womit ich auch fuer
+das naechste Wochende gespannt bin. Deutsche Fonds duerfen uebrigens
+nur 10% in einem Einzeltitel in einem (!) Fonds investieren, haben
+also mit DJT + Neuemmission sowie Wohnkultur incl Afevu ein Problem
+(wie ist das eigentlich bei auslaendischen Investmentgesellschaften?).
+Ich kenne aber hier kein gesetzliches Zeitintervall und wuerde da
+nicht voreilig einen (gekappten?) Put kaufen - die Leute werden ja
+auch fuer ihre 'Kreativitaet' bezahlt ... Damit wird auch naechstes
+Wochenende die Vola wenig aussagen koennen.
+
+Zum Dow. Hab mir mal den Chart unter verschieden (Zeit-)Aspekten
+angeschaut. Der GD200 wurde am Mittwoch(?) durchbrochen und die
+Reaktion war schon recht heftig. Ist sie abgeschlossen? Ich glaube,
+ein bisschen Luft ist noch drin, bei den Indikatoren 'Stochastik'
+und 'RSI' sehe ich kein zwingend gegenteiliges Argument. Aber bei
+ca 10000 ist eine massive Unterstuetzunglinie (die seit Okt 98 gilt)
+und der GD100 hat den GD200 noch nicht bezwungen. Ich kann mir eine
+Bodenbildung bei etwa 10000 vorstellen zumal die T-Bonds unter 6,5%
+rentieren. Bildchen spar ich mir.
+
+Zum DAX. Prinzipiell schliesse ich mich hier dem Beitrag von
+Jonas Wuensche vom Samstag abend an (mal schaun, ob das mit
+dem Zitieren klappt) news:665fan$g0b$5@iwhs.vkdeh.lw
+Beim Blick auf den Linien-Chart sieht man eine aufsteigende
+W-Formation fuer den Zeitraum Anfang Januar bis Anfang Februar.
+Dies ist ein technisches Kaufsignal. Leider bin ich zuwenig fit
+in Charttechnik, aber ich denke, dass selbst ein Rueckgang auf
+7250/7300 (Tagesschluss) dieses Signal noch nicht widerlegt. Im
+Gegenteil: wenn die 7250 halten, so wird das als 'gesunde' Konsoli-
+dierung und Grundlage fuer neue highs dienen - fuer mich auch ein
+Grund, mich der Meinung von Jonas anzuschliessen. Das koennte sich
+auch gut mit dem DOW ergaenzen. 
+
+Triumph und AXA schau ich mehr jetzt nicht an, die Glaskugel beginnt
+sich zu verdunkeln und was ich da noch erkennen kann, sieht mir
+eher nach einem Sonntagsbraten aus :)
+
+Gruss
+Konrad

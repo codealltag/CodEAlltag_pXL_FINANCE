@@ -1,0 +1,47 @@
+Also so selten ist gute Literatur ja nun auch nicht wieder -
+zumindestens wenn man nur die Grundlagen verstehen will. Nachdenken muß
+man leider selber...
+
+Eines meiner Lieblingsbücher ist Harm Weckop:Options, Futures & other
+Derivatives. Aktuell in der vierten Auflage (ca. 150,-DM - wer's über
+meine Homepage http://vmgoycxk.cl/apsffxkr.xgkh bestellt, schenkt mir
+ein paar Prozente....). Ist eine gute Einführung ohne zuviel Mathe und
+man findet viel zum Nachdenken...
+
+Ich greife mal Dein Extrembeispiel und erkläre es ein wenig:
+Um den fairen Wert der Anleihe zu berechnen, muß man die Zahlungsströme
+mit Null-Coupon-Anleihen abzinsen. Also
+Kurs für die zweijährige = (100+4)*exp(-0.04*2)+4*exp(-0.03*1)=99.89
+Kurs ein Jahr später     = (100+4)*exp(-0.035*1)=100.42
+
+Nun das Wunder liegt in dem langsamen Anstieg der Zinsen. Mit einem Jahr
+Haltedauer hat man fast 4.5% Rendite erwirtschaftet - ohne Zinsanstieg
+wären es sogar 5% geworden.
+
+Das eigentliche Wunder liegt aber in der Zinsstrukturkurve - im Mittel
+steigt der Zinssatz mit der Laufzeit proportional zur Wurzel aus der
+Laufzeit. Das Risiko liegt dabei in zeitweisen Abweichungen vom Mittel
+und in Änderungen der kurzfristigen Zinsen (Parallelverschiebung der
+Zinsstrukturkurve).
+Nun kann man zeigen, daß wenn man eine Risikoprämie(bzgl. der Änderung
+der kurzfristigen Zinsen) für den Verleiher langfristiger Gelder
+annimmt, genau dieses Wurzel-Gesetz herraus kommt. Was mich jedoch dabei
+wundert, ist daß die Risikoprämie nicht gegen Null tendiert. Wäre sie
+Null, so wäre auch die Zinskurve flach. Aber so kann man im Mittel
+(risikobehaftet) durch Aufnehmen kurzfristigen Geldes und Verleihen
+langfristigen Geldes einen Gewinn erzielen. Sicherlich leben die Banken
+im Wesentlichen davon.
+
+Durch Absichern (z.B. über den Bund-Future) kann man natuerlich das
+Risiko noch minimieren, man gibt aber auch Gewinne auf. Die Kunst (die
+ich natürlich nicht beherrsche) liegt sicherlich in der Goldenen Mitte.
+
+Kleiner Literaturtip für die halben Experten ist vielleicht Heribert
+Mohrhardt, W. Orlowski, C. Cammann, K Grammelspacher, E. Packheiser "Phenomenology of
+the interest rate curve", RISK, Juli 1998, Oder das Buch "Theory of
+Financial Risk" von Heribert Mohrhardt und E. Packheiser (gibt's bis jetzt nur
+in französisch, aber bald auch in englisch).
+
+Bebi@Vrohywvq.cu
+--
+http://zbqeajgy.ib

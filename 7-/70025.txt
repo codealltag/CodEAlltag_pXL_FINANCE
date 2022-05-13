@@ -1,0 +1,79 @@
+Hallo,
+
+hab mir mal die Mühe gemacht, das Datenformat zu analysieren und folgendes
+herausbekommen:
+
+C = Schlußkurs
+O = Eröffnungskurs
+H = Hochkurs
+T = Tiefkurs
+V = Volumen
+K = Kassakurs
+M = Devisenmittelkurs
+R = Rücknahmekurs Fondsanteil
+
+#TK(01.02.00;100;100)(EUR)
+                        ^                                ??? weiß ich auch
+nicht, scheint nicht so wichtig
+                               ^                         100 = 2
+Nachkommastellen, 10000 = 4 Nachkommastellen (bei Devisen)
+
+
+Wertpapierkennummer
+984140N74171                                                     984140
+(irgendeine Anleihe)   K = 109,17
+
+1K10706                                            +1            = 102651
+K = 107,06
+
+349K10416                                        +349        = 103000
+K = 104,16
+...
+...
+...
+
+855206
+
+50V475L11625K0H300O0C0           +50         = 500100 (Varta)        475
+V =      475
+
++11625            L =  121,00
+
++        0            K =  121,00
+
++    300            H =  124,00
+
++        0            O =  124,00
+
++        0            C =  124,00
+
+150L7050H0K0O0C0                       +150       = 500250 (Anterra)   7050
+L =    70,50
+
++        0            H =    70,50
+
++        0            K =    70,50
+
++        0            O =    70,50
+
++        0            C =    70,50
+
+90L7900C75K5H20O0V9248          +90         = 500340 (GGA)     7900
+L =    79,00
+
++      75           C =    79,75
+
++        5           K =    79,80
+
++      20           H =    80,00
+
++        0           O =    80,00
+
++  9248           V =   17248
+
+Also eigentlich ganz einfach, oder ???  ;-)
+
+--
+Glück auf!
+Ulf
+ApyscacxCr@sge.xa

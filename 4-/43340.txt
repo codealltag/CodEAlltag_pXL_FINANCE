@@ -1,0 +1,21 @@
+Formula for computing modulus 10 "Double-Add-Double" check digit
+The following steps are involved in this calculation :
+
+a)Step 1
+Alphabetic characters are assigned the numeric values shown in the 
+following table.
+
+A=10 M=22 Z=35
+
+a)Step 2
+Double the value of alternate digits beginning with the first right 
+hand digit (low order), including zeros.
+a)Step 3
+Add the individual digits comprising the products obtained in step 2 
+and each of the unaffected digits in the original number.
+a)Step 4
+Subtract the total obtained in step 3 from the next higher number 
+ending in 0 [this is the equivalent of calculating the tens 
+complement of the low order digit (unit digit) of the total]. If the 
+total obtained in step 3 is a number ending in zero (30, 40, etc.), 
+the check digit is 0.

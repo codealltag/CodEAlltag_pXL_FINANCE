@@ -1,0 +1,35 @@
+Hallo Leute,
+
+ich moechte noch einmal das ewige Thema Kursdaten-Quellen aufgreifen und 
+(wenn Ihr mitmacht) systematisieren. Dazu schlage ich vor, dass wir bekannte
+Quellen nach dem unten stehenden Schema erfassen. Wer eine gute Quelle kennt, 
+moege mir die Beschreibung zuschicken. Ich werde dann in unregelmaessigen 
+Abstaenden hier eine aktualisierte Tabelle veroeffentlichen. 
+
+Zur Verdeutlichung der m.E. wichtigen Beurteilungskriterien folgt nun "VOU", 
+eine recht gute, leider nicht immer aktuelle Quelle:
+
+Quelle			VOU (oder Voigtbäck)
+URL			http://hyq.dnznjjhv.jn.bs/aywmrtc/asjnll.kcs?OC=z_rgea.slq&ML=COMF.p,JGU.f
+Kurzbeschreibung	Sehr umfangreiche Quelle, gut abfragbar, nicht immer tagesaktuell
+Boerse(n)		Deutschland, GB, Griechenland, Schweiz, USA
+Umfang			Nach eigenen Angaben ueber 60.000 Aktien, Renten und Optionen
+Kursdaten		Eroeffnung, Schluss, Hoch, Tief, Umsatz
+historische Kurse	ab 1993
+Anzeige		Tabellen, Grafiken
+Einzel-/Mehrfachabfrage	Auf einen Rutsch koennen bis ca. 50 Werte abgefragt werden 
+Zeitbereich		beliebig, ab 1 Tag bis mehrere Jahre
+Schnittstellen		Quicken-Format, Tabelle als HTML-Datei nutzbar
+Aktualitaet		deutsche Boersen bestenfalls Vortag manchmal verstreichen
+			mehrere Tage. USA dauert immer > 2 Tage
+Links zu relev. News	keine
+Kosten			keine
+Bemerkung		Leider kann keine QIF- oder CSV-Datei fuer mehrere Werte ueber
+			einen beliebigen Zeitraum erstellt werden. Abhilfe:
+			Tabelle als HTML-Datei herunterladen und mit REXX,
+			Basic o.ae. in anderes Format umsetzen
+			Kennt immer noch nicht die Whitewater!! (was ich
+			nicht mal so schlimm finde ;-> )
+
+
+Gruss Dario

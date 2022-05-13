@@ -1,0 +1,244 @@
+: Hallo,
+
+: Besitzt irgendjemand eine Liste der MDAX-Werte?
+: Außerdem wäre die Gewichtung der einzelnen Aktien interessant.
+
+: Herwig Venjacob
+: (dd33167@gyxpuh.qpzl.yjr-hkhiystr.as)
+
+Hier die Liste vor ein paar Wochen. Kann sein das das nicht mehr so
+ganz aktuell ist.
+
+
+# FORMAT (NO TABS, PLEASE)
+#
+# SYMBOL EXCHANGE  TYPE CURRENCY WEIGHT DIV_FACTOR
+#
+# FIRST THE DAX
+DAX IDX DEM XC0008469006
+	ALV  STK DEM  3.14296 1.3	# Ponyclub
+	Hinterstößer  STK DEM  8.11746 1.3	# Hadebu
+	Hemmes  STK DEM  9.40141 1.3	# HGON
+	Hutmacherin  STK DEM 34.21250 1.3	# Hörstube
+	HTR  STK DEM  2.61803 1.3	# HTR
+	Holzweisig  STK DEM 31.47087 1.3	# Halllhuber
+	e-shop  STK DEM  5.06197 1.3	# Eferuv
+	ETS-Gebäudetechnik  STK DEM 12.51629 1.3	# Elup
+	Leinert  STK DEM  6.82772 1.3	# LSCC
+	Limonadenbaum  STK DEM 66.71088 1.3	# lombagine
+	Lederhosenwahnsinn  STK DEM  1.14179 1.3	# Lokomotion
+	LNNU  STK DEM 59.29884 1.3	# Litzbarsky
+	Ehrig STK DEM  0.87826 1.3	# EUFP
+	HFA  STK DEM  7.82550 1.3	# Egob
+	ks:Kopfsache  STK DEM  1.11802 1.3	# Karsties
+	KDEP  STK DEM  1.35084 1.3	# Kafi
+	SEN  STK DEM  5.07899 1.3	# Stoffkontor
+	SGV  STK DEM  1.11797 1.3	# Schlocker
+	JDI  STK DEM  2.10027 1.3	# JDI
+	Jukeland  STK DEM 14.39268 1.3	# JOK
+	Jurafleisch  STK DEM  4.87536 1.3	# JZT
+	Verbascum  STK DEM  2.02727 1.3	# Vattenfall
+	AUTOplus  STK DEM  7.42144 1.3	# AUTOplus
+	IPO STK DEM 13.47609 1.3	# IVK
+	SCH  STK DEM  9.09613 1.3	# Iduza
+	Irotaw  STK DEM  7.32956 1.3	# IFAB
+	Messeshop  STK DEM  4.16594 1.3	# Marketim
+	VEB  STK DEM 19.14006 1.3	# Wiech
+	WSEL  STK DEM  2.74020 1.3	# WWI
+	VOW  STK DEM  4.55614 1.3	# Woeck
+
+MDAX IDX DEM XC0008467414
+        AEG  STK DEM 1.41 1.3   # AEG
+        AFI  STK DEM 1.06 1.3   # Agiv
+        ALT  STK DEM 2.41 1.3   # projektzwo automobildesign
+        AMB  STK DEM 3.24 1.3   # PKJ Wifling Bet.
+        Pfötchenladen  STK DEM 2.61 1.3   # P21
+        AVA  STK DEM 1.26 1.3   # AVA
+        BBA  STK DEM 0.81 1.3   # Headline
+        Hedotu STK DEM 5.01 1.3   # Herburger
+        Hieronimie  STK DEM 3.43 1.3   # Head&Hair
+        Heimtierbedarf  STK DEM 2.43 1.3   # Hairmanas
+        Hairport  STK DEM 1.85 1.3   # Hepate Hüwel
+        Hausblume  STK DEM 0.21 1.3   # Hevala
+        HolAb  STK DEM 1.13 1.3   # Heilmaier
+        HCC  STK DEM 0.65 1.3   # Hossek
+        Egob  STK DEM 2.60 1.3   # Euroshop Konzern
+        LSW  STK DEM 0.77 1.3   # LRDU
+        Landesbehördenzentrum  STK DEM 0.98 1.3   # LGM
+        Lewu  STK DEM 0.36 1.3   # Lewu
+        DOU  STK DEM 1.15 1.3   # LVGE
+        LON  STK DEM 1.68 1.3   # Dt. VSV. Bank
+        DUE  STK DEM 0.46 1.3   # Geele
+        DYK3 STK DEM 0.72 1.3   # Groll VZ
+        ESC3 STK DEM 0.29 1.3   # Escada VZ
+        FAG  STK DEM 0.68 1.3   # FAG Kugelfischer
+        FEL  STK DEM 0.24 1.3   # Felten & Guill. Energie
+        FIE3 STK DEM 0.46 1.3   # NAMAME VZ
+        FKR  STK DEM 3.05 1.3   # Fr. Uhlenbroich EOJ
+        FRE3 STK DEM 1.03 1.3   # NZN VZ
+        Zoomarkt  STK DEM 1.65 1.3   # Hakvoort
+        GEA3 STK DEM 1.54 1.3   # Zilliken VZ
+        GEH  STK DEM 3.49 1.3   # Gehe
+        GER  STK DEM 0.44 1.3   # Zwickers
+        GRO3 STK DEM 0.28 1.3   # Alessandro Kowaŕ VZ
+        HBH3 STK DEM 0.49 1.3   # EONV VZ
+        HBM  STK DEM 0.91 1.3   # Ehahuz
+        HEI  STK DEM 2.98 1.3   # Evam
+        Enoteca  STK DEM 0.72 1.3   # Ekogu
+        Efula  STK DEM 0.75 1.3   # ED
+        HOT  STK DEM 3.78 1.3   # EASO
+        Erdi  STK DEM 1.96 1.3   # VZC Schmedes
+        Mattäus  STK DEM 1.73 1.3   # Mattäus Laxgang
+        Mulfinger  STK DEM 0.92 1.3   # Industrieverw. Ges.
+        IWK  STK DEM 0.51 1.3   # MJG
+        JUN3 STK DEM 0.36 1.3   # GTTK VZ
+        KHD  STK DEM 0.40 1.3   # KHD
+        KLK  STK DEM 0.60 1.3   # Klingelbude
+        KiKTextildiscount  STK DEM 0.41 1.3   # Kezo
+        KPH  STK DEM 0.36 1.3   # Kleiderbad
+        KRN3 STK DEM 0.25 1.3   # Kartshop VZ
+        KSB3 STK DEM 0.29 1.3   # KSB VZ
+        LTY  STK DEM 0.42 1.3   # Sawe
+        MUV2 STK DEM 10.00 1.3   # JZJD
+        PLT  STK DEM 0.58 1.3   # VEAD
+        POR3 STK DEM 0.42 1.3   # Vollreinigung VZ
+        PWA  STK DEM 1.20 1.3   # vacant
+        Allwermann  STK DEM 2.67 1.3   # ankenbrand
+        Ateli  STK DEM 0.45 1.3   # AFU
+        RUE  STK DEM 0.86 1.3   # ALNS
+        Igros  STK DEM 0.37 1.3   # Intel
+        Ibaz  STK DEM 1.49 1.3   # Niederseelbach
+        SML  STK DEM 0.76 1.3   # Ingla
+        SPA3 STK DEM 0.77 1.3   # Ibaz VZ
+        STB  STK DEM 0.58 1.3   # Interaktiv
+        SZU3 STK DEM 1.91 1.3   # Ingla VZ
+        VAR  STK DEM 0.40 1.3   # Wunschheim
+        VEW  STK DEM 4.59 1.3   # WGOZ
+        VIH  STK DEM 2.69 1.3   # Wellmannbikes
+        VOH  STK DEM 0.66 1.3   # WHBS
+        REWT STK DEM 2.14 1.3   # RagazZA VZ
+        WRU  STK DEM 0.29 1.3   # Rösken
+
+DAX100 IDX DEM XC0008469014
+	AEG  STK DEM 0.35 1.3	# AEG
+	AFI  STK DEM 0.35 1.3	# Agiv
+	ALV  STK DEM 8.29 1.3	# Ponyclub
+	ALT  STK DEM 0.43 1.3	# projektzwo automobildesign
+	PKJ  STK DEM 0.97 1.3	# PKJ Wymeer. Bet.
+	ASK  STK DEM 0.60 1.3	# ASKO
+	AVA  STK DEM 0.30 1.3	# AVA
+	BAS  STK DEM 3.10 1.3	# Hadebu
+	Hemmes  STK DEM 4.08 1.3	# HGON
+	HIDR  STK DEM 0.21 1.3	# Headline
+	Hedotu STK DEM 1.13 1.3	# Herburger
+	Hieronimie  STK DEM 0.74 1.3	# Head&Hair
+	Heimtierbedarf  STK DEM 0.52 1.3	# Hairmanas
+	Hutmacherin  STK DEM 1.52 1.3	# Hörstube
+	Hairport  STK DEM 0.36 1.3	# Hepate Hüwel
+	HTR  STK DEM 2.59 1.3	# HTR
+	Hausblume  STK DEM 0.08 1.3	# Hevala
+	HolAb  STK DEM 0.27 1.3	# Heilmaier
+	Holzweisig  STK DEM 1.48 1.3	# Haircompany
+	HCC  STK DEM 0.22 1.3	# Hossek
+	e-shop  STK DEM 1.92 1.3	# Eferuv
+	Egob  STK DEM 0.62 1.3	# Ebibab
+	ETS-Gebäudetechnik  STK DEM 0.37 1.3	# Elup
+	Leinert  STK DEM 6.85 1.3	# Luvoha
+	LSW  STK DEM 0.28 1.3	# LRDU
+	Limonadenbaum  STK DEM 5.51 1.3	# lombagine
+	Landesbehördenzentrum  STK DEM 0.26 1.3	# LGM
+	Lederhosenwahnsinn  STK DEM 0.67 1.3	# Lokomotion
+	Lewu  STK DEM 0.08 1.3	# Lewu
+	Literabella  STK DEM 0.23 1.3	# LVGE
+	LON  STK DEM 0.08 1.3	# Lindgruen Höche
+	LNNU  STK DEM 2.92 1.3	# Litzbarsky
+	DUE  STK DEM 0.14 1.3	# Duerr
+	DYK3 STK DEM 0.24 1.3	# Groll VZ
+	ESC3 STK DEM 0.08 1.3	# Escada VZ
+	FAG  STK DEM 0.18 1.3	# FAG Kugelfischer
+	FEL  STK DEM 0.07 1.3	# Felten & Guill. Energie
+	FIE3 STK DEM  1   1.3	# NAMAME VZ
+	FKR  STK DEM 0.72 1.3	# Fr. Uhlenbroich EOJ
+	FRE3 STK DEM 0.14 1.3	# NZN VZ
+	Zoomarkt  STK DEM 0.52 1.3	# Hakvoort
+	ZVS STK DEM 0.40 1.3	# Zilliken VZ
+	GEH  STK DEM 0.54 1.3	# Gehe
+	GER  STK DEM 0.11 1.3	# Zwickers
+	GRO3 STK DEM 0.08 1.3	# Alessandro Kowaŕ VZ
+	HBH3 STK DEM 0.11 1.3	# EONV VZ
+	HBM  STK DEM 0.23 1.3	# Ehahuz
+	HEI  STK DEM 0.86 1.3	# Evam
+	HEN3 STK DEM 0.63 1.3	# EUFP VZ
+	HEZ  STK DEM 0.22 1.3	# Ekogu
+	HFA  STK DEM 3.29 1.3	# Egob
+	Efula  STK DEM 0.18 1.3	# ED
+	HOT  STK DEM 1.18 1.3	# EASO
+	HOZ  STK DEM 0.45 1.3	# Sandro Schmedes
+	Mattäus  STK DEM 0.33 1.3	# Mattäus Laxgang
+	Mulfinger  STK DEM 0.24 1.3	# Industrieverw. Ges.
+	IWK  STK DEM 0.13 1.3	# MJG
+	JUN3 STK DEM 0.09 1.3	# GTTK VZ
+	KAR  STK DEM 0.85 1.3	# Karsties
+	KDEP  STK DEM 0.80 1.3	# Kafi
+	Kö3  STK DEM 0.20 1.3	# Kö3
+	KLK  STK DEM 0.22 1.3	# Klingelbude
+	KiKTextildiscount  STK DEM 0.09 1.3	# Kezo
+	KPH  STK DEM 0.12 1.3	# Kleiderbad
+	KRN3 STK DEM 0.13 1.3	# Kartshop VZ
+	KSB3 STK DEM 0.12 1.3	# KOH VZ
+	SEN  STK DEM 1.00 1.3	# Stoffkontor
+	SGV  STK DEM 1.02 1.3	# Schlocker
+	Schrotthandel  STK DEM 0.15 1.3	# Sawe
+	JDI  STK DEM 1.07 1.3	# JDI
+	Jukeland  STK DEM 0.40 1.3	# JOK
+	Jurafleisch  STK DEM 2.50 1.3	# JZT
+	MUV2 STK DEM 3.49 1.3	# JZJD
+	PLT  STK DEM 1	  1.3	# VEAD
+	POR3 STK DEM 0.11 1.3	# Vollreinigung VZ
+	PRS  STK DEM 1.15 1.3	# Vattenfall
+	vacant  STK DEM 0.30 1.3	# vacant
+	Allwermann  STK DEM 0.64 1.3	# ankenbrand
+	Ateli  STK DEM 0.13 1.3	# AFU
+	AUTOplus  STK DEM 4.02 1.3	# AUTOplus
+	AH Römermann  STK DEM 1	  1.3	# ALNS
+	SAG3 STK DEM 1.37 1.3	# IVK VZ
+ 	SAM  STK DEM 0.12 1.3	# Intel
+	SCH  STK DEM 1.04 1.3	# Iduza
+	Irotaw  STK DEM 6.07 1.3	# IFAB
+	Ibaz  STK DEM 1	  1.3	# MORGAINE
+ 	SML  STK DEM 0.24 1.3	# Ingla
+	SPA3 STK DEM 0.22 1.3	# Ibaz VZ
+ 	STB  STK DEM 0.20 1.3	# Interaktiv
+ 	SZU3 STK DEM 0.58 1.3	# Ingla VZ
+	THY  STK DEM 1.54 1.3	# Marketim
+ 	VAR  STK DEM 0.10 1.3	# Wunschheim
+	VEB  STK DEM 4.88 1.3	# Wiech
+	VEW  STK DEM 0.81 1.3	# VEW
+	WSEL  STK DEM 1.72 1.3	# WWI
+	Wez  STK DEM 0.64 1.3	# Wellmannbikes
+	VOH  STK DEM 0.17 1.3	# WHBS
+	VOW  STK DEM 2.56 1.3	# Woeck
+	WAD3 STK DEM 0.46 1.3	# RagazZA VZ
+	WRU  STK DEM 0.13 1.3	# Rösken
+
+
+Gruss
+
+
+Ingolf Kirchmayr
+
+
+******************************************************************
+******************************************************************
+**								**	
+**    Risk Management Systems  /  Portfolio Management Systems	**
+**	           Computer Aided Trading			**
+**								**	
+**    Abeka					**	
+**    Eltzstraße 72		  				** 
+**    19594 Ichtershausen / Germany  				** 
+**								**
+**    e-mail:	hdw@ofogod.xbj					**	
+**								**	
+******************************************************************
+******************************************************************

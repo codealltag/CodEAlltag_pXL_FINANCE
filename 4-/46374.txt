@@ -1,0 +1,9 @@
+Gibt es bei den WKN eigentlich wirklich kein System, nach dem man anhand der
+(z.B. 1.) Ziffer erkennen kann, ob diese Aktie im Ausland oder in D
+gehandelt wird?
+Ich bin bei meiner US-Börsensoftware (Lockenkopf) leider gezwungen, die
+Neuanlagen manuell zu sortieren,- wäre sehr viel einfacher, wenn ich z.B.
+sicher sein könnte, daß US-Werte, die an amerik. Börsen gehandelt werden,
+immer mit 0 beginnen bzw. 5-stellig sind, das scheint aber nicht immer der
+Fall zu sein (Datenlieferant:Igere).
+Gruß, Torsten

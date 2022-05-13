@@ -1,0 +1,61 @@
+wwgmx@tnvb.co-sdqz.df.ss (Tffdvh Lawerentz) kritzelte auf seinen
+Bildschirm:
+
+Kann es sein, dass ich das nur fuer diese Zinseszinsberechnung
+brauche?
+In diesem Fall soll ja nur die Schwankung des Aktienkurs verglichen
+werden. Ich glaube das ist die Volatilitat. Einen Zinseszinseffekt
+gibt es hier ja nicht.
+
+
+Das bedeutet also, angenommen ich habe
+
+Laufzeit  Wert      Aenderung
+
+   0      100,- DM  
+   1      200,- DM    + 100%
+   2       40,- DM    - 80%
+
+Vielleicht nur mit positiven Werten rechnen...
+
+100% + 80% /2 = 90%  
+
+Es hat sich eine durchschnittliche Aenderung von 90% ergeben, oder? Ob
+nach oben oder unten ist ja hier egal.
+
+Jetzt muesste man nur noch aus den negativen Zahlen jeweils positive
+Zahlen machen...
+Erst zum Quadrat rechnen und dann wieder die Wurzel ziehen!?
+
+Das sahe dann so aus:
+
+                   A                                  B 
+ 1   Durchschnitt:
+ 2   =SUMME(B:B)/ANZAHL(B:B)
+ 3   Werte
+ 4   2
+ 5   3                               =WURZEL(((A5-A4)/A4)^2)*100
+ 6   6                               =WURZEL(((A6-A5)/A5)^2)*100
+
+ 7   7                               =WURZEL(((A7-A6)/A6)^2)*100
+ 8   1                               =WURZEL(((A8-A7)/A7)^2)*100
+ 9   9                               =WURZEL(((A9-A8)/A8)^2)*100
+ 10  7                               =WURZEL(((A10-A9)/A9)^2)*100
+
+und mit Zahlen:
+
+            A              B                
+ 1   Durchschnitt:
+ 2     179,100529
+ 3             Werte
+ 4                 2
+ 5                 3             50
+ 6                 6            100
+ 7                 7   16,6666667
+ 8                 1   85,7142857
+ 9                 9            800
+ 10                7   22,2222222
+
+Was haelst Du davon?
+
+Gruss, Clemens

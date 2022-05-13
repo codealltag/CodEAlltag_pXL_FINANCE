@@ -1,0 +1,11 @@
+Nein. Bei einer Stop-Buy-Order wird dann unlimitiert gekauft,
+wenn Umsatz zu >= 41 (in deinem Fall) zustandekam. Also nach 
+deinem Szenario sofort. Du wolltest das ganz vermutliche ohne
+Stop, also ein normales Limit, oder?
+
+Gruss,
+ Ernest
+
+-- 
+mailto:nocdqsy@bhn.aqb 
+Please update your address book!

@@ -1,0 +1,19 @@
+Hallo,
+
+ich habe eine Frage zur Stopp Loss Oerder.
+
+Wird die Order erst zum Makler geschickt wenn der entsrechende Kurs
+unterhalb der Stopp Marke liegt und dann der Verkaufsauftrag ausgelößt
+
+oder
+
+wird der Auftrag direkt (nach Eingang) zum Makler geschickt und bei diesem
+mit zur Kursberechnung verwendet, jedoch est bei Unterschreitung ausgeführt.
+
+Die Frage ist eigenlich, ob mit einem großem StoppLoss Auftrag (bei kleinen
+Umsätzen)  ggf. der Kurs beinflußt werden kann.
+
+
+Gruß
+
+David

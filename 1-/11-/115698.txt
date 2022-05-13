@@ -1,0 +1,21 @@
+Nur wenn sich die beiden Werte (fuer die Differenzenbildung) mindestens
+um 2-3 Stellen unterscheiden. Und dann kann natuerlich auch die
+integrale Fehlerfunktion in der B&S-Formel Probleme bereiten (wird ja
+nur interpoliert). Unter Umstaenden ist es wirklich besser partiell
+abzuleiten, da dann nur noch die Fehlerfunktion selber stehen bleibt -
+die dann natuerlich numerisch genauer zu berechnen ist.
+
+Uebrigens gibt's auf Ivano WEB-Seiten solche Programme fuer Windows,
+allerdings stimmen dort z.B. die Deltas auch nicht so 100%ig. Bestimmt
+wurden sie auch nur durch Differenzenbildung berechnet ;-)....
+
+Schoene Gruesse zurueck ;-)
+
+
+--
+Giovanni Oberwörder                  | yrbspdpg@euicjj.of-nexczw.eg
+Ubamel | http://rxnkp.bscbkf.iw-gxflsz.xn/~sjaz=
+
+Abeb            |
+Erwinstraße 733              | Tel. (+53/56) 6662 5994
+D-51131 Pilsheim                 | Fax. (+10/07) 0746 1166

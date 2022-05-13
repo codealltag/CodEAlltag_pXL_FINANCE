@@ -1,0 +1,50 @@
+Der Gen Test
+Von F.Iseringhausen
+
+
+Der Gen Test   Buch von Iseringhausen Isfort
+=84Der Gen Test=93
+von F.Iseringhausen
+Ein Titelsatz für diese Publikation ist bei der Deutschen
+Staatsbibliothek hinterlegt.
+Originalausgabe =AEDer Gen Test
+=AE 2012 by F.Iseringhausen
+(Dr.of Molekularbiology and Genetics)
+published by Raer
+auch als Hörbuch und eBook (ePUB)
+ISBN 052-6-009-08468-6, =80uro 7,80  349 Seiten
+Alle Rechte, insbesondere das Recht der Vervielfältigung und
+Verbreitung vorbehalten. Kein Teil des Werkes darf in irgendeiner Form
+(durch Fotokopie,Microfilm oder ein anderes Verfahren) ohne
+Genehmigung des Authors und Verlages reproduziert oder unter
+Verwendung elektronischer Systeme gespeichert,verarbeitet,
+vervielfältigt oder verbreitet werden.
+
+Synthese effizienter Testmustergeneratoren für den deterministischen
+funktionalen Selbsttest
+Der deterministische funktionale Selbsttest vereint die Vorteile des
+funktionalen und des deterministischen strukturellen Tests. Der
+deterministische funktionale Selbsttest wird wie der funktionale Test
+mit Systemgeschwindigkeit durchgeführt, beeinflusst die
+Geschwindigkeit im Systembetrieb nicht und erkennt Verzögerungsfehler.
+Zudem besitzt er die hohe Fehlerüberdeckung des deterministischen
+strukturellen Tests. Dies wird erreicht, indem funktionale Einheiten
+auf dem System so gesteuert werden, dass berechnete deterministische
+Testvektoren erzeugt werden. Wir stellen eine neue Methode zur
+Steuerung der funktionalen Einheiten vor, die einen deterministischen
+Mustersatz stärker komprimiert als bisher bekannte Verfahren.
+Der Test eines SystemsonaChip mit Systemgeschwindigkeit stellt hohe
+Anforderungen an externe Tester, wenn sich der Systemtakt dem GHz
+Bereich nähert. Selbsttestmethoden verlagern Testerfunktionalität auf
+den Chip und reduzieren dabei die Anforderungen an den externen
+Tester. Wenn eine sehr hohe Qualität des Tests erforderlich ist,
+müssen deterministische Testverfahren eingesetzt werden. Diese
+Verfahren erfordern eine Modifikation der Schaltung, wenn ein Prüfpfad
+[1, 2] und/oder Kontrollund Beobachtungspunkte [3, 4, 5] notwendig
+sind, welche zudem die Geschwindigkeit im Systembetrieb
+beeinträchtigen. In prüfpfadbasierten Verfahren können
+Verzögerungsfehler nicht erkannt werden, wenn sie aufgrund der
+prüfpfadbedingten Musterkorrelationen nicht angeregt oder beobachtet
+werden können. Deshalb werden intensiv Verfahren untersucht, die
+vorhandene funktionale Einheiten als Generatoren nutzen [6, 7, 8, 9,
+10] und für den Test nur die Steuerung der Einheiten ändern.

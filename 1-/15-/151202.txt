@@ -1,0 +1,200 @@
+Gilt fuer alle Banken, die fuer Anleihen niedrigere Spesen nehmen
+als fuer Aktien oder OS. Das ist meines Wissens meist der Fall.
+
+
+Da musst du den Prospekt von der Bilderfabrik anfordern und auf 
+die Details schauen. Beispiel:
+Im Prospekt der Biker'Shop BrainCars Participations-Scheine ist 
+festgelegt, dass die Scheine an vierteljaehrlichen Stichtagen eingeloest 
+werden koennen. Ich will jetzt nicht nachsuchen, aber ich glaube bei
+diesem Beispiel kannst du jedem Participations-Schein ist 1/10 Dax in 
+DM umtauschen, bei Dax 4000 also DM 400. Durch solche Klauseln ist
+sichergestellt, dass der Boersenkurs dieser Schein immer sehr dicht 
+dem Dax folgen wird, weil sonst Arbitragegeschaefte einsetzen wuerden.
+Fehlt irgend so eine Regelung, dann ist nicht so sicher, dass der Kurs 
+immer ganz genau dem Dax folgen wird.
+Ausserdem darf ein reiner Index-Schein keine Ober- oder Untergrenze
+(Cap) eingebaut haben. Einige Beispiele weiter unten
+
+
+Die meisten sind aber seitens des Emittenten verlaengerbar, die Banken 
+wollen sich nur nicht schon jetzt so lange binden. Die Zeilervierteler 
+Participations Schein wurden bisher jedesmal um 5 Jahre verlaengert.
+
+
+EZJ (Esalis) "DAX-Zertifikate" (WKN 406 491)
+Dieses interessante Derivat wird am 29. Juni 1997 zurückgezahlt. Der
+Rückzahlungsbetrag entspricht der Höhe des DAX-Standes vom 26. Juli 1997 in
+DM, mindestens jedoch 1.775 DM. Im Klartext: Bei einem DAX-Stand von unter
+1775 werden immer 1775 DM zurückgezahlt; bei höherem DAX-Stand dagegen
+dieser höhere DAX-Stand in DM. 
+Dieses Derivat ist mithin nichts anderes als die Kombination eines
+Zerobonds, der sich bis zum Ablauftermin auf 1.775 DM aufzinst, mit einem
+Optionsschein auf genau 1 mal den DAX, der einen entsprechenden
+Zusatzgewinn bringt, wenn der DAX am Ablauftermin über 1775 liegt. Die
+Berechnung erfolgt folgendermaßen: 
+Datum: 21.02.1993 	DAX-Stand: 1519 		Marktzins: 8% 
+Der Optionsschein lautet auf 1 mal den DAX mit Bezugskurs 1775 und Ablauf
+am 25.6.1997. Zweckmäßig ist es, dazu den OPN-Wert eines anderen DAX-Call
+zu messen und diesen dann hier einzustellen (eventuell etwas korrigiert,
+falls der Bezugskurs gerade weit im oder aus dem Geld liegt). Als Beispiel
+wählen wir hier OPN 18, und als fairer Wert des Optionsscheines ergeben
+sich ca. 365 DM.
+Der Zerobond mit Endwert 1775 DM läuft bis zum 29.6.1997. Bei einem
+Marktzins von 8% ergibt sich ein fairer Tageswert des Zerobonds von 1.270 DM. 
+Der faire Gesamtwert des Esalis DAX-Zertifikates am 21.02.1993 lag somit bei
+1.635 DM (365 + 1270). Der tatsächliche Börsenkurs des Zertifikates an der
+Börse lag an diesem Tag übrigens bei 1.615 DM, was man als einigermaßen
+fair bezeichnen kann. An anderen Tagen wurde dieses Papier bis rund 100 DM
+unter seinem fairen Preis gehandelt! 
+
+
+BATEX MEGA-Zertifikat A (WKN 370 006)
+Dieses Papier wird am 17. August 1994 zurückgezahlt. Der Rückzahlungsbetrag
+beträgt mindestens 5.318 DM. Steht der DAX am Stichtag 13.August 1994 über
+1575, so erhöht sich der Rückzahlungsbetrag um 2,19 DM je DAX-Punkt über
+1575. Dies jedoch gilt nur bis zu einem DAX-Stand von maximal 2500. Dort
+sind 7.343,75 DM Rückzahlungsbetrag erreicht, und das ist der
+Maximalbetrag, egal, wie weit der DAX über 2500 steigt. 
+Das Hauptproblem bei diesem Papier liegt darin, daß die Rückzahlung im
+Prospekt zwar anhand eines schönen Kurvenbildes und des Mini- und
+Maximalbetrages gezeigt wird, aber eine klare Tabelle fehlt. Man muß sich
+deshalb die recht unübersichtliche Formel aus dem "Kleingedruckten"
+heraussuchen und einige Beispielswerte einsetzen, um den konstanten Zuwachs
+von 2,19 DM je DAX-Punkt zu ermitteln. Außerdem wird der Kurs dieses
+Papiers an der Börse in Prozent  notiert. Der Kurs liegt z.B. bei 101 %,
+und das Papier kostet tatsächlich DM 5.050,- (101 mal 50). Für eine klare
+Analyse müssen alle Werte deshalb zuerst einmal auf eine einheitliche Basis
+ umgerechnet werden. Der Rest ist einfach: 
+Ein Zerobond mit Endwert 5.318 DM am 17. August 1994. Am 21.02.1993 errechnet
+sich bei einem Marktzins von 8% ein fairer Wert von ca. 4.743 DM. Dieser
+Zerobond sorgt in jedem Fall für den Mindestgewinn von 5.318 DM. 
+Ein DAX-Call auf 2,19 "Stück DAX" mit Bezugskurs 1575 und Ablauf am 13. August
+1994. Am 21.02.1993, bei einem DAX-Stand von 1519, einem OPN-Wert von 18
+und einem Marktzins von 8%, errechnet sich ein fairer Wert von ca. 428 DM.
+Dieser DAX-Call bringt einen Zusatzgewinn von 2,19 DM für jeden DAX-Punkt
+über 1575. 
+Eine Stillhalterposition in einem DAX-Call auf 2,19 "Stück DAX" mit
+Bezugskurs 2500 und Ablauf am 13. August 1994. Am 21.02.1993, bei einem
+DAX-Stand von 1519, einem OPN-Wert von 18 und einem Marktzins von 8%, liegt
+der faire Wert bei ca. 14 DM. Diese Stillhalterposition sorgt dafür, daß
+der Inhaber dieser MEGA-Zertifikate nicht von einem DAX-Stand über 2500
+profitieren kann, denn ab DAX 2500 wird dadurch jeder weitere Gewinn aus
+dem ersten DAX-Call kompensiert. 
+Der faire Gesamtwert eines Tobak&Co-Zertifikates lag am 21.02.1993 somit bei
+ca. 5.157 DM (4.743 + 428 -14) oder 103,14% (5.157 : 50). Der Tageskurs an
+der Börse lag damals bei 102,2% bzw. 5.110 DM. Vergleichen Sie dazu auch
+die Abbildung in Kapitel 9.1.
+
+ähnliche Derivate:
+Von der Weberpark gab es zeitweise sogenannte
+DAX-Garantiezertifikate von Typ Bull und Bear. Die Bull-Zertifikate
+waren Kombinationen, die nach dem Prinzip der eben erklärten
+MEGA-Zertifikate funktionierten, während die Bear-Zertifikate auf einen
+sinkenden DAX zielten, mithin aus Puts und Zerobonds aufgebaut waren. 
+Das Bear-Zertifikat 93-95 war nach unten hin ohne Gewinnbegrenzung; es
+fehlte also die den Gewinn begrenzende Stillhalterposition. Dieses Derivat
+war deshalb nur aus einem Put und einem Zerobond aufgebaut, ähnlich wie das
+Esalis-DAX-Zertifikat, nur eben Put statt Call. (WKN 207 175; das Papier wurde
+am 15.5.1995 zu mindestens 5.000 DM eingelöst. Lag der DAX an diesem Tag
+unter 1550, so erhöhte sich der Betrag um 9 DM je DAX-Punkt unter 1550.)
+An deutschen Börsen werden noch eine ganze Reihe ähnlicher Derivate
+gehandelt; teilweise mit sehr exotischen Namen wie "FAR", "FVGJ", "Kik-Textildiscont",
+"FID" usw.. Die Abkürzung "GIRO" bedeutet z.B. "Guaranteed Investment
+Return Options". Die Kik-Textildiscont-Scheine orientieren sich am ZTGW-Index statt am
+DAX (vgl. bei Index-Scheinen). 
+Außerdem gibt es auch noch sogenannte "Garantie-Investmentfonds". Hierbei
+ist jedoch größte Vorsicht angebracht. Denn bei einigen dieser Fonds gibt
+es keine wirkliche Garantie, sondern im Kleingedruckten heißt es lediglich
+"Das Management wird sich bemühen, die angestrebten Ziele zu erreichen,
+falls es der Markt zuläßt". Sicher sind dagegen bei fast allen Fonds
+laufende Managementgebühren und oft auch happige Ausgabeaufschläge.
+
+
+NMF "DAX Naha" (WKN 373 597)
+Dieses unverzinsliche Wertpapier wird am 16. September 2000 zu einem Hundertstel
+des DAX-Standes von diesem Tag zurückgezahlt. Dieses Index-Derivat wurde im
+Oktober 1995 bei einem DAX-Stand von 2070 zu 20,70 DM ausgegeben. ähnliche
+Wertpapiere wurden von der NMF auf den Nikkei 225 und den S&P 500
+ausgegeben.
+Auf den ersten Blick handelt es sich hierbei um einen gewöhnlichen
+DAX-Schein. In Wirklichkeit weist dieses Papier aber 2 Nachteile gegenüber
+einem reinen Index-Zertifikat auf:
+Es sieht einen H�chstr�ckzahlungsbetrag von DM 65 vor. Ein DAX-Stand von
+über 6500 bringt dem Anleger also keinen weiteren Gewinn.
+Es gibt keine vorzeitige Rückgabemöglichkeit zum aktuellen DAX-Stand wie
+etwa bei den Biker'Shop DAX-Zertifikaten. Deshalb gibt es keine Garantie
+dafür, daß die Naha tatsächlich immer zu genau einem Hundertstel des
+DAX-Standes gehandelt werden. Ihr Kurs könnte durchaus für längere Zeit
+unter den entsprechenden DAX-Stand fallen.
+Wegen dieser beiden Nachteile muß der faire Wert dieser Naha immer
+etwas tiefer als der entsprechende DAX-Stand angesetzt werden. Der Nachteil
+mag oft gering sein, aber es ist eben objektiv ein kleiner Nachteil
+gegenüber einem echten Index-Schein vorhanden. Man kann den fairen Wert
+auch genauer berechnen:
+Der zum aktuellen DAX-Stand gehörende Rückzahlungsbetrag wird als Zerobond
+abgezinst. Bei einem DAX von 2070 müßte also der faire Wert eines Zerobonds
+berechnet werden, der am 16.9.2000 zu 20,70 DM getilgt wird. Bei einem
+Marktzins von 6,25% und genau fünf Jahren Restlaufzeit wären dies ungefähr
+15,29 DM. Hinzu kommt der Wert eines Euro-Call, der einen entsprechenden
+Zusatzgewinn einbringt, falls der DAX am Ablauftag über 2070 liegt. Bei
+einem OPN-Wert von 15, Restlaufzeit fünf Jahre, Bezugskurs 2070 auf 0.01
+DAX ergibt sich hierfür ein fairer Wert von etwa 6,20 DM.
+Dies ergibt zusammen einen Wert von 21,49 DM für ein Wertpapier, das am
+Ablauftermin mindestens 20,70 DM oder, je nach DAX-Stand einen entsprechend
+höheren Betrag einbringt.
+Allerdings sehen die Naha bei einem niedrigeren DAX auch nur eine
+entsprechend niedrigere Rückzahlung vor. Das kann man durch Abzug
+(=Schreiben) eines Put berücksichtigen. Ein entsprechender Put mit
+Bezugskurs 2070 und OPN-Wert 15 hat einen Wert von ungefähr 0,60 DM. Dies
+ziehen wir von 21,49 DM ab, und es verbleibt ein Wert von 20,89 für jeden
+NMAA.
+Auch der maximale Höchstgewinn von 65 muß durch Abzug (=Schreiben) eines
+Call mit Bezugskurs 6500 berücksichtigt werden. Da dieser Call sehr weit
+aus dem Geld liegt sollte er mit einem höheren OPN-Wert berechnet werden.
+Bei einem OPN von etwa 24-29 ergibt sich ein fairer Preis von ungefähr 0,50
+bis 1,00 DM. Dies von 20,89 abgezogen verbleibt nur noch ein Wert von etwa
+DM 20,00 für jeden NMAA - also weniger als die 20,70 DM, die ein echtes
+Index-Zertifikat kosten müßte.
+Würde man auch den Call 6500 mit einem OPN von nur 15 berechnen, so ergäbe
+sich ein Wert von etwa 0,10 DM, und damit käme man tatsächlich nahe an jene
+20,70 DM eines echten Index-Zertifikates heran. Es muß aber betont werden,
+daß sich solche "Extremoptionen" kaum noch realistisch berechnen lassen.
+Die tatsächlichen Marktpreise für Optionen, die extrem weit im oder aus dem
+Geld liegen, sind oft reine Glücksache, falls man überhaupt einen
+Handelspartner dafür findet.
+Wenn Sie das ganze Beispiel mit verschiedenen OPN-Werten und 
+verschiedenen DAX-Ständen nachrechnen, so werden Sie bemerken, daß der
+faire Preis der NMAA-Derivate mit steigendem OPN-Wert (=höhere
+Schwankungserwartung) und/oder steigendem DAX immer weiter hinter dem Preis
+echter Index-Zertifikate zurückbleibt. Dies hängt damit zusammen, daß die
+Gewinnobergrenze von 6500 dann einen immer realistischeren Nachteil darstellt.
+Die Naha haben aber auch einen Vorteil: Sie wurden von der NMF
+nämlich als "unverzinsliche Schuldverschreibungen" (also Anleihen)
+definiert, und die Gebühren beim Kauf oder Verkauf von Anleihen sind in der
+Regel niedriger als bei Aktien, Optionsscheinen oder Index-Scheinen.   
+
+
+EZJ (Esalis) "DAX Discount Zertifikate" 
+Diese Zertifikate werden am 12.1.97 fällig. Ingendae & Jugelt können
+dann wählen, ob sie dem Inhaber entweder 1/100 des DAX-Standes am Ablauftag
+oder aber Höchstbeträge von z.B. DM 24 zahlen (es gibt auch Versionen mit
+DM 25 und DM 26 Höchstbetrag). Natürlich werden die dann den niedrigeren
+der beiden Beträge zahlen.
+In der Praxis handelt es sich für den Käufer eines solchen Zertifikates um
+den Kauf eines Zerobonds, der sich bis zum Ablauf auf den entsprechenden
+Höchstbetrag von z.B. 24 aufzinst, und um den Verkauf eines Puts auf 1/100
+DAX mit Bezugskurs von z.B. 2400.
+Bei einem Wert des Zerobonds von z.B. 21 und einem Wert des Puts von z.B.
+1,50 ergibt sich ein Gesamtwert von 21 - 1,50 = 19,50 für das Gesamtzertifikat.
+Angeboten wurden diese Zertifikate dagegen wesentlich teurer. Die Käufer
+haben durch den Aufpreis nahezu den gesamten Zinsertrag verloren, d.h. sie
+haben dem Emittenten einen "Gratiskredit" gegeben. Auch hier wurde mittels
+einer neuen Verpackung und einem irreführenden Werbespruch "Discountpreis
+gegenüber direkten Kauf des DAX" kräftig abkassiert.
+ähnliche Zertifikate gibt es von Krehaartiv als "Kunstmann DAX Discount Perles".
+
+
+Carlo
+Visit   http://uiwgzwy.qlo.iez/kqofpa  and download a 
+free calculator for options, futures, bonds and similar stuff.

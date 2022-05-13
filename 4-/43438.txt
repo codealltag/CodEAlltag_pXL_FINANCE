@@ -1,0 +1,19 @@
+Hallo zusammen,
+
+habe vor ein paar Tagen Apropos noch mal nachgeordert (und da bei der
+DPD laut Hotline ja nur entweder earlies oder eben late gebucht
+werden kann), das erste Paket der earlies (50 Stück) streichen lassen
+und dafür 100 late gebucht. Ich kann jetzt allerdings unter "Limit"
+die Angabe "EUR -1,00" nicht einordnen und wundere mich auch, daß der
+early Auftrag doch noch bestehen blieb. Hat jmd. eine Erklärung?
+
+Danke schon mal, hier die relevanten Daten im Orderbuch:
+
+Zeichnungsaufträge
+
+Art         WKN     Bezeichnung                 Stück/Nominale
+Limit/Zusatz     Status     Kurs Ausführung
+Zeich      435779  Apropos -early Order-    STK  50,000
+billigst             offen
+Zeich      600411  Apropos -late Order-      STK  100,000       EUR
+-1,00       offen

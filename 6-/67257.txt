@@ -1,0 +1,24 @@
+unten
+
+Nein, der Fachbegriff ist nun einmal Stop Buy und nicht Start Buy. Es gibt
+zwei Sorten von Stop Buy.
+
+Variante 1: unlimitiert - Beispiel
+
+Aktueller Kurs 50, Du setzt Stop Buy unlimitiert bei 52,50. Kurs springt auf
+52,50 (oder höher!). Deine Order wird aktiviert und gilt jetzt unlimitiert.
+Kauf kann bei jedem beliebigem Betrag erfolgen (auch unter 52,50 oder
+deutlich drüber).
+
+
+Variante 2: limitiert - Beispiel
+
+Aktueller Kurs 50, Du setzt Stop Buy limitiert bei 52,50 (Den Limitkurs
+setzt Du auf 53,00). Kurs springt auf 52,50 (oder höher!). Deine Order wird
+aktiviert und gilt jetzt limitert. Der Kauf kann nach der Aktivierung bei
+jedem beliebigem Betrag bis maximal 53,00 erfolgen. Problem, wenn der Kurs
+schneller steigt als Dein Limit und z.B. von52,49 auf 53,12 springt, dann
+ist Deine Order zwar aktiv, liegt aber unter dem Marktpreis und wird vorerst
+nicht ausgeführt.
+
+Gruß, Werner

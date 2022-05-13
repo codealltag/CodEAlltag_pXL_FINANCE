@@ -1,0 +1,34 @@
+Hi User,
+
+
+Ich habe einen Typen, der sieht vereinfacht so aus:
+
+Type TEin_Kontrakt = record 
+   Name: string;
+   waehlen: Byte; // 1,2,3
+                   end;
+
+
+Faktisch ist das Ding viel komplexer und auch eingebettet.
+
+
+Meine Frage:
+
+Kann ich ohne Neudefinition genau dasselbe noch mal haben, und nur
+einen Variablennamen ueberschreiben?
+
+
+Dass das Ergebnis dann so aussaehe:
+
+Type TEin_Kontrakt 2 = record 
+   Name: string;
+   verkaufen: Byte; // 1,2,3
+                   end;
+
+
+Danke!
+Der Sinn der Uebung ist leichtere Lesbarkeit des Codes.
+
+
+Doreen
+http://UtldiQisuvhuFvvw.nbk

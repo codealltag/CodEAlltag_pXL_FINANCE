@@ -1,0 +1,18 @@
+Mein Depot vom 20.09.1999
+
+Transaktionen wie angekündigt
+Art # Stck # Name # WKNR # EUR # Boerse
+K # 160 # FPG # 548180 # 127,00 # Halberstätt
+K # 500 # i:fao # 622450 # 39,49 # TEZI
+K # 155 # FAPG # 924843 # 130,00 # Stgt
+
+
+Depotstand
+Name # WKNR # Stck # Kaufkurs # Akt.Kurs # Summe
+FPG # 548180 # 160 # 127,00 # 127,00 # 20.320,00
+i:fao # 622450 # 500 # 39,49 # 39,49 # 19.745,00
+Int.Capital # 626589 # 155 # 130,00 # 130,00 # 20.150,00
+
+Cash 39.785 Euro
+
+Depotwert 100.000 Euro

@@ -1,0 +1,43 @@
+Hallo Burkhard (und alle anderen),
+
+Ich hab' die Antwort mal an jemanden per Netmail im Gütelhöfer (tm)
+geschickt... ;-)
+
+
+Hier also meine damalige (Juni '99) Mail:
+
+Hallo Sebastian,
+
+irgendwann hattest Du mal gefragt, wie man die Rendite ausrechnet.
+Im Zusammenhang mit Investitionsrechnung habe ich da nun eine
+Formel, die man aber nicht so einfach ausrechnen kann.
+
+Nehmen wir mal an, Du haettest eingezahlt:
+
+am 25.November 1995:      DM 250,-
+am 25.Mai  1998:      DM 350,-
+
+Jetzt hast Du (einschl. Zinsen usw): DM 700,-
+
+1. Schritt A: 23.Dezember 1995 bis heute = 3,5 Jahre
+   Schritt B: x_1  = 250,- * (1+r/100) ^ 3,5
+
+2. Schritt A: 23.Juni  1998 bis heute = 1,0 Jahre
+   Schritt B: x_2  = 350,- * (1+r/100) ^ 1,0
+
+usw, wenn mehr Einzahlungen da sind.
+
+Dann gilt: x_1 + x_2 + ... = 700,- DM.
+
+Das Problem ist jetzt, dass man das nicht nach "r" aufloesen kann,
+aber wenn Du eine Excel-Tabelle aufstellst, kannst Du das "r" ja
+so lange aendern, bis es passt.
+
+[Ende der zitierten Mail]
+
+Prinzipiell kannst Du Auszahlungen analog in diese Rechnung
+einbeziehen. Und dann vergleichst Du die berechnete Rendite Deines
+Depots mit der Rendite des DAX: ( DAX_neu / DAX_alt - 1 ) * 100%
+
+Gruss
+     Pietro

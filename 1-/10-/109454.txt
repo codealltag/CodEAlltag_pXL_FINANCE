@@ -1,0 +1,53 @@
+das Problem der ZOK-Kurse betrifft wenig gehandeltet Werte, der
+Vorlieferant  Unicopy  kennt das Problem und arbeitet an der Loesung.
+
+das kommt immer darauf an, wie gravierend ein Problem ist.
+wenn es kleinigkeiten sind, wird das ganze behoben und fliesst dann im
+naechsten Update gesammelt mit den anderen kleinigkeiten ein.
+eine solche kleinigkeit ist z.B.:
+
+stimmt.
+aber: der Titelauswahl-Dialog wird in dieser Form von ca. 50.000 Usern
+benutzt, er ist so naemlich in Starbroker, CDV-Boerse, NWP-Boerse,
+Mozart, Tai-Pan, chartHeft usw. enthalten. Der Sinn des Dialoges ist
+es, einen Wert aufzurufen und den Chart anzuzeigen. Wenn von 50.000
+Usern nun einer auf den Gedanken kommt, das abzubrechen, um dann das
+Tickermodul zu starten, dann ist das so eine Kleinigkeit.
+natuerlich wird das behoben, aber warum soll wg. so einem bug, den
+49.999 leute gar nicht bemerken, ein update in die mailbox gestellt
+werden? der eine, der den fehler bemerkt, kennt ihn jetzt und kann zum
+starten des ticker.moduls die anderen startmoeglichkeiten benutzen.
+
+ein einziges mal reicht voellig, siehe oben.
+
+wieder so ein bedauerliches einzelproblem. wieviele user benutzen wohl
+gleichzeitig isdn + modem um auf beiden ports gleichzeitig online zu
+sein? ob sich das wirklich lohnt, einen programmierer mit der loesung
+zu beschaeftigen, weil 1 user damit ein problem hat?
+
+diese schlussfolgerung ist nicht nachvollziehbar!
+ich bin selbst auch Dipl.-Inform. Von rechnerkonfiguration habe ich
+deshalb aber immer noch keine bzw. nur grundlegende kenntnis. 
+dafuer haben wir unsere bit-fummler, die koennen das ohne
+informatikstudium viel besser.
+das problem -einer jeden hotline- sind anwender mit einem gewissen
+halbwissen. ich will damit niemandem zu nahe treten, aber diejenigen
+anwender, die genau das tun, was die hotline sagt, haben am wenigsten
+probleme. 
+
+danke
+
+
+diese globale aussage ist ziemlich nutzlos. wenn man den o.a. fehler
+immer wieder aufruft, gelingt es sicherlich, das programm zu
+sabotieren. man kann solche aktionen dann problemlos umgehen, indem
+z.b. das tickermodul auf andere weise gestartet wird.
+
+
+-- 
+Hansjörg Riebl
+Riebl+Adev GmbH, Günserode
+Tel. 2098-3450727
+Fax: 8067-9950857
+mailto:BWazf@pl-fkkawkfw.af
+http://boy.to-ntfkcmee.qb

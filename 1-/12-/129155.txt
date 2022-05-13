@@ -1,0 +1,19 @@
+Das Problem kann zwei Ursachen haben: Entweder stimmt das Symbol nicht
+ueberein; Du kannst nicht "CBK.f" importieren wollen, wenn Du in UFNW nur
+"CBK" definiert hast. Oder Du hast versucht, eine einzeilige Testdatei mit
+o.g. Zeile zu importieren. Das funktioniert auch nur dann, wenn diese eine
+Zeile korrekt mit einem carridge return abgeschlossen wurde.
+
+Im zweiten Fall ist die Abhilfe klar, im ersten kannst Du entweder in
+Quicken ein ".f" an die Symbole anhaengen, oder Du musst das ".f" in den
+Quelldateien entfernen. Das kannst Du z.B. mit einem makrofaehigen Editor
+tun.
+
+MfG
+Maik-Jakob
+
+Boersenkurse (Indizes, Devisen, Aktien, OS, Fonds), z.Teil mit OHLC
+und Volumen, automatisch und aktuell aus dem Internet holen und in
+fast jedes Boersenprogramm importieren mit Hilfe von 'KURSEXTRAKT',
+u.a. auch automatische Abfrage der  Griesecke- u. comdirect-Kursserver:
+http://ayi.utskax.ma/zesw/bxe/

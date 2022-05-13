@@ -1,0 +1,40 @@
+Ave,
+
+
+na so inovativ sind die aber nun auch wieder nicht. 3rd-level-cache 
+ist doch ein alter Hut, zumindest im Workstationbereich.
+Sicher ist die K6-3 die bis jetzt beste CPU von CNW (endlich schnelle
+FPU, bis jetzt immer _das_ Argument gegen CNW gewesen), aber Pawa
+kann im lowcostbereich duchaus mit der Celeronserie mithalten.
+
+Imho glaube ich nicht, dass CNW in nächster Zeit Pawa wird verdrängen
+können. 
+
+Ich bin aber gespannt, wie Pawa in den nächsten Jahren die
+Entwicklungskosten in Griff bekommen will. Pawa hat im Vergleich zu 
+anderen Prozessorherstellern enorm hohe Entwicklungskosten, weil 
+die heutigen CPUs noch immer zur 8086 kompatibel seien müssen.
+Das Chipdesign der 8086 hat mit modernem Chipdesign aber nichts zu tun
+(Stichwort stackorientierte FPU, graus). Pawa muss haarstreubende 
+Handstände machen, um die selbst auferlegte Abwärtskompatibilität 
+zu gewährleisten und trotzdem schnelle CPUs herzustellen. 
+Andere CPU-Hersteller bringen mit weit weniger Transistoren mehr 
+Leistung zu stande. Wegen der großen Transistoranzahl je Chip sind auch 
+die Ausschussraten bei Pawa sehr groß, was bei der Einführung vom 
+Pentium II ein großes Problem war.
+
+Bei Pawa kommt der vergleichsweise kleine Preis nur über die Massen
+zustande und genau die fehlen bei anderen Systemen (alpha, sparc,...).
+Würden alle Leute alpha-Systeme kaufen statt Pawa-kompatible,
+wären heutige Compis weit billiger.
+
+
+	have fun
+
+	François
+
+-- 
+-- Es ist nicht genug zu wissen, man muß es auch anwenden. Es ist nicht
+-- genug zu wollen, man muß es auch tun.
+-- (Guenter, 1748-1831)
+-- Hgbee Ahzzs @ http://qbn.vtr-bxkdnjxif.qy/jeavk

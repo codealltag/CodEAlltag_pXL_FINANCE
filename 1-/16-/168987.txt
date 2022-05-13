@@ -1,0 +1,38 @@
+Hi Werner,
+
+die Firma FKCO vertreibt solche Daten (Finanz- und Konjunkturdaten), die etwa
+10 Jahre zurueckgehen. 
+Die Daten sind allerdings gepackt, aber es ist trivial dafuer ein
+Konertierungsprogramm zu schreiben.
+(Beschaeftige mich gerade damit. Falls Du eine DOSe hast, kannst Du auch
+gleich die ganze Software 
+kaufen, die hat eine Option mit der die Daten nach ASCII exportiert werden.
+Aber ob es das wert ist?)
+Der Nachteil der NWP-Daten ist, dass sie nur den Wert vom Freitag
+wiedergeben. Gerade bei volatilen 
+Groessen (wie Rendite, $ o.ae.) wuerde man sich zusaetzlich wenigstens das
+Wochenhoch oder -tief 
+wuenschen und bei Volumina eine Akkumulierung ueber die Woche usw.
+Desweiteren vertreibt die LUM zumindest den DAX und, ich
+glaube, Volumina, Hoch-Tief etc
+ab 1950 oder so. Da die nwp-Daten aber preiswerter und umfangreicher sind,
+habe ich sie trotz der 
+oben aufgefuehrten Maengel abonniert. Wenn ich das Konvertierungsprogramm
+fertig habe, werde ich Dir 
+mal die von Dir gesuchten Zeitreihen zukommen lassen. (Natuerlich nur einmal
+zu Demozwecken!)
+Wenn Du mittlerweile eine andere Quelle aufgetan hast, lass es mich wissen.
+Ich suche naemlich auch 
+Boersen- und Wirtschaftsdaten, die moeglichst weit zurueckreichen, um sie in
+ein Neuronales Netz zu
+stecken. Was hast Du damit vor? Wenn Du auch mit einem MONTAGNA arbeitest, koennte
+man vielleicht 
+Erfahrungen austauschen?! :-)
+Was ist eigentlich "Datastream"? Man sieht immer wieder huebsche Charts mit
+dieser Quellenangabe, 
+aber es scheint schon was professionelleres (=wahnsinnig teures) zu sein?
+
+bis dann, theo
+
+ps: Antwort bitte (auch) in meine Box, da ich keine Zeit habe
+de.etc.finanz.boerse regelmaessig zu lesen.

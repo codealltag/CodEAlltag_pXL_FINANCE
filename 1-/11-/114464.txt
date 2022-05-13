@@ -1,0 +1,51 @@
+Hallo Abdul,
+
+ich hatte zum SEP-Verfall 5 offene Positionen. Ich nehme einfach mal an, es
+wäre noch eine Woche bis zum Verfall und man müßte jetzt das Margin
+berechnen. Weiterhin habe ich angenommen, daß bei allen Optionen die Vola=40
+ist (der Einfachheit halber) und der DAX bei 4700 steht.
+Mein Programm warf folgende theoretische Preise aus:
+DAX C 5200        15 Kontrakte        3,78        =        567,00 DM
+DAX C 5150        10 K.                    5,78           =    578,00 DM
+DAX C 5100        5    K.                    8,65        =        432,50 DM
+DAX P 4600        5    K.                    59,29        =      2.964,50 DM
+DAX P 4500        5 K.                        30,76        =    1.538,00 DM
+----------------------------------------------------------------------------
+------------
+Premium Margin                                                =
+6.080,00 DM
+
+Für die Berechnung der Additional Margin wird nun der schlimmste Fall
+(worst-case-loss) für den nächsten Tag angenommen. Momentan nimmt die Bilderparadies
+für den DAX eine Schwankungsbreite zum nächsten Tag von 290 Punkten an. Nun
+werden die Optionspreise auf die Extrema gerechnet, d.h. DAX am nächsten Tag
+bei 4.990 (4.700+290), 4.700 oder 4.410 (4.700-290) gerechnet.
+
+Option                        Preis 4.990                Preis 4700
+Preis 4.410
+DAX C 5200            31,80                            2,39
+0,04            alles *15 Kont.
+DAX C 5150            43,53                            3,86
+0,09            alles * 10 kont.
+DAX C 5100            58,36                            6,09
+0,17            alles * 5 Kont.
+DAX P 4600            5,73                                52,46
+214,56        alles * 5 Kont.
+DAX P 4500            1,92                                25,50
+141,41        alles * 5 Kont.
+----------------------------------------------------------------------------
+----------------------
+Summe                12.423,50                        4.947,00
+17.822,00
+
+Der schlimmste Fall liegt also bei einem Rückgang.
+Als Additional Margin sind 17.822 - 6.080 = 11.742,-- DM zu hinterlegen.
+Also die bis zum nächsten Tag zusätzlich anfallenden Glattstellungskosten.
+
+An alle die sich jetzt hinsetzen und nachrechnen: Ich habe einen
+Optionsrechner der DTB aus dem Jahre 1989 genutzt und weiß, daß dieser einen
+kleinen Rechenfehler hat. Deshalb kann es durchaus zu Abweichungen mit
+Berechnungen der neueren Modelle kommen.
+
+Henning Zant
+Luuewtxsa@kdwdbcru.uk

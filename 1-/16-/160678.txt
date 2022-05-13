@@ -1,0 +1,19 @@
+Hallo,
+
+ich stehe vor dem Problem, fuer verschiedene Optionen anhand des Black/Scholes-Modells den "fairen Wert" dieser 
+Optionen zu berechnen. Frisch ging ich ans Werk und stoeberte in der Groenfingers, um die notwendigen Daten 
+herauszusuchen. Doch nach ein paar Wochen habe ich nun gemerkt, dass die Daten groesstenteils unbrauchbar sind. 
+Daher meine Frage: Weiss jemand, wo man folgende Daten beziehen kann:
+
+	Optionspreise fuer die aktuell gehandelten Moock-Optionen
+	Moock-Aktienkurse (Kassa- und Schlusskurs)
+	Volatilitaet (Volatilitaet der Moock-Aktie und Stand des VDAX-Index)
+	Geldmarktzinsen (Tagesgeld bis Termingeld fuer 1 Jahr)
+
+Ich weiss, dass unter DATASTREAM derartige Daten zur Verfuegung gestellt werden, doch als mittelloser 
+Durchschnittsbuerger kommt man wahrscheinlich an diese Daten nicht heran. Weiss jemand von Euch Rat?
+
+Mfg
+
+Oliver Rotthweiler
+aqzqrwfm@cm.pgz-jpgenggson.lt

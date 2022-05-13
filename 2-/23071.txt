@@ -1,0 +1,23 @@
+Ein Aspekt der auch noch dazukommt:
+
+Auf JACKSONs wird in der Regel "fortlaufend", auf den Parkettbörsen durch
+Skontroführer in ständigen Auktionen gehandelt (im JACKSONs gibt es die
+ebenfalls, aber nur dreimal am Tag). Der Vorteil einer Auktion gegenüber dem
+fortlaufenden Handel ist das geringere Risiko von Teilausführungen oder
+Mistrades bei unlimitierten Ordern. Kurz gesagt werden bei einer Auktion
+erstmal mehrere Orders gesammelt (ins Orderbuch eingetragen) und dann zu
+einem bestimmten Zeitpunkt anhand ihrer Limits überprüft bei welchem Kurs
+die meisten Wertpapiere gehandelt werden können. Dann werden alle Orders die
+möglich sind zu diesem einen Kurs gehandelt. Da die Wertpapiere aller
+Verkäufer dazu quasi in einen Topf geschmissen und an die Käufer verteilt
+werden, ist dadurch garantiert dass bei n beteiligten Orders immer n-1 davon
+komplett ausgeführt werden können - während nur einer (der, dessen Order
+zuletzt reinkam) sich in der Regel mit einer Teilausführung zufrieden geben
+muss, die ggf. unnötige Broker-Spesen verusacht.
+
+Zusätzlich kommt hinzu, dass Skontroführer bei der Kursfeststellung etwas
+mitdenken und unlimitierte Orders (wie sie z.B. nach einem Stopp-Loss
+entstehen können) nicht gnadenlos gegen Orders mit unrealistischen Limits
+paaren, die nur den Zweck zu haben scheinen eben solche Fälle auszunützen.
+JACKSONs hat dagegen zwar auch eine Sicherung (Volatilit�tssperre), aber viele
+Anleger vertrauen Menschen mehr als Maschinen.

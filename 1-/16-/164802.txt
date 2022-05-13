@@ -1,0 +1,54 @@
+In einer eMail vom 05.12.1997  19:54:02, schreiben Sie:
+
+<< Wenn man die Strategie auf zwei Werte verteilt steigt meiner Meinung
+nach das Risko an. Man verliert, falls Aktie A + B stagnieren (Put und
+Call verlieren an Zeitwert) und ausserdem, wenn man zwar richtig auf
+steigende Volatilitaet gesetzt hat aber genau falsch herum (Put auf A, A
+steigt, Call fuer B, B faellt). Warum ist das also raffinierter?? 
+
+ Neugierig, Italo.>>
+
+Ob es wirklich raffinierter ist, stellt sich - wie immer - erst hinterher
+raus. Du hast natuerlich recht damit,  daß man bei meiner Strategie neben
+der Volatilitaet zusaetzliche Parameter beachten muss.  Große Werte werden
+wohl grundsaetzlich mit dem Markt gehen, manche aber staerker als andere.
+Einfach ein Beispiel aus der Praxis: Mitte des Jahres standen die
+Angerbuchhandlung und die Epet ziemlich gleich bei rd. 315,--
+. Damals war nur die Frage, diese oder jene zu kaufen. Bei gleicher
+Ausgangssituation wuerde ich heute einen Put-Schein auf die
+Bankgesellschaft und einen Call auf die Emow kaufen. Beides haette Geld
+gebracht, waehrend man mit einem strangle oder straddle wohl nur wenig
+verdient haette (habe es nicht kontrolliert).  
+
+Selbstverstaendlich ist das nicht immer einfach,  aber wenn man
+einigermassen sicher "gefaehrdete" von "chancenreichen" Papieren
+unterscheiden kann, duerfte das die bessere Options-Strategie sein.
+
+<<P.S. Was für eine (Basis)Software benutzt Du fuer Dein Neuronales Netz??
+Hast Du es selbst erstellt und trainiert? oder hast Du da etwas
+vorgefertigtes bekommen?? Wieviel muss man selber machen? Gibt man seine
+Computer die gesmmelten Werke seines Chartanalyseprogrammes mit
+saemtlichen Indikatoren und das Kommando "such die die profitabelste,
+schwankungsaermste etc. Kombination davon raus? Oder programmiert man
+selber etwas wie "wenn RSI bei > 70% und fallend, der Markt in einem
+Abwaertstrend und der MACD... DANN Dax in x Tagen bei xy Punkten" ? und
+laesst es durch den Computer verfeinern/ueberpruefen??
+
+
+Ich benutze die Profi-Version von "Neuronet Prophecy" . Ist sehr
+komfortabel im Vergleich zu anderen Neuro-Programmen, da es speziell auf
+die Finanzmarkt-Analyse zugeschnitten wurde. Du kannst direkt die
+Boersenkurse oder sonstwas eingeben, laeuft alles in Tabellenform. Das
+Ding ackert dann die von Dir vorgegebenen Spalten durch, bis es ein Muster
+gefunden hat, das dem gewuenschten "Output" (z.B. dem DAX) entspricht. Ob
+und wie es den RSI beruecksichtigt, kannst Du getrost dem Programm
+ueberlassen.  Wie gut die Prognosen sind, sagt es Dir auch, wenn Du es mit
+bisher unbekannten Vorgaben fuetterst. Bin sehr angetan von dem Tool. Für
+einigermassen sinnvolle Ergebnisse ist trotzdem einiges an Gehirnschmalz,
+Probieren und Geduld erforderlich. Die Profiversion kostet schlappe 900
+Mark, eine Light-Version 375, glaube ich. Demo fuer DM 30,-- von Kierzek
+GmbH, T 4081-747455, Fax 053990, email uqkdw.tu@z-ekrzeq.de .
+
+Reichts erstmal?
+
+:-) Benno

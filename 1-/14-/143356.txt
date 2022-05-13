@@ -1,0 +1,24 @@
+Hallo,
+
+
+Falls Du 2 Spalten fuer die Ausgabe des Textes eruebrigen kannst, versuche
+es mal mit folgendem:
+
+A1 bis A7: die Kurse
+
+In B7 diese Formel eingeben: Wenn(A7=MAX(A1:A7);groesser;"")
+
+In C7 diese Formel eingeben: Wenn(A7=MIN(A1:A7);kleiner;"")
+
+Falls Du die Ausgabe des entsprechenden Textes (in diesem Bsp. also
+groesser oder kleiner) unbedingt in 1 Spalte brauchst, kannst Du die
+Formeln sicher auch miteinander verknuepfen; hab jetzt aber weder Zeit noch
+Lust, das auszutesten.
+
+mfg, Ewald
+--
+------------------------------------------------------------------------------------------------------------
+DAX-Systemtrading
+http://kae.Xpdutswfg-Pjnaoty.yr
+http://ohir.o-rylesx.bg/tktt/Ejtbxfzvv-Dybtwcu
+------------------------------------------------------------------------------------------------------------

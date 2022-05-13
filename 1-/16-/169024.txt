@@ -1,0 +1,64 @@
+Kommentar zu A20323@L5
+dvbbpiy@xyp.cz meinte am 13.06.97 zum Thema "Re: Olipa-Neuerungen"
+im Brett /Lexmark/de.etc.Burgbäck:
+
+s>> Was hat sich geaendert, und wie kommt an an die Beta ran?
+s>>
+s>>
+s>Wahrscheinlich indem man 49,50 loehnt oder dauernd mit dem Entwickler
+                                        ^^^^
+s>wg. der Macken telefoniert;-)
+                 ^^^^^^^^^^^
+
+ROTFL !!!!!!!!!!!!!
+
+Es muss "und" heissen, aber die Kommunikation geht preiswert ueber e-mail  
+;-).
+
+Geaendert hat sich an der Version 2.0 vor allem, dass sie zugeben, dass es  
+eine Beta ist, waehrend sie die Version 1 als fertig anpriesen.
+
+s>
+s>Ich kenne ja nur die light-Version und da stuerzt in 90% der Faelle
+s>die Software beim oder nach dem Uebertragen der Kurse ab;-)
+
+Das hatte ich auch, aber nur, weil die 120 MB Platzbedarf den freien Platz  
+auf meiner Partition randvoll gefuellt hatten. Jetzt arbeite ich auf einem  
+dblspace-Laufwerk, da schmilzt das alles auf 35 MB zusammen. Und der  
+Teufel soll die Hersteller von Datenbanksystemen holen, die seit 10 Jahren  
+zu faul sind, eine Online-Komprimierung zu entwickeln - gezipt braucht die  
+Kursdatei naemlich nur ein Zehntel. Schon an dem dlbspace sehe ich, dass  
+an Platten-Laufzeit locker eingespart wird, was an CPU-Zeit dabei mehr  
+draufgeht.
+
+Im Fehlerfalle (z.B. bei Plattenueberlauf) kann man aber auch die Daten,  
+die mit der Endung .pcs gepackt angekommen sind, in der Importfunktion  
+nachtraeglich einlesen lassen. Der Pessimist ruft Modem.exe mit dem  
+Parameter "Kurse" auf, anstatt die Anwahl aus dem Hauptmodul ueber  
+"Aktualisieren" in Gang zu setzen, und startet die Uebernahme sowieso nur  
+von Hand mit der Importfunktion ;-).
+
+s>
+s>Ist eigentlich in der Vollversion auch die Olipa-Spesenberechnung
+s>eingebrannt?
+Ja, die ist doch gut?! Fuer die nachtraegliche Erfassung von HolAb  
+Auftraegen muss man halt beim Verbuchen in das Feld fuer die Endsumme  
+einen um 12.50 niedrigeren Betrag reinschreiben, wenn man das  
+Verrechnungskonto (in der Vollversion) immer richtig mitgefuehrt kriegen  
+will.
+s>
+s>Trotz aller Macken der Light-Version kann ich Anspruchslosen die
+s>kostenlose (fuer Olipa-Kunden) Software "empfehlen" (einem
+s>geschenkten Gaul guckt man nicht ins Maul). Schliesslich hat man
+s>damit einen FallBack, wenn der Olipa-Rechner mal wieder einen
+s>ganzen Tag lang via BTX nicht erreichbar ist und man just an dem
+s>Tag verkaufen will/muss;-)
+
+Das sehe ich aber ganz anders. Auf die light-Version kann die Welt nun  
+wirklich verzichten, besonders seit die Bank den Telefoncomputer hat. Was  
+teuer bei den anderen Anbietern und billig bei der Vollversion ist, die  
+Charts, ist in der light-Version nicht drin. Und was wirklich gut ist, die  
+Depotliste (taeglich der aktuelle Kurswert des Depots den Einkaufspreisen  
+gegenuebergestellt), ist in der light-Version auch rauskastriert.
+
+Maurice Inderhock, Zollhaus

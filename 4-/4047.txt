@@ -1,0 +1,546 @@
+Roulette Prognose für 1.6.2011 Roulettesystem Austenfeld Angl
+Willstumpf
+Video http://wwx.zgbbbyj.lzv/pagsi?d=1IdgPk9SMSDU2
+
+Werte Gambler,
+nachdem es aufgrund der gestrigen Prognose deutliche Gewinne gegeben
+hat, heute nochmals eine Prognose für Sonntag dem 1.6.2011 Casino
+Lühsdorf.
+Diese Prognose ist so simple, ich habe bereits die Satzperformance
+berechnet und unten steht, was auf die einfachen Chancen in jedem Coup
+zu setzen ist. Das aber nur, wenn sich dadurch auch eine Isolde
+Figur bilden kann. Egal welche Figur, das ist bereitrs vorher
+errechnet  worden. Sie können es ja leicht an der Tafel ablesen, wenn
+die letzten 3 Coups kein Zero haben, wird sich für den nächsten Coup,
+falls dort kein Zero kommt, eine von 2 möglichen Alyett-Figuren
+bilden, und da ist der Satz für Schwarz-Rot,Pair-Impair,Passe-Manqe
+bereits vorgegeben.
+Ich rechne auch hier mit deutlichen Gewinnen, wie es die Vergangenheit
+mit Simulationen von mehr als 1 Million Coups dieses Casinos der
+letrzten Jahre gezeigt hat. Ich habe alle Simulationen durch den
+Computer laufen lassen und alle waren erfolgreich.
+Es müssen eben die Regeln beachtet werden, Satz nur, wenn sich durch
+den Satz auf alle 3 einfachen Chancen eine Alyett-Figur bilden kann.
+Was zu setzen ist und in welchem Coup sehen Sie nachstehend
+detailliert für alle 3 Chancen.
+Good Luck.
+Roulette-Prognose BLACK-RED by Austenfeld=AE
+von N.Arend    copyright 01.06.2011 07:31:45 by Angl
+Willstumpf=AE Austenfeld=AE
+
+to  4.Coup:  if figures then set RED
+to  5.Coup:  no set
+to  6.Coup:  no set
+to  7.Coup:  no set
+to  8.Coup:  no set
+to  9.Coup:  if figures then set RED
+to  10.Coup:  if figures then set RED
+to  11.Coup:  if figures then set RED
+to  12.Coup:  if figures then set RED
+to  13.Coup:  if figures then set BLACK
+to  14.Coup:  if figures then set BLACK
+to  15.Coup:  if figures then set RED
+to  16.Coup:  if figures then set RED
+to  17.Coup:  if figures then set BLACK
+to  18.Coup:  if figures then set RED
+to  19.Coup:  if figures then set BLACK
+to  20.Coup:  if figures then set RED
+to  21.Coup:  if figures then set RED
+to  22.Coup:  if figures then set RED
+to  23.Coup:  if figures then set RED
+to  24.Coup:  if figures then set RED
+to  25.Coup:  if figures then set BLACK
+to  26.Coup:  if figures then set BLACK
+to  27.Coup:  if figures then set BLACK
+to  28.Coup:  if figures then set BLACK
+to  29.Coup:  if figures then set BLACK
+to  30.Coup:  if figures then set BLACK
+to  31.Coup:  if figures then set BLACK
+to  32.Coup:  if figures then set BLACK
+to  33.Coup:  if figures then set RED
+to  34.Coup:  if figures then set BLACK
+to  35.Coup:  if figures then set RED
+to  36.Coup:  if figures then set RED
+to  37.Coup:  if figures then set BLACK
+to  38.Coup:  if figures then set RED
+to  39.Coup:  if figures then set BLACK
+to  40.Coup:  if figures then set RED
+to  41.Coup:  if figures then set BLACK
+to  42.Coup:  if figures then set RED
+to  43.Coup:  if figures then set RED
+to  44.Coup:  if figures then set BLACK
+to  45.Coup:  if figures then set BLACK
+to  46.Coup:  if figures then set BLACK
+to  47.Coup:  if figures then set BLACK
+to  48.Coup:  if figures then set BLACK
+to  49.Coup:  if figures then set BLACK
+to  50.Coup:  if figures then set RED
+to  51.Coup:  if figures then set BLACK
+to  52.Coup:  if figures then set BLACK
+to  53.Coup:  if figures then set RED
+to  54.Coup:  if figures then set RED
+to  55.Coup:  if figures then set BLACK
+to  56.Coup:  if figures then set RED
+to  57.Coup:  if figures then set RED
+to  58.Coup:  if figures then set BLACK
+to  59.Coup:  if figures then set BLACK
+to  60.Coup:  if figures then set BLACK
+to  61.Coup:  if figures then set BLACK
+to  62.Coup:  if figures then set RED
+to  63.Coup:  if figures then set BLACK
+to  64.Coup:  if figures then set RED
+to  65.Coup:  if figures then set RED
+to  66.Coup:  if figures then set BLACK
+to  67.Coup:  if figures then set RED
+to  68.Coup:  if figures then set BLACK
+to  69.Coup:  if figures then set BLACK
+to  70.Coup:  no set
+to  71.Coup:  no set
+to  72.Coup:  no set
+to  73.Coup:  no set
+to  74.Coup:  if figures then set RED
+to  75.Coup:  if figures then set RED
+to  76.Coup:  if figures then set RED
+to  77.Coup:  if figures then set BLACK
+to  78.Coup:  if figures then set BLACK
+to  79.Coup:  if figures then set BLACK
+to  80.Coup:  if figures then set BLACK
+to  81.Coup:  if figures then set BLACK
+to  82.Coup:  if figures then set BLACK
+to  83.Coup:  if figures then set RED
+to  84.Coup:  if figures then set RED
+to  85.Coup:  if figures then set BLACK
+to  86.Coup:  no set
+to  87.Coup:  no set
+to  88.Coup:  no set
+to  89.Coup:  no set
+to  90.Coup:  if figures then set BLACK
+to  91.Coup:  if figures then set BLACK
+to  92.Coup:  if figures then set RED
+to  93.Coup:  if figures then set BLACK
+to  94.Coup:  if figures then set RED
+to  95.Coup:  if figures then set RED
+to  96.Coup:  if figures then set RED
+to  97.Coup:  if figures then set RED
+to  98.Coup:  if figures then set RED
+to  99.Coup:  if figures then set BLACK
+to  100.Coup:  if figures then set BLACK
+Roulette-Prognose PAIR-IMPAIR by Austenfeld=AE
+von N.Arend    copyright 01.06.2011 07:32:49 by Angl
+Willstumpf=AE Austenfeld=AE
+
+to  4.Coup:  if figures then set IMPAIR
+to  5.Coup:  no set
+to  6.Coup:  no set
+to  7.Coup:  no set
+to  8.Coup:  no set
+to  9.Coup:  if figures then set IMPAIR
+to  10.Coup:  if figures then set PAIR
+to  11.Coup:  if figures then set IMPAIR
+to  12.Coup:  if figures then set IMPAIR
+to  13.Coup:  if figures then set PAIR
+to  14.Coup:  if figures then set PAIR
+to  15.Coup:  if figures then set IMPAIR
+to  16.Coup:  if figures then set IMPAIR
+to  17.Coup:  if figures then set PAIR
+to  18.Coup:  if figures then set IMPAIR
+to  19.Coup:  if figures then set PAIR
+to  20.Coup:  if figures then set IMPAIR
+to  21.Coup:  if figures then set IMPAIR
+to  22.Coup:  if figures then set IMPAIR
+to  23.Coup:  if figures then set PAIR
+to  24.Coup:  if figures then set PAIR
+to  25.Coup:  if figures then set IMPAIR
+to  26.Coup:  if figures then set PAIR
+to  27.Coup:  if figures then set PAIR
+to  28.Coup:  if figures then set PAIR
+to  29.Coup:  if figures then set PAIR
+to  30.Coup:  if figures then set PAIR
+to  31.Coup:  if figures then set PAIR
+to  32.Coup:  if figures then set PAIR
+to  33.Coup:  if figures then set IMPAIR
+to  34.Coup:  if figures then set PAIR
+to  35.Coup:  if figures then set PAIR
+to  36.Coup:  if figures then set PAIR
+to  37.Coup:  if figures then set PAIR
+to  38.Coup:  if figures then set IMPAIR
+to  39.Coup:  if figures then set PAIR
+to  40.Coup:  if figures then set IMPAIR
+to  41.Coup:  if figures then set PAIR
+to  42.Coup:  if figures then set PAIR
+to  43.Coup:  if figures then set PAIR
+to  44.Coup:  if figures then set IMPAIR
+to  45.Coup:  if figures then set IMPAIR
+to  46.Coup:  if figures then set IMPAIR
+to  47.Coup:  if figures then set PAIR
+to  48.Coup:  if figures then set IMPAIR
+to  49.Coup:  if figures then set IMPAIR
+to  50.Coup:  if figures then set IMPAIR
+to  51.Coup:  if figures then set IMPAIR
+to  52.Coup:  if figures then set IMPAIR
+to  53.Coup:  if figures then set IMPAIR
+to  54.Coup:  if figures then set IMPAIR
+to  55.Coup:  if figures then set IMPAIR
+to  56.Coup:  if figures then set IMPAIR
+to  57.Coup:  if figures then set PAIR
+to  58.Coup:  if figures then set IMPAIR
+to  59.Coup:  if figures then set PAIR
+to  60.Coup:  if figures then set IMPAIR
+to  61.Coup:  if figures then set IMPAIR
+to  62.Coup:  if figures then set PAIR
+to  63.Coup:  if figures then set PAIR
+to  64.Coup:  if figures then set PAIR
+to  65.Coup:  if figures then set IMPAIR
+to  66.Coup:  if figures then set IMPAIR
+to  67.Coup:  if figures then set PAIR
+to  68.Coup:  if figures then set PAIR
+to  69.Coup:  if figures then set IMPAIR
+to  70.Coup:  no set
+to  71.Coup:  no set
+to  72.Coup:  no set
+to  73.Coup:  no set
+to  74.Coup:  if figures then set PAIR
+to  75.Coup:  if figures then set PAIR
+to  76.Coup:  if figures then set PAIR
+to  77.Coup:  if figures then set PAIR
+to  78.Coup:  if figures then set PAIR
+to  79.Coup:  if figures then set PAIR
+to  80.Coup:  if figures then set PAIR
+to  81.Coup:  if figures then set PAIR
+to  82.Coup:  if figures then set PAIR
+to  83.Coup:  if figures then set IMPAIR
+to  84.Coup:  if figures then set PAIR
+to  85.Coup:  if figures then set IMPAIR
+to  86.Coup:  no set
+to  87.Coup:  no set
+to  88.Coup:  no set
+to  89.Coup:  no set
+to  90.Coup:  if figures then set PAIR
+to  91.Coup:  if figures then set PAIR
+to  92.Coup:  if figures then set IMPAIR
+to  93.Coup:  if figures then set IMPAIR
+to  94.Coup:  if figures then set PAIR
+to  95.Coup:  if figures then set IMPAIR
+to  96.Coup:  if figures then set PAIR
+to  97.Coup:  if figures then set PAIR
+to  98.Coup:  if figures then set PAIR
+to  99.Coup:  if figures then set IMPAIR
+to  100.Coup:  if figures then set IMPAIR
+Roulette-Prognose PASSE-MANQE by Austenfeld=AE
+von N.Arend    copyright 01.06.2011 07:33:32 by Angl
+Willstumpf=AE Austenfeld=AE
+
+to  4.Coup:  if figures then set PASSE
+to  5.Coup:  no set
+to  6.Coup:  no set
+to  7.Coup:  no set
+to  8.Coup:  no set
+to  9.Coup:  if figures then set MANQE
+to  10.Coup:  if figures then set MANQE
+to  11.Coup:  if figures then set MANQE
+to  12.Coup:  if figures then set MANQE
+to  13.Coup:  if figures then set PASSE
+to  14.Coup:  if figures then set PASSE
+to  15.Coup:  if figures then set PASSE
+to  16.Coup:  if figures then set MANQE
+to  17.Coup:  if figures then set PASSE
+to  18.Coup:  if figures then set PASSE
+to  19.Coup:  if figures then set MANQE
+to  20.Coup:  if figures then set PASSE
+to  21.Coup:  if figures then set PASSE
+to  22.Coup:  if figures then set PASSE
+to  23.Coup:  if figures then set PASSE
+to  24.Coup:  if figures then set MANQE
+to  25.Coup:  if figures then set MANQE
+to  26.Coup:  if figures then set PASSE
+to  27.Coup:  if figures then set PASSE
+to  28.Coup:  if figures then set PASSE
+to  29.Coup:  if figures then set PASSE
+to  30.Coup:  if figures then set PASSE
+to  31.Coup:  if figures then set MANQE
+to  32.Coup:  if figures then set MANQE
+to  33.Coup:  if figures then set MANQE
+to  34.Coup:  if figures then set PASSE
+to  35.Coup:  if figures then set PASSE
+to  36.Coup:  if figures then set MANQE
+to  37.Coup:  if figures then set PASSE
+to  38.Coup:  if figures then set MANQE
+to  39.Coup:  if figures then set MANQE
+to  40.Coup:  if figures then set PASSE
+to  41.Coup:  if figures then set MANQE
+to  42.Coup:  if figures then set PASSE
+to  43.Coup:  if figures then set MANQE
+to  44.Coup:  if figures then set MANQE
+to  45.Coup:  if figures then set PASSE
+to  46.Coup:  if figures then set PASSE
+to  47.Coup:  if figures then set PASSE
+to  48.Coup:  if figures then set MANQE
+to  49.Coup:  if figures then set MANQE
+to  50.Coup:  if figures then set PASSE
+to  51.Coup:  if figures then set MANQE
+to  52.Coup:  if figures then set PASSE
+to  53.Coup:  if figures then set PASSE
+to  54.Coup:  if figures then set MANQE
+to  55.Coup:  if figures then set PASSE
+to  56.Coup:  if figures then set MANQE
+to  57.Coup:  if figures then set MANQE
+to  58.Coup:  if figures then set MANQE
+to  59.Coup:  if figures then set MANQE
+to  60.Coup:  if figures then set MANQE
+to  61.Coup:  if figures then set PASSE
+to  62.Coup:  if figures then set MANQE
+to  63.Coup:  if figures then set MANQE
+to  64.Coup:  if figures then set PASSE
+to  65.Coup:  if figures then set MANQE
+to  66.Coup:  if figures then set MANQE
+to  67.Coup:  if figures then set MANQE
+to  68.Coup:  if figures then set MANQE
+to  69.Coup:  if figures then set PASSE
+to  70.Coup:  no set
+to  71.Coup:  no set
+to  72.Coup:  no set
+to  73.Coup:  no set
+to  74.Coup:  if figures then set MANQE
+to  75.Coup:  if figures then set PASSE
+to  76.Coup:  if figures then set PASSE
+to  77.Coup:  if figures then set PASSE
+to  78.Coup:  if figures then set MANQE
+to  79.Coup:  if figures then set PASSE
+to  80.Coup:  if figures then set MANQE
+to  81.Coup:  if figures then set MANQE
+to  82.Coup:  if figures then set MANQE
+to  83.Coup:  if figures then set PASSE
+to  84.Coup:  if figures then set MANQE
+to  85.Coup:  if figures then set PASSE
+to  86.Coup:  no set
+to  87.Coup:  no set
+to  88.Coup:  no set
+to  89.Coup:  no set
+to  90.Coup:  if figures then set MANQE
+to  91.Coup:  if figures then set MANQE
+to  92.Coup:  if figures then set MANQE
+to  93.Coup:  if figures then set PASSE
+to  94.Coup:  if figures then set PASSE
+to  95.Coup:  if figures then set PASSE
+to  96.Coup:  if figures then set MANQE
+to  97.Coup:  if figures then set PASSE
+to  98.Coup:  if figures then set PASSE
+to  99.Coup:  if figures then set PASSE
+to  100.Coup:  if figures then set MANQE
+
+
+Roulette Prognose 31.5.2011 Roulettesystem Austenfeld Arend
+Video http://lhm.orhcmvr.rwa/fseox?d=4CpiBmDV9xIsS
+
+Werte Gambler,
+für gestern dem 30.5.2011 hatte ich ja eine Prognose gemacht und
+gfespielt wurde mit hohgen Einsätzen. Leider war das Resultat
+ernüchternd, es musten innerhalb von 3 Stunden, die gespielt wurden,
+279 Stücke gesetzt werden, und es wurden aber nur 270 Stücke gewonnen.
+Verlust somit 9 Stücke. Es ist natürlich auch ein Risiko, wenn wie
+hier, die Prognosen punktgenau für einfache Chancen auf den
+entsprechenden Coup vorprognostiziert wird. Auch Casinos lesen das und
+können sich darauf einstellen. Fiktiv hatte es solch ein Resultat in
+den letzten Auswertungstagen von 2 Monaten nicht gegeben. Aber so ist
+das nun mal, Roulette ist eben ein Glücksspiel. Nachstehend füge ich
+nochmals die Prognose bei und auch das Resultat im Detail, siehe
+unten.
+Aber nun rücken wir heute am Samstag dem 31.5.2011 nochmal an, Tisch 3
+im Casino Lühsdorf, diesmal wird auf Grosse Serie gesetzt. Grosse
+Serie a Plein a 200 Euro pro Plein. Der Tisch öffnet um 15 Uhr und
+dann geht=92s gleich los, die Prognose lautet:
+Satz auf Grosse Sewrie a Plein: in den Coups
+1,3,5,7,12,13,16,19,20,22,37,41.42,44,46,47,50,52,54,55,56,59,67,69,73,83,8=
+4,87,88,96,97
+Und dann Grosse Serie und Kleine Serie auf die Coups
+2,6,10,11,15,26,33,34,35,49,51,62,63,65,68,72,74,79,80,85,94,100
+Dies wären sichere Coups, um den Verlust von gestern wieder
+hereinzuholen.
+Wenn Sie auf dem Airport in Mausendorf eine TurboProp mit russischem
+Emblem stehen sehen, dann wissen Sie wer das ist, man reist extra aus
+Forchtenau an, diesmal aber um zu gewinnen.
+Good Luck.
+
+
+Roulette Prognose für 30.5.2011 Austenfeld Arend
+Author N.Arend
+Video http://daj.upqbdoz.nxv/yrmle?m=1KacTUL5d24qb
+
+Werte Roulettegambler,
+heute, am 30.5.2011 ist der Tag der Wahrheit und es soll viel im
+Casino gewonnen werden. Ich gebe deshalb die Prognose auch hier ins
+Internet, alle können mitgewinnen.
+Spielort: Casino Lühsdorf, Tisch 3 ab 15.00 Uhr heute am 30.5.2011
+Ich selbst werde mit 1000 Euro-Stücken anreisen, ausserdem reist ein
+reicher Gambler aus Forchtenau an, der mit 10.000 Euro-Stücken auf
+Einfache Chancen spielen will.
+Und hier die Satzprognose, die vorher nach der Chaostheorie und
+neuronalen Netzen errechnet worden ist. Gespielt wird auf alle
+Einfachen Chancen. Sie können übrigens, die die nicht anreisen, im
+Internet auf der Internetsite des Casinos Lühsdorf die laufende
+Permanenz live mitverfolgen und sehen, wie gewonnen, oder manchmal
+sicherlich auch etwas verloren wird.
+
+Ich werde morgen das nachvollziehbare Resultat hier an gleicher Stelle
+veröffentlichen.
+So, und nun die Prognose, was für welchen Coups gesetzt werden muss:
+
+Satz auf ROT für die folgende Coup-Numbers:
+3,4,13,14,29,33,34,44,52,,54,87
+1,8,10,31,41,42,68,75,80,98,100
+2,5,11,16,20,21,26,58,60,66,70,74,78,82,88,93
+30,37,47,55,73,96
+=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85
+Satz auf SCHWARZ für folgende Coup-Numbers:
+9,38,43,77,81,83
+7,15,22,45,48,65,69,71,84,85,86,91
+6,12,24,27,35,40,57,61,62,63,67,90,94,95
+17,18,19,25,32,39,46,49,50,51,56,59,64,76,89,92,99
+=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85..
+
+Satz auf IMPAIR für die folgende Coup-Numbers:
+3,4,13,14,29,33,34,44,52,,54,87
+1,8,10,31,41,42,68,75,80,98,100
+2,5,11,16,20,21,26,58,60,66,70,74,78,82,88,93
+30,37,47,55,73,96
+=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85
+Satz auf PAIR für folgende Coup-Numbers:
+9,38,43,77,81,83
+7,15,22,45,48,65,69,71,84,85,86,91
+6,12,24,27,35,40,57,61,62,63,67,90,94,95
+17,18,19,25,32,39,46,49,50,51,56,59,64,76,89,92,99
+=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85..
+Satz auf MANQE für die folgende Coup-Numbers:
+3,4,13,14,29,33,34,44,52,,54,87
+1,8,10,31,41,42,68,75,80,98,100
+2,5,11,16,20,21,26,58,60,66,70,74,78,82,88,93
+30,37,47,55,73,96
+=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85
+Satz auf PASSE für folgende Coup-Numbers:
+9,38,43,77,81,83
+7,15,22,45,48,65,69,71,84,85,86,91
+6,12,24,27,35,40,57,61,62,63,67,90,94,95
+17,18,19,25,32,39,46,49,50,51,56,59,64,76,89,92,99
+=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85=85..
+Wie gesagt, der Tisch 3 öffnet heute um 15.00 Uhr und schon auf den
+ersten Coup muss gesetzt werden. Im Internet auf der Seite des Casinos
+Lühsdorf kann die Permanenz auch live verfolgt werden, und ich bin
+sicher, wir werden gewinnen. Ich möchte gerne mit 30000 Gewinn und der
+Russe mit 400000 Gewinn nach Hause gehen.
+Wer will, kann ja ebenfalls anreisen und setzen. Was und in welchem
+Coup  gesetzt werden muss steht oben.
+Somit uns allen, good Luck. Morgen werde ich hier das Resultat
+veröffentlichen.
+
+Hier das Resultat Tisch 3 am 30.5.2011
+
+Tisch:                       T3
+Datum:               2011-05-30
+
+********* Gewinnzahlen ********
+ N  Z  R  -  Uhrzeit
+11           14:49:36
+      34     14:51:33
+24           14:53:22
+ 2           14:56:24
+11           15:01:41
+      34     15:01:43
+24           15:02:00
+ 2           15:02:02
+      32     15:02:35
+31           15:05:35
+       9     15:08:19
+      30     15:11:29
+      36     15:13:56
+26           15:15:54
+      34     15:17:40
+       5     15:21:10
+      21     15:24:20
+28           15:26:53
+ 8           15:29:18
+-- -- --     15:29:20
+      23     15:32:00
+      32     15:33:37
+ 8           15:35:31
+ 4           15:37:23
+28           15:38:53
+      32     15:41:11
+      14     15:44:15
+       7     15:46:20
+      32     15:48:05
+29           15:50:55
+22           15:53:55
+28           15:55:49
+      12     15:57:37
+31           15:59:42
+17           16:01:24
+ 6           16:03:04
+      19     16:04:50
+33           16:06:15
+      18     16:07:31
+ 4           16:08:46
+-- -- --     16:09:14
+ 4           16:09:49
+      16     16:11:24
+      27     16:12:57
+35           16:14:39
+      27     16:16:47
+    0        16:18:30
+      36     16:20:48
+       5     16:22:30
+      25     16:24:06
+       1     16:26:12
+      30     16:27:39
+       9     16:28:54
+ 8           16:30:08
+-- -- --     16:30:30
+20           16:32:00
+      30     16:33:34
+      30     16:34:56
+33           16:36:18
+ 2           16:38:05
+22           16:39:49
+      23     16:41:08
+15           16:42:42
+    0        16:44:43
+31           16:46:52
+       9     16:48:45
+22           16:50:21
+      34     16:52:12
+       7     16:55:00
+10           16:56:32
+20           16:57:37
+ 8           16:58:50
+      19     17:00:01
+-- -- --     17:00:25
+22           17:01:55
+      34     17:03:26
+      16     17:04:42
+17           17:05:39
+      25     17:06:52
+29           17:08:10
+35           17:09:33
+26           17:11:06
+31           17:12:27
+20           17:13:36
+      32     17:14:44
+      25     17:16:31
+33           17:17:58
+       5     17:19:14
+       9     17:20:38
+    0        17:21:49
+      16     17:23:03
+33           17:24:34
+22           17:25:41
+      25     17:27:12
+28           17:28:57
+      23     17:29:59
+-- -- --     17:30:32
+      32     17:31:20
+20           17:32:58
+       7     17:34:24
+      36     17:35:43
+       5     17:36:59
+26           17:38:11
+      25     17:39:40
+ 6           17:41:05

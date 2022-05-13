@@ -1,0 +1,40 @@
+Hallo,
+
+Kann mir bitte jemand etwas mehr ueber SWAPS sagen.
+
+Gut ich weiss das uebliche, dass man mit einem SWAP einen fixen Zinssatz
+gegen einen variablen tauschen kann etc. etc.
+
+Aber wie sieht es mit der Praxis aus. Wenn man sich die Kursseiten der
+Mikolajec ansieht, sieht man immer die SWAP-Saetze drinnen. Was
+bedeuten die?
+
+Bspls.-weise von Montag, 18.9.98:
+Interest Rate Swaps as of Sep-15
+	Euro-E	Euro-L	GBP	USD	JPY
+	Bid/Ask	Bid/Ask	B/A	B/A	B/A
+...
+10 yr.	4,13/17	4,13/17	5,07/11	5,55/61	2,13/16
+...
+
+Was bedeutet also konkret die 4,13% bei 10 yr. Euro-E, etc.
+
+Ausserdem wuerde es mich interessieren, was ein Swap kostet fuer
+(Laufzeit jeweils 10 Jahre):
+
+- Fixzinssatz in USD, SWAP auf EUR; d.h. Auszahlung der Kupons einer
+$-Anleihe in Euro
+- Fixzinssatz in USD, SWAP auf JPY
+- Fixzinssatz in USD, SWAP auf CHF
+
+Es soll also in diesem Falle kein Zinsswap, sondern ein Waehrungsswap
+erfolgen. Idealerweise sollte der Swap alle Kupons und den Nominalbetrag
+abdecken, damit das Waerungsrisko herausgenommen wird.
+
+Kann jemand meinen Wissensdurst stillen?
+
+Danke bereits im voraus.
+
+lg
+
+IVANO

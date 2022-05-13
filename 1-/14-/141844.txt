@@ -1,0 +1,49 @@
+[sorry, dass ich hier zwecks Kontinuitaet eine_ MAIL_ zitiere, was man
+anstaendigerweise ja nicht tut, hier aber vielleicht wegen des
+_versehentlichen_ Swaps in die Mail verzeihlich ist:]
+
+
+Klar. Nur "at the money". Allerdings in _endlicher_ Schrittweite
+(monatlich), was natuerlich zu Fehlern fuehrt. - Wer oder was ist der
+SMILE-Effekt?
+
+
+Genau. Deshalb ist (d)eine (obige) Erklaerung der OptionsPreise mit
+der (impliziten) Vola unzulaessig bis unsinnig.
+
+
+Genau again. Nochmals ein Argument dafuer, dass ... (usw.)
+
+
+Solange die implizite Vola mit einem bestimmten OPreisModell gerechnet
+wird, ist mE die "AustauschbarkeitsBedingung" ja erfuellt. Also
+koennte man zB den DAX zugunsten des VDAX abschaffen ...
+
+
+Nunja, das kann ich nicht nachvollziehen: ich zumindestens kann
+_Erwartungen_ sowohl im Preis als auch per Vola ausdruecken. Warum da
+die Vola vorteilhaft sein soll, ist mir nicht klar ...
+
+[und zur VDAX Definition:]
+
+[...]
+
+Vielen Dank fuer die anschauliche Beschreibung des VDAXs. Ohne dies zu
+wissen, habe ich etwas (entfernt) Aehnliches mit meinen "dynamischen"
+Optionen gemacht (, die ich fuer meine DAX-OPreisPrognosen verwende).
+Ich verkette halt monatlich Optionspreise "am Geld", rechne die
+RestLaufzeit per BrabusMegasun auf 40 Tage um und habe _dabei_ dieses "komische"
+(ganz oben beschriebene)  PreisPhaenomen gefunden.
+
+
+Nunja, mit dem "kontinuierlichen Anstieg" bis JahresMitte kann ich ja
+noch mitgehen. Dann aber ist der VDAX in jedem Monat zumindestens
+kurzzeitig ueber 30 gestanden, und der "Abstieg" laeuft erst seit
+09. 01. 22. Somit hat dieser Verlauf mE nicht allzuviel mit der von mir
+beschriebenen Entwicklung der Optionspreise (Calls UND Puts) zu
+schaffen:
+
+
+ME besteht also weiterhin Erhlaerungsbedarf ...
+
+mfg heimo dehnert

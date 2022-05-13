@@ -1,0 +1,28 @@
+Das interessiert mich aber nun brennend wie im genannten Beispiel
+(gleicher Handelsplatz vorausgesetzt) ein Kurs gleichzeitig >105
+und <80 sein kann?
+
+Nene, IMHO ist es nichts weiter als die Bequemlichkeit der Broker.
+
+Nehmen wir doch einmal extreme Kursverlaeufe:
+
+Erster Fall: 100 106 79
+Mit Erreichen der 106 wird die Verkaufsorder ausgefuehrt und
+gleichzeitig der Stop-Loss gestrichen. Der zweite Verkauf wird also
+nicht durchgefuehrt.
+
+Zweiter Fall: 100 79 106
+Mit der 79 wird das Paket wg StopLoss unlimitiert in den Markt
+geworfen. Gleichzeitig wird aber die Verkaufsorder zu 105 gestrichen.
+Die unlimitierte Order wird zu 106 ausgefuerht.
+
+Unter der Voraussetzung dass:
+a.) beide Order an den gleichen Handelsplatz gehen und
+b.) Verkaufslimit>StopLoss
+kann ich mir kein Szenario zusammenreimen bei dem trotz
+rechtzeitiger Streichung ein Leerverkauf entstehen koennte.
+Gerade in Zeiten von elektronischem Handel sollte aber die
+rechtzeitige Streichung kein Problem darstellen.
+
+-- 
+-- Klaus Valerian -- eh@wprmn.vewy.xo -- Kühlsen, Germany --

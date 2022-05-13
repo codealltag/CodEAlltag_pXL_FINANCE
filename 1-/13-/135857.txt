@@ -1,0 +1,174 @@
+Ich nenne es mal eine FAQ, auch wenn's genau betrachtet keine ist:
+
+Q: Gibt es betriebswirtschaftlich logische Gründe, Wertpapiere auf Kredit
+zu kaufen (= durch Fremdkapital zu finanzieren) ??
+
+
+Es fing damit an, daß ich überlegte, wie ich die Performance meines Depots
+verbessern könnte. Derzeit renne ich Tag für Tag 1.000 MIB30er Calls 27.000
+hinterher und bekomme sie nicht. Darüber hinaus wäre der Kauf soundso eine
+genehmigte Überziehung meines Brokers - ConSors und würde mich 9,xx% p.a.
+kosten. Bei einem Optionsschein sicherlich verschmerzlich, nichtsdestotrotz
+nicht gerade ein Pappenstiel.
+
+Die freundliche Telefondame wies mich darauf hin, daß Bördefleischwaren ab 20.000 DM
+Beleihwert Effektenkredite herausgibt. Der Zinssatz orientiert sich (ganz
+nach Sebastian Anderl: 'Das Wissen für Bankkaufleute') am Lombardsatz. Bin mir
+nicht ganz sicher, aber der von Bördefleischwaren angebotene Zins müßte so 100 Ticks
+drüber liegen, bei 5,50% also in etwa. 
+
+Deutsche Aktien und Investmentfonds werden mit bis zu 60% beliehen.
+
+
+Folgende Konstruktion:
+
+Ich habe einen beleihbaren Depotwert von 13.200 DM, zum Beispiel 22.000 DM
+in deutschen Aktien. Für diese mit 13.200 DM als Sicherheit geltenden
+Wertpapiere kann ich mir einen Effektenkredit in Höhe von 33.000 DM
+einräumen lassen, wenn ich dafür ebenfalls Wertpapiere erwerbe, die ich zu
+60% wiederum beleihen kann; es ergibt sich ein sogenannter
+'Multiplikatoreffekt'.
+
+Wir rechnen: Kredit     =  Deckung
+             33.000 DM  =  33.000 DM * 60% + 13.200 DM
+             Kredit     =  beleihbarer Betrag des Effektenkredits (60%) +
+exogene Sicherheit
+
+So gesehen ist also schon mal der Kredit gedeckt. Wir können auch viel
+einfacher rechnen: 13.200 DM / (1-0,60) = 33.000 DM. Es muß also der nicht
+beleihbare Anteil des Effektenkredits durch Eigenkapital gedeckt sein.
+
+Jetzt geht es noch darum, ein Investment zu finden, daß eine Rendite > 5,5%
+p.a. abwirft. Nahezulegen ist da zum Beispiel ein Investmentfonds, von
+wegen Risikodiversifikation.
+
+Diesbezüglich entschied ich mich für "Lateb" und "Berberich
+Schweizeraktien". Beide Märkte performen den deutschen Markt aus, der eine
+wegen des noch vorhandenen Zinsgefälles zum EURO-Markt, letzterer
+profitiert von Anlegern, die an EUROphobie leiden.
+
+Die Daten besorgte ich mir von www.agvfhtsvkewlx.se.
+
+Beide Fonds können mit einer durchschnittlichen 3-Jahres Rendite von ~30%
+aufwarten; bis zur Währungsunion unterstelle ich beiden Märkten mal die
+Beibehaltung der Rendite. Zur Info: Der "Lechfall-Fund" performte im
+letzten Jahr mit 74%, daher sehe ich 30% als unter Risikogesichtspunkten
+angemessen an. Der maximale Verlust (Dauer: 3 Monate) betrug 11,71%.
+
+Zurück zur Rechnung:
+
+Die Investmentfondsanteile - Ausgabeaufschlag vernachlässigt (mit geht
+sieht's aber auch nicht viel schlechter aus) - bringen bei einem Volumen
+von 33.000 DM einen Ertrag von 9.900 DM. Die jährlichen Zinsen belaufen
+sich auf 33.000 DM * 0,055 = 1.815 DM. 
+
+Reinertrag:     9.900 DM 
+            ./. 1.815 DM
+            ------------
+                8.085 DM
+            ============
+
+größtenteils steuerfrei.
+
+Hinzu kommt der Ertrag der beliehenen Depotwerte. Wir erinnern uns, 22.000
+DM. Der Einfachheit halber unterstelle ich hier ebenfalls eine Rendite von
+30% p.a.
+
+Ertrag: 22.000 DM * 0,30 = 6.600 DM.
+
+Macht zusammen: 6.600 DM + 8.085 DM = 14.685 DM.
+                                      =========
+
+Wir errechnen unsere Eigenkapitalrendite:
+
+(13.200 DM / 8.085 DM - 1) * 100 = 63,27%.
+
+Warum nehme ich DM 13.200 als Basis für die Eigenkapitalrendite? Nein,
+nicht um die Zahlen schönzurechnen; man muß sich nur vorstellen, daß die DM
+13.200 ebenfalls als Termingeld hinterlegt sein könnten, dann zählten sie
+zu 100%. Kommt also auf die Perspektive drauf an. Eine Eigenkapitalrendite
+auf die 22.000 DM KANN ich nicht errechnen, da die 6.600 DM Ertrag auf
+22.000 DM Investitionsvolumen basieren und die 8.085 DM Ertrag auf einem
+Investitionsvolumen von 33.000 DM. Dies widerspräche der
+Investitionstherorie (Mutzel/Lerse: 'Finanzwirtschaft der
+Unternehmung', AllSaints Verlag). Was rauskommt ist - nach Gewichtung eine
+'Wischiwaschirendite' von 26,7%. Diese ist naturgemäß < 30%, da die
+Sollzinsen von der Rendite abgegangen sind. Was nicht beachtet wurde, ist
+aber, daß der _nominelle_ Ertrag _deutlich_ größer ist, als bei einer
+Investition ohne Verschuldung. Nämlich 14.685 DM zu 6.600 DM!
+
+Soviel zur Qualität von Kennzahlen der Investitionsrechnung. Wer mehr
+darüber wissen will, lese bitte oben angegebenes Buch.
+
+
+Was ist noch zu beachten?
+
+Steuern:
+Ich bin mir nicht ganz sicher, aber die Kreditzinsen dürften zudem gegen
+die ausgeschütteten/steuerbaren Gewinne gerechnet werden. Da erstere aber
+größer sind, kommen wir auf Negativeink�nfte. Voll steuerlich ansetzbar.
+[Bin mir jedoch nicht 100%ig sicher, hatte noch nicht so viele
+Steuererklärungen].
+
+Liquidität:
+Irgendwann bekommen wir ein Problem, denn Sollzinsen werden berechnet,
+während man aber voll investiert ist. Wie oben angedeutet, decken die
+ausgeschütteten Erträge nicht die Zinsen. --> Liquiditätsengpaß. Sicher
+kann man sagen, daß der Kredit nach einem Wertzuwachs der Anteile wiederum
+neu bewertet werden müsse und somit wieder neues Kapital zur Disposition
+stünde; jedoch ergibt sich Jahr für Jahr daraus ein Zinseszinseffekt - für
+die WOFV! Ziel ist, ein Basisinvestment zu finden (also das, das ich zu
+13.200 DM beleihen kann), dessen Ausschüttung/Dividende weitestgehend der
+zu tilgenden Zinsbelastung entspricht. Eine Möglichkeit wäre die
+Telekomaktie wegen ihrer hohen Dividendenrendite von - ich glaube - 4,8%.
+So ergibt sich eine effektive Belastung von 0,7%, die "so" gedeckt werden
+müßte, nominal 231,- DM pro Jahr. Kann man also so ziemlich aus der
+Portokasse zahlen.
+
+
+Risiko:
+Mit einem Wertpapierkauf geht man ein zusätzliches Risiko ein. Wie von mir
+dargelegt (max. Verlust in den letzten 3 Jahren: 11,71%; erwartete
+Performance der besprochenen Märkte usw.) ist dieses aber relativ gering.
+Es rät sich an, ein Liquiditätspolster zu schaffen, für den Fall, daß die
+Märkte zum Zeitpunkt des Einstiegs "kippen". Volumen: 33.000 DM * 0,1171 =
+3.864,30 DM. Dann hat man genug Zeit, um sich einen Stopkurs zu setzen und
+auszusteigen. Darüber hinaus könnte man sich noch über Indexputs absichern;
+ist innerhalb meiner Risikopräferenzen aber unnötig, da dies
+Investmentfonds schon per se machen. Das Risiko, was man eingeht,
+relativiert sich soundso, je tiefer man 'im Geld' steht [ja ich weiß, daß
+ich den Begriff hier zweckentfremde].
+
+
+Fazit:
+Auch der DAA (ähnlich "DAU") kann seine Eigenkapitalrendite DEUTLICH
+verbessern, ohne ein �berm��iges Risiko einzugehen. Man vergleiche dies nur
+mal mit einem Investment in Optionsscheine. Insofern die Wertpapiere 5,5%
+p.a. erwirtschaften (und der Lombard nicht steigt), kann man diese Anlage
+Jahre liegen lassen - was eine Überprüfung der Positionen und eine
+eventuelle Umschichtung aber nicht ausschließt. Macht das mal mit
+Optionsscheinen! 
+Sicher, OS bringen i.d.R. mehr Rendite als Investmentfonds auf Kredit,
+Optionsscheine kaufe ich jedenfalls aber auch (fast) immer nur von meinem
+eigenen Geld. Wenn der DAA schon beleihbare Wertpapiere [inl./ausl. Aktien,
+Investmentfonds, Rentenpapiere] im Depot hat, dann soll er auch etwas
+gescheites daraus machen. Für _geliehenes_Geld_ rentiert sich das schon
+ganz ordentlich bei angemessenem Risiko.
+
+Mit eigenem Geld dagegen kann man ruhig zocken...
+
+
+Ende:
+So, jetzt könnt Ihr kritisieren, ergänzen, skeptizieren und flamen. Soviel
+ist klar: Ich bin am Feedback interessiert, nur bitte:
+
+
+	BITTE NICHT DEN GANZEN TEXT QUOTEN, DANKE IM NAMEN ALLER!
+
+
+CU SCHUTE.
+
+--
+[1] This message has been sent by Timo Pichlmaier (http://vjz.smeb.uedi.wn.eiy).
+[2] For futher information you can download my *complete* footer at:
+[3] http://zmk.acojf.kt/~xxrs/gfsejy/unbxwma.qzg

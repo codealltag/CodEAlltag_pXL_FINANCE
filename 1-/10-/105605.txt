@@ -1,0 +1,50 @@
+Und hier die Brute-Force-Methode, fuer alle die es eilig haben oder ohne
+Internet auskommen muessen:
+
+ws@ywoji:/gep$ hws t.nr
+#!/usr/bin/perl
+srand (time);
+while ($runs++ < 100000) {
+    $auto = int (rand (3));  # Plaziere das Auto in einer Tuer
+    $wahl = int (rand (3));  # Ich waehle eine Tuer
+
+    # Moderator wuerfelt zwischen den zwei Ziegen solange, bis er nicht
+    # die von mir gewaehlte Tuer aufmachen muss (ist zwar umstaendlich,
+    # aber einfacher zu programmieren. Am Ergebnis aendert das nichts)
+    #
+    $oeffne = ($auto+int(rand(2))+1)%3 while ($oeffne==$wahl);
+
+    # wenn ich bleibe, habe ich gewonnen, sofern meine urspruengliche
+    # Wahl korrekt war:
+    #
+    $gewinnbleibe += ($wahl==$auto);
+
+    # Wenn ich wechsle, gewinne ich dann, wenn meine urspruengliche
+    # Wahl falsch war. Gewinn und Verlust schlissen sich ja aus!
+    #
+    $gewinnwechsel += !($wahl==$auto);
+}
+print "$gewinnbleibe $gewinnwechsel\n";
+
+ws@ypdjh:/tmp$ for i in 1 2 3 4 5 6 7 8 9 0 a b c d e f g; do ./t.pl ; done
+33379 66621
+33315 66685
+33507 66493
+33474 66526
+33425 66575
+33381 66619
+33506 66494
+33513 66487
+33534 66466
+33550 66450
+33304 66696
+33286 66714
+33570 66430
+33054 66946
+33490 66510
+33365 66635
+33133 66867
+ws@ypdjh:/tmp$
+
+-- 
+-- Sandro Jérôme -- hd@jvctf.chfe.ox -- Ulbargen, Germany --

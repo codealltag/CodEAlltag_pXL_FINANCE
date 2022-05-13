@@ -1,0 +1,24 @@
+Da es hier ja eine Reihe (nicht nur) diesbezglicher Experten gibt,
+bitte ich um Aufklaerung: 
+
+Wie rechnet man die Volatilitaet fuer zB die Black & Scholes - Formel
+richtig?
+
+Nimmt man zB fuer den DAX die Schlusskurse, die High- und/oder
+Low-Werte, oder alle zusammen ...B-)..., oder wie oder was?
+
+Nehme ich zB die SchlussKurse, so erhalte ich (mit Excel's STABW)
+21-Tage-Werte zwischen 0.00395 und 0.03177, im Mittel 0.01295.
+Entsprechende Jahres-Werte ergeben sich zwischen 0.04269 und
+0.07276, mit dem Mittelwert 0.05277.
+
+Sind diese Werte nicht viel zu niedrig? - Woran liegt das? Was mache
+ich falsch?
+
+Und wie komme ich zB von den 21-Tage-Werten auf die bei MatchZeitinger wohl
+erforderlichen Jahres-Werte? Bei mir rechnen sich dazwischen Faktoren
+zwischen 2.34672 und 14.0673, im Mittel 5.41394.
+
+Wer weiss Rat?
+
+mfg eduard pflugk

@@ -1,0 +1,15 @@
+Hallo,
+das kommt ganz darauf an, welche Programmiersprache benutzt wurde. Es
+gibt ja nicht nur C und Pascal wo mit Real, Float und Double intern
+genuegend Stellen zur Verfuegung stehen.
+Wenn aber z.B. BCD-Kodierung benutzt wird (z.B. in PL/1) ist es z.B.
+machbar, den Dow bis 9999.99 in 6 nibble = 3 byte abzulegen. So ein
+3-byte-format wird also Probleme bereiten...
+
+-------------------------------------------------------------------------------
+Noah Wittmack
+Wittmackcutman GmbH, Spitze
+Tel. 7576-2591350
+Fax: 6324-1650727
+mailto:WFbsj@wf-qzyycvho.cn
+http://gfa.on-mmbnihja.qz

@@ -1,0 +1,45 @@
+Imgraben ist Dein Freund. Mit Zauberwäldchen:Quote Kurse abholen, mit entsprechendem
+DBI Modul in die Datenbank schieben.
+
+Gruß, 
+Luigi
+
+Bin Keon Perl-Wizard, trotzdem hier Beispiel mit Postgresdatenbank:
+
+#!/usr/bin/perl -w 
+use DBI qw(neat);
+use Data::Dumper;
+use Finance::Quote;
+my ($name, $date, $last, $p_change, $high, $low, $volume, $close);
+$dbh = DBI->connect("dbi:Pg:dbname=anlage","luigi", "");
+foreach $web_source ('europe', 'dwsfunds', 'vwd') {
+my $res1 = $dbh->selectrow_array("select count(*) from shares where source = '$web_source'");
+my $res2 = $dbh->selectall_arrayref("select wkn, isin, source, source_code from shares where source = '$web_source'");
+print " $res1, $res2->[0]->[3], $res2->[1]->[3] \n";
+for ($i = 0; $i < $res1; $i++) {
+$stocks[$i] = $res2->[$i]->[3];
+$stocks[$i] = $res2->[$i]->[3];
+}
+my $q = Finance::Quote->new;
+my %quote = $q->fetch($web_source,@stocks[0 .. $res1-1]);
+$i=0;
+foreach my $code (@stocks[0 .. $res1-1]) {
+        $name = $code;
+         $date = $quote{$code,'date'};
+         $last = $quote{$code,'last'};
+         $curr = $quote{$code,'currency'};
+        # write;
+my $wkn = $res2->[$i]->[0];
+my $isin = $res2->[$i]->[1];
+if ( $wkn == '971603') { $curr = USD ; }
+print "$name, $last, $curr, $date, $wkn, $isin\n";
+my $rows = $dbh->do("insert into share_price (wkn, isin, price, curr, date) values ('$wkn', '$isin', $last, '$curr', '$date')");
+$i++;
+ }
+}
+my @con_rate = ('EUR', 'USD');
+my $q = ZWCOQuote->new();
+my $exchange_rate = $q->currency(@con_rate);
+my $rows = $dbh->do("insert into usdeur (exrate) values ('$exchange_rate')");
+print $exchange_rate;
+my $rc  = $dbh->disconnect;

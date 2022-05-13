@@ -1,0 +1,37 @@
+Du nimmst bzw. berechnest einfach den Optionskurs 
+fuer z.B. Underlying 100, und dann berechnest du den 
+Optionskurs fuer Underlying +1 (oder -1). Und der 
+Unterschied zwischen diesen beiden Optionskursen 
+ist dann das Delta. Also praktisch die Steigung der 
+Kurve der Optionspreise in Abhaengigkeit vom 
+Underlyingkurs.
+Es gibt dafuer auch noch kompliziertere Formeln, die 
+aber auf's Selbe hinauslaufen.
+Ein Problem ist z.B. die Dividendenrendite. Die geht 
+bei den meisten Formeln in den zur Berechnung der 
+Optionskurse benoetigten Marktzinssatz ein.
+Problem: Underlyingkurs 100, Dividende 5, macht 
+Dividendenrendite 5%.
+Wenn du das nun fuer den gleichen Augenblick fuer 
+Underlyingkurs 10 berechnen willst, dann kommt man 
+bei Dividende 5 auf 50% Dividendenrendite. Das ist 
+einerseits unrealistisch, aber andererseits ist die 
+Dividende nunmal fuer 1 Jahr fest und wird nicht 
+dauernd dem schwankenden Kurs angepasst.
+Ein weiteres Problem ist, dass man meistens
+fuer die ganze Skala mit der gleichen impliziten 
+Volatilitaet rechnet, was auch nicht immer 
+realistisch ist. 
+Aber es gibt keine perfekte Rechenmethode, und 
+die so gewonnenen Daten sind genauso gut oder 
+schlecht wie alle anderen.
+Anzumerken ist noch, dass es noch ein paar 
+andere "Delta" Kennziffern gibt. Insbesondere 
+die Amerikaner nennen gerne alles Moegliche 
+"Delta". Also bitte nicht hauen, falls du ein 
+anderes Delta meinst.
+
+
+Noah
+Visit   http://vzuuazu.vez.hrn/pxhuom  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,16 @@
+Hallo,
+
+weiss jemand, ob und wie der "Amtliche Mittelkurs" aus dem Geld- und dem
+Briefkurs des Fixings ermittelt wird?
+
+Der Amtliche US$-Kurs von heute ist 1,7910. Geldkurs beim Fixing war 1,7890,
+Briefkurs war 1,7970.
+
+Rein rechnerisch liegt der Mittelkurs doch bei (1,7890+1,7970) / 2 = 1,7930.
+
+Das sieht ja fast so aus, als ob die Gewichtung Geldkurs zu Briefkurs
+3:1betragen wuerde. Dann stimmt die Rechnung (3 * 1,7890+1,7970) / 4 =
+1,7910 wieder... Wenn das wirklich so ist, wer hat das warum so festgelegt?
+Wieso sollte der Geldkurs wichtiger sein?
+
+Jean-Claude

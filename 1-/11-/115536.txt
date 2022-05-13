@@ -1,0 +1,51 @@
+Konrad Fraass schrieb in Nachricht ...
+i) Wie werden eigentlich in der Praxis Beta-Faktoren ermittelt?
+-Hier kommen historische Daten zum Tragen. Verglichen wird die
+Kursentwicklung eines Index (z.B. DAX) im Vergleich zu der Kursentwicklung
+der betroffenen Aktie. Ein Beta>1 bedeutet daß die Aktie in der
+Vergangenheit stärker gestiegen bzw. gefallen ist, als der Vergleichsindex.
+Ein Beta von 1,1 beispielsweise bedeutet eine 10 prozentige
+Differenzperformance der Aktie zum Index.
+ii) Ist es tatsächlich schlau, bei erwartetem Steigen des Index
+(z.B. DAX, ATX etc.) Papiere mit hohem Beta-Faktor zu erwerben? Wo könnten
+hier Probleme auftauchen ?
+-Das Beta hat sich ganz gut bewährt - man spricht bei Aktien mit einem Beta
+von über 1 auch von sogenannten zyklischen Werten - ist ja auch ganz
+klar...steigt der Index steigen dies Aktien stärker, fällt der Index fallen
+sie stärker. In "diesen unsicheren Börsenzeiten" erwirbt man also besser
+weniger zyklische Werte (also Werte mir einem Beta kleiner 1 z.B.
+Versorger.)
+Probleme tauchen bei Strukturbrüchen auf - also z.B. einer Neuausrichtung
+von Geschäftsaktivitäten, der Ausgabe von Gratisaktien, Fusionen usw.
+
+b) Ist es bei einer Kuponanleihe - bei der man die Restlaufzeit, den
+Kuponsatz sowie den  aktuellen Kurs und den Rückzahlungskurs kennt -
+möglich, die
+Rendite dieser Anleihe  exakt (und nicht über ein Näherungsverfahren) zu
+ermitteln?
+-Nein - die Rendite geht von einem Reinvestment der Kuponertr�ge zu der exat
+gleichen Rendite aus, zu der Sie die Anleihe erworben haben. Da Sie die
+Rendite zum Zeitpunkt der nächsten Kupontermine aber nicht kennen, kennen
+Sie auch die exate Rendite der Anleihe bei Fälligkeit nicht.
+Anderes gilt bei Zeroanleihen, da hier keine Kupons gezahlt werden, haben
+Sie auch kein Wiederanlagerisiko (resp. Chance). Die Kaufrendite entspricht
+der exaten Rendite bei Fälligkeit.
+
+In Zusammenhang mit obiger Frage zum Beta von Aktien: Anleihen kennen eine
+ähnliche Kennzahl: die Duration. Setzen Sie diese Kennzahl ins Verhältnis
+zur Duration eines Index (z.B. Deutscher Rentenindex REXP) erhalten Sie das
+sog. "Rentenbeta". Idealerweise nutzen Sie dabei die modifizierte Duratin
+(=Duration geteilt durch Rendite). Konkret hat der REXP eine MDur von rund
+4,5 - hat Ihr Rentenportfolio eine MDur von 4,95, so beträgt das Rentenbeta
+1,1. Bei Marktrendite�nderungen wird sich der Wert Ihrer Anlage also um das
+1,1 fache (im positiven wie im negativen ) entwickeln. Die Duration eines
+Zeros entspricht übrigens genau der Restlaufzeit - die Duration einer
+verzinsten Anleihe ist immer kürzer (weil Zinserträge fließen und somit die
+Rückzahlung des eingesetzten Kapitals zu einem früheren Zeitpunkt
+"stattfindet" und dami das Risiko geringer ist.)
+Geben Sie in Ihre Suchmaschine mal die Begriffe Beta, Duration und
+modifizierte Duration ein, Sie werden bestimmt fündig.
+
+Viele Größe
+www.DytZqumqvkmApvf.ez
+Louis Aichwalder

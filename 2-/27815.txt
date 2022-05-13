@@ -1,0 +1,24 @@
+Hallo, 
+
+ich mache an der Uni ein Projekt über neuronale Netze. Wenn überhaupt,
+dann können mit den neuronalen Netzen nur sehr kurzfristige
+Kursschwankungen vorhergesagt werden (da ja nur historische Kurse und
+keine externen Faktoren in die Berechnung einfliessen). Meiner Meinung
+nach müßten daher Intraday-Kurse (vorzugsweise von Futures z.B. DAX,
+S&P) am besten geeignet sein.
+
+Leider bräuchte ich dafür aber die historischen Intraday (Tick) Kurse
+von ein paar Wochen und die gibt es anscheinend im Internet nirgends.
+Zumindest nicht kostenlos. urrufha.ppiqp.xsm liefert leider nur
+Tageskurse und bei den Internetbanken bekommt man die Kurse nur für
+den aktuellen Tag (und dann auch nur als Grafik und nicht in einer
+Computer-lesbaren Form).
+
+Weiss jemand, wo man kostenlos die Intraday Kurse von Futures für ein
+paar Wochen bekommt (als ASCII Datei o. �.)?
+
+Vielen Dank, Valentin
+
+PS: Kennt jemand aktuelle Artikel zur Intraday Kursvorhersage mit
+neuronalen Netzen? (alles was ich bisher gefunden habe, waren
+(seltsamerweise) Versuche, Aktienkurse längerfristig vorherzusagen)

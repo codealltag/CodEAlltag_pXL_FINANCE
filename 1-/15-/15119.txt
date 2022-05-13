@@ -1,0 +1,82 @@
+Hallo Benjamin,
+
+OK. Ich dachte die ganze Zeit, Du hast die Sinc-Funktion an sich 
+modifiziert.
+
+Vielen Dank für die weiteren Erklärungen zur Mittelwertbildung. Ich 
+werde mir das am Wochenende mal in Ruhe ansehen.
+
+Macht das so einen verbissenen Eindruck auf Dich ;-) Ich möchte 
+eigentlich nur das konkrete Beispiel mit eigenen Mitteln nachvollziehen. 
+Das ist auch so eine Art Test, ob ich wirklich alles verstanden habe.
+
+Wäre es bei Verwendung solcher Algorithmen nicht sinnvoller, von 
+vornherein auf breit gestreute Indizes zu setzen? Oder ist die 
+Kapitalgewichtung eher ein zusätzlicher Störfaktor, so dass man lieber 
+selbst diversifiziert?
+
+Wenn ich Deine weiteren Ausführungen richtig verstehe, muss man den 
+Markt auch gar nicht unbedingt durch Übernahme von Einzelrisiken schlagen?
+
+OK. So ganz stimmig scheinen die Kursdaten nicht zu sein. Es gibt auch 
+außerhalb der Feiertage einzelne Tage, an denen die Angaben des Vortages 
+wiederholt sind.
+
+Falls Du mit Nulldurchgang 0 % "Rendite %/Jahr" meinst, dann ja.
+
+Aber Dank Deiner Erläuterungen kann ich jetzt auch die Mittelwerte mit 
+der Sinc-Funktion berechnen. Wenn ich die Werte plotte, dann sind sie 
+mit Deiner Grafik so gut wie deckungsgleich.
+
+Vielleicht sind sie zeitlich ein klein wenig verschoben. Ich bekomme mit 
+der Sinc-Funktion am Anfang der Zeitreihe folgende Werte:
+Tag		Rendite %/Jahr
+12.06.2006	23 %
+13.06.2006	17 %
+14.06.2006	11 %
+15.06.2006	5 %
+18.06.2006	1 %
+19.06.2006	-3 %
+
+Deine Grafik fängt bei etwa 3 % an, hat also etwa 4-5 Tage Vorlauf.
+
+Du meinst, das gewünschte Risiko wird jeden Tag neu festgelegt?
+
+Hmm. Ich dachte, Du gehst von einer konstanten Risikobereitschaft aus 
+und hast diese für das Beispiel so bemessen, dass das Dax-Portfolio die 
+gleiche Rendite wie der DAX selbst erreicht.
+
+Ich hatte mir das so vorgestellt: Du hast mit einem willkürlich 
+gewählten gewünschtem Risiko angefangen und auf dieser Basis den 
+täglichen Investitionsgrad berechnet. Dann hast Du nachgesehen, welche 
+Rendite am Ende herauskommt. Für das Beispiel hast Du das gewünschte 
+Risiko so lange schrittweise erhöht/gesenkt, bis auch beim Dax-Portfolio 
+49,2 % Rendite herauskam.
+
+Du hattest letztens geschrieben, dass sich aus dem gewünschten Risiko 
+der Investitionsgrad ergibt. Da ich nicht annehme, dass Du den 
+Investitionsgrad konstant hälst, bleibt doch eigentlich nur das 
+gewünschte Risiko als Konstante übrig?
+
+Da Du jetzt auch von Konstanthaltung sprichst, habe ich vielleicht etwas 
+missverstanden.
+
+Jetzt muss ich leider erst einmal aufhören. Das Bett ruft... Außer eine 
+Sache noch:
+
+Vorlesung geht zeitlich nicht aber der Hinweis auf Literatur ist gut. 
+Was ich an Deinen Beiträgen schätze, ist die Verwendung von eher 
+technischen Methoden. Kennst Du Bücher, die eine ähnliche 
+Herangehensweise zeigen? Oder ganz allgemein - gibt es Bücher, die aus 
+Deiner Sicht für das Thema geeignet sind, die Du eventuell sogar selbst 
+gelesen und für gut befunden hast?
+
+Die Beschaffung ist wahrscheinlich kein Problem. Wenn man sich ein wenig 
+kümmert, bekommt man fast alles, was es an Literatur gibt, in der 
+Bibliothek.
+
+übrigens - vielen Dank für die Beantwortung meiner ganzen Fragen!
+
+
+Gruß,
+Claus

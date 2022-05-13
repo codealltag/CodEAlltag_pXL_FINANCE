@@ -1,0 +1,12 @@
+Ich habe gehoert, dafuer gaebe es das auch, heisst wohl geringfuegig
+anders...
+
+
+Strategie: Springe die naechste Stelle mit der gesuchten WKN an. Man
+kennt das Datenformat, weiss also, nach wieviel Leerzeichen (zwischen
+denen anderen Informationen stehen) der Kurs kommt. Diesen im
+gewuenschten Format in eine Datei schreiben.
+
+pi
+-- 
+Vito Färbert said:

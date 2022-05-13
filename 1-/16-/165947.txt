@@ -1,0 +1,28 @@
+Hallo,
+ja da gibt es einige Differenzen. In Tai-Pan/DOS kommt der gleiche
+Fehler raus, wie bei World-Money (wahrscheinlich haben wir damals die
+gleiche Sekundaerliteratur genommen). In Tai-Pan/Windows sieht es
+schon besser aus: Dort wurde der RSI nach amerikanischer
+Original.-Literatur programmiert (New Concepts in Technical Trading
+Systems von E.Scheeler Schmidmüller Jr.) Der Mann wird wissen, wie es
+funktioniert und hat ausfuehrliche Beispielrechnungen und Tabellen in
+dem Buch. 
+Bei seinem RSI-Beispiel berechnet Tai-Pan/Windows nur geringfügig
+andere Werte als Schmidmüller manuell in seinem Schema. 
+Wir werden das untersuchen und evtl. noch vorhandene Fehler
+beseitigen. 
+Haeufigste Ursache in so einem Fall ist ein +/-1 Fehler, d.h. ein Tag
+zuviel oder zuwenig geht in die Berechnung ein, wird von
+Programmierern gerne gemacht.
+Leider gibt es Uebersetzungen von Originalliteratur, die bei der
+Uebersetzung gleich die Formel �verwaessern� und vereinfachen. Wenn
+man dann auf diese zurueckgreift, koennen solche Abweichungen zw. den
+Programmen vorkommen.
+Solange man aber alle Titel mit der gleichen Funktion berechnet, also
+innerhalb des gleichen Programms bewertet, werden fuer alle Werte
+gleiche Abweichungen erzeugt, die die Werte untereinander immer noch
+vergleichbar machen.
+Indikatorensalat gibts also nur, wenn man meint, man muesse zur
+Bestaetigung noch das 2. und 3. und 4. Boersenprogramm befragen....
+Viele Gruesse
+M.Poortman

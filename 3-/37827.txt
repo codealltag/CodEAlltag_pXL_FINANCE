@@ -1,0 +1,43 @@
+Hallo Knut!
+
+Auch ich habe einige Bücher gelesen in denen unterschiedlichste Strategien
+zur Aktienauswahl beschrieben wurden. überzeugt hat mich allerdings keines.
+Dazu kommt das die meisten vorgestellten Auswahlverfahren sehr zeitaufwendig
+sind. Inzwischen habe ich mir eine eigene Strategie zurecht gelegt, mit der
+ich sehr gute Ergebnisse erreiche.
+
+Diese Strategie möchte ich dir im folgenden vorstellen:
+
+Ersten ist es unwichtig wie du persönlich eine Aktie bewertest, es ist auch
+unwichtig wie die Zahlen des Unternehmens aussehen, wichtig ist, was der
+Markt von diesem Wert hält. Einzig und allein das zählt. Die Börse ist
+nunmal nicht rational. Auf Basis dieses Grundsatzes habe ich mir Gedanken
+gemacht welche Informationen die Masse am stärksten in ihrem Handeln
+beeinflußt. Ich bin zu dem Schluß gekommen das es die Analystenempfehlungen
+sind. Die meisten Investoren treffen ihre Anlageentscheidungen aufgrund von
+Empfehlungen. Was liegt also näher als diese Empfehlungen statistisch
+auszuwerten.
+
+Zu diesem Zweck habe ich ein Programm geschrieben in dem ich sämtliche
+Empfehlungen sammle (Zur Zeit noch beschränkt auf die Aktien des NEMAX50).
+Jeder Empfehlung wird eine Kennzahl zugeordnet (strong buy=5, buy=4,
+halten=3, sell=2, strong sell=1). Nun bildet das Programm zu jeder Aktie
+einen gewichteten Durchschnitt ihrer Empfehlungskennzahlen. Dabei wird nicht
+einfach nur der Mittelwert berechnet, sondern ähnlich wie beim Momentum die
+Empfehlungen aus der jüngsten Vergangenheit stärker berücksichtigt.
+Schließlich beeinflussen aktuelle Empfehlungen das Anlegerverhalten am
+meisten. Der betrachtete Zeitraum und die Form der Gewichtung können
+variiert werden. Die Aktien werden dann entsprechend dem Ergebnis ihres
+errechneten gewichteten Durchschnitts aufgelistet. Zusätzlich wird noch die
+Anzahl der Empfehlungen angezeigt (Daraus läßt sich das Interesse der
+Analysten an einem Wert ersehen). Aus der Liste erhalte ich so eindeutige
+Kauf- und Verkaufsempfehlungen. Des weiteren können aus der historischen,
+grafischen Betrachtung des errechneten gewichteten Durchschnitts Trends
+abgeleitet werden.
+
+Bei Neuemissionen spielt noch der Graumarktkurs hinein. Faustwert: Bei einer
+Verdopplung - Zeichnen!
+
+MfG
+
+Ralph

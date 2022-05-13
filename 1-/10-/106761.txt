@@ -1,0 +1,41 @@
+Hhm. Nun. Ja. Gut. Ich geb=B4s zu. Ein rein theoretischer Ansatz hat fuer=
+ mich
+den Nachteil, dass ich mich mit Stochastik rumaergern muss, was ich eigen=
+tlich
+nicht will, weil ichs bisher vermeiden konnte.
+Daher koennte ich mir vorstellen, statt die Annahme der lognormal-verteil=
+ten
+Renditen zu korrigieren, kann man die IV zu nicht-konstant korrigieren, w=
+obei
+mir IV (mit dem nicht ganz richtigen BS-Modell berechnet) und Preise glei=
+ch-
+wertig sind: es laesst sich jeweils umrechnen.
+Unter bestimmten Voraussetzungen tut=B4s der von Dir genannte Ansatz.
+Frage: was spuckt die Forschung aus? Will heissen: wenn ich Dich recht ve=
+r-
+stehe fuehrt die (bezgl. was?) Korrektur der Verteilung zu einer (bzgl. w=
+as)
+*lokal* "korrekten" Vola. Wenn man die Vola als andere Funktion denn als
+Parabel denkt (lokal als Parabel approximiert, aber zB als Kettenlinie),
+wird das andere Verteilungen als Voraussetzung dazu erzwingen (entschuldi=
+ge,
+aber ich habe keine rechte Vorstellung zur dieser Beziehung Verteilung <-=
+--> =
+
+Standardabweichung). Und in Folge kann man die neue Verteilung dann
+empirisch pruefen. =
+
+Also kann ich auch so fragen: Wenn IV (mit BS gerechnet) zB eine Kettenli=
+nie,
+was wird aus der Verteilung der Preisaenderungen (ist=B4s dann realistisc=
+her).
+Oder allgemeiner: =
+
+Sei f(idx,t) mit f(Kassa,0) =3D Deine Parabel (1te Ableitung ...)  und =
+
+f analytisch ...
+Nein, jetzt will ich nicht in Jugendsuenden abgleiten nach dem 3ten Bier.=
+
+Kurz: welche (parametrisierte) Funktion waere den ein Kandidat?
+MfG
+Christoph

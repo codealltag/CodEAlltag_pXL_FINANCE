@@ -1,0 +1,13 @@
+Kann man leicht berechnen. Das erste Beispiel wie folgt:
+Du kaufst einen Call 4000 und verkaufst einen Call 4001 
+Dadurch hast du einen Festgewinn, wenn der DAX ueber 4000 liegt.
+Da es keinen Call 4001 gibt, nimmst du z.B. einen Call 4050 und
+1/50. Wert also:
+
+(Wert Call 4000 - Wert Call 4050) / 50
+Da kommt dann der ungefaehr faire Wert eines solchen Simplex-Calls raus.
+
+
+Ulfert
+Visit   http://azbkuqj.fnk.gzg/lxsuby  and download a 
+free calculator for options, futures, bonds and similar stuff.

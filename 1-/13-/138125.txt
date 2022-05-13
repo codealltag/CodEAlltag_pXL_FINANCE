@@ -1,0 +1,56 @@
+Vincenzo Eckardt schrieb in Nachricht
+<6247C81V.18T59N46@zvoyvixfxp.rnrsvqu.fv>...
+.... Jeden Menge Tabellen gelöscht
+
+Ich verstehe es nicht ganz. Wieso postest Du die Tabellen für den Gesamt-Dax
+und den Gesamt-NM? Deine These lautet doch:
+
+1.Schaue Dir alle Dax-Kurse vom letzen und vom vorletzten Börsentag an.
+2.Kaufe den Dax-Wert der am letzen Tag am besten gestiegen ist (in Prozent)
+3.Verkaufe den Dax-Wert der im Depot ist (falls es der gleiche Wert ist,
+halten)
+
+Wieso dann ein Vergleich aller Werte? Du kaufst doch pro Tag maximal einen
+Wert bei dieser Strategie. Müsstest Du dann nicht einfach eine Liste aller
+Transaktionen posten oder habe ich da etwas falsch verstanden? Die Liste
+könnte so aussehen:
+
+Tag 1 Kauf     Wert 1 zum Kurs x1
+Tag 2 Verkauf  Wert 1 zum Kurs y1   Kauf Wert 2 zum Kurs x2
+Tag 3 Verkauf  Wert 2 zum Kurs y2   Kauf Wert 3 zum Kurw x3
+Tag 4 keine Tranaktion
+Tag 5 Verkauf  Wert 3 zum Kurs y3   Kauf Wert 1 zum Kurs y4
+
+usw.....
+
+Das sind doch dann die Ergebnisse die uns interessieren. Auf 30 Börsentage
+hast Du damit aber im schlimmsten Fall 59 Transaktionen ausgelöst. Die
+kosten jedesmal Handelsgebühren und Spesen. Selbst wenn man pro Transaktion
+nur mit 0,5% rechnet, sind damit schon einmal jede Menge Kosten ausgelöst.
+Fang doch mal mit 100 TDM an und lasse die Berechnung mit konkreten
+Beispielen laufen. Stell dann einfach bei jeder Transaktion Kosten in Höhe
+von 0,5% zusätzlich in Deine Berechnungen mit ein. Wie sieht dann das
+Ergebnis aus?
+
+Was passiert in Zeiten in denen der DAX seitwärts läuft? Was passiert in
+Zeiten in denen er fällt?
+Rechne doch einmal Dein Modell für die Zeit 19.08.96 bis 16.11.1997 und für
+die Zeit 31.10.93 bis 05.02.94.
+
+Nächstes Problem, die Kurse. Mit welchen Kursen rechnest Du? Schmidhofen(Olew)
+Schluss- und Anfangskursen? Oder mit den Schluss- und Endkursen an den
+Präsenzbörsen? Was ist mit den Stückzahlen? Da gibt es bei Jägerbekk ja noch
+ziemlich happige Begrenzungen. Ein Einstieg zu den Vortagesschlusskursen ist
+des öfteren nicht möglich, da sich über Nacht etwas in Wall Street tut und
+dann die Kurse hoch oder runter hüpfen.
+
+Hinzu kommt die Spekulationssteuer falls das System dauerhaft Gewinne
+abwirft, die schmälert den Erfolg dann auch noch einmal. Aber das dürfte dar
+geringste Problem sein, es sei denn ein Indexzertifikat oder eine Strategie
+auf der Basis Dividendenrendite schneidet besser ab.
+
+Das ist jetzt alles nicht im Sinne einer vernichtenden sondern als
+konstruktive Kritik/Anregung zu verstehen. Vielleicht kannst Du das Modell
+ja insofern verfeinern und zu den einzelnen Fragen Stellung nehmen.
+
+Gruß, Ivan

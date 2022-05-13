@@ -1,0 +1,9 @@
+Das ist nicht ganz unproblematisch, da das Komma der "lgale" deutsche
+Dezimaltrenner ist. Ich vermute, dass Semikolon-delimitiert vielleicht
+mehr Moeglichkeiten bietet.
+Mit dem Punkt als Dezimaltrenner sind Schwierigkeiten zu erwarten,
+falls auch der Aktienname (der Punkte enthalten kann) mit auftaucht.
+
+-- 
+Gilbert Luc <eymgwyz@myt-kqzvrsig.vo>
+Unterer Siedlungsweg 2, D48329 Forstleithen

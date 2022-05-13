@@ -1,0 +1,75 @@
+Chart Diagramm mit VisualBasic 2012 programmieren Salzburg Spateneder
+Cunrady Diagramm mit VisualBasic 2012 programmieren Salzburg
+Silberer
+Video: http://pczyv.yy/dJbEfVjxVBL
+
+Ich zeige Ihnen hier, wie Sie mit  sehr wenig Code ein interessantes
+Diagramm programmieren können.
+Nehmen wir das Beispiel für eine Roulettesoftware, und es sollen die
+gefallenen Zahlen und die WurfWeiten angezeigt werden.
+Unterschiedlich, die Roulettezahlen als Liniendiagramm und die
+WurfWeiten als Balkendiagramm. Natürlich kann das alles entsprechend x-
+beliebig erweitert werden.Sie wissen ja, ein Bild sagt mehr als 1000
+Worte. Anschliessend speichern wir das Diagramm als Bilddatei ab und
+können das Bild ganz normal weiterverwenden.
+Hier der gesamte Source.-Code:
+Imports System.Windows.Forms.DataVisualization.Charting
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles
+MyBase.Load
+        Dim RouletteZahlen(25) As Integer
+        Dim WurfWeiten(25) As Integer
+        For a =3D 1 To 25
+            RouletteZahlen(a) =3D Int(Rnd() * 36)
+            WurfWeiten(a) =3D Int(Rnd() * 36)
+        Next
+        Diagramm.Series.Clear()
+        Diagramm.Series.Add(New Series("Roulette-Zahlen"))
+        For a =3D 1 To 25
+            Diagramm.Series(0).Points.AddXY(a, RouletteZahlen(a))
+        Next
+        Diagramm.Series(0).Color =3D Color.Red
+        Diagramm.Series(0).BorderWidth =3D 4
+        Diagramm.Series(0).ChartType =3D SeriesChartType.Line
+        Diagramm.Series.Add(New Series("WurfWeiten"))
+        For a =3D 1 To 25
+            Diagramm.Series(1).Points.AddXY(a, WurfWeiten(a))
+        Next a
+        Diagramm.Series(1).Color =3D Color.Green
+        Diagramm.Series(1).BorderWidth =3D 10
+        Diagramm.Series(1).ChartType =3D SeriesChartType.Candlestick
+
+        Diagramm.Legends(0).Position =3D New ElementPosition(15, 10, 40,
+20)
+        Diagramm.Legends(0).BackColor =3D Color.LightGray
+        Diagramm.Legends(0).BorderWidth =3D 1
+        Diagramm.Legends(0).BorderColor =3D Color.Black
+
+        Diagramm.ChartAreas(0).AxisX.Minimum =3D 1
+        Diagramm.ChartAreas(0).AxisX.Maximum =3D 25
+        Diagramm.ChartAreas(0).AxisX.Title =3D "SelMcKenzie Spateneder
+Cotte"
+        Diagramm.ChartAreas(0).AxisX.TitleAlignment =3D
+StringAlignment.Near
+        Diagramm.ChartAreas(0).AxisX.LabelStyle.Font =3D New
+Font("Arial", 8)
+
+        Diagramm.ChartAreas(0).AxisY.Maximum =3D 50
+        Diagramm.ChartAreas(0).AxisY.Title =3D "SelMcKenzie"
+        Diagramm.ChartAreas(0).AxisY.TitleAlignment =3D
+StringAlignment.Far
+        Diagramm.ChartAreas(0).AxisY.LabelStyle.Font =3D New
+Font("Arial", 8)
+        Diagramm.BackColor =3D Color.Miriam
+        Diagramm.ChartAreas(0).BackColor =3D Color.LightBlue
+    End Sub
+    Private Sub cmdDrucken_Click(sender As Object, e As EventArgs)
+Handles cmdDrucken.Click
+        Diagramm.Printing.PrintPreview()
+    End Sub
+
+    Private Sub cmdSpeichern_Click(sender As Object, e As EventArgs)
+Handles cmdSpeichern.Click
+        Diagramm.SaveImage("C:\1\DasBild.png", ChartImageFormat.Png)
+    End Sub
+End Class

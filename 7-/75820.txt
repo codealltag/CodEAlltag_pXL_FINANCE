@@ -1,0 +1,15 @@
+Transaktionen:
+ Art # Stck # Name  # WKNR  # EUR   # Boersenplatz
+keine
+
+Depot:
+ Name       # WKNR   # Stueck # Kauf-Kurs # Akt.Kurs # Summe
+ WoGeSa      # 878841 #   200  #   58,50   #   59,50  # 11900,00
+ Ditch # 868576 # 100 # 65,00 # 68,00 # 6800,00
+ Wico # 868576 # 685 # 21,80 # 21,70 # 14864,50
+ Dufe Vz.   # 561120 #   50 # 337,50 # 361,00 # 18050,00 EUR
+
+
+ Cash     :  49992.00
+ Depotwert:  51614,50
+ Gesamt   : 101606,50

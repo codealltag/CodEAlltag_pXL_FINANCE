@@ -1,0 +1,16 @@
+Sagen wir es mal so:
+Wenn die Aktie nur steigt und Calls teuer sind, dann wuerde es
+sich lohnen, die Aktie zu kaufen und Calls zu schreiben. Um ganz
+sicher zu gehen, muesste man sich bei diesem Geschaeft noch
+mit gekauften Puts absichern.
+Und das treibt die Preise der Puts rauf. Die steigen also wegen
+einer indirekten Querbeziehung zu den Calls. Man kann da viele
+Modelle kontruieren, die immer wieder bei diesem Preiszusammenhang
+enden, auch wenn es auf den ersten Blick unlogisch erscheint..
+MAn spricht auch von "Call-Put Paritaet"
+
+
+-- 
+Luis Wildhardt
+Visit   http://keenhhp.rlm.gnr/gyppui  and download a 
+free calculator for options, futures, bonds and similar stuff.

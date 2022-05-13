@@ -1,0 +1,33 @@
+Nun, ein Zenner-Tankfahrzeuge ohne Motor sieht auch 100%ig aus wie ein Zenner-Tankfahrzeuge ;-)
+
+Mal im Ernst: Im professionellen Bereich brauchst Du eine Hard- und
+Software, die skalierbar ist. Will zwei Dinge heißen:
+
+1) Irgendwas bei Dir im Rechenzentrum fällt aus - macht nix, die
+Auktionen laufen weiter, weil alles redundant ausgelegt ist. Diese
+Redundanz ist nicht einfach durch den Kauf von zwei Rechnern zu
+bekommen, sondern es ist eine aufwendige Hardwareinstallation vonnöten
+und die Software muß das Ganze auch noch beherrschen. Das nennt sich Redundanz-Clustering.
+
+2) Deine Server drohen unter der Last zusammenzubrechen - Du stellst
+neue Server daneben, die sich die Last mit den alten teilen. Zwischen
+mehreren Maschinen heißt das Load Balancing und innerhalb eines Clusters Performance-Clustering.
+
+Eine solche Installation ist deutlich weniger trivial als etwa ein Brot
+zu schmieren.
+
+Jetzt wirst Du mich fragen: aber ab wann braucht man sowas? Nun, das muß
+der entsprechende Händler natürlich selbst wissen - ist es ein
+professionelles Geschäft, das 24h/Tag online sein muß? Oder ist es nur
+eine nette Nebeneinkunft? Oder irgendwas dazwischen? Performancem��ig
+würde ich mal schützen, daß man ab 5 Hits/Sekunde den NT-Server durch
+Unix ersetzen muß und ab 10 Hits/Sekunde ohne Clustering ins Schwitzen
+kommt. Diese Zahlen aber bitte ohne Gewähr, selbst ausprobiert hab ich
+es nicht.
+
+Berend
+
+-- 
+Berend Prendl
+Erschfeld, software development
+htdd@lxguz.zf

@@ -1,0 +1,125 @@
+Gleitende Durchschnitte an der Börse
+
+Author: Weggerle
+Handelssysteme werden immer populärer. Dabei werden beispielsweise
+einfache Strategien entwickelt, die nur auf der Eingabe von Stopps
+beruhen, aber natürlich auch komplexe Systeme. Auf den Messen zum
+Thema Trading lässt sich mittlerweile ein deutlicher Trend
+feststellen: Automatisierte Handelssysteme finden immer weitere
+Verbreitung. Dadurch ergibt sich die Möglichkeit, objektiv
+nachzuvollziehen, ob die Systeme in der Praxis (zumindest in der
+Vergangenheit) halten, was ihre Entwickler versprechen.
+GD - schon immer populär
+Wir haben uns einer der ältesten automatisierbaren Vorgehens=ADweisen
+angenommen und untersucht, ob die Verwendung von Gleitenden
+Durchschnitten zur Generierung von Handelssignalen Ergebnisse bringt,
+die besser als Buy-and-Hold sind. Gleitende Durchschnitte wurden und
+werden von Tradern aller Generationen verwendet, wohl deshalb werden
+diese in jeder Fernsehsendung und Fachzeitschrift zur Argumentation
+herangezogen.
+Im Folgenden werden wir zwei der am häufigsten verwendeten, einfachen
+Gleitenden Durchschnitte (Standard Moving Averages, SMA), die 38 Tage
+bzw. die 200 Tage-Durchschnittslinie, analysieren. Wir unter=ADsuchten
+die Kursentwicklung von 3000 Handelstagen der im DAX gelisteten Werte.
+Die Regeln
+Untersucht wird ein Portfolio aus 30 Aktien; betrachtet werden nur
+Long-Positionen. Dabei ergeben sich insge=ADsamt drei verschiedene
+Varianten:
+1=2E/2. Wir kaufen zur Eröffnung des nächsten Tages, wenn der
+Schlusskurs des vorherigen Tages über dem 38 Tage/200 Tage Gleitenden
+Durchschnitt notiert. Wir verkaufen zur Eröffnung des nächsten Tages,
+wenn der Schlusskurs des vorherigen Tages unter dem 38 Tage/200 Tage
+Gleitenden Durchschnitt notiert.
+3=2E Wir kaufen zur Eröffnung des nächsten Tages, wenn der 38 Tage
+Gleitende Durchschnitt über dem
+
+Tage Gleitenden Durchschnitt liegt. Wir schließen die Position zur
+Eröffnung des nächsten Tages, wenn der 38 Tage SMA unterhalb des 200
+Tage SMA liegt.
+Für alle Systeme werden keine weiteren Stopps verwendet.
+Money Management
+Das Money Management ist ein wesentlicher Bestandteil jedes
+professionellen Systems. Leider wird dabei zu oft ein wichtiger Aspekt
+außer Acht gelassen: Nicht die separate Untersuchung einzelner Aktien,
+sondern die Untersuchung des Gesamt-Portfolios ergibt die not=ADwendigen
+wichtigen Informationen.
+Wir verwenden einen fixed-fractional-Ansatz und setzen daher pro
+generiertem Signal fünf Prozent des Gesamtkapitals ein. Die Verwendung
+eines bestimmten Prozentsatzes führt zu einer exakteren und realisti=AD
+scheren Berechnung der Performance. Allerdings sei hier auch erwähnt,
+dass wir dadurch unter Umständen einige Signale nicht ausführen
+können, wenn die zur Verfügung stehende Cashreserve nicht mehr
+ausreicht. Es wurden zehn Euro pro Transaktion als Gebühren abgezogen.
+Ergebnisse der Vergangenheitstests
+Wie Bild 1 zeigt, haben alle getesteten Varianten in der Vergangenheit
+positive Ergebnisse erzielt und zum Teil ein besseres Ergebnis
+erreicht als die gerne von Investmentfonds propagierte ,,Kaufen und
+Halten"-Strategie. Die Auswertung der Tabelle macht aber auch
+deutlich: Keine der Strategien überzeugt wirklich! ,,Kaufen und Halten"
+erzeugte einen inakzeptabel hohen, ,,größten zwischenzeitlichen
+Verlust" (Max. DrawDown) von fast 75 Prozent, wogegen die einfachen
+Handelsstrategien,,nur"einengrößtenzwischenzeitlichen Verlust von 34
+Prozent generierten. Der Prozentsatz der positiven Transaktionen
+(Winning Trades) - dieser lag bei den auf Gleitenden Durchschnitten
+basierenden Strategien zwischen 22 und 34 Prozent - ist hingegen viel
+zu gering. Eine weitere wichtige Kennzahl für jede Investition ist die
+Zeitspanne, die zwischen dem Erreichen neuer Equity-Hochs liegt (Bars
+since Last Equity High). In Abbildung 2 werden diese Perioden grafisch
+dargestellt. Dabei wird deutlich, dass es selbst mit der besten der
+drei Strategien, der 38/200 SMA-Strategie, vier Phasen gab, während
+derer man mehr als 350 Tage auf neue Höchstst=E4nde warten musste. Eine
+Situation, die für manchen Investor schwer zu bewältigen und für
+Trader ohnehin inakzeptabel ist.
+Diskussion
+Festzuhalten bleibt: Zu viele Fehlsignale machen die aus=ADschließliche
+Verwendung von Gleitenden Durchschnitten als Indikatoren zur
+Kursprognose unbrauchbar.
+Bild 3 zeigt den Verlauf des Systems 38/200. Hier sieht man
+beispielsweise, dass das Maximum der Equity-Kurve bei rund 300 000
+Euro lag.
+In Bild 4 ist nun das gleiche System dargestellt, diesmal mit der
+,,Kaufen und Halten"-Kurve als Vergleich. Hier wird deutlich, dass
+,,Kaufen und Halten" in der gleichen Zeit in der Lage war, über 650 000
+Euro an Kapital zu generieren. Dies ist ein signifikant besseres
+Ergebnis, welches darauf hinweist, dass man mit einer besseren
+Strategie, also nicht der ausschließlichen Verwendung Gleitender
+Durchschnitte, in der Lage sein sollte, höhere Gewinne zu erzielen.
+Charakteristische Nachteile
+Der Grund für das schlechte Abschneiden des 38/200 Systems in den
+Aufwärtsphasen liegt in dem charakte=ADristischen Nachteil Gleitender
+Durchschnitte begründet: Sowohl Ein- als auch Ausstiegssignale werden
+erst mit einer zeitlichen Verzögerung erzeugt. Die Verzöge=ADrung ist
+dabei umso größer, je länger die SMA gewählt wurden. Aber auch die
+Verwendung von kürzeren Durchschnitten löst das Problem nicht, da
+hierdurch mehr Signale ausgelöst werden und die Zahl der Fehlsignale
+steigt.
+Bild 5 zeigt ein Beispiel der verzögerten Signal-gebung. Das
+Einstiegssignal kommt zu spät, das Aus=ADstiegssignal erst nach einem
+Verlust von fast 30 Prozent. Allerdings bewahrte das System auch vor
+einem Verlust von weiteren 50 Prozent.
+Mensch vs. Maschine
+Die fortschreitende Entwicklung der Technik eröffnet dabei aber auch
+neue Möglichkeiten. Hat man einmal eine neue Strategie entwickelt und
+Vertrauen in diese Strategie gefasst, so kann der Computer einen Teil
+der weiteren ,,Arbeit" übernehmen. Es gibt viele Händler, die seit
+Jahren erfolgreich mit selbst entwickelten Handels=ADsystemen arbeiten -
+es lohnt sich also! Allerdings gibt es natürlich überall, wo es Licht
+gibt, auch Schatten. Die meisten Trader haben kein Problem, eine
+funktionierende Strategie zu entwickeln, sondern dabei, diese
+Strategie auch emotionslos umzusetzen. Insofern liegt der
+Engpassfaktor nicht bei der Maschine, sondern bei deren Bediener.
+Fazit
+Viele fundamental begründete Anlageempfehlungen erwiesen sich
+bekanntlich bei exakter empirischer Unter=ADsuchung als wenig
+erfolgreich. Aber auch viele technische Strategien erfüllen oft nicht
+die in sie gesetzten Erwartungen, wie das hier gezeigte Beispiel
+zeigt. Die Entwicklung von guten Handelssystemen, aber auch die
+Bewertung der Ergebnisse, erfordert viel Wissen und einiges an Arbeit.
+Jeder Trader, der eine neue Strategie entwickelt und auch selbst
+handeln möchte, sollte vorher folgende Überlegungen anstellen:
+Kann ich die Performance dieser Strategie und alle wesentlichen
+Parameter auch objektiv überprüfen? Ist diese Strategie auch auf
+meinen eigenen Handelsstil abgestimmt, kann ich also auch einen system=AD
+bedingten, hohen Drawdown oder eine längere Verlustphase verkraften? =B7
+Bin ich psychisch in der Lage, trotz solcher Phasen, das System noch
+diszipliniert zu handeln?

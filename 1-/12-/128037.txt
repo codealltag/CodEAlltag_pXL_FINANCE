@@ -1,0 +1,33 @@
+und
+
+
+Verlustbegrenzung ist eine wichtige und schwierige Angelegenheit. Deshalb
+versuchen viele, mit Stoppkursen das Abwaertspotential zu begrenzen. Wenn
+ein Wert diesen Stoppkurs unterschreitet, wird er verkauft. Dabei gibt es
+verschiedene Moeglichkeiten, den Stoppkurs festzusetzen. Manche arbeiten mit
+festen Prozentmarken (z.B. -15%), andere mit variablen Techniken (z.B.
+anfaenglich -20%, nach einem Gewinn von 20% dann nur noch -10% usw.).
+
+Der mir am sinnvollsten erscheinende Weg ist die charttechnische Bestimmung
+des Stoppkurses, die davon ausgeht, dass das Unterschreiten der naechsten
+wichtigen (unter dem aktuellen Kurs befindlichen) Unterstuetzungslinie kein
+gutes Zeichen darstellt, sondern einen Ausstieg nahelegt. Der Stoppkurs wird
+daher leicht unterhalb der Unterstuetzungslinie platziert. Allerdings ist
+auch diese Technik nicht perfekt. Fehlsignale sind moeglich, so dass nach
+erfolgtem Verkauf der Kurs wieder munter nach oben drehen kann.
+
+
+BikeMAXX ist das taegliche Ueberwachen eines Stoppkurses z.B. auf
+Tagesschlusskurs-Basis einem automatischen Stopp-Loss-Limit vorzuziehen,
+weil dadurch ausgeschlossen wird, dass man durch manchmal beachtliche
+Kursschwankungen waehrend eines Tages ausgestoppt wird, obwohl der
+Schlusskurs wieder deutlich ueber dem Limit liegt.
+
+MfG
+Samuel-Patrice
+
+Boersenkurse (Indizes, Devisen, Aktien, OS, Fonds), z.Teil mit OHLC
+und Volumen, automatisch und aktuell aus dem Internet holen und in
+fast jedes Boersenprogramm importieren mit Hilfe von 'KURSEXTRAKT',
+u.a. auch automatische Abfrage der  Goldini- u. comdirect-Kursserver:
+http://rmi.pzqbbg.dr/ofuz/baq/

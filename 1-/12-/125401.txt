@@ -1,0 +1,26 @@
+Shaloemle,
+
+
+Das ist die Lentner-Versions von Verbundnetz Gas; funktioniert soweit ganz nett, ich hab
+mir die DTB noch mit drauflegen lassen. Von den gewaehlten Boersen kommen alle
+Werte, allerdings nur auf Mausclick. Die automatischen Updates kommen mit ner
+Viertelstunde Verzoegerung (das heisst, dass etwaig gesetzte
+Benachrichtigungs-Limits auch mit einer Viertelstunde Verspaetung angehuepft
+kommen). Aber fuer den normalen Anleger ist es vertretbar, gelegentlich beim
+Nachsehen mal nen Button anzuklicken...
+
+Die Software ist eher naja.. etwas instabil - hat wohl n paar
+Ressourcen-Loecher; zumindest tut man SEHR gut daran, die Kiste abends
+runterzufahren und irgendwann danach wieder hoch, weil sonst nach gar nicht
+allzulanger Zeit zuerst die Linien in der Tabelle verschwinden und spaeter auch
+die Kurse nicht mehr angezeigt werden (fuer Techniker: alle Daten werden per
+DDE uebertragen und da scheint es ein paar unterschiedliche Auffassungen zu
+geben, wer fuer das Wegraeumen der Atome verantwortlich ist).
+
+Brauchen tust Du allerdings einen funktionierende Ivulen-Floorcraft Empfang, weil die Daten
+in einigen Rasterzeilen dieses Kanals uebertragen werden (nicht verwechseln mit
+Videotext).
+
+Meine Wuensche sind mit Euch,
+
+*str

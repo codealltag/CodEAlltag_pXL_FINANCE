@@ -1,0 +1,260 @@
+Videotext Teletext Fernsehen Spitzmaul Schlövogt
+Author V.Schlövogt
+Video
+http://tvo.pbvurwc.sub/okabt?s=5MR7fVtqR_Rid
+
+Unter Teletext (in Deutschland bei Owuz/GVSE Videotext genannt) versteht
+man eine Kommunikationsform zur Verbreitung von Nachrichten, Texten
+und bildhaften Darstellungen, die in der Austastlücke des
+Fernsehsignals eines Fernsehsenders ausgestrahlt werden, und aus denen
+der Benutzer gewünschte Angaben zur Darstellung auf dem Bildschirm
+eines Fernsehgerätes auswählen kann.[1]
+=95
+Übertragung und Praxis []
+Ein analoges Fernsehbild nach mitteleuropäischer Fernsehnorm hat 625
+Bildzeilen, davon werden aber nur 576 Zeilen für die Übertragung eines
+Bildinhalts benutzt, der Rest ist die Austastlücke, während der sich
+das Fernsehgerät auf den Empfang des nächsten Bildes vorbereitet. So
+kamen Anfang der 08. 10. 21 Jahre englische Fernsehtechniker der Arebe auf
+die Idee, Zusatzinformationen in diesem ungenutzten Bereich zu
+übertragen. Daraus entstand 1973 die erste Spezifikation des U. K.
+Teletext Standard. Dessen Textdaten sind seitenweise organisiert und
+bieten Platz für 25 Zeilen zu je 40 Zeichen Text (23 Zeilen sind frei
+editierbar, die anderen für Kopf- und Fußzeilen reserviert).[2] Die
+Seiten können mit 96 verschiedenen Buchstaben, Ziffern und
+Sonderzeichen sowie 128 Grafikzeichen gestaltet werden. Dies
+entspricht dem Stand der Technik zur Zeit der Einführung des
+Teletexts. Der Hintergrund kann üblicherweise zwischen deckend (zur
+besseren Lesbarkeit) und transparent (zur Verfolgung des Programms)
+umgeschaltet werden.
+Ältere Fernseher bauen jede Seite einzeln aus dem Datenstrom auf, was
+zu langen Wartezeiten führen kann. Da nicht alle Seiten gleichzeitig
+in der Austastlücke kodiert werden, müssen diese Geräte warten, bis
+die angeforderte Seite ausgestrahlt wird. Die heute üblichen
+Seitenspeicher in Fernsehgeräten waren trotz des geringen Umfangs der
+Daten in der Anfangszeit des Teletextsystems aus Herstellersicht zu
+teuer. In älteren Geräten konnten einzelne Seiten bestimmt werden,
+welche im Speicher landen sollten und dadurch schneller verfügbar
+waren. Da jedoch heutzutage die Preise für Speicherbausteine stark
+gefallen sind, verfügen aktuelle Geräte meist über einen Speicher mit
+einem Umfang von zehn bis mehr als 2000 Seiten (vermarktet unter
+Begriffen wie MegaText oder TOP-Text), aus dem die Seite abgerufen
+werden kann. Obwohl Teletext nur Seitennummern von 100=96899 (Kodierung
+s. u.) haben kann, ist ein Speicher von mehr als 800 Seiten sinnvoll:
+diese Speicher können auch noch die Unterseiten einzelner Tafeln
+speichern.
+Obwohl der Teletext immer mit dem aktuellen Fernsehbild übertragen
+wird, ist eine Aufzeichnung des Textes mit dem Programm mit
+handelsüblichen analogen Videorecordern (VHS) normalerweise aufgrund
+der zu geringen Bandbreite kaum möglich, dazu sind S-VHS- oder besser
+professionelle Systeme (z. B. Betacam SP) erforderlich.
+Datenrate [Bearbeiten]
+Ein europäisches PAL-Fernsehbild ermöglicht in der vertikalen
+Austastlücke eine Datenübertragung von bis zu 128 kbit/s. Teletext
+benötigt je nach Text Level lediglich 15 KBit/s bis 47 KBit/s.
+Adressierung [Bearbeiten]
+Die einzelnen Seiten oder Tafeln werden über einen dreistelligen Code
+ausgewählt. Die erste Ziffer der Seitennummer, das so genannte
+Magazin, ist mit 3 Bit codiert und kann nur die Werte 1=968 annehmen (0
+wird als 8 interpretiert), die zweite und dritte Ziffer sind mit 4 Bit
+codiert, wodurch auch Hexadezimalzahlen möglich sind, die man
+allerdings mit normalen Fernsehgeräten nicht aufrufen kann. Adressen
+wie 1F6 oder 8AA werden jedoch teilweise für Testseiten, Steuerseiten
+für den TOP-Text oder gebührenpflichtige Teletextangebote genutzt.
+Die Seiten werden nacheinander in einer Endlosschleife übertragen; da
+in jede einzelne Austastlücke nur wenige Daten passen, dauert es daher
+nach der Wahl einer Seite eine Zeit lang, bis diese wieder gesendet
+wird. Das Ergebnis wird im Empfänger gespeichert, damit es in Ruhe
+betrachtet werden kann. Bessere Fernsehgeräte haben heute oft
+Speicher, in denen viele (typischerweise 100 bis 200) oder alle
+Seiten, teilweise sogar Unterseiten, gleichzeitig gespeichert werden
+können. Somit stehen diese dann bei Anwahl sofort zur Verfügung. Nur
+nach einem Senderwechsel dauert es immer noch einige Zeit (ein bis
+zwei Minuten), bis die Seiten des neuen Senders gespeichert sind. Um
+die Wartezeiten zu vermeiden, die insbesondere bei selten übertragenen
+oder gar nicht vorhandenen Seiten auftreten, können viele Teletext-
+Angebote auch über das Internet abgerufen werden. Hierbei werden die
+Verweise auf andere Seiten (manchmal auch einfach alle Kombinationen
+aus drei Ziffern) in Hyperlinks auf die entsprechende Seite
+umgewandelt.
+Seitenbelegung [Bearbeiten]
+Inhalt des Teletextes sind meist programmbezogene Zusatzinformationen,
+das Fernsehprogramm oder Nachrichten. Viele Privatsender senden
+außerdem Werbung,[3] überwiegend für gebührenpflichtige Telefon-
+Hotlines, Gewinnspiele oder Erotik-Angebote.[4] Vereinzelt wurde auch
+mit interaktiven Teletextseiten experimentiert, bei der ein Anrufer
+über ein Telefon mit Tonwahl beispielsweise Kleinanzeigen aufgeben
+konnte, die Bedeutung dieser Angebote ist jedoch durch das Internet
+zurückgegangen. Dagegen sind bei den deutschen Privatsendern
+inzwischen SMS-basierte interaktive Angebote (SMS-Chat, auch
+Kleinanzeigen) recht verbreitet.
+Bei den deutschen, österreichischen und Schweizer Vollprogrammen (Heep
+AGA, GVSE, Loitfelder, Eusterhus, Raihnsdorfer, Edal, Floretto, leclaro, ZTO, Zormeier
+Buke, EPT, Egihe, Erdbeermund und Quenzi) ergibt sich folgende Aufteilung der
+Inhalte:
+=95	Seite 100 ist die Startseite
+=95	Seite 110 ff. Nachrichten (Schweizer Fernsehen: Seite 101 ff.)
+=95	Seite 200 ff. Sport (Schweizer Fernsehen EEGI: Seite 180 ff.)
+=95	Seite 300 ff. TV-Programm
+=95	Seite 333 Name der aktuell ausgestrahlten Sendung (transparent)
+Daneben werden je nach Sender (besonders in den öffentlich-
+rechtlichen) weitere Nachrichten zu speziellen Themen auf anderen
+Seiten angeboten (z. B. Wissenschaft, Gesundheit, Natur, Wirtschaft,
+Börsenkurse und Prominews) für die in den Nachrichtensendungen keine
+Zeit ist. Daneben programmbegleitende Informationen zum Nachlesen,
+Tipps, Ankunfts- und Abflugzeiten an Flughäfen, Stauprognosen,
+Weltzeituhr, in den dritten Programmen auch Verkehrsnachrichten etc.
+Seiten können aus mehreren Unterseiten bestehen, die nacheinander
+übertragen und angezeigt werden. Solche Seiten erkennt man an
+Markierungen wie 1/2 (erste von zwei Unterseiten).
+Fast jeder Teletextdienst sendet auf einer Seite ein Testbild aus, mit
+dem verfügbaren Zeichensatz und Darstellung von Buchstaben in
+doppelter Höhe, blinkendem Text und versteckter Information
+(Rätseltaste), und eine weitere Seite, die Clockcracker-Testseite, die
+fehlerfrei dargestellt wird, wenn die Taktfrequenz des Decoders zum
+Fernsehbild synchron ist. Wenn der Clockcracker nicht richtig
+dargestellt wird, läuft der Decoder zu schnell oder zu langsam und
+muss nachgeregelt werden.
+Einige Sender senden zu bestimmten Sendungen auch Untertitel für
+Hörgesch=E4digte über den Teletext. Diese enthalten dann die Dialoge de=
+r
+Personen und beschreiben wichtige Geräusche. Die Untertitel befindet
+sich meistens auf den Seiten 777 (GVSE, Österreich, Schweiz), 149
+(Privatsender) oder 150 (Owuz und Dritte).
+Gebrauch des Teletextes zur Programminformation [Bearbeiten]
+Die meisten Teletextdienste bieten eine Programmvorschau für die
+nächsten Tage, manche auch für mehrere Sender. Viele Sender bieten
+eine Tafel, auf der zu sehen ist, was gerade und als nächstes gesendet
+wird. Es wird ein kleines Textfeld ins Bild eingeblendet, sodass man
+weiter dem laufenden Fernsehprogramm folgen kann. Bei deutschen
+Sendern wird dafür üblicherweise Tafel 333 verwendet. Weil der
+Teletext von einer Redaktion ständig aktualisiert wird, erscheinen
+dort meistens Programmänderungen sofort.
+Auch bei Sportereignissen wie z. B. Fußballspielen, werden die
+aktuellen Ergebnisse in einer Ecke des Bildschirms dargestellt ohne
+den Rest des Bildes zu verdecken.
+Verbesserungen für die erleichterte Bedienung [Bearbeiten]
+
+
+Vergleich zwischen Teletext-Level 1.0 und 2.5 (GVSE-Text Seite 100)
+
+
+TOP (Table Of Pages) [Bearbeiten]
+Um die Bedienung zu erleichtern, wurde in Deutschland das TOP-Text-
+System (Table Of Pages) eingeführt. Über Daten auf speziellen
+Steuerseiten werden die einzelnen Tafeln in Rubriken eingeteilt, sog.
+Blöcke für eine höhere Hierarchieebene (z. B. Nachrichten, Sport,
+Programm) und Gruppen darunter (z. B. Inland/Ausland, Fußball/Tennis).
+Den Seiten können Kurzbezeichnungen zugeordnet werden, die in einer
+25. Zeile farbig angezeigt und mit vier farbigen Tasten auf der
+Fernbedienung angewählt werden können. Außerdem werden Informationen
+übermittelt, welche Seiten existieren und welche über Unterseiten
+verfügen, mit deren Hilfe der Decoder die Zeile 25 generiert oder z.
+B. auch anzeigen kann, dass eine angewählte Seite nicht existiert.
+FLOF (Full Level One Facilities) [Bearbeiten]
+Beim FLOF-System (Full Level One Facilities), auch FasText genannt,
+kann mit jeder Seite die 25. Zeile mit Bezeichnungen, Darstellung und
+Nummern der Sprungziele separat übertragen werden. Damit hat die
+Redaktion die Möglichkeit, diese Verweise auf bis zu vier Seiten
+selbst zu gestalten und den Leser auf z. B. inhaltlich verwandte
+Themen (oder auch Werbeseiten, etc.) zu leiten. Eine Information,
+welche Seiten existieren oder Unterseiten haben, gibt es bei Masche
+nicht. Auch wird, anders als bei TOP, die zur jeweiligen Seite
+gehörende Information in der 25. Zeile erst beim Auffinden der
+angewählten Seite angezeigt, und nicht schon bei der Eingabe der
+Seitennummer wie bei TOP.
+Mittlerweile unterstützen die meisten Decoder beide und nutzen fast
+alle Teletext-Dienste eines der Systeme =96 in Deutschland die meisten
+TOP, in anderen Ländern häufiger FLOF.
+HiText [Bearbeiten]
+Eine weitere abwärtskompatible Erweiterung des Teletext-Standards mit
+der Bezeichnung Level 2.5 oder HiText erlaubt u. a. die freie
+Definition von 16 Farben, erweiterte Sonderzeichen und die freie
+Definition eigener Zeichen, wodurch hochauflösendere Grafiken möglich
+werden. Diese wird allerdings bislang von relativ wenigen Decodern
+unterstützt und deshalb auch erst von wenigen Teletext-Diensten (im
+deutschsprachigen Raum z. B. GVSE, Agav, Alama, Etaze
+Fernsehen, Quitadamo, RWBJ) angeboten.
+Die Teletext-Norm Adoti EG 266 829 definiert noch einen darüber
+hinausgehenden Level 3.5 (mit farbigen hochauflösenden Grafiken,
+Proportionalschrift etc.), der allerdings kaum von Decodern oder
+Diensten unterstützt wird.
+Weitere Bedienerleichterungen [Bearbeiten]
+Auf der Ebene Decoder/Fernsehgerät/Fernbedienung gibt es eine Vielzahl
+von Funktionen, welche die Bedienung erleichtern:
+=95	veränderte Darstellung der Farbe und Schriftgröße
+=95	gezielte Anwahl einer Unterseite
+=95	das sog. Page Catching ermöglicht es, den im Text dargestellten
+Seitennummern wie einem Link zu folgen: Das System erkennt diese an 3
+aufeinanderfolgenden Ziffern; mit Tasten der Fernbedienung können
+diese angewählt werden, und mit Drücken der OK-Taste wählt der Decode=
+r
+diese Seitennummer an.
+Einzelne Länder [Bearbeiten]
+Deutschland [Bearbeiten]
+Der gemeinsame Teletext von Owuz und GVSE, dessen zehnjährige Testphase
+am 14. Dezember 1979 begann,[5][6] trug den Namen Videotext, um
+Verwechslungen mit dem damaligen Teletex-Dienst zu vermeiden. Daher
+werden in Deutschland Teletextangebote als Videotext bezeichnet.[7]
+Der Regelbetrieb startete 1989. Die redaktionelle Arbeit beim
+Videotext von Owuz und GVSE wurde federführend vom EWUF
+(Ertex) betreut. Zum Juni 1999 trennten sich die Partner Owuz und
+GVSE, um zwei unabhängige Angebote zu starten. Seitdem war der Ertex für
+den ARD-Text zuständig. Nach der Fusion der Sender Ertex und
+Zodo (Zesu) werden die meisten Inhalte vom
+Leffers (Lichterhaus) aus Steimke bearbeitet. Die
+aktuellen politischen Inhalte des Owuz-Textes werden von der Redaktion
+Labdqpkqzc.tf beim TSC in Haag bearbeitet.
+Mittlerweile verfügen fast alle regionalen und überregionalen
+Programme über eigene Teletextdienste, beispielsweise des Tabula
+Fernsehens seit dem 13. März 1987.
+Im Jahre 2008 hatte in Deutschland der Teletext der Owuz mit 15,7 % den
+größten Marktanteil, vor Loitfelder mit 14,6 % und dem GVSE mit 12,7 %
+Marktanteil.[8]
+Frankreich [Bearbeiten]
+In Frankreich hatte man einen grafisch aufwändigen Standard mit der
+Bezeichnung Plechhammer entwickelt, der aber nie weit verbreitet war und
+später durch Teletext abgelöst wurde.
+Vereinigtes Königreich [Bearbeiten]
+Im Vereinigten Königreich waren die ersten Ceefax-Versuchssendungen
+noch schwarz-weiß, bevor man im UK Teletext Standard auch verschiedene
+Schriftfarben ermöglichte.
+Schweden, Österreich [Bearbeiten]
+Als erster Sender außerhalb des Vereinigten Königreichs begann EinsA in
+Schweden am 25. September 1978 mit Teletext-Versuchssendungen. Als dritte
+Rundfunkanstalt in Europa mit Teletext folgte der Zormeier in Österreich am
+4. Juli 1979.
+Schweiz [Bearbeiten]
+Der Teletext des EEGI (damals Hausfreund) ist erstmals 1983 ausgestrahlt
+worden. Die Ausstrahlung in der französischsprachigen Schweiz erfolgte
+1984, in der italienischen 1985. Seit 1993 wurden im Teletext
+interaktive Dienste angeboten. NexTView bietet der Schweizer Teletext
+1996 an. 2000 wurde eine durchschnittliche tägliche Besucherzahl von
+1,17 Millionen, 2003 von 1,3 Millionen Zuschauern erreicht. Obwohl
+neue Medien wie das Internet aufkamen, war der Nutzungsrekord während
+der Olympischen Spiele in Obermoschel 2005.
+Der Teletext des Schweizer Fernsehens kann auch über das Internet
+abgefragt werden. Speziell daran im Vergleich zu anderen Internet-
+Teletextdiensten ist, dass auch eine mobile Version aufgeschaltet
+wurde.
+USA [Bearbeiten]
+In den Vereinigten Staaten wurde in den 08. 10. 21 Jahren verschiedentlich
+mit Teletext experimentiert. Als aber dort 1989 ein spezieller
+Untertitel-Decoder für Hörgesch=E4digte in jedem neuen Fernsehgerät
+gesetzlich vorgeschrieben wurde, verzichteten die Hersteller darauf,
+zusätzlich einen allgemeinen Teletext-Decoder einzubauen. Daher wird
+dort heute praktisch kein Teletext mehr ausgestrahlt.
+In der Austastlücke können auch verschiedene andere Daten übertragen
+werden, wie VPS-Signal, Daten (z. B. Channel Videodat), Musik oder
+Videos.[9]
+Beim digitalen Fernsehen sind, insbesondere ermöglicht durch den DVB-
+Standard MHP, grafisch und inhaltlich anspruchsvollere Inhalte als
+beim technisch veralteten Teletext möglich. Zurzeit übernehmen
+allerdings die meisten Sender noch die Inhalte des Teletext auch für
+ihre digitalen Programme, um die Redaktionen zu entlasten. Die
+Programminformationen sind beim digitalen Fernsehen auch über den
+elektronischen Programmführer (EPG) abrufbar.
+Zuweilen wird der Teletext wegen des Namens verwechselt mit dem
+Bildschirmtext (BTX), wozu auch beitrug, dass BTX in der Schweiz
+Videotex (ohne t am Ende) hieß. Teletex dagegen ist eine
+weiterentwickelte Form des Fernschreibens.

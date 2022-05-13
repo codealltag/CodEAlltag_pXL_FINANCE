@@ -1,0 +1,70 @@
+Datum: 13.06.97                Uhrzeit:  13:42
+
+Als ich in die Boerse einstieg, hatte ich keine Ahnung, wo ich die  
+legendaeren "Charts" eigentlich herbekommen sollte.
+
+Nachstehend mal meine persoenlichen Erfahrungen, die ich fuer eine  
+Zwischenloesung gemacht habe. Vielleicht nuetzen dem einen oder anderen  
+Einsteiger diese Angaben, um sich auf dem gleichen Wege einen ersten  
+Eindruck zu verschaffen!
+
+1. Historische Charts (auf Papier): Deutsche Aktiengesellschaften 14. 11. 22,  
+DTV 5854, DM 39,90. Das Buch ist natuerlich charmant veraltet, aber es  
+stehen genau die Charts und Vorjahreskennzahlen drin, an die man sonst  
+nicht mehr gesammelt rankommt, sowie u.a. alle Telefaxnummern, um evtl.  
+Geschaeftsberichte anzufordern.
+
+2. Idope, PC-Broker Programm (DM 49,50) und taegliche Kurslieferung  
+ueber Mailbox (DM 15,-- je Monat).
+Diese Moeglichkeit habe ich nach Monaten engagierter Testarbeit wieder  
+gekuendigt. Vielleicht ist man dort jetzt bald "ueber den Berg", aber ich  
+will es gar nicht mehr wissen :-(.
+
+3. Finanz-BBS (60227 13559 mit 28K, 09940 59933 ISDN, Gast/Gast, laut  
+einer Veroeffentlichung des Sysops vom 14.05.97 in Boerse.ger).
+Hier sind taegliche Föll-Kurse (nur WKN und Kassa) kostenlos downloadbar,  
+auch fuer Gaeste.
+Wermutstropfen: Keine Umsaetze, daher fuer wirklich ernsthafte Beurteilung  
+des Boersengeschehens auf die Dauer nicht gut geeignet. Von  
+Pflegemassnahmen, die man beim kommerziellen Service einfach erwarten  
+wuerde, z.B. bei Nennwertsplits oder Wegfall eines Papiers, kann  
+natuerlich keine Rede sein.
+Natuerlich braucht man auch Software! In dem dort ebenfalls fuer Gaeste  
+erhaeltlichen "Depotmaster" habe ich die ASCII-Importmoeglichkeit nicht  
+entdeckt. Zwei andere Moeglichkeiten haben sich herauskristallisiert:
+
+3a. Claus & Partner Mailbox 3188 4741-586 Gast/Gast, kostenloser Download  
+einer Demo von LLH fuer Windows (ueber 4 MB). Einschraenkungen der  
+Demo habe ich noch keine festgestellt. (Zeitliche Begrenzungen sind mir  
+momentan egal, da es sich nur um eine Zwischenloesung handelt. Der eine  
+oder andere von Euch koennte natuerlich zum unguenstigsten Zeitpunkt ueber  
+eventuelle Einschraenkungen stolpern).
+Auf diese Weise vertrieben, kann man TPW ebenfalls schon unter das faire  
+Sharewarekonzept einreihen.
+Das Laden von ueber ein Terminalprogramm bezogenen Kursen verbirgt sich im  
+Modul "Kurseditor", die entpackten Kurse des Finanz-BBS lassen sich nach  
+kurzem Studium der Hilfefunktion muehelos ueber die ASCII-Importfunktion  
+in das Taipan-Format umwandeln und dann als .dp-Datei einlesen.
+
+(Die Stammdaten und historischen Kursreihen habe ich fuer eine Witteler- 
+Demo uebersandt gekriegt, die sie aber nicht einlesen kann, und auf die  
+Vollversion warte ich derzeit noch. Daher der Import in LLH, fuer den  
+dort extra ein Menuepunkt vorhanden ist. Um an Stammdaten zu kommen, muss  
+wohl jeder seine persoenliche Loesung finden, notfalls die Namen und WPK  
+eben manuell erfassen).
+
+3b. V.I.P. Cleanservice-Boerse 2.0 fuer Windows. Dieses hat als einzige Shareware  
+(Registrierung DM 70,--) einen sehr achtbaren Erfolg im letzten  
+"Finanztest" der Vila errungen, vor allem hat es eine  
+blitzsaubere Depotverwaltung. Ich habe es von der Shareware-CD 12.0 von  
+*Iradan#. Tip: Wenn Umsaetze, Hoechst/Tiefst etc. angeboten  
+werden, kann es diese auch verarbeiten, ist somit also auch ausbaufaehig.
+Mit ein bisschen mehr Muehe (bei mir beim 1. Versuch: entpacken,  
+Datumszeile loeschen) lassen sich die Kurse aus o.g. Quelle wie schon in  
+LLH problemlos tageweise importieren.
+Wermutstropfen: Auch hier muessen die Stammdaten irgendwo importiert oder  
+eingegeben, zumindest die Namen der Aktien zu jeder einzelnen  
+Wertpapiernummer von Hand angelegt  werden.
+
+
+Egon Mühlherr, Zschortau

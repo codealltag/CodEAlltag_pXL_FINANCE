@@ -1,0 +1,126 @@
+Visual Basic 2010 bewegliche Diagramme programmieren von Zacherle
+Ziegel
+Video http://yco.bqheshc.ypx/ddfeo?r=7OnrrWhQrf0Cp
+
+Author B.Ziegel
+
+Heute zeige ich Ihnen, wie man eine in den Füllungen bewegliche
+Tortengrafik erstellt und diese veränderbare Tortengrafik auch noch
+als Animation sich drehen lässt. Drehen etwa wie ein Glücksrad. Solche
+Sachen werden bei der Softwareentwicklung heute gebraucht, weil der
+Anwender auch bei der optischen Gestaltung, wie zum Beispiel bei
+Spielen, immer anspruchsvoller wird. Für solche Fälle sagte meine
+Mutter immer =84Das Auge will auch was haben=93, und so ist es ja. Wenn
+Sie eine Software entwickeln, dann muss die auch optisch etwas
+hermachen.
+Da dieses Video nur 9 Minuten lang sein kann, muss ich etwas kürzen,
+und zwar lasse ich die Erstellung der Steuerelemente weg, denn das
+wissen Sie ja, wie man Steuerelemente aus der Toolbox in die Form
+zieht. Ausserdem schreibe ich den Code, den Sie dann nachher im Bild
+vergrössert deutlich sehen können, weil das Schreiben und Zeigen des
+schreibenden Codes zu viel Zeit in Anspruch nimmt und die 9 Minuten
+überschreitet.
+So, nun fangen wir an. Wir ziehen auf die Form vier Picture-Boxen,
+Vier Schieberegler, sowie einen Button. Der Butten dient dazu, darauf
+ebenfalls die Grafik zu zeichnen und drehen zu lassen. Nicht die
+Grafik wird sich drehen, sondern der Button mit der Grafik drauf.
+Natürlich ist der Button viereckig und dieser Viereckige Button dreht
+sich, aber in der Praxis müssen Sie das anders machen, Sie müssen
+statt eines Buttons eine Picture Box dafür nehmen, den Rand entfernen
+und wenn sich die runde Grafik darauf dann samt der Picture Box dreht,
+sieht das so aus, als ob sich nur die rund Grafik dreht. Geben Sie
+jedem dieser Steuerelemente einen eigenen Namen. Ich nenne sie
+Schieber1,  Schieber2, Schieber3, Schieber4 und Bild1, Bild2, Bild3,
+Bild4, den Button nenne ich Drehteller.
+Jetzt machen wir erst alle Zeichnungen, den Drehenden Button dann zum
+Schluss.
+So sollte das dann aussehen auf der Form, und nun tun wir die Bilder
+in die Pictureboxen rein, und das sollte dann so aussehen.
+In die 4 Schieberegler schreiben wir nunmehr folgendes herein:
+    Drehteller_Click(Drehteller, New System.EventArgs())
+In den Button Drehteller schreiben wir folgendes rein und da sollten
+Sie das Video anhalten und es genau abschreiben.
+       Me.Refresh()
+        ZeichnenForm1 =3D Me.CreateGraphics
+        ZeichnenDrehteller =3D Drehteller.CreateGraphics
+        Dim SchriftFont As New Font("Arial Black", 72)
+
+        Dim DasBild1 As Bitmap =3D Bild1.Image
+        Dim DasBild2 As Bitmap =3D Bild2.Image
+        Dim DasBild3 As Bitmap =3D Bild3.Image
+        Dim DasBild4 As Bitmap =3D Bild4.Image
+        Dim Füllung1 As New TextureBrush(DasBild1)
+        Dim Füllung2 As New TextureBrush(DasBild2)
+        Dim Füllung3 As New TextureBrush(DasBild3)
+        Dim Füllung4 As New TextureBrush(DasBild4)
+
+        Begrüssung =3D "" : Begrüssung =3D "Moin Moin"
+        ZeichnenForm1.DrawString(Begrüssung, SchriftFont, Füllung1, 0,
+10)
+        ZeichnenForm1.DrawString(Begrüssung, SchriftFont, Füllung2, 0,
+80)
+        ZeichnenForm1.DrawString(Begrüssung, SchriftFont, Füllung3, 0,
+150)
+        ZeichnenForm1.DrawString(Begrüssung, SchriftFont, Füllung4, 0,
+220)
+
+        Dim DieFüllung1 As New TextureBrush(Bild1.Image)
+        Dim DieFüllung2 As New TextureBrush(Bild2.Image)
+        Dim DieFüllung3 As New TextureBrush(Bild3.Image)
+        Dim DieFüllung4 As New TextureBrush(Bild4.Image)
+
+        Dim DerSchieber1 As Double : DerSchieber1 =3D 0
+        Dim DerSchieber2 As Double : DerSchieber2 =3D 0
+        Dim DerSchieber3 As Double : DerSchieber3 =3D 0
+        Dim DerSchieber4 As Double : DerSchieber4 =3D 0
+
+        DerSchieber1 =3D ((360 / 100) * (((Val(Schieber1.Value) _
+                      + Val(Schieber2.Value) + Val(Schieber3.Value) _
+                      + Val(Schieber4.Value)) / 100) _
+                      * Val(Schieber1.Value)))
+        DerSchieber2 =3D ((360 / 100) * (((Val(Schieber1.Value) _
+                       + Val(Schieber2.Value) + Val(Schieber3.Value) _
+                       + Val(Schieber4.Value)) / 100) _
+                       * Val(Schieber2.Value)))
+        DerSchieber3 =3D ((360 / 100) * (((Val(Schieber1.Value) _
+                       + Val(Schieber2.Value) + Val(Schieber3.Value) _
+                       + Val(Schieber4.Value)) / 100) _
+                       * Val(Schieber3.Value)))
+        DerSchieber4 =3D ((360 / 100) * (((Val(Schieber1.Value) _
+                       + Val(Schieber2.Value) + Val(Schieber3.Value) _
+                       + Val(Schieber4.Value)) / 100) _
+                       * Val(Schieber4.Value)))
+
+        Dim DasGrosseDiagramm As New Rectangle(20, 5, 400, 400)
+        ZeichnenForm1.FillPie(DieFüllung1, DasGrosseDiagramm, 0, _
+            DerSchieber1)
+        ZeichnenForm1.FillPie(DieFüllung2, DasGrosseDiagramm, _
+            DerSchieber1, DerSchieber2)
+        ZeichnenForm1.FillPie(DieFüllung3, DasGrosseDiagramm, _
+            (DerSchieber1 + DerSchieber2), DerSchieber3)
+        ZeichnenForm1.FillPie(DieFüllung4, DasGrosseDiagramm, _
+            (DerSchieber1 + DerSchieber2 + DerSchieber3),
+DerSchieber4)
+
+        Dim DasDrehtellerDiagramm As New Rectangle(5, 5, 150, 150)
+        ZeichnenDrehteller.FillPie(DieFüllung1, DasDrehtellerDiagramm,
+0, _
+            DerSchieber1)
+        ZeichnenDrehteller.FillPie(DieFüllung2, DasDrehtellerDiagramm,
+_
+            DerSchieber1, DerSchieber2)
+        ZeichnenDrehteller.FillPie(DieFüllung3, DasDrehtellerDiagramm,
+_
+            (DerSchieber1 + DerSchieber2), DerSchieber3)
+        ZeichnenDrehteller.FillPie(DieFüllung4, DasDrehtellerDiagramm,
+_
+            (DerSchieber1 + DerSchieber2 + DerSchieber3),
+DerSchieber4)
+
+So und schon ist es fertig. Jetzt starten wir mal.
+Nun kommt noch der Code, damit der Drehteller mit der jederzeit
+veränderbaren Grafik links oder rechts herumgedreht wird. Dazu nehmen
+Sie bitte nur den Code für die Drehungen aus dem Video, was ich
+gestern hier eingestellt habe mit der Drehenden Lottotrommel und dem
+drehenden Roulettekessel. Und schon funktioniert alles wunderbar.
+Ziegel

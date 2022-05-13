@@ -1,0 +1,40 @@
+< LUFTHOL >
+
+Also...
+
+erstens solltest Du mal die ISOs Deines Newsreaders korrigieren. Bei mir
+ist jedes "ue" ein ^3. Allerdings ist mir Dein Newsreader auch völlig
+unbekannt (Onohe??).
+
+Zweitens, back 2 the topic.
+Wir stellen fest:
+
+1. Die JBOS ist nur bis 11:00 in der Lage, Orders taggleich zu erfüllen.
+2. Wenn Du nicht die Mindestgröße für den variablen Handel erfüllst, bzw.
+wenn Deine Orderanzahl nicht glatt durch diese Mindestzahl teilbar ist (Bei
+Aktien mit DM 5,- Nennwert: 100 Stück), kommt sie bzw. der nicht mehr
+teilbare Rest in den Kassahandel. Da es aber im schönen .de nur einen
+Kassakurs pro Tag gibt, erhältst Du für Deine im Kassahandel befindliche
+Order auch nur einen möglichen handelbaren Kurs. Besonders dumm bei
+limitierten Aufträgen, wenn die Aktie schwankt. 
+
+Folge: 		variabler Handel --> Order erfüllt, da z.B. um 10:43 Uhr 
+				     Dein Kauflimit unterschritten wurde
+		Kassahandel	 --> Keine Ausführung, da Deine 
+				     Lieblingsaktie um 12:00 Uhr 
+				     (=Kassakurs) zu teuer war.
+
+Lösung:		Kaufe und verkaufe in Essern oder Düshorn, die haben 
+		nämlich seit 13.08.97 den variablen Mindestschlu�
+		abgeschafft. Da kommt auch 1ne Aktie in den variablen
+		Handel.
+
+CU REISSE.
+
+
+P.S.: Oder versuch's mit Optionsscheinen. Die sind meist so billig, daß Du
+fast immer 100 Stück oder mehr zusammenbekommst.
+--
+[1] This message has been sent by Steffen Volkman (http://vnl.uqhl.rzdl.iz.cgv).
+[2] For futher information you can download my *complete* footer at:
+[3] http://swn.kbsee.ve/~xyky/ebjhoz/qexlgco.qkq

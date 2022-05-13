@@ -1,0 +1,46 @@
+Hallo Sylvie, 
+
+der Kassakurs wird einmal am Boersentag mittags kurz nach 12 Uhr
+festgestellt. Dazu werden alle Order, deren Volumen unter 100 Stueck 
+(5 DM Nennwert) bzw. unter 50 Stueck (50 DM Nennwert) liegt, sowie die
+Order, die ausdruecklich zum Kassakurs ausgefuehrt werden sollen (*),
+zusammengefasst. Dann wird anhand der Limits ein Kurs ermittelt, zu dem
+der groesste Umsatz (nach Volumen = Stueckzahl, nicht Wert) erfolgen
+kann. Liefert dieses Verfahren keinen eindeutigen Wert, sondern eine
+Spanne, so sind die Kursmacher gehalten, sich nahe am letzten
+festgestellten Kurs zu orientieren. Dies ergibt dann den Kassakurs oder
+Einheitskurs. 
+
+Der Parkettkurs hingegen wird waehrend der Handelszeit (10:30 - 13:30)
+laufend ermittelt. Daher auch die gebrauchlichere Bezeichnung "variabler
+Kurs". Wannimmer eine Kauf- und eine Verkauforder zusammenpassen, kommt
+ein Kurs zustande und die Transaktion wird ausgefuehrt. Hierbei kommen
+nur Auftraege zum Zuge, deren Volumen ein ganzzahliges Vielfaches der
+obengenannten Mindeststueckzahlen betraegt. In der Praxis ist es ein
+bisschen komplizierter - die Haendler fassen mehrere Order zusammen und
+treten auch selbst als Zwischenhaendler auf. Das ist nichts schlechtes,
+sondern bedeutet, sie machen den Abschluss mit Dir in der Erwartung,
+spaeter ein entsprechendes Gegengeschaeft zu machen.
+
+Fuer Dich heisst das also:
+
+Du verkaufst 3 ZBWZ : Du bekommst den naechsten Kassakurs (sofern
+Dein Limit stimmt). Dazu muss der Auftrag bei Deiner Bank rechtzeitig
+vorliegen (je nach Bank z.B. 11 Uhr oder 11 Uhr 30)
+
+Du kaufst 100 Outline : Du bekommst den naechsten variablen Kurs.
+Wieder gilt je nach Bank noch eine Laufzeit bis der Auftrag an der
+Boerse ist (5 - 15 Minuten bzw. nach oben offen, wenn der Bearbeiter
+schlampt)
+
+(*)Du verkaufst 70 udowalz : Dann werden 50 Stueck variabel verkauft,
+die restlichen 30 kommen dann zum Kassakurs dran, ==> 2 * Gebuehren. 
+Je nach Minimumgebuehren und Marktlage kann es daher sinnvoll sein, den
+gesamten Auftrag zum Kassakurs ausfuehren zu lassen.
+
+Ich hoffe, Deine Fragen sind soweit geklaert. Falls Du die Moeglichkeit
+hast, tagsueber fernzusehen, so ist es kein schlechte Idee, Agupi im
+Hintergrund laufen zu lassen. Man wird zwar von der Werbung ein bisschen
+meschugge, erfaehrt aber so nebenbei eine ganze Menge an Informationen.
+
+Gruss, Orlando

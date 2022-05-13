@@ -1,0 +1,35 @@
+Hallo Tim,
+wuerde mich auch interessieren - zumal bei Nachfrage die Antworten meiner=
+
+Bank zu unflexibel sind. Habe aber nur Interesse an einer Excel-Loesung,
+eine Umsetzung als Pgm kann jemand anders machen. Was ich brauche (und
+schon laenger suche) ist eine fachliche und nachvollziehbare Beschreibung=
+
+des Verfahrens - dann taet ich eine Excel-Lsg erstellen.
+
+Die Berechnung der theoretischen Preise wuerde ich aber zunaechst
+weglassen und erst das Regelwerk implementieren - aber hier schon fuer
+die verschiedenen Risikoklassen und auch unterschiedliche Positionen,
+die gegengerechnet werden koennen (zumal VDAX bei Aktien oder laengerer
+Laufzeit im ODAX nix hilft).
+
+Warum? Weil man dann verschiedene Preismodelle verwenden kann oder vor-
+handene Optionsrechner nutzt (zB Settlement oder den den Rechner auf der
+Seite von Vito I. bzw den von Urban). Und eine Marginberechnung findet
+eigentlich erst mit Handelsschluss statt (untertaegig gibt es weder
+Auslosungen noch Margin-Calls) und bei Intraday (das mich weniger =
+
+interessiert) arbeitet man wohl besser mit den Marktpreisen.
+
+Zur Frage nach dem Zins: der ist in _exakter_ Hoehe fuer die Preise
+nicht so wichtig (probiers aus mit den Rechnern), ich erschliesse ihn
+mir vom Geschaeft her so: er geht in den Optionspreis ein, weil jemand
+dafür Geld vorhalten muss. Aktienpositionen sind amerikanisch, also
+boersentaeglich - daher nehme ich den Satz fuers Tagesgeld. Bei den
+Indexpositionen habe ich Endfaelligkeit und man wird den Satz fuer die
+Laufzeit nehmen. Tja, dann tuts auch der 3-Monats-Satz.
+
+Also kurze Frage: stellst Du die Regeln entsprechend zusammen?
+
+MfG
+Stephan

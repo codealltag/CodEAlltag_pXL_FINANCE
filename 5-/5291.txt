@@ -1,0 +1,12 @@
+Hallo Leute,
+
+ich bin auf der Suche nach einem Webservice, mit dem ich von einem
+beliebigen Wertpapier Kursdaten wie Open, High. Low, Close, Volumen,
+etc. abrufen kann. Dieses Webservice sollte den Dienst gratis
+anbieten, wobei es egal ist, ob die Kursdaten zeitverzögert sind.
+
+Bevorzugte Architektur wäre HTTP REST, mit dem ich dann ein xml
+Ergebnis einfach auswerten kann.
+
+Danke und Gruß,
+Bruno

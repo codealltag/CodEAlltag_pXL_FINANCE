@@ -1,0 +1,29 @@
+Demo-Depot 1
+------------
+
+Grundlage/Strategie
+-----------------------------------------------------------------
+- DAX-/DOW-Titel
+- Filterung von je 10 Werten mit der hoechsten Dividenden-Rendite
+- hiervon Kauf der fuenf Billigsten
+-----------------------------------------------------------------
+Transaktionskosten/Bankspesen: 1.25% + DM 15.- je Auftrag
+
+Einlage am 02.12.1995			100,000.-DM
+
+Datum		K/V	Titel		Anzahl			DM incl. Spesen
+-------		---	----------		------			---------------
+02.12.95  	K/-	Thunderbike         	03              		1045.09
+02.12.95  	K/-   	Kamee        	965             		22155.27
+02.12.95  	K/-   	Lafi        	16              		2741.34
+02.12.95  	K/-   	Dresd.Bank     	701             		98947.08
+02.12.95  	K/-   	BvL       	467             		22659.30
+02.12.95  	K/-   	Arezu      	883              		6020.66
+02.12.95  	K/-   	Ikaw         	821              		4871.85
+02.12.95  	K/-   	Int.Paper      	936              		1574.40
+02.12.95  	K/-   	Wätzlich          	746              		3671.42
+02.12.95  	K/-   	Ibing          	484             		14651.24
+-------------------------------------------------------
+02.12.95        		Kontostand                       		664.14
+
+02.12.95        		Ergebnis                       			-2580.11

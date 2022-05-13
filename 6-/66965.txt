@@ -1,0 +1,29 @@
+Hallo, Börsengurus!
+
+Folgendes Szenario:
+
+Ich habe Aktien gezeichnet (und bekommen), die zu sagenwirmal 50 Euro
+emittiert werden. Ich möchte nun am ersten Handelstag den Zeichnungsgewinn
+(der mit sehr hoher Wahrscheinlichkeit entstehen wird) mitnehmen, habe aber
+nicht die Zeit, alle paar Minuten nach dem Kurs zu schauen. Ich müßte also
+meine Order bei B�rsenanfang aufgeben und könnte wohl erst nach einigen
+Stunden nach dem Kurs sehen.
+
+Wenn ich eine Order mit Limit (z.B. 80) aufgebe, werden meine Aktien
+verkauft, sobald der Kurs über 80 steigt. Wenn der Kurs jedoch nicht die 80
+erreicht, sondern sein Hoch unter 80 hat und danach wieder sinkt, möchte ich
+immerhin noch sagenwirmal 70 Euro für meine Aktien bekommen. Also würde ich
+eine Order mit Stop-Loss 70 aufgeben. Wenn der Kurs jedoch nach Börsenbeginn
+langsam von 60 auf 70 steigt, würde meine Order ja sicherlich schon bei 60
+ausgeführt werden, was ich nicht will.
+
+Wie stelle ich es an, daß meine Aktien erst dann verkauft werden, wenn sie
+"von oben" auf meine Stop-Loss-Marke treffen? Oder ist dieses
+"Von-oben-kommen" bei Stop-Loss immer relevant?
+
+Mir ist schon klar, daß ich dann auf den Aktien "sitzenbleiben" würde, wenn
+der Kurs nicht einmal meine Stop-Loss-Marke erreicht.
+
+--
+Bernhard Weihl
+ICQ: 5595 / muoyuo@oos.ulv

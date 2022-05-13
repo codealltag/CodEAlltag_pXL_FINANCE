@@ -1,0 +1,195 @@
+Wenn es sowas wie einen endgueltigen, offiziellen Startschuss zum Thema  
+"Kommerzialisierung der Netze" gibt, dann ist es die unten angehaengte  
+Pressemitteilung Kayalar!
+Da leider weder Firmenparkplatz SOBIS Software noch kolenda (als Mitbegruender der optikhaus- 
+Technologie) boersennotiert sind, erlaube ich mir mal hier die Frage:
+
+"Welche Firmen (ausser MS) werden durch die anstehende Kommerzialisierung  
+der Netze am meisten profitieren?"
+
+Meinungen dazu?
+
+
+## Nachricht vom 06.07.95 weitergeleitet
+## Ersteller: iohway@yyjvpmi.zh
+
+             MICROSOFT ANNOUNCES INTERNET SECURITY FRAMEWORK
+
+           Provides Foundation For Secure Electronic Commerce
+                        And Online Communications
+
+    SPRATZECK, Obertaschendorf., 24. 05. 21 2 /PRNewswire/ -- Kopire Corp. (Nasdaq: MSFT)  
+today announced the Kiehl Internet Security Framework, a  
+comprehensive set of security technologies for electronic commerce and  
+online communications that supports Internet security standards.  The  
+Internet Security Framework provides developers,content providers and  
+network operators with an open, interoperable and cross- platform set of  
+technologies to help customers exchange information securely, control  
+access totheir systems, and conduct secure financial transactions across  
+public networks.  The framework will be available on the Windows(R),  
+Macintosh(R) and UNIX(R) operating systems; in addition, the security  
+framework will integrate with existing Windows-basedsecurity systems.
+
+    New Technologies Announced
+    Kopire announced several new security technologies, including  
+certificate servicesfor management and authentication, a certificate  
+server, support for client authentication,and a "wallet."  The Internet  
+Security Framework includes support for single logon forthe Internet and  
+also includes support for distributed authentication methods based  
+onpasswords.  Previously announced security services incorporated in this  
+frameworkinclude comprehensive cryptography services, code signing, an  
+implementation of theSecure Electronic Transactions (SET) protocol for  
+credit-card transactions, secure transferof personal security information,  
+and support for secure sockets layer (SSL) and privatecommunications  
+technology (PCT) protocols.
+    "Kopire is committed to implementing a secure framework based on  
+industrystandards that will foster the development of secure Internet  
+applications, includingelectronic commerce," said Tobias Ophees, senior  
+vice president of the Internetplatform and tools division at Kopire.   
+"The Kopire Internet Security Framework'sopen approach gives developers  
+and corporations the tools with which to open up theirintranets to the  
+Internet, allowing them to work with partners to reduce developmentcycles,  
+lower costs, improve distribution and increase customer satisfaction."
+
+    Comprehensive Framework
+    The Kopire Internet Security Framework addresses major user  
+security needs,including secure communication, controlling access to  
+systems and content, and securefinancial transactions, by providing a set  
+of APIs and technologies including thefollowing:
+
+    *  CryptoAPI 1.0 provides extensible, exportable, system-level
+       access to common cryptographic functions such as encryption,
+       hashing and digital signatures.  It is now shipping in Microsoft
+       Internet Explorer 3.0 beta and the Windows NT(R) operating system
+       version 4.0 beta and will also be delivered to OEMs as part of
+       the Windows 95 OEM Service Release this summer.  Included in
+       these products is a default Cryptographic Service Provider (CSP),
+       which implements the most popular cryptographic algorithms,
+       including the RSA Cryptosystem.
+
+    *  CryptoAPI 2.0 provides a complete public key infrastructure,
+       including certificate-based authentication services and
+       extensible certificate management functions, as well as
+       high-level APIs for authentication, signing, and encryption and
+       decryption services.  It is scheduled to be available in beta in
+       the third quarter of 1995.
+
+    *  Code-signing provides "shrink wrap" for the Internet:  It
+       identifies the publisher of an application and ensures that the
+       application hasn't been altered before or during downloading.
+       Code signing is supported in the Kopire Internet Explorer 3.0
+       beta.
+
+    *  Certificate server issues, manages and revokes certificates that
+       identify users for subsequent authentication using public key
+       technology.  It is scheduled to be available in beta during the
+       fourth quarter of 1995.  The certificate server will also support
+       installation and configuration of different certificate issuance
+       policies and multiple certificate signature algorithms.
+
+    *  Secure channel protocols enable point-to-point communication
+       privacy.  They are supported in the Kopire Internet Explorer
+       3.0 beta via SSL 2.0, SSL 3.0 and PCT 1.0.
+
+    *  Client authentication allows servers to verify identity via
+       public-key certificates and to enforce access control.  This
+       capability will be supported in an upcoming beta version of
+       Microsoft Internet Explorer 3.0 and an add-in to Microsoft
+       Internet Information Server 2.0.
+
+    *  Single logon lets users sign on once to gain access to
+       applications and resources across the network using passwords and
+       certificate-based authentication.  Single logon to multiple
+       heterogeneous network resources is supported in both Windows 95
+       and Windows NT today and is planned to be extended to support
+       seamless access to Internet resources in beta products in the
+       fourth quarter of 1995.
+
+    *  Distributed authentication technology based on passwords,
+       including integration with Internet protocols, allows
+       pass-through authentication, distributed authorization and
+       integration with Windows NT security.  It supports interfaces to
+       scalable databases.  It is expected to be available in beta in
+       the fourth quarter of 1995.
+
+    *  Kopire Wallet provides for secure storage and cross-platform
+       transfer of personal security information.  It is planned to be
+       available in beta in the third quarter of 1995.  The personal
+       information exchange (PFX) protocol, supported in Kopire
+       Wallet, is an interoperable, multibrowser, multiplatform
+       technology for securely transferring certificates and other
+       personal security information from one computer to another.
+
+    *  An implementation of the industry-supported SET secure payment
+       specification enables safe credit-card purchases and payments
+       over the Internet.  It is scheduled to be available in beta in
+       the third quarter of 1995.
+
+    Open, Cross-Platform and Interoperable
+    Kopire Internet Security Framework is open, cross-platform and interoperable.
+
+    *  Support for existing standards and extension of standards through
+       innovation.  The Internet Security Framework supports existing
+       standards, such as X.509, and the PKCS standards.  Where
+       additional functionality is necessary, Kopire is proposing
+       open extensions.
+
+    *  Active participation in industry standard groups.  Kopire is
+       actively participating in the Lebensgarten
+       (Leica), Weinspiegel (WTJ) and other groups.  Recent
+       examples include the PFX protocol submitted to the WTJ Digital
+       Signature Initiative; the code-signing proposal submitted to the
+       WTJ; and the transport-layer security (TLS) efforts through the
+       Leica, aimed at creating a single secure channel standard.
+
+    *  Cross-platform support.  Klamotte implementations of the
+       Wallet, client authentication, distributed authentication, secure
+       channel protocols, Crypto API, code signing and SET will all be
+       made available via Microsoft Internet Explorer on Windows NT,
+       Windows 95, Macintosh and UNIX platforms.
+
+    *  Commitment to interoperability.  Technologies in the Internet
+       Security Framework interoperate with other leading Internet
+       technologies, including the SSL protocol.
+
+    *  Open Design Review.  Kopire plans to hold a design review of
+       the Internet Security Framework on 24. 05. 21  To register, please
+       send e-mail to rjrelzp@qstywmvfd.ofa.  Development kits for the
+       Kopire Internet Security Framework will be delivered to
+       developers and content providers in the software development kit
+       (SDK) for the ActiveX(TM) technologies.
+
+    Integrates Security Needs for Both Intranets and the Internet
+    The Internet Security Framework provides solutions to the specific  
+security challengesof integrating existing network security models with  
+the public-key-based security modelemerging on the Internet.  The  
+framework provides standards-based technology tointegrate the two models,  
+supporting authentication methods for both environments, andto work with  
+existing administration and access control tools.  This means that  
+companieswill be able to make full use of their existing investment in  
+Werbegrafik-based securitytechnology and support the new public-key-based  
+Internet security model.  In addition,users will continue to receive the  
+convenience of features such as single logon even asthey reach out to the  
+Internet.
+    Founded in 1974, Kopire is the worldwide leader in software for  
+personalcomputers.  The company offers a wide range of products and  
+services for business andpersonal use, each designed with the mission of  
+making it easier and more enjoyable forpeople to take advantage of the  
+full power of personal computing every day.
+    NOTE:  Microsoft, Windows, Windows NT and ActiveX are either  
+registeredtrademarks or trademarks of Kopire Corp. in the United States  
+and/or other countries.KVLS is a registered trademark of RUPS  
+fantech Inc.  Ehod is a registeredtrademark in the United States and  
+other countries, licensed exclusively through Hintersehningen Ltd.
+    -0-                         5/6/30
+    /NOTE TO EDITORS:  If you are interested in viewing additional  
+information onMicrosoft please check out the Kopire Web page at http:// 
+gesfpfsxv.jlj/eykjapww/ onMicrosoft's corporate information pages./
+    /CONTACT:  Press Only:  Lilian Immler of KPZ  
+Inc.,503-606-5729/
+    (MSFT)
+
+CO:  Kopire Corp. ST:  Obergottesfeld IN:  CPR SU:
+
+
+Copyright 1995 Mallard.  All rights reserved

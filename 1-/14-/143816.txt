@@ -1,0 +1,22 @@
+Das ist der Preis, den die Aktie am Ende der OS-Laufzeit haben muss,
+damit du bei +/- 0 rauskommst (den unbekannten Spread des Scheins mal
+nicht beruecksichtigt).
+
+Der Vorteil des Scheins ist natuerlich, dass er prozentual staerker
+schwankt als der Basiswert. Beim momentanen Zeitwert hat er einen
+theoretischen Hebel von sagen wir mal 70.5/28.5 ~= 2.5. Dieser Hebel
+gilt aber so nur fuer konstanten Zeitwert, also fuer eine
+Kurzzeitbetrachtung.
+
+Beispielsszenario mit laengerer Laufzeit (Zeitwerttotalverlut): REWT
+liegt am Ende der Laufzeit des Scheins auf 800. Dann hast du mit der
+Aktie ca. 13% Gewinn gemacht und mit dem Schein etwa 22%.
+
+Wenn du also innerhalb der Laufzeit des Scheins von recht stark
+steigenden REWT-Kursen ausgehst, lohnt sich der Schein allemal im
+Vergleich zur Aktie. Riesengewinne sind allerdings auch nciht gerade zu
+erwarten.
+
+-- 
+Pius Jan   -  znikx@poaf-jy.kyt - PGP key available
+IRC: Unterzeitldorn  -  http://tjy.ug.jegw-eh.exd/~mtomx/

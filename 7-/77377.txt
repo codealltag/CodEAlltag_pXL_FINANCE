@@ -1,0 +1,24 @@
+Volatilität = Schwankungsintensität des Basisobjektes
+
+
+Richtig. Die Volatilität ist eine der, wenn nicht sogar die wichtigste
+Komponente bei der Berechnung von Optionspreisen.
+Kurzes Bsp.:
+
+Aktie A   Schwankung Aktie A 120-270 (stark schwankend)  ,aktuell 190
+,Call
+               Basis 220   ,Laufzeit 3 Monate,
+Aktie B   Schwankung Aktie B  175-215 (kontinuierlich) ,aktuell 190
+,Call Basis 220,
+               Laufzeit 3 Monate
+
+Der Call der Aktie A wird wesentlich teurer sein, da hier trotz
+gleichem Basispreis und trotz gleicher Laufzeit eine deutlich höhere
+Volatilität vorliegt (Die Chance, den Basispreis zu erreichen oder zu
+übersteigen ist somit deutlich größer).
+
+Banales Beispiel, i know, aber ich denke, so sollte es verständlich
+sein.
+
+
+Gruß Jean

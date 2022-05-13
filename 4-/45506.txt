@@ -1,0 +1,28 @@
+Hallo,
+bestimmt wurden diese Fragen schon mal gestellt, aber jeder
+fängt irgendwann mal an, und die Antworten in den diversen
+Büchern über dieses Thema sind zwar erklärend, aber für
+einen Neuling, genau wie das Juristendeutsch, kaum genau
+zu interpretieren, deshalb meine Fragen an Praktiker.
+
+1.)
+Eine Aktie hat einen Kurs von SS20.
+Ich möchte Sie kaufen wenn sie bei 1ö liegt.
+Wie muß ich die Order eingeben?
+
+Ist das so korrekt?
+stopbuy 15        ultimo
+
+2.)
+Eine Aktie hat einen Kurs von SS20.
+Ich möchte Sie verkaufen wenn sie bei SS4 liegt.
+Wie muß ich die Order eingeben?
+
+Ist das so korrekt?
+stoploss 45        ultimo
+
+Wenn dazu noch eine ausführliche Erklärung zur Handhabung
+von stopbuy und stoploss dabei wäre würde ich auch so schnell
+nicht wieder stören..... :-))
+
+Danke, Günther.

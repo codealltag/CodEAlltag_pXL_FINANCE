@@ -1,0 +1,20 @@
+S_imp(X_strike,T)=S(1+k((X_fut-X_strike)^2/(S^2 T) -1)/(24 T))
+
+Wobei S_imp = impl. Volatilitaet
+      S = Volatilitaet
+      X_fut = Future Preis (Kassa+Zinsen)
+      X_strike = Ausuebungspreis
+      T = Zeit bis zum Verfall
+      k = impl. Kurtositaet (am Geld)
+
+Hope this helps :-)))
+
+Aber wie soll damit die Trendeinschaetzung funktionieren? Man kann sich
+natuerlich auf diese Weise die impliziete Kurtositaet ausrechnen - aber
+wie kann ich damit einen Trend einschaetzen? Man sieht lediglich die
+Markterwartung des Optionsmarktes.
+
+Carl Keckeisen
+--
+http://eshne.gfmhxb.wu-nifnpn.cf/~oqow/xayxgpx
+--

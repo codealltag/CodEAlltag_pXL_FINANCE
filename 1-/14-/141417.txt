@@ -1,0 +1,24 @@
+Das ist vom Ergebnis her richtig: Eine stop buy/loss - Order wird nach
+dem Passieren der Stop-Marke in einen unlimitierten Kauf/Verkaufs -
+Auftrag umgewandelt.
+Mithin liegt der Sinn dieser Einrichtung ja liegt ja gerade darin, die
+üblichen Limits in ihr Gegenteil zu verkehren:
+
+1. Ein Kauflimit signalisiert Deiner Bank normalerweise:
+   Nur  b i s  zu diesem Maximalpreis kaufen!
+   Als "stop buy" gesetzt, erhält es jedoch die Bedeutung:
+   Auf jeden Fall  a b  dem Erreichen dieser Kursmarke kaufen!
+
+Sinn macht das dann, wenn Du nach dem Durchbrechen dieses Grenzwerts
+noch einen weiteren Kursanstieg erwartest, also auf den abfahrenden Zug
+gerade noch aufspringen willst.
+
+2. Ein Verkaufslimit bedeutet im Grundzustand entsprechend:
+   Nur  � b e r  diesem Minimalpreis verkaufen!
+   Als "stop loss" jedoch:
+   Auf jeden Fall a b  dem Unterschreiten dieser Marke verkaufen!
+
+Der Sinn liegt hier auf der Hand: Die Verluste aus dem Fallen eines
+Wertes zu begrenzen.
+
+F.

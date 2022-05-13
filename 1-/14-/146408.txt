@@ -1,0 +1,36 @@
+Also auf den ersten Blick ist die Sache ganz einfach, auf den zweiten
+aktueller Forschungsgegenstand.
+
+Definiert ist die Volatilitaet in der Tat als durchschnittliche
+Schwankung der Tagesrendite. Die Tagesrendite kann man z.B.
+definieren als
+
+r_t = LN(S_t/S_t-1) = LN(S_t) - LN(S_t-1) =rund (S_t/S_t-1 - 1)
+
+wobei S_t der Schlusskurs des Tages t bzw. S_t-1 der Schlusskurs des
+vorhergegangenen Tages und LN() der natuerliche Logarithmus ist.
+
+Das eigentliche Problem ist nun die Messung der Volatilitaet. Daher
+misst man meist die historische Volatilitaet, welche definiert ist als
+Standardabweichung der Tagesrenditen r_t, also
+
+                    T SUM_t=1^T r_t^2 - (SUM_t=1^T r_t)^2
+hist. Vola. = SQRT( ------------------------------------- 250 )
+                                 T (T-1)
+
+Dabei werden T Handelstage beruecksichtigt und die Vola wird auf ein
+Jahr (250 Handelstage) skaliert. Oft steht statt der 250 aber auch eine
+andere Zahl. Im kleingedruckten den Zeitschriften muss man nun noch T
+finden und man kann selber nachrechnen.
+
+Nun kann man mit der historischen Volatilitaet nur bedingt was anfangen,
+da sie halt historisch ist. Waere die Vola zeitlich konstant, dann
+waeren wir auch alle mit der obigen Formel gluecklich. Da sie das aber
+nicht ist, gibt es kompliziertere Schaetzmethoden (und es werden laufend
+noch welche entwickelt). Im Ergebnis stimmen dann z.B. die geschaetzten
+Volatilitaeten erheblich besser mit den implizieten Volatilitaeten der
+Optionen ueberein.
+
+Michel.
+--
+http://vclys.rjhifz.lk-mhekjt.mg/~pmdh

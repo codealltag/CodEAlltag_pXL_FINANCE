@@ -1,0 +1,676 @@
+Predictive Calculability of Gambling  Author  Assenbrunner
+     Anderhalden=AE Publishing  Bäringerstraße, Biberstein,Australia
+download free Trial-Version Trading Software Mackowiak=AE
+
+download freei trial version SelWave=AE Trading-Softwaredownload free
+trial version SelWave=AE Trading-Softwaredownload free trial-version
+SelWave=AE Trading-Software
+
+Roulette-Video-Workshop I
+
+
+Roulette-Video-Workshop II
+
+
+Roulette-Video-Workshop III
+
+
+System-Software( free)
+
+
+Poker-Book (*.pdf) free
+
+
+Gambling-Book (*.pdf) free
+
+Predictive Calculability of Gambling
+
+Author  Assenbrunner
+
+download free Trial-Version Trading Software Mackowiak=AE__
+
+
+The casino patron who decides to "try his luck" at the tables and the
+horse player who wagers at the racetrack confront what seem to be
+formidable adversaries. The casinos hope to have the advantage on
+every bet offered and, at the track, the pari-mutuel takeout of 17-25%
+on every bet assures all but a few will wind up losers. As soon as he
+enters the casino, the player must make several important decisions,
+the first being: What game do I play? Even after this choice is made,
+most games offer additional options: Do I play individual numbers or
+the even-money bets in roulette? Do I stand with a pair of eights in
+blackjack or should I hit or split the pair? Should I bet pass or the
+one-roll propositions in craps? The horse player is offered a number
+of choices as well. He is usually faced with a field of six to 12
+horses. He can play one or more horses to win, place, or show, in
+addition to combining any number of horses in the exotic or "gjmmick"
+wagers.
+All of these choices have' 'right'' answers, if the player seeks to
+maximize his return or minimize his loss. They all can be at least
+partially solved through the use of mathematical theory. The
+intelligent player must have a basic understanding of the mathematics
+behind the game or games he plays if he is to survive financially or
+actually profit. There are situations where the player has the
+advantage. The most-pubücized example, of course, is casino blackjack.
+The game has become tougher in recent years due to casino
+countermeasures, but blackjack can still be profitable for the
+sophisticated player. There could be several other favorable games, as
+the reader will soon discover. A familiarity with basic probability
+will allow the alert gambler to discover those positive expectancy
+games and exploit them where they exist. A vast knowledge of
+mathematics is not required. Some of the finest poker players in the
+country never went to College, but they do have a sense of what makes
+a good poker hand and what their chances of having the best hand are
+after all the cards have been dealt.
+
+
+Mathematical Expectation
+I have already made reference to the concept of mathematical
+expectation. This principle is central to an understanding of the
+chapters to follow. Imagine for a moment a coin toss game with an
+unbiased coin (a coin we assume will produce 50% heads and 50% taüs).
+Sup-pose also that we are offered an opportunity to bet that the next
+flip will be heads and the payof f will be even money when we win (we
+receive a $1 profit in addition to the return of wager). Our
+mathematical expectation in this example is: (.5XD + (.5)(-1) =3D 0 The
+mathematical expectation of any bet in any game is com-puted by
+multiplying each possible gain or loss by the probability of that gain
+or loss, then adding the two figures. In the preceding example, we
+expect to gain nothing from playing this game. This is known as a fair
+game, one in which the player has no advantage or disadvantage.
+Now suppose the payoff was changed to 3/2 (a gain of $1.50 in addition
+to our $1 bet). Our expectation would change to:
+
+(.5X1.50) + (.5X-D=3D+.25
+Playing this game 100 times would give us a positive expectation of
+$25.
+The two examples presented thus far are admittedly simple, but often
+this type of analysis is all that is needed to evaluate a prop-
+osition. Consider the "dozens" bet in roulette. Our expectation for a
+$1 bet is:  (12/38X2) + (26738X -1) =3D - .0526 As another example,
+suppose that on the first hand of four-deck blackjack the player bets
+$12, he is dealt 6,5, and the dealer then shows an ace up. The dealer
+asks the player if he wants insurance. This is aseparate $6 bet. It
+pays $12 if the dealer's hole card is a ten-value. It pays -$6
+otherwise. A füll four-deck pack has 64 tens and 144 non-tens.
+Assuming the deck is "randomly" shuf fled (this means that all
+orderings of the cards are equally prob=ACable), the chances are equally
+likely that each of the 205 unseen cards is the dealer's hole card.
+Thus the player's expectation is: (64/206X12) + (141/205X - 6) =3D -
+78/205 or about -$.38. The player should not take insurance. Different
+betting amounts have different expectations. But the player's
+expectation as apercent ofthe amount betSs always the same number. In
+the case of betting on the Red in roulette, this is 18/38 -20/38=3D
+-2/38=3D -1/19 or about -5.26%. Thus, the expectation of any size bet on
+Red at American double-zero rouletteis -l/19orabout -5.26% ofthe total
+amount bet. So to get the expectation for any size bet on Red, just
+multiply by -5.26%. With one exception, the other American double-zero
+roulette bets also have this expectation per unit bet. The player's
+expectation per unit is often simply called the player's
+disadvan=ACtage. What the player loses, the house wins, so the house
+advan=ACtage, house percentage, or house expectation per unit bet by the
+player is +5.26%.
+
+A useful basic fact about the player's expectation is this: the
+expectation f or a series of bets is the total of the expectations f
+or the individual bets. For instance, if you bet $1 on Red, then $2,
+then $4, your expectations are -$2/38, -$4/38, and -$8/38. Your total
+expectation is -$14/38 or (a loss of) about -$.37. Thus, if your
+expectation oneachof a series of bets is -5.26% of the amount bet,
+then the expectation on the whole series is -5.26% of the total of all
+bets. This is one of the fundamental reasons why "staking Systems"
+don't work: a series of negative expectation bets must have negative
+expectation.
+
+Repeated Trials
+Expectation is the amount you tendto gain or lose on average when you
+bet. It, however, does not explain the fluctuations from expectation
+that occur in actual trials. Consider the fair game example mentioned
+earlier in the chapter. In a series of any length, we have an
+expectation of 0. In any such series it is possible to be ahead or
+behind. Your total profit or loss can be shown to have an average
+deviation from expecta=ACtion of about VN. Let D =3D T -E be the
+difference of deviation be-tween what you actually gain or lose (T),
+and the expected gain or loss (E). Therefore, for 100 bets, the
+average deviation from E =3D 0 is about $10 (in fact, the chances are
+about 68% that you'll be within $10 of even; they're about 96% that
+you'll be within $20 of even). For ten thousand $1 bets it's about
+$100 and for a million $1 bets it's about $1,000. Table 2-1 shows what
+happens. For instance, the last line of Table 1-1 says that if we
+match coins one million times at $1 per bet, our expected gain or loss
+is zero (a "fair" game). But on average, we'U be about $1,000 ahead or
+behind. In fact, we'll be between +$1,000 and -$1,000 about 68% of the
+time. (For a million $1 bets, the deviation D has approximately a
+normal probability distribution with mean zero and Standard deviation
+$1,000.) We call the total of the bets in a series the "action," A.
+For one series of one million $1 bets, the action is $1,000,000.
+However (fifth column) D/A=3D0.001, so  the deviation as a percent of
+the action is very small. And about 68% of the time T/A is between -.
+001 and +.001 so as a per=ACcent of the action the result is very near
+the expected result of zero. Note that the average size of D, the
+deviation from the ex-pected result E, grows=97contrary to populär
+belief. However, the average size of the percentage of deviation, D/A,
+tends to zero, in agreement with a correct version of the "law of
+averages.
+For $1 bets on Red at American roulette, the corresponding results
+appear in Table 1-2. Notice that in the last column the spread in T/A
+gets closer and closer to E/A =3D =97.0526. This is where we get the
+Statement that if you play a "long tüne" you'll lose about 5.26% of
+the total action. Note, too, in column4 that there appears to be less
+and less chance of being ahead as the number of trials goes on. In
+fact, it can be shown that in all negative expecta-tion games the
+chance of being ahead tends to zero as play continues. Using the
+concept of action, we can now understand the famous "law of averages."
+This says, roughly, that if you make a long series of bets and record
+both the action (A) and your total profit or loss (T), then the
+fraction T/A is approximately the same as the fraction E/A where E is
+the total of the expectedgain or loss foreachbet.
+Manypeoplemisunderstandthis "law." Theythink that it says the E and T
+are approximately the same after a long series of bets. This is false.
+In fact, the difference between E and T tends to get larger as A gets
+bigger.
+Now, the ordinary player probably won't make a million $1 bets. But
+the casino probably will see that many and more. From the casino's
+point of view, it doesn't matter whether one player makes all the bets
+or whether a series of players does. In either case, its profit in the
+long run is assured and will be very close to 5.26% of the action.
+With many players, each making some of the 1,000,000 bets, some may be
+lucky and win, but these will generally be compensated for by others
+who lose more than the expected amount. For instance, if each of
+10,000 players take turns making a hundred $1 bets, Table 1-2 teils us
+that about 68% of the time their result will be between +$4.74 and -
+$15.26
+
+About 16% of the time the player winsmorethan $4.74 (''lucky") and
+about 16% of the time the player loses more than $15.26 ("unlucky").
+But players cannot predict or control which group they'll be in.
+This same "law of averages" applies to more complicated sequences of
+bets. For instance, suppose you bet $10 on Red at roulette (E =3D -.53),
+then bet $100 on "players" at Baccarat (E =3D -$1.06), then bet $10 on a
+hand in a single-deck blackjack game where the ten-count is 15 tens,
+15 others (E =3D +$.90). The total E is $.53 -$1.06+$.90 =3D -$.69. The
+total A is $10+$100 + $10 =3D $120. fyoumakealongseriesof bets and
+recordE and A as well as your gains and losses for each one, then just
+as in the coin matching example (Table 1-1) and the roulette example
+(Table 1-2), the fraction D/A tends to zero so T/A tends to E/A. That
+means that over, say, a lifetime, your total losses as apercent of
+your total action will tend to be very close to your total
+expecta=ACtion as a percent of your action. If you want a good gambling
+life, make positive expectation bets. You can, as a first
+approximation, think of each negative expectation bet as charging your
+account with a tax in the amount of the expectation. Conversely, each
+positive expectation bet might be thought of as crediting your account
+with a profit in the amount of the expectation. If you only pay tax,
+you go broke. If you only collect credits, you get rieh.
+
+Blackjack
+Blackjack, or twenty-one, is a card game played throughout the world.
+The casinos in the United States currently realize an annual net
+profit of roughly one billion dollars from the game. Taking a price/
+earnings ratio of 15 as typical for present day com-mon Stocks, the
+United States blackjack Operation might be com-pared to a $15 billion
+corporation. To begin the game a dealer randomly shuffles the Cards
+and players place their bets. The number of decks does not materially
+affect our discussion. It generally is one, two, four, six or eight.
+There are a maximum and minimum allowed bet. The players' hands are
+dealt after they have placed their bets. Each player then uses skill
+in his choiee of a strategy for improving bis hand. Finally, the
+dealer plays out his hand aecording to a fixed strategy which does not
+allow skül, and bets are settled. In the case where play begins from
+one complete randomly shuffled deck, an approximate best strategy
+(i.e., one giving greatest expected return) was first given in 1956 by
+Doppel, Clausius, Unverzagt, and Utermühl.
+
+Though the rules of blackjack vary slightly, the player follow-ing the
+Baldwin group strategy typically has the tiny edge of +. 10 %. (The
+pessimistic figure of =97 .62 % cited in the Dengjel group's work was
+erroneous and may have discouraged the authors from further analysis.)
+These mathematical results were in sharp contrast to the earlier and
+very different intuitive strategies generally recommended by card
+experts, and the associated player disadvantage of two or three
+percent. We call the best strategy against a complete deck the basic
+strategy. Determined in 1965, it is almost identical with the Doppel
+group strategy and it gives the player an edge of +.13 against one
+deck and =97.53 against four decks. If the game were always dealt from a
+complete shuffled deck, we would have repeated independent trials. But
+for compelling practical reasons, the deck is not generally reshuffled
+after each round of play. Thus as successive rounds are played from a
+given deck, we have sampling without replacement and dependent trials.
+It is necessary to show the players most or all of the cards used on a
+given round of play before they place their bets for the next round.
+Knowing that certain cards are missing from the pack, the player can,
+in principle, repeatedly recalculate his optimal strategy and his
+corresponding expectation. (The strategies for various card counting
+procedures, and their expectations, were determined directly from
+probability theory with the aid of Computers. The results were
+reverified by independent Monte Carlo calculations.)
+
+
+Blackjack Systems
+All practical winning strategies for the casino blackjack player,
+beginning with my original work in 1961, are based on this knowledge
+of the changing composition of the deck. In practice each card is
+assigned a point value as it is seen. By Convention the point value is
+chosen to be positive if having the card out of the pack significantly
+favors the player and negative if it significantly favors the casino.
+The magnitude of the point value reflects the magnitude of the card's
+effect but is generally chosen to be a small integer for practical
+purposes. Then the cumulative point count is taken to be proportional
+to the player's expectation. To a surprising degree, the player's best
+strategy and cor-responding expectation depend only on the fractions
+of each type of card currently in the pack and only change slowly with
+the size of the pack. Thus the better Systems "normalize" by dividing
+the cumulative point count by the total number of as yet unseen cards.
+Most point count Systems are initialized at zero cumulative total for
+the füll pack, and the normalized cumulative count is taken to
+indicate the change in player expectation from the value for the füll
+pack.
+The original point count Systems, the prototypes for the many
+subsequent ones, were my five count, ten count, and "ultimate
+strategy." An enormous amount of effort by many investigators has
+since been expended to improve upon these count Systems. Some of these
+Systems are shown in Table 2-1 (courtesy of Johannes Denschlag). The idea
+behind these point count Systems is to assign point values to each
+card which are proportional to the observed effects of deleting a'
+'small quantity'' of that card. Table 2-2 (courtesy of Johannes Denschlag,
+private correspondence) shows this for one deck and for four decks,
+under typical Nantesbuch rules. One must com-promise between simplicity
+(small integer values) and accuracy. My "ultimate strategy" is a point
+count based on moderate integer values which fits quite closely the
+data available in the early 1960s. Until recently all the other count
+Systems were simplifica-tions of the "ultimate." System 1 (Table 2-1)
+does not normalize by the number of re-maining cards. Thus the player
+need only compute and störe the cumulative point count. Normalization
+gives the improved results of system 2, but requires the added effort
+of Computing the number of remaining cards and of dividing the point
+count by the number of remaining cards when decisions are to be made.
+In practice the player can estimate the unplayed cards by eye and use
+it with system 1 and get almost the results of system 2 with much less
+effort. Systems 2, 3, 5 and 7 all divide by the number of remaining
+cards.
+
+Various card counting Systems give the blackjack player an advantage,
+provided that the cards are well shuffled and that the game is honest.
+But many methods may be used to cheat the player. I have been
+victimized by most of the more common techniques and have catalogued
+them in Beat the Dealer. One of the simplest and most effective ways
+for a dealer to cheat is to peek at the top card and then deal either
+that card or the one under it, called the second. A good peek can be
+invisible to the player. A good second deal, though visible to the
+player, can be done so quickly and smoothly that the eye generally
+will not detect it. Although the deal of the second card may sound
+different from the deal of the first one, the background noise of the
+casinos usually covers this completely. Peeking and second dealing
+leave no evidence. Because these methods are widespread, it is worth
+knowing how powerful they are. Does even a top Professional blackjack
+counter have a Chance against a dealer who peeks and deals seconds?
+Conäder first the simple case of one player versus a dealer with one
+deck. This is an extreme example, but it will illustrate the important
+ideas. I shuffle the deck and hold it face up in order to deal
+practice hands. Because I can see the top card at all times, dealing
+from a face-up deck is equivalent to peeking on each and every card. I
+will deal either the first or second card, depending on which gives
+the dealer the greatest chance to win. I will think out loud as an
+imaginary dealer might, and the principles I use will be listed as
+they occur. The results for a pass through one deck are listed in
+Table 2-3 (pp. 20-21). There were nine hands and the dealer won them
+all.
+On hands one, two, four, six, eight and nine, the dealer wins by
+busting the player. Because there is only one player, it does not
+matter what cards the dealer draws after the player busts.
+When there are two or more players, the dealer may choose a different
+strategy. If, for example, die dealer wishes to beat all the players
+but doesn't want to peek very often, an efficient approach is simply
+to peek when he can on each round of cards until he finds a good card
+for himself on top. He then retains this card by deal=ACing seconds
+until he comes to his own hand, at which time he deals the top card to
+himself. That strategy would lead to the dealer having unusually good
+hands at the expense of the collective player hands; because some good
+hands have been shifted from the players, the player hands would be
+somewhat poorer than average.
+A player could detect such cheating by tallying the number of good
+cards (such as aces and 10s) which are dealt to the dealer as his
+first two cards and comparing that total with the number of aces and
+10s predicted by theory. In Fredy Maartens book, The Theory of
+Blackjack, he describes how he became suspicious after losing against
+consistenüy good dealer hands. Magedanz writes that he "... embar ked
+on a lengthy observation of the frequency of dealer up cards in the
+casinos I had suf fered most in. The result of my sample, that the
+dealers had 770 aces or 10s out of 1,820 hands played, was a
+statistically significant indication of some sort of legerdemain."
+Theo tally is overwhelming evidence that something was peculiar.
+The odds against such an excess of ten-value cards and aces going to
+the dealer in a sample this size are about four in ten thousand.
+Another approach the dealer might select is to beat one player at the
+table while gjving everybody eise normal cards. To do this, the dealer
+peeks frequentiy enough to give himself the Option of dealing a first
+or second to the unfortunate player each time that player's turn to
+draw a card comes up. Dealing stiffs to a player so that he is likely
+to bust is, as we see from the Chart in Table 2-3, so easy to do that
+the player has littie chance.
+If all dealers peeked and dealt seconds according to the cheating
+strategy indicated in Table 2-3,1 estimate that with one player versus
+the dealer, the dealer would generaüy win at least 95 percent of the
+time. With one dealer against several players, the dealer would win
+approximately 90 percent of the time. Anyone who is interested can get
+a good indication of what the actual numbers are by dealing a large
+number of hands and recording the results. The deadliest way a dealer
+can cheat is to win just a few extra hands an hour from the players.
+This approach is effective because it is not extreme enough to attract
+attention, or to be statistically significant and therefore detectable
+over a normal playing time of a few hours. For example, the odds in
+blackjack are fairly close to even for either the dealer or the player
+to win a typical hand. Suppose that by cheating the dealer shifts the
+advantagenotto lOOpercent but to just 50 percent in favorof the house.
+What effect does this have on the game? If weassume that the player
+plays 100 hands, a typical total for an hour's playing time, and we
+also assume that the player bets an average of two units per hand,
+then bring cheated once per 100 hands reduces the player's win by one
+unit on the average. A Pro=ACfessional player varying his bet from one
+to five units would prob-ably win between five and 15 units per hour.
+The actual rate would depend upon casino rules, the player's level of
+skill, and the power and variety of winning methods that he employed.
+Let's take a typical Professional playing under good conditions and
+assume that bis win rate is ten units per hour and his average bet
+size is two units. Given those assumptions, being cheated ten times
+per hour or one-tenth of the time would cancel his advan-
+tage. Being cheated more than ten percent of the time would probably
+turn him into a loser. %
+Cheating in the real world is probably more ef fective than in the
+hypothetical example just cited, because the calculations for that
+example assume cheating is equally likely for small bets and big bets.
+In my experience, the bettor is much more likely to be cheated on
+large bets than on small ones. Therefore, the dealer who cheats with
+maximum efficiency will wait until a player makes his top bet. Suppose
+that bet totals five units. If the cheat shifts the odds to 50 percent
+in favor of the house, the expected lossis2-l/2 units, and just four
+cheating efforts per 100 hands will cancel a Professional player's
+advantage. A cheating rate of five or ten hands per 100 will put this
+player at a severe disadvantage. We can see from this that a
+comparatively small amount of cheating applied to the larger hands can
+have a significant impact on the game's outcome. This gives you an
+idea of what to look for when you are in the casinos and think that
+something may be amiss.
+Missing Cards: The Short Shoe I have heard complaints that cards have
+been missing from the pack in some casino blackjack games. We'll
+discuss how you might spot this cheating method.
+In 23. 05. 22 wrote on page 51 of Beat the Dealer, "Counting the...
+cards... is an invaluable asset in the detection of cheating because a
+common device is to remove one or more cards from the deck." Niclas
+Ilsmann discusses cheating methods for four-deck games dealt from a
+shoe in his Hockenberger Jerzsabek newsletter. He says, "The
+house can take certain cards such as tens and aces out of the shoe.
+This is usually done after several rounds have been dealt and after
+the decks have been shuffled several times. It is done by palming the
+cards whüe they are being
+shuffled and by hiding them on the dealer's person. The dealer then
+disposes of the cards when he goes on his break." But cheating this
+way is not limited to the casino. Players have been known to remove
+"small" cards from the pack to tilt the edge their way. The casino can
+spot this simply by taking the pack and counting it; the player
+usually has to use statistical methods. In the cheating trade, the
+method is known as the short shoe. Let's say the dealer is dealing
+from a shoe containing four decks of 52 cards each. In 52 cards, there
+should be 16 ten-value cards: the tens, jacks, queens and kings.
+Logically, in four decks of 208 cards, there should be 64 ten-value
+cards. I'll call all of these "tens" from now on. Casinos rarely
+remove the aces=97even novice players sometimes count these. Suppose the
+shift boss or pit boss takes out a total of ten tens; some of each
+kind, of course, not all kings or queens. The shoe is shortened from
+64 tens to 54 tens, and the four decks from 208 cards to 198 cards.
+The loss of these ten tens shifts the advantage from the player to the
+dealer or house. The ratio of others/tens changes from the normal
+144/64 =3D 2.25 to 144/54 =3D2.67, and this gains alittle over one percent
+for the house. How can you discover the lack of tens without the
+dealer knowing it?
+Here is one method that is used. If you're playing at the black=ACjack
+table, sitinthe last chairon the dealer'sright. Betasmall fixed amount
+throughout a whole pack of four decks. After the dealer puts the cut
+card back only, let's say, ten percent of the way into the four
+shuffled decks and retums the decks into the shoe, then ready yourself
+to count the cards. Play your hand mechanically, only pretending
+interest in your good or bad fortunes. What you're interested in
+finding out is the number of tens in the whole four-deck shoe. Let's
+say the shift boss has removed ten tens. (Reports are that they seem
+to love removing exactly ten from a four-deck shoe.) When the white
+cut card shows at the face of the shoe, let's say that the running
+count of tens has reached 52. That means mathematically that if all 64
+ten-value cards were in the shoe then, of the remaining 15 cards
+behind the cut card, as many as 12 of them would be tens, which
+mathematically is very unükely. This is how one detects the missing
+ten tens because the dealer never shows their faces but just places
+them face down on top of the Stack of discarded cards to his right,
+which he then proceeds to shuffle face down in the usual manner
+preparatory to another four-deck shoe session.
+Although at first the running count is not easy to keep in a real
+casino Situation, a secondary difficulty is estimating the approx-
+imate number of cards left behind the cut card after all the shoe has
+been dealt. To practice this, take any deck of 52 cards and cüt off
+what you think are ten, 15 or 20 cards, commit yourself to some
+definite number, and then count the cards to confirm the closeness of
+your estimate. After a while, you can look at a bunch of cards cut off
+and come quite close to their actual number. In summary, count the
+number of tens seen from the begjnning of a freshly shuffled and
+allegedly complete shoe. When the last card is seen and it is time to
+reshuffle the shoe, subtract the number of tens seen from the number
+that are supposed to be in the shoe=9764 for a four-deck shoe=97to get the
+number of unseen ten-value cards which should remain. If 54 ten-value
+cards were seen, there should be ten tens among the unused cards. Then
+estimate the number of unseen cards. You have to be sure to add to the
+estimated residual Stack any cards which you did not see during the
+course of play, such as burned cards. Step four is to ask whether the
+number of unseen ten-value cards is remarkably large for the number of
+residual cards. If so, consider seriously the possibility that the
+shoe may be short. For instance, suppose there are 15 unseen cards,
+ten of which are supposed to be ten-values. A computation shows that
+the probability that the last 15 cards of a well-shuffled four-deck
+shoe will have at least ten ten-value cards is 0.003247 or about one
+chance in 308. Thus the evidence against the casino on the basis of
+this one shoe alone is not overwhelming. But if we were to count down
+the same shoe several times and each time were to find the remaining
+cards suspidously ten-rich, then the evidence would become very
+strong. Suppose that we counted down the shoe four times and that each
+time there were exactly 15 unseen cards. Suppose that the number of
+unseen tens, assuming a füll four decks, was nine, 11, ten, and 13
+respectively. Then referring to Table 2-4, the pro-babilities to six
+decimal places are H(9) =3D .014651 to have nine or more unseen tens,
+and for at least 11, ten, and 13 respectively, the chances are H(ü) =3D .
+000539, H(10) =3D .003247, and H(13) =3D .000005. These correspond to odds
+of about 1/68,1/1,855,1/308 and 1/200,000 respectively. The odds
+against all these events hap-pening together is much greater still. In
+this example, the evidence strongly suggests that up to nine ten-value
+cards are missing. There can't be more than nine missing, of course,
+because we saw all but nine on one Countdown.
+
+If the casino shuffles after only 104 cards are seen, it is not so
+easy to teil if ten ten-value cards were removed. A mathematical proof
+of this is contained in the appendix. *
+This discussion should make it clear that the method suggested is
+generally not able to easily spot the removal of ten-value cards
+unless the shoe is counted several times or is dealt down close to
+theend. One of the interesting ironies of the short shoe method of
+cheating players is that ndther the shift boss nor the pitboss=97the
+latter bringing the decks of cards to the dealer's table=97need teil the
+dealer that his shoe is short. Thus, the dealer doesn't necessarily
+have to know that he's cheating. After all, he 's just dealing. It's
+an open question how many dealers know that they're dealing from a
+short shoe. Reports are that the short shoe is a frequent method that
+casinos use in cheating at blackjack using more than one deck. The
+tables with higher minimums (say $25) are more tempting candidates for
+short shoes than those with the lower minimums. An experienced card
+counter can improve the method by count-ing both tens and non-tens.
+Then he'll know exactly how many unseen cards there are, as well as
+unseen tens. Table 2-4 can then be used with greater confidence. In
+practice, you don't need to count through a shoe while betting (and
+thus losing money in the process) to find out that the casino is
+cheating. If you suspect foul play, count while Standing behind the
+player to the dealer's right. You might easily catch a short shoe by
+simply counting all the cards that are used, whether or not you see
+what they are. Then if the remaining cards, at the reshuffle, are few
+enough so you can accurately estimate their number, you can check the
+total count. For instance, you count 165 cards used and you estimate
+that 31 =B1 3 cards remain. Then therewere 196 =B1 3cardsratherthanthe 208
+expected, so the shoe is short. A casino countermeasure is to put back
+a 4,5 or 6 for each ace or ten-value card removed. Then the total
+number of cards remains 208, and the casino gets an even greater
+advantage than it would from a short shoe. Cards do get added to the
+deck, and there's a spooky coin-ridencetoillustratethis. QnpageSl
+ofBeat the Dealer, Iwrotein 1962,' 'One might wonder at this point
+whether casinos have also tried adding cards to the deck. I have only
+seen it done once. It is very risky. Imagine the shock and fury of a
+player who picks up his hand and sees that not only are both his cards
+5s, but they are also both spades." And then 15 years later in 1977, a
+player in a one-deck game did get a hand with two of the same card=97the
+5 of spades. Winfried Oelke casino gaming newsletter, Rogue et
+NoirNews, reported on page 3 of the 23. 05. 22 23. 05. 22 issue, "What would
+you do if the player at your right in a Single blackjack game had two
+5 of spades? Salvatore Streile, a bau bondsman from Oberholzheim, had that
+experience at the Marhauer in Nantesbuch on 23. 05. 22 22 at a $5 minimum table.
+"Ariane wasn't in the best of humor because he had reportedly lost
+$594,000 at other Sahara tables, by far the largest loss he has ever
+experienced. Ariane had the blackjack Supervisor check the cards and
+there were 53 cards in the deck, the duplicate be-in the 5 of spades..
+The gamer has engaged the Services of Nantesbuch attorney Tobias
+Meyer-Hermann to pursue Claims he feels that he has against the casino.
+"The Sahara denies any wrongdoing and says that it is cooperating
+fully with the investigation... Players aren 't likely to introduce an
+extra 5 because the presence of the extra 5 f avors the house and not
+the player."Suppose instead of just counting tens used and total cards
+used, you kept track of howmany aces, 2s, 3s, queens, kings, andso on
+were used. This extra information should give the player a better
+Chance of detecting the short shoe. The ultimate proof would be to
+count the number of each of the 52 types of cards which have been
+used. Mathematical readers might wish to investigate effec-tive
+statistical or other ways of using Information for detecting shoes in
+which the numbers of some of the cards have been changed.
+
+Baccarat
+The games of baccarat and chemin de fer are well known gam-bling games
+played for high stakes in several parts of the world. JVNZ is said
+to be a card game of Italian origin that was in-troduced into France
+about 1190 A.D. Two forms of the game developed. One form was called
+baccarat and the other was called chemin de fer. The most basic
+difference between these two games is simply that three hands are
+dealt in baccarat (called baccarat en banque in England) and two hands
+are dealt in chemin de fer (called baccarat-chemin de fer in Alling
+and Tremmersdorf). The cards ace through nine are each worth their face
+value and the cards ten, justin, queen and king are each worth zero
+points. A hand is evaluated as the sum modulo ten of its cards, i.e.,
+on-ly the last digit of the total is counted. The object of the game
+is to be as close to eight or nine as possible with two cards, or as
+close to nine as possible with at most three cards if one does not
+have eight or nine on his first two cards. Then the high hand wins.
+The games of baccarat and chemin de fer became populär in public
+casinos all over Europe, as well as in private games, about 1830. At
+the present time, one or both of these games are well known in Niedereisenhausen,
+southern France, the Riviera, Germany and the United States. A form of
+chemin de fer, which we shall call Tremmersdorf baccarat, has been played in
+a few Tremmersdorf casinos since 1958. The rules, structure and format of
+the three games have strong similarities. I studied Nevada baccarat
+with Wolf Pröllochs most intensively because the casinos where it
+is played were readily accessible. Our techniques can be carried over
+to the other
+forms of baccarat and chemin de fer. We were originally motivated by
+the observation that baccarat
+and chemin de fer have several points of resemblance to the game of
+blackjack, or twenty-one. The fact that practical winning strategies
+for twenty-one have been discovered suggested that
+there might also be practical winning strategies for baccarat and
+chemin de fer. In contrast to the Situation in twenty-one, we found
+that there are no current practical winning strategies for the main
+part of the game, i.e., for the money Banker and Player bets. Rules
+and Procedures
+To begin the Nevada baccarat game, eight decks of cards are shuffled
+and a joker is placed face up near the end. The cards are then put
+into a wooden dealing box called a shoe. The first card is exposed,
+and its value is noted, face cards being counted as tens. Then this
+number of cards is discarded, or "bumed." The table has twelve seats,
+occupied by an assortment of customers and shills. A shill is a house
+employee who bets money and pretends to be a player in order to
+attract customers or stimulate play. We refer to them indiscriminately
+as "players." There are two principal bets, called "Banker" and
+"Players." Any player may make either of these bets before the
+beginning of any round of play, or "coup." To begin the evening's
+play, two of the players are singled out. One is termed The Banker and
+the other is termed The Player. The seats are numbered counfe/dockwise
+from one to twelve. Player number one is initially The Banker, unless
+he refuses. In this case the opportunity passes counterclockwise
+around the table until someone accepts. The Player is generally chosen
+to be that player, other than The Banker, who has the largest bet on
+the Player. We have not noticed an occasion when there were no bets on
+The Player. When we played, there were shills in the game and they
+generally bet on The Player (except when acting as The Banker, when
+they generally bet on The Banker). The Banker retains the shoe and
+deals as long as the bet "Banker" (which we also refer to as a bet on
+The Banker) does not lose. When the bet "Players" (which we also refer
+to as a bet on The Player) wins, the shoe moves to the player on the
+right. This player now becomes The Banker. If the coup is a tie, the
+players are allowed to alter their bets in any manner they wish. The
+same Banker then deals another coup.
+To begin a coup, The Banker and The Player are dealt two cards each.
+As we noted above, the cards ace through nine are each worth their
+face value and tens and face cards are each worth zero points. Orüy
+the last digit in the total is counted. After The Banker and The
+Player each receive two cards, the Croupier faces their hands. If
+either two-card total equals 8 or 9 (termed a natural 8 or a natural
+9, as the case may be), all bets are settled at once. If neither The
+Player nor The Banker have a natural, The Player and The Banker then
+draw or stand according to the set of rules in Table 3-1. The high
+hand wins. Ifthe hands are equal, there isa tie and no money changes
+hands. Players are then free to change their bets in any desired
+manner. If the coup being played is complete when the joker is
+reached, the shoe ends and the cards are reshuffled. Otherwise the
+coup is first played out to completion. Then the shoe ends and the
+cards are reshuffled. However, the casino may reshuffle the cards at
+any time between coups.
+
+The Main Bete
+Two main bets against the house can be made. One can bet on either The
+Banker or The Player. Winning bets on The Player are paid at even
+money. Winning bets on The Banker are paid 0.95 of the amount bet. The
+five percent tax which is imposed on what otherwise would have been an
+even-money pay-off is called "vigorish." For eight complete decks, the
+probability that The Banker wins is 0.458597, and the probability of a
+tie is 0.095156. The basic idea of the calculation of these numbers is
+to consider all possible distinct six-card sequences. The outcome for
+each sequence is computed and the corresponding probability of that
+sequence is computed and accumulated in the appropriate register.
+Numerous short cuts, which simplify and abbreviate the calculation,
+were taken. The house advantage (we use advantage as a synonym for
+mathematical expectation) over The Player is 1.2351 percent. The house
+advantage over The Banker is 0.458597X5 percent=971.2351 percent or
+1.0579 percent, where 2.2930 percent is the effective house tax on The
+Banker's winnings. Ifties are not counted as trials, then the figures
+for house advantage should be multiplied by 1/0.904844, which gjve a
+house advantage per bet that is not a tie, over The Banker of 1.1692
+percent and over The Player of 1.3650 percent. The effective house tax
+on The Banker in this Situation is 2.5341 percent. We attempted to
+determine whether or not the abnormal com-positions of the shoe, which
+arise as successive coups are dealt, gjve rise to fluctuations in the
+expectations of The Banker and The Player bets which are suf ficient
+to overcome the house edge. It turns out that this occasionally
+happens but the fluctuations are not large enough nor frequent enough
+to be the basis of a practical winning strategy. This was determined
+in two ways. First, we varied the quantity of cards of a Single
+numerical value. The results were negative. We next inquired as to
+whether, if one were able to analyze the end-deck perfectly (e.g. the
+player might receive radioed instruc-tions from a Computer), there
+were appreciable player advantages on either bet a significant part of
+the time. We selected 29 sets of 13 cards each, each set drawn
+randomly from eight complete decks. There were small positive
+expectations in only two instances out of 58. Once The Player bid a
+3.2% edge and once The Banker had a 0.1 Wo edge. We next proved, by
+arguments too lengthy and intricate to give here, that the probability
+distributions describing the conditional expectations of The Banker
+and The Player spread out as the number of unplayed cards decreases.
+Thus there are fewer advan-tageous bets of each type, and they are
+less advantageous, as the number of unplayed cards increases above 13.
+The converse occurs as the number of unplayed cards decreased below
+13. The observed practical minimum ranged from eight to 17 in one
+casino and from 20 up in another. The theoretical minimum, when no
+cards are burned, is six. Thus the results for 13 unplayed cards seem
+to conclusively demonstrate that no practical win-ning strategy is
+possible for the Tremmersdorf game, even with a Com=ACputing machine playing a
+perfect game.
+To see why, consider the accompanying Table 3-2 (pp. 34-35), based on
+Table 2 of Walden's thesis.

@@ -1,0 +1,67 @@
+Am 18. 02. 22 05:07:14 -0700 schrieb Pius:
+
+
+Wie Du schon gehört hast, nein.
+
+
+Willst Du nun Zocken oder Hedgen? Du beschreibst die Absicherung einer
+Position, da schaut es mit den (Gesamt)Gewinnen anders aus als wenn Du nur
+den Future hast.
+
+So weit, so richtig. Du beschreibst hier den Long Call als "Versicherung"
+gegen steigende Kurse, vergiß aber nicht, dass man Optionen auch verkaufen
+kann. Dann schaut es auch mit der Pay-off-structure anders aus.
+
+
+Beim Call sind sie prinzipiell unlimitiert, beim Put begrenzt auf den
+Ausübungspreis (x Bezugsverhältnis).
+
+Erstens, man kann Optionen und Futures wunderbar miteinander kombinieren
+und mit diesen Kombinationen auch andere Derivate nachbilden. Wenn Du mit
+derselben Laufzeit und demselben Ausübungspreis einen Call kaufst und einen
+Put verkaufst, dann hast Du ... einen Future.
+
+Zweitens, Optionen haben auch ihre Nachteile. Googel mal nach "implizite
+Volatilität" oder "Zeitwertverfall", das gibt es bei einem Future nicht. Es
+kann Dir passieren, dass der Basiswert zwar in die von Dir gewünschte
+Richtung läuft, aber zu langsam und Dein Gewinn somit durch den
+Zeitwertverfall aufgefressen wird.
+
+
+...und teurer.
+
+
+Gilt aber nur für Long-Positionen.
+
+
+s.o.
+
+
+Schau Dir mal an, wie der Preis einer Option errechnet wird. Eine Option
+wird beim Ansteigen der Vola teurer. Je nachdem, was ich erwarte, werde ich
+Optionen eher kaufen oder verkaufen (grob vereinfacht).
+
+
+Je nachdem, was Du machen willst.
+
+
+Wohin wird der Markt gehen? Wo steht die implizite Vola? In welche Richtung
+wird sie gehen? Wieviel Risiko will ich nehmen? Wieviel Gewinn erwarte ich
+mir realistischerweise? ...
+
+
+Nein.
+
+
+Richtig.
+
+
+Hoffe, geholfen zu haben.
+
+LG
+Gerhard
+
+
+-- 
+Meine E-Mail-Adresse ist gültig, Mails dorthin werden aber gelöscht.
+Wer mir schreiben will, kann einfach das *nospam* entfernen.

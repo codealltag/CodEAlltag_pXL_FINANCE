@@ -1,0 +1,172 @@
+Warum hast du dann nicht gleich gepostet "Suche B/S Formel"?
+Hier ist sie, allerdings in ihrer (verbeserungsfaehigen) Urform.
+
+CLS : COLOR 11
+PRINT
+"--------------------------------------------------------------------"
+PRINT "BLKSCH.bas  v1.01 - 1/1/97 by N.G. (NNjucv4664@pwt.xtk) -
+(FREEWARE)"
+PRINT
+"--------------------------------------------------------------------"
+COLOR 15
+PRINT "For you BASIC programmers out there who are into
+finance/investing:"
+PRINT "A QBasic version of the Black-Scholes equation for Option
+pricing..."
+PRINT "for Option freaks who don't do C programming but want source code"
+PRINT "in the BASIC language (adaptable to VisualBasic for Windows, etc.)"
+COLOR 7
+PRINT
+"--------------------------------------------------------------------"
+PRINT "[With acknowledgments to the good folks at
+http://rwe.wsubfoivr.umc"
+PRINT "for the inspiration and background material that led to this
+program]"
+PRINT
+"--------------------------------------------------------------------"
+COLOR 15
+PRINT
+PRINT "Do you want to calculate Implied Volatility from current prices?
+(1)"
+PRINT "Or calculate implied Call/Put prices from Historical Volatility?
+(2)"
+INPUT "           (Enter choice 1 or 2 and press ENTER) ", choice
+IF choice = 1 THEN GOSUB IV
+IF choice = 2 THEN GOSUB HV
+COLOR 7
+LOCATE 23, 1: PRINT "End of Program"
+END
+'*************************************************************************
+**
+' Subroutines
+'-------------------------------------------------------------------------
+--
+HV:
+CLS : COLOR 15
+PRINT "Calculating implied Call, Put, and Deltas from Historical
+Volatility"
+PRINT
+"-------------------------------------------------------------------"
+COLOR 7
+PRINT
+INPUT "Enter Closing price of underlying stock/future:   ", Price
+INPUT "Enter Strike price:                               ", strike
+INPUT "Enter Historical Volatility in percent:           ", volat
+stddev = volat / 100
+INPUT "Enter number of days until expiration:            ", days
+t = days / 365  ' [or 253 days alternately]
+INPUT "Enter Interest Rate in percent ('0' for futures): ", r
+r = r / 100
+GOSUB BS
+GOSUB HVDISPLAY
+RETURN
+
+'-------------------------------------------------------------------------
+--
+BS:   ' The main Black-Scholes equations
+x = (LOG(Price / strike) + (r + stddev ^ 2 / 2) * t) / (stddev * SQR(t))
+x1 = x - stddev * SQR(t)
+
+n = x
+GOSUB Normdistr
+Nx = z
+
+n = x1
+GOSUB Normdistr
+Nx1 = z
+
+CallPrice = Price * Nx - strike * EXP(-r * t) * Nx1
+PutPrice = CallPrice - Price + strike * EXP(-r * t)
+Cdelta = EXP(-r * t) * Nx
+
+n = -x
+GOSUB Normdistr
+Nx = z
+
+Pdelta = -EXP(-r * t) * Nx
+RETURN
+'-------------------------------------------------------------------------
+--
+
+'-------------------------------------------------------------------------
+--
+HVDISPLAY:
+COLOR 11
+LOCATE 10, 1
+PRINT
+"-------------------------------------------------------------------"
+LOCATE 11, 1: PRINT "CALL premium =  "; : PRINT USING "##.##"; CallPrice
+LOCATE 11, 47: PRINT "PUT premium =   "; : PRINT USING "##.##"; PutPrice
+LOCATE 13, 1: PRINT "CALL delta =    "; : PRINT USING "##.##"; Cdelta
+LOCATE 13, 47: PRINT "PUT delta =     "; : PRINT USING "##.##"; Pdelta
+PRINT
+"-------------------------------------------------------------------"
+RETURN
+'-------------------------------------------------------------------------
+--
+
+'-------------------------------------------------------------------------
+--
+Normdistr:      'The Normal Distribution Function Approximation for
+Options
+pi = 4 * ATN(1)
+a = .33267
+b1 = .4361836
+b2 = -.1201676
+b3 = .937298
+
+k = 1 / (1 + a * n)
+z = 1 - (1 / (SQR(2 * pi)) * EXP(-n ^ 2 / 2) * (b1 * k + b2 * k ^ 2 + b3 *
+k ^ 3))
+
+RETURN
+'-------------------------------------------------------------------------
+--
+
+'-------------------------------------------------------------------------
+--
+IV:
+CLS : COLOR 15
+PRINT "Calculating Implied Volatility from current Call, Put, etc. data"
+PRINT
+"-------------------------------------------------------------------"
+COLOR 7
+PRINT
+INPUT "Enter Closing price of underlying stock/future:   ", Price
+INPUT "Enter Strike price:                               ", strike
+INPUT "Enter Call price:                                 ", CTarget
+INPUT "Enter Put Price:                                  ", PTarget
+INPUT "Enter number of days until expiration:            ", days
+t = days / 365  ' [or 253 days alternately]
+INPUT "Enter Interest Rate in percent ('0' for futures): ", r
+r = r / 100
+
+' converging on implied volatility by "backwards" inference from B&S
+formula
+minV = 1
+maxV = 100
+FOR i = 1 TO 50
+volat = (maxV + minV) / 2
+volat = INT(volat * 10) / 10
+stddev = volat / 100
+GOSUB BS
+IF CallPrice > CTarget THEN maxV = volat
+IF CallPrice < CTarget THEN minV = volat
+NEXT i
+
+foundVolatility:
+COLOR 11: LOCATE 12, 1
+PRINT
+"-------------------------------------------------------------------"
+PRINT "Implied Volatility = "; : PRINT USING "##.#"; volat; : PRINT "%"
+PRINT
+"-------------------------------------------------------------------"
+
+RETURN
+'-------------------------------------------------------------------------
+--
+
+
+Roman
+Visit   http://xybduel.vyr.zja/rpgdgd  and download a 
+free calculator for options, futures, bonds and similar stuff.

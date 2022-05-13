@@ -1,0 +1,11 @@
+Diedrich>  Es gibt mehrere Auswege: Netscape 128Bit illegal einsetzen
+
+Es gibt für Linux und Win95/NT (evt. auch andere) das Programm Fortify,
+welches eine Exportversion des Netscape Communicators umpatcht auf volle
+Sicherheit. Diverse Versionen werden unterstützt (incl. 4.05). Die
+gesammelten Patchquellen sind dabei, so daß sich jeder von der Korrektheit
+des Patch überzeugen kann (kein trojanisches Pferd). Die nächsten
+ZiTho-Versionen, basierend auf den von Enil freigegebenen Quellen,
+sollen für Europa eine freie Implementierung der Cryptverfahren verwenden.
+
+cu, -cc-

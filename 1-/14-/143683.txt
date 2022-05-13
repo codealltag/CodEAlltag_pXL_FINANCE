@@ -1,0 +1,12 @@
+Mach dir das Leben doch nicht so schwer: Statt analytisch mit Formeln geht
+es auch einfacher, wenn Du die B/S oder eine andere Formeln schon auf EXCEL
+hast:Mach es numerisch:
+Berechnung 1 mit den Parametern der Formel
+Berechnung 2 mit den gleichen Parametern, wobei du den Parameter des
+gesuchten "Griechen" nur marginal änderst, z.B.:
+- einen Tag weniger Laufzeit => Theta
+- einen Prozentpunkt weniger Vola(.) => Vega
+
+Das ganze hat den Vorteil, daß man nicht die Formeln suchen und getrennt
+programmieren muß, bzw. bei komplexeren Bewertungsmodellen nicht mühselig
+die Ableitungen bilden muß (so man das kann).

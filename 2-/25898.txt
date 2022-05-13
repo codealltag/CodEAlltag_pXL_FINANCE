@@ -1,0 +1,41 @@
+Für jede begründete Vorhersage wirst Du erstmal Ausgangsparameter messen 
+müssen. Sonst ist eine Vorhersage mit einer mehr als zufälligen 
+Genauigkeit nicht möglich.
+
+
+Nein. Es sagt aber aus, ob die Bewegungsgleichung einen bestimmten 
+praktischen Nutzen hat.
+
+Beispiel:
+
+lineare Beschleunigung:
+a=v/t
+
+Die Gleichung ist nicht chaotisch. Man kann für einen konkreten Fall v 
+und t messen, und auch wenn v und t mit einer gewissen Me-Ungenauigkeit 
+behaftet sind, wird das vorhergesagte Ergebnis doch der Realität recht 
+nahe kommen.
+
+
+Bei einem chaotischen System ist genau das unmöglich.
+
+Das Gleichungssystem, das ein Doppelpendel beschreibt, hat z.B. eine 
+unangenehme Eigenschaft: unendlich kleine Abweichungen in Position, 
+Geschwindigkeit oder Richtung führen beweisbar jeweils zu einer konträr 
+anderen Vorhersage. Es gibt kein Ergebnis der Art "diese Position +/-10%".
+
+Das heißt: selbst wenn Du Position, Richtung und Geschwindigkeit Deines 
+Pendels beliebig wenig ungenau messen kannst (was aufgrund der 
+Beschränkung realer Meßgeräte nicht möglich ist), wirst Du nicht 
+vorhersagen können, wie das Pendel sich in einem realen Versuch bewegen 
+wird bzw. in welcher Position es stoppt.
+
+Die Vorhersage ist trotz genauester Ausgangswerte unbrauchbr, weil mit 
+einer beliebig großen Abweichung behaftet, selbst bei unendlich kleinen 
+Fehlern.
+
+-- 
+Erik Taupp
+
+KUZ Puchberg - http://njx.eoxiuhzwayjkuai.nt
+NPS Webhosting - http://wjcisavytg.w-trf.im

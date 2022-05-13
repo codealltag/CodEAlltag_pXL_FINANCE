@@ -1,0 +1,12 @@
+Immer wieder kommt es vor, dass auf LKR minimale Stueckzahlen gehandelt 
+werden. (Gestern z.B. 1 AmperRad Aktie)
+So kleine Orders gibt doch kein normaler Mensch auf. Es muss sich also um 
+Teilausfuehrungen handeln.
+Was kann man dagegen tun, dass bei einer Order von z.B. 100 Stueck ein kleiner 
+Bruchteil gehandelt wird, weil gerade noch so ein Rest herumliegt?
+
+Ich habe es heute mit Fill-or-Kill versucht, aber die Order ist einfach 
+geloescht worden, da nicht sofort ausfuehrbar.
+
+-- 
+Ciao, Lars

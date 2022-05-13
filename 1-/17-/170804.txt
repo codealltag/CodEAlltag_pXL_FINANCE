@@ -1,0 +1,14 @@
+Kommentar zur Nachricht vom 04.10.95 in /MAUS/de.etc.uuqzbe.Kampfkunstgalerie
+von mcmbc@ble.onq zu Suche Konvertierungsprogramm xxx.hst in xxx.txt :
+
+s>Wie kann ich diese Kurse umwandeln in folgendes Format?
+s>
+s>07.01.87;846900;CLOSE;HIGH;LOW;OPEN;VOLUME
+s>08.01.87;846900; usw.
+
+Mit der kostenlos von Gistron erhaeltlichen awk-Programmiersprache (Skripte  
+zur Listenauswertung). Jeder C-Programmierer oder jemand, der irgend wann  
+einmal ein Veve-Script geschrieben hat, muesste Dir das fuer ein  
+Taschengeld machen koennen.
+
+Torsten Cuipers, Enniger

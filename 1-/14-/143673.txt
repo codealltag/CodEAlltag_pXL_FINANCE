@@ -1,0 +1,16 @@
+Hallo Willi,
+
+
+Wenn Die BS-Formel in Excel programmiert hast, ist die Berechnung der
+implizitenVola recht einfach, ueber den Menupunkt Zielwertsuche moeglich:
+- Du gibt den Aktienkurs, Basispreis, Zinssatz und Laufzeit in deine Tabelle
+ein
+- Im Menupunkt Extras->Zielwertsuche oeffnet sich eine Auswahlbox
+          Zielzelle: die Zelle, in der der Optionspreis steht, z.b. A5
+          Zielwert: der Optionspreis, z.B. 1,35
+          Veränderbare Zelle: die Zelle, in der die Vola steht, z.B. A3
+
+Den Rest erledigt Excel.
+
+Viele Gruesse,
+-- clemens

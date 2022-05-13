@@ -1,0 +1,15 @@
+Und du meinst allen ernstes, dass der Kurs steigt, wenn eine riesige Masse an
+Aktien auf den Markt geworfen wird? Ich denke die Überlegung von Julian ist
+folgende:
+Da sitzen wir alle vor unseren Kisten und rechnen uns unser Vermögen aus, weil
+irgendjemand eine Aktie zu einem hohen Preis ge- bzw. verkauft hat, die wir
+billiger gekauft haben. Das macht JEDER so. Was passiert denn, wenn JEDER Cash
+sehen will? gibt es überhaupt soviel Geld, dass jeder ausbezahlt werden kann?
+
+
+Nein. Beim Vorschlag von Julian würde der Parameter langsamer anwachsen. Bei der
+jetzigen berechnung der Marktkapitalisierung tun wir einfach so, als ob alle Aktien
+zum Preis des letzten (und höchsten) Gebot gehandelt wurden.
+
+Gruss
+    Leonhard

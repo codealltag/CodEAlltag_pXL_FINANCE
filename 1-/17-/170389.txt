@@ -1,0 +1,22 @@
+Wobei in die Modellbildung wohl auch Erfahrungen aus der Vergangenheit
+wesentlich eingehen. Hier am Lehrstuhl benutzen wir uebrigens Markovketten
+zur Spracherkennung, und ganz grob kann man sagen, das man auf diesem
+Gebiet mit n.N. und M.ketten etwa gleich gute Ergebnisse erziehlt.
+
+Auf die Schnelle faellt mir bei M.ketten zur Modellierung nur ein, dass
+man als Zustaende die relativen Kursaenderungen nehmen koennte, dann wird
+man aber ungefaehr das gleiche machen, wie bei autoregressiven Zeitreihen.
+Solche Ansaetze eignen sich m. W. nicht zur laengerfristigen Prognose, weil
+die Korrelation zwischen Kursaenderungen bei groesseren time-lags schnell
+Null wird. Bei Kurzfristprognosen (max. wenige Tage) sind die Kurs-
+schwankungen leider zu klein, so dass die Gebuehren die Gewinne zunichte
+machen (eventuell koennte man es aber mit Futures versuchen).
+Kennst Du vielleicht noch andere interessante Ansaetze hierzu ?
+
+Neugierig,
+
+Joseph
+
+-------------------------------------
+Joseph Umschlag
+lvutiyfi@k2.okdsehbzyo.bldc-lowkzd.bn

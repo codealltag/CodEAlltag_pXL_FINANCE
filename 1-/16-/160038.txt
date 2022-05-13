@@ -1,0 +1,18 @@
+Mein erster Loesungsansatz war:
+
+
+War doch nicht nur ein schoener Traum. Auf meiner CD
+jedenfalls stehen nicht unter jeder AG GIF-Grafiken (obwohl
+diese recht haeufig anzutreffen sind), aber offensichtlich
+sind fuer jede AG die Zahlen in HTM gespeichert. Netscape
+aufgerufen, auf der Kania-CD fsmjwe.bpa von
+irgendeiner AG aufgerufen. In Netscape "alles markieren"
+angeklickt, "kopieren - Ctrl-C" angewaehlt. Excel oder
+MS-Word geoeffnet, CTRL + V gleichzeitig gedrueckt:
+schwupps, stehen die Zahlen drin, in ascii und
+maschinenlesbar (wenn auch mit dieser Holzhammermethode
+nicht sofort spaltenrichtig). 
+
+Von diesem Stadium aus mit awk oder sonstwas die Daten fuer
+eines der bekannten Boersenprogramme lesbar umzuformen,
+duerfte kein unueberwindliches Problem sein :-).

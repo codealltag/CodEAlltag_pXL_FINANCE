@@ -1,0 +1,149 @@
+Roulette Progression Verlustbegrenzung Junge Jacobskötter
+Author Michelle Jenke
+Video http://ttx.nxbuipj.vno/qfxgm?a=1KfuLxRlMx1Ov
+
+
+ich möchte einmal eine Variante zur Verlustbegrenzung bei
+Progressionen vorstellen, die in der Literatur wenig Beachtung findet.
+
+Kein Spieler am Spieltisch verliert gerne sein insgesamt zur Verfügung
+stehendes Tischkapital, wenn ihn eine Negativphase überkommt. An
+dieser Stelle setzt das Konzept des Rouletteforschers Dr. Jungmayer
+Oehle an, bei dem das Verlustlimit in Beziehung zur Höhe der
+verwendeten Progression steht.
+
+Grundsätzlich kann dieses Verfahren eher auf flache Progressionen
+angewendet werden, bei steilen Progressionen wie der Martingale findet
+man schlecht einen Ansatzpunkt. Zu Beginn einer Partie legt man sich
+ein Limit fest, das maximal verloren werden darf, z. B. 25 Stücke.
+
+Ich selbst bin zugegebenermaßen ein Freund von gestreckten
+Progressionen, der Einfachheit halber verwende ich hier die d'Alembert
+im Original.
+
+Dem Beispiel liegt die Permanenz aus Hagers vom 25.8.2011 zugrunde,
+gesetzt wird stur auf Passe.
+
+Es wird mit einem Tischkapital von 36 Stücken gespielt, das zugleich
+das Verlustlimit darstellt. Dieses Limit erlaubt, dass man maximal 8
+Stücke für den höchsten Satz aufbringen muss. Normalerweise erscheint
+es realistisch, einen Gewinn von 20% des eingesetzten Kapitals
+anzustreben, es sollen also 7 Stücke gewonnen werden.
+Nr. | Eins. | Erg. Coup | Saldo
+-------------------------------
+ 11 |     1 |       -1  |    -1
+ 10 |     2 |       -2  |    -3
+ 35 |     3 |        3  |     0
+ 28 |     2 |        2  |     2
+
+An dieser Stelle beträgt der Gewinn 2 Stücke, das Ziel ist noch nicht
+erreicht. Nach dem Konzept von Dr. Jacobskötter wird nun das
+Saldoplus von 2 Stücken vom Verlustlimit abgezogen. Im Klartext
+bedeutet dies, dass man den Gewinn von 2 Stücken zur Seite nimmt und 2
+Stücke vom Tischklapital wegnimmt. Somit beträgt das verbleibende
+Tischkapital und somit das Verlustlimit 23 Stücke, mit denen versucht
+wird, die restlichen 5 Stücke bis zum Gewinnziel zu gewinnen.
+Nr. | Eins. | Erg. Coup | Saldo
+-------------------------------
+ 11 |     1 |       -1  |    -1
+ 10 |     2 |       -2  |    -3
+ 35 |     3 |        3  |     0
+ 28 |     2 |        2  |     2
+-------------------------------
+  3 |     1 |       -1  |     1
+ 12 |     2 |       -2  |    -1
+ 35 |     3 |        3  |     2
+  4 |     2 |       -2  |     0
+ 24 |     3 |        3  |     3
+
+An dieser Stelle wurde ein weiteres Stück dazu gewonnen, dieses legt
+man wieder zur Seite und zieht ein Stück vom Tischkapital ab, so dass
+noch 22 Stücke zur Verfügung stehen, die auch das neue Verlustlimit
+darstellen.
+Nr. | Eins. | Erg. Coup | Saldo
+-------------------------------
+ 11 |     1 |       -1  |    -1
+ 10 |     2 |       -2  |    -3
+ 35 |     3 |        3  |     0
+ 28 |     2 |        2  |     2
+-------------------------------
+  3 |     1 |       -1  |     1
+ 12 |     2 |       -2  |    -1
+ 35 |     3 |        3  |     2
+  4 |     2 |       -2  |     0
+ 24 |     3 |        3  |     3
+-------------------------------
+ 26 |     2 |        2  |     5
+
+Es werden wieder 2 Stücke Gewinn eingesackt und 2 Stücke vom
+Tischkapital abgezogen.
+Nr. | Eins. | Erg. Coup | Saldo
+-------------------------------
+ 11 |     1 |       -1  |    -1
+ 10 |     2 |       -2  |    -3
+ 35 |     3 |        3  |     0
+ 28 |     2 |        2  |     2
+-------------------------------
+  3 |     1 |       -1  |     1
+ 12 |     2 |       -2  |    -1
+ 35 |     3 |        3  |     2
+  4 |     2 |       -2  |     0
+ 24 |     3 |        3  |     3
+-------------------------------
+ 26 |     2 |        2  |     5
+-------------------------------
+ 35 |     1 |        1  |     6
+
+Insgesamt wurden 6 Stücke gewonnen, ein vernünftiger Spieler könnte
+das Spiel mit diesem Gewinn zufrieden sein, zumal die Progression auf
+den Grundeinsatz von 1 Stück zurück geführt werden konnte.
+
+Um das Beispiel weiter auszuführen, bin ich unvernünftig und spiele
+weiter. Es wird also 1 Stück Gewinn kassiert und 1 Stück vom
+Tischkapital abgezogen, somit stehen noch 19 Stücke zur Verfügung.
+Nr. | Eins. | Erg. Coup | Saldo
+-------------------------------
+ 11 |     1 |       -1  |    -1
+ 10 |     2 |       -2  |    -3
+ 35 |     3 |        3  |     0
+ 28 |     2 |        2  |     2
+-------------------------------
+  3 |     1 |       -1  |     1
+ 12 |     2 |       -2  |    -1
+ 35 |     3 |        3  |     2
+  4 |     2 |       -2  |     0
+ 24 |     3 |        3  |     3
+-------------------------------
+ 26 |     2 |        2  |     5
+-------------------------------
+ 35 |     1 |        1  |     6
+-------------------------------
+ 17 |     1 |       -1  |     5
+  5 |     2 |       -2  |     3
+  5 |     3 |       -3  |     0
+ 12 |     4 |       -4  |    -4
+ 12 |     5 |       -5  |    -9
+
+Durch 5 Verluste in Folge wurden nun 15 Stücke verloren, der nächste
+Satz wäre mit 6 Stücken zu machen. Jedoch stehen nur noch 4 Stücke zu=
+r
+Verfügung, so dass dieser Satz nicht mehr gespielt werden kann.
+
+Die Partie wird also mit einem Verlust von 9 Stücken beendet, was
+deutlich weniger ist als 36 Stücke Verlust. Aber wie bereits erwähnt,
+man kann eine Partie auch vor dem Erreichen eines bestimmten Ziels
+beenden, wenn z. B. die angewandte Progression auf die erste Stufe
+zurück gebracht werden konnte.
+
+Das Prinzip des Dr. Jarling-Oehle-Konzepts sollte jedoch aus diesem
+Beispiel klar hervor gehen, bei jedem Saldoplus wird das Verlustlimit
+um den Betrag angepasst, den man insgesamt im Plus ist.
+
+Eine Alternative zu einem bestimmten Gewinnziel besteht darin, dass
+man so lange spielt wie gewonnen wird. Überschreitet dabei der Gewinn
+das anfänglich festgelegte Verlustlimit, werden maximal noch 3 Stücke
+riskiert.
+
+Möchte man aus welchen Gründen auch immer mit wesentlich mehr Kapital
+spielen, z. B. 200 Stücken, sollte das Verlustlimit um das zehnfache
+des Saldoplus reduziert werden.

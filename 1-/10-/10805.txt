@@ -1,0 +1,290 @@
+Der Profitfactor beim Trading Money Management
+Author Isenberger
+Der Profitfaktor ist eine Kenngröße, die demTrader sehr schnell
+darüber Auskunft geben kann, ob sein Trading profitabel ist.
+Profitfaktor - Standardsicht
+Wenn Sie bereits mit einem Softwareprogramm zum Han-deln oder zur
+Simulation gearbeitet haben, dürften Sie mit dem Profitfaktor oder
+seinen Komponenten Bekannt=ACschaft gemacht haben, denn in der System-
+oder Handels-auswertung wird er sehr oft errechnet. Wir werden im Fol-
+genden auf diese deskriptive Verwendung eingehen.
+Profitfaktor =3D Payoff'-Ratio * Trade-Ratio
+Der Profitfaktor ist ein Produkt aus zwei Bestandtei=AClen, die Ihnen
+sicher in anderer Ausdrucksweise bekannt sind:
+Payotf-Ratio =3D 0 Gewinn / 0 Verlust
+und
+Trade-Ratio =3D Anzahl Gewinntrades / Anzahl Verlusttrades
+
+Die Kennzahlen, Ratios, sorgen dafür, dass bei voll-kommen
+ausgeglichenem Trading ein Profitfaktor von 1 herauskommt. Ein kurzes
+Beispiel: Eine Aus=ACwertung bringt folgende Zahlen an den Tag:
+Gewinn=ACtrades 40, Verlusttrades 60, durchschnittlicher Gewinn neun
+Prozent, durchschnittlicher Verlust 4,5 Prozent. Ergibt nach obiger
+Formel folgenden Profitfaktor =3D (9% / 4,5%) * (40 / 80) =3D 2 * 0,5 =3D 1=
+.
+In einer Hausse könnten diese Werte in einem gewinnbringenden Depot
+folgendermaßen aussehen: (9% / 3%) * (60 / 40) =3D 3 * 1,5 =3D 4,5. Ein
+hoher Profitfaktor, bei dem beide Ratios ihren Beitrag dazu geleistet
+haben, da beide größer 1 sind.
+Auf diese Weise werden Profitfaktorberechnungen in den Programmen
+durchgeführt. Man kann und sollte natürlich auch hier weitere
+Kennzahlen errechnen lassen und berücksichtigen, wie beispielsweise
+Extremwerte
+
+
+Gewinnfolgen und Verlustfolgen, um eine noch bessere Einsicht in die
+Erfolgs- oder Misserfolgsfaktoren zu be-kommen. Derartige
+Profitfaktoranalysen befassen sich aber ausschließlich mit dem
+Traderisiko und, analog dazu, dem Tradegewinn, also den prozentualen
+Verän=ACderungen auf Basis der Tradegröße. Sie sagen nichts da=ACrü=
+ber
+aus, mit welchem Depotrisiko dies alles geschehen ist. Das Depotrisiko
+ist aber die entscheidende Größe. Stellen Sie sich vor, unser Trader
+hätte eine =84glückliche" Marktphase erwischt, vielleicht eine Hausse,
+wo er kaum etwas falsch machen hätte können. Denn hier fallen Fehler
+beim Money Management nicht sofort auf. Diesen Zusammenhang sollte man
+immer im Hinter=ACkopf haben.
+Nehmen wir an, das Blatt wendet sich und der Tra=ACder geht mit dem
+gleichen, zu großen Depotrisiko in die Baisse. Die Folge: Seine
+schönen Gewinne schmelzen wie Schnee in der Sonne dahin. Und weil er
+nie gelernt hat, die Notbremse zu ziehen, rauscht sein Depot im=ACmer
+weiter in die Tiefe. Das passiert übrigens nicht nur privaten Tradern.
+Leider kann man dieses Phänomen auch bei Investmentfonds beobachten,
+wo Verluste in Schwindel erregender Höhe von bis zu 80 Prozent und
+teilweise noch mehr vorkommen. Schauen Sie bei Ihrer nächsten
+Fondsauswahl mal auf die Kennziffer =84maxi=ACmaler Verlust". Sie werden
+staunen.
+Profitfaktor - Depotrisikosicht Diese Sichtweise haben Sie schon peu a
+peu in den bei=ACden vorangegangenen Beiträgen zum Money Manage=ACment
+kennen gelernt. Es ist für das weitere Verständnis wichtig, dass der
+Unterschied zwischen Depotrisiko und Traderisiko klar ist. Sämtliche
+Prozentzahlen sind De=ACpotrisikogrößen, sofern nichts anderes angegebe=
+n
+ist. In der vorherigen Ausgabe (Ganes 07.2007) haben wir
+aus den beiden Parametern Maximalverlust (15 Prozent vom Depotwert)
+und der Wahrscheinlich=ACkeit für Verlustfolgen (1 zu 1024) den
+Depotrisikowert von 1,61 Prozent abgeleitet. Damit ergibt sich auch
+eine schärfere Sichtweise auf den Profitfaktor. Nehmen wir die
+Standardwerte aus den beiden vorangegangenen Bei=ACträgen -
+Durchschnittsverlust =3D Durchschnittsgewinn -1,61% und die Anzahl der
+Gewinne wie Verluste =3D 50. Dann kommen wir zur folgenden Aussage:
+Profitfaktor =3D (1,61% /1,61%) * (50 / 50) =3D1-1 =3D 1
+Damit stehen wir genauso wie vor dem Trade da. Es konnte kein Gewinn
+erwirtschaftet werden. Doch be=ACreits im vergangenen Beitrag wurde auf
+den Recovery-Effekt hingewiesen: Obige Zahlen führen zu einem Verlust
+per Saldo. Erst wenn wir den Profit=ACfaktor um den Recovery-Faktor
+korrigieren, ist das De=ACpot völlig neutral. In unserem Fall, bei
+gleichen Häu-figkeiten, errechnet er sich wie folgt: 1 / (1 - 0,0161)
+=3D Recovery-Faktor, wobei die 0,0161 der Durchschnitts=ACverlust ist. Er
+ist also 1 / 0,9839 =3D ~ 1,016363 . Erst bei einem Profitfaktor von
+rund 1,02 wäre das Trading neut=ACral. Bei einigen wenigen Trades fällt
+dieser Effekt kaum ins Gewicht, bei sehr vielen Trades summiert sich
+aber hier der Verlust. Bei 1000 Trades ergibt sich eine Wert=ACminderung
+von zirka zehn Prozent. Vereinfacht kann jedoch gesagt werden, dass
+ein Trading bei einem Pro=ACfitfaktor von 1 neutral, unter 1 Verlust-
+und über 1 ge=ACwinnbringend ist.
+Profitfaktor im Bullen und im Bär Partizipiert ein Trader an einer
+Hausse mit einem zu ho=AChen Depotrisiko (Trader A), fällt dieser Fehler
+wie ge=ACsagt nicht weiter auf, er macht sogar höhere Gewinne als der
+alte Fuchs (Trader B), der einen risikoaversen Wert einhält.
+Voraussetzung ist, dass die Tradegröße von Tra=ACder A bei gleichem
+Traderisiko ständig höher ist als die von Trader B. A hat
+beispielsweise ein Depotrisiko von 3,5 Prozent, B von 1,61 Prozent;
+beide handeln das glei=ACche System, ihre jeweiligen Depotgewinne sind
+genauso
+groß wie die Dcpotverluste (Payoff-Ratio =3D 1), und da wir uns in einer
+Hausse befinden, liegt die Wahrschein=AClichkeit für einen Gewinn bei
+0,65 oder 65 Prozent. Schauen wir uns nun zwei exemplarische,
+zufällige De-potverläufe an (Gewinne =3D 65).
+Die dargestellten Verläufe (Bild 1) sind typisch, das heißt beide
+haben exakt 65 Gewinntrades. Bei einer Basisindcxierung des Depots auf
+100 Prozent hat Trader A nach 100 Trades einen Depotstand von 268,89
+Prozent, Trader B von 160,01 Prozent. In der Hausse hat Trader A
+Trader B deutlich outperformt. Allerdings fällt hier schon die
+deutlich höhere Volatilität von A auf. Im Falle einer Baisse sinkt die
+Wahrscheinlichkeit für Gewinne auf 0,35 oder 35 Prozent. Gehen wir als
+Startbedingung von den oberen unterschiedlichen Depotständen aus,
+er=ACgibt sich der Verlauf aus Bild 2.
+Trader A ist nun der klare Verlierer. Er landet mit 88,46 Prozent
+hinter Trader B, der auf 97,44 Prozent kommt. Auch wenn der
+Unterschied der typischen Da=ACten nicht ganz so drastisch ausfällt, so
+sprechen doch die Verteilungsdaten eine ziemlich deutliche Sprache:
+Wäh=ACrend bei Trader B nur 54,66 Prozent der Depots unter 100 Prozent
+enden, sind es bei Trader A 62,49 Prozent. Fatal sieht es für Trader A
+besonders hinsichtlich des Depotgrenzwertes aus, denn hier liegen
+46,39 Prozent unter der Grenze von 85 Prozent, bei Trader B sind es
+nur 17,57 Prozent. Obwohl der Ansatz von Trader A in der Hausse
+erfolgreich war, versagte er in der Baisse ge=ACgen die Herangehensweise
+von Trader B.
+
+Eine späte Einsicht, am besten am Höhepunkt der Hausse, hätte dazu
+führen können, dass Trader A seine Strategie ändert, hinzu 1,61
+Prozent Depotrisiko. Dann hätten sich die Werte zu seinen Gunsten
+geändert, sein Depot hätte bei nur 35 Gewinntrades eine
+Wertsteige=ACrung von 64 Prozent erfahren.
+Skalierung und Opportunität
+Auch wenn die Modelle viel erklären können, spiegeln sie nicht die
+Realität wider. Man kann sicherlich ein Pay=ACoff-Ratio von 1,75
+erreichen - aber mit welchen absolu=ACten Werten? Und in welcher Zeit?
+Zwischen diesen Para=ACmetern besteht ein Zusammenhang. Machen wir
+einige Berechnungen, um uns dies zu verdeutlichen.
+Gehen wir wieder von den Beispielwerten des ver=ACgangenen Beitrages
+aus: Kapital (Depot) =3D 20 000 Euro, Depotrisiko 1,61 Prozent oder
+gleich 322 Euro. Das Traderisiko nimmt die Werte 7,5 Prozent, 3
+Prozent und 0,5 Prozent an. Es ergeben sich daraus folgende Trade-
+größen: 4293 Euro, 10 733 Euro und 64 400 Euro. Der letzte Wert
+scheidet für weitere Betrachtungen aus, da unser zur Verfügung
+stehendes Kapital von 20 000 Euro nicht ausreicht. Auch das
+Tradevolumen von 10 733 Euro ist zu hoch, da wir nur maximal 30
+Prozent des Kapitals in einen Trade einbringen wollen; den Trade mit
+einer Größe von 4293 Euro können wir jedoch ohne weiteres eingehen.
+Bei dieser Tradegröße entspricht ein 7,5-prozentiger Kursverlust, bis
+zum initialen Stopp Loss, einem Depotrisiko beziehungsweise einem
+realen Verlust von 322 Euro, also exakt unserem Depotrisiko von 1,61
+Prozent. Damit unser Payoff-Ratio von 1,75 als Sollgröße eingehalten
+werden kann, muss der Gewinn als Kursbewegung dem Traderisiko mal dem
+Payoff-Ra=ACtio entsprechen, also 7,5% * 1,75 =3D 13,125%. Zweifels=ACohne
+gibt es Kursbewegungen dieser Größenordnung, selten können diese
+Trades jedoch in einer direkten, =84risikoarmen" Kursbewegung
+abgeschlossen werden. Zudem stellt sich die Frage nach den geeigneten
+Han-delswerten: Blue-Chips, mittelgroße Aktien oder eher sehr gering
+kapitalisierte Werte? Wenn man beispiels=ACweise DAX-Wertc handeln
+möchte, wird dies auf Ta=ACgesbasis schon eng, solche Kursbewegungen
+sind auch hier eher selten. Auf Wochenbasis sind derartige Be=ACwegungen
+schon wahrscheinlicher, kommen aber auch nicht so häufig vor. Es
+entsteht hier das Problem der Opportunität.   die   Frage   nach
+der   Häufigkeit   von
+
+Handlungs- oder Trademöglichkeiten. Denn wie oft wollen Sie traden -
+fünf mal im Jahr. 50 mal, 200 mal oder öfter? Das Payoff-Ratio und der
+Profitfaktor sind von diesem Parameter nicht betroffen, der
+performance=ACorientierte Depotendstand schon.
+Ein Trade mit der anvisierten Größe von 10 733 Euro und einem
+Traderisiko von drei Prozent wider=ACspricht wie gesagt unserer
+Vorsichtsmaximc, nur 30 Prozent in einen Trade zu stecken. Wir müssen
+also die=ACsen Trade herunterrechnen. Das Depotrisiko verrin=ACgert sich
+entsprechend. Die maximale Tradegröße be=ACträgt 20 000 Euro * 0,3 -
+6000 Euro. Es ergibt sich ein Depotrisiko von 6000 Euro * 1,61% / 10
+733 Euro =3D ~ 0,90%. Das riskierte Kapital entspricht damit 180 Euro.
+Sollte der Trade gewinnbringend sein, haben wir nach einer 3% * 1,75 =3D
+5,25% Kursbewegung, einen Depot=ACgewinn von 180 Euro * 1,75 =3D 315 Euro.
+Ursprünglich wären es 322 Euro * 1,75 =3D 563,50 Euro gewesen. Und
+Kursbewegungen von um die fünf Prozent kommen schon weit häufiger vor
+als die zuvor genannten notwen=ACdigen 13,125 Prozent. Die Opportunität
+erhöht sich da=ACmit merklich.
+Schauen wir uns abschließend den Arbeitsbe-reich des Traders bei einem
+halben Prozent Traderisi=ACko an. Seine Sollkursbewegung liegt bei 0,5%
+* 1,75 =3D 0,875%, eine Kursbewegung die auch unter den meisten Blue
+Chips sehr häufig zu finden ist, auch intraday. Die mögliche
+Tradegröße von 64 400 Euro haben wir bereits errechnet; was aber ist,
+wenn wir nur die maximal 6000 Euro in den Trade einbringen wollen? Die
+Frage ist nun, ob das Depotrisiko nicht zu stark gesunken ist, als
+dass sich das Handeln noch lohnen würde. Berechnen wir es: Zuerst das
+Depotrisiko absolut, aus Tradegröße * Trade=ACrisiko: 6000 Euro * 0,5%
+(oder 0,005) =3D 30 Euro. Diese 30 Euro entsprechen 30 Euro / 20 000
+Euro =3D 0,15 Pro=ACzent von 20 000, somit beträgt unser Depotrisiko 0,15
+Prozent. Bei einem anvisierten Payoff-Ratio von 1,75 wäre der Gewinn
+pro Trade 30 Euro * 1,75 =3D 52,5 Euro. Ob sich der Aufwand und das
+Risiko für diesen Gewinn lohnt, versuchen wir nun zu ermitteln. Nehmen
+wir mal an, wir handeln jeden Tag und haben eine Er-
+folgswahrscheinlichkeit von 50 Prozent. Eine Verlaufs-simulation mit
+diesen Werten ergäbe eine Wertsteige=ACrung des Depots von 15 Prozent
+und einen Endwert von 23 000 Euro. Allerdings stellt sich hier die
+Frage nach den Tradekosten. Offensichtlich ergibt die explizite
+Kostenberücksichtigung hier ein Problem bei der Durch-führbarkeit.
+Rechen wir grob vereinfacht mit Kosten von 10 Euro pro Trade. Bei 250
+Trades pro Jahr summie=ACren sich 2500 Euro, die vom Gewinn abzuziehen
+sind, so dass ein Gewinn von rund 500 Euro oder 2,5 Prozent verbleibt.
+Unter diesen Bedingungen ist Trading kaum noch profitabel.
+Lassen Sie uns hier ein Zwischenfazit ziehen. Es wäre zu schön, wenn
+der Markt sich so verhalten würde, dass man sein Kapital und sein
+Money Management optimal einsetzen kann. Leider ist dies regelmäßig
+nicht der Fall. Kein Trader wird 100 Prozent seines Geldes in nur
+einem Trade riskieren, obwohl dies rein rechnerisch erforderlich wäre.
+Als Standard haben sich hier Werte zwischen einem Viertel bis zu einem
+Drittel etabliert. Die Konsequenz daraus ist, dass es für diesen Wert
+dann ein optimales Traderisiko gibt, das sich in der Praxis unter
+Umständen aber schwer realisieren lässt. Wenn wir unsere Tradegröße
+von 6000 Euro aus dem Beispiel heranziehen, ergibt sich bei einem
+Depotrisiko von 1,61% =3D 322 Euro bei 20 000 Euro rechnerisch
+opti=ACmiert ein prozentuales Traderisiko von 322 Euro / 6000 Euro =3D
+0,05366 oder 5,37 Prozent. Bei diesem Traderi=ACsiko können Sie Ihr
+Depotrisiko optimal einsetzen. Je nachdem, welchen zeitlichen Horizont
+oder welchen Markt Sie handeln wollen, müssen Sie die Tradegröße
+skalieren. Generell gilt: Größere Traderisiken führen zu einer
+Herunterskalierung der Tradegröße und zu einer geringeren
+Opportunität, kleinere Traderisiken zur
+Recovery-Effekt
+Der Recovery-Effekt beim aktiven Handeln an den Märkten bedeutet, dass
+auf einen gewissen Verlust ein prozentual höherer Gewinn folgen muss,
+um die verlorene Summe wieder auszuglei=ACchen. Dabei steigt die
+prozentuale Höhe eines nötigen Gewinns im Vergleich zu den Verlusten
+überproportional stark an: Wer 20 Prozent Ver=AClust erwirtschaftet,
+muss das verbleibende Kapi=ACtal um 25 Prozent vermehren, um
+auszugleichen. Wer allerdings 50 Prozent verliert, muss das
+ver=ACbleibende Kapital verdoppeln (100 Prozent).
+einer Herunterskalierung des Depotrisikos und zu einer Erhöhung der
+Opportunität. Gerade Tradingan-fänger sollten sich diesen Zusammenhang
+sehr genau bewusst machen. Ihr Tradingslil, Ihre Marktauswahl und Ihre
+Profitabilität hängen davon ab.
+Derivate und Trade-Ratio
+Hebelinstrumente gleich welcher Art lassen die Möglichkeit zu, auch
+kleinere Traderisiken profitabel zu handeln. Hier ist jedoch eine sehr
+strikte Risikobegren=ACzung oberstes Gebot. Unser Beispiel von oben
+lässt sich wie folgt übertragen:
+Ein Hebel wirkt wie der Einsatz von Fremdkapital. Zu unserem
+Traderisiko von einem halben Prozent brau=ACchen wir eine Tradegröße vo=
+n
+64 400 Euro. Das ist 10,73-mal höher als unser Einsatz von 6000 Euro.
+Ein Hebel von 10,73 auf 6000 Euro hat deshalb die gleiche Wir=ACkung wie
+der direkte Einsatz von 64 400 Euro. Zum Ver=ACgleich: 64 400 Euro *
+0,5% =3D 322 Euro beziehungsweise 6000 Euro * 0,5% * 10,73 =3D 322 Euro.
+Der Einsatz eines Hebelinstruments ermöglicht auch kleine Traderisiken
+zu handeln, die man nach klassischem Money Management kaum hätte
+profitabel handeln können. Damit ist man in der Lage, eine hohe
+Opportunität zu haben, so dass man täglich intraday oder fast täglich
+handeln kann.
+Da man auf diese Weise das Traderisiko drastisch ver-ringert, quasi
+beliebig verringern kann, hat man ent-sprechend kurze Reaktionszeiten.
+Unter Umständen treten Kursbewegungen oder Kurssprünge auf, so dass
+die klassischen Stopps nicht immer zum gewünschten Kursniveau
+ausgeführt werden können. Der Anteil an außerplanmäßigen Verluste=
+n
+kann somit zunehmen, der Höhe wie der Anzahl nach. Um hier auf Dauer
+im Spiel bleiben zu können, sollte man anfangs mit kleineren
+Tradegrößen beginnen, sprich das Depotrisiko über die Tradegröße
+verringern.
+Eine hohe Opportunität geht nicht zwangsweise mit einer höheren
+Depotperformance einher. Hier gibt es zu viele Einflussfaktoren. Eine
+zu geringe Opportunität führt aber zu nicht aussagekräftigen
+Kennwerten und zu einer zu hohen Bedeutung einzelner Trades für die
+Performancemessung. Positive Extremwerte werden eventuell zu sehr als
+Standardwerte interpretiert, negative Extremwerte als Ausnahmen. Bei
+nicht genügender Datenmenge können diese Interpretationen letztlich
+falsch sein.
+Bei einem stabilen und gewinnträchtigen Handel sollte aber letztlich
+die Maximierung der Tradezahl ins Auge gefasst werden, ohne die
+anderen Eigenschaften negativ zu beeinflussen.
+Profitfaktor
+Ziel des Traders muss es sein, einen Profitfaktor größer 1 zu
+erreichen und zu halten: nur so ist Profitabilität gewährleistet. Rein
+aus statistischen Gründen ist eine hohe Tradezahl und Opportunität zu
+begrüßen, da man dann verlässliche Kennzahlen bilden kann. Als
+Mindestwert sieht man dabei die Zahl 30 an. Wenn der Profitfaktor über
+1 liegt, hat man gute Chancen, auf diesem Weg erfolgreich weiter gehen
+zu können. Es spielt letztlich keine Rolle, ob Sie mit einer hohen
+oder niedrigen Trade-Ratio, vielleicht sogar kleiner 1, Gewinne
+machen. Denn zu jedem Trade-Ratio gibt es ein passendes Payoff-Ratio,
+mit der Sie einen Profitfaktor größer 1 erreichen.
+Dabei kann es auch kürzere Phasen mit einer Tradeanzahl kleiner 30
+Stück geben, in denen Ihr Profit=ACfaktor kleiner 1 ist oder von Ihrem
+Profitfaktor-Mittelwert deutlich nach unten abweicht.
+Wenn Sie risikoaverses Money Management betreiben, haben Sie sehr gute
+Chancen, derartige Phasen gut zu überstehen. Das Produkt aus Payoff-
+Ratio und Trade-Ratio ist entscheidend, isoliert ist keiner dieser
+Werte von Bedeutung. Sollte Ihr Profitfaktor bei mehr als 30 Trades
+unter 1 sein, sollten Sie sich spätestens hier eine Auszeit gönnen und
+Ursachenforschung betreiben. Dann scheint ein Fehler in Ihrem
+Handelsansatz sehr wahrscheinlich. Haben Sie gutes Money Management
+betrieben, sollten Sie zum Weiterhandeln noch genügend Kapital
+besitzen.

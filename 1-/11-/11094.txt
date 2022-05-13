@@ -1,0 +1,27 @@
+Ist zwar 'ne mathematische Frage, könnte aber gut sein, dass
+es hier trotzdem jemand weiß.
+
+Ziel: Generierung von normalverteilten Zufallszahlen in (-8,+8).
+(Die "8" bitte wie Smileys lesen! Also +/- Unendlich!)
+
+Mir ist, dass folgendes geht, ich finde aber keine (mathematische)
+Begründung, den passenden "Lehrsatz" sozusagen:
+
+Verteilungsfunktion (für EW = 0, StdAbweichung = 1):
+f(x) = 1/WURZEL(2*PI)*EXP(-0,5*(x/SA)^2)
+f(0) = 1/WURZEL(2*PI)
+also Wertebereich = (0, 1/WURZEL(2*PI)]
+
+Unkehrfunktion f^-1 =: g
+g = +/-WURZEL(-2*LN(y*WURZEL(2*PI)))
+
+Sei Z ein Zufallszahlengenerator für gleichverteilte Zufallszahlen
+in (0,1].
+
+Ist dann (g o f(0)*Z) = g ( f(0)*Z ) ein Generator für normal-
+verteilte Zufallszahlen in (-8,+8)? Kennt jemand den Satz dazu?
+
+(Hinweis: Mir ist klar, dass man sich um das "+/-" noch speziell
+kümmern muss!)
+
+Danke, Nelly

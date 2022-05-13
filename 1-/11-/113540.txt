@@ -1,0 +1,76 @@
+aus MS-EXCEL 97 anbei Hilfetext zur DISAGIO-Funktion:
+
+Liefert den in Prozent ausgedrückten Abschlag (Disagio) eines Wertpapiers.
+Ist diese Funktion nicht verfügbar, müssen Sie das Setup-Programm starten,
+um den Add-In-Makro Analyse-Funktionen zu installieren. Nachdem Sie den
+Add-In-Makro installiert haben, müssen Sie es aktivieren, indem Sie im Men
+Extras den Befehl Add-In-Manager verwenden.
+
+Wie wird's gemacht?
+
+Syntax
+
+DISAGIO(Abrechnung;Fälligkeit;Kurs;Rückzahlung;Basis)
+
+Abrechnung   ist der Abrechnungstermin des Wertpapierkaufs. Der
+Abrechnungstermin des Wertpapierkaufs ist das Datum nach der
+Wertpapieremission, wenn das Wertpapier in den Besitz des Käufers übergeht.
+
+Fälligkeit   ist der Fälligkeitstermin des Wertpapiers. Der
+Fälligkeitstermin ist das Datum, an dem das Wertpapier abläuft
+
+Kurs   ist der Kurs des Wertpapiers pro 100 DM Nennwert.
+
+Rückzahlung   ist der Rückzahlungswert des Wertpapiers pro 100 DM Nennwert.
+
+Basis   gibt an, auf welcher Basis die Zinstage gezählt werden.
+
+Basis Basis für die Zählung der Tage
+0 oder nicht angegeben USA (Faka) 30/360
+1 Taggenau/taggenau
+2 Taggenau/360
+3 Taggenau/365
+4 Europa 30/360
+Hinweis
+
+� Der Abrechnungstermin ist der Termin, zu dem ein Käufer einen Kupon, z. B.
+ein Wertpapier (Bond) erwirbt. Der Fälligkeitstermin ist der Termin, zu dem
+ein Kupon abläuft. Angenommen, ein Wertpapier (Bond) mit einer Laufzeit von
+30 Jahren wird z. B. am 3. Juli 1996 ausgegeben und sechs Monate später
+von einem Käufer erworben. Das Emissionsdatum wäre dann der 4. Juli 1996,
+der Abrechnungstermin wäre der 3. Januar 1997 und der Fälligkeitstermin der 3.
+Juli 2026, 30 Jahre nach dem 3. Juli 1996, dem Emissionsdatum.
+
+� Abrechnung, Fälligkeit und Basis werden zu ganzen Zahlen gekürzt, indem
+ihre Nachkommastellen abgeschnitten werden.
+� Ist Abrechnung oder Fälligkeit keine zulässige fortlaufende Datumszahl,
+liefert DISAGIO den Fehlerwert #ZAHL!.
+� Ist Kurs � 0 oder ist Rückzahlung � 0, liefert DISAGIO den Fehlerwert
+#ZAHL!.
+� Ist Basis < 0 oder ist Basis > 4, liefert DISAGIO den Fehlerwert #ZAHL!.
+
+� Ist Abrechnung � Fälligkeit, liefert DISAGIO den Fehlerwert #ZAHL!.
+� DISAGIO rechnet wie folgt:
+
+Dabei gilt:
+
+B= = Anzahl der Tage eines Jahres, abhängig von der Jahresbasis.
+
+DSM = Anzahl der Tage zwischen dem Abrechnungstermin des Wertpapierkaufs und
+dem Fälligkeitstermin.
+
+Beispiel
+
+Für ein Wertpapier gelten folgende Modalitäten:
+
+Abrechnungstermin: 19. August 1993
+Fälligkeitstermin: 12. Dezember 1993
+Kurs (Kaufpreis): 97,975 DM
+Rückzahlungswert: 100 DM
+Basis: Taggenau/360
+
+Der Abschlag (Disagio) des Wertpapiers berechnet sich (im 1900-Datumssystem)
+wie folgt:
+
+DISAGIO("2/15/93";"6/10/93";97.975;100;2) ergibt 0,063391 oder 6,3391
+Prozent

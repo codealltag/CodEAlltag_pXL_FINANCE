@@ -1,0 +1,25 @@
+Als erste Naeherung beschreibt es das sehr gut. Kompliziert wird die
+Sache 1. dadurch, dass Anleihen meist ueber mehrere Jahre laufen.
+Dann muessen Zinseszins-Ueberlegungen einfliessen.
+2. Dadurch, dass am Ende der Laufzeit immer der Nennwert zurueckge-
+zahlt wird, auch wenn man nur den Kurswert gezahlt hat. Das gibt einen
+zusaetzlichen Gewinn (falls der Kaufkurs unter 1 war) oder Verlust
+(bei Kurs ueber 1). Das muss auch auf die Restlaufzeit umgelegt werden.
+Es ergibt sich eine etwas umfangreichere Formel, die man z. B.
+im "Kaal-Pfingstgraef" (Wirtschaftslehre des Kerditwesens) nachlesen
+kann.
+Effektive Verzinsung:
+
+Nominalzins*100        Rueckzahlungsgewinn * 100
+---------------   +     -------------------------
+Kaufkurs(%)             Restlaufzeit* Kaufkurs(%)
+
+(Wenn ich das richtig ueberblicke ist hier aber nichts Zinseszins-
+liches drin sondern lediglich zusaetzlich der Rueckzahlungsgewinn
+breitgestrichen ueber die Restlaufzeit, was sicher nicht ganz exakt ist).
+(Aber welcher Banker rechnet schon exakt??)
+k.
+
+--
+Dr. P. Seidenkranz, Janneckweg 9, D48329 THUNPADEL, Tel. +79-0509-4210
+<evgydmv@kop-wtywxmmn.ox>

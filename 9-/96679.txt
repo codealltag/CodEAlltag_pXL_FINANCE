@@ -1,0 +1,30 @@
+Gerhard Ukena schrieb in Nachricht ...
+
+
+Im Demopaket von KURSEXTRAKT wird u.a. auch die 
+Extraktion und Konvertierung der Neuer-Markt-Kurse
+von comdirekt demonstriert. Das Programm beisst sich
+auch nicht die Zaehne aus, wenn es Aenderungen gibt,
+da die Werte nicht nach ihrer Postition lokalisiert,
+sondern im ganzen Dokument gesucht werden.
+Wird ein Titel nicht gefunden, wird das angezeigt, so
+dass man die Ursache gleich beseitigen kann. Meistens
+ist es eine kleine Aenderung im Namen des Wertpapiers,
+die im Konfigurationsfile angepasst werden muss.
+
+Neue Werte fuehren zu keinen Stoerungen. Sie sind
+nur einmalig im Konfigurationsfile einzutragen und
+werden von da an einbezogen.
+
+
+Und uebrigens: Die URLs der meisten im Frame gezeigten
+Seiten laesst sich ermitteln, so dass man solche Seiten
+auch pur laden bzw. sich zusenden lassen kann.
+
+MfG
+Fabian
+--
+Boersenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gaengigen Formate
+mit KURSEXTRAKT V.2.3.7.
+http://bxt.plmdpv.um/hgfc/dcq/

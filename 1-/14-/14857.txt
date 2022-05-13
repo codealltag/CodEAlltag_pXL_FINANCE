@@ -1,0 +1,257 @@
+Pivot im Forex Börsen Trading
+
+Author Eckel
+
+Mit Pivor Zahlen traden, die Pivot-Zahlen oder Pivot-Linien stammen
+eigentlich von den amerikanischen Trading-Floors. Ursprüng=ADlich für
+den Futures-Handel entwickelt, werden sie mittler=ADweile in vielen
+Märkten einge=ADsetzt. Pivot-Punkte sind, ähnlich wie Fibonacci-Zahlen
+oder Elliott-Wellen, ein Grund-Instrument in der Technischen Analyse -
+ein Werk=ADzeug, das für Einsteiger in den Forex-Handel ein leicht zu
+erlernendes Tool darstellt. Es ist eine Besonderheit im Forex Handel
+Besonderheit. Wenn wir am Morgen den Monitor anmachen, dann sieht der
+Chart nicht mehr so aus, wie wir ihn noch vom Vortag in Erinnerung
+haben.
+Im Gegensatz zu den Aktienmärkten, die morgens öffnen und abends
+schließen, geht es an den Forex-Märkten 24 Stunden ohne Pause rund -
+außer am Wochenende. Das bedeutet für den Devisen=ADhändler, dass all=
+es,
+was er am Abend zuvor analysiert hat, am nächsten Morgen nur noch
+Makulatur sein kann. Speziell im Intraday-Chart gezogene Trendlinien
+sind nun gebrochen, Unterstützungen oder Widerstände haben nicht
+gehalten und müssen nun wieder neu gezeichnet werden.
+Dazu kommt, dass man nicht weiß, wie weit eine entsprechen=ADde Bewegung
+über Nacht schon fortgeschritten ist, die vielleicht
+ausgerechnet dann ihr Ende findet, wenn in Europa alles schläft.
+Gerade im Euro ist oftmals zu sehen, dass man morgens einen Über=AD
+nachtanstieg zu sehen bekommt.
+Die Folge: Weil der Kurs gestiegen ist, wird man schnell bullisch und
+das ist dann womöglich schon das Hoch gewesen. Der Euro dreht dann
+gerne innerhalb der nächsten Stunde nach unten ab und schaut nicht
+mehr zurück. Diese besonderen Eigenschaften der Devisenkurse
+erfordern, dass man als Devisenhändler einen Auto=ADmatismus für den
+Morgen entwickelt, der einem ohne viel Arbeit zunächst einen Überblick
+verschaffen kann.
+Natürlich gibt es verschiedenste Möglichkeiten sich diesen
+Marktüberblick zu verschaffen. Wir wollen in diesem Artikel über eine
+Möglichkeit sprechen, die noch aus einer Zeit stammt, in der
+es kein Internet gab, keine ultraschnellen PCs und der Normal=ADbürger
+noch nicht an den Forex-Märkten mitspielen durfte.
+In den 06. 10. 22 Jahren haben die Händler direkt an den Börsen eine
+Technik-Routine ausgearbeitet, die ihnen für den nächsten Handelstag
+anzeigte, wo Widerstands- und Unterstützungslinien zu erwarten waren
+und wo ein Mittelwert, der so genannte Pivot-Punkt, zu finden ist. Auf
+kleinen Kärtchen wurde vor der Markteröffnung notiert, bei welchen
+Punkteständen die entsprechenden Linien zu finden sind. Diese Werte
+wurden anhand der Vortageszahlen errech=ADnet. Das Schöne an den Pivot-
+Punkten: Man braucht dazu nur drei Zahlen: Hoch-, Tief- und
+Schlusskurs des betreffenden Instruments. Das bedeutet, dass man
+bereits am Abend mithilfe der Pivot-Zahlen eine Prognose für den
+nächsten Tag erstellen kann.
+Die drei genannten Zahlen werden addiert und dann wieder durch drei
+geteilt. Das Ergebnis ist der so genannte Pivot, um den der Kurs am
+Folgetag schwanken sollte. Haus und Hof sollte man auf diese Prognose
+natürlich nicht verwetten, wie bereits erwähnt können die
+Devisenmärkte aufgrund äußerer Einflüsse und funda=ADmentaler Daten=
+ sehr
+schnell sehr volatil werden.
+Um das System noch weiter zu optimieren, kamen die amerika=ADnischen
+Floortrader auf die Idee, jeweils zwei Linien ober- und unterhalb
+dieses Pivot-Punktes abzuleiten, die als Unterstützungs=ADund
+Widerstandslinien dienen.
+Man muss sich das so vorstellen: Da steht ein Händler, der in
+Sekundenschnelle eine Menge Kontrakte handeln soll, ohne überhaupt
+einen einzigen Chart gesehen zu haben - damals gab es die Charts nur
+von Hand gezeichnet. Man brauchte aber trotz allem einen kleinen
+Hinweisgeber, der einem sagen konnte, wo der aktu=ADelle Kurs denn liegt
+- in Relation zum Vortrag. Ist der Kurs zu weit nach oben gelaufen
+oder zu tief gefallen? Wo nimmt dieser Händ=ADler Gewinne mit, wo dreht
+er seine Positionen? Für diese Entschei=ADdungen braucht er diese
+kleinen Hinweise, die sich immer mehr durchgesetzt haben, auch in
+Zeiten des Internets. Hinweise wie die Pivot-Zahlen.
+Berechnung der Pivot-Linien
+Pivot-Zahlen werden gerade an den Währungsm=E4rkten sehr häu=ADfig
+genutzt. Für den Anfang sollte man morgens den ersten Blick auf die
+Pivot-Linien werfen. Aber wie berechnet man sie? Grund=ADsätzlich
+benötigt man für die Berechnung den Pivot-Punkt eines Instruments,
+davon werden dann in der Regel zwei Widerstände und zwei
+Unterstützungen berechnet. Diese Linien werden wie folgt vom Pivot-
+Punkt abgeleitet:
+Pivot-Punkt: (Hoch +Tief + Schluss) / 3
+Unterstützungen:
+Unterstützung 1 (Support 1 (S1)) =3D (Pivot-Point * 2) - Hoch
+Unterstützung 2 (Support 2 (S2)) =3D Pivot-Point - (R1 - S1)
+Widerstände:
+Widerstand 2 (Resistance 2 (R2)) =3D Pivot-Point + (R1 - S1) Widerstand
+1 (Resistance 1 (R1)) =3D (Pivot-Point * 2) -Tief
+Bild 1 zeigt ein Beispiel fürdieseUnterstützungs-und Widerstands=AD
+linien. Die Bezeichnungen in Klammern (S1, S2, R1, R2) sind die Kurz=AD
+bezeichnungen im Chart. Die so berechneten Linien fungieren wie
+klassische Unterstützungs- und Widerstandsbereiche. Das Beobach=ADten
+der Pivot-Punkte ist vor allem an ereignislosen Tagen interes=ADsant.
+Dann schwankt der Markt häufig zwischen dem ersten Wider=ADstand und der
+ersten Unterstützung. Verlässt der Markt diesen ,,Tunnel" kann man
+damit rechnen, dass sich der so eingeschlage=ADne Trend am nächsten Tag
+in diese Richtung fortsetzt.
+Obwohl es viele vielleicht nicht glauben, die Verwendung der Pivots am
+Forex ist vermutlich eine der populärsten Methoden - an den
+Devisenmärkten speziell im Intraday-Handel. Dafür zunächst als
+Grundlage die pragmatische Weisheit: Der Markt kann nur nach oben,
+unten oder seitwärts gehen. Der Markt ist wie ein elastisches Band,
+das ausgedehnt wird und früher oder später zu einem in=ADneren
+Gleichgewichtspunkt, in dem der Markt in Balance ist, zu=ADrückprallt.
+Dann dehnt er eventuell seine Bewegung in die gegenüberlie=ADgende
+Richtung aus, um von dort wieder zurück zuschnellen zum Mittelwert -
+zum Pivot-Punkt. Dieser und seine daraus abgeleite=ADten Linien sagen
+uns Tag für Tag, wie weit das elastische Band rei=ADchen kann, wann der
+Markt zurückschnellen kann oder einfach ste=ADhen bleibt und auf der
+Stelle tritt, bis irgendein Ereignis von außen ihn wieder in Bewegung
+bringt.
+Der Handel mit Pivot-Punkten
+Pivot-Punkte können in vielen Zeitrahmen verwendet werden. Natürlich
+ist man an den Forex-Märkten eher kurzfristig orientiert. Die
+kurzfristig orientierten Trader versuchen nur die Linien für den
+nächsten Tag ausfindig zu machen. Diese Werte werden dann als klare
+Hinweise genutzt, wo man Gewinne mitnehmen soll oder wo man am besten
+neue Long- oder Short-Positionen aufbaut.
+In Bild 1 sehen wir einen 15-Minuten-Chart des Euro und die
+entsprechenden Pivot-Linien. Dieser Tag ist ein Montag und man
+kann sehen, dass es im asiatischen Handelstag ein exakt an der
+Widerstandslinie zwei (in Bild 2: R 2) liegendes Hoch gab. Innerhalb
+der folgenden acht Stunden ist der Euro dann von 1,3196 auf 1,3155
+gefallen und hat die Unterstützungslinie zwei (in Bild 2: S2) berührt.
+Der Kurs steht kurz vor der letzten Linie 3 und hat diese sogar schon
+berührt.
+Man kann erkennen, dass einige Zeit an der inneren Linie, der Pivot-
+Linie, gehandelt worden ist, bevor sich der Kurs dann für den weiteren
+Weg nach unten entschied. In dieser Phase des Handels um den Pivot-
+Punkt kann man als Trader eine Unterstützung, die Unterstützungslinie
+1 (FS1), zum kurzfristigen Aufbau von Long-Positionen nutzen, die
+oberhalb des Pivots wieder glattgestellt wer=ADden konnten.
+Da keine Veröffentlichungen von irgendwelchen Zahlen oder Statistiken
+an diesem Tag anstanden, konnte man davon ausgehen,
+dass diese Linie hält. Auch ein zeitweiliges längeres Verharren un=ADter
+so einer Pivot-Linie ist oftmals kein Grund, auf weitere Kurs=ADverluste
+zu setzen, wenn eine Bewegung schon so weit fortgeschrit=ADten ist. Vom
+Extremhoch zum bisherigen Extremtief ergab sich in diesem Beispiel
+eine Bewegung von nahezu 40 Pips.
+Gehen wir nun einige Stunden im Tag voran und schauen, wie es im
+Intraday-Bereich weiter ging (Bild 2). Sie sehen einen 15-Mi-nuten-
+Chart, bei dem erfahrungsgemäß das Rauschen des Mark=ADtes nicht so
+stark ausgeprägt ist wie zum Beispiel in einem Fünf-Minuten-Chart.
+Innerhalb der folgenden beiden Stunden wurde mehrfach un=ADter der
+dritten Pivot-Unterstützungslinie gehandelt. Nachdem es dann keine
+weiteren Verkäufe gab, schickte sich der Euro an, wieder über diese
+Linie zu gehen. Das wiederum ermutigte einige Händ=ADler, neu in den
+Markt einzusteigen, die gerade auf diesen Moment gewartet hatten.
+Hätte man hier einen Trend eingezeichnet, wäre mit dem letz=ADten Balken
+das Kaufsignal ,,Trendbruch" generiert worden. Damit hätten wir einen
+weiteren Grund anzunehmen, dass der Kurs wei=ADter nach oben geht. Bild
+3 zeigt einen kompletten Tagesverlauf bis 22:00 Uhr abends
+mitteleuropäischer Zeit. Wir sehen, dass es nach=ADfolgend zu einem
+Anstieg fast bis zur Pivot-Linie kam, dann ein erneuter Test der
+Tiefs, bei dem Händler wieder Positionen auf=ADbauen und schlussendlich
+wieder zum Ausbruch über die Pivot-Linie fast bis zum Widerstand
+Nummer 1 führten.
+Gesamtüberblick am Morgen
+Die erste Aufgabe eines Forex-Traders ist es, sich daran zu gewöh=ADnen,
+den Tag mit einem Blick auf den bisherigen Kursverlauf zu beginnen und
+einen Blick auf die eingezeichneten Pivot-Linien zu werfen. Das gilt
+besonders für die Forex-Märkte.
+Sehr viele Fehler entstehen dadurch, dass man nicht auf diese Linien
+achtet und zum falschen Zeitpunkt long oder short geht. Die=ADse Fehler
+kann man durch diesen ersten Blick morgens sogar ohne Trendlinien und
+sonstige Indikatoren vermindern. Erst wenn man sich zunächst dieses
+große Gesamtbild angesehen und sich einen Überblick verschafft hat,
+dann kann man sich an die Auswertung von Indikatoren und Trendlinien
+machen.
+Liegt der aktuelle Kurs unterhalb des Pivots, vielleicht schon an
+einer ersten Unterstützungslinie, sollte man eher auf Kaufsignale
+achten. Umgekehrtes gilt, wenn bei der Markteröffnung die Wider=AD
+standslinien bereits erreicht sind.
+Dies sind dann eher gute Verkaufspunkte. Aber wie gerade bereits
+erwähnt, sind Pivot-Punkte als einzelnes technisches System mit
+Sicherheit hilfreich, besser arbeiten sie natürlich inner=ADhalb eines
+Systems mit anderen Methoden. Für den Anfang beginnt man am besten
+damit, die Pivot-Punkte jeden Tag für den eigenen Markt zu berechnen
+und zu beobachten, wie sich die Kurstätigkeit in diesen Bereichen
+verhält.
+Im Laufe der Zeit entwickeln sich dann Muster, die sich für den Handel
+als nützlich erweisen. Es gibt sogar zahlreiche Webseiten, die Pivot-
+Punkt-Rechner anbieten. Zu diesem Thema einfach mal eine Suchmaschine
+befragen...
+Kombinationsmöglichkeiten
+Ein System, das einfach mit den Pivot-Zahlen zu kombinieren ist, ist
+das so genannte,,Fibonacci"-Konzept. Dieses Handels-Konzept beruht auf
+einem Buch aus dem 13. Jahrhundert, dem LiberAbacci, dem Buch der
+Zahlen. Schon damals erkannte der italienischer Mathematiker Nico
+Fahrenkrog von Gohlau die Zusammenhänge dieser berühmten
+
+Zahlenfolge. Die Fibonacci-Zahlen errechnen sich wie folgt: Für die
+beiden ersten Zahlen werden die Werte 0 und 1 vorgegeben. Jede weitere
+Zahl ist die Summe ihrer beiden Vorgänger: 0,1,2,3,5,8,13 und so
+weiter. Man erhält also die jeweils nächste Zahl durch die Addition
+ihrer beiden Vorgänger (3+5 =3D 8,8+5 =3D 13,...). Für den Börsenhand=
+el
+ist gerade die aus dieser Zahlenreihe resultierende Prozentzahl von
+61,8 Prozent interessant. Sie beschreibt das Verhältnis einer Zahl zu
+ihrem jeweiligen Vorgänger. Auch der Gegenwert von 38,2 Prozent (100
+Prozent - 61,8 Prozent) ist fürTrader von Interesse. Diese beiden
+Quotienten werden genutzt, um nach einer Kursbewegung das
+voraussichtliche Ausmaß einer Korrekturbewegung abzuschät=ADzen. Die
+daraus resultierenden Fibonacci-Niveaus dienen ebenfalls als
+Widerstands- oder Unterstützungszone. Neben dem Abschät=ADzen von
+Korrekturbewegungen lässt sich der Ansatz auch nutzen, um Kursziele zu
+bestimmen. Bei dem Einsatz von Fibonaccis sollte man darauf achten,
+dass der Devisen-Markt in der Regel nicht auf den Pip genau wendet.
+Häufig ist auch nur ein kurzes Verweilen auf dem Niveau zu beobachten,
+bevor der Markt seine Bewegung weiter fortsetzt. Sobald eine Fibonacci-
+Marke einmal verletzt wur=ADde, ist sie als ungültig zu betrachten und
+nicht weiter in die Analyse mit einzubeziehen. Fällt ein Fibonacci-
+Niveau beispielsweise mit einer Trendlinie zusammen, ergibt sich
+häufig ein starkes Signal. Auch die Kombination mit Candlesticks oder
+Indikatoren erscheint häufig Erfolg versprechen
+
+Erläuterung der Crossrates
+Quotierungen ohne Beteiligung des US-Dollars werden als Cross-rates
+bezeichnet. Die am häufigsten gehandelten Crossrates sind jeweils der
+Euro gegen den Japanischen Yen, das Britische Pfund und den Schweizer
+Franken. Möglich sind aber auch exotische=ADre Quotierungen wie
+beispielsweise Mexikanische Pesos gegen den Südafrikanischen Rand.
+Die Bedeutung von Crossrates hat in den letzten Jahren deut=ADlich
+zugenommen. Zum einen führt die Globalisierung zu einem höheren
+Außenhandel, der die Konvertierung von Devisen not=ADwendig macht. Zum
+anderen stellen Crossrates vor allem für private Trader eine
+interessante Alternative zu Quotierungen gegenüber dem US-Dollar dar.
+Die Auswahl der handelbaren Wechselkurse erhöht sich deutlich, wenn
+auch Crossrates be=ADrücksichtigt werden. Die Broker bieten mittlerweile
+über 100 Währungspaare zum Handel an.
+Crossrate Effekt
+Im Umgang mit Crossrates begegnet häufig der so genannte Crossrate-
+Effekt. Wertet beispielsweise der Euro gegenüber dem US-Dollar auf,
+das heißt der Wechselkurs EUR/USD steigt, und der Wechselkurs USD/JPY
+bleibt unverändert, steigt in der Fol=ADge auch der Wechselkurs des
+Euros gegenüber dem Yen. Würde die entsprechende Bewegung im EUR/JPY
+ausbleiben, ergäbe sich eine Arbitrage-Möglichkeit. Diese
+Wechselwirkung
+allem in Kombination mit einem Einsatz der Technischen Analyse Trading-
+Chancen eröffnen.
+Technische Analyse und Crossrates
+Obwohl in einigen Crossrates ein recht aktiver Handel stattfindet, ist
+das Volumen der Währungen in den Quotierungen gegen den US-Dollar
+deutlich höher. Deshalb findet die Preisfindung in der Regel gegen den
+US-Dollar statt. Arbitrage-Prozesse sorgen dafür, dass sich der
+theoretische Wechselkurs in der Crossrate dann auch tatsächlich
+einstellt.
+Es ist daher empfehlenswert, auch die Notierungen gegen den US-Dollar
+mit in die Analyse einzubeziehen. Plant man zum Bei=ADspiel eine Long-
+Position im EUR/CHF einzugehen - Euro long, Schweizer Franken short -
+sollte man jeweils auch die technische Situation beider Währungen im
+Verhältnis zum US-Dollar über=ADprüfen. Diese Analyse sollte die
+gestellte Prognose bestätigen, oder zumindest keine Gegenargumente
+präsentieren. Am ein=ADfachsten schätzt man dafür das Potenzial beider
+Währungen (EUR und CHF) gegenüber dem US-Dollar ab bzw. prognostiziert
+die weitere Entwicklung. Erwartet man beispielsweise in den kom=ADmenden
+Tagen eine Bewegung im EUR/USD auf 1,1800 und im USD/CHF auf 1,3200,
+ergibt sich hieraus ein theoretischer Wech=ADselkurs für den EUR/CHF in
+Höhe von 1,5576. Dieses lässt sich nun einfach mit der ursprünglichen

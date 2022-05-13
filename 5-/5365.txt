@@ -1,0 +1,65 @@
+Parabolic SAR Trading SelMcKenzie Steineke
+Author D.Steineke
+Video
+http://tiy.tkkebnb.qcq/tqdsc?w=9A6N4XuYkpuiO
+
+Wie wäre es mit einem einzelnen Indikator, der zugleich ein kleines
+Handelssystem darstellt? Mit dem Parabolic SAR könnte dieser Wunsch in
+Erfüllung gehen. Der Indikator überzeugt vor allem in starken
+Trendphasen, hat aber auch Schwächen
+Zu jeder funktionierenden Trading-Strate=ACgie gehören zwei
+Kernkomponenten: gute Handelssignale und ein durchdachtes
+Risikomanagement. Diese beiden Ele=ACmente unter einen Hut zu bringen
+war das Ziel von Paul Pietzker, der den Parabolic SAR entwickelte.
+=84SAR" steht für =84Stop and Reverse", also dafür, Gewinne mit=ACzuneh=
+men
+und in die andere Richtung zu spekulieren. Das besondere am Parabolic
+SAR ist daher, dass er neben der Anzei=ACge des aktuell vorherrschenden
+Trends sowie der jeweiligen Handelssignale zu=ACgleich ein strategisch
+sinnvolles Stop=ACLoss-Niveau vorgibt. Doch wie kommt diese Kombination
+zustande =97 und noch wichtiger: Wie bewährt sich der Indikator in der
+Praxis?
+Berechnung. Prinzipiell orientiert sich der Parabolic SAR an drei
+verschiede=ACnen Werten: einem Wert für den Stopp, einem Extremkurs (je
+nach Trendrichtung hoch oder tief) sowie einem Beschleu=ACnigungsfaktor.
+Letzterer erhöht sich mit zunehmender Trendlänge immer weiter, sodass
+der Stopp immer stärker nach=ACgeführt wird.
+In der Standardeinstellung ist der Beschleunigungsfaktor 0,02.
+Erreicht der Trend neue Extremkurse, wird der Faktor jeweils um 0,02
+erhöht; werden keine neuen Höchst- beziehungswei=ACse Tiefstwerte
+erreicht, bleibt er gleich hoch. Nach zehn Trendtagen erreicht der
+Beschleunigungsfaktor mit 0,2 sein Maximum. Daher ergibt sich auf der
+mar=ACketindex Plattform folgende Standard=ACeinstellung für den
+Indikator:
+Parabolic SAR (0,02; 0,2)
+
+Zu Beginn der Berechnung liegt das Stoppniveau relativ weit entfernt,
+damit es nicht unnötig durch kleine Zufallsbewegun=ACgen ausgelöst wird=
+.
+Nimmt der Kurs nun Fahrt in die antizipierte Richtung auf, zieht sich
+der Parabolic SAR an den Kurs heran, um möglichst viel Buchgewinn
+abzusichern (siehe Chart). Dreht der Kurs und kreuzt die Parabolic-
+Linie (=84Stop"), wird für die ent=ACsprechenden Trades der Ausstieg
+getrig=ACgert. Im Anschluss wechselt der Indikator automatisch die
+Richtung (=84Reverse"). Daher ist das System stets investiert, je nach
+Trendrichtung long oder short.
+Indikator mit Schwächen. In der Theorie klingt das Konzept optimal.
+Praktisch ist der Parabolic SAR aber nur für Trendmärkte sinnvoll
+einsetzbar. Hier funktioniert er aus=ACgezeichnet, da der Stopp anfangs
+nicht zu nah am Kurs liegt und der Trend damit Zeit
+
+hat, sich zu entwickeln. Im Gegensatz dazu ist das Timing in
+Seitwärtsphasen eher un-günstig, da hier der Effekt des
+=84Heranzie=AChens" nicht zum Tragen kommt und immer wieder Fehlsignale
+beim Drehen der Positi=AConen ausgelöst werden. Dies führt zu vielen
+kleinen Verlusten in Seitwärtsphasen.
+Eine Möglichkeit zur Verbesserung des Parabolic SAR können zusätzlich=
+e
+Filter sein, wie beispielsweise andere Indi=ACkatoren (Gleitende
+Durchschnitte, Rela=ACtive-Stärke-Index, Bollinger-Bänder). Außerdem
+können die Signale auf höhe=ACren Zeitebenen zurate gezogen werden: Wir=
+d
+beispielsweise auf Stundendaten ge=ACtradet, kann ein Blick auf die
+Signale des Tagescharts das Gesamtbild vervollstän=ACdigen. Eventuell
+sollten dann nur Trades eingegangen werden, die in Richtung des
+übergeordneten Trends zeigen, was sich als guter Filter bewährt hat.

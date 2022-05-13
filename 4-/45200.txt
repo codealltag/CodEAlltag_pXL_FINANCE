@@ -1,0 +1,9 @@
+Unlogisch ist es trotzdem. Bei Stop-Loss bezieht sich das Stop
+auf einen Zustand und ist semantisch korrekt. Bei Stop-Buy 
+bezieht es sich auf eine Aktion, wobei die semantische Bedeutung
+das genaue Gegenteil der tatsaechlich auszufuehrenden Aktion ist.
+Verwirrend. Verstaendlicher waere Start-Sell und Start-Buy gewesen.
+
+Wer denkt sich sowas aus?
+
+Eckhard

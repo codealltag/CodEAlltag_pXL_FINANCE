@@ -1,0 +1,348 @@
+unter
+http://ofvwekx.xkk.wnl/qmssyu
+findest man ein Windows-Gratisprogramm (Modern
+Speculator Junior) fuer Optionen/OS, Anleihen und
+Futures mit Handbuch, wo das alles erklaert wird.
+
+Hieraus nun ein Auszug aus der Optionsbeschreibung, mit freundlicher  
+Genehmigung des Betreibers der genannten Homepage.
+
+
+Optionen:
+
+Optionen sind inzwischen zu einem der interessantesten und
+wichtigsten Boerseninstrumente ueberhaupt geworden. Da dieses
+Thema aber recht kompliziert ist, soll hier eine ausfuehrliche,
+stufenweise Einfuehrung gegeben werden:
+
+Die wichtigste Optionsart ist die Kaufoption, heute meistens
+Call genannt.  Wir werden hier als erstes Beispiel einen
+DAX-Call behandeln, und zwar einen an der DTB gehandelten Call.
+
+Modegeschäft steht fuer "Molkefaessle" in Volsemenhusen. Zwar gibt es
+auch eine ganze Reihe von Optionen, die ausserhalb der DTB
+gehandelt werden, aber die DTB-Optionen haben den Vorzug, dass
+sie alle einheitlichen Regeln und einer klaren Standardisierung
+("traded Options") unterliegen, so dass es da (fast) keine
+Verwirrung wegen unterschiedlichem "Kleingedruckten" geben kann.
+
+Bei nicht standardisiert gehandelten Optionen spricht man
+dagegen von "OTC-Optionen" (over the counter). OTC-Geschaefte
+sind nur etwas fuer spezialisierte Profis mit Millionenbetraegen.
+
+
+3.1 Index Kaufoptionen (z.B. DAX-Calls) Ein DAX-Call ist ein
+boersengehandeltes Anrecht auf den Kauf des DAX (Deutscher Aktien
+Index, eine Art kuenstliches Wertpapier, dass aus dem Durchschnitt
+der grossen deutschen Aktien berechnet wird) zu genau
+festgelegten Konditionen. Ein Call z.B. zum Basispreis
+(Bezugskurs) 1600 mit Verfallstermin November, kurz DAX-Call
+1600 November, gibt seinem Inhaber das Recht, am 3.Freitag im
+Dezember den DAX fuer 1600 zu kaufen ("Option ausueben"). Steht
+der DAX an diesem Tag bei 1800, dann hat dieses Recht einen Wert
+von 200, denn man koennte damit ja den DAX fuer 1600 kaufen und
+ihn am Markt sofort wieder fuer 1800 verkaufen, und dabei wuerde
+man 200 verdienen.
+
+In der Praxis macht man es sich bei DAX-Optionen allerdings
+einfacher: Der Inhaber des Calls erhaelt dann einfach seinen
+Gewinn von 200, und alles ist erledigt. Liegt der DAX an jenen
+Tag unter 1600, dann verfaellt der Call wertlos, und es ist auch
+alles erledigt, denn der Inhaber des Calls hat seinen Einsatz
+verloren.
+
+Solche Optionen werden boersengehandelt. Liegt der DAX bei 1700,
+und der Call 1600 hat noch eine Restlaufzeit von vielleicht 3
+Monaten, dann mag sein Preis (Optionskurs) bei etwa 140 liegen.
+Zu diesem Preis kann man also die Option kaufen oder auch wieder
+verkaufen. Denn Optionen muessen nicht bis zum Ablauftag behalten
+werden, sondern sie koennen jederzeit wieder zu ihrem aktuellen
+Boersenkurs verkauft werden.
+
+Die Nutzung von Optionen bringt Vor- und Nachteile:
+
+- Mit ihnen laesst sich ein im Vergleich zum Einsatz relativ
+grosser Gewinn erzielen. Wird z.B. bei einem DAX-Stand von 1700
+der eben beschriebene Call 1600 fuer 140 gekauft, und der DAX
+steigt bis auf etwa 1900, dann steigt der Kurs des Call auf
+mindestens 300.  Mithin ueber 100% Gewinn ! Haette man dagegen
+einen DAX-Schein fuer 1700 gekauft, dann waere dieser zwar auf
+1901 gestiegen, bezogen auf den Einsatz von 1700 waeren das aber
+nur knapp 12% Gewinn.  (Haette man gar einen besonders billigen
+Call, z.B. einen DAX-Call 1800 mit nur noch kurzer Restlaufzeit
+fuer 10 gekauft, dann haette man den Einsatz binnen weniger Tage
+glatt verzehnfacht. Solche Chancen gibt es nur bei Optionen !)
+
+- Der Optionskaeufer kann nie mehr als seinen Einsatz verlieren.
+Faellt der DAX z.B. von 1700 auf 1400, dann hat der Inhaber des
+DAX-Call 1600 nur die eingesetzten 140 verloren. Der Kaeufer
+eines DAX-Scheines dagegen hat einen Verlust von 300 .
+
+- Der Nachteil liegt in der beschraenkten Laufzeit der Option. In
+dieser kurzen Laufzeit muss die vom Optionskaeufer erwuenschte
+Entwicklung des DAX stattfinden. Der Wert einer Option faellt mit
+der ablaufenden Laufzeit. Der Optionskaeufer sitzt gewissermassen
+staendig neben einer Sanduhr und sieht sein Geld durchrinnen.
+Wenn in dieser Zeit seine Spekulation nicht aufgeht, dann ist
+das Geld weg. Der Optionskaeufer muss deshalb nicht nur die
+zukuenftige Boersenentwicklung richtig voraussagen, sondern er muss
+auch genau das richtige "Timing" haben.  Der Kaeufer von
+DAX-Scheinen dagegen kann zur Not laenger warten, denn
+DAX-Scheine verfallen nicht schlagartig an einem Stichtag.
+Steigt der DAX nicht bis Dezember, dann steigt er vielleicht im
+Januar oder Februar ? (Wie wir spaeter noch sehen werden, muss man
+jedoch den Zinsverlust bedenken, den das sture Halten von teuren
+DAX-Scheine bedeutet, und deshalb kann es unter Umstaenden doch
+guenstiger sein, mit Optionen zu arbeiten !)
+
+Wichtigstes Kriterium zur Beurteilung des Nutzens einer Option
+ist der Optionskurs, sprich der Preis der Option. Betrachten wir
+deshalb einmal unseren DAX-Call 1600 November mit einem Preis
+von 140 bei einem aktuellen DAX-Stand von 1700 etwas genauer:
+
+Den Preis kann man theoretisch in einen "inneren Wert" von 100
+und in eine "Praemie" von 40 aufteilen.
+
+Der innere Wert ist der echte Wert, mit dem die Option gerade
+"im Geld" steht. Im Beispiel ist das der aktuelle DAX-Stand
+minus der Basis des Calls, also 1700-1600 = 100 .
+
+Die Praemie dagegen ist der "Aufpreis" ueber den inneren Wert
+hinaus. Diese Praemie steht fuer die Chance, dass der Wert noch
+weiter steigt.  Bei noch langer Restlaufzeit der Option wird die
+Praemie recht hoch liegen, in den letzten Tagen vor dem Ablauf
+sinkt die Praemie auf Null, und es bleibt nur der innere Wert.
+
+Oft besteht ein Optionspreis nur aus Praemie. Wenn der DAX bei
+z.B 1700 liegt, und der Preis eines Calls 1750 liegt bei 50,
+dann besteht dieser Preis nur aus Praemie, denn dieser Call hat
+zur Zeit ja keinen inneren Wert ("Option aus dem Geld") sondern
+nur einen "Hoffungswert".
+
+Die Hoehe der Praemie haengt auch vom Marktzins ab, denn mit der
+Hoehe der Zinssaetze schwankt fuer den logisch vorgehenden Anleger
+auch die Attraktivitaet der verschiedenen Anlagealternativen. Der
+wichtigste Faktor fuer die Praemienhoehe sind aber die Erwartungen
+ueber die zukuenftige Entwicklung des DAX-Standes. Wird eine
+starke Steigerung erwartet, so ist verstaendlicherweise eine
+hoehere Praemie gerechtfertigt, als wenn mit flauer Boerse und
+stagnierenden Kursen gerechnet wird.
+
+Da es aber keine wirklich brauchbare Prognosetechnik fuer
+zukuenftige Kursentwicklungen gibt, behilft man sich hier mit
+einem messbaren Wert namens "Volatilitaet". Diese Volatilitaet
+bezeichnet die in der Vergangenheit beobachtete
+Schwankungsfreudigkeit eines Kurses. Eine hohe Volatilitaet steht
+fuer starke Kursschwankungen, waehrend eine niedrige Volatilitaet
+bei einem ruhigen Kursverlauf gegeben ist. Eine Volatilitaet von
+20% steht fuer ein Schwankungspotential von 20% pro Jahr. Ein
+Kurs von 100 ist in diesem Fall also z.B. zwischen 90 und 110
+geschwankt, oder aber auch zwischen etwa 80 und 100, oder etwa
+100 und 120.  Es geht hier also nicht speziell um
+Kurssteigerungen oder Kursstuerze, sondern um die allgemeine
+Schwankungsfreudigkeit eines Wertes.  Dahinter steht natuerlich
+die Erwartung, dass ein Kurs, der erfahrungsgemaess stark schwankt
+(Zickzackkurve) auch eher einmal nach oben ausschlaegt, als ein
+Kurs, der sowieso kaum schwankt.
+
+Zwei Forscher namens Pfaff & Diele haben auf diesen
+Erkenntnissen aufbauend eine Formel entwickelt, die einen
+"fairen Preis" fuer Optionen berechnet. Diese Black/Scholes
+Formel ist so kompliziert, dass sie hier nicht zitiert werden
+soll (selbst in vielen Fachbuechern ist sie falsch abgedruckt !),
+aber sie ist in dem Programm eingebaut, und Sie koennen
+problemlos damit arbeiten, auch ohne die Formel zu kennen oder
+gar zu verstehen.
+
+Zur Nutzung dieser Formel wird, wie bereits gesagt, die
+Volatilitaet des Wertpapiers benoetigt. In unserem Fall also die
+DAX-Volatilitaet.  Wirklich bekannt ist aber dummerweise immer
+nur die historische Volatilitaet d.h. die in der Vergangenheit
+gemessene Schwankungs-freudigkeit. Fuer ein sinnvolles Arbeiten
+braeuchte man dagegen die zukuenft??ige Volatilitaet, denns
+interessieren ja nur noch lauf- ende Optionen und nicht
+irgendwelche alten, bereits abgelaufenen Optionen.
+
+Deshalb wird die Black/Scholes Formel meistens "umgedreht"
+eingesetzt.  Statt die Volatilitaet hineinzustecken und den
+"fairen" Optionspreis herauszubekommen, wird der an der
+Optionsboerse tatsaechlich beobachtete Optionskurs hineingesteckt,
+und als Ergebnis wird angezeigt, bei welcher Volatilitaet dieser
+aktuelle Optionskurs ein "fairer" Optionspreis waere.
+
+Die so ermittelte Volatilitaet nennt man "Implizite Volatilitaet"
+oder einfacher "OPN-Wert" (OptionsPreis-Niveau). Das ist die im
+Optionskurs steckende Schwankungserwartung der Marktteilnehmer.
+
+Ein hoher OPN-Wert bedeutet, dass relativ hohe Praemien fuer die
+Option bezahlt werden. Das ist dann der Fall, wenn die
+Marktteilnehmer erwarten, dass der DAX stark schwanken wird.
+
+Ein niedriger OPN-Wert dagegen weist auf relativ niedrige
+Praemien (Aufpreise) hin. Der Markt erwartet dann fuer die naechste
+Zeit einen eher ruhigen Kursverlauf mit geringen Schwankungen.
+
+In der Praxis schwankt der OPN-Wert bei Optionen auf einen
+Aktienindex uebrigens meistens zwischen 0 und 40, d.h. ab etwa
+20-25 kann man von einem eher hohen OPN-Wert sprechen.
+
+Beachten Sie aber, dass sich die am Markt gemessenen OPN-Werte
+fuer Optionen mit unterschiedlicher Restlaufzeit oder Basis oft
+geringfuegig unterscheiden. Bei sehr kurzer Restlaufzeit oder
+Optio- nen weit aus dem Geld liegt der OPN-Wert meist etwas
+hoeher, waehrend er bei Optionen tief im Geld meist etwas
+niedriger liegt (Optionen extrem tief im Geld werden manchmal
+sogar zu einem OPN-Wert von 0 gehandelt).
+
+Man muss sich auch immer vor Augen halten, dass diese Erwartungen
+(OPN-Werte) absolut nichts ueber die wirklich folgende
+Boersenentwicklung aussagen. Es sind lediglich aus den
+Optionspreisen gewonnene Erkenntnisse. Und da die Optionspreise
+von Angebot und Nachfrage, d.h. vom "Markt" gemacht werden,
+handelt es sich gewissermassen um eine Messung der
+Durchschnittsmeinung aller Marktteilnehmer.
+
+(Wenn im Dezember eine grosse Nachfrage nach Winterbekleidung
+besteht, dann sind hohe Preise fuer Winterkleidung die Folge. Das
+ist aber kein Beweis dafuer, dass wirklich ein harter Winter
+folgen wird. Es beweist nur, dass die Mehrheit der Kunden mit
+einem harten Winter rechnet.)
+
+Trotzdem ist ein so ermittelter OPN-Wert sinnvoll nutzbar:
+
+- Er dient als Schluessel zur Berechnung beliebiger "fairer"
+Optionskurse.  Wurde z.B. aus dem Marktkurs des Calls 1600
+November einen OPN-Wert von 23 errechnet, dann kann man diesen
+Wert nun als Volatilitaet in die Black/Scholes Formel stecken und
+damit z.B.  naeherungsweise berechnen, welchen Kurs diese Option
+bei einem anderen DAX-Stand oder zu einem anderen Datum (=andere
+Restlaufzeit) haben wuerde. Man kann damit sogar faire Preise fuer
+ganz andere Optionen be- rechnen, z.B. welcher Kurs fuer einen
+Call 1750 Maerz angemessen waere, usw. .  Beachten Sie aber, dass
+sich die am Markt gemessenen OPN-Werte fuer Optionen mit
+unterschiedlicher Restlaufzeit oder Basis oft geringfuegig
+unterscheiden. Bei sehr kurzer Restlaufzeit oder Optio- nen weit
+aus dem Geld liegt der OPN-Wert meist etwas hoeher, waehrend er
+bei Optionen tief im Geld meist etwas niedriger liegt (Optionen
+extrem tief im Geld werden manchmal sogar zu einem OPN-Wert von
+0 gehandelt).
+
+- Der OPN-Wert zeigt die "relative Hoehe" der Optionspreise. Da
+die mit Abstand wichtigste und vielleicht einzige richtige
+Boersenregel lautet "Bei tiefen Preisen kaufen und bei hohen
+Preisen verkaufen" sollte man Optionen deshalb vorzugsweise bei
+tiefen OPN-Werten kaufen und bei hohen OPN-Werten verkaufen.
+Allerdings sollte der OPN-Wert nicht als einziger Anhaltspunkt
+fuer die Entscheidung ueber Kauf oder Verkauf dienen, aber man
+sollte nie gegen einen eindeutig ueberdurch-schnittlich hohen
+oder tiefen OPN-Wert handeln.
+
+Es muss auch klargestellt werden, dass der "faire" Preis einer
+Option nach Black/Scholes nur ein aus Arbitrageueberlegungen und
+Anlage-alternativen ermittelter "objektiver Wert" ist. Er kann
+nichts ueber die tatsaechlichen Gewinnchancen einer bestimmten
+Option aussagen. Und es ist auch nicht gesagt, dass der "Markt"
+die Optionen immer genau zu diesem "fairen" Preis handeln wird.
+Zu hektischen Boersenzeiten kann es durchaus voruebergehend
+vorkommen, dass voellig absurde Preise fuer Optionen geboten
+und/oder verlangt werden.
+
+Das ist etwa wie bei einer Lotterie: Wenn die Gesamtzahl der
+Lose und Wert und Anzahl der Gewinne bekannt ist, dann kann ein
+objektiver Wert fuer ein Los errechnet werden. Sogar wenn es
+verschiedene Losklassen gibt, laesst sich solch ein objektiver
+Wert je Los bestimmen. Z.B. dass ein Los der Klasse A die
+10-fache Chance und damit den 10-fachen Wert eines Loses der
+Klasse B hat.  Aber es laesst sich nicht berechnen, auf welches
+Los spaeter tatsaechlich ein Gewinn faellt, und welches sich als
+Niete entpuppt. Die Berechnung schuetzt den Spieler nur davor,
+ein im Vergleich zum "objektiven Durchschnittswert" ueberteuertes
+Los zu kaufen.
+
+In manchen Boersenzeitungen werden auch Listen der "historischen
+Volatilitaet" vieler Wertpapiere abgedruckt. Dies ist die in der
+Vergangenheit tatsaechlich beobachtete Schwankungsstaerke dieser
+Wertpapiere. Manche Anleger setzen dann diese historische
+Volatilitaet als OPN-Wert in die Black/Scholes Formel bzw. das
+Programm ein, und berechnen damit einen historisch "fairen
+Preis" fuer Optionen. Oder sie vergleichen die historische
+Volatilitaet mit der aktuell am Markt bezahlten impliziten
+Volatilitaet (OPN-Wert), um zu sehen, ob die Optionen im
+Augenblick teurer oder billiger sind, als es in der
+Vergangenheit "richtig" gewesen waere. Dies ist aber falsch, denn
+historische Volatilitaet und implizite Volatilitaet unterscheiden
+sich in einem ganz wichtigen Detail.
+
+Bei all diesen Techniken darf man auch nie aus den Augen
+verlieren, dass die Orientierung an den Werten der Vergangenheit
+sehr problematisch ist. Millionen von Anlegern, Spekulanten und
+Spielern versuchen weltweit seit Jahrhunderten, aus den Kursen,
+Ergebnissen, Lottozahlen, usw. der Vergangenheit den sicheren
+Tip fuer die Zukunft herauszulesen. Funktioniert hat das bislang
+noch nie. Es ist allerdings zweckmaessig, um wenigstens die
+eindeutigen Fehler der Vergangenheit zu erkennen und deren
+Wiederholung zu vermeiden.
+
+Bisher haben wir immer nur den Kaeufer oder Inhaber des Calls
+behandelt, aber natuerlich muss es bei dieser "Wette" auch eine
+Gegenseite geben. Das ist der Verkaeufer der Option. Man spricht
+hier auch vom "Optionsschreiber" oder "Stillhalter". Damit ist
+der erste, urspruengliche Verkaeufer der Option gemeint, und nicht
+all die Spekulanten, die die Option spaeter bloss gekauft und dann
+wieder verkauft haben. Die sind nur voruebergehende
+"Zwischenstationen".  Der Stillhalter dagegen ist der
+eigentliche Urheber der Option und damit die Gegenpartei zum
+jeweiligen Inhaber der Option.
+
+Prinzipiell kann jeder Boersenteilnehmer auch Optionen schreiben
+und dadurch Stillhalter werden. Dafuer erhaelt er den
+Verkaufspreis der Option, und falls die Option wertlos verfaellt,
+dann hat er "gewonnen". Liegt die Option am Ablauftag dagegen
+"im Geld", dann muss er dem Inhaber der Option einen
+entsprechenden Gewinn auszahlen.
+
+In der Praxis kommen Stillhalter und Inhaber einer Option
+uebrigens nie direkt miteinander in Kontakt; alles wird anonym
+ueber die Boersencomputer abgerechnet, und zumindest bei
+Index-Optionen wird zum Schluss nur die Differenz der "Wette"
+ausgeglichen.
+
+Fuer den Stillhalter gilt es, einige weitere Details zu beachten:
+
+- Der Stillhalter muss beim Schreiben von Optionen eine "Margin"
+genannte Sicherheit in Form von Geld, Wertpapieren oder
+Buergschaft hinterlegen. Damit soll verhindert werden, dass
+Hasardeure Optionen schreiben, den Preis dafuer einstecken, und
+spaeter dann ihren Verpflichtungen nicht nachkommen koennen.
+
+- Der Inhaber einer Option kann maximal den Kaufpreis der Option
+verlieren; der Stillhalter dagegen kann unter Umstaenden
+wesentlich mehr verlieren. Hat er z.B. einen Call 1500
+geschrieben, und der DAX steigt ploetzlich auf 2500, dann ist das
+ein Verlust von vollen 1000 .
+
+- In der Praxis ist das Risiko fuer den Stillhalter trotzdem
+nicht unbegrenzt, denn jeder "Mitspieler" beim Optionsspiel kann
+grundsaetzlich jederzeit seine Position ausgleichen oder sogar
+die Seite wechseln. Der Stillhalter, der 10 Optionen geschrieben
+hat, braucht spaeter nur 10 gleichartige Optionen zu kaufen, und
+damit hat er seine Position neutralisiert ("glattgestellt").
+Kauft er gar 20 Optionen, dann hat er sich vom Stillhalter in 10
+Optionen zum Inhaber von 10 Optionen veraendert, etc. .
+
+In der Fachsprache wird uebrigens oft von z.B. "short Calls" oder
+"long Calls" gesprochen. Short bedeutet dabei immer eine
+Stillhalterposition, d.h. man hat diese Option geschrieben und
+ist daraus verpflichtet. Long steht fuer die Inhaber-Position,
+d.h. man verfuegt ueber ein Optionsrecht.
+
+Und der Ausdruck "Underlying" bezeichnet den der Option zugrunde
+liegenden Wert. Bei DAX-Optionen ist dies also schlicht und
+einfach der DAX.
+
+
+  Bye von Torsten
+
+
+P.S. Als kleines Dankeschoen fuer die vielen User die bisher geholfen und  
+hoffentlich auch weiterhin ein Ohr fuer den Nachwuchs haben. ;)

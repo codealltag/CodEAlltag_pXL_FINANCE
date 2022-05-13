@@ -1,0 +1,24 @@
+"ADR" steht für "American Depositary Receipt". Das sind eine 
+Art Gutscheine für in den USA gehandelte ausländische Aktien, 
+die dort oft aus verschiedenen formalen Gründen nicht direkt 
+gehandelt werden dürfen. Die ausländischen Originalaktien 
+werden bei diesem System bei einem Treuhänder hinterlegt und 
+dieser gibt standardisierte Hinterlegungsquittungen aus, eben 
+die ADRs, die dann an der Börse gehandelt werden. Dabei muss 
+man wissen, das 1 ADR nicht unbedingt genau 1 Originalaktie 
+entsprechen muss. 
+Ein ADR kann auch z.B. 1/10 oder 12 Aktien entsprechen. 
+ähnliche Systeme gibt es in anderen Ländern, z.B: "DTZ" 
+für "Deutsches Zertifikat". Und  "GDR" wird mal für "German 
+Depositary Receipt" und mal für "Global Deposit Receipt" benutzt.
+
+Wenn sich das ADR auf -,10 Nennwert bezieht, die Originalaktie
+aber nur Nennwert -,01 hat, dann zeigt das, dass ein ADR fuer 10
+Originalaktien steht usw.
+
+
+-- 
+-- 
+Philipp Göckel
+Visit   http://bfuuefr.nrx.tle/nffqhh  and download a 
+free calculator for options, futures, bonds and similar stuff

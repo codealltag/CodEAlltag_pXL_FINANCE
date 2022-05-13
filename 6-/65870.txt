@@ -1,0 +1,112 @@
+(6)
+
+[...]
+
+
+Siehe Nummer (6). Es ging um den Verkauf eines nicht abgelaufenen
+OS. Wenn der Kaeufer die Emittentin ist (muss sie, wenn sich
+sonst keiner findet) und der Kurs hoeher als zum Kaufdatum ist,
+<Quizmodus>
+wer muss dann bluten ?
+</Quizmodus>
+
+
+[...]
+
+Nur die Information, dass es anscheinend schwierig ist, gegen die
+Bank zu gewinnen.
+
+
+Ich bin anderer Meinung.
+
+Ich zaehle mal (grob): der Basiswert hat drei Moeglichkeiten,
+Nord, Sued, Ost. Fuer jede der drei gibt es fuer das Derivat (hier Call)
+auch drei Moeglichkeiten, Nord (ja, auch wenn der Basiswert
+faellt), Sued (auch wenn der Basiswert steigt), Ost (Restlaufzeit und
+VielesMehr-abhaengig). So, 3x3 = 9, und das ist noch viel zu wenig,
+weil die Herren Eichelberger und Super-Hedger Ruhs' nicht einen Nobelpreis
+dafuer bekommen haben, dass sie Trader-Depots gezaehlt haben und
+daraus die "Gewinnchance eines Kaeufers A beim Kauf eines Calls"
+angegeben haben. Dass ihre Ueberlegungen, belegt man die Variablen
+in ihrer Formel mit irgendwelchen Wahrscheinlichkeiten der Art
+DCX steigt mit 75% Wahrscheinlichkeit nicht um 25% in einem Monat,
+zum selben Ergebnis fuehren koennten, naemlich 20/80 Chance fuer
+den Kaeufer, bestreite ich keineswegs. Der Weg, wie man dorthin
+kommt, ist aber doch ein anderer.
+
+
+Die Frage war: wie ist die Gewinnchance der 100 Kaeufer A und _nicht_
+wie ist die Gewinnchance der 100 Kaeufer A und aller Tradepartner
+von As.
+Dass (oder ob) der Aktienmarkt eigentlich ein Nullsummenspiel
+ist (einer gewinnt, einer verliert) ist denkbar (wurde in einem
+Endlosthread hier diskutiert). Dass man aehnlich den OS-Markt
+als Null(+x fuer die Bank)summenspiel beurteilen kann, ist auch
+denkbar.
+
+
+Ja, war aber nicht die Frage. Die war
+<ungefaehr Zitat Klaas>
+dass _Du_ besser bist als die Bank bei einem Spiel mit den Chancen
+20/80...
+</ungefaehr Zitat Klaas>
+
+
+.dessen Gewinnwahrscheinlichkeit wir nicht betrachtet haben.
+
+Ich moechte eben nur bestreiten, dass meine Gewinnchance, deshalb
+20/80 ist, weil nachher alle As und Cs usw. gegen die Bank
+eben diese 20/80 erreichen.
+Sie ist aus anderen Gruenden moeglicherweise 20/80.
+
+
+[...]
+
+Nein. Natuerlich hat er die und du erklaerst im folgenden
+auch schoen ausfuehrlich warum. Es _gibt_ Gruende warum er
+i.a. die besseren Chancen hat, wir werden sie gleich nochmal
+lesen. Sie fuehren dazu, dass nachher beim Abzaehlen der
+Depotstatiskiken eine 20/80 zustande kommt.
+
+
+Ja.
+Weil ...  wenn du nochmal genau hinsiehst, wirst du vielleicht
+erkennen, dass du *gerade mit obigem Ansatz* zur Beurteilung der
+Gewinnchance mir recht gibst, dass man naemlich bei der Beurteilung
+fuer die Gewinnchance beim 30m Wuerfelwurf, die Muskelstaerken,
+Armhebel (!) und Windstaerken beruecksichtigt und nicht nachher schaut
+wieviele wieweit geworfen haben.
+
+Also, wenn ich hingehe und meine Gewinnchance fuer Trades
+abschaetzen will, schaue ich mir an, was setze ich ein, was kann
+ich verlieren, was gewinnen und am besten noch ein bisschen mehr,
+z.B. Laufzeit, Hebel (!), Volatilitaet des Basiswertes, also folge
+ich deinem obigen Ansatz und komme vielleicht zu dem Ergebnis, dass
+die Chancen in den meisten Tradesituationen 20/80 stehen.
+Die _Folge_ davon ist nun die 20/80-Statistik.
+
+Ich habe aber durch diese Betrachtungsweise (deduktive Abschaetzung der
+Gewinnchance) den Vorteil, die (ok, einige) Gruende zu kennen, die
+meine Chancen zuerst so schlecht stehen lassen. Dann kann ich
+an gewissen Schaltern in meinem Trademechanismus (vielleicht sogar
+an Schaltern, die in der B&S-Formel vorkommen) drehen, um meine
+Chancen zu verbessern. Wenn deine Kaeufer C z.B. alle ihre
+OS verfallen lassen, oder teilweise Gewinne einstreichen und zu
+groesseren Teilen Verluste, so beeinflusst das das statistische
+Ergebnis, aber nicht meine Chance.
+
+
+Also, im Grossen und Ganzen haben wir wohl nur um die saubere
+Unterscheidung von Ursache und Wirkung disputiert, nicht um
+die Einschaetzung der i.a. besseren Gewinnchance des Stillhalters.
+
+
+Vielleicht haettest du frueher aufstehen sollen ;-) .
+Sorry, ich habe wie mechanisch zu meiner Flasche Vitamalz gegriffen und
+mich ueberfiel der Widerspruchswille.
+
+--
+Rudolf Teevs, mailto: rbce_orlwffn@jzk.wg
+
+"lalala...Ich lasse mir das Schalterdrehen nicht verbieten...lalalala"
+(ok, doch noch ein Weinchen getrunken)

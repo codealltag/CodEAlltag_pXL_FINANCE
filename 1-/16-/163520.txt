@@ -1,0 +1,11 @@
+Stimmt so nicht. Gepo gibt es fuer alle Unix- und VMS- Plattformen.
+Darueberhinaus gibt es ein DOSLynx, das wohl, wie der Name vermuten
+laesst, unter DOS laeuft.
+
+Um aehnliches zu erreichen, kann man die Skriptsprache Python
+verwenden. Hier gibt es zumindest eine Version fuer Windows NT mit
+Microsoft Visual C/C++, evtl. auch fuer Windows 95 (benoetigt eine
+Socket-Implementierung).
+
+
+--

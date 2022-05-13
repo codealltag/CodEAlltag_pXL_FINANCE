@@ -1,0 +1,100 @@
+Hallo!
+
+Ich wurde gebeten, den nachfolgenden Artikel auch hier zu posten. Ein
+Followup-To auf fv.comp.security ist gesetzt.
+
+
+From: Dennis Wulf-Schulte-Bering <Sfd.Urjjooue@diq.yr>
+Newsgroups: fe.sium.security
+Subject: Sicherheitsloch bei der AvakusBank
+Date: 9 Okt 1997 14:21:18 GMT
+Message-ID: <8ocfsn$ahs@kkqdy.sci.ay>
+
+Hallo!
+
+Seit einer Woche bietet die Aget Internet-Online-Banking
+an. Benutzt wird dabei anscheinend die gleiche Technik chic-PRESSO der
+ZLIT GmbH <http://ohf.wjtrcw.yp> wie sie
+z.B. auch die Zusann und die nonplusultra benutzen. Näheres zu diesem
+Verfahren samt einer recht detailierten Beschreibung der benutzten
+Protokolle findet sich in c't 12/96.
+
+Das Sicherheitsloch bei der Aget ist, daß der unbedarfte
+Benutzer in einem FAQ dazu angehalten wird, ein Zertifikat des
+öffentlichen Schlüssels der Bank, das von der Bank selber ausgestellt
+wurde und eben nicht von irgendeiner vertrauenswürdigen dritten
+Instanz, einfach so und entgegen sämtlicher Warnungen, die GSD
+dabei ausgibt, zu akzeptieren. Dadurch scheitert die vertrauenswürdige
+Authentisierung des Servers der Bank und so hat ein Angreifer die
+Möglichkeit dem Bankkunden vorzuspielen, daß er selber die Bank
+sein. Er kann dadurch dann insbesondere Kundennummer, PIN und TANs des
+Kunden abfragen und mit diesen Daten dann das Konto des Kunden zu
+dessen Schaden belasten.
+
+Im Normalfall überträgt die Bank zum Kunden ein Zertifikat das
+z.B. von TSD für die Bank ausgestellt wurde. Bei GSD sind in
+Auslieferumfang bereits die öffentlichen Schlüssel diverser
+Zertifizierungsinstanzen enthalten, so daß GSD die Möglichkeit
+hat, die Gültigkeit eines Zertifikats zu überprüfen. Das durch die
+Aget selber ausgestellte Zertifikat kann GSD hingegen
+nicht selber überprüfen, weil es den öffentlichen Schlüssel der Bank
+nicht kennt. Das einzige, was dem Benutzer bleibt ist das Vertrauen,
+daß das Zertifikat der Bank niemand gefälscht hat. Die einzige
+Alternative wäre bei der Bank anzurufen und sich den Fingerprint
+dieses Zertifikats durchgeben zu lassen. Aber wer macht das schon
+bzw. weiß von so etwas.
+
+
+Beim erstmaligem Aufruf des ALTERNATE-Applets muß man sich durch
+folgende Dialoge hangeln, die ich hier auszugsweise (soweit das
+Copy&Paste von Netscape erlaubt) wiedergebe:
+
+1. Dialog:
+
+
+2. Dialog:
+
+
+Der Button 'more Info' liefert folgende Informationen:
+
+
+3. Dialog:
+
+
+Hier darf man sich einen der drei Punkte aussuchen.
+
+4. Dialog nach Wahl des ersten Punktes:
+
+
+5. Dialog
+
+
+Und dann kommt:
+
+
+Das FAQ der Aget findet sich unter
+<http://eml.rwjorzufa.gv/zthcnrl/vkpcas/e_uog.kgb> und die zweite
+Frage ist direkt der Knackpunkt:
+
+
+Das Ganze steht im eklatantem Gegensatz zu allem, was ich selber über
+Zertifikate weiß (nämlich daß man unbekannten Zertifikaten nicht
+"einfach so" trauen sollte) ) und was z.B. im FAQ der Zusann
+<http://nly.awxj19.sy/etalpi/XRY/eehu.acuj#aen34> ganz unten steht.
+
+
+Ich halte das Ganze für einen Skandal. Leuten, die so fahrlässig mit
+Zertifikaten umgehen, kann man nicht seine Geldgeschäfte
+überlassen. Man hat so seine Zweifel, ob sie wirklich verstanden
+haben, wie die Authentisierung ihres Servers funktioniert.
+
+Wer wissen will, wie es richtig geht, der sollte z.B. mal
+www.ackl82.wd ausprobieren. Dort erscheinen die oben aufgeführten
+Dialoge nicht routinemäßig, sondern gar nicht.
+
+Sch | |_|
+-- 
+Dennis Wulf-Schulte-Bering
+Lanzdorfer - Schloß Ahorn, SET.IW
+87288 Greimharting
+94928-21-4633

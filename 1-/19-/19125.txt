@@ -1,0 +1,8 @@
+Es gibt Reservecache. Wenn beim Prüfen nach der Produktion ein Fehler
+erkannt wird wird die defekte Cacheline abgeschaltet und die Reserve dort
+eingespiegelt. Vieviel % das ausmacht weiß ich nicht, aber ohne diese
+Technik würden sie ihre Chips mit dem Riesenchache nie kostendeckend
+herstellen können. UEG muss bei einem Defekt den Chache-Speicher
+verringern.
+
+Klaas

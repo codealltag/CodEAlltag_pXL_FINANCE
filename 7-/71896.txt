@@ -1,0 +1,29 @@
+Hallo,
+
+
+Dann kann man mit Bargeld nichts verlieren und sich höchstens ärgern nicht an
+den Gewinnen teilzuhaben, was mir öfters passiert.
+
+
+Vorsicht! Bei allen neueren PC's ist das IMHO kein Problem mit dem aktuellen
+BIOS und einem vernünftigen Betriebsystem.
+Das Problem wird in den kleinen embedded-Systemen liegen, die überall zu finden
+sind. Ich denke da an Videorecorder und andere Geräte mit Uhren, die zweistellig
+arbeiten, eine Fehlfunktion in solchen Geräten ist zwar ärgerlich aber nicht
+dramatisch.
+Kritisch wird es bei allen Geräten, die RTCs beinhalten und in wichtigen Anlagen
+verbaut sind. Bei einem meiner Kunden (30.000 Mitarbeiter weltweit) gab es
+diverse Probleme. T�rschlie�anlagen, die bei einem Test den Dienst verweigerten,
+Fahrstühle die stehenblieben e.t.c. Potentielle Fehlfunktionen gibt es genug.
+Wenn bei einem Automobilhersteller die Fertigung stehenbleibt, weil nur eine
+Maschine versagt (auch Zulieferer sind zu berücksichtigen) gibt es direkt
+Millionenverluste (Erinnert sich noch einer and Unasaz und die Türschlösser?)
+
+
+Das ist richtig. Zirkerhof dürfte bei allen großen nichts passieren, weil die 2000
+Tests wohl so langsam überall abgeschlossen werden. Was mit kleinen Unternehmen
+ist, kann man nur vermuten. Gefahrenpotential ist auf jeden Fall genug
+vorhanden.
+
+--
+Gruß Tino Richard (zcj-awsrmqbktg-fyyqef@jvr.fa)

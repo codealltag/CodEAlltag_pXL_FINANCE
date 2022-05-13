@@ -1,0 +1,72 @@
+Hallo Friedrich,
+
+wie Séverine habe ich versucht, Deine Erklärungen nachzuvollziehen. 
+Nachdem der Groschen nicht wirklich fallen wollte, hatte ich heute 
+endlich einmal Zeit, Deine Berechnungen nachzuvollziehen.
+
+Da meine Ergebnisse nur bedingt mit Deiner Grafik übereinstimmen, hätte 
+ich da noch ein paar Fragen.
+
+Die Tagesrendite berechnest Du mit ln(Schlußkurs heute)-ln(Schlußkurs 
+gestern).
+
+Daraus ermittelst Du für jeden Kurstag den Mittelwert der letzten 21 
+Kurstage (inkl. dem aktuellen Kurstag).
+
+Diesen Mittelwert multiplizierst Du mit "Anzahl der Kurstage pro Jahr" 
+um die Rendite in %/Jahr zu ermitteln. Nimmst Du hierfür einen 
+Pauschalwert - ich verwende z.B. 250?
+
+Habe ich das so richtig verstanden?
+
+Meine Berechnungen ergeben für den 11.08.2005 eine Rendite in %/Jahr von 
+etwa 88 %. In Deiner Grafik sieht das dagegen eher nach 3 % aus. Wo ist 
+mein Fehler?
+
+Wurzel aus dem quadratischen Mittel? Ich habe das folgendermaßen 
+interpretiert:
+
+Als erstes berechnest Du ("Tagesrendite heute" - "Mittelwert 
+Tagesrendite der letzten 21 Kurstage")^2.
+
+Genauso wie bei den Tagesrenditen berechnest Du daraus für jeden Kurstag 
+den Mittelwert der letzten 21 Kurstage (inkl. dem aktuellen Kurstag).
+
+Von diesem Mittelwert der quadratischen Abweichungen ziehst Du die 
+Wurzel. Für die Hochrechnung auf ein Jahr multiplizierst Du diesen Wert 
+anschließend wahrscheinlich mit wurzel("Anzahl der Kurstage pro Jahr") 
+und trägst es als Varianz %/Jahr in das Diagramm ein?
+
+Entspricht diese Berechnung nicht eher der Standardabweichung als der 
+Varianz? Gibt es einen Grund, nicht die "normale" Standardabweichung zu 
+verwenden?
+
+Auch hier ergeben meine Berechnungen für den 11.08.2005 eine Varianz in 
+%/Jahr von etwa 9 % (für pauschal 250 Kurstage pro Jahr) im Gegensatz zu 
+etwa 11 % in Deinem Diagramm. Hier liegt die Vermutung nahe, dass ich 
+etwas falsch interpretiert habe.
+
+Hiermit habe ich schon bei der Interpretation echte Schwierigkeiten. Aus 
+Deinem Diagramm sind diese beiden Zuwachsraten nicht eindeutig 
+ersichtlich. Selbst wenn man die Skalierung der rechten Skala durch 10 
+teilt, kommt man zwar auf 2,5 % für HAC aber nur auf etwa 40 % für den 
+DAX. Außerden wundern mich bei der DAX-Linie die starken Ausschläge.
+
+Wie berechnest Du die adjustierte Rendite genau? Wenn ich für den 
+11.08.2005 ("mittlere Tagesrendite")/wurzel("mittlere quadratische 
+Abweichung") berechne, komme ich auf 0,62.
+
+Aus Deinen grundsätzlichen Erläuterungen würde ich vermuten: 
+"adjustierte Rendite" = ("Renditeerwartung" * "gewünschtes 
+Risiko")/("tatsächliches Risiko").
+
+Bezogen auf unsere Berechnung und den oben erwähnten 15 % gewünschtes 
+Risiko wäre das: "adjustierte Rendite" = ("Rendite %/Jahr" * 15 
+%)/("Varianz %/Jahr") oder?
+
+Egal was ich auf dieser Basis rechne, ich komme nie auf 2,5 bzw. 49,2 % 
+risikoadjustierter Rendite und nicht einmal annähernd auf Deine 
+Kurvenverläufe.
+
+Gruß,
+Leopold

@@ -1,0 +1,53 @@
+Hallo,
+
+ich habe ein Kursdatenabonnement der Ikim, Duben 
+(Profi-Plus-Abo) und bin seit der Einführung des Euro völlig geschockt 
+über die Qualität der Aktualisierung der Stammdaten (stamm.dp).
+
+1. Zunächst war die Icehouse nicht in der Lage ihren Kunden mitzuteilen, 
+wie sich die Änderung auf den Euro in den Stammdaten widerspiegelt.
+
+2. Ob die Kurse einer Aktie in Euro geliefert werden, kann man nur 
+feststellen, indem man nach einer Lieferung prüft, ob ein Kursfaktor in 
+der Stamm.dp angegeben wurde. Laut Spezifikation des DP-Datenformates 
+muß aber eine Währungsänderung folgendermaßen durchgeführt werden:
+STAMMDATEN
+Ändern;551373;WAEHRUNG;EUR
+ENDE
+(die NWP hat nicht einmal ein Kürzel für den Euro sondern nur für den 
+ECU)
+
+3. Der Faktor für die Umrechnung DM-->EUR wird fälschlicherweise mit 
+0,5113 statt mit 0,51129 angegeben. Auch die anderen Währungen sind nur 
+4-stellig. Es ergeben sich üble Rundungsfehler.
+
+4. Devisen: Völlig chaotisch ist die Lieferung der Devisen. Beispiel:
+    a) der US-Dollar wird in DM geliefert,
+    b) der NZ-Dollar wird in Euro geliefert,
+    c) Dei meisten Cross-rates werden überhaupt nicht mehr upgedatet,
+    d) Dollar in Euro oder Euro in Dollar werden gar nicht geliefert.
+
+5. Keine Aktualisierung der Fundamentaldaten wie Gewinne, etc auf EURO.
+
+6. Keine Neuaufnahme der Neuemissionen.
+
+7. Die Hotline (71787 326944) ist seit Monaten besetzt. Ich habe es 
+insgesamt ca. 1.500 mal versucht (nein, nicht manuell: habe mein Modem 
+auf Wahlwiederholung gestellt ;-) ) und nicht einmal konnte man 
+durchkommen. Auch Anfragen etc. per Fax wurden nicht beantwortet.
+
+Was ist dort los? Stehen die vor der Pleite? Hat sich von Euch schon 
+mal jemand beschwert? Mit mir zusammen haben 10 andere Kunden der Icehouse 
+bereits eine "Interessengemeinschaft" gebildet. Bin für Rückmeldungen 
+hier oder per E-Mail (Spamschutz beachten) sehr dankbar. Bei Interesse 
+werde ich die Ergebnisse dieser Aktion hier posten.
+
+P.S.: Das nächste Problem steht bereits vor der Türe: die Daten der NWP 
+sind nicht Jahr 2000 fest. Jeder, der mit den Daten arbeitet (sie z.B. 
+in ein eigenes Programm einliest) muß die nur 2-stellige Jahreszahl 
+selbst korrekt interpretieren.
+
+--------------------------
+Hermann Radeke
+
+Fuer Ruecksprache per E-Mail bitte das "x" in meiner Adresse entfernen

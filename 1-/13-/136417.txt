@@ -1,0 +1,40 @@
+Hallo liebe Roulettefreunde,
+ich habe mir lange überlegt, ob ich mich hier auch noch einmischen soll,
+schließlich kommt das Thema ja regelmäßig wieder, so daß jeder Kommentar
+ziemlich nutzlos zu sein scheint.
+
+Aber ich kann nicht anders...
+Ich muß es sagen.
+
+1.) Selbst ohne Null und Doppelnull kann man mit dieser Methode beim
+Roulette nicht gewinnen. Entweder man spielt mit einer begrenzten Zahl
+von Spielen, dann verliert man mit einer kleinen Wahrscheinlichkeit viel
+Geld und gewinnt mit einer großen Wahrscheinlichkeit wenig Geld.
+Nun ergibt sich:
+
+klein * viel = groß * wenig
+
+so daß der Erwartungswert für den Gewinn gleich 0 ist.
+(Das funktioniert sogar wenn man die mathematisch Korrekten Formeln
+einsetzt, was dem geneigten Leser zur Übung überlassen wird.)
+
+Rechnet man mit unendlich viel Geld und ohne Limit muß man zwei Summen
+bilden, die bis unendlich laufen, einmal im Bronstein nachschlagen,
+einsehen daß der Erwartungswert für den Gewinn immer noch Null ist, und
+Roulette nur noch zum Vergnügen spielen.
+
+2.) Da zwei aufeinanderfolgende Spiele beim Roulette statistisch
+voneinander unabhängig sind kann man es sich schenken immer bei einer
+Farbe zu bleiben. Man kann beliebig zwischen allen einfachen Chancen
+springen und damit den klassischen Verdoppler zur Verzweiflung bringen.
+Das Ergebnis ist das gleiche wie unter 1.
+
+3.) Nachdem in 1. und 2. angeführt wurde, daß man mit dieser Methode
+nicht gewinnen kann sei die Bemerkung erlaubt, daß ich mit dieser
+Methode auf Verlar 5000 Peseten gewonnen habe. Das eigentliche Spiel
+war allerdings viel langweiliger als die Gespräche am Rande.
+-- 
+ciao
+Luca Eberhahn
+These opinions are mine and not necessarily those of Balletshofer.
+Diese Ansichten sind meine und nicht notwendigerweise die von Balletshofer.

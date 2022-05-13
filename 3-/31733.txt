@@ -1,0 +1,16 @@
+hallo,
+
+ich hab' mal 'ne frage frage zu limits:
+
+wenn ich z.b. ein limit von 50E angebe zu dem gekauft werden soll, gibt dann
+die bank eine kauforder mit 50E raus oder wird zu dem aktuellen kurs
+gekauft, hauptsache er liegt unter 50E? eigentlich hatte ich gedacht, es
+wuerde nach zweiter methode funktionieren, aber nachdem ich eine kauforder
+(nicht während der b�rsenzeit) bei einem kurs von 46E mit einem limit von
+48E aufgegeben habe, der dann über 48 gestiegen und wieder bis auf 47,xx
+gefallen ist und trotzdem die order nicht ausgeführt wurde, bin ich ein
+wenig verwirrt.
+
+danke,
+
+Philippe

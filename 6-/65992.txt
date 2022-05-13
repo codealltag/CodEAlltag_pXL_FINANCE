@@ -1,0 +1,26 @@
+mir sind ca 40 'Duplikate' von Artikeln in de.etc.finanz.boerse
+aufgefallen (außer denen von Ubet), Beispiel siehe Anhang.
+
+Kennzeichen der 'Duplikate' u.a.:
+Path: ...usdr.xfsh.jmk!news
+X-FC-Icon-ID: 23033
+X-FC-Options: suppress-ndn
+
+Unterschiede:
+
+  Header:
+  Crossposting ist entfernt und im From-Feld fehlt der Realname.
+
+  Body: 
+  Unterscheidet sich anscheinend nur in der Anzahl der Quotezeichen.
+
+Wer auch immer verantwortlich ist, bitte abstellen.
+
+Viele Gruesse
+
+Rudi
+
+
+==========
+Original:
+==========

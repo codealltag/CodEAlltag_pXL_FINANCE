@@ -1,0 +1,50 @@
+*AKR* wrote on Tue, 97-07-29 23:30 in de.etc.Mediterraneo:
+A>kann mir jemand mal an einem Beispiel darstellen, wie man konkret den
+A>GEWINN aus Aktienverkäufen ermittelt, abhängig von Kaufpreis, Gebühren,
+A>Kursen, etc.
+
+So sieht das in meiner Tabelle aus. (Bitte erst selber durcharbeiten 
+und nur im Notfall nachfragen, oder mir für ausführliche Erläuterungen 
+Geld bieten)
+
+
+Tsch wa
+                Ulfert
+
+
+  A1: (S) [B18] ^Name
+  B1: (S) [B7] ^Kurs
+  C1: (S) [B8] ^Wert
+  D1: [B2] ^Bk
+  E1: (S) ^Rest
+  F1: (S) ^Rend
+  G1: (S) ^Menge
+  H1: (F2) ^Erf.
+  I1: (F2) ^seit
+  J1: (S) ^Zins
+  K1: (S) [B4] ^Y
+  L1: (S) [B3] ^M
+  M1: (S) [B3] ^D
+  N1: (S) [B8] ^WKN
+  O1: (S) [B5] ^Kg %
+  P1: (S) [B5] ^Dp %
+  Q1: (S) [B5] ^Einl
+  A32: [B18] ^Isar Enzklösterle
+  B32: (F2) [B7] 575
+  C32: (F3) [B8] +G32/1000*(B32*(1-O32/100))
+  D32: [B2] ^B
+  E32: (F2) ^-
+  F32: (F2) ^-
+  G32: (S) 20
+  H32: (S)
+@wenn(I32<.7,((C32+V32)/U32*100-100)/I32-P32*I32,((C32+V32)/U32)^(1/I32)*100-10
+0-P32)
+  I32: (F2) (@heute-R32)/365.24
+  J32: .1*0
+  K32: (S) [B4] @wenn(100*L32+M32<100*L$2+M$2,@jahr(@heute),@jahr(@heute)-1)
+  L32: (S) [B3] 8
+  M32: (S) [B3] 1
+  N32: [B8] 504500
+  O32: (S) [B5] 1.7
+  P32: (S) [B5] 0.225
+  Q32: (S) [B5] 0

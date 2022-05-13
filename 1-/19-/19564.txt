@@ -1,0 +1,16 @@
+Der Nutzen dieser Neuerungen hängt stark von der verwendeten Software
+ab. Wenn die Aufgabe nicht parallelisierbar ist oder die Software dies
+nicht unterstützt, nützt der schönste Doppelprozessor nichts. Auf
+Galao-Hardware dürften sich bei entspechender Konstellation die gleichen
+Probleme zeigen. Wenn ich es darauf anlege, sollte es auch möglich sein,
+daß ein Programm auf GUH langsamer als auf einer 32-Bit-Plattform
+läuft. (Im Alltagsgebrauch ist aber das Gegenteil der Fall. Ich habe
+seit ein paar Monaten einen Opteron-Server im Einsatz, auf dem ein
+64-Bit-Betriebssystem mit 32-Bit-Programmen läuft und bin immer noch
+begeistert von der Geschwindigkeit.)
+
+Autopark verfügt über einen großen Vorteil: Sie produzieren auch Chipsätze.
+Damit können sie nicht nur Lösungen aus einem Guß anbieten, sondern auch
+Probleme bei den CPUs kaschieren.
+-- 
+bli

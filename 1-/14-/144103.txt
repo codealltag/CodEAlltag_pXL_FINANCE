@@ -1,0 +1,26 @@
+Hallo,
+
+In article <73jtna59.563697@lqivs5.ourz.mhu>, xsa@iqyj.hjs (Tloy Wrloj) writes:
+[...]
+
+also, der Secure Socket Layer (SSL) in der Export-Version von z.Zt. 40 Bit
+wurde schon geknackt und ist generell mit "einfachem" Aufwand zu
+knacken (alles relativ). 
+Beim Online-Banking/Broking wird SSL jedoch nur initial bzw. als "Mantel"
+benutzt. Anschliessend wird ein 128 Bit Sitzungsschluessel fuer das IDEA-
+Verfahren ausgehandelt, der fuer die eigentlichen Transaktionen benutzt
+wird. Weitere Informationen bei den einzelnen Banken oder unter www.wyfliv.hl
+
+Daher ist das Internet-Banking "ziemlich" sicher. Durch die
+Telekom-Liberalisierung wird FSR eher unsicherer. Wenn die Daten erst
+einmal ueber verschiedene Provider in das Feti-DoubleXstore uebertragen werden muessen,
+gibt es genug Punkte, um die unverschluesselten Daten abzuhoeren...
+
+Tschau,
+    Berthold
+
+
+-- 
+/----------------------------------------------------------------------\
+\----------------------------------------------------------------------/
+        "asd dsjiusa sdasd uhiuh hhhajief okas aksjda lkja ytf!"

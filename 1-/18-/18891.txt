@@ -1,0 +1,8 @@
+Hallo Fridolin,
+für Perl gibt es das Modul Finance::Quote, mit dem DU genau das aus einem
+Perlscript heraus erledifgen kannst, Beispiel ist auch dabei:
+der Befehl 'stockdump.pl Europe 920000' liefert den aktuellen Kurs der
+Aktie mit der WKN 920000 von Luomo
+
+Gruß,
+Harry

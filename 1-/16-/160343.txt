@@ -1,0 +1,156 @@
+Zum Beispiel? "Unqualifizierte Aeusserungen"? "Falsche Aussagen"?
+
+
+Das ist das geringste Problem (den harten Problemen weichst Du ja
+leider aus, siehe unten), aber bitte:
+
+
+Ich habe copy & paste aus TheOpt! Version 0.2.00 (beta) gemacht . Ich
+weiss selber, dass 15 Stellen eine Scheingenauigkeit (beim ERGEBNIS)
+sind.
+
+
+Ich bevorzuge es eindeutig wenn ICH ALLEIN die Fehler mache (die
+natuerlich gross sein werden) und nicht die SOFTWARE. Wir koennen uns
+jetzt lang und breit darueber streiten, wie man am besten
+
+- Volatilitaet,
+- Zins,
+- Dividende
+
+etc. bestimmt. Aber letztenendes will ich unter der Annahme, dass ich
+die Parameter richtig bestimmt habe auch ein richtiges (d.h. ein NICHT
+noch zusaetzlich von der SOFTWARE verfaelschtes) Ergebnis haben!
+
+
+Ahem. Man kann ja auch die Jahresvola hochrechnen auf Kalendertage,
+dann weiss man wenigstens, welchen Zins man zu nehmen hat... Oder
+welchen Zins soll ich denn nehmen (nicht dokumentiert: "der Zins fuer
+eine risikolose Anlage". Laufzeit? Fuer welchen Anleger - denn der
+risikolose Zins ist ja gerade NICHT fuer jeden gleich, oder? Soviel
+zum Thema einfache Bedienung / Dokumentation, s.u.) ???
+
+
+Achje, ich habe halt den ersten Tag und den letzten Tag genommen.
+
+Sag mir welchen Zinssatz ich nehmen soll, dann sage ich Dir, welche
+Vola Du nehmen musst (und vice versa). 250-Tage-Handelsvola ist
+uebrigens NICHT unbedingt DER Stand der Dinge - obwohl es natuerlich
+eine Moeglichkeit ist.
+
+
+Das soll doch wohl keine Rechtfertigung sein, oder?!
+
+Schrott ist Schrott. Inkompetenz ist Inkompetenz.
+
+Das gilt auch fuer Tai-Pan (das ich nicht kenne).
+
+Dass Du in der online-Hilfe schreibst: "Die Berechnung des Wertes
+eines Optionsscheines ist keine einfache Materie." finde ich da nur
+noch amuesant... (Ich komme auf sage und schreibe 10 Zeilen Code fuer
+den fairen Preis fuer Put und Call, inklusive Dividenden). Ach, jetzt
+habe ich glatt Deinen "Tagesrechner" vergessen.
+
+Denjenigen, der solche fehlerhafte Software einsetzt, bedauere ich von
+tiefstem Herzen.
+
+Du bist Dir hoffentlich darüber klar, dass Deine Software fuer den
+Fall von Waehrungen strukturell grob falsche Ergebnisse liefert,
+sobald eine Zinsdifferenz zwischen Inland und Ausland besteht?
+Vielleicht koennte man das a) beheben oder b) dokumentieren?
+
+
+Klaro. Aber doch bitteschoen nicht so, dass er falsche Ergebnisse
+ausspuckt?
+
+
+Was ist denn unwesentlich (Deiner Meinung nach)?. Also ich finde es
+schon interessant, wenn Du:
+
+- Dividenden nicht beruecksichtigst (das macht was aus)
+- Zinsdifferenzen bei Waehrungen ignorierst (ditto)
+- Amerikanische Optionen = Europaeische Optionen setzt.
+  (Toll! - stimmt uebrigens fuer Deine Software beim Call, aber
+           wohl eher unbeabsichtigt, da Du keine Dividende
+           zulaesst; bei Put + Straddle rechnest Du aber schon falsch)
+
+
+a) Ich habe mir extra verkniffen auf meine Software hinzuweisen,
+   um gerade *nicht* den Eindruck von Eigenwerbung zu erwecken.
+   { die Software ist nur ein Abfallprodukt von anderer, weitaus
+     leistungsfaehigerer Software }
+
+
+b) In der readme-Datei schreibe ich:
+
+<quote>
+I will NOT be providing substantial documentation 
+for this software in the foreseeable future:
+
+- Either you know something about exotic options, in
+  which case you should not need documentation;
+- Or you do not know anything about exotic options,
+  which means that you should not need this software.
+</quote>
+
+Das Ding ist also gerade NICHT fuer den Durchschnittsanwender gedacht.
+
+Ich habe keine Lust (und auch nicht die Zeit) die Software auf deutsch
+zu schreiben. Ich habe auch keine Lust, eine *vernuenftige*
+detaillierte Dokumentation zu schreiben (*ein* abschreckendes
+Beispiel: Deine online-Hilfe), also lasse ich sie gleich weg. Es gibt
+ein Taschenbuch (evtl. auch zwei) aus dem Autogas-Verlag fuer 19.80 DM,
+das hervorragend die grundlegenden Zusammenhaenge erklaert; warum soll
+ich mir da noch die Muehe machen? 
+
+Interessant wird es allerdings erst, wenn man (natuerlich auf englisch
+:-> ) die Buecher von Hempel liest. Oder aber eine "Optionsbibel",
+z.B.: Greifeneder / Mössler: "Options Markets".
+
+
+Wer die Software dennoch haben will - bitte. Sie scheint einige Leute
+auf jeden Fall zu interessieren.
+
+
+Wegen all dem ist *meine* Software kostenlos. Und rechnet uebrigens
+richtig (und richtiger als manche professionelle Software mit "echten"
+Bewertungsfehlern [und nicht strukturellen Fehlern und
+Ungenauigkeiten]).
+
+{ Fuer Interessierte: Version 0.2.00 von EDG ist fast fertig,
+neue, (m.E.) einfachere Oberflaeche, mehr exotische Optionen, implied
+vola (und andere implied Werte) - massiver Grafiksupport. Es kann
+jeder (dann auch visuell) selbst nachpruefen ob die "unwesentlichen
+Parameter" (siehe oben) wirklich so unwesentlich sind... }
+
+Zum Schluss zu den in der Hilfedatei Deines Produktes etwas zu kurz
+gekommenen "Features":
+
+Wie ist das jetzt mit der Anwendung von *Black-Scholes* fuer
+*amerikanische* Optionen auf *Dividenden*titeln... ? (gleich zwei
+Probleme auf einem Haufen)
+
+Und die Zinsdifferenz bei verschiedenen Waehrungen ?
+
+Das sind naemlich Deine *strukturellen* Hauptprobleme, wo ich immer
+noch ganz heftig an der Finanzierungskompetenz zweifele; die
+Rechengenaugigkeit ist da eher nur ein (maessig langweiliges)
+Programmierproblem - auf das ich nur als erstes gestossen bin.
+
+Aber was streiten wir uns hier eigentlich ueber Black-Scholes und
+Konsorten (d.h. so gut wie alle geschlossenen Bewertungsformeln)? Die
+Annahmen sind doch sowieso viel zu restriktiv (z.B. konstante
+Volatilitaet; flache, konstante Zinsstrukturkurve; lineare Zeit;
+arbitragefreie, komplette Maerkte die saemtlich den Annahmen von
+"continuous time finance" folgen; random walk; [+ alles was ich jetzt
+gerade vergessen habe] ). Aber das weisst Du ja sicherlich.
+
+
+Didier
+
+PS: An der Diskussion kann ich mich leider erst wieder ab dem 13. April
+beteiligen. Ich freue mich schon   :->
+--
+Luwfxh.Fpwgynaieco@BLE-Raegvt.PW
+http://rqdlyl.hp.djn-qvmwnr.ub/~n1tect25/
+University of Wetzles, Bavaria, Germany

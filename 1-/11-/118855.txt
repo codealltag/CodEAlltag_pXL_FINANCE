@@ -1,0 +1,11 @@
+Hallo,
+ich suche historische Daten von Bund.- und DAX-Future-Kontrakten.
+Sie sollten moeglichst weit in die Vergangenheit zurueckreichen.
+Jeder einzelne Kontrakt sollte als ASCII Datei mit folgendem Format 
+vorliegen:
+Datum;Open;High;Low;Close;Volume;Open_Interest
+
+Wer liefert oder wo finde ich diese Daten ?
+
+MfG
+Didier Trittmacher

@@ -1,0 +1,28 @@
+Da die Frage ja oefters gestellt wird und die neulinge anscheinend oftmals zu
+faul sind ihre Unterlagen von der Bank durchzulesen (bei mir waren die Limits
+erklaert) hier also mal was zum Thema Limit.
+
+Kauf mit Limit:
+Die Order wird ausgefuehrt wenn der Kurs <= Limit ist.
+
+Verkauf mit Limit:
+Die  Order wird ausgefuehrt wenn der Kurs >= Limit ist.
+
+Kauf mit Stop-Buy:
+Die Order wird an die Boerse als Unlimitierte Kauforder weitergeleitet wenn der
+Kurs >= dem Limit war. Bei der naechsten Preisfeststellung kann der Kurs dann
+wieder unter dem Limit liegen.
+
+Verkauf mit Stop-Loss:
+Die Order wird an die Boerse als unlimitierte Verkauforder weitergeleitet wenn
+der Kurs <= dem Limit war. Bei der naechsten Preisfeststellung kann der Kurs
+dann wieder ueber dem Limit liegen.
+
+
+Bemerkung:
+Stop-Buy benutzt man z.B. aus charttechnischer Sicht wenn man glaubt das der
+Kurs nach ueberwinden einer bestimmten Marke explodieren koennte. Eine andere
+Moeglichkeit Stop-Buy zu nutzen gibt es bei ITARO. Dort kauft man z.B. erst wenn
+der OS einen inneren Wert hat.
+Stop-Loss wird im Allgemeinen benutzt um bei fallenden Kursen seine Gewinne
+abzusichern oder um Verluste zu begrenzen.

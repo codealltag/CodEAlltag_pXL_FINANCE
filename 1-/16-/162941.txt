@@ -1,0 +1,13 @@
+noch ein Tip:
+
+damit deine Charts nach einenr Nennwertumstellung nicht aussehen
+wie nach einem Supercrash ,eine weitere Spalte mitfuehren
+
+Spalte X: Formel: = B1/10
+
+Oben fortschreiben hat den Vorteil ,dass bei grossen Tabellen
+das scrollen entfaellt .
+Es mussen nur Woche fuer Woche fuenf neue Zeilen eingefuegt 
+werden. (Makro)
+
+mfg Italo Arzt

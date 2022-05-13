@@ -1,0 +1,20 @@
+Der RSI  vergleicht  n i c h t  zwei Werte miteinander, sondern setzt
+die Summe der Aufwärtsbewegung   e i n e s   Wertes  in Relation zur
+Summe der Abwärtsbewegung   (über den gewählten Zeitraum).
+
+Formel:  
+
+RSI=100-(100/(1+RS))
+
+wobei        RS=Durchschnitt d. Aufwärts-Schlußkurse von n Tagen
+dividiert durch  Durchschnitt d. Abwärts-Schlußkurse von n Tagen.
+
+n wird, je nach Investitionshorizont, entsprechend gewählt;
+Standardeinstellung ist 14 Tage.
+
+Gruss Valentin
+--
+------------------------------------------------------------------------------------------------------------
+DAX fuer Trader unter
+http://amrr.w-ezvgwu.by/bvlf/Pccrnwqhl-Ocnuvbd
+------------------------------------------------------------------------------------------------------------

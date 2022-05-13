@@ -1,0 +1,60 @@
+Hallo, ich danke Euch erstmal für Euren Beitrag.
+
+Vorweg ich bin Mathematiker.
+
+
+Klingt mir nach Perversion. Entweder sind die Voraussetzungen der
+Anwendung einer Formel erfüllt und man kann sie anwenden oder aber
+eben nicht. Ein _trotzdem_ gibt es nicht. So ist nun mal die Logik der
+Mathematik. Was da wie oben geschieht - nach dem Motto was nicht passt,
+wird passend gemacht - wird auch durch noch so gewichtig klingende
+Begriffe wie Volatility-Smile, Volatility-Skew, Fat-Ends u.s.w. nicht
+richtiger.
+
+
+Ich muss mich korrigieren, die B/S-Modellvoraussetzungen werden noch
+gravierender verletzt: Die Vola geht sogar nur als Konstante (!!!) in
+die Formel ein.
+
+
+Ja eben. Der Preis wird selbstherrlich gesetzt, dann eine (eigentlich
+gar nicht anwendbare) werbewirksame (Nobelpreis! das muss ja richtig
+sein) Formel, welche eigentlich diesen Preis erst als _fair_ begründen
+soll, rückwärts angewendet um die in diesem Ergebnis verwendete Vola
+(deshalb auch _implizite_ Vola genannt) zu bestimmen. Puh! schüttel
+mich!
+
+Nicht das ich falsch verstanden werde. Black/Scholes ist OK. Aber
+Wissenschaftler (Wirtschafts- wie Mathematik) argumentieren hier
+anders. Etwa so: Normalverteilungsannnahme stimmt nicht ganz (Stichwort
+Fat-Ends). Die angenommene konstante Volatilität kann nicht aus
+Praxisdaten extrahiert werden. Also machen wirs andersherum und nehmen
+an, das Endergebnis der Formel (der faire Preis) kann aus Praxisdaten
+bestimmt werden und wir berechen rückwärts was dann die Volatilität
+sein muss (deshalb _implizit_). Dass das Endergebnis der Praxis nahe
+kommt können wir annehmen weil der Preis sich am Markt bildet, so wie
+sich die _wahren_ Werte einer Aktie durch Angebot und Nachfrage an der
+Börse herausschälen.
+Und hier isses. Das sich _Preise am Markt bilden_ mag für Optionen
+stimmen, für Optionsscheine nie und nimmer. Mein beim Emittenten A
+gekaufter OS kann ich ausschließlich an ihn zu seinem von ihm
+diktatorisch gesetzten Bid zurückgeben (oder verfallen lassen) und
+kurz vor Ablauf wollen eigentlich alle nur noch zurückgeben.
+
+Mein Fazit: OS werden nach gut dünken vom Emittenten gepreist und dies
+mit wissenschaftlich klingenden Formeln verbrämt. Der ganze Zauber von
+Delta, Omega und Co ist Firlefanz.
+
+Mein Ausgangspunkt  war eigentlich eine Aktienposition durch einen PUT
+abzusichern und bin deshalb auf die OS gestossen. Gemacht hab ich in OS
+bisher noch nie und habe es deshalb vorher erstmal theoretisch
+durchgespielt. So überzeugt hat's mich nicht. Soweit der
+_Theoretiker_. Aber vielleicht kann man der Praxis doch was abgewinnen?
+
+Wegen der fairen Marktbildung scheinen mir nun reine Optionen besser
+geeignet. Doch wie handelt man die? Vielleicht kann mir ja jemand dazu
+was sagen. Also welche Direktbank/Broker bietet was in Richtung EUREX.
+Zu welchen Konditionen? Wie läuft exemplarisch solch ein Handel
+(Vornehmlich über Internet) ab? Was kostets mich?
+
+mfg nikolaus

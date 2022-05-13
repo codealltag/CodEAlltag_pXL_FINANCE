@@ -1,0 +1,73 @@
+Hallo Arthur,
+
+
+Noch bin ich am Nachvollziehen Deiner Berechnungen und da interessiert 
+mich ausschließlich die mathematische Definition. Da Du bei der 
+Mittelwertbildung mit Zukunftswerten rechnest, wäre eine Prognose schon 
+deshalb gar nicht möglich.
+
+Um bei Deinem Beispiel zu bleiben - nach zwei Börsenwoche wären das 
+etwa 10,5 % Kursgewinn. Gemeinhin wird das als stabiler Aufwärtstrend 
+bezeichnet. Die Wahrscheinlichkeit, dass es dabei bleibt, ist sicher 
+höher als -5 % am Folgetag? Wenn überhaupt, dann könnte ich mir 
+vorstellen, dass man die Wahrscheinlichkeiten verschiedener 
+Tagesrenditen schützen könnte.
+
+
+Ich habe das Gefühl, wir meinen eigentlich das gleiche.
+
+Ich zitiere noch einmal eine frühere Nachricht von Dir:
+
+Das habe ich als "Varianz" = wurzel("mittlere quadratische Abweichung 
+der Tagesrendite") verstanden. "Varianz" ist hier einfach wörtlich 
+übernommen, obwohl wie von Dir gesagt mathematisch nicht korrekt.
+
+Als zweites hatte ich vermutet, dass Du diesen Wert auf ein Jahr 
+hochrechnest, indem Du ihn mit wurzel("Anzahl der Kurstage pro Jahr") 
+multiplizierst.
+
+Zusammengenommen wären wir dann bei "Varianz %/Jahr" = wurzel("mittlere 
+quadratische Abweichung der Tagesrendite") * wurzel("Anzahl der Kurstage 
+pro Jahr"). "Varianz %/Jahr" ist somit das aktuelle auf ein Jahr 
+hochgerechnete tatsächliche Risiko eines Assets. Auch hier ist "Varianz 
+%/Jahr" wortwörtlich aus Deinem Diagramm übernommen und hat mit dem 
+mathematischen Begriff nicht mehr viel zu tun.
+
+In diesem Sinne entspricht "Varianz %/Jahr" dem "tatsächlichen Risiko" 
+aus meiner allgemeinen Definition. So bin ich am Beispiel von 15 % 
+"gewünschtes Risiko" auf die obige Formel gekommen:
+"adjustierte Rendite" = ("Rendite %/Jahr" * 15 %)/("Varianz %/Jahr").
+
+Mal sehen, was Du jetzt dazu meinst?
+
+
+Das Skript werde ich mir mal näher ansehen. Wenn ich Deine 
+Arbeitshypothese zur Mittelwertbildung inzwischen richtig verstanden 
+habe, dann lautet sie wohl, dass die Signalverarbeitung geeignetere 
+Algorithmen zur Verfügung stellt, statt nur einfache gleitende (eventl. 
+noch gewichtete) Durchschnitte.
+
+Ich habe mal einen 21-Tage MA (nur Vergangenheitswerte) dazugenommen und 
+der sieht natürlich ziemlich anders aus. Er steigt von Mitte Juli bis 
+Mitte August 2004 mit absteigender Tendenz an. Vom Gesamteindruck her 
+würde ich sagen, dass die modifizierte Sinc-Funktion relativ heftig auf 
+starke Kursänderungen reagiert. Eigentlich sogar viel zu heftig für 
+meinen Geschmack aber vielleicht ist gerade das die positive Auswirkung?
+
+Ich habe jetzt auch mal die "Varianz %/Jahr" mit der modifizierten 
+Sinc-Funktion berechnet. Mit den Heimdrink-Kursen ergibt das eine Kurve, die 
+Deiner ziemlich ähnlich ist.
+
+Mit den DAX-Kursen gibt es da größere Unterschiede. Ich habe an manchen 
+Kurstagen sogar negative mittlere quadratische Abweichungen, was rein 
+mathematisch gesehen gar nicht möglich ist. Wenn ab +/- 14 Tagen um den 
+Kurstag herum relativ starke Abweichungen zwischen Mittelwert und 
+Schlußkurs bestehen, die dann auch noch quadriert werden, dann schlagen 
+die negativen Werte der modifizierten sinc-Funktion mitunter 
+überproportional zu.
+
+Entweder fängst Du solche Ausreißer anderweitig ab oder ich habe da noch 
+einen Denk- bzw. Rechenfehler.
+
+Gruß,
+Ivano

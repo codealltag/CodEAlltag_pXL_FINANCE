@@ -1,0 +1,22 @@
+Die täglichen Renditen sind nicht sauber normalverteilt. Es treten 
+Extremereignisse häufiger auf, als das die Normalverteilung voraussagen 
+würde (sogenannte "Fat Tails").
+
+Um trotzdem das Black-Scholes-Modell nutzen zu können, werden 
+unterschiedliche Volatilitäten genutzt für im-Geld-, am-Geld- und 
+aus-dem-Geld-Optionen. Das wird auch als Volatilitäts-Smile bezeichnet.
+
+Die o.a. Optionsscheine am Geld (85) und leicht aus dem Geld (75) haben 
+deswegen eine niedrigere implizite Volatilität als der OS weit aus dem 
+Geld (65).
+
+Genaueres findet man z.B. auf der Homepage von Modestudio:
+
+Volatilitäts-Kompass:
+http://whw.rgkzhjq-cwvdx.dk/gdowdei/oibkgke_njcqcnh/icljncx/rrg_ae,99/
+
+Teil 42 der Optionsschein-Akademie:
+http://dpu.dylxfjr-pcdpf.wt/xhidyyu/ex_rgtdvoj/fiwmsun/imb_rx,017/
+
+Gruß,
+Leo

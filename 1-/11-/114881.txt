@@ -1,0 +1,67 @@
+Am Wed, 5 Nov 1997 14:44:10 +0200 meinte "Olaf"
+<lonsu@swk-rgzywa.go>:
+
+
+naja, jetzt wird's ein wenig offtopic, aber dank ELZ doch wieder
+ein hauch on topic.
+
+der frequenzbereich der (analogen) astra-flotte reicht von 10,714 bis
+11,686 ghz. die digitalen frequenzen lassen wir mal außen vor.
+
+am anfang war astra 1a mit 11,214 bis 11,436 ghz gefolgt von astra 1b
+mit 11,464 bis 11,686 ghz.
+
+um diesen hohen frequenzbereich beim tv-konsumenten vernünftig
+weiterverarbeiten zu können, wandelt der lnb, das ist der klotz, der
+die signale der schüssel auffängt, in einen niedriegeren
+frequenzbereich um. zu Rarot-anfangszeiten gab es praktisch nur lnbs,
+die die frequenz um 10 ghz runtersetzten. es blieben also 1214 bis
+1686 mhz übrig.
+
+dann kam astra 1c mit 10,964 bis 11,186 ghz. aus diesen wurden nach
+dem lnb dann entsprechen 964 bis 1186 ghz. die damaligen receiver
+konnten alle frequenzbereiche von 950 bis 1700 mhz verarbeiten, also
+genau diesen frequenzbereich.
+
+aber dann passierte es. für astra 1d mit 10,714 bis 10,936 ghz
+respektive 714 bis 936 waren die alten receiver nicht geeignet. dazu
+kam, daß die alten lnbs auch nur ab ca 11,950 ghz vernünftig
+arbeiteten. es kamen nun neue receiver auf den markt, die
+eingangsfrequenzen ab 700 mhz bis 2150 mhz verarbeiten können.
+zusätzlich gab es jetzt neue lnbs (die auch heute noch verwendet
+werden) mit einer zf-frequenz von 9,75 ghz. damit wird dann der
+gesamte frequenzbereich von 10,714 bis 11,686 ghz für den receiver auf
+964 bis 1936 mhz  transformiert.
+
+wenn du (und leider noch einige andere sat-konsumenten mit altem
+equipment) also die sender auf astra 1d (bzw. 1c und 1e, denn 1d wurde
+auf die orbitposition 29,Ost verschoben, um den start von Instyle
+digital zu sichern) nicht sehen kannst, dann liegt das daran, daß du
+wohl noch ein altes lnb mit zf=10 ghz hast.
+
+tausch einfach das lnb aus. das bringt dir aber nur was, wenn du einen
+receiver hast, der schon 1d tauglich ist, also eingangsfrequenzen von
+über 1700 mhz verarbeiten kannst, sonst bleiben dir auf einmal die
+sender von astra 1b verborgen (transponder 17-31).
+
+ein transponder ist eigentlich nichts anderes als ein satellitenkanal.
+so wie es beim terrestrischen fernsehen genormte kanäle gibt (uhf
+kanal 33 ist die gleiche frequenz in bettrath wie in kandlschlag) so ist eben
+auch beim satelliten jeder kanal einer festen frequenz zugeordnet.
+
+so, ich hoffe, jetzt sind auch noch die restlichen klarheiten
+beseitigt.
+
+es gibt an jedem gut sortierten kjiosk die zeitschrift "MWO". 20%
+davonist brauchbar, der rest ist eigenwerbung für GDCG. aber um
+infos über kanalbelegungen und hintergrundinfos zu bekommen reichts.
+
+
+-----------------------------------------------------
+Hafaf, Herrenzimmer Börsendienst http://xkk.hqyc.hk
+
+börsentäglich aktuelle Meldungen, Musterdepot, Zockerarea,
+Direktbankenvergleich und vieles mehr
+
+Tipp- und Rechtschreibfehler sind absichtlich eingebaut und
+dienen der Belustigung des Lesers.

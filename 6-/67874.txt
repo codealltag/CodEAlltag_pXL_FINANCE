@@ -1,0 +1,17 @@
+Als du startest in der obersten Zeile mit Kurs 10
+Ja nachdem, ob du gerade fallende oder steigende Kurse rechnen
+willst, stellst du fuer die Zeilen darunter z.B.ein
+Obiger Kurs +1 oder -1 (konstante Schritte von 1)
+oder
+Obiger Kurs *,95 bzw. *1.05 also immer 5% runter oder rauf
+
+Wenn eine dieser Stufen zur Ausfuehrung kamen tipst du dort den
+echten Kurs der Transaktion (mit Spesen) z.B. 9,53 ein und laesst
+ihn fuer immer so stehen.
+Dann arbeitest du mit den unteren Zeilen weiter. Die kannst du je nach
+Bedarf immer auf steigende oder fallende Kurse programmieren.
+
+
+Kurt Haver
+Visit   http://rjlaopv.hga.gxx/jhszty  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,64 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Pietro
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11) *
+Trendkorrelations-Analyse            (10) *
+Volatilitaet                         (9) *
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6) *
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7) *
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8) *
+Gleitender Durchschnitt              (5) *
+
+
+Literatur
+Handbuch MaketMaker Boersensoftware
+Boersenanalyse mit dem Computer (Schaukelpferd Verlag)
+W.Vomend ;) .... die bessere Haelfte, weil meine Frau meint ich schreibe     
+                etwas was keinen interessiert...
+
+
+Der Relative-Staerke-Index (RSI) ist wahrscheinlich der populaerste und  
+vielleicht auch wichtigste Indikator. Der Index gibt unter den meisten  
+Marktbedingungen verlaessliche Ueberkauft- und Ueberverkauft-Signale. Der  
+RSI berechnet ein Verhaeltnis der Aufwaerts- und Abwaerts-Schlusskurse  
+ueber eine ausgewaehlte Zeitperiode und drueckt das Resultat als  
+Oszillator auf einer Skala von 0 bis 100 aus.
+
+Es werde zwei Moeglichkeiten seiner Interpretation genannt.
+
+Zum einen wird der Kursverlauf des RSI mit dem Kursverlauf verglichen, um  
+unterschiedliche Entwicklungen herauszufinden. Wenn der RSI faellt oder  
+stagniert, waehrend der Kurs weiter steigt ist ein Signal fuer einen  
+Trendwechsel gegeben.
+
+Die andere Interpretationsmoeglichkeit liefert Signale, wenn der RSI  
+unterhalb von 30% oder oberhalb von 70% notiert. In diesen Faellen liegt  
+das Ende eines Abwaertstrens bzw. das Ende eines Aufwaertstrend vor und  
+eine gegenlaeufige Kursbewegung ist wahrscheinlich.
+
+Leider war es mir bisher nicht moeglich fuer die Dauer bzw. Heftigkeit der  
+Gegenreaktion eine allgemeingueltige Aussage zu finden.
+
+Ansonsten sehe ich diesen von allen bisher genannten Indikatoren als den  
+verlaesslichsten an.

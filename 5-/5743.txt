@@ -1,0 +1,108 @@
+Trading Hedgen mit Optionsscheinen Fiebekorn Fink
+Eine Betrachtung von dem Hedgefund-Manager  H.Fink
+Video:
+http://cpx.uydnavn.oqv/bbufy?t=0HQHNd_OyXjRX
+
+
+Neben der Spekulation auf steigende oder fallende Kurse können
+Standard-Optionsscheine auch zur Absicherung (Hedging) einzelner
+Positionen des Depots oder des Gesamtportfolios eingesetzt werden. Das
+Ziel der Absicherung ist die Kompensation mög=AClicher Kursrückgänge =
+des
+Basiswerts mit den daraus resultierenden Gewinnen aus dem Einsatz von
+Put=ACOptionsscheinen.
+Anleger, die beispielsweise aus steuerlichen Gründen eine Aktie in
+ihrem Portfolio nicht verkaufen möch-ten, haben also die Möglichkeit,
+sich gegen Kurs-rückgänge dieser Aktie zu =BBversichern=AB. Sie könne=
+n
+dazu zwei unterschiedliche Strategien verwenden: den statischen oder
+den dynamischen Hedge.
+Statischer Hedge
+
+Die Anzahl der zur Absicherung benötigten Put-Optionsscheine wird beim
+statischen Hedge einmalig zu Beginn ermittelt und bleibt bis zum Ende
+der Absicherung konstant.
+Die Anzahl der benötigten Puts berechnet sich mit der folgenden
+Formel:
+Anzahl Puts =3DAnzahl Basiswert
+Bezugsverhältnis
+Die Formel ermittelt die Anzahl der notwendigen Put-Optionsscheine zur
+vollständigen Absicherung zur Fälligkeit. Die benötigten
+Ausstattungsmerkmale (z.B. Basiswert, Basispreis und Laufzeit), die
+den Preis des Optionsscheins und damit den Preis der Absicherung
+beeinflussen, müssen jedoch vom Anle
+ger ebenfalls sorgfältig gewählt werden. Der Basis-preis bestimmt das
+Absicherungsniveau. Das heißt, je höher der Basispreis, umso teurer
+wird die Absiche=ACrung. Möchte der Anleger das Risiko für Verluste des
+Basiswerts bis zu einem geringeren Kursniveau über=ACnehmen, wählt er
+einen niedrigeren Basispreis. Da=ACdurch wird die Absicherung
+tendenziell günstiger. Zudem muss der Anleger entscheiden, für welchen
+Zeitraum das Portfolio bzw. die Depot-Position abge=ACsichert werden
+soll. Hier gilt tendenziell: Je länger die Absicherung läuft, desto
+höher ist der Preis dafür.
+Beispiel: Ein Anleger besitzt 50 Aktien der Individuell. Er erwartet
+zwar kurzfristig fallende Kurse der Aktie, möchte sie aber nicht
+verkaufen, da er langfristig an das Potenzial der Aktie glaubt.
+Deshalb sichert
+er sie auf dem aktuellen Kursniveau mithilfe eines statischen Hedges
+ab. Die Verkaufsoptionsscheine, die er für die Absicherung verwenden
+möchte, haben eine Bezugsverhältnis von 0,1. Die Anzahl der
+benö=ACtigten Verkaufsoptionsscheine ist:
+Anzahl Puts=3D 50 =3D 500
+0,1
+Der Anleger benötigt 500 Verkaufsoptionsscheine für den statischen
+Hedge. Durch die Variation der Laufzeit und des Basispreises kann er
+seine Kosten für den statischen Hedge beeinflussen.
+Möchte der Anleger nicht eine einzelne Aktie, son-dern ein ganzes
+Portfolio absichern, können Index=ACoptionsscheine eingesetzt werden.
+Dabei stellt sich bezüglich des Basiswerts beispielsweise die Frage
+welcher Indexoptionsschein das Depot am besten widerspiegelt und so
+die Verluste des Portfolios kompensieren kann.
+Der statische Hedge führt nur am Fälligkeitstag des Puts zu einer
+Absicherung auf dem Niveau des Basis=ACpreises. Während der Laufzeit des
+Optionsscheins besteht ein nur unvollständiger Schutz gegen
+Kurs=ACrückgänge des einzelnen Depotwerts bzw. des Ge=ACsamtportfolios,=
+ da
+das Delta des Optionsscheins nicht berücksichtigt wird. Um eine
+Anpassung während der Laufzeit an die sich ändernden Marktverhältniss=
+e
+zu ermöglichen, muss der dynamische Hedge heran=ACgezogen werden.
+Dynamischer Hedge
+Mit dem dynamischen Hedge versucht man, eine optimale Absicherung des
+Gesamtportfolios bzw. des Depotpostens über die gesamte Laufzeit zu
+gewähr=ACleisten. Dabei spielt das Options-Delta eine wichtige Rolle.
+Die benötigte Anzahl der Put-Optionsscheine wird unter
+Berücksichtigung der Änderung des Deltas kontinuierlich angepasst.
+Die Anzahl der Puts berechnet sich mit der folgenden Formel:
+
+Bei einer optimalen Anpassung erreicht man eine sogenannte Delta-
+neutrale Position, bei der die Ver=ACluste der abzusichernden Aktien-
+Position jederzeit mit Gewinnen aus den Puts kompensiert werden
+können.
+Beim dynamischen Hedge ist die sorgfältige Auswahl der
+Ausstattungsmerkmale ebenso wichtig. Auch hier muss beispielsweise der
+Basiswert so gewählt werden, dass er dem gewünschten
+Absicherungsniveau des Anlegers entspricht.
+Beispiel: Ein Anleger besitzt 70 Aktien der Textilreinigung. Er möchte sie
+durch einen dynamischen Hedge ab=ACsichern. Die Verkaufsoptionsscheine,
+die er für die Absicherung verwenden möchte, haben ein Delta von =970,5
+und ein Bezugsverhältnis von 0,1. Die Anzahl der benötigten
+Verkaufsoptionsscheine ist:
+Anzahl Puts =3D lx 	70	=3D1.400
+0,1x (-0,5)
+Der Anleger benötigt 1.400 Verkaufsoptionsscheine für den dynamischen
+Hedge. Es müssen jedoch regelmäßig Anpassungen vorgenommen werden, da
+sich das Delta im Zeitablauf verändert. Konkret: Steigt der
+Aktienkurs, erhöht sich in der Regel das Put-Delta (nähert sich 0),
+was wiederum im dynamischen Hedge eine höhere Gesamtanzahl von Puts
+erforderlich macht. Somit würde der Anleger seine bestehende Put-
+Position jetzt aufstocken.
+Ein Nachteil des dynamischen Hedges gegenüber dem statischen Hedge
+sind die höheren Absiche-rungskosten. Denn erstens führt die
+Berücksich-tigung des Deltas zu einer höheren Anzahl von notwendigen
+Puts. Zweitens sind die regelmäßig vorzunehmenden Anpassungen mit
+höheren Trans-aktionskosten verbunden. Für einen Privatanleger würde
+sich eher die klassische Versicherungsvariante des statischen Hedges
+lohnen, während ein professio=ACneller Marktteilnehmer (wie zum Beispiel
+ein Market Maker, der ständig seine Risiken überwachen und steuern
+muss) in der Regel einen dynamischen Hedge bevorzugt.

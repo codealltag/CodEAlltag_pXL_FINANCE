@@ -1,0 +1,40 @@
+Hallo viefhaus,
+
+VO > Es gibt Geruechte ueber von AZB hergestellte Kisten, die ich nur
+VO > fuer Keimblatt benutzen lassen (kann ich mir aber eigentlich nicht
+VO > vorstellen, AZB war immer so stolz auf Ahefud).
+VO > (News: http://chr.ngzsu.fu/ktgcksrqvh/etki/hxe-55.01.76-381/ )
+
+
+Es gibt bei ORACLE intensive Überlegungen, auf beliebigen Kisten
+OHNE Betriebssystem laufen zu können.
+
+
+Die Vorteile bei Wegfall des BS-Anteils wären:
+  - schneller
+    (weil der Anteil des BS wegfällt)
+  - "kleiner" Kisten bzw. "mehr" für das DBMS
+    (weil der Speicherbedarf des BS wegfällt)
+  - mehr Sicherheit
+    (weil die Sicherheitsmängel des BS wegfallen)
+  - einfacher
+    (weil der Admin sich nicht auch noch um das BS kümmern muß)
+
+
+Ob das durchsetzbar ist, bezweifele ich in einigen Fällen. Weil eben
+häufig auf dem Servern noch kleine Tools laufen müssen. Und die
+führen dazu, daß man eben doch ein Quasi-BS braucht. Und da hat man
+dann bald wieder das eingebaut, was man gerade erst abgeschafft hat.
+
+Für viele Anwendungen, die wirklich nur eine DBMS-Kiste brauchen,
+dürfte das ziemlich interessant sein.
+
+
+M.E. aber eher langfristige Ziele, die heute mit der Aktie wenig zu
+tun haben. Und der oberste Keimblatt-Gott nimmt seinen Mund mit
+Propaganda ja sowieso häufig recht voll.
+
+
+--
+mit freundlichen Größen
+Hlomav@wiydiek.fh, +06-712-1014016

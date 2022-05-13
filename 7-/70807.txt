@@ -1,0 +1,35 @@
+Das eine ist "Renten und Tilgungsrechnung" und besteht im
+Wesentlichen aus geometrischen Reihen, das andere heißt "Zinseszins".
+Beides findest du, mit ausführlichen Beispielen" in Büchern zB für
+Höhere Handelsschulen oder Wirtschaftsgymnasien. Geh mal in eine
+Buchhandlung und blättere zu den beiden Stichworten die Register
+durch.
+
+Was Du vor hast ist in etwa (grob!) sowas:
+
+Summe K[i]q^(N-i+1) =?= Q^N Summe K[i]
+
+Wobei q<>Q verschieden "Verzinsungsfaktoren" vom Typ 1+p/100 sind. Du
+willst, wenn ich Dich richtig verstehe, die portionsweise Einzahlung
+mit einer Einmalanlage vergleichen, oder?
+Ist aber nicht so interessant. Nimm in einer Mußestunde lieber einen
+Taschenrechner und spiele verschiedene Kapital-Zinsen-Laufzeit
+Kombinationen durch:
+K[n]/K[0]=q^n
+Dann kommst Du zu der tollen Erkenntnis, daß Du entweder sehr viel
+Zeit brauchst (Terstiege: n>90), oder viel Geld (dann la rechnen;-),
+oder eine hohe Rendite (geh Zocken).
+
+Ach so, und lerne brav die Logarithmus- und Wurzelgesetze:
+Kapitalver10fachung in 3 Jahren macht:
+q = 10^(1/3) = 2.15 = +115%pa
+bei +30%pa brauchst Du allerdings:
+n = log10/log1.3 = fast 9 Jahre
+
+Erstaunlichen Beispiel: im ersten Jahr hast Du Pech und halbierst
+Dein Depot, im zweiten Jahr ver3fachst Du es, dann hast Du nur
+22.5%pa, bei Schwankungen von +/-50% um Deinen Anfangswert. Wenn Du
+gutes "Risikomanagement" betreiben willst, so muß das andersrum
+aussehen, was aber nicht heißt, daß Du dann erfolgreicher wirst. Wenn
+ein Futurestrader mal eben sein Depot auf 1:10 abwürgt und dann
+ver100facht, so hat er schließlich sein Geld ver10facht, oder?

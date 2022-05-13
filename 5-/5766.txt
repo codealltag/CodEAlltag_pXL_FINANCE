@@ -1,0 +1,305 @@
+Die Solitäre Roulette-Strategy Roulette Roulettesystem von Lallemang
+Cremerius Leeste
+Author S.Leyndecker
+Video:
+http://oil.zvmqxgc.ags/lqacs?w=9V3_w1pYKZPSf
+Ich stelle hier eine Roulette-Strategy vor, die aus meinem Buch Die
+besten Roulettesysteme aller Zeiten Author S.Leyndecker=93
+stammen.
+
+
+Variables Paroli auf den Einfachen Chancen des Roulette
+
+Gesamtkonzept:
+EC-Figuren-Gruppen, die mit dieser EC-Figuren-Scanner Roulette-
+Strategie erfasst und verarbeitet werden:
+
+EC-Figurenarten:
+
+1. Solitäre Roulettefiguren
+2. Intermittenzen
+3. Spiegelungen (symmetrische und asymmetrische)
+
+1. Solitäre Figuren (Umgangssprachlich =84Serien=93 genannt)
+Beispiel an Schwarz/Rot.
+28
+11
+26
+17
+24=85=85ist z.B. eine 5-er Schwarz/Solitär-Figur
+------25
+------25
+------19
+------12
+------34
+------25=85=85ist z.B. eine 6-er Rot/Solitär-Figur
+
+Hier ist anzumerken, dass mit Figuren-Scanner JEDE Solitäre Figur, ab
+3-er und höher, angegriffen und verarbeitet werden kann.
+
+
+2. EC-Intermittenzen-Figuren (Wechsel/Einer =96 nicht nur Schwarz/Rot,
+sondern natürlich auch auf den anderen 2 Chancenpaaren )Figuren
+11
+------12
+10
+------27
+29
+------14
+15=85=85ist eine Schwarz/Rot-Intermittenz
+
+Anm.:
+Hier gilt dieselbe Angriffsbreite, wie auch bei den Solitären Figuren.
+
+3. Figurenspiegelungen =96Symmetrische:
+11
+15
+------25
+------14
+28
+22
+------23
+------25=85.ist eine Symmetrische Figuren-Spiegelung
+
+=85..und Asymmetrische:
+35
+------14
+------14
+------34
+26
+------23
+------12
+------27
+35=85=85ist eine Asymmetrische Figurenspiegelung.
+
+Zusätzliche Angriffsmethoden:
+
+4. Durchbruch (Rhythmusveränderung, Trendänderungen)
+
+5. Abbruchspiel (Angriff auf die Gegenchance )
+
+Strategische Spielsteuerung des praktischen Spiels:
+
+6. Das allgemeine Konzept der 4 Spielphasen
+
+Angriffsmethodik/Progression/Angriffstabellen
+
+1. Solitäre Figuren:
+
+Angriff auf eine 3er solitär: PHASE II
+
+SatzCoup--------Einsatz/Stücke--------Gewinn im Trefferfall (scharfes
+Paroli)
+----*1-------------------1-----------------------------------
+----*2-------------------1-----------------------------------
+----*3-------------------2-----------------------------------
+----*4-------------------3-----------------------------------
+----*5-------------------5-----------------------------------
+(Zusatzangriff)
+
+Angriff auf eine 3er solitär: PHASE III
+
+SatzCoup=97Einsatz/Stücke/Standard---------------Dynamic
+----------------------Standard----------------------------Dynamic*)
+----*1-------------------2-----------------------------------(2)
+----*2-------------------2-----------------------------------(3)
+----*3-------------------3-----------------------------------(4)
+----*4-------------------5-----------------------------------(6)
+----*5-------------------7-----------------------------------(8)...
+(Zusatzangriff)
+
+Angriff auf eine 4er Solitär:
+
+SatzCoup--Einsatz/Stücke/Standard---------------Dynamic
+----*1-------------------1-----------------------------------(2)-----
+----*2-------------------1-----------------------------------(2)-----
+----*3-------------------2-----------------------------------(3)-----
+----*4-------------------3-----------------------------------(5)-----
+----*5-------------------4-----------------------------------(6)-----
+---------------------------------------------------------------------------=
+-
+----*6-------------------5-----------------------------------(8)-----
+----*7-------------------7-----------------------------------(10)---
+
+Angriff auf eine 5er Solitär:
+
+SatzCoup--Einsatz/Stücke/Standard---------------Dynamic
+----*1-------------------1-----------------------------------
+(2)-------
+----*2-------------------1-----------------------------------
+(2)-------
+----*3-------------------1-----------------------------------
+(2)-------
+----*4-------------------2-----------------------------------
+(3)-------
+----*5-------------------2-----------------------------------
+(3)-------
+----*6-------------------3-----------------------------------
+(4)-------
+----*7-------------------4-----------------------------------
+(6)-------
+---------------------------------------------------------------------------=
+-
+----*8-------------------5-----------------------------------
+(8)-------
+----*9-------------------6-----------------------------------
+(9)-------
+----10-------------------8-----------------------------------
+(12)------
+
+Angriff auf 6er solitär:
+
+SatzCoup=97Einsatz/Stücke/Standard-----------keine Dynamisierung
+----*1-------------------1-----------------------------------
+----*2-------------------1-----------------------------------
+----*3-------------------1-----------------------------------
+----*4-------------------1-----------------------------------
+----*5-------------------2-----------------------------------
+----*6-------------------2-----------------------------------
+----*7-------------------3-----------------------------------
+----*8-------------------3-----------------------------------
+----*9-------------------4-----------------------------------
+----10-------------------4-----------------------------------
+----11-------------------5-----------------------------------
+----12-------------------5-----------------------------------
+----13-------------------6-----------------------------------
+----14-------------------7-----------------------------------
+
+Alle weiteren, höheren EC-Solitären Figuren werden nach der Methode
+Rhythmusveränderung/Durchbruch angegriffen.
+Dabei ist es vollkommen egal, ob die Solitäre Figur eine 7-er---12-er
+oder gar 20-er und höher ist.
+Jede dieser Solitären =84Serien=93 kann - und wird mit diesem Instrument
+erfasst und angegriffen.
+
+*)Hier möchte ich noch ergänzen, dass es in diesen Progitabellen(nur
+Figuren-Scanner), hier noch eine ergänzende, dynamische Staffelung
+gibt, die extra für die Block -und Signal-Figuren entworfen wurde.
+
+2. Intermittenzen
+
+Diese Figurenart wird grundsätzlich 3 x in Folge, nach der Rhythmus -
+Veränderung (Durchbruch) Methode angegriffen.
+Wird die Zielfigur während dieser drei Angriffe nicht getroffen =96 wird
+ein neues Angriffssignal abgewartet.
+Dann wieder die gleiche Prozedur, mit gleicher Progression.
+Die Progression für Intermittenzen ist simpel:
+
+INTERMITTENZEN
+
+SatzCoup--------Einsatz/Stücke-------
+
+--------------------PHASE II-----PHASE III
+----1-------------------2--------------3----
+----2-------------------3--------------5----
+----3-------------------5--------------7----
+
+3. Spiegelungen:
+
+
+Spiegelungen:
+
+SatzCoup--------Einsatz/Stücke--------
+
+-------------------PHASE II-------PHASE III
+----1-------------------1--------------2----
+----2-------------------1--------------2----.
+Zusatzangriff:
+----3-------------------1--------------3----.
+
+..und bei Rhythmusbestätigung wird hier mit
+1Stck der Einsatz verschärft.
+
+Hier möchte ich noch deutlich machen, dass Angriffe auf Spiegelungen-
+Figuren, die beim weiten Kompliziertesten sind, was diese EC-Figuren-
+Strategie zu bieten hat.
+Auch wenn die Satztechnik absolut simpel ist. Aber darum geht es
+weniger.
+Der angehende Paroli-Spieler sollte sich zunächst mit den einfacheren
+Methoden der Strategie befassen.
+Dafür bieten sich z.B. zuerst die kleineren, Solitären Figuren und die
+Intermittenzen an.
+
+4. Angriffsmethode: Rhythmusveränderung (Durchbruch)
+Hier sind noch einmal die Angriffstabellen für die Methode =84nach
+Rhythmusveränderung=93.
+In der Regel werden nur 3 Angriffe ausgeführt (nur in Ausnahmefällen
+und nur für Fortgeschrittene Paroli-Spieler - 4 Angriffe)
+Rhythmusveränderung/Durchbruch
+
+SatzCoup--------Einsatz/Stücke--------
+
+----------------PHASE II-------PHASE III
+----1-------------------2--------------3----
+----2-------------------3--------------5----
+Zusatzangriff
+----3-------------------5--------------7----
+(Bei Rhythmusbestätigung jeweils 1St. dazu)
+
+5. Abbruchspiel (Angriff auf die Gegenchance eines Chancenpaares ):
+
+SatzCoup--------Einsatz/Stücke--------
+
+-----------------PHASE II------PHASE III
+----1-------------------1--------------2----
+----2-------------------1--------------3----
+Zusatzangriff:
+----3-------------------2--------------4----
+
+6. Die allgemeine Strategie der 4 Spielphasen des Spiels
+Kommentar und Allgemeine Regeln der Spielstrategie:
+
+Um diese Spielstrategie wirklich zu verstehen ist es notwendig, noch
+einige prinzipiellen Eckpunkte zu nennen.
+Diese Variante d. Parolispiels wird mit d. Konzept einer Allgemeinen
+Spielstrategie geführt.
+Damit wird das GESAMTE Spiel in 4 Grundphasen unterteilt.
+
+PHASE 1: Vorbereitung. Es sind 50 Coups "Leerlauf" notwendig um sich
+für einen Spieltisch zu entscheiden und die damit verbundenen
+Auswertungen vorzunehmen. Das ist soweit bekannt.
+
+PHASE 2: Spielaufbau. Diese Phase benötigt weitere 40-60 Coups und ist
+die WICHTIGSTE Phase! Hier wird in vielen kleineren Schritten der
+Tisch weiter "getestet". Es wird oft und klein gesetzt (mit 1-2
+Stucken) und es wird versucht, den Primärtrend des Spiels
+herauszufinden. Daher in solchen Situationen auf keinen Fall scharfes
+Paroli spielen. Einfaches oder zweifaches Paroli ist ausreichend. Im
+Spielcasino kann man nichts mit Gewalt erzwingen! Das eigentliche Ziel
+dieser Phase besteht darin, sich auf das eigentliche Spiel des
+ausgewählten Tisches einzustellen. Auf den Rhythmus. Ein weiteres Ziel
+besteht darin, während dieser Phase nicht ins Minus zu geraten. Ein
+neutrales Resultat am Ende der Phase 2 gilt schon als ein Erfolg und
+ist die beste Voraussetzung für einen tatsächlichen Gewinn. Wird dabei
+noch ein Plusergebnis zwischen ein bis dreißig Stücken erreicht wäre
+dies optimal.
+
+PHASE 3: Und erst JETZT beginnt hier - nach 50 Coups Vorlauf und
+weiteren 40-60 Coups aus der Phase 2 - das eigentliche Parolispiel.
+Diese Phase ist etwa weitere 100 Coups lang. Hier wird seltener
+angegriffen, dafür wird scharfes mehrfaches Paroli mit höheren
+Stückzahlen gespielt. Hat man eine erfolgreiche zweite Phase schon
+bestanden - ist es jetzt in der Dritten relativ einfach, ein
+erfolgreiches Gesamtspiel zu bekommen.
+Darauf folgt..
+PHASE 4: Das Spiel beruhigen. Mit nur noch 6-10 Stücken wird extrem
+scharfes Paroli auf FESTE Figuren gespielt. Mit jeweils nur einem
+Stück pro Angriff. Voraussetzung ist, dass sich im Vorlauf schon
+höhere Roulettefiguren (10er Figuren und höher) gezeigt haben. Wenn
+nicht - wird das Spiel nach Phase 3 beendet.
+Ist das aber der Fall, versucht man mit jeweils einem Stück ein
+mindestens 6-faches und höheres Paroli durchzubringen.
+
+@SelzerVormann schreibt weiter dazu:
+
+ZITAT
+Oft war das bei mir so, dass diese letzte Runde die erfolgreichste
+Spielrunde war. Es werden nur einige "Reststücke" (aus dem Gewinn) ins
+Spiel gebracht. Die Annonce bzw. Ansage (zur Sicherheit direkt an den
+Tischchef) lautet: "Spielt bis zum MAXIMUM" - und weg vom Tisch. Einen
+verdienten Drink und wenn sich eine kleine Gruppe um diesen Tisch
+bildet, ist es immer ein sicheres Zeichen, dass jetzt die Autoshop-EN
+gezwungenermaßen Martingale spielt- um unser eines Stück (für Newbies=
+:
+Stück =3D Jeton) zu bekommen! Sicher, etwas Erfahrung gehört allerdings
+dazu. Das kommt auch mit der Zeit.

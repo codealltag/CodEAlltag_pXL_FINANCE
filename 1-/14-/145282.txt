@@ -1,0 +1,51 @@
+Hallo,
+
+dies ist mein erster Beitrag in einer Newsgroup, also habt bitte
+Nachsicht.
+
+Mit Intersesse habe ich die Diskussionen über "Technische Analyse"
+verfolgt. Für alle Zweifler möchte ich folgendes Experiment mit dem
+Bund-Future vorstellen, das leicht durchgeführt werden kann:
+
+TRADING-EXPERIMENT
+
+1. 
+Betrachte den Closing-Kurs des Bund-Futures vom Vortag. Ist die letzte
+Stelle (nach dem Komma) gerade, so gehe LONG, ansonsten SHORT.
+
+2.
+Liegst du während des Tages 20 Ticks hinten, so schließe die Position.
+Schließe die Position immer am Abend.
+
+3. 
+Wiederhole Schritt 1 und 2 jeden Tag.
+
+Die Technik die hier zum Einsatz kommt ist zwar primitiv (50 %
+Treffer-Quote), trotzdem kann mit diesem System Geld verdient werden
+(als Paper-Trade ausprobieren).
+
+WARUM FUNKTIONIERT DAS SYSTEM
+
+Es liegt daran, daß Kurse zeitlich nicht unkorreliert sind
+(mathematisch: Die Kurse haben meist einen HURST-EXPONENTEN > 0.5).
+Meist folgen somit auf steigende (fallende) Kurse wieder steigende
+(fallende) Kurse. Durch die konsequente Einhaltung des Stops von 20
+Ticks kann somit Geld verdient werden.
+
+WARUM BIN ICH NOCH NICHT REICH?
+
+Für Privatpersonen ist die technische Analyse meist aus folgenden
+Gründen nciht brauchbar:
+
+1.
+Hohe Transaktionskosten lassen den Erwartungswert dieses Systems negativ
+werden.
+
+2.
+Die Ruinwahrscheinlichkeit (Risk-of-Ruin) ist ziemlich groß, da man
+evtl. erst nach 10 oder 20 Tagen in die Gewinnzone kommt und dies bis
+dahin vielleicht finanziell nich durchhält.
+
+Größe
+
+Jürg

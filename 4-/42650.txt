@@ -1,0 +1,74 @@
+Bei Aktienanleihen (auch als Reconanleihen, Anleihen mit
+Aktienandienungsrecht oder reverse convertible bonds bezeichnet) erhält der
+Anleihengläubiger während der Laufzeit eine Verzinsung (bedeutet höher als
+bei "normalen Anleihen") auf die Anlagesumme (nominalwert nicht Kurswert).
+Durch die Emissionsbedingungen festgelegt hat der Emittent am Laufzeitende
+das Wahlrecht die Anleihe entweder
+1.) zum Nominalbetrag zurück zu zahlen oder
+2.) eine bestimmte Anzahl von Aktien zu liefern, wenn deren Kurs unter einem
+vorher bestimmten Kurs liegt
+
+Die jährliche Verzinsung von z.B. von 20% auf Nominalbetrag bleibt
+unberücksichtigt von dem R�ckzahlungswahlrecht des Emittenten.
+Oftmals sorgt der Emittent für einen funktionierenden Sekundärmarkt (stellt
+verbindliche Geld- und Briefkurse zu denen man handeln - ähnlich wie bei
+Warrants).
+
+Zu beachten ist aber, dass die Bewertung einer solchen Anlage recht
+schwierig ist, da der Rückzahlungsbetrag ja noch nicht feststeht (hängt
+nämlich vom zugrundeliegenden Aktienkurs ab). Damit es aber Leute gibt die
+ohne lange zu überlegen ein solchen Investment tätigen ist der Zinscoupon so
+hoch (teilweise das 4-fache der Verzinsung von aktuellen
+Bundeswertpapieren).
+Um den fairen Wert einer solchen Anlage zu ermitteln müsste man z.B. das
+Pricing by Duplication anwenden (Aktienanleihe = Zerobond + europäischer
+short call) und die einzelnen Produkte bewerten, wobei die Bewertung des
+europ. short call am schwierigsten sein dürfte.
+
+Um einen Anleger das Risiko bewußt zu machen ein Beispiel:
+Kaufe Aktienanleihe zu folgenden Konditionen
+- nominal 10.000 EUR zu Kurswert 95% -> Investment von 9500 EUR
+- Laufzeit 5 Jahre bei 10 % p.a. (ca das 2-fache der aktuellen Verzinsung
+von Bobl)
+- bei Fälligkeit hat Emittent die Wahl Nominalbetrag zu liefern oder je
+5.000 EUR 40 ABC-Aktien falls diese unter 125 EUR liegen (aktueller Kurs der
+ABC-Aktie 100 EUR)
+
+1. Szenario bei Fälligkeit (Kauf der Anleihe, Kurs der ABC-Aktie 200 EUR)
+    Zinsen = 5 x 1000 EUR (=10% von 10.000 EUR)        =    5.000 EUR
+    Rückzahlungsbetrag = Nominalwert (da Kurs > 125)   = 10.000 EUR
+
+                -     9.500 EUR
+    Ertrag
+=    5.500 EUR (ca. 58 % Gewinn)
+
+2. Szenario bei Fälligkeit (Kauf Anleihe, Kurs ABC-Aktie 50 EUR)
+     Zinsen w.o.
+=   5.000 EUR
+    Rückzahlung in 80 ABC-Aktien je 50 EUR                     =   4.000 EUR
+
+                -   9.500 EUR
+    Verlust
+=      500 EUR ( ca. 5 % Verlust)
+
+3. Szenario bei Fälligkeit (Kauf ABC-Aktie zu 100 EUR, Kurs bei Fälligkeit
+200 EUR)
+     Gewinn
+= 10.000 EUR (100 % Gewinn)
+
+4. Szenario bei Fälligkeit (Kauf ABC-Aktie zu 100 EUR, Kurs bei Fälligkeit
+50 EUR)
+     Verlust
+= 5.000 EUR (50 % Verlust)
+
+Man sieht wie hoch der Gewinn ist hängt sehr stark von der zugrundeliegenden
+Aktie ab und läßt sich nur schwer auf einen EUR genau vorhersagen. Man
+sollte sich deswegen nicht von dem hohen Zinscoupon blenden lassen. Außerdem
+ist ein hoher Zinscoupon steuerlich sehr schlecht (bei o.g. Beispiel 10 %
+p.a. heißt bei 10.000 EUR bereits eine Auslastung des Freibetrages von 2/3
+bei einem Alleinstehenden) ggf. würde eine Zinsabschlagsteuer die erhoffte
+Rendite schmälern.
+
+Ich hoffe ich konnte ein wenig weiterhelfen ...
+
+Meinrad

@@ -1,0 +1,41 @@
+HI.
+Wo ist das Problem?
+Einfach die Differenz aus den Bankabrechnungen bzw. Buchungen auf dem
+Verrechnungskonto.
+
+Bsp. Kauf HBSU x=100 Stk., Kaufkurs k=50, Verkaufskurs v=70,
+Provision p=0.01, Courtage c=0.001, Maklergebuehr m=6, Buchungsgebuehr
+Girokonto g=0.5
+
+Gewinn = Erloes minus (Kosten) =
+v*x - (k*x + (p+c)*k*x + m + g + (p+c)*v*x + m + g) =
+(1-p-c)*v*x - (1+p+c)*k*x - 2*(m+g) =
+[in Zahlen der Abrechnungen]
+7000-70-7-6 - (5000+50+5+6) - 1 = 1855.
+
+[ohne Gewaehr, Tippfehler gibt's gratis ;-)]
+
+Falls Dir die Antwort zu simpel ist, dann habe ich die Frage wohl zu
+wortlich genommen. Hier ein paar Ideen, wie es komplizierter geht:
+
+Lustig wird's doch erst, wenn man kleine Orders mit Mindestgebuehren (p0
+und c0) ansetzen will: max ((p+c)*k*x, p0+c0) etc.
+Oder wie waere es mit Spekulationsgewinn: Wenn Summe aller Spek.-Gewinne 
+im Steuerjahr > 1000, dann GewinnSpek = (1-s)*Gewinn, wobei s der
+individuelle Grenzsteuersatz ist; eigentlich noch abgezinst, denn die
+Steuerzahlung erfolgt ja erst Monate spaeter!
+Gab's zwischen Kauf und Verkauf Dividendenzahlungen, Gratisaktien,
+Bezugsrechte, Splits, etc.? Dann sollten diese den Erloesen zugeschlagen
+werden; evtl. verzinst bis zum Zeitpunkt des Aktienverkaufs?
+Wie waere es mit Pauschalgebuehren auf dem Giro? )GiroQuartalsGebuehr
+dividiert durch Zahl der Buchungen im Quartal) fuer g einsetzen.
+
+So long.
+
+-- 
+
+Vinzenz Entreß
+Universitaet Emmerkofen
+Fachbereich EOI
+
+E-Mail: Please replace Germany by DE!

@@ -1,0 +1,13 @@
+Zusaetzlich gibt's nicht bei allen Scheinen beide Seiten. Z.B. gibt es
+bei dem hier angesprochenen Fall nur den PUT und keinen CALL mit
+gleicher Basis und Laufzeit. Dann wuerde es naemlich sofort auffallen,
+wenn die impliziete Vola des PUTs sinkt und gleichzeitig die des Calls
+steitn (die Put-Call-Paritaet stimmt dann nicht mehr).
+
+Allerdings bietet die Trauringschmiede auch gleichzeitig Put- und Call-Scheine
+mit gleicher Basis und Laufzeit an. Ob da der Put-Preis besser aussieht
+habe ich allerdings nicht ueberprueft. Waere aber zu hoffen.
+
+Ivano Ulbert
+--
+http://fdgedfld.fs

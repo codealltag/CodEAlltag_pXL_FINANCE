@@ -1,0 +1,27 @@
+Hallo,
+
+ich versuche derzeit, einige technische Indikatoren zu berechnen.
+
+Ich habe besonders Probleme, den MACD sowie RSI/Wilder zu berechnen.
+
+Für den MACD habe ich z.B. die Formel aus der Investment-FAQ
+übernommen. Das dortige Beispiel ergibt bei mir auch gleiche
+Resultate. Jetzt aber das Merkwürdige:
+Angenommen, ich habe eine Reihe von 100 Kursen(Tagen). Dann kommt für
+den Tag 100 z.B. MACD=1,23 heraus (ja, es sind eigentlich 2 Werte, das
+la ich jetzt mal der Einfachheit halber weg).
+
+Wenn ich jetzt die Reihe 10 Tage vorher beginne, also nun 110 Tage
+berechne, dann kommt für Tag 110 (=der vorige Tag100) ein völlig
+anderer Wert heraus. Die beiden Reihen haben auch keine exakte
+Korrelaton, obwohl die resultierenden Kurven durchaus ähnlich
+aussehen.
+
+Kann mir jemand vielleicht auf die Sprünge helfen und die korrekte
+Formel für MACD und möglichst auch RSI/Wilder rüberwachsen lassen? Am
+besten noch mit einer Beispielreihe Daten ;-)
+
+Heißen Dank schonmal..
+
+-- 
+Niclas

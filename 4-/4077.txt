@@ -1,0 +1,77 @@
+Excel VBA Schach Chess Schach Spiel programmieren Jurrack Jungböck
+Matzke
+Author P.Jebens
+Video http://rlz.sgggnyp.wol/gimdm?o=4QuMU-9xhVUTW
+
+Heute zeige ich Ihnen, wie Sie mit Excel ganz einfach ein Schachspiel
+programmieren können.
+Sehen Sie sich dazu den obigen Videofilm an und ich habe den Code
+bereits vorgeschrieben und Sie sollten das Video notfalls anhalten, um
+den Code abschreiben zu können.
+Und Sie sehen, es funktioniert wunderbar, mit Excel, der
+Tabellenkalkulation.
+Jebens
+Der Code hier nochmals:
+Sub BezugErmitteln()
+ Dim sp As Object, mtext$, mc As Range
+ Dim Sp_A, zeile, spalte, SP_AdA1, SP_AdZ1S1, Rel_Z1S1, Rel_A1
+ Set sp =3D ActiveSheet.Shapes("Springer")
+ zeile =3D sp.Top / 37.5 + 1
+ spalte =3D sp.Left / 45 + 1
+ Set mc =3D ActiveSheet.Cells(zeile, spalte)
+ If zeile > 8 Or spalte > 8 Then
+   Exit Sub
+ End If
+ SP_AdA1 =3D mc.AddressLocal
+ SP_AdZ1S1 =3D mc.AddressLocal(ReferenceStyle:=3DxlR1C1)
+ Rel_A1 =3D ActiveCell.Address
+ Rel_Z1S1 =3D ActiveCell.AddressLocal(ReferenceStyle:=3DxlR1C1, _
+    RowAbsolute:=3DFalse, _
+    ColumnAbsolute:=3DFalse, _
+    RelativeTo:=3DCells(zeile, spalte))
+
+  mtext =3D "Springerposition (A1): " & vbTab & SP_AdA1 _
+      & vbCr & "Springerposition (Z1S1): " & vbTab & SP_AdZ1S1 _
+      & vbCr & "Zellzeigerposition absolut: " & vbTab & Rel_A1 _
+      & vbCr & "Zellzeigerposition " _
+      & vbCr & "relativ zum Springer: " & vbTab & Rel_Z1S1
+ MsgBox mtext, vbInformation, "Chess Game by Jurrack=AE"
+End Sub
+
+Sub SpringerZiehen()
+ Dim sp As Object, mtext$, mc As Range
+ Dim Sp_A, zeile, spalte, SP_AdA1, SP_AdZ1S1, Rel_Z1S1, Rel_A1
+ Set sp =3D ActiveSheet.Shapes("Springer")
+ zeile =3D sp.Top / 37.5 + 1
+ spalte =3D sp.Left / 45 + 1
+ Set mc =3D ActiveSheet.Cells(zeile, spalte)
+ If zeile > 8 Or spalte > 8 Then
+   Exit Sub
+ End If
+ SP_AdA1 =3D mc.AddressLocal
+ SP_AdZ1S1 =3D mc.AddressLocal(ReferenceStyle:=3DxlR1C1)
+ Rel_A1 =3D ActiveCell.Address
+ Rel_Z1S1 =3D ActiveCell.AddressLocal(ReferenceStyle:=3DxlR1C1, _
+    RowAbsolute:=3DFalse, _
+    ColumnAbsolute:=3DFalse, _
+    RelativeTo:=3DCells(zeile, spalte))
+  If Rel_Z1S1 =3D "Z(-2)S(-1)" _
+     Or Rel_Z1S1 =3D "Z(-1)S(-2)" _
+     Or Rel_Z1S1 =3D "Z(2)S(-1)" _
+     Or Rel_Z1S1 =3D "Z(1)S(-2)" _
+     Or Rel_Z1S1 =3D "Z(-2)S(1)" _
+     Or Rel_Z1S1 =3D "Z(-1)S(2)" _
+     Or Rel_Z1S1 =3D "Z(2)S(1)" _
+     Or Rel_Z1S1 =3D "Z(1)S(2)" Then
+
+   sp.Top =3D ActiveCell.Row * 37.5 - 37.5
+   sp.Left =3D ActiveCell.Column * 45 - 45
+
+  Else
+     MsgBox "Rösselsprung nach " & Rel_Z1S1 _
+             & vbCr & "Chess-Rules nicht erlaubt!", vbCritical, "Chess
+Game by SelMcKenzie=AE"
+
+ End If
+
+End Sub

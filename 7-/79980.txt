@@ -1,0 +1,57 @@
+Hallo Leute,
+
+
+wenn Ihr mal etwas Zeit habt, schaut Euch mal diese Aufgabe samt Lösung an.
+Sie steht so in einem Buch, leider kommt mir einiges am Lösungsweg spanisch
+vor.
+
+Wie kommt denn dieser Swappreis zustande ? (6-Monats-Fibor ist doch ein wird
+doch als p.a. angegeben,
+wie können die da bei 3 Jahren Laufzeit die Zinszahlungen über 6 Perioden
+abdiskontieren ?
+bei der Tilgungssumme wird ja auch korrekt unterjährig gerechnet (Fibor
+halbiert, dann 2*3=6 Perioden)
+
+Kann mir bitte jemand sagen, ob ich oder die Autoren einen Denkfehler
+macht/machen.
+
+
+PLEASE HELP
+HELP
+HELP
+
+
+Unternehmen swapt fixe Zinsverbindlichkeit (100 Mio, 5,4%) am 11.9.94 für 3
+Jahre gegen 6-Monats-Fibor.
+
+Swappreis=100 Mio - ( Summe t=1bis6  2,7Mio/(1,052)hoch t   +   100
+Mio/(1,026)hoch 6  )   =  656204 DM
+
+
+Fibor in % (bestimmt den Zins der jeweils nächsten Periode)
+
+09/94: 5,2
+3/95: 4,8
+09/95: 4,5
+3/96: 4,3
+09/96: 4,1
+3/97: 4,0
+
+
+Ersparnis ex post durch Swap (Ausgleichszahlungen durch Partner)
+
+09/94: 2,7 Mio - 0,052 * 100 Mio * 0,5 = 0,1 Mio
+3/95: 2,7 Mio - 4,82 * 100 Mio * 0,5   = 0,3 Mio
+09/95: 2,7 Mio - 4,5 * 100 Mio * 0,5   = 0,45 Mio
+3/96: 2,7 Mio - 4,3 * 100 Mio * 0,5    = 0,55 Mio
+09/96: 2,7 Mio - 4,1 * 100 Mio * 0,5   = 0,65 Mio
+3/97: 2,7 Mio - 4,0 * 100 Mio * 0,5    = 0,7 Mio
+                    zus.   = 2,75 Mio
+             Swapkosten  = -0,66 Mio
+gespart durch sinkenden kurzfristigen Zins = 2,09 Mio
+
+Verzinsung der einzelnen Ersparnisse wurde außer acht gelassen.
+
+
+P.S. Mit Verzinsung und einem gleichbleibenden Fibor müßte doch Ersparnis=0
+rauskommen ?

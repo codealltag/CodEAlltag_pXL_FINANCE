@@ -1,0 +1,24 @@
+Wenn man Johns Frage wörtlich versteht und sich nur auf das reine
+Speichern bezieht, kann man dies mittels Verschlüsselung natürlich
+machen.
+
+Die Liste *und* das Dateisystem zu verschlüsseln halte ich für unnötig
+und sogar kontraproduktiv. PGP allein mit guter Passphrase und langem
+Schlüssel ist sehr sicher. Sicherheit soll benutzerfreundlich sein,
+sonst wird sie nämlich nicht genutzt. Dem Anwender zweimal ein Paßwort
+abzuverlangen ist in diesem Sinne nicht gut.
+
+Ich habe John stillschweigend unterstellt, daß er die Liste nicht nur
+abspeichern, sondern auch darauf zugreifen möchte. In diesem Moment muß
+die Liste im Klartext vorliegen. Dies ist die Schwachstelle Deines
+Vorschlags, denn was machst Du, wenn das System bereits kompromittiert
+ist und unter fremder Kontrolle steht?
+
+John könnte die Liste auf einem zweiten Gerät mit einem garantiert
+sauberen Betriebssystem, und das niemals Netzzugang hat, verschlüsselt
+speichern und dort bei Bedarf entschlüsseln. Das ist jedoch so
+praxisfremd, daß ein TAN-Generator die bessere Lösung wäre. 
+
+Das Nein paßt schon ...
+-- 
+bli

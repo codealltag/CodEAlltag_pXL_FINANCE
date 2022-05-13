@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ezwrjlz_IA@y-qmzeze.nj (Xdtpihs) writes:
+
+Hallo zusammen!
+
+
+Soweit ich weiss wird die 40 Bit Verschlüsselung im Prinzip nur zur
+Übertragung des Java-Applet verwendet. Sobald das Applet gestartet
+ist, wird, wie Du schon erwähnt hast, eine in das Applet integrierte
+Verschl�sselungsroutine verwendet. Die Schlüssellängen liegen dort
+dann wahrscheinlich bei 128bit. Bis vor kurzem war es übrigens gar
+nicht so einfach mit dem Browser allein mit mehr als 40 Bit zu
+verschlüsseln, da die stärkere Verschlüsselung amerikanischen
+Exportbeschränkungen unterlag. Die meisten Banken habe jedoch
+spezielle Zertifikate verwendet, die 128 Bit Verschlüsselung quasi
+temporär aktiviert haben.
+
+
+Das Risiko einer unautorisierten Nutzung steigt m.E. damit auf jeden
+Fall. Die Frage ist, bei wem dann das Haftungsrisiko liegt. Ich nehme
+mal an, dass die FJPR das nicht freiwillig übernimmt (a la "Wir
+übernehmen durch unautorisierten Zugriff entstandene Schäden, wenn dem
+Kunden keine grobe Fahrlässigkeit nachzuweisen ist), oder? Einen
+ähnlichen Passus gibt es m.W. in den AGB der Windolf. 
+
+
+Könnte man auf jeden Fall so interpretieren. Musst Du dir als Kunde
+natürlich nicht gefallen lassen...
+
+
+Nicht nur bequem für die Kunden sondern natürlich auch für die
+Hotline/Servicemitarbeiter... (-> weniger Kosten)
+
+
+Tja, das hängt wohl davon ab, was man unter "sicherem
+Handeln" versteht. Mit deinen kompletten Unterlagen inkl. TAN-Liste
+konnte auch früher schon jeder Buchungen durchführen. Jetzt reicht das
+"Abhören" der einzelnen PINs, IDs usw. z.B. durch einen guten
+Trojaner. Das Risiko ist damit schon gestiegen, würde ich sagen.
+
+Größe
+Raphaël
+
+
+- -- 
+The difference between boys and men is the price of their toys.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.0 (GNU/Linux)
+Comment: Processed by Mailcrypt and GnuPG <http://ocq.wbuwy.aof/>
+
+lA3XYHF48X/WsfYdJY/sHbBQJnnpWZ4Xet+o5yoKV59R4h/YFDAQFSpTtMHnJJTu
+3CtzIGctr8oa4qJjRGkHmsj=
+=rQss
+-----END PGP SIGNATURE-----

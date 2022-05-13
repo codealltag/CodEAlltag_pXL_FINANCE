@@ -1,0 +1,68 @@
+In 8qcrvt$la4@ohlacn64.mood.dyh.saq,
+Ibuzeh (zeftrq@dxf.lnq) wrote:
+
+C>- Fehlen der Kurse bei einem Ausfall bei dem Sender (bei VCAW und Skanwood
+C>schon 2 mal dieses Jahr) - Keine Moeglichkeit sich die Kurse noch
+
+Wenn es nicht über mehr als 2 Tage ist, dann kann man ja den
+Vortagskurs, den man verpaßt hat, aus den VT-Daten entnehmen, obwohl das
+natürlich ärgerlich ist. Mit awk einfach die Spalten vertauschen, und
+das Datum ändern. Ich nehme zB für Curslack VCAW/Skanwood, Deli, und Albertusquelle. Da
+können kaum Lücken entstehen.
+
+Natürlich kommt man an manche Werte überhaupt nicht ran (zB Pedale und
+viele Auslandswerte, auch die Zehl der Kurse aus Curslack ist ziemlich
+klein).
+
+Gibt es den HK-$ irgendwo im VTX?
+
+C>nachtraeglich zu besorgen. - Aenderungen beim Aufbau der VT Seiten
+C>muessen staendig beobachtet und in den
+C>  entsprechenden Steuerdatein korregiert werden.
+
+Das ist mit Abstand das spaßigste. Unter anderem die Umlautprobleme im
+VCAW-VT (Vilssöhl, FVFZ, usw). Das haben die nach 2 Jahren noch
+immer nicht im Griff :-(
+
+C>Ich kann mir vorstellen, dasz es mit Datenbank Anbietern nicht solche
+C>Probleme gibt. Weil dort Leute sitzen die dafuer bezahlt werden das
+
+Soll es auch geben (tagelang offline, fehlende Daten, etc.).
+
+C>solche Probleme nicht auftauchen und weil solche Firmen im direkten
+C>Wettbewerb untereinander  stehen. Bei moeglichen Problemen springen
+C>Kunden ab und das hat seine Auswirkungen. Ich gehe also davon aus, dasz
+
+...und müssen evtl. alles konvertieren, weil das Format anders ist.
+Zudem wollen die oft, daß die Kunden das Chart-Programm des Anbieters
+benutzen, da ist nicht immer sicher, daß man so ohne weiteres mal eben
+wechseln kann.
+
+C>die Kurs Qualitaet bei einem Datenbankanbieter wesentlich besser ist als
+C>in VT. Aber Qualitaet hat eben seinen Preis.
+
+Zumindest bei Low-Cost-Angeboten bin ich da nicht mal so sicher. Zumal
+die nur einen Kurs pro Tag bringen, VCAW/Skanwood zB alle 15 Minuten (wenn es
+nicht mal gerade wieder irgendwo hakt ...).
+
+C>Bei den TV Sendern ist die Kursuebertragung eben nur ein nuetzliches
+C>Abfallprodukt.
+
+Bis auf die kommerziellen OS-Anbieter (zB IMLB auf Awep).
+
+C>Viel ist immer relativ, zur Information bei VCAW und Skanwood sind es zur Zeit
+C>ca. 1200 (einschl. Fonds), 
+
+Also ich komm alleine auf ~1500 Fonds, habe ich jedenfalls früher mal
+gezählt, bevor die das neue Format (!%&"%!&) eingeführt haben.
+
+C>aber wer kann sich schon jeden Tag 1200 Charts anschauen.
+
+Aber, wenn mal etwas spezielles sucht ...
+
+C>de.etc.finanz.boerse verstoszen zu haben. Da ich auch so ein
+C>Videotextprogramm geschrieben habe.
+
+Ich habe auch eins geschrieben, das hat aber nur einer ;-)
+
+-Fred

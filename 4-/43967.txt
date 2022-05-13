@@ -1,0 +1,14 @@
+Im Header war "quoted printable" als Codierung angegeben. Das ist ein 10
+Jahre alter Standard, den jeder *vernuenftige* Reader auch beim Lesen
+beherrschen sollte.
+
+
+Oder vielleicht doch an der Einstellung *Deines* Readers?  SCNRE
+Da Dein Forte Agent 1.7/32.534 natuerlich auch mit qp umgehen kann,
+vermute ich, dass Du einfach in der Menue-Leiste unter "Message" den
+Haken vor "Shaw Raw Message" wegklicken musst, um die obigen Umlaute
+richtig angezeigt zu bekommen.
+
+Sorry fuer offtopic.
+
+Gruss Silvio

@@ -1,0 +1,57 @@
+Ich habs nicht im Detail nachgerechnet, aber erscheint mir recht gut.
+Statt eine Aktie direkt zu kaufen ist es oft besser, einen Call tief im 
+Geld ohne oder mit winzigen Aufpreis zu kaufen (Buchauszug dazu 
+unten). Du hast das durch beidseitige Stillhalterpositionen noch etwas
+verbessert, dadurch aber Chancen aufgegeben.
+Falls dein Call Dez3400 wertlos verfaellt musst du sofort einen neuen
+Call tief im Geld kaufen, sonst entgeht dir der Gewinn, wenn der DAX
+genau dann anzieht. 
+Wie waers mit einem engeren Abstand. Z.B. short Call 6000 und
+short Put 3400?
+
+Auch bei Optionsscheinen gilt die bereits beschriebene Erfahrung, daß Titel,
+die tief im Geld liegen und deshalb optisch teuer sind, etwa ein DAX-Call mit
+Bezugskurs 1300 bei einem aktuellen DAX-Stand von 2000, oft zu sehr niedrigen
+OPN-Werten und mit hoher Rendite gehandelt werden, also analytisch betrachtet
+zu billig sind. Ursache dafür ist wahrscheinlich, daß viele der typischen
+Käufer von Optionsscheinen unzureichende Kenntnisse über die
+Optionspreisanalyse haben und immer einfach die optisch billigsten Papiere
+kaufen (ein nur scheinbarer Vorteil, wie wir gesehen haben). 
+Hinzu kommt die im Prinzip richtige Befürchtung, daß man bei einem
+Optionsschein tief im Geld mit einem optisch hohen Preis im Falle eines
+Kurssturzes des zugrundeliegenden Wertes ja auch mehr verlieren kann als bei
+einem Optionsschein mit niedrigen Preis. Dies mag zutreffen, wenn man nur
+Optionen oder Optionsscheine miteinander vergleicht.
+Anders sieht es aus, wenn man tief im Geld liegende Optionen und Optionsscheine
+mit einem direkten Kauf des zugrundeliegenden Wertes wie eines DAX-Scheins oder
+einer Aktie vergleicht. In diesem Fall erweist sich der tief im Geld liegende
+Optionsschein oft als die bessere Alternative. Man muß dafür nämlich weniger
+Geld anlegen als bei einem direkten Kauf der Aktie, oft ist die hypothetische
+Rendite solcher Optionsscheine höher als die Rendite der zugrundeliegenden
+Aktie, und bei einem Kursanstieg der Aktie zieht der Kurs des Optionsscheins
+praktisch im Gleichschritt mit. Bei einem Kurssturz dagegen ist das
+Verlustpotential des Optionsscheines geringer, denn bei einem tiefem Fall kommt
+der ursprünglich tief im Geld liegende Optionsschein ans Geld oder fällt gar
+aus dem Geld. Und damit wird er, trotz sinkendem Preis, relativ teurer. Bei
+einem tiefen Fall verliert er deshalb oft weniger an Wert als die Aktie, und
+der maximal denkbare Verlust ist in jedem Fall niedriger als bei der Aktie,
+denn mehr als den Preis des Optionsscheins kann man nicht verlieren.
+Diese Zusammenhänge können Sie sich mit Hilfe der Scrolltabelle des Programms
+gut veranschaulichen: Stellen Sie eine Option tief im Geld mit einem relativ
+billigen Preis, das heißt, mit einem niedrigen OPN-Wert ein. Nun können Sie in
+der Scrolltabelle unter anderem sehen, daß diese Option bei einem Anstieg des
+zugrundeliegenden Wertes um 500 gleichfalls um volle 500 steigen würde. Bei
+einem Fall um 500 würde die Option dagegen vermutlich nur um etwa 450 fallen.
+Dazu können Sie in der "Was-wäre-wenn"-Box durch eine Verkürzung der
+Restlaufzeit auch die Auswirkungen des Zeitablaufs und/oder veränderter
+OPN-Werte simulieren.
+Beachten Sie aber, daß die Option zwar absolut weniger verliert, aber relativ,
+also in Prozent ihres Ursprungswertes, kann sie sehr wohl bis zu 100%
+verlieren. Um den Vorteil des absolut geringeren Verlustes auszunutzen darf man
+deshalb nur so viele Calls kaufen, wie man von dem Kapital Originalaktien
+kaufen könnte. Keinesfalls mehr Calls kaufen, weil sie ja billiger sind.
+
+
+Karl
+Visit   http://tznvihb.jyf.ynw/anicyz  and download a 
+free calculator for options, futures, bonds and similar stuff.

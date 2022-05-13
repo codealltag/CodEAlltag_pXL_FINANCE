@@ -1,0 +1,107 @@
+Visual Basic 2010 Excel VBA Internet Seiten einlesen programmieren
+Mühlum Mühlmann
+Video http://tpi.zjgpnpe.ola/wkafm?u=9QoxATKV8nY_8
+
+Author T.Mühlmann
+
+Heute zeige ich Ihnen eine Programmierung, wie Sie mit Visual Basic
+oder aber es geht auch mit Excel Internetseiten einlesen und
+verarbeiten können. So etwas wird oft gebraucht, wenn Sie z.B.
+Aktienkurse, Fussballresultate einlesen wollen, um diese nicht
+abschreiben zu müssen. Oder wenn Sie z.B. lange Permanenzen von
+Casinos einlesen wollen und gleich verarbeitungsfähig zur Hand haben
+wollen.
+Es sind für ein solches Programm nur wenige Schritte erforderlich.
+Sehen Sie zunächst auf die Form, welche Steuerelemente ich dort
+placiert habe. Zwei Textboxen sind erforderlich, in die eine wird der
+eingelesene Text ausgegeben und in der zweiten kann das gefilterte
+Resultat ausgegeben werden. Deshalb habe ich hier zur Demonstration
+eine zweite Textbox eingefügt.
+Dann oben noch eine Box für die Eingabe der entsprechenden
+Internetseite, die ausgelesen werden soll.
+Den Code habe ich vorgeschrieben und vergrössert, Sie sollten also das
+Video anhalten und es abschreiben.
+Beachten Sie, dass Sie global oben die 3 importieren müssen, dazu
+brauchen Sie nur zu schreiben
+Imports System.Net
+Imports System.Text
+Imports System.Text.RegularExpressions
+So nun machen wir den Test, ich lese mal die Seite Sjudxttlzj.np ein
+und siehe da, alles ist drin in der Textbox. Jetzt will ich als Filter
+noch wissen, wieviel Verweise sich auf der Seite der Uncut
+befinden, und Sie sehen, ich drücke auf den Knopf und alles wird
+angezeigt, nicht nur die Anzahl, sondern auch in der zweiten Textbox
+die Verweise selbst.
+Der Filter funktioniert so wie eine Datenbank-Abfrage, Sie können
+alles abfragen, was Sie über die entsprechende Internetsite wissen
+wollen und auch gleich abspeichern.
+Das wars.
+Mühlmann
+
+Hier der Code:
+Imports System.Net
+Imports System.Text
+Imports System.Text.RegularExpressions
+Public Class Form1
+
+    Private Sub KnopfWebSiteLesen_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfWebSiteLesen.Click
+        Hinweis =3D "Die Internetadresse muss exact angegeben werden, "
+        Hinweis =3D Hinweis & "z.B.  * http://zcc.Ppwnrfk-Nyuewaqxpg.pwl
+*"
+        MsgBox(Hinweis, , )
+
+        If DieInternetAdresse.Text <> String.Empty Then
+            'erzeugt neuen WebClient
+            Dim NeuerClient As New WebClient()
+            'als ByteArray die WebSite einlesen
+            Dim ResultatBytes() As Byte =3D
+NeuerClient.DownloadData(DieInternetAdresse.Text)
+            'das ByteArray im String und richtigen Codierung einlesen
+            Dim Ergebnis As String =3D
+System.Text.Encoding.Default.GetString(ResultatBytes)
+            'den Source der Webseite im Textfeld ausgeben
+            AusgabeTextWebSite.Text =3D Ergebnis
+        End If
+    End Sub
+    Sub findRegEx()
+        'Suche der Patterns für Links
+        Dim Suchen As String
+        'Hier gibts auch weitere Ausfdrücke: http://dtjnurys.lga/
+        Suchen =3D "(href[ ]*=3D[ ]*)('|\"")([^\""'])*('|\"")"
+        'neue Regex mit Suchpattern initialisieren
+        Dim Treffer As New Regex(Suchen)
+        'von diesem Regex die Treffer einlesen und anwenden auf
+Eingelesenes
+        Dim DieMatchCollection As MatchCollection =3D
+Treffer.Matches(AusgabeTextWebSite.Text)
+        'einen neuen Stringbuilder, damit effizient die Ausgabe
+zusammengebaut werden kann
+        Dim StringBausteine As New StringBuilder
+        Dim Baustein1 As Match
+        Dim GruppeBaustein As Group
+        ZeigAnzahl.Text =3D DieMatchCollection.Count & " Treffer"
+        'Alle Matches durchlaufen
+        For Each Baustein1 In DieMatchCollection
+            'den Treffen an den Stringbuilder anhängen
+            StringBausteine.Append(Baustein1.Value & " an Index " &
+Baustein1.Index & vbCrLf)
+            'wenn mehr als eine Gruppe gefunden wurde
+            If Baustein1.Groups.Count > 1 Then
+                'die einzelnen Gruppen an den Stringbuilder anfügen
+                For Schleife As Integer =3D 0 To Baustein1.Groups.Count
+- 1
+                    GruppeBaustein =3D Baustein1.Groups(Schleife)
+                    StringBausteine.Append(String.Format("
+group({0}): {1}" & vbCrLf, Schleife, GruppeBaustein.Value))
+                Next
+            End If
+        Next
+        'den Stringbuilder als String ausgeben
+        AusgabeEingelesenes.Text =3D StringBausteine.ToString()
+    End Sub
+
+    Private Sub KnopfAbfrage_Click(ByVal sender As System.Object,
+ByVal e As System.EventArgs) Handles KnopfAbfrage.Click
+        findRegEx()
+    End Sub

@@ -1,0 +1,28 @@
+Soll ich mal einen kleinen Crashkurs in VWL geben? Ja ich sollte:
+
+Also ich vermute du bist Physiker, dann kannst du also rechnen. Folgendes
+Modell:
+Du wirst nicht bestreiten können, dass du am Ende einer Periode das Geld,
+welches du zu Beginn hattest, entweder ausgegeben hast (Konsum C) oder noch
+hast (Ersparnis S). Ferner wirst du kaum bestreiten, dass die Höhe deines
+Konsums von deinem Einkommen abhängt, also C=C(Y) mit positiver Ableitung.
+Wir können die Konsumfunktion spezifizieren zu: C=Ca + cY mit Ca als
+autonomen Konsum (einkommensunabhängig) und c als Konsumquote (nichts
+anderes als delC nach delY). Aus den beiden Annahmen folgt Y=C+S=Ca+cY+S .
+Nun können wir ohne weiteres davon ausgehen, dass in einer geschlossenen
+Volkswirtschaft ohne Staat (diese Annahme verändert die qualitativen
+Eigenschaften des Modells nicht) S = I  (I = Investitionen) gilt (falls du
+mir nicht glaubst, sieh dir bitte die Herleitung in einem beliebigen VGR
+Buch an). Demnach können wir schreiben: Y = Ca + cY + I oder aber Y =
+1/(1-c) [Ca + I]. Nun wollen wir wissen was passiert, wenn die Investitionen
+autonom erhöht werden. Die Antwort ist, dass Y steigt und zwar im Ausmaß
+1/(1-c). Da sich c zwischen 0 und 1 bewegt (du kannst zwischen 0 und 100%
+deines Einkommens konsumieren) ist dieser sogenannte "elementare
+Multiplikator" (fast) immer größer als 1.
+Aus diesem Grunde kommt es zu einem Multiplikatorprozess der letztendlich
+das Sozialprodukt um mehr erhöht, als die ursprüngliche autonome Ehöhung
+der Investitionen, da das zusätzliche Einkommen erneut Nachfrage generiert,
+diese Nachfrage wiederum Einkommen, usw. Der Prozess kommt zum Stillstand,
+weil c in der Regel <1 ist. Für c = 1 läuft der Prozess ewig.
+Und jetzt ist es doch ein VWL Thread.
+Gruß Benno

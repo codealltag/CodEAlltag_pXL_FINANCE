@@ -1,0 +1,72 @@
+Also von Deiner E-Adresse ist vermutlich wenig zu halten.
+Sie sieht aus wie getürkt.
+[x] bitte abstellen
+
+Aber zum Börsenverlag: Nehmen wir (rein hypothetisch) an, der Verlag
+würde seine Tips *völlig zufällig* zusammenstechen.  Das ist die
+"Nullhypothese".  Gesetzt außerdem, die allgemeine Marktlage wäre
+so, daß die durchschnittliche Aktie(noption) in einem Jahr mit
+p% Wahrscheinlichkeit um ein Viertel steigt.
+
+Rechnen wir los!
+-> In (100-p)% der Fälle ist der Erwartungswert des Verlags   0 DM
+-> In p%       der Fälle ist der Erwartungswert des Verlags 149 DM.
+-> Der Verlag verdient also pro "Spiel" (p/100) * 149 DM.
+
+Angenommen, der Verlag findet 100 Leser, die dieses Spiel mit ihm
+abschließen, und die Wahrscheinlichkeit p% wäre 10% (also nur ein
+Zehntel!).  Dann ist der Erwartungswert aus Verlagsseite ca. 1500 DM
+pro Tip.  Wohlgemerkt: das alles unter der Annahme, daß der Verlag
+überhaupt keine Intelligenz_ in seine Tips steckt!  Die Rechnung
+zeigt sogar, daß der Verlag Profite macht, _egal wie niedrig_ die
+Wahrscheinlichkeit ist, daß seine Tips "erfolgreich" sind (außer sie
+wäre 0)!
+
+Machen wir eine zweite Rechnung!
+Angenommen, der Verlag investiert _selber_ x DM in diese Aktie,
+anstatt sie per Tip an Dritte zu empfehlen!  Angenommen, die 
+Wahrscheinlichkeit liegt bei q%, daß die empfohlene Aktie(noption)
+um 25% sinkt!  
+-> In p%    der Fälle verdient der Verlag x *  0,25 DM.
+-> In q%    der Fälle verdient der Verlag x * -0,25 DM.
+-> In den übrigen Fällen (Vereinfachung)       +- 0 DM.
+-> Der Erwartungswert ist jetzt also x * (p-q) * 0,25 DM.
+
+Nehmen wir christlicherweise an, daß die Verlustwahrscheinlichkeit halb
+so hoch wie die Gewinnwahrscheinlichkeit liegt (d.h., der Verlag steckt in
+seine Tips wenigstens ein Bißchen Intelligenz).  Dann müßte der Verlag
+120'000 DM einsetzen, um einen genauso hohen Profit zu erzielen wie
+durch die Vermakelung des Tips an Dritte.  
+
+Dieser Wert (das einzusetzende Kapital) wird um so höher, je stärker die
+Verlustwahrscheinlichkeit an die Gewinn- wahrscheinlichkeit heranrückt.
+Wenn der Verlust wahrscheinlicher ist als der Gewinn, macht der Verlag
+immer Minus -- aber bei der Vermakelung der Aktie(noption) als Tip springt
+trotzdem immer noch Gewinn für ihn heraus.
+
+Halten wir fest:  Wenn der Verlag seine Tips nur im Erfolgsfall honorieren
+läßt, aber sich nicht an den Verlusten beteiligt, kann er respektable
+Profite selbst dann erzielen, wenn er seine Vorschläge durch blinden
+Würfelwurf ermittelt.
+
+Selbst wenn der Verlag Intelligenz in seine Tips steckt, sodaß die
+Gewinnwahrscheinlichkeit höher ist als die Verlustwahrscheinlichkeit:
+Dadurch daß sich der Verlag nur an den "Gewinnen" seiner Tips beteiligt
+und nicht an den Verlusten, kann er seinen Profit mit erheblich weniger
+Eigenkapital verwirklichen, als wenn er mit den Tips _selber_ an die
+Börse müßte.
+
+P.
+
+PS. Wenn der Verlag für seinen Börsenbrief zusätzlich regelmäßige
+"Abonnementszahlungen" einhebt, müßte man sie seinem Gewinn noch
+hinzuaddieren, und abziehen müßte man natürlich seine Auslagen
+für Werbung, Briefporto, Aboverwaltung u.�.  Vernachlässigen wir
+diesen Faktor, denn diese Gewinne/Auslagen hat ein Verlag immer.
+Genauso hätte der Verlag die üblichen B�rsenkosten, wenn er an der
+Börse selber aktiv werden wollte.  Aber die hat der Aktionär immer.
+-- 
+Arno Wentzsche ____________________________ o@kehqng.dbqca-qaugqm.km
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+Wohin ich sehe: wie beschränkt ist der Mensch!  Wie groß der Abstand
+zwischen seinen Ansprüchen und ihrer Erfüllung!          -- Emerich

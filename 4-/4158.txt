@@ -1,0 +1,44 @@
+Wenn man sich richtig in die Details arbeitet gibt es vermutlich 
+einen Weg durch diesen Sprung keinen Nachteil zu haben.
+Der Punkt ist wohl, dass das Derivat eine endlose Laufzeit hat
+(ausser wenn ausgeknockt); es bezieht sich aber auf ein Underlying 
+mit endlicher Laufzeit. Denn die Bund-Future-Kontrakte laufen 
+ja regelmaessig ab und dafuer kommen heraus.
+Man muesste wissen nach welcher Methode diese Uebergangspunkte
+berechnet werden.
+
+
+Erst die Merkmale des betreffenden Calls anschauen:
+- bezieht sich auf ein hochspekulatives Underlying mit normalerweise
+hoher Vola,
+- lange Restlaufzeit (ueber 2 Jahre)
+- Bezugskurs weit aus dem Geld (weit ueber heutigen Boersenkurs)
+
+Dann aehnliche Calls des gleichen Emittenten raussuchen und 
+kurzfristige Charts (1 Woche oder so) anschauen ob da absurde
+Spruenge darauf sind (bei langfristigen Charts sieht man solche
+Kurzfrist-Spruenge nicht mehr.
+Und da finden sich tatsaechlich weitere Faelle. Ist also ein
+Problem der Software. Vermutlich waere es besser fuer sollch
+unterschiedliche Optionen unterschiedliche Formeln zu nutzen
+statt alles mit der gleichen Software.
+Wirklich ausnutzen kann man es aber nur bei Underlyings, die 
+man sowieso halten wuerde. Eine solche Option nur deshalb zu
+kaufen weil sie relativ guenstiger als andere Optionen ist,
+obwohl man an sich gar nicht auf dieses Underlying setzen will,
+waere riskant.
+Aber es gibt ja Leute, die kaufen alles was "reduziert" ist,
+auch wenn sie es absolut nicht brauchen.
+
+
+Ich bin jetzt seit einigen Jahrzehnten dabei. Passiert nicht
+oft, aber doch ab und zu, dass einer solche Fehler macht.
+Frueher hat man gedacht, das passiert weil sie nicht genug 
+Computer haben. 
+Heute denke ich manchmal, das passiert weil sie zu viel 
+Computer haben.
+
+
+-- 
+-- 
+Hugo Obersteiner

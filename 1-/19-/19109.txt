@@ -1,0 +1,40 @@
+hallo zusammen!
+
+ich hoffe, dass mir in dieser newsgroup jemand weiter helfen kann.
+
+sitz im moment für ne investitionsklausur am pauken. hänge dort bei
+folgender aufgabe:
+
+zwei alternative investitionsobjekte mit folgenden zahlungsreihen stehen dem
+investor zur verfügung:
+
+Za(-1000,500,500,500,500,500,0)
+Zb(-1500,570,570,570,570,570,570)
+
+der kalkulationszins beträgt 10%. dem investor stehen 1000? eigene mittel
+zur verfügung. überschüssige beitrüge können zur 10% angelegt werden.
+außerdem besteht die moglichkeit, einen kredit zu 20% aufzunehmen, der
+frühestens nach 4 jahren zu tilgen ist. der planungszeitraum beträgt 6
+perioden.
+
+welches investitionsobjekt soll gewählt werden? bestimmen sie die entwerte
+und kapitalwerte!
+----------------------------------------------------------
+
+bei der zahlungsreihe Za ist es ja nicht so schwer, da kein kredit nötig
+ist.
+ew=z*((q^n-1)/(q-1))=500*((1,1^5 -1)/(1,1-1))=3052,5
+
+pv=-Io+z*[(q^n-1)/(q^n*(q-1))]=-1000+500*[(1,1^5 -1)/(1,1^5*(1,1-1))]=895,39
+
+jetzt zu Zb:
+
+den ew kann ohne mühe berechnet werden, siehe formel oben:
+ew=570*((1,1^6 -1)/(1,1-1))=4397,9
+
+aber der kapitalwert nicht, wenigstens nicht von mir...
+also bis zum vierten jahr bleibt ja alles wie oben, doch ab da muss ja der
+kredit mit den r�ckfl�ssen getilgt werden.
+kann mir vielleicht jemand helfen?
+
+mfg fabian jarosch

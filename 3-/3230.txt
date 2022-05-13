@@ -1,0 +1,29 @@
+Hallo,
+ich möchte mein eigenes Programm entwickeln, mit dem ich per 
+HTTP-Requests im 5 Sekundenintervall Kursabfragen durchführen kann und 
+das mich dann per SMS über eine Langnummer benachrichtigt, wenn z.B. der 
+Kurs einer Aktie in zu kurzer Zeit wieder um 1,x% vom jeweiligen 
+Tageshoch abrutscht.
+
+z.B.
+
+Aktie steigt im Laufe des Tages auf 64 �
+Aktie sinkt auf 63 � -> SMS versenden (Text: WKN 123456 63/64)
+Aktie steigt auf 63,5 � (Markierung neues Tageshoch)
+Aktie sinkt auf 63 �
+Aktie steigt auf 63,3 �
+Aktie sinkt auf 62,5 � -> SMS versenden (Text: WKN 123456 62,5/63,5)
+
+http://udqa/?vao=973930
+Rückgabe: aktueller Kurs
+
+Kennt jemand einen Anbieter, der solche Abfragen über eine Schnittstelle 
+zulässt?
+
+Die technische Voraussetzungen für den SMS-Versand sind schon gegeben. 
+Ich habe keine Lust, den ganzen Tag auf einem zweiten Monitor die Kurse 
+mitzuverfolgen, möchte aber sofort reagieren können, wenn wieder etwas 
+passiert. Aber vielleicht hat sich das ja schon morgen alles erledigt, 
+weil dann die Börse nicht mehr so orientierungslos ist.
+
+Gruß, Burkhard S

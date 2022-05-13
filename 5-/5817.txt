@@ -1,0 +1,68 @@
+Das Theta beim Trading Börse Verloh Völklin
+Author M.Völklin
+Video:
+http://udt.xlpsxen.qrx/yovrk?j=7CvNQ7E3sOdbV
+Wie so oft im Leben spielt auch in der Optionspreistheorie die Zeit
+eine wichtige Rolle. Um welchen Betrag der Wert des Optionsscheins
+sinkt, wenn die Restlauf-zeit sich um eine Zeiteinheit verkürzt, gibt
+die Kennzahl =BBTheta=AB an. Das Theta gibt Auskunft über den
+Zeitwertverlust des Optionsscheins und weist in der Regel einen
+negativen Wert auf. Somit trifft
+bei klassischen Optionsscheinen die Rede=ACwendung =BBZeit ist Geld=AB voll
+und ganz zu.
+Das Theta ist die erste partielle Ableitung der Black-Scholes-
+Optionspreisformel nach der Restlaufzeit. Die Restlaufzeit wird in der
+Formel stets in Jahren ange=ACgeben. Daher sagt Theta theoretisch aus,
+um wie viel Euro der Wert eines Options-scheins fällt, wenn sich die
+Restlaufzeit um ein Jahr reduziert. In der Praxis be-trachtet man den
+Zeitwertverlust in klei-neren Zeiteinheiten, zumeist wird sie
+in Tagen (Tagestheta) angegeben. Das negative Vorzeichen des
+Thetaparameters bei Plain Vanilla Optionsscheinen lässt sich intuitiv
+herleiten: Mit zurückgehen=ACder Restlaufzeit sinkt die
+Wahrscheinlich=ACkeit einer (weiter) günstigen Basiswert-entwicklung.
+Ein Beispiel zeigt, wie diese Kennzahl interpretiert werden kann. Auch
+diesmal wird davon ausgegangen, dass alle ande-ren Parameter
+unverändert bleiben. Der am Geld liegende Bäko-Call mit einem
+Basispreis von EUR 95 und einer Laufzeit bis zum 15. September 2010 notiert
+am 15. Juli 2009 (Kurs der Bäko-Aktie: EUR 94,44) bei EUR 7,20.
+Das nach Black und Scholes ermittelte Theta beträgt zu diesem
+Zeit=ACpunkt =970,005. Somit verliert derzeit der Call einen halben
+Eurocent täglich an Wert, falls alle anderen Parameter kons=ACtant
+bleiben. Wie die Grafik verdeutlicht, ist der Thetaeinfluss =97 absolut
+betrachtet =97 am stärksten bei Optionsscheinen aus-geprägt, die am Gel=
+d
+notieren. Dagegen haben aus dem Geld stehende Options-scheine kaum
+Zeitwertverlust und ihr Theta ist nahe null.
+
+Das Theta ändert sich mit kürzer werden=ACder Restlaufzeit. Insbesonder=
+e
+bei kurz laufenden und am Geld stehenden Opti=AConsscheinen sollte der
+Anleger den Zeitwertverlust genau beobachten. In
+dieser Konstellation verliert ein Options-schein besonders schnell an
+Wert. Bei-spielsweise beträgt bei einem Basispreis in Höhe von EUR 95
+das Tagestheta eines bis zum 15. September 2009 laufenden Bäko=ACCalls EUR
+-0,007 (Callpreis EUR 1,70), während ein bis zum 18 August 2009
+laufen=ACder Call ein Tagestheta von EUR -0,01 hat. Der im August fällige
+Call kostet derzeit EUR 1,20 und verliert somit in einer Woche über 6
+Prozent an Wert, falls der Aktienkurs unverändert bleibt.
+Vorsicht: Das Theta kann auch positiv sein. Stark im Geld notierende
+europäi-sche Puts haben kurz vor Ende der Lauf=ACzeit kaum Zeitwert und
+notieren bei ihrem abdiskontierten inneren Wert. Falls der Aktienkurs
+konstant bleibt, verdienen diese Puts bis zum Laufzeitende den
+
+Marktzins und somit steigt ihr Wert. Bei den exotischen Inline-
+Optionsscheinen läuft die Zeit ebenfalls für den Anleger. Diese
+Optionsscheine gewinnen kon-tinuierlich an Wert, je näher das Lauf-
+zeitende rückt. Wie kommt dieser Effekt zustande? Der Inline-
+Optionsschein zahlt am Laufzeitende einen Festbetrag aus, wenn sich
+der Basiswertkurs nie außer=AChalb einer festgelegten Bandbreite
+be=ACwegt. Mit einer sich vermindernden Restlaufzeit steigt die
+Wahrscheinlichkeit,
+
+dass die Barrieren nicht berührt werden, und somit steigt auch der
+Preis eines Inline-Optionsscheins.
+Auch wenn die Zeit - im Vergleich zum zukünftigen Basiswertkurs oder
+der Vola=ACtilität - in der Optionspreisformel kein Unsicherheitsfaktor
+ist, ist sie doch wich=ACtiger Indikator für die künftige
+Preisent=ACwicklung des Optionsscheins. Daher sollte der Anleger sich
+stets vergegenwärtigen, dass Zeit Geld ist.

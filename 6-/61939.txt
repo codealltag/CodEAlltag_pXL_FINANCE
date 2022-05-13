@@ -1,0 +1,25 @@
+Transaktionen:
+Art # Stck # Name   # WKNR   # EUR # gesamt # Boersenplatz
+
+312,5EUR
+V   # 350 # Kram  # 907524 # 81,5 # 28525   # Blindow
+V #10000#etrade au# 918892 # 2,32 # 23200   # Neufelderkoog
+V   # 500 # EM.TV   # 568480 # 66,75# 33375  # XETRA
+=85412,5EUR
+K   # 100 # VA Linux # 929398 # 225 # 22500  # Kesten
+K   #  45 # FFMZ # 032400 # 681 # 30645  # XETRA
+K   # 550 # Priceline # 919819 # 58  # 31900  # Neufelderkoog
+=367,5EUR
+
+
+Mein Depot vom 09.05.999,
+Name             # WKNR   # Stck # Kauf-Kurs # Akt.Kurs # Summe
+Etoys             # 920680  # 500  #    57,46#  45  # 22500 EUR
+VA Linux        # 929398  # 100  #   225 #    225  # 22500 EUR
+FFMZ        # 891624  #  45  #    681 #    681  # 30645 EUR
+Ariba              # 923835  # 140 #   196 #    224  # 31360 EUR
+Priceline         # 919819  # 550 #     58 #     58  # 31900 EUR
+
+Cash 367,5 EUR
+Depotwert 138.905 EUR
+Gesamtwert 139.272,5 EUR

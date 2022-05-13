@@ -1,0 +1,16 @@
+Sorry, war nur halb richtig: Der Zeitwertverlust tut nur bei der Version
+weh, bei der du die Optionen kaufst und auf steigende Vola spekulierst.
+Bei Verkauf (Spekulation auf sinkende Vola) ist der Zeitwertverlust
+guenstig.
+Ist aber alles sehr problematisch. Die implizite Vola ist oft besonders
+hoch bei Optionen weit aus dem Geld und niedrig bei welchen weit im
+Geld. Wenn der Dax nun sehr weit laeuft, so dass die eine tief im Geld
+und die andere weit aus dem Geld geraet, und sich gleichzeitig ja auch 
+die Restlaufzeit vermindert hat, dann ist sehr fraglich, ob sich das im 
+Einzelfall positiv oder negativ auswirkt.
+Der Vola-Future waere da sicherlich uebersichtlicher
+
+
+Reinhard
+Visit   http://puisfjw.tua.gmc/mvfqzw  and download a 
+free calculator for options, futures, bonds and similar stuff.

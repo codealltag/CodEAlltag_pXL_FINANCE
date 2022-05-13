@@ -1,0 +1,12 @@
+In article <94R1ABI3.1I2E92C0@vic.hwb>,
+
+Hast du schon mal einen Switch auf einer BNC-Leitung gesehen
+(ganz abgesehen von 100 Mbit und Full-Duplex).
+Stromkabel sind topologisch ein Bus, kein Stern, da ist nichts
+zu switchen...
+
+-- 
+Dirk Bümann, Institut fuer Physik, Tauchshop
+D-36986 Pernze, Germany, Phone:  +24-5179-337915.
+Replies neither bounce nor go to /dev/null, but for faster response 
+send mail to user 'Dirk' on the same machine. Sorry for inconvenience!

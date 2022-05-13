@@ -1,0 +1,57 @@
+Nachdem mir nunmehr eine berechtigte Welle der Skepsis entgegengeschwappt
+ist, habe ich die Konstuktion an an einem konkreten möglichst einfachen
+Beispiel nachgerechnet:
+
+
+Grundlage sind heutige Kurse (17 Uhr).
+Eurostoxx50 Kurs 3054 ist Basiswert für A und B.
+
+A und B sind zwei Papiere von Bokeha.
+A.) Balloni Outperformance-Zertifikat, Kurs 30,54, Laufzeit 15.05.2007,
+Partizipation 156%
+B.) 163061 Minishort auf E-xx50, Kurs 5,57, Hebel 5,50 Stopploss3500
+
+Ich kaufe 1000 Stück A zu 30.540 Euro
+Ich kaufe 984 Stück B zu 5.481 Euro
+Summe 36.021+81 TxKosten=36.102 Euro.
+
+
+Ich halte die A bis zum Ende der Laufzeit am 15.05.2007
+Ich halte B bis zum Ende der Laufzeit von A, muss ihn aber wg. SL eventuell
+umrollen.
+
+Szenario 1 : Eurostoxx steigt auf 3500 (+14,4 %)
+
+Verkauf 1000 Stück A zu 38,37=38.370 Euro
+Verkauf 984 Stück B zu 1,14=1.122 Euro
+Summe 39.492-72 TKkosten=39.420 Euro
+Gewinn 39.420-36.102=3.318 Euro entspricht 9,19 Prozent.
+
+
+Szenario 2 : Eurostoxx fällt auf 2500 (-18,3%)
+
+Verkauf 1000 Stück A zu 25,00=25.000 Euro
+Verkauf 984 Stück B zu 12,82=12.418 Euro
+Summe 37.418-100 TKkosten=37.318 Euro
+Gewinn 37.318-36.102=1.216 Euro  entspricht 3,37 Prozent.
+
+Alle Angaben beruhen auf realen Kursen und Vertragsbedingungen.
+Die Verkaufskurse sind durch den Emittenten vorgegeben.
+Das Umrollen bei stärkeren Anstiegen des EuroStoxx wäre mit zusätzlichen
+TX-Kosten bis 50 Euro verbunden, würde aber durch hohe Gewinne
+bedeutungslos.
+
+Ich gewinne also am 15.04.2007 in beiden Fällen. (9,19 oder 3,37 Prozent).
+
+
+Bei stärkerem Anstieg des Mediaworld sind die Gewinne entspechend der
+Partizipationsrate höher.
+Bei Aktien ist die Partizipationsrate bis zu 300 Prozent.
+
+
+Gibt es Situationen, bei denen ich am Ende der Laufzeit verlieren kann?
+Nur wenn Bokeha nicht mehr zahlungsfähig ist.
+Oder täusche ich mich? Rechenfehler, Denkfehler, Halluzinationen?
+
+
+Yours spinning Jean-Claude

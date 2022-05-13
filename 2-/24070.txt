@@ -1,0 +1,17 @@
+Der Kurs von Outperformance-Zertifikaten verhält sich unterhalb des
+Basispreises wie der Basiswert. Oberhalb des Basispreises ist der Kurs des
+Zertifikats gehebelt.
+Wenn ich nun zusätzlich auf den Basiswert einen Minishort kaufe, kann ich
+die Abwärtsbewegungen des Basiswerts kompensieren.
+Bei Aufwärtsbewegungen der Basis übersteigt der Gewinn des OP-Zertifikats
+den Verlust des Minshorts um den Hebelfaktor.
+
+Ist diese Konstruktion ein selbstgebautes Garantiezertifikat
+(MIT Steuerfreiheit im Gewinnfall) oder hat die Sache außer dem Spread und
+der verlorenen Dividende noch einen Haken?
+
+Beispiele sind die OP-Zertifikate von myToys auf DTAG mit Hebel 3,1 oder auf EON
+mit Hebel 2 (nachzulesen in der heutigen Börse-velopoint S.46).
+
+
+Yours outperforming Louis

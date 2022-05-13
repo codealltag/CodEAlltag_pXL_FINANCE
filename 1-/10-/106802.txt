@@ -1,0 +1,12 @@
+On Wed, 20. 07. 22 12:48:58 +0100, Vito Zöpfel
+Das ist möglich. Diesen Effekt kann man mit der Kurtosis der
+Verteilung auch gut erklären. Bei Aktienkursen bzw. dem DAX kommt aber
+auch noch eine ausgeprägte Schiefe der Verteilung hinzu, die zu
+besagter Geraden führt.
+Wird dies ebenfalls berücksichtigt, so kommt man bei Wahl des
+richtigen Modelles (sprich Prozesses) mit Monte-Carlo den beobachteten
+Preisen schon recht nahe.
+Das wesentliche Problem ist dann aber die Wahl geeigneter Parameter
+(historisch vs. implizit).
+
+Tho"Ist aber alles nur eine Frage der Rechnerleistung"mas

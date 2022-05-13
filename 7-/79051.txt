@@ -1,0 +1,11 @@
+schau mal hier:
+ftp://ftp.neuroinformatik.ruhr-uni-bochum.de/pub/outgoing/fritzke/dax/
+
+oder probiere
+http://tnbol.fcwmp.vpi/imsiu.kfp?x=8&a=2&m=94&k=29&t=16&x=85&z=f&e=y&w=2&i=.wog&k=*IYL&q=*LMS
+
+für *SYM müßtest Du noch das US-Symbol des DAX herausfinden. Falls es
+"^" enthält, schreibe %5E , also (Bsp. für DowJones) statt ^DJI %5EDJI
+
+-- 
+Antoine

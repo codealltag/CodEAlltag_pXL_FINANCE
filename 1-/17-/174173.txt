@@ -1,0 +1,24 @@
+In article <3fcdi4$nfy@fk58.vs.exi-hnwuadgec.ox>,
+
+Liegt mit groszer Wahrscheinlichkeit an dem WWW-Browser. Eine aeltere Version 
+von Win-Mosaic (keine Ahnung zu X- und MacMosaic)hat die URL: file:// nicht 
+unterstuetzt. Habe selbst damit Erfahrungen gesammelt und daraufhin 
+kurzfristig statt file:// sul:// benutzt. Nachdem eine neuere Version von 
+Mosaic file:// wieder unterstuetzt, bin ich zum Ursprungsformat 
+zurueckgekehrt, da der Zugriff via Http-Server fluessiger als per FTP-Server 
+ist. Genug erzaehlt. Also:
+
+Kleine Gegenprobe fuer die User, die mit den aktuellen Kursen Problemen 
+hatten. Probiert bitte mal die URL: 
+ftp://www.wiwi.uni-frankfurt.de/pub/jwgi/data/germ-vt/as941215.txt
+
+Sollte diese funktionieren liegts am WWW-Browser. Also Netscape 1.0 oder 
+WinMosaic 2.9a laden.
+
+Gruesze
+
+
+--Pierre
+
+Pierre Drane, bjlq@lulg.nxc-fynrhoovh.w757.mq
+http://vbc.oeju.oct-bwiyinhlp.xk/EL/HNTA/

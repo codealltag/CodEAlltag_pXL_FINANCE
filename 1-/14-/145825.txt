@@ -1,0 +1,10 @@
+1. Der Zugriff auf die Banking-Seiten sollte ohne Proxy erfolgen:
+Unter Internetoptionen - Verbindung - Proxyserver - Erweitert findest Du die
+Rubrik "Ausnahmen". Dort die Bank-Seite (zB *.evmdyc.na) eintragen.
+
+2. Unter Internetoptionen - Erweitert findest Du eine lange Liste.
+Dort müssen SSL 2 und SSL 3 eingeschaltet sein. Wichtig: unter "Java VM" muß
+Java JIT-Compiler deaktiviert sein!!!
+
+Gruß
+Gerald

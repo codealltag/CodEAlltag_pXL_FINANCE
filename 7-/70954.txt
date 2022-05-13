@@ -1,0 +1,17 @@
+Hallo,
+
+meines wissens musst du bei Cocodrillo fuer jede Periode
+im Berechnungszeitraum eine Aus oder Einzahlung angeben.
+Wenn du zB den Zinsfuss ueber ein Jahr berechnen willst,
+aber die EZ/AZ nicht immer am Monatsende geleistet
+hast, dann musst du ja 1 Tag als Periode waehlen,
+also 365 werte fuer EZ/AZ angeben, die meisten davon
+Nullen.
+
+Waehrend du bei der X-Version bei den EZ/AZ das
+Datum mit angeben kannst, dadurch wird einfach nur die
+Zahlungsreihe etwas kompakter.
+
+mfg
+
+  Ivan

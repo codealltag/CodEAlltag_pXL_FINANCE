@@ -1,0 +1,119 @@
+Das ist wirklich zu kompliziert. Selbst Profis haben sehr verschiedene
+Methoden. Die meist benutzte Methode ist unserer Meinung nach
+falsch. Jedenfalls verdienen wir sehr gut an Arbitrageprogrmmen, die
+deren Fehler ausnutzen.
+Das Problem ist weniger die Formel (Verkettung von europ. Optionen,
+also Black/Scholes), als vielmehr, welche Werte bei den Parametern
+Zinssatz und Vola eingesetzt werden. Viele rechnen tatsaechlich mit
+Forward-Saetzen. Andere setzen ganz andere Werte ein.
+Ich wuerde dir empfehlen: Ueberlege dir, wozu du sie nutzen willst, und 
+kalkuliere fuer genau diesen deinen Zweck ohne dich um den "fairen
+Wert" nach anderen Methoden zu kuemmern.
+
+
+Einfuehrung:
+7.4  Caps, Floors und Collars
+"Cap" bedeutet etwa soviel wie "Obergrenze" während "Floor" für einen genau
+definierten Mindestwert steht. Wertpapiere mit einem dieser Zusätze bieten
+somit eine Mindestleistung oder begrenzen einen Gewinn oder Verlust (vgl.
+gekappte Optionsscheine). Um was es dabei im einzelnen genau geht, hängt von
+den Konditionen des jeweiligen Wertpapiers ab. Häufig handelt es sich um
+irgendeine Form von Zinswerten. An deutschen Börsen werden beispielsweise
+Mindestzins-Zertifikate (Floors) und Zinsbegrenzungs-Zertifikate (Caps) der
+MVA gehandelt: 
+Der Inhaber eines Mindestzins-Zertifikates (WKN 802 148, Laufzeit bis 12.
+Juli 2001) erhält eine Ausschüttung für jedes Halbjahr, in dem der Libor
+unter 6% liegt. Dies ist etwa für solche Anleger interessant, die sich auch bei
+niedrigem Zinsniveau eine Mindestverzinsung sichern wollen. 
+Der Inhaber eines Zinsbegrenzungs-Zertifikates (WKN 802 579, Laufzeit bis 11.
+Juli 1996) erhält eine Ausschüttung für jedes Halbjahr, in dem der Libor über
+10% liegt. Dies ist beispielsweise sinnvoll für Kreditnehmer, die sich vor
+einem extremen Anstieg ihrer Belastung durch steigende Kreditzinsen schützen
+wollen. Sie erhalten so bei steigenden Zinsen einen Ausgleich. 
+Ein Cap bringt also periodische Ausgleichszahlungen, wenn ein bestimmter
+Marktzins an dem Stichtag für die betreffende Periode oberhalb des festgelegten
+Basiszinses liegt, während ein Floor eine Ausgleichszahlung bringt, wenn der
+betreffende Marktzins unterhalb des Basiszinssatzes liegt. 
+Die genauen Details solcher Papiere können jeweils sehr individuell festgelegt
+sein. Meist ist als zugrundeliegender Marktzins jedoch ein kurzfristiger
+Zinssatz wie der 6-Monats-Libor vereinbart, und die Periodenlänge beträgt oft
+jeweils sechs Monate. Die gesamte Laufzeit dagegen kann z.B. zehn Jahre
+betragen, so daß sich insgesamt zwanzig hintereinanderliegende Einzelperioden
+ergeben. Wichtig ist auch noch der Nominalbetrag. Das ist der Betrag, auf den
+die einzelnen Ausgleichszahlungen berechnet werden. Außerdem wird oft auch der
+Preis des gesamten Zertifikates in Prozent des Nominalbetrages angegeben. 
+Als Beispiel wählen wir einen Cap mit zehn Jahren Gesamtlaufzeit und
+Nominalwert 1000. Der Inhaber erhält eine halbjährliche Ausgleichszahlung, wenn
+der 6-Monats-Libor über 5% liegt.
+Ein aktueller Preis von 6,65% bedeutet, daß das Zertifikat im Augenblick 66,50
+kostet (6,65% von 1000). Solche Caps/Floors können wie Optionen zu ständig
+schwankenden Kursen börsengehandelt werden.
+An einem der halbjährlichen Stichtage liegt der Libor bei 6,8%. Dies sind 1,8%
+über dem Basiswert von 5%, und deshalb berechnet sich die Ausgleichszahlung für
+die betreffende Halbjahrsperiode als 1,8% von 1000 Nominalbetrag mal 0,5 Jahre
+= 9. 
+Auch bei Zinscaps, Zinsfloors, etc. gibt es verschiedene Ansätze für die
+Berechnung, und auch hier sind selbst unter Profis noch viele Details strittig.
+Wohl am häufigsten wird eine der verschiedenen "Optionsbündel-Formeln" benutzt.
+Ein Floor wird dabei als Bündel von Puts, ein Cap als Bündel von Calls auf den
+zukünftigen Zinssatz betrachtet und berechnet. Ein Floor mit einer Laufzeit von
+fünf Jahren und jährlichen Ausgleichszahlungen kann man also als Bündel von 5
+Puts betrachten. Bei halbjährlichen Ausgleichszahlungen wäre es ein Bündel von
+10 Puts, usw.. 
+Es gibt übrigens auch Caps und Floors, in denen für einzelne Perioden (z.B. für
+das erste Jahr) grundsätzlich keine Ausgleichszahlung geboten wird. In solchen
+Fällen besteht das Optionsbündel dann aus entsprechend weniger Einzeloptionen.
+Als Laufzeit jedes einzelnen Puts gilt der Zeitraum von heute bis zum
+jeweiligen Zins-Stichtag. Der dazugehörende Zahltag liegt fast immer deutlich
+später, häufig erst ein halbes Jahr nach dem Zins-Stichtag. Wegen dieser
+verspäteten Zahlung muß dann auch noch eine entsprechende Abzinsung erfolgen.
+Eine genauere Erläuterung der Berechnungsweise und der entsprechenden Funktion
+des Modern Speculator Pro finden Sie weiter hinten in diesem Buch
+Wie bei einfachen Optionen, so gibt es auch bei Caps und Floors jeweils die
+Möglichkeit des Kaufs oder des Verkaufs. Mit "Verkaufen" meinen wir hier nicht
+nur die Weiterveräußerung gekaufter Zertifikate, sondern auch das
+Selbstschreiben als Stillhalter. Allerdings können in der Praxis nur große,
+professionelle Marktteilnehmer selbst Caps oder Floors schreiben.  
+Der Käufer eines Caps hat Anrecht auf Erhalt der entsprechenden
+Ausgleichszahlungen, der Schreiber dagegen hat die Pflicht, diese
+Ausgleichszahlungen zu leisten.
+Wertpapiere dieser Art eröffnen natürlich wiederum diverse
+Kombinationsmöglichkeiten. Unter einem "Collar" versteht man z.B. meistens den
+Kauf eines Floor, wodurch man sich einen Mindestzins sichert, und den Verkauf
+eines Cap. Durch letzteres verpflichtet man sich, bei überschreiten eines
+bestimmten Marktzinses Zahlungen zu leisten, so daß man von einem weiter
+steigenden Zinssatz nicht mehr selbst profitiert, weil man das "Mehr" ja
+abliefern muß. Ein solcher Collar sichert mithin eine Mindestverzinsung und
+fixiert gleichzeitig eine Maximalverzinsung. 
+Sogenannte "gecollarte Floater" sind deshalb nichts anderes als die Kombination
+eines Floater mit einem Collar, also variabel verzinsliche Anleihen mit einem
+Mindest- und Höchstzins. Wir können hier nicht die genauen Details der
+Berechnung aufzeigen, aber bitte glauben Sie uns: Die meisten fertig
+angebotenen "gecollarten Floater" werden zu absurd überhöhten Preisen angeboten
+(selbst einfache Floater werden ja schon oft zu falschen Preisen gehandelt).
+Man sollte da grundsätzlich nichts kaufen, dessen Preis man nicht selbst
+zumindest grob bewerten kann. 
+Es gibt diverse ähnliche Wertpapiere, und der fortgeschrittene Anleger kann
+sich natürlich auch durch eigene Anlagepositionen in Futures oder Optionen auf
+Rentenwerte Konstruktionen mit ähnlicher Wirkung "zusammenbasteln". 
+Mittels Caps und Floors kann man im Prinzip übrigens sogar jede Anleihe
+beliebig verwandeln. So könnte man etwa eine 6%-Anleihe in eine 8%-Anleihe
+umwandeln. Ein einführendes Beispiel:
+Wir besitzen einen unkündbaren 10jährigen Libor-Floater. Dazu kaufen wir jetzt
+einen Floor mit zehn Jahren Restlaufzeit und 8% Basiszins, und schon haben wir
+einen Floater mit 8% Mindestzins. Wenn wir jetzt auch noch einen entsprechenden
+Cap mit 8% Basiszins verkaufen, dann haben wir auch 8% Höchstzins. Kurz: Durch
+diesen Collar (Kauf eines Floor, Verkauf eines Cap) haben wir den Floater im
+Ergebnis in eine normale 8%-Festzinsanleihe verwandelt. 
+Es ist leicht ersichtlich, daß der Wert eines solchen Collars genau dem
+Wertunterschied zwischen dem unkündbaren 10-Jahres-Floater und der unkündbaren
+10jährigen 8%-Festzinsanleihe entsprechen muß.
+Durch solche gedanklichen Kombinationsspiele lassen sich viele Zusammenhänge
+zwischen verschiedenen Anleihen und ähnlichen Zinsgeschäften verdeutlichen,
+Unstimmigkeiten bei bisher allgemein anerkannten Berechnungsmethoden aufdecken
+und manchmal sogar profitable Arbitragemöglichkeiten finden.
+
+
+Noah Poehls
+Visit   http://wakqvjl.kyo.azl/sjridu  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,32 @@
+Das geht (grob gesagt) so:
+
+1. Du legst eine Reihe von Tabellenblättern an,
+von denen eins als Datenbank benutzt wird, falls
+Du die Daten nicht in eine Access-Datenbank
+auslagern willst.
+
+2. Auf anderen Tabellenblättern importierst Du per
+Webabfrage die Fondspreisseiten direkt von den
+Fondsgesellschaften (HUNJ, Intabo usw.). Das
+können HTML-Seiten oder auch txt.- oder csv-
+Dateien sein.
+
+3. Per Makro werden die Daten nun aufbereitet und
+auf die Datenbankseite übertragen und dort unter dem
+entsprechenden Datum eingeordnet.
+
+
+Wer Fondskurse in größerem Umfang importieren
+oder auch einmal einen Urlaub ohne Datenverarbeitung
+überbrücken will, kann u. a. die Fondsdateien
+von Horze (über 3500 tägliche Fondspreise) mit einer
+auf meiner Homepage vorgestellten Software z.B. in eine
+csv-Datei konvertieren, die sich dann gut in Excel einbinden
+läßt.
+
+MfG
+Bernard
+--
+B�rsenkursbeschaffung aus dem Internet,
+Konvertierung in fast alle gängigen Formate:
+http://nwv.zfwxgzrtscq.tt/

@@ -1,0 +1,49 @@
+Datum: 13.10.96                Uhrzeit:  08:03
+
+Also ich bin ja immer noch auf der Suche nach einem anstaendigen  
+Kursprovider mit zugehoeriger Chartsoftware.
+
+Mit dem auch hier vielgelobten Luciano hatte ich die schrecklichsten  
+Erlebnisse in meinem Computerleben, seitdem ich auf dem TRS-80 in  
+Assembler programmierte und er immer, wenn der Kuehlschrank anging, neu  
+bootete ;-).
+
+Vom Hersteller Feddersen & Partner reichliche und joviale Auskuenfte sowie  
+kostenlose Demo bekommen.
+Disk auf Festplatte kopiert, install aufgerufen.
+Fehlermeldung, die Installation kann nur von Diskette (und damit langsam)  
+aufgerufen werden. Absturz.
+Install vom Diskettenlaufwerk aufgerufen, gewartet.
+Ein komischer Speichertest laeuft an, eine Strafminute.
+Anschliessend Meldung, dass Smartdrive im Write-Modus nicht laufen darf  
+und mit Smartdrive C abgeschaltet werden soll. Absturz.
+Smartdrv C eingegeben.
+Install vom Diskettenlaufwerk aufgerufen, gewartet.
+Eine Strafminute Speichertest.
+Dieselbe Fehlermeldung wie vorher.
+Recherchiert, festgestellt, dass zumindest mein Smartdrv mit dem Parameter  
+X statt C abgestellt werden muss.
+Install vom Diskettenlaufwerk aufgerufen, gewartet.
+Eine Strafminute Speichertest.
+Absturz wegen zuwenig Speicher, der Fossiltreiber ist noch im Speicher.
+Fossiltreiber de-installiert.
+Install vom Diskettenlaufwerk aufgerufen, gewartet.
+Eine Strafminute Speichertest.
+Absturz wegen zuwenig Speicher (554 KB reichen nicht aus), ein Rest von  
+Smartdrv haengt wohl immer noch im Low Memory. (High memory ist bis auf 1  
+KB voll mit CAPI, Netzwerk, CD-Laufwerkstreiber und anderen bei mir  
+unentbehrlichen Goodies).
+Smartdrive ausgeremmt, neu gebootet.
+Mem aufgerufen, 570 KB sind jetzt frei.
+Install vom Diskettenlaufwerk aufgerufen, gewartet.
+Eine Strafminute Speichertest.
+Absturz "Grafiktreiber nicht gefunden".
+Stunden spaeter aufgegeben. Entweder spinne ich oder der Programmierer.
+
+Da ist ja die 50-Mark-Chartsoftware von meiner Bank noch Gold dagegen.  
+Sind die anderen, renommierten Chartprogramme auch so mies oder kann mir  
+einer eines (mit gut gepflegtem Kursservice unter 50 Mark, bitte)  
+empfehlen, moeglichst fuer plain MS-DOS?
+
+
+Wolfram Ziehms, Altenhaßlau

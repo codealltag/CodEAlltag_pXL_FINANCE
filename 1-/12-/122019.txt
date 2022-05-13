@@ -1,0 +1,46 @@
+Die jaehrliche Effektivrendite einer einzelnen Aktie kann man
+folgendermassen berechnen:
+
+Rendite = (n-te Wurzel aus (akt. Depotwert / Kaufpreis)) - 1
+
+(wobei "n" die Laufzeit in Jahren angibt). Da die n-te Wurzel mit
+einem Tabellenkalkulationsprogramm i.a. nicht ausgerechnet werden
+kann, wird obige Formel mit Hilfe der Logarithmusrechnung um eine
+Komplexitaetsstufe zurueckgefuehrt:
+
+Rendite = 10 "hoch" (LOG(akt.Depotwert/Kaufpreis)/Laufzeit)-1
+
+(wobei "LOG" fuer den Logarithmus zur Basis 10 steht). Fuer Dein
+Beispiel mit VLHN ergibt sich also:
+
+Rendite = 10 ^ (LOG(22000/10000) / (Laufzeit in Tagen/365)) - 1
+        = 10 ^ (LOG(2,2) / ((04.03.99-30.10.94)/365)) - 1
+        = 10 ^ (0,3424 / (1586/365)) - 1
+        = 10 ^ (0,3424 / 4,3452) - 1
+        = 10 ^ (0,0788) - 1
+        = 1,199 - 1
+        = 0,199
+        = 19,9 %
+        ========
+
+Jetzt kann man sich noch darueber streiten, ob man bei der
+Laufzeit ein Jahr mit 365 oder 360 Tagen zugrundelegt, aber im
+Prinzip aendert das nichts an der Formel.
+
+Falls Dir das alles zu kompliziert ist: keine Angst. Ich gehe
+jede Wette ein, dass Excel eine interne Funktion bereitstellt,
+hinter der sich nichts anderes als die obige Formel verbirgt. Da
+ich Excel aber nicht verwende, kenne ich auch nicht den Namen
+dieser Funktion. Du kannst ja mal die "verdaechtigen" Funktionen
+durchprobieren und das Ergebnis mit dem obigen vergleichen, dann
+duerftest Du die Funktion selbst finden.
+
+
+	Die Renditeberechnung des Gesamtdepots ist etwas
+schwieriger. In dieser Newsgruppe laeuft gerade ein Thread
+darueber (Subject: "Renditeberechnung eines Depots").
+
+Servus,
+Vito
+-- 
+http://bzxo.hkqnupvj.puvmsd.tr/rihyuk.xdsk :

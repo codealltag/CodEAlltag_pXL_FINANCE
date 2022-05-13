@@ -1,0 +1,28 @@
+Hallo Makas-Kenner,
+
+ich bitte Euch um Hilfe!
+
+In einem Windows98-System betreibe ich mehrere Laufwerke
+an einem SCSI-Adapter AHA 1540 CP.
+
+Unter den Laufwerken ist auch ein Wechselplattenlaufwerk
+Metro3 SQ555 mit 88MB.
+
+Dieses Laufwerk erscheint nun erstaunlicherweise achtmal mit unter-
+schiedlichen Laufwerksbuchstaben D: bis K:,
+immmer mit ID=6, aber unter LUN=0 bis LUN=8.
+
+Nur auf das erste Laufwerk kann ich zugreifen, bei den anderen erscheint
+beim Zugriff eine Fehlermeldung.
+
+Frage:
+Wie kann ich die Laufwerke E: bis K: unterdrücken?
+
+Danke für die Hilfe.
+
+Schönen Gruß von Vabene, Gitan und PUV,
+und Tsch
+
+Urs Blancke
+
+Bitte keine Mails über 16kB !

@@ -1,0 +1,17 @@
+Hallo Frank
+
+
+Nein, das ist es nicht: Dein Taschenrechner rechnet naemlich intern mit
+mehr Stellen (ueblicherweise 3) als angezeigt werden und die letzte
+angezeigte Stell wird mathematisch exakt aus den nicht angezeigten
+gerundet.
+
+Unsere PCs sind da schlampiger: Dort werden alle ueberhaupt verfuegbaren
+Stellen angezeigt. Da ein PC halt in Wirlichkeit binaer und nicht
+dezimal rechnet, ist so die letzte Stelle oft ein Zufallsergebnis, dass
+auch nicht aus irgendwas noch kleinerem gerundet wird.
+
+Weil das so ist und halt auch Milliardenbetraege umgerechnet werden
+muessen, schafft die Teilungsvorschrifft schon Sicherheit.
+
+Viele Gruesse, Arne

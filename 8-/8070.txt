@@ -1,0 +1,80 @@
+E
+rweiterte Limitfunktionen sind beson=ACders in Zeiten turbulenter Märkte
+von
+Bedeutung. Doch häufig schrecken Anleger vor den etwas komplexen
+Funktionsweisen zurück. Wir zeigen Ihnen, dass es im Grunde ganz
+einfach ist.
+Der Direkthandel mit der Emittentin bie-tet Anlegern die Möglichkeit,
+neben klassi-schen Limitfunktionen auch die ZusätzeTrai=ACling-Stop-Loss
+oder One-Cancel-the-Other zu nutzen. Allerdings werden diese nicht von
+allen Brokern angeboten. Informieren Sie sich, ob Ihr Broker diese
+unterstützt.
+Trailing-Stop-Loss
+Hinter dem Zusatz Trailing-Stop-Loss ver-birgt sich letztlich nichts
+anderes als eine Stop-Loss-Order, bei der zusätzlich auch ein
+Differenzwert angegeben wird.
+Dieser Differenzwert kann entweder in Form eines Prozentwertes oder
+als ein Absolutwert angegeben werden. Der Sinn
+
+dahinter ist, dass in Erwartung steigender Kurse eines Wertpapiers das
+angegebene Stop-Loss-Limit entsprechend dem ange-gebenen Differenzwert
+automatisch nach-gezogen wird. Steigt also der Kurs des Basiswertes,
+so wird auch das Stop-Loss-Limit angehoben und Anleger können ge-
+gebenenfalls einen höheren Verkaufspreis erzielen als mit einem
+klassischen Stop-Loss.
+Bei fallenden Kursen des Basiswertes verharrt das Stop-Loss-Limit
+allerdings auf seinem letzten angepassten Niveau. Eine Anpassung
+erfolgt demnach immer nur nach oben.
+Ein Beispiel: Nehmen wir an, der aktuelle Geldkurs eines Wertpapiers
+liegt bei 40 Euro. Das Trailing-Stop-Loss wird bei 30 Euro platziert.
+Der Differenzwert wird im ersten Fall mit 10 Euro absolut, also in
+Form eines festen Geldbetrages, festge-legt.
+
+Steigt nun der aktuelle Geldkurs des Wert-papiers von anfänglich 40
+Euro auf 50 Euro, wird das Stop-Loss-Limit automa-tisch auf 10 Euro
+unterhalb des letzten Wertpapierkurses, also auf 40 Euro, ange-hoben.
+Diese Anpassung kann allerdings immer nur nach oben erfolgen. Sinkt
+der Kurs des Wertpapiers wieder, verharrt das Limit bei 40 Euro.
+Erreicht der Wertpapier-kurs das angepasste Stop-Loss oder sinkt sogar
+darunter, wird die Order bestens, d.h. zum nächstm=F6glichen Kurs, ausge-
+führt.
+Eine zweite Möglichkeit, die dasTrailing=ACStop-Loss bietet, ist die
+Eingabe eines prozentualen Differenzwertes. Der aktuelle Geldkurs des
+Wertpapiers wird auch hier
+
+
+bei 40 Euro angenommen. Das Trailing-Stop-Loss wird diesmal bei 36
+Euro plat-ziert. An Stelle des absoluten Differenz-wertes geben wir
+einen prozentualen Wert in Höhe von 10% an.
+Wenn der Geldkurs des Wertpapiers z.B. auf 45 Euro steigt, wird eine
+automati-sierte Anpassung des Trailing-Stop-Loss auf 40,50 Euro
+veranlasst. Das Stop-Loss=ACLimit beträgt in diesem Beispiel also immer
+90% des neuen Geldkurses. So=ACbald der aktuelle Geldkurs das neue Limit
+von 40,50 Euro erreicht oder unterschrei=ACtet, erfolgt die Ausführung
+der Order zum nächstm=F6glichen Kurs.
+Das Trailing-Stop-Loss bietet somit die
+
+Möglichkeit, steigende Kurse eines Wert=ACpapiers zu berücksichtigen un=
+d
+so ggf. einen höheren Verkaufspreis zu erzielen.
+Wie funktioniert die erweiterte Limitfunktion One-Cancel-the-Other
+(OCO)?
+Mit diesem Zusatz haben Anleger grund=ACsätzlich die Möglichkeit, ein
+klassisches Verkaufslimit mit einem =84Stop Loss' zu kombinieren. Zur
+Erinnerung: Ein klassi=ACsches Verkaufslimit ermöglicht den Ver=ACkauf zu=
+m
+Limit oder einem darüber lie-genden Geldkurs. Das Verkaufslimit liegt
+bei einer OCO-Order üblicherweise über dem aktuellen Marktniveau und
+ermög=AClicht so eine Gewinnmitnahme im Falle steigender
+Wertpapierkurse. Gleichzeitig schützt das =84Stop-Loss-Limit' Anleger
+vor unerwünschten Kursrückschlägen und
+
+veranlasst die Ausführung der Order, so-bald ein bestimmter Kurs
+unterschritten wird.
+Ein Beispiel:
+Das beispielhafte Wertpapier notiert bei 40 Euro. Das Verkaufslimit
+wird bei 55 Euro und das klassische Stop-Loss=ACLimit bei 30 Euro
+platziert. Erreicht oder unterschreitet der aktuelle Geldkurs das Stop-
+Loss-Limit von 30 Euro, wird die Order zum nächsten Kurs ausgeführt.
+Sollte der Geldkurs auf 55 Euro oder dar=ACüber steigen, so erfolgt der
+Verkauf zu mindestens 55 Euro.

@@ -1,0 +1,55 @@
+In <476895m7.7259692@hpev.ragywdr.ee> hat
+
+Hm, vielleicht sollte ich sagen, dass ich das aus einem Bericht von
+Gipe übernommen habe. Deren Rat war, sein Depot regelmäßig zu 
+überprüfen und beim Erreichen einer vorgegebenen Gewinnmarke die
+Ausgangstruktur im Depot wiederherzustellen, um den Gewinn zu sichern. 
+Soll man laut deren Untersuchung besser mit fahren, als wenn man es
+nicht macht.
+
+Hm, wie passt das zusammen?
+
+Was du beschreibst ist eine mitlaufende Kurve "zu realisierender
+Verkaufserlös".
+Zuerst liegt der unter meinem Einstandspreis, also im Verlust, und bei
+steigenden Kursen kraxelt er langsam höher. Aber wenn ich nur beim Schneiden
+dieser Kurve verkaufe, kann ich nie Gewinne realisieren, die oberhalb der
+Kurve stattfinden.
+
+Jetzt benenne ich diese erste Kurve in "zu realisierender
+Minimalverkaufserl�s" (zrMinV) um und führe eine zweite Kurve "zu
+realisierender Maximalverkaufserl�s" (zrMaxV) ein. Diese Kurve verläuft 
+entsprechend oberhalb meines aktuellen Kurses und gibt an, wieviel Gewinn
+ich dem Wert zutraue. Immer wenn dieser Wert geschnitten wird, schichte ich
+durch Teilverkäufe um, um den Anteil im Depot auf j% zu halten.
+(Oder verkaufe einen festen Bruchteil des Wertes); außerdem versetze ich
+sie weiter nach oben.
+
+Solange ein Wert nur steigt, liegt man mit der ersten Variante besser, da 
+man nie zu früh verkauft. Macht bloß kein Wert, nur steigen.
+Da er aber irgendwann fällt, kann man mit etwas Glück mit der zweiten
+Variante in der "Spitzte" verkaufen, wenn die Kurse oben sind noch bevor die
+untere Verkaufskurve "wirkt".
+Durch das stückweise verkaufen raubt man sich auch nicht die Möglichkeit
+an späteren Wachstum teilzunehmen: Man hat nicht alles falsch gemacht, 
+sondern auch etwas richtig - egal in welche Richtung es geht.
+
+Bleiben noch zwei Fragen: was für (prozentuale?) Abstände nimmt man denn 
+vom aktullen Kurs als "Verkaufsgrund"? Sollte nicht zu knapp sein, um
+zu früh auszusteigen, aber auch nicht zu groß.
+
+Soll man wirklich alles verkaufen oder auch da stückeln?
+Wer's mit Gewichtungen hat, kann ja mit mehreren zrMinV/zrMaxV-Kurven 
+arbeiten: je weiter weg vom aktuellen Kurs, desto mehr verkaufen, weil desto
+unerwarteter:-)
+
+Da meldet sich nur der schale Nachgeschmack, dass meines Wissens solche
+einfachen Kochrezepte mal bei einem Börsencrash in den USA ganz derbe
+auf die Nase gefallen sind bzw. ihn verstärkt / verursacht haben.
+
+
+dpi
+-- 
+Petition an das Hagin --- online petition to the Hutbi's
+gegen unverlangte Werbemail     --- against unsolicited bulk email (SPAM)
+http://lns.bcmeefa-lwipusg.ro/plch/

@@ -1,0 +1,22 @@
+Du brauchst Put-OS, die sind seltener als CAll-OS, aber fuer den DAX
+solltest du welche bekommen.
+
+
+Letzteres haengt vom Preisniveau der puts (implizite Vola) ab, von
+der Zeitspanne und ob du voellig absichern willst.
+Auf unserer Homepage kannst du einen einfachen OS-Rechner mit
+Handbuch runterladen. DAmit kann man berechnen, welchen Preis
+der Put unter welchen Bedingungen (z.B. in 3 Wochen bei DAX 5000
+Vola 25 usw.) ungefaehr haette. Indem du diese Werte dem Wert 
+deines DAX-Depots gegenueber stellts findest du die gesuchten 
+Daten. Will man es ganz exakt machen werden die Daten aber nicht 
+konstant sein, sondern muesten ab und zu nachgeregelt werden 
+(Puts zu- oder verkaufen oder andere Puts).
+Andere Programme wie "Modern Speculator Pro" berechnen solche
+Combinationen sogar komplett. Ist aber nur eine Demo, die nur
+OS bis max 3 Monate berechnet.  
+
+
+Jens Utdenwiede
+Visit   http://nsnhudo.xyl.mob/omfjle  and download a 
+free calculator for options, futures, bonds and similar stuff.

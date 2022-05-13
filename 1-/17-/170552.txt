@@ -1,0 +1,13 @@
+[...]
+
+Es ist sicherlich das bekannteste zusammen mit Uppenthal/Bair-Binominal-
+modell. Hat allerdings den Nachteil, dass es von normalverteilten
+Kursaenderungen ausgeht, was empirisch nicht haltbar ist.
+Wenn man es benutzt, um die implizite Vola auszurechnen, ist es wohl ok,
+da die sich dann eben auch auf Standardabweichung bezieht. Bei
+unterschiedlichen Zeitraeumen muessten sich aber verzerrte Werte
+ergeben.
+
+----------------------------------------------
+Uwe Ottenjann
+giksbdwr@f0.nzaodhbqmv.llid-lmjeoy.zi

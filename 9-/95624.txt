@@ -1,0 +1,19 @@
+Klar dass die Banken/Emittenten, soweit sie den Durchblick haben,
+dies nicht gerade gerne weiterverbreiten. Aber wir hatten es hier 
+mehrfach. Also:
+
+Du kaufst einerseits eine hochrentierliche Anleihe, z.B. zu 15%.
+Weil sie soviel bringt, kostet sie viel. Z.B. 1100 bei einem
+Nominalwert von 1000.
+Gleichzeitig schreibst (verkaufst) du dem Emittenten einen Put, dass
+du bereit bist, seine Aktien zu uebernehmen falls sie fallen. Dafuer 
+kriegst du 100. Die ziehst du vom Kaufpreis der Anleihe ab, so dass
+diese dich 1000 kostet.
+Falls jetzt die Aktie faellt, dann steigt der Wert des Puts 200, 300 ...
+Das musst du vom Wert der Anleihe abziehen, so dass diese im
+Ergebnis sinkt 900, 800 ...
+
+
+Emmerich Bruchhage
+Visit   http://syrfpwj.gnr.myh/crxrxi  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,22 @@
+Hallo Ihno,
+anbei ein grafisches Beispiel zu gleitenden Durchschnitten (GD).
+Natuerlich ist die Amplitude eines GD`s dem Kursverlauf hinterher. 
+Aber es macht bestimmt wenig Sinn einen GD um die Haelfte
+zurueckzusetzten den er steht dir im aktuellen Kursverlauf nicht zur
+Verfügung.
+Du meinst Kursdurchbrueche durch GD haetten nichts zu bedeuten ?
+Ich bin hier ganz anderer Meinung, je nach Auswahl von Glaettung,
+Gewichtung (zeitnahe Kurse werden staerker gewichtet) und einem Versatz
+des GD (aber nach vorne in der Zeitreihe) sind gute Ergebnisse zu
+erzielen. Mach Dir einmal die Mühe und Vergleiche in dem Chart die
+unterschiedlichen Ergebnisse zwischen normalem und nach vorne gelegten
+GD nach folgeneder Handelstaktik. Kauf bei Schlusskurs ueber GD - 
+Verkauf bei Schlusskurs unter GD
+Du wirst feststellen, das das Ergebniss mit einem nach vorne gelegten GD
+wesentlich besser ausfaellt bei entsprechend weniger aktivitaet.
+
+Gruss
+-- 
+J O   H A A S * B�rseninformationssysteme
+* http://fosexpj.rsr.awe/tpcxbffjus  
+* Mailto:nkszqhnhos@joygg-zuw.ya * Tel.52-0396-371-474 Fx.-519

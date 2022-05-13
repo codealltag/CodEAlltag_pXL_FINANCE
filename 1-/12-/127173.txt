@@ -1,0 +1,47 @@
+Na wenn Dir bisher niemand geholfen hat will ich das mal versuchen:
+Die Basis ist mehr ein Begriff aus den Terminmärkten. Sie beschreibt den
+preislichen Unterschied zwischen einem Derivat, also zB einem Future, zum
+entsprechenden Underlying - also dem Wertpapier auf das sich der Future
+bezieht.
+Basis = Futurekurs - (minus) dem Kassakurs der Anleihe
+Auch bei Aktienindexfutures und dem Index selbst gibt es eine Basis, aber
+das hat Dich glaube ich nicht so interessiert
+Daher verdeutlicht folgendes Beispiel die genannten Zusammenhänge im Falle
+von Renten (Anleihen): Ein Anleger erhält in sechs Monaten 1.000.000,- DM,
+die er in lang laufende Bundesanleihen investieren möchte. Da er bereits
+heute das derzeitige Renditeniveau für attraktiv hält und mit Kursanstiegen
+rechnet, erwägt er einen sechsmonatigen Kredit aufzunehmen, um damit schon
+heute die Anleihen zu kaufen. Alternativ könnte er auch vier sechsmonatige
+Bund-Futurekontrakte erwerben (1 Kontrakt = 250.000 DM), die ihm eine
+Teilhabe an Kurssteigerungen sichern, zugleich aber nur einen geringen
+Kapitaleinsatz in Höhe der Margin (=Sicherheitsleistung) erfordern. Der
+Anleger muß sich nun fragen, welche Alternative für ihn die Günstigste ist.
+Wäre eine der Alternativen der anderen überlegen, so könnte Arbitrage
+betrieben werden. Folglich muß es ein Preisverhältnis zwischen beiden
+Alternativen geben, das für eine Gleichwertigkeit sorgt. In dem betrachteten
+Fall kommt es darauf an, zu wissen, ob die Zinsen für den sechsmonatigen
+Kredit unter oder über der Rendite der langfristigen Bundesanleihen liegen.
+Bei geringeren Zinsen des Kredits muß der Bund-Future unterhalb der
+vergleichbaren Kassa-Notiz liegen. Denn der Vorteil, den der sofortige
+kreditfinanzierte Kauf der Anleihen besitzt, wird durch den Preisabschlag
+des Futures gegenüber dem Kassapreis genau aufgewogen. Der konkrete Vorteil
+des kreditfinanzierten Anleihekaufs hätte in der Vereinnahmung höherer
+Anleihezinsen bei Auszahlung niedrigerer Kreditzinsen bestanden. In diesem
+Fall sind die Cost of Carry in der Definition der Basis = Future-Kurs -
+Kassakurs folglich negativ. Es entsteht ein Nettoertrag aus dem Halten der
+Kassaposition bei regulärer Zinsstrukturkurve. Umgekehrt sieht es bei einer
+inversen Zinsstruktur aus, bei der die kurzfristigen Zinsen oberhalb der
+langfristigen Zinsen liegen. Liegt eine inverse Zinsstruktur vor, dann
+besitzt der Bund-Futurespreis einen Aufschlag gegenüber der Kassa-Notierung.
+Die Cost of Carry sind in diesem Fall positiv. Es treten
+Nettofinanzierungskosten beim Halten der Kassaposition auf, wenn eine
+inverse Zinsstrukturkurve vorliegt.
+Es versteht sich von selbst, daß die Basis mit voranschreitendem Zeitablauf
+immer geringer wird. Am Ende der Laufzeit des Futures ist die Basis = Null.
+Der Futurepreis entspricht dem Preis der Anleihe.
+Ich hoffe, ich habe nichts vergessen!?
+
+Viele Größe
+www.JfvOxztbjpzTnrh.mb
+fqovpa@RfaTzshzaxzCpgz.vo
+Ingolf Enzinger

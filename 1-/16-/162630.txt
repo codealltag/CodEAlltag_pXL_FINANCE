@@ -1,0 +1,84 @@
+Also der Reihe nach:
+
+Optionsscheine kann man ueber die Boerse bekommen oder - je nach
+Bankverbindung - direkt beim Emittenden. Die meisten Emittenden stellen
+Geld- und Briefkurse auch ausserboerslich. Da mit Optionsscheinen
+in der Regel gar kein echter Handel stattfindet, ist man im Grunde
+darauf angewiesen, dass der Emittend diese verkauft und - wichtiger
+noch - zuruecknimmt.
+
+Im Unterschied zwischen Geld- und Briefkursen liegt der Verdienst
+des Emittenden. Die Differenz wird in der Regel bei der Emission
+festgeschrieben und beibehalten, was dazu fuehrt, dass zwischen
+den Kursen Unterschiede von mehreren hundert Prozent liegen
+koennen, wenn der Schein nahezu wertlos geworden ist.
+
+Die Liquiditaet durch den Markt ist praktisch Null, wie bereits gesagt.
+
+Der Optionsschein wird abgesichert, indem der Emittend einen Teil
+des Basisobjekts kauft (Call) bzw. leerverkauft (Put). Daher
+beinhaltet der Preis einer Call-Option auch Kreditzinsen des
+Emittenden. Bei teuren
+Scheinen auf hochvolatile Basisobjekte ist zu ueberlegen, ob der
+Kauf des Basisobjekts (auch auf Kredit) mit strengem Stop-Loss
+nicht den gleichen Zweck billiger erfuellt. Jedenfalls ueberschlage
+ich vor dem Kauf eines Scheines, wie teuer der Kauf des Basisobjekts
+auf Kredit kommen wuerde.
+
+Hat tatsaechlich bei dem besagten Elem-Schein ein Handel
+stattgefunden?
+
+Die Scheine koennen genauso wie Optionen mit dem Black-Scholes
+Modell bewertet werden. Die fairen Preise stehen z.B. in der BO.
+Da das Black-Scholes Modell davon ausgeht, dass die Kursbewegung
+des Basisobjekts zufaellig ist, ist jeder Schein so gut wie der
+andere, sofern er fair bewertet ist. Die Auswahl der Scheine kann man
+nur in Zusammenhang mit der naechsten Frage sehen. Fuer das Trading
+auf kurze Sicht verwendet man Scheine am Geld mit nicht zu langer
+Laufzeit, weil diese am meisten an Wert gewinnen, wenn man richtig
+liegt. In dieser Hinsicht sind die meisten Optionsscheinempfehlungen
+z.B. in der BO einfach nicht rational. "Wir erwarten, dass der
+DAX in den naechsten zwei Wochen um 100 Punkte steigen wird und
+empfehlen einen DAX-Call mit mindestens 6 Monaten Laufzeit".
+Wenn man in einem solchen Fall nicht richtig liegt, wird man den
+Schein mit laengerer Laufzeit auch nach 2 Wochen wieder verkaufen,
+weil die Grundlage des Kaufs nicht mehr besteht. Die Laufzeit sollte
+nicht wesentlich laenger sein als der Erwartungshorizont des
+kaufbestimmenden Ereignisses.
+
+Vom Standpunkt der Theorie ist ein Portfolio mit 90% Anleihen und
+10% Optionsscheinen das sicherste. Man kann auch ein Aktiendepot
+sicherer machen, indem man einen Teil der Aktien durch Anleihen
+und Optionsscheine ersetzt. Ueber Untersuchungen zum Portfolio-
+Mangement mit Optionsscheinen weiss ich zu wenig.
+
+Manche Optionsscheine werden automatisch ausgeuebt, andere nicht.
+Aus Kostengruenden ist es vielleicht besser, es nicht dazu kommen zu
+lassen.
+
+Was man noch wissen sollte:
+
+Das Maerchen vom Roulettespieler, bei dem das Rad zu seinen Gunsten
+manipuliert wurde. Der Roulettespieler setzt immer auf eine Farbe und
+hat statt einer Siegeschance von ungefaehr 50:50 eine Chance von 55:45.
+Trotzdem verliert er jeden Abend sein ganzes Geld. Warum?
+
+Aus steuerlichen Gesichtspunkten koennte es von Bedeutung sein,
+ob bei der Ausuebung das Basisobjekt geliefert wird oder ein
+Barausgleich erfolgt. Im ersten Fall koennte es sich um ein
+Termingeschaeft handeln und bliebe von der Spekulationssteuer
+verschont. So lautete jedenfalls ein Gerichtsurteil. Ich kann mir
+allerdings nicht vorstellen, dass das Finanzamt sich damit zufrieden
+gibt. Vielleicht kennt jemand den neuesten Stand.
+
+Aufgrund des Crashes von 1986 sind Put-Optionen auf einen Index
+sehr teuer. Ueberdies wird der Crash in den USA nun schon seit
+Jahren erfolglos prophezeit. In Deutschland ist es guenstiger,
+Puts auf die Lacoste zu kaufen als auf den DAX. Eine selten
+vorgeschlagene
+Alternative sind Zinsputs, die ebenfalls relativ guenstig angeboten
+werden, zumal die Zinsentwicklung besser vorausgesehen werden kann
+als ein Crash. 
+
+Viele Gruesse
+udo

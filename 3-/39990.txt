@@ -1,0 +1,30 @@
+Christoph <C.Voon@l-nieutu.tx> schrieb in im Newsbeitrag:
+1i8m6x$d18$6@tasy62.wue.ukww.jk...
+"Limit"
+gekauft
+der
+
+Die Orderzus�tze haben folgende Bedeutung:
+
+1) Buy Limit 40                    Kauf der Aktie zu Kursen <= 40
+2) Stop Buy 40                    Kauf der Aktie zu Kursen >= 40
+3) Stop Buy 40 Limit 42        Kauf der Aktie zu Kursen >= 40 <= 42
+
+1) ist die gewöhnliche Limitierung einer Kauforder. Man möchte einfach nicht
+mehr dafür bezahlen.
+2) Ist der Auftrag die Aktie zu _jeden_Preis zu kaufen, sobald sie die 40
+erreicht hat.
+3) Ist der Auftrag die Aktie zu kaufen, sobald sie die 40 erreicht hat, aber
+nicht mehr als 42 dafür zu bezahlen.
+
+2) noch konkreter: Sobald die Aktie einen Kurs von 40 erreicht hat, wird die
+Stop Buy Order in eine Market Order umgewandelt. Die Aktie wird also zum
+nächsten Kurs gekauft. Rein theoretisch kann der nächste Kurs auch < 40
+sein, sehr oft ist er aber unangenehm höher.
+
+Gruß,
+Carlos (CARSTEN)
+
+--
+http://hrm.kaevshr.gvxetrwoey.gr/sudsyt/
+Schlösser, Technik, Kunst, Zeitgeschichte

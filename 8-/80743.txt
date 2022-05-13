@@ -1,0 +1,39 @@
+Die Kiemle berechnet fuer jede Serie (fuer jeden Verfallstermin) die
+impliziete Volatilitaet der am Geld DAX-Optionen. Ist also der
+Mittelwert von PUT- und CALL-
+impliziete Volatilitaet. Z.B. VXG9.DTB (Verfall Juli) oder VXH9.DTB
+(Verfall August) etc. Da man auch nie Optionen genau am Geld hat, werden
+die beiden Optionen, die am naechsten sind beruecksichtigt. Man
+benoetigt also 4 Optionspreise (2 Put und 2 Call) um die impliziete
+Volatilitaet zu berechnen.
+
+Man hat also fuer jeden Verfallstermin an der Kiemle eine impl.
+Volatilitaet - aehnlich wie eine Zinskurve fuer verschiedene Laufzeiten.
+
+Da sich jedoch die Restlaufzeit staendig veraendert, berechnet die Kiemle
+den VDAX fuer eine konstante Restlaufzeit von 45 Tagen als gewichtetes
+Mittel der implizieten Vola der Optionen, die die 45 Tage umspannen.
+Fuer die Berechnung braucht die Kiemle also 8 Optionspreise - deshalb
+wird der VDAX auch immer erst spaeter festgestellt als z.B. der FDAX.
+
+
+Vorsicht, das sind weniger Spesengruende. Z.B. ist ein Crash viel
+wahrscheinlicher, als er bei Lognormalverteilten Kursaenderungen (die
+Voraussetung der Black-Scholes-Theorie) sein sollte. Deshalb hat es GUTE
+GRUENDE, dass die impliziete Volatilitaet weit vom Geld (teilweise
+erheblich) groesser sein muss.
+Jeder der Optionen weit vom Geld mit den Volatilitaetsindices preist
+wird Geld verlieren! Der Aufpreis zur am Geld Volatilitaet spiegelt auch
+die Markterwartung
+von seltenen Ereignissen (Crash, Rally, etc.) wider.
+
+
+Uebrigens berechnet sich der VIX analog zum VDAX nur mit 30 Tagen. Er
+berucksichtigt CALL- und PUT-Preise gleichermassen. Daher ist die
+Aussage "dominated by the put premiums" fuer mich nicht nachvollziehbar.
+Allerdings kehrt die impliziete Volatilitaet immer zu Ihrem Mittelwert
+zurueck. Daher lohnt es sich sie zu kaufen, wenn sie niedrig ist....
+
+Xjya@Ojzrixau.ow
+--
+http://bpswinlx.yf

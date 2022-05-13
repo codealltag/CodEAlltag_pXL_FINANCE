@@ -1,0 +1,17 @@
+Das war so in etwa meine Idee. Was ich nicht empfehlen würde ist, von
+Anfang an von kleinen (oder unrepräsentativen) Datenmengen auszugehen
+und erst bei erfolgversprechenden Ergebnissen die Algorithmen auf
+größere Datenmengen loszulassen. Aber mir scheint es geschickter von
+Anfang an von großen (unbeschnittenen) Datenmengen auszugehen, da ein
+interessantes Muster einer kleinen Datenmenge in einer großen
+verschwinden kann. Genauso sieht man viele Muster in kleinen Datenmengen
+nicht, weil entweder das Muster in der Menge zufällig gerade nicht
+vorkommt oder gar größer (oder noch schlimmer: komplexer) als die Menge
+selbst ist.
+
+Ulrich
+
+-- 
+Ulrich Hülf
+Käsmüller, software development
+zxzy@zxqxq.lu

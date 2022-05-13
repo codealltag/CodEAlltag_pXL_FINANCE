@@ -1,0 +1,53 @@
+Der folgende Text ist nur als Hinweis auf das Vorhandensein des
+beschriebenen Indikators zu betrachten, zu seiner Umsetzung in die Praxis
+gehoert neben der entsprechenden Technik viel Sachverstand und vor allem
+ein "glueckliches Haendchen".
+
+Ich bitte aufkeimende Kritik in konstruktive Anregungen umzusetzen und
+hoffe mit meiner Arbeit wenigstens Anreiz fuer weitere, bessere
+Beschreibungen geliefert zu haben.
+
+
+  Bye von Volker
+
+
+Bisher beschrieben = (*)
+
+Bollinger Bands                      (0) *
+Phasenanalyse                        (12)
+Momentum                             (13)
+Coppock                              (14)
+Trendbestaetigung (TBI)              (15)
+Relative Staerke (RSI)               (11)
+Trendkorrelations-Analyse            (10)
+Volatilitaet                         (9)
+Overbougt-Oversold                   (3) *
+Stochastic-Indikator                 (2) *
+Performance/Beta                     (6)
+Directional Movement Indikator (DMI) (1) *
+Williams % R-Indikator               (7)
+On-Balance-Volumen (OBV)             (4) *
+Kurs-Volumen-Trend (KVT)             (8)
+Gleitender Durchschnitt              (5)
+
+
+Literatur:
+Handbuch MarketMaker Boersensoftware
+Boersenanalse m.d. Computer (HSB Bauteile)
+Werbewurfblatt mit Sonderangeboten ;)... von irgendwas muss man ja leben..
+
+
+Der On-Balance-Volumen Indikator setzt Umsaetze und Kursveraenderungen in  
+Relation. Das Volumen eines jeden Tages wird mit einem Plus- oder Minus- 
+Zeichen versehen, je nachdem ob der Schlusskurs gegenueber dem Vortag  
+hoeher oder niedriger lag. Das Resultat wird zum gestrigen Wert des  
+Indikators addiert und das Ergebnis ist die OBV Linie.
+
+Der OBV zeigt also an, ob Kapital in den Aktienmarkt fliesst oder ihm  
+entzogen wird. Durch Einblendung des gleitenden Durchschnittes (beliebig  
+einstellbar) laesst sich folgende Interpretation konstruieren. Faellt der  
+Indikator unter seine Durchschnittslinie, spricht man von einem  
+Verkaufssignal, in seiner Umkehr von einem Kaufsignal.
+
+Ein Idikator der es lohnt naeher betrachtet zu werden, da diese Faktoren  
+oftmals sehr vernachlaessigt werden.

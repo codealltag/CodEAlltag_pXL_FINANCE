@@ -1,0 +1,40 @@
+Sorry, wenn es noch Probleme geben sollte, die sind aber alle loesbar.
+Warum sollte es denn eigentlich die alte DOS-Version sein? Bin nicht
+mehr so ganz fit in dem Oldie, da seit mehr als 15 Monaten die
+MJ Guitars-Version raus ist, will aber gerne bei der Problemloesung
+helfen.
+
+
+Installationsanleitung also nicht gelesen...
+Von Festplatte installieren geht auch, wenn man mit SUBST arbeitet.
+
+
+Stimmt, der Speichertest stammt noch aus den Zeiten, als XMS nicht so
+funktionierte, wie es sollte, z.B. alte HIMEM.Treiber von EIR Daher
+wird der XMS mit Speichermuster vollgeschrieben und verglichen. 
+Abschaltbar mit  Parameter  /NOEXTCHECK
+
+
+Wahrscheinlich SMARTDRV /C eingegeben? Das geht auch nicht.
+Einfach SMARTDRV C
+so wie angegeben, haette es auch gebracht.
+
+Siehe LIESMICH.!!!
+590 KB sollten es fuer die alte DOS-Version schon sein,  625KB sind
+i.d.R. aber immer zu schaffen, auch mit Netzwerktreibern. Nur mit der
+CAPI wirds dann knapp, die sollte fuer Lagerplatz entfallen.
+Tai-Pan/Windows kaeme mit den 554 KB klar.
+
+Wohl weder noch!
+Einfach noch etwas mehr Speicher freischaufeln, notfalls im CGA-Modus
+starten mit dem Parameter   /CGA
+
+Warum soll es eigentlich fuer DOS sein? Lammering/Windows ist viel
+leistungsfaehiger und wird entsprechend weiterentwickelt. Tai-Pan/DOS
+kann man allenfalls mit den anderen austerbenden Dinosauriern
+vergleichen.
+Falls es sonst noch Fragen zu Tai-Pan/DOS oder Tai-Pan/Windows gibt:
+Einfach die Hotline anrufen oder eine Email an
+Ssaqowf@bn-xzordwfi.njv
+Viele Gruesse
+Beat Busenkrus

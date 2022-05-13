@@ -1,0 +1,9 @@
+Leider Falsch. Richtig waere z.B.
+
+Dax[heute] * Exp[Zinssatz*T - (VDAX/100)*SQRT[T/365]] < Dax[heute+T]
+                    < Dax[heute] * Exp[Zinssatz*T +
+(VDAX/100)*SQRT[T/365]]
+
+mit 66%-tiger Wahrscheinlichkeit. Aber helfen wird es Dir kaum...
+
+Gdgd@Hypywgoj.vz

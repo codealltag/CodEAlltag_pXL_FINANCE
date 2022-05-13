@@ -1,0 +1,57 @@
+Visual Basic 2010 Excel VBA Dateien erstellen Mül Momper
+Felgeer
+Author U.Mägebeer
+Video http://msj.weczzyk.gpk/szflf?g=0Jsxu3FvyCwZM
+
+Heute zeige ich Ihnen, wie man aus einer Visual-Basic-Anwendung Excel-
+Dateien programmieren und erstellen kann und darin auch Inhalte aus
+Internet-Seiten enthalten sein können. Natürlich braucht es nicht
+Excel zu sein, es geht mit jedem anderen Programm wie Word,Access,
+Open Office usw. auch.
+Dies ist eine erhebliche Erleichterung, Sie können in einem Schwung
+ganze Excel-Anwendungen aus Visual-Basic heraus konfigurieren, jede
+einzelne Zelle einfärben, die Schriftfarben bestimmen, Formeln
+einschreiben lassen und natürlich auch Inhalte. Dies ist sinnvoll,
+wenn Sie z.B. aus dem Internet oder aus Ihrer Anwendung Börsenkurse,
+Fussballergebnise oder Permanenzen von Spielcasinos übertragen wollen.
+Das geht dann in einem Schwung und Sie können auch auf der Excel-Datei
+gleich die Formeln, ein Diagramm und alles weitere konfigurieren
+lassen, also jede Funktion, die Excel hat.
+Ich mache es so, dass hier hier mal eine Reihe Zahlen formatiert in
+eine Excel-Datei übertragen lasse, diese Datei auch formatiere mit
+farbigen Zellenhintergründen, farbiger Schrift usw. Dann lade ich den
+Inhalt einer Internetsite in Excel auf und kann diesen Inhalt dort
+auch gleich weiterverarbeiten.
+Nur ein relativer kurzer Code ist für alle das notwending und der
+lautet:
+       Excel_load =3D CreateObject("Excel.Application")
+        Excel_load.Visible =3D True
+        Excel_done =3D Excel_load.Workbooks.Add
+        Tabellenblatt =3D Excel_done.ActiveSheet
+        Zeile =3D Excel_done.ActiveSheet.Range("A1:A20")
+        Zeile.Font.bold =3D True    'Fettschrift
+        Zeile.Font.Italic =3D True  'Schrift kursiv
+        Zeile.Font.Name =3D "Arial Black"  'Schriftart
+        Zeile.Font.Color =3D 40456640  'Schriftfarbe, hier rosa
+        Zeile.Interior.Color =3D 43099156  'Zellenfarbe, hier grün
+        Zeile.ColumnWidth =3D 70 'Breite der Zellen
+        Zeile.value =3D "Moin, Moin, heute am " _
+                       & Format$(Now, "dddd") _
+                       & " dem " & Now
+        'Internet Site auslesen oder komplett in Excel schreiben
+        Dim SelMcKenzieWWW As Object : Dim DerInhalt(1) As Object
+        SelMcKenzieWWW =3D CreateObject("InternetExplorer.Application")
+        SelMcKenzieWWW.Visible =3D True
+        SelMcKenzieWWW.Navigate("http://kny.dvlkrqxayj.zk")
+        NeueZeile =3D Excel_done.ActiveSheet.Range("A22")
+        NeueZeile =3D SelMcKenzieWWW.Navigate("http://
+www.nepwtdhavr.ss")
+        NeueZeile.value =3D DerInhalt(1)
+
+Sie können das Video ja anhalten und den Code, den ich gross lesbar
+geschrieben habe, abschreiben und erweitern.
+So, nun geht=92s los und wir starten und sehen Sie, alles funktioniert,
+die Excel Datei ist geschrieben, formatiert und auch der Inhalt der
+Internetsite ist enthalten.
+Das wars.
+Mägebeer

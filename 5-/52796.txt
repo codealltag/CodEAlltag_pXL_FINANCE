@@ -1,0 +1,15 @@
+sogar nur 5,946309436% im Monat, oder
+0,192726362% am Tag (ist doch fuer uns kein Problem ;-), oder
+0,008022859% in der Stunden oder
+0,000133709% in der Minute.
+
+Aber da die gesetzliche Basiseinheit im SI-System die
+Sekunde ist, sollte man Performance immer pro Sekunde angeben:
+wir wollen also nur
+0,000002228% pro Sekunde.
+
+Noch besser ist, auf auf die unsinnigen Prozent zu verzichten
+und zu sagen: Wir wollen nur, dass sich unser Vermoegen in jeder
+Sekunde mit 1,00000002228 multipliziert. (Zur Zeit spielt die
+Inflation ja keine Rolle, aber sicherheitshalber wollen wir noch
+einen Inflationsausgleich haben.)

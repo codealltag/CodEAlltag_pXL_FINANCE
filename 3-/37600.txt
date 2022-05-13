@@ -1,0 +1,40 @@
+meinem
+wahrscheinlich
+Verkaufsorder
+dann
+
+Es kommt immer der Kurs zustande, zu dem der höchste Umsatz möglich
+ist (wie das Tie-Break bei mehreren gleichen möglichen Umsätzen
+aussieht, habe ich im Moment nicht parat). Welcher das ist, kann man
+aus deinen Daten nicht ablesen.
+
+Beispiel 1:
+Kurs   V     K    möglicher Umsatz zu diesem Kurs
+49,00    0   100  0
+49,50    0   100  0
+50,00  100   100  100
+50,50  100   200  200 (auch derjenige, der nur 50,00 haben wollte,
+bekommt 50,50!)
+51,00  100   300  300
+51,50  100     0  0
+52,00  100     0  0
+
+In diesem Fall wird also der Kurs 51 betragen.
+
+Beispiel 2:
+Kurs   V     K    möglicher Umsatz zu diesem Kurs
+49,00    0   100  0
+49,50    0   100  0
+50,00  100   300  100
+50,50  100   200  200
+51,00  100   100  100
+51,50  100     0  0
+52,00  100     0  0
+
+Hier wäre der Kurs 50,50.
+
+Unlimitierte Verkaufsorders werden links oben, unlimitierte
+Verkaufsorders rechts unten eingetragen. Es spielt allerdings auch
+eine Rolle, wer zuerst da war.
+
+Sebastian

@@ -1,0 +1,49 @@
+Gerard Risswig <rjdhrjtfMYBLYO@dna.go> schrieb:
+44y63sd1.95232381@nkxz.hy.uck...
+
+
+Hallo Gerard,
+
+hier die gesuchten Formeln, allerdings ohne Beispielreihe:
+
+----------------------------------------------------------
+
+MACD = EMA1  - EMA2
+           t       t
+
+wobei:
+
+EMA1  = EMA (C ) = EMA   +((2/x+1)*(C -EMA   ))
+    t      x  t       t-1            t    t-1
+
+EMA2  = EMA (C ) = EMA   +((2/y+1)*(C -EMA   ))
+    t      y  t       t-1            t    t-1
+
+Trigger  = EMA (MACD ) = EMA   +((2/z+1)*(MACD -EMA   ))
+       t      z     t       t-1               t    t-1
+
+C   = Schlusskurs
+EMA = Exponentieller gleitender Durchschnitt
+
+----------------------------------------------------------
+
+wenn    C>C       dann  u=C   und  d=0
+           t-1             t
+
+wenn    C<C       dann  d=C   und  u=0
+           t-1             t
+
+U = (U   +u)/n
+      t-1
+
+D = (D   +d)/n    RS = U / D
+      t-1
+
+wobei: U = Durchschnitt der Aufwärts-Schlusskurse der letzen n Tage
+       D = Durchschnitt der Abwärts-Schlusskurse der letzen n Tage
+
+RSI = 100-(100/(1+RS))
+
+----------------------------------------------------------
+
+Gruss Alfred

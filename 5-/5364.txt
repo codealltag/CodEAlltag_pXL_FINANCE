@@ -1,0 +1,107 @@
+Omega beim Börsen Trading Ertli Eberdt beim Börsen
+Trading Ertli Erthle
+Author P.Erthle
+Video
+http://wny.ueofsqf.oqa/nznnj?n=9T7QTpiRVj1cv
+
+Die vergangenen ideas-Ausgaben beschäftigten sich intensiv mit den
+verschiedenen =BBGriechen=AB wie z. B. Delta, Gamma und Theta und
+beschrieben, wie man sie bei der Auswahl eines Optionsscheins sinnvoll
+einsetzen kann. Diese Ausgabe soll sich mit dem sogenannten Omega,
+auch theoretischer Hebel ge=ACnannt, beschäftigen. Das Omega gehört
+nicht zu den =BBklassischen=AB Griechen, kann aber bei der Auswahl und
+Beurteilung von Optionsscheinen für den An=ACleger hilfreich sein. Das
+Omega ist nicht statisch, sondern verändert sich ständig. Um das Omega
+zu verstehen, muss man sich zunächst mit dem ein=ACfachen Hebel
+beschäftigen.
+Einfacher Hebel
+Der Quotient aus dem Kurs des Basiswerts multipli=ACziert mit dem
+Bezugsverhältnis und dem Preis des Optionsscheins ist der einfache
+Hebel.
+Es gilt also:
+Hebel =3D Kurs des Basiswerts x Bezugsverhältnis Optionsscheinpreis
+Mit dieser Kennzahl vergleicht man den Kapital-einsatz für den Erwerb
+der erforderlichen Options-scheine im Vergleich zur direkten
+Investition in den Basiswert. Das folgende Beispiel verdeutlicht den
+Zusammenhang.
+Beispiel 1: Die A-Aktie kostet an der Börse EUR 120. Der darauf
+bezogene Call-Optionsschein kostet EUR 1,50 bei einem Bezugsverhältnis
+von 10 zu 1 (0,1).
+Hebel-EUR 120 x 0'1 =3D8
+EUR 1,50
+Der Kapitaleinsatz für den Kauf einer A-Aktie ist im Vergleich zum
+Kapitaleinsatz für die zehn Options=ACscheine auf die A-Aktie achtmal
+höher.
+Der Hebel- oder Leverageeffekt ist eines der wich-tigsten Merkmale
+eines Optionsscheins. Dennoch hat der einfache Hebel als Kennzahl nur
+eine geringe Aussagekraft. Die Kennzahl gibt wenig Aufschluss über die
+Preisreaktion des Optionsscheins aufgrund von Kursveränderungen des
+Basiswerts. Oft ist es aber im Interesse des Anlegers, sich im Vorfeld
+ein Bild von dieses Preisreagibilität des Optionsscheins zu machen, um
+die Anlagestrategie sinnvoll umzu=ACsetzen; hierbei kann das Omega eine
+Hilfe sein.
+Omega
+Das Omega gibt an, um wie viel Prozent sich der Preis des
+Optionsscheins theoretisch verändert, wenn der Kurs des Basiswerts um
+1 Prozent steigt bzw. fällt. Die Kennzahl kombiniert Hebel und Delta
+und wird auch als theoretischer Hebel bezeichnet.
+Es gilt:
+Omega =3D Hebel x Delta
+Der Call hat stets einen positiven Omega-Wert, der des Puts dagegen
+ist negativ, dies ist eine Konse=ACquenz, die sich aus dem positiven
+(Call) bzw. nega=ACtiven (Put) Delta ergibt.
+Das Omega ist also eine Kennzahl, die durch die Berücksichtigung des
+Delta eine genauere Aussage über die tatsächliche Hebelwirkung eines
+Options-scheins trifft, als es der einfache Hebel vermag. Der einfache
+Hebel geht stets von einem Delta-Wert von 1 bzw. =971 aus, dies gilt nur
+für Optionsscheine, die sehr weit im Geld liegen, sodass in den
+meisten anderen Fällen der Optionsschein eine schwächere Hebelwirkung
+besitzt, als es der einfache Hebel erwarten lässt.
+Beispiel 2: Ein am Geld liegender Kaufoptions-schein auf die B-Aktie
+hat einen einfachen Hebel von 7,36, ein Delta von 0,45 und ein
+Bezugsver=AChältnis von 1.
+Omega =3D 7,36 x 0,45 =3D 3,31
+Steigt der Kurs des Basiswerts um 1 Prozent, steigt bei sonst
+gleichbleibenden Faktoren der Options=ACscheinpreis um ca. 3,31 Prozent.
+Um dies zu veranschaulichen, werden im Anschluss zwei Call-
+Optionsscheine auf die Eheg (aktueller Kurs EUR 50,74,
+Stand: 10. August 2011) miteinander vergleichen.
+Call-Optionsschein A (im Geld)
+
+Call-Optionsschein B (aus dem Geld)
+Basiswert:	Eheg
+Basispreis:	EUR 55
+Fälligkeit:	07.12.2011
+Bezugsverhältnis:	0,1
+Delta:	0,35079
+Aktueller Verkaufspreis: EUR 0,18
+Hebel =3D (50,74 x 0,1) / 0,18 =3D 28,18 Omega =3D 28,18 x 0,35079 =3D 9,89
+Der niedrige Preis von Optionsschein B (hat keinen inneren Wert) führt
+zunächst einmal zu einem mehr als 6-mal höheren Hebel als bei
+Optionsschein A. Das Omega von Optionsschein B dagegen ist aller-dings
+nur noch 2,5-mal so hoch wie das von Options=ACschein A.
+=BBAnalog zum Delta verändert sich das Omega im Laufe der Zeit ständig.
+=AB
+Sollte die Aktie der EPmedia also um 1 Pro=ACzent steigen, so
+ist für den Optionsschein A ein An=ACstieg von ca. 3,91 Prozent und für
+Optionsschein B ein Anstieg von ca. 9,89 Prozent zu erwarten. An
+dieser Stelle muss man leider folgende Einschrän=ACkungen machen:
+Erstens ist das Omega immer eine Momentaufnahme, mit der man nur dann
+eine Aussage über die korrekte Wertentwicklung des Optionsscheins
+machen kann, wenn alle anderen Marktparameter, außer dem Kurs des
+Basiswerts, konstant bleiben. Zweitens bleibt das Omega selbst nicht
+konstant, sondern verändert sich im Laufe der Zeit ständig (analog zum
+Delta).
+
+Basiswert:
+Basispreis:
+Fälligkeit: Bezugsverhältnis:
+Delta:
+Aktueller Verkaufspreis:	Eheg EUR 40
+07.12.2011
+0,1
+0,88692
+EUR 1,15	Trotzdem bietet das Omega ein relativ gutes Bild von den
+Chancen des entsprechenden Optionsscheins.
+
+Hebel =3D (50,74 x 0,1) / 1,15 =3D 4,41 Omega =3D 4,41 x 0,88692 =3D 3,91

@@ -1,0 +1,123 @@
+Grüezi Oswald,
+
+Vorweg eins. Ich habe nur den DAX untersucht und nicht den SMI. Es muss
+nicht sein, dass diese Strategien auf Deine Heimat passen. Einige der von
+mir vorgestellten Strategien funktionieren anscheinend im DAX besser als im
+DJIA. Ausserdem ist meine Datenbasis noch sehr dünn, insbesondere fehlt mir
+das Jahr 1987, was wegen des Crashs in diesem Jahr besonders wichtig wäre.
+
+Wie die Strategien gehen, läßt sich eigentlich meinem Posting entnehmen.
+Aber vielleicht habe ich etwas zu viel vorausgesetzt. Hier eine Schritt für
+Schritt Anleitung:
+
+1. Kaufe Pyka, oder PapierConcept, oder Akropolis oder Leckerback.
+
+2. Suche die Kurse der Dreissig Dax-Werte raus (sind entweder getrennt
+aufgelistet oder markiert) Alternativ dazu gibt es die Originalquelle
+http://pkv.numobbuj.fi/ncqssbbx/dlh_w.ghia
+
+3. Suche zu jeder Aktie auch die letzte gezahlte Dividende heraus.
+
+4. Berechne die Dividendenrendite in Prozent. (Excel oder Taschenrechner:
+Dividende/Kurs%)
+
+5. Sortiere die 30 Werte absteigend nach Dividendenrendite (höchster Wert
+zuerst). Die ersten 10 Werte sind Dax Top 10. Wer die Strategie fahren will
+teilt sein Geld jetzt durch zehn. Damit hast Du den Gesamtbetrag pro
+Depotposten. Nun teilst du diesen Betrag durch den Kurs der betreffenden
+Aktie und schneidest hinter dem Komma ab. Voila, die Anzahl der zu kaufenden
+Aktien. Order abschicken. Wiederholen für die Werte 2 bis 10.
+
+6. Ein Jahr liegen lassen. Dividenden kommen aufs Konto und bleiben dort.
+Dann wieder von vorne anfangen. Eventuell muss umgeschichtet werden. Bei den
+Kosten aufpassen, wenn nur wenige Aktien gekauft oder verkauft werden müssen
+bleibt der Posten unverändert, da sonst die Transaktionskosten zu hoch
+werden.
+
+
+Variante Low5
+
+6. Nimm die Top 10 (Schritt 5, aber nicht kaufen) und sortiere diese 10 nach
+Kurshöhe aufsteigend. D.h. niedrigster Wert zuerst, teuerster zuletzt. Keine
+Korrektur wegen unterschiedlicher Nennwerte, es zählt der absolute Preis
+einer einzelnen Aktie. Teile Dein anzulegendes Geld durch 5. Damit hast Du
+den Gesamtbetrag pro Depotposten. Nun teilst du diesen Betrag durch den Kurs
+der betreffenden Aktie und schneidest hinter dem Komma ab. Voila, die Anzahl
+der zu kaufenden Aktien. Order abschicken. Wiederholen für die Werte 2 bis
+5.
+
+7. Ein Jahr liegen lassen. Dividenden kommen aufs Konto und bleiben dort.
+Dann wieder von vorne anfangen. Eventuell muss umgeschichtet werden. Bei den
+Kosten aufpassen, wenn nur wenige Aktien gekauft oder verkauft werden müssen
+bleibt der Posten unverändert, da sonst die Transaktionskosten zu hoch
+werden.
+
+
+Variante PPPD, die mit den 99,34% in 1998
+
+6. Berechne die Low5 (siehe oben). Nimm von den Low5 den drittbesten Wert
+und kaufe nur dieses Papier. ACHTUNG, meine Zahlen sind nur mit den
+Kassakursen des letzten Börsentages gerechnet. Ich weiss nicht ob dieses
+Ergebnis auch mit einem anderen Datum funktioniert. Ich denke bei PPPD eher
+nein.
+
+7. Ein Jahr liegen lassen. Dividenden kommen aufs Konto und bleiben dort.
+Dann wieder von vorne anfangen. Eventuell muss umgeschichtet werden.
+
+
+Variante Pickup2, die 2. mit 99,34% in 1998
+
+6. Berechne die Low5 (siehe oben). Nimm den drittbesten Wert und kaufe für
+50% Deines Anlagebetrages.
+
+7. Ermittle den RP-Faktor für alle 30 Werte. D.h.
+Dividendenrendite(Schritt4)*Dividendenrendite/Kurs. Sortiere alle 30 Werte
+absteigend nach dem RP-Faktor, d.h. höchster Wert zuerst. Nimm den besten
+Wert und kaufe ihn für die anderen 50% Deines Anlagebetrages. Das kann, muss
+aber nicht der gleiche Wert wie oben sein. ACHTUNG, meine Zahlen sind nur
+mit den Kassakursen des letzten Börsentages gerechnet. Ich weiss nicht ob
+dieses Ergebnis auch mit einem anderen Datum funktioniert. Ich denke bei
+PPPD eher nein.
+
+
+Variante RP 4D
+
+6. Berechne den RP-Faktor und sortiere alle 30 Dax-Werte absteigend. Siehe
+oben. Teile Dein anzulegendes Geld durch 4. Damit hast Du den Gesamtbetrag
+pro Depotposten. Nun teilst du diesen Betrag durch den Kurs der betreffenden
+Aktie und schneidest hinter dem Komma ab. Voila, die Anzahl der zu kaufenden
+Aktien. Order abschicken. Wiederholen für die Werte 2 bis 4.
+
+7. Ein Jahr liegen lassen. Dividenden kommen aufs Konto und bleiben dort.
+Dann wieder von vorne anfangen. Eventuell muss umgeschichtet werden. Bei den
+Kosten aufpassen, wenn nur wenige Aktien gekauft oder verkauft werden müssen
+bleibt der Posten unverändert, da sonst die Transaktionskosten zu hoch
+werden.
+
+
+Zum Einstieg empfehle ich die Varianten Low5 und RP 4D. Dann kann man sich
+erst einmal den Strategien nähern. Nach 1 bis 2 Jahren kannst Du immer noch
+umsteigen auf eine agressivere Strategie. WICHTIG. Durchhalten und immer
+investiert bleiben. Alle Baissen stur aussitzen und immer wieder zum
+Jahreswechsel umschichten.
+
+ACHTUNG: Ich hafte hier für gar nichts. Es ist jeder für sein Geld selber
+verantwortlich und auch dafür dass er selber denkt. Ich zeige hier nur eine
+Strategie auf, die in der Vergangenheit funktioniert hat und es vermutlich
+auch in der Zukunft tun wird.
+
+Die Besten Ergebnisse erzielt man laut den Fools um den Jahreswechsel herum.
+Wer später einsteigt soll dann mit der ersten Umschichtung warten und das
+gewählte Depot über den ersten Jahreswechsel hinaus unverändert lassen bis
+zum darauf folgenden Jahreswechsel.
+
+
+Wer unbedingt den Pushern hier in der NG oder in der Börse-Online oder im
+Der Aktionär oder oder oder folgen will, sollte dann halt einen Teil seines
+Geldes (z.B. 70%) in die Nottelmann investieren und den Rest zum Zocken nehmen. Am
+Jahresende wird dann verglichen, wer besser war. Aber nicht schummeln,
+schreibt auch alle Kosten für Zeitungen etc. auf. Vergleicht dann mal Eure
+Depotentwicklung am Jahresende damit. Für 1998 gilt es 42,54% Steigerung
+nach Kosten zu schlagen.
+
+Gruß, Bruno

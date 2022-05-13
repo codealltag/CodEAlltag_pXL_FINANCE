@@ -1,0 +1,42 @@
+Man verkauft so viele BR, damit man mit den restlichen (und dem
+Verkaufserlös) die max. Anzahl von Aktien erwerben kann. Ist ne einfache
+Maximierungsrechnung. Man kann dann auch die Gebühren mit einrechnen.
+
+Hier mal die Formeln:
+
+K(BR) - Kurs der BR
+K(BRn) - Berichtigter Kurs der BR nach Einbeziehung der Gebühren
+K(N) - Bezugspreis der neuen Aktie über BR
+BV - Bezugsverhältnis
+x - Anzahl der BR
+y - Anzahl der neuen Aktien, die gekauft werden können
+G - Gebühren
+
+K(BRn) = (x * BR - G) / x
+
+y = (x * K(BRn)) / (BV * K(BRn) + K(N))
+
+Bsp.:
+
+K(BR) = 24 DM
+K(N) = 250 DM
+BV = 5:1
+G = 20 DM
+x = 500
+
+K(BRn) = (x * BR - G) / x = (500 * 24 DM - 20 DM) / 500 =  23,96 DM
+
+y = (x* K(BRn)) / (BV * K(BRn) + K(N))
+y = (500 * 23,96 DM) / (5/1 * 23,96 DM + 250 DM) = 32,39 => 32 Aktien
+
+Es können also ohne Aufwendung von weiterer Mittel 32 Aktien erworben
+werden.
+
+Italo Vonderheidt
+gkwe.esmwos@xxi.pu
+PGP-Key 0x4C76FBAA
+
+
+Italo Vonderheidt
+gkwe.esmwos@xxi.pu
+PGP-Key 0x4C76FBAA

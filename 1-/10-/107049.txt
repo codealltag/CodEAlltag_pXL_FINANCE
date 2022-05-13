@@ -1,0 +1,23 @@
+Darüber ist mir nichts bekannt, aber:
+Der sog. Smile ist ein Resultat der Unzulänglichkeit des BS-Modells.
+BS unterstellen normalverteilte Renditen. Dies ist jedoch nicht
+beobachtbar. Die beobachteten Optionspreise tragen diesem Umstand
+jedoch sehr wohl Rechnung. Wendet man auf diese Preise nun das
+fehlerbehaftete BS-Modell an, so erhält man den Smile.
+ Zweifellos drücken sich in dem Smile die Erwartungen bezüglich der
+Form der zukünftigen Verteilung der Renditen aus. Daraus aber eine
+Prognose ableiten zu wollen...
+
+Interessant wäre vielleicht zu untersuchen, was eine eventuelle
+Änderung der Form des Smiles zu bedeuten hat.
+Wie gesagt, ich habe keine Informationen, was das Optionsscheinmagazin
+dazu schreibt. Kannst Du das konkretisieren? 
+
+Es wäre sicher kein Problem, verschiedene Regressionen sowohl intraday
+über verschiedene Basispreise als auch über ein längeres Zeitintervall
+z.B.für einen bestimmten Basispreis zu rechnen. Aber der Sinn
+erschließt sich mir so spontan nicht :-)
+
+
+Ciao, 
+Karsten

@@ -1,0 +1,29 @@
+Moin!
+
+Orlando Pröller <Bnneg.Qvwhozeg@hcr.dj> schrieb in im Newsbeitrag:
+26H6021F.46382VI4@oed.fc...
+
+Tnx, das hört man von Linux-Usern selten :) Ich habs hier ja auch laufen,
+aber eben nur auf nem Nebenkriegsschauplatz.
+
+max
+
+
+N, das hat was mit 32bittiger Angabe der Dateigröße zu tun. Bei
+64-Bit-Linux ists kein Problem, und es wird auch daran gearbeitet. Was für
+jetzt nicht hilft, weil man die Chocolaterie-Gemeinde natürlich nicht wie Schraubenkiste auf
+nen Liefertermin festnageln kann.
+
+
+Die "normalen" Boards können nur bis 1 GB, da der Vege-Chipsatz nicht mehr
+adressieren kann. Spezielle Boards (4x oder 8x Xeon und so Scherze) können
+mehr. Dummerweise kann Linux nicht mehr als 2 GB verwalten, Grund wohl s.o.
+NT kommt auf 4 GB, soweit ich weiß, es soll auch noch weiter gehen.
+
+
+Das läuft klasse, nur skaliert das System nicht so doll weiter, mehr als 4
+CPUs bringt rein gar nix (mal ausgenmmen Beowulf, aber das ist ne ganz
+andere Baustelle). Der Kernel ist zu monolithisch, die basteln an ner
+feineren Granularität.
+
+Bye, Philipp

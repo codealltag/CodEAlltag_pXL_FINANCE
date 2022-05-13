@@ -1,0 +1,18 @@
+Also ich kenne das Buch oben auch nicht - jedoch ist eine solche Aussage
+an der Boerse ohnehin vollkommen falsch. Allerdings kann ich mir sehr
+gut vorstellen, welches theoretische Modell gemeint ist:
+
+Wenn die Preisaenderungen der Aktien lognormal verteilt (uebrigens auch
+eine Voraussetzung der Black-Scholes-Optionspreistheorie) und
+voneinander unabhaengig sind - dann reduziert sich das Gesamtrisiko mit
+der Quadratwurzel aus der Anzahl der Titel (die Wurzel ist natuerlich
+eine nichtlineare Funktion :-)). Also, wenn ich das Risiko halbieren
+will, muss ich viermal soviele Titel in meinem Portfolio haben.
+
+Nun sind die Annahmen aber in der Realitaet nicht erfuellt. Wenn z.B.
+der Dow crasht gehen die meisten anderen Aktien oder Instrumente selber
+runter oder hoch (bei Puts z.B.). Es wird kaum vom Dow unabhaengige
+Investments an der Boerse geben. Eher sollte man dann mit Immobilien
+oder aehnlich diversifizieren.
+
+Lfkq@Ltldbfeo.md

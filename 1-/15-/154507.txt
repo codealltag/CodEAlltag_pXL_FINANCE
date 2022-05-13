@@ -1,0 +1,41 @@
+Ganz sicher ist das mein Ernst. Er hat nach Absicherung 
+gefragt, und Absicherung kostet immer Performance, egal 
+ob mit Calls oder Puts.
+Bei fairen Marktpreisen kommt bei diser Absicherung mit Calls 
+nahezu das gleiche heraus wie mit Puts. Profis nennen diese 
+Gesetzmaessigkeit "Call-Put-Paritaet".
+(Fast) jede Put-Strategie laest sich auch mit Calls 
+durchfuehren und umgekehrt. Man muss halt etwas davon 
+verstehen.
+
+Rechenbeispiel (ohne Spesen):
+Der DAX liegt bei 4.000
+1 Put Basis 4.000 mit 1 Jahr Laufzeit kostet 332 (i.Vola 24.8)
+1 Call Basis 4.000 mit 1 Jahr Laufzeit kostet 450 (i.Vola 24.8)
+
+Beispiel A)
+Kauf 23 DAX-Scheine a 4.000 = 92.000
+Kauf 23 DAX-Puts a 332         =  7.636
+---------------------------------------------------------
+Gesamteinsatz                        99.636
+
+
+Beispiel B)
+Anlage 89.286 zu 5% Zinsen  = 89.286
+Kauf 23 DAX-Calls a 450        = 10.350              
+----------------------------------------------------------
+Gesamteinsatz                        99.636
+
+
+Ergebnis nach 4 Wochen
+
+Bei DAX               3.500                 4.000                 4.500
+--------------------------------------------------------------------------
+------------
+Beispiel A           93.823               99.362               107.311
+Beispiel B           93.824               99.363               107.311 
+
+
+Albrecht
+Visit   http://bpafnou.nsq.gqj/qasrjy  and download a 
+free calculator for options, futures, bonds and similar stuff.

@@ -1,0 +1,185 @@
+Roulette Kesselgucken WurfWeiten
+Erläuterung als Vierer-Gruppe:
+Author: Dr. F.Dünnes
+
+Die neun Vierer-Gruppen
+Der Nummernkranz wird in 9 fixe Vierer-Gruppen eingeteilt, die mit den
+einziffrigen Nummern 1 bis
+9 benannt werden; hinzu kommt die Z=E9ro.
+Die Verteilung dieser 9 Vierer-Gruppen 1 bis 9 sowie auch jeweils die
+anderen 3 (zweiziffrigen)
+Nummern jeder Vierer-Gruppe kann man sich relativ schnell merken.
+Desgleichen auch jeweils die
+Gruppe, die am ehesten gegenüber liegt - wobei es hier zu Unschärfen
+(fuzzy) kommen kann, die
+jedoch durch eine starre Setzweise (mit variabler Stückzahl) nicht
+weiter ins Gewicht fällt (siehe die
+nächsten Seiten).
+Die Wurfweiten-Gruppen gehen von 0 bis 8 in Kugellaufrichtung - und
+über die werden alle
+Kriterien angewendet. Man kann sie mit etwas Übung ruck-zuck ohne
+Drehkomponenten abzählen.
+
+Flexibel-hybrid und mit fuzzy logic (unscharfer Logik) konstruiert,
+und mit fixen, feststehenden Hauptparametern, die aus der Erfahrung
+kommen (wie z.B. der physikalische Gegenüber-Effekt, der meistens
+auftritt).
+Es gilt generell das folgende Argument in der einen oder anderen
+Version: Bei den Vierer-Gruppen spielt es vom klassischen
+Wahrscheinlichkeitsstandpunkt aus keine Rolle, ob diese aus vier
+zusammenhängenden Nummern bestehen oder nicht; also können sie auch
+aus jeweils 2 mal 2 zusammenhängenden Nummern bestehen, die sich auf
+der Scheibe in etwa gegenüber befinden.
+
+Die fixen Setzbereiche (mit variabler Stückzahl)
+Es werden nur 4 Typen von Setzbereichen in Betracht gezogen, und zwar
+mit variabler Anzahl von
+Stücken jeweils auf Chevaux und Transversales pleines. Gesetzt kann
+jede Teilmenge der
+ausgezeichneten Nummern werden - minimales Optimum ist der jeweilige
+=84Kern".
+Das gilt für die Wiederholungen sowohl physikalisch-gleichmäßiger als
+auch zufälliger WW-
+Gruppen.
+Es fällt kein Tronc an - außer bei Trefferballungen; da sollte man das
+Personal nicht verärgern...
+
+Dies ist der Setzbereich des 1. Typs. Kern: 0/3, 5/8 und 23/26.
+Man kann auch bloß eine Teilmenge dieses Kerns setzen (z.B. 1 Stk auf
+23/26) oder auch den Kern ergänzen (z.B. mit 10/11, 12/15, 23/24,
+32/35).
+
+Setzbereich des 2. Typs Kern: 1/4, TP 19-21.
+Mögliche Ergänzungen zum Kern: 1/2, 16/19, 32/33.
+
+Setzbereich des 3. Typs Kern: 6/9, 14/17, 31/34
+Mögliche Ergänzungen zum Kern: 17/18 oder 17/20 (je nach
+Ermittlungstendenz), 22/25.
+
+Setzbereich des 4. Typs Kern: 7/8, TP 28-30.
+Mögliche Ergänzungen zum Kern: 11/12, 35/36.
+
+
+Die Wurfweiten-Wiederholungen der Vierer-Gruppen
+WW-Gruppen (starr) von 0 bis 8 und getrennt nach Richtung, wie bekannt
+ermitteln (analog der Sechser- und Dreier-Gruppen in ZdS - die dort
+beweglich sind).
+Die können praktisch auf jeder Scheibe einer Permanenzkarte schnell
+abgezählt werden.
+Die Wurfweiten-Kriterien der Vierer-Gruppen
+Das Kriterium 3 gleiche (oder gegenüber liegende) WW-Gruppen aus den
+letzten 3 oder 4 Coups: Signal zum 2maligem Setzen der entsprechenden
+WW-Gruppen-Kombination (stets in der gleichen Richtung).
+
+Dieser klassische Teil allein hat, spieltheoretisch betrachtet, nicht
+nur einen gewissen Unterhaltungswert. Es ist ein interessantes
+Ergänzungsspiel zur Wurfweiten-Methode, das letztere wirksam tarnt -
+und das ist mittlerweile fast schon notwendig.
+Die zufälligen Wiederholungen der Vierer-Gruppen
+Bei den Vierer-Gruppen spielt es vom klassischen
+Wahrscheinlichkeitsstandpunkt aus keine Rolle, ob diese aus vier
+zusammenhängenden Nummern bestehen oder nicht; also können sie auch
+aus jeweils 2 mal 2 zusammenhängenden Nummern bestehen, die sich auf
+der Scheibe in etwa gegenüber befinden.
+Die Kriterien für das Spiel auf zufällige Wiederholungen
+Bei den zufälligen Wiederholungen der Vierer-Gruppen spielt es vom
+klassischen Wahrscheinlich=ACkeitsstandpunkt aus keine Rolle, ob dieWW-
+Gruppen gemäß der originalen Coupfolge betrachtet oder ob die
+Coupfolge in Links- und Rechtswürfe geteilt werden und für jede dieser
+beiden Gruppen das Kriterium zur Anwendung kommt.
+Die optimalen Angriffs-Fenster sind (4) und (4, 5).
+Herleitung in den Anmerkungen unter 1).
+Wenn in den letzten 3 Coups (in einer Richtung) KEINE Wiederholung der
+engeren WW-Gruppen
+war (wobei auch das engere Gegenüber in Betracht zu ziehen ist), dann
+ist das das Signal, um
+2mal, im 4. und 5. Coup, eine =84eingeschränkte Auswahl" der
+entsprechenden WW-Gruppe (inkl.
+Gegenüber) zu bespielen.
+Die =84Einschränkung der Auswahl" der in Betracht kommenden zufälligen
+Wiederholungen kann, wie bekannt, aus der EC-Wertigkeit der WW-Gruppen
+0, 1, 2, ..., 8 abgeleitet werden, wobei die EC-Wertigkeit der WW-
+Gruppe 0 beliebig fixiert wird. Als EC-Wertigkeiten kommen Gerade/
+Ungerade und/oder Rot/Schwarz in Betracht. (Manque/Passe sowie
+Dutzende/Kolonnen fallen für die einschränkende Auswahl natürlich hier=
+
+aus.)
+
+Die Harmonisierung der Kriterien
+Im Hinblick auf die Harmonisierung der hybriden Kriterien brauchen wir
+also nur eine einzige Buchhaltung der Coups zu machen - getrennt nach
+Richtung.
+Die physikalischen WW-Gruppen und die zufälligen WW-Gruppen sind nie
+gleichzeitig zu bespielen, da sich beide Signale ausschließen:
+Entweder es gibt keine WW-Wiederholungen -dann setzt man auf eine
+zufällige WW-Wiederholung -, oder es gibt (gleichmäßige) WW-
+Wiederholungen - dann setzt man auf die Fortsetzung der
+Gleichmäßigkeit.
+Die beiden Systemteile ergänzen sich: War keine WW-Wiederholung und
+setzt man auf eine zufällige - deren Wahrscheinlichkeit im optimalen
+Fenster ja nach der Wahrscheinlichkeits-verteilung maximal ist -, dann
+könnte durchaus eine WW-Wiederholung stattfinden, die sich als
+gleichmäßige WW-Wiederholung mit dem Kriterium =843 aus 4" fortsetzt und=
+
+ein (physikalisches) Signal auslöst.
+Die =84Umschaltung" erfolgt automatisch aufgrund eines von zwei
+Signalen, die sich weitgehend ergänzen, aber logisch ausschließen.
+(Sollte es dennoch einmal zu einem Interessenkonflikt kommen, so hat
+das physikalische WW-Spiel Vorrang (vor dem zufälligen).
+(Dieses =84Wechselspiel" ist fundiert und etwas ganz anderes, als wenn
+Jemand versucht, etwa zwischen Intermittenzen und Serien von EC das
+Richtige zu treffen.)
+Unscharfes Gegenüber (fuzzy): Genauigkeit ist nicht immer Wahrheit. Es
+genügt, die Tendenzen zu
+erfassen.
+Dennoch können Sie einen fixen Regelsatz verfolgen.
+Die optimale Hybrid-Synthese
+Der Erwartungsmix dürfte zwischen 7,5 und 12,5% liegen - grob
+geschätzt (und abhängig von den Bedingungen).
+Der Umsatz ist bei ein paar Stücken Einsatz je Coup recht ordentlich.
+Gelegentlich kommt es auch vor, dass keines der Kriterien greift.
+Jedenfalls erfordert dieses Hybridsystem bei weitem nicht so viel
+Geduld wie das reine WW-Spiel -allerdings auch etwas mehr
+Denkflexibilität.
+Das Personal, das dieses Spiel verfolgt, vermag kein durchschaubares
+Muster - keine ersichtliche Systematik - zu erkennen (da sich diese im
+Verlauf der Coups unvorhersehbar - aber für uns =84systematisch" -
+ändert).
+
+
+9
+9
+
+Anmerkungen
+1) Erste zufällige Wiederholung einer Vierer-(WW-)Gruppe
+Zur Bestimmung des optimalen Angriffs-Fensters gehen wir analog zu den
+Fällen =84zufällige Plein-Wiederholung" bzw. =84zufällige Transversale=
+-
+pleine-Wiederholung" vor (Skript gratis im Umlauf oder Buch Holzspielwaren /
+Anhang 1).
+Wir gehen also von einem Roulette mit neun gleich wahrscheinlichen
+Ereignissen aus, den WW-Gruppen: 0, 1, 2, ..., 8 (mit der jeweiligen
+Wahrscheinlichkeit 1/9) und bestimmen p(n), die Wahrscheinlichkeit
+dafür, dass die erste Wiederholung einer Gruppe im Coup n stattfindet.
+Es sind also jene Wahrscheinlichkeiten p(n), dass bis zum Coup n - 1
+alle Gruppen verschieden sind und der n-te Coup gleich einer der n - 1
+vorangegangenen (untereinander verschiedenen) Gruppen ist. Für den
+ersten Coup n =3D 1 haben wir trivialerweise p(1) =3D 0 (da beim ersten
+Coup noch keine Wiederholung sein kann). Und ab n =3D 11 gilt p(n) =3D 0,
+da spätestens beim zehnten Coup eine erste Wiederholung stattfinden
+muss (die Folgen mit Z=E9ro verlangen eine gesonderte Behandlung). Wenn
+n passend ist, d.h. n > 2, dann gilt allgemein:
+p(n) =3D 9/9 x 8/9 x 7/9 x ... x (9 - n + 2)/9    x    (n - 1)/9.
+Natürlich können wir das erste Glied 9/9 =3D 1 weglassen. Berechnen wir
+nun den Term p(n) für die ersten n > 2 (einzeln und kumulativ):
+
+n	Berechnung von p(n) einzeln	p(n)	kumulativ
+n =3D 2:	p(2) =3D 1/9	=AB11,11%	11,11%
+n =3D 3:	p(3) =3D 8/9   x   2/9	=AB19,75%	30,86%
+n =3D 4:	p(4) =3D 8/9 x 7/9   x   3/9	=AB 23,05%	53,91%
+n =3D 5:	p(5) =3D 8/9 x 7/9 x 6/9   x   4/9	=3D 20,48%	74,39%
+n =3D 6:	p(6) =3D 8/9 x 7/9 x 6/9 x 5/9   x   5/9	=AB14,23%	88,62%
+n =3D 7:	p(7) =3D 8/9 x 7/9 x 6/9 x 5/9 x 4/9   x   6/9	=3D   7,59%	96,21%
+usw. Auf die restlichen Fälle kommen noch 3,79%.
+Daraus ergibt sich das Maximum dieser Verteilung für n =3D 4 (Zentrum
+des optimalen Angriffs-Fensters).

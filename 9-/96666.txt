@@ -1,0 +1,14 @@
+Inwiefern komfortabler? Ich kenne WebDownload nicht, aber was sollte es
+denn besser machen koennen als lynx. Mit lynx kannst Du die Daten
+runterladen, die Du brauchst und sie dann in Deinem (Perl- oder
+Shell-)Script bearbeiten. WebDownload klingt wieder mal ziemlich
+Win-lastig. Ausserdem ist lynx ein ausgewachsener WWW-Browser, der
+zusaetzlich die Moeglichkeit bietet, per Kommandozeilen-Aufruf Seiten zu
+laden und zu speichern. WebDownload hoert sich fuer mich an, als ob man
+damit nur Seiten speichern koennte, ohne online zu browsen.
+
+-- 
+Ciao,                 Andreas
+
+Diese Nachricht besteht aus 100 % chlorfrei gebleichten, FCKW-freien, 
+wiederverwendbaren, geschmacksneutralen, nicht genmanipulierten Bits.

@@ -1,0 +1,39 @@
+Hallo nochmal!
+Zweiter Versuch:
+
+Ich sitze an einer Aufgabe fest, die zur Investitionsrechnung gehört.
+
+Zwei alternative Investitionsobjekte mit folgenden Zahlungsreihen 
+stehen dem Investor zur Verfügung:
+
+Za(-1000,500,500,500,500,500,0)
+Zb(-1500,570,570,570,570,570,570)
+
+Der Kalkulationszins beträgt 10%. Dem Investor stehen ö000 eigene 
+Mittel zur Verfügung. überschüssige Beiträge können zur 10% angelegt 
+werden. Außerdem besteht die moglichkeit, einen Kredit zu 20% 
+aufzunehmen, der frühestens nach 4 Jahren zu tilgen ist. Der 
+Planungszeitraum beträgt 6 Perioden.
+
+Welches Investitionsobjekt soll gewählt werden? Bestimmen sie die 
+Entwerte und Kapitalwerte!
+------------------------------------------------------------------------
+
+Bei der Zahlungsreihe Za ist es ja nicht so schwer, da kein Kredit 
+nötig ist.
+EW=z*((q^n-1)/(q-1))=500*((1,1^5 -1)/(1,1-1))=3052,5
+
+PV=-Io+z*[(q^n-1)/(q^n*(q-1))]=-1000+500*[(1,1^5 
+-1)/(1,1^5*(1,1-1))]=895,39
+
+Jetzt zu Zb:
+
+Den EW kann ohne Mühe berechnet werden, siehe Formel oben:
+
+EW=570*((1,1^6 -1)/(1,1-1))=4397,9
+
+Doch den Kapitalwert nicht, wenigstens nicht von mir...Also bis zum 
+vierten Jahr bleibt ja alles wie oben, doch ab da muss ja der Kredit 
+mit den Rückflüssen getilgt werden. Kann mir vielleicht jemand helfen?
+
+MfG Mathias Steuble

@@ -1,0 +1,22 @@
+A. Mainardy kritzelte:
+
+
+Nur die nackten Werte abrufen geht leider nicht, aber Du kannst die Abfrage
+auf/in einem 2. (3... 4...) Tabellenblatt erstellen und vom ersten Blatt
+(z.B. in einer Art 'Übersicht') einen Verweis auf die einzelnen Abfragen
+erstellen.
+
+Beispiel, wenn Du die Abfrage aus meinem Vorschlag übernommen hast:
+Geldkurs=WERT(TEIL('2'!$H$3;FINDEN(":";'2'!$H$3)+1;6))
+Briefkurs=WERT(TEIL('2'!$H$4;FINDEN(":";'2'!$H$4)+1;6))
+
+In den Formeln steht die Angabe '2' für den *Namen* des Tabellenblatts mit
+der Abfrage, also gfls. ändern. Nach diesem Schema kannst Du alle Werte aus
+den Abfragen in Deine 'Übersicht' einbinden. Achte dabei auf die Excel
+Zellformatierung.  Hilfe und Erklärungen zu den Formeln findest Du in der
+Excel Hilfe.
+
+Das funktioniert für *alle* WKNs die in Kleinhegnach gelistet sind.
+
+mfg
+Erich

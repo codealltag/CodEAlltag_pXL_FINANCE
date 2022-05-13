@@ -1,0 +1,33 @@
+Hi! 
+
+"B. Bloeck" <vssbpeyp.pcgkdc@cgg.krg.ybt.jk>:
+
+
+Es gibt zwei Margins: die Variation-Margin und die Initial-Margin.
+
+Die Initial-Margin beträgt das ein- bis vielfache von 29.000 DM (je
+nach Bank) und wird nur als Sicherheit hinterlegt.
+
+Die Variation-Margin beträgt das zweifache vom TEC-DAX-Schluss und
+wird beim "Opening" (Kauf oder Verkauf) Deinem Klunkakram-Konto belastet.
+Danach darf sie zwischen dem einfachen und 4-fachen DAX-Schluss
+schwanken. Fällt sie aus der Schwankungsbreite, wird die Differenz zum
+zweifachen DAX-Schluss ausbezahlt oder nachbelastet.
+
+
+VSAM verlangt die 3-fache Initial-Margin :-( Wahrscheinlich haben
+die ein wenig die Hosen voll. Aram verlangt die 1,5-fache
+Initial-Marigin.
+
+
+Ich verwende das Angebot von VSAM: EUREX-Preise Realtime für 40
+Mark im Monat. Das läuft über Internet.
+
+
+Die Frage verstehe ich nicht. Alle Produkte an der Klunkakram und alle
+TEC-Orders können mit Stop-Loss-Limit versehen werden. Meintest Du
+das?
+
+-- 
+CU
+François

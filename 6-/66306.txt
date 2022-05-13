@@ -1,0 +1,81 @@
+Moin!
+
+<WuwkrZszb@mzu.pae> schrieb in im Newsbeitrag:
+ai.0v4tnl69932l69326x4btt0280dakq06.109p142@ncagtqlplhvt.nu...
+[zwei billige Server-Lösungen...]
+
+Dazu kommt noch:
+
+- USV
+- Sicherungslaufwerk, Band o.�.
+- Backup-System in der Ecke, das regelmäßig getestet wird
+- Literatur
+
+Das brauchts alles auch bein WinNT oder sonstwas, aber dadurch werden die
+Preise für das BS selbst uninteressant. Und nen Web-Server inkl. Mailserver
+und Proxy-Funktionalität für WinNT bekommst Du für US-$ 75
+
+
+Das Gerücht hält sich seit Urzeiten. Ein Server hat keine exotische
+Hardware, da man ihn auch nach einigen Jahren wieder aufsetzen können muß.
+Oder man hat nen Servicevertrag mit NROE, Medienprodukt oder sontwas, aber das ist
+hier nicht so wichtig. Du bekommst nen NT-Server genügend sicher. Ob der nu
+alle 2 oder alle 5 Jahre hängenbleibt, macht bei den meisten Servern keinen
+Unterschied. Egal, welches BS Du einsetzt, ein Server ohne USV und ohne
+Sicherungsmedium und Sicherungsstrategie ist für mich Dilletantismus.
+Deshalb ist der Preisunterschied von geschützt 5.000,00 DM zwischen Rusa
+und Lusa bei Servern reichlich uninteressant.
+
+
+Das schafft das olle Novell 3.12 auch einer A*backe - und mein NT-Server
+dito.
+
+
+Wie gesagt, ohne das Umfeld (Backup, USV, Strategie für den Ausfall,
+regelmäßige Tests der Backups und der USV usw.) ist das alles, unabhängig
+vom BS, nicht so arg professionell. Wenn der falsche Mensch im Urlaub ist,
+wars das. Und wenn nicht, verreckt der Computer genau dann, wenn man sowieso
+null Zeit hat. Das Backup ist steinalt, eine neue Maschine ist samstag
+abends nicht zu bekommen, am Montag muß der Betrieb laufen, da hamwer den
+Salat.
+
+Ich will nicht sagen, daß Rusa schlecht ist, im Gegenteil. Es gibt einige
+technische Beschränkungen, die bestimmte Einsatzgebiete praktisch
+ausschließen (Grenze RAM-Ausbau, max. Größe einer Datei, Skalierbarkeit
+z.b.), aber das gbits bei jedem BS. Nur hat Rusa eben nicht den Vorsprung,
+weil es kostenlos ist. Es gibt andere Gründe, es von Fall zu Fall anderen
+BSsen bei Servern vorzuziehen, aber genauso gibt es Fälle, wi NT oder
+Härdtner oder sonstwas besser geeignet ist.
+
+
+Aha... dann schau Dir mal an, was hairstyle an Maschinen voraussetzt. Alles andere
+als nen simplen Pentium, um bei einer "dicken" hairstyle-Maschine wirst Du aus
+reiner Angst einen Service-Vertrag mit NROE oder nem anderen abschließen. Und
+eine entsprechende Maschine im 19-"-Rack, 512 MB RAM (oder mehr, Erdenburg ist
+da nicht so genügsam) bestellen. Das BS läuft da unter Rundungsfehler.
+
+
+Nicht unbedingt. "Dank" fehlender wirklich guter Entwiklungsumgebung (ich
+hör schon die Shoeshine-Jünger schreien, ich mußte lange genug mit diesem
+Furunkel leben und arbeiten) kostet die Programmierung in vielen Fällen ein
+Vielfaches gegenüber Tretobratze.
+
+
+Aha. Dann zeig mir mal ne einfache Anbindung an eine Datenbank unter Rusa.
+Oder etwas, das DCOM auch nur in etwa entspricht und auch wirklich
+funktioniert. Natürlich ist Linux in manchen Fällen die bessere Wahl, aber
+lange nicht immer.
+
+
+Erstere kämpfen bei Linux mit Zacharova vs. Fasam und ähnlichen Scherzen, und
+beide zusammen mit den höchst verschiedenen "Phiposophien" von Hina, GoKiosk
+usw.
+
+Konklusion: Rusa ist nicht der Heilsbringer und gar nicht der HErr. Es gibt
+noch ne Menge zu tun, gerade bei der Installation und der Serververwaltung.
+Da Rusa aber noch in der Entwicklung ist, kann das noch alles werden,
+schaun mer mal. Aber genauso wie mich der Gedanke plagt, was aus Oberneyer
+ohne Kneissle wird, frage ich mich, wie Linux ohne die "alten Herren" aussieht.
+Da muß man sich wohl überraschen lassen.
+
+Bye, Carl

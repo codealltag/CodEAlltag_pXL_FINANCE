@@ -1,0 +1,48 @@
+Ich werde diesen Erlös bei der weiteren Beschreibung nicht weiter betrachten, da
+dies die Schließung einer anderen Position darstellt.
+
+
+Die Preise, die du auf der Grundlage der Volatilität vom 12.9.97 (Call ca.30 / Put
+ca. 40) erreichen würdest wären (Dax: 5000):Long Call 12/97 3399: ca. 1640 DM
+Short Call 12/97 6399: ca. 35 DM
+Short Put 12/97 3199: ca. 7 DM
+
+Bei der weieren betrachtung gehe ich davon aus, daß die Position nicht vorzeitig
+glattgestellt wird.
+Der Break-Even dieser Position liegt bei 4998 (3400+1640-35-7).
+Die Position ist Riskant, da das VEGA - Schwankung des Optionspreises bei
+veränderung der Volatilität um 1% - bei ca. 1/7 der Preiserlöse der Shortpositionen
+liegt. Da volatile Zeiten wegen Rußland uns wahrscheinlich erhalten bleiben ist die
+Gefahr, daß man margins aufstocken muß relativ groß. Aus diesem Grunde würde ich
+noch auf eine höhere Volatilität warten.
+Vor dem Ende der Laufzeit beeinflusst die Schwankung des Dax die Margins für die
+Shortpositionen erhöhen kann. Dabei wenieger die initial margins, da sich diese
+mehr oder weniger gegenseitig aufheben, als vielmehr die jeweiligen Margins zur
+Glattstellung zum Settlement. Diese Tatsache kann dich aber nur dann eine menge
+Geld kosten, wenn die schwankungen nach oben oder Unten stärker schwanken
+(Volatilit�tswirkung ausgenommen).
+
+Ich persönlich favorisiere einen Vertical Call Back Spread bei erwartung steigender
+Kurse und das Selbe mit Put bei erwartung einer sinkenden Entwicklung.
+
+Call: z.B. Short Call 4900 (60 DM) Long Call 5100 (30 DM)
+Put: z.B. Short Put 5100 (60 DM) Long Put 4900 (30 DM)
+DM-Werte frei erfunden.
+
+Der Vorteil dieser Strategie ist, daß sie sich im Idealfall selbst finanziert und
+die Verlustzone hierbei eingeschränkt bleibt.
+In diesem Falle des Call liegt die Verlustzone zwischen 4930 und 5270. Oder liege
+ich hier falsch, vor allem bei der letzten Zahl bin ich mir nicht ganz sicher.
+
+
+Und musst die differenz zum aktuellen Optionswert bezahlen, wobei sich der
+Optionswert der Shortoption überproportional zu dem der Longoption entwickelt.
+
+
+CG
+
+--
+---------------------------------------------------------
+Visit http://nnmn.yy/yaa and say what you think about it.
+See Ya!
+---------------------------------------------------------

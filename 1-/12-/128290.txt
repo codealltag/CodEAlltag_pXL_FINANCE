@@ -1,0 +1,35 @@
+Es gibt:
+
+1) Die "historische Volatilitaet",  also die in der Vergangenheit
+gemessene Schwankungsaktivitaet des Underlyings (Aktie, Index).
+(Volatilitaet ist eine ziemlich abstrakte Kennzahl, die man besser 
+nicht mit Beispielen zu erklaeren versucht, sondern einfach 
+festhaelt: Je hoeher die Volatilitaet, desto schwangungsfreudiger
+der Kurs.)
+
+2) Die "implizite Volatilitaet" ist die im Optionspreis steckende
+Erwartung der zukuenftigen Schwankungsstaerke des Underlyings.
+Eine hohe implizite Vola bedeutet, dass der Aufpreis der Option 
+relativ hoch ist, weil der Markt starke Schwankungen fuer diesen
+Wert erwartet.
+Das ist ein rein spekulativer Wert, der vom Markt (Angebot und 
+Nachfrage) gemacht wird. Ob er zutreffend war weiss man erst 
+nachher. 
+Wegen dieser Unsicherheit orientieren sich viele Anleger an der
+historischen Volatilitaet und meinen, diese waere die richtige 
+und faire Volatilitaet fuer diese Option. Deshalb werden oft
+historische und implizite Vola verglichen.
+Das ist aber durchaus nicht immer sinnvoll. Wenn man erwartet,
+dass eine Aktie aufwacht und ausbricht kann z.B. eine hoehere
+Vola gerechtfertigt sein. Oder umgekehrt eine tiefere wenn man
+erwartet, dass sie sich beruhigt.
+Jeder muss da fuer sich selbst entscheiden, welche Vola er fuer
+diese Option gerechtfertigt haelt. Man muss sich nur bewusst sein: 
+Je hoeher die implizite Vola, desto relativ teuer ist die Option.
+Das ist dann wirklich nur noch gerechtfertigt, wenn man echte
+Action erwartet.
+
+
+Claudio
+Visit   http://brqakdk.kxo.hrh/uagddy  and download a 
+free calculator for options, futures, bonds and similar stuff.

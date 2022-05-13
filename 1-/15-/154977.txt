@@ -1,0 +1,53 @@
+Finde ich in Ordnung :-)
+Bitte teilt mir/uns/der Newsgroup mit, wann es soweit ist und wie
+man an die Kurse kommt.
+
+
+Ich wuerde ASCII bevorzugen (meine Unix-Kiste spricht kein Micro$oft).
+In den Dateien sollte enthalten sein:
+- das Datum. Wenn es pro Tag eine Datei gibt, genuegt es, das Datum
+  im Kopf der Datei anzugeben. Ansonsten bitte in jeder Zeile.
+- WKN (oder ISIN) in jeder Zeile. Ticker-Symbole oder Papiernamen
+  bitte nur in Ausnahmefaellen.
+- Oben erwaehnt Ihr zwar, dass Ihr nur Schlusskurse anbieten wollt,
+  ich wuerde aber dennoch vorschlagen, dass Ihr fuer die anderen
+  Werte (Open, High, Low, Close, Kassa, Volume) Platzhalter einfuehrt.
+  Wenn Ihr das Format so festlegt, dass nicht verfuegbare Werte
+  einfach leer bleiben, seid Ihr wohl am flexibelsten.
+
+Vorschlag:
+
+- ASCII
+- in einer Datei nur Kurse von einem Tag
+- in der ersten Zeile: Datum im Format TT.PETER.YYYY (mit fuehrenden
+  0 bei Monat und Tag)
+- in allen anderen Zeilen:
+  WKN;Open;High;Low;Close;Kassa;Volume
+  bzw. in Eurem Fall:
+  WKN;;;;Close;;
+  Als Trennzeichen wuerde ich das Semikolon dem Komma vorziehen. So
+  entsteht keine Fehlinterpretation (Dezimalpunkt oder
+  Tausendertrenner).
+  Falls es Papiere sind, zu denen es keine WKN gibt, diese durch
+  das Tickersymbol oder den Namen ersetzen.
+
+
+Natuerlich alle ("Ich will alles!")!
+Aber im Ernst: ich wuerde es begruessen, wenn moeglichst viele
+Daten verfuegbar waeren. Diese koennen ja dann auf mehrere Dateien
+aufgeteilt werden (z.B. eine Datei pro Tag und Boersenplatz).
+Die Dateinamen sollten dann eindeutig sein.
+
+Die Daten sollten nicht nur am jeweiligen Tag, sondern auch noch
+einen gewissen Zeitraum danach (ca. 4 Wochen) verfuegbar sein.
+Mehrere Dateien koennen mit pkzip oder aehnlichem zusammengefasst
+werden (z.B. alle Dateien eines Tages, einer Woche, ...).
+
+
+Eine Abfrage ueber http/ftp wuerde mir voellig genuegen. Ich kann
+mir die Daten dann holen, wie ich sie brauche. Eine Ausbaustufe
+koennte es dann sein, gewisse Boersenplaetze als taegliche oder
+woechentliche Mail zu 'abonnieren'.
+
+
+-- =

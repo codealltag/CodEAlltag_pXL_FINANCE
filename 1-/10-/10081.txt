@@ -1,0 +1,17 @@
+Allein durch die Änderung des Gewichts von Einzelwerten oder das
+Austauschen von Aktien im Index ändert sich am Indexstand nichts.
+
+Es gilt I = c * Summe( w_i * k_i ),
+mit w_i, k_i als Gewicht bzw. Kurs der i-ten Aktie.
+
+Wenn die w_i geändert werden, wird gleichzeitig c so angepasst, dass
+I gleich bleibt.
+
+CU
+Sébastien
+
+-- 
+Sébastien Jaeckel
+rruikcpb.wdycupq@ory.al is a valid address. All mail send to this
+address will be ignored, though. If you want to contact me by mail
+please replace "devnull" with "fuehring".

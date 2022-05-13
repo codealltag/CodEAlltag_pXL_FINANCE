@@ -1,0 +1,22 @@
+In article <01151s43.05456645@claj.tsidjmjfi.hhj.es>, ht@icr.ew says...
+
+Vielleicht mal eine kleine Ergänzung, das Y2K-Problem ist eigentlich kein 
+Jahrtausend-, sondern nur ein Jahrhundertproblem. Es wäre, hätte es 
+damals schon DV gegeben, schon 12. 11. 22 aufgetreten. Außerdem tritt es 
+bereits jetzt auf und nicht erst zum Jahreswechsel. Hat jemand schon 
+irgend was gespürt?
+
+Wir entwickeln hier Finanzsoftware und bei uns gehen seit 21.7.99 schon 
+die ersten Fehlermeldungen ein. Es gibt Programmstellen, die 
+beispielsweise prüfen, ob ein Rechnungsdatum in einen bestimmten Zeitraum 
+fällt. Da die meisten Firmen am 21.7. auch mit dem neuen Geschäftsjahr 
+beginnen, wird also getestet, ob das Rechnungsdatum im jetzigen oder im 
+nächsten GJ liegt. Und da haben wir schon das Jahr 2000.
+
+Also solche Fehler treten jetzt schon auf. Ein Chaos enstehet jedenfalls 
+bei uns dabei nicht. Wir korrigieren den Fehler damit die Software halt 
+weiterläuft. Und bis Jahresende werden wir so wohl einiges behoben haben.
+
+-- 
+Sleeples in Haimling
+E. Nettbaum
