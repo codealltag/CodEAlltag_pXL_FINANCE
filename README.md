@@ -2,7 +2,7 @@
 
 CodE Alltag<sub>XL</sub> FINANCE is part of CodE Alltag, a German-language email corpus. It contains ~174.000 automatically pseudonymized emails on financial issues, including stock exchange news.
 
-CodE Alltag<sub>XL</sub> has been extracted from Usenet newsgroups and underwent merely rudimentary data cleansing. Although no demographic information on the authors has been collected, CodE Alltag XL is likely to contain a gender bias since taggers recognized more mentions of male given names (either authors or persons written about).
+CodE Alltag<sub>XL</sub> has been extracted from Usenet newsgroups and underwent merely rudimentary data cleansing. Although no demographic information on the authors has been collected, CodE Alltag<sub>XL</sub> is likely to contain a gender bias since taggers recognized more mentions of male given names (either authors or persons written about).
 
 CodE Alltag<sub>XL</sub> is further described in the following papers:
 
